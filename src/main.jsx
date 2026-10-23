@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react'
+import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import {
   ArrowLeft, ArrowRight, BookOpen, Bookmark, Check, CheckCircle2,
@@ -81,6 +81,7 @@ function App() {
   const [last, setLast] = useState(() => readStore('matroshka.last', null))
   const [dictionary, setDictionary] = useState(null)
   const [lookup, setLookup] = useState(null)
+  const lookupRequest = useRef(0)
 
   useEffect(() => {
     fetch('/data/catalog.json').then(response => { if (!response.ok) throw new Error('The lesson catalog could not load.'); return response.json() })
@@ -109,20 +110,23 @@ function App() {
     setCategory(nextCategory); setLevel(preferredLevel); setQuery(''); setPage(1); setView('library'); setSelected(null); window.scrollTo(0, 0)
   }
   async function openLesson(item) {
-    setSelected(item); setLesson(null); setLessonLoading(true); setLookup(null); setView('lesson'); setLast(item.key); window.scrollTo(0, 0)
+    setSelected(item); setLesson(null); setLessonLoading(true); closeLookup(); setView('lesson'); setLast(item.key); window.scrollTo(0, 0)
     try { const response = await fetch(item.path); if (!response.ok) throw new Error('This lesson could not load.'); setLesson(await response.json()); setError('') }
     catch (err) { setError(err.message) }
     finally { setLessonLoading(false) }
   }
   function markComplete() { if (selected) setCompleted(previous => ({ ...previous, [selected.key]: Date.now() })) }
   function toggleSaved() { if (selected) setSaved(previous => { const next = { ...previous }; if (next[selected.key]) delete next[selected.key]; else next[selected.key] = true; return next }) }
-  async function lookupWord(word, translations = {}) {
+  function closeLookup() { lookupRequest.current += 1; setLookup(null) }
+  async function lookupWord(word, translations = {}, anchor) {
     const normalized = cleanWord(word)
-    if (!normalized) return
+    if (!normalized || !anchor) return
+    const request = ++lookupRequest.current
     let local = dictionary
     if (!local) { try { local = await (await fetch('/data/dictionary.json')).json(); setDictionary(local) } catch { local = {} } }
+    if (request !== lookupRequest.current || !anchor.isConnected) return
     const translation = translations[word] || translations[normalized] || local[normalized] || local[normalized.replace(/ё/g, 'е')] || 'No local translation found'
-    setLookup({ word, translation })
+    setLookup({ word, translation, anchor })
   }
 
   const lastItem = catalog.find(item => item.key === last && matchesLevel(item))
@@ -160,7 +164,7 @@ function App() {
         </>}
         {!loading && view === 'lesson' && <>
           <button className="back-link" onClick={() => goLibrary(selected?.category || 'All')}><ArrowLeft size={17} /> Back to {byCategory[selected?.category]?.label || 'library'}</button>
-          {lessonLoading ? <div className="loading-screen"><DollMark /><p>Opening your lesson...</p></div> : lesson && selected ? <LessonPage key={selected.key} item={selected} lesson={lesson} isComplete={Boolean(completed[selected.key])} isSaved={Boolean(saved[selected.key])} onComplete={markComplete} onSave={toggleSaved} onLookup={lookupWord} lookup={lookup} onCloseLookup={() => setLookup(null)} onExplore={() => goLibrary(selected.category)} /> : null}
+          {lessonLoading ? <div className="loading-screen"><DollMark /><p>Opening your lesson...</p></div> : lesson && selected ? <LessonPage key={selected.key} item={selected} lesson={lesson} isComplete={Boolean(completed[selected.key])} isSaved={Boolean(saved[selected.key])} onComplete={markComplete} onSave={toggleSaved} onLookup={lookupWord} lookup={lookup} onCloseLookup={closeLookup} onExplore={() => goLibrary(selected.category)} /> : null}
         </>}
       </main>
       <footer className="main-footer"><span>Matroshka © 2026</span><span>Learn freely. Stay curious. ♡</span></footer>
@@ -218,7 +222,7 @@ function LessonPage({ item, lesson, isComplete, isSaved, onComplete, onSave, onL
   }, [item.category, lesson.audioTimingFile])
   const hasPractice = Boolean(lesson.fillInBlank || lesson.grammarQuiz?.length || lesson.sentenceReorder || lesson.pairing || lesson.writing?.sentences?.length || lesson.situations?.length || lesson.usageCheck?.length)
   const steps = isNarrative ? [words.length && 'words', 'read', questions.length && 'quiz', hasPractice && 'practice', 'done'].filter(Boolean) : ['explore']
-  function nextStep() { const index = steps.indexOf(step); if (index < steps.length - 1) { const next = steps[index + 1]; setStep(next); if (next === 'done') onComplete(); window.scrollTo({ top: 0, behavior: 'smooth' }) } }
+  function nextStep() { const index = steps.indexOf(step); if (index < steps.length - 1) { const next = steps[index + 1]; if (step === 'read') onCloseLookup(); setStep(next); if (next === 'done') onComplete(); window.scrollTo({ top: 0, behavior: 'smooth' }) } }
   function restart() { setStep(words.length ? 'words' : 'read'); setQuestionIndex(0); setChosen(null); setCorrect(0); window.scrollTo(0, 0) }
   function nextQuestion() { if (chosen === questions[questionIndex].correctIndex) setCorrect(value => value + 1); setChosen(null); if (questionIndex + 1 < questions.length) setQuestionIndex(value => value + 1); else nextStep() }
   function onAudioTime(event) { if (!timings.length) return; const seconds = event.currentTarget.currentTime; const match = timings.find(word => seconds >= (word.start ?? word.startTime ?? 0) && seconds < (word.end ?? word.endTime ?? 0)); setCurrentWord(match?.text || match?.word || '') }
@@ -229,13 +233,49 @@ function LessonPage({ item, lesson, isComplete, isSaved, onComplete, onSave, onL
       <div className="stepper">{steps.map((name, index) => <button key={name} className={`${step === name ? 'current' : ''} ${steps.indexOf(step) > index ? 'passed' : ''}`} onClick={() => { if (index <= steps.indexOf(step)) setStep(name) }}><span>{steps.indexOf(step) > index ? <Check size={14} /> : index + 1}</span>{({ words: 'Words', read: 'Read', quiz: 'Quiz', practice: 'Practice', done: 'Done' })[name]}</button>)}</div>
       <div className="lesson-layout"><div className="lesson-main">
         {step === 'words' && <section className="stage-card"><div className="stage-eyebrow"><Lightbulb size={17} /> BEFORE YOU READ</div><h2>Meet the important words</h2><p className="stage-intro">A few words to keep an eye out for in this lesson.</p><div className="word-grid">{words.map((word, index) => <div key={index} className="word-card"><span className="word-number">{String(index + 1).padStart(2, '0')}</span><strong>{word.word || word.russian}</strong><span>{word.definition || word.english}</span>{word.partOfSpeech && <small>{word.partOfSpeech}</small>}{word.russianDefinition && <small>{word.russianDefinition}</small>}</div>)}</div><button className="button primary stage-action" onClick={nextStep}>I'm ready to read <ArrowRight size={18} /></button></section>}
-        {step === 'read' && <section className="stage-card reading-card"><div className="stage-eyebrow"><BookOpen size={17} /> THE STORY</div><div className="reading-heading"><div><h2>{item.title}</h2><span>Tap any word for a local translation</span></div><div className="font-actions"><button aria-label="Decrease text size" onClick={() => setFontSize(Math.max(16, fontSize - 2))}>A−</button><button aria-label="Increase text size" onClick={() => setFontSize(Math.min(28, fontSize + 2))}>A+</button></div></div>{audioPath && <div className="audio-player"><span className="audio-icon"><Headphones size={21} /></span><div><strong>Listen along</strong><small>{currentWord || 'Follow the story at your own pace'}</small></div><audio controls preload="none" src={audioPath} onTimeUpdate={onAudioTime} aria-label="Lesson audio" /></div>}<div className="story-body" style={{ fontSize: `${fontSize}px` }}>{lesson.fullText.split(/([\p{L}ёЁ-]+)/u).map((part, index) => /[\p{L}ёЁ]/u.test(part) ? <button className="reader-word" key={index} onClick={() => onLookup(part, lesson.translations || {})}>{part}</button> : <React.Fragment key={index}>{part}</React.Fragment>)}</div>{lookup && <div className="word-popup"><div><span>RUSSIAN WORD</span><strong>{lookup.word}</strong><p>{lookup.translation}</p></div><button aria-label="Close translation" onClick={onCloseLookup}><X size={18} /></button></div>}<button className="button primary stage-action" onClick={nextStep}>{questions.length ? 'Ready for the quiz' : hasPractice ? 'Continue to practice' : 'Finish lesson'} <ArrowRight size={18} /></button></section>}
+        {step === 'read' && <section className="stage-card reading-card"><div className="stage-eyebrow"><BookOpen size={17} /> THE STORY</div><div className="reading-heading"><div><h2>{item.title}</h2><span>Tap any word for a local translation</span></div><div className="font-actions"><button aria-label="Decrease text size" onClick={() => setFontSize(Math.max(16, fontSize - 2))}>A−</button><button aria-label="Increase text size" onClick={() => setFontSize(Math.min(28, fontSize + 2))}>A+</button></div></div>{audioPath && <div className="audio-player"><span className="audio-icon"><Headphones size={21} /></span><div><strong>Listen along</strong><small>{currentWord || 'Follow the story at your own pace'}</small></div><audio controls preload="none" src={audioPath} onTimeUpdate={onAudioTime} aria-label="Lesson audio" /></div>}<div className="story-body" style={{ fontSize: `${fontSize}px` }}>{lesson.fullText.split(/([\p{L}ёЁ-]+)/u).map((part, index) => /[\p{L}ёЁ]/u.test(part) ? <button className="reader-word" key={index} onClick={event => onLookup(part, lesson.translations || {}, event.currentTarget)}>{part}</button> : <React.Fragment key={index}>{part}</React.Fragment>)}</div>{lookup && <WordPopup lookup={lookup} onClose={onCloseLookup} />}<button className="button primary stage-action" onClick={nextStep}>{questions.length ? 'Ready for the quiz' : hasPractice ? 'Continue to practice' : 'Finish lesson'} <ArrowRight size={18} /></button></section>}
         {step === 'quiz' && questions[questionIndex] && <section className="stage-card quiz-card"><div className="stage-eyebrow"><CircleHelp size={17} /> AFTER YOU READ</div><div className="quiz-top"><h2>What do you remember?</h2><span>{questionIndex + 1} of {questions.length}</span></div><ProgressBar value={questionIndex + 1} max={questions.length} /><div className="question-prompt">{questions[questionIndex].prompt}</div><div className="options">{questions[questionIndex].options.map((option, index) => <button key={index} className={`${chosen === index ? 'chosen' : ''} ${chosen !== null && index === questions[questionIndex].correctIndex ? 'correct' : ''} ${chosen === index && index !== questions[questionIndex].correctIndex ? 'incorrect' : ''}`} disabled={chosen !== null} onClick={() => setChosen(index)}><span>{String.fromCharCode(65 + index)}</span>{String(option)}{chosen !== null && index === questions[questionIndex].correctIndex && <CheckCircle2 size={20} />}</button>)}</div>{chosen !== null && <div className={chosen === questions[questionIndex].correctIndex ? 'feedback good' : 'feedback'}><strong>{chosen === questions[questionIndex].correctIndex ? 'Exactly right!' : 'Keep going — you’re learning.'}</strong><span>{questions[questionIndex].explanation || `The answer is ${questions[questionIndex].options[questions[questionIndex].correctIndex]}.`}</span></div>}{chosen !== null && <button className="button primary stage-action" onClick={nextQuestion}>{questionIndex + 1 === questions.length ? 'Continue' : 'Next question'} <ArrowRight size={18} /></button>}</section>}
         {step === 'practice' && <section className="stage-card"><div className="stage-eyebrow"><Sparkles size={17} /> A LITTLE MORE PRACTICE</div><h2>Make it stick</h2><p className="stage-intro">Try the extra exercises packed with this lesson.</p><PracticeSections lesson={lesson} /><button className="button primary stage-action" onClick={nextStep}>Finish lesson <ArrowRight size={18} /></button></section>}
         {step === 'done' && <section className="stage-card done-card"><div className="done-medal"><Star size={35} fill="currentColor" /></div><span className="stage-eyebrow">LESSON COMPLETE</span><h2>Красота! You did it.</h2><p>Another layer of Russian is yours. Come back whenever you like — everything here stays free.</p>{questions.length > 0 && <div className="score-card"><strong>{correct} / {questions.length}</strong><span>quiz questions right</span></div>}<div className="done-actions"><button className="button primary" onClick={restart}><RotateCcw size={17} /> Practice again</button><button className="button secondary" onClick={onExplore}>Keep exploring <ArrowRight size={17} /></button></div></section>}
       </div><aside className="lesson-aside"><div className={`aside-art tone-${byCategory[item.category]?.tone || 'rose'}`}><Icon size={62} strokeWidth={1.4} /><span>✳</span></div><div className="aside-panel"><span className="aside-kicker">AT A GLANCE</span><div><BookOpen size={18} /><span>{item.hasText ? 'Story-based lesson' : 'Practice lesson'}</span></div>{item.level && <div><GraduationCap size={18} /><span>Level {prettyLevel(item.level)}</span></div>}{audioPath && <div><Headphones size={18} /><span>Audio included</span></div>}<div><Heart size={18} /><span>100% free</span></div></div></aside></div>
     </> : <StructuredLesson key={item.key} item={item} lesson={lesson} questions={questions} isComplete={isComplete} onComplete={onComplete} />}
   </div>
+}
+
+function WordPopup({ lookup, onClose }) {
+  const popupRef = useRef(null)
+  const [position, setPosition] = useState(null)
+
+  useLayoutEffect(() => {
+    function placePopup() {
+      const popup = popupRef.current
+      const anchor = lookup.anchor
+      if (!popup || !anchor?.isConnected) { onClose(); return }
+      const word = anchor.getBoundingClientRect()
+      if (word.bottom < 0 || word.top > window.innerHeight) { onClose(); return }
+      const width = popup.offsetWidth
+      const height = popup.offsetHeight
+      const card = anchor.closest('.reading-card')?.getBoundingClientRect()
+      const leftBound = Math.max(12, (card?.left ?? 0) + 12)
+      const rightBound = Math.min(window.innerWidth - 12, (card?.right ?? window.innerWidth) - 12)
+      const left = Math.max(leftBound, Math.min(word.left + word.width / 2 - width / 2, rightBound - width))
+      const above = word.top - height - 10
+      const top = above >= 12 ? above : Math.min(word.bottom + 10, window.innerHeight - height - 12)
+      setPosition({ top: Math.max(12, top), left })
+    }
+    function onKeyDown(event) { if (event.key === 'Escape') onClose() }
+    placePopup()
+    window.addEventListener('scroll', placePopup, true)
+    window.addEventListener('resize', placePopup)
+    window.addEventListener('keydown', onKeyDown)
+    return () => {
+      window.removeEventListener('scroll', placePopup, true)
+      window.removeEventListener('resize', placePopup)
+      window.removeEventListener('keydown', onKeyDown)
+    }
+  }, [lookup.anchor, onClose])
+
+  return <div ref={popupRef} className="word-popup" role="dialog" aria-label="Word translation" style={position ? { top: position.top, left: position.left } : { top: -1000, left: -1000, visibility: 'hidden' }}><div><span>RUSSIAN WORD</span><strong>{lookup.word}</strong><p>{lookup.translation}</p></div><button aria-label="Close translation" onClick={onClose}><X size={18} /></button></div>
 }
 
 function PracticeSections({ lesson }) {
