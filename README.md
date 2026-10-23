@@ -22,7 +22,7 @@ The stories were written with a real Russian tutor. The slang and idioms are rea
 | | |
 | --- | --- |
 | **Read real stories** | Explore 228 stories from A1 through C1, with important words before reading and a quiz afterward. |
-| **Learn words in context** | Tap a word in a story to see its translation right above it. Listen along when audio is available. |
+| **Learn words in context** | Tap a word in a story to see its translation right above it. When audio is available, each spoken word lights up as you listen. |
 | **Sound more natural** | Browse everyday slang, idioms, and culture lessons alongside grammar and writing practice. |
 | **Follow your level** | Set your level on the dashboard. Library sections open with lessons for that level, and you can change the filter at any time. |
 | **Keep your place** | Bookmark lessons and track progress in your browser. |
@@ -32,7 +32,7 @@ There are **1,556 lessons** in the library, including stories, grammar, missions
 ## How a story works
 
 1. **Meet the words.** Learn the vocabulary that matters before you read.
-2. **Read and listen.** Follow the story, play its audio when available, and tap unfamiliar words for a quick definition.
+2. **Read and listen.** Follow the highlighted words as the audio plays, and tap unfamiliar words for a quick definition.
 3. **Check your understanding.** Answer questions about what happened.
 4. **Practice a little more.** Some stories include extra exercises to help the lesson stay with you.
 
