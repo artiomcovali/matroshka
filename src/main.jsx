@@ -135,7 +135,7 @@ function App() {
         <button className={view === 'library' && category === 'All' ? 'active' : ''} onClick={() => goLibrary()}><LibraryBig size={19} /> Library <span className="nav-count">{catalog.filter(matchesLevel).length}</span></button>
         {CATEGORIES.slice(0, 9).map(item => <button key={item.name} className={view === 'library' && category === item.name ? 'active' : ''} onClick={() => goLibrary(item.name)}><item.icon size={19} /> {item.label}</button>)}
       </nav>
-      <div className="sidebar-bottom"><div className="free-note"><Sparkles size={18} /><strong>Every lesson is yours.</strong><span>Open, free, and ready whenever you are.</span></div><span className="sidebar-foot">Made for curious minds ✳</span></div>
+      <div className="sidebar-bottom"><span className="sidebar-foot">Made for curious minds ✳</span></div>
     </aside>
 
     <div className="main-area">
