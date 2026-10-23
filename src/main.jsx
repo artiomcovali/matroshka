@@ -1,11 +1,11 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import {
-  ArrowLeft, ArrowRight, AudioLines, BookOpen, Bookmark, Check, CheckCircle2,
+  ArrowLeft, ArrowRight, BookOpen, Bookmark, Check, CheckCircle2,
   ChevronDown, ChevronRight, CircleHelp, Compass, Flame, Globe2, GraduationCap,
   Headphones, Heart, Home, LibraryBig, Lightbulb, ListChecks, MessageCircle,
-  PencilLine, Play, Quote, RotateCcw, Search, SlidersHorizontal, Sparkles,
-  Star, Volume2, X,
+  PencilLine, Quote, RotateCcw, Search, SlidersHorizontal, Sparkles,
+  Star, X,
 } from 'lucide-react'
 import './styles.css'
 
@@ -16,7 +16,6 @@ const CATEGORIES = [
   { name: 'Idioms', label: 'Idioms', icon: Quote, tone: 'lilac', intro: 'Say it like you mean it' },
   { name: 'Slang', label: 'Slang', icon: Sparkles, tone: 'yellow', intro: 'Words you hear in real life' },
   { name: 'Grammar', label: 'Grammar', icon: GraduationCap, tone: 'mint', intro: 'Make it all click' },
-  { name: 'Shadowing', label: 'Pronunciation', icon: AudioLines, tone: 'peach', intro: 'Find your Russian rhythm' },
   { name: 'Writing', label: 'Writing', icon: PencilLine, tone: 'sky', intro: 'Put your thoughts into words' },
   { name: 'Missions', label: 'Missions', icon: Compass, tone: 'rose', intro: 'Practice everyday situations' },
   { name: 'Chats', label: 'Conversations', icon: MessageCircle, tone: 'lilac', intro: 'Get ready to speak' },
@@ -26,7 +25,6 @@ const CATEGORIES = [
   { name: 'Reading', label: 'Reading', icon: BookOpen, tone: 'sky', intro: 'More to read and explore' },
 ]
 const byCategory = Object.fromEntries(CATEGORIES.map(item => [item.name, item]))
-const starterPicks = ['Stories:a1-001', 'Culture:culture-baikal-a2', 'Idioms:idioms-001', 'Slang:slang-b2-mini-001']
 
 function readStore(key, fallback) {
   try { return JSON.parse(localStorage.getItem(key)) ?? fallback } catch { return fallback }
@@ -68,7 +66,11 @@ function App() {
   const [error, setError] = useState('')
   const [view, setView] = useState('home')
   const [category, setCategory] = useState('All')
-  const [level, setLevel] = useState('All levels')
+  const [preferredLevel, setPreferredLevel] = useState(() => {
+    const stored = readStore('matroshka.level', 'A1')
+    return LEVELS.includes(stored) && stored !== 'All levels' ? stored : 'A1'
+  })
+  const [level, setLevel] = useState(preferredLevel)
   const [query, setQuery] = useState('')
   const [page, setPage] = useState(1)
   const [selected, setSelected] = useState(null)
@@ -89,16 +91,22 @@ function App() {
   useEffect(() => { writeStore('matroshka.completed', completed) }, [completed])
   useEffect(() => { writeStore('matroshka.saved', saved) }, [saved])
   useEffect(() => { writeStore('matroshka.last', last) }, [last])
+  useEffect(() => { writeStore('matroshka.level', preferredLevel) }, [preferredLevel])
 
-  const counts = useMemo(() => Object.fromEntries(CATEGORIES.map(item => [item.name, catalog.filter(entry => entry.category === item.name).length])), [catalog])
+  const activeLevel = view === 'home' ? preferredLevel : level
+  const matchesLevel = item => activeLevel === 'All levels' || !item.level || item.level === activeLevel
+  const counts = useMemo(() => Object.fromEntries(CATEGORIES.map(item => [item.name, catalog.filter(entry => entry.category === item.name && (activeLevel === 'All levels' || !entry.level || entry.level === activeLevel)).length])), [catalog, activeLevel])
   const filtered = useMemo(() => catalog.filter(item =>
     (category === 'All' || item.category === category) &&
-    (level === 'All levels' || item.level === level) &&
+    (level === 'All levels' || !item.level || item.level === level) &&
     (!query.trim() || `${item.title} ${item.titleEnglish} ${item.id} ${item.description}`.toLocaleLowerCase().includes(query.trim().toLocaleLowerCase()))
   ), [catalog, category, level, query])
+  const featured = useMemo(() => ['Stories', 'Culture', 'Idioms', 'Slang', 'Grammar', 'Missions', 'Chats', 'Writing']
+    .map(name => catalog.find(item => item.category === name && item.level === preferredLevel))
+    .filter(Boolean).slice(0, 4), [catalog, preferredLevel])
 
   function goLibrary(nextCategory = 'All') {
-    setCategory(nextCategory); setLevel('All levels'); setQuery(''); setPage(1); setView('library'); setSelected(null); window.scrollTo(0, 0)
+    setCategory(nextCategory); setLevel(preferredLevel); setQuery(''); setPage(1); setView('library'); setSelected(null); window.scrollTo(0, 0)
   }
   async function openLesson(item) {
     setSelected(item); setLesson(null); setLessonLoading(true); setLookup(null); setView('lesson'); setLast(item.key); window.scrollTo(0, 0)
@@ -117,14 +125,14 @@ function App() {
     setLookup({ word, translation })
   }
 
-  const lastItem = catalog.find(item => item.key === last)
+  const lastItem = catalog.find(item => item.key === last && matchesLevel(item))
   return <div className="app-shell">
     <aside className="sidebar">
       <button className="brand" onClick={() => { setView('home'); setSelected(null); window.scrollTo(0, 0) }}><DollMark small /><span>Matroshka<small>LEARN RUSSIAN</small></span></button>
       <div className="nav-label">EXPLORE</div>
       <nav className="side-nav">
         <button className={view === 'home' ? 'active' : ''} onClick={() => { setView('home'); setSelected(null) }}><Home size={19} /> Home</button>
-        <button className={view === 'library' && category === 'All' ? 'active' : ''} onClick={() => goLibrary()}><LibraryBig size={19} /> Library <span className="nav-count">{catalog.length}</span></button>
+        <button className={view === 'library' && category === 'All' ? 'active' : ''} onClick={() => goLibrary()}><LibraryBig size={19} /> Library <span className="nav-count">{catalog.filter(matchesLevel).length}</span></button>
         {CATEGORIES.slice(0, 9).map(item => <button key={item.name} className={view === 'library' && category === item.name ? 'active' : ''} onClick={() => goLibrary(item.name)}><item.icon size={19} /> {item.label}</button>)}
       </nav>
       <div className="sidebar-bottom"><div className="free-note"><Sparkles size={18} /><strong>Every lesson is yours.</strong><span>Open, free, and ready whenever you are.</span></div><span className="sidebar-foot">Made for curious minds ✳</span></div>
@@ -136,19 +144,19 @@ function App() {
         {loading && <div className="loading-screen"><DollMark /><p>Opening the library...</p></div>}
         {!loading && error && !lessonLoading && <div className="error-note">{error}<button onClick={() => window.location.reload()}>Try again</button></div>}
         {!loading && view === 'home' && <>
-          <section className="welcome-row"><div><div className="eyebrow"><SunIcon /> Здравствуй, friend!</div><h1>One layer at a time,<br /><em>Russian comes alive.</em></h1><p>Real stories, everyday language, and a little discovery in every lesson.</p></div><div className="header-stats"><span><Flame size={19} /> Your journey</span><strong>{Object.keys(completed).length}</strong><small>lessons completed</small></div></section>
-          <section className="hero-card"><div className="hero-copy"><span className="hero-kicker"><span className="hero-dot" /> YOUR NEXT CHAPTER</span><h2>Little stories.<br />Big discoveries.</h2><p>Start with a story, meet the words, listen along, and see what you remember.</p><button className="button light" onClick={() => openLesson(lastItem || catalog.find(item => item.key === 'Stories:a1-001'))}>{lastItem ? 'Continue learning' : 'Start your first story'} <ArrowRight size={18} /></button><span className="hero-caption">228 stories · A1 to C1 · all free</span></div><HeroArt /></section>
+          <section className="welcome-row"><div><div className="eyebrow"><SunIcon /> Здравствуй, friend!</div><h1>One layer at a time,<br /><em>Russian comes alive.</em></h1><p>Real stories, everyday language, and a little discovery in every lesson.</p><label className="dashboard-level">My level <select aria-label="My Russian level" value={preferredLevel} onChange={event => { setPreferredLevel(event.target.value); setLevel(event.target.value); setPage(1) }}>{LEVELS.filter(value => value !== 'All levels').map(value => <option key={value} value={value}>{prettyLevel(value)}</option>)}</select></label></div><div className="header-stats"><span><Flame size={19} /> Your journey</span><strong>{Object.keys(completed).length}</strong><small>lessons completed</small></div></section>
+          <section className="hero-card"><div className="hero-copy"><span className="hero-kicker"><span className="hero-dot" /> YOUR NEXT CHAPTER</span><h2>Little stories.<br />Big discoveries.</h2><p>Start with a story, meet the words, listen along, and see what you remember.</p><button className="button light" onClick={() => openLesson(lastItem || featured.find(item => item.category === 'Stories'))}>{lastItem ? 'Continue learning' : 'Start your first story'} <ArrowRight size={18} /></button><span className="hero-caption">228 stories · A1 to C1 · all free</span></div><HeroArt /></section>
           <div className="section-heading"><div><span className="eyebrow muted">PICK YOUR PATH</span><h2>What sounds good today?</h2></div><button className="text-button" onClick={() => goLibrary()}>See everything <ArrowRight size={17} /></button></div>
           <div className="category-grid">{CATEGORIES.slice(0, 8).map(item => <button key={item.name} className={`category-card tone-${item.tone}`} onClick={() => goLibrary(item.name)}><CategoryIcon category={item.name} size={23} /><span className="category-card-arrow"><ArrowRight size={18} /></span><strong>{item.label}</strong><small>{item.intro}</small><span className="category-count">{counts[item.name]} lessons</span></button>)}</div>
           <div className="section-heading featured-heading"><div><span className="eyebrow muted">A GOOD PLACE TO BEGIN</span><h2>Handpicked for you</h2></div></div>
-          <div className="featured-grid">{starterPicks.map((key, index) => { const item = catalog.find(entry => entry.key === key); return item ? <LessonCard key={key} item={item} index={index} complete={Boolean(completed[item.key])} onClick={() => openLesson(item)} /> : null })}</div>
+          <div className="featured-grid">{featured.map((item, index) => <LessonCard key={item.key} item={item} index={index} complete={Boolean(completed[item.key])} onClick={() => openLesson(item)} />)}</div>
         </>}
         {!loading && view === 'library' && <>
           <div className="library-hero"><div><span className="eyebrow muted">THE WHOLE WORLD IS OPEN</span><h1>{category === 'All' ? 'Find your next little adventure.' : byCategory[category]?.label}</h1><p>{category === 'All' ? 'Explore every story, expression, grammar lesson, and practice activity.' : byCategory[category]?.intro}</p></div><div className="library-doll"><DollMark /></div></div>
-          <div className="filter-panel"><div className="search-box"><Search size={19} /><input aria-label="Search lessons" value={query} onChange={event => { setQuery(event.target.value); setPage(1) }} placeholder="Search titles, topics, or Russian words..." />{query && <button aria-label="Clear search" onClick={() => setQuery('')}><X size={16} /></button>}</div><div className="select-wrap"><SlidersHorizontal size={18} /><select value={level} onChange={event => { setLevel(event.target.value); setPage(1) }} aria-label="Level">{LEVELS.map(value => <option key={value} value={value}>{prettyLevel(value)}</option>)}</select><ChevronDown size={16} /></div></div>
-          <div className="category-tabs"><button className={category === 'All' ? 'selected' : ''} onClick={() => { setCategory('All'); setPage(1) }}>All <span>{catalog.length}</span></button>{CATEGORIES.map(item => <button key={item.name} className={category === item.name ? 'selected' : ''} onClick={() => { setCategory(item.name); setPage(1) }}>{item.label} <span>{counts[item.name]}</span></button>)}</div>
+          <div className="filter-panel"><div className="search-box"><Search size={19} /><input aria-label="Search lessons" value={query} onChange={event => { setQuery(event.target.value); setPage(1) }} placeholder="Search titles, topics, or Russian words..." />{query && <button aria-label="Clear search" onClick={() => setQuery('')}><X size={16} /></button>}</div><label className="select-wrap"><SlidersHorizontal size={18} /><select value={level} onChange={event => { setLevel(event.target.value); setPage(1) }} aria-label="Level">{LEVELS.map(value => <option key={value} value={value}>{prettyLevel(value)}</option>)}</select><ChevronDown size={16} /></label></div>
+          <div className="category-tabs"><button className={category === 'All' ? 'selected' : ''} onClick={() => goLibrary()}>All <span>{catalog.filter(matchesLevel).length}</span></button>{CATEGORIES.map(item => <button key={item.name} className={category === item.name ? 'selected' : ''} onClick={() => goLibrary(item.name)}>{item.label} <span>{counts[item.name]}</span></button>)}</div>
           <div className="results-heading"><div><h2>{category === 'All' ? 'All lessons' : byCategory[category]?.label}</h2><span>{filtered.length} {filtered.length === 1 ? 'lesson' : 'lessons'} to explore</span></div></div>
-          {filtered.length ? <><div className="lesson-grid">{filtered.slice(0, page * 24).map((item, index) => <LessonCard key={item.key} item={item} index={index} complete={Boolean(completed[item.key])} onClick={() => openLesson(item)} />)}</div>{filtered.length > page * 24 && <button className="button load-more" onClick={() => setPage(page + 1)}>Show more lessons <ArrowRight size={17} /></button>}</> : <div className="empty-state"><Search size={30} /><h3>No lessons found</h3><p>Try another word, category, or level.</p><button className="button" onClick={() => { setQuery(''); setCategory('All'); setLevel('All levels') }}>Clear filters</button></div>}
+          {filtered.length ? <><div className="lesson-grid">{filtered.slice(0, page * 24).map((item, index) => <LessonCard key={item.key} item={item} index={index} complete={Boolean(completed[item.key])} onClick={() => openLesson(item)} />)}</div>{filtered.length > page * 24 && <button className="button load-more" onClick={() => setPage(page + 1)}>Show more lessons <ArrowRight size={17} /></button>}</> : <div className="empty-state"><Search size={30} /><h3>No lessons found</h3><p>Try another word, category, or level.</p><button className="button" onClick={() => { setQuery(''); setCategory('All'); setLevel(preferredLevel) }}>Clear filters</button></div>}
         </>}
         {!loading && view === 'lesson' && <>
           <button className="back-link" onClick={() => goLibrary(selected?.category || 'All')}><ArrowLeft size={17} /> Back to {byCategory[selected?.category]?.label || 'library'}</button>
@@ -272,7 +280,6 @@ function StructuredLesson({ item, lesson, questions, isComplete, onComplete }) {
   return <div className="structured-layout"><section className="stage-card structured-card"><div className="stage-eyebrow"><CategoryIcon category={item.category} size={17} /> {byCategory[item.category]?.label.toUpperCase() || 'LESSON'}</div>{lesson.description && <p className="structured-description">{lesson.description}</p>}
     {isScenario && <><div className="scenario-note"><MessageCircle size={22} /><div><strong>{lesson.aiPersona || 'Your practice partner'}</strong><p>{lesson.initialPrompt}</p></div></div><p className="gentle-note">Use this as a self-guided practice space. Your writing stays in this browser; there is no paid AI or account.</p>{(lesson.suggestedPhrases || lesson.hints || lesson.objectives)?.length > 0 && <div className="hint-list"><h3>Helpful ideas</h3>{(lesson.suggestedPhrases || lesson.hints || lesson.objectives).map((hint, i) => <button key={i} onClick={() => saveDraft(`${draft}${draft ? '\n' : ''}${hint}`)}><Lightbulb size={16} />{typeof hint === 'string' ? hint : JSON.stringify(hint)}</button>)}</div>}<label className="writing-label" htmlFor="practice-draft">Your response</label><textarea id="practice-draft" value={draft} onChange={event => saveDraft(event.target.value)} placeholder="Try writing your answer in Russian..." rows={6} /><div className="note-footer">Saved locally as you type</div></>}
     {item.category === 'Writing' && <>{(lesson.prompts || []).map((prompt, i) => <div key={i} className="writing-prompt"><span>Prompt {i + 1}</span><h3>{prompt.prompt || prompt.promptRussian}</h3>{prompt.promptRussian && <p>{prompt.promptRussian}</p>}{prompt.hints?.length > 0 && <small>Try: {prompt.hints.join(' · ')}</small>}</div>)}<label className="writing-label" htmlFor="writing-draft">Your writing notebook</label><textarea id="writing-draft" value={draft} onChange={event => saveDraft(event.target.value)} placeholder="Начните писать здесь..." rows={10} /><div className="note-footer">Saved locally as you type</div></>}
-    {item.category === 'Shadowing' && <div className="shadow-list">{(lesson.items || []).map((entry, i) => <div key={i}><button aria-label={`Speak ${entry.russian}`} onClick={() => { const utterance = new SpeechSynthesisUtterance(entry.russian); utterance.lang = 'ru-RU'; speechSynthesis.speak(utterance) }}><Volume2 size={18} /></button><div><strong>{entry.russian}</strong><span>{entry.english}</span>{entry.tip && <small>{entry.tip}</small>}</div></div>)}</div>}
     {isReference && <><div className="search-box reference-search"><Search size={18} /><input value={referenceSearch} onChange={event => { setReferenceSearch(event.target.value); setVisible(24) }} placeholder={`Search ${item.category === 'Conjugation' ? 'verbs' : 'nouns'}...`} /></div><p className="reference-count">{referenceResults.length} entries</p><div className="reference-list">{referenceResults.slice(0, visible).map((entry, i) => <details key={i}><summary><strong>{entry.infinitive || entry.nominative}</strong><span>{entry.translation}</span><ChevronDown size={17} /></summary><div className="reference-fields">{Object.entries(entry).filter(([key]) => !['id', 'infinitive', 'nominative', 'translation'].includes(key)).map(([key, value]) => <div key={key}><strong>{key.replace(/([A-Z])/g, ' $1')}</strong><span>{typeof value === 'object' ? Object.entries(value || {}).map(([k, v]) => `${k}: ${Array.isArray(v) ? v.join(', ') : v}`).join(' · ') : String(value)}</span></div>)}</div></details>)}</div>{referenceResults.length > visible && <button className="button secondary" onClick={() => setVisible(visible + 24)}>Show more</button>}</>}
     {item.category === 'Reading' && Array.isArray(lesson) && lesson.map((reading, i) => <div key={i} className="reading-sample"><h2>{reading.title}</h2>{reading.paragraphs?.map((paragraph, j) => <p key={j}>{paragraph}</p>)}<h3>Vocabulary</h3>{reading.vocab?.map((entry, j) => <div key={j} className="mini-vocab"><strong>{entry.lemma}</strong><span>{entry.definition}</span></div>)}</div>)}
     {lesson.intro && <div className="grammar-intro"><h2>The idea</h2><p>{lesson.intro}</p></div>}
@@ -282,7 +289,7 @@ function StructuredLesson({ item, lesson, questions, isComplete, onComplete }) {
     {questions.length > 0 && <div className="inline-quiz"><h2>Check what you know</h2><p>Choose an answer to see the explanation.</p>{questions.map((question, qi) => <div className="inline-question" key={qi}><strong>{qi + 1}. {question.prompt}</strong><div>{question.options.map((option, oi) => <button key={oi} className={answer[qi] !== undefined ? oi === question.correctIndex ? 'correct' : answer[qi] === oi ? 'incorrect' : '' : ''} disabled={answer[qi] !== undefined} onClick={() => setAnswer(previous => ({ ...previous, [qi]: oi }))}>{String(option)}</button>)}</div>{answer[qi] !== undefined && <p>{question.explanation || `Answer: ${question.options[question.correctIndex]}`}</p>}</div>)}</div>}
     {lesson.fillInBlank && <PracticeSections lesson={lesson} />}
     {lesson.sets?.length > 0 && <div className="generic-section"><h2>Practice rounds</h2>{lesson.sets.map((set, i) => <details key={i}><summary>{set.title || `Round ${i + 1}`} <ChevronDown size={17} /></summary><pre className="structured-json">{JSON.stringify(set, null, 2)}</pre></details>)}</div>}
-    {!isScenario && !isReference && !['Writing', 'Shadowing', 'Reading'].includes(item.category) && !lesson.intro && !questions.length && !lesson.sets && <div className="generic-section"><h2>Lesson details</h2><pre className="structured-json">{JSON.stringify(lesson, null, 2)}</pre></div>}
+    {!isScenario && !isReference && !['Writing', 'Reading'].includes(item.category) && !lesson.intro && !questions.length && !lesson.sets && <div className="generic-section"><h2>Lesson details</h2><pre className="structured-json">{JSON.stringify(lesson, null, 2)}</pre></div>}
     <button className={`button stage-action ${isComplete ? 'secondary' : 'primary'}`} onClick={onComplete}>{isComplete ? <><Check size={17} /> Completed</> : <>Mark lesson complete <Check size={17} /></>}</button>
   </section><aside className="lesson-aside"><div className={`aside-art tone-${byCategory[item.category]?.tone || 'rose'}`}><CategoryIcon category={item.category} size={60} /><span>✳</span></div><div className="aside-panel"><span className="aside-kicker">GOOD TO KNOW</span><div><Heart size={18} /><span>Every lesson is free</span></div><div><Bookmark size={18} /><span>Progress stays on this device</span></div>{isScenario && <div><Lightbulb size={18} /><span>Self-guided practice</span></div>}</div></aside></div>
 }

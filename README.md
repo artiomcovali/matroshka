@@ -1,6 +1,6 @@
 # Matroshka
 
-A free Russian-learning web app with stories, vocabulary, audio, quizzes, slang, idioms, grammar, and practice activities. It includes 1,664 lessons, including 228 stories. Progress and bookmarks are saved in your browser.
+A free Russian-learning web app with stories, vocabulary, audio, quizzes, slang, idioms, grammar, and practice activities. It includes 1,556 lessons, including 228 stories. Choose your level from A1 through C1 on the dashboard; each library tab opens at that level. Progress, bookmarks, and your preferred level are saved in your browser.
 
 ## Run locally
 
