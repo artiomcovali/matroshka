@@ -1,8 +1,8 @@
 import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import {
-  ArrowLeft, ArrowRight, BookOpen, Bookmark, Check, CheckCircle2,
-  ChevronDown, ChevronRight, CircleHelp, Compass, Flame, Globe2, GraduationCap,
+  ArrowLeft, ArrowRight, Asterisk, BookOpen, Bookmark, Check, CheckCircle2,
+  ChevronDown, ChevronRight, CircleHelp, Compass, Flame, Flower2, Globe2, GraduationCap,
   Headphones, Heart, Home, LibraryBig, Lightbulb, ListChecks, MessageCircle,
   PencilLine, Quote, RotateCcw, Search, SlidersHorizontal, Sparkles,
   Star, X,
@@ -47,7 +47,7 @@ function DollMark({ small = false }) {
 }
 
 function HeroArt() {
-  return <div className="hero-art" aria-hidden="true"><span className="hero-sun"/><span className="hero-arch arch-one"/><span className="hero-arch arch-two"/><div className="doll big"><DollMark /></div><div className="doll little"><DollMark /></div><span className="hero-star star-one">✳</span><span className="hero-star star-two">✦</span><span className="hero-flower">✿</span></div>
+  return <div className="hero-art" aria-hidden="true"><span className="hero-sun"/><span className="hero-arch arch-one"/><span className="hero-arch arch-two"/><div className="doll big"><DollMark /></div><div className="doll little"><DollMark /></div><Asterisk className="hero-star star-one" size={35} /><Sparkles className="hero-star star-two" size={30} /><Flower2 className="hero-flower" size={42} /></div>
 }
 
 function CategoryIcon({ category, size = 22 }) {
@@ -82,6 +82,7 @@ function App() {
   const [dictionary, setDictionary] = useState(null)
   const [lookup, setLookup] = useState(null)
   const lookupRequest = useRef(0)
+  const lookupAnchor = useRef(null)
 
   useEffect(() => {
     fetch('/data/catalog.json').then(response => { if (!response.ok) throw new Error('The lesson catalog could not load.'); return response.json() })
@@ -93,6 +94,14 @@ function App() {
   useEffect(() => { writeStore('matroshka.saved', saved) }, [saved])
   useEffect(() => { writeStore('matroshka.last', last) }, [last])
   useEffect(() => { writeStore('matroshka.level', preferredLevel) }, [preferredLevel])
+  useEffect(() => {
+    function dismissOnOutsideTap(event) {
+      const anchor = lookupAnchor.current
+      if (anchor && !anchor.contains(event.target) && !event.target.closest?.('.word-popup')) closeLookup()
+    }
+    document.addEventListener('pointerdown', dismissOnOutsideTap)
+    return () => document.removeEventListener('pointerdown', dismissOnOutsideTap)
+  }, [])
 
   const activeLevel = view === 'home' ? preferredLevel : level
   const matchesLevel = item => activeLevel === 'All levels' || !item.level || item.level === activeLevel
@@ -117,10 +126,12 @@ function App() {
   }
   function markComplete() { if (selected) setCompleted(previous => ({ ...previous, [selected.key]: Date.now() })) }
   function toggleSaved() { if (selected) setSaved(previous => { const next = { ...previous }; if (next[selected.key]) delete next[selected.key]; else next[selected.key] = true; return next }) }
-  function closeLookup() { lookupRequest.current += 1; setLookup(null) }
+  function closeLookup() { lookupRequest.current += 1; lookupAnchor.current = null; setLookup(null) }
   async function lookupWord(word, translations = {}, anchor) {
     const normalized = cleanWord(word)
     if (!normalized || !anchor) return
+    if (lookupAnchor.current === anchor) { closeLookup(); return }
+    lookupAnchor.current = anchor
     const request = ++lookupRequest.current
     let local = dictionary
     if (!local) { try { local = await (await fetch('/data/dictionary.json')).json(); setDictionary(local) } catch { local = {} } }
@@ -139,7 +150,7 @@ function App() {
         <button className={view === 'library' && category === 'All' ? 'active' : ''} onClick={() => goLibrary()}><LibraryBig size={19} /> Library <span className="nav-count">{catalog.filter(matchesLevel).length}</span></button>
         {CATEGORIES.slice(0, 9).map(item => <button key={item.name} className={view === 'library' && category === item.name ? 'active' : ''} onClick={() => goLibrary(item.name)}><item.icon size={19} /> {item.label}</button>)}
       </nav>
-      <div className="sidebar-bottom"><span className="sidebar-foot">Made for curious minds ✳</span></div>
+      <div className="sidebar-bottom"><span className="sidebar-foot">Made for curious minds <Asterisk size={11} /></span></div>
     </aside>
 
     <div className="main-area">
@@ -173,13 +184,13 @@ function App() {
   </div>
 }
 
-function SunIcon() { return <span className="sun-glyph">✳</span> }
+function SunIcon() { return <Asterisk className="sun-glyph" size={20} strokeWidth={2.5} /> }
 
 function LessonCard({ item, index, complete, onClick }) {
   const palette = ['rose', 'sky', 'lilac', 'yellow', 'mint', 'peach']
   const tone = byCategory[item.category]?.tone || palette[index % palette.length]
   const Icon = byCategory[item.category]?.icon || BookOpen
-  return <button className="lesson-card" onClick={onClick}><div className={`lesson-art tone-${tone}`}><span className="lesson-art-orbit"/><Icon size={43} strokeWidth={1.45} /><span className="lesson-art-spark">✳</span>{complete && <span className="complete-badge"><Check size={15} /></span>}</div><div className="lesson-info"><div className="lesson-meta"><span>{byCategory[item.category]?.label || item.category}</span>{item.level && <span>{prettyLevel(item.level)}</span>}</div><h3>{item.title}</h3>{item.titleEnglish && item.titleEnglish !== item.title && <p className="translation-title">{item.titleEnglish}</p>}<div className="lesson-foot"><span>{item.practice ? 'Practice set' : item.hasText ? 'Read & practice' : 'Explore lesson'}</span><ArrowRight size={17} /></div></div></button>
+  return <button className="lesson-card" onClick={onClick}><div className={`lesson-art tone-${tone}`}><span className="lesson-art-orbit"/><Icon size={43} strokeWidth={1.45} /><Asterisk className="lesson-art-spark" size={34} />{complete && <span className="complete-badge"><Check size={15} /></span>}</div><div className="lesson-info"><div className="lesson-meta"><span>{byCategory[item.category]?.label || item.category}</span>{item.level && <span>{prettyLevel(item.level)}</span>}</div><h3>{item.title}</h3>{item.titleEnglish && item.titleEnglish !== item.title && <p className="translation-title">{item.titleEnglish}</p>}<div className="lesson-foot"><span>{item.practice ? 'Practice set' : item.hasText ? 'Read & practice' : 'Explore lesson'}</span><ArrowRight size={17} /></div></div></button>
 }
 
 function normalizeQuestions(lesson) {
@@ -237,7 +248,7 @@ function LessonPage({ item, lesson, isComplete, isSaved, onComplete, onSave, onL
         {step === 'quiz' && questions[questionIndex] && <section className="stage-card quiz-card"><div className="stage-eyebrow"><CircleHelp size={17} /> AFTER YOU READ</div><div className="quiz-top"><h2>What do you remember?</h2><span>{questionIndex + 1} of {questions.length}</span></div><ProgressBar value={questionIndex + 1} max={questions.length} /><div className="question-prompt">{questions[questionIndex].prompt}</div><div className="options">{questions[questionIndex].options.map((option, index) => <button key={index} className={`${chosen === index ? 'chosen' : ''} ${chosen !== null && index === questions[questionIndex].correctIndex ? 'correct' : ''} ${chosen === index && index !== questions[questionIndex].correctIndex ? 'incorrect' : ''}`} disabled={chosen !== null} onClick={() => setChosen(index)}><span>{String.fromCharCode(65 + index)}</span>{String(option)}{chosen !== null && index === questions[questionIndex].correctIndex && <CheckCircle2 size={20} />}</button>)}</div>{chosen !== null && <div className={chosen === questions[questionIndex].correctIndex ? 'feedback good' : 'feedback'}><strong>{chosen === questions[questionIndex].correctIndex ? 'Exactly right!' : 'Keep going — you’re learning.'}</strong><span>{questions[questionIndex].explanation || `The answer is ${questions[questionIndex].options[questions[questionIndex].correctIndex]}.`}</span></div>}{chosen !== null && <button className="button primary stage-action" onClick={nextQuestion}>{questionIndex + 1 === questions.length ? 'Continue' : 'Next question'} <ArrowRight size={18} /></button>}</section>}
         {step === 'practice' && <section className="stage-card"><div className="stage-eyebrow"><Sparkles size={17} /> A LITTLE MORE PRACTICE</div><h2>Make it stick</h2><p className="stage-intro">Try the extra exercises packed with this lesson.</p><PracticeSections lesson={lesson} /><button className="button primary stage-action" onClick={nextStep}>Finish lesson <ArrowRight size={18} /></button></section>}
         {step === 'done' && <section className="stage-card done-card"><div className="done-medal"><Star size={35} fill="currentColor" /></div><span className="stage-eyebrow">LESSON COMPLETE</span><h2>Красота! You did it.</h2><p>Another layer of Russian is yours. Come back whenever you like — everything here stays free.</p>{questions.length > 0 && <div className="score-card"><strong>{correct} / {questions.length}</strong><span>quiz questions right</span></div>}<div className="done-actions"><button className="button primary" onClick={restart}><RotateCcw size={17} /> Practice again</button><button className="button secondary" onClick={onExplore}>Keep exploring <ArrowRight size={17} /></button></div></section>}
-      </div><aside className="lesson-aside"><div className={`aside-art tone-${byCategory[item.category]?.tone || 'rose'}`}><Icon size={62} strokeWidth={1.4} /><span>✳</span></div><div className="aside-panel"><span className="aside-kicker">AT A GLANCE</span><div><BookOpen size={18} /><span>{item.hasText ? 'Story-based lesson' : 'Practice lesson'}</span></div>{item.level && <div><GraduationCap size={18} /><span>Level {prettyLevel(item.level)}</span></div>}{audioPath && <div><Headphones size={18} /><span>Audio included</span></div>}<div><Heart size={18} /><span>100% free</span></div></div></aside></div>
+      </div><aside className="lesson-aside"><div className={`aside-art tone-${byCategory[item.category]?.tone || 'rose'}`}><Icon size={62} strokeWidth={1.4} /><Asterisk size={33} /></div><div className="aside-panel"><span className="aside-kicker">AT A GLANCE</span><div><BookOpen size={18} /><span>{item.hasText ? 'Story-based lesson' : 'Practice lesson'}</span></div>{item.level && <div><GraduationCap size={18} /><span>Level {prettyLevel(item.level)}</span></div>}{audioPath && <div><Headphones size={18} /><span>Audio included</span></div>}<div><Heart size={18} /><span>100% free</span></div></div></aside></div>
     </> : <StructuredLesson key={item.key} item={item} lesson={lesson} questions={questions} isComplete={isComplete} onComplete={onComplete} />}
   </div>
 }
@@ -331,7 +342,7 @@ function StructuredLesson({ item, lesson, questions, isComplete, onComplete }) {
     {lesson.sets?.length > 0 && <div className="generic-section"><h2>Practice rounds</h2>{lesson.sets.map((set, i) => <details key={i}><summary>{set.title || `Round ${i + 1}`} <ChevronDown size={17} /></summary><pre className="structured-json">{JSON.stringify(set, null, 2)}</pre></details>)}</div>}
     {!isScenario && !isReference && !['Writing', 'Reading'].includes(item.category) && !lesson.intro && !questions.length && !lesson.sets && <div className="generic-section"><h2>Lesson details</h2><pre className="structured-json">{JSON.stringify(lesson, null, 2)}</pre></div>}
     <button className={`button stage-action ${isComplete ? 'secondary' : 'primary'}`} onClick={onComplete}>{isComplete ? <><Check size={17} /> Completed</> : <>Mark lesson complete <Check size={17} /></>}</button>
-  </section><aside className="lesson-aside"><div className={`aside-art tone-${byCategory[item.category]?.tone || 'rose'}`}><CategoryIcon category={item.category} size={60} /><span>✳</span></div><div className="aside-panel"><span className="aside-kicker">GOOD TO KNOW</span><div><Heart size={18} /><span>Every lesson is free</span></div><div><Bookmark size={18} /><span>Progress stays on this device</span></div>{isScenario && <div><Lightbulb size={18} /><span>Self-guided practice</span></div>}</div></aside></div>
+  </section><aside className="lesson-aside"><div className={`aside-art tone-${byCategory[item.category]?.tone || 'rose'}`}><CategoryIcon category={item.category} size={60} /><Asterisk size={33} /></div><div className="aside-panel"><span className="aside-kicker">GOOD TO KNOW</span><div><Heart size={18} /><span>Every lesson is free</span></div><div><Bookmark size={18} /><span>Progress stays on this device</span></div>{isScenario && <div><Lightbulb size={18} /><span>Self-guided practice</span></div>}</div></aside></div>
 }
 
 createRoot(document.getElementById('root')).render(<App />)
