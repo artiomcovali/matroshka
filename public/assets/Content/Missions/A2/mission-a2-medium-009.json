@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-medium-009",
+  "title": "Scratch on Car",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "The rental car has a scratch - document it before driving",
+  "imageName": "car.fill",
+  "initialPrompt": "Здравствуйте! Вот ваша машина. Ключи.",
+  "systemPrompt": "You work at car rental. There's a small scratch on back bumper not in records. Thank customer for noticing, add to contract. Keep replies short.",
+  "completionCriteria": "User pointed out scratch and you documented it.",
+  "responseLimit": 15,
+  "hints": [
+    "Здесь царапина (There's a scratch here)",
+    "Это было раньше? (Was this here before?)",
+    "Запишите, пожалуйста (Please write it down)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "царапина",
+      "definition": "scratch"
+    },
+    {
+      "word": "машина",
+      "definition": "car"
+    },
+    {
+      "word": "аренда",
+      "definition": "rental"
+    },
+    {
+      "word": "бампер",
+      "definition": "bumper"
+    },
+    {
+      "word": "договор",
+      "definition": "contract"
+    },
+    {
+      "word": "записать",
+      "definition": "to write down"
+    }
+  ],
+  "objectives": [
+    "Point out the scratch (царапина)",
+    "Ask if it was documented (было раньше)",
+    "Get it added to contract"
+  ]
+}

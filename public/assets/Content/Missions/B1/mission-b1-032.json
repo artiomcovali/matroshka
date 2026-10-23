@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-032",
+  "title": "Garden Center",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Get advice on planting at a garden center",
+  "imageName": "leaf.fill",
+  "initialPrompt": "Здравствуйте! Добро пожаловать в наш садовый центр. Вы ищете что-то конкретное для вашего сада?",
+  "systemPrompt": "You work at a garden center. Ask about sun/shade, soil type, and what they want to grow. Recommend plants and give care tips. Keep replies short.",
+  "completionCriteria": "User got plant recommendations and care advice.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня солнечный участок (I have a sunny spot)",
+    "Как часто поливать? (How often should I water?)",
+    "Что хорошо растёт в тени? (What grows well in shade?)",
+    "Когда лучше сажать? (When is best to plant?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "растение",
+      "definition": "plant"
+    },
+    {
+      "word": "сад",
+      "definition": "garden"
+    },
+    {
+      "word": "полив",
+      "definition": "watering"
+    },
+    {
+      "word": "почва",
+      "definition": "soil"
+    },
+    {
+      "word": "удобрение",
+      "definition": "fertilizer"
+    },
+    {
+      "word": "рассада",
+      "definition": "seedling"
+    }
+  ],
+  "objectives": [
+    "Describe your garden conditions",
+    "Ask for plant recommendations (растение)",
+    "Learn about care requirements (уход)",
+    "Get watering advice (полив)"
+  ]
+}

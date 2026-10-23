@@ -1,0 +1,316 @@
+{
+  "id": "b2-track-particles-02-ved",
+  "level": "B2",
+  "focusArea": "sentenceStructure",
+  "title": "Particles 2: ведь (Appeal to Shared Knowledge)",
+  "titleRussian": "Частицы 2: ведь (апелляция к общему знанию)",
+  "description": "ведь appeals to what the speaker and listener both already know, like English 'after all', 'you know', or 'isn't it'. It justifies or reminds, expecting agreement. It is more flexible in position than же.",
+  "descriptionRussian": "ведь апеллирует к тому, что говорящий и слушающий уже знают, как английские «after all», «you know», «ведь правда?». Она обосновывает или напоминает, ожидая согласия. По положению она свободнее, чем же.",
+  "imageName": "person.2.wave.2",
+  "trackId": "b2-particles-mastery",
+  "trackTitle": "Particles Mastery",
+  "trackTitleRussian": "Частицы",
+  "trackIndex": 2,
+  "trackTotal": 8,
+  "intro": "A softer relative of the last one. Where that particle underlines, this one appeals: it treats what follows as something you both already know and invites you to agree. English does this with a tag question or with 'after all'. It is also freer in position, and unlike the last one it can open a clause.",
+  "rules": [
+    "ведь appeals to shared knowledge and invites agreement. English equivalents: 'after all', 'you know', 'I mean', or a tag like 'isn't it / right'. Он ведь болен = 'he's ill, after all.'",
+    "ведь often supplies a reason the speaker treats as obvious: Я не голоден, я ведь только что поел ('I'm not hungry; I just ate, after all').",
+    "At the front of a clause, ведь softly appeals for agreement: Ведь это интересно, правда? = 'It's interesting, isn't it?'",
+    "ведь vs же: ведь is softer and explanatory ('you know', appealing to reason); же is sharper and more emphatic ('didn't I', emotional pressure). If 'after all / you know' fits, choose ведь.",
+    "Position: ведь is mobile and can begin a clause; же and ли cannot (they lean on the word before them). Ведь ты сам видел; Он ведь знает."
+  ],
+  "examples": [
+    "Он не придёт, он ведь болен. (He won't come; he's ill, after all.) ведь gives shared, accepted grounds.",
+    "Ведь это интересно, правда? (It's interesting, isn't it?) front ведь = soft appeal for agreement.",
+    "Я не голоден, я ведь только что поел. (I'm not hungry; I just ate, after all.) ведь frames an obvious reason.",
+    "Ты ведь обещал помочь. (But you promised to help, you know.) gentle reminder, warmer than же.",
+    "Не волнуйся, ведь всё уже готово. (Don't worry; everything's ready, after all.) ведь reassures with shared knowledge.",
+    "Он ведь знает дорогу, не потеряется. (He knows the way, after all; he won't get lost.) ведь justifies the prediction."
+  ],
+  "tables": [
+    {
+      "title": "ведь vs же in the overlapping 'reminder' zone",
+      "headers": [
+        "Sentence",
+        "Particle",
+        "Tone"
+      ],
+      "rows": [
+        {
+          "label": "I told you!",
+          "cells": [
+            "Я же говорил!",
+            "sharp, impatient underline"
+          ]
+        },
+        {
+          "label": "I did tell you, you know",
+          "cells": [
+            "Я ведь говорил.",
+            "soft, explanatory, reasoning"
+          ]
+        },
+        {
+          "label": "But you promised",
+          "cells": [
+            "Ты же обещал! / Ты ведь обещал.",
+            "же = reproach; ведь = gentle reminder"
+          ]
+        },
+        {
+          "label": "It's interesting, isn't it?",
+          "cells": [
+            "Ведь это интересно, правда?",
+            "ведь = appeal for agreement (же would not fit)"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "'He won't come; he's ill, after all.' Complete: Он не придёт, он _____ болен.",
+          "promptEnglish": "He won't come; he's ill, after all.",
+          "options": [
+            "ли",
+            "разве",
+            "ведь",
+            "вот"
+          ],
+          "answer": "ведь",
+          "hint": "Which particle supplies a reason as shared, accepted background ('after all')?",
+          "explanation": "ведь frames 'he's ill' as an obvious, agreed reason, exactly the English 'after all.' ли is a yes-no question particle; разве expresses disbelief ('surely he's not ill?'); вот points at something. Only ведь does the 'justify with shared knowledge' job here."
+        },
+        {
+          "prompt": "Soft appeal for agreement at the front: '_____ это интересно, правда?'",
+          "promptEnglish": "It's interesting, isn't it?",
+          "options": [
+            "Же",
+            "Ведь",
+            "Ли",
+            "Неужели"
+          ],
+          "answer": "Ведь",
+          "hint": "Which particle can begin the clause and lean on shared feeling, paired with правда?",
+          "explanation": "Ведь это интересно, правда?Leans on shared feeling and invites a yes.Ведь can start a clause; же cannot (it never begins a sentence); ли would form a yes-no question; неужели signals disbelief, the opposite of inviting easy agreement."
+        },
+        {
+          "prompt": "Which version is the WARMER, more explanatory reminder ('I did tell you, you know')?",
+          "promptEnglish": "Pick the softer, reasoning reminder.",
+          "options": [
+            "Я же говорил!",
+            "Говорил ли я?",
+            "Разве я говорил?",
+            "Я ведь говорил."
+          ],
+          "answer": "Я ведь говорил.",
+          "hint": "ведь is soft and explanatory; же is the sharp underline.",
+          "explanation": "Я ведь говорил has a calm, reasoning tone: 'I did tell you, you know.' Я же говорил!Is the sharp, impatient 'I TOLD you!' Говорил ли я?Is a yes-no question ('did I say...?'), and Разве я говорил?Expresses doubt that the speaker said it at all."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Reassurance: 'Don't worry; everything's ready, after all.' Complete: Не волнуйся, _____ всё уже готово.",
+          "promptEnglish": "Don't worry; everything's ready, after all.",
+          "options": [
+            "ведь",
+            "ли",
+            "же ли",
+            "разве"
+          ],
+          "answer": "ведь",
+          "hint": "The speaker calms the listener by pointing to a fact they can both accept.",
+          "explanation": "ведь reassures by offering shared grounds: 'everything is ready, after all.' ли would form a question; разве would express surprise; же ли is not a natural combination.Ведь is the reassuring 'after all' here."
+        },
+        {
+          "prompt": "Which sentence best fits the gloss 'But you promised to help, you know' (gentle, not scolding)?",
+          "promptEnglish": "But you promised to help, you know.",
+          "options": [
+            "Ты же обещал помочь!",
+            "Обещал ли ты помочь?",
+            "Ты ведь обещал помочь.",
+            "Разве ты обещал помочь?"
+          ],
+          "answer": "Ты ведь обещал помочь.",
+          "hint": "Gentle reminder appealing to what you both know = ведь; sharp reproach = же.",
+          "explanation": "Ты ведь обещал помочь is a gentle, explanatory reminder ('you know you promised'). Ты же обещал!Is sharper, more of a reproach. The ли version is a plain yes-no question, and the разве version casts doubt on whether the promise was made at all."
+        },
+        {
+          "prompt": "When should you prefer ведь over же?",
+          "promptEnglish": "Pick the situation that calls for ведь rather than же.",
+          "options": [
+            "When you want a sharp, emotional underline like 'I TOLD you'",
+            "When 'after all' or 'you know' fits and you appeal to shared reasoning",
+            "When forming a yes-no question",
+            "When pointing at a visible object ('here it is')"
+          ],
+          "answer": "When 'after all' or 'you know' fits and you appeal to shared reasoning",
+          "hint": "ведь is the soft, reasoning particle of common ground.",
+          "explanation": "Reach for ведь when 'after all' or 'you know' fits and you are appealing to shared, accepted reasoning. The sharp emotional underline ('I TOLD you') is же. Yes-no questions use ли, and pointing at something visible uses вот (lesson 5)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Он не придёт: он _____.",
+          "promptEnglish": "He won't come; he's ill, after all.",
+          "options": [
+            "ведь болен",
+            "же болен",
+            "вот болен",
+            "ли болен"
+          ],
+          "answer": "ведь болен",
+          "hint": "The justification role: an obvious shared reason.",
+          "explanation": "Ведь frames the reason as common ground: он ведь болен ('he's ill, after all'). Же would add sharp insistence rather than a calm reason; вот presents; ли asks."
+        },
+        {
+          "prompt": "Не волнуйся: _____.",
+          "promptEnglish": "Don't worry; everything's ready, after all.",
+          "options": [
+            "ведь всё готово",
+            "разве всё готово",
+            "неужели всё готово",
+            "ли всё готово"
+          ],
+          "answer": "ведь всё готово",
+          "hint": "Reassurance by an obvious fact.",
+          "explanation": "Ведь offers the comforting fact as shared knowledge: ведь всё готово. Разве and неужели would question it instead of asserting it; ли cannot begin a clause."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Не торопись, у нас _____ ещё много времени. (Don't rush; we still have plenty of time, after all.)"
+    ],
+    "choices": [
+      "ведь",
+      "ли",
+      "разве",
+      "вот"
+    ],
+    "answers": [
+      "ведь"
+    ],
+    "grammarFocus": "ведь justifies the advice with a shared fact ('we have plenty of time, after all').Ли would make a question; разве would add disbelief; вот points at something.Ведь supplies accepted grounds and invites agreement.",
+    "hints": [
+      "The speaker calms the listener by pointing to something they both can accept as a reason. Which particle?"
+    ],
+    "explanations": [
+      "ведь supplies an obvious, shared reason for the advice: 'we still have plenty of time, after all.' It is the calm, explanatory particle of common ground. ли would turn the clause into a question; разве would inject disbelief; вот would point at something rather than justify."
+    ]
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Не сердись на него, он же ещё совсем ребёнок, ты понимаешь.",
+      "translationEnglish": "Don't be angry with him; he's still just a child, after all, you know.",
+      "error": "же",
+      "correction": "ведь",
+      "options": [
+        "ведь",
+        "вот",
+        "ли"
+      ],
+      "explanation": "ведь appeals softly to shared, obvious knowledge as a calming reason: он ведь ещё ребёнок = 'he's still a child, after all.' The gloss spells this out with 'after all, you know,' which is the ведь zone, not the sharp emotional underline 'didn't I!' that же would add.Вот points at something and gives no reasoning sense here.Ли is the yes-no question particle and this is a soothing statement, not a question."
+    },
+    {
+      "sentence": "Разве это вкусно, попробуй сам, тебе понравится.",
+      "translationEnglish": "It's tasty, after all; try it yourself, you'll like it.",
+      "error": "Разве",
+      "correction": "Ведь",
+      "options": [
+        "Ведь",
+        "Неужели",
+        "Же"
+      ],
+      "explanation": "ведь at the front of a clause softly leans on shared feeling and expects agreement: Ведь это вкусно = 'It's tasty, after all,' which matches the encouraging gloss. Разве would turn it into a doubting question expecting 'no' ('Is that really tasty? I doubt it'), the opposite of urging someone to try it. Неужели would add astonishment ('Can it really be tasty?!'), again a question, not the reassuring statement here. Же cannot begin a clause (it leans on the word before it), so Же это вкусно is impossible."
+    },
+    {
+      "sentence": "Я не пойду гулять, на улице же холодно и идёт дождь.",
+      "translationEnglish": "I won't go for a walk; it's cold outside, after all, and it's raining.",
+      "error": "же",
+      "correction": "ведь",
+      "options": [
+        "ведь",
+        "ли",
+        "вот"
+      ],
+      "explanation": "ведь supplies a reason the speaker treats as obvious and uncontroversial: на улице ведь холодно = 'it's cold outside, after all,' exactly the explanatory 'after all' of the gloss.Же would put a sharp emotional stress on холодно rather than offer it as calm shared grounds, clashing with the reasoning tone.Ли is the yes-no question particle, but this is a statement giving a reason.Вот points at something and does not introduce a justification."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я _____ говорил. (Goal: the SOFT, explanatory 'I did tell you, you know', not a sharp scolding.)",
+      "contextEnglish": "I did tell you, you know.",
+      "options": [
+        "ведь",
+        "же"
+      ],
+      "answer": "ведь",
+      "explanation": "ведь gives the calm, reasoning tone 'I did tell you, you know,' appealing to shared knowledge.Же would make it sharp and impatient: Я же говорил! = 'I TOLD you!' Same words, different temperature: ведь explains, же presses."
+    },
+    {
+      "context": "Он не придёт, он _____ болен. (Goal: 'he's ill, after all'; give an accepted reason.)",
+      "contextEnglish": "He won't come; he's ill, after all.",
+      "options": [
+        "ведь",
+        "разве"
+      ],
+      "answer": "ведь",
+      "explanation": "ведь supplies 'he's ill' as a shared, accepted reason ('after all').Разве would flip the meaning into disbelief: разве он болен? = 'surely he's not ill?' Here we are justifying, not doubting, so ведь is right."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Зачем ты купил зонт? Ведь дождя не будет.",
+      "question": "What is ведь doing in the second sentence?",
+      "options": [
+        "Justifying with a fact treated as obvious ('after all there'll be no rain')",
+        "Forming a yes-no question",
+        "Expressing 'the very same'",
+        "Pointing at a visible object"
+      ],
+      "answer": "Justifying with a fact treated as obvious ('after all there'll be no rain')",
+      "explanation": "ведь introduces the speaker's grounds, framed as shared and obvious: 'after all, there won't be any rain.' This is the justification job, and the front position is typical of ведь (which, unlike же, can start a clause). It is not a question, not an identity marker, and not a pointer."
+    },
+    {
+      "sentence": "Ты ведь поможешь мне, правда?",
+      "question": "What does ведь contribute, paired with правда?",
+      "options": [
+        "A soft appeal for agreement ('you'll help me, won't you?')",
+        "A sharp emotional reproach",
+        "A formal, bookish tone",
+        "Negation of the verb"
+      ],
+      "answer": "A soft appeal for agreement ('you'll help me, won't you?')",
+      "explanation": "ведь plus the tag правда leans on shared understanding and gently asks for a yes: 'you'll help me, won't you?' This appeal-for-agreement use is squarely ведь, not же (which here would sound more like pressure). It is conversational, not bookish, and does not negate anything."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "ведь",
+      "definition": "particle of shared knowledge. Justifies with an obvious reason ('after all'), appeals for agreement ('isn't it'), or gently reminds ('you know'). Mobile: can begin a clause or precede the verb. Soft and explanatory, unlike sharp же.",
+      "example": "Он ведь болен. / Ведь это интересно, правда?"
+    },
+    {
+      "term": "ведь vs же",
+      "definition": "Both can remind, but ведь is soft and reasoning ('I did tell you, you know') while же is a sharp emotional underline ('I TOLD you!'). Test: if 'after all / you know' fits the English, use ведь.",
+      "example": "Я ведь говорил (calm) versus Я же говорил! (impatient)."
+    },
+    {
+      "term": "register of ведь",
+      "definition": "warm, everyday conversational Russian; very common in speech and informal writing. Too colloquial for the most formal documents, but natural everywhere else.",
+      "example": "Не волнуйся, ведь всё готово (easy, friendly reassurance)."
+    }
+  ]
+}

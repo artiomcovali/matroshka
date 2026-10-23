@@ -1,0 +1,50 @@
+{
+  "id": "mission-a2-028",
+  "title": "Photo Studio",
+  "level": "A2",
+  "difficulty": "easy",
+  "description": "Book a passport photo appointment at a studio",
+  "imageName": "camera.fill",
+  "initialPrompt": "Добрый день! Фотосалон \"Момент\". Какие фотографии вам нужны?",
+  "systemPrompt": "You work at a photo studio. Passport photos 300₽ (4 photos), visa photos 350₽. Ready in 10 minutes or next day. Ask what documents they need photos for. Keep replies short.",
+  "completionCriteria": "User ordered document photos with type and pickup time confirmed.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужны фотографии на паспорт (I need passport photos)",
+    "На визу, пожалуйста (For a visa, please)",
+    "Когда будет готово? (When will it be ready?)",
+    "Сколько стоит? (How much does it cost?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "фотография",
+      "definition": "photo"
+    },
+    {
+      "word": "паспорт",
+      "definition": "passport"
+    },
+    {
+      "word": "виза",
+      "definition": "visa"
+    },
+    {
+      "word": "документ",
+      "definition": "document"
+    },
+    {
+      "word": "готово",
+      "definition": "ready"
+    },
+    {
+      "word": "фотосалон",
+      "definition": "photo studio"
+    }
+  ],
+  "objectives": [
+    "Say you need document photos",
+    "Specify what document (паспорт, виза)",
+    "Ask when photos will be ready",
+    "Confirm price and complete order"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mission-a1-medium-020",
+  "title": "No Cash",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "Try to buy ice cream but the machine only takes card",
+  "imageName": "creditcard.fill",
+  "initialPrompt": "Мороженое! Пломбир, шоколадное, фруктовое. По сто рублей. Что хотите?",
+  "systemPrompt": "You sell ice cream from kiosk. Flavors: пломбир, шоколадное, фруктовое, 100₽ each. Cash machine broken - card only today. Nearby ATM at metro station. Keep replies short.",
+  "completionCriteria": "User either paid by card or found ATM solution.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу мороженое (I want ice cream)",
+    "Можно наличными? (Can I pay cash?)",
+    "Где банкомат? (Where is an ATM?)",
+    "Хорошо, картой (OK, by card)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "мороженое",
+      "definition": "ice cream"
+    },
+    {
+      "word": "наличные",
+      "definition": "cash"
+    },
+    {
+      "word": "карта",
+      "definition": "card"
+    },
+    {
+      "word": "банкомат",
+      "definition": "ATM"
+    },
+    {
+      "word": "платить",
+      "definition": "to pay"
+    },
+    {
+      "word": "рядом",
+      "definition": "nearby"
+    }
+  ],
+  "objectives": [
+    "Choose your ice cream flavor",
+    "Find out you can't pay cash",
+    "Decide: pay by card or find ATM",
+    "Complete the purchase"
+  ]
+}

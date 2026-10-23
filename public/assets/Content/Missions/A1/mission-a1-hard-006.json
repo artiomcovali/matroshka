@@ -1,0 +1,49 @@
+{
+  "id": "mission-a1-hard-006",
+  "title": "The Wrong Order",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "The waiter keeps bringing the wrong food and you must correct them",
+  "imageName": "fork.knife",
+  "initialPrompt": "Вот ваш суп! Нет? Вы заказали рыбу? Извините, сейчас принесу рыбу!",
+  "systemPrompt": "You are a confused waiter. User ordered meat (мясо) and juice (сок). You bring wrong items first: soup, then fish, then finally correct ones. Apologize each time but keep making mistakes. Keep replies short.",
+  "completionCriteria": "User corrected all mistakes and finally received their correct order.",
+  "responseLimit": 15,
+  "hints": [
+    "Я заказал... (I ordered...)",
+    "Это не моё (This isn't mine)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "мясо",
+      "definition": "meat"
+    },
+    {
+      "word": "рыба",
+      "definition": "fish"
+    },
+    {
+      "word": "суп",
+      "definition": "soup"
+    },
+    {
+      "word": "сок",
+      "definition": "juice"
+    },
+    {
+      "word": "заказать",
+      "definition": "to order"
+    },
+    {
+      "word": "не моё",
+      "definition": "not mine"
+    }
+  ],
+  "objectives": [
+    "Tell waiter the soup is wrong (Это не моё)",
+    "Explain you ordered meat (Я заказал мясо)",
+    "Correct when they bring fish instead",
+    "Tell them you also ordered juice (сок)",
+    "Finally get the correct order"
+  ]
+}

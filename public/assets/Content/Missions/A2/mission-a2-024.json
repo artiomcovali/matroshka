@@ -1,0 +1,51 @@
+{
+  "id": "mission-a2-024",
+  "title": "Gym Membership",
+  "level": "A2",
+  "difficulty": "easy",
+  "description": "Sign up for a gym membership",
+  "imageName": "figure.run",
+  "initialPrompt": "Добро пожаловать в фитнес-клуб 'Сила'! Хотите записаться или посмотреть зал?",
+  "systemPrompt": "You work at gym. Memberships: month 3000₽, 3 months 8000₽, year 25000₽. Pool access +1000₽/month. Open 7am-11pm. Ask what they want, show them around. Keep replies short.",
+  "completionCriteria": "User signed up for a membership with options understood.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу записаться (I want to sign up)",
+    "Какие абонементы есть? (What memberships are there?)",
+    "Бассейн включён? (Is the pool included?)",
+    "Когда можно прийти? (When can I come?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "фитнес",
+      "definition": "fitness"
+    },
+    {
+      "word": "абонемент",
+      "definition": "membership"
+    },
+    {
+      "word": "бассейн",
+      "definition": "pool"
+    },
+    {
+      "word": "тренажёр",
+      "definition": "exercise machine"
+    },
+    {
+      "word": "записаться",
+      "definition": "to sign up"
+    },
+    {
+      "word": "месяц",
+      "definition": "month"
+    }
+  ],
+  "objectives": [
+    "Say you want to join",
+    "Ask about membership options",
+    "Ask about facilities (pool, hours)",
+    "Choose a membership plan",
+    "Complete registration"
+  ]
+}

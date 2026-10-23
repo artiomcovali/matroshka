@@ -1,0 +1,255 @@
+{
+  "id": "a1-006-word-order",
+  "level": "A1",
+  "focusArea": "sentenceStructure",
+  "title": "Word Order",
+  "titleRussian": "Порядок слов",
+  "description": "Basic Russian sentence structure and word order",
+  "descriptionRussian": "Основы построения предложений и порядок слов",
+  "imageName": "arrow.left.arrow.right",
+  "intro": "Russian word order is more flexible than English because case endings show who does what. The neutral order is Subject-Verb-Object (SVO), just like English. However, Russians often change word order for emphasis - the most important or new information usually goes at the end of the sentence.",
+  "rules": [
+    "Neutral word order is SVO: Мама читает книгу. (Mom reads a book.)",
+    "New or important information goes at the END: - Кто читает? - Книгу читает МАМА. (Mom reads it.)",
+    "Move the object BEFORE the verb to emphasize it: Книгу я читаю. (It's the BOOK I'm reading.)",
+    "Questions use intonation, not word order change: Ты студент? (rising tone) = Are you a student?"
+  ],
+  "examples": [
+    "Мама читает книгу. (Mom reads a book.), neutral SVO",
+    "Книгу читает мама. (It's mom who reads the book.), emphasis on мама",
+    "Книгу я уже читал. (The book I already read.), emphasis on книгу",
+    "Ты говоришь по-русски? (Do you speak Russian?), question by intonation"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Which word order is neutral in Russian?",
+          "promptEnglish": "Which word order is neutral in Russian?",
+          "options": [
+            "Object-Verb-Subject",
+            "Object-Subject-Verb",
+            "Verb-Subject-Object",
+            "Subject-Verb-Object"
+          ],
+          "answer": "Subject-Verb-Object",
+          "hint": "Same as English",
+          "explanation": "Russian neutral word order is SVO, just like English: Мама читает книгу."
+        },
+        {
+          "prompt": "Мама читает _____. (Mom reads a book.)",
+          "promptEnglish": "Mom reads a book.",
+          "options": [
+            "книге",
+            "книгу",
+            "книги",
+            "книга"
+          ],
+          "answer": "книгу",
+          "hint": "Object in accusative case",
+          "explanation": "The object 'book' takes accusative case: книга → книгу."
+        },
+        {
+          "prompt": "Where does NEW information usually go in Russian?",
+          "promptEnglish": "Where does NEW information usually go in Russian?",
+          "options": [
+            "At the beginning",
+            "At the end",
+            "Before the verb",
+            "In the middle"
+          ],
+          "answer": "At the end",
+          "hint": "For emphasis",
+          "explanation": "New or emphasized information goes at the end of the sentence."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "— Что ты читаешь? Choose the answer that emphasizes the BOOK:",
+          "promptEnglish": "What are you reading? Choose the answer that emphasizes the BOOK.",
+          "options": [
+            "Я читаю книгу.",
+            "Книгу я читаю.",
+            "Я книгу читаю.",
+            "Читаю я книгу."
+          ],
+          "answer": "Книгу я читаю.",
+          "hint": "To emphasize the OBJECT, put it first.",
+          "explanation": "When directly answering 'Что?' to emphasize the object, place it at the start: Книгу я читаю."
+        },
+        {
+          "prompt": "How do you form a yes/no question in Russian?",
+          "promptEnglish": "How do you form a yes/no question in Russian?",
+          "options": [
+            "Change word order",
+            "Change intonation",
+            "Add a question word",
+            "Add 'do'"
+          ],
+          "answer": "Change intonation",
+          "hint": "No word rearrangement needed",
+          "explanation": "Russian uses rising intonation to form yes/no questions: Ты студент?"
+        },
+        {
+          "prompt": "— Кто читает книгу? — Книгу читает _____.",
+          "promptEnglish": "Who reads the book? - Mom reads it.",
+          "options": [
+            "книгу",
+            "читает",
+            "мама",
+            "кто"
+          ],
+          "answer": "мама",
+          "hint": "The answer (new info) goes at the end",
+          "explanation": "The answer 'мама' goes at the end for emphasis: Книгу читает мама."
+        }
+      ]
+    }
+  ],
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Мама",
+        "читает",
+        "книгу"
+      ],
+      "answer": "Мама читает книгу.",
+      "translation": "Mom reads a book.",
+      "hint": "Neutral SVO order"
+    },
+    {
+      "words": [
+        "читает",
+        "Книгу",
+        "мама"
+      ],
+      "answer": "Книгу читает мама.",
+      "translation": "It's mom who reads the book.",
+      "hint": "Object first, emphasis on who does it"
+    },
+    {
+      "words": [
+        "я",
+        "Музыку",
+        "люблю"
+      ],
+      "answer": "Музыку я люблю.",
+      "translation": "Music - I love it.",
+      "hint": "Object first for emphasis"
+    },
+    {
+      "words": [
+        "по-русски",
+        "Ты",
+        "говоришь"
+      ],
+      "answer": "Ты говоришь по-русски?",
+      "translation": "Do you speak Russian?",
+      "hint": "Normal SVO, question by intonation"
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "— Кто читает книгу? — Книгу читает _____. (Mom reads it.)"
+    ],
+    "choices": [
+      "мама",
+      "книгу",
+      "читает",
+      "кто"
+    ],
+    "answers": [
+      "мама"
+    ],
+    "grammarFocus": "Emphasized (new) information goes at the end",
+    "options": [
+      [
+        "маму",
+        "маме",
+        "мамы",
+        "мама"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Мама читает книгу. - What is neutral: subject or object first?",
+      "contextEnglish": "Mom reads a book.",
+      "options": [
+        "Subject first (мама)",
+        "Object first (книгу)"
+      ],
+      "answer": "Subject first (мама)",
+      "explanation": "Neutral Russian order is SVO - subject first, like English."
+    },
+    {
+      "context": "— Кто это делает? — Это делает _____. (emphasis on WHO)",
+      "contextEnglish": "Who does this? - Ivan does this.",
+      "options": [
+        "Иван (at the end)",
+        "Иван (at the beginning)"
+      ],
+      "answer": "Иван (at the end)",
+      "explanation": "New/emphasized information goes at the end: Это делает Иван."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: neutral SVO or changed for emphasis?",
+    "categories": [
+      "Neutral SVO",
+      "Changed for Emphasis"
+    ],
+    "items": [
+      {
+        "word": "Мама читает книгу",
+        "category": "Neutral SVO"
+      },
+      {
+        "word": "Книгу читает мама",
+        "category": "Changed for Emphasis"
+      },
+      {
+        "word": "Он говорит по-русски",
+        "category": "Neutral SVO"
+      },
+      {
+        "word": "По-русски говорит он",
+        "category": "Changed for Emphasis"
+      },
+      {
+        "word": "Анна любит музыку",
+        "category": "Neutral SVO"
+      },
+      {
+        "word": "Музыку любит Анна",
+        "category": "Changed for Emphasis"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "порядок слов",
+      "definition": "word order",
+      "example": "В русском языке свободный порядок слов."
+    },
+    {
+      "term": "подлежащее, сказуемое, дополнение",
+      "definition": "subject, verb, object",
+      "example": "Мама читает книгу."
+    },
+    {
+      "term": "интонация",
+      "definition": "intonation",
+      "example": "Ты студент? (вопрос по интонации)"
+    },
+    {
+      "term": "ударение (emphasis)",
+      "definition": "emphasis through word order",
+      "example": "Книгу читает мама. (emphasis on мама)"
+    }
+  ]
+}

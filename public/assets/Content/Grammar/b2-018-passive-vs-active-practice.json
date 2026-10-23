@@ -1,0 +1,649 @@
+{
+  "lessonId": "b2-018-passive-vs-active",
+  "sets": [
+    {
+      "id": "round-1-voice-recognition",
+      "title": "Voice Recognition",
+      "titleRussian": "Определение залога",
+      "description": "Identify active, passive, and impersonal constructions and sort them by type",
+      "descriptionRussian": "Определите тип конструкции и распределите по категориям",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which sentence uses a passive construction?",
+              "promptEnglish": "Identify the passive voice sentence.",
+              "options": [
+                "Инженеры построили мост.",
+                "Мост был построен в прошлом году.",
+                "Здесь строят новый дом.",
+                "Строительство идёт быстро."
+              ],
+              "answer": "Мост был построен в прошлом году.",
+              "hint": "Passive uses был + short participle, with the object as subject.",
+              "explanation": "'Был построен' is a passive construction: the bridge (мост) receives the action. The agent (who built it) is omitted."
+            },
+            {
+              "prompt": "Which sentence is impersonal?",
+              "promptEnglish": "Choose the sentence with no named subject.",
+              "options": [
+                "Врач осмотрел пациента.",
+                "Пациент был осмотрен.",
+                "В больнице принимают с восьми утра.",
+                "Медсестра записала данные."
+              ],
+              "answer": "В больнице принимают с восьми утра.",
+              "hint": "Impersonal uses 3rd person plural with no explicit subject.",
+              "explanation": "'Принимают' without a subject is impersonal: 'they see patients from 8 AM' expresses a general rule without naming who does it."
+            },
+            {
+              "prompt": "Which sounds most natural in casual conversation?",
+              "promptEnglish": "Choose the colloquial version.",
+              "options": [
+                "Документ подписан директором.",
+                "Директор подписал документ.",
+                "Документ подписывается.",
+                "Подписание документа осуществлено."
+              ],
+              "answer": "Директор подписал документ.",
+              "hint": "Colloquial Russian prefers active voice with a clear subject.",
+              "explanation": "Active voice with a named subject (директор подписал) sounds direct and personal, typical of everyday speech."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "A scientific report would most likely say:",
+              "promptEnglish": "Choose the academic/scientific style.",
+              "options": [
+                "Мы провели эксперимент.",
+                "Я сделал опыт.",
+                "Эксперимент был проведён в лабораторных условиях.",
+                "Студенты делали опыты."
+              ],
+              "answer": "Эксперимент был проведён в лабораторных условиях.",
+              "hint": "Scientific writing uses passive to focus on the experiment, not the experimenter.",
+              "explanation": "Scientific register uses passive (был проведён) to sound objective. Active 'мы провели' is too personal for academic papers."
+            },
+            {
+              "prompt": "\"Здесь не курят\" is an example of:",
+              "promptEnglish": "Classify the construction type.",
+              "options": [
+                "Active voice",
+                "Passive voice with short participle",
+                "Reflexive passive",
+                "Impersonal construction"
+              ],
+              "answer": "Impersonal construction",
+              "hint": "No named subject, 3rd person plural verb expressing a general rule.",
+              "explanation": "'Здесь не курят' uses 3rd person plural without a subject. This impersonal construction expresses a general prohibition."
+            },
+            {
+              "prompt": "\"Статья публикуется в журнале\" uses which passive type?",
+              "promptEnglish": "Identify the type of passive.",
+              "options": [
+                "Short participle passive",
+                "Reflexive passive (-ся)",
+                "Impersonal construction",
+                "Active voice"
+              ],
+              "answer": "Reflexive passive (-ся)",
+              "hint": "The -ся suffix on the verb creates a reflexive passive.",
+              "explanation": "'Публикуется' (is being published) is a reflexive passive formed with -ся. It emphasizes the ongoing process."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "When is passive voice preferred in Russian?",
+              "promptEnglish": "Choose the best context for passive.",
+              "options": [
+                "Telling a friend about your weekend",
+                "Writing an official report",
+                "Chatting at a cafe",
+                "Describing a funny incident"
+              ],
+              "answer": "Writing an official report",
+              "hint": "Passive is the default register for formal/official texts.",
+              "explanation": "Official reports, scientific papers, and legal documents prefer passive because it sounds objective and impersonal."
+            },
+            {
+              "prompt": "News headline: _____ новый рекорд.",
+              "promptEnglish": "A new record has been set. (headline style)",
+              "options": [
+                "Спортсмен установил",
+                "Устанавливается",
+                "Установлен",
+                "Будут устанавливать"
+              ],
+              "answer": "Установлен",
+              "hint": "Headlines use short passive participles without auxiliary verbs.",
+              "explanation": "'Установлен новый рекорд' is a typical headline: short passive participle, no agent, concise and factual."
+            },
+            {
+              "prompt": "Which construction expresses 'People say that...' impersonally?",
+              "promptEnglish": "How do you say 'they say' without naming who?",
+              "options": [
+                "Люди говорят, что...",
+                "Мы слышали, что...",
+                "Говорят, что...",
+                "Он сказал, что..."
+              ],
+              "answer": "Говорят, что...",
+              "hint": "3rd person plural without subject = impersonal 'they say'.",
+              "explanation": "'Говорят, что...' (they say that...) is a classic impersonal construction. No subject is named because the source is general/unknown."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort each sentence by its construction type.",
+        "categories": [
+          "Active voice",
+          "Passive voice",
+          "Impersonal"
+        ],
+        "items": [
+          {
+            "word": "Рабочие отремонтировали дорогу.",
+            "category": "Active voice"
+          },
+          {
+            "word": "Дорога была отремонтирована.",
+            "category": "Passive voice"
+          },
+          {
+            "word": "В этом районе строят новые дома.",
+            "category": "Impersonal"
+          },
+          {
+            "word": "Профессор прочитал лекцию.",
+            "category": "Active voice"
+          },
+          {
+            "word": "Лекция прочитана профессором.",
+            "category": "Passive voice"
+          },
+          {
+            "word": "В университете изучают пять языков.",
+            "category": "Impersonal"
+          },
+          {
+            "word": "Решение было принято единогласно.",
+            "category": "Passive voice"
+          },
+          {
+            "word": "Нам сообщили о переносе встречи.",
+            "category": "Impersonal"
+          },
+          {
+            "word": "Архитектор спроектировал здание.",
+            "category": "Active voice"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-2-pairs-fillin",
+      "title": "Active or Passive?",
+      "titleRussian": "Активный или пассивный?",
+      "description": "Choose between active and passive forms in context, then fill in the blanks",
+      "descriptionRussian": "Выберите правильную форму залога и заполните пропуски",
+      "icon": "arrow.left.arrow.right",
+      "minimalPairs": [
+        {
+          "context": "Casual: Мой друг _____ эту книгу.",
+          "contextEnglish": "My friend wrote this book. (personal, informal)",
+          "options": [
+            "написал",
+            "была написана"
+          ],
+          "answer": "написал",
+          "explanation": "Active voice (написал) is natural in casual speech when the agent is known and important."
+        },
+        {
+          "context": "Formal report: Книга _____ в 2023 году.",
+          "contextEnglish": "The book was written in 2023. (formal, agent unimportant)",
+          "options": [
+            "была написана",
+            "написал"
+          ],
+          "answer": "была написана",
+          "explanation": "Passive (была написана) is formal. The focus is on the book, not the author."
+        },
+        {
+          "context": "Process: Здание _____ уже три года.",
+          "contextEnglish": "The building has been under construction for three years. (ongoing)",
+          "options": [
+            "строится",
+            "построено"
+          ],
+          "answer": "строится",
+          "explanation": "Reflexive passive 'строится' emphasizes an ongoing process. 'Построено' would mean it is already completed."
+        },
+        {
+          "context": "Completed result: Здание _____.",
+          "contextEnglish": "The building is completed. (result)",
+          "options": [
+            "построено",
+            "строится"
+          ],
+          "answer": "построено",
+          "explanation": "Short participle 'построено' signals a completed result. 'Строится' would mean it is still being built."
+        },
+        {
+          "context": "General truth: В Японии много _____ рис.",
+          "contextEnglish": "In Japan, people eat a lot of rice. (general habit)",
+          "options": [
+            "едят",
+            "съеден"
+          ],
+          "answer": "едят",
+          "explanation": "Impersonal 'едят' (3rd person plural, no subject) expresses a general cultural habit."
+        },
+        {
+          "context": "Official notice: Вход в здание _____ после 22:00.",
+          "contextEnglish": "Entry to the building is prohibited after 10 PM.",
+          "options": [
+            "запрещён",
+            "запрещают"
+          ],
+          "answer": "запрещён",
+          "explanation": "Short passive participle 'запрещён' is the standard form for official notices and signs."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Formal: Письмо _____ вчера вечером. (The letter was sent yesterday evening.)",
+          "Casual: Сергей _____ этот торт сам. (Sergei baked this cake himself.)",
+          "Scientific: Результаты _____ в таблице 3. (The results are presented in Table 3.)",
+          "Impersonal: В России много _____ чаю. (In Russia, people drink a lot of tea.)",
+          "Headline: _____ новый закон о налогах. (A new tax law has been adopted.)"
+        ],
+        "choices": [
+          "было отправлено",
+          "испёк",
+          "представлены",
+          "пьют",
+          "Принят"
+        ],
+        "answers": [
+          "было отправлено",
+          "испёк",
+          "представлены",
+          "пьют",
+          "Принят"
+        ],
+        "grammarFocus": "Choosing the correct voice form by register",
+        "hints": [
+          "Formal past passive: было + short participle (neuter to match письмо).",
+          "Casual active: subject + past tense verb.",
+          "Scientific writing uses short passive participles for data presentation.",
+          "3rd person plural without subject = impersonal.",
+          "Headlines use short passive participles without auxiliary verbs."
+        ],
+        "explanations": [
+          "'Было отправлено' (was sent) is formal passive. The neuter form matches 'письмо'.",
+          "Active voice 'испёк' names the doer (Сергей) directly, natural in casual speech.",
+          "'Представлены' (are presented) is a short passive participle. Scientific texts focus on data, not the researcher.",
+          "'Пьют' without a subject is impersonal: a general statement about Russian culture.",
+          "'Принят' is a headline-style short participle: concise, no auxiliary verb, agent omitted."
+        ],
+        "options": [
+          [
+            "отправлено было",
+            "отправили",
+            "было отправлено",
+            "отправляется"
+          ],
+          [
+            "испёк",
+            "испечёт",
+            "испечён",
+            "испёкся"
+          ],
+          [
+            "представлены",
+            "представили",
+            "представляют",
+            "представят"
+          ],
+          [
+            "пил",
+            "пьют",
+            "пит",
+            "пьются"
+          ],
+          [
+            "принявший",
+            "принять",
+            "принял",
+            "Принят"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Постройте и переведите",
+      "description": "Build passive and impersonal sentences from words, then translate English into the correct Russian voice",
+      "descriptionRussian": "Составьте предложения из слов и переведите на русский с правильным залогом",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "The contract was signed yesterday.",
+          "answer": "Контракт был подписан вчера.",
+          "acceptableVariants": [
+            "Контракт подписан вчера.",
+            "Вчера был подписан контракт."
+          ],
+          "hint": "Formal passive: subject + был + short participle + time.",
+          "grammarFocus": "Passive voice in formal register",
+          "keyWord": "подписан",
+          "options": [
+            "подписан",
+            "подписана",
+            "подписано",
+            "подписаны"
+          ]
+        },
+        {
+          "english": "People don't do that here. (general rule)",
+          "answer": "Здесь так не делают.",
+          "acceptableVariants": [
+            "Так здесь не делают.",
+            "Тут так не делают."
+          ],
+          "hint": "Impersonal: 3rd person plural, no subject, expresses a general rule.",
+          "grammarFocus": "Impersonal construction for general rules",
+          "keyWord": "делают",
+          "options": [
+            "делают",
+            "делает",
+            "сделают",
+            "делал"
+          ]
+        },
+        {
+          "english": "The article was published in a scientific journal.",
+          "answer": "Статья была опубликована в научном журнале.",
+          "acceptableVariants": [
+            "Статья опубликована в научном журнале."
+          ],
+          "hint": "Passive: subject + была + short participle. Agent omitted.",
+          "grammarFocus": "Passive voice without agent",
+          "keyWord": "опубликована",
+          "options": [
+            "опубликована",
+            "опубликован",
+            "опубликовано",
+            "опубликованы"
+          ]
+        },
+        {
+          "english": "They say this restaurant is very good.",
+          "answer": "Говорят, что этот ресторан очень хороший.",
+          "acceptableVariants": [
+            "Говорят, этот ресторан очень хороший."
+          ],
+          "hint": "Impersonal 'говорят' (they say) without a subject.",
+          "grammarFocus": "Impersonal for hearsay/rumor",
+          "keyWord": "Говорят",
+          "options": [
+            "Говорят",
+            "Говорит",
+            "Говоришь",
+            "Говорить"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Translate using passive: 'The letter was received this morning.'",
+              "promptEnglish": "Choose the correct passive translation.",
+              "options": [
+                "Секретарь получила письмо утром.",
+                "Письмо было получено сегодня утром.",
+                "Письмо получают утром.",
+                "Утром получили письмо."
+              ],
+              "answer": "Письмо было получено сегодня утром.",
+              "hint": "Subject (письмо) + было + short participle (получено).",
+              "explanation": "Passive: 'Письмо было получено сегодня утром.' The letter is the grammatical subject receiving the action."
+            },
+            {
+              "prompt": "Which sentence correctly uses instrumental for the agent?",
+              "promptEnglish": "Agent in passive = instrumental case.",
+              "options": [
+                "Картина написана художник.",
+                "Картина написана художником.",
+                "Картина написана художнику.",
+                "Картина написана от художника."
+              ],
+              "answer": "Картина написана художником.",
+              "hint": "The agent (doer) in passive voice takes the instrumental case.",
+              "explanation": "'Художником' (by the artist) is instrumental case. This is the standard way to express the agent in Russian passive constructions."
+            },
+            {
+              "prompt": "How would a formal notice say 'Parking is prohibited'?",
+              "promptEnglish": "Choose the official prohibition style.",
+              "options": [
+                "Не паркуйтесь!",
+                "Нельзя парковаться.",
+                "Парковка запрещена.",
+                "Здесь не паркуют машины."
+              ],
+              "answer": "Парковка запрещена.",
+              "hint": "Official signs use verbal noun + short passive participle.",
+              "explanation": "'Парковка запрещена' uses a verbal noun (парковка) + passive participle (запрещена), the standard form for official prohibitions."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Дом строили рабочими. (intended: The house was built by workers.)",
+          "error": "строили рабочими",
+          "correction": "построен рабочими",
+          "hint": "Active verb + instrumental agent is wrong. Use short passive participle + instrumental.",
+          "explanation": "Active 'строили' cannot take an instrumental agent. Passive 'построен рабочими' is correct.",
+          "options": [
+            "построен рабочими",
+            "построена рабочими",
+            "построен рабочих"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "A comprehensive review combining all voice types and exercise formats",
+      "descriptionRussian": "Комплексное повторение всех типов залога и конструкций",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Official report: Нарушения _____ в ходе проверки.",
+              "promptEnglish": "Violations were identified during the inspection.",
+              "options": [
+                "выявили",
+                "были выявлены",
+                "выявляют",
+                "выявить"
+              ],
+              "answer": "были выявлены",
+              "hint": "Official reports use passive: были + short participle.",
+              "explanation": "'Были выявлены' is formal passive, standard for inspection reports. Active 'выявили' would be too colloquial."
+            },
+            {
+              "prompt": "Casual story: Мой брат _____ всю мебель в квартире.",
+              "promptEnglish": "My brother assembled all the furniture. (casual narrative)",
+              "options": [
+                "была собрана",
+                "собирается",
+                "собрал",
+                "собрано"
+              ],
+              "answer": "собрал",
+              "hint": "Casual narrative uses active voice with a named subject.",
+              "explanation": "In casual storytelling, active 'собрал' with a named subject (мой брат) is natural and direct."
+            },
+            {
+              "prompt": "General observation: В Москве _____ очень быстро.",
+              "promptEnglish": "In Moscow, people drive very fast. (general truth)",
+              "options": [
+                "ездится",
+                "ездят",
+                "поехали",
+                "было поехано"
+              ],
+              "answer": "ездят",
+              "hint": "Impersonal: 3rd person plural, no subject, general observation.",
+              "explanation": "'Ездят' without a subject is impersonal, expressing a general observation about Moscow traffic."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Which pair correctly shows active to passive transformation?",
+              "promptEnglish": "Identify the correct transformation.",
+              "options": [
+                "Студент сдал экзамен. / Экзамен сдан студенту.",
+                "Студент сдал экзамен. / Экзамен сдан студентом.",
+                "Студент сдал экзамен. / Экзамен сдали студента.",
+                "Студент сдал экзамен. / Экзамен сдаётся студенту."
+              ],
+              "answer": "Студент сдал экзамен. / Экзамен сдан студентом.",
+              "hint": "In passive, the agent goes to instrumental case (студентом).",
+              "explanation": "Active subject (студент) becomes instrumental agent (студентом) in passive. The object (экзамен) becomes the subject."
+            },
+            {
+              "prompt": "Why does Russian prefer passive in legal texts?",
+              "promptEnglish": "What is the functional purpose of passive in law?",
+              "options": [
+                "It sounds more casual",
+                "It emphasizes the action and result over the doer",
+                "It is shorter than active voice",
+                "It avoids using verbs"
+              ],
+              "answer": "It emphasizes the action and result over the doer",
+              "hint": "Legal texts focus on what happened and its consequences, not on individuals.",
+              "explanation": "Passive voice in legal/official texts foregrounds the action ('Закон принят' - the law was adopted) over who specifically acted."
+            },
+            {
+              "prompt": "Choose the reflexive passive: Этот вопрос _____ на заседании.",
+              "promptEnglish": "This issue is being discussed at the meeting. (ongoing process)",
+              "options": [
+                "обсудили",
+                "обсуждён",
+                "обсуждается",
+                "обсуждать"
+              ],
+              "answer": "обсуждается",
+              "hint": "Reflexive passive (-ся) emphasizes an ongoing process.",
+              "explanation": "'Обсуждается' (is being discussed) is reflexive passive, showing the process is in progress right now."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Задача решена студент. (The task was solved by the student.)",
+          "error": "студент",
+          "correction": "студентом",
+          "hint": "The agent in passive voice must be in the instrumental case.",
+          "explanation": "'Студентом' (instrumental) is required after a passive participle. Nominative 'студент' is only for active voice subjects.",
+          "options": [
+            "студентом",
+            "студента",
+            "студенту"
+          ]
+        },
+        {
+          "sentence": "Работа выполняет каждый день. (The work is done every day.)",
+          "error": "выполняет",
+          "correction": "выполняется",
+          "hint": "Without a named subject, you need reflexive passive -ся.",
+          "explanation": "'Выполняется' (is being done) is reflexive passive. Active 'выполняет' requires a subject: someone performs the work.",
+          "options": [
+            "выполняется",
+            "выполняют",
+            "выполнен"
+          ]
+        },
+        {
+          "sentence": "Экзамены были сданы студентов. (The exams were passed by the students.)",
+          "error": "студентов",
+          "correction": "студентами",
+          "hint": "Agent = instrumental case, not genitive.",
+          "explanation": "'Студентами' (instrumental plural) is correct. Genitive 'студентов' is wrong here because the agent in passive uses instrumental.",
+          "options": [
+            "студентами",
+            "студентам",
+            "студенты"
+          ]
+        },
+        {
+          "sentence": "Письмо отправлена утром. (The letter was sent in the morning.)",
+          "error": "отправлена",
+          "correction": "отправлено",
+          "hint": "Short participle must agree in gender with the subject. Письмо is neuter.",
+          "explanation": "'Письмо' is neuter, so the participle must be neuter too: 'отправлено', not feminine 'отправлена'.",
+          "options": [
+            "отправлено",
+            "отправлен",
+            "отправлены"
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Storytelling: Бабушка _____ этот свитер.",
+          "contextEnglish": "Grandma knitted this sweater. (personal narrative)",
+          "options": [
+            "связала",
+            "был связан"
+          ],
+          "answer": "связала",
+          "explanation": "Personal narrative uses active voice. 'Бабушка связала' is warm and direct, emphasizing who made the sweater."
+        },
+        {
+          "context": "Product label: Свитер _____ из натуральной шерсти.",
+          "contextEnglish": "The sweater is made of natural wool. (product description)",
+          "options": [
+            "связан",
+            "связала"
+          ],
+          "answer": "связан",
+          "explanation": "Product descriptions use passive: 'связан из шерсти' focuses on the product, not the maker."
+        },
+        {
+          "context": "General wisdom: В деревне _____ рано.",
+          "contextEnglish": "In the countryside, people get up early. (general truth)",
+          "options": [
+            "встают",
+            "встан"
+          ],
+          "answer": "встают",
+          "explanation": "Impersonal 'встают' (3rd person plural, no subject) expresses a general truth about village life."
+        }
+      ]
+    }
+  ]
+}

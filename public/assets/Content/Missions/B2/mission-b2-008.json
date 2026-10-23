@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-008",
+  "title": "Police Report",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "File a police report after your wallet was stolen",
+  "imageName": "shield.fill",
+  "initialPrompt": "Отделение полиции, дежурный. Что у вас произошло?",
+  "systemPrompt": "You are police officer taking report. Need: what happened, when, where, description of thief if seen, what was stolen, contact info. Explain: report number, investigation process, call if found. Keep replies short, professional.",
+  "completionCriteria": "User filed complete report with all details.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня украли кошелёк (My wallet was stolen)",
+    "Это произошло час назад (It happened an hour ago)",
+    "В кошельке были документы и деньги (The wallet had documents and money)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "заявление",
+      "definition": "report/statement"
+    },
+    {
+      "word": "кража",
+      "definition": "theft"
+    },
+    {
+      "word": "украсть",
+      "definition": "to steal"
+    },
+    {
+      "word": "свидетель",
+      "definition": "witness"
+    },
+    {
+      "word": "описание",
+      "definition": "description"
+    },
+    {
+      "word": "расследование",
+      "definition": "investigation"
+    }
+  ],
+  "objectives": [
+    "Explain what was stolen",
+    "Describe when and where it happened",
+    "Describe the thief if you saw them",
+    "List what was in the wallet",
+    "Get report number and next steps"
+  ]
+}

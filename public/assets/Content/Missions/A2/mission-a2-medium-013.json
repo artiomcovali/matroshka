@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-013",
+  "title": "Flight Delay",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Your flight is delayed - find out options at the airline desk",
+  "imageName": "airplane.departure",
+  "initialPrompt": "Добрый день. К сожалению, ваш рейс задерживается на три часа. Чем могу помочь?",
+  "systemPrompt": "You work airline desk. Flight delayed 3 hours. Can offer: wait (free meal voucher), rebooking to later flight, or refund if they cancel. Keep replies short.",
+  "completionCriteria": "User understood delay and chose an option.",
+  "responseLimit": 15,
+  "hints": [
+    "Почему задержка? (Why is it delayed?)",
+    "Какие варианты есть? (What options are there?)",
+    "Можно перебронировать? (Can I rebook?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "рейс",
+      "definition": "flight"
+    },
+    {
+      "word": "задержка",
+      "definition": "delay"
+    },
+    {
+      "word": "ждать",
+      "definition": "to wait"
+    },
+    {
+      "word": "перебронировать",
+      "definition": "to rebook"
+    },
+    {
+      "word": "возврат",
+      "definition": "refund"
+    },
+    {
+      "word": "ваучер",
+      "definition": "voucher"
+    }
+  ],
+  "objectives": [
+    "Ask about the delay reason",
+    "Ask what options are available",
+    "Understand the choices",
+    "Choose: wait, rebook, or refund"
+  ]
+}

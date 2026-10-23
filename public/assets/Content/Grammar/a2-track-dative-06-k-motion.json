@@ -1,0 +1,300 @@
+{
+  "id": "a2-track-dative-06-k-motion",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Dative 6: Motion Toward (к + dative)",
+  "titleRussian": "Дательный 6: Движение к (к + дательный)",
+  "description": "The preposition к (toward) takes the dative case. Used with motion verbs: 'Я иду к маме' (I'm going to mom).",
+  "descriptionRussian": "Предлог 'к' (по направлению к) требует дательного падежа. Используется с глаголами движения.",
+  "imageName": "arrow.up.right",
+  "trackId": "a2-dative-mastery",
+  "trackTitle": "Dative Mastery",
+  "trackTitleRussian": "Дательный падеж",
+  "trackIndex": 6,
+  "trackTotal": 8,
+  "intro": "One preposition takes this case, and it means going toward. The distinction worth getting right is between going to a person and going into a place: Russian uses this preposition for the first and a different one for the second. Going to your mother and going to school are built differently, and mixing them up is the commonest mistake here.",
+  "rules": [
+    "К is the one common preposition that takes the dative case. It expresses MOTION TOWARD a person or thing: к маме, к брату, к окну.",
+    "К pairs with motion verbs: идти, ехать, подходить, приходить, etc. The dative form of the target follows the same rules as Lesson 1.",
+    "Use к for motion toward PEOPLE; use в + accusative for motion INTO a building. 'Я иду к маме' (to mom) vs 'Я иду в школу' (to school)."
+  ],
+  "examples": [
+    "Я иду к маме. (I'm going to mom.) мама → маме (dat fem -а).",
+    "Антон едет к брату. (Anton is going (by transport) to brother.) брат → брату (dat masc).",
+    "Маша подходит к окну. (Masha is approaching the window.) окно → окну (dat neuter -о).",
+    "Лена идёт к Антону. (Lena is going to Anton.) Антон → Антону (dat masc).",
+    "Я иду к тёте. (I'm going to aunt.) тётя → тёте (dat fem -я).",
+    "Антон подходит к морю. (Anton is approaching the sea.) море → морю (dat neuter -е)."
+  ],
+  "tables": [
+    {
+      "title": "к + Dative: Motion Toward",
+      "headers": [
+        "Phrase",
+        "Sentence",
+        "Target form",
+        "Pattern"
+      ],
+      "rows": [
+        {
+          "label": "к маме",
+          "cells": [
+            "Я иду к маме.",
+            "маме",
+            "fem -а → -е"
+          ]
+        },
+        {
+          "label": "к брату",
+          "cells": [
+            "Антон едет к брату.",
+            "брату",
+            "masc cons + -у"
+          ]
+        },
+        {
+          "label": "к тёте",
+          "cells": [
+            "Я иду к тёте.",
+            "тёте",
+            "fem -я → -е"
+          ]
+        },
+        {
+          "label": "к окну",
+          "cells": [
+            "Маша подходит к окну.",
+            "окну",
+            "neuter -о → -у"
+          ]
+        },
+        {
+          "label": "к морю",
+          "cells": [
+            "Антон подходит к морю.",
+            "морю",
+            "neuter -е → -ю"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ холодно.",
+          "promptEnglish": "I'm cold.",
+          "options": [
+            "я",
+            "меня",
+            "мне",
+            "мной"
+          ],
+          "answer": "мне",
+          "hint": "Recap from Lesson 5: which form of я is the state experiencer?",
+          "explanation": "Recap from Lesson 5: the state experiencer is dative. Я → мне. Today's lesson keeps the dative but adds a new trigger: the preposition к."
+        },
+        {
+          "prompt": "Я иду к _____.",
+          "promptEnglish": "I'm going to mom.",
+          "options": [
+            "мама",
+            "маме",
+            "маму",
+            "мамой"
+          ],
+          "answer": "маме",
+          "hint": "К takes which case? Apply the feminine rule from Lesson 1.",
+          "explanation": "К is the one preposition that takes the dative. Мама is feminine -а: -а → -е → маме. The whole phrase 'к маме' means 'to mom' (toward mom)."
+        },
+        {
+          "prompt": "Антон едет к _____.",
+          "promptEnglish": "Anton is going to his brother.",
+          "options": [
+            "брата",
+            "брате",
+            "братом",
+            "брату"
+          ],
+          "answer": "брату",
+          "hint": "Брат is masculine consonant. Apply the dative rule.",
+          "explanation": "Брат → брату. Ехать paired with к expresses 'going (by transport) to a person.' The form is the same dative -у you've used since Lesson 1."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маша подходит к _____.",
+          "promptEnglish": "Masha is approaching the window.",
+          "options": [
+            "окно",
+            "окна",
+            "окну",
+            "окном"
+          ],
+          "answer": "окну",
+          "hint": "Окно is neuter -о. Apply the neuter dative rule.",
+          "explanation": "Окно → окну. К + dative also works for motion toward inanimate things. Подходить к + dat is the standard 'approach' construction."
+        },
+        {
+          "prompt": "Я иду к _____.",
+          "promptEnglish": "I'm going to aunt.",
+          "options": [
+            "тётя",
+            "тётю",
+            "тётей",
+            "тёте"
+          ],
+          "answer": "тёте",
+          "hint": "Тётя is feminine -я. The dative ending is...?",
+          "explanation": "Тётя → тёте. Soft -я swaps to -е, parallel to fem -а → -е."
+        },
+        {
+          "prompt": "Лена едет к _____.",
+          "promptEnglish": "Lena is going to Anton.",
+          "options": [
+            "Антона",
+            "Антону",
+            "Антоне",
+            "Антоном"
+          ],
+          "answer": "Антону",
+          "hint": "Антон is masculine consonant. Same masculine rule.",
+          "explanation": "Антон → Антону. Names follow the same dative rules as common nouns. Ехать к + dat means 'going (by transport) to (a person).'"
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Антон подходит к _____. (Anton is approaching the sea.)"
+    ],
+    "choices": [
+      "море",
+      "моря",
+      "морю",
+      "морем"
+    ],
+    "answers": [
+      "морю"
+    ],
+    "grammarFocus": "Море is neuter -е. К + dative neuter -е takes -ю → морю. К works with both animate (people) and inanimate (sea, window) targets of motion."
+  },
+  "minimalPairs": [
+    {
+      "context": "Я иду к _____.",
+      "contextEnglish": "I'm going to mom.",
+      "options": [
+        "мама",
+        "маме"
+      ],
+      "answer": "маме",
+      "explanation": "К takes the dative. Мама → маме. The nominative мама does not appear after a preposition; only the dative form is grammatical here."
+    },
+    {
+      "context": "Антон едет к _____.",
+      "contextEnglish": "Anton is going to brother.",
+      "options": [
+        "брат",
+        "брату"
+      ],
+      "answer": "брату",
+      "explanation": "К takes the dative. Брат → брату. The same word would appear in different forms after different prepositions: 'у брата' (gen, at brother's place), 'о брате' (prep, about brother), 'к брату' (dat, toward brother)."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Я иду к мама.",
+      "translationEnglish": "I am going to mom.",
+      "error": "к мама",
+      "correction": "к маме",
+      "options": [
+        "к маме",
+        "к маму",
+        "к мамой"
+      ],
+      "explanation": "К governs the dative, so мама → маме: к маме. The nominative мама cannot follow a preposition. The dative answers 'к кому?' (toward whom)."
+    },
+    {
+      "sentence": "Антон едет к брат.",
+      "translationEnglish": "Anton is going to his brother.",
+      "error": "к брат",
+      "correction": "к брату",
+      "options": [
+        "к брату",
+        "к брата",
+        "к братом"
+      ],
+      "explanation": "К takes the dative: брат → брату (masculine consonant + -у). К брат leaves the bare nominative, which never follows a preposition. After к, the target of motion is dative: к брату."
+    },
+    {
+      "sentence": "Я иду в маме.",
+      "translationEnglish": "I am going to mom.",
+      "error": "в маме",
+      "correction": "к маме",
+      "options": [
+        "к маме",
+        "в маму",
+        "к мамой"
+      ],
+      "explanation": "Motion toward a PERSON uses к + dative, not в: к маме. В marks motion into or location inside a place (в школу, в школе), so в маме would mean 'inside mom', which makes no sense. The contrast is к (toward a person or thing) versus в (into or inside a building)."
+    },
+    {
+      "sentence": "Кот тихо подходит к окно.",
+      "translationEnglish": "The cat quietly approaches the window.",
+      "error": "к окно",
+      "correction": "к окну",
+      "options": [
+        "к окну",
+        "к окна",
+        "к окном"
+      ],
+      "explanation": "К governs the dative, and neuter nouns ending in -о swap -о for -у: окно → окну, so к окну. Подходить к + dative is the standard 'approach' construction, and к works for things as well as people: к окну."
+    },
+    {
+      "sentence": "В воскресенье я иду к тётю.",
+      "translationEnglish": "On Sunday I am going to my aunt's.",
+      "error": "к тётю",
+      "correction": "к тёте",
+      "options": [
+        "к тёте",
+        "к тёти",
+        "к тётей"
+      ],
+      "explanation": "К takes the dative, and feminine nouns in -я swap -я for -е: тётя → тёте, so к тёте. Тётю is the accusative, which к does not govern. The soft -я becomes a soft -е, parallel to feminine -а → -е."
+    },
+    {
+      "sentence": "Маша часто ходит к сестра в гости.",
+      "translationEnglish": "Masha often visits her sister.",
+      "error": "к сестра",
+      "correction": "к сестре",
+      "options": [
+        "к сестре",
+        "к сестру",
+        "к сестрой"
+      ],
+      "explanation": "К governs the dative, and feminine -а nouns swap -а for -е: сестра → сестре, so к сестре. The phrase 'ходить к кому в гости' means 'to visit someone'. Сестра is the bare nominative, which never follows a preposition."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "к",
+      "definition": "toward (preposition + dative; pairs with motion verbs to express direction toward a person or thing)",
+      "example": "Я иду к маме."
+    },
+    {
+      "term": "идти / ехать",
+      "definition": "to go (on foot / by transport, one direction); both pair with к + dative",
+      "example": "Я иду к брату. Антон едет к другу."
+    },
+    {
+      "term": "подходить",
+      "definition": "to approach (always paired with к + dative: подходить к + dat)",
+      "example": "Маша подходит к окну."
+    }
+  ]
+}

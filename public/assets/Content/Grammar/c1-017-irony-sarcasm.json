@@ -1,0 +1,295 @@
+{
+  "id": "c1-017-irony-sarcasm",
+  "level": "C1",
+  "focusArea": "sentenceStructure",
+  "title": "Irony and Sarcasm",
+  "titleRussian": "Ирония и сарказм",
+  "description": "Grammatical markers of irony",
+  "descriptionRussian": "Грамматические маркеры иронии",
+  "imageName": "theatermasks",
+  "intro": "Russian signals irony through grammar, not just tone. PARTICLES: -то (Умный-то он умный, но... - He's smart alright, but...), так называемый (so-called), якобы (supposedly). INTONATION MARKERS: Ну да! (Yeah right!), Как же! (As if!), Ещё чего! (No way!). DIMINUTIVES: Умненький! (Oh so clever! - mocking), Хорошенькое дело! (A fine mess!). REGISTER MISMATCH: Formal words for trivial things, slang for formal contexts. RHETORICAL QUESTIONS: Кто бы мог подумать? (Who would have thought? - obvious).",
+  "rules": [
+    "Concessive -то: Умный-то он умный, но... (He's smart, BUT...)",
+    "Sarcastic particles: Ну да!, Как же!, Ещё чего! (Yeah right!)",
+    "Mocking diminutives: Умненький!, Хорошенькое дело!",
+    "так называемый (so-called), якобы (supposedly) - distancing"
+  ],
+  "examples": [
+    "Умный-то он умный, но ленивый. (He's smart alright, but lazy.)",
+    "Ну да, конечно! (Yeah, sure!, sarcastic disbelief)",
+    "Хорошенькое дело! (A fine mess!, ironic)",
+    "Его так называемые друзья. (His so-called friends.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Concessive: Красивый_____ он красивый, но глупый.",
+          "promptEnglish": "He's handsome alright, but stupid.",
+          "options": [
+            "-же",
+            "-вот",
+            "-то",
+            "-ну"
+          ],
+          "answer": "-то",
+          "hint": "Concessive = X-то X, но...",
+          "explanation": "Concessive: красивый-то...Но..."
+        },
+        {
+          "prompt": "Sarcastic disbelief: _____ да, конечно!",
+          "promptEnglish": "Yeah, sure! (sarcastic)",
+          "options": [
+            "Да",
+            "Так",
+            "Ну",
+            "Вот"
+          ],
+          "answer": "Ну",
+          "hint": "Sarcastic = Ну да!",
+          "explanation": "Sarcasm: Ну да! (Yeah right!)"
+        },
+        {
+          "prompt": "So-called: Его _____ называемые друзья.",
+          "promptEnglish": "His so-called friends.",
+          "options": [
+            "что",
+            "это",
+            "так",
+            "как"
+          ],
+          "answer": "так",
+          "hint": "Distancing = так называемый",
+          "explanation": "Distancing: так называемый."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Ironic diminutive: _____ дело! (A fine mess!)",
+          "promptEnglish": "Ironic comment on bad situation",
+          "options": [
+            "Плохое",
+            "Хорошенькое",
+            "Большое",
+            "Хорошее"
+          ],
+          "answer": "Хорошенькое",
+          "hint": "Ironic diminutive",
+          "explanation": "Ironic: Хорошенькое дело!"
+        },
+        {
+          "prompt": "As if!: _____ же! (Yeah right!)",
+          "promptEnglish": "Sarcastic rejection",
+          "options": [
+            "Так",
+            "Вот",
+            "Как",
+            "Ну"
+          ],
+          "answer": "Как",
+          "hint": "Dismissive = Как же!",
+          "explanation": "Sarcasm: Как же! (As if!)"
+        },
+        {
+          "prompt": "No way!: _____ чего! (Absolutely not!)",
+          "promptEnglish": "Emphatic refusal",
+          "options": [
+            "Как",
+            "Ну",
+            "Так",
+            "Ещё"
+          ],
+          "answer": "Ещё",
+          "hint": "Refusal = Ещё чего!",
+          "explanation": "Refusal: Ещё чего! (No way!)"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Supposedly: Он _____ эксперт. (allegedly - doubt)",
+          "promptEnglish": "He's supposedly an expert.",
+          "options": [
+            "правда",
+            "якобы",
+            "точно",
+            "конечно"
+          ],
+          "answer": "якобы",
+          "hint": "Doubt = якобы",
+          "explanation": "Doubt: якобы (supposedly)."
+        },
+        {
+          "prompt": "Mocking: Ну ты _____! (Oh, so clever!)",
+          "promptEnglish": "Mocking someone's 'cleverness'",
+          "options": [
+            "умный",
+            "умён",
+            "умненький",
+            "умник"
+          ],
+          "answer": "умненький",
+          "hint": "Mocking diminutive",
+          "explanation": "Mocking: умненький!"
+        },
+        {
+          "prompt": "Rhetorical: Кто бы мог _____? (Who would've thought?)",
+          "promptEnglish": "Who would have thought? (obvious)",
+          "options": [
+            "сказать",
+            "подумать",
+            "знать",
+            "видеть"
+          ],
+          "answer": "подумать",
+          "hint": "Rhetorical irony",
+          "explanation": "Rhetorical: Кто бы мог подумать?"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Работать_____ он работает, но результатов нет. (ироническая уступка)",
+          "promptEnglish": "He does work, sure, but there are no results.",
+          "options": [
+            "-же",
+            "-ну",
+            "-то",
+            "-вот"
+          ],
+          "answer": "-то",
+          "hint": "Уступительная конструкция: X-то X, но...",
+          "explanation": "Частица -то создаёт ироническую уступку: «работать-то работает, но...»"
+        },
+        {
+          "prompt": "Его _____ помощь только всё испортила. (so-called, с иронией)",
+          "promptEnglish": "His so-called help only made everything worse.",
+          "options": [
+            "так называемая",
+            "якобы",
+            "настоящая",
+            "большая"
+          ],
+          "answer": "так называемая",
+          "hint": "A phrase that expresses skepticism about a label",
+          "explanation": "«Так называемая» выражает сомнение и иронию: помощь, которая помощью не является."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Работать-_____ он работает, но без энтузиазма. (concessive)"
+    ],
+    "choices": [
+      "то",
+      "же",
+      "ну",
+      "вот"
+    ],
+    "answers": [
+      "то"
+    ],
+    "grammarFocus": "Concessive construction: X-то X, но...",
+    "hints": [
+      "This sarcastic/concessive construction repeats a verb with a particle in between, meaning 'sure he does X, BUT...' Which particle creates this pattern?"
+    ],
+    "explanations": [
+      "The construction 'X-то X, но...' (verb-то verb, но...) is a concessive that grudgingly admits something while undermining it: 'Работать-то он работает, но без энтузиазма' (He does work, sure, but without enthusiasm). The particle -то creates this ironic concession."
+    ],
+    "options": [
+      [
+        "ну",
+        "вот",
+        "же",
+        "то"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Sincere: Он умный человек.",
+      "contextEnglish": "He's a smart person. (sincere)",
+      "options": [
+        "умный",
+        "умненький"
+      ],
+      "answer": "умный",
+      "explanation": "Sincere: умный."
+    },
+    {
+      "context": "Mocking: Ну ты _____!",
+      "contextEnglish": "Oh, so clever! (mocking)",
+      "options": [
+        "умненький",
+        "умный"
+      ],
+      "answer": "умненький",
+      "explanation": "Mocking: умненький."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by irony marker type",
+    "categories": [
+      "Particle/Word",
+      "Diminutive",
+      "Fixed Expression"
+    ],
+    "items": [
+      {
+        "word": "так называемый",
+        "category": "Particle/Word"
+      },
+      {
+        "word": "хорошенькое дело",
+        "category": "Diminutive"
+      },
+      {
+        "word": "Ну да!",
+        "category": "Fixed Expression"
+      },
+      {
+        "word": "якобы",
+        "category": "Particle/Word"
+      },
+      {
+        "word": "умненький",
+        "category": "Diminutive"
+      },
+      {
+        "word": "Как же!",
+        "category": "Fixed Expression"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "X-то X, но...",
+      "definition": "X alright, but... (concessive)",
+      "example": "Умный-то он умный, но..."
+    },
+    {
+      "term": "Ну да! / Как же!",
+      "definition": "Yeah right! / As if!",
+      "example": "Ну да, конечно!"
+    },
+    {
+      "term": "так называемый",
+      "definition": "so-called (distancing/doubt)",
+      "example": "Так называемые эксперты."
+    },
+    {
+      "term": "Хорошенькое дело!",
+      "definition": "A fine mess! (ironic)",
+      "example": "Хорошенькое дело!"
+    }
+  ]
+}

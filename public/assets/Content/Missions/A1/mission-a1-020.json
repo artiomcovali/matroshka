@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-020",
+  "title": "Lost in the Park",
+  "level": "A1",
+  "description": "Ask for help finding the exit",
+  "imageName": "figure.walk",
+  "initialPrompt": "Здравствуйте! Вы потерялись?",
+  "systemPrompt": "You are in a park. Give simple directions to the exit: прямо, потом налево. Keep replies short.",
+  "completionCriteria": "User asked for directions to exit and understood them.",
+  "responseLimit": 15,
+  "hints": [
+    "Где выход? (Where is the exit?)",
+    "Прямо? (Straight?)",
+    "Налево или направо? (Left or right?)",
+    "Спасибо! (Thank you!)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "выход",
+      "definition": "exit"
+    },
+    {
+      "word": "прямо",
+      "definition": "straight"
+    },
+    {
+      "word": "налево",
+      "definition": "left"
+    },
+    {
+      "word": "направо",
+      "definition": "right"
+    },
+    {
+      "word": "где",
+      "definition": "where"
+    }
+  ],
+  "objectives": [
+    "Ask where the exit is (Где выход?)",
+    "Understand directions (прямо, налево)",
+    "Thank them (Спасибо)"
+  ]
+}

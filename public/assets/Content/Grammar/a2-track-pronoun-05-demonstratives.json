@@ -1,0 +1,372 @@
+{
+  "id": "a2-track-pronoun-05-demonstratives",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Pronoun Declension 5: Demonstratives Across All Six Cases (этот, тот, чей)",
+  "titleRussian": "Склонение местоимений 5: указательные по всем шести падежам (этот, тот, чей)",
+  "description": "Этот / тот decline across all six cases like adjectives, with their own irregular instrumental masc / neut form (этим, тем, not 'этом'). Чей (whose) declines on the same pattern as the soft possessive мой.",
+  "descriptionRussian": "Этот / тот склоняются по всем шести падежам, как прилагательные, со своей нерегулярной формой творительного падежа (этим, тем). Чей склоняется как мягкое мой.",
+  "imageName": "hand.point.right",
+  "trackId": "a2-pronoun-declension-mastery",
+  "trackTitle": "Pronoun Declension Mastery",
+  "trackTitleRussian": "Склонение местоимений",
+  "trackIndex": 5,
+  "trackTotal": 6,
+  "intro": "Demonstratives run the same machinery again, which by now should feel routine. There is one trap worth pointing at: the masculine instrumental and the masculine prepositional of these words look confusingly alike, and choosing the wrong one produces a real error rather than an accent. Read the trigger, not the shape.",
+  "rules": [
+    "Этот declines through all six cases: gen этого / этой; dat этому / этой; instr этим / этой; prep об этом / об этой. Plural: gen этих, dat этим, instr этими, prep об этих.",
+    "Тот declines on a parallel pattern: gen того / той; dat тому / той; instr тем / той; prep о том / о той. Plural: gen тех, dat тем, instr теми, prep о тех.",
+    "The masc / neut sg instrumental of этот is этим and of тот is тем. NOT 'этом' or 'том' (those are the prepositional forms). The trigger word decides which: с + instr = этим / тем; о + prep = этом / том.",
+    "Чей (whose) is the rarer demonstrative-like question word; it declines on the soft pattern: чьего / чьей / чьего / чьих; чьему / чьей / чьему / чьим; чьим / чьей / чьим / чьими; о чьём / о чьей / о чьём / о чьих."
+  ],
+  "examples": [
+    "У этого студента есть учебник. (This student has a textbook.) У + gen, masc animate; этот → этого.",
+    "Маша помогает этой девушке. (Masha helps this girl.) Помогать + dat, fem; эта → этой.",
+    "Антон работает с этим инженером. (Anton works with this engineer.) С + instr, masc; этот → этим (NOT этом).",
+    "Лена думает об этом фильме. (Lena is thinking about this film.) О + prep, masc; этот → этом (NOT этим). Note об, not о.",
+    "Я знаю того писателя. (I know that writer.) Acc masc animate; тот → того (acc = gen for animate).",
+    "Чьего брата ты знаешь? (Whose brother do you know?) Чей + acc masc animate; чей → чьего."
+  ],
+  "tables": [
+    {
+      "title": "Этот Across All Six Cases",
+      "headers": [
+        "Case",
+        "Masc / neut sg",
+        "Fem sg",
+        "Plural"
+      ],
+      "rows": [
+        {
+          "label": "Nominative",
+          "cells": [
+            "этот / это",
+            "эта",
+            "эти"
+          ]
+        },
+        {
+          "label": "Accusative",
+          "cells": [
+            "этот / этого / это",
+            "эту",
+            "эти / этих"
+          ]
+        },
+        {
+          "label": "Genitive",
+          "cells": [
+            "этого",
+            "этой",
+            "этих"
+          ]
+        },
+        {
+          "label": "Dative",
+          "cells": [
+            "этому",
+            "этой",
+            "этим"
+          ]
+        },
+        {
+          "label": "Instrumental",
+          "cells": [
+            "этим",
+            "этой",
+            "этими"
+          ]
+        },
+        {
+          "label": "Prepositional",
+          "cells": [
+            "об этом",
+            "об этой",
+            "об этих"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Тот Across All Six Cases",
+      "headers": [
+        "Case",
+        "Masc / neut sg",
+        "Fem sg",
+        "Plural"
+      ],
+      "rows": [
+        {
+          "label": "Nominative",
+          "cells": [
+            "тот / то",
+            "та",
+            "те"
+          ]
+        },
+        {
+          "label": "Genitive",
+          "cells": [
+            "того",
+            "той",
+            "тех"
+          ]
+        },
+        {
+          "label": "Dative",
+          "cells": [
+            "тому",
+            "той",
+            "тем"
+          ]
+        },
+        {
+          "label": "Instrumental",
+          "cells": [
+            "тем",
+            "той",
+            "теми"
+          ]
+        },
+        {
+          "label": "Prepositional",
+          "cells": [
+            "о том",
+            "о той",
+            "о тех"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "У _____ брата есть машина.",
+          "promptEnglish": "My brother has a car. (warm-up from Lesson 4)",
+          "options": [
+            "мой",
+            "моему",
+            "моим",
+            "моего"
+          ],
+          "answer": "моего",
+          "hint": "Recap from Lesson 4: у + gen with a masc animate noun. The possessive matches.",
+          "explanation": "Recap from Lesson 4: the masc gen of мой is моего. У + gen takes the genitive; брат is masc animate. Today we keep the same syntactic frames but swap the possessive for a demonstrative."
+        },
+        {
+          "prompt": "У _____ студента есть учебник.",
+          "promptEnglish": "This student has a textbook.",
+          "options": [
+            "этот",
+            "этого",
+            "этому",
+            "этим"
+          ],
+          "answer": "этого",
+          "hint": "У + gen with a masc animate noun. Этот → ?",
+          "explanation": "У + gen takes the genitive. The masc gen of этот is этого. Note this matches the masc gen of мой (моего) and adjectives (нового): a uniform -ого ending across the entire masc / neut singular genitive."
+        },
+        {
+          "prompt": "Маша помогает _____ девушке.",
+          "promptEnglish": "Masha helps this girl.",
+          "options": [
+            "эту",
+            "эта",
+            "этой",
+            "этим"
+          ],
+          "answer": "этой",
+          "hint": "Помогать + dat, fem singular. The fem oblique form of этот.",
+          "explanation": "The dative of эта is этой. The feminine collapses gen / dat / instr / prep into one form (этой), exactly like the possessive моей and the adjective новой: four cases, one form, four triggers to disambiguate."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Антон работает с _____ инженером.",
+          "promptEnglish": "Anton works with this engineer.",
+          "options": [
+            "этот",
+            "этого",
+            "этом",
+            "этим"
+          ],
+          "answer": "этим",
+          "hint": "С + instr, masc. Watch out for the этим / этом pair.",
+          "explanation": "С + instr takes the instrumental. The masc instr of этот is этим (with -им, NOT этом, which is the prepositional). The pair этим / этом is the trickiest slot in this lesson; the trigger word decides: с = instr, о / об = prep."
+        },
+        {
+          "prompt": "Лена думает об _____ фильме.",
+          "promptEnglish": "Lena is thinking about this film.",
+          "options": [
+            "этим",
+            "этого",
+            "этом",
+            "этому"
+          ],
+          "answer": "этом",
+          "hint": "Об + prep, masc. Compare to с этим in the previous question.",
+          "explanation": "Об + prep takes the prepositional. The masc prep of этот is этом (with -ом, NOT этим, which is the instrumental). Note об (not о) before words starting with vowels: об этом, об экзамене. The этим / этом swap is the central error for this lesson; remember the trigger word."
+        },
+        {
+          "prompt": "Я знаю _____ писателя.",
+          "promptEnglish": "I know that writer.",
+          "options": [
+            "тот",
+            "то",
+            "тем",
+            "того"
+          ],
+          "answer": "того",
+          "hint": "Знать + acc; писатель is masc animate. Acc = gen for animate.",
+          "explanation": "The acc of тот for masc animate borrows from the genitive: того. Same pattern as the possessive (моего) and the adjective (нового). The bare nominative тот would be used for inanimate nouns: я вижу тот стол."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша работает в _____ школе. (Masha works in this school.)"
+    ],
+    "choices": [
+      "эта",
+      "этой",
+      "этим",
+      "этом"
+    ],
+    "answers": [
+      "этой"
+    ],
+    "grammarFocus": "В + prep takes the prepositional. Школа is feminine; the fem oblique form of этот is этой (the four-in-one fem form). Маша работает в этой школе."
+  },
+  "minimalPairs": [
+    {
+      "context": "Антон работает с _____ инженером.",
+      "contextEnglish": "Anton works with this engineer.",
+      "options": [
+        "этим",
+        "этом"
+      ],
+      "answer": "этим",
+      "explanation": "С + instr triggers the instrumental. The masc instr of этот is этим. Этом is the prepositional (об этом инженере). The two forms differ only by which preposition triggers them."
+    },
+    {
+      "context": "_____ брата ты знаешь?",
+      "contextEnglish": "Whose brother do you know?",
+      "options": [
+        "Чей",
+        "Чьего"
+      ],
+      "answer": "Чьего",
+      "explanation": "Знать + acc; брат is masc animate, so acc = gen. The masc gen of чей is чьего. Чей is the nominative form (Чей это брат? = Whose brother is this?), used in subject position."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Антон работает с том инженером.",
+      "translationEnglish": "Anton works with that engineer.",
+      "error": "том",
+      "correction": "тем",
+      "options": [
+        "тем",
+        "того",
+        "тому"
+      ],
+      "explanation": "С + instrumental triggers the instrumental, not the prepositional. The masculine instrumental of тот is тем: с тем инженером. Том is the prepositional (о том инженере), used after о / об, not after с."
+    },
+    {
+      "sentence": "Маша знает того сестру.",
+      "translationEnglish": "Masha knows that sister.",
+      "error": "того",
+      "correction": "ту",
+      "options": [
+        "ту",
+        "та",
+        "той"
+      ],
+      "explanation": "Знать takes the accusative, and сестра is feminine, so the demonstrative agrees in the feminine: the accusative of та is ту, not the masculine genitive того. Того would only fit a masculine animate noun ('того брата'). For 'that sister', the feminine accusative ту."
+    },
+    {
+      "sentence": "У егого брата есть собака.",
+      "translationEnglish": "His brother has a dog.",
+      "error": "егого",
+      "correction": "его",
+      "options": [
+        "его",
+        "него",
+        "ему"
+      ],
+      "explanation": "Его ('his') is invariant: it never declines, even after a preposition or in an oblique case. У его брата means 'at his brother's' (his brother has): the noun брата is genitive after у, but the possessive его stays его. Егого is an invented declined form that does not exist. The invariant possessive stays его."
+    },
+    {
+      "sentence": "Чьего сестру ты знаешь?",
+      "translationEnglish": "Whose sister do you know?",
+      "error": "Чьего",
+      "correction": "Чью",
+      "options": [
+        "Чью",
+        "Чья",
+        "Чьей"
+      ],
+      "explanation": "Сестра is feminine, and знать takes the accusative, so чей agrees in the feminine accusative: чью, not the masculine genitive чьего. Чьего would fit only a masculine animate noun ('Чьего брата ты знаешь?'). For 'whose sister' as an object, чью."
+    },
+    {
+      "sentence": "Мы долго говорили о тем случае.",
+      "translationEnglish": "We talked about that case for a long time.",
+      "error": "тем",
+      "correction": "том",
+      "options": [
+        "том",
+        "того",
+        "тому"
+      ],
+      "explanation": "О (about) governs the prepositional, and the masculine prepositional of тот is том, not the instrumental тем. Тем is the instrumental, used after с ('с тем инженером'). Correct: Мы долго говорили о том случае."
+    },
+    {
+      "sentence": "Антон подошёл к того окну.",
+      "translationEnglish": "Anton walked up to that window.",
+      "error": "к того",
+      "correction": "к тому",
+      "options": [
+        "к тому",
+        "к том",
+        "к тем"
+      ],
+      "explanation": "К governs the dative, and the masculine/neuter dative of тот is тому. Окно is neuter, so к тому окну. Того is the genitive, which follows у or без, not к. After к, the demonstrative is dative: к тому."
+    },
+    {
+      "sentence": "Я хорошо знаю тот студента.",
+      "translationEnglish": "I know that student well.",
+      "error": "тот",
+      "correction": "того",
+      "options": [
+        "того",
+        "тому",
+        "тем"
+      ],
+      "explanation": "For a masculine ANIMATE noun, the accusative borrows the genitive form, so 'that student' (object of знать) is того студента, not тот студента. Тот is the nominative or inanimate accusative (as in 'тот дом'). Correct: Я хорошо знаю того студента."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "указательное местоимение",
+      "definition": "demonstrative pronoun (этот / тот: marks proximity to the speaker; both decline through all six cases)",
+      "example": "В сочетании 'у этого студента' указательное 'этого' стоит в родительном падеже, согласуясь с 'студентом'."
+    },
+    {
+      "term": "вопросительное местоимение чей",
+      "definition": "the question word чей (whose: declines on the soft possessive pattern)",
+      "example": "В вопросе 'Чьего брата ты знаешь?' вопросительное чей стоит в винительном падеже мужского рода и совпадает с родительным."
+    },
+    {
+      "term": "винительный одушевлённого",
+      "definition": "accusative for animate (the form that borrows the genitive ending: этого студента, того писателя, чьего брата)",
+      "example": "Видно одушевлённость: винительный 'этого студента' совпадает с родительным, потому что 'студент' одушевлён."
+    }
+  ]
+}

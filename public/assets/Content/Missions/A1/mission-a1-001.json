@@ -1,0 +1,48 @@
+{
+  "id": "mission-a1-001",
+  "title": "Order Coffee",
+  "level": "A1",
+  "description": "Order a coffee at a Russian cafe",
+  "imageName": "cup.and.saucer.fill",
+  "initialPrompt": "Добрый день! Добро пожаловать в наше кафе. Что вы хотите?",
+  "systemPrompt": "You are a Russian barista. Menu: кофе 150₽, чай 100₽. Keep replies short (1-2 sentences). Use simple A1 words.",
+  "completionCriteria": "User ordered a drink and you confirmed it.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу... (I want...)",
+    "Кофе, пожалуйста (Coffee, please)",
+    "Сколько стоит? (How much does it cost?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "кофе",
+      "definition": "coffee"
+    },
+    {
+      "word": "чай",
+      "definition": "tea"
+    },
+    {
+      "word": "пожалуйста",
+      "definition": "please"
+    },
+    {
+      "word": "спасибо",
+      "definition": "thank you"
+    },
+    {
+      "word": "хочу",
+      "definition": "I want"
+    },
+    {
+      "word": "сколько",
+      "definition": "how much"
+    }
+  ],
+  "objectives": [
+    "Greet the barista (Добрый день)",
+    "Order coffee (кофе) or tea (чай)",
+    "Ask the price (Сколько стоит?)",
+    "Thank them (Спасибо)"
+  ]
+}

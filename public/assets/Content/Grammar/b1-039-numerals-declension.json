@@ -1,0 +1,345 @@
+{
+  "id": "b1-039-numerals-declension",
+  "level": "B1",
+  "focusArea": "cases",
+  "title": "Numeral Declension",
+  "titleRussian": "Склонение числительных",
+  "description": "Number declension in all cases",
+  "descriptionRussian": "Склонение количественных числительных",
+  "imageName": "number.square",
+  "intro": "Russian cardinal numbers decline through all six cases. ОДИН declines like an adjective (одного, одному...). ДВА/ТРИ/ЧЕТЫРЕ have special forms. ПЯТЬ-ДВАДЦАТЬ decline like feminine -ь nouns. Compound numbers: each part declines! В двух тысячах девятнадцатом году (in 2019). This is challenging but essential for dates, prices, and formal Russian.",
+  "rules": [
+    "Один/одна/одно: declines like adjective — одного, одному, одним, одном",
+    "Два/две, три, четыре: special declension — двух, двум, двумя, двух",
+    "Пять-двадцать, тридцать: like fem -ь nouns — пяти, пяти, пятью, пяти",
+    "Compound numbers: ALL parts decline — с двумя тысячами пятьюстами рублями"
+  ],
+  "examples": [
+    "Я говорил с одним человеком. (I spoke with one person.), instrumental",
+    "В комнате нет двух стульев. (There aren't two chairs in the room.), genitive",
+    "Она думает о пяти проблемах. (She's thinking about five problems.), prepositional",
+    "Это стоит около ста рублей. (This costs about 100 rubles.), genitive"
+  ],
+  "tables": [
+    {
+      "title": "Declension of один/одна/одно",
+      "headers": [
+        "Case",
+        "Masculine",
+        "Feminine",
+        "Neuter"
+      ],
+      "rows": [
+        {
+          "label": "Nominative",
+          "cells": [
+            "один",
+            "одн|а",
+            "одн|о"
+          ]
+        },
+        {
+          "label": "Genitive",
+          "cells": [
+            "одн|ого",
+            "одн|ой",
+            "одн|ого"
+          ]
+        },
+        {
+          "label": "Dative",
+          "cells": [
+            "одн|ому",
+            "одн|ой",
+            "одн|ому"
+          ]
+        },
+        {
+          "label": "Accusative",
+          "cells": [
+            "один / одн|ого",
+            "одн|у",
+            "одн|о"
+          ]
+        },
+        {
+          "label": "Instrumental",
+          "cells": [
+            "одн|им",
+            "одн|ой",
+            "одн|им"
+          ]
+        },
+        {
+          "label": "Prepositional",
+          "cells": [
+            "одн|ом",
+            "одн|ой",
+            "одн|ом"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я знаком с _____ студентом. (one, instrumental)",
+          "promptEnglish": "I'm acquainted with one student.",
+          "options": [
+            "одного",
+            "одному",
+            "одном",
+            "одним"
+          ],
+          "answer": "одним",
+          "hint": "С кем? = instrumental",
+          "explanation": "Instrumental: с одним."
+        },
+        {
+          "prompt": "В классе нет _____ учеников. (two, genitive)",
+          "promptEnglish": "There aren't two students in the class.",
+          "options": [
+            "два",
+            "двум",
+            "двух",
+            "двумя"
+          ],
+          "answer": "двух",
+          "hint": "Нет кого? = genitive",
+          "explanation": "Genitive: нет двух."
+        },
+        {
+          "prompt": "Она дала книги _____ детям. (three, dative)",
+          "promptEnglish": "She gave books to three children.",
+          "options": [
+            "тремя",
+            "трём",
+            "трёх",
+            "три"
+          ],
+          "answer": "трём",
+          "hint": "Кому? = dative",
+          "explanation": "Dative: трём детям."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Мы говорили о _____ проблемах. (five, prepositional)",
+          "promptEnglish": "We talked about five problems.",
+          "options": [
+            "пятёх",
+            "пяти",
+            "пять",
+            "пятью"
+          ],
+          "answer": "пяти",
+          "hint": "О чём? = prepositional",
+          "explanation": "Prepositional: о пяти."
+        },
+        {
+          "prompt": "Он работает с _____ коллегами. (four, instrumental)",
+          "promptEnglish": "He works with four colleagues.",
+          "options": [
+            "четырёх",
+            "четырьмя",
+            "четыре",
+            "четырём"
+          ],
+          "answer": "четырьмя",
+          "hint": "С кем? = instrumental",
+          "explanation": "Instrumental: с четырьмя."
+        },
+        {
+          "prompt": "Это стоит около _____ рублей. (hundred, genitive)",
+          "promptEnglish": "This costs about a hundred rubles.",
+          "options": [
+            "стом",
+            "сто",
+            "ста",
+            "сту"
+          ],
+          "answer": "ста",
+          "hint": "Около чего? = genitive",
+          "explanation": "Genitive: около ста."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Nominative: два → Genitive: _____",
+          "promptEnglish": "два in genitive case",
+          "options": [
+            "двумя",
+            "двум",
+            "двух",
+            "два"
+          ],
+          "answer": "двух",
+          "hint": "Кого/чего?",
+          "explanation": "Genitive of два: двух."
+        },
+        {
+          "prompt": "Nominative: пять → Instrumental: _____",
+          "promptEnglish": "пять in instrumental case",
+          "options": [
+            "пятёх",
+            "пяти",
+            "пятью",
+            "пять"
+          ],
+          "answer": "пятью",
+          "hint": "Кем/чем?",
+          "explanation": "Instrumental of пять: пятью."
+        },
+        {
+          "prompt": "Мы встретились с _____ друзьями. (two, instrumental)",
+          "promptEnglish": "We met with two friends.",
+          "options": [
+            "двум",
+            "два",
+            "двумя",
+            "двух"
+          ],
+          "answer": "двумя",
+          "hint": "С кем? = instrumental",
+          "explanation": "Instrumental: с двумя."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "В городе живёт около _____ тысяч человек. (About five thousand people live in the city.)",
+      "Нет _____ студентов. (There are no two students. / Two students are absent.)",
+      "Я работаю с _____ коллегами. (I work with five colleagues.)"
+    ],
+    "choices": [
+      "пяти",
+      "двух",
+      "пятью",
+      "пять",
+      "два",
+      "пятёрка"
+    ],
+    "answers": [
+      "пяти",
+      "двух",
+      "пятью"
+    ],
+    "grammarFocus": "Numeral declension: genitive пяти/двух, instrumental пятью",
+    "hints": [
+      "Около requires genitive — genitive of пять?",
+      "Нет requires genitive — genitive of два?",
+      "С requires instrumental — instrumental of пять?"
+    ],
+    "explanations": [
+      "Около + genitive: пяти (genitive of пять).",
+      "Нет + genitive: двух (genitive of два).",
+      "С + instrumental: пятью (instrumental of пять)."
+    ],
+    "options": [
+      [
+        "пяти",
+        "пять",
+        "пятью"
+      ],
+      [
+        "два",
+        "двум",
+        "двух",
+        "двумя"
+      ],
+      [
+        "пятью",
+        "пяти",
+        "пять"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я вижу _____ студентов. (two - accusative animate)",
+      "contextEnglish": "I see two students.",
+      "options": [
+        "двух",
+        "два"
+      ],
+      "answer": "двух",
+      "explanation": "Accusative animate = genitive: двух."
+    },
+    {
+      "context": "Я вижу _____ дома. (two - accusative inanimate)",
+      "contextEnglish": "I see two houses.",
+      "options": [
+        "два",
+        "двух"
+      ],
+      "answer": "два",
+      "explanation": "Accusative inanimate = nominative: два."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by declension pattern",
+    "categories": [
+      "Like adjective (один)",
+      "Special (2-4)",
+      "Like -ь noun (5-20)"
+    ],
+    "items": [
+      {
+        "word": "один/одна/одно",
+        "category": "Like adjective (один)"
+      },
+      {
+        "word": "два/две",
+        "category": "Special (2-4)"
+      },
+      {
+        "word": "три",
+        "category": "Special (2-4)"
+      },
+      {
+        "word": "четыре",
+        "category": "Special (2-4)"
+      },
+      {
+        "word": "пять",
+        "category": "Like -ь noun (5-20)"
+      },
+      {
+        "word": "десять",
+        "category": "Like -ь noun (5-20)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "один: одного, одному, одним",
+      "definition": "declines like adjective",
+      "example": "С одним другом."
+    },
+    {
+      "term": "два: двух, двум, двумя",
+      "definition": "special declension",
+      "example": "Нет двух книг."
+    },
+    {
+      "term": "пять: пяти, пяти, пятью",
+      "definition": "like -ь nouns",
+      "example": "О пяти проблемах."
+    },
+    {
+      "term": "сто: ста",
+      "definition": "gen/dat/prep = ста",
+      "example": "Около ста рублей."
+    }
+  ]
+}

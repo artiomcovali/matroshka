@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-001",
+  "title": "Hostile Board Member",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "One board member is opposing everything - navigate the politics",
+  "imageName": "person.3.fill",
+  "initialPrompt": "Не согласен! Это рискованная стратегия. Мы потеряем всё. Кто это одобрил?",
+  "systemPrompt": "You are hostile board member. Oppose all proposals citing risk. Can be won over with data or if others express support. Political motivations. Keep replies short.",
+  "completionCriteria": "User navigated opposition and moved discussion forward.",
+  "responseLimit": 15,
+  "hints": [
+    "Давайте посмотрим на данные (Let's look at the data)",
+    "Какие альтернативы вы предлагаете? (What alternatives do you propose?)",
+    "Другие члены совета поддерживают (Other board members support this)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "оппозиция",
+      "definition": "opposition"
+    },
+    {
+      "word": "поддержка",
+      "definition": "support"
+    },
+    {
+      "word": "голосование",
+      "definition": "vote"
+    },
+    {
+      "word": "риск",
+      "definition": "risk"
+    },
+    {
+      "word": "данные",
+      "definition": "data"
+    },
+    {
+      "word": "консенсус",
+      "definition": "consensus"
+    }
+  ],
+  "objectives": [
+    "Acknowledge their concerns",
+    "Present supporting data",
+    "Build coalition with others",
+    "Move to productive discussion"
+  ]
+}

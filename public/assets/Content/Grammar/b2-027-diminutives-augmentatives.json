@@ -1,0 +1,294 @@
+{
+  "id": "b2-027-diminutives-augmentatives",
+  "level": "B2",
+  "focusArea": "cases",
+  "title": "Diminutives and Augmentatives",
+  "titleRussian": "Уменьшительные и увеличительные",
+  "description": "Diminutive and augmentative suffixes",
+  "descriptionRussian": "Уменьшительно-ласкательные и увеличительные суффиксы",
+  "imageName": "arrow.up.arrow.down",
+  "intro": "Russian extensively uses diminutives (уменьшительные) and augmentatives (увеличительные). DIMINUTIVES express: smallness, affection, or politeness. SUFFIXES: -ик/-ек (столик), -ка/-очка (книжка, кошечка), -енька/-онька (маменька). AUGMENTATIVES are rarer, often pejorative: -ище (домище = huge house), -ина (домина). Diminutives are essential in everyday Russian - using them shows warmth and naturalness. Without them, speech sounds cold or formal.",
+  "rules": [
+    "-ик/-ек (masc): стол → столик, дом → домик",
+    "-ка/-очка/-ечка (fem): книга → книжка, кошка → кошечка",
+    "-ко/-це (neut): окно → окошко, сердце → сердечко",
+    "-ище (augmentative, often pejorative): дом → домище (huge house)"
+  ],
+  "examples": [
+    "Хочешь чаю? → Хочешь чайку? (Want some tea?, warmer)",
+    "Какая красивая кошечка! (What a pretty kitty!)",
+    "Подожди минуточку. (Wait just a moment., polite)",
+    "У него огромный домище. (He has a huge house., augmentative)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "стол → стол_____",
+          "promptEnglish": "table → little table",
+          "options": [
+            "-очка (столочка)",
+            "-ка (столка)",
+            "-ик (столик)",
+            "-ище (столище)"
+          ],
+          "answer": "-ик (столик)",
+          "hint": "Masc diminutive = -ик",
+          "explanation": "стол → столик (-ик for masc)."
+        },
+        {
+          "prompt": "книга → книж_____",
+          "promptEnglish": "book → little book",
+          "options": [
+            "-ец (книжец)",
+            "-ка (книжка)",
+            "-ище (книжище)",
+            "-ик (книжик)"
+          ],
+          "answer": "-ка (книжка)",
+          "hint": "Fem diminutive = -ка",
+          "explanation": "книга → книжка (-ка for fem)."
+        },
+        {
+          "prompt": "кошка → кош_____",
+          "promptEnglish": "cat → kitty (affectionate)",
+          "options": [
+            "-ище (кошище)",
+            "-ка (кошка)",
+            "-ечка (кошечка)",
+            "-ик (кошик)"
+          ],
+          "answer": "-ечка (кошечка)",
+          "hint": "Affectionate = -ечка/-очка",
+          "explanation": "кошка → кошечка (affectionate)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Polite request: Подожди минут_____.",
+          "promptEnglish": "Wait just a moment. (polite)",
+          "options": [
+            "-у (минуту)",
+            "-ище (минутище)",
+            "-ек (минутек)",
+            "-очку (минуточку)"
+          ],
+          "answer": "-очку (минуточку)",
+          "hint": "Diminutive = polite softening",
+          "explanation": "Polite: минуточку (just a moment)."
+        },
+        {
+          "prompt": "Augmentative (huge): дом → дом_____",
+          "promptEnglish": "house → huge house",
+          "options": [
+            "-очка (домочка)",
+            "-ище (домище)",
+            "-ик (домик)",
+            "-ка (домка)"
+          ],
+          "answer": "-ище (домище)",
+          "hint": "Augmentative = -ище",
+          "explanation": "Augmentative: домище (huge house)."
+        },
+        {
+          "prompt": "чай → чай_____ (warm offer: 'some tea?')",
+          "promptEnglish": "tea → some tea (warm/casual)",
+          "options": [
+            "-ище (чаище)",
+            "-ок (чаёк)",
+            "-ик (чайик)",
+            "-ку (чайку)"
+          ],
+          "answer": "-ку (чайку)",
+          "hint": "Warm offer = diminutive genitive",
+          "explanation": "Warm offer: чайку (genitive diminutive)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "сын → сын_____ (little son, affectionate)",
+          "promptEnglish": "son → sonny/little son",
+          "options": [
+            "-ка (сынка)",
+            "-ец (сынец)",
+            "-ище (сынище)",
+            "-ок (сынок)"
+          ],
+          "answer": "-ок (сынок)",
+          "hint": "Affectionate = -ок",
+          "explanation": "сын → сынок (sonny)."
+        },
+        {
+          "prompt": "дочь → доч_____ (daughter, affectionate)",
+          "promptEnglish": "daughter → dear daughter",
+          "options": [
+            "-ище (дочище)",
+            "-ка (дочка)",
+            "-ик (дочик)",
+            "-ец (дочец)"
+          ],
+          "answer": "-ка (дочка)",
+          "hint": "Fem affectionate = -ка",
+          "explanation": "дочь → дочка (dear daughter)."
+        },
+        {
+          "prompt": "Which is augmentative (big/pejorative)?",
+          "promptEnglish": "Which means 'huge' (possibly negative)?",
+          "options": [
+            "домик",
+            "домочек",
+            "домушка",
+            "домище"
+          ],
+          "answer": "домище",
+          "hint": "-ище = augmentative",
+          "explanation": "Augmentative: домище (huge house)."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Бабушка, дай мне _____ воды. (a little bit, warm request)",
+          "promptEnglish": "Grandma, give me a little water. (warm request)",
+          "options": [
+            "водище",
+            "водичку",
+            "водой",
+            "воду"
+          ],
+          "answer": "водичку",
+          "hint": "Diminutive softens a request",
+          "explanation": "водичка is the diminutive of вода; using it makes the request warmer and more affectionate."
+        },
+        {
+          "prompt": "У него такой _____! Просто великан! (huge nose)",
+          "promptEnglish": "He has such a huge nose! A real giant!",
+          "options": [
+            "носик",
+            "носок",
+            "носище",
+            "нос"
+          ],
+          "answer": "носище",
+          "hint": "Augmentative -ище = big, exaggerated",
+          "explanation": "нос → носище: the augmentative suffix -ище expresses large size, often with a pejorative or expressive tone."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Какая красивая кош_____! (kitty - affectionate)"
+    ],
+    "choices": [
+      "-ечка (кошечка)",
+      "-ка (кошка)",
+      "-ище (кошище)",
+      "-ик (кошик)"
+    ],
+    "answers": [
+      "-ечка (кошечка)"
+    ],
+    "grammarFocus": "Affectionate diminutive: -ечка/-очка",
+    "hints": [
+      "To express affection or endearment toward a cat, which diminutive suffix creates a warm, loving tone?"
+    ],
+    "explanations": [
+      "The suffix -ечка/-очка creates affectionate diminutives: кошечка (dear little kitty). The base form -ка (кошка) is neutral, -ище is augmentative (huge), and -ик doesn't naturally combine with this root."
+    ],
+    "options": [
+      [
+        "-ище (кошище)",
+        "-ечка (кошечка)",
+        "-ик (кошик)",
+        "-ка (кошка)"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "дом → дом_____ (small, cozy)",
+      "contextEnglish": "a little house",
+      "options": [
+        "домик",
+        "домище"
+      ],
+      "answer": "домик",
+      "explanation": "Diminutive: домик (little house)."
+    },
+    {
+      "context": "дом → дом_____ (huge, possibly negative)",
+      "contextEnglish": "a huge house",
+      "options": [
+        "домище",
+        "домик"
+      ],
+      "answer": "домище",
+      "explanation": "Augmentative: домище (huge house)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: Diminutive or Augmentative?",
+    "categories": [
+      "Diminutive (small/affectionate)",
+      "Augmentative (big/pejorative)"
+    ],
+    "items": [
+      {
+        "word": "столик",
+        "category": "Diminutive (small/affectionate)"
+      },
+      {
+        "word": "домище",
+        "category": "Augmentative (big/pejorative)"
+      },
+      {
+        "word": "кошечка",
+        "category": "Diminutive (small/affectionate)"
+      },
+      {
+        "word": "ручища",
+        "category": "Augmentative (big/pejorative)"
+      },
+      {
+        "word": "книжка",
+        "category": "Diminutive (small/affectionate)"
+      },
+      {
+        "word": "носище",
+        "category": "Augmentative (big/pejorative)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "-ик/-ок (masc)",
+      "definition": "diminutive suffix",
+      "example": "столик, сынок, домик"
+    },
+    {
+      "term": "-ка/-очка (fem)",
+      "definition": "diminutive suffix",
+      "example": "книжка, кошечка, дочка"
+    },
+    {
+      "term": "-ище",
+      "definition": "augmentative (big/pejorative)",
+      "example": "домище, ручища, носище"
+    },
+    {
+      "term": "diminutive = warmth",
+      "definition": "softens requests, shows affection",
+      "example": "минуточку, чайку"
+    }
+  ]
+}

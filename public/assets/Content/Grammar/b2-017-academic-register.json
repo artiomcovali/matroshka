@@ -1,0 +1,294 @@
+{
+  "id": "b2-017-academic-register",
+  "level": "B2",
+  "focusArea": "vocabulary",
+  "title": "Academic Register",
+  "titleRussian": "Научный стиль",
+  "description": "Scientific and academic Russian",
+  "descriptionRussian": "Научный стиль речи",
+  "imageName": "graduationcap",
+  "intro": "Academic/scientific Russian (научный стиль) has distinctive features. VOCABULARY: Abstract nouns (исследование, развитие), terminological precision, compound words. SYNTAX: Long sentences, passive constructions, impersonal forms (считается, что...), participle phrases for conciseness. STYLE: Objective tone, hedging (по-видимому, вероятно), citations, logical connectors (следовательно, таким образом). This register avoids personal pronouns (я) in favor of мы (authorial we) or impersonal forms.",
+  "rules": [
+    "Abstract nouns: исследование (research), развитие (development), явление (phenomenon)",
+    "Impersonal for objectivity: Считается, что... (It is considered that...)",
+    "Hedging: по-видимому (apparently), вероятно (probably), можно предположить",
+    "Authorial 'we': Мы полагаем... (We believe...) instead of Я думаю"
+  ],
+  "examples": [
+    "Данное исследование посвящено... (This research is devoted to...)",
+    "Следует отметить, что... (It should be noted that...)",
+    "Результаты представлены в таблице. (Results are presented in the table.)",
+    "Можно сделать вывод, что... (One can conclude that...)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Academic opener: _____ исследование посвящено...",
+          "promptEnglish": "This research is devoted to...",
+          "options": [
+            "Такое",
+            "То",
+            "Данное",
+            "Это"
+          ],
+          "answer": "Данное",
+          "hint": "Formal 'this' = данное",
+          "explanation": "Academic: данное исследование."
+        },
+        {
+          "prompt": "Academic hedging: _____, это так. (apparently)",
+          "promptEnglish": "Apparently, this is so.",
+          "options": [
+            "Наверное",
+            "По-видимому",
+            "Кажется",
+            "Может"
+          ],
+          "answer": "По-видимому",
+          "hint": "Academic = по-видимому",
+          "explanation": "Academic hedging: по-видимому."
+        },
+        {
+          "prompt": "Academic conclusion: _____ образом, мы видим...",
+          "promptEnglish": "Thus, we see...",
+          "options": [
+            "Этим",
+            "Таким",
+            "Каким",
+            "Тем"
+          ],
+          "answer": "Таким",
+          "hint": "Thus = таким образом",
+          "explanation": "Academic: таким образом."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Academic impersonal: _____ отметить, что...",
+          "promptEnglish": "It should be noted that...",
+          "options": [
+            "Надо",
+            "Следует",
+            "Можно",
+            "Нужно"
+          ],
+          "answer": "Следует",
+          "hint": "Formal 'should' = следует",
+          "explanation": "Academic: следует отметить."
+        },
+        {
+          "prompt": "Authorial 'we': _____ полагаем, что...",
+          "promptEnglish": "We believe that... (academic)",
+          "options": [
+            "Я",
+            "Они",
+            "Все",
+            "Мы"
+          ],
+          "answer": "Мы",
+          "hint": "Academic uses 'we' not 'I'",
+          "explanation": "Authorial we: мы полагаем."
+        },
+        {
+          "prompt": "Which is academic style for 'I think'?",
+          "promptEnglish": "Academic equivalent of 'I think'",
+          "options": [
+            "Я думаю",
+            "По-моему",
+            "Мне кажется",
+            "Можно предположить"
+          ],
+          "answer": "Можно предположить",
+          "hint": "Impersonal = academic",
+          "explanation": "Academic: Можно предположить (one can assume)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Academic connector: _____, результаты показывают...",
+          "promptEnglish": "Consequently, the results show...",
+          "options": [
+            "Так что",
+            "Поэтому",
+            "Следовательно",
+            "И вот"
+          ],
+          "answer": "Следовательно",
+          "hint": "Formal 'consequently'",
+          "explanation": "Academic: следовательно."
+        },
+        {
+          "prompt": "Passive for objectivity: Результаты _____ в таблице.",
+          "promptEnglish": "Results are presented in the table.",
+          "options": [
+            "дали",
+            "показали",
+            "сделали",
+            "представлены"
+          ],
+          "answer": "представлены",
+          "hint": "Passive participle",
+          "explanation": "Academic passive: представлены."
+        },
+        {
+          "prompt": "Which is NOT academic style?",
+          "promptEnglish": "Which is too informal?",
+          "options": [
+            "Следует отметить...",
+            "Я думаю, что это классно.",
+            "Данное исследование показывает...",
+            "Можно сделать вывод..."
+          ],
+          "answer": "Я думаю, что это классно.",
+          "hint": "Personal + slang = informal",
+          "explanation": "Я думаю, классно - not academic."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Academic citation: Как _____ в работе Иванова...",
+          "promptEnglish": "As shown in Ivanov's work...",
+          "options": [
+            "сказано",
+            "написали",
+            "показано",
+            "говорят"
+          ],
+          "answer": "показано",
+          "hint": "Academic passive participle for referencing sources",
+          "explanation": "Academic style uses passive participles for citations: 'Как показано в работе...' (As shown in the work...). 'Сказано' means 'said' (wrong register), 'написали' is active (too informal)."
+        },
+        {
+          "prompt": "_____ подчеркнуть важность этого фактора. (academic: It is necessary to)",
+          "promptEnglish": "It is necessary to emphasize the importance of this factor.",
+          "options": [
+            "Необходимо",
+            "Хочется",
+            "Надо",
+            "Нужно"
+          ],
+          "answer": "Необходимо",
+          "hint": "Most formal modal word",
+          "explanation": "Необходимо is the most formal modal expression in academic Russian: 'Необходимо подчеркнуть...' Надо and нужно are less formal; хочется is personal/colloquial."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ сделать вывод, что гипотеза верна. (One can conclude)"
+    ],
+    "choices": [
+      "Можно",
+      "Надо",
+      "Нужно",
+      "Следует"
+    ],
+    "answers": [
+      "Можно"
+    ],
+    "grammarFocus": "Academic impersonal: можно сделать вывод",
+    "hints": [
+      "Academic Russian avoids personal subjects. Which impersonal word means 'one can' or 'it is possible to'?"
+    ],
+    "explanations": [
+      "'Можно сделать вывод' (One can conclude) is a standard academic impersonal construction. 'Можно' expresses possibility without naming a specific subject, which is preferred in academic writing over personal forms."
+    ],
+    "options": [
+      [
+        "Надо",
+        "Нужно",
+        "Можно",
+        "Следует"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____, результаты верны. (academic hedging)",
+      "contextEnglish": "Apparently, the results are correct.",
+      "options": [
+        "По-видимому",
+        "Наверное"
+      ],
+      "answer": "По-видимому",
+      "explanation": "Academic: по-видимому."
+    },
+    {
+      "context": "_____, он прав. (colloquial guess)",
+      "contextEnglish": "Probably he's right. (informal)",
+      "options": [
+        "Наверное",
+        "По-видимому"
+      ],
+      "answer": "Наверное",
+      "explanation": "Colloquial: наверное."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: Academic or Colloquial?",
+    "categories": [
+      "Academic",
+      "Colloquial"
+    ],
+    "items": [
+      {
+        "word": "Данное исследование...",
+        "category": "Academic"
+      },
+      {
+        "word": "Я думаю...",
+        "category": "Colloquial"
+      },
+      {
+        "word": "Следует отметить...",
+        "category": "Academic"
+      },
+      {
+        "word": "Ну, типа...",
+        "category": "Colloquial"
+      },
+      {
+        "word": "Можно предположить...",
+        "category": "Academic"
+      },
+      {
+        "word": "Мне кажется...",
+        "category": "Colloquial"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "данное исследование",
+      "definition": "this research (formal)",
+      "example": "Данное исследование посвящено..."
+    },
+    {
+      "term": "следовательно",
+      "definition": "consequently (formal)",
+      "example": "Следовательно, гипотеза верна."
+    },
+    {
+      "term": "по-видимому",
+      "definition": "apparently (hedging)",
+      "example": "По-видимому, это правда."
+    },
+    {
+      "term": "можно предположить",
+      "definition": "one can assume",
+      "example": "Можно предположить, что..."
+    }
+  ]
+}

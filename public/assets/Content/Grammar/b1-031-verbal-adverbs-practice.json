@@ -1,0 +1,538 @@
+{
+  "lessonId": "b1-031-verbal-adverbs",
+  "sets": [
+    {
+      "id": "round-1-formation-quiz",
+      "title": "Form the Verbal Adverb",
+      "titleRussian": "Образуйте деепричастие",
+      "description": "Choose the correct imperfective or perfective verbal adverb",
+      "descriptionRussian": "Выберите правильное деепричастие несовершенного или совершенного вида",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "думать → они думают → _____",
+              "promptEnglish": "to think → they think → while thinking",
+              "options": [
+                "думавший",
+                "подумав",
+                "думающий",
+                "думая"
+              ],
+              "answer": "думая",
+              "hint": "Imperfective: present stem + -я: думают → думая.",
+              "explanation": "Imperfective verbal adverb: думают → дума- + -я = думая (while thinking)."
+            },
+            {
+              "prompt": "узнать → узнал → _____",
+              "promptEnglish": "to find out (pf) → found out → having found out",
+              "options": [
+                "узнавая",
+                "узнав",
+                "узнавший",
+                "узнанный"
+              ],
+              "answer": "узнав",
+              "hint": "Perfective: past stem + -в: узнал → узнав.",
+              "explanation": "Perfective verbal adverb: узнал → узна- + -в = узнав (having found out)."
+            },
+            {
+              "prompt": "молчать → они молчат → _____",
+              "promptEnglish": "to be silent → they are silent → while being silent",
+              "options": [
+                "молчавший",
+                "промолчав",
+                "молчащий",
+                "молча"
+              ],
+              "answer": "молча",
+              "hint": "After ч, use -а instead of -я: молчат → молча.",
+              "explanation": "After ш/ж/ч/щ: use -а. Молчат → молча (while being silent)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "вернуться → вернулся → _____",
+              "promptEnglish": "to return (pf) → returned → having returned",
+              "options": [
+                "возвращаясь",
+                "вернувшись",
+                "вернувший",
+                "возвращающийся"
+              ],
+              "answer": "вернувшись",
+              "hint": "Perfective reflexive: past stem + -вшись.",
+              "explanation": "Perfective reflexive: вернулся → вернувшись (having returned). Reflexive adds -сь to -вши."
+            },
+            {
+              "prompt": "работать → они работают → _____",
+              "promptEnglish": "to work → they work → while working",
+              "options": [
+                "поработав",
+                "работавший",
+                "работающий",
+                "работая"
+              ],
+              "answer": "работая",
+              "hint": "Imperfective: работают → работая.",
+              "explanation": "Imperfective verbal adverb: работают → работа- + -я = работая."
+            },
+            {
+              "prompt": "открыть → открыл → _____",
+              "promptEnglish": "to open (pf) → opened → having opened",
+              "options": [
+                "открывая",
+                "открыв",
+                "открывший",
+                "открытый"
+              ],
+              "answer": "открыв",
+              "hint": "Perfective: открыл → открыв.",
+              "explanation": "Perfective verbal adverb: открыл → откры- + -в = открыв."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ книгу, он пил чай. (actions at the same time)",
+          "contextEnglish": "While reading a book, he drank tea.",
+          "options": [
+            "Читая",
+            "Прочитав"
+          ],
+          "answer": "Читая",
+          "explanation": "Simultaneous actions: imperfective читая (while reading)."
+        },
+        {
+          "context": "_____ книгу, он лёг спать. (first action completed, then second)",
+          "contextEnglish": "Having read the book, he went to sleep.",
+          "options": [
+            "Прочитав",
+            "Читая"
+          ],
+          "answer": "Прочитав",
+          "explanation": "Prior completed action: perfective прочитав (having read)."
+        },
+        {
+          "context": "_____ ужин, она смотрела телевизор. (simultaneous)",
+          "contextEnglish": "While cooking dinner, she watched TV.",
+          "options": [
+            "Готовя",
+            "Приготовив"
+          ],
+          "answer": "Готовя",
+          "explanation": "Simultaneous: imperfective готовя (while cooking). Both actions happen at the same time."
+        },
+        {
+          "context": "_____ ужин, она позвала семью. (first completed, then second)",
+          "contextEnglish": "Having cooked dinner, she called the family.",
+          "options": [
+            "Приготовив",
+            "Готовя"
+          ],
+          "answer": "Приготовив",
+          "explanation": "Prior completed: perfective приготовив (having cooked). Cooking finished first."
+        }
+      ]
+    },
+    {
+      "id": "round-2-sorting-fill",
+      "title": "Sort and Fill",
+      "titleRussian": "Сортировка и заполнение",
+      "description": "Sort by aspect and fill in verbal adverb forms",
+      "descriptionRussian": "Распределите по виду и заполните формы",
+      "icon": "rectangle.split.3x1",
+      "categorySorting": {
+        "instruction": "Sort these verbal adverbs: simultaneous or prior action?",
+        "categories": [
+          "Imperfective (simultaneous)",
+          "Perfective (prior/completed)"
+        ],
+        "items": [
+          {
+            "word": "думая (while thinking)",
+            "category": "Imperfective (simultaneous)"
+          },
+          {
+            "word": "подумав (having thought)",
+            "category": "Perfective (prior/completed)"
+          },
+          {
+            "word": "работая (while working)",
+            "category": "Imperfective (simultaneous)"
+          },
+          {
+            "word": "закончив (having finished)",
+            "category": "Perfective (prior/completed)"
+          },
+          {
+            "word": "слушая (while listening)",
+            "category": "Imperfective (simultaneous)"
+          },
+          {
+            "word": "узнав (having found out)",
+            "category": "Perfective (prior/completed)"
+          },
+          {
+            "word": "улыбаясь (while smiling)",
+            "category": "Imperfective (simultaneous)"
+          },
+          {
+            "word": "вернувшись (having returned)",
+            "category": "Perfective (prior/completed)"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "_____ домой, она сняла пальто. (Having returned home, she took off her coat.)",
+          "_____ по парку, мы разговаривали. (While walking in the park, we talked.)",
+          "_____ письмо, он отправил его. (Having written the letter, he sent it.)",
+          "_____ музыку, она рисовала. (While listening to music, she drew.)"
+        ],
+        "choices": [
+          "Вернувшись",
+          "Гуляя",
+          "Написав",
+          "Слушая",
+          "Возвращаясь",
+          "Гулявши",
+          "Писая"
+        ],
+        "answers": [
+          "Вернувшись",
+          "Гуляя",
+          "Написав",
+          "Слушая"
+        ],
+        "grammarFocus": "Imperfective (simultaneous) vs perfective (prior completed)",
+        "hints": [
+          "She returned first, then took off her coat. Prior completed action = perfective, reflexive verb.",
+          "Walking and talking happened at the same time. Simultaneous = imperfective.",
+          "He wrote first, then sent. Prior completed = perfective.",
+          "Listening and drawing happened at the same time. Simultaneous = imperfective."
+        ],
+        "explanations": [
+          "Вернувшись: pf verbal adverb of вернуться (reflexive: -вшись). Prior action: first returned, then took off coat.",
+          "Гуляя: impf verbal adverb of гулять. Simultaneous: walking and talking at the same time.",
+          "Написав: pf verbal adverb of написать. Prior action: first wrote, then sent.",
+          "Слушая: impf verbal adverb of слушать. Simultaneous: listening and drawing at the same time."
+        ],
+        "options": [
+          [
+            "Вернувшись",
+            "вернуться",
+            "вернётся"
+          ],
+          [
+            "Гуляя",
+            "гуляв",
+            "гулявши"
+          ],
+          [
+            "напишет",
+            "Написав",
+            "Писав",
+            "писать"
+          ],
+          [
+            "слушавши",
+            "Слушая",
+            "слушав"
+          ]
+        ]
+      },
+      "translation": [
+        {
+          "english": "While listening to the teacher, he took notes.",
+          "answer": "Слушая учителя, он записывал.",
+          "acceptableVariants": [
+            "Слушая преподавателя, он записывал.",
+            "Слушая учителя, он делал записи."
+          ],
+          "hint": "While listening = слушая (impf verbal adverb, simultaneous)",
+          "grammarFocus": "Imperfective verbal adverb for simultaneous actions",
+          "keyWord": "Слушая",
+          "options": [
+            "Слушая",
+            "Прослушав",
+            "Слушающий",
+            "Слушал"
+          ]
+        },
+        {
+          "english": "Having finished the exam, she left.",
+          "answer": "Сдав экзамен, она ушла.",
+          "acceptableVariants": [
+            "Закончив экзамен, она ушла."
+          ],
+          "hint": "Having finished = сдав or закончив (pf verbal adverb, prior)",
+          "grammarFocus": "Perfective verbal adverb for prior action",
+          "keyWord": "Сдав",
+          "options": [
+            "Сдав",
+            "Сдавая",
+            "Сдавший",
+            "Сдал"
+          ]
+        },
+        {
+          "english": "While walking down the street, I met a friend.",
+          "answer": "Идя по улице, я встретил друга.",
+          "acceptableVariants": [
+            "Идя по улице, я встретила друга."
+          ],
+          "hint": "While walking = идя (impf verbal adverb of идти)",
+          "grammarFocus": "Imperfective verbal adverb for simultaneous actions",
+          "keyWord": "Идя",
+          "options": [
+            "Идя",
+            "Пройдя",
+            "Идущий",
+            "Шёл"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-special-forms",
+      "title": "Tricky Forms",
+      "titleRussian": "Сложные формы",
+      "description": "Practice special formation rules and exceptions",
+      "descriptionRussian": "Тренировка особых правил и исключений",
+      "icon": "exclamationmark.triangle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "держать → они держат → _____",
+              "promptEnglish": "to hold → they hold → while holding",
+              "options": [
+                "держая",
+                "держа",
+                "продержав",
+                "державший"
+              ],
+              "answer": "держа",
+              "hint": "After ж, use -а: держат → держа.",
+              "explanation": "After ш/ж/ч/щ, the suffix is -а, not -я: держат → держа."
+            },
+            {
+              "prompt": "лежать → они лежат → _____",
+              "promptEnglish": "to lie/be lying → they lie → while lying",
+              "options": [
+                "лежая",
+                "лёжа",
+                "лежа",
+                "пролежав"
+              ],
+              "answer": "лёжа",
+              "hint": "Irregular: лежать → лёжа (stress shift + ж → -а).",
+              "explanation": "Лёжа is a special form with stress shift: лежать → лёжа (while lying)."
+            },
+            {
+              "prompt": "сидеть → они сидят → _____",
+              "promptEnglish": "to sit → they sit → while sitting",
+              "options": [
+                "сидящий",
+                "сидев",
+                "просидев",
+                "сидя"
+              ],
+              "answer": "сидя",
+              "hint": "After д, regular -я: сидят → сидя.",
+              "explanation": "Imperfective verbal adverb: сидят → сидя (while sitting)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "принести → принёс → _____",
+              "promptEnglish": "to bring (pf) → brought → having brought",
+              "options": [
+                "принося",
+                "принесённый",
+                "принеся",
+                "принёсши"
+              ],
+              "answer": "принеся",
+              "hint": "Consonant stems sometimes use -я instead of -вши: принёс → принеся.",
+              "explanation": "Some consonant-stem perfectives form verbal adverbs with -я: принести → принеся."
+            },
+            {
+              "prompt": "Negation with verbal adverbs: не + _____",
+              "promptEnglish": "Not knowing = ?",
+              "options": [
+                "зная не",
+                "незная",
+                "не зная",
+                "не знавший"
+              ],
+              "answer": "не зная",
+              "hint": "Не precedes the verbal adverb as a separate word.",
+              "explanation": "Negation: не + verbal adverb (separate words): не зная (not knowing)."
+            },
+            {
+              "prompt": "улыбаться → они улыбаются → _____",
+              "promptEnglish": "to smile → they smile → while smiling",
+              "options": [
+                "улыбавшись",
+                "улыбнувшись",
+                "улыбающийся",
+                "улыбаясь"
+              ],
+              "answer": "улыбаясь",
+              "hint": "Imperfective reflexive: add -сь after -я: улыбаясь.",
+              "explanation": "Imperfective reflexive: улыбаются → улыбаясь (reflexive ending -сь after vowel)."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Не понимавший вопроса, он молчал.",
+          "error": "понимавший",
+          "correction": "понимая",
+          "hint": "A verbal adverb is needed here, not a participle.",
+          "explanation": "Не понимая (verbal adverb: while not understanding) replaces the incorrect participle form.",
+          "options": [
+            "понимая",
+            "понимающий",
+            "поняв"
+          ]
+        },
+        {
+          "sentence": "Прочитая книгу, она ушла.",
+          "error": "Прочитая",
+          "correction": "Прочитав",
+          "hint": "Perfective verbal adverbs use -в (not -я): прочитав.",
+          "explanation": "Perfective verbal adverbs end in -в/-вши, not -я/-а. Прочитав (having read).",
+          "options": [
+            "Прочитав",
+            "Читая",
+            "Прочитавши"
+          ]
+        },
+        {
+          "sentence": "Закончивши работу, он ушёл.",
+          "error": "Закончивши",
+          "correction": "Закончив",
+          "hint": "-вши is archaic/dialectal after vowel stems. Modern standard: -в.",
+          "explanation": "After vowel stems, modern Russian uses -в, not -вши: закончив (not закончивши).",
+          "options": [
+            "Закончив",
+            "Заканчивая",
+            "Закончивший"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанные задания",
+      "description": "Comprehensive drill on verbal adverb formation and use",
+      "descriptionRussian": "Комплексная тренировка деепричастий",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ дверь, он вошёл. (Having opened the door, he entered.)",
+              "promptEnglish": "Having opened the door, he entered.",
+              "options": [
+                "Открывая",
+                "Открытый",
+                "Открыв",
+                "Открывший"
+              ],
+              "answer": "Открыв",
+              "hint": "First opened, then entered. Prior action = perfective.",
+              "explanation": "Prior completed action: открыв (pf verbal adverb of открыть)."
+            },
+            {
+              "prompt": "_____ по телефону, она готовила обед. (While talking on the phone, she cooked lunch.)",
+              "promptEnglish": "While talking on the phone, she cooked lunch.",
+              "options": [
+                "Поговорив",
+                "Разговаривая",
+                "Говоривший",
+                "Поговоривший"
+              ],
+              "answer": "Разговаривая",
+              "hint": "Talking and cooking at the same time. Simultaneous = imperfective.",
+              "explanation": "Simultaneous actions: разговаривая (impf verbal adverb of разговаривать)."
+            },
+            {
+              "prompt": "_____ из дома, я забыл ключи. (While leaving the house, I forgot my keys.)",
+              "promptEnglish": "While leaving the house, I forgot my keys.",
+              "options": [
+                "Выйдя",
+                "Выходя",
+                "Выходящий",
+                "Вышедший"
+              ],
+              "answer": "Выходя",
+              "hint": "In the process of leaving (simultaneous). Imperfective: выходя.",
+              "explanation": "Simultaneous: выходя (impf verbal adverb of выходить). Forgetting happened while leaving."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Imperfective verbal adverbs show:",
+              "promptEnglish": "What time relationship do imperfective verbal adverbs express?",
+              "options": [
+                "Prior action",
+                "Simultaneous action",
+                "Future action",
+                "Completed result"
+              ],
+              "answer": "Simultaneous action",
+              "hint": "Читая книгу, он пил чай. Both happen at the same time.",
+              "explanation": "Imperfective verbal adverbs express simultaneous actions: happening at the same time as the main verb."
+            },
+            {
+              "prompt": "Perfective verbal adverbs show:",
+              "promptEnglish": "What time relationship do perfective verbal adverbs express?",
+              "options": [
+                "Simultaneous action",
+                "Future action",
+                "Ongoing habit",
+                "Prior completed action"
+              ],
+              "answer": "Prior completed action",
+              "hint": "Прочитав книгу, он уснул. Reading finished first.",
+              "explanation": "Perfective verbal adverbs express prior completed actions: done before the main verb."
+            },
+            {
+              "prompt": "_____ по улице, я увидел старого друга. (While walking, I saw an old friend.)",
+              "promptEnglish": "While walking along the street, I saw an old friend.",
+              "options": [
+                "Пройдя",
+                "Проходящий",
+                "Идя",
+                "Прошедший"
+              ],
+              "answer": "Идя",
+              "hint": "Walking and seeing at the same time. Imperfective: идя.",
+              "explanation": "Simultaneous: идя (impf verbal adverb of идти). Both happen at the same time."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

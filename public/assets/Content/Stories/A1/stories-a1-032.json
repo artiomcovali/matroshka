@@ -1,0 +1,174 @@
+{
+  "id": "a1-032",
+  "level": "A1",
+  "narrator": "Пряник",
+  "title": "Спорт",
+  "titleEnglish": "Sports",
+  "description": "Маша и её друзья занимаются спортом.",
+  "imageName": "sportscourt.fill",
+  "fullText": "Я очень люблю спорт! Я бегаю и плаваю. Моя подруга Анна играет в теннис и играет очень хорошо. Мой брат Дима играет в футбол с друзьями. А Иван Петрович любит ходить пешком и каждый день гуляет в парке. Он говорит, что спорт — это жизнь! Пряник тоже любит бегать, и он бегает быстрее всех!",
+  "reviewVocab": [
+    {
+      "word": "плавать",
+      "definition": "to swim",
+      "partOfSpeech": "verb (impf)",
+      "forms": [
+        "плаваю",
+        "плаваешь",
+        "плавает"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "теннис",
+      "definition": "tennis",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "теннис",
+        "тенниса",
+        "в теннис"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "футбол",
+      "definition": "football, soccer",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "футбол",
+        "футбола",
+        "в футбол"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "быстро",
+      "definition": "fast, quickly",
+      "partOfSpeech": "adverb",
+      "forms": [
+        "быстро",
+        "быстрее"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Что делает Маша?",
+      "options": [
+        "Играет в теннис",
+        "Бегает и плавает",
+        "Играет в футбол"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша бегает и плавает."
+    },
+    {
+      "prompt": "Во что играет Анна?",
+      "options": [
+        "В футбол",
+        "В теннис",
+        "В баскетбол"
+      ],
+      "correctIndex": 1,
+      "explanation": "Анна играет в теннис."
+    },
+    {
+      "prompt": "Как Анна играет?",
+      "options": [
+        "Плохо",
+        "Хорошо",
+        "Так себе"
+      ],
+      "correctIndex": 1,
+      "explanation": "Анна играет очень хорошо."
+    },
+    {
+      "prompt": "С кем Дима играет в футбол?",
+      "options": [
+        "С друзьями",
+        "Один",
+        "С Машей"
+      ],
+      "correctIndex": 0,
+      "explanation": "Дима играет в футбол с друзьями."
+    },
+    {
+      "prompt": "Что любит делать Иван Петрович?",
+      "options": [
+        "Плавать",
+        "Ходить пешком",
+        "Играть в футбол"
+      ],
+      "correctIndex": 1,
+      "explanation": "Иван Петрович любит ходить пешком."
+    },
+    {
+      "prompt": "Кто бегает быстрее всех?",
+      "options": [
+        "Маша",
+        "Дима",
+        "Пряник"
+      ],
+      "correctIndex": 2,
+      "explanation": "Пряник бегает быстрее всех!"
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Я бегаю и _____.",
+      "Анна играет в _____.",
+      "Дима играет в _____ с друзьями.",
+      "Иван Петрович любит ходить _____.",
+      "Пряник бегает _____ всех!"
+    ],
+    "choices": [
+      "плаваю",
+      "теннис",
+      "футбол",
+      "пешком",
+      "быстрее",
+      "медленнее",
+      "баскетбол"
+    ],
+    "answers": [
+      "плаваю",
+      "теннис",
+      "футбол",
+      "пешком",
+      "быстрее"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "How do you say 'to play tennis' in Russian?",
+      "options": [
+        "играть в теннис",
+        "играть теннис",
+        "играть на теннисе"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "prepositions",
+      "sentenceRef": "Анна играет в теннис.",
+      "explanation": "'Играть в' + accusative is for sports and games: играть в теннис, в футбол, в шахматы. For instruments, use 'играть на': играть на гитаре (play guitar), играть на пианино (play piano).",
+      "focusArea": "prepositions"
+    },
+    {
+      "prompt": "What does 'быстрее всех' mean?",
+      "options": [
+        "Fast with everyone",
+        "Faster than everyone",
+        "As fast as everyone"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "comparatives",
+      "sentenceRef": "Он бегает быстрее всех!",
+      "explanation": "'Быстрее всех' = 'faster than everyone' (superlative). 'Быстрее' is the comparative of 'быстро' (fast). Other examples: лучше всех (best of all), больше всех (most of all).",
+      "focusArea": "cases"
+    }
+  ],
+  "audioFile": "a1-032.m4a",
+  "audioTimingFile": "a1-032-timing.json"
+}

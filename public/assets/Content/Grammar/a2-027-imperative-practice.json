@@ -1,0 +1,812 @@
+{
+  "lessonId": "a2-027-imperative",
+  "sets": [
+    {
+      "id": "round-1-vowel-stems",
+      "title": "Vowel Stems (-й/-йте)",
+      "titleRussian": "Гласная основа (-й/-йте)",
+      "description": "Form imperatives from verbs with vowel stems",
+      "descriptionRussian": "Повелительное наклонение от глаголов с гласной основой",
+      "icon": "exclamationmark.bubble",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ книгу! (Read the book!) - informal",
+              "promptEnglish": "Informal command: ты.",
+              "options": [
+                "Читай",
+                "Читайте",
+                "Читать",
+                "Читаешь"
+              ],
+              "answer": "Читай",
+              "hint": "Vowel stem чита- + й.",
+              "explanation": "Informal: читай (чита- + -й)."
+            },
+            {
+              "prompt": "_____ домашнее задание! (Do the homework!) - formal",
+              "promptEnglish": "Formal command: вы.",
+              "options": [
+                "Делайте",
+                "Делай",
+                "Делать",
+                "Делаете"
+              ],
+              "answer": "Делайте",
+              "hint": "Vowel stem дела- + йте.",
+              "explanation": "Formal: делайте (дела- + -йте)."
+            },
+            {
+              "prompt": "_____ внимательно! (Listen carefully!) - informal",
+              "promptEnglish": "Informal command.",
+              "options": [
+                "Слушай",
+                "Слушайте",
+                "Слушать",
+                "Слушаешь"
+              ],
+              "answer": "Слушай",
+              "hint": "Vowel stem слуша- + й.",
+              "explanation": "Informal: слушай."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ дверь! (Open the door!) - informal",
+              "promptEnglish": "Informal command.",
+              "options": [
+                "Открой",
+                "Откройте",
+                "Открыть",
+                "Открываешь"
+              ],
+              "answer": "Открой",
+              "hint": "Vowel stem откро- + й.",
+              "explanation": "Informal: открой."
+            },
+            {
+              "prompt": "_____ дверь! (Close the door!) - formal",
+              "promptEnglish": "Formal command.",
+              "options": [
+                "Закройте",
+                "Закрой",
+                "Закрыть",
+                "Закрываете"
+              ],
+              "answer": "Закройте",
+              "hint": "Vowel stem закро- + йте.",
+              "explanation": "Formal: закройте."
+            },
+            {
+              "prompt": "_____ мне! (Tell me!) - informal",
+              "promptEnglish": "Informal command of рассказать.",
+              "options": [
+                "Расскажи",
+                "Расскажите",
+                "Рассказать",
+                "Рассказываешь"
+              ],
+              "answer": "Расскажи",
+              "hint": "Consonant stem расскаж- + и.",
+              "explanation": "Consonant stem: расскажи (-и, not -й)."
+            }
+          ]
+        }
+      ],
+      "conjugationTable": {
+        "verb": "делать (to do)",
+        "tense": "imperative",
+        "paradigm": [
+          "—",
+          "делай",
+          "—",
+          "—",
+          "делайте",
+          "—"
+        ],
+        "blanks": [
+          1,
+          4
+        ],
+        "hints": [
+          "informal (ты)",
+          "formal/plural (вы)"
+        ],
+        "explanations": [
+          "Vowel stem дела- + -й.",
+          "Vowel stem дела- + -йте."
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "_____ мне! (Write to me!) - informal",
+          "_____ тише! (Speak quieter!) - formal",
+          "_____ сюда! (Look here!) - informal"
+        ],
+        "choices": [
+          "Пиши",
+          "Говорите",
+          "Смотри",
+          "Пишите",
+          "Говори"
+        ],
+        "answers": [
+          "Пиши",
+          "Говорите",
+          "Смотри"
+        ],
+        "grammarFocus": "Vowel stems: -й/-йте. Consonant stems: -и/-ите",
+        "hints": [
+          "Consonant stem пиш- + и.",
+          "Consonant stem говор- + ите (formal).",
+          "Consonant stem смотр- + и."
+        ],
+        "explanations": [
+          "Consonant stem: пиши.",
+          "Formal consonant stem: говорите.",
+          "Consonant stem: смотри."
+        ],
+        "options": [
+          [
+            "пишешь",
+            "пишет",
+            "Пиши",
+            "пишу"
+          ],
+          [
+            "Говорите",
+            "говорю",
+            "говорят",
+            "говорим"
+          ],
+          [
+            "смотришь",
+            "смотрит",
+            "смотрю",
+            "Смотри"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-consonant-stems",
+      "title": "Consonant Stems (-и/-ите, -ь/-ьте)",
+      "titleRussian": "Согласная основа (-и/-ите, -ь/-ьте)",
+      "description": "Form imperatives from verbs with consonant stems",
+      "descriptionRussian": "Повелительное наклонение от глаголов с согласной основой",
+      "icon": "textformat.abc",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ по-русски! (Speak Russian!) - informal",
+              "promptEnglish": "Consonant stem: говор- + и.",
+              "options": [
+                "Говори",
+                "Говорите",
+                "Говорить",
+                "Говоришь"
+              ],
+              "answer": "Говори",
+              "hint": "Consonant stem + -и.",
+              "explanation": "Consonant stem: говори."
+            },
+            {
+              "prompt": "_____ мне! (Help me!) - formal",
+              "promptEnglish": "Consonant stem: помог- + ите.",
+              "options": [
+                "Помогите",
+                "Помоги",
+                "Помогать",
+                "Помогаете"
+              ],
+              "answer": "Помогите",
+              "hint": "Consonant stem + -ите (formal).",
+              "explanation": "Formal consonant stem: помогите."
+            },
+            {
+              "prompt": "_____ тихо! (Be quiet!) - informal",
+              "promptEnglish": "Irregular: быть → будь.",
+              "options": [
+                "Будь",
+                "Будьте",
+                "Быть",
+                "Будешь"
+              ],
+              "answer": "Будь",
+              "hint": "Irregular: быть → будь/-те.",
+              "explanation": "Irregular: будь."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ ! (Sit down!) - informal",
+              "promptEnglish": "Stem-stressed: сяд- + ь.",
+              "options": [
+                "Сядь",
+                "Сядьте",
+                "Сесть",
+                "Сидишь"
+              ],
+              "answer": "Сядь",
+              "hint": "Stem-stressed consonant: + -ь.",
+              "explanation": "Stem-stressed: сядь."
+            },
+            {
+              "prompt": "_____ ! (Get up! / Stand up!) - formal",
+              "promptEnglish": "Stem-stressed: встань- + те.",
+              "options": [
+                "Встаньте",
+                "Встань",
+                "Встать",
+                "Встаёте"
+              ],
+              "answer": "Встаньте",
+              "hint": "Stem-stressed + -ьте (formal).",
+              "explanation": "Formal stem-stressed: встаньте."
+            },
+            {
+              "prompt": "_____ адрес! (Write down the address!) - informal",
+              "promptEnglish": "Consonant stem: запиш- + и.",
+              "options": [
+                "Запиши",
+                "Запишите",
+                "Записать",
+                "Записываешь"
+              ],
+              "answer": "Запиши",
+              "hint": "Consonant stem + -и.",
+              "explanation": "Consonant stem: запиши."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort by imperative suffix type.",
+        "categories": [
+          "-й/-йте (vowel stem)",
+          "-и/-ите (consonant, end-stressed)",
+          "-ь/-ьте (consonant, stem-stressed)"
+        ],
+        "items": [
+          {
+            "word": "Читай / Читайте",
+            "category": "-й/-йте (vowel stem)"
+          },
+          {
+            "word": "Говори / Говорите",
+            "category": "-и/-ите (consonant, end-stressed)"
+          },
+          {
+            "word": "Встань / Встаньте",
+            "category": "-ь/-ьте (consonant, stem-stressed)"
+          },
+          {
+            "word": "Делай / Делайте",
+            "category": "-й/-йте (vowel stem)"
+          },
+          {
+            "word": "Пиши / Пишите",
+            "category": "-и/-ите (consonant, end-stressed)"
+          },
+          {
+            "word": "Сядь / Сядьте",
+            "category": "-ь/-ьте (consonant, stem-stressed)"
+          }
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "_____ тихо! (Be quiet!) - ты",
+          "contextEnglish": "Informal command.",
+          "options": [
+            "Будь",
+            "Будьте"
+          ],
+          "answer": "Будь",
+          "explanation": "Informal: будь."
+        },
+        {
+          "context": "_____ осторожны! (Be careful!) - вы",
+          "contextEnglish": "Formal command.",
+          "options": [
+            "Будьте",
+            "Будь"
+          ],
+          "answer": "Будьте",
+          "explanation": "Formal: будьте."
+        }
+      ]
+    },
+    {
+      "id": "round-3-formal-informal",
+      "title": "Formal vs Informal",
+      "titleRussian": "Формальное или неформальное",
+      "description": "Choose the right imperative form for the context",
+      "descriptionRussian": "Выбор формы повелительного наклонения по контексту",
+      "icon": "person.2",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "To your friend: _____ сюда! (Come here!)",
+              "promptEnglish": "Friend = informal (ты).",
+              "options": [
+                "Иди",
+                "Идите",
+                "Идти",
+                "Идёшь"
+              ],
+              "answer": "Иди",
+              "hint": "Friend = informal: ты form.",
+              "explanation": "Informal: иди."
+            },
+            {
+              "prompt": "To your teacher: _____, пожалуйста! (Please repeat!)",
+              "promptEnglish": "Teacher = formal (вы).",
+              "options": [
+                "Повторите",
+                "Повтори",
+                "Повторить",
+                "Повторяете"
+              ],
+              "answer": "Повторите",
+              "hint": "Teacher = formal: вы form.",
+              "explanation": "Formal: повторите."
+            },
+            {
+              "prompt": "To a group: _____ тише! (Be quieter!)",
+              "promptEnglish": "Group = plural (вы).",
+              "options": [
+                "Говорите",
+                "Говори",
+                "Говорить",
+                "Говоришь"
+              ],
+              "answer": "Говорите",
+              "hint": "Group = plural: вы form.",
+              "explanation": "Plural: говорите."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "To your child: _____ руки! (Wash your hands!)",
+              "promptEnglish": "Child = informal (ты).",
+              "options": [
+                "Мой",
+                "Мойте",
+                "Мыть",
+                "Моешь"
+              ],
+              "answer": "Мой",
+              "hint": "Child = informal: ты form.",
+              "explanation": "Informal: мой (мыть → мой)."
+            },
+            {
+              "prompt": "To a stranger: _____, пожалуйста, где метро? (Please tell me, where is the metro?)",
+              "promptEnglish": "Stranger = formal (вы).",
+              "options": [
+                "Скажите",
+                "Скажи",
+                "Сказать",
+                "Говорите"
+              ],
+              "answer": "Скажите",
+              "hint": "Stranger = formal: вы form.",
+              "explanation": "Formal: скажите."
+            },
+            {
+              "prompt": "To your sibling: _____ мне! (Call me!)",
+              "promptEnglish": "Sibling = informal (ты).",
+              "options": [
+                "Позвони",
+                "Позвоните",
+                "Позвонить",
+                "Звонишь"
+              ],
+              "answer": "Позвони",
+              "hint": "Sibling = informal: ты form.",
+              "explanation": "Informal: позвони."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "sourceText": "Please sit down! (formal)",
+          "targetText": "Сядьте, пожалуйста!",
+          "hint": "Formal imperative of сесть + пожалуйста.",
+          "explanation": "Formal: сядьте, пожалуйста.",
+          "keyWord": "Сядьте",
+          "options": [
+            "Сядьте",
+            "Сядь",
+            "Сесть",
+            "Сядем"
+          ]
+        },
+        {
+          "sourceText": "Listen carefully! (informal)",
+          "targetText": "Слушай внимательно!",
+          "hint": "Informal imperative: слушай.",
+          "explanation": "Informal: слушай внимательно!",
+          "keyWord": "Слушай",
+          "options": [
+            "Слушай",
+            "Слушайте",
+            "Слушать",
+            "Слушаешь"
+          ]
+        },
+        {
+          "sourceText": "Please help me! (formal)",
+          "targetText": "Помогите мне, пожалуйста!",
+          "hint": "Formal imperative of помочь + пожалуйста.",
+          "explanation": "Formal: помогите, пожалуйста.",
+          "keyWord": "Помогите",
+          "options": [
+            "Помогите",
+            "Помоги",
+            "Помогать",
+            "Помогаете"
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Читайте книгу! (to a friend)",
+          "error": "Читайте",
+          "correction": "Читай",
+          "explanation": "Friend = informal. Ты form: читай (not читайте).",
+          "options": [
+            "Читай",
+            "Читать",
+            "Читаешь"
+          ]
+        },
+        {
+          "sentence": "Говори тише! (to your professor)",
+          "error": "Говори",
+          "correction": "Говорите",
+          "explanation": "Professor = formal. Вы form: говорите (not говори).",
+          "options": [
+            "Говорите",
+            "Говорить",
+            "Говоришь"
+          ]
+        },
+        {
+          "sentence": "Иди сюда! (to a group of students)",
+          "error": "Иди",
+          "correction": "Идите",
+          "explanation": "Group = plural. Вы form: идите (not иди).",
+          "options": [
+            "Идите",
+            "Идти",
+            "Идёшь"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-irregulars-negatives",
+      "title": "Irregulars & Negative Commands",
+      "titleRussian": "Исключения и отрицание",
+      "description": "Practice irregular imperatives and negative commands",
+      "descriptionRussian": "Нестандартные формы и отрицательные команды",
+      "icon": "exclamationmark.triangle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ мне книгу! (Give me the book!) - informal",
+              "promptEnglish": "Irregular: дать → дай.",
+              "options": [
+                "Дай",
+                "Дайте",
+                "Дать",
+                "Даёшь"
+              ],
+              "answer": "Дай",
+              "hint": "Irregular: дай/дайте.",
+              "explanation": "Irregular informal: дай."
+            },
+            {
+              "prompt": "_____ суп! (Eat the soup!) - informal",
+              "promptEnglish": "Irregular: есть → ешь.",
+              "options": [
+                "Ешь",
+                "Ешьте",
+                "Есть",
+                "Ел"
+              ],
+              "answer": "Ешь",
+              "hint": "Irregular: ешь/ешьте.",
+              "explanation": "Irregular informal: ешь."
+            },
+            {
+              "prompt": "_____ воду! (Drink water!) - formal",
+              "promptEnglish": "Irregular: пить → пейте.",
+              "options": [
+                "Пейте",
+                "Пей",
+                "Пить",
+                "Пьёте"
+              ],
+              "answer": "Пейте",
+              "hint": "Irregular: пей/пейте.",
+              "explanation": "Irregular formal: пейте."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Не _____! (Don't worry!) - informal",
+              "promptEnglish": "Negative: не + imperative.",
+              "options": [
+                "волнуйся",
+                "волнуйтесь",
+                "волноваться",
+                "волнуешься"
+              ],
+              "answer": "волнуйся",
+              "hint": "Не + informal imperative.",
+              "explanation": "Не волнуйся! (Don't worry!)"
+            },
+            {
+              "prompt": "Не _____! (Don't be late!) - formal",
+              "promptEnglish": "Negative formal command.",
+              "options": [
+                "опаздывайте",
+                "опаздывай",
+                "опаздывать",
+                "опаздываете"
+              ],
+              "answer": "опаздывайте",
+              "hint": "Не + formal imperative (imperfective for prohibition).",
+              "explanation": "Не опаздывайте! (Don't be late!)"
+            },
+            {
+              "prompt": "Не _____! (Don't forget!) - informal",
+              "promptEnglish": "Perfective negative (specific warning).",
+              "options": [
+                "забудь",
+                "забудьте",
+                "забыть",
+                "забываешь"
+              ],
+              "answer": "забудь",
+              "hint": "Perfective for a specific warning: не забудь!",
+              "explanation": "Не забудь! (Don't forget! - specific warning)"
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Не _____ ! (Don't touch!) - informal",
+          "_____ чай! (Drink tea!) - formal",
+          "_____ мне это! (Give me this!) - informal"
+        ],
+        "choices": [
+          "трогай",
+          "Пейте",
+          "Дай",
+          "трогайте",
+          "Пей"
+        ],
+        "answers": [
+          "трогай",
+          "Пейте",
+          "Дай"
+        ],
+        "grammarFocus": "Irregulars: дай, ешь, пей. Negatives: не + imperative",
+        "hints": [
+          "Не + informal imperative of трогать.",
+          "Formal imperative of пить: пейте.",
+          "Irregular informal of дать: дай."
+        ],
+        "explanations": [
+          "Не трогай! (vowel stem: трога- + -й).",
+          "Irregular formal: пейте.",
+          "Irregular informal: дай."
+        ],
+        "options": [
+          [
+            "трогаешь",
+            "трогаю",
+            "трогай",
+            "трогает"
+          ],
+          [
+            "пьют",
+            "пьёте",
+            "пьём",
+            "Пейте"
+          ],
+          [
+            "Дай",
+            "дал",
+            "дала",
+            "дало"
+          ]
+        ]
+      },
+      "patternRecognition": [
+        {
+          "sentence": "Не говори! Не трогай! Не забывай!",
+          "question": "Negative prohibitions (general rules) typically use which aspect?",
+          "options": [
+            "Imperfective",
+            "Perfective",
+            "Either aspect equally"
+          ],
+          "answer": "Imperfective",
+          "explanation": "General prohibitions use imperfective: не говори, не трогай."
+        },
+        {
+          "sentence": "Не забудь! Не потеряй! Не урони!",
+          "question": "These negative commands use perfective. When is this appropriate?",
+          "options": [
+            "Specific warnings about one-time events",
+            "General rules of behavior",
+            "Repeated actions"
+          ],
+          "answer": "Specific warnings about one-time events",
+          "explanation": "Perfective in negatives = specific warning: Don't forget THIS, don't drop THAT."
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All imperative skills: formation, formality, irregulars, negatives",
+      "descriptionRussian": "Все навыки: образование, формальность, исключения, отрицание",
+      "icon": "bolt.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____, пожалуйста, где банк? (Tell me please, where is the bank?) - formal",
+              "promptEnglish": "Polite request to a stranger.",
+              "options": [
+                "Скажите",
+                "Скажи",
+                "Сказать",
+                "Говорите"
+              ],
+              "answer": "Скажите",
+              "hint": "Stranger = formal: скажите.",
+              "explanation": "Formal: скажите, пожалуйста."
+            },
+            {
+              "prompt": "_____ это! (Write this down!) - informal",
+              "promptEnglish": "Consonant stem: запиш- + и.",
+              "options": [
+                "Запиши",
+                "Запишите",
+                "Записать",
+                "Записываешь"
+              ],
+              "answer": "Запиши",
+              "hint": "Informal consonant stem: -и.",
+              "explanation": "Informal: запиши."
+            },
+            {
+              "prompt": "Не _____ ! (Don't be afraid!) - informal",
+              "promptEnglish": "Negative imperative.",
+              "options": [
+                "бойся",
+                "бойтесь",
+                "бояться",
+                "боишься"
+              ],
+              "answer": "бойся",
+              "hint": "Не + informal imperative.",
+              "explanation": "Не бойся!"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ осторожны! (Be careful!) - formal",
+              "promptEnglish": "Formal command with быть.",
+              "options": [
+                "Будьте",
+                "Будь",
+                "Быть",
+                "Будете"
+              ],
+              "answer": "Будьте",
+              "hint": "Irregular formal: будьте.",
+              "explanation": "Formal: будьте."
+            },
+            {
+              "prompt": "_____ мне, пожалуйста! (Please help me!) - ты",
+              "promptEnglish": "Informal polite request.",
+              "options": [
+                "Помоги",
+                "Помогите",
+                "Помогать",
+                "Помогаешь"
+              ],
+              "answer": "Помоги",
+              "hint": "Informal: помоги.",
+              "explanation": "Informal: помоги, пожалуйста."
+            },
+            {
+              "prompt": "_____ молоко! (Drink milk!) - informal",
+              "promptEnglish": "Irregular of пить.",
+              "options": [
+                "Пей",
+                "Пейте",
+                "Пить",
+                "Пьёшь"
+              ],
+              "answer": "Пей",
+              "hint": "Irregular informal: пей.",
+              "explanation": "Irregular: пей."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Читать книгу! (as a command)",
+          "error": "Читать",
+          "correction": "Читай",
+          "explanation": "Use imperative form, not infinitive. Informal: читай!",
+          "options": [
+            "Читай",
+            "Читаешь",
+            "Читаю"
+          ]
+        },
+        {
+          "sentence": "Пиште мне! (formal command of писать)",
+          "error": "Пиште",
+          "correction": "Пишите",
+          "explanation": "Consonant stem + -ите (not -те). Пишите!",
+          "options": [
+            "Пишите",
+            "Пиши",
+            "Писать",
+            "Пишете"
+          ]
+        },
+        {
+          "sentence": "Будеть осторожны! (formal command)",
+          "error": "Будеть",
+          "correction": "Будьте",
+          "explanation": "Irregular imperative of быть: будьте (not будеть).",
+          "options": [
+            "Будьте",
+            "Будь",
+            "Быть",
+            "Будете"
+          ]
+        }
+      ]
+    }
+  ]
+}

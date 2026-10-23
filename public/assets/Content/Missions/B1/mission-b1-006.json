@@ -1,0 +1,53 @@
+{
+  "id": "mission-b1-006",
+  "title": "Service Complaint",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Politely complain about slow internet service",
+  "imageName": "wifi.exclamationmark",
+  "initialPrompt": "Служба поддержки, здравствуйте. Слушаю вас.",
+  "systemPrompt": "You work at internet provider support. Customer has slow internet. Apologize, run diagnostic, offer technician visit tomorrow or discount. Keep replies short.",
+  "completionCriteria": "User explained the problem and accepted a solution.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня проблема с интернетом (I have a problem with internet)",
+    "Очень медленно работает (It's working very slowly)",
+    "Что вы можете сделать? (What can you do?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "интернет",
+      "definition": "internet"
+    },
+    {
+      "word": "медленный",
+      "definition": "slow"
+    },
+    {
+      "word": "скорость",
+      "definition": "speed"
+    },
+    {
+      "word": "жалоба",
+      "definition": "complaint"
+    },
+    {
+      "word": "техник",
+      "definition": "technician"
+    },
+    {
+      "word": "скидка",
+      "definition": "discount"
+    },
+    {
+      "word": "решить",
+      "definition": "to solve"
+    }
+  ],
+  "objectives": [
+    "Explain the problem (проблема с интернетом)",
+    "Describe symptoms (медленно работает)",
+    "Ask for solution (что можете сделать)",
+    "Accept a resolution"
+  ]
+}

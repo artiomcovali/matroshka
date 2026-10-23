@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-016",
+  "title": "The Mechanic",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Car repair costs much more than the quote - dispute the charges",
+  "imageName": "wrench.and.screwdriver.fill",
+  "initialPrompt": "Готово! Ваша машина. С вас 15 000 рублей.",
+  "systemPrompt": "You are a mechanic. Original quote was 5000₽ but you did extra work (brakes, oil). Be defensive but reduce price if customer insists politely. Keep replies short.",
+  "completionCriteria": "User negotiated a lower price or got itemized explanation.",
+  "responseLimit": 15,
+  "hints": [
+    "Но вы говорили 5000 (But you said 5000)",
+    "Покажите, что вы сделали (Show me what you did)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "ремонт",
+      "definition": "repair"
+    },
+    {
+      "word": "счёт",
+      "definition": "bill"
+    },
+    {
+      "word": "цена",
+      "definition": "price"
+    },
+    {
+      "word": "дорого",
+      "definition": "expensive"
+    },
+    {
+      "word": "скидка",
+      "definition": "discount"
+    },
+    {
+      "word": "работа",
+      "definition": "work"
+    }
+  ],
+  "objectives": [
+    "Question the high price (Почему так дорого?)",
+    "Ask for itemized list of work done",
+    "Point out original quote was lower",
+    "Negotiate a fair price",
+    "Get resolution"
+  ]
+}

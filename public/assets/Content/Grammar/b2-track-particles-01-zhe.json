@@ -1,0 +1,332 @@
+{
+  "id": "b2-track-particles-01-zhe",
+  "level": "B2",
+  "focusArea": "sentenceStructure",
+  "title": "Particles 1: же (Emphasis and Insistence)",
+  "titleRussian": "Частицы 1: же (усиление и настойчивость)",
+  "description": "The particle же adds emphasis, contrast, insistence, or the sense of 'the very same'. It sits right after the word it stresses and carries no dictionary meaning of its own; it tunes the speaker's stance.",
+  "descriptionRussian": "Частица же придаёт усиление, противопоставление, настойчивость или значение «тот самый». Она стоит сразу после выделяемого слова и не имеет собственного словарного значения: она настраивает позицию говорящего.",
+  "imageName": "exclamationmark.bubble",
+  "trackId": "b2-particles-mastery",
+  "trackTitle": "Particles Mastery",
+  "trackTitleRussian": "Частицы",
+  "trackIndex": 1,
+  "trackTotal": 8,
+  "intro": "Particles are the hardest thing in Russian to look up, because most of them have no dictionary meaning at all. They carry attitude rather than content: emphasis, doubt, appeal, surprise. Leaving them out is grammatically fine and makes you sound flat. This one presses on whatever word it follows, and it can never start a clause.",
+  "rules": [
+    "же is an unstressed emphatic particle with no dictionary meaning. It presses on the word it follows: Куда же ты идёшь? = 'Where on earth are you going?' versus the neutral Куда ты идёшь?",
+    "же can mark insistence or a reminder of shared knowledge, close to ведь: Я же говорил! ('I told you, didn't I'), Ты же обещал ('but you promised').",
+    "After a demonstrative or adverb, же means 'the very same / identical': тот же, там же, тогда же, такой же. Мы живём в том же доме = 'in the very same house.'",
+    "же can mark contrast ('on the other hand'), standing after the first word of its clause: Брат любит спорт. Сестра же любит книги.",
+    "же leans on the word before it and can never start a clause; it follows the emphasized word (a question word, a pronoun, the first word of a contrasting clause). It shortens to ж after a vowel: Что ж, Где ж он?"
+  ],
+  "examples": [
+    "Куда же ты идёшь? (Where on earth are you going?) же intensifies the question word куда.",
+    "Я же говорил тебе! (I told you, didn't I!) же = insistent reminder of shared knowledge.",
+    "Мы живём в том же доме. (We live in the very same house.) тот же = the identical one.",
+    "Приходи в то же время. (Come at the very same time.) то же время = the same time as before.",
+    "Брат любит спорт. Сестра же предпочитает книги. (The brother likes sport. The sister, on the other hand, prefers books.) же marks the contrast.",
+    "Что же мне делать? (So what am I supposed to do?!) же loads the question with helplessness or urgency."
+  ],
+  "tables": [
+    {
+      "title": "The four jobs of же",
+      "headers": [
+        "Job",
+        "Example",
+        "Effect"
+      ],
+      "rows": [
+        {
+          "label": "Emphasis / intensity",
+          "cells": [
+            "Куда же ты идёшь?",
+            "urgency, emotion on the question"
+          ]
+        },
+        {
+          "label": "Insistence / reminder",
+          "cells": [
+            "Я же говорил!",
+            "'as you know / didn't I tell you'"
+          ]
+        },
+        {
+          "label": "Identity ('the very same')",
+          "cells": [
+            "тот же дом, там же, тогда же",
+            "identical to a reference point"
+          ]
+        },
+        {
+          "label": "Contrast",
+          "cells": [
+            "Сестра же любит книги.",
+            "'on the other hand' (after 1st word)"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Speaker wants to say 'We live in the very same house.' Which is correct?",
+          "promptEnglish": "Choose the form meaning 'the very same house.'",
+          "options": [
+            "Мы живём в этом доме.",
+            "Мы живём в том же доме.",
+            "Мы живём в том доме ли.",
+            "Мы живём в доме же."
+          ],
+          "answer": "Мы живём в том же доме.",
+          "hint": "Which structure expresses identity ('the same as before')?",
+          "explanation": "же placed right after a demonstrative gives the meaning 'the identical one': тот же дом = 'the very same house.' Мы живём в этом доме just means 'in this house' with no sense of sameness.Же cannot sit at the very end (доме же), and ли is a question particle, not an emphasizer."
+        },
+        {
+          "prompt": "A friend forgot what you warned them about. You say reproachfully: '_____ говорил тебе!'",
+          "promptEnglish": "I told you, didn't I!",
+          "options": [
+            "Же я",
+            "Ли я",
+            "Я же",
+            "Я ли"
+          ],
+          "answer": "Я же",
+          "hint": "же follows the word it leans on and never begins the sentence.",
+          "explanation": "Я же говорил!Uses же as an insistent reminder of shared knowledge, close to 'didn't I tell you.' же attaches right after я and never starts a clause (Же я is impossible). Ли is a yes-no question particle and would change the meaning entirely."
+        },
+        {
+          "prompt": "Which sentence loads the question with emotion ('Where on earth...')?",
+          "promptEnglish": "Pick the emotionally charged version.",
+          "options": [
+            "Куда ты идёшь?",
+            "Куда ли ты идёшь?",
+            "Ты куда идёшь же?",
+            "Куда же ты идёшь?"
+          ],
+          "answer": "Куда же ты идёшь?",
+          "hint": "же clings to the question word to intensify it.",
+          "explanation": "Куда же ты идёшь?Adds urgency or astonishment, like 'Where on earth are you going?' же sits right after the question word куда. The plain Куда ты идёшь?Is neutral. Ли does not combine with a question word this way, and же cannot float to the end."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Contrast: 'I love the sea. The mountains, on the other hand, I love more.' Я люблю море. Горы _____ люблю больше.",
+          "promptEnglish": "The mountains, on the other hand, I love more.",
+          "options": [
+            "же",
+            "ли",
+            "ведь же",
+            "разве"
+          ],
+          "answer": "же",
+          "hint": "Which particle marks 'on the other hand', sitting after the first word of the contrasting clause?",
+          "explanation": "In Горы же люблю больше, же marks the contrastive turn ('the mountains, by contrast'). It sits after the first word of the clause.Ли is a question particle; разве expresses disbelief (lesson 4); ведь же is not a fixed combination here."
+        },
+        {
+          "prompt": "Choose the natural way to say 'Come at the same time (as before).'",
+          "promptEnglish": "Come at the very same time.",
+          "options": [
+            "Приходи в это время ли.",
+            "Приходи же в время.",
+            "Приходи в то же время.",
+            "Приходи в время то."
+          ],
+          "answer": "Приходи в то же время.",
+          "hint": "то + же expresses identity with a previously mentioned time.",
+          "explanation": "то же время = 'the very same time' (identical to the time mentioned earlier).Же directly follows the demonstrative то. The other options are ungrammatical or change the meaning; ли is a yes-no question particle and has no place here."
+        },
+        {
+          "prompt": "What does же contribute in 'Что же мне делать?'",
+          "promptEnglish": "What is the effect of же in 'Что же мне делать?'",
+          "options": [
+            "It turns the sentence into a yes-no question.",
+            "It adds urgency or helplessness to the question.",
+            "It makes the sentence formal and bookish.",
+            "It negates the verb."
+          ],
+          "answer": "It adds urgency or helplessness to the question.",
+          "hint": "же has no dictionary meaning; it tunes the speaker's stance.",
+          "explanation": "же intensifies the question word что, giving 'So what am I supposed to do?!' with a note of helplessness or exasperation.Же never forms a yes-no question (that is ли, lesson 3), it is everyday rather than bookish, and it does not negate anything."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Ты _____ обещал, что поможешь! (But you promised you would help!)"
+    ],
+    "choices": [
+      "же",
+      "ли",
+      "разве",
+      "вот"
+    ],
+    "answers": [
+      "же"
+    ],
+    "grammarFocus": "же as an insistent reminder of shared knowledge ('but you promised, you know you did'). It follows ты and presses on the broken promise.Ли would make a yes-no question; разве adds disbelief; вот is a pointer, not a reproach.",
+    "hints": [
+      "The speaker is reminding the listener of something they both know, with reproach. Which particle does that and sits right after ты?"
+    ],
+    "explanations": [
+      "Ты же обещал! uses же to remind the listener of shared knowledge with reproach, like 'but you promised, you know you did.' же attaches to ты, right after it. ли would turn it into a yes-no question; разве would add incredulity ('surely you didn't promise?'); вот points at something and does not fit here."
+    ]
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Куда",
+        "же",
+        "вы",
+        "пропали?"
+      ],
+      "answer": "Куда же вы пропали?",
+      "translation": "Where on earth did you disappear to? (job 1: же intensifies the question word куда, which it follows directly)",
+      "hint": "же leans on the word before it and can never start the sentence. Put it right after the question word."
+    },
+    {
+      "words": [
+        "Это",
+        "тот",
+        "же",
+        "человек."
+      ],
+      "answer": "Это тот же человек.",
+      "translation": "This is the very same person. (job 3: же after the demonstrative тот gives identity, 'the exact same one')",
+      "hint": "Identity ('the very same') comes from demonstrative + же. же sits right after тот."
+    },
+    {
+      "words": [
+        "Я",
+        "же",
+        "тебя",
+        "предупреждал!"
+      ],
+      "answer": "Я же тебя предупреждал!",
+      "translation": "I warned you, didn't I! (job 2: же is an insistent reminder of shared knowledge, attaching right after я)",
+      "hint": "The reproachful 'didn't I' reminder. же follows the pronoun я and never opens the clause."
+    },
+    {
+      "words": [
+        "Брат",
+        "молчит,",
+        "сестра",
+        "же",
+        "спорит."
+      ],
+      "answer": "Брат молчит, сестра же спорит.",
+      "translation": "The brother stays silent; the sister, on the other hand, argues. (job 4: же marks contrast, sitting after the first word of the contrasting clause)",
+      "hint": "Contrast ('on the other hand'). же goes after the first word of the second clause (сестра)."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Мы с тобой учились в той вот школе много лет назад.",
+      "translationEnglish": "You and I studied at the very same school many years ago.",
+      "error": "вот",
+      "correction": "же",
+      "options": [
+        "же",
+        "ведь",
+        "ли"
+      ],
+      "explanation": "After a demonstrative, же means 'the very same / identical': в той же школе = 'at the very same school.' вот is a pointer ('here is'), so в той вот школе does not express sameness and is not what the gloss needs.Ведь appeals to shared knowledge ('after all') and adds nothing to the identity meaning here.Ли is the yes-no question particle and this is a statement, not a question."
+    },
+    {
+      "sentence": "Же куда ты так спешишь в такой поздний час?",
+      "translationEnglish": "Where on earth are you rushing to at such a late hour?",
+      "error": "Же куда",
+      "correction": "Куда же",
+      "options": [
+        "Куда же",
+        "Ведь куда",
+        "Куда ли"
+      ],
+      "explanation": "же leans on the word before it and can never begin a clause; it clips on right after the focused word, so the emphatic question word куда must come first and же second: Куда же ты спешишь? Putting же first (Же куда) is impossible in Russian. Ведь куда is also wrong as an opener for this emphatic question. Куда ли is wrong because ли would turn it into a neutral yes-no question, which clashes with the 'where' question word and the emphatic gloss."
+    },
+    {
+      "sentence": "Я вот говорил тебе не опаздывать, а ты снова пришёл поздно!",
+      "translationEnglish": "I told you not to be late, didn't I, and you came late again!",
+      "error": "вот",
+      "correction": "же",
+      "options": [
+        "же",
+        "ли",
+        "разве"
+      ],
+      "explanation": "This is the sharp insistent reminder 'I told you, didn't I!', which is the job of же: Я же говорил тебе.Вот is a pointer or filler and cannot carry this reproachful 'didn't I' insistence, so Я вот говорил sounds like presenting rather than scolding.Ли is the yes-no question particle and this is an emphatic statement, not a question.Разве would make it a disbelief question ('did I really tell you?'), which contradicts the speaker's certainty in the gloss."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Куда _____ ты идёшь? (We want the urgent, emotional version: 'Where on earth...')",
+      "contextEnglish": "Where on earth are you going?",
+      "options": [
+        "же",
+        "ли"
+      ],
+      "answer": "же",
+      "explanation": "же intensifies the question word, giving 'Where on earth are you going?' ли would make a yes-no question ('Куда ли...' is not even natural), not an emphatic wh-question. With question words, же is the emphasizer; ли pairs with statements turned into yes-no questions (lesson 3)."
+    },
+    {
+      "context": "Это _____ дом, в котором я вырос. (Meaning: 'This is the very same house I grew up in.')",
+      "contextEnglish": "This is the very same house I grew up in.",
+      "options": [
+        "тот же",
+        "такой"
+      ],
+      "answer": "тот же",
+      "explanation": "тот же means 'the very same / identical' one (the exact house, not merely a similar one).Такой alone would mean 'such a' or 'that kind of' house, losing the identity sense.Же after a demonstrative is what delivers 'the same.' Compare такой же дом = 'the same KIND of house', which is similarity, not identity."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Брат любит спорт. Сестра же предпочитает книги.",
+      "question": "What job is же doing here?",
+      "options": [
+        "Marking a contrast ('on the other hand')",
+        "Forming a yes-no question",
+        "Expressing 'the very same'",
+        "Softening a command"
+      ],
+      "answer": "Marking a contrast ('on the other hand')",
+      "explanation": "Standing after the first word of its clause (Сестра), же sets the sister against the brother: 'the sister, on the other hand, prefers books.' This contrastive use is slightly bookish and is one of же's four jobs. It is not a question particle, expresses no identity here, and does not soften a command."
+    },
+    {
+      "sentence": "Мы встретились там же, где и в прошлый раз.",
+      "question": "What does там же mean?",
+      "options": [
+        "in the same place (as before)",
+        "right there, look",
+        "is it there?",
+        "nowhere"
+      ],
+      "answer": "in the same place (as before)",
+      "explanation": "же after the adverb там gives 'in the very same place,' identical to a reference point ('where we met last time'). This is the identity use of же with adverbs, parallel to тот же and тогда же. It is not a pointer (that would be вот там), not a question (no ли), and certainly not a negation."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "же",
+      "definition": "emphatic particle with no fixed meaning. Four jobs: intensify (Куда же?), insist/remind (Я же говорил), mark identity after a demonstrative or adverb (тот же, там же), and mark contrast ('on the other hand'). Always follows the emphasized word; never first.",
+      "example": "Что же ты делаешь? / Мы живём в том же доме."
+    },
+    {
+      "term": "тот же / такой же",
+      "definition": "тот же = 'the very same, identical' (the exact one); такой же = 'the same kind, similar' (matching type, not identity). The contrast between identity and similarity matters.",
+      "example": "Это тот же дом (the exact house) versus У меня такой же телефон (the same kind of phone)."
+    },
+    {
+      "term": "там же / тогда же",
+      "definition": "adverb + же = identity in place or time: там же = 'in the same place (as before)', тогда же = 'at that same time'. Same job as тот же, but with adverbs.",
+      "example": "Встретимся там же. / Он пришёл тогда же, что и вчера."
+    }
+  ]
+}

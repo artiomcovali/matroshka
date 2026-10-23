@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-030",
+  "title": "Medical Malpractice",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Hospital is denying responsibility for a treatment error",
+  "imageName": "cross.case.fill",
+  "initialPrompt": "Осложнения случаются. Это не наша вина. Вы подписали согласие на процедуру.",
+  "systemPrompt": "You are hospital administrator denying malpractice. Cite signed consent, normal risks. Offer to review case only if patient mentions lawyer or medical board complaint. Keep replies short.",
+  "completionCriteria": "User got case review or started formal complaint process.",
+  "responseLimit": 15,
+  "hints": [
+    "Это была ошибка врача (This was a doctor's error)",
+    "Я обращусь в медицинскую комиссию (I'll contact the medical board)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "осложнение",
+      "definition": "complication"
+    },
+    {
+      "word": "ошибка",
+      "definition": "error"
+    },
+    {
+      "word": "ответственность",
+      "definition": "responsibility"
+    },
+    {
+      "word": "жалоба",
+      "definition": "complaint"
+    },
+    {
+      "word": "комиссия",
+      "definition": "board/commission"
+    },
+    {
+      "word": "расследование",
+      "definition": "investigation"
+    }
+  ],
+  "objectives": [
+    "Describe what went wrong",
+    "Challenge consent argument",
+    "Demand case review",
+    "Threaten formal complaint",
+    "Get investigation started"
+  ]
+}

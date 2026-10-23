@@ -1,0 +1,476 @@
+{
+  "lessonId": "a1-029-reflexive-verbs-intro",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Choose between reflexive and non-reflexive verb forms",
+      "descriptionRussian": "Выберите между возвратной и невозвратной формой глагола",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Папа _____ сына в школу. (dresses)",
+              "promptEnglish": "Dad dresses his son for school.",
+              "options": [
+                "одевается",
+                "одевает",
+                "одеваются",
+                "одеваюсь"
+              ],
+              "answer": "одевает",
+              "hint": "He dresses someone else, not himself.",
+              "explanation": "Одевает (no -ся) = dresses someone else. Одевается = dresses himself."
+            },
+            {
+              "prompt": "Как _____ этот город?",
+              "promptEnglish": "What is this city called?",
+              "options": [
+                "называется",
+                "называют",
+                "называет",
+                "называются"
+              ],
+              "answer": "называется",
+              "hint": "The city 'is called,' not 'calls someone.'",
+              "explanation": "Называется (reflexive) = is called. Without -ся it would mean 'calls/names someone.'"
+            },
+            {
+              "prompt": "Дети _____ рано утром.",
+              "promptEnglish": "The children wake up early in the morning.",
+              "options": [
+                "просыпаюсь",
+                "просыпается",
+                "просыпаешься",
+                "просыпаются"
+              ],
+              "answer": "просыпаются",
+              "hint": "Дети = they (plural).",
+              "explanation": "Дети = they, so use 3rd person plural: просыпаются."
+            },
+            {
+              "prompt": "Она _____ в зеркало каждое утро.",
+              "promptEnglish": "She looks at herself in the mirror every morning.",
+              "options": [
+                "смотрит",
+                "смотрят",
+                "смотрятся",
+                "смотрится"
+              ],
+              "answer": "смотрится",
+              "hint": "She looks at HERSELF (reflexive).",
+              "explanation": "Смотрится (reflexive) = looks at herself. Смотрит (no -ся) = looks at something."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Мальчик _____ руки. (washes)",
+          "contextEnglish": "The boy washes his hands.",
+          "options": [
+            "моет",
+            "моется"
+          ],
+          "answer": "моет",
+          "explanation": "Моет (no -ся) = washes something (hands). Моется would mean 'washes himself.'"
+        },
+        {
+          "context": "Девочка _____ перед завтраком. (washes herself)",
+          "contextEnglish": "The girl washes herself before breakfast.",
+          "options": [
+            "умывается",
+            "умывает"
+          ],
+          "answer": "умывается",
+          "explanation": "Умывается (reflexive) = washes herself. Умывает would need an object."
+        },
+        {
+          "context": "Мы _____ русский язык. (study/teach)",
+          "contextEnglish": "We study the Russian language.",
+          "options": [
+            "учим",
+            "учимся"
+          ],
+          "answer": "учим",
+          "explanation": "Учим (no -ся) + object = we study/learn something specific. Учимся = we study (in general, no object)."
+        },
+        {
+          "context": "Мы _____ в школе. (study in general)",
+          "contextEnglish": "We study at school.",
+          "options": [
+            "учимся",
+            "учим"
+          ],
+          "answer": "учимся",
+          "explanation": "Учимся (reflexive) = we study (at a place, no direct object). Учим requires a direct object."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Conjugate reflexive verbs and sort -ся vs -сь endings",
+      "descriptionRussian": "Спрягайте возвратные глаголы и рассортируйте окончания -ся и -сь",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Я _____ в семь утра. (просыпаться)",
+          "Он _____ быстро. (одеваться)",
+          "Ты _____ каждое утро? (умываться)",
+          "Они _____ в университете. (учиться)"
+        ],
+        "choices": [
+          "просыпаюсь",
+          "одевается",
+          "умываешься",
+          "учатся",
+          "учимся",
+          "просыпается"
+        ],
+        "answers": [
+          "просыпаюсь",
+          "одевается",
+          "умываешься",
+          "учатся"
+        ],
+        "grammarFocus": "Conjugating reflexive verbs for different persons.",
+        "hints": [
+          "Я form of просыпаться.",
+          "Он form of одеваться.",
+          "Ты form of умываться.",
+          "Они form of учиться."
+        ],
+        "explanations": [
+          "Я просыпаюсь: -сь after the vowel ю.",
+          "Он одевается: -ся after the consonant т.",
+          "Ты умываешься: -ся after the consonant ш.",
+          "Они учатся: -ся after the consonant т."
+        ],
+        "options": [
+          [
+            "просыпаешься",
+            "просыпаетесь",
+            "просыпается",
+            "просыпаюсь"
+          ],
+          [
+            "одеваешься",
+            "одеваемся",
+            "одеваюсь",
+            "одевается"
+          ],
+          [
+            "умываешься",
+            "умываюсь",
+            "умывается",
+            "умываемся"
+          ],
+          [
+            "учатся",
+            "учимся",
+            "учитесь",
+            "учусь"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort: does this form end in -ся or -сь?",
+        "categories": [
+          "-сь (after vowel)",
+          "-ся (after consonant)"
+        ],
+        "items": [
+          {
+            "word": "я одеваю___",
+            "category": "-сь (after vowel)"
+          },
+          {
+            "word": "он одевает___",
+            "category": "-ся (after consonant)"
+          },
+          {
+            "word": "они одевают___",
+            "category": "-ся (after consonant)"
+          },
+          {
+            "word": "ты моешь___",
+            "category": "-ся (after consonant)"
+          },
+          {
+            "word": "я мою___",
+            "category": "-сь (after vowel)"
+          },
+          {
+            "word": "мы моем___",
+            "category": "-ся (after consonant)"
+          },
+          {
+            "word": "вы моете___",
+            "category": "-сь (after vowel)"
+          },
+          {
+            "word": "она моет___",
+            "category": "-ся (after consonant)"
+          }
+        ]
+      },
+      "conjugationTable": {
+        "verb": "одеваться",
+        "paradigm": [
+          "одеваюсь",
+          "одеваешься",
+          "одевается",
+          "одеваемся",
+          "одеваетесь",
+          "одеваются"
+        ],
+        "blanks": [
+          1,
+          3,
+          4
+        ],
+        "hints": [
+          "ты form",
+          "мы form",
+          "вы form"
+        ],
+        "tense": "present",
+        "explanations": [
+          "Ты одеваешься: -ся after the consonant ш.",
+          "Мы одеваемся: -ся after the consonant м.",
+          "Вы одеваетесь: -сь after the vowel е."
+        ]
+      }
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Errors",
+      "titleRussian": "Найди ошибки",
+      "description": "Find and fix -ся/-сь errors in reflexive verbs",
+      "descriptionRussian": "Найдите и исправьте ошибки -ся/-сь в возвратных глаголах",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Вы учитеся в школе.",
+          "error": "учитеся",
+          "correction": "учитесь",
+          "hint": "After a vowel ending, use -сь not -ся.",
+          "explanation": "Учите ends in vowel е, so add -сь: учитесь (not учитеся).",
+          "options": [
+            "учитесь",
+            "учишься",
+            "учатся"
+          ]
+        },
+        {
+          "sentence": "Я просыпаюся рано.",
+          "error": "просыпаюся",
+          "correction": "просыпаюсь",
+          "hint": "After a vowel ending, use -сь not -ся.",
+          "explanation": "Просыпаю ends in vowel ю, so add -сь: просыпаюсь (not просыпаюся).",
+          "options": [
+            "просыпаюсь",
+            "просыпаешься",
+            "просыпается"
+          ]
+        },
+        {
+          "sentence": "Они учатьсь в школе.",
+          "error": "учатьсь",
+          "correction": "учатся",
+          "hint": "After a consonant, use -ся. And no soft sign before -ся in 3rd person.",
+          "explanation": "Они учатся: no soft sign in 3rd person plural, and -ся after the consonant т.",
+          "options": [
+            "учатся",
+            "учаться",
+            "учится"
+          ]
+        },
+        {
+          "sentence": "Ты одеваешьсь быстро.",
+          "error": "одеваешьсь",
+          "correction": "одеваешься",
+          "hint": "After a consonant, use -ся not -сь.",
+          "explanation": "Одеваешь ends in consonant ш (the ь is a soft sign, not a vowel), so add -ся: одеваешься.",
+          "options": [
+            "одеваешься",
+            "одеваюсь",
+            "одевается"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Кот _____ на солнце.",
+              "promptEnglish": "The cat warms itself in the sun.",
+              "options": [
+                "греет",
+                "греется",
+                "греются",
+                "грею"
+              ],
+              "answer": "греется",
+              "hint": "The cat warms ITSELF (reflexive).",
+              "explanation": "Греется (reflexive) = warms itself. Греет would mean 'warms something else.'"
+            },
+            {
+              "prompt": "Мама _____ на кухне.",
+              "promptEnglish": "Mom is busy in the kitchen. (to be occupied)",
+              "options": [
+                "занимает",
+                "занимаюсь",
+                "занимается",
+                "занимают"
+              ],
+              "answer": "занимается",
+              "hint": "She is occupied/busy (reflexive verb).",
+              "explanation": "Заниматься (reflexive) = to be busy/occupied. Она занимается."
+            },
+            {
+              "prompt": "Я _____ перед сном.",
+              "promptEnglish": "I wash myself before bed.",
+              "options": [
+                "умываюсь",
+                "умываюся",
+                "умываются",
+                "умываешься"
+              ],
+              "answer": "умываюсь",
+              "hint": "Я form: after vowel ю, use -сь.",
+              "explanation": "Я умываюсь: -сь after the vowel ю. Not -ся."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "A mixed challenge covering reflexive verb meanings, forms, and conjugation",
+      "descriptionRussian": "Смешанное задание по значениям, формам и спряжению возвратных глаголов",
+      "icon": "star",
+      "patternRecognition": [
+        {
+          "sentence": "умываюсь, учусь, одеваюсь, моюсь",
+          "question": "Why do these forms all end in -сь (not -ся)?",
+          "options": [
+            "They are all я forms, which end in a vowel before the suffix",
+            "They are informal forms",
+            "They are past tense forms"
+          ],
+          "answer": "They are all я forms, which end in a vowel before the suffix",
+          "explanation": "All я forms end in a vowel (ю or у), so the reflexive suffix is -сь: умываюсь, учусь."
+        },
+        {
+          "sentence": "одевает ребёнка / одевается сам",
+          "question": "What does -ся change about the meaning?",
+          "options": [
+            "It makes the action reflect back on the subject (oneself)",
+            "It makes the verb negative",
+            "It changes the tense"
+          ],
+          "answer": "It makes the action reflect back on the subject (oneself)",
+          "explanation": "Одевает ребёнка = dresses the child. Одевается = dresses himself/herself. The -ся makes the action reflexive."
+        },
+        {
+          "sentence": "улыбаться, нравиться, называться",
+          "question": "What is special about these reflexive verbs?",
+          "options": [
+            "They are always reflexive and have no non-reflexive form",
+            "They are irregular verbs",
+            "They are only used in past tense"
+          ],
+          "answer": "They are always reflexive and have no non-reflexive form",
+          "explanation": "Some verbs like улыбаться (to smile), нравиться (to please/like), and называться (to be called) are always reflexive."
+        }
+      ],
+      "translation": [
+        {
+          "english": "The children wake up early.",
+          "answer": "Дети просыпаются рано.",
+          "acceptableVariants": [
+            "Дети рано просыпаются."
+          ],
+          "hint": "children = дети, wake up = просыпаются, early = рано",
+          "grammarFocus": "Reflexive verb просыпаться (они form)",
+          "keyWord": "просыпаются",
+          "options": [
+            "просыпаются",
+            "просыпаюсь",
+            "просыпается",
+            "просыпаешься"
+          ]
+        },
+        {
+          "english": "She always smiles.",
+          "answer": "Она всегда улыбается.",
+          "acceptableVariants": [],
+          "hint": "she = она, always = всегда, smiles = улыбается",
+          "grammarFocus": "Always-reflexive verb улыбаться",
+          "keyWord": "улыбается",
+          "options": [
+            "улыбается",
+            "улыбаюсь",
+            "улыбаются",
+            "улыбаешься"
+          ]
+        },
+        {
+          "english": "We study at university.",
+          "answer": "Мы учимся в университете.",
+          "acceptableVariants": [],
+          "hint": "we study = мы учимся, at university = в университете",
+          "grammarFocus": "Reflexive учиться (study in general)",
+          "keyWord": "учимся",
+          "options": [
+            "учимся",
+            "учусь",
+            "учатся",
+            "учишься"
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Бабушка _____ внучку. (dresses the grandchild)",
+          "contextEnglish": "Grandma dresses her granddaughter.",
+          "options": [
+            "одевает",
+            "одевается"
+          ],
+          "answer": "одевает",
+          "explanation": "Одевает (no -ся) = dresses someone else (внучку). Одевается = dresses herself."
+        },
+        {
+          "context": "Он _____ каждый день. (shaves himself)",
+          "contextEnglish": "He shaves every day.",
+          "options": [
+            "бреется",
+            "бреет"
+          ],
+          "answer": "бреется",
+          "explanation": "Бреется (reflexive) = shaves himself. Бреет would need an object (shaves someone else)."
+        },
+        {
+          "context": "Они _____ готовить. (learn/study)",
+          "contextEnglish": "They are learning to cook.",
+          "options": [
+            "учатся",
+            "учат"
+          ],
+          "answer": "учатся",
+          "explanation": "Учатся (reflexive) = they learn/study. Учат + object = they teach something."
+        }
+      ]
+    }
+  ]
+}

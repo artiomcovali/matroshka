@@ -1,0 +1,260 @@
+{
+  "id": "a2-track-conjunctions-01-i-vs-a",
+  "level": "A2",
+  "focusArea": "sentenceStructure",
+  "title": "Conjunctions 1: и vs а (Adding vs Contrasting)",
+  "titleRussian": "Союзы 1: и vs а (прибавление и противопоставление)",
+  "description": "English and covers two different Russian words. И adds two ideas going the same way (Я учусь и работаю). А sets up a parallel contrast (Я учусь, а он работает). When the halves are parallel but differ, Russian almost always wants а.",
+  "descriptionRussian": "Английское and покрывает два разных русских слова. И прибавляет: две мысли идут в одну сторону (Я учусь и работаю). А создаёт параллельное противопоставление (Я учусь, а он работает). Когда части параллельны, но различаются, по-русски почти всегда нужно а.",
+  "imageName": "arrow.triangle.branch",
+  "trackId": "a2-conjunctions-mastery",
+  "trackTitle": "Conjunctions Mastery",
+  "trackTitleRussian": "Союзы",
+  "trackIndex": 1,
+  "trackTotal": 5,
+  "intro": "English uses one word where Russian uses two, and choosing between them is not optional. Both translate as 'and', but one simply adds and the other sets two things side by side to compare them. If you could swap in 'whereas' without changing the meaning, you want the second. There is a comma rule attached, and it follows the same split.",
+  "rules": [
+    "И simply adds. The two halves go in the same direction: Я учусь и работаю. (I study and work.) No contrast.",
+    "А sets up a parallel contrast: same frame, different value. Я учусь, а он работает. (I study, and he works.) Different subject, same frame.",
+    "Quick test: if English and can be replaced by whereas or while with no change of meaning, the Russian word is а.",
+    "Comma rule: и inside one clause takes no comma (Я учусь и работаю). А always has a comma in front of it (Я учусь, а он работает).",
+    "А is gentle contrast, not real reversal. For expectation-breaking 'but' (I studied, BUT I did not pass), use но, not а - that is the next lesson."
+  ],
+  "examples": [
+    "Я учусь и работаю. (I study and work.) и = same direction, no contrast.",
+    "Я учусь, а он работает. (I study, and he works.) а = same frame, different person.",
+    "Антон любит кофе, а Лена любит чай. (Anton likes coffee, and Lena likes tea.) а = parallel contrast, different choice.",
+    "Сегодня тепло, а вчера было холодно. (Today is warm, and yesterday it was cold.) а = parallel contrast, different day.",
+    "Я купил хлеб и молоко. (I bought bread and milk.) и = adding inside one clause, no comma.",
+    "Москва — большой город, а Суздаль — маленький. (Moscow is a big city, and Suzdal is a small one.) а = parallel contrast, different size."
+  ],
+  "tables": [
+    {
+      "title": "и vs а: when to use each",
+      "headers": [
+        "Use",
+        "Word",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Same direction, just adding",
+          "cells": [
+            "и (no comma)",
+            "Я учусь и работаю."
+          ]
+        },
+        {
+          "label": "Adding inside one clause",
+          "cells": [
+            "и (no comma)",
+            "Я купил хлеб и молоко."
+          ]
+        },
+        {
+          "label": "Parallel contrast: different person",
+          "cells": [
+            "а (with comma)",
+            "Я учусь, а он работает."
+          ]
+        },
+        {
+          "label": "Parallel contrast: different time",
+          "cells": [
+            "а (with comma)",
+            "Сегодня тепло, а вчера было холодно."
+          ]
+        },
+        {
+          "label": "Parallel contrast: different choice",
+          "cells": [
+            "а (with comma)",
+            "Антон любит кофе, а Лена — чай."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я учусь, _____ он работает.",
+          "promptEnglish": "I study, and he works.",
+          "options": [
+            "и",
+            "а",
+            "но",
+            "что"
+          ],
+          "answer": "а",
+          "hint": "Same frame, different person. Can you replace 'and' with 'whereas'?",
+          "explanation": "The two halves stand in parallel: same activity-vs-activity frame, different person. That is the classic а context. English 'and' can be replaced with 'whereas' here ('I study, whereas he works'), which is the reliable test for а."
+        },
+        {
+          "prompt": "Я учусь _____ работаю.",
+          "promptEnglish": "I study and work.",
+          "options": [
+            "а",
+            "но",
+            "и",
+            "или"
+          ],
+          "answer": "и",
+          "hint": "Both halves are about the same person, going in the same direction. Note: no comma in the prompt.",
+          "explanation": "Both halves describe the same person doing two things that line up: study + work, no contrast. That is the и context. The absence of a comma is also a hint: и inside one clause takes no comma, while а always does."
+        },
+        {
+          "prompt": "Антон любит кофе, _____ Лена любит чай.",
+          "promptEnglish": "Anton likes coffee, and Lena likes tea.",
+          "options": [
+            "и",
+            "а",
+            "потому что",
+            "тоже"
+          ],
+          "answer": "а",
+          "hint": "Two people, two different drinks, in parallel. Whereas fits.",
+          "explanation": "Parallel frame ('X likes Y'), different person, different drink. That is а. Whereas test: 'Anton likes coffee, whereas Lena likes tea' - it fits. English and looks the same, but Russian splits this into the а case."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Сегодня тепло, _____ вчера было холодно.",
+          "promptEnglish": "Today is warm, and yesterday it was cold.",
+          "options": [
+            "и",
+            "а",
+            "поэтому",
+            "также"
+          ],
+          "answer": "а",
+          "hint": "Same frame (weather), different day, opposite quality.",
+          "explanation": "Same frame ('the weather is X'), different day, contrasting temperatures - parallel contrast, so а. The whereas test fits: 'today is warm, whereas yesterday was cold.'"
+        },
+        {
+          "prompt": "Я купил хлеб _____ молоко.",
+          "promptEnglish": "I bought bread and milk.",
+          "options": [
+            "а",
+            "и",
+            "но",
+            "или"
+          ],
+          "answer": "и",
+          "hint": "Two things bought together inside one clause. Is there any contrast?",
+          "explanation": "Two items joined inside one clause, no contrast - simple addition. That is и. The comma test confirms: 'I bought bread, whereas milk' is nonsense, so it is not а."
+        },
+        {
+          "prompt": "Москва — большой город, _____ Суздаль — маленький.",
+          "promptEnglish": "Moscow is a big city, and Suzdal is a small one.",
+          "options": [
+            "и",
+            "но",
+            "а",
+            "поэтому"
+          ],
+          "answer": "а",
+          "hint": "Same frame (the city is X), different size.",
+          "explanation": "Parallel frame ('X is Y city'), different cities, contrasting sizes. Classic а. The whereas test fits: 'Moscow is a big city, whereas Suzdal is a small one.'"
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Мама любит читать, _____ папа любит смотреть кино. (Mom likes reading, and Dad likes watching films.)"
+    ],
+    "choices": [
+      "и",
+      "а",
+      "но",
+      "что"
+    ],
+    "answers": [
+      "а"
+    ],
+    "grammarFocus": "Same frame ('X likes Y-activity'), different person, different activity - parallel contrast, so а. The comma in front of the blank is also a clue: а always carries a comma; и inside one clause does not."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Я люблю чай, и Антон любит кофе.",
+      "translationEnglish": "I like tea, and Anton likes coffee.",
+      "error": "и Антон",
+      "correction": "а Антон",
+      "options": [
+        "а Антон",
+        "но Антон",
+        "или Антон"
+      ],
+      "explanation": "Two people stand in parallel with different drinks: same frame ('X likes Y'), different value. That parallel contrast takes а, not the simple-addition и. The whereas test confirms it: 'I like tea, whereas Anton likes coffee.'"
+    },
+    {
+      "sentence": "Она поёт а танцует.",
+      "translationEnglish": "She sings and dances.",
+      "error": "а танцует",
+      "correction": "и танцует",
+      "options": [
+        "и танцует",
+        "но танцует",
+        "или танцует"
+      ],
+      "explanation": "One subject doing two activities that line up in the same direction is simple addition, which takes и: Она поёт и танцует. А sets up a parallel contrast between two halves with different values, but here there is only one person and no contrast, so а is wrong. А would fit if a second, contrasting subject appeared: Она поёт, а он танцует (She sings, whereas he dances)."
+    },
+    {
+      "sentence": "Летом жарко, и зимой холодно.",
+      "translationEnglish": "In summer it is hot, and in winter it is cold.",
+      "error": "и зимой",
+      "correction": "а зимой",
+      "options": [
+        "а зимой",
+        "но зимой",
+        "или зимой"
+      ],
+      "explanation": "Same frame (the weather in a season), different season, opposite quality: that parallel contrast takes а. The whereas test fits: 'in summer it is hot, whereas in winter it is cold.'"
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я читаю книгу, _____ мой брат смотрит фильм.",
+      "contextEnglish": "I am reading a book, and my brother is watching a film.",
+      "options": [
+        "и",
+        "а"
+      ],
+      "answer": "а",
+      "explanation": "Same frame ('X is doing Y'), different person, different activity, standing in parallel - that is а. The whereas test fits: 'I am reading a book, whereas my brother is watching a film.' Using и here would sound flat and unnatural, like the second half just continues the first instead of contrasting with it."
+    },
+    {
+      "context": "В магазине я купил молоко _____ хлеб.",
+      "contextEnglish": "At the shop I bought milk and bread.",
+      "options": [
+        "и",
+        "а"
+      ],
+      "answer": "и",
+      "explanation": "Two items joined inside one clause, no contrast - simple addition. That is и (no comma). А would need a parallel contrast between two halves: there is none here, just a shopping list. The lack of a comma in the prompt also rules out а."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "и (no contrast, no comma)",
+      "definition": "and; used for simple addition when the halves go in the same direction. Inside one clause it takes no comma: Я учусь и работаю.",
+      "example": "Я купил хлеб и молоко."
+    },
+    {
+      "term": "а (parallel contrast, with comma)",
+      "definition": "and / whereas; used when the two halves stand in parallel with a difference between them (different person, time, place, choice). Always takes a comma in front: Я учусь, а он работает.",
+      "example": "Сегодня тепло, а вчера было холодно."
+    },
+    {
+      "term": "whereas test",
+      "definition": "if the English 'and' can be replaced with 'whereas' or 'while' without changing the meaning, the Russian word is а; if not, it is и.",
+      "example": "'I study, whereas he works' → 'Я учусь, а он работает.'"
+    }
+  ]
+}

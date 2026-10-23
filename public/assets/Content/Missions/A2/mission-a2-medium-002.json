@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-medium-002",
+  "title": "No Hot Water",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Your hotel room has no hot water - report the problem",
+  "imageName": "drop.fill",
+  "initialPrompt": "Ресепшен, добрый день. Чем могу помочь?",
+  "systemPrompt": "You are hotel reception. Guest reports no hot water. Apologize, offer to send technician in 30 min or change room. Keep replies short.",
+  "completionCriteria": "User reported the problem and you offered a solution.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня проблема в номере (I have a problem in my room)",
+    "Нет горячей воды (There's no hot water)",
+    "Можно поменять номер? (Can I change rooms?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "горячая вода",
+      "definition": "hot water"
+    },
+    {
+      "word": "номер",
+      "definition": "room (hotel)"
+    },
+    {
+      "word": "проблема",
+      "definition": "problem"
+    },
+    {
+      "word": "починить",
+      "definition": "to fix/repair"
+    },
+    {
+      "word": "поменять",
+      "definition": "to change/swap"
+    },
+    {
+      "word": "техник",
+      "definition": "technician"
+    }
+  ],
+  "objectives": [
+    "Report the problem (проблема)",
+    "Explain there's no hot water (нет горячей воды)",
+    "Get a solution (fix or room change)"
+  ]
+}

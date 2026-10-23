@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-017",
+  "title": "Negligent Pet Sitter",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Pet sitter didn't follow your care instructions",
+  "imageName": "pawprint.fill",
+  "initialPrompt": "Собака в порядке! Ну, не гуляла три дня... И ела другой корм. Но всё хорошо!",
+  "systemPrompt": "You are a negligent pet sitter. Didn't walk dog or feed proper food. Be defensive, claim dog was fine. Offer refund only if owner mentions vet visit or formal complaint. Keep replies short.",
+  "completionCriteria": "User got refund and addressed the negligence.",
+  "responseLimit": 15,
+  "hints": [
+    "Собаке стало плохо (The dog got sick)",
+    "Это недопустимо (This is unacceptable)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "халатность",
+      "definition": "negligence"
+    },
+    {
+      "word": "инструкции",
+      "definition": "instructions"
+    },
+    {
+      "word": "уход",
+      "definition": "care"
+    },
+    {
+      "word": "недопустимый",
+      "definition": "unacceptable"
+    },
+    {
+      "word": "ветеринар",
+      "definition": "veterinarian"
+    },
+    {
+      "word": "возврат",
+      "definition": "refund"
+    }
+  ],
+  "objectives": [
+    "Confront about missed care",
+    "Describe consequences",
+    "Reject their dismissal",
+    "Demand refund",
+    "Get acknowledgment of fault"
+  ]
+}

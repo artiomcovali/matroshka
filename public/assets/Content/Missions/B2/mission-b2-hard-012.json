@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-012",
+  "title": "Customs Interrogation",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Suspicious customs officer questioning your travel",
+  "imageName": "exclamationmark.lock.fill",
+  "initialPrompt": "Зачем вы так часто ездите в эту страну? Ваши объяснения неубедительны. Откройте все сумки.",
+  "systemPrompt": "You are suspicious customs officer. Ask intrusive questions, imply wrongdoing. Only clear traveler who stays calm and provides consistent, reasonable answers.",
+  "completionCriteria": "User passed customs interrogation calmly.",
+  "responseLimit": 15,
+  "hints": [
+    "Я путешествую по работе (I travel for work)",
+    "Вот мои документы (Here are my documents)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "таможня",
+      "definition": "customs"
+    },
+    {
+      "word": "допрос",
+      "definition": "interrogation"
+    },
+    {
+      "word": "подозрение",
+      "definition": "suspicion"
+    },
+    {
+      "word": "декларация",
+      "definition": "declaration"
+    },
+    {
+      "word": "досмотр",
+      "definition": "inspection"
+    },
+    {
+      "word": "объяснение",
+      "definition": "explanation"
+    }
+  ],
+  "objectives": [
+    "Stay calm under pressure",
+    "Provide consistent answers",
+    "Cooperate without self-incrimination",
+    "Know your rights",
+    "Complete inspection successfully"
+  ]
+}

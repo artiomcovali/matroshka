@@ -1,0 +1,65 @@
+{
+  "id": "free-a2-season",
+  "level": "A2",
+  "type": "freeform",
+  "title": "Favorite Season",
+  "titleRussian": "Любимое время года",
+  "theme": "favorite-season",
+  "prompts": [
+    {
+      "id": "a2-ssn-001",
+      "prompt": "What is your favorite season? Describe the weather during this season.",
+      "promptRussian": "Какое ваше любимое время года? Опишите погоду в это время.",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Моё любимое время года — ...", "В это время обычно...", "Погода..."],
+      "targetGrammar": ["weather vocabulary", "impersonal constructions", "adjectives"],
+      "gradingCriteria": ["season named", "weather described", "adjectives used correctly"],
+      "sampleResponse": "Моё любимое время года — осень. В это время обычно прохладно. Листья становятся красными и жёлтыми."
+    },
+    {
+      "id": "a2-ssn-002",
+      "prompt": "What do you like to do in your favorite season?",
+      "promptRussian": "Что вам нравится делать в ваше любимое время года?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["В это время года я люблю...", "Мне нравится...", "Я часто..."],
+      "targetGrammar": ["нравиться construction", "infinitive complements", "frequency adverbs"],
+      "gradingCriteria": ["activities listed", "season connection clear", "нравиться used correctly"],
+      "sampleResponse": "Летом я люблю плавать и загорать. Мне нравится гулять по парку. Я часто езжу на дачу."
+    },
+    {
+      "id": "a2-ssn-003",
+      "prompt": "Which season do you like least? Why?",
+      "promptRussian": "Какое время года вам нравится меньше всего? Почему?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Меньше всего мне нравится...", "потому что...", "В это время..."],
+      "targetGrammar": ["superlatives", "негативные preferences", "потому что clause"],
+      "gradingCriteria": ["season named", "reason given", "superlative used"],
+      "sampleResponse": "Меньше всего мне нравится зима, потому что очень холодно. В это время темнеет рано. Я не люблю мороз."
+    },
+    {
+      "id": "a2-ssn-004",
+      "prompt": "How do seasons affect your mood and activities?",
+      "promptRussian": "Как времена года влияют на ваше настроение и занятия?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Весной я чувствую...", "Зимой мне хочется...", "Летом у меня больше энергии..."],
+      "targetGrammar": ["instrumental for seasons", "хочется construction", "mood vocabulary"],
+      "gradingCriteria": ["mood described", "activities mentioned", "seasonal connection clear"],
+      "sampleResponse": "Весной у меня хорошее настроение. Летом я более активный. Зимой мне хочется оставаться дома и пить чай."
+    },
+    {
+      "id": "a2-ssn-005",
+      "prompt": "Describe a memorable moment from your favorite season.",
+      "promptRussian": "Опишите запоминающийся момент из вашего любимого времени года.",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Я помню, как однажды...", "Это было...", "Мне запомнилось..."],
+      "targetGrammar": ["past tense", "memory expressions", "как clause"],
+      "gradingCriteria": ["specific memory described", "past tense used", "emotional response included"],
+      "sampleResponse": "Я помню, как однажды летом мы ездили на море. Это было очень весело. Мне запомнился тёплый вечер на пляже."
+    }
+  ]
+}

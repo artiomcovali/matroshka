@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-016",
+  "title": "Bus Ticket",
+  "level": "A1",
+  "description": "Buy a single bus ticket",
+  "imageName": "bus.fill",
+  "initialPrompt": "Здравствуйте! Куда едете?",
+  "systemPrompt": "You sell bus tickets. Destinations: центр 50₽, вокзал 60₽, парк 40₽. Keep replies short.",
+  "completionCriteria": "User bought a bus ticket to their destination.",
+  "responseLimit": 15,
+  "hints": [
+    "Один билет (One ticket)",
+    "До центра (To the center)",
+    "Сколько стоит? (How much?)",
+    "Спасибо (Thank you)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "билет",
+      "definition": "ticket"
+    },
+    {
+      "word": "автобус",
+      "definition": "bus"
+    },
+    {
+      "word": "центр",
+      "definition": "center"
+    },
+    {
+      "word": "вокзал",
+      "definition": "station"
+    },
+    {
+      "word": "куда",
+      "definition": "where to"
+    }
+  ],
+  "objectives": [
+    "Say where you're going (центр, вокзал, парк)",
+    "Ask for one ticket (один билет)",
+    "Pay for the ticket"
+  ]
+}

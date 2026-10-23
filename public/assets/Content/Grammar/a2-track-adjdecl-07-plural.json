@@ -1,0 +1,349 @@
+{
+  "id": "a2-track-adjdecl-07-plural",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Adjective Declension 7: Plural Across All Six Cases",
+  "titleRussian": "Склонение прилагательных 7: множественное число во всех падежах",
+  "description": "The plural across the full six-case paradigm. Russian collapses gender in the plural for adjectives: one ending per case, no masc / fem / neut split. The animacy split returns in the plural accusative.",
+  "descriptionRussian": "Множественное число прилагательных во всех шести падежах. Окончания одинаковые для всех родов; в винительном падеже множественного числа возвращается одушевлённость.",
+  "imageName": "rectangle.stack.fill",
+  "trackId": "a2-adjective-declension-mastery",
+  "trackTitle": "Adjective Full Declension Mastery",
+  "trackTitleRussian": "Склонение прилагательных",
+  "trackIndex": 7,
+  "trackTotal": 9,
+  "intro": "The plural is the easy half of this book. Gender disappears completely, so one set of endings covers everything, and four forms are enough for all six cases. The animacy split survives, but it now applies to all three genders rather than just the masculine. There is less to learn here than in any lesson before it.",
+  "rules": [
+    "The plural collapses gender for adjectives. Four endings cover all six cases: -ые (nom + acc inan), -ых (gen + acc anim + prep), -ым (dat), -ыми (instr).",
+    "The animacy split in the plural accusative applies across ALL three genders, not just the masculine. Animate plural acc = gen pl: -ых.",
+    "Spelling rule (Rule 1): after к, г, х, ж, ш, ч, щ, write -и not -ы. Маленьких / хороших / русским / большими / маленькие all show this rule across cases.",
+    "The husher / velar spelling rule applies to -ых, -ым, -ыми, and -ые equally. The mechanism is one rule (no -ы after these letters); the surface forms differ by case."
+  ],
+  "examples": [
+    "Это новые машины. (These are new cars.) Plural nom: -ые → новые.",
+    "Я знаю новых братьев. (I know the new brothers.) Plural acc animate: -ых → новых.",
+    "У меня нет старых журналов. (I don't have old magazines.) Plural gen: -ых → старых.",
+    "Маша помогает новым друзьям. (Masha helps the new friends.) Plural dat: -ым → новым.",
+    "Антон гордится умными сёстрами. (Anton is proud of his smart sisters.) Plural instr: -ыми → умными.",
+    "Лена думает о хороших друзьях. (Lena thinks about her good friends.) Plural prep with husher rule: -их → хороших."
+  ],
+  "tables": [
+    {
+      "title": "Adjective Plural Endings (новый as model)",
+      "headers": [
+        "Case",
+        "Ending",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Nominative",
+          "cells": [
+            "-ые",
+            "новые дома"
+          ]
+        },
+        {
+          "label": "Acc inanimate (= nom)",
+          "cells": [
+            "-ые",
+            "Я читаю новые журналы"
+          ]
+        },
+        {
+          "label": "Acc animate (= gen)",
+          "cells": [
+            "-ых",
+            "Я знаю новых братьев"
+          ]
+        },
+        {
+          "label": "Genitive",
+          "cells": [
+            "-ых",
+            "У меня нет новых журналов"
+          ]
+        },
+        {
+          "label": "Dative",
+          "cells": [
+            "-ым",
+            "Я помогаю новым друзьям"
+          ]
+        },
+        {
+          "label": "Instrumental",
+          "cells": [
+            "-ыми",
+            "Я горжусь новыми друзьями"
+          ]
+        },
+        {
+          "label": "Prepositional",
+          "cells": [
+            "-ых",
+            "Я думаю о новых друзьях"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Husher / Velar Rule in the Plural: -ы → -и",
+      "headers": [
+        "Case",
+        "Hard stem (нов-)",
+        "Husher / velar (хорош-, русск-)"
+      ],
+      "rows": [
+        {
+          "label": "Nominative",
+          "cells": [
+            "новые",
+            "хорошие, русские"
+          ]
+        },
+        {
+          "label": "Genitive",
+          "cells": [
+            "новых",
+            "хороших, русских"
+          ]
+        },
+        {
+          "label": "Dative",
+          "cells": [
+            "новым",
+            "хорошим, русским"
+          ]
+        },
+        {
+          "label": "Instrumental",
+          "cells": [
+            "новыми",
+            "хорошими, русскими"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Маша думает о _____ друге.",
+          "promptEnglish": "Masha thinks about her good friend.",
+          "options": [
+            "хорошим",
+            "хороший",
+            "хорошего",
+            "хорошем"
+          ],
+          "answer": "хорошем",
+          "hint": "Recap from Lesson 6: о + prep, husher rule. Singular masculine.",
+          "explanation": "Recap from Lesson 6. О + prep triggers the prepositional. Хороший stem ends in the husher -ш-, so by Rule 2 the unstressed prep ending is -ем: хорошем. Today's drill, starting Q1.2, switches to the plural across cases."
+        },
+        {
+          "prompt": "Это _____ дома.",
+          "promptEnglish": "These are new houses.",
+          "options": [
+            "новый",
+            "новых",
+            "новые",
+            "новая"
+          ],
+          "answer": "новые",
+          "hint": "Plural nominative. The plural ending is the same across genders.",
+          "explanation": "Plural nominative. The hard-stem plural ending is -ые: новые. Same form covers новые дома (masc), новые книги (fem), and новые окна (neut). Russian collapses gender in the plural for adjectives."
+        },
+        {
+          "prompt": "У меня нет _____ журналов.",
+          "promptEnglish": "I don't have old magazines.",
+          "options": [
+            "старые",
+            "старая",
+            "старыми",
+            "старых"
+          ],
+          "answer": "старых",
+          "hint": "Plural genitive. The trigger 'нет' takes the same case in plural as in singular.",
+          "explanation": "'Нет + gen' triggers the genitive. Plural genitive ending is -ых: старых. The same -ых will appear today as the plural prepositional and the plural animate accusative."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я знаю _____ братьев.",
+          "promptEnglish": "I know the new brothers.",
+          "options": [
+            "новых",
+            "новые",
+            "новыми",
+            "новым"
+          ],
+          "answer": "новых",
+          "hint": "Plural accusative animate. The animate split applies across ALL genders in the plural.",
+          "explanation": "Plural accusative animate. Like the masculine singular animate, the plural animate accusative borrows the genitive form: -ых. Братьев is the gen pl of брат (irregular family-pl), so 'я знаю новых братьев' parallels 'у меня нет новых братьев' in form."
+        },
+        {
+          "prompt": "Маша помогает _____ друзьям.",
+          "promptEnglish": "Masha helps the new friends.",
+          "options": [
+            "новых",
+            "новые",
+            "новым",
+            "новыми"
+          ],
+          "answer": "новым",
+          "hint": "Помогать + dat. Plural dative ending is one form across all genders.",
+          "explanation": "Помогать + dat. Plural dative ending is -ым: новым. Друзья is the irregular plural of друг; the dative pl is друзьям. The adjective and the noun both shift in parallel."
+        },
+        {
+          "prompt": "Антон гордится _____ сёстрами.",
+          "promptEnglish": "Anton is proud of his smart sisters.",
+          "options": [
+            "умными",
+            "умных",
+            "умные",
+            "умным"
+          ],
+          "answer": "умными",
+          "hint": "Гордиться + instr. Plural instr ending is the longest of the four plural endings.",
+          "explanation": "Гордиться + instr. Plural instrumental ending is -ыми: умными. The form is two syllables (-ы-ми) and tends to get rushed in speech; practice produces it whole. Сёстры is the irregular nom pl (note the ё); сёстрами is its instr pl."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Лена думает о _____ друзьях. (Lena thinks about her good friends.)"
+    ],
+    "choices": [
+      "хорошие",
+      "хороших",
+      "хорошим",
+      "хорошими"
+    ],
+    "answers": [
+      "хороших"
+    ],
+    "grammarFocus": "О + prep triggers the prepositional. Plural prepositional ending is -ых, but after the husher -ш- Rule 1 swaps -ы → -и: хороших. Same -их appears in the gen pl ('нет хороших друзей') and in the plural animate acc ('я знаю хороших друзей')."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Маша уже знает молодые студентов.",
+      "translationEnglish": "Masha already knows the young students.",
+      "error": "молодые",
+      "correction": "молодых",
+      "options": [
+        "молодых",
+        "молодым",
+        "молодыми"
+      ],
+      "explanation": "Студенты are animate, and the plural accusative of an animate noun borrows the genitive form on both noun and adjective: -ых, giving молодых студентов. Молодые is the nominative and inanimate-accusative ending."
+    },
+    {
+      "sentence": "Антон очень гордится новых друзьями.",
+      "translationEnglish": "Anton is very proud of his new friends.",
+      "error": "новых",
+      "correction": "новыми",
+      "options": [
+        "новыми",
+        "новые",
+        "новым"
+      ],
+      "explanation": "Гордиться takes the instrumental, and the plural instrumental ending is -ыми: новыми друзьями. Новых is the genitive (and the animate-accusative and prepositional), correct after a trigger like нет (нет новых друзей), not after гордиться. The -ыми ending is the longest of the four plural endings and easy to clip; say it whole."
+    },
+    {
+      "sentence": "На столе лежат хорошые книги.",
+      "translationEnglish": "Good books are lying on the table.",
+      "error": "хорошые",
+      "correction": "хорошие",
+      "options": [
+        "хорошие",
+        "хороших",
+        "хорошими"
+      ],
+      "explanation": "Книги here is the plural nominative subject, so the adjective takes -ые, but after the husher -ш- Rule 1 swaps -ы to -и: хорошие. Хорошые is the mechanical -ые form that the spelling rule blocks and is not valid. The same -и swap appears across all the plural -ы endings: хороших, хорошим, хорошими."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я читаю _____ журналы.",
+      "contextEnglish": "I am reading new magazines.",
+      "options": [
+        "новые",
+        "новых"
+      ],
+      "answer": "новые",
+      "explanation": "Журналы is plural INANIMATE acc, so the adjective is identical to the nominative: -ые. Новых would be required if the noun were animate (e.g., новых студентов)."
+    },
+    {
+      "context": "Маша гордится _____ сёстрами.",
+      "contextEnglish": "Masha is proud of her smart sisters.",
+      "options": [
+        "умных",
+        "умными"
+      ],
+      "answer": "умными",
+      "explanation": "Гордиться + instr triggers the instrumental, not the genitive. Plural instr is -ыми: умными. Умных would be the gen pl ('нет умных сестёр')."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each plural adjective form by its case.",
+    "categories": [
+      "Nom / Acc inan: -ые / -ие",
+      "Gen / Acc anim / Prep: -ых / -их",
+      "Dat: -ым / -им",
+      "Instr: -ыми / -ими"
+    ],
+    "items": [
+      {
+        "word": "новые (журналы)",
+        "category": "Nom / Acc inan: -ые / -ие"
+      },
+      {
+        "word": "новых (братьев)",
+        "category": "Gen / Acc anim / Prep: -ых / -их"
+      },
+      {
+        "word": "новым (друзьям)",
+        "category": "Dat: -ым / -им"
+      },
+      {
+        "word": "новыми (сёстрами)",
+        "category": "Instr: -ыми / -ими"
+      },
+      {
+        "word": "хорошие (книги)",
+        "category": "Nom / Acc inan: -ые / -ие"
+      },
+      {
+        "word": "хороших (друзей)",
+        "category": "Gen / Acc anim / Prep: -ых / -их"
+      },
+      {
+        "word": "хорошим (учителям)",
+        "category": "Dat: -ым / -им"
+      },
+      {
+        "word": "хорошими (друзьями)",
+        "category": "Instr: -ыми / -ими"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "множественное число",
+      "definition": "plural number (in adjectives, gender is collapsed: one set of endings covers all three genders)",
+      "example": "В фразе 'старые дома' прилагательное 'старые' стоит во множественном числе; то же окончание было бы у 'старые книги' и 'старые окна'."
+    },
+    {
+      "term": "одушевлённость",
+      "definition": "animacy (in plural acc, this property splits the form: inanimate = nom (-ые), animate = gen (-ых))",
+      "example": "В предложении 'Я знаю новых братьев' прилагательное 'новых' стоит в форме одушевлённого винительного, совпадающей с родительным."
+    }
+  ]
+}

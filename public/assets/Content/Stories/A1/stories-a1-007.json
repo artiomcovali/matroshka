@@ -1,0 +1,176 @@
+{
+  "id": "a1-007",
+  "level": "A1",
+  "narrator": "Маша",
+  "title": "В магазине",
+  "titleEnglish": "At the Store",
+  "description": "Маша покупает продукты.",
+  "imageName": "cart.fill",
+  "fullText": "Сегодня суббота, и я иду в магазин. Мне нужны продукты. Я беру хлеб, молоко и три яблока. Ещё я беру сыр и масло. Всё это стоит триста рублей. Я плачу́ и иду домой. Теперь у меня есть еда на неделю!",
+  "reviewVocab": [
+    {
+      "word": "магазин",
+      "definition": "store, shop",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "магазин",
+        "магазина",
+        "в магазин",
+        "в магазине"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "продукты",
+      "definition": "groceries, food products",
+      "partOfSpeech": "noun (pl)",
+      "forms": [
+        "продукты",
+        "продуктов",
+        "продуктам"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "стоить",
+      "definition": "to cost",
+      "partOfSpeech": "verb (impf)",
+      "forms": [
+        "стоит",
+        "стоят",
+        "сколько стоит?"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "рубль",
+      "definition": "ruble (Russian currency)",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "рубль",
+        "рубля",
+        "рублей"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Какой сегодня день?",
+      "options": [
+        "Пятница",
+        "Суббота",
+        "Понедельник"
+      ],
+      "correctIndex": 1,
+      "explanation": "Сегодня суббота."
+    },
+    {
+      "prompt": "Куда идёт Маша?",
+      "options": [
+        "На работу",
+        "В парк",
+        "В магазин"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша идёт в магазин."
+    },
+    {
+      "prompt": "Сколько яблок берёт Маша?",
+      "options": [
+        "Одно",
+        "Три",
+        "Два"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша берёт три яблока."
+    },
+    {
+      "prompt": "Сколько стоят продукты?",
+      "options": [
+        "Триста рублей",
+        "Двести рублей",
+        "Сто рублей"
+      ],
+      "correctIndex": 0,
+      "explanation": "Всё стоит триста рублей."
+    },
+    {
+      "prompt": "Что ещё берёт Маша?",
+      "options": [
+        "Торт и конфеты",
+        "Мясо и рыбу",
+        "Сыр и масло"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ещё Маша берёт сыр и масло."
+    },
+    {
+      "prompt": "Куда идёт Маша после магазина?",
+      "options": [
+        "На работу",
+        "В кафе",
+        "Домой"
+      ],
+      "correctIndex": 2,
+      "explanation": "После магазина Маша идёт домой."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Я иду в _____.",
+      "Мне нужны _____.",
+      "Я беру хлеб и _____.",
+      "Всё это _____ триста рублей.",
+      "Я иду _____."
+    ],
+    "choices": [
+      "магазин",
+      "продукты",
+      "молоко",
+      "стоит",
+      "домой",
+      "хлеб",
+      "плачу"
+    ],
+    "answers": [
+      "магазин",
+      "продукты",
+      "молоко",
+      "стоит",
+      "домой"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "How do you say 'one' in Russian?",
+      "options": [
+        "один",
+        "два",
+        "три"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "numbers",
+      "sentenceRef": "Она берёт один хлеб.",
+      "explanation": "'Один' means 'one' and changes form by gender: один (m.), одна (f.), одно (n.). Example: один дом (one house), одна книга (one book), одно окно (one window).",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "What is the correct form: '300 rubles'?",
+      "options": [
+        "триста рублей",
+        "триста рубль",
+        "триста рубля"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "numbers",
+      "sentenceRef": "Всё это стоит триста рублей.",
+      "explanation": "After numbers 5-20, 100, 200, 300, we use genitive plural: рублей. Compare: один рубль, два рубля, пять рублей. Example: двести рублей (200 rubles), триста рублей (300 rubles).",
+      "focusArea": "cases"
+    }
+  ],
+  "audioFile": "a1-007.m4a",
+  "audioTimingFile": "a1-007-timing.json"
+}

@@ -1,0 +1,251 @@
+{
+  "id": "a1-023-accusative-intro",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Accusative Case (Intro)",
+  "titleRussian": "Винительный падеж (введение)",
+  "description": "Accusative case for direct objects (inanimate focus)",
+  "descriptionRussian": "Винительный падеж для прямых дополнений (неодушевлённые)",
+  "imageName": "arrow.right.circle.fill",
+  "intro": "The accusative case (винительный падеж) marks the direct object - the thing receiving the action. When you read a book, 'book' is the direct object. In Russian, nouns change their endings to show they're direct objects. This lesson focuses on inanimate nouns (things, not people/animals).",
+  "rules": [
+    "Accusative marks the direct object - the thing receiving the action: Я читаю книгу.",
+    "Inanimate masculine and ALL neuter nouns: accusative = nominative (no change): стол → стол, окно → окно.",
+    "Feminine nouns ending in -а: change to -у: книга → книгу, мама → маму.",
+    "Feminine nouns ending in -я: change to -ю: песня → песню, неделя → неделю."
+  ],
+  "examples": [
+    "Я читаю книгу. (I am reading a book.), книга → книгу",
+    "Он видит стол. (He sees the table.), стол stays стол (masc. inanimate)",
+    "Мы смотрим фильм. (We are watching a film.), фильм stays фильм",
+    "Она слушает музыку. (She is listening to music.), музыка → музыку"
+  ],
+  "tables": [
+    {
+      "title": "Accusative Case Changes",
+      "headers": [
+        "Gender",
+        "Nominative",
+        "Accusative",
+        "Change"
+      ],
+      "rows": [
+        {
+          "label": "Masc. animate",
+          "cells": [
+            "студент",
+            "студент|а",
+            "-а"
+          ]
+        },
+        {
+          "label": "Masc. inanimate",
+          "cells": [
+            "стол",
+            "стол",
+            "no change"
+          ]
+        },
+        {
+          "label": "Fem. -а",
+          "cells": [
+            "книг|а",
+            "книг|у",
+            "-а → -у"
+          ]
+        },
+        {
+          "label": "Fem. -я",
+          "cells": [
+            "недел|я",
+            "недел|ю",
+            "-я → -ю"
+          ]
+        },
+        {
+          "label": "Neuter",
+          "cells": [
+            "окно",
+            "окно",
+            "no change"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я читаю _____. (книга)",
+          "promptEnglish": "I am reading a book.",
+          "options": [
+            "книге",
+            "книгу",
+            "книги",
+            "книга"
+          ],
+          "answer": "книгу",
+          "hint": "Feminine -а → -у in accusative",
+          "explanation": "Книга is feminine ending in -а. In accusative: книга → книгу."
+        },
+        {
+          "prompt": "Он видит _____. (стол)",
+          "promptEnglish": "He sees the table.",
+          "options": [
+            "столу",
+            "стол",
+            "столе",
+            "стола"
+          ],
+          "answer": "стол",
+          "hint": "Inanimate masculine = no change",
+          "explanation": "Стол is masculine inanimate. Accusative = nominative: стол."
+        },
+        {
+          "prompt": "Мы видим _____. (море)",
+          "promptEnglish": "We see the sea.",
+          "options": [
+            "моря",
+            "море",
+            "морю",
+            "морем"
+          ],
+          "answer": "море",
+          "hint": "Neuter nouns don't change in accusative",
+          "explanation": "Море is neuter. All neuter nouns: accusative = nominative."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Она слушает _____. (музыка)",
+          "promptEnglish": "She is listening to music.",
+          "options": [
+            "музыке",
+            "музыку",
+            "музыка",
+            "музыки"
+          ],
+          "answer": "музыку",
+          "hint": "Feminine -а → -у",
+          "explanation": "Музыка is feminine in -а. Accusative: музыка → музыку."
+        },
+        {
+          "prompt": "Я пишу _____. (письмо)",
+          "promptEnglish": "I am writing a letter.",
+          "options": [
+            "письме",
+            "письму",
+            "письмо",
+            "письма"
+          ],
+          "answer": "письмо",
+          "hint": "Neuter = no change",
+          "explanation": "Письмо is neuter. Accusative = nominative: письмо."
+        },
+        {
+          "prompt": "Ты любишь _____. (песня)",
+          "promptEnglish": "You like the song.",
+          "options": [
+            "песне",
+            "песни",
+            "песня",
+            "песню"
+          ],
+          "answer": "песню",
+          "hint": "Feminine -я → -ю",
+          "explanation": "Песня is feminine in -я. Accusative: песня → песню."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я читаю _____. (I am reading a book.)",
+      "Он любит _____. (He loves music.)",
+      "Мы видим _____. (We see a cat.)"
+    ],
+    "choices": [
+      "книгу",
+      "музыку",
+      "кошку",
+      "книга",
+      "музыка",
+      "кошка"
+    ],
+    "answers": [
+      "книгу",
+      "музыку",
+      "кошку"
+    ],
+    "grammarFocus": "Feminine nouns change -а → -у in accusative case",
+    "options": [
+      [
+        "книге",
+        "книги",
+        "книгу",
+        "книга"
+      ],
+      [
+        "музыку",
+        "музыки",
+        "музыка",
+        "музыке"
+      ],
+      [
+        "кошке",
+        "кошки",
+        "кошка",
+        "кошку"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я читаю _____.",
+      "contextEnglish": "I am reading a book.",
+      "options": [
+        "книгу",
+        "книга"
+      ],
+      "answer": "книгу",
+      "explanation": "Книга is the direct object (what I'm reading). Feminine -а → -у in accusative."
+    },
+    {
+      "context": "Он смотрит _____.",
+      "contextEnglish": "He is watching a film.",
+      "options": [
+        "фильм",
+        "фильма"
+      ],
+      "answer": "фильм",
+      "explanation": "Фильм is masculine inanimate. No change in accusative: фильм."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "винительный падеж",
+      "definition": "accusative case",
+      "example": "Я читаю книгу."
+    },
+    {
+      "term": "прямое дополнение",
+      "definition": "direct object",
+      "example": "Книгу — прямое дополнение"
+    },
+    {
+      "term": "кого? что?",
+      "definition": "whom? what? (accusative questions)",
+      "example": "Что ты читаешь? — Книгу."
+    },
+    {
+      "term": "неодушевлённый",
+      "definition": "inanimate (things)",
+      "example": "Стол — неодушевлённый"
+    }
+  ]
+}

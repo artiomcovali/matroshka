@@ -1,0 +1,331 @@
+{
+  "id": "a2-009-dative",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Dative Case",
+  "titleRussian": "Дательный падеж",
+  "description": "Dative case forms and uses",
+  "descriptionRussian": "Формы и употребление дательного падежа",
+  "imageName": "arrow.right.circle.fill",
+  "intro": "The dative case answers Кому? Чему? (To whom? To what?). It's the case of the RECIPIENT - the person who receives something. Use it for indirect objects (Дай мне книгу - Give me the book), with verbs like звонить (call), помогать (help), and in impersonal constructions expressing feelings or necessity (Мне холодно - I'm cold, Мне нужно - I need).",
+  "rules": [
+    "Dative answers Кому? Чему? (To whom? To what?) - marks the recipient or beneficiary.",
+    "Dative answers 'to whom?' or 'for whom?': дал книгу другу (gave book to friend).",
+    "Used with age expressions: мне двадцать лет (I am twenty years old).",
+    "Used with нравиться: мне нравится (I like, lit. 'to me it pleases').",
+    "Verbs requiring dative: помогать (help), звонить (call), советовать (advise)."
+  ],
+  "examples": [
+    "Дай мне книгу. (Give me the book.), мне = dative of я",
+    "Я звоню брату. (I'm calling my brother.), звонить + dative",
+    "Мне холодно. (I'm cold.), impersonal + dative",
+    "Помоги маме! (Help mom!), помогать + dative"
+  ],
+  "tables": [
+    {
+      "title": "Dative Case Endings",
+      "headers": [
+        "Gender",
+        "Nominative",
+        "Dative",
+        "Ending"
+      ],
+      "rows": [
+        {
+          "label": "Masculine",
+          "cells": [
+            "студент",
+            "студент|у",
+            "-у"
+          ]
+        },
+        {
+          "label": "Feminine -а",
+          "cells": [
+            "мама",
+            "мам|е",
+            "-е"
+          ]
+        },
+        {
+          "label": "Feminine -ь",
+          "cells": [
+            "ночь",
+            "ноч|и",
+            "-и"
+          ]
+        },
+        {
+          "label": "Neuter",
+          "cells": [
+            "окно",
+            "окн|у",
+            "-у"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Дай _____ книгу. (Give me the book.)",
+          "promptEnglish": "Give me the book.",
+          "options": [
+            "я",
+            "меня",
+            "мне",
+            "мной"
+          ],
+          "answer": "мне",
+          "hint": "Recipient = dative",
+          "explanation": "The recipient of giving uses dative: я → мне."
+        },
+        {
+          "prompt": "Я звоню _____. (I'm calling my brother.)",
+          "promptEnglish": "I'm calling my brother.",
+          "options": [
+            "брата",
+            "брат",
+            "брату",
+            "братом"
+          ],
+          "answer": "брату",
+          "hint": "Звонить + dative",
+          "explanation": "Звонить (to call) takes dative: брат → брату."
+        },
+        {
+          "prompt": "Помоги _____! (Help mom!)",
+          "promptEnglish": "Help mom!",
+          "options": [
+            "мама",
+            "мамой",
+            "маме",
+            "маму"
+          ],
+          "answer": "маме",
+          "hint": "Помогать + dative",
+          "explanation": "Помогать (to help) takes dative: мама → маме."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ холодно. (I'm cold.)",
+          "promptEnglish": "I'm cold.",
+          "options": [
+            "Я",
+            "Мной",
+            "Мне",
+            "Меня"
+          ],
+          "answer": "Мне",
+          "hint": "Impersonal construction + dative",
+          "explanation": "Feelings/states use dative: Мне холодно (literally: to me it's cold)."
+        },
+        {
+          "prompt": "Я написал письмо _____. (I wrote a letter to my friend.)",
+          "promptEnglish": "I wrote a letter to my friend.",
+          "options": [
+            "другом",
+            "друга",
+            "другу",
+            "друг"
+          ],
+          "answer": "другу",
+          "hint": "Recipient of the letter",
+          "explanation": "The recipient uses dative: друг → другу."
+        },
+        {
+          "prompt": "_____ нужно работать. (He needs to work.)",
+          "promptEnglish": "He needs to work.",
+          "options": [
+            "Он",
+            "Ему",
+            "Его",
+            "Им"
+          ],
+          "answer": "Ему",
+          "hint": "Нужно + dative",
+          "explanation": "Necessity uses dative: он → ему. Ему нужно = he needs."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Скажи _____ правду. (Tell her the truth.)",
+          "promptEnglish": "Tell her the truth.",
+          "options": [
+            "её",
+            "ей",
+            "она",
+            "ней"
+          ],
+          "answer": "ей",
+          "hint": "Recipient = dative",
+          "explanation": "The recipient uses dative: она → ей."
+        },
+        {
+          "prompt": "Я купил подарок _____. (I bought a gift for my sister.)",
+          "promptEnglish": "I bought a gift for my sister.",
+          "options": [
+            "сестрой",
+            "сестра",
+            "сестре",
+            "сестру"
+          ],
+          "answer": "сестре",
+          "hint": "Beneficiary = dative",
+          "explanation": "The person who benefits uses dative: сестра → сестре."
+        },
+        {
+          "prompt": "_____ нравится музыка. (She likes music.)",
+          "promptEnglish": "She likes music.",
+          "options": [
+            "Она",
+            "Ней",
+            "Её",
+            "Ей"
+          ],
+          "answer": "Ей",
+          "hint": "Нравиться + dative",
+          "explanation": "Нравиться uses dative for the person who likes: она → ей."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я отдал книгу _____. (I gave the book to the teacher.)"
+    ],
+    "choices": [
+      "учителю",
+      "учителя",
+      "учитель",
+      "учителем"
+    ],
+    "answers": [
+      "учителю"
+    ],
+    "grammarFocus": "Recipient of giving = dative",
+    "hints": [
+      "The person receiving something uses dative case (кому?). What is the dative form of учитель?"
+    ],
+    "explanations": [
+      "The recipient of giving uses dative case. Masculine -ь nouns change to -ю in dative: учитель becomes учителю."
+    ],
+    "options": [
+      [
+        "учителю",
+        "учитель",
+        "учителем",
+        "учителя"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я вижу _____. (I see my brother.)",
+      "contextEnglish": "I see my brother.",
+      "options": [
+        "брата",
+        "брату"
+      ],
+      "answer": "брата",
+      "explanation": "Видеть takes accusative (direct object): брата."
+    },
+    {
+      "context": "Я звоню _____. (I'm calling my brother.)",
+      "contextEnglish": "I'm calling my brother.",
+      "options": [
+        "брату",
+        "брата"
+      ],
+      "answer": "брату",
+      "explanation": "Звонить takes dative: брату."
+    }
+  ],
+  "declensionTable": {
+    "word": "студент",
+    "wordType": "noun",
+    "gender": "masculine",
+    "paradigm": {
+      "nominative": "студент",
+      "genitive": "студента",
+      "dative": "студенту",
+      "accusative": "студента",
+      "instrumental": "студентом",
+      "prepositional": "студенте"
+    },
+    "blanks": [
+      "dative"
+    ],
+    "hints": [
+      "кому?"
+    ],
+    "explanations": [
+      "Masculine nouns add -у in dative: студент → студенту"
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort verbs: Takes dative or accusative?",
+    "categories": [
+      "Dative",
+      "Accusative"
+    ],
+    "items": [
+      {
+        "word": "звонить (call)",
+        "category": "Dative"
+      },
+      {
+        "word": "видеть (see)",
+        "category": "Accusative"
+      },
+      {
+        "word": "помогать (help)",
+        "category": "Dative"
+      },
+      {
+        "word": "любить (love)",
+        "category": "Accusative"
+      },
+      {
+        "word": "давать (give recipient)",
+        "category": "Dative"
+      },
+      {
+        "word": "читать (read)",
+        "category": "Accusative"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "дательный падеж",
+      "definition": "dative case",
+      "example": "Кому? Чему? — дательный падеж."
+    },
+    {
+      "term": "звонить, помогать + дат.",
+      "definition": "call, help + dative",
+      "example": "Звоню брату. Помогаю маме."
+    },
+    {
+      "term": "мне холодно/жарко",
+      "definition": "I'm cold/hot (dative + state)",
+      "example": "Мне холодно. Тебе жарко?"
+    },
+    {
+      "term": "нужно/надо + дат.",
+      "definition": "need + dative",
+      "example": "Мне нужно работать."
+    }
+  ]
+}

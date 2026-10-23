@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-003",
+  "title": "Business Presentation",
+  "level": "B2",
+  "difficulty": "easy",
+  "description": "Answer questions after giving a business presentation",
+  "imageName": "chart.bar.doc.horizontal.fill",
+  "initialPrompt": "Спасибо за презентацию! У меня есть несколько вопросов. Как вы планируете увеличить продажи в следующем квартале?",
+  "systemPrompt": "You are audience member asking about business presentation. Ask about: sales strategy, budget needs, timeline, risks, competitor analysis. Challenge vague answers politely. Keep replies short.",
+  "completionCriteria": "User answered questions confidently and defended their proposal.",
+  "responseLimit": 15,
+  "hints": [
+    "Мы планируем... (We plan to...)",
+    "По нашим расчётам... (According to our calculations...)",
+    "Основные риски включают... (The main risks include...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "презентация",
+      "definition": "presentation"
+    },
+    {
+      "word": "стратегия",
+      "definition": "strategy"
+    },
+    {
+      "word": "бюджет",
+      "definition": "budget"
+    },
+    {
+      "word": "прогноз",
+      "definition": "forecast"
+    },
+    {
+      "word": "конкуренты",
+      "definition": "competitors"
+    },
+    {
+      "word": "внедрение",
+      "definition": "implementation"
+    }
+  ],
+  "objectives": [
+    "Answer question about sales strategy",
+    "Explain budget requirements",
+    "Discuss timeline and milestones",
+    "Address potential risks",
+    "Handle follow-up questions"
+  ]
+}

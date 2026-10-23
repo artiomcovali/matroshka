@@ -1,0 +1,340 @@
+{
+  "id": "a2-014-adjective-genitive",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Adjectives in Genitive",
+  "titleRussian": "Прилагательные в родительном падеже",
+  "description": "Adjective genitive case endings",
+  "descriptionRussian": "Окончания прилагательных в родительном падеже",
+  "imageName": "textformat.size.larger",
+  "intro": "Genitive adjectives answer Какого? Какой? Какого? (What kind of?). The key pattern: masculine and neuter share the same ending (-ого/-его), while feminine has its own (-ой/-ей). Remember: -ого is pronounced as '-ova', not '-ogo'! Use genitive adjectives with possession, absence, quantities, and after genitive prepositions.",
+  "rules": [
+    "Masculine and neuter share identical genitive endings, so you only need to learn one pattern for both.",
+    "Pronunciation trap: -ого/-его are pronounced [-ova]/[-eva], not [-ogo]/[-ego]. This applies everywhere in Russian.",
+    "Feminine genitive (-ой/-ей) looks identical to dative, instrumental, and prepositional — context tells you which case it is.",
+    "Common genitive prepositions to memorize: без, для, до, из, от, около, после, у — all require genitive adjective + noun."
+  ],
+  "examples": [
+    "У меня нет нового телефона. (I don't have a new phone.), masc: -ый → -ого",
+    "Это дом старой бабушки. (This is the old grandmother's house.), fem: -ая → -ой",
+    "Без хорошего образования трудно. (Without good education it's hard.), neut: -ое → -ого",
+    "Из синей коробки. (From the blue box.), fem: -яя → -ей"
+  ],
+  "tables": [
+    {
+      "title": "Adjective Endings - Genitive",
+      "headers": [
+        "",
+        "Masculine/Neuter",
+        "Feminine",
+        "Plural"
+      ],
+      "rows": [
+        {
+          "label": "Hard stem",
+          "cells": [
+            "нов|ого",
+            "нов|ой",
+            "нов|ых"
+          ]
+        },
+        {
+          "label": "Soft stem",
+          "cells": [
+            "син|его",
+            "син|ей",
+            "син|их"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "У меня нет _____ друга. (I don't have a good friend.)",
+          "promptEnglish": "I don't have a good friend.",
+          "options": [
+            "хороший",
+            "хорошему",
+            "хорошего",
+            "хорошим"
+          ],
+          "answer": "хорошего",
+          "hint": "Masculine genitive: -ий → -его",
+          "explanation": "Masculine soft-stem: хороший → хорошего."
+        },
+        {
+          "prompt": "Это книга _____ писателя. (This is a famous writer's book.)",
+          "promptEnglish": "This is a famous writer's book.",
+          "options": [
+            "известным",
+            "известному",
+            "известного",
+            "известный"
+          ],
+          "answer": "известного",
+          "hint": "Possession = genitive. Masc: -ый → -ого",
+          "explanation": "Possession uses genitive: известный → известного."
+        },
+        {
+          "prompt": "Без _____ работы скучно. (Without interesting work it's boring.)",
+          "promptEnglish": "Without interesting work it's boring.",
+          "options": [
+            "интересным",
+            "интересная",
+            "интересную",
+            "интересной"
+          ],
+          "answer": "интересной",
+          "hint": "Без + genitive. Fem: -ая → -ой",
+          "explanation": "Без takes genitive; feminine: интересная → интересной."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "До _____ утра. (Until early morning.)",
+          "promptEnglish": "Until early morning.",
+          "options": [
+            "раннему",
+            "раннее",
+            "раннего",
+            "ранним"
+          ],
+          "answer": "раннего",
+          "hint": "До + genitive. Neuter: -ее → -его",
+          "explanation": "До takes genitive; neuter soft-stem: раннее → раннего."
+        },
+        {
+          "prompt": "Из _____ города. (From a big city.)",
+          "promptEnglish": "From a big city.",
+          "options": [
+            "большой",
+            "большому",
+            "большим",
+            "большого"
+          ],
+          "answer": "большого",
+          "hint": "Из + genitive. Masc: -ой → -ого",
+          "explanation": "Из takes genitive: большой → большого."
+        },
+        {
+          "prompt": "Около _____ школы. (Near the new school.)",
+          "promptEnglish": "Near the new school.",
+          "options": [
+            "новым",
+            "новой",
+            "новая",
+            "новую"
+          ],
+          "answer": "новой",
+          "hint": "Около + genitive. Fem: -ая → -ой",
+          "explanation": "Около takes genitive; feminine: новая → новой."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Для _____ ребёнка. (For a little child.)",
+          "promptEnglish": "For a little child.",
+          "options": [
+            "маленький",
+            "маленьким",
+            "маленькому",
+            "маленького"
+          ],
+          "answer": "маленького",
+          "hint": "Для + genitive. Masc: -ий → -ого",
+          "explanation": "Для takes genitive: маленький → маленького."
+        },
+        {
+          "prompt": "У _____ сестры есть машина. (The older sister has a car.)",
+          "promptEnglish": "The older sister has a car.",
+          "options": [
+            "старшим",
+            "старшую",
+            "старшая",
+            "старшей"
+          ],
+          "answer": "старшей",
+          "hint": "У + genitive. Fem: -ая → -ей",
+          "explanation": "У takes genitive; feminine soft: старшая → старшей."
+        },
+        {
+          "prompt": "После _____ дня. (After a hard day.)",
+          "promptEnglish": "After a hard day.",
+          "options": [
+            "трудный",
+            "трудным",
+            "трудному",
+            "трудного"
+          ],
+          "answer": "трудного",
+          "hint": "После + genitive. Masc: -ый → -ого",
+          "explanation": "После takes genitive: трудный → трудного."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Без _____ погоды не поедем. (Without good weather we won't go.)",
+      "У меня нет _____ машины. (I don't have a new car.)",
+      "Без _____ учителя нет хороших учеников. (Without a good teacher there are no good students.)"
+    ],
+    "choices": [
+      "хорошей",
+      "дорого",
+      "хорошую",
+      "хорошего",
+      "здесь",
+      "новой",
+      "хорошая",
+      "новую",
+      "хорошим",
+      "новая"
+    ],
+    "answers": [
+      "хорошей",
+      "новой",
+      "хорошего"
+    ],
+    "grammarFocus": "Feminine genitive adjective: -ая → -ей; Masculine genitive: -ий → -его",
+    "hints": [
+      "Без (without) requires genitive. Погода is feminine. What ending does a feminine adjective take in genitive?",
+      "Нет (don't have) requires genitive. Машина is feminine. Which feminine genitive ending: -ой or -ей?",
+      "Без requires genitive. Учитель is masculine. What ending does a masculine adjective take in genitive?"
+    ],
+    "explanations": [
+      "Без requires genitive case. Feminine adjectives change from -ая to -ей in genitive: хорошая becomes хорошей.",
+      "Нет requires genitive. Feminine adjective: новая → новой in genitive.",
+      "Без requires genitive. Masculine adjective: хороший → хорошего in genitive (soft stem: -ий → -его)."
+    ],
+    "options": [
+      [
+        "хороший",
+        "хорошую",
+        "хорошая",
+        "хорошей"
+      ],
+      [
+        "новой",
+        "новая",
+        "новый",
+        "новую"
+      ],
+      [
+        "хорошее",
+        "хорошему",
+        "хороший",
+        "хорошего"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я вижу _____ книгу. (I see a new book.) - Accusative",
+      "contextEnglish": "I see a new book.",
+      "options": [
+        "новую",
+        "новой"
+      ],
+      "answer": "новую",
+      "explanation": "Accusative feminine: -ая → -ую (новую)."
+    },
+    {
+      "context": "Нет _____ книги. (There is no new book.) - Genitive",
+      "contextEnglish": "There is no new book.",
+      "options": [
+        "новой",
+        "новую"
+      ],
+      "answer": "новой",
+      "explanation": "Genitive feminine: -ая → -ой (новой)."
+    }
+  ],
+  "declensionTable": {
+    "word": "старый",
+    "wordType": "adjective",
+    "gender": "masculine",
+    "paradigm": {
+      "nominative": "старый",
+      "genitive": "старого",
+      "dative": "старому",
+      "accusative": "старого (anim) / старый (inan)",
+      "instrumental": "старым",
+      "prepositional": "старом"
+    },
+    "blanks": [
+      "genitive"
+    ],
+    "hints": [
+      "какого?"
+    ],
+    "explanations": [
+      "Masculine adjective genitive: -ый → -ого (with г pronounced as /v/): старый → старого"
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort genitive adjective endings",
+    "categories": [
+      "-ого/-его (Masculine/Neuter)",
+      "-ой/-ей (Feminine)"
+    ],
+    "items": [
+      {
+        "word": "нового (друга)",
+        "category": "-ого/-его (Masculine/Neuter)"
+      },
+      {
+        "word": "новой (книги)",
+        "category": "-ой/-ей (Feminine)"
+      },
+      {
+        "word": "синего (моря)",
+        "category": "-ого/-его (Masculine/Neuter)"
+      },
+      {
+        "word": "синей (птицы)",
+        "category": "-ой/-ей (Feminine)"
+      },
+      {
+        "word": "большого (города)",
+        "category": "-ого/-его (Masculine/Neuter)"
+      },
+      {
+        "word": "большой (страны)",
+        "category": "-ой/-ей (Feminine)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "муж./ср. род: -ого/-его",
+      "definition": "masc/neuter: -ogo/-ego",
+      "example": "Нового друга, синего моря."
+    },
+    {
+      "term": "жен. род: -ой/-ей",
+      "definition": "feminine: -oy/-ey",
+      "example": "Новой книги, синей птицы."
+    },
+    {
+      "term": "произношение: -ого = [-ова]",
+      "definition": "pronunciation: -ogo = [-ova]",
+      "example": "Нового ['novova'], большого ['bal'shova']."
+    },
+    {
+      "term": "предлоги + род. падеж",
+      "definition": "prepositions + genitive",
+      "example": "Без, для, до, из, от, около, после + gen."
+    }
+  ]
+}

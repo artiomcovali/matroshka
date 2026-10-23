@@ -1,0 +1,171 @@
+{
+  "id": "a1-010",
+  "level": "A1",
+  "narrator": "Пряник",
+  "title": "Погода сегодня",
+  "titleEnglish": "Today's Weather",
+  "description": "Маша смотрит в окно и видит погоду.",
+  "imageName": "cloud.rain.fill",
+  "fullText": "Сегодня утро. Я смотрю в окно и вижу, что на улице холодно. Небо серое, и идёт дождь. Я надеваю тёплую куртку, потому что хочу гулять с Пряником. Но Пряник не хочет гулять! Он смотрит на дождь и лежит на диване. Я говорю ему, что пора гулять, но он не двигается. Сегодня плохая погода, и мой пёс это знает. Я пью горячий чай и жду солнца.",
+  "reviewVocab": [
+    {
+      "word": "погода",
+      "definition": "weather",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "погода",
+        "погоды",
+        "погоде"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "холодно",
+      "definition": "cold (weather)",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "difficulty": 1
+    },
+    {
+      "word": "дождь",
+      "definition": "rain",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "дождь",
+        "дождя",
+        "дождю"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "куртка",
+      "definition": "jacket",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "куртка",
+        "куртки",
+        "куртку"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Какая сегодня погода?",
+      "options": [
+        "Хорошая",
+        "Плохая",
+        "Жаркая"
+      ],
+      "correctIndex": 1,
+      "explanation": "Сегодня плохая погода: холодно и идёт дождь."
+    },
+    {
+      "prompt": "Какое небо сегодня?",
+      "options": [
+        "Голубое",
+        "Серое",
+        "Белое"
+      ],
+      "correctIndex": 1,
+      "explanation": "Небо серое."
+    },
+    {
+      "prompt": "Что надевает Маша?",
+      "options": [
+        "Платье",
+        "Тёплую куртку",
+        "Шапку"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша надевает тёплую куртку."
+    },
+    {
+      "prompt": "Пряник хочет гулять?",
+      "options": [
+        "Не знаем",
+        "Да, очень хочет",
+        "Нет, не хочет"
+      ],
+      "correctIndex": 2,
+      "explanation": "Пряник не хочет гулять, потому что идёт дождь."
+    },
+    {
+      "prompt": "Что пьёт Маша?",
+      "options": [
+        "Холодную воду",
+        "Горячий чай",
+        "Кофе"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша пьёт горячий чай."
+    },
+    {
+      "prompt": "Чего ждёт Маша?",
+      "options": [
+        "Солнца",
+        "Снега",
+        "Дождя"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша ждёт солнца."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "На улице _____.",
+      "Небо _____.",
+      "Идёт _____.",
+      "Маша надевает тёплую _____.",
+      "Сегодня плохая _____."
+    ],
+    "choices": [
+      "холодно",
+      "серое",
+      "дождь",
+      "куртку",
+      "погода",
+      "солнце",
+      "жарко"
+    ],
+    "answers": [
+      "холодно",
+      "серое",
+      "дождь",
+      "куртку",
+      "погода"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "How do you say 'it's cold' (about weather)?",
+      "options": [
+        "холодно",
+        "холодная",
+        "холодный"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "impersonal",
+      "sentenceRef": "На улице холодно.",
+      "explanation": "'Холодно' is an impersonal adverb used to describe weather or how you feel. 'Холодный' is an adjective for objects. Example: На улице холодно (It's cold outside), but холодный чай (cold tea).",
+      "focusArea": "conjugation"
+    },
+    {
+      "prompt": "What does 'Идёт дождь' mean?",
+      "options": [
+        "It's raining",
+        "The rain is coming",
+        "Rain is walking"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "phrases",
+      "sentenceRef": "Идёт дождь.",
+      "explanation": "'Идёт дождь' literally means 'rain goes' but is the Russian way to say 'it's raining'. Similarly, 'идёт снег' means 'it's snowing'. The verb 'идти' (to go) is used for weather events.",
+      "focusArea": "sentenceStructure"
+    }
+  ],
+  "audioFile": "a1-010.m4a",
+  "audioTimingFile": "a1-010-timing.json"
+}

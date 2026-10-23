@@ -1,0 +1,42 @@
+{
+  "id": "mission-a1-004",
+  "title": "What Time Is It?",
+  "level": "A1",
+  "description": "Tell the time",
+  "imageName": "clock.fill",
+  "initialPrompt": "Извините, вы не знаете, который час?",
+  "systemPrompt": "You are asking for the time on the street. When user tells you, thank them. Keep replies short (1-2 sentences).",
+  "completionCriteria": "User told the time and you thanked them.",
+  "responseLimit": 15,
+  "hints": [
+    "Сейчас... часов (It's ... o'clock)",
+    "Два часа (Two o'clock)",
+    "Пять часов (Five o'clock)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "час",
+      "definition": "hour/o'clock"
+    },
+    {
+      "word": "сейчас",
+      "definition": "now"
+    },
+    {
+      "word": "время",
+      "definition": "time"
+    },
+    {
+      "word": "спасибо",
+      "definition": "thank you"
+    },
+    {
+      "word": "извините",
+      "definition": "excuse me"
+    }
+  ],
+  "objectives": [
+    "Tell the time (Сейчас два часа)",
+    "Receive their thanks"
+  ]
+}

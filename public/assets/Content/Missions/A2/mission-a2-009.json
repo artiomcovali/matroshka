@@ -1,0 +1,64 @@
+{
+  "id": "mission-a2-009",
+  "title": "At the Post Office",
+  "level": "A2",
+  "description": "Send a package to another city at the Russian post office",
+  "imageName": "envelope.fill",
+  "initialPrompt": "Добрый день! Чем могу помочь?",
+  "systemPrompt": "You work at Russian post office. Sending packages: regular 7-10 days 350₽, express 2-3 days 800₽. Ask destination city, package contents, weight, and delivery type. Keep replies short.",
+  "completionCriteria": "User specified destination, contents, and delivery type, and confirmed sending.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу отправить посылку (I want to send a package)",
+    "В Москву / В Петербург (To Moscow / To St. Petersburg)",
+    "Там книги и одежда (There are books and clothes inside)",
+    "Обычная доставка (Regular delivery)",
+    "Срочная доставка (Express delivery)",
+    "Сколько это стоит? (How much does it cost?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "посылка",
+      "definition": "package; parcel"
+    },
+    {
+      "word": "отправить",
+      "definition": "to send"
+    },
+    {
+      "word": "доставка",
+      "definition": "delivery"
+    },
+    {
+      "word": "срочный",
+      "definition": "urgent; express"
+    },
+    {
+      "word": "обычный",
+      "definition": "regular; ordinary"
+    },
+    {
+      "word": "адрес",
+      "definition": "address"
+    },
+    {
+      "word": "получатель",
+      "definition": "recipient"
+    },
+    {
+      "word": "вес",
+      "definition": "weight"
+    },
+    {
+      "word": "почта",
+      "definition": "post; mail"
+    }
+  ],
+  "objectives": [
+    "Say you want to send a package (отправить посылку)",
+    "Specify the destination city (В Москву)",
+    "Describe the contents (книги, одежда)",
+    "Choose delivery type (обычная or срочная)",
+    "Confirm the shipment"
+  ]
+}

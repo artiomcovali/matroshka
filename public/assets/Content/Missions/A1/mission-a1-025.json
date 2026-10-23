@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-025",
+  "title": "Pay the Check",
+  "level": "A1",
+  "description": "Ask for the bill at a restaurant",
+  "imageName": "creditcard.fill",
+  "initialPrompt": "Вам всё понравилось?",
+  "systemPrompt": "You are a waiter. Bill is 850₽. Accept card or cash. Keep replies short.",
+  "completionCriteria": "User asked for the bill and paid.",
+  "responseLimit": 15,
+  "hints": [
+    "Счёт, пожалуйста (The bill, please)",
+    "Можно картой? (Can I pay by card?)",
+    "Наличными (In cash)",
+    "Спасибо, всё было вкусно (Thanks, everything was delicious)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "счёт",
+      "definition": "bill/check"
+    },
+    {
+      "word": "карта",
+      "definition": "card"
+    },
+    {
+      "word": "наличные",
+      "definition": "cash"
+    },
+    {
+      "word": "платить",
+      "definition": "to pay"
+    },
+    {
+      "word": "вкусно",
+      "definition": "delicious"
+    }
+  ],
+  "objectives": [
+    "Ask for the bill (счёт)",
+    "Choose payment method (карта/наличные)",
+    "Thank the waiter"
+  ]
+}

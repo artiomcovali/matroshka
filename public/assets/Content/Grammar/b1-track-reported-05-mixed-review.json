@@ -1,0 +1,380 @@
+{
+  "id": "b1-track-reported-05-mixed-review",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Reported Speech 5: Mixed Review (pick the right tool)",
+  "titleRussian": "Косвенная речь 5: Сводное повторение (выбор союза)",
+  "description": "All four reporting tools (что, ли, Q-word, чтобы) brought together in one review: pick the right linking word, shift the pronouns, and keep the speaker's original tense.",
+  "descriptionRussian": "Все четыре способа передачи речи («что», «ли», вопросительное слово, «чтобы») собраны вместе: выберите нужный союз, сдвиньте местоимения и сохраните исходное время глагола.",
+  "imageName": "list.clipboard",
+  "trackId": "b1-reported-speech-mastery",
+  "trackTitle": "Reported Speech Mastery",
+  "trackTitleRussian": "Косвенная речь",
+  "trackIndex": 5,
+  "trackTotal": 5,
+  "intro": "Four tools, and picking between them is entirely about what kind of thing was said. A statement, a yes/no question, a content question, or an order. Three of the four keep the original tense and the fourth always takes a past form. Pronouns shift in all of them, and there is a comma in all of them.",
+  "rules": [
+    "Four tools: что for statements (Lesson 1), ли for yes / no questions (Lesson 2), a question word as the link for content questions (Lesson 3), чтобы + past for commands and wishes about someone else (Lesson 4). The first applicable tool wins.",
+    "Pronouns shift to the narrator's point of view: я → он / она; ты → я when you were the one addressed, otherwise он / она.",
+    "Tense is kept in statements (что) and questions (ли, question word). Чтобы always takes the past-tense form, which is the shape чтобы requires, not past meaning.",
+    "Punctuation: quotation marks and question marks drop; the comma before что / ли / the question word / чтобы is required."
+  ],
+  "examples": [
+    "Direct: Маша сказала: «Я устала». Reported: Маша сказала, что она устала. (Statement; что; я → она; tense kept.)",
+    "Direct: Антон спросил: «Маша придёт?» Reported: Антон спросил, придёт ли Маша. (Yes / no question; ли on the focus verb.)",
+    "Direct: Маша спросила: «Когда ты вернёшься?» Reported: Маша спросила, когда я вернусь. (Content question; когда as the link; ты → я; tense kept.)",
+    "Direct: Иван сказал: «Купи хлеб!» Reported: Иван сказал, чтобы я купил хлеб. (Command; чтобы + past form купил.)",
+    "Direct: Маша сказала: «Я приду завтра». Reported: Маша сказала, что она придёт завтра. (Statement; что; future kept.)",
+    "Direct: Антон спросил: «Где Маша?» Reported: Антон спросил, где Маша. (Content question; где as the link.)"
+  ],
+  "tables": [
+    {
+      "title": "The four reporting tools",
+      "headers": [
+        "Original speech type",
+        "Linking word",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Statement",
+          "cells": [
+            "что + clause",
+            "Маша сказала, что она устала."
+          ]
+        },
+        {
+          "label": "Yes / no question",
+          "cells": [
+            "ли + focus-first clause",
+            "Антон спросил, придёт ли Маша."
+          ]
+        },
+        {
+          "label": "Content question",
+          "cells": [
+            "question word + clause",
+            "Маша спросила, где Антон."
+          ]
+        },
+        {
+          "label": "Command / request",
+          "cells": [
+            "чтобы + past form",
+            "Мама сказала, чтобы я пошёл домой."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Мама сказала, _____ я пошёл домой.",
+          "promptEnglish": "Mom told me to go home.",
+          "options": [
+            "что",
+            "чтобы",
+            "ли",
+            "когда"
+          ],
+          "answer": "чтобы",
+          "hint": "Recap from Lesson 4: the linking word for a reported command.",
+          "explanation": "Чтобы links a reported command (Lesson 4), and the past form пошёл is the shape чтобы requires."
+        },
+        {
+          "prompt": "Антон спросил, _____ ли Маша на работе.",
+          "promptEnglish": "Anton asked whether Masha was at work.",
+          "options": [
+            "была",
+            "будет",
+            "есть",
+            "нет"
+          ],
+          "answer": "была",
+          "hint": "Past tense yes / no question with the feminine subject Маша.",
+          "explanation": "The original question was «Маша была на работе?» (past, feminine). Russian keeps the original tense, and the verb agrees with the feminine subject: была. The verb sits first to host ли."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маша сказала, _____ она придёт завтра.",
+          "promptEnglish": "Masha said that she would come tomorrow.",
+          "options": [
+            "если",
+            "ли",
+            "что",
+            "чтобы"
+          ],
+          "answer": "что",
+          "hint": "Reported statement, future tense kept.",
+          "explanation": "Что links a reported statement. The future tense придёт is kept exactly as Masha said it: «Я приду завтра»."
+        },
+        {
+          "prompt": "Маша спросила, _____ я приду на работу.",
+          "promptEnglish": "Masha asked when I would come to work.",
+          "options": [
+            "что",
+            "когда",
+            "ли",
+            "если"
+          ],
+          "answer": "когда",
+          "hint": "Content question; question word for time.",
+          "explanation": "Когда is the question word for time (Lesson 3) and links a content question about time."
+        },
+        {
+          "prompt": "Я хочу, чтобы ты _____ домой.",
+          "promptEnglish": "I want you to go home.",
+          "options": [
+            "идёшь",
+            "пойти",
+            "пойдёшь",
+            "пошёл"
+          ],
+          "answer": "пошёл",
+          "hint": "Two different subjects (я vs ты); чтобы requires which form?",
+          "explanation": "When the subject of the main clause (я) differs from the subject of the чтобы clause (ты), чтобы takes the past form: пошёл."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Антон сказал, _____.",
+          "promptEnglish": "Anton said that he was tired.",
+          "options": [
+            "что он устал",
+            "чтобы он устал",
+            "ли он устал",
+            "что он устать"
+          ],
+          "answer": "что он устал",
+          "hint": "Reporting a statement: which connector?",
+          "explanation": "A reported statement takes что + a finite clause with its original tense: сказал, что он устал."
+        },
+        {
+          "prompt": "Лена спросила, _____ Антон.",
+          "promptEnglish": "Lena asked whether Anton was home.",
+          "options": [
+            "дома ли",
+            "ли дома",
+            "что дома",
+            "чтобы дома"
+          ],
+          "answer": "дома ли",
+          "hint": "A yes/no question: front the focus, then ли.",
+          "explanation": "The reported yes/no question fronts дома and clips ли after it: спросила, дома ли Антон. Ли never stands first."
+        },
+        {
+          "prompt": "Маша спросила, _____ я живу.",
+          "promptEnglish": "Masha asked where I lived.",
+          "options": [
+            "где",
+            "куда",
+            "откуда",
+            "чтобы"
+          ],
+          "answer": "где",
+          "hint": "A content question keeps its Q-word.",
+          "explanation": "The static-location Q-word где links the clause: спросила, где я живу."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Мама сказала, _____.",
+          "promptEnglish": "Mom told me to close the window.",
+          "options": [
+            "чтобы я закрыл окно",
+            "что я закрыл окно",
+            "ли я закрыл окно",
+            "чтобы я закрою окно"
+          ],
+          "answer": "чтобы я закрыл окно",
+          "hint": "Reporting a command: connector + verb form.",
+          "explanation": "A reported command takes чтобы + past: чтобы я закрыл окно."
+        }
+      ]
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Антон сказал, чтобы он уже закончил всю работу.",
+      "translationEnglish": "Anton said that he had already finished all the work.",
+      "error": "чтобы",
+      "correction": "что",
+      "options": [
+        "что",
+        "ли",
+        "когда"
+      ],
+      "explanation": "This reports a statement of fact (the work is done), so the linking word is что: что он уже закончил. Чтобы marks a command, which clashes with уже закончил (an accomplished fact)."
+    },
+    {
+      "sentence": "Маша спросила, когда ты вернусь домой с работы.",
+      "translationEnglish": "Masha asked when I would return home from work.",
+      "error": "ты",
+      "correction": "я",
+      "options": [
+        "я",
+        "он",
+        "она"
+      ],
+      "explanation": "Masha's original question «когда ты вернёшься?» was addressed to the narrator, so ты shifts to я in the report: когда я вернусь. The verb вернусь (1sg future) agrees with я."
+    },
+    {
+      "sentence": "Антон написал, что теперь он жил в Москве.",
+      "translationEnglish": "Anton wrote that he now lives in Moscow.",
+      "error": "жил",
+      "correction": "живёт",
+      "options": [
+        "живёт",
+        "будет жить",
+        "жить"
+      ],
+      "explanation": "Russian keeps the original tense. Anton's words were «теперь я живу в Москве» (present), and теперь confirms an ongoing present state, so живёт stays. The past жил wrongly copies the English back-shift; Russian does not back-shift."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша сказала, _____ Антон придёт.",
+      "contextEnglish": "Masha said that Anton would come.",
+      "options": [
+        "что",
+        "когда"
+      ],
+      "answer": "что",
+      "explanation": "Reported statement opened by сказала, so что is the linking word: сказала is a verb of saying, not asking."
+    },
+    {
+      "context": "Маша спросила, _____ Антон придёт.",
+      "contextEnglish": "Masha asked when Anton would come.",
+      "options": [
+        "когда",
+        "что"
+      ],
+      "answer": "когда",
+      "explanation": "Reported content question opened by спросила, so когда (the question word for time) is the link: спросила signals a question."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Маша сказала, что она устала.",
+      "patternOptions": [
+        "Statement (что)",
+        "Yes / no question (ли)",
+        "Content question (question word)",
+        "Command / request (чтобы + past)"
+      ],
+      "answer": "Statement (что)",
+      "explanation": "Reported statement opened by сказала with a clause linked by что. Lesson 1 tool."
+    },
+    {
+      "sentence": "Антон спросил, дома ли Маша.",
+      "patternOptions": [
+        "Statement (что)",
+        "Yes / no question (ли)",
+        "Content question (question word)",
+        "Command / request (чтобы + past)"
+      ],
+      "answer": "Yes / no question (ли)",
+      "explanation": "Reported yes / no question opened by спросил with ли attached to the focus word дома. Lesson 2 tool."
+    },
+    {
+      "sentence": "Маша спросила, когда я приду.",
+      "patternOptions": [
+        "Statement (что)",
+        "Yes / no question (ли)",
+        "Content question (question word)",
+        "Command / request (чтобы + past)"
+      ],
+      "answer": "Content question (question word)",
+      "explanation": "Reported content question opened by спросила with the question word когда as the link. Lesson 3 tool."
+    },
+    {
+      "sentence": "Мама сказала, чтобы я пошёл домой.",
+      "patternOptions": [
+        "Statement (что)",
+        "Yes / no question (ли)",
+        "Content question (question word)",
+        "Command / request (чтобы + past)"
+      ],
+      "answer": "Command / request (чтобы + past)",
+      "explanation": "Reported command opened by сказала with a clause linked by чтобы and a past-form verb (пошёл). Lesson 4 tool."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Read each reported sentence and sort it by which of the four tools it uses.",
+    "categories": [
+      "Statement (что)",
+      "Yes / no question (ли)",
+      "Content question (question word)",
+      "Command (чтобы + past)"
+    ],
+    "items": [
+      {
+        "word": "Антон сказал, что он устал.",
+        "category": "Statement (что)"
+      },
+      {
+        "word": "Лена спросила, дома ли Антон.",
+        "category": "Yes / no question (ли)"
+      },
+      {
+        "word": "Маша спросила, где живёт Антон.",
+        "category": "Content question (question word)"
+      },
+      {
+        "word": "Мама сказала, чтобы я закрыл окно.",
+        "category": "Command (чтобы + past)"
+      },
+      {
+        "word": "Иван сказал, что придёт завтра.",
+        "category": "Statement (что)"
+      },
+      {
+        "word": "Антон спросил, придёт ли Лена.",
+        "category": "Yes / no question (ли)"
+      },
+      {
+        "word": "Маша спросила, когда я вернусь.",
+        "category": "Content question (question word)"
+      },
+      {
+        "word": "Учитель сказал, чтобы мы сели.",
+        "category": "Command (чтобы + past)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "сказал, что ...",
+      "definition": "the statement frame: a verb of saying plus что links a reported statement; the original tense is kept. Маша сказала, что она устала.",
+      "example": "Антон сказал, что он живёт в Москве."
+    },
+    {
+      "term": "спросил, ... ли / спросил, где / когда ...",
+      "definition": "the question frames: ли on the focus word reports a yes / no question, and a question word (где, когда, кто...) reports a content question. Tense is kept.",
+      "example": "Лена спросила, дома ли Антон. Маша спросила, когда я приду."
+    },
+    {
+      "term": "сказал, чтобы ... (+ past)",
+      "definition": "the command frame: чтобы plus a past-form verb reports a command or a wish about someone else; the past form is the shape чтобы requires, not past meaning.",
+      "example": "Мама сказала, чтобы я закрыл окно."
+    },
+    {
+      "term": "время сохраняется",
+      "definition": "the tense is kept: Russian reports speech in the speaker's original tense and never copies the English back-shift (said he *lived*).",
+      "example": "«Я живу в Москве» → Антон сказал, что он живёт в Москве."
+    }
+  ]
+}

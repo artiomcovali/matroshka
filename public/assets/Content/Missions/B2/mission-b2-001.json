@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-001",
+  "title": "Salary Negotiation",
+  "level": "B2",
+  "difficulty": "easy",
+  "description": "Negotiate a salary raise with your manager",
+  "imageName": "chart.line.uptrend.xyaxis",
+  "initialPrompt": "Здравствуйте! Вы хотели поговорить о зарплате? Присаживайтесь, я вас слушаю.",
+  "systemPrompt": "You are a manager. Employee wants a raise. Current salary 80000₽. Company can offer 5-15% depending on justification. Ask about achievements, market rate research. Be reasonable but make them justify. Keep replies short.",
+  "completionCriteria": "User presented their case and reached agreement or understanding.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хотел бы обсудить повышение зарплаты (I'd like to discuss a salary increase)",
+    "За последний год я достиг... (Over the past year I've achieved...)",
+    "Рыночная зарплата для моей позиции... (The market salary for my position...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "повышение",
+      "definition": "raise/promotion"
+    },
+    {
+      "word": "зарплата",
+      "definition": "salary"
+    },
+    {
+      "word": "достижения",
+      "definition": "achievements"
+    },
+    {
+      "word": "переговоры",
+      "definition": "negotiations"
+    },
+    {
+      "word": "обосновать",
+      "definition": "to justify"
+    },
+    {
+      "word": "рынок труда",
+      "definition": "job market"
+    }
+  ],
+  "objectives": [
+    "State that you want to discuss salary",
+    "Present your achievements",
+    "Reference market rates or value",
+    "Handle counter-arguments",
+    "Reach an agreement or next steps"
+  ]
+}

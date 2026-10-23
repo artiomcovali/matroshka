@@ -1,0 +1,331 @@
+{
+  "id": "a2-track-adjdecl-05-instrumental",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Adjective Declension 5: Instrumental Singular",
+  "titleRussian": "Склонение прилагательных 5: творительный падеж",
+  "description": "The instrumental singular for hard-stem adjectives. Masculine and neuter share -ым (with husher / velar -им). Feminine reuses -ой. Triggers: с + accompaniment, instrumental of profession (работать кем), means of transport, the prepositions с / за / под / над / перед.",
+  "descriptionRussian": "Творительный падеж единственного числа: мужской и средний делят -ым (с правилом для шипящих и заднеязычных, дающим -им), женский повторяет -ой.",
+  "imageName": "wrench.and.screwdriver",
+  "trackId": "a2-adjective-declension-mastery",
+  "trackTitle": "Adjective Full Declension Mastery",
+  "trackTitleRussian": "Склонение прилагательных",
+  "trackIndex": 5,
+  "trackTotal": 9,
+  "intro": "The feminine has now held the same form for three cases running, which is the biggest single saving in this book. The masculine and neuter take one more new ending, and this is where the velar and husher spelling rule starts firing on adjective endings again. Same rule as always, applied to a new slot.",
+  "rules": [
+    "Masculine and neuter share one instrumental singular ending: -ым. Hard-stem -ый and -ое both become -ым.",
+    "Spelling rule (Rule 1): after к, г, х, ж, ш, ч, щ, write -им not -ым. Маленький → маленьким; хороший → хорошим; русский → русским. Same rule applied in the A1 adjective track's plural -ие.",
+    "Feminine takes -ой in the instrumental, the same form as the genitive and dative. Three cases converge on -ой for the feminine slot.",
+    "Triggers: с + instr (accompaniment), bare instr for profession (работать кем), bare instr for tools, prepositions за / под / над / перед + instr (static location), reflexive verbs (гордиться, интересоваться, пользоваться, заниматься) + bare instr."
+  ],
+  "examples": [
+    "Маша пьёт чай с новым другом. (Masha drinks tea with the new friend.) С + instr; друг masc: новым.",
+    "Антон стал хорошим инженером. (Anton became a good engineer.) Profession in past / future / стать; husher rule: хороший → хорошим.",
+    "Маша гордится умной сестрой. (Masha is proud of her smart sister.) Гордиться + instr; сестра fem: умной.",
+    "Книга лежит под маленьким столом. (The book is under the small table.) Под + instr (static location); velar rule: маленький → маленьким.",
+    "Лена пишет новой ручкой. (Lena writes with a new pen.) Bare instr for tools; ручка fem: новой.",
+    "Антон занимается русским языком. (Anton studies the Russian language.) Заниматься + instr; husher / velar rule: русский → русским."
+  ],
+  "tables": [
+    {
+      "title": "Instrumental Singular Endings (новый as model)",
+      "headers": [
+        "Slot",
+        "Ending",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "masculine",
+          "cells": [
+            "-ым",
+            "с новым другом"
+          ]
+        },
+        {
+          "label": "neuter",
+          "cells": [
+            "-ым (= masc)",
+            "с новым письмом"
+          ]
+        },
+        {
+          "label": "feminine",
+          "cells": [
+            "-ой",
+            "с новой подругой"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Husher / Velar Rule: -ым Becomes -им",
+      "headers": [
+        "Adjective",
+        "After consonant",
+        "Instrumental form"
+      ],
+      "rows": [
+        {
+          "label": "маленький",
+          "cells": [
+            "к (velar)",
+            "маленьким"
+          ]
+        },
+        {
+          "label": "русский",
+          "cells": [
+            "к (velar)",
+            "русским"
+          ]
+        },
+        {
+          "label": "хороший",
+          "cells": [
+            "ш (husher)",
+            "хорошим"
+          ]
+        },
+        {
+          "label": "большой",
+          "cells": [
+            "ш (husher)",
+            "большим"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я помогаю _____ другу.",
+          "promptEnglish": "I help my old friend.",
+          "options": [
+            "старого",
+            "старой",
+            "старому",
+            "старая"
+          ],
+          "answer": "старому",
+          "hint": "Recap from Lesson 4: помогать takes which case? Друг is masc.",
+          "explanation": "Recap from Lesson 4. Помогать + dat. Друг is masculine, so the dative ending is -ому: старому. Today's drill, starting Q1.2, switches to the instrumental."
+        },
+        {
+          "prompt": "Маша пьёт чай с _____ братом.",
+          "promptEnglish": "Masha drinks tea with the new brother.",
+          "options": [
+            "нового",
+            "новому",
+            "новый",
+            "новым"
+          ],
+          "answer": "новым",
+          "hint": "С + instr. Брат is masculine. The masculine instr ending is brand new today.",
+          "explanation": "С + instr triggers the instrumental. Брат is masculine, so the instr ending is -ым: новым. Notice both the noun and the adjective shift in parallel: брат → братом (noun -ом), новый → новым (adj -ым)."
+        },
+        {
+          "prompt": "Антон стал _____ инженером.",
+          "promptEnglish": "Anton became a good engineer.",
+          "options": [
+            "хороший",
+            "хорошего",
+            "хорошим",
+            "хорошему"
+          ],
+          "answer": "хорошим",
+          "hint": "Стал + instr for profession. Хороший stem ends in -ш: which Rule 1 form is correct?",
+          "explanation": "'Стать + instr' marks the new profession. Инженер is masculine. Хороший ends in -ш-, so by Rule 1 (never write -ы after ш) the instrumental is хорошим, not хорошым. The same -им would appear with русский (русским) and маленький (маленьким)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маша гордится _____ сестрой.",
+          "promptEnglish": "Masha is proud of her smart sister.",
+          "options": [
+            "умной",
+            "умную",
+            "умного",
+            "умному"
+          ],
+          "answer": "умной",
+          "hint": "Гордиться + instr. Сестра is fem. The feminine instr ending is the same as which other case?",
+          "explanation": "Гордиться + instr. Сестра is feminine, so the instr ending is -ой: умной. -ой is the same form as the genitive (Lesson 3) and the dative (Lesson 4). Three cases converge on the feminine -ой; the trigger decides which case is at work."
+        },
+        {
+          "prompt": "Книга лежит под _____ столом.",
+          "promptEnglish": "The book is under the small table.",
+          "options": [
+            "маленькому",
+            "маленьким",
+            "маленького",
+            "маленькой"
+          ],
+          "answer": "маленьким",
+          "hint": "Под + instr (static location). Маленький stem ends in -к-: which Rule 1 form?",
+          "explanation": "Под + instr marks static location. Стол is masculine. Маленький ends in -к-, so by Rule 1 (never write -ы after к) the instr ending is -им not -ым: маленьким. The same -им appears in русским, хорошим, большим."
+        },
+        {
+          "prompt": "Антон занимается _____ языком.",
+          "promptEnglish": "Anton studies the Russian language.",
+          "options": [
+            "русское",
+            "русскому",
+            "русский",
+            "русским"
+          ],
+          "answer": "русским",
+          "hint": "Заниматься + instr. Язык is masc. Русский stem ends in -к-: which Rule 1 form?",
+          "explanation": "Заниматься + instr (a reflexive verb that takes a bare instrumental). Язык is masculine. Русский ends in -к-, so by Rule 1 the instr is русским. Pattern check: by the end of this lesson маленьким, хорошим, русским should feel like one family with one rule."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Лена пишет _____ ручкой. (Lena writes with a new pen.)"
+    ],
+    "choices": [
+      "новая",
+      "новой",
+      "новую",
+      "новым"
+    ],
+    "answers": [
+      "новой"
+    ],
+    "grammarFocus": "Bare instrumental marks the tool. Ручка is feminine, so the adjective ending is -ой: новой. Both the noun and the adjective end in -ой here, but that is coincidence: ручка → ручкой (noun -ой), новая → новой (adj -ой)."
+  },
+  "minimalPairs": [
+    {
+      "context": "Маша пьёт чай с _____ другом.",
+      "contextEnglish": "Masha drinks tea with the new friend.",
+      "options": [
+        "новому",
+        "новым"
+      ],
+      "answer": "новым",
+      "explanation": "С + instr triggers the instrumental, not the dative. The masculine instr ending is -ым: новым. Новому would be the dative ('я помогаю новому другу')."
+    },
+    {
+      "context": "Книга лежит под _____ столом.",
+      "contextEnglish": "The book is under the small table.",
+      "options": [
+        "маленьким",
+        "маленькому"
+      ],
+      "answer": "маленьким",
+      "explanation": "Под + instr triggers the instrumental, not the dative. The masculine instr ending after -к- is -им: маленьким. Маленькому would be the dative form ('я иду к маленькому брату')."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Мы живём рядом с большым парком.",
+      "translationEnglish": "We live next to a big park.",
+      "error": "большым",
+      "correction": "большим",
+      "options": [
+        "большим",
+        "большом",
+        "большого"
+      ],
+      "explanation": "After -ш-, Rule 1 forbids -ы, so the instrumental is spelled -им: большим. Большым is the mechanical -ым form that the spelling rule blocks; it is not a valid Russian spelling."
+    },
+    {
+      "sentence": "Маша гордится интересному работой.",
+      "translationEnglish": "Masha is proud of her interesting work.",
+      "error": "интересному",
+      "correction": "интересной",
+      "options": [
+        "интересной",
+        "интересную",
+        "интересная"
+      ],
+      "explanation": "Гордиться takes a bare instrumental, and the feminine instrumental ending is -ой: интересной. Интересному is the masculine/neuter DATIVE, a slip if you misread the case; the dative would be right only after a dative trigger like помогать."
+    },
+    {
+      "sentence": "Соня занимается английскым языком.",
+      "translationEnglish": "Sonya studies the English language.",
+      "error": "английскым",
+      "correction": "английским",
+      "options": [
+        "английским",
+        "английском",
+        "английского"
+      ],
+      "explanation": "After -к-, Rule 1 forbids -ы, so the instrumental is spelled -им: английским. Английскым is the mechanical -ым form the spelling rule blocks and is not valid. The plain -ым spelling appears only after other consonants (новым)."
+    },
+    {
+      "sentence": "Книга лежит под высоком столом.",
+      "translationEnglish": "The book is under the tall table.",
+      "error": "высоком",
+      "correction": "высоким",
+      "options": [
+        "высоким",
+        "высокому",
+        "высокого"
+      ],
+      "explanation": "Под answering 'where' takes the instrumental for static location, and after -к- the adjective takes -им: высоким. Высоком is the PREPOSITIONAL form (о высоком столе), a natural confusion because both cases handle location questions."
+    },
+    {
+      "sentence": "Маша пьёт кофе со старый другом.",
+      "translationEnglish": "Masha drinks coffee with her old friend.",
+      "error": "старый",
+      "correction": "старым",
+      "options": [
+        "старым",
+        "старому",
+        "старого"
+      ],
+      "explanation": "С meaning 'together with' triggers the instrumental, so the masculine adjective takes -ым: старым. Старый is the nominative, correct when the friend is the subject (Старый друг пришёл)."
+    },
+    {
+      "sentence": "Соня стала известная учительницей.",
+      "translationEnglish": "Sonya became a famous teacher.",
+      "error": "известная",
+      "correction": "известной",
+      "options": [
+        "известной",
+        "известную",
+        "известным"
+      ],
+      "explanation": "A profession after стать takes the bare instrumental, and the feminine instrumental ending is -ой: известной. Известная is the nominative, correct when she is the subject (Известная учительница вошла в класс). The instrumental of profession answers 'became what / works as what'."
+    },
+    {
+      "sentence": "Сейчас Маша занимается интересное делом.",
+      "translationEnglish": "Right now Masha is busy with an interesting project.",
+      "error": "интересное",
+      "correction": "интересным",
+      "options": [
+        "интересным",
+        "интересному",
+        "интересного"
+      ],
+      "explanation": "Заниматься takes a bare instrumental, and the neuter shares the masculine instrumental ending -ым: интересным делом. Интересное is the nominative/accusative neuter form, correct when дело is the subject or direct object."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "творительный падеж",
+      "definition": "instrumental case (marks the instrument, means, accompaniment, profession; answers 'Кем? / Чем?')",
+      "example": "В предложении 'Маша гордится умной сестрой' слова 'умной' и 'сестрой' стоят в творительном падеже."
+    },
+    {
+      "term": "профессия",
+      "definition": "profession (the bare instrumental marks the role one plays after the verbs работать, стать, быть in past or future tense)",
+      "example": "В предложении 'Антон стал хорошим инженером' слова 'хорошим' и 'инженером' обозначают профессию."
+    },
+    {
+      "term": "гордиться",
+      "definition": "to be proud of (takes a bare instrumental: гордиться кем / чем)",
+      "example": "Маша гордится новой школой и умной сестрой."
+    }
+  ]
+}

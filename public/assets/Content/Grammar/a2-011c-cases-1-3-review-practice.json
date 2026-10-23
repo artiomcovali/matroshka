@@ -1,0 +1,649 @@
+{
+  "lessonId": "a2-011c-cases-1-3-review",
+  "sets": [
+    {
+      "id": "round-1-identify-case",
+      "title": "Which Case?",
+      "titleRussian": "Какой падеж?",
+      "description": "Identify whether the blank needs nominative, accusative, or genitive",
+      "descriptionRussian": "Определите, нужен именительный, винительный или родительный падеж",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ читает газету. (Dad reads the newspaper.)",
+              "promptEnglish": "Dad reads the newspaper.",
+              "options": [
+                "Папу",
+                "Папа",
+                "Папы",
+                "Папе"
+              ],
+              "answer": "Папа",
+              "hint": "Who is doing the reading? Subject = nominative.",
+              "explanation": "The subject (who reads?) uses nominative: папа."
+            },
+            {
+              "prompt": "Я вижу _____. (I see the cat.)",
+              "promptEnglish": "I see the cat.",
+              "options": [
+                "кошка",
+                "кошки",
+                "кошку",
+                "кошкой"
+              ],
+              "answer": "кошку",
+              "hint": "What do I see? Direct object = accusative.",
+              "explanation": "Direct object (see what?) uses accusative: кошка → кошку."
+            },
+            {
+              "prompt": "У _____ есть машина. (My brother has a car.)",
+              "promptEnglish": "My brother has a car.",
+              "options": [
+                "брат",
+                "брата",
+                "брату",
+                "братом"
+              ],
+              "answer": "брата",
+              "hint": "У + genitive for possession.",
+              "explanation": "У + genitive: брат → у брата. Masculine animate genitive = -а."
+            },
+            {
+              "prompt": "Нет _____. (There is no water.)",
+              "promptEnglish": "There is no water.",
+              "options": [
+                "вода",
+                "воду",
+                "воды",
+                "водой"
+              ],
+              "answer": "воды",
+              "hint": "Нет + genitive for absence.",
+              "explanation": "Absence: нет + genitive. Вода → воды."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ стоит на полке. (The book is on the shelf.)",
+              "promptEnglish": "The book is on the shelf.",
+              "options": [
+                "Книгу",
+                "Книги",
+                "Книга",
+                "Книгой"
+              ],
+              "answer": "Книга",
+              "hint": "What is standing? Subject = nominative.",
+              "explanation": "Subject (what is on the shelf?) = nominative: книга."
+            },
+            {
+              "prompt": "Он пьёт _____. (He's drinking juice.)",
+              "promptEnglish": "He's drinking juice.",
+              "options": [
+                "сок",
+                "сока",
+                "соку",
+                "соком"
+              ],
+              "answer": "сок",
+              "hint": "What is he drinking? Direct object = accusative (inanimate masculine = nominative form).",
+              "explanation": "Direct object: сок. Inanimate masculine accusative = nominative form."
+            },
+            {
+              "prompt": "Я иду из _____. (I'm coming from the store.)",
+              "promptEnglish": "I'm coming from the store.",
+              "options": [
+                "магазин",
+                "магазина",
+                "магазине",
+                "магазином"
+              ],
+              "answer": "магазина",
+              "hint": "Из + genitive.",
+              "explanation": "Из + genitive: магазин → из магазина."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort: which case does each sentence use for the underlined word?",
+        "categories": [
+          "Nominative",
+          "Accusative",
+          "Genitive"
+        ],
+        "items": [
+          {
+            "word": "Студент работает. (subject)",
+            "category": "Nominative"
+          },
+          {
+            "word": "Я читаю книгу. (direct object)",
+            "category": "Accusative"
+          },
+          {
+            "word": "Нет времени. (absence)",
+            "category": "Genitive"
+          },
+          {
+            "word": "У мамы есть сад. (possession)",
+            "category": "Genitive"
+          },
+          {
+            "word": "Она любит музыку. (direct object)",
+            "category": "Accusative"
+          },
+          {
+            "word": "Кошка спит. (subject)",
+            "category": "Nominative"
+          },
+          {
+            "word": "Без сахара. (without)",
+            "category": "Genitive"
+          },
+          {
+            "word": "Я знаю брата. (animate direct object)",
+            "category": "Accusative"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Я люблю _____. (I love my sister.)",
+          "Это книга _____. (This is the teacher's book.)",
+          "_____ красивая. (The city is beautiful.)"
+        ],
+        "choices": [
+          "сестру",
+          "учителя",
+          "Город"
+        ],
+        "answers": [
+          "сестру",
+          "учителя",
+          "Город"
+        ],
+        "grammarFocus": "Accusative (direct object), genitive (possession), nominative (subject)",
+        "hints": [
+          "Who do I love? Direct object = accusative. Сестра → ?",
+          "Whose book? Possession = genitive. Учитель → ?",
+          "What is beautiful? Subject = nominative."
+        ],
+        "explanations": [
+          "Accusative: сестра → сестру (feminine -а → -у).",
+          "Genitive possession: учитель → учителя (masculine -ь → -я).",
+          "Nominative subject: город (no change)."
+        ],
+        "options": [
+          [
+            "сестра",
+            "сестру",
+            "сестре",
+            "сестры"
+          ],
+          [
+            "учителя",
+            "учителю",
+            "учителем",
+            "учитель"
+          ],
+          [
+            "Город",
+            "городу",
+            "города",
+            "городом"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-tricky-accusative",
+      "title": "Accusative Traps",
+      "titleRussian": "Ловушки винительного падежа",
+      "description": "Practice the trickiest accusative patterns: animate vs inanimate",
+      "descriptionRussian": "Отработайте сложные случаи: одушевлённые и неодушевлённые",
+      "icon": "exclamationmark.triangle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я вижу _____. (I see the house.) - inanimate",
+              "promptEnglish": "I see the house.",
+              "options": [
+                "дом",
+                "дома",
+                "дому",
+                "домом"
+              ],
+              "answer": "дом",
+              "hint": "Inanimate masculine accusative = nominative form.",
+              "explanation": "Дом is inanimate masculine, so accusative = nominative: дом."
+            },
+            {
+              "prompt": "Я вижу _____. (I see the boy.) - animate",
+              "promptEnglish": "I see the boy.",
+              "options": [
+                "мальчик",
+                "мальчика",
+                "мальчику",
+                "мальчиком"
+              ],
+              "answer": "мальчика",
+              "hint": "Animate masculine accusative = genitive form.",
+              "explanation": "Мальчик is animate masculine, so accusative = genitive: мальчика."
+            },
+            {
+              "prompt": "Она купила _____. (She bought a dress.)",
+              "promptEnglish": "She bought a dress.",
+              "options": [
+                "платье",
+                "платья",
+                "платью",
+                "платьем"
+              ],
+              "answer": "платье",
+              "hint": "Inanimate neuter accusative = nominative form.",
+              "explanation": "Платье is inanimate neuter, so accusative = nominative: платье."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я жду _____. (I'm waiting for the bus.)",
+          "contextEnglish": "I'm waiting for the bus. (inanimate)",
+          "options": [
+            "автобус",
+            "автобуса"
+          ],
+          "answer": "автобус",
+          "explanation": "Ждать + accusative (inanimate = nominative form): автобус."
+        },
+        {
+          "context": "Я жду _____. (I'm waiting for my friend.)",
+          "contextEnglish": "I'm waiting for my friend. (animate)",
+          "options": [
+            "друг",
+            "друга"
+          ],
+          "answer": "друга",
+          "explanation": "Ждать + accusative (animate masculine = genitive form): друг → друга."
+        },
+        {
+          "context": "Он читает _____. (He reads the newspaper.)",
+          "contextEnglish": "He reads the newspaper.",
+          "options": [
+            "газету",
+            "газеты"
+          ],
+          "answer": "газету",
+          "explanation": "Accusative feminine: газета → газету (-а → -у)."
+        },
+        {
+          "context": "У него нет _____. (He doesn't have a newspaper.)",
+          "contextEnglish": "He doesn't have a newspaper.",
+          "options": [
+            "газету",
+            "газеты"
+          ],
+          "answer": "газеты",
+          "explanation": "Нет + genitive: газета → газеты (-а → -ы)."
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Я вижу красивая девушка.",
+          "error": "девушка",
+          "correction": "девушку",
+          "hint": "Direct object = accusative, not nominative.",
+          "explanation": "Видеть + accusative: девушка → девушку. (The adjective should also change: красивую.)",
+          "options": [
+            "девушку",
+            "девушки",
+            "девушке",
+            "девушкой"
+          ]
+        },
+        {
+          "sentence": "У меня нет книгу.",
+          "error": "книгу",
+          "correction": "книги",
+          "hint": "Нет + genitive, not accusative.",
+          "explanation": "Нет + genitive: книга → книги, not книгу (accusative).",
+          "options": [
+            "книги",
+            "книга",
+            "книге",
+            "книгой"
+          ]
+        },
+        {
+          "sentence": "Мы любим наш учитель.",
+          "error": "учитель",
+          "correction": "учителя",
+          "hint": "Direct object (animate masculine) = accusative = genitive form.",
+          "explanation": "Любить + accusative. Animate masculine: учитель → учителя.",
+          "options": [
+            "учителя",
+            "учителю",
+            "учителем"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-genitive-uses",
+      "title": "Genitive Contexts",
+      "titleRussian": "Контексты родительного падежа",
+      "description": "Practice the many triggers for genitive case",
+      "descriptionRussian": "Потренируйте все ситуации для родительного падежа",
+      "icon": "list.bullet",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Стакан _____. (A glass of water.)",
+              "promptEnglish": "A glass of water.",
+              "options": [
+                "вода",
+                "воду",
+                "воды",
+                "водой"
+              ],
+              "answer": "воды",
+              "hint": "'A glass of' = genitive.",
+              "explanation": "Quantity: стакан + genitive. Вода → воды."
+            },
+            {
+              "prompt": "Он пришёл без _____. (He came without an umbrella.)",
+              "promptEnglish": "He came without an umbrella.",
+              "options": [
+                "зонтик",
+                "зонтика",
+                "зонтику",
+                "зонтиком"
+              ],
+              "answer": "зонтика",
+              "hint": "Без + genitive.",
+              "explanation": "Без + genitive: зонтик → зонтика."
+            },
+            {
+              "prompt": "В комнате три _____. (There are three chairs in the room.)",
+              "promptEnglish": "There are three chairs in the room.",
+              "options": [
+                "стулья",
+                "стульев",
+                "стула",
+                "стулом"
+              ],
+              "answer": "стула",
+              "hint": "After 2-4, nouns take genitive singular.",
+              "explanation": "Numbers 2-4 + genitive singular: три стула."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "I don't have a car.",
+          "answer": "У меня нет машины.",
+          "acceptableVariants": [],
+          "hint": "У + genitive + нет + genitive. Машина → машины",
+          "grammarFocus": "possession + absence (double genitive)",
+          "keyWord": "машины",
+          "options": [
+            "машины",
+            "машина",
+            "машину",
+            "машиной"
+          ]
+        },
+        {
+          "english": "She sees her brother.",
+          "answer": "Она видит брата.",
+          "acceptableVariants": [
+            "Она видит своего брата."
+          ],
+          "hint": "See + accusative. Animate masculine: брат → брата",
+          "grammarFocus": "animate masculine accusative",
+          "keyWord": "брата",
+          "options": [
+            "брата",
+            "брат",
+            "брату",
+            "братом"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-all-three-mixed",
+      "title": "Case Detective",
+      "titleRussian": "Детектив падежей",
+      "description": "Determine the correct case based on the sentence context",
+      "descriptionRussian": "Определите правильный падеж по контексту предложения",
+      "icon": "magnifyingglass",
+      "patternRecognition": [
+        {
+          "sentence": "Мальчик любит собаку. Собака любит мальчика.",
+          "question": "Both sentences have the same words but different meanings. What determines which word is the subject?",
+          "options": [
+            "The word in nominative case is the subject, the word in accusative is the object",
+            "Word order determines the subject",
+            "The animate noun is always the subject"
+          ],
+          "answer": "The word in nominative case is the subject, the word in accusative is the object",
+          "explanation": "Case endings, not word order, determine meaning. Мальчик (nom.) loves собаку (acc.) vs. Собака (nom.) loves мальчика (acc.)."
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ нравится _____. (The sister likes the movie.)",
+              "promptEnglish": "The sister likes the movie.",
+              "options": [
+                "Сестра ... фильм",
+                "Сестре ... фильм",
+                "Сестру ... фильма",
+                "Сестры ... фильму"
+              ],
+              "answer": "Сестре ... фильм",
+              "hint": "Нравиться: dative (who likes) + nominative (what is liked). Wait - this is a cases 1-3 review!",
+              "explanation": "With нравиться, the person is dative (сестре) and the thing liked is nominative (фильм). The nominative subject here is фильм."
+            },
+            {
+              "prompt": "Я купил подарок для _____. (I bought a gift for mom.)",
+              "promptEnglish": "I bought a gift for mom.",
+              "options": [
+                "маму",
+                "мама",
+                "мамы",
+                "мамой"
+              ],
+              "answer": "мамы",
+              "hint": "Для + genitive.",
+              "explanation": "Для (for) + genitive: мама → мамы."
+            },
+            {
+              "prompt": "_____ открыл дверь. (The neighbor opened the door.)",
+              "promptEnglish": "The neighbor opened the door.",
+              "options": [
+                "Соседа",
+                "Сосед",
+                "Соседу",
+                "Соседом"
+              ],
+              "answer": "Сосед",
+              "hint": "Who opened? Subject = nominative.",
+              "explanation": "Subject (who did the action?) = nominative: сосед."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Два _____ стоят у дороги. (Two trees stand by the road.)",
+          "Она смотрит _____. (She's watching a movie.)",
+          "_____ играют во дворе. (The children play in the yard.)",
+          "Мы шли от _____ до дома. (We walked from the station to the house.)"
+        ],
+        "choices": [
+          "дерева",
+          "фильм",
+          "Дети",
+          "станции"
+        ],
+        "answers": [
+          "дерева",
+          "фильм",
+          "Дети",
+          "станции"
+        ],
+        "grammarFocus": "Genitive after numbers, accusative object, nominative subject, genitive after от",
+        "hints": [
+          "After два = genitive singular. Дерево → ?",
+          "Direct object (inanimate masculine) = accusative = nominative form.",
+          "Who is playing? Subject = nominative plural.",
+          "От + genitive. Станция → ?"
+        ],
+        "explanations": [
+          "Два + genitive singular: дерево → дерева.",
+          "Фильм: inanimate masculine accusative = nominative form.",
+          "Nominative plural subject: дети.",
+          "От + genitive: станция → станции (-ия → -ии)."
+        ],
+        "options": [
+          [
+            "дереву",
+            "деревом",
+            "дерево",
+            "дерева"
+          ],
+          [
+            "фильм",
+            "фильмом",
+            "фильма",
+            "фильму"
+          ],
+          [
+            "детям",
+            "детьми",
+            "детей",
+            "Дети"
+          ],
+          [
+            "станцию",
+            "станции",
+            "станция",
+            "станцией"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All three cases mixed in one final round",
+      "descriptionRussian": "Все три падежа в финальном раунде",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Это дом _____. (This is the neighbor's house.)",
+              "promptEnglish": "This is the neighbor's house.",
+              "options": [
+                "соседа",
+                "сосед",
+                "соседу",
+                "соседом"
+              ],
+              "answer": "соседа",
+              "hint": "Whose house? Possession = genitive.",
+              "explanation": "Possession: genitive. Сосед → соседа."
+            },
+            {
+              "prompt": "_____ лежит на диване. (The cat is lying on the couch.)",
+              "promptEnglish": "The cat is lying on the couch.",
+              "options": [
+                "Кошку",
+                "Кошки",
+                "Кошка",
+                "Кошкой"
+              ],
+              "answer": "Кошка",
+              "hint": "Who is lying? Subject = nominative.",
+              "explanation": "Subject = nominative: кошка."
+            },
+            {
+              "prompt": "Мы слушаем _____. (We're listening to the teacher.)",
+              "promptEnglish": "We're listening to the teacher.",
+              "options": [
+                "учитель",
+                "учителя",
+                "учителю",
+                "учителем"
+              ],
+              "answer": "учителя",
+              "hint": "Listen to whom? Direct object (animate masculine) = accusative = genitive form.",
+              "explanation": "Слушать + accusative. Animate masculine: учитель → учителя."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Пять стул стоят в комнате.",
+          "error": "стул",
+          "correction": "стульев",
+          "hint": "After 5+, nouns take genitive plural.",
+          "explanation": "Numbers 5+ require genitive plural: стул → стульев.",
+          "options": [
+            "стульев",
+            "стула",
+            "стулья",
+            "стулам"
+          ]
+        },
+        {
+          "sentence": "Я вижу большой дома.",
+          "error": "дома",
+          "correction": "дом",
+          "hint": "House is inanimate, so accusative = nominative form.",
+          "explanation": "Дом is inanimate masculine: accusative = nominative form. Вижу большой дом.",
+          "options": [
+            "дом",
+            "дому",
+            "домом",
+            "доме"
+          ]
+        },
+        {
+          "sentence": "Книга учителем лежит на столе.",
+          "error": "учителем",
+          "correction": "учителя",
+          "hint": "Whose book? Possession = genitive, not instrumental.",
+          "explanation": "Possession uses genitive: учитель → учителя. Книга учителя = the teacher's book.",
+          "options": [
+            "учителя",
+            "учитель",
+            "учителю",
+            "учителе"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "id": "a2-004b-pronoun-declension-part2",
+  "level": "A2",
+  "sortKey": "a2-011f-pronoun-declension-part2",
+  "focusArea": "cases",
+  "title": "Pronoun Declension (Part 2)",
+  "titleRussian": "Склонение местоимений (часть 2)",
+  "description": "Instrumental and prepositional pronoun forms",
+  "descriptionRussian": "Творительный и предложный падежи местоимений",
+  "imageName": "person.2.circle.fill",
+  "intro": "In Part 2 we complete the pronoun declension table with two remaining cases: Instrumental (with whom? кем?) and Prepositional (about whom? о ком?). Instrumental forms are used with 'с' (with): с мной, с тобой, с ним. Prepositional forms appear after 'о' (about), 'в' (in), 'на' (on): обо мне, о тебе, о нём. Remember: after prepositions, third-person pronouns add н-!",
+  "rules": [
+    "Instrumental forms: мной, тобой, им/ей, нами, вами, ими. Used after с (with) and other instrumental prepositions.",
+    "Prepositional forms: мне, тебе, нём/ней, нас, вас, них. Used after о (about), в (in), на (on).",
+    "After prepositions, 3rd person pronouns add н-: им → с ним, ей → с ней, ими → с ними; о нём, о ней, о них.",
+    "Special form: обо мне (about me) — the preposition о becomes обо before мне."
+  ],
+  "examples": [
+    "Я иду с тобой. (I'm going with you.), instrumental",
+    "Она говорит обо мне. (She talks about me.), prepositional",
+    "Мы работаем с ними. (We work with them.), instrumental with н-",
+    "Он думает о ней. (He thinks about her.), prepositional with н-"
+  ],
+  "tables": [
+    {
+      "title": "Full Pronoun Declension (All 6 Cases)",
+      "headers": [
+        "Case",
+        "я",
+        "ты",
+        "он/оно",
+        "она",
+        "мы",
+        "вы",
+        "они"
+      ],
+      "rows": [
+        {
+          "label": "Nom.",
+          "cells": [
+            "я",
+            "ты",
+            "он",
+            "она",
+            "мы",
+            "вы",
+            "они"
+          ]
+        },
+        {
+          "label": "Gen.",
+          "cells": [
+            "меня",
+            "тебя",
+            "его",
+            "её",
+            "нас",
+            "вас",
+            "их"
+          ]
+        },
+        {
+          "label": "Acc.",
+          "cells": [
+            "меня",
+            "тебя",
+            "его",
+            "её",
+            "нас",
+            "вас",
+            "их"
+          ]
+        },
+        {
+          "label": "Dat.",
+          "cells": [
+            "мне",
+            "тебе",
+            "ему",
+            "ей",
+            "нам",
+            "вам",
+            "им"
+          ]
+        },
+        {
+          "label": "Inst.",
+          "cells": [
+            "мной",
+            "тобой",
+            "им",
+            "ей",
+            "нами",
+            "вами",
+            "ими"
+          ]
+        },
+        {
+          "label": "Prep.",
+          "cells": [
+            "мне",
+            "тебе",
+            "нём",
+            "ней",
+            "нас",
+            "вас",
+            "них"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Она идёт с _____. (She's going with you.)",
+          "promptEnglish": "She's going with you.",
+          "options": [
+            "тебя",
+            "тобой",
+            "ты",
+            "тебе"
+          ],
+          "answer": "тобой",
+          "hint": "С + instrumental",
+          "explanation": "Ты → тобой in instrumental (с + person)."
+        },
+        {
+          "prompt": "Я думаю о _____. (I'm thinking about her.)",
+          "promptEnglish": "I'm thinking about her.",
+          "options": [
+            "ей",
+            "ней",
+            "она",
+            "её"
+          ],
+          "answer": "ней",
+          "hint": "О + prepositional, н- after preposition",
+          "explanation": "After preposition о, use ней (not ей). Prepositional + н-."
+        },
+        {
+          "prompt": "Мы работаем с _____. (We work with him.)",
+          "promptEnglish": "We work with him.",
+          "options": [
+            "его",
+            "ему",
+            "ним",
+            "него"
+          ],
+          "answer": "ним",
+          "hint": "С + instrumental, н- after preposition",
+          "explanation": "С requires instrumental. Им → ним after preposition."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Расскажи мне о _____. (Tell me about them.)",
+          "promptEnglish": "Tell me about them.",
+          "options": [
+            "ими",
+            "них",
+            "их",
+            "ними"
+          ],
+          "answer": "них",
+          "hint": "О + prepositional, н- after preposition",
+          "explanation": "О requires prepositional. Их → них after preposition."
+        },
+        {
+          "prompt": "Мы гордимся _____. (We're proud of you [plural].)",
+          "promptEnglish": "We're proud of you.",
+          "options": [
+            "вас",
+            "вам",
+            "вами",
+            "вы"
+          ],
+          "answer": "вами",
+          "hint": "Гордиться + instrumental",
+          "explanation": "Гордиться takes instrumental. Вы → вами."
+        },
+        {
+          "prompt": "Иди со _____! (Come with me!)",
+          "promptEnglish": "Come with me!",
+          "options": [
+            "мне",
+            "меня",
+            "мной",
+            "я"
+          ],
+          "answer": "мной",
+          "hint": "Со + instrumental",
+          "explanation": "Со requires instrumental. Я → мной."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Мы говорим о _____. (We're talking about you.)",
+          "promptEnglish": "We're talking about you.",
+          "options": [
+            "тобой",
+            "тебя",
+            "тебе",
+            "ты"
+          ],
+          "answer": "тебе",
+          "hint": "О + prepositional",
+          "explanation": "О requires prepositional. Ты → тебе."
+        },
+        {
+          "prompt": "Она танцует с _____. (She dances with us.)",
+          "promptEnglish": "She dances with us.",
+          "options": [
+            "нас",
+            "нам",
+            "мы",
+            "нами"
+          ],
+          "answer": "нами",
+          "hint": "С + instrumental",
+          "explanation": "С requires instrumental. Мы → нами."
+        },
+        {
+          "prompt": "Я всё знаю о _____. (I know everything about him.)",
+          "promptEnglish": "I know everything about him.",
+          "options": [
+            "его",
+            "ему",
+            "им",
+            "нём"
+          ],
+          "answer": "нём",
+          "hint": "О + prepositional, н- after preposition",
+          "explanation": "О requires prepositional. Он → нём after preposition."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я хочу поговорить с _____. (I want to talk with her.)"
+    ],
+    "choices": [
+      "ней",
+      "ей",
+      "неё",
+      "её"
+    ],
+    "answers": [
+      "ней"
+    ],
+    "grammarFocus": "С + instrumental, н- after preposition for 3rd person",
+    "hints": [
+      "С requires instrumental. What happens to 3rd person pronouns after prepositions?"
+    ],
+    "explanations": [
+      "С requires instrumental. Она → ей in instrumental, but after preposition с, add н-: с ней."
+    ],
+    "options": [
+      [
+        "ей",
+        "её",
+        "она",
+        "ней"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я работаю с _____. (I work with them.) - instrumental",
+      "contextEnglish": "I work with them.",
+      "options": [
+        "ними",
+        "них"
+      ],
+      "answer": "ними",
+      "explanation": "С requires instrumental: ними. Prepositional would be них (о них)."
+    },
+    {
+      "context": "Он думает о _____. (He thinks about them.) - prepositional",
+      "contextEnglish": "He thinks about them.",
+      "options": [
+        "ними",
+        "них"
+      ],
+      "answer": "них",
+      "explanation": "О requires prepositional: них. Instrumental would be ними (с ними)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort pronoun forms: Instrumental or Prepositional?",
+    "categories": [
+      "Instrumental",
+      "Prepositional"
+    ],
+    "items": [
+      {
+        "word": "мной",
+        "category": "Instrumental"
+      },
+      {
+        "word": "(обо) мне",
+        "category": "Prepositional"
+      },
+      {
+        "word": "тобой",
+        "category": "Instrumental"
+      },
+      {
+        "word": "(о) тебе",
+        "category": "Prepositional"
+      },
+      {
+        "word": "ним",
+        "category": "Instrumental"
+      },
+      {
+        "word": "(о) нём",
+        "category": "Prepositional"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "мной / (обо) мне",
+      "definition": "with me (inst) / about me (prep)",
+      "example": "Иди со мной. Она думает обо мне."
+    },
+    {
+      "term": "тобой / (о) тебе",
+      "definition": "with you (inst) / about you (prep)",
+      "example": "Я иду с тобой. Мы говорим о тебе."
+    },
+    {
+      "term": "им/ним / нём",
+      "definition": "with him (inst) / about him (prep), н- after preposition",
+      "example": "С ним весело. Я знаю о нём."
+    },
+    {
+      "term": "ей/ней / ней",
+      "definition": "with her (inst) / about her (prep), н- after preposition",
+      "example": "С ней интересно. Расскажи о ней."
+    }
+  ]
+}

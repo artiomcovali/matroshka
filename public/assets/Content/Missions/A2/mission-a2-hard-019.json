@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-019",
+  "title": "The Wrong Photos",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "You got someone else's photos - untangle the mix-up",
+  "imageName": "photo.fill",
+  "initialPrompt": "Вот ваши фотографии! 300 рублей, пожалуйста.",
+  "systemPrompt": "You work at photo studio. You mixed up orders. These are photos of someone named Иванов. Be confused, check records slowly. Find correct photos only after customer provides details. Keep replies short.",
+  "completionCriteria": "User got their correct photos after proving identity.",
+  "responseLimit": 15,
+  "hints": [
+    "Это не мои фотографии (These aren't my photos)",
+    "Меня зовут... (My name is...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "фотография",
+      "definition": "photo"
+    },
+    {
+      "word": "ошибка",
+      "definition": "mistake"
+    },
+    {
+      "word": "перепутать",
+      "definition": "to mix up"
+    },
+    {
+      "word": "заказ",
+      "definition": "order"
+    },
+    {
+      "word": "проверить",
+      "definition": "to check"
+    },
+    {
+      "word": "квитанция",
+      "definition": "receipt"
+    }
+  ],
+  "objectives": [
+    "Explain these are wrong photos",
+    "Provide your name and details",
+    "Help them search for your order",
+    "Verify the correct photos",
+    "Complete the transaction"
+  ]
+}

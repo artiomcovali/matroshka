@@ -1,0 +1,191 @@
+{
+  "id": "a2-012",
+  "level": "A2",
+  "narrator": "Анна",
+  "title": "У врача",
+  "titleEnglish": "At the Doctor",
+  "description": "Анна заболела и идёт к врачу.",
+  "imageName": "heart.fill",
+  "fullText": "У меня болит голова и горло. Я иду к врачу. Врач спрашивает: «Что у вас болит?» Я отвечаю: «У меня болит голова. И ещё у меня насморк и кашель». Врач слушает и говорит: «У вас простуда. Это не страшно. Пейте горячий чай с лимоном и отдыхайте дома». Я покупаю лекарство в аптеке. Дома я пью чай и сплю. Через два дня мне уже лучше. Голова не болит, и горло не болит. Я снова здорова!",
+  "reviewVocab": [
+    {
+      "word": "врач",
+      "definition": "doctor",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "врач",
+        "врача",
+        "врачу",
+        "враче"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "голова",
+      "definition": "head",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "голова",
+        "головы",
+        "голове",
+        "голову"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "лекарство",
+      "definition": "medicine, medication",
+      "partOfSpeech": "noun (n)",
+      "forms": [
+        "лекарство",
+        "лекарства",
+        "лекарству"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "аптека",
+      "definition": "pharmacy",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "аптека",
+        "аптеки",
+        "аптеке",
+        "аптеку"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Что болит у Анны?",
+      "options": [
+        "Рука и нога",
+        "Голова и горло",
+        "Живот"
+      ],
+      "correctIndex": 1,
+      "explanation": "У Анны болит голова и горло."
+    },
+    {
+      "prompt": "К кому идёт Анна?",
+      "options": [
+        "К врачу",
+        "К подруге",
+        "В аптеку"
+      ],
+      "correctIndex": 0,
+      "explanation": "Анна идёт к врачу."
+    },
+    {
+      "prompt": "Что ещё есть у Анны?",
+      "options": [
+        "Температура",
+        "Аллергия",
+        "Насморк и кашель"
+      ],
+      "correctIndex": 2,
+      "explanation": "У Анны ещё насморк и кашель."
+    },
+    {
+      "prompt": "Что говорит врач?",
+      "options": [
+        "У вас простуда",
+        "Вам нужна операция",
+        "У вас аллергия"
+      ],
+      "correctIndex": 0,
+      "explanation": "Врач говорит: «У вас простуда. Это не страшно»."
+    },
+    {
+      "prompt": "Что покупает Анна в аптеке?",
+      "options": [
+        "Чай с лимоном",
+        "Витамины",
+        "Лекарство"
+      ],
+      "correctIndex": 2,
+      "explanation": "Анна покупает лекарство в аптеке."
+    },
+    {
+      "prompt": "Как Анна чувствует себя через два дня?",
+      "options": [
+        "Ей хуже",
+        "Ей лучше, она здорова",
+        "Ничего не изменилось"
+      ],
+      "correctIndex": 1,
+      "explanation": "Через два дня Анне лучше. Она снова здорова!"
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "У Анны болит _____ и горло.",
+      "Врач говорит: «У вас _____».",
+      "Анна покупает _____ в аптеке.",
+      "Врач советует пить горячий чай с _____.",
+      "Через два дня Анна снова _____."
+    ],
+    "choices": [
+      "голова",
+      "простуда",
+      "лекарство",
+      "лимоном",
+      "здорова",
+      "кашель",
+      "аптека"
+    ],
+    "answers": [
+      "голова",
+      "простуда",
+      "лекарство",
+      "лимоном",
+      "здорова"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "'У меня болит голова' — 'у меня' uses which case for 'меня'?",
+      "options": [
+        "Nominative",
+        "Accusative",
+        "Genitive"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "case",
+      "sentenceRef": "У меня болит голова и горло.",
+      "explanation": "After 'у,' pronouns and nouns take the genitive case. This structure means 'I have' (literally 'at me'): У меня = I have, у вас = you have.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "'Пейте горячий чай' — the verb form 'пейте' is:",
+      "options": [
+        "An imperative (a command/instruction)",
+        "Past tense",
+        "Future tense"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "mood",
+      "sentenceRef": "Пейте горячий чай с лимоном и отдыхайте дома.",
+      "explanation": "'Пейте' and 'отдыхайте' are imperative forms (polite commands). The doctor is giving instructions. Пить → пейте (drink!), отдыхать → отдыхайте (rest!).",
+      "focusArea": "conjugation"
+    },
+    {
+      "prompt": "'Я снова здорова' — the adjective ends in '-а' because:",
+      "options": [
+        "It describes a neuter noun",
+        "The speaker (Анна) is female",
+        "It's plural"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "gender",
+      "sentenceRef": "Я снова здорова!",
+      "explanation": "Short-form adjectives agree with the subject's gender: здоров (he is healthy), здорова (she is healthy), здорово (it's cool/great), здоровы (they are healthy).",
+      "focusArea": "cases"
+    }
+  ],
+  "audioFile": "a2-012.m4a",
+  "audioTimingFile": "a2-012-timing.json"
+}

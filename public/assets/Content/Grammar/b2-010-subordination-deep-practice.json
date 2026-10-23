@@ -1,0 +1,433 @@
+{
+  "lessonId": "b2-010-subordination-deep",
+  "sets": [
+    {
+      "id": "round-1-nested-quiz",
+      "title": "Nested Clause Recognition",
+      "titleRussian": "Определение вложенных предложений",
+      "description": "Identify conjunctions and structure in multi-level subordination",
+      "descriptionRussian": "Определите союзы и структуру многоуровневого подчинения",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она сказала, _____ книга, _____ я дал, очень интересная.",
+              "promptEnglish": "She said that the book which I gave her is very interesting.",
+              "options": [
+                "что, которую",
+                "которую, что",
+                "что, что",
+                "когда, которую"
+              ],
+              "answer": "что, которую",
+              "hint": "Content clause (что) containing a relative clause (которую).",
+              "explanation": "Что introduces her statement. Которую (acc fem) introduces the relative clause about the book."
+            },
+            {
+              "prompt": "How many subordinate clauses? \"Я не знаю, почему он думает, что я это сделал.\"",
+              "promptEnglish": "I don't know why he thinks I did it.",
+              "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "2",
+              "hint": "Count the subordinate conjunctions: почему and что.",
+              "explanation": "Two subordinate clauses: почему он думает (why he thinks) and что я это сделал (that I did it)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Когда он понял, _____ опоздал, он расстроился.",
+              "promptEnglish": "When he understood that he was late, he got upset.",
+              "options": [
+                "когда",
+                "если",
+                "что",
+                "который"
+              ],
+              "answer": "что",
+              "hint": "Content clause nested inside a time clause.",
+              "explanation": "Когда он понял (time) → что опоздал (content of understanding). Nested что inside когда."
+            },
+            {
+              "prompt": "Она рассказала, _____ встретила человека, _____ работает в банке.",
+              "promptEnglish": "She told us that she met a person who works at a bank.",
+              "options": [
+                "что, что",
+                "что, который",
+                "когда, что",
+                "который, что"
+              ],
+              "answer": "что, который",
+              "hint": "Content clause (что) with a relative clause (который) inside it.",
+              "explanation": "Что introduces her story. Который describes the person (nom masc)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я знаю, _____ он сказал. (I know WHAT he said - content)",
+          "contextEnglish": "I know what he said.",
+          "options": [
+            "что",
+            "который"
+          ],
+          "answer": "что",
+          "explanation": "Что = 'what' (content of speech). Not describing a noun."
+        },
+        {
+          "context": "Человек, _____ это сказал, уже ушёл. (The person WHO said this)",
+          "contextEnglish": "The person who said this has already left.",
+          "options": [
+            "который",
+            "что"
+          ],
+          "answer": "который",
+          "explanation": "Который = relative pronoun describing 'человек.' Not a content clause."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Я думаю, _____ он уже знает, что мы решили. (I think that...)",
+          "Я думаю, что он уже знает, _____ мы решили. (knows what we decided)",
+          "Она забыла, _____ он ей сказал, когда она уезжала. (forgot what...)",
+          "Она забыла, что он ей сказал, _____ она уезжала. (when she was leaving)",
+          "Мне кажется, _____ дом, в котором мы жили, уже снесли. (it seems that...)",
+          "Мне кажется, что дом, в _____ мы жили, уже снесли. (in which we lived)"
+        ],
+        "choices": [
+          "что, что",
+          "что, когда",
+          "что, котором"
+        ],
+        "answers": [
+          "что",
+          "что",
+          "что",
+          "когда",
+          "что",
+          "котором"
+        ],
+        "grammarFocus": "Nested clauses with что+что, что+когда, что+который",
+        "hints": null,
+        "explanations": null,
+        "options": [
+          [
+            "как",
+            "будто",
+            "чтобы",
+            "что"
+          ],
+          [
+            "как",
+            "чтобы",
+            "что",
+            "где"
+          ],
+          [
+            "чтобы",
+            "где",
+            "как",
+            "что"
+          ],
+          [
+            "когда",
+            "где",
+            "что",
+            "пока"
+          ],
+          [
+            "что",
+            "будто",
+            "чтобы",
+            "как"
+          ],
+          [
+            "которому",
+            "который",
+            "которого",
+            "котором"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-3-parallel-embedded",
+      "title": "Parallel and Embedded",
+      "titleRussian": "Параллельные и встроенные",
+      "description": "Practice parallel subordinates and embedded relative clauses",
+      "descriptionRussian": "Параллельные придаточные и встроенные определительные",
+      "icon": "arrow.branch",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Книга, _____ написал автор, _____ жил в этом городе, стала бестселлером.",
+              "promptEnglish": "The book written by the author who lived in this city became a bestseller.",
+              "options": [
+                "которую, который",
+                "которую, которая",
+                "которой, который",
+                "которая, которого"
+              ],
+              "answer": "которую, который",
+              "hint": "Two relatives: book (acc fem) and author (nom masc).",
+              "explanation": "Которую (book, acc fem - object of написал) + который (author, nom masc - subject of жил)."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [],
+      "translation": [
+        {
+          "english": "I think that he doesn't know that we're leaving.",
+          "answer": "Я думаю, что он не знает, что мы уезжаем.",
+          "acceptableVariants": [
+            "Я думаю, что он не знает, что мы уедем."
+          ],
+          "hint": "Two nested что clauses",
+          "grammarFocus": "Nested subordination",
+          "keyWord": "что",
+          "options": [
+            "что",
+            "который",
+            "когда",
+            "чтобы"
+          ]
+        },
+        {
+          "english": "She said that the person who called was her brother.",
+          "answer": "Она сказала, что человек, который позвонил, был её братом.",
+          "acceptableVariants": [
+            "Она сказала, что человек, который звонил, её брат."
+          ],
+          "hint": "Что clause with embedded который clause",
+          "grammarFocus": "Embedded relative in content clause",
+          "keyWord": "который",
+          "options": [
+            "который",
+            "что",
+            "кто",
+            "чей"
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Я не понимаю, _____ он уехал и почему он не позвонил. (why he left)",
+          "Я не понимаю, почему он уехал и _____ он не позвонил. (and why he didn't call)",
+          "Она думает, _____ проблема, о которой мы говорили, уже решена. (thinks that...)",
+          "Она думает, что проблема, о _____ мы говорили, уже решена. (about which we talked)"
+        ],
+        "choices": [
+          "почему, почему",
+          "что, которой"
+        ],
+        "answers": [
+          "почему",
+          "почему",
+          "что",
+          "которой"
+        ],
+        "grammarFocus": "Parallel subordinates, embedded relative",
+        "hints": null,
+        "explanations": null,
+        "options": [
+          [
+            "зачем",
+            "куда",
+            "когда",
+            "почему"
+          ],
+          [
+            "когда",
+            "как",
+            "почему",
+            "зачем"
+          ],
+          [
+            "будто",
+            "что",
+            "как",
+            "чтобы"
+          ],
+          [
+            "которая",
+            "которой",
+            "который",
+            "которую"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-reading-analysis",
+      "title": "Sentence Analysis",
+      "titleRussian": "Анализ предложений",
+      "description": "Analyze and break down complex multi-level sentences",
+      "descriptionRussian": "Проанализируйте и разберите сложные предложения",
+      "icon": "magnifyingglass",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "\"Мне кажется, что он не понял, почему она ушла.\" What is the main clause?",
+              "promptEnglish": "Identify the main clause.",
+              "options": [
+                "он не понял",
+                "мне кажется",
+                "почему она ушла",
+                "что он не понял"
+              ],
+              "answer": "мне кажется",
+              "hint": "The main clause can stand alone without a conjunction.",
+              "explanation": "Мне кажется is the main clause. Everything after что is subordinate."
+            },
+            {
+              "prompt": "\"Когда он узнал, что она уехала, он позвонил ей.\" What is the main clause?",
+              "promptEnglish": "Identify the main clause.",
+              "options": [
+                "когда он узнал",
+                "что она уехала",
+                "он позвонил ей",
+                "когда он узнал, что она уехала"
+              ],
+              "answer": "он позвонил ей",
+              "hint": "The main clause has no conjunction introducing it.",
+              "explanation": "Он позвонил ей is the main clause. Когда он узнал (time) and что она уехала (content) are subordinate."
+            },
+            {
+              "prompt": "\"Я уверен, что книга, которую ты читаешь, ему понравится.\" How many clause levels?",
+              "promptEnglish": "How many subordination levels?",
+              "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "2",
+              "hint": "Main → что clause → which contains a которую clause.",
+              "explanation": "Main (я уверен) → sub1 (что книга ему понравится) → sub2 (которую ты читаешь, embedded)."
+            }
+          ]
+        },
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она не поняла, _____ он имел в виду, _____ сказал это.",
+              "promptEnglish": "She didn't understand what he meant when he said that.",
+              "options": [
+                "что, когда",
+                "когда, что",
+                "который, что",
+                "почему, и"
+              ],
+              "answer": "что, когда",
+              "hint": "Content (что) + time (когда): what he meant when he said it.",
+              "explanation": "Что he meant (content) + когда he said it (time). Two different clause types."
+            },
+            {
+              "prompt": "Мне кажется, _____ проблема, _____ мы обсуждали, уже не актуальна.",
+              "promptEnglish": "I think that the problem we were discussing is no longer relevant.",
+              "options": [
+                "что, о которой",
+                "что, которую",
+                "когда, что",
+                "если, которой"
+              ],
+              "answer": "что, которую",
+              "hint": "Content clause (что) with an embedded accusative relative (which problem we discussed).",
+              "explanation": "Что introduces the thought. Которую (acc fem): the problem we DISCUSSED (direct object)."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Когда он понял, что... / Пока я думал, что... / После того как узнал, что...",
+          "question": "What subordination pattern?",
+          "options": [
+            "Parallel subordinates",
+            "Nested: time clause containing content clause",
+            "Double relative clauses",
+            "Conditional + content"
+          ],
+          "answer": "Nested: time clause containing content clause",
+          "explanation": "Time conjunction (когда/пока/после того как) wraps around a что content clause."
+        }
+      ],
+      "sentenceTransform": [],
+      "categorySorting": {
+        "instruction": "Sort by the number of subordinate levels",
+        "categories": [
+          "1 subordinate level",
+          "2 subordinate levels",
+          "3 subordinate levels"
+        ],
+        "items": [
+          {
+            "word": "Я знаю, что он придёт.",
+            "category": "1 subordinate level"
+          },
+          {
+            "word": "Я думаю, что он знает, что она ушла.",
+            "category": "2 subordinate levels"
+          },
+          {
+            "word": "Когда он пришёл, все обрадовались.",
+            "category": "1 subordinate level"
+          },
+          {
+            "word": "Она сказала, что думает, что он прав.",
+            "category": "2 subordinate levels"
+          },
+          {
+            "word": "Мне кажется, что он не понял, почему она сказала, что уедет.",
+            "category": "3 subordinate levels"
+          },
+          {
+            "word": "Я слышал, что дом, который стоял здесь, снесли.",
+            "category": "2 subordinate levels"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Я уверен что книга которую ты читаешь ему понравится.",
+          "error": "уверен что",
+          "correction": "уверен, что",
+          "hint": "Every subordinate conjunction needs a comma before it.",
+          "explanation": "Full punctuation: Я уверен, что книга, которую ты читаешь, ему понравится.",
+          "options": [
+            "уверен, что",
+            "уверен; что",
+            "уверен: что"
+          ]
+        },
+        {
+          "sentence": "Он не знал почему она думает что он виноват.",
+          "error": "знал почему",
+          "correction": "знал, почему",
+          "hint": "Commas before every subordinate conjunction.",
+          "explanation": "Он не знал, почему она думает, что он виноват. Comma before почему and что.",
+          "options": [
+            "знал, почему",
+            "знал; почему",
+            "знал: почему"
+          ]
+        }
+      ]
+    }
+  ]
+}

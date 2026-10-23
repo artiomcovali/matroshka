@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-022",
+  "title": "Publication Rejection",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Your paper was rejected - respond to reviewers and appeal",
+  "imageName": "doc.text.fill",
+  "initialPrompt": "Ваша статья отклонена. Рецензенты отметили проблемы с методологией и выводами. Хотите апеллировать?",
+  "systemPrompt": "You are journal editor. Paper rejected but appeal possible. Consider if author addresses reviewer concerns substantively. Keep replies short.",
+  "completionCriteria": "User developed compelling response to reviewers.",
+  "responseLimit": 15,
+  "hints": [
+    "Могу ответить на замечания (I can address the comments)",
+    "Рецензент неправильно понял... (The reviewer misunderstood...)",
+    "Я готов доработать статью (I'm ready to revise the paper)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "рецензент",
+      "definition": "reviewer"
+    },
+    {
+      "word": "апелляция",
+      "definition": "appeal"
+    },
+    {
+      "word": "доработка",
+      "definition": "revision"
+    },
+    {
+      "word": "замечания",
+      "definition": "comments"
+    },
+    {
+      "word": "публикация",
+      "definition": "publication"
+    },
+    {
+      "word": "редактор",
+      "definition": "editor"
+    }
+  ],
+  "objectives": [
+    "Understand rejection reasons",
+    "Address reviewer concerns",
+    "Propose revisions",
+    "Make appeal case"
+  ]
+}

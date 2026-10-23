@@ -1,0 +1,309 @@
+{
+  "id": "b2-track-vadverb-01-impf-formation",
+  "level": "B2",
+  "focusArea": "other",
+  "title": "Verbal Adverbs 1: The Imperfective -я Form",
+  "titleRussian": "Деепричастия 1: формы на -я",
+  "description": "The Russian verbal adverb (деепричастие) compresses a secondary action into one short word. Today: forming the imperfective -я / -а gerund from the third-person plural present.",
+  "descriptionRussian": "Деепричастие — короткая глагольная форма, передающая второе действие. Сегодня: образование несовершенного деепричастия на -я / -а от формы третьего лица множественного числа.",
+  "imageName": "infinity",
+  "trackId": "b2-verbal-adverbs-mastery",
+  "trackTitle": "Verbal Adverbs Mastery",
+  "trackTitleRussian": "Деепричастия",
+  "trackIndex": 1,
+  "trackTotal": 8,
+  "intro": "After participles, which agree with everything, here is a verb form that agrees with nothing at all. A verbal adverb has one shape and keeps it regardless of subject, tense, gender or number, which makes it the least demanding form in Russian to produce. The catch is a small list of common verbs that cannot form one, and Russian rewrites those with a clause instead.",
+  "rules": [
+    "An imperfective verbal adverb is formed from the imperfective verb's third-person plural present tense (читают, говорят, видят), dropping the personal ending and adding -я.",
+    "After the four consonants ж, ш, щ, ч, the suffix -а replaces -я (держат → держа, молчат → молча). Outside of these consonants, -я is the rule.",
+    "The form is invariable: it does not agree with subject, tense, gender, or number. Читая stays as читая for any subject.",
+    "A small set of common verbs (бежать, петь, пить, лить, ждать, мочь) cannot form imperfective gerunds; Russian uses a когда clause for them instead."
+  ],
+  "examples": [
+    "читать → читают → читая (reading)",
+    "знать → знают → зная (knowing)",
+    "говорить → говорят → говоря (speaking)",
+    "видеть → видят → видя (seeing)",
+    "держать → держат → держа (holding; the stem ends in ж, so the suffix is -а)",
+    "Читая книгу, она пила чай. (Reading the book, she drank tea.)"
+  ],
+  "tables": [
+    {
+      "title": "Imperfective verbal adverb formation",
+      "headers": [
+        "Verb",
+        "3rd-person plural",
+        "Stem",
+        "Suffix",
+        "Gerund"
+      ],
+      "rows": [
+        {
+          "label": "читать",
+          "cells": [
+            "читают",
+            "чита-",
+            "-я",
+            "читая"
+          ]
+        },
+        {
+          "label": "знать",
+          "cells": [
+            "знают",
+            "зна-",
+            "-я",
+            "зная"
+          ]
+        },
+        {
+          "label": "говорить",
+          "cells": [
+            "говорят",
+            "говор-",
+            "-я",
+            "говоря"
+          ]
+        },
+        {
+          "label": "видеть",
+          "cells": [
+            "видят",
+            "вид-",
+            "-я",
+            "видя"
+          ]
+        },
+        {
+          "label": "любить",
+          "cells": [
+            "любят",
+            "люб-",
+            "-я",
+            "любя"
+          ]
+        },
+        {
+          "label": "слушать",
+          "cells": [
+            "слушают",
+            "слуша-",
+            "-я",
+            "слушая"
+          ]
+        },
+        {
+          "label": "работать",
+          "cells": [
+            "работают",
+            "работа-",
+            "-я",
+            "работая"
+          ]
+        },
+        {
+          "label": "держать",
+          "cells": [
+            "держат",
+            "держ-",
+            "-а",
+            "держа"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "What is the imperfective verbal adverb of читать?",
+          "promptEnglish": "Form the gerund of читать.",
+          "options": [
+            "читая",
+            "прочитав",
+            "читать",
+            "читал"
+          ],
+          "answer": "читая",
+          "hint": "What is the third-person plural present of читать? Drop its personal ending and add the suffix.",
+          "explanation": "Читать is imperfective. The third-person plural present is читают. Drop the personal ending -ют to get the stem чита-, then add -я: читая. Прочитав is the perfective gerund (a different formation); читать is the infinitive; читал is the past tense."
+        },
+        {
+          "prompt": "What is the imperfective verbal adverb of говорить?",
+          "promptEnglish": "Form the gerund of говорить.",
+          "options": [
+            "говорив",
+            "говоря",
+            "сказав",
+            "говорят"
+          ],
+          "answer": "говоря",
+          "hint": "Find the third-person plural present. What letter ends the stem after dropping the ending?",
+          "explanation": "From говорят, the personal ending is -ят. Removing it leaves the stem говор-, which is followed by -я (the stem does not end in ж, ш, щ, ч): говоря. Сказав is from a different aspectual partner (the perfective сказать); говорят is the finite verb form, not a gerund."
+        },
+        {
+          "prompt": "What is the imperfective verbal adverb of держать?",
+          "promptEnglish": "Form the gerund of держать.",
+          "options": [
+            "держав",
+            "держая",
+            "держа",
+            "держал"
+          ],
+          "answer": "держа",
+          "hint": "What letter does the stem end on in держат, and which suffix follows that consonant?",
+          "explanation": "Держат ends in ж. After ж, ш, щ, ч, the suffix is -а instead of -я: держ- + а = держа. Держая is a common learner overgeneralization that ignores this rule; -в forms (держав) belong to perfective gerunds; past-tense forms like держал are not gerunds at all."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ книгу, она пила чай.",
+          "promptEnglish": "Reading the book, she drank tea.",
+          "options": [
+            "Читая",
+            "Читать",
+            "Прочитала",
+            "Чтение"
+          ],
+          "answer": "Читая",
+          "hint": "Which form expresses 'while reading' as an action attached to пила?",
+          "explanation": "The slot needs an imperfective verbal adverb attached to the main verb пила. Читая is that form. Читать is the infinitive and would not link grammatically; прочитала is a past-tense perfective and would describe a finished prior event; чтение is the noun 'reading' and would not work as a verb at all."
+        },
+        {
+          "prompt": "_____ свою работу, она не считает часы.",
+          "promptEnglish": "Loving her work, she doesn't count the hours.",
+          "options": [
+            "Любить",
+            "Любя",
+            "Любил",
+            "Полюбив"
+          ],
+          "answer": "Любя",
+          "hint": "Любить → любят. Drop the personal ending. Apply the suffix that fits.",
+          "explanation": "Любить is imperfective. From любят, drop -ят and add -я (the stem люб- does not end in ж, ш, щ, ч): любя. Любить is the infinitive; любил is past-tense; полюбив is a perfective gerund of a different verb pair."
+        },
+        {
+          "prompt": "Which verb does NOT form an imperfective gerund?",
+          "promptEnglish": "Pick the verb whose imperfective verbal adverb form is not used in modern Russian.",
+          "options": [
+            "работать",
+            "слушать",
+            "пить",
+            "знать"
+          ],
+          "answer": "пить",
+          "hint": "Try the rule mentally on each verb. Which one produces a form Russians do not actually use?",
+          "explanation": "Пить belongs to a small exception family with петь, лить, ждать, мочь, бежать. These short imperfective verbs do not form gerunds in modern Russian; native speakers use a когда clause instead. Работать, слушать, and знать all follow the regular rule (работая, слушая, зная)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ музыку, она готовила обед."
+    ],
+    "choices": [
+      "Слушая",
+      "Слушать",
+      "Слушала",
+      "Послушав"
+    ],
+    "answers": [
+      "Слушая"
+    ],
+    "grammarFocus": "Imperfective gerund formation: an action running at the same time as the main verb takes the imperfective gerund (слушая).",
+    "hints": [
+      "The clause needs a form attached to готовила, meaning 'while listening.' Слушать → слушают → ?"
+    ],
+    "explanations": [
+      "From слушают drop the ending and add -я: слушая, attached to готовила as a simultaneous action. Слушать is the infinitive; слушала is finite past tense; послушав is a perfective gerund ('having listened'), a prior finished action."
+    ]
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Держя ручку, она писала письмо.",
+      "translationEnglish": "Holding a pen, she was writing a letter.",
+      "error": "Держя",
+      "correction": "Держа",
+      "options": [
+        "Держа",
+        "Держав",
+        "Подержав"
+      ],
+      "explanation": "The imperfective gerund is built from the third-person plural present (держат) minus the ending plus a suffix, but after the four consonants ж, ш, щ, ч the suffix is -а, not -я: держат gives держа. Держя is the trap a learner produces by mechanically adding -я without applying this rule; the spelling -жя simply does not occur in Russian. Держав is the perfective gerund 'having held', which would mean a prior finished action, not the simultaneous holding the sentence needs. Подержав is the perfective gerund of подержать ('having held a while'), again a prior action and the wrong aspect here."
+    },
+    {
+      "sentence": "Знав ответ, Антон поднял руку.",
+      "translationEnglish": "Knowing the answer, Anton raised his hand.",
+      "error": "Знав",
+      "correction": "Зная",
+      "options": [
+        "Зная",
+        "Знавши",
+        "Знаючи"
+      ],
+      "explanation": "The verb знать is imperfective, so its gerund expresses simultaneous action and is formed from the third-person plural present знают minus the ending plus -я: зная. Знав uses the perfective suffix -в, which builds a 'having known' prior-action form and is wrong both in aspect and because знать is imperfective. Знавши adds the archaic -вши suffix, now literary and out of date, and Знаючи is a folk/archaic gerund not used in standard modern Russian. The cue 'knowing the answer' describes a state holding while he raises his hand, so only the imperfective зная fits."
+    },
+    {
+      "sentence": "Работав в офисе, Иван думал о выходных.",
+      "translationEnglish": "Working in the office, Ivan was thinking about the weekend.",
+      "error": "Работав",
+      "correction": "Работая",
+      "options": [
+        "Работая",
+        "Работаючи",
+        "Поработав"
+      ],
+      "explanation": "Работать is imperfective, so the gerund describes action simultaneous with the main verb and is formed from работают minus the ending plus -я: работая. Работав tacks on the perfective -в suffix, producing a 'having worked' prior-action meaning that contradicts 'was thinking' happening at the same time. Работаючи is a dialectal/archaic gerund form not used in standard modern Russian, and Поработав is the perfective gerund of поработать ('having worked a while'), a prior completed action. Since the working and the thinking run together, only the imperfective работая is correct."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "_____ книгу, он улыбался.",
+      "contextEnglish": "Reading the book, he smiled.",
+      "options": [
+        "Читая",
+        "Читать"
+      ],
+      "answer": "Читая",
+      "explanation": "The slot calls for a verbal adverb attached to улыбался: читая (the imperfective gerund). Читать is the infinitive and cannot anchor a simultaneous-action clause."
+    },
+    {
+      "context": "_____ песню, дети молчали.",
+      "contextEnglish": "Listening to the song, the children were silent.",
+      "options": [
+        "Слушают",
+        "Слушая"
+      ],
+      "answer": "Слушая",
+      "explanation": "Слушают is the finite third-person plural present, the form you start FROM when building the gerund, not the form that goes into the slot. The slot needs the verbal adverb itself: слушая."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "деепричастие",
+      "definition": "verbal adverb (a verb form expressing a secondary action attached to the main verb in the same sentence)",
+      "example": "В предложении 'Читая книгу, она пила чай', читая — это деепричастие."
+    },
+    {
+      "term": "форма",
+      "definition": "form (here: the specific shape a verb takes, such as infinitive, past, gerund, and so on)",
+      "example": "Читая — это форма деепричастия от глагола читать."
+    },
+    {
+      "term": "основа",
+      "definition": "stem (the part of the verb that remains after the personal ending is dropped; the gerund suffix attaches to the stem)",
+      "example": "Читают → чита- (основа) + я → читая."
+    },
+    {
+      "term": "одновременно",
+      "definition": "simultaneously (the imperfective gerund's meaning: the secondary action runs alongside the main verb)",
+      "example": "Читая, она одновременно пила чай."
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "id": "a1-019-adjective-basics",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Adjective Endings",
+  "titleRussian": "Окончания прилагательных",
+  "description": "Adjective agreement with nouns (gender and number)",
+  "descriptionRussian": "Согласование прилагательных с существительными (род и число)",
+  "imageName": "paintpalette.fill",
+  "intro": "Russian adjectives must agree with the nouns they describe in gender, number, and case. This means the same adjective will have different endings depending on whether the noun is masculine, feminine, neuter, or plural. In this lesson, we focus on the basic nominative forms - the endings adjectives take when describing the subject.",
+  "rules": [
+    "Adjectives agree with nouns in gender, number, and case - the ending changes to match.",
+    "Masculine adjectives end in -ый, -ий, or -ой: новый дом, синий карандаш, большой стол.",
+    "Feminine adjectives end in -ая or -яя: новая книга, синяя ручка.",
+    "Neuter adjectives end in -ое or -ее: новое окно, синее море.",
+    "Plural adjectives (all genders) end in -ые or -ие: новые дома, синие ручки."
+  ],
+  "examples": [
+    "новый дом (new house), masculine",
+    "новая книга (new book), feminine",
+    "новое слово (new word), neuter",
+    "новые друзья (new friends), plural"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ дом (big)",
+          "promptEnglish": "A big house",
+          "options": [
+            "большое",
+            "большие",
+            "большой",
+            "большая"
+          ],
+          "answer": "большой",
+          "hint": "Дом is masculine",
+          "explanation": "Дом is masculine, so the adjective takes -ой: большой дом."
+        },
+        {
+          "prompt": "_____ книга (interesting)",
+          "promptEnglish": "An interesting book",
+          "options": [
+            "интересный",
+            "интересное",
+            "интересные",
+            "интересная"
+          ],
+          "answer": "интересная",
+          "hint": "Книга is feminine",
+          "explanation": "Книга is feminine, so the adjective takes -ая: интересная книга."
+        },
+        {
+          "prompt": "_____ окно (new)",
+          "promptEnglish": "A new window",
+          "options": [
+            "новые",
+            "новый",
+            "новое",
+            "новая"
+          ],
+          "answer": "новое",
+          "hint": "Окно is neuter",
+          "explanation": "Окно is neuter, so the adjective takes -ое: новое окно."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ друзья (good)",
+          "promptEnglish": "Good friends",
+          "options": [
+            "хорошее",
+            "хорошие",
+            "хорошая",
+            "хороший"
+          ],
+          "answer": "хорошие",
+          "hint": "Друзья is plural",
+          "explanation": "Друзья is plural, so the adjective takes -ие: хорошие друзья."
+        },
+        {
+          "prompt": "_____ машина (красный)",
+          "promptEnglish": "A red car",
+          "options": [
+            "красный",
+            "красная",
+            "красное",
+            "красные"
+          ],
+          "answer": "красная",
+          "hint": "Машина is feminine",
+          "explanation": "Машина is feminine, so красный becomes красная."
+        },
+        {
+          "prompt": "_____ море (синий)",
+          "promptEnglish": "The blue sea",
+          "options": [
+            "синий",
+            "синяя",
+            "синее",
+            "синие"
+          ],
+          "answer": "синее",
+          "hint": "Море is neuter, -ий adjective",
+          "explanation": "Море is neuter. Soft-stem adjectives like синий take -ее in neuter: синее."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Это _____ дом. (This is a new house.)",
+      "Это _____ книга. (This is an interesting book.)",
+      "Это _____ озеро. (This is a big lake.)"
+    ],
+    "choices": [
+      "новый",
+      "интересная",
+      "большое",
+      "новая",
+      "интересный",
+      "большой"
+    ],
+    "answers": [
+      "новый",
+      "интересная",
+      "большое"
+    ],
+    "grammarFocus": "Adjective endings: -ый/-ой (masc), -ая (fem), -ое (neuter)",
+    "options": [
+      [
+        "новый",
+        "новым",
+        "новому",
+        "нового"
+      ],
+      [
+        "интересную",
+        "интересная",
+        "интересной",
+        "интересного"
+      ],
+      [
+        "большому",
+        "большим",
+        "большого",
+        "большое"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ город (new)",
+      "contextEnglish": "A new city",
+      "options": [
+        "новый",
+        "новая"
+      ],
+      "answer": "новый",
+      "explanation": "Город is masculine, so we use новый (not новая)."
+    },
+    {
+      "context": "_____ улица (new)",
+      "contextEnglish": "A new street",
+      "options": [
+        "новая",
+        "новый"
+      ],
+      "answer": "новая",
+      "explanation": "Улица is feminine, so we use новая."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by adjective ending needed",
+    "categories": [
+      "-ый/-ой (m)",
+      "-ая (f)",
+      "-ое (n)",
+      "-ые/-ие (pl)"
+    ],
+    "items": [
+      {
+        "word": "дом",
+        "category": "-ый/-ой (m)"
+      },
+      {
+        "word": "книга",
+        "category": "-ая (f)"
+      },
+      {
+        "word": "окно",
+        "category": "-ое (n)"
+      },
+      {
+        "word": "друзья",
+        "category": "-ые/-ие (pl)"
+      },
+      {
+        "word": "машина",
+        "category": "-ая (f)"
+      },
+      {
+        "word": "столы",
+        "category": "-ые/-ие (pl)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "прилагательное",
+      "definition": "adjective",
+      "example": "Новый — прилагательное"
+    },
+    {
+      "term": "согласование",
+      "definition": "agreement (grammar)",
+      "example": "Новая книга — согласование"
+    },
+    {
+      "term": "новый, новая, новое, новые",
+      "definition": "new (m, f, n, pl)",
+      "example": "Это новый дом."
+    },
+    {
+      "term": "большой, большая, большое, большие",
+      "definition": "big (m, f, n, pl)",
+      "example": "Большая квартира"
+    }
+  ]
+}

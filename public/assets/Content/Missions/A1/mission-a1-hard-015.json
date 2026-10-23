@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-015",
+  "title": "The Rude Cinema Worker",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "The worker gave you the wrong order and is dismissive",
+  "imageName": "popcorn.fill",
+  "initialPrompt": "Вот. Следующий!",
+  "systemPrompt": "You gave wrong order (cola instead of water). Be dismissive: 'Это то, что вы заказали.' Correct it if user calmly explains the mistake. Keep replies short.",
+  "completionCriteria": "User got the correct order through calm persistence.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините, это не моё (Sorry, this isn't mine)",
+    "Я заказал воду (I ordered water)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "не то",
+      "definition": "wrong thing"
+    },
+    {
+      "word": "заказал",
+      "definition": "ordered"
+    },
+    {
+      "word": "ошибка",
+      "definition": "mistake"
+    },
+    {
+      "word": "правильный",
+      "definition": "correct"
+    },
+    {
+      "word": "поменять",
+      "definition": "to change"
+    }
+  ],
+  "objectives": [
+    "Notice wrong order (не то)",
+    "Explain what you ordered (Я заказал...)",
+    "Stay calm and polite",
+    "Ask them to fix it (поменять)",
+    "Get correct order"
+  ]
+}

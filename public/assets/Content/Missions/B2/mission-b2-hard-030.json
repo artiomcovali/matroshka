@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-030",
+  "title": "Public Speaking Sabotage",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Hostile audience member trying to derail your presentation",
+  "imageName": "person.bust",
+  "initialPrompt": "Извините, но ваши данные устарели! Вы вообще проверяли источники? Почему мы должны слушать человека без реальной экспертизы?",
+  "systemPrompt": "You are hostile audience member. Interrupt, challenge credibility, try to derail. Only stop if speaker maintains composure and addresses concerns professionally while regaining control.",
+  "completionCriteria": "User handled hostile audience member professionally.",
+  "responseLimit": 15,
+  "hints": [
+    "Спасибо за вопрос, позвольте ответить... (Thank you for the question, allow me to respond...)",
+    "Данные актуальны на... (The data is current as of...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "презентация",
+      "definition": "presentation"
+    },
+    {
+      "word": "аудитория",
+      "definition": "audience"
+    },
+    {
+      "word": "достоверность",
+      "definition": "credibility"
+    },
+    {
+      "word": "источник",
+      "definition": "source"
+    },
+    {
+      "word": "контроль",
+      "definition": "control"
+    },
+    {
+      "word": "профессионализм",
+      "definition": "professionalism"
+    }
+  ],
+  "objectives": [
+    "Maintain composure",
+    "Address concerns directly",
+    "Cite sources professionally",
+    "Regain audience control",
+    "Turn hostility into dialogue"
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "id": "a2-019-future-imperfective",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Future Tense (Imperfective)",
+  "titleRussian": "Будущее несовершенное",
+  "description": "Compound future with буду + infinitive",
+  "descriptionRussian": "Сложное будущее время с буду + инфинитив",
+  "imageName": "arrow.right.circle",
+  "intro": "The imperfective future describes actions that WILL BE ongoing, repeated, or in progress. It's formed with буду (conjugated) + imperfective infinitive. Use it for: processes (Я буду читать - I will be reading), repeated future actions (Я буду ходить каждый день - I will go every day), and general future activities without focus on completion.",
+  "rules": [
+    "Imperfective future always uses TWO words (буду + infinitive) — never just one word like perfective future.",
+    "Use imperfective future for process, duration, or repetition: Я буду читать весь день. (I will be reading all day.)",
+    "The question 'Что ты будешь делать?' (What will you be doing?) is one of the most common imperfective future phrases in daily Russian.",
+    "Common mistake: using буду with a perfective verb. Never say 'буду прочитать' — perfective verbs form future by conjugation alone."
+  ],
+  "examples": [
+    "Я буду читать книгу. (I will be reading a book.), ongoing process",
+    "Мы будем ждать тебя. (We will wait for you.), duration",
+    "Она будет работать каждый день. (She will work every day.), repeated",
+    "Что вы будете делать вечером? (What will you be doing this evening?), process"
+  ],
+  "tables": [
+    {
+      "title": "Future Imperfective (буду + infinitive)",
+      "headers": [
+        "",
+        "читать"
+      ],
+      "rows": [
+        {
+          "label": "я",
+          "cells": [
+            "буду читать"
+          ]
+        },
+        {
+          "label": "ты",
+          "cells": [
+            "будешь читать"
+          ]
+        },
+        {
+          "label": "он/она",
+          "cells": [
+            "будет читать"
+          ]
+        },
+        {
+          "label": "мы",
+          "cells": [
+            "будем читать"
+          ]
+        },
+        {
+          "label": "вы",
+          "cells": [
+            "будете читать"
+          ]
+        },
+        {
+          "label": "они",
+          "cells": [
+            "будут читать"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я _____ читать эту книгу. (I will be reading this book.)",
+          "promptEnglish": "I will be reading this book.",
+          "options": [
+            "будешь",
+            "буду",
+            "будет",
+            "будут"
+          ],
+          "answer": "буду",
+          "hint": "Я = first person singular",
+          "explanation": "Я буду + infinitive for first person."
+        },
+        {
+          "prompt": "Ты _____ работать завтра? (Will you be working tomorrow?)",
+          "promptEnglish": "Will you be working tomorrow?",
+          "options": [
+            "будете",
+            "буду",
+            "будет",
+            "будешь"
+          ],
+          "answer": "будешь",
+          "hint": "Ты = second person singular",
+          "explanation": "Ты будешь + infinitive for informal 'you'."
+        },
+        {
+          "prompt": "Она _____ ждать нас. (She will be waiting for us.)",
+          "promptEnglish": "She will be waiting for us.",
+          "options": [
+            "буду",
+            "будут",
+            "будешь",
+            "будет"
+          ],
+          "answer": "будет",
+          "hint": "Она = third person singular",
+          "explanation": "Он/она/оно будет + infinitive."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Мы _____ учить русский язык. (We will be studying Russian.)",
+          "promptEnglish": "We will be studying Russian.",
+          "options": [
+            "буду",
+            "будем",
+            "будете",
+            "будут"
+          ],
+          "answer": "будем",
+          "hint": "Мы = first person plural",
+          "explanation": "Мы будем + infinitive."
+        },
+        {
+          "prompt": "Вы _____ смотреть фильм? (Will you be watching a movie?)",
+          "promptEnglish": "Will you be watching a movie?",
+          "options": [
+            "будешь",
+            "будете",
+            "будут",
+            "будем"
+          ],
+          "answer": "будете",
+          "hint": "Вы = formal/plural",
+          "explanation": "Вы будете + infinitive (formal or plural)."
+        },
+        {
+          "prompt": "Они _____ играть в футбол. (They will be playing football.)",
+          "promptEnglish": "They will be playing football.",
+          "options": [
+            "будете",
+            "будет",
+            "будут",
+            "будем"
+          ],
+          "answer": "будут",
+          "hint": "Они = third person plural",
+          "explanation": "Они будут + infinitive."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Что ты _____ делать вечером? (What will you be doing this evening?)",
+          "promptEnglish": "What will you be doing this evening?",
+          "options": [
+            "буду",
+            "будет",
+            "будете",
+            "будешь"
+          ],
+          "answer": "будешь",
+          "hint": "Asking about ongoing activity",
+          "explanation": "Ты будешь + делать (impf) for process."
+        },
+        {
+          "prompt": "Я _____ писать письмо весь вечер. (I will be writing a letter all evening.)",
+          "promptEnglish": "I will be writing a letter all evening.",
+          "options": [
+            "пишу",
+            "напишу",
+            "будешь",
+            "буду"
+          ],
+          "answer": "буду",
+          "hint": "Duration (весь вечер) = imperfective future",
+          "explanation": "Весь вечер indicates duration → imperfective: буду писать."
+        },
+        {
+          "prompt": "Студенты _____ готовиться к экзамену. (The students will be preparing for the exam.)",
+          "promptEnglish": "The students will be preparing for the exam.",
+          "options": [
+            "будете",
+            "будет",
+            "будут",
+            "будем"
+          ],
+          "answer": "будут",
+          "hint": "Студенты = они (third person plural)",
+          "explanation": "Студенты (they) = будут + infinitive."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Завтра мы _____ отдыхать. (Tomorrow we will be relaxing.)"
+    ],
+    "choices": [
+      "будем",
+      "буду",
+      "будете",
+      "будут"
+    ],
+    "answers": [
+      "будем"
+    ],
+    "grammarFocus": "Мы + будем for 'we will'",
+    "hints": [
+      "Imperfective future uses быть + infinitive. Which form of быть matches мы (we)?"
+    ],
+    "explanations": [
+      "The imperfective future is formed with быть + infinitive. For мы (we), быть conjugates as будем: мы будем отдыхать."
+    ],
+    "options": [
+      [
+        "будут",
+        "будешь",
+        "будем",
+        "будете"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Ты _____ работать. (informal you)",
+      "contextEnglish": "You will be working.",
+      "options": [
+        "будешь",
+        "будете"
+      ],
+      "answer": "будешь",
+      "explanation": "Informal 'you' (ты) = будешь."
+    },
+    {
+      "context": "Вы _____ работать. (formal/plural)",
+      "contextEnglish": "You will be working.",
+      "options": [
+        "будете",
+        "будешь"
+      ],
+      "answer": "будете",
+      "explanation": "Formal/plural 'you' (вы) = будете."
+    }
+  ],
+  "conjugationTable": {
+    "verb": "буду + читать",
+    "tense": "future imperfective",
+    "paradigm": [
+      "буду читать",
+      "будешь читать",
+      "будет читать",
+      "будем читать",
+      "будете читать",
+      "будут читать"
+    ],
+    "blanks": [
+      1,
+      3,
+      5
+    ],
+    "hints": [
+      "2nd sg",
+      "1st pl",
+      "3rd pl"
+    ],
+    "explanations": [
+      "Ты + будешь: informal 'you will' + infinitive",
+      "Мы + будем: 'we will' + infinitive",
+      "Они + будут: 'they will' + infinitive"
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort by буду form",
+    "categories": [
+      "буду (я)",
+      "будет (он/она)",
+      "будут (они)"
+    ],
+    "items": [
+      {
+        "word": "Я буду читать",
+        "category": "буду (я)"
+      },
+      {
+        "word": "Она будет работать",
+        "category": "будет (он/она)"
+      },
+      {
+        "word": "Они будут ждать",
+        "category": "будут (они)"
+      },
+      {
+        "word": "Брат будет учиться",
+        "category": "будет (он/она)"
+      },
+      {
+        "word": "Дети будут играть",
+        "category": "будут (они)"
+      },
+      {
+        "word": "Я буду помогать",
+        "category": "буду (я)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "буду/будешь/будет",
+      "definition": "will (1st/2nd/3rd sg)",
+      "example": "Я буду, ты будешь, он будет читать."
+    },
+    {
+      "term": "будем/будете/будут",
+      "definition": "will (1st/2nd/3rd pl)",
+      "example": "Мы будем, вы будете, они будут работать."
+    },
+    {
+      "term": "буду + несов. вид",
+      "definition": "will + imperfective infinitive",
+      "example": "Буду читать (will be reading)."
+    },
+    {
+      "term": "процесс / повторение",
+      "definition": "process / repetition (= impf future)",
+      "example": "Буду работать каждый день."
+    }
+  ]
+}

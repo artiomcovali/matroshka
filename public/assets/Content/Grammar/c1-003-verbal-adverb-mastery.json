@@ -1,0 +1,294 @@
+{
+  "id": "c1-003-verbal-adverb-mastery",
+  "level": "C1",
+  "focusArea": "other",
+  "title": "Verbal Adverb Mastery",
+  "titleRussian": "Мастерство деепричастий",
+  "description": "Complex verbal adverb usage",
+  "descriptionRussian": "Продвинутое использование деепричастий",
+  "imageName": "arrow.triangle.branch",
+  "intro": "Verbal adverbs (деепричастия) express secondary actions performed by the same subject. IMPERFECTIVE (-я/-а): simultaneous action - Читая книгу, он пил чай (While reading, he drank tea). PERFECTIVE (-в/-вши): preceding action - Прочитав книгу, он лёг спать (Having read the book, he went to sleep). CRITICAL RULE: Subject must be the same! 'Читая книгу, зазвонил телефон' is WRONG (book isn't reading). STYLISTIC: More literary than spoken; spoken Russian uses когда/пока instead. NEGATIVE: не + verbal adverb - Не зная ответа, он молчал.",
+  "rules": [
+    "Same subject required: Читая, ОН пил (he reads, he drinks) ✓",
+    "Imperfective (-я/-а) = simultaneous: Читая книгу, он думал",
+    "Perfective (-в/-вши) = preceding: Прочитав книгу, он уснул",
+    "Literary style: spoken Russian prefers когда/пока clauses"
+  ],
+  "examples": [
+    "Читая газету, он пил кофе. (While reading the newspaper, he drank coffee.)",
+    "Прочитав письмо, она заплакала. (Having read the letter, she started crying.)",
+    "Не зная дороги, мы заблудились. (Not knowing the way, we got lost.)",
+    "Вернувшись домой, он сразу лёг спать. (Having returned home, he immediately went to bed.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Simultaneous: _____ книгу, он слушал музыку. (reading)",
+          "promptEnglish": "While reading a book, he listened to music.",
+          "options": [
+            "Прочитать",
+            "Читая",
+            "Читать",
+            "Прочитав"
+          ],
+          "answer": "Читая",
+          "hint": "Simultaneous = imperfective (-я)",
+          "explanation": "Simultaneous: Читая (while reading)."
+        },
+        {
+          "prompt": "Preceding: _____ работу, она пошла домой. (having finished)",
+          "promptEnglish": "Having finished work, she went home.",
+          "options": [
+            "Заканчивать",
+            "Заканчивая",
+            "Закончив",
+            "Закончить"
+          ],
+          "answer": "Закончив",
+          "hint": "Preceding = perfective (-в)",
+          "explanation": "Preceding: Закончив (having finished)."
+        },
+        {
+          "prompt": "Which is INCORRECT (different subjects)?",
+          "promptEnglish": "Which sentence has a dangling verbal adverb?",
+          "options": [
+            "Читая книгу, он уснул.",
+            "Читая книгу, зазвонил телефон.",
+            "Слушая музыку, я работал.",
+            "Прочитав книгу, она ушла."
+          ],
+          "answer": "Читая книгу, зазвонил телефон.",
+          "hint": "Phone can't read",
+          "explanation": "Wrong: телефон isn't reading the book."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Negative: _____ ответа, он молчал. (not knowing)",
+          "promptEnglish": "Not knowing the answer, he was silent.",
+          "options": [
+            "Узнав не",
+            "Не зная",
+            "Не узнав",
+            "Зная не"
+          ],
+          "answer": "Не зная",
+          "hint": "не + imperfective verbal adverb",
+          "explanation": "Negative: Не зная (not knowing)."
+        },
+        {
+          "prompt": "Form verbal adverb: сидеть → _____",
+          "promptEnglish": "To sit → while sitting",
+          "options": [
+            "сидев",
+            "сидючи",
+            "присев",
+            "сидя"
+          ],
+          "answer": "сидя",
+          "hint": "Imperfective stem + -я (after д)",
+          "explanation": "Imperfective: сидя (while sitting), very common in everyday use."
+        },
+        {
+          "prompt": "Form verbal adverb: написать → _____",
+          "promptEnglish": "To write → having written",
+          "options": [
+            "написая",
+            "написав",
+            "написавши",
+            "пиша"
+          ],
+          "answer": "написав",
+          "hint": "Perfective past stem + -в",
+          "explanation": "Perfective: написав (having written)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Stylistic: Which is more literary?",
+          "promptEnglish": "Verbal adverb or когда clause?",
+          "options": [
+            "Both equal",
+            "Прочитав книгу, он уснул.",
+            "Neither literary",
+            "Когда он прочитал книгу, он уснул."
+          ],
+          "answer": "Прочитав книгу, он уснул.",
+          "hint": "Verbal adverbs = literary style",
+          "explanation": "Verbal adverb is more literary/formal."
+        },
+        {
+          "prompt": "_____ в Москву, мы сразу пошли на Красную площадь. (having arrived)",
+          "promptEnglish": "Having arrived in Moscow, we immediately went to Red Square.",
+          "options": [
+            "Приехать",
+            "Приезжать",
+            "Приехав",
+            "Приезжая"
+          ],
+          "answer": "Приехав",
+          "hint": "Preceding completed action = perfective",
+          "explanation": "Preceding: Приехав (having arrived)."
+        },
+        {
+          "prompt": "_____ по улице, я встретил друга. (walking, ongoing)",
+          "promptEnglish": "While walking down the street, I met a friend.",
+          "options": [
+            "Пройти",
+            "Идти",
+            "Идя",
+            "Пройдя"
+          ],
+          "answer": "Идя",
+          "hint": "Ongoing/simultaneous = imperfective",
+          "explanation": "Simultaneous: Идя (while walking)."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "_____ все документы, секретарь ушёл домой. (проверить — предшествование)",
+          "promptEnglish": "Having checked all the documents, the secretary went home.",
+          "options": [
+            "Проверяя",
+            "Проверив",
+            "Проверять",
+            "Проверить"
+          ],
+          "answer": "Проверив",
+          "hint": "Сначала проверил, потом ушёл — совершенный вид",
+          "explanation": "Предшествование: Проверив (совершенный вид, действие завершено до основного)."
+        },
+        {
+          "prompt": "_____ в окно, она заметила незнакомца. (смотреть — одновременность)",
+          "promptEnglish": "While looking out the window, she noticed a stranger.",
+          "options": [
+            "Посмотрев",
+            "Смотря",
+            "Глядя",
+            "Увидев"
+          ],
+          "answer": "Глядя",
+          "hint": "Одновременные действия — несовершенный вид",
+          "explanation": "Одновременность: Глядя (несовершенный вид — действие происходило в тот же момент)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ домой, он увидел соседа. (returning)"
+    ],
+    "choices": [
+      "Возвращаясь",
+      "Вернувшись",
+      "Возвращаться",
+      "Вернуться"
+    ],
+    "answers": [
+      "Возвращаясь"
+    ],
+    "grammarFocus": "Imperfective for simultaneous: Возвращаясь (while returning)",
+    "hints": [
+      "He saw the neighbor WHILE returning home. Both actions happened at the same time. Which aspect expresses a simultaneous ongoing action?"
+    ],
+    "explanations": [
+      "Imperfective verbal adverb 'Возвращаясь' (while returning) expresses an action simultaneous with the main verb. 'Вернувшись' (having returned) would mean the return was completed first, changing the meaning entirely."
+    ],
+    "options": [
+      [
+        "возвращалось",
+        "возвращающейся",
+        "возвращался",
+        "Возвращаясь"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ книгу, он пил чай. (while reading - simultaneous)",
+      "contextEnglish": "While reading the book, he drank tea.",
+      "options": [
+        "Читая",
+        "Прочитав"
+      ],
+      "answer": "Читая",
+      "explanation": "Simultaneous: Читая (imperfective)."
+    },
+    {
+      "context": "_____ книгу, он лёг спать. (having read - preceding)",
+      "contextEnglish": "Having read the book, he went to sleep.",
+      "options": [
+        "Прочитав",
+        "Читая"
+      ],
+      "answer": "Прочитав",
+      "explanation": "Preceding: Прочитав (perfective)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by temporal relationship",
+    "categories": [
+      "Simultaneous (impf -я/-а)",
+      "Preceding (pf -в/-вши)"
+    ],
+    "items": [
+      {
+        "word": "Читая книгу, он думал.",
+        "category": "Simultaneous (impf -я/-а)"
+      },
+      {
+        "word": "Прочитав книгу, он уснул.",
+        "category": "Preceding (pf -в/-вши)"
+      },
+      {
+        "word": "Слушая музыку, она работала.",
+        "category": "Simultaneous (impf -я/-а)"
+      },
+      {
+        "word": "Услышав новость, он удивился.",
+        "category": "Preceding (pf -в/-вши)"
+      },
+      {
+        "word": "Гуляя по парку, мы разговаривали.",
+        "category": "Simultaneous (impf -я/-а)"
+      },
+      {
+        "word": "Закончив работу, она ушла.",
+        "category": "Preceding (pf -в/-вши)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "деепр. несов. (-я/-а)",
+      "definition": "imperfective verbal adverb (simultaneous)",
+      "example": "читая (while reading)"
+    },
+    {
+      "term": "деепр. сов. (-в/-вши)",
+      "definition": "perfective verbal adverb (preceding)",
+      "example": "прочитав (having read)"
+    },
+    {
+      "term": "один субъект",
+      "definition": "same subject rule (critical!)",
+      "example": "Читая, ОН пил. ✓"
+    },
+    {
+      "term": "не + деепричастие",
+      "definition": "negative verbal adverb",
+      "example": "Не зная ответа..."
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "id": "a2-track-aspect-03-past-tense",
+  "level": "A2",
+  "focusArea": "aspect",
+  "title": "Aspect 3: Aspect in the Past Tense",
+  "titleRussian": "Виды глагола 3: Виды в прошедшем времени",
+  "description": "The past tense is where aspect choice matters most. Today: drilling imperfective vs perfective past with gender and number agreement.",
+  "descriptionRussian": "Прошедшее время — основной контекст для выбора вида. Сегодня: формы прошедшего времени НСВ и СВ с согласованием в роде и числе.",
+  "imageName": "clock.arrow.circlepath",
+  "trackId": "a2-aspect-intro-mastery",
+  "trackTitle": "Aspect Introduction",
+  "trackTitleRussian": "Виды глагола: введение",
+  "trackIndex": 3,
+  "trackTotal": 7,
+  "intro": "The past tense is where aspect does the most work, because both aspects live there and you have to pick one every time you open your mouth. The endings themselves are the ones you already know from the past-tense book, and they do not care which aspect you chose. The whole decision happens before the ending, in which verb of the pair you reach for.",
+  "rules": [
+    "Past-tense endings are the same for both aspects: -л (masc), -ла (fem), -ло (neut), -ли (plural). Gender / number agreement is with the subject, not the object.",
+    "The imperfective past describes ongoing action, duration, process, or habit / repetition.",
+    "The perfective past describes a completed action with a result, a single completed event, or a sequence of finished events.",
+    "First-person я picks gender by speaker: male says 'Я читал,' female says 'Я читала.'"
+  ],
+  "examples": [
+    "Маша читала книгу всё утро. (Masha was reading the book all morning.) НСВ past, fem -ла.",
+    "Антон прочитал книгу. (Anton finished the book.) СВ past, masc -л.",
+    "Мы делали уроки два часа. (We did homework for two hours.) НСВ past, plural -ли.",
+    "Они уже сделали работу. (They already finished the work.) СВ past, plural -ли.",
+    "Я писала письмо. (I (fem speaker) was writing a letter.) НСВ past, fem -ла.",
+    "Маша и Антон пришли вовремя. (Masha and Anton arrived on time.) СВ past, plural -ли."
+  ],
+  "tables": [
+    {
+      "title": "Past-Tense Forms (НСВ vs СВ)",
+      "headers": [
+        "Subject",
+        "Imperfective past",
+        "Perfective past"
+      ],
+      "rows": [
+        {
+          "label": "Маша (fem)",
+          "cells": [
+            "читала, писала, делала",
+            "прочитала, написала, сделала"
+          ]
+        },
+        {
+          "label": "Антон (masc)",
+          "cells": [
+            "читал, писал, делал",
+            "прочитал, написал, сделал"
+          ]
+        },
+        {
+          "label": "Мы / они (plural)",
+          "cells": [
+            "читали, писали, делали",
+            "прочитали, написали, сделали"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Маша _____: 'Привет, Антон!'",
+          "promptEnglish": "Masha said: 'Hi, Anton!'",
+          "options": [
+            "сказала",
+            "говорила",
+            "говорит",
+            "скажет"
+          ],
+          "answer": "сказала",
+          "hint": "Recap from Lesson 2: a single utterance is one completed event. Suppletive pair.",
+          "explanation": "Recap from Lesson 2: говорить / сказать uses two completely different roots. A single utterance is one finished speech event: perfective сказала. The fem -ла agrees with Маша."
+        },
+        {
+          "prompt": "Антон уже _____ статью.",
+          "promptEnglish": "Anton has already finished the article.",
+          "options": [
+            "читал",
+            "прочитал",
+            "читает",
+            "прочитает"
+          ],
+          "answer": "прочитал",
+          "hint": "'Уже' (already) is a completion cue. Subject Антон is masculine.",
+          "explanation": "'Уже' marks completion: the article is finished. Perfective прочитал, masc -л to agree with Антон."
+        },
+        {
+          "prompt": "Лена _____ письмо весь день.",
+          "promptEnglish": "Lena was writing a letter all day.",
+          "options": [
+            "написала",
+            "пишет",
+            "напишет",
+            "писала"
+          ],
+          "answer": "писала",
+          "hint": "'Весь день' (all day) is a duration cue. Subject Лена is feminine.",
+          "explanation": "Duration → imperfective. Bare verb писала, fem -ла to agree with Лена. The perfective написала would say the letter got finished, which 'all day' does not claim."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Мы _____ урок к утру.",
+          "promptEnglish": "We learned the lesson by morning.",
+          "options": [
+            "выучили",
+            "учили",
+            "учат",
+            "выучат"
+          ],
+          "answer": "выучили",
+          "hint": "'К утру' (by morning) is a deadline cue. Subject 'мы' is plural.",
+          "explanation": "Deadline cues mark completion: by morning the lesson was known. Perfective выучили, plural -ли. Pair: учить (imperfective) / выучить (perfective); the perfective adds the prefix вы-."
+        },
+        {
+          "prompt": "Маша _____ обед всё утро.",
+          "promptEnglish": "Masha was cooking dinner all morning.",
+          "options": [
+            "готовлю",
+            "готовила",
+            "приготовила",
+            "приготовит"
+          ],
+          "answer": "готовила",
+          "hint": "Recap from Lesson 1's logic: 'all morning' duration cue and a feminine subject.",
+          "explanation": "Duration → imperfective; Маша (fem) → -ла. Готовила marks the cooking process; приготовила would mark a finished result, which the sentence does not claim."
+        },
+        {
+          "prompt": "Антон _____ работу и пошёл домой.",
+          "promptEnglish": "Anton finished the work and went home.",
+          "options": [
+            "делал",
+            "делает",
+            "сделает",
+            "сделал"
+          ],
+          "answer": "сделал",
+          "hint": "Sequence: did the work, then went home. Masculine subject.",
+          "explanation": "A sequence of finished events implies the first action is complete before the next begins. Perfective сделал, masc -л to agree with Антон. The pair is делать / сделать (prefix с-)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Маша _____ уроки два часа.",
+          "promptEnglish": "Masha did her homework for two hours.",
+          "options": [
+            "делала",
+            "сделала",
+            "делает",
+            "сделает"
+          ],
+          "answer": "делала",
+          "hint": "The duration cue 'два часа' stays. Which aspect fits a process?",
+          "explanation": "The bare duration 'два часа' frames the homework as a process, which takes the imperfective past: делала (feminine -ла). Сделала would claim a completed result, clashing with the duration phrase."
+        },
+        {
+          "prompt": "Антон _____ кофе и пошёл на работу.",
+          "promptEnglish": "Anton drank up his coffee and went to work.",
+          "options": [
+            "пил",
+            "выпил",
+            "выпьет",
+            "пьёт"
+          ],
+          "answer": "выпил",
+          "hint": "The 'и пошёл' sequence needs a finished first step.",
+          "explanation": "The sequence 'did X and then went' requires the first action to be completed, so the perfective past выпил. Пил would leave the drinking open-ended, which cannot precede 'и пошёл' as a finished step."
+        },
+        {
+          "prompt": "Я уже _____ обед.",
+          "promptEnglish": "I (f) have already got dinner ready.",
+          "options": [
+            "готовила",
+            "приготовила",
+            "приготовлю",
+            "готовит"
+          ],
+          "answer": "приготовила",
+          "hint": "Pair: готовить / приготовить. The dinner got DONE. Fem speaker.",
+          "explanation": "The result reading ('got it ready') takes the perfective past: приготовила (feminine -ла). Готовила would describe the cooking process without the finished result; приготовлю is the future."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша и Антон _____ книгу за день. (Masha and Anton read the book through in a day.)"
+    ],
+    "choices": [
+      "читали",
+      "прочитали",
+      "читает",
+      "прочитает"
+    ],
+    "answers": [
+      "прочитали"
+    ],
+    "grammarFocus": "'За день' (in a day) is a perfective time-frame cue. Subject 'Маша и Антон' is plural, so the ending is -ли. Прочитали is the perfective past plural."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Соня спела песню, когда отключили микрофон.",
+      "translationEnglish": "Sonya was singing a song when they switched off the microphone.",
+      "error": "спела",
+      "correction": "пела",
+      "options": [
+        "пела",
+        "поёт",
+        "споёт"
+      ],
+      "explanation": "An action already in progress when something interrupts it takes the imperfective: пела shows the singing was underway, and 'отключили микрофон' is the completed event that cut in. Perfective спела means 'sang the song all the way through', which cannot be the ongoing background to an interruption. The interrupted action is imperfective; the interrupting one is perfective."
+    },
+    {
+      "sentence": "Вечером он пришёл домой, ужинал и лёг спать.",
+      "translationEnglish": "In the evening he came home, had dinner, and went to bed.",
+      "error": "ужинал",
+      "correction": "поужинал",
+      "options": [
+        "поужинал",
+        "ужинает",
+        "поужинает"
+      ],
+      "explanation": "A chain of consecutive completed actions ('came home, had dinner, went to bed') takes the perfective for each step: поужинал presents dinner as one finished event, matching пришёл and лёг. Imperfective ужинал would describe dinner as an ongoing process ('was having dinner'), which breaks the 'and then' chain of results. When actions happen one after another to completion, Russian uses the perfective throughout."
+    },
+    {
+      "sentence": "Раньше в школе мы часто написали диктанты.",
+      "translationEnglish": "Back in school we often wrote dictations.",
+      "error": "написали",
+      "correction": "писали",
+      "options": [
+        "писали",
+        "пишем",
+        "напишем"
+      ],
+      "explanation": "Часто marks a repeated habit, and repeated past actions take the imperfective: писали. Perfective написали presents the writing as one completed event, which cannot be 'often' repeated. Написали would fit a single occasion ('Мы написали диктант вчера'), not a habit."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша _____ книгу за час.",
+      "contextEnglish": "Masha read the book through in an hour.",
+      "options": [
+        "читала",
+        "прочитала"
+      ],
+      "answer": "прочитала",
+      "explanation": "'За час' is a perfective time-frame cue. Subject Маша → -ла. Perfective прочитала; the imperfective читала would describe only the process and would not match 'in an hour.'"
+    },
+    {
+      "context": "Антон _____ телевизор каждый вечер.",
+      "contextEnglish": "Anton watched TV every evening.",
+      "options": [
+        "смотрел",
+        "посмотрел"
+      ],
+      "answer": "смотрел",
+      "explanation": "'Каждый вечер' (every evening) signals a HABIT or repeated action: imperfective. Смотрел, masc -л for Антон. The perfective посмотрел would describe a single completed viewing, not a habit."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "прошедшее время",
+      "definition": "past tense (the tense in which both Russian aspects coexist; the choice between them sharpens the meaning)",
+      "example": "Прошедшее время — главный контекст для выбора вида в русском языке."
+    },
+    {
+      "term": "согласование",
+      "definition": "agreement (the past-tense ending agrees with the subject's gender / number: -л, -ла, -ло, -ли)",
+      "example": "В предложении 'Маша читала' согласование показывает женский род."
+    },
+    {
+      "term": "повторение",
+      "definition": "repetition, repeated action (a meaning of the imperfective; cues include каждый, иногда, часто)",
+      "example": "Антон каждый вечер смотрел телевизор: повторение, поэтому несовершенный вид."
+    }
+  ]
+}

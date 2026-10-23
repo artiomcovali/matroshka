@@ -1,0 +1,351 @@
+{
+  "id": "b2-track-indefinite-01-to",
+  "level": "B2",
+  "focusArea": "other",
+  "title": "Indefinite 1: -то (Specific but Unknown)",
+  "titleRussian": "Неопределённые 1: частица -то (определённый, но неизвестный)",
+  "description": "The particle -то attaches to a question word (кто-то, что-то, где-то) to mean a real, specific referent that the speaker simply does not know or name. It lives in the past and in plain statements of fact.",
+  "descriptionRussian": "Частица -то присоединяется к вопросительному слову (кто-то, что-то, где-то) и обозначает реальный, конкретный предмет, который говорящий просто не знает или не называет. Живёт в прошедшем времени и в констатации фактов.",
+  "imageName": "questionmark.circle",
+  "trackId": "b2-indefinite-pronouns-mastery",
+  "trackTitle": "Indefinite Pronouns Mastery",
+  "trackTitleRussian": "Неопределённые местоимения",
+  "trackIndex": 1,
+  "trackTotal": 7,
+  "intro": "English has 'somebody' and 'anybody' and uses them fairly loosely. Russian draws a hard line between them, and it builds both from question words you already own by adding a particle on the end. This one marks something real and specific whose identity you do not know. Because it points at something that actually happened, it lives mostly in the past and in plain statements.",
+  "rules": [
+    "Form indefinite pronouns by gluing -то onto a question word with a hyphen: кто-то, что-то, где-то, куда-то, когда-то, какой-то. The particle never changes and the hyphen is permanent.",
+    "-то means the referent is REAL and SPECIFIC but UNKNOWN or unnamed to the speaker. One particular person or thing did it or exists; you simply cannot say which one.",
+    "Because -то points at something that actually happened or exists, it lives most naturally in the PAST TENSE and in plain statements of fact: Кто-то позвонил. Я что-то потерял.",
+    "какой-то can carry a light shade of 'some unfamiliar or odd one,' but it still names a real, specific referent: Пришёл какой-то человек (a particular man, a stranger to me)."
+  ],
+  "examples": [
+    "Кто-то постучал в дверь. (Someone knocked at the door.) A real, specific knocker; identity unknown.",
+    "Я что-то забыл дома. (I forgot something at home.) A definite object, just not named.",
+    "Он где-то оставил телефон. (He left his phone somewhere.) One real place, unknown to him.",
+    "Она кому-то звонила вчера. (She called someone yesterday.) A specific person on the line.",
+    "Когда-то я жил в этом городе. (Once I lived in this city.) A definite past time, now unnamed.",
+    "Тебя спрашивал какой-то мужчина. (Some man was asking for you.) A particular man, a stranger to the speaker."
+  ],
+  "tables": [
+    {
+      "title": "Building -то pronouns from question words",
+      "headers": [
+        "Question word",
+        "+ -то",
+        "Meaning"
+      ],
+      "rows": [
+        {
+          "label": "кто",
+          "cells": [
+            "кто-то",
+            "someone (specific, unknown)"
+          ]
+        },
+        {
+          "label": "что",
+          "cells": [
+            "что-то",
+            "something (specific, unnamed)"
+          ]
+        },
+        {
+          "label": "где",
+          "cells": [
+            "где-то",
+            "somewhere (real place, unknown)"
+          ]
+        },
+        {
+          "label": "куда",
+          "cells": [
+            "куда-то",
+            "to somewhere"
+          ]
+        },
+        {
+          "label": "когда",
+          "cells": [
+            "когда-то",
+            "at some time, once"
+          ]
+        },
+        {
+          "label": "какой",
+          "cells": [
+            "какой-то",
+            "some / some kind of"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ позвонил тебе, пока тебя не было.",
+          "promptEnglish": "Someone called you while you were out.",
+          "options": [
+            "Кто-нибудь",
+            "Кто-то",
+            "Никто",
+            "Некого"
+          ],
+          "answer": "Кто-то",
+          "hint": "A real, specific person already made the call. The action is in the past. Which particle marks a definite-but-unknown doer?",
+          "explanation": "A particular person actually called: the action happened, and only the caller's identity is unknown. That is exactly what -то marks. Кто-нибудь (lesson 2) would mean 'anyone at all' and fits questions or requests, not a completed fact. Никто means nobody and needs a verb with не. Некого is the 'no one to call' construction (lesson 6)."
+        },
+        {
+          "prompt": "Я _____ потерял по дороге домой.",
+          "promptEnglish": "I lost something on the way home.",
+          "options": [
+            "что-нибудь",
+            "ничего",
+            "что-то",
+            "нечего"
+          ],
+          "answer": "что-то",
+          "hint": "A definite object got lost; you just cannot name it. Past tense, statement of fact.",
+          "explanation": "A real, specific thing was lost, even though you cannot name it right now. -то marks that definite-but-unknown object: что-то. Что-нибудь would suggest 'anything at all, no particular item,' which clashes with a completed loss. Ничего would need не (Я ничего не потерял = I lost nothing)."
+        },
+        {
+          "prompt": "Он _____ оставил очки и теперь не может их найти.",
+          "promptEnglish": "He left his glasses somewhere and can't find them now.",
+          "options": [
+            "где-то",
+            "где-нибудь",
+            "нигде",
+            "негде"
+          ],
+          "answer": "где-то",
+          "hint": "The glasses are in one real place. He just does not know which. It already happened.",
+          "explanation": "The glasses are in a single, real location; only the place is unknown to him. -то captures that definite-but-unknown place: где-то. Где-нибудь means 'in any place at all' (open, not yet fixed). Нигде means nowhere and needs не (нигде не нашёл). Негде is the 'there is nowhere to' construction (lesson 6)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Тебя искал _____ мужчина, но не назвал имени.",
+          "promptEnglish": "Some man was looking for you but didn't give his name.",
+          "options": [
+            "какой-нибудь",
+            "никакой",
+            "какой-то",
+            "какой"
+          ],
+          "answer": "какой-то",
+          "hint": "A real, particular man; a stranger to the speaker. The visit already happened.",
+          "explanation": "A specific man really came and looked for you; the speaker just does not know him.Какой-то fits perfectly and adds the natural shade of 'some unfamiliar one.' Какой-нибудь would mean 'any man at all,' wrong for a completed visit by a particular person. Никакой means 'no kind of' and needs не."
+        },
+        {
+          "prompt": "_____ давно на этом месте стоял старый дом.",
+          "promptEnglish": "Long ago an old house stood on this spot.",
+          "options": [
+            "Когда-нибудь",
+            "Когда-то",
+            "Никогда",
+            "Некогда"
+          ],
+          "answer": "Когда-то",
+          "hint": "A definite time in the past, now unnamed. The sentence states a past fact.",
+          "explanation": "The house stood here at a real, definite past time that we no longer pin down: когда-то ('once, at some time'). Когда-нибудь points to the future ('someday, ever'). Никогда means never and needs не. Некогда in this everyday construction means 'no time to,' which does not fit a statement about a past house."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Маша _____ улыбнулась и ничего не сказала.",
+          "promptEnglish": "Masha smiled somehow and said nothing.",
+          "options": [
+            "как-нибудь",
+            "никак",
+            "как-то",
+            "как"
+          ],
+          "answer": "как-то",
+          "hint": "She really smiled, in some particular way you cannot quite describe. Past tense.",
+          "explanation": "как-то means 'somehow, in some way' that actually happened but is hard to pin down: she did smile, in a particular manner you cannot fully describe. Как-нибудь means 'in any way at all' and points to the future (Сделай как-нибудь = do it however you can). Никак means 'in no way' and needs не."
+        },
+        {
+          "prompt": "После работы он _____ ушёл, не сказав ни слова.",
+          "promptEnglish": "After work he went off somewhere without saying a word.",
+          "options": [
+            "куда-нибудь",
+            "куда-то",
+            "никуда",
+            "некуда"
+          ],
+          "answer": "куда-то",
+          "hint": "He really went to one particular place; we just don't know which. Direction, past tense.",
+          "explanation": "He left for a real, specific destination that we cannot name: куда-то answers Куда? (direction) and fits a completed past action. Куда-нибудь ('to anywhere at all') belongs in questions or plans, not a finished departure. Никуда means 'nowhere' and needs не (никуда не ушёл). Некуда is the 'there is nowhere to go' construction (lesson 6)."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Мне _____ утром, но я не успел ответить.",
+          "promptEnglish": "Someone called me this morning, but I didn't manage to answer.",
+          "options": [
+            "кто-то звонил",
+            "кто-нибудь звонил",
+            "никто звонил",
+            "кое-кто звонить"
+          ],
+          "answer": "кто-то звонил",
+          "hint": "A real caller, identity unknown: which particle?",
+          "explanation": "A real past event with an unknown participant takes -то: кто-то звонил. -нибудь belongs to open hypotheticals and requests; никто would need не on the verb; кое-кто implies you know but won't say."
+        },
+        {
+          "prompt": "Он _____ в магазине, но не говорит что.",
+          "promptEnglish": "He bought something at the shop, but he won't say what.",
+          "options": [
+            "что-то купил",
+            "что-нибудь купил",
+            "ничего купил",
+            "кое-что купить"
+          ],
+          "answer": "что-то купил",
+          "hint": "A definite object was bought; only its identity is unknown.",
+          "explanation": "A real purchase takes -то: что-то купил. Что-нибудь would leave the object hypothetical, clashing with the completed past; ничего needs не; the infinitive cannot carry the clause."
+        },
+        {
+          "prompt": "Она _____, но мы не знаем в какой город.",
+          "promptEnglish": "She has gone off somewhere, but we don't know to which city.",
+          "options": [
+            "куда-то уехала",
+            "куда-нибудь уехала",
+            "никуда уехала",
+            "куда-то уехать"
+          ],
+          "answer": "куда-то уехала",
+          "hint": "One real destination, unnamed.",
+          "explanation": "She went to one real place, so the direction word takes -то: куда-то уехала. -нибудь would suit a plan where any place would do; никуда needs не on the verb."
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "items": [
+        {
+          "prompt": "Здесь _____ была река, а теперь поле.",
+          "promptEnglish": "There was once a river here, and now there is a field.",
+          "options": [
+            "когда-то",
+            "когда-нибудь",
+            "никогда",
+            "кое-когда"
+          ],
+          "answer": "когда-то",
+          "hint": "A definite but unnamed past time.",
+          "explanation": "A real but unnamed past time takes -то: когда-то здесь была река. Когда-нибудь points to an open future ('someday'); никогда would need не; кое-когда is barely used."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Вчера вечером _____ долго стоял под окном. (Last night someone stood under the window for a long time.)"
+    ],
+    "choices": [
+      "кто-нибудь",
+      "кто-то",
+      "никто",
+      "некого"
+    ],
+    "answers": [
+      "кто-то"
+    ],
+    "grammarFocus": "A real, specific person stood there; the action happened last night and only the identity is unknown. -то marks the definite-but-unknown doer: кто-то. Кто-нибудь (any person at all) clashes with a completed past action; никто would need не."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Вчера тебе кто-нибудь звонил и оставил сообщение.",
+      "translationEnglish": "Someone called you yesterday and left a message.",
+      "error": "кто-нибудь",
+      "correction": "кто-то",
+      "options": [
+        "кто-то",
+        "никто",
+        "кое-кто"
+      ],
+      "explanation": "This is a past event that definitely happened: a real, particular person called and left a message, even though the speaker does not know who. That is the core meaning of -то, specific but unknown: кто-то. -нибудь marks any-will-do and belongs in questions, commands, and the future (Кто-нибудь звонил? - anyone at all?), not in a statement about a completed action. Никто would need a negated verb (никто не звонил), and кое-кто implies the speaker actually knows who but is being coy."
+    },
+    {
+      "sentence": "Вчера он почему-нибудь не пришёл на встречу.",
+      "translationEnglish": "Yesterday for some reason he didn't come to the meeting.",
+      "error": "почему-нибудь",
+      "correction": "почему-то",
+      "options": [
+        "почему-то",
+        "зачем-нибудь",
+        "никак"
+      ],
+      "explanation": "The missed meeting really happened, so there is a specific (if unknown) reason behind it: почему-то ('for some reason'). -нибудь cannot attach to an actual past occurrence; it needs the any-will-do openness of questions and hypotheticals."
+    },
+    {
+      "sentence": "На вешалке висит чья-нибудь куртка.",
+      "translationEnglish": "Someone's jacket is hanging on the rack.",
+      "error": "чья-нибудь",
+      "correction": "чья-то",
+      "options": [
+        "чья-то",
+        "ничья",
+        "чья-либо"
+      ],
+      "explanation": "The jacket is really hanging there and belongs to one specific (if unknown) person, so the specific-but-unknown -то is correct: чья-то. -нибудь ('anyone's at all') clashes with a real object in front of you; чья-либо is a bookish variant of the same wrong choice."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Смотри, _____ забыл здесь зонт. (A real, specific person left it; we just don't know who.)",
+      "contextEnglish": "Look, someone left an umbrella here (a specific person, identity unknown).",
+      "options": [
+        "кто-то",
+        "кто-нибудь"
+      ],
+      "answer": "кто-то",
+      "explanation": "The umbrella is here, so a particular person really did leave it: a completed fact with an unknown but definite doer. That is the -то slot: кто-то. Кто-нибудь would mean 'anyone at all,' which makes no sense for an action that has already happened and left physical evidence."
+    },
+    {
+      "context": "На полке _____ лежало, но я не разглядел что. (Something definite was there; I couldn't make it out.)",
+      "contextEnglish": "Something was lying on the shelf, but I couldn't see what (a real object, unidentified).",
+      "options": [
+        "что-нибудь",
+        "что-то"
+      ],
+      "answer": "что-то",
+      "explanation": "A real object lay on the shelf; you saw that it existed but could not identify it. The referent is definite but unknown, which is the -то meaning: что-то. Что-нибудь ('anything at all') would imply the object is not real or not yet chosen, contradicting 'it was lying there.'"
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "частица -то",
+      "definition": "attaches to a question word to mark a referent that is real and specific but unknown / unnamed to the speaker. Most natural in the past tense and in statements of fact.",
+      "example": "Кто-то постучал в дверь — стучал конкретный человек, но кто именно, мы не знаем."
+    },
+    {
+      "term": "кто-то / что-то",
+      "definition": "someone / something: a particular person or thing whose identity the speaker cannot give. The thing definitely exists.",
+      "example": "Я что-то забыл, но не помню что."
+    },
+    {
+      "term": "где-то / куда-то / когда-то",
+      "definition": "somewhere / to somewhere / once: a real place, direction, or past time that the speaker does not name.",
+      "example": "Он куда-то уехал, а когда-то жил здесь."
+    },
+    {
+      "term": "какой-то",
+      "definition": "some / some kind of: a real, specific one, often with a shade of 'unfamiliar' or 'odd.'",
+      "example": "Тебя спрашивал какой-то человек."
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "lessonId": "b1-021-impersonal-constructions",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Pick the Right Word",
+      "titleRussian": "Выберите правильное слово",
+      "description": "Choose the correct impersonal expression or case form",
+      "descriptionRussian": "Выберите правильное безличное выражение или форму падежа",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ жарко. Откройте окно. (I'm hot. Open the window.)",
+              "promptEnglish": "I'm hot. Open the window.",
+              "options": [
+                "Мне",
+                "Я",
+                "Мой",
+                "Меня"
+              ],
+              "answer": "Мне",
+              "hint": "Physical sensation = dative + adverb.",
+              "explanation": "Impersonal: мне жарко (dative). No nominative subject."
+            },
+            {
+              "prompt": "Здесь _____ фотографировать. (You can't take photos here.)",
+              "promptEnglish": "Taking photos is forbidden here.",
+              "options": [
+                "можно",
+                "надо",
+                "нельзя",
+                "нужно"
+              ],
+              "answer": "нельзя",
+              "hint": "Prohibition = нельзя + infinitive.",
+              "explanation": "Нельзя фотографировать = photography is not allowed."
+            },
+            {
+              "prompt": "_____ нужно уйти пораньше. (She needs to leave early.)",
+              "promptEnglish": "She needs to leave early.",
+              "options": [
+                "Она",
+                "Ей",
+                "Её",
+                "Ею"
+              ],
+              "answer": "Ей",
+              "hint": "Need: dative + нужно + infinitive.",
+              "explanation": "Ей нужно (dative). Not она (nominative)."
+            },
+            {
+              "prompt": "_____ войти? (May I come in?)",
+              "promptEnglish": "May I come in?",
+              "options": [
+                "Нельзя",
+                "Нужно",
+                "Можно",
+                "Надо"
+              ],
+              "answer": "Можно",
+              "hint": "Asking permission = можно.",
+              "explanation": "Можно + infinitive for permission: Можно войти?"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ скучно на этом уроке. (We're bored in this class.)",
+              "promptEnglish": "We're bored in this class.",
+              "options": [
+                "Нам",
+                "Мы",
+                "Нас",
+                "Наш"
+              ],
+              "answer": "Нам",
+              "hint": "Feeling: dative + adverb. We = нам (dative).",
+              "explanation": "Нам скучно: impersonal with dative plural."
+            },
+            {
+              "prompt": "Тебе _____ больше отдыхать. (You need to rest more.)",
+              "promptEnglish": "You need to rest more.",
+              "options": [
+                "надо",
+                "можно",
+                "нельзя",
+                "хорошо"
+              ],
+              "answer": "надо",
+              "hint": "Need = надо (synonym of нужно).",
+              "explanation": "Тебе надо + infinitive: you need to rest more."
+            },
+            {
+              "prompt": "_____ стыдно за своё поведение. (He's ashamed of his behavior.)",
+              "promptEnglish": "He's ashamed of his behavior.",
+              "options": [
+                "Он",
+                "Его",
+                "Ему",
+                "Им"
+              ],
+              "answer": "Ему",
+              "hint": "Emotional state: dative + adverb. He = ему (dative).",
+              "explanation": "Ему стыдно: impersonal emotional state with dative."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Здесь _____ курить. (There's a no-smoking sign.)",
+          "contextEnglish": "This is a no-smoking area.",
+          "options": [
+            "можно",
+            "нельзя"
+          ],
+          "answer": "нельзя",
+          "explanation": "Prohibition: нельзя курить = smoking is forbidden here."
+        },
+        {
+          "context": "_____ я возьму эту книгу? (asking the librarian)",
+          "contextEnglish": "May I take this book? (asking permission)",
+          "options": [
+            "Можно",
+            "Нельзя"
+          ],
+          "answer": "Можно",
+          "explanation": "Asking permission: Можно + 1st person future = May I?"
+        },
+        {
+          "context": "Мне _____ на этой лекции. (The topic is fascinating.)",
+          "contextEnglish": "I find this lecture fascinating.",
+          "options": [
+            "скучно",
+            "интересно"
+          ],
+          "answer": "интересно",
+          "explanation": "Positive reaction: мне интересно = I find it interesting."
+        },
+        {
+          "context": "Мне _____ на этой лекции. (The topic is dull.)",
+          "contextEnglish": "This lecture is boring me.",
+          "options": [
+            "скучно",
+            "интересно"
+          ],
+          "answer": "скучно",
+          "explanation": "Negative reaction: мне скучно = I'm bored."
+        }
+      ]
+    },
+    {
+      "id": "round-3-transform-translate",
+      "title": "Transform and Translate",
+      "titleRussian": "Преобразование и перевод",
+      "description": "Rewrite personal sentences as impersonal and translate",
+      "descriptionRussian": "Перестройте личные предложения в безличные и переведите",
+      "icon": "arrow.left.arrow.right",
+      "translation": [
+        {
+          "prompt": "I'm cold. (impersonal construction)",
+          "answer": "Мне холодно.",
+          "hint": "Dative (мне) + adverb (холодно). No verb needed.",
+          "explanation": "Physical state: мне холодно. No subject, no verb 'to be.'",
+          "keyWord": "Мне",
+          "options": [
+            "Мне",
+            "Я",
+            "Меня",
+            "Мной"
+          ]
+        },
+        {
+          "prompt": "You (informal) need to study more.",
+          "answer": "Тебе нужно больше заниматься.",
+          "hint": "Dative (тебе) + нужно + infinitive (заниматься).",
+          "explanation": "Necessity: тебе нужно больше заниматься.",
+          "keyWord": "нужно",
+          "options": [
+            "нужно",
+            "нужен",
+            "нужна",
+            "нужны"
+          ]
+        },
+        {
+          "prompt": "Is it possible to park here?",
+          "answer": "Здесь можно парковаться?",
+          "hint": "Можно + infinitive for general permission.",
+          "explanation": "Permission question: Здесь можно парковаться?",
+          "keyWord": "можно",
+          "options": [
+            "можно",
+            "нельзя",
+            "надо",
+            "нужно"
+          ]
+        },
+        {
+          "prompt": "The children are having fun.",
+          "answer": "Детям весело.",
+          "hint": "Dative plural (детям) + adverb (весело).",
+          "explanation": "Emotional state: детям весело (impersonal, dative + adverb).",
+          "keyWord": "Детям",
+          "options": [
+            "Детям",
+            "Дети",
+            "Детей",
+            "Детьми"
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ плохо. Вызовите врача! (He feels sick. Call a doctor!)",
+          "Здесь _____ громко разговаривать. (You can't talk loudly here.)",
+          "_____ нужно купить продукты. (We need to buy groceries.)"
+        ],
+        "choices": [
+          "Ему",
+          "нельзя",
+          "Нам"
+        ],
+        "answers": [
+          "Ему",
+          "нельзя",
+          "Нам"
+        ],
+        "grammarFocus": "Dative experiencer + impersonal predicate",
+        "hints": [
+          "He = ему (dative). Physical state: dative + плохо.",
+          "Prohibition in a library/hospital = нельзя.",
+          "We = нам (dative). Necessity: dative + нужно."
+        ],
+        "explanations": [
+          "Ему плохо: dative + adverb for physical state.",
+          "Нельзя + infinitive: it is not allowed to talk loudly.",
+          "Нам нужно: dative + нужно + infinitive for necessity."
+        ],
+        "options": [
+          [
+            "его",
+            "им",
+            "он",
+            "Ему"
+          ],
+          [
+            "можно",
+            "нужно",
+            "нельзя",
+            "надо"
+          ],
+          [
+            "нами",
+            "мы",
+            "Нам",
+            "нас"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "categories": [
+          "Physical/emotional state",
+          "Necessity (нужно/надо)",
+          "Permission/prohibition (можно/нельзя)"
+        ],
+        "items": [
+          {
+            "text": "Мне холодно.",
+            "category": "Physical/emotional state"
+          },
+          {
+            "text": "Ей нужно позвонить врачу.",
+            "category": "Necessity (нужно/надо)"
+          },
+          {
+            "text": "Здесь нельзя шуметь.",
+            "category": "Permission/prohibition (можно/нельзя)"
+          },
+          {
+            "text": "Ему стыдно.",
+            "category": "Physical/emotional state"
+          },
+          {
+            "text": "Можно открыть окно?",
+            "category": "Permission/prohibition (можно/нельзя)"
+          },
+          {
+            "text": "Нам надо торопиться.",
+            "category": "Necessity (нужно/надо)"
+          },
+          {
+            "text": "Детям весело.",
+            "category": "Physical/emotional state"
+          },
+          {
+            "text": "Тебе нужно отдохнуть.",
+            "category": "Necessity (нужно/надо)"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Я холодно.",
+          "error": "Я",
+          "correction": "Мне",
+          "hint": "Physical state needs dative, not nominative.",
+          "explanation": "Impersonal: мне холодно (dative), not *я холодно (nominative).",
+          "options": [
+            "Мне",
+            "Меня",
+            "Мной"
+          ]
+        },
+        {
+          "sentence": "Она нужно идти.",
+          "error": "Она",
+          "correction": "Ей",
+          "hint": "Necessity: dative + нужно, not nominative.",
+          "explanation": "Ей нужно идти (dative). Она is nominative and wrong here.",
+          "options": [
+            "Ей",
+            "Её",
+            "Ею"
+          ]
+        },
+        {
+          "sentence": "Здесь можно не шуметь.",
+          "error": "можно",
+          "correction": "нельзя",
+          "hint": "If it means 'you must not make noise,' that's prohibition.",
+          "explanation": "Prohibition: нельзя шуметь. Можно не = it's OK not to (optional), which is different.",
+          "options": [
+            "нельзя",
+            "надо",
+            "нужно"
+          ]
+        },
+        {
+          "sentence": "Мне нужна позвонить маме.",
+          "error": "нужна",
+          "correction": "нужно",
+          "hint": "Before infinitive, нужно is always neuter (нужно), not feminine.",
+          "explanation": "Нужно + infinitive is fixed neuter. Нужна agrees with a feminine noun (мне нужна книга).",
+          "options": [
+            "нужно",
+            "нужен",
+            "нужны"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Финальное задание",
+      "description": "All impersonal construction types mixed together",
+      "descriptionRussian": "Все типы безличных конструкций вместе",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ страшно в темноте. (The child is scared in the dark.)",
+              "promptEnglish": "The child is scared in the dark.",
+              "options": [
+                "Ребёнку",
+                "Ребёнок",
+                "Ребёнка",
+                "Ребёнком"
+              ],
+              "answer": "Ребёнку",
+              "hint": "Emotional state: dative + adverb. Child = ребёнку (dative).",
+              "explanation": "Ребёнку страшно: dative + adverb for emotional state."
+            },
+            {
+              "prompt": "_____ нельзя опаздывать на работу. (One must not be late for work.)",
+              "promptEnglish": "Being late for work is not acceptable.",
+              "options": [
+                "Нам нельзя",
+                "Не нужно",
+                "Нельзя",
+                "Не надо"
+              ],
+              "answer": "Нельзя",
+              "hint": "General prohibition (for everyone) = нельзя without dative.",
+              "explanation": "General rule: нельзя опаздывать. No dative = applies to everyone."
+            },
+            {
+              "prompt": "_____ весело вместе. (They have fun together.)",
+              "promptEnglish": "They have a good time together.",
+              "options": [
+                "Они",
+                "Им",
+                "Их",
+                "Ими"
+              ],
+              "answer": "Им",
+              "hint": "Emotional state: dative + adverb. They = им (dative).",
+              "explanation": "Им весело: dative plural + adverb."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Which sentence is impersonal?",
+              "promptEnglish": "Which uses the impersonal construction?",
+              "options": [
+                "Он болеет.",
+                "Ему плохо.",
+                "Он чувствует себя плохо.",
+                "Он нездоров."
+              ],
+              "answer": "Ему плохо.",
+              "hint": "Impersonal = no nominative subject, dative experiencer.",
+              "explanation": "Ему плохо: dative + adverb, no nominative subject. The others all have он (nominative) as subject."
+            },
+            {
+              "prompt": "_____ надо выучить эти слова к завтрашнему уроку. (They need to learn these words by tomorrow's class.)",
+              "promptEnglish": "They need to learn these words for tomorrow's lesson.",
+              "options": [
+                "Они",
+                "Им",
+                "Их",
+                "Ими"
+              ],
+              "answer": "Им",
+              "hint": "Necessity: dative + надо + infinitive.",
+              "explanation": "Им надо: dative (им) + надо + infinitive."
+            },
+            {
+              "prompt": "В самолёте _____ пользоваться телефоном. (You can't use your phone on the plane.)",
+              "promptEnglish": "Using phones on the plane is prohibited.",
+              "options": [
+                "не нужно",
+                "можно",
+                "нельзя",
+                "не надо"
+              ],
+              "answer": "нельзя",
+              "hint": "Strict prohibition = нельзя (forbidden by rules).",
+              "explanation": "Нельзя пользоваться телефоном: prohibition (not allowed by regulations)."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Нельзя здесь парковаться. / Не нужно здесь парковаться.",
+          "question": "What is the difference between these two sentences?",
+          "options": [
+            "They mean the same thing",
+            "First = it's forbidden (you can't); second = it's not necessary (you don't need to)",
+            "First = informal, second = formal"
+          ],
+          "answer": "First = it's forbidden (you can't); second = it's not necessary (you don't need to)",
+          "explanation": "Нельзя = prohibition (forbidden). Не нужно = not necessary (but you could if you wanted)."
+        },
+        {
+          "sentence": "Мне нужна книга. / Мне нужно читать.",
+          "question": "Why is it нужна in the first but нужно in the second?",
+          "options": [
+            "Нужна agrees with книга (feminine); нужно is fixed neuter before infinitives",
+            "They are interchangeable",
+            "Нужна is formal, нужно is informal"
+          ],
+          "answer": "Нужна agrees with книга (feminine); нужно is fixed neuter before infinitives",
+          "explanation": "Before a noun, нужен/нужна/нужно/нужны agrees in gender/number. Before an infinitive, it's always нужно (neuter)."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ трудно говорить по-русски? (Is it hard for you to speak Russian?)",
+          "Студентам _____ сдать экзамен до июня. (Students need to pass the exam before June.)"
+        ],
+        "choices": [
+          "Тебе",
+          "нужно"
+        ],
+        "answers": [
+          "Тебе",
+          "нужно"
+        ],
+        "grammarFocus": "Dative experiencer with state adverbs vs necessity",
+        "hints": [
+          "Difficulty: dative + трудно. You (informal) = тебе.",
+          "Necessity: dative + нужно + infinitive."
+        ],
+        "explanations": [
+          "Тебе трудно: impersonal state (dative + adverb).",
+          "Студентам нужно: necessity (dative plural + нужно + infinitive)."
+        ],
+        "options": [
+          [
+            "ты",
+            "тобой",
+            "тебя",
+            "Тебе"
+          ],
+          [
+            "нельзя",
+            "можно",
+            "пора",
+            "нужно"
+          ]
+        ]
+      }
+    }
+  ]
+}

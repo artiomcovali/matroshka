@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-013",
+  "title": "The Damaged Camera",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Someone returned your loaned camera with damage",
+  "imageName": "camera.fill",
+  "initialPrompt": "Камера? Она была уже сломана, когда ты мне её дал. Это не я.",
+  "systemPrompt": "You borrowed and damaged a camera. Deny responsibility, claim it was already broken. Admit fault only if owner has photos or witnesses proving camera worked before. Keep replies short.",
+  "completionCriteria": "User got admission of fault and repair/replacement commitment.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня есть фотографии до (I have photos from before)",
+    "Камера работала отлично (The camera worked perfectly)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "повреждение",
+      "definition": "damage"
+    },
+    {
+      "word": "доказательство",
+      "definition": "proof"
+    },
+    {
+      "word": "одолжить",
+      "definition": "to lend"
+    },
+    {
+      "word": "ремонт",
+      "definition": "repair"
+    },
+    {
+      "word": "признать",
+      "definition": "to admit"
+    },
+    {
+      "word": "ответственность",
+      "definition": "responsibility"
+    }
+  ],
+  "objectives": [
+    "Present evidence of condition",
+    "Counter their denial",
+    "Demand they take responsibility",
+    "Discuss repair options",
+    "Get commitment to fix"
+  ]
+}

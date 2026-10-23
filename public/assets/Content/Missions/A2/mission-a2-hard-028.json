@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-028",
+  "title": "Identity Mix-up",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Bank confused you with someone else - clear your name",
+  "imageName": "building.columns.fill",
+  "initialPrompt": "Иванов Иван Иванович? У вас долг 50 000 рублей. Оплатите, пожалуйста.",
+  "systemPrompt": "You work at bank. Wrong customer data linked to this person. Be confused, insist records are correct. Fix only after they prove identity with passport or account number. Keep replies short.",
+  "completionCriteria": "User proved identity and got records corrected.",
+  "responseLimit": 15,
+  "hints": [
+    "Это не я, вы ошиблись (That's not me, you made a mistake)",
+    "Вот мой паспорт (Here's my passport)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "долг",
+      "definition": "debt"
+    },
+    {
+      "word": "ошибка",
+      "definition": "mistake"
+    },
+    {
+      "word": "паспорт",
+      "definition": "passport"
+    },
+    {
+      "word": "данные",
+      "definition": "data"
+    },
+    {
+      "word": "исправить",
+      "definition": "to correct"
+    },
+    {
+      "word": "счёт",
+      "definition": "account"
+    }
+  ],
+  "objectives": [
+    "Deny you are that person",
+    "Explain the confusion",
+    "Provide your correct information",
+    "Show ID documents",
+    "Get records corrected"
+  ]
+}

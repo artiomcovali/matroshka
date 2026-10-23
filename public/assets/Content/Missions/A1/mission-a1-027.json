@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-027",
+  "title": "Check the Price",
+  "level": "A1",
+  "description": "Ask about item prices at a shop",
+  "imageName": "tag.fill",
+  "initialPrompt": "Здравствуйте! Смотрите, пожалуйста. Всё красивое!",
+  "systemPrompt": "You work in a gift shop. Prices: сумка 2000₽, шарф 800₽, шапка 600₽. Keep replies short.",
+  "completionCriteria": "User asked about prices and decided to buy or not.",
+  "responseLimit": 15,
+  "hints": [
+    "Сколько стоит это? (How much is this?)",
+    "Это дорого (That's expensive)",
+    "Есть дешевле? (Is there something cheaper?)",
+    "Я возьму (I'll take it)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "цена",
+      "definition": "price"
+    },
+    {
+      "word": "дорого",
+      "definition": "expensive"
+    },
+    {
+      "word": "дёшево",
+      "definition": "cheap"
+    },
+    {
+      "word": "стоит",
+      "definition": "costs"
+    },
+    {
+      "word": "скидка",
+      "definition": "discount"
+    }
+  ],
+  "objectives": [
+    "Ask the price (Сколько стоит?)",
+    "React to the price (дорого/дёшево)",
+    "Make a decision"
+  ]
+}

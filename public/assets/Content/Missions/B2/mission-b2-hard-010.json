@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-010",
+  "title": "Wrongful Termination",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Being fired unfairly and fighting back",
+  "imageName": "xmark.seal.fill",
+  "initialPrompt": "Ваша должность сокращена. Соберите вещи и уходите сегодня. Выходное пособие минимальное. Подпишите бумаги.",
+  "systemPrompt": "You are HR representative executing unfair termination. Rush process, minimize payout. Only offer better terms if employee shows legal knowledge and refuses to sign quickly.",
+  "completionCriteria": "User protected rights during termination.",
+  "responseLimit": 15,
+  "hints": [
+    "Я не подпишу без юриста (I won't sign without a lawyer)",
+    "Это нарушение трудового кодекса (This violates labor code)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "увольнение",
+      "definition": "termination"
+    },
+    {
+      "word": "сокращение",
+      "definition": "layoff"
+    },
+    {
+      "word": "компенсация",
+      "definition": "compensation"
+    },
+    {
+      "word": "трудовой кодекс",
+      "definition": "labor code"
+    },
+    {
+      "word": "юрист",
+      "definition": "lawyer"
+    },
+    {
+      "word": "права",
+      "definition": "rights"
+    }
+  ],
+  "objectives": [
+    "Refuse to sign immediately",
+    "Request time for review",
+    "Cite legal protections",
+    "Negotiate better terms",
+    "Document everything"
+  ]
+}

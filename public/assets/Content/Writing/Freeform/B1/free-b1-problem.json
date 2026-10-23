@@ -1,0 +1,65 @@
+{
+  "id": "free-b1-problem",
+  "level": "B1",
+  "type": "freeform",
+  "title": "A Problem I Solved",
+  "titleRussian": "Как я решил проблему",
+  "theme": "problem-solved",
+  "prompts": [
+    {
+      "id": "b1-prob-001",
+      "prompt": "Describe a problem you solved recently. What was the problem and how did you solve it?",
+      "promptRussian": "Опишите проблему, которую вы недавно решили. Что это была за проблема и как вы её решили?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Недавно у меня была проблема с...", "Я решил/решила её, когда...", "В итоге..."],
+      "targetGrammar": ["past tense", "решить construction", "когда clauses"],
+      "gradingCriteria": ["problem described", "solution explained", "outcome mentioned"],
+      "sampleResponse": "Недавно у меня была проблема с компьютером: он начал очень медленно работать. Я решила её, когда обновила систему и удалила ненужные программы. В итоге компьютер снова работает быстро."
+    },
+    {
+      "id": "b1-prob-002",
+      "prompt": "Tell about a conflict you had with someone and how you resolved it.",
+      "promptRussian": "Расскажите о конфликте с кем-то и как вы его разрешили.",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["У меня был конфликт с...", "Мы не могли договориться о...", "Чтобы решить проблему, мы..."],
+      "targetGrammar": ["past tense", "conflict vocabulary", "чтобы + infinitive"],
+      "gradingCriteria": ["conflict described", "resolution process explained", "outcome positive or neutral"],
+      "sampleResponse": "У меня был конфликт с коллегой: мы не могли договориться о том, как выполнять проект. Чтобы решить проблему, мы поговорили спокойно и нашли компромисс. Теперь мы хорошо работаем вместе."
+    },
+    {
+      "id": "b1-prob-003",
+      "prompt": "Describe a time when you helped someone solve their problem.",
+      "promptRussian": "Опишите случай, когда вы помогли кому-то решить проблему.",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Однажды мой друг/моя подруга...", "Я помог/помогла ему/ей...", "Благодаря этому..."],
+      "targetGrammar": ["помочь + dative", "благодаря + dative", "past tense narrative"],
+      "gradingCriteria": ["other person's problem described", "help provided explained", "positive outcome"],
+      "sampleResponse": "Однажды моя подруга не могла найти работу. Я помогла ей переписать резюме и подготовиться к собеседованию. Благодаря этому она получила хорошую работу через месяц."
+    },
+    {
+      "id": "b1-prob-004",
+      "prompt": "What do you do when you face a difficult decision? Describe your process.",
+      "promptRussian": "Что вы делаете, когда сталкиваетесь со сложным решением? Опишите свой процесс.",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Когда мне нужно принять сложное решение, я...", "Сначала я...", "Затем я..."],
+      "targetGrammar": ["когда clauses", "sequence words", "принять решение vocabulary"],
+      "gradingCriteria": ["process described", "steps outlined", "personal approach clear"],
+      "sampleResponse": "Когда мне нужно принять сложное решение, я сначала записываю все варианты и их плюсы и минусы. Затем я советуюсь с близкими людьми. После этого я даю себе время подумать и слушаю интуицию."
+    },
+    {
+      "id": "b1-prob-005",
+      "prompt": "Describe a mistake you made and what you learned from it.",
+      "promptRussian": "Опишите ошибку, которую вы совершили, и что вы из неё извлекли.",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Однажды я сделал/сделала ошибку...", "Это научило меня тому, что...", "Теперь я..."],
+      "targetGrammar": ["past tense", "научить construction", "теперь adverb"],
+      "gradingCriteria": ["mistake described", "lesson learned explained", "change in behavior mentioned"],
+      "sampleResponse": "Однажды я сделала ошибку: не проверила важный документ перед отправкой клиенту. Это научило меня тому, что нужно всегда перепроверять свою работу. Теперь я всегда дважды проверяю всё перед отправкой."
+    }
+  ]
+}

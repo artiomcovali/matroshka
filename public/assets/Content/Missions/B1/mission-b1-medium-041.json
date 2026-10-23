@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-041",
+  "title": "Subscription Cancellation",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "The service makes cancelling your subscription difficult",
+  "imageName": "xmark.circle.fill",
+  "initialPrompt": "Служба поддержки, добрый день! Как я могу вам помочь?",
+  "systemPrompt": "You handle subscription retention. Try to keep customer by offering discounts (50 percent off 3 months, pause option). If they insist, eventually process cancellation. Keep replies short.",
+  "completionCriteria": "User successfully cancelled or accepted retention offer.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу отменить подписку (I want to cancel my subscription)",
+    "Нет, спасибо, я уверен (No thank you, I am sure)",
+    "Пожалуйста, обработайте отмену (Please process the cancellation)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "подписка",
+      "definition": "subscription"
+    },
+    {
+      "word": "отмена",
+      "definition": "cancellation"
+    },
+    {
+      "word": "скидка",
+      "definition": "discount"
+    },
+    {
+      "word": "приостановить",
+      "definition": "to pause"
+    },
+    {
+      "word": "настаивать",
+      "definition": "to insist"
+    },
+    {
+      "word": "подтверждение",
+      "definition": "confirmation"
+    }
+  ],
+  "objectives": [
+    "Request cancellation (отменить подписку)",
+    "Handle retention offers (предложения)",
+    "Stay firm if needed (настаивать)",
+    "Get cancellation confirmation"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-030",
+  "title": "Restaurant Full",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Your reservation was lost but the restaurant is full",
+  "imageName": "fork.knife",
+  "initialPrompt": "Добрый вечер! У вас бронь? На какую фамилию?",
+  "systemPrompt": "You are restaurant host. Cannot find reservation in system, restaurant full. Can offer bar seating now, or table in 45 minutes when party leaves. Keep replies short.",
+  "completionCriteria": "User got seated at bar or agreed to wait for table.",
+  "responseLimit": 15,
+  "hints": [
+    "Я бронировал на семь часов (I booked for 7 o'clock)",
+    "Но я точно бронировал! (But I definitely booked!)",
+    "Хорошо, подождём (OK, we will wait)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "бронь",
+      "definition": "reservation"
+    },
+    {
+      "word": "столик",
+      "definition": "table"
+    },
+    {
+      "word": "бар",
+      "definition": "bar"
+    },
+    {
+      "word": "полный",
+      "definition": "full"
+    },
+    {
+      "word": "ждать",
+      "definition": "to wait"
+    },
+    {
+      "word": "освободиться",
+      "definition": "to become available"
+    }
+  ],
+  "objectives": [
+    "Confirm you have a reservation",
+    "Handle lost booking situation",
+    "Learn about options (bar, wait)",
+    "Accept bar seating or wait for table"
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "id": "b1-004-aspect-deep",
+  "level": "B1",
+  "focusArea": "aspect",
+  "title": "Verbal Aspect (Advanced)",
+  "titleRussian": "Вид глагола (углублённый)",
+  "description": "Aspect in all contexts",
+  "descriptionRussian": "Вид глагола во всех контекстах",
+  "imageName": "arrow.triangle.branch",
+  "intro": "At A2 you learned that imperfective describes process/repetition while perfective describes completed results. At B1, we go deeper: aspect choice depends on context, not just 'completion.' Imperfective can describe a completed action if you're focusing on the activity itself (Вчера я читал книгу - I was reading yesterday). Perfective emphasizes the result or a single bounded event (Я прочитал книгу - I finished reading the book). Mastering aspect means understanding WHAT you want to emphasize, not just whether something finished.",
+  "rules": [
+    "Imperfective focuses on PROCESS, DURATION, or REPETITION: Я долго писал письмо. (I wrote the letter for a long time.)",
+    "Perfective focuses on RESULT, COMPLETION, or SINGLE EVENT: Я написал письмо. (I wrote/finished the letter.)",
+    "With time expressions: долго/часто/всегда → imperfective; вдруг/наконец/уже → often perfective.",
+    "Negation often prefers imperfective (general denial): Я не читал эту книгу. (I haven't read this book.)",
+    "General experience uses imperfective: 'Ты читал эту книгу?' = Have you ever read this book? The focus is on whether the experience happened, not on completion."
+  ],
+  "examples": [
+    "Что ты делал вчера? — Я читал. (What did you do? — I was reading.), process/activity",
+    "Ты прочитал книгу? — Да, прочитал. (Did you finish the book? — Yes, I did.), result",
+    "Она долго готовила обед. (She cooked dinner for a long time.), duration → impf",
+    "Она приготовила обед. (She made/finished dinner.), result → pf"
+  ],
+  "tables": [
+    {
+      "title": "Aspect Pairs: Key Verbs",
+      "headers": [
+        "Verb",
+        "Imperfective (НСВ)",
+        "Perfective (СВ)",
+        "Focus"
+      ],
+      "rows": [
+        {
+          "label": "read",
+          "cells": [
+            "читать",
+            "про|читать",
+            "process vs. completion"
+          ]
+        },
+        {
+          "label": "write",
+          "cells": [
+            "писать",
+            "на|писать",
+            "process vs. result"
+          ]
+        },
+        {
+          "label": "do/make",
+          "cells": [
+            "делать",
+            "с|делать",
+            "activity vs. result"
+          ]
+        },
+        {
+          "label": "cook",
+          "cells": [
+            "готовить",
+            "при|готовить",
+            "activity vs. done"
+          ]
+        },
+        {
+          "label": "solve",
+          "cells": [
+            "решать",
+            "реш|ить",
+            "working on vs. solved"
+          ]
+        },
+        {
+          "label": "get up",
+          "cells": [
+            "вставать",
+            "вст|ать",
+            "process vs. single act"
+          ]
+        },
+        {
+          "label": "bake",
+          "cells": [
+            "печь",
+            "ис|печь",
+            "baking vs. baked"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я долго _____ это письмо. (I wrote this letter for a long time.)",
+          "promptEnglish": "I wrote this letter for a long time.",
+          "options": [
+            "написал",
+            "напишу",
+            "писал",
+            "пишу"
+          ],
+          "answer": "писал",
+          "hint": "Долго (for a long time) emphasizes duration → imperfective",
+          "explanation": "Duration marker 'долго' requires imperfective: писал."
+        },
+        {
+          "prompt": "Наконец я _____ эту задачу! (Finally I solved this problem!)",
+          "promptEnglish": "Finally I solved this problem!",
+          "options": [
+            "решу",
+            "решал",
+            "решаю",
+            "решил"
+          ],
+          "answer": "решил",
+          "hint": "Наконец (finally) emphasizes achieved result → perfective",
+          "explanation": "Result marker 'наконец' requires perfective: решил."
+        },
+        {
+          "prompt": "Раньше каждый день он _____ газету. (Every day he used to read the newspaper.)",
+          "promptEnglish": "He used to read the newspaper every day.",
+          "options": [
+            "прочитает",
+            "читал",
+            "читает",
+            "прочитал"
+          ],
+          "answer": "читал",
+          "hint": "Каждый день (every day) = repeated action → imperfective",
+          "explanation": "Repetition marker 'каждый день' requires imperfective: читал."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "— Что ты делал вечером? — Я _____ фильм. (What did you do? I watched a film.)",
+          "promptEnglish": "What did you do in the evening? - I watched a film.",
+          "options": [
+            "посмотрел",
+            "смотрел",
+            "смотрю",
+            "посмотрю"
+          ],
+          "answer": "смотрел",
+          "hint": "Answering 'what were you doing' describes the activity → imperfective",
+          "explanation": "Describing what you were doing (activity) = imperfective: смотрел."
+        },
+        {
+          "prompt": "Ты уже _____ домашнее задание? (Have you already done the homework?)",
+          "promptEnglish": "Have you already done the homework?",
+          "options": [
+            "сделаешь",
+            "делал",
+            "делаешь",
+            "сделал"
+          ],
+          "answer": "сделал",
+          "hint": "Уже (already) asks about completed result → perfective",
+          "explanation": "Result question with 'уже' requires perfective: сделал."
+        },
+        {
+          "prompt": "Вдруг он _____ и ушёл. (Suddenly he got up and left.)",
+          "promptEnglish": "Suddenly he got up and left.",
+          "options": [
+            "встанет",
+            "вставал",
+            "встаёт",
+            "встал"
+          ],
+          "answer": "встал",
+          "hint": "Вдруг (suddenly) = single sudden action → perfective",
+          "explanation": "Single sudden action with 'вдруг' requires perfective: встал."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я не _____ эту книгу. (I haven't read this book.)",
+          "promptEnglish": "I haven't read this book.",
+          "options": [
+            "прочитаю",
+            "прочитал",
+            "читаю",
+            "читал"
+          ],
+          "answer": "читал",
+          "hint": "General negation (never did X) prefers imperfective",
+          "explanation": "General denial of experience uses imperfective: не читал."
+        },
+        {
+          "prompt": "Он весь день _____ отчёт. (He wrote the report all day.)",
+          "promptEnglish": "He wrote the report all day.",
+          "options": [
+            "напишет",
+            "пишет",
+            "писал",
+            "написал"
+          ],
+          "answer": "писал",
+          "hint": "Весь день (all day) emphasizes duration → imperfective",
+          "explanation": "Duration marker 'весь день' requires imperfective: писал."
+        },
+        {
+          "prompt": "Она _____ торт и поставила его на стол. (She baked a cake and put it on the table.)",
+          "promptEnglish": "She baked a cake and put it on the table.",
+          "options": [
+            "печёт",
+            "испечёт",
+            "испекла",
+            "пекла"
+          ],
+          "answer": "испекла",
+          "hint": "Sequential completed actions → perfective",
+          "explanation": "Completed action in sequence requires perfective: испекла."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Вчера я три часа _____ уроки. (Yesterday I did homework for three hours.)",
+      "Я долго _____ это письмо. (I wrote this letter for a long time.)",
+      "Она наконец _____ обед. (She finally finished cooking dinner.)"
+    ],
+    "choices": [
+      "делал",
+      "писал",
+      "приготовила",
+      "сделал",
+      "написал",
+      "готовила"
+    ],
+    "answers": [
+      "делал",
+      "писал",
+      "приготовила"
+    ],
+    "grammarFocus": "Duration (три часа, долго) requires imperfective; result (наконец) requires perfective",
+    "hints": [
+      "'Три часа' indicates duration. Which aspect?",
+      "'Долго' emphasizes the process over time. Which aspect?",
+      "'Наконец' (finally) emphasizes reaching a result. Which aspect?"
+    ],
+    "explanations": [
+      "Duration markers require imperfective: делал (was doing for three hours).",
+      "Duration with 'долго' requires imperfective: писал (was writing for a long time).",
+      "'Наконец' signals a completed result, requiring perfective: приготовила (finished cooking)."
+    ],
+    "options": [
+      [
+        "сделал",
+        "доделал",
+        "делал",
+        "сделаю"
+      ],
+      [
+        "написал",
+        "писал",
+        "дописал",
+        "напишу"
+      ],
+      [
+        "готовила",
+        "приготовит",
+        "готовит",
+        "приготовила"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "— Ты читал «Войну и мир»? — Нет, не _____.",
+      "contextEnglish": "Have you read War and Peace? - No, I haven't.",
+      "options": [
+        "читал",
+        "прочитал"
+      ],
+      "answer": "читал",
+      "explanation": "General experience question/denial uses imperfective: читал."
+    },
+    {
+      "context": "— Ты прочитал книгу? — Да, уже _____.",
+      "contextEnglish": "Did you finish the book? - Yes, already finished.",
+      "options": [
+        "прочитал",
+        "читал"
+      ],
+      "answer": "прочитал",
+      "explanation": "Asking about completion → answer confirms result: прочитал."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort these markers by which aspect they typically require",
+    "categories": [
+      "Imperfective (НСВ)",
+      "Perfective (СВ)"
+    ],
+    "items": [
+      {
+        "word": "долго",
+        "category": "Imperfective (НСВ)"
+      },
+      {
+        "word": "наконец",
+        "category": "Perfective (СВ)"
+      },
+      {
+        "word": "каждый день",
+        "category": "Imperfective (НСВ)"
+      },
+      {
+        "word": "вдруг",
+        "category": "Perfective (СВ)"
+      },
+      {
+        "word": "всегда",
+        "category": "Imperfective (НСВ)"
+      },
+      {
+        "word": "уже",
+        "category": "Perfective (СВ)"
+      },
+      {
+        "word": "часто",
+        "category": "Imperfective (НСВ)"
+      },
+      {
+        "word": "сразу",
+        "category": "Perfective (СВ)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "долго / весь день / три часа",
+      "definition": "duration markers → imperfective",
+      "example": "Я долго читал. Весь день работал."
+    },
+    {
+      "term": "наконец / вдруг / уже",
+      "definition": "result/sudden markers → perfective",
+      "example": "Наконец сделал! Вдруг позвонил."
+    },
+    {
+      "term": "каждый день / всегда / часто",
+      "definition": "repetition markers → imperfective",
+      "example": "Каждый день читал газету."
+    },
+    {
+      "term": "Negation (не + verb)",
+      "definition": "general denial often uses imperfective",
+      "example": "Я не читал эту книгу."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-016",
+  "title": "Hostile Takeover Defense",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Investor trying to force you out of your company",
+  "imageName": "building.2.fill",
+  "initialPrompt": "У нас теперь 40% акций. Ваше руководство неэффективно. Совет директоров проголосует за вашу отставку.",
+  "systemPrompt": "You are aggressive investor pushing out founder. Cite poor performance, threaten board action. Only negotiate if founder shows shareholder support and strategic vision.",
+  "completionCriteria": "User defended leadership position effectively.",
+  "responseLimit": 15,
+  "hints": [
+    "Акционеры поддерживают меня (Shareholders support me)",
+    "Наша стратегия показывает результаты (Our strategy shows results)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "акционер",
+      "definition": "shareholder"
+    },
+    {
+      "word": "совет директоров",
+      "definition": "board of directors"
+    },
+    {
+      "word": "отставка",
+      "definition": "resignation"
+    },
+    {
+      "word": "голосование",
+      "definition": "vote"
+    },
+    {
+      "word": "стратегия",
+      "definition": "strategy"
+    },
+    {
+      "word": "руководство",
+      "definition": "leadership"
+    }
+  ],
+  "objectives": [
+    "Defend performance record",
+    "Show shareholder support",
+    "Present strategic vision",
+    "Counter takeover attempt",
+    "Negotiate from strength"
+  ]
+}

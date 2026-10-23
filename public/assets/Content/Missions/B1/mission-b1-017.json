@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-017",
+  "title": "Visa Application",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "Ask about visa requirements at the consulate",
+  "imageName": "doc.text.fill",
+  "initialPrompt": "Консульский отдел, добрый день. По какому вопросу вы обращаетесь?",
+  "systemPrompt": "You work at consulate. Tourist visa needs: passport, photo, hotel booking, travel insurance, bank statement. Processing: 5-7 business days, express 2 days (+50%). Fee: 80€. Ask purpose of travel. Keep replies short.",
+  "completionCriteria": "User understood visa requirements and process.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужна туристическая виза (I need a tourist visa)",
+    "Какие документы нужны? (What documents are needed?)",
+    "Сколько времени занимает? (How long does it take?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "виза",
+      "definition": "visa"
+    },
+    {
+      "word": "консульство",
+      "definition": "consulate"
+    },
+    {
+      "word": "документы",
+      "definition": "documents"
+    },
+    {
+      "word": "заявление",
+      "definition": "application"
+    },
+    {
+      "word": "срок",
+      "definition": "period/deadline"
+    },
+    {
+      "word": "сбор",
+      "definition": "fee"
+    }
+  ],
+  "objectives": [
+    "Explain you need a visa",
+    "State purpose of travel",
+    "Ask about required documents",
+    "Ask about processing time",
+    "Ask about fees"
+  ]
+}

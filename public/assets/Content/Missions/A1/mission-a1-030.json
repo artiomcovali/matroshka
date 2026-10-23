@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-030",
+  "title": "Simple Breakfast",
+  "level": "A1",
+  "description": "Order a simple breakfast at a cafe",
+  "imageName": "fork.knife",
+  "initialPrompt": "Доброе утро! Завтрак? У нас яичница, каша, бутерброды.",
+  "systemPrompt": "You serve breakfast. Menu: яичница 150₽, каша 100₽, бутерброд 80₽, кофе 120₽. Keep replies short.",
+  "completionCriteria": "User ordered breakfast.",
+  "responseLimit": 15,
+  "hints": [
+    "Яичницу, пожалуйста (Eggs, please)",
+    "И кофе (And coffee)",
+    "С хлебом (With bread)",
+    "Сколько стоит? (How much?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "завтрак",
+      "definition": "breakfast"
+    },
+    {
+      "word": "яичница",
+      "definition": "fried eggs"
+    },
+    {
+      "word": "каша",
+      "definition": "porridge"
+    },
+    {
+      "word": "бутерброд",
+      "definition": "sandwich"
+    },
+    {
+      "word": "хлеб",
+      "definition": "bread"
+    }
+  ],
+  "objectives": [
+    "Order food (яичница, каша, бутерброд)",
+    "Add a drink (кофе, чай)",
+    "Complete the order"
+  ]
+}

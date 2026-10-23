@@ -1,0 +1,65 @@
+{
+  "id": "free-a1-day",
+  "level": "A1",
+  "type": "freeform",
+  "title": "My Day",
+  "titleRussian": "Мой день",
+  "theme": "my-day",
+  "prompts": [
+    {
+      "id": "a1-day-001",
+      "prompt": "Describe your morning routine. What do you do when you wake up?",
+      "promptRussian": "Опишите ваше утро. Что вы делаете, когда просыпаетесь?",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Утром я...", "Сначала я...", "Потом я..."],
+      "targetGrammar": ["present tense", "reflexive verbs", "sequence words"],
+      "gradingCriteria": ["morning activities mentioned", "logical sequence", "at least 2 activities"],
+      "sampleResponse": "Утром я просыпаюсь в семь часов. Сначала я чищу зубы. Потом я завтракаю."
+    },
+    {
+      "id": "a1-day-002",
+      "prompt": "What do you do at work or school?",
+      "promptRussian": "Что вы делаете на работе или в школе?",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["На работе я...", "В школе я...", "Я работаю/учусь..."],
+      "targetGrammar": ["present tense", "prepositional case", "work/study vocabulary"],
+      "gradingCriteria": ["work or school mentioned", "activities described"],
+      "sampleResponse": "Я работаю в офисе. На работе я пишу письма и читаю документы. Я работаю восемь часов."
+    },
+    {
+      "id": "a1-day-003",
+      "prompt": "What do you do in the evening after work or school?",
+      "promptRussian": "Что вы делаете вечером после работы или школы?",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Вечером я...", "После работы...", "Дома я..."],
+      "targetGrammar": ["present tense", "time expressions", "после + genitive"],
+      "gradingCriteria": ["evening activities mentioned", "reference to after work/school"],
+      "sampleResponse": "Вечером после работы я иду домой. Дома я ужинаю и смотрю телевизор. Иногда я читаю."
+    },
+    {
+      "id": "a1-day-004",
+      "prompt": "Describe your ideal day. What would you do?",
+      "promptRussian": "Опишите ваш идеальный день. Что бы вы делали?",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["В идеальный день я...", "Я хочу...", "Мне нравится..."],
+      "targetGrammar": ["present tense", "хотеть + infinitive", "time expressions"],
+      "gradingCriteria": ["activities mentioned", "positive framing"],
+      "sampleResponse": "В идеальный день я сплю долго. Потом я гуляю в парке. Вечером я встречаюсь с друзьями."
+    },
+    {
+      "id": "a1-day-005",
+      "prompt": "What do you usually eat during the day? Describe your meals.",
+      "promptRussian": "Что вы обычно едите в течение дня? Опишите ваши приёмы пищи.",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["На завтрак я ем...", "На обед...", "На ужин..."],
+      "targetGrammar": ["present tense", "food vocabulary", "meal times"],
+      "gradingCriteria": ["at least 2 meals mentioned", "food items included"],
+      "sampleResponse": "На завтрак я ем кашу и пью чай. На обед я ем суп и салат. На ужин я ем рыбу."
+    }
+  ]
+}

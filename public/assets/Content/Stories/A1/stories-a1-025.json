@@ -1,0 +1,205 @@
+{
+  "id": "a1-025",
+  "level": "A1",
+  "narrator": "Маша",
+  "title": "Обзор: Часть 2",
+  "titleEnglish": "Review: Part 2",
+  "description": "Неделя Маши: повторяем всё.",
+  "imageName": "checkmark.circle.fill",
+  "fullText": "Какая у меня была неделя! В понедельник я ходила к врачу, потому что у меня была простуда. Во вторник я отдыхала дома и пила чай. В среду мне стало лучше, и я гуляла с Пряником в парке. В четверг я вернулась на работу и ездила на метро. В пятницу я обедала с Анной в кафе, и мы ели пиццу. В выходные я гуляла по городу. Хорошая была неделя!",
+  "reviewVocab": [
+    {
+      "word": "неделя",
+      "definition": "week",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "неделя",
+        "недели",
+        "неделю"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "лучше",
+      "definition": "better",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "difficulty": 1
+    },
+    {
+      "word": "вернуться",
+      "definition": "to return",
+      "partOfSpeech": "verb (pf)",
+      "forms": [
+        "вернулся",
+        "вернулась",
+        "вернулись"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "выходные",
+      "definition": "weekend",
+      "partOfSpeech": "noun (pl)",
+      "forms": [
+        "выходные",
+        "выходных",
+        "в выходные"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Куда Маша ходила в понедельник?",
+      "options": [
+        "На работу",
+        "К врачу",
+        "В магазин"
+      ],
+      "correctIndex": 1,
+      "explanation": "В понедельник она ходила к врачу."
+    },
+    {
+      "prompt": "Что Маша делала во вторник?",
+      "options": [
+        "Гуляла в парке",
+        "Работала",
+        "Отдыхала дома"
+      ],
+      "correctIndex": 2,
+      "explanation": "Во вторник она отдыхала дома и пила чай."
+    },
+    {
+      "prompt": "Когда Маше стало лучше?",
+      "options": [
+        "Во вторник",
+        "В среду",
+        "В четверг"
+      ],
+      "correctIndex": 1,
+      "explanation": "В среду Маше стало лучше, и она смогла гулять с Пряником."
+    },
+    {
+      "prompt": "Как Маша ездила на работу в четверг?",
+      "options": [
+        "На метро",
+        "На автобусе",
+        "На такси"
+      ],
+      "correctIndex": 0,
+      "explanation": "В четверг Маша ездила на работу на метро, потому что ей стало лучше."
+    },
+    {
+      "prompt": "С кем Маша обедала в пятницу?",
+      "options": [
+        "С Димой",
+        "С Анной",
+        "Одна"
+      ],
+      "correctIndex": 1,
+      "explanation": "В пятницу она обедала с Анной."
+    },
+    {
+      "prompt": "Что они ели?",
+      "options": [
+        "Пиццу",
+        "Салат",
+        "Суп"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша и Анна ели вкусную пиццу в кафе в пятницу."
+    },
+    {
+      "prompt": "Что делала Маша в выходные?",
+      "options": [
+        "Гуляла по городу",
+        "Спала",
+        "Работала"
+      ],
+      "correctIndex": 0,
+      "explanation": "В выходные Маша гуляла по городу."
+    },
+    {
+      "prompt": "Какая была неделя?",
+      "options": [
+        "Плохая",
+        "Скучная",
+        "Хорошая"
+      ],
+      "correctIndex": 2,
+      "explanation": "Неделя была хорошая — Маша отдохнула, встретилась с Анной и гуляла по городу."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "В понедельник я ходила к _____.",
+      "Во вторник я _____ дома.",
+      "В среду мне стало _____.",
+      "В четверг я _____ на работу.",
+      "В выходные я _____ по городу."
+    ],
+    "choices": [
+      "врачу",
+      "отдыхала",
+      "лучше",
+      "вернулась",
+      "гуляла",
+      "работала",
+      "хуже"
+    ],
+    "answers": [
+      "врачу",
+      "отдыхала",
+      "лучше",
+      "вернулась",
+      "гуляла"
+    ]
+  },
+  "sentenceReorder": {
+    "sentences": [
+      "В среду ей стало лучше.",
+      "В понедельник она ходила к врачу.",
+      "В четверг Маша вернулась на работу.",
+      "Во вторник она отдыхала дома."
+    ],
+    "correctOrder": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "What tense is 'ходила'?",
+      "options": [
+        "Past",
+        "Present",
+        "Future"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "tenses",
+      "sentenceRef": "В понедельник она ходила к врачу.",
+      "explanation": "'Ходила' is past tense feminine. Russian past tense changes by gender: он ходил (m.), она ходила (f.), они ходили (pl.). The -а ending shows the subject is female.",
+      "focusArea": "conjugation"
+    },
+    {
+      "prompt": "What does 'ей стало лучше' mean?",
+      "options": [
+        "She got better",
+        "She stayed the same",
+        "She got worse"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "expressions",
+      "sentenceRef": "В среду ей стало лучше.",
+      "explanation": "'Стало лучше' = 'became better'. 'Ей' (dative) = 'for her'. Use dative + стало + adverb to describe how someone feels. Example: Мне стало плохо (I felt bad), Ему стало лучше (He got better).",
+      "focusArea": "sentenceStructure"
+    }
+  ],
+  "audioFile": "a1-025.m4a",
+  "audioTimingFile": "a1-025-timing.json"
+}

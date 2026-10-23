@@ -1,0 +1,384 @@
+{
+  "id": "b1-track-motion-01-idti-xodit",
+  "level": "B1",
+  "focusArea": "motionVerbs",
+  "title": "Motion Verbs 1: идти vs ходить",
+  "titleRussian": "Глаголы движения 1: идти и ходить",
+  "description": "The first motion-verb pair: walking. идти marks a single one-way trip in progress; ходить marks a round-trip, a habit, or a general ability.",
+  "descriptionRussian": "Первая пара глаголов движения: пешком. Идти — однонаправленное движение в процессе. Ходить — туда и обратно, привычка или общая способность.",
+  "imageName": "figure.walk",
+  "trackId": "b1-motion-verbs-mastery",
+  "trackTitle": "Motion Verbs Mastery",
+  "trackTitleRussian": "Глаголы движения",
+  "trackIndex": 1,
+  "trackTotal": 11,
+  "intro": "Russian has no single verb meaning 'to go'. It has pairs, and the choice between the halves is not about tense or aspect but about the shape of the trip: one is a single journey underway in one direction, the other is a round trip, a habit, or a general fact. English buries that distinction in context. Russian puts it in the verb, and you have to pick before you speak.",
+  "rules": [
+    "Идти = a single one-way trip in motion: underway now, one direction, one occasion. Present: иду, идёшь, идёт, идём, идёте, идут. Past: шёл / шла / шло / шли (irregular).",
+    "Ходить = round-trip, habit, or general ability. Present: хожу, ходишь, ходит, ходим, ходите, ходят. Past: ходил / ходила / ходило / ходили (regular -ил).",
+    "Cues that pull идти: сейчас, потом, скоро, a single destination on a single trip, a moment-of-motion frame ('когда я шёл').",
+    "Cues that pull ходить: часто, обычно, каждый день, иногда, по + dative time (по выходным), a finished past round-trip ('вчера ходил в магазин').",
+    "Both verbs go on foot; пешком (on foot) pairs with either, but never with ехать or ездить."
+  ],
+  "examples": [
+    "Сейчас я иду в школу. (Right now I am going to school.) Идти: in-progress one-way trip.",
+    "Я хожу в школу каждый день. (I go to school every day.) Ходить: habit.",
+    "Антон ходил в парк вчера. (Anton went to the park yesterday and came back.) Ходить past: round-trip.",
+    "Когда Маша шла домой, она встретила Лену. (While Masha was walking home, she met Lena.) Идти past: motion in progress.",
+    "Лена часто ходит в музей. (Lena often goes to the museum.) Ходить with 'часто': habit.",
+    "Я иду пешком: магазин рядом. (I'm walking on foot; the store is close.) Идти: a single trip in progress."
+  ],
+  "tables": [
+    {
+      "title": "Motion on Foot: One-Way vs Round-Trip / Habit",
+      "headers": [
+        "Form",
+        "идти (one-way, in progress)",
+        "ходить (round-trip, habit)"
+      ],
+      "rows": [
+        {
+          "label": "1sg (я)",
+          "cells": [
+            "иду",
+            "хожу"
+          ]
+        },
+        {
+          "label": "2sg (ты)",
+          "cells": [
+            "идёшь",
+            "ходишь"
+          ]
+        },
+        {
+          "label": "3sg (он, она)",
+          "cells": [
+            "идёт",
+            "ходит"
+          ]
+        },
+        {
+          "label": "1pl (мы)",
+          "cells": [
+            "идём",
+            "ходим"
+          ]
+        },
+        {
+          "label": "2pl (вы)",
+          "cells": [
+            "идёте",
+            "ходите"
+          ]
+        },
+        {
+          "label": "3pl (они)",
+          "cells": [
+            "идут",
+            "ходят"
+          ]
+        },
+        {
+          "label": "Past masc.",
+          "cells": [
+            "шёл",
+            "ходил"
+          ]
+        },
+        {
+          "label": "Past fem.",
+          "cells": [
+            "шла",
+            "ходила"
+          ]
+        },
+        {
+          "label": "Past plural",
+          "cells": [
+            "шли",
+            "ходили"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Сейчас Маша _____ в школу.",
+          "promptEnglish": "Right now Masha is going to school.",
+          "options": [
+            "ходит",
+            "шла",
+            "идёт",
+            "ходила"
+          ],
+          "answer": "идёт",
+          "hint": "Right now, in progress, one direction. Which verb signals motion happening at this moment?",
+          "explanation": "'Сейчас' (right now) anchors the action to the present moment as a single one-way trip in progress. Идёт = 3sg of идти. The form ходит would describe a regular habit ('she goes to school'), which the present-moment cue rules out."
+        },
+        {
+          "prompt": "Антон _____ в парк каждое воскресенье.",
+          "promptEnglish": "Anton goes to the park every Sunday.",
+          "options": [
+            "идёт",
+            "ходит",
+            "шёл",
+            "идут"
+          ],
+          "answer": "ходит",
+          "hint": "Каждое воскресенье is a habit cue. Which member of the pair handles repeated trips?",
+          "explanation": "'Каждое воскресенье' (every Sunday) is a frequency cue: the trip repeats. Repetition is the work of ходить, 3sg ходит. The form идёт would describe a single one-way trip in progress, not a weekly pattern."
+        },
+        {
+          "prompt": "Вчера Лена _____ в магазин и купила хлеб.",
+          "promptEnglish": "Yesterday Lena went to the store (and came back) and bought bread.",
+          "options": [
+            "шла",
+            "идёт",
+            "идёшь",
+            "ходила"
+          ],
+          "answer": "ходила",
+          "hint": "A past trip there AND back is a round-trip. Which past form covers both legs?",
+          "explanation": "The past round-trip (Lena went to the store and returned) is the core ходить past meaning. Fem -ла: ходила. The form шла (past of идти) describes the moment of motion only ('she was walking'), not the completed there-and-back trip framed by 'вчера'."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Когда я _____ домой, я встретил старого друга.",
+          "promptEnglish": "While I (m) was walking home, I met an old friend.",
+          "options": [
+            "шёл",
+            "ходил",
+            "идёт",
+            "хожу"
+          ],
+          "answer": "шёл",
+          "hint": "'When I was walking home' frames a moment within a single one-way trip. Past masc?",
+          "explanation": "'Когда я шёл домой' = 'while I was walking home': a moment captured inside a single in-progress one-way trip. Past masc of идти: шёл (irregular). The form ходил would describe a completed there-and-back trip, which cannot host the meeting that interrupts the motion."
+        },
+        {
+          "prompt": "Дети _____ в школу пешком.",
+          "promptEnglish": "The kids walk to school (as a regular routine).",
+          "options": [
+            "идут",
+            "шли",
+            "ходят",
+            "ходила"
+          ],
+          "answer": "ходят",
+          "hint": "A general statement about how the kids commute, not a single trip happening now. Habit?",
+          "explanation": "The sentence describes how the kids regularly get to school, not what they are doing at this moment. Habit → ходить, 3pl ходят. Идут would mean they are walking to school right now, this single trip, which the general framing rules out."
+        },
+        {
+          "prompt": "Маша обычно _____ в кафе по выходным.",
+          "promptEnglish": "Masha usually goes to the café on weekends.",
+          "options": [
+            "идёт",
+            "шла",
+            "идём",
+            "ходит"
+          ],
+          "answer": "ходит",
+          "hint": "Обычно and по выходным are both habit cues. Which verb pairs with them?",
+          "explanation": "Both 'обычно' (usually) and 'по выходным' (on weekends) mark a recurring pattern. Habit + repetition → ходить, 3sg ходит. Идти cannot host habit cues: it describes one trip on one occasion, not a routine."
+        }
+      ]
+    }
+  ],
+  "conjugationTable": {
+    "verb": "ходить",
+    "paradigm": [
+      "хожу",
+      "ходишь",
+      "ходит",
+      "ходим",
+      "ходите",
+      "ходят"
+    ],
+    "blanks": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "hints": [
+      "я: the trap form. The д turns into ж, so it is not «ходю»",
+      "ты: 2nd conjugation, ход- + -ишь",
+      "мы: ход- + -им",
+      "они: 2nd conjugation, ход- + -ят (not -ют)"
+    ],
+    "tense": "present",
+    "explanations": [
+      "хожу: 1sg of ходить. This is the only form where д becomes ж. «Ходю» does not exist.",
+      "ходишь: 2sg of ходить. Every form except the 1sg keeps ход-: ходишь, ходит, ходим, ходите, ходят.",
+      "ходим: 1pl of ходить: ход- + -им, 'we go (regularly)'.",
+      "ходят: 3pl of ходить: ход- + -ят, the 2nd-conjugation ending, never «ходют»."
+    ]
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Сейчас",
+        "я",
+        "иду",
+        "в",
+        "школу"
+      ],
+      "answer": "Сейчас я иду в школу.",
+      "translation": "Right now I am going to school.",
+      "acceptableVariants": [
+        "Сейчас я иду в школу"
+      ],
+      "hint": "Frame: сейчас (now) + я + present of идти + destination. The cue 'сейчас' forces the one-way verb."
+    },
+    {
+      "words": [
+        "Каждый",
+        "день",
+        "Антон",
+        "ходит",
+        "на",
+        "работу"
+      ],
+      "answer": "Каждый день Антон ходит на работу.",
+      "translation": "Every day Anton goes to work.",
+      "acceptableVariants": [
+        "Каждый день Антон ходит на работу",
+        "Антон ходит на работу каждый день."
+      ],
+      "hint": "Frame: каждый день (every day) + name + present of ходить + destination. The habit cue forces the round-trip verb."
+    },
+    {
+      "words": [
+        "Дети",
+        "часто",
+        "ходят",
+        "в",
+        "парк"
+      ],
+      "answer": "Дети часто ходят в парк.",
+      "translation": "The children often go to the park.",
+      "acceptableVariants": [
+        "Дети часто ходят в парк",
+        "Часто дети ходят в парк."
+      ],
+      "hint": "Frame: subject + часто (often) + present of ходить (3pl) + destination. 'Часто' is a habit cue."
+    },
+    {
+      "words": [
+        "Когда",
+        "Лена",
+        "шла",
+        "домой",
+        "она",
+        "пела"
+      ],
+      "answer": "Когда Лена шла домой, она пела.",
+      "translation": "While Lena was walking home, she was singing.",
+      "acceptableVariants": [
+        "Когда Лена шла домой, она пела"
+      ],
+      "hint": "Frame: когда (while) + name + past of идти (fem) + destination, then the second clause. A moment inside one trip forces the one-way verb."
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я _____ в магазин каждое утро. (I (m) go to the store every morning.)"
+    ],
+    "choices": [
+      "иду",
+      "хожу",
+      "шёл",
+      "ходила"
+    ],
+    "answers": [
+      "хожу"
+    ],
+    "grammarFocus": "'Каждое утро' (every morning) is a habit cue: the trip repeats. Habit → ходить, 1sg хожу. Иду would describe a single one-way trip happening at this moment, which the daily-routine frame rules out."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Не звони мне сейчас: я хожу на важную встречу.",
+      "translationEnglish": "Don't call me right now: I'm on my way to an important meeting.",
+      "error": "хожу",
+      "correction": "иду",
+      "options": [
+        "иду",
+        "шёл",
+        "ходил"
+      ],
+      "explanation": "'Сейчас' anchors a single one-way trip in progress, which is the job of идти: иду. The round-trip хожу describes a habit ('I regularly attend important meetings'), which clashes with 'сейчас' and a single specific meeting. Choose идти for one trip happening now, ходить for routines and round-trips."
+    },
+    {
+      "sentence": "Каждую субботу я иду в бассейн.",
+      "translationEnglish": "Every Saturday I go to the swimming pool.",
+      "error": "иду",
+      "correction": "хожу",
+      "options": [
+        "хожу",
+        "шёл",
+        "ходил"
+      ],
+      "explanation": "'Каждую субботу' (every Saturday) is a frequency cue: the trip repeats, which is the work of the round-trip ходить: хожу. The one-way иду describes one trip happening right now, in one direction, which a weekly habit is not."
+    },
+    {
+      "sentence": "Вчера мы шли в музей и вернулись поздно вечером.",
+      "translationEnglish": "Yesterday we went to the museum and came back late in the evening.",
+      "error": "шли",
+      "correction": "ходили",
+      "options": [
+        "ходили",
+        "ходим",
+        "идём"
+      ],
+      "explanation": "The frame 'вчера ... и вернулись' (yesterday ... and came back) describes a completed there-and-back trip, which is the round-trip ходить past: ходили. The one-way шли captures only a moment of motion in one direction, not the whole round trip."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Сейчас я _____ в библиотеку.",
+      "contextEnglish": "I (m) am going to the library right now.",
+      "options": [
+        "иду",
+        "хожу"
+      ],
+      "answer": "иду",
+      "explanation": "'Сейчас' (right now) forces a present-moment in-progress reading: single one-way trip → идти, 1sg иду. Хожу would describe a habit (regular library trips), which the present-moment cue rules out."
+    },
+    {
+      "context": "Я _____ в кафе три раза в неделю.",
+      "contextEnglish": "I (m) go to a café three times a week.",
+      "options": [
+        "иду",
+        "хожу"
+      ],
+      "answer": "хожу",
+      "explanation": "'Три раза в неделю' (three times a week) is a frequency cue: repetition → ходить, 1sg хожу. Иду would describe a single one-way trip happening at this moment, which the recurring-pattern frame rules out."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "идти",
+      "definition": "to go on foot, one-way and in progress (single trip happening at the reference moment, in one direction)",
+      "example": "Сейчас Маша идёт в школу."
+    },
+    {
+      "term": "ходить",
+      "definition": "to go on foot, round-trip or habit or general ability (repeated trips, completed there-and-back, or the capacity to walk)",
+      "example": "Антон ходит на работу пешком каждый день."
+    },
+    {
+      "term": "пешком",
+      "definition": "on foot (the adverb that flags motion on foot; pairs with идти or ходить, never with ехать or ездить)",
+      "example": "Я хожу в магазин пешком: он близко."
+    }
+  ]
+}

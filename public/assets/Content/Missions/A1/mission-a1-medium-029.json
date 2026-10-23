@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-029",
+  "title": "No Still Water",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "Only sparkling water is available",
+  "imageName": "drop.fill",
+  "initialPrompt": "Что вам?",
+  "systemPrompt": "You sell drinks. Still water sold out. Say 'Воды без газа нет. Только газированная.' Keep replies short.",
+  "completionCriteria": "User accepted sparkling or found alternative.",
+  "responseLimit": 15,
+  "hints": [
+    "Воду без газа (Still water)",
+    "А газированная есть? (Is there sparkling?)",
+    "Ладно, газированную (Okay, sparkling)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "без газа",
+      "definition": "still (without gas)"
+    },
+    {
+      "word": "газированная",
+      "definition": "sparkling"
+    },
+    {
+      "word": "только",
+      "definition": "only"
+    },
+    {
+      "word": "ладно",
+      "definition": "okay/fine"
+    },
+    {
+      "word": "нет",
+      "definition": "no/none"
+    }
+  ],
+  "objectives": [
+    "Ask for still water",
+    "Learn it's unavailable (нет)",
+    "Accept sparkling or find alternative"
+  ]
+}

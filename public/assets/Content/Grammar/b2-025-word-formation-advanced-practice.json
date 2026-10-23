@@ -1,0 +1,767 @@
+{
+  "lessonId": "b2-025-word-formation-advanced",
+  "sets": [
+    {
+      "id": "round-1-formation-types",
+      "title": "Formation Types",
+      "titleRussian": "Типы словообразования",
+      "description": "Identify word formation patterns and sort by type",
+      "descriptionRussian": "Определите способы словообразования и рассортируйте по типам",
+      "icon": "textformat.abc",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "писать → переписать. What formation type is this?",
+              "promptEnglish": "to write → to rewrite. What changed?",
+              "options": [
+                "Suffixation",
+                "Prefixation",
+                "Compounding",
+                "Back-formation"
+              ],
+              "answer": "Prefixation",
+              "hint": "A new element was added before the root.",
+              "explanation": "пере- is a prefix added to писать. Prefixation changes meaning while keeping the same word class (verb → verb)."
+            },
+            {
+              "prompt": "учить → учитель. What formation type is this?",
+              "promptEnglish": "to teach → teacher",
+              "options": [
+                "Compounding",
+                "Prefixation",
+                "Back-formation",
+                "Suffixation"
+              ],
+              "answer": "Suffixation",
+              "hint": "An element was added after the root, changing the word class.",
+              "explanation": "The suffix -тель was added to create an agent noun. Suffixation often changes the part of speech (verb → noun)."
+            },
+            {
+              "prompt": "пар + воз → паровоз. What formation type is this?",
+              "promptEnglish": "steam + carrier → steam locomotive",
+              "options": [
+                "Prefixation",
+                "Suffixation",
+                "Compounding",
+                "Conversion"
+              ],
+              "answer": "Compounding",
+              "hint": "Two separate roots were joined together.",
+              "explanation": "Two roots (пар + воз) joined by the linking vowel -о- form a compound word: паровоз."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "What does the prefix вы- typically mean?",
+              "promptEnglish": "выходить, выписать, выбросить",
+              "options": [
+                "into, inside",
+                "under, below",
+                "again, across",
+                "out, outward"
+              ],
+              "answer": "out, outward",
+              "hint": "All these verbs involve movement outward.",
+              "explanation": "вы- = out: выходить (go out), выписать (write out), выбросить (throw out)."
+            },
+            {
+              "prompt": "What does the suffix -ник create?",
+              "promptEnglish": "учебник, работник, чайник",
+              "options": [
+                "An adjective",
+                "A diminutive",
+                "An agent or object noun",
+                "An action noun"
+              ],
+              "answer": "An agent or object noun",
+              "hint": "These words name people or objects.",
+              "explanation": "-ник creates nouns for agents (работник = worker) or objects (учебник = textbook, чайник = teapot)."
+            },
+            {
+              "prompt": "водопад: вод + о + пад. What links the two roots?",
+              "promptEnglish": "waterfall: water + fall",
+              "options": [
+                "The suffix -ение",
+                "Nothing, they join directly",
+                "The linking vowel -о-",
+                "The prefix в-"
+              ],
+              "answer": "The linking vowel -о-",
+              "hint": "Russian compounds use a special vowel between roots.",
+              "explanation": "The linking vowel -о- (sometimes -е-) connects roots in compound words: вод-о-пад, пар-о-воз, сам-о-лёт."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "читать → чтение. What does -ение/-ание create?",
+              "promptEnglish": "to read → reading (as a process)",
+              "options": [
+                "An agent noun (person)",
+                "A place noun",
+                "An action/process noun",
+                "An adjective"
+              ],
+              "answer": "An action/process noun",
+              "hint": "This suffix turns a verb into a noun describing the action itself.",
+              "explanation": "-ение/-ание creates verbal nouns: чтение (reading), учение (learning), написание (writing)."
+            },
+            {
+              "prompt": "What does the prefix за- mean in запеть, заговорить, заплакать?",
+              "promptEnglish": "to start singing, to start speaking, to start crying",
+              "options": [
+                "repetition",
+                "beginning of an action",
+                "completion",
+                "reversal"
+              ],
+              "answer": "beginning of an action",
+              "hint": "All three verbs describe the start of something.",
+              "explanation": "за- with verbs of sound/emotion marks the beginning: запеть (burst into song), заговорить (start talking), заплакать (start crying)."
+            },
+            {
+              "prompt": "землетрясение: земл + е + тряс + ение. How many formation processes are combined?",
+              "promptEnglish": "earthquake = earth-shaking",
+              "options": [
+                "One: suffixation only",
+                "Two: compounding + suffixation",
+                "Three: prefix + suffix + compound",
+                "One: compounding only"
+              ],
+              "answer": "Two: compounding + suffixation",
+              "hint": "Two roots were joined, AND a suffix was added.",
+              "explanation": "землетрясение combines compounding (земл + тряс, linked by -е-) with suffixation (-ение). Complex words often layer multiple formation types."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these derived words by formation type",
+        "categories": [
+          "Prefixation",
+          "Suffixation",
+          "Compounding"
+        ],
+        "items": [
+          {
+            "word": "написать (to complete writing)",
+            "category": "Prefixation"
+          },
+          {
+            "word": "писатель (writer)",
+            "category": "Suffixation"
+          },
+          {
+            "word": "пароход (steamship)",
+            "category": "Compounding"
+          },
+          {
+            "word": "выходить (to go out)",
+            "category": "Prefixation"
+          },
+          {
+            "word": "учебный (educational)",
+            "category": "Suffixation"
+          },
+          {
+            "word": "водовоз (water carrier)",
+            "category": "Compounding"
+          },
+          {
+            "word": "приехать (to arrive)",
+            "category": "Prefixation"
+          },
+          {
+            "word": "строитель (builder)",
+            "category": "Suffixation"
+          },
+          {
+            "word": "ледокол (icebreaker)",
+            "category": "Compounding"
+          }
+        ]
+      },
+      "patternRecognition": [
+        {
+          "sentence": "читатель, писатель, учитель, строитель, водитель",
+          "question": "What pattern unites all these words?",
+          "options": [
+            "Compound words with -о-",
+            "Agent nouns with -тель suffix",
+            "Action nouns with -ение",
+            "Prefixed verbs with пере-"
+          ],
+          "answer": "Agent nouns with -тель suffix",
+          "explanation": "All are agent nouns: the -тель suffix creates 'person who does X' from verbs (читать → читатель, строить → строитель)."
+        },
+        {
+          "sentence": "самолёт, пароход, паровоз, водопад, ледокол",
+          "question": "What formation process do these words share?",
+          "options": [
+            "Suffixation with -ник",
+            "Prefixation with вы-",
+            "Compounding: two roots + linking vowel",
+            "Back-formation from verbs"
+          ],
+          "answer": "Compounding: two roots + linking vowel",
+          "explanation": "All are compound words with two roots: сам+о+лёт, пар+о+ход, пар+о+воз, вод+о+пад, лед+о+кол."
+        },
+        {
+          "sentence": "написать, выписать, записать, переписать, подписать",
+          "question": "What holds this word family together?",
+          "options": [
+            "Same suffix, different roots",
+            "Same root (пис-), different prefixes",
+            "All are compound words",
+            "All are agent nouns"
+          ],
+          "answer": "Same root (пис-), different prefixes",
+          "explanation": "All share the root пис- (write) with different prefixes: на-, вы-, за-, пере-, под-. Each prefix shifts the meaning."
+        }
+      ]
+    },
+    {
+      "id": "round-2-root-recognition",
+      "title": "Root Recognition",
+      "titleRussian": "Распознавание корней",
+      "description": "Identify roots in derived and compound words",
+      "descriptionRussian": "Определите корни в производных и сложных словах",
+      "icon": "magnifyingglass",
+      "fillInBlank": {
+        "blanks": [
+          "писать + на- = _____ (to finish writing, complete)",
+          "писать + пере- = _____ (to rewrite, copy over)",
+          "писать + вы- = _____ (to write out, extract)",
+          "писать + за- = _____ (to write down, note)",
+          "писать + под- = _____ (to sign, subscribe)"
+        ],
+        "choices": [
+          "написать",
+          "переписать",
+          "выписать",
+          "записать",
+          "подписать"
+        ],
+        "answers": [
+          "написать",
+          "переписать",
+          "выписать",
+          "записать",
+          "подписать"
+        ],
+        "grammarFocus": "Prefix changes meaning while the root stays the same",
+        "hints": [
+          "на- often means completion or accumulation.",
+          "пере- means re- or across.",
+          "вы- means out.",
+          "за- can mean behind, or the beginning/recording of an action.",
+          "под- means under or up to."
+        ],
+        "explanations": [
+          "на- + писать = написать: the prefix adds the meaning of completion.",
+          "пере- + писать = переписать: re-write or copy over.",
+          "вы- + писать = выписать: write out, extract from a list or text.",
+          "за- + писать = записать: write down, record, note.",
+          "под- + писать = подписать: sign (write under), subscribe."
+        ],
+        "options": [
+          [
+            "выписать",
+            "написать",
+            "записать",
+            "переписать"
+          ],
+          [
+            "переписать",
+            "записать",
+            "выписать",
+            "написать"
+          ],
+          [
+            "написать",
+            "выписать",
+            "переписать",
+            "записать"
+          ],
+          [
+            "написать",
+            "выписать",
+            "записать",
+            "переписать"
+          ],
+          [
+            "переписать",
+            "написать",
+            "подписать",
+            "выписать"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "Лена _____ рецепт из книги. (copied out a recipe from a book)",
+          "contextEnglish": "Lena wrote out a recipe from a book.",
+          "options": [
+            "выписала",
+            "записала"
+          ],
+          "answer": "выписала",
+          "explanation": "выписать = write out, extract from a source. записать = write down, make a note. Extracting from a book = выписать."
+        },
+        {
+          "context": "Врач _____ ей направление. (issued/prescribed a referral)",
+          "contextEnglish": "The doctor issued her a referral.",
+          "options": [
+            "выписал",
+            "записал"
+          ],
+          "answer": "выписал",
+          "explanation": "выписать also means to issue/prescribe (a document, prescription). записать = write down, record."
+        },
+        {
+          "context": "Журналист _____ все факты в блокнот. (noted down all the facts)",
+          "contextEnglish": "The journalist wrote down all the facts in a notebook.",
+          "options": [
+            "записал",
+            "переписал"
+          ],
+          "answer": "записал",
+          "explanation": "записать = to write down, record. переписать = to rewrite or copy. Writing new notes = записать."
+        },
+        {
+          "context": "Студент _____ сочинение заново. (rewrote the essay from scratch)",
+          "contextEnglish": "The student rewrote the essay.",
+          "options": [
+            "переписал",
+            "подписал"
+          ],
+          "answer": "переписал",
+          "explanation": "переписать = to rewrite. подписать = to sign. Starting over = переписать."
+        },
+        {
+          "context": "Директор _____ документ. (signed the document)",
+          "contextEnglish": "The director signed the document.",
+          "options": [
+            "подписал",
+            "написал"
+          ],
+          "answer": "подписал",
+          "explanation": "подписать = to sign (literally 'write under'). написать = to write/compose. Putting a signature = подписать."
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What is the shared root in: водопад, водовоз, подводный?",
+              "promptEnglish": "waterfall, water carrier, underwater",
+              "options": [
+                "пад-",
+                "воз-",
+                "вод-",
+                "под-"
+              ],
+              "answer": "вод-",
+              "hint": "All three words relate to water.",
+              "explanation": "вод- is the root from вода (water): водо-пад (water-fall), водо-воз (water-carrier), под-вод-ный (under-water)."
+            },
+            {
+              "prompt": "What is the shared root in: летать, самолёт, лётчик, вылет?",
+              "promptEnglish": "to fly, airplane, pilot, departure",
+              "options": [
+                "сам-",
+                "лёт-/лет-",
+                "чик-",
+                "вы-"
+              ],
+              "answer": "лёт-/лет-",
+              "hint": "All relate to flight.",
+              "explanation": "лёт-/лет- (flight/fly) appears in all: само-лёт (self-flyer), лёт-чик (flyer/pilot), вы-лет (departure, lit. flying out)."
+            },
+            {
+              "prompt": "What is the shared root in: учить, учитель, ученик, учебник, учение?",
+              "promptEnglish": "to teach, teacher, student, textbook, learning",
+              "options": [
+                "тель-",
+                "уч-",
+                "ник-",
+                "ение-"
+              ],
+              "answer": "уч-",
+              "hint": "All relate to teaching and learning.",
+              "explanation": "уч- (teach/learn) is the root: уч-итель (teacher), уч-еник (student), уч-ебник (textbook), уч-ение (learning)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-building-translating",
+      "title": "Build and Translate",
+      "titleRussian": "Составьте и переведите",
+      "description": "Build sentences with derived words and translate word formation patterns",
+      "descriptionRussian": "Составьте предложения с производными словами и переведите",
+      "icon": "hammer.fill",
+      "translation": [
+        {
+          "english": "The writer finished the novel last week.",
+          "answer": "Писатель закончил роман на прошлой неделе.",
+          "acceptableVariants": [
+            "На прошлой неделе писатель закончил роман.",
+            "Писатель дописал роман на прошлой неделе."
+          ],
+          "hint": "Use the agent noun from писать + -тель.",
+          "grammarFocus": "Agent noun -тель",
+          "keyWord": "Писатель",
+          "options": [
+            "Писатель",
+            "Читатель",
+            "Учитель",
+            "Строитель"
+          ]
+        },
+        {
+          "english": "The students rewrote the test.",
+          "answer": "Студенты переписали тест.",
+          "acceptableVariants": [
+            "Студенты переписали контрольную.",
+            "Студенты переписали экзамен."
+          ],
+          "hint": "Use пере- + писать for 'rewrite.'",
+          "grammarFocus": "Prefix пере- = re-",
+          "keyWord": "переписали",
+          "options": [
+            "переписали",
+            "написали",
+            "выписали",
+            "записали"
+          ]
+        },
+        {
+          "english": "This steamship is very old.",
+          "answer": "Этот пароход очень старый.",
+          "acceptableVariants": [
+            "Этот пароход очень старый.",
+            "Пароход этот очень старый."
+          ],
+          "hint": "Steam (пар) + goes (ход) = compound word for steamship.",
+          "grammarFocus": "Compound: пар + о + ход",
+          "keyWord": "пароход",
+          "options": [
+            "пароход",
+            "паровоз",
+            "теплоход",
+            "водопад"
+          ]
+        },
+        {
+          "english": "She signed the document without reading it.",
+          "answer": "Она подписала документ, не читая его.",
+          "acceptableVariants": [
+            "Она подписала документ, не прочитав его.",
+            "Не читая документ, она его подписала."
+          ],
+          "hint": "Use под- + писать for 'to sign.'",
+          "grammarFocus": "Prefix под- = under",
+          "keyWord": "подписала",
+          "options": [
+            "подписала",
+            "написала",
+            "переписала",
+            "выписала"
+          ]
+        },
+        {
+          "english": "Learning new words takes time.",
+          "answer": "Изучение новых слов требует времени.",
+          "acceptableVariants": [
+            "Заучивание новых слов занимает время.",
+            "На изучение новых слов нужно время."
+          ],
+          "hint": "Turn the verb изучать into a verbal noun with -ение.",
+          "grammarFocus": "Action noun -ение",
+          "keyWord": "Изучение",
+          "options": [
+            "Изучение",
+            "Обучение",
+            "Учение",
+            "Изучать"
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "сам + лёт = _____ (airplane)",
+          "вод + пад = _____ (waterfall)",
+          "пар + ход = _____ (steamship)",
+          "лёд + кол = _____ (icebreaker)",
+          "земл + тряс + ение = _____ (earthquake)"
+        ],
+        "choices": [
+          "самолёт",
+          "водопад",
+          "пароход",
+          "ледокол",
+          "землетрясение"
+        ],
+        "answers": [
+          "самолёт",
+          "водопад",
+          "пароход",
+          "ледокол",
+          "землетрясение"
+        ],
+        "grammarFocus": "Compound word formation with linking vowels",
+        "hints": [
+          "self + flight, linked by -о-.",
+          "water + fall, linked by -о-.",
+          "steam + goes, linked by -о-.",
+          "ice + split, linked by -о-.",
+          "earth + shake + action suffix, linked by -е-."
+        ],
+        "explanations": [
+          "сам-о-лёт: сам (self) + лёт (flight) = airplane.",
+          "вод-о-пад: вода (water) + падать (to fall) = waterfall.",
+          "пар-о-ход: пар (steam) + ходить (to go) = steamship.",
+          "лед-о-кол: лёд (ice) + колоть (to split) = icebreaker.",
+          "земл-е-тряс-ение: земля (earth) + трясти (to shake) + -ение = earthquake. Uses linking vowel -е-."
+        ],
+        "options": [
+          [
+            "самолёт",
+            "паровоз",
+            "вертолёт",
+            "пароход"
+          ],
+          [
+            "водопад",
+            "листопад",
+            "снегопад",
+            "звездопад"
+          ],
+          [
+            "пароход",
+            "теплоход",
+            "ледокол",
+            "самолёт"
+          ],
+          [
+            "ледокол",
+            "пароход",
+            "самолёт",
+            "вертолёт"
+          ],
+          [
+            "землетрясение",
+            "наводнение",
+            "землемер",
+            "водопровод"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All word formation types mixed in varied exercises",
+      "descriptionRussian": "Все типы словообразования в разных упражнениях",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "ходить → вход, выход, переход, поход. These are all formed by:",
+              "promptEnglish": "entrance, exit, crossing, hike",
+              "options": [
+                "Suffixation",
+                "Compounding",
+                "Prefixation + zero suffix",
+                "Back-formation"
+              ],
+              "answer": "Prefixation + zero suffix",
+              "hint": "The verb root gets a prefix and becomes a noun without an added suffix.",
+              "explanation": "в-ход, вы-ход, пере-ход, по-ход: prefix + root with no overt suffix (zero suffixation). This is a productive pattern for creating nouns from motion verbs."
+            },
+            {
+              "prompt": "Which word means 'earthquake'?",
+              "promptEnglish": "земля (earth) + трясти (to shake)",
+              "options": [
+                "земляника",
+                "землетрясение",
+                "землевладелец",
+                "землекоп"
+              ],
+              "answer": "землетрясение",
+              "hint": "Compound word + -ение action noun suffix.",
+              "explanation": "земл-е-тряс-ение (earthquake): compound of земля + трясти with the action noun suffix -ение."
+            },
+            {
+              "prompt": "носить → переносить. What meaning does пере- add here?",
+              "promptEnglish": "to carry → to transfer, move",
+              "options": [
+                "beginning",
+                "outward movement",
+                "transfer, moving across",
+                "completion"
+              ],
+              "answer": "transfer, moving across",
+              "hint": "пере- often means 'across' or 'from one place to another.'",
+              "explanation": "пере- adds the meaning of transfer or moving across: переносить (to carry over/transfer), also переехать (to move house)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Which is the correct agent noun from 'водить' (to drive)?",
+              "promptEnglish": "driver",
+              "options": [
+                "водник",
+                "водчик",
+                "водец",
+                "водитель"
+              ],
+              "answer": "водитель",
+              "hint": "The standard agent suffix for this verb is -тель.",
+              "explanation": "водить + -тель = водитель (driver). Not every verb takes -тель (e.g., работать → работник with -ник), but водить does."
+            },
+            {
+              "prompt": "What type of compound is мореплаватель?",
+              "promptEnglish": "seafarer, navigator",
+              "options": [
+                "Prefix + suffix",
+                "Root + root + agent suffix",
+                "Simple suffixation",
+                "Back-formation"
+              ],
+              "answer": "Root + root + agent suffix",
+              "hint": "море (sea) + плавать (to sail) + -тель (person who).",
+              "explanation": "мор-е-плава-тель: compound (море + плавать) with linking vowel -е- and agent suffix -тель. Three formation processes in one word."
+            },
+            {
+              "prompt": "под- + писать = подписать. What does it mean?",
+              "promptEnglish": "under + to write = ?",
+              "options": [
+                "to rewrite",
+                "to describe",
+                "to sign",
+                "to write out"
+              ],
+              "answer": "to sign",
+              "hint": "Literally 'to write under' (your name at the bottom).",
+              "explanation": "под- (under) + писать (write) = подписать (to sign): literally placing your name underneath a document."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "Which suffix creates feminine agent nouns from masculine -тель?",
+              "promptEnglish": "учитель → учительница",
+              "options": [
+                "-ка",
+                "-ша",
+                "-ница",
+                "-иха"
+              ],
+              "answer": "-ница",
+              "hint": "учитель → учитель-ница, писатель → писатель-ница.",
+              "explanation": "-ница is added to -тель nouns to form feminine equivalents: учительница (female teacher), писательница (female writer)."
+            },
+            {
+              "prompt": "пылесос: пыль + сосать. What is this household object?",
+              "promptEnglish": "dust + to suck = ?",
+              "options": [
+                "dustpan",
+                "vacuum cleaner",
+                "broom",
+                "mop"
+              ],
+              "answer": "vacuum cleaner",
+              "hint": "A machine that sucks up dust.",
+              "explanation": "пыл-е-сос: пыль (dust) + сосать (to suck) = vacuum cleaner. A compound noun with linking vowel -е-."
+            },
+            {
+              "prompt": "до- + писать = дописать. What does it mean?",
+              "promptEnglish": "to + write = ?",
+              "options": [
+                "to rewrite",
+                "to sign",
+                "to finish writing",
+                "to copy out"
+              ],
+              "answer": "to finish writing",
+              "hint": "до- often means 'up to the end, to completion.'",
+              "explanation": "до- + писать = дописать (to finish writing, write to the end). до- adds the meaning of completing an action."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [],
+      "minimalPairs": [
+        {
+          "context": "Алексей _____ все документы из офиса. (carried out, removed)",
+          "contextEnglish": "Alexey carried all the documents out of the office.",
+          "options": [
+            "вынес",
+            "занёс"
+          ],
+          "answer": "вынес",
+          "explanation": "вы-нести (carry out) vs. за-нести (bring in, carry in). Moving things OUT of the office = вынес."
+        },
+        {
+          "context": "Курьер _____ посылку в офис. (brought/carried in)",
+          "contextEnglish": "The courier brought the package into the office.",
+          "options": [
+            "занёс",
+            "вынес"
+          ],
+          "answer": "занёс",
+          "explanation": "за-нести (carry in, bring) vs. вы-нести (carry out). Delivering INTO the office = занёс."
+        },
+        {
+          "context": "учить → _____: a person who teaches",
+          "contextEnglish": "teacher (male)",
+          "options": [
+            "учитель",
+            "учебник"
+          ],
+          "answer": "учитель",
+          "explanation": "учитель (teacher, -тель = agent) vs. учебник (textbook, -ник = object). A person = учитель."
+        },
+        {
+          "context": "учить → _____: a book for studying",
+          "contextEnglish": "textbook",
+          "options": [
+            "учебник",
+            "учитель"
+          ],
+          "answer": "учебник",
+          "explanation": "учебник (textbook, -ник = tool/object for learning) vs. учитель (teacher, -тель = person). A book = учебник."
+        },
+        {
+          "context": "Она _____ статью для журнала. (wrote, authored from scratch)",
+          "contextEnglish": "She wrote an article for the magazine.",
+          "options": [
+            "написала",
+            "переписала"
+          ],
+          "answer": "написала",
+          "explanation": "на-писать (write, complete a new text) vs. пере-писать (rewrite). Creating from scratch = написала."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-034",
+  "title": "Style Mismatch",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "The interior designer suggests a style you do not want",
+  "imageName": "paintpalette.fill",
+  "initialPrompt": "Здравствуйте! Я посмотрела вашу квартиру и предлагаю современный минимализм — белые стены, минимум мебели. Это сейчас очень модно!",
+  "systemPrompt": "You are interior designer pushing minimalist style. User prefers cozy/traditional. Adapt suggestions when they express preferences, find compromise. Keep replies short.",
+  "completionCriteria": "User redirected design direction and agreed on a style they like.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нравится более уютный стиль (I like a cozier style)",
+    "Можно добавить больше тепла? (Can we add more warmth?)",
+    "Я предпочитаю классический интерьер (I prefer a classic interior)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "интерьер",
+      "definition": "interior"
+    },
+    {
+      "word": "стиль",
+      "definition": "style"
+    },
+    {
+      "word": "уютный",
+      "definition": "cozy"
+    },
+    {
+      "word": "минимализм",
+      "definition": "minimalism"
+    },
+    {
+      "word": "классический",
+      "definition": "classic"
+    },
+    {
+      "word": "предпочтение",
+      "definition": "preference"
+    }
+  ],
+  "objectives": [
+    "Politely decline suggested style (не совсем то)",
+    "Explain your preferences (предпочитаю)",
+    "Redirect the designer (другой стиль)",
+    "Agree on a suitable direction"
+  ]
+}

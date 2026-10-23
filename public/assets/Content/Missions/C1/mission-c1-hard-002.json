@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-002",
+  "title": "Hostile Takeover Resistance",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Fight corporate raiders trying to seize your company",
+  "imageName": "building.2.fill",
+  "initialPrompt": "Мы приобрели 45% акций. Ваше управление неэффективно. Совет директоров скоро проголосует за вашу замену. Сдавайтесь.",
+  "systemPrompt": "You are aggressive corporate raider. Cite poor performance, threaten board action. Only negotiate if founder shows strong shareholder support and clear turnaround plan.",
+  "completionCriteria": "User defended company from hostile takeover.",
+  "responseLimit": 15,
+  "hints": [
+    "Наши акционеры лояльны (Our shareholders are loyal)",
+    "Результаты последнего квартала показывают рост (Last quarter results show growth)"
+  ],
+  "targetVocabulary": [
+    {"word": "поглощение", "definition": "takeover"},
+    {"word": "акционер", "definition": "shareholder"},
+    {"word": "совет директоров", "definition": "board of directors"},
+    {"word": "голосование", "definition": "vote"},
+    {"word": "контроль", "definition": "control"},
+    {"word": "сопротивление", "definition": "resistance"}
+  ],
+  "objectives": [
+    "Rally shareholder support",
+    "Present performance data",
+    "Counter accusations",
+    "Block takeover attempt",
+    "Preserve leadership"
+  ]
+}

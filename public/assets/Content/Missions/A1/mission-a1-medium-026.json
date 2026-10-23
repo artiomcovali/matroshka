@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-026",
+  "title": "Card Stock Limited",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "No birthday cards left, only blank cards",
+  "imageName": "envelope.fill",
+  "initialPrompt": "Здравствуйте! Вам нужна открытка?",
+  "systemPrompt": "You sell cards. Birthday cards sold out. Say 'Открыток на день рождения нет. Есть простые открытки.' Keep replies short.",
+  "completionCriteria": "User bought a blank card or found alternative.",
+  "responseLimit": 15,
+  "hints": [
+    "На день рождения (For a birthday)",
+    "А простые есть? (Do you have plain ones?)",
+    "Хорошо, возьму простую (Okay, I'll take a plain one)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "открытка",
+      "definition": "card"
+    },
+    {
+      "word": "простой",
+      "definition": "plain/simple"
+    },
+    {
+      "word": "нет",
+      "definition": "no/none"
+    },
+    {
+      "word": "кончились",
+      "definition": "ran out"
+    },
+    {
+      "word": "написать",
+      "definition": "to write"
+    }
+  ],
+  "objectives": [
+    "Ask for birthday card",
+    "Learn they're sold out (нет)",
+    "Buy blank card (простая открытка)"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mission-a2-medium-014",
+  "title": "Phone Plan",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Get a new phone plan but the best deal requires a contract",
+  "imageName": "phone.fill",
+  "initialPrompt": "Здравствуйте! Интересуетесь мобильной связью? У нас отличные тарифы!",
+  "systemPrompt": "You sell phone plans. Best plan 500₽/month needs 1-year contract. Without contract: 700₽/month. Both include unlimited calls, 10GB data. Ask how much data they need. Keep replies short.",
+  "completionCriteria": "User chose a plan with or without contract.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужен новый тариф (I need a new plan)",
+    "Сколько интернета включено? (How much data is included?)",
+    "Без контракта можно? (Is it possible without a contract?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "тариф",
+      "definition": "plan/rate"
+    },
+    {
+      "word": "контракт",
+      "definition": "contract"
+    },
+    {
+      "word": "интернет",
+      "definition": "internet/data"
+    },
+    {
+      "word": "безлимитный",
+      "definition": "unlimited"
+    },
+    {
+      "word": "гигабайт",
+      "definition": "gigabyte"
+    },
+    {
+      "word": "звонки",
+      "definition": "calls"
+    }
+  ],
+  "objectives": [
+    "Ask about available plans",
+    "Understand contract vs. no-contract options",
+    "Ask about data and calls included",
+    "Decide on contract or no contract",
+    "Complete sign-up"
+  ]
+}

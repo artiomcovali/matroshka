@@ -1,0 +1,322 @@
+{
+  "id": "a2-track-dative-07-mixed-review",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Dative 7: Mixed Review (All Triggers, All Genders)",
+  "titleRussian": "Дательный 7: Итоговый обзор",
+  "description": "Synthesis lesson. Mixes verbs of giving, нравится, age, feelings, and к + motion across all genders.",
+  "descriptionRussian": "Итоговый урок. Смешивает все триггеры дательного падежа из этого трека.",
+  "imageName": "checkmark.seal",
+  "trackId": "a2-dative-mastery",
+  "trackTitle": "Dative Mastery",
+  "trackTitleRussian": "Дательный падеж",
+  "trackIndex": 7,
+  "trackTotal": 8,
+  "intro": "Six different things send a noun into the dative, and they have almost nothing in common in meaning: helping someone, giving them something, liking, age, feeling, and going toward. The endings do not care. Whichever trigger fired, the form on the noun is the one you learned in lesson 1. Find the trigger, then apply the same rule as always.",
+  "rules": [
+    "All six dative triggers from this track use the same form rules. Identify the trigger first; then apply the gender rule.",
+    "Verbs and constructions that take the dative: помогать, звонить, дать / давать, дарить, покупать, писать, посылать, нравиться, age (X лет), state predicates (холодно, скучно, etc.), and к (motion toward).",
+    "When you see a dative form in a sentence, ask: which trigger is creating it? The trigger and meaning differ across the six patterns; the form rules do not."
+  ],
+  "examples": [
+    "Маше нравится спорт. (нравится; the liker is dative)",
+    "Антону двадцать лет. (age; the experiencer is dative)",
+    "Мне холодно. (state; the experiencer is dative)",
+    "Я иду к брату. (к + motion; the target is dative)",
+    "Я даю книгу другу. (giving; the recipient is dative)",
+    "Маша помогает тёте. (helping; the helped person is dative)"
+  ],
+  "tables": [
+    {
+      "title": "Track Summary: Six Dative Triggers",
+      "headers": [
+        "Type",
+        "Trigger",
+        "Role",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "помогать / звонить",
+          "cells": [
+            "помогать / звонить",
+            "the helped / called person",
+            "Я помогаю брату."
+          ]
+        },
+        {
+          "label": "verbs of giving",
+          "cells": [
+            "давать, дарить, etc.",
+            "the recipient",
+            "Я даю книгу другу."
+          ]
+        },
+        {
+          "label": "нравиться",
+          "cells": [
+            "нравиться",
+            "the liker",
+            "Мне нравится фильм."
+          ]
+        },
+        {
+          "label": "age",
+          "cells": [
+            "X лет",
+            "the experiencer",
+            "Маше двадцать лет."
+          ]
+        },
+        {
+          "label": "state predicates",
+          "cells": [
+            "холодно, скучно...",
+            "the experiencer",
+            "Мне холодно."
+          ]
+        },
+        {
+          "label": "к",
+          "cells": [
+            "к (preposition)",
+            "the target of motion",
+            "Я иду к маме."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я иду к _____.",
+          "promptEnglish": "I'm going to mom.",
+          "options": [
+            "мама",
+            "мамы",
+            "маме",
+            "маму"
+          ],
+          "answer": "маме",
+          "hint": "Recap from Lesson 6: к takes which case?",
+          "explanation": "Recap from Lesson 6: к takes the dative. Мама is fem -а: -а → -е → маме. The whole construction expresses motion toward."
+        },
+        {
+          "prompt": "_____ нравится спорт.",
+          "promptEnglish": "Anton likes sport.",
+          "options": [
+            "Антону",
+            "Антона",
+            "Антон",
+            "Антоном"
+          ],
+          "answer": "Антону",
+          "hint": "Нравится puts the liker in which case?",
+          "explanation": "Нравиться puts the liker in the dative. Антон → Антону. Спорт is the nominative subject of the verb (singular, so the verb is нравится, not нравятся)."
+        },
+        {
+          "prompt": "_____ двадцать лет.",
+          "promptEnglish": "Sister is 20 years old.",
+          "options": [
+            "сестра",
+            "сестрой",
+            "сестры",
+            "сестре"
+          ],
+          "answer": "сестре",
+          "hint": "Age puts the experiencer in which case?",
+          "explanation": "The age experiencer is dative. Сестра is fem -а: -а → -е → сестре. Двадцать takes лет (5+ form)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ холодно.",
+          "promptEnglish": "I'm cold.",
+          "options": [
+            "я",
+            "мне",
+            "меня",
+            "мной"
+          ],
+          "answer": "мне",
+          "hint": "State predicate puts the experiencer in which case?",
+          "explanation": "State predicates take a dative experiencer. Я → мне. Russian does not say 'Я холодный' (which would mean 'I am a cold-natured person')."
+        },
+        {
+          "prompt": "Маша даёт книгу _____.",
+          "promptEnglish": "Masha is giving the book to brother.",
+          "options": [
+            "брата",
+            "брате",
+            "братом",
+            "брату"
+          ],
+          "answer": "брату",
+          "hint": "Recipient of давать goes in which case?",
+          "explanation": "Recipients of giving verbs are dative. Брат → брату. Notice the structure: subject (Маша) + verb (даёт) + acc thing (книгу) + dat recipient (брату)."
+        },
+        {
+          "prompt": "Я помогаю _____.",
+          "promptEnglish": "I help Lena.",
+          "options": [
+            "Лена",
+            "Лены",
+            "Лене",
+            "Леной"
+          ],
+          "answer": "Лене",
+          "hint": "Помогать takes which case for the helped person?",
+          "explanation": "Помогать кому: the helped person is dative. Лена → Лене. Same fem -а → -е pattern as маме, школе, тёте."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ интересно. (Anton is interested.)"
+    ],
+    "choices": [
+      "Антон",
+      "Антона",
+      "Антону",
+      "Антоном"
+    ],
+    "answers": [
+      "Антону"
+    ],
+    "grammarFocus": "State predicates take a dative experiencer. Антон → Антону. Интересно covers both 'is interested' and 'is interesting' in Russian."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Учитель даёт интересную книгу ученика.",
+      "translationEnglish": "The teacher gives an interesting book to the student.",
+      "error": "ученика",
+      "correction": "ученику",
+      "options": [
+        "ученику",
+        "учеником",
+        "ученике"
+      ],
+      "explanation": "Давать takes an accusative thing and a dative recipient: давать что кому. The book (интересную книгу) is the accusative object; the recipient ученик goes in the dative, ученику. Ученика is the genitive/accusative form, which a learner uses by mistaking the recipient for a direct object, but the object is the book, not the student. The recipient takes the dative: ученику."
+    },
+    {
+      "sentence": "Маша нравится этот новый фильм.",
+      "translationEnglish": "Masha likes this new film.",
+      "error": "Маша",
+      "correction": "Маше",
+      "options": [
+        "Маше",
+        "Машу",
+        "Маши"
+      ],
+      "explanation": "Нравиться puts the liker in the dative and the liked thing in the nominative. The film (этот новый фильм) is the nominative subject; the liker Маша must be dative: Маше. Маша is the nominative, which copies the English word order but breaks the Russian frame."
+    },
+    {
+      "sentence": "После обеда Лена идёт к подруга.",
+      "translationEnglish": "After lunch Lena goes to her friend's.",
+      "error": "к подруга",
+      "correction": "к подруге",
+      "options": [
+        "к подруге",
+        "к подругу",
+        "к подругой"
+      ],
+      "explanation": "К governs the dative, marking motion toward a person: подруга → подруге (feminine -а → -е). К подруга leaves the bare nominative, which never follows a preposition. Идти к кому means going to see someone, and the target is always dative: к подруге."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я даю книгу _____.",
+      "contextEnglish": "I give the book to brother.",
+      "options": [
+        "брат",
+        "брату"
+      ],
+      "answer": "брату",
+      "explanation": "The recipient of давать is dative. Брат → брату. The nominative брат would only appear as a subject elsewhere."
+    },
+    {
+      "context": "_____ нравится фильм.",
+      "contextEnglish": "Masha likes the film.",
+      "options": [
+        "Маша",
+        "Маше"
+      ],
+      "answer": "Маше",
+      "explanation": "Нравиться puts the liker in the dative. Маша → Маше. The film is the nominative subject; the liker is dative."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Маше нравится фильм.",
+      "question": "What dative trigger is operating here?",
+      "options": [
+        "Verb of giving (recipient)",
+        "Нравиться (the liker)",
+        "К + motion",
+        "State predicate"
+      ],
+      "answer": "Нравиться (the liker)",
+      "explanation": "Нравиться puts the liker in the dative; the liked thing (фильм) is the nominative subject. Маше is the liker."
+    },
+    {
+      "sentence": "Антону тридцать лет.",
+      "question": "What dative trigger is operating here?",
+      "options": [
+        "К + motion",
+        "Age construction",
+        "Verb of giving",
+        "Нравиться"
+      ],
+      "answer": "Age construction",
+      "explanation": "The age construction puts the experiencer in the dative. Антону is the person whose age is being given. Тридцать лет gives the number of years."
+    },
+    {
+      "sentence": "Я иду к брату.",
+      "question": "What dative trigger is operating here?",
+      "options": [
+        "Verb of giving",
+        "К + motion (toward)",
+        "State predicate",
+        "Нравиться"
+      ],
+      "answer": "К + motion (toward)",
+      "explanation": "К + dative expresses motion toward a person or thing. The verb идти (to go on foot) pairs naturally with к. Брату is the target of motion."
+    },
+    {
+      "sentence": "Маше холодно.",
+      "question": "What dative trigger is operating here?",
+      "options": [
+        "К + motion",
+        "Age construction",
+        "State predicate (impersonal)",
+        "Verb of giving"
+      ],
+      "answer": "State predicate (impersonal)",
+      "explanation": "State predicates (холодно, скучно, весело, etc.) put the experiencer in the dative. There is no grammatical subject; the construction is impersonal."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "дательный падеж",
+      "definition": "dative case (used for recipients, likers, age experiencers, state experiencers, and targets of к)",
+      "example": "Дательный падеж — это падеж получателя или того, кто что-то чувствует."
+    },
+    {
+      "term": "триггер",
+      "definition": "trigger (the verb, construction, or preposition that requires the dative)",
+      "example": "В предложении 'Мне холодно' триггер — это безличное состояние."
+    },
+    {
+      "term": "обзор",
+      "definition": "review, overview (the goal of this synthesis lesson)",
+      "example": "Этот урок — обзор всего трека."
+    }
+  ]
+}

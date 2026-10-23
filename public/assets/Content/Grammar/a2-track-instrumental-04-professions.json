@@ -1,0 +1,303 @@
+{
+  "id": "a2-track-instrumental-04-professions",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Instrumental 4: Professions and Identities",
+  "titleRussian": "Творительный 4: Профессии и роли",
+  "description": "Professions take instrumental after работать, быть (past / future), and стать. Я работаю инженером.",
+  "descriptionRussian": "Названия профессий ставятся в творительном падеже после работать, быть и стать.",
+  "imageName": "briefcase.fill",
+  "trackId": "a2-instrumental-mastery",
+  "trackTitle": "Instrumental Mastery",
+  "trackTitleRussian": "Творительный падеж",
+  "trackIndex": 4,
+  "trackTotal": 9,
+  "intro": "Saying what someone does for a living puts the job in this case, which is a small surprise: a job is not a tool and not company. Think of it as the role you act through. There is a catch worth knowing now. In the present tense Russian has no verb 'to be', so a job named in the present stays in its plain dictionary form and only shifts once a tense appears.",
+  "rules": [
+    "After работать (to work), the profession goes in the instrumental: работать кем. Я работаю инженером (I work as an engineer).",
+    "After быть in the past (был / была / было / были) or future (буду / будешь / будет / будем / будете / будут), the profession goes in the instrumental: Антон будет учителем.",
+    "After стать (to become; perfective), the result-state goes in the instrumental: Лена стала врачом.",
+    "In the present tense, быть has no overt form, and the predicate noun stays NOMINATIVE: 'Антон — учитель' (Anton is a teacher). The instrumental only applies with the three verbs above.",
+    "Russian normally uses the masculine profession form for both male and female subjects: Маша работает врачом, not врачихой."
+  ],
+  "examples": [
+    "Я работаю инженером. (I work as an engineer.) инженер → инженером.",
+    "Маша работает врачом. (Masha works as a doctor.) врач → врачом.",
+    "Антон будет учителем. (Anton will be a teacher.) учитель → учителем.",
+    "Лена стала программистом. (Lena became a programmer.) программист → программистом.",
+    "Соня будет переводчиком. (Sonya will be a translator.) переводчик → переводчиком."
+  ],
+  "tables": [
+    {
+      "title": "Profession Triggers + Instrumental",
+      "headers": [
+        "Verb",
+        "Construction",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "работать",
+          "cells": [
+            "работать кем",
+            "Я работаю врачом."
+          ]
+        },
+        {
+          "label": "быть (past)",
+          "cells": [
+            "был кем",
+            "Антон был учителем."
+          ]
+        },
+        {
+          "label": "быть (future)",
+          "cells": [
+            "буду кем",
+            "Лена будет программистом."
+          ]
+        },
+        {
+          "label": "стать (perf)",
+          "cells": [
+            "стать кем",
+            "Маша стала инженером."
+          ]
+        },
+        {
+          "label": "быть (present)",
+          "cells": [
+            "subject = predicate (NOM)",
+            "Антон — учитель. (NOMINATIVE!)"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Антон танцует с _____.",
+          "promptEnglish": "Anton is dancing with Lena.",
+          "options": [
+            "Лену",
+            "Леной",
+            "Лены",
+            "Лене"
+          ],
+          "answer": "Леной",
+          "hint": "Recall L3: с + which case? Лена is feminine -а.",
+          "explanation": "Warm-up from Lesson 3. С takes the instrumental: Лена → Леной. Today we move to a different instrumental construction (work / be / become as), but the form of the noun is calculated the same way."
+        },
+        {
+          "prompt": "Маша работает _____.",
+          "promptEnglish": "Masha works as a doctor.",
+          "options": [
+            "врача",
+            "врачу",
+            "врачом",
+            "враче"
+          ],
+          "answer": "врачом",
+          "hint": "Работать + the profession takes the instrumental.",
+          "explanation": "After работать (to work), the profession goes in the instrumental: работать кем → врачом. Russian uses the masculine form even when Masha is female; this is the standard convention."
+        },
+        {
+          "prompt": "Антон работает _____.",
+          "promptEnglish": "Anton works as an engineer.",
+          "options": [
+            "инженером",
+            "инженера",
+            "инженеру",
+            "инженере"
+          ],
+          "answer": "инженером",
+          "hint": "Same construction as Q1.2. Apply the masculine hard rule.",
+          "explanation": "Инженер is masculine consonant + -ом → инженером. Note that работать + instrumental applies only to professions and roles, not to tools (tools take с or bare instrumental, never работать)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Лена будет _____.",
+          "promptEnglish": "Lena will be a translator.",
+          "options": [
+            "переводчика",
+            "переводчику",
+            "переводчиком",
+            "переводчике"
+          ],
+          "answer": "переводчиком",
+          "hint": "Будет (future of быть) takes the same case as работать for professions.",
+          "explanation": "Future-tense быть (буду, будешь, будет...) plus a profession takes the instrumental: будет переводчиком. The same is true of past-tense был / была: был переводчиком."
+        },
+        {
+          "prompt": "Антон стал _____.",
+          "promptEnglish": "Anton became a programmer.",
+          "options": [
+            "программиста",
+            "программистом",
+            "программисту",
+            "программисте"
+          ],
+          "answer": "программистом",
+          "hint": "Стать takes which case for the result-state?",
+          "explanation": "Стать (to become; perfective) takes the result-state in the instrumental: стать кем → программистом. Стать pairs with становиться (imperfective) which works the same way."
+        },
+        {
+          "prompt": "Соня будет _____.",
+          "promptEnglish": "Sonya will be a teacher.",
+          "options": [
+            "учителя",
+            "учителю",
+            "учителе",
+            "учителем"
+          ],
+          "answer": "учителем",
+          "hint": "Учитель is masculine soft -ь. Apply the L1 soft rule.",
+          "explanation": "Учитель is masculine ending in soft -ь with stem stress → -ем: учителем. Modern Russian uses the masculine form for female subjects in most professions; this is the safe default at A2."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Маша работает _____ в магазине.",
+          "promptEnglish": "Masha works as a salesclerk in a shop.",
+          "options": [
+            "продавцом",
+            "продавец",
+            "продавца",
+            "продавцу"
+          ],
+          "answer": "продавцом",
+          "hint": "Работать + profession takes which case?",
+          "explanation": "After работать the profession goes in the instrumental: работает продавцом."
+        },
+        {
+          "prompt": "После института Антон стал _____.",
+          "promptEnglish": "After college Anton became an artist.",
+          "options": [
+            "художник",
+            "художником",
+            "художника",
+            "художнику"
+          ],
+          "answer": "художником",
+          "hint": "Стать takes the result-state in which case?",
+          "explanation": "Стать ('to become') takes the instrumental: стал художником. The new role always stands in the instrumental."
+        },
+        {
+          "prompt": "Лена будет _____ автобуса.",
+          "promptEnglish": "Lena will be a bus driver.",
+          "options": [
+            "водителем",
+            "водитель",
+            "водителя",
+            "водителю"
+          ],
+          "answer": "водителем",
+          "hint": "Быть in the future takes the profession in which case?",
+          "explanation": "The future of быть takes the instrumental for a role: будет водителем. Soft-stem masculines take -ем: водителем."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша будет _____. (Masha will be a writer.)"
+    ],
+    "choices": [
+      "писатель",
+      "писателя",
+      "писателем",
+      "писателю"
+    ],
+    "answers": [
+      "писателем"
+    ],
+    "grammarFocus": "Писатель is masculine ending in soft -ь with stem stress → -ем: писателем. The construction 'будет + instrumental' marks the future profession or role."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Моя сестра работает повар в кафе.",
+      "translationEnglish": "My sister works as a cook at a cafe.",
+      "error": "повар",
+      "correction": "поваром",
+      "options": [
+        "поваром",
+        "повара",
+        "повару"
+      ],
+      "explanation": "After работать, the profession goes in the instrumental: работать кем. Повар is hard masculine + -ом: поваром. Повар is the bare nominative, correct only in a verbless identity ('Моя сестра - повар')."
+    },
+    {
+      "sentence": "После университета Антон стал журналист.",
+      "translationEnglish": "After university Anton became a journalist.",
+      "error": "журналист",
+      "correction": "журналистом",
+      "options": [
+        "журналистом",
+        "журналиста",
+        "журналисту"
+      ],
+      "explanation": "Стать (to become) takes the result-state in the instrumental: стать кем. Журналист is hard masculine + -ом: журналистом. Журналист is the bare nominative, used only in a verbless identity ('Антон - журналист')."
+    },
+    {
+      "sentence": "Мой папа учителем в нашей школе.",
+      "translationEnglish": "My dad is a teacher at our school.",
+      "error": "учителем",
+      "correction": "учитель",
+      "options": [
+        "учитель",
+        "учителя",
+        "учителю"
+      ],
+      "explanation": "In the present tense, быть has no spoken form and the predicate noun stays NOMINATIVE: 'Мой папа учитель'. The instrumental учителем appears only with an actual verb: работает учителем, был учителем, станет учителем. Here there is no verb, so the form is the nominative учитель."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша работает _____.",
+      "contextEnglish": "Masha works as a doctor.",
+      "options": [
+        "врач",
+        "врачом"
+      ],
+      "answer": "врачом",
+      "explanation": "After работать the profession goes in the instrumental: врачом. The nominative врач would only mark a subject ('Врач здесь.' / 'The doctor is here.'), or the predicate of a present-tense identity ('Маша — врач.' / 'Masha is a doctor.')."
+    },
+    {
+      "context": "Антон работает _____.",
+      "contextEnglish": "Anton works as an engineer.",
+      "options": [
+        "инженер",
+        "инженером"
+      ],
+      "answer": "инженером",
+      "explanation": "Same pattern: работать + instrumental → инженером. The choice between nominative and instrumental for professions is determined entirely by the verb in play (or its absence in present-tense быть)."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "профессия",
+      "definition": "profession (in Russian, profession-as-instrumental appears with работать, быть past / future, and стать)",
+      "example": "Какая твоя профессия? — Я инженер."
+    },
+    {
+      "term": "стать",
+      "definition": "to become (perfective; takes the result-state in the instrumental: стать кем)",
+      "example": "Лена стала врачом."
+    },
+    {
+      "term": "работать",
+      "definition": "to work (the 'works as X' construction takes the instrumental: работать кем)",
+      "example": "Антон работает учителем."
+    }
+  ]
+}

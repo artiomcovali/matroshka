@@ -1,0 +1,65 @@
+{
+  "id": "free-b1-work",
+  "level": "B1",
+  "type": "freeform",
+  "title": "Work Experience",
+  "titleRussian": "Опыт работы",
+  "theme": "work-experience",
+  "prompts": [
+    {
+      "id": "b1-wrk-001",
+      "prompt": "Describe your current or previous job. What are/were your main responsibilities?",
+      "promptRussian": "Опишите вашу текущую или предыдущую работу. Каковы ваши основные обязанности?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Я работаю/работал...", "В мои обязанности входит/входило...", "Каждый день я..."],
+      "targetGrammar": ["работать + instrumental", "обязанности vocabulary", "входить construction"],
+      "gradingCriteria": ["job described", "responsibilities listed", "daily tasks mentioned"],
+      "sampleResponse": "Я работаю менеджером проектов в IT-компании. В мои обязанности входит планирование задач и координация команды. Каждый день я провожу встречи и слежу за сроками выполнения проектов."
+    },
+    {
+      "id": "b1-wrk-002",
+      "prompt": "What do you like and dislike about your work? Explain.",
+      "promptRussian": "Что вам нравится и не нравится в вашей работе? Объясните.",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Мне нравится в моей работе...", "Однако мне не нравится...", "Несмотря на это..."],
+      "targetGrammar": ["нравиться construction", "однако conjunction", "несмотря на construction"],
+      "gradingCriteria": ["positives mentioned", "negatives mentioned", "balanced view presented"],
+      "sampleResponse": "Мне нравится в моей работе возможность решать интересные задачи и работать с умными людьми. Однако мне не нравится, что иногда приходится работать сверхурочно. Несмотря на это, я доволен своей работой."
+    },
+    {
+      "id": "b1-wrk-003",
+      "prompt": "Describe a challenging situation you faced at work. How did you solve it?",
+      "promptRussian": "Опишите сложную ситуацию на работе. Как вы её решили?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Однажды на работе возникла проблема...", "Мне пришлось...", "В итоге..."],
+      "targetGrammar": ["past tense narrative", "пришлось construction", "в итоге expression"],
+      "gradingCriteria": ["challenge described", "solution explained", "outcome mentioned"],
+      "sampleResponse": "Однажды на работе возникла проблема: клиент был недоволен нашим сервисом. Мне пришлось лично встретиться с ним и выслушать все жалобы. В итоге мы нашли компромисс и сохранили хорошие отношения."
+    },
+    {
+      "id": "b1-wrk-004",
+      "prompt": "What skills are important in your profession? Which ones do you want to improve?",
+      "promptRussian": "Какие навыки важны в вашей профессии? Какие вы хотите улучшить?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["В моей профессии важны такие навыки, как...", "Я хочу улучшить...", "Для этого я планирую..."],
+      "targetGrammar": ["такой как construction", "улучшить vocabulary", "для этого expression"],
+      "gradingCriteria": ["important skills listed", "skills to improve identified", "plan mentioned"],
+      "sampleResponse": "В моей профессии важны такие навыки, как коммуникация, организованность и знание технологий. Я хочу улучшить свой английский и навыки публичных выступлений. Для этого я планирую пройти специальные курсы."
+    },
+    {
+      "id": "b1-wrk-005",
+      "prompt": "What are your career goals for the next five years?",
+      "promptRussian": "Какие у вас карьерные цели на следующие пять лет?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["В ближайшие пять лет я хочу...", "Моя цель — ...", "Чтобы достичь этого, мне нужно..."],
+      "targetGrammar": ["future plans", "цель construction", "чтобы + infinitive"],
+      "gradingCriteria": ["goals stated", "timeline included", "steps to achieve mentioned"],
+      "sampleResponse": "В ближайшие пять лет я хочу получить повышение и стать руководителем отдела. Моя цель — развивать управленческие навыки. Чтобы достичь этого, мне нужно получить дополнительное образование и больше опыта."
+    }
+  ]
+}

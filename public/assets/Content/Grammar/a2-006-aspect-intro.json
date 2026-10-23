@@ -1,0 +1,319 @@
+{
+  "id": "a2-006-aspect-intro",
+  "level": "A2",
+  "focusArea": "aspect",
+  "title": "Introduction to Verbal Aspect",
+  "titleRussian": "Введение в вид глагола",
+  "description": "Perfective vs. imperfective basics",
+  "descriptionRussian": "Основы совершенного и несовершенного вида",
+  "imageName": "arrow.triangle.2.circlepath",
+  "intro": "Russian verbs come in pairs! Almost every verb has two forms: IMPERFECTIVE (несовершенный вид) for ongoing, repeated, or incomplete actions, and PERFECTIVE (совершенный вид) for completed, single, or result-focused actions. This is called 'aspect' - вид глагола. Understanding aspect is essential because Russians choose between these forms constantly. Think of imperfective as 'process' and perfective as 'result'.",
+  "rules": [
+    "Russian verbs have two aspects: imperfective (НСВ) and perfective (СВ): читать (НСВ) / прочитать (СВ).",
+    "Imperfective = process, duration, repetition, ongoing action: Я читал книгу (I was reading).",
+    "Perfective = completion, result, single completed action: Я прочитал книгу (I finished reading).",
+    "Aspect pairs are formed by prefixes (делать → сделать), suffixes (решать → решить), or different stems (брать → взять)."
+  ],
+  "examples": [
+    "Я читал книгу весь день. (I was reading a book all day., imperfective), process",
+    "Я прочитал книгу. (I finished the book., perfective), completed result",
+    "Она писала письмо. (She was writing a letter., imperfective), in progress",
+    "Она написала письмо. (She wrote/finished the letter., perfective), done"
+  ],
+  "tables": [
+    {
+      "title": "Common Aspect Pairs",
+      "headers": [
+        "Verb",
+        "Imperfective (НСВ)",
+        "Perfective (СВ)",
+        "Pattern"
+      ],
+      "rows": [
+        {
+          "label": "read",
+          "cells": [
+            "читать",
+            "про|читать",
+            "prefix про-"
+          ]
+        },
+        {
+          "label": "write",
+          "cells": [
+            "писать",
+            "на|писать",
+            "prefix на-"
+          ]
+        },
+        {
+          "label": "do/make",
+          "cells": [
+            "делать",
+            "с|делать",
+            "prefix с-"
+          ]
+        },
+        {
+          "label": "cook",
+          "cells": [
+            "готовить",
+            "при|готовить",
+            "prefix при-"
+          ]
+        },
+        {
+          "label": "solve",
+          "cells": [
+            "решать",
+            "реш|ить",
+            "suffix -ать → -ить"
+          ]
+        },
+        {
+          "label": "take",
+          "cells": [
+            "брать",
+            "взять",
+            "different stem"
+          ]
+        },
+        {
+          "label": "speak",
+          "cells": [
+            "говорить",
+            "сказать",
+            "different stem"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я долго _____ книгу. (I read a book for a long time.)",
+          "promptEnglish": "I read a book for a long time.",
+          "options": [
+            "читаю",
+            "прочитаю",
+            "читал",
+            "прочитал"
+          ],
+          "answer": "читал",
+          "hint": "Duration (долго) = imperfective",
+          "explanation": "Duration words like 'долго' require imperfective aspect."
+        },
+        {
+          "prompt": "Вчера я _____ эту книгу. (Yesterday I finished this book.)",
+          "promptEnglish": "Yesterday I finished this book.",
+          "options": [
+            "читаю",
+            "прочитал",
+            "прочитаю",
+            "читал"
+          ],
+          "answer": "прочитал",
+          "hint": "Completed result = perfective",
+          "explanation": "Finishing something completely requires perfective aspect."
+        },
+        {
+          "prompt": "Which aspect focuses on the RESULT of an action?",
+          "promptEnglish": "Which aspect focuses on the RESULT of an action?",
+          "options": [
+            "Imperfective (НСВ)",
+            "Perfective (СВ)",
+            "Neither",
+            "Both equally"
+          ],
+          "answer": "Perfective (СВ)",
+          "hint": "Result, completion",
+          "explanation": "Perfective aspect emphasizes completion and result."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Она каждый день _____ газету. (She reads the newspaper every day.)",
+          "promptEnglish": "She reads the newspaper every day.",
+          "options": [
+            "прочитала",
+            "прочитает",
+            "читала",
+            "читает"
+          ],
+          "answer": "читает",
+          "hint": "Repetition (каждый день) = imperfective",
+          "explanation": "Habitual/repeated actions use imperfective aspect."
+        },
+        {
+          "prompt": "Я наконец _____ задачу! (I finally solved the problem!)",
+          "promptEnglish": "I finally solved the problem!",
+          "options": [
+            "решал",
+            "решил",
+            "решаю",
+            "решу"
+          ],
+          "answer": "решил",
+          "hint": "Finally (наконец) + completed = perfective",
+          "explanation": "Success, completion, result all call for perfective."
+        },
+        {
+          "prompt": "Which is the imperfective verb?",
+          "promptEnglish": "Which is the imperfective verb?",
+          "options": [
+            "написать",
+            "писать",
+            "сделать",
+            "прочитать"
+          ],
+          "answer": "писать",
+          "hint": "Imperfective = base form without prefix",
+          "explanation": "Писать is imperfective; написать is its perfective pair."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Мы _____ обед два часа. (We were cooking dinner for two hours.)",
+          "promptEnglish": "We were cooking dinner for two hours.",
+          "options": [
+            "готовим",
+            "приготовили",
+            "приготовим",
+            "готовили"
+          ],
+          "answer": "готовили",
+          "hint": "Duration (два часа) = imperfective",
+          "explanation": "Duration of the action requires imperfective."
+        },
+        {
+          "prompt": "Он быстро _____ работу. (He quickly finished the work.)",
+          "promptEnglish": "He quickly finished the work.",
+          "options": [
+            "сделает",
+            "делал",
+            "делает",
+            "сделал"
+          ],
+          "answer": "сделал",
+          "hint": "Completed + result = perfective",
+          "explanation": "Finishing something is a completed result: perfective."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я весь вечер _____ телевизор. (I watched TV all evening.)"
+    ],
+    "choices": [
+      "смотрел",
+      "посмотрел",
+      "смотрю",
+      "посмотрю"
+    ],
+    "answers": [
+      "смотрел"
+    ],
+    "grammarFocus": "Duration = imperfective aspect",
+    "hints": [
+      "The phrase 'весь вечер' (all evening) signals a duration. Which aspect describes ongoing actions?"
+    ],
+    "explanations": [
+      "Duration markers like весь вечер (all evening) require imperfective aspect: смотрел (was watching), not посмотрел (watched to completion)."
+    ],
+    "options": [
+      [
+        "посмотрел",
+        "смотрел",
+        "смотрю",
+        "посмотрю"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я _____ книгу три часа. (I read for three hours.)",
+      "contextEnglish": "I read the book for three hours.",
+      "options": [
+        "читал",
+        "прочитал"
+      ],
+      "answer": "читал",
+      "explanation": "Duration (три часа) requires imperfective: читал."
+    },
+    {
+      "context": "Я _____ книгу и вернул её в библиотеку. (I read the book and returned it.)",
+      "contextEnglish": "I read the book and returned it to the library.",
+      "options": [
+        "прочитал",
+        "читал"
+      ],
+      "answer": "прочитал",
+      "explanation": "Completed action (then returned) requires perfective: прочитал."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort verbs by aspect",
+    "categories": [
+      "Imperfective (НСВ)",
+      "Perfective (СВ)"
+    ],
+    "items": [
+      {
+        "word": "читать",
+        "category": "Imperfective (НСВ)"
+      },
+      {
+        "word": "прочитать",
+        "category": "Perfective (СВ)"
+      },
+      {
+        "word": "писать",
+        "category": "Imperfective (НСВ)"
+      },
+      {
+        "word": "написать",
+        "category": "Perfective (СВ)"
+      },
+      {
+        "word": "делать",
+        "category": "Imperfective (НСВ)"
+      },
+      {
+        "word": "сделать",
+        "category": "Perfective (СВ)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "вид глагола",
+      "definition": "verbal aspect",
+      "example": "Русские глаголы имеют два вида."
+    },
+    {
+      "term": "несовершенный вид (НСВ)",
+      "definition": "imperfective aspect (process, duration)",
+      "example": "Я читал = I was reading."
+    },
+    {
+      "term": "совершенный вид (СВ)",
+      "definition": "perfective aspect (result, completion)",
+      "example": "Я прочитал = I finished reading."
+    },
+    {
+      "term": "видовая пара",
+      "definition": "aspect pair (two forms of one verb)",
+      "example": "читать — прочитать"
+    }
+  ]
+}

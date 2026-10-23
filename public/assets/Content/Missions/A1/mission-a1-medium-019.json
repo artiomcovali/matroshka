@@ -1,0 +1,50 @@
+{
+  "id": "mission-a1-medium-019",
+  "title": "Doctor's Appointment",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "Schedule a doctor's appointment but today is fully booked",
+  "imageName": "stethoscope",
+  "initialPrompt": "Поликлиника номер пять, добрый день. Чем могу помочь?",
+  "systemPrompt": "You are clinic receptionist. Today is fully booked. Available: tomorrow 10:00, 14:00, or Friday 9:00. Ask which doctor they need (терапевт or other). Keep replies short.",
+  "completionCriteria": "User scheduled an appointment for an available time.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу записаться к врачу (I want to schedule with a doctor)",
+    "Когда можно прийти? (When can I come?)",
+    "Завтра мне подходит (Tomorrow works for me)",
+    "В десять утра (At ten in the morning)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "врач",
+      "definition": "doctor"
+    },
+    {
+      "word": "записаться",
+      "definition": "to schedule/sign up"
+    },
+    {
+      "word": "приём",
+      "definition": "appointment"
+    },
+    {
+      "word": "завтра",
+      "definition": "tomorrow"
+    },
+    {
+      "word": "свободно",
+      "definition": "available/free"
+    },
+    {
+      "word": "утро",
+      "definition": "morning"
+    }
+  ],
+  "objectives": [
+    "Say you want to schedule an appointment",
+    "Say what type of doctor you need",
+    "Handle that today is unavailable",
+    "Choose an available time slot"
+  ]
+}

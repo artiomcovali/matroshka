@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-025",
+  "title": "Tour Group Full",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Your booked tour is oversubscribed",
+  "imageName": "figure.walk",
+  "initialPrompt": "Добро пожаловать! У вас бронь на экскурсию?",
+  "systemPrompt": "You are tour guide. Today's 2pm tour is overbooked - can join 4pm tour instead, or get full refund. 4pm tour visits same places. Keep replies short.",
+  "completionCriteria": "User switched to later tour or got refund.",
+  "responseLimit": 15,
+  "hints": [
+    "Да, я забронировал на два часа (Yes, I booked for 2 o'clock)",
+    "Можно перенести? (Can I reschedule?)",
+    "Хорошо, пойду в четыре (OK, I will go at four)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "экскурсия",
+      "definition": "tour"
+    },
+    {
+      "word": "бронь",
+      "definition": "reservation"
+    },
+    {
+      "word": "группа",
+      "definition": "group"
+    },
+    {
+      "word": "полная",
+      "definition": "full"
+    },
+    {
+      "word": "перенести",
+      "definition": "to reschedule"
+    },
+    {
+      "word": "возврат",
+      "definition": "refund"
+    }
+  ],
+  "objectives": [
+    "Confirm your booking",
+    "Learn the tour is overbooked",
+    "Ask about options (перенести, возврат)",
+    "Choose later tour or refund"
+  ]
+}

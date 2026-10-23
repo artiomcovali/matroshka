@@ -1,0 +1,231 @@
+{
+  "id": "a1-016-est-constructions",
+  "level": "A1",
+  "focusArea": "sentenceStructure",
+  "title": "Есть Constructions",
+  "titleRussian": "Конструкции с «есть»",
+  "description": "Expressing possession and existence with есть",
+  "descriptionRussian": "Выражение владения и существования с «есть»",
+  "imageName": "hand.thumbsup.fill",
+  "intro": "The word есть is used to express possession ('I have') and existence ('there is'). The construction «У меня есть...» literally means 'By me there is...' but translates as 'I have...'. Interestingly, есть is often omitted when describing characteristics or when the existence is obvious - you'll learn when to include it and when to leave it out.",
+  "rules": [
+    "У + genitive + есть + nominative = possession: У меня есть книга. (I have a book.)",
+    "When a DESCRIPTIVE ADJECTIVE is used, OMIT есть: У неё красивая машина. (She has a beautiful car.) But when stating a FACT of possession, KEEP есть: У неё есть машина. (She has a car.) The adjective signals description, not existence.",
+    "Keep есть when emphasizing existence or answering 'Do you have?': - У тебя есть машина? - Да, есть. (Do you have a car? - Yes, I do.)",
+    "For 'there is' in a location: Здесь есть магазин? (Is there a store here?)"
+  ],
+  "examples": [
+    "У меня есть брат. (I have a brother.)",
+    "У тебя есть время? (Do you have time?)",
+    "У неё красивые волосы. (She has beautiful hair.), есть omitted",
+    "В городе есть музей. (There is a museum in the city.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "У меня _____ собака. (I have a dog.)",
+          "promptEnglish": "I have a dog.",
+          "options": [
+            "это",
+            "есть",
+            "был",
+            "нет"
+          ],
+          "answer": "есть",
+          "hint": "Stating possession",
+          "explanation": "Use есть to state that you have something: У меня есть собака."
+        },
+        {
+          "prompt": "У тебя _____ машина? (Do you have a car?)",
+          "promptEnglish": "Do you have a car?",
+          "options": [
+            "эта",
+            "есть",
+            "была",
+            "нет"
+          ],
+          "answer": "есть",
+          "hint": "Asking about possession",
+          "explanation": "Use есть when asking if someone has something: У тебя есть машина?"
+        },
+        {
+          "prompt": "_____ меня есть вопрос. (I have a question.)",
+          "promptEnglish": "I have a question.",
+          "options": [
+            "В",
+            "На",
+            "У",
+            "С"
+          ],
+          "answer": "У",
+          "hint": "Possession uses у + genitive",
+          "explanation": "The possession construction starts with У: У меня есть..."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "У _____ есть сестра. (He has a sister.)",
+          "promptEnglish": "He has a sister.",
+          "options": [
+            "ему",
+            "его",
+            "него",
+            "он"
+          ],
+          "answer": "него",
+          "hint": "After у, он becomes него",
+          "explanation": "After prepositions, он becomes него: У него есть сестра."
+        },
+        {
+          "prompt": "У _____ есть дети. (She has children.)",
+          "promptEnglish": "She has children.",
+          "options": [
+            "ей",
+            "она",
+            "неё",
+            "её"
+          ],
+          "answer": "неё",
+          "hint": "After у, она becomes неё",
+          "explanation": "After prepositions, она becomes неё: У неё есть дети."
+        },
+        {
+          "prompt": "Здесь _____ аптека? (Is there a pharmacy here?)",
+          "promptEnglish": "Is there a pharmacy here?",
+          "options": [
+            "была",
+            "есть",
+            "эта",
+            "нет"
+          ],
+          "answer": "есть",
+          "hint": "Asking about existence",
+          "explanation": "Use есть to ask if something exists: Здесь есть аптека?"
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "У _____ есть кошка. (I have a cat.)",
+      "У _____ есть машина. (He has a car.)",
+      "У _____ есть брат. (She has a brother.)"
+    ],
+    "choices": [
+      "меня",
+      "него",
+      "неё",
+      "тебя",
+      "нас",
+      "них"
+    ],
+    "answers": [
+      "меня",
+      "него",
+      "неё"
+    ],
+    "grammarFocus": "У + genitive pronoun + есть for possession",
+    "options": [
+      [
+        "мной",
+        "я",
+        "мне",
+        "меня"
+      ],
+      [
+        "него",
+        "им",
+        "он",
+        "ему"
+      ],
+      [
+        "она",
+        "неё",
+        "ей",
+        "ею"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "У _____ есть машина. (He has a car.)",
+      "contextEnglish": "He has a car.",
+      "options": [
+        "него",
+        "его"
+      ],
+      "answer": "него",
+      "explanation": "After у, он becomes него (not его): У него есть машина."
+    },
+    {
+      "context": "У _____ есть брат. (She has a brother.)",
+      "contextEnglish": "She has a brother.",
+      "options": [
+        "неё",
+        "её"
+      ],
+      "answer": "неё",
+      "explanation": "After у, она becomes неё (not её): У неё есть брат."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: Use есть or omit it?",
+    "categories": [
+      "Use есть",
+      "Omit есть"
+    ],
+    "items": [
+      {
+        "word": "У меня ___ собака",
+        "category": "Use есть"
+      },
+      {
+        "word": "У неё ___ длинные волосы",
+        "category": "Omit есть"
+      },
+      {
+        "word": "У тебя ___ машина?",
+        "category": "Use есть"
+      },
+      {
+        "word": "У него ___ зелёные глаза",
+        "category": "Omit есть"
+      },
+      {
+        "word": "Здесь ___ банк?",
+        "category": "Use есть"
+      },
+      {
+        "word": "У меня ___ большая семья",
+        "category": "Omit есть"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "у меня есть",
+      "definition": "I have",
+      "example": "У меня есть собака."
+    },
+    {
+      "term": "у тебя есть",
+      "definition": "you have (informal)",
+      "example": "У тебя есть время?"
+    },
+    {
+      "term": "у него / у неё",
+      "definition": "he has / she has",
+      "example": "У него есть брат."
+    },
+    {
+      "term": "здесь есть",
+      "definition": "there is (here)",
+      "example": "Здесь есть кафе?"
+    }
+  ]
+}

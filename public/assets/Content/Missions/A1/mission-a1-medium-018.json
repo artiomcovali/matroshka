@@ -1,0 +1,50 @@
+{
+  "id": "mission-a1-medium-018",
+  "title": "Shoe Shopping",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "Buy shoes but your size is temporarily unavailable",
+  "imageName": "shoe.fill",
+  "initialPrompt": "Добро пожаловать! У нас новая коллекция обуви. Что вам нужно?",
+  "systemPrompt": "You sell shoes. Кроссовки 3000₽, туфли 4000₽, сапоги 5000₽. Size 42 not in stock for кроссовки - can order (3 days) or offer similar style in 41 or 43. Keep replies short.",
+  "completionCriteria": "User found a solution after size wasn't available.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужны кроссовки (I need sneakers)",
+    "Размер сорок два (Size 42)",
+    "Можно заказать? (Can you order them?)",
+    "Можно примерить? (Can I try them on?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "обувь",
+      "definition": "footwear/shoes"
+    },
+    {
+      "word": "кроссовки",
+      "definition": "sneakers"
+    },
+    {
+      "word": "размер",
+      "definition": "size"
+    },
+    {
+      "word": "примерить",
+      "definition": "to try on"
+    },
+    {
+      "word": "заказать",
+      "definition": "to order"
+    },
+    {
+      "word": "подходить",
+      "definition": "to fit/suit"
+    }
+  ],
+  "objectives": [
+    "Say what shoes you need",
+    "Give your size",
+    "Handle the size unavailability",
+    "Choose to order or try different size"
+  ]
+}

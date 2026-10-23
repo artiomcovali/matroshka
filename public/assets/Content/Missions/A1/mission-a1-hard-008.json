@@ -1,0 +1,49 @@
+{
+  "id": "mission-a1-hard-008",
+  "title": "The Noisy Neighbors",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Complain to neighbors about noise but they keep making excuses",
+  "imageName": "speaker.wave.3.fill",
+  "initialPrompt": "Да? О, вы сосед! Музыка? Какая музыка? А, это радио. Оно не громкое!",
+  "systemPrompt": "You are a neighbor playing loud music. Make excuses: it's the radio, then the TV, then a party for grandma's birthday. Only turn it down if user asks politely AND mentions it's late (поздно). Keep replies short.",
+  "completionCriteria": "User convinced you to turn down the noise.",
+  "responseLimit": 15,
+  "hints": [
+    "Слишком громко (Too loud)",
+    "Уже поздно (It's late already)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "громко",
+      "definition": "loud"
+    },
+    {
+      "word": "тихо",
+      "definition": "quiet"
+    },
+    {
+      "word": "поздно",
+      "definition": "late"
+    },
+    {
+      "word": "музыка",
+      "definition": "music"
+    },
+    {
+      "word": "сосед",
+      "definition": "neighbor"
+    },
+    {
+      "word": "пожалуйста",
+      "definition": "please"
+    }
+  ],
+  "objectives": [
+    "Explain the music is too loud (Слишком громко)",
+    "Counter their excuse about the radio",
+    "Counter their excuse about the TV",
+    "Mention that it's late (Уже поздно)",
+    "Get them to turn down the noise"
+  ]
+}

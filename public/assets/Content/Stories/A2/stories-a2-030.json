@@ -1,0 +1,188 @@
+{
+  "id": "a2-030",
+  "level": "A2",
+  "narrator": "Анна",
+  "title": "Русская кухня",
+  "titleEnglish": "Russian Cuisine",
+  "description": "Анна рассказывает про традиционные русские блюда.",
+  "imageName": "fork.knife",
+  "fullText": "Я работаю в кафе и очень люблю русскую кухню. У нас готовят борщ со сметаной. Это мой любимый суп! Он красный и горячий. Ещё у нас есть блины. Блины едят с мёдом, с маслом или с творогом. Все любят блины! А по пятницам наш повар делает пельмени. Пельмени — это тесто с мясом. Их едят со сметаной. Маша всегда берёт борщ. Иван Петрович любит пельмени. А Дима, когда приезжает, заказывает всё! Он говорит: «У вас самая вкусная еда!» Мне приятно это слышать.",
+  "quiz": [
+    {
+      "prompt": "Какой суп — любимый у Анны?",
+      "options": [
+        "Куриный суп",
+        "Борщ со сметаной",
+        "Грибной суп"
+      ],
+      "correctIndex": 1,
+      "explanation": "Борщ со сметаной — любимый суп Анны."
+    },
+    {
+      "prompt": "С чем едят блины?",
+      "options": [
+        "С мёдом, маслом или творогом",
+        "С мясом и рисом",
+        "С сыром и колбасой"
+      ],
+      "correctIndex": 0,
+      "explanation": "Блины едят с мёдом, с маслом или с творогом."
+    },
+    {
+      "prompt": "Что такое пельмени?",
+      "options": [
+        "Суп с овощами",
+        "Каша с фруктами",
+        "Тесто с мясом"
+      ],
+      "correctIndex": 2,
+      "explanation": "Пельмени — это тесто с мясом."
+    },
+    {
+      "prompt": "Что Маша всегда берёт?",
+      "options": [
+        "Пельмени",
+        "Борщ",
+        "Блины"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша всегда берёт борщ."
+    },
+    {
+      "prompt": "Когда повар делает пельмени?",
+      "options": [
+        "Каждый день",
+        "По средам",
+        "По пятницам"
+      ],
+      "correctIndex": 2,
+      "explanation": "По пятницам повар делает пельмени."
+    },
+    {
+      "prompt": "Что говорит Дима про кафе?",
+      "options": [
+        "«Тут дорого»",
+        "«У вас самая вкусная еда!»",
+        "«Мне не нравится»"
+      ],
+      "correctIndex": 1,
+      "explanation": "Дима говорит: «У вас самая вкусная еда!»"
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "В кафе готовят борщ со _____.",
+      "Блины едят с мёдом, с маслом или с _____.",
+      "Пельмени — это тесто с _____.",
+      "Маша всегда _____ борщ.",
+      "Дима говорит, что в кафе самая _____ еда."
+    ],
+    "choices": [
+      "сметаной",
+      "творогом",
+      "мясом",
+      "берёт",
+      "вкусная",
+      "сыром",
+      "горячая"
+    ],
+    "answers": [
+      "сметаной",
+      "творогом",
+      "мясом",
+      "берёт",
+      "вкусная"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "In 'борщ со сметаной,' why is it 'со сметаной' and not 'с сметаной'?",
+      "options": [
+        "'Со' is used before words starting with 'с' or consonant clusters",
+        "'Со' and 'с' are different prepositions",
+        "'Со' is formal, 'с' is informal"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "preposition",
+      "sentenceRef": "У нас готовят борщ со сметаной.",
+      "explanation": "'Со' is a variant of 'с' used before difficult consonant clusters (ст-, сн-, сл-, etc.). Сметана starts with 'см-,' so we say 'со сметаной' for easier pronunciation.",
+      "focusArea": "prepositions"
+    },
+    {
+      "prompt": "In 'блины с мёдом,' why does 'мёд' change to 'мёдом'?",
+      "options": [
+        "It's the genitive case",
+        "It's the instrumental case (after 'с' = with)",
+        "It's the dative case"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "instrumental",
+      "sentenceRef": "Блины едят с мёдом, с маслом или с творогом.",
+      "explanation": "'С' (with) requires the instrumental case. Мёд → с мёдом, масло → с маслом, творог → с творогом. The instrumental ending for masculine nouns is '-ом.'",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "In 'их едят со сметаной,' what does 'их' refer to?",
+      "options": [
+        "Борщ",
+        "Блины",
+        "Пельмени"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "pronoun",
+      "sentenceRef": "Пельмени — это тесто с мясом. Их едят со сметаной.",
+      "explanation": "'Их' (them) refers to пельмени — the last noun mentioned before. Пельмени is plural, and 'их' is the accusative form of 'они.'",
+      "focusArea": "vocabulary"
+    }
+  ],
+  "reviewVocab": [
+    {
+      "word": "борщ",
+      "definition": "borscht (beet soup)",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "борщ",
+        "борща",
+        "борщу"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "сметана",
+      "definition": "sour cream",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "сметана",
+        "сметаны",
+        "сметаной"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "пельмени",
+      "definition": "dumplings",
+      "partOfSpeech": "noun (pl.)",
+      "forms": [
+        "пельмени",
+        "пельменей",
+        "пельменями"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "блины",
+      "definition": "pancakes, blini",
+      "partOfSpeech": "noun (pl.)",
+      "forms": [
+        "блины",
+        "блинов",
+        "блинами"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "audioFile": "a2-030.m4a",
+  "audioTimingFile": "a2-030-timing.json"
+}

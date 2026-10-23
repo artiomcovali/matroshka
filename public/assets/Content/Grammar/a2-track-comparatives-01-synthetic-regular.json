@@ -1,0 +1,388 @@
+{
+  "id": "a2-track-comparatives-01-synthetic-regular",
+  "level": "A2",
+  "focusArea": "other",
+  "title": "Comparatives 1: The One-Word Form (stem + ее)",
+  "titleRussian": "Сравнительная степень 1: Форма в одно слово (основа + ее)",
+  "description": "Russian builds 'newer, prettier, more interesting' by adding -ее to the adjective stem. The result is one word that never changes for gender or number.",
+  "descriptionRussian": "Русские формы вроде «новее», «красивее», «интереснее» образуются прибавлением -ее к основе прилагательного. Это одно слово, и оно не меняется по роду и числу.",
+  "imageName": "arrow.up.right",
+  "trackId": "a2-comparatives-mastery",
+  "trackTitle": "Comparatives and Superlatives",
+  "trackTitleRussian": "Сравнительная и превосходная степени",
+  "trackIndex": 1,
+  "trackTotal": 10,
+  "intro": "Russian gives you a comparative that never changes. One form covers every gender and both numbers, which after two books of declension tables should feel like a holiday. The catch is where it can stand: this form works after a subject or after a verb, but it cannot sit in front of a noun. That job needs a different construction, and it waits until lesson 7.",
+  "rules": [
+    "To build the one-word comparative, drop the adjective ending and add -ее: новый → новее, холодный → холоднее, интересный → интереснее.",
+    "This comparative never changes. One form covers every gender and both numbers: дом новее, машина новее, телефоны новее.",
+    "It goes after the subject (Дом новее) or after a verb as an adverb (Антон поёт красивее). It cannot stand in front of a noun the way a normal adjective does.",
+    "Never add более in front of this -ее form, and never add a gender or plural ending after it. The suffix alone does the whole job."
+  ],
+  "examples": [
+    "Этот дом новее. (This house is newer.) After the subject; новее does not change.",
+    "Сегодня холоднее, чем вчера. (Today is colder than yesterday.) холоднее stays the same; чем = than.",
+    "Эта книга интереснее. (This book is more interesting.) After the subject.",
+    "Дети сегодня веселее. (The children are happier today.) Plural subject, but веселее does not add a plural ending.",
+    "Антон работает быстрее. (Anton works faster.) After the verb, as an adverb.",
+    "Молоко полезнее, чем сок. (Milk is healthier than juice.) полезнее from полезный (useful, healthy)."
+  ],
+  "tables": [
+    {
+      "title": "Drop the ending, add -ее",
+      "headers": [
+        "Adjective",
+        "Comparative",
+        "Meaning"
+      ],
+      "rows": [
+        {
+          "label": "новый",
+          "cells": [
+            "новее",
+            "newer"
+          ]
+        },
+        {
+          "label": "холодный",
+          "cells": [
+            "холоднее",
+            "colder"
+          ]
+        },
+        {
+          "label": "тёплый",
+          "cells": [
+            "теплее",
+            "warmer"
+          ]
+        },
+        {
+          "label": "красивый",
+          "cells": [
+            "красивее",
+            "more beautiful"
+          ]
+        },
+        {
+          "label": "интересный",
+          "cells": [
+            "интереснее",
+            "more interesting"
+          ]
+        },
+        {
+          "label": "важный",
+          "cells": [
+            "важнее",
+            "more important"
+          ]
+        },
+        {
+          "label": "светлый",
+          "cells": [
+            "светлее",
+            "brighter"
+          ]
+        },
+        {
+          "label": "полезный",
+          "cells": [
+            "полезнее",
+            "healthier, more useful"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Этот дом _____ , чем тот.",
+          "promptEnglish": "This house is newer than that one.",
+          "options": [
+            "новее",
+            "новая",
+            "новый",
+            "новые"
+          ],
+          "answer": "новее",
+          "hint": "Drop the ending of новый and add -ее.",
+          "explanation": "Новее is the one-word comparative of новый: stem нов- + -ее. It never changes, so it does not agree with дом."
+        },
+        {
+          "prompt": "Сегодня _____ , чем вчера.",
+          "promptEnglish": "Today is colder than yesterday.",
+          "options": [
+            "холодный",
+            "холодная",
+            "холоднее",
+            "холодные"
+          ],
+          "answer": "холоднее",
+          "hint": "You need 'colder', not 'cold'. Add -ее to the stem.",
+          "explanation": "Холоднее is the one-word comparative of холодный: stem холодн- + -ее."
+        },
+        {
+          "prompt": "Дети сегодня _____ , чем вчера.",
+          "promptEnglish": "The children are happier today than yesterday.",
+          "options": [
+            "весёлые",
+            "веселее",
+            "весёлая",
+            "весёлый"
+          ],
+          "answer": "веселее",
+          "hint": "The subject is plural, but does the comparative add a plural ending?",
+          "explanation": "Веселее is the comparative of весёлый, and it does not change for the plural subject дети. That is the key point: the one-word comparative is the same for everyone."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Эта книга _____ , чем фильм.",
+          "promptEnglish": "This book is more interesting than the film.",
+          "options": [
+            "интересная",
+            "интересный",
+            "интереснее",
+            "интересные"
+          ],
+          "answer": "интереснее",
+          "hint": "Drop the ending of интересный and add -ее.",
+          "explanation": "Интереснее is the comparative of интересный: stem интересн- + -ее. The same form works for any subject: книга, фильм, дети."
+        },
+        {
+          "prompt": "Антон работает _____ , чем я.",
+          "promptEnglish": "Anton works faster than me.",
+          "options": [
+            "быстрая",
+            "быстрее",
+            "быстрый",
+            "быстрые"
+          ],
+          "answer": "быстрее",
+          "hint": "This describes the verb 'works'. The comparative also works as an adverb.",
+          "explanation": "Быстрее is the comparative form, used here after the verb работает as an adverb ('works faster'). The one-word comparative does double duty: after a subject (Антон быстрее) and after a verb (работает быстрее)."
+        },
+        {
+          "prompt": "Здоровье _____ , чем деньги.",
+          "promptEnglish": "Health is more important than money.",
+          "options": [
+            "важно",
+            "важный",
+            "важнее",
+            "важные"
+          ],
+          "answer": "важнее",
+          "hint": "The subject здоровье is neuter, but the comparative still does not change.",
+          "explanation": "Важнее is the comparative of важный: stem важн- + -ее. Even though здоровье is neuter, the comparative does not add a neuter ending, because it never changes."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Весной _____ , чем зимой. (In spring it is warmer than in winter.)",
+      "Эта дорога _____ , чем та. (This road is more beautiful than that one.)"
+    ],
+    "choices": [
+      "тёплый",
+      "теплее",
+      "красивая",
+      "красивее"
+    ],
+    "answers": [
+      "теплее",
+      "красивее"
+    ],
+    "grammarFocus": "Both blanks need the one-word comparative. Теплее = warmer (from тёплый), красивее = more beautiful (from красивый). Neither changes for gender or number: теплее works with weather, красивее works with дорога (feminine)."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Эта комната более светлее, чем кухня.",
+      "translationEnglish": "This room is brighter than the kitchen.",
+      "error": "более светлее",
+      "correction": "светлее",
+      "options": [
+        "светлее",
+        "светлая",
+        "светлые"
+      ],
+      "explanation": "The suffix -ее already means 'more', so светлее = 'brighter'. Putting более ('more') in front of it doubles up, like saying 'more brighter' in English. Use the suffix alone: светлее."
+    },
+    {
+      "sentence": "Сегодня погода теплее, и небо стало светлая.",
+      "translationEnglish": "The weather is warmer today, and the sky has become brighter.",
+      "error": "светлая",
+      "correction": "светлее",
+      "options": [
+        "светлее",
+        "светлый",
+        "светлое"
+      ],
+      "explanation": "The sentence says the sky 'became brighter', so it needs the comparative светлее, matching теплее just before it. Светлая is the plain adjective ('bright', feminine), which states a quality but not an increase."
+    },
+    {
+      "sentence": "Новый телефон красивый, чем старый.",
+      "translationEnglish": "The new phone is more beautiful than the old one.",
+      "error": "красивый",
+      "correction": "красивее",
+      "options": [
+        "красивее",
+        "красивая",
+        "красивые"
+      ],
+      "explanation": "The word чем ('than') signals a comparison, so you need 'more beautiful': красивее. Красивый is just the plain adjective ('beautiful'), which cannot make a comparison."
+    },
+    {
+      "sentence": "Эти парки красивее, и этот парк тоже красивейший.",
+      "translationEnglish": "These parks are more beautiful, and this park is also more beautiful.",
+      "error": "красивейший",
+      "correction": "красивее",
+      "options": [
+        "красивее",
+        "красивые",
+        "более красивее"
+      ],
+      "explanation": "The sentence makes a simple comparison ('also more beautiful'), so it needs красивее, which stays the same for singular and plural alike. Красивейший is a 'most beautiful' superlative, a stronger claim than the sentence makes."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Эта книга _____ , чем фильм.",
+      "contextEnglish": "This book is more interesting than the film.",
+      "options": [
+        "интересная",
+        "интереснее"
+      ],
+      "answer": "интереснее",
+      "explanation": "The English 'more interesting' needs the comparative интереснее. Интересная is just the plain adjective ('interesting', feminine), which states a quality but does not compare."
+    },
+    {
+      "context": "Эти дома _____ , чем те.",
+      "contextEnglish": "These houses are newer than those.",
+      "options": [
+        "новые",
+        "новее"
+      ],
+      "answer": "новее",
+      "explanation": "The subject дома is plural, but the comparative новее does not add a plural ending: it never changes. Новые is the plain plural adjective ('new'), which does not mean 'newer'."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each form: is it a one-word comparative ('more X'), or just the plain adjective ('X')?",
+    "categories": [
+      "Comparative (more X)",
+      "Plain adjective (X)"
+    ],
+    "items": [
+      {
+        "word": "новее",
+        "category": "Comparative (more X)"
+      },
+      {
+        "word": "новый",
+        "category": "Plain adjective (X)"
+      },
+      {
+        "word": "холоднее",
+        "category": "Comparative (more X)"
+      },
+      {
+        "word": "красивая",
+        "category": "Plain adjective (X)"
+      },
+      {
+        "word": "интереснее",
+        "category": "Comparative (more X)"
+      },
+      {
+        "word": "тёплые",
+        "category": "Plain adjective (X)"
+      }
+    ]
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "дом",
+        "этот",
+        "новее"
+      ],
+      "answer": "Этот дом новее.",
+      "acceptableVariants": [
+        "Этот дом новее"
+      ],
+      "translation": "This house is newer.",
+      "hint": "Subject first, then the one-word comparative новее (it does not change)."
+    },
+    {
+      "words": [
+        "сегодня",
+        "вчера",
+        "холоднее",
+        "чем"
+      ],
+      "answer": "Сегодня холоднее, чем вчера.",
+      "acceptableVariants": [
+        "Сегодня холоднее чем вчера",
+        "Сегодня холоднее, чем вчера"
+      ],
+      "translation": "Today is colder than yesterday.",
+      "hint": "Use холоднее unchanged. чем = than."
+    },
+    {
+      "words": [
+        "книга",
+        "интереснее",
+        "эта",
+        "фильм",
+        "чем"
+      ],
+      "answer": "Эта книга интереснее, чем фильм.",
+      "acceptableVariants": [
+        "Эта книга интереснее чем фильм",
+        "Эта книга интереснее, чем фильм"
+      ],
+      "translation": "This book is more interesting than the film.",
+      "hint": "интереснее stays the same. Build: subject, comparative, чем, the thing compared."
+    },
+    {
+      "words": [
+        "дети",
+        "сегодня",
+        "веселее"
+      ],
+      "answer": "Дети сегодня веселее.",
+      "acceptableVariants": [
+        "Дети сегодня веселее",
+        "Сегодня дети веселее",
+        "Сегодня дети веселее."
+      ],
+      "translation": "The children are happier today.",
+      "hint": "The subject дети is plural, but веселее does not get a plural ending."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "новее",
+      "definition": "newer (the one-word comparative of новый; it never changes for gender or number)",
+      "example": "Этот дом новее, чем тот."
+    },
+    {
+      "term": "холоднее / теплее",
+      "definition": "colder / warmer (one-word comparatives of холодный and тёплый, common for weather; built with -ее)",
+      "example": "Сегодня холоднее, чем вчера, но завтра будет теплее."
+    },
+    {
+      "term": "интереснее",
+      "definition": "more interesting (the one-word comparative of интересный; the same form for any subject, singular or plural)",
+      "example": "Эта книга интереснее, чем фильм."
+    }
+  ]
+}

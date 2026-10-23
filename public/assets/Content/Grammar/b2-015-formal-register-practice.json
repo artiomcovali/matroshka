@@ -1,0 +1,617 @@
+{
+  "lessonId": "b2-015-formal-register",
+  "sets": [
+    {
+      "id": "round-1-register-recognition",
+      "title": "Register Recognition",
+      "titleRussian": "Распознавание стиля",
+      "description": "Identify formal vs informal register and sort by style",
+      "descriptionRussian": "Определите формальный и неформальный стиль",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which sentence is formal register?",
+              "promptEnglish": "Choose the official/business-style version.",
+              "options": [
+                "Мы проверяем документы.",
+                "Документы проверяются.",
+                "Мы смотрим бумаги.",
+                "Документы смотрят."
+              ],
+              "answer": "Документы проверяются.",
+              "hint": "Formal register avoids 'мы' and prefers passive voice.",
+              "explanation": "Passive 'проверяются' is formal. Active 'мы проверяем' is neutral, and 'смотрим бумаги' is colloquial."
+            },
+            {
+              "prompt": "Which phrase belongs to official documents?",
+              "promptEnglish": "Identify the formal fixed phrase.",
+              "options": [
+                "из-за этого",
+                "поэтому",
+                "в связи с этим",
+                "потому что"
+              ],
+              "answer": "в связи с этим",
+              "hint": "Official documents use formulaic connectors.",
+              "explanation": "'В связи с этим' (in connection with this) is the standard formal connector. 'Из-за этого' and 'поэтому' are neutral/colloquial."
+            },
+            {
+              "prompt": "Which is a verbal noun construction typical of formal style?",
+              "promptEnglish": "Verbal nouns replace verbs in official texts.",
+              "options": [
+                "когда мы проверяли",
+                "осуществление проверки",
+                "мы проверили",
+                "надо проверить"
+              ],
+              "answer": "осуществление проверки",
+              "hint": "Formal style replaces verb phrases with noun phrases.",
+              "explanation": "'Осуществление проверки' (carrying out of inspection) is a verbal noun construction. Formal register prefers nouns over verbs."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Formal register prefers:",
+              "promptEnglish": "What construction does formal style favor?",
+              "options": [
+                "personal + active verbs",
+                "short sentences with 'я/мы'",
+                "impersonal and passive constructions",
+                "colloquial particles like ведь, же"
+              ],
+              "answer": "impersonal and passive constructions",
+              "hint": "The agent is hidden or de-emphasized in formal texts.",
+              "explanation": "Formal Russian avoids naming the agent directly. Passive (рассматривается) and impersonal (рекомендуется) are standard."
+            },
+            {
+              "prompt": "Which sentence uses a participle instead of 'который'?",
+              "promptEnglish": "Formal style prefers participle constructions.",
+              "options": [
+                "Документы, которые представил заявитель, приняты.",
+                "Документы, представленные заявителем, приняты.",
+                "Заявитель представил документы, и их приняли.",
+                "Мы приняли документы от заявителя."
+              ],
+              "answer": "Документы, представленные заявителем, приняты.",
+              "hint": "Participles compress relative clauses into a more formal construction.",
+              "explanation": "'Представленные заявителем' replaces 'которые представил заявитель'. Formal register strongly prefers participle constructions."
+            },
+            {
+              "prompt": "Which word is the formal equivalent of 'этот' (this)?",
+              "promptEnglish": "Official documents use a specific word instead of 'этот'.",
+              "options": [
+                "тот",
+                "данный",
+                "такой",
+                "некоторый"
+              ],
+              "answer": "данный",
+              "hint": "Think of 'данный документ' in official texts.",
+              "explanation": "'Данный' (given/present) replaces 'этот' in formal register. 'Данный документ' = this document (official style)."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "Which verb is the formal equivalent of 'быть' (to be)?",
+              "promptEnglish": "Official texts use a specific verb meaning 'to be'.",
+              "options": [
+                "бывать",
+                "являться",
+                "становиться",
+                "оставаться"
+              ],
+              "answer": "являться",
+              "hint": "'Россия является...' instead of 'Россия есть...'",
+              "explanation": "'Являться' is the formal 'to be'. 'Данный факт является основанием для...' (This fact constitutes grounds for...)."
+            },
+            {
+              "prompt": "'Рекомендуется соблюдать тишину.' This is an example of:",
+              "promptEnglish": "It is recommended to maintain silence.",
+              "options": [
+                "personal construction",
+                "passive construction",
+                "impersonal construction",
+                "conditional construction"
+              ],
+              "answer": "impersonal construction",
+              "hint": "There is no named subject performing the recommending.",
+              "explanation": "'Рекомендуется' (it is recommended) is impersonal: no agent, the verb carries the entire meaning. Very typical of formal register."
+            },
+            {
+              "prompt": "Which is NOT a feature of formal register?",
+              "promptEnglish": "One of these does not belong in official texts.",
+              "options": [
+                "verbal nouns (осуществление, рассмотрение)",
+                "impersonal constructions (запрещается)",
+                "particles like ведь, ну, же",
+                "formulaic phrases (в соответствии с)"
+              ],
+              "answer": "particles like ведь, ну, же",
+              "hint": "These particles appear in spoken Russian, not documents.",
+              "explanation": "Particles ведь, ну, же are colloquial. Formal register strictly avoids them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-2-formal-phrases",
+      "title": "Formal Fixed Phrases",
+      "titleRussian": "Устойчивые обороты",
+      "description": "Practice formulaic phrases and choose the correct formal connector",
+      "descriptionRussian": "Практика устойчивых оборотов делового стиля",
+      "icon": "text.quote",
+      "fillInBlank": {
+        "blanks": [
+          "_____ с действующим законодательством, курение запрещено. (In accordance with current legislation, smoking is prohibited.)",
+          "_____ вышеизложенного, просим принять меры. (On the basis of the above, we ask that measures be taken.)",
+          "_____ с тем, что сроки истекли, заявка отклонена. (Due to the fact that the deadline has passed, the application is rejected.)",
+          "Просим Вас _____ документы до 1 марта. (We request that you provide documents by March 1.)",
+          "Данный вопрос _____ рассмотрению. (This matter is subject to review.)"
+        ],
+        "choices": [
+          "В соответствии",
+          "На основании",
+          "В связи",
+          "предоставить",
+          "подлежит"
+        ],
+        "answers": [
+          "В соответствии",
+          "На основании",
+          "В связи",
+          "предоставить",
+          "подлежит"
+        ],
+        "grammarFocus": "Formal fixed phrases and set expressions",
+        "hints": [
+          "'In accordance with' uses в соответствии с + instrumental.",
+          "'On the basis of' uses на основании + genitive.",
+          "'In connection with' / 'Due to' uses в связи с + instrumental.",
+          "Official requests use просим + infinitive.",
+          "'To be subject to' = подлежать + dative."
+        ],
+        "explanations": [
+          "В соответствии с действующим законодательством: standard opening for legal references.",
+          "На основании вышеизложенного: 'on the basis of the foregoing', a standard official formula.",
+          "В связи с тем, что...: formal causal connector, much more official than 'потому что'.",
+          "Просим Вас предоставить: the polite-formal request formula. Note capital Вас (formal 'you').",
+          "Подлежит рассмотрению: 'is subject to review'. Подлежать + dative noun is a core formal pattern."
+        ],
+        "options": [
+          [
+            "В соответствии",
+            "По причине",
+            "На основании",
+            "В связи"
+          ],
+          [
+            "В соответствии",
+            "По причине",
+            "В связи",
+            "На основании"
+          ],
+          [
+            "В соответствии",
+            "Вследствие",
+            "В связи",
+            "На основании"
+          ],
+          [
+            "обеспечить",
+            "предоставить",
+            "представить",
+            "направить"
+          ],
+          [
+            "подлежит",
+            "подлежал",
+            "подлежало",
+            "подлежать"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "_____ неоплаты в срок, договор расторгается. (In the event of non-payment on time...)",
+          "contextEnglish": "Choose the correct formal preposition.",
+          "options": [
+            "В случае",
+            "Если"
+          ],
+          "answer": "В случае",
+          "explanation": "'В случае' + genitive is the formal conditional. 'Если' is neutral/spoken. Official documents use 'в случае неоплаты'."
+        },
+        {
+          "context": "Решение принято _____ результатов проверки. (The decision was made on the basis of...)",
+          "contextEnglish": "Formal: based on the results of the inspection.",
+          "options": [
+            "на основании",
+            "из-за"
+          ],
+          "answer": "на основании",
+          "explanation": "'На основании' + genitive = 'on the basis of' (formal). 'Из-за' = 'because of' (neutral/negative connotation, not official)."
+        },
+        {
+          "context": "_____ обеспечить безопасность пассажиров. (It is necessary to ensure passenger safety.)",
+          "contextEnglish": "Formal impersonal: 'it is necessary'.",
+          "options": [
+            "Необходимо",
+            "Надо"
+          ],
+          "answer": "Необходимо",
+          "explanation": "'Необходимо' is the formal impersonal 'it is necessary'. 'Надо' is colloquial and never appears in official texts."
+        },
+        {
+          "context": "Комиссия _____ нарушения в работе отдела. (The commission identified violations...)",
+          "contextEnglish": "Formal verb for 'found/identified'.",
+          "options": [
+            "выявила",
+            "нашла"
+          ],
+          "answer": "выявила",
+          "explanation": "'Выявить' (to identify/reveal) is the formal register verb. 'Найти' (to find) is neutral/colloquial."
+        }
+      ]
+    },
+    {
+      "id": "round-3-transform-formalize",
+      "title": "Formalize the Sentence",
+      "titleRussian": "Переведите в деловой стиль",
+      "description": "Transform informal sentences into formal register",
+      "descriptionRussian": "Преобразуйте разговорные предложения в официальный стиль",
+      "icon": "arrow.triangle.2.circlepath",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "How do you formally say 'Мы получили ваше письмо'?",
+              "promptEnglish": "We received your letter. (formal version)",
+              "options": [
+                "Нам пришло ваше письмо.",
+                "Ваше письмо получено.",
+                "Мы прочитали ваше письмо.",
+                "Письмо к нам дошло."
+              ],
+              "answer": "Ваше письмо получено.",
+              "hint": "Formal register uses short passive participle and removes 'мы'.",
+              "explanation": "'Получено' (short passive participle) is the formal version. The agent 'мы' is removed."
+            },
+            {
+              "prompt": "Which is the formal version of 'Нельзя курить здесь'?",
+              "promptEnglish": "Formal prohibition of smoking.",
+              "options": [
+                "Тут не курят.",
+                "Не курите!",
+                "Курение в данном помещении запрещено.",
+                "Здесь нельзя курить."
+              ],
+              "answer": "Курение в данном помещении запрещено.",
+              "hint": "Verbal noun + 'данный' + passive participle.",
+              "explanation": "Three formal markers: verbal noun 'курение', formal demonstrative 'данном', passive participle 'запрещено'."
+            },
+            {
+              "prompt": "How does formal register express 'Мы решили эту проблему'?",
+              "promptEnglish": "We solved this problem. (formal)",
+              "options": [
+                "Проблему решили.",
+                "Данная проблема решена.",
+                "Эту проблему мы уже решили.",
+                "Вопрос закрыт."
+              ],
+              "answer": "Данная проблема решена.",
+              "hint": "'Данная' + short passive participle, no agent.",
+              "explanation": "'Данная проблема решена': 'данная' (formal 'this'), 'решена' (short passive). Agent removed."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Formal for 'Мы просим вас прийти в офис':",
+              "promptEnglish": "We ask you to come to the office. (formal)",
+              "options": [
+                "Приходите к нам в офис.",
+                "Мы хотим, чтобы вы пришли.",
+                "Вам нужно зайти в офис.",
+                "Просим Вас явиться в офис."
+              ],
+              "answer": "Просим Вас явиться в офис.",
+              "hint": "Capital 'Вас' for formal 'you'. 'Явиться' is formal for 'прийти'.",
+              "explanation": "'Просим Вас явиться': formal request formula. 'Явиться' is more official than 'прийти'. Capital 'В' in 'Вас' shows respect."
+            },
+            {
+              "prompt": "Which sentence correctly uses a formal verbal noun?",
+              "promptEnglish": "Verbal nouns replace verbs in official texts.",
+              "options": [
+                "Когда мы получили результаты, мы продолжили работу.",
+                "После получения результатов работа была продолжена.",
+                "Мы получили результаты и продолжили работу.",
+                "Результаты пришли, и мы стали работать дальше."
+              ],
+              "answer": "После получения результатов работа была продолжена.",
+              "hint": "Verbal noun 'получение' + passive 'была продолжена'.",
+              "explanation": "'После получения результатов' (after receipt of results) replaces the temporal clause. 'Работа была продолжена' is passive."
+            },
+            {
+              "prompt": "Which formal phrase means 'in order to'?",
+              "promptEnglish": "Purpose expression in official texts.",
+              "options": [
+                "чтобы",
+                "для того чтобы",
+                "ради",
+                "в целях"
+              ],
+              "answer": "в целях",
+              "hint": "'В целях' + genitive is the standard formal purpose phrase.",
+              "explanation": "'В целях обеспечения безопасности' (for the purpose of ensuring safety). 'Чтобы' is neutral, 'в целях' is official."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Постройте и переведите",
+      "description": "Build formal sentences from words and translate into formal register",
+      "descriptionRussian": "Составьте официальные предложения и переведите в деловой стиль",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "Smoking in this building is prohibited.",
+          "answer": "Курение в данном здании запрещено.",
+          "acceptableVariants": [
+            "В данном здании курение запрещено."
+          ],
+          "hint": "Verbal noun 'курение' + formal 'данном' + short passive participle.",
+          "grammarFocus": "Verbal noun + impersonal prohibition",
+          "keyWord": "запрещено",
+          "options": [
+            "запрещено",
+            "запрещён",
+            "запрещена",
+            "запрещены"
+          ]
+        },
+        {
+          "english": "The application has been reviewed and approved.",
+          "answer": "Заявление рассмотрено и одобрено.",
+          "acceptableVariants": [
+            "Заявка рассмотрена и одобрена."
+          ],
+          "hint": "Two short passive participles, no agent mentioned.",
+          "grammarFocus": "Short passive participle chain",
+          "keyWord": "рассмотрено",
+          "options": [
+            "рассмотрено",
+            "рассмотрен",
+            "рассмотрена",
+            "рассмотрены"
+          ]
+        },
+        {
+          "english": "It is recommended to arrive 15 minutes before the start.",
+          "answer": "Рекомендуется прибыть за 15 минут до начала.",
+          "acceptableVariants": [
+            "Рекомендуется явиться за 15 минут до начала.",
+            "Рекомендуется прибыть за пятнадцать минут до начала."
+          ],
+          "hint": "Impersonal 'рекомендуется' + formal infinitive 'прибыть'.",
+          "grammarFocus": "Impersonal recommendation construction",
+          "keyWord": "рекомендуется",
+          "options": [
+            "рекомендуется",
+            "рекомендуют",
+            "рекомендуем",
+            "рекомендовано"
+          ]
+        },
+        {
+          "english": "In connection with the renovation, the office is temporarily closed.",
+          "answer": "В связи с проведением ремонта офис временно закрыт.",
+          "acceptableVariants": [
+            "В связи с ремонтом офис временно закрыт.",
+            "В связи с проведением ремонтных работ офис временно закрыт."
+          ],
+          "hint": "'В связи с' + instrumental. Verbal noun 'проведением' optional but more formal.",
+          "grammarFocus": "Formal causal connector + passive",
+          "keyWord": "В связи с",
+          "options": [
+            "В связи с",
+            "В связи о",
+            "В связь с",
+            "По связи с"
+          ]
+        },
+        {
+          "english": "Documents submitted by the applicant have been accepted.",
+          "answer": "Документы, представленные заявителем, приняты.",
+          "acceptableVariants": [
+            "Представленные заявителем документы приняты."
+          ],
+          "hint": "Passive past participle 'представленные' + instrumental agent + short passive 'приняты'.",
+          "grammarFocus": "Participle construction with instrumental agent",
+          "keyWord": "представленные",
+          "options": [
+            "представленные",
+            "представившие",
+            "представляющие",
+            "представленных"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "Error correction, transformations, and quiz on all formal register features",
+      "descriptionRussian": "Исправление ошибок, трансформации и тест по всем аспектам делового стиля",
+      "icon": "star.fill",
+      "errorCorrection": [
+        {
+          "sentence": "В связи с тем что произошла поломка, мы закрыли магазин. (Too informal: 'мы закрыли')",
+          "error": "мы закрыли",
+          "correction": "магазин закрыт",
+          "hint": "Formal register removes 'мы' and uses passive.",
+          "explanation": "Formal: 'В связи с поломкой оборудования магазин закрыт.' Remove the agent, use passive.",
+          "options": [
+            "магазин закрыт",
+            "магазин закрыли",
+            "мы закрыли магазин"
+          ]
+        },
+        {
+          "sentence": "Надо предоставить документы до конца месяца. ('Надо' is colloquial.)",
+          "error": "Надо",
+          "correction": "Необходимо",
+          "hint": "'Надо' is spoken Russian. Official texts use a different word.",
+          "explanation": "'Необходимо' is the formal equivalent of 'надо'. Always use 'необходимо' in official documents.",
+          "options": [
+            "Необходимо",
+            "Нужно",
+            "Должно"
+          ]
+        },
+        {
+          "sentence": "Из-за результатов проверки были приняты меры. (Wrong preposition for formal cause.)",
+          "error": "Из-за",
+          "correction": "На основании",
+          "hint": "'Из-за' implies blame. Formal cause uses a different preposition.",
+          "explanation": "'На основании результатов проверки' (on the basis of). 'Из-за' has a negative/colloquial tone, unsuitable for official register.",
+          "options": [
+            "На основании",
+            "Благодаря",
+            "По причине"
+          ]
+        },
+        {
+          "sentence": "Этот документ нужно подписать. ('Этот' and 'нужно' are not formal enough.)",
+          "error": "Этот",
+          "correction": "Данный",
+          "hint": "Formal register uses a different demonstrative pronoun.",
+          "explanation": "'Данный документ подлежит подписанию.' Use 'данный' instead of 'этот' in official texts.",
+          "options": [
+            "Данный",
+            "Тот",
+            "Такой"
+          ]
+        },
+        {
+          "sentence": "Работники, которые опоздали, получат штраф. (Formal style prefers participles.)",
+          "error": "которые опоздали",
+          "correction": "опоздавшие",
+          "hint": "Replace the relative clause with a past active participle.",
+          "explanation": "'Работники, опоздавшие на работу, будут оштрафованы.' Participles replace 'который' clauses in formal register.",
+          "options": [
+            "опоздавшие",
+            "опаздывающие",
+            "опоздавших"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Complete: В целях _____ безопасности проводятся регулярные проверки.",
+              "promptEnglish": "For the purpose of ensuring safety, regular inspections are conducted.",
+              "options": [
+                "для",
+                "обеспечения",
+                "чтобы",
+                "создания"
+              ],
+              "answer": "обеспечения",
+              "hint": "'В целях' + genitive verbal noun.",
+              "explanation": "'В целях обеспечения безопасности' = for the purpose of ensuring safety. 'В целях' requires a genitive verbal noun."
+            },
+            {
+              "prompt": "Which is the most formal way to end a business letter?",
+              "promptEnglish": "Choose the official closing formula.",
+              "options": [
+                "Пока, до встречи.",
+                "С уважением,",
+                "Всего хорошего!",
+                "Жду ответа."
+              ],
+              "answer": "С уважением,",
+              "hint": "The standard formal closing in Russian business correspondence.",
+              "explanation": "'С уважением,' (With respect,) is the universal formal letter closing, equivalent to 'Sincerely' or 'Regards'."
+            },
+            {
+              "prompt": "Which construction is WRONG for formal register?",
+              "promptEnglish": "Identify the informal element.",
+              "options": [
+                "Вам необходимо заполнить форму.",
+                "Форма подлежит заполнению.",
+                "Короче, заполните эту форму.",
+                "Просим Вас заполнить форму."
+              ],
+              "answer": "Короче, заполните эту форму.",
+              "hint": "'Короче' is slang. Official documents never use it.",
+              "explanation": "'Короче' (basically/in short) is colloquial slang, completely inappropriate for formal texts."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Choose the formal version: 'We will solve this problem.'",
+              "promptEnglish": "Select the official-register equivalent.",
+              "options": [
+                "Мы решим эту проблему.",
+                "Данный вопрос будет урегулирован.",
+                "Эту проблему мы точно решим.",
+                "Мы всё сделаем."
+              ],
+              "answer": "Данный вопрос будет урегулирован.",
+              "hint": "'Данный' + formal verb 'урегулирован' + passive.",
+              "explanation": "'Данный вопрос будет урегулирован' uses three formal markers: 'данный', formal verb 'урегулировать', and passive construction."
+            },
+            {
+              "prompt": "_____ предусмотренного законом порядка обжалование невозможно.",
+              "promptEnglish": "Without the procedure established by law, an appeal is impossible.",
+              "options": [
+                "Без",
+                "В отсутствие",
+                "Не имея",
+                "Из-за"
+              ],
+              "answer": "В отсутствие",
+              "hint": "'В отсутствие' + genitive is the formal way to express 'without/in the absence of'.",
+              "explanation": "'В отсутствие' (in the absence of) is formal register. 'Без' is acceptable but less official. 'Из-за' implies negative cause."
+            },
+            {
+              "prompt": "Formal register uses 'являться' instead of:",
+              "promptEnglish": "What neutral verb does 'являться' replace?",
+              "options": [
+                "становиться",
+                "казаться",
+                "быть",
+                "оставаться"
+              ],
+              "answer": "быть",
+              "hint": "'Являться' is the formal equivalent of 'to be'.",
+              "explanation": "'Данный факт является нарушением' = 'This fact is a violation.' 'Являться' replaces 'быть' in formal register."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

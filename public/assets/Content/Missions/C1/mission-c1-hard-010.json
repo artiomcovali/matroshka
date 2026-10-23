@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-010",
+  "title": "Partnership Betrayal",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Confront business partner who cheated you",
+  "imageName": "person.2.slash.fill",
+  "initialPrompt": "Я ничего не нарушал. Контракт позволяет мне эти действия. Если тебе не нравится — обращайся в суд.",
+  "systemPrompt": "You are partner who exploited contract loophole. Deny wrongdoing, cite legal technicalities. Only negotiate if confronted with evidence of bad faith and mutual dependency.",
+  "completionCriteria": "User confronted partner betrayal effectively.",
+  "responseLimit": 15,
+  "hints": [
+    "Ты нарушил дух соглашения (You violated the spirit of the agreement)",
+    "Наш бизнес зависит друг от друга (Our business depends on each other)"
+  ],
+  "targetVocabulary": [
+    {"word": "предательство", "definition": "betrayal"},
+    {"word": "партнёр", "definition": "partner"},
+    {"word": "лазейка", "definition": "loophole"},
+    {"word": "добросовестность", "definition": "good faith"},
+    {"word": "контракт", "definition": "contract"},
+    {"word": "взаимозависимость", "definition": "mutual dependency"}
+  ],
+  "objectives": [
+    "Confront betrayal directly",
+    "Cite spirit of agreement",
+    "Show mutual dependency",
+    "Negotiate fair resolution",
+    "Protect your interests"
+  ]
+}

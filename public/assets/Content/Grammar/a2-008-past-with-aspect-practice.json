@@ -1,0 +1,651 @@
+{
+  "lessonId": "a2-008-past-with-aspect",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Choose between imperfective and perfective past forms",
+      "descriptionRussian": "Выберите между несовершенным и совершенным видом в прошедшем времени",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Он _____ эту книгу за два дня. (He read this book in two days.) - completed in a time frame",
+              "promptEnglish": "He read this book in two days. (finished)",
+              "options": [
+                "читал",
+                "прочитал",
+                "читать",
+                "прочитать"
+              ],
+              "answer": "прочитал",
+              "hint": "За два дня (in two days) = completed within a timeframe = perfective.",
+              "explanation": "За + time = completed within that period. Perfective: прочитал."
+            },
+            {
+              "prompt": "Она _____ суп два часа. (She cooked soup for two hours.) - duration",
+              "promptEnglish": "She cooked soup for two hours. (process over time)",
+              "options": [
+                "приготовила",
+                "сварила",
+                "варила",
+                "готовить"
+              ],
+              "answer": "варила",
+              "hint": "Два часа as duration (how long?) = imperfective.",
+              "explanation": "Two hours of cooking = duration/process. Imperfective: варила."
+            },
+            {
+              "prompt": "Когда я _____, зазвонил телефон. (While I was working, the phone rang.)",
+              "promptEnglish": "While I was working, the phone rang.",
+              "options": [
+                "сделал",
+                "работал",
+                "сделала",
+                "работала"
+              ],
+              "answer": "работал",
+              "hint": "Background action (while) = imperfective. Male speaker.",
+              "explanation": "Background ongoing action = imperfective: работал. The phone ringing interrupts."
+            },
+            {
+              "prompt": "Мы _____ и пошли домой. (We ate and went home.) - sequential completed actions",
+              "promptEnglish": "We ate and went home. (one after the other)",
+              "options": [
+                "ели",
+                "поели",
+                "кушали",
+                "покушали"
+              ],
+              "answer": "поели",
+              "hint": "Sequential completed actions (ate, then went) = perfective.",
+              "explanation": "Sequential completed events: поели (finished eating), then пошли. Both perfective."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Она _____ пирог два часа. (She baked a pie for two hours.) - how long?",
+          "contextEnglish": "She baked for two hours. (duration)",
+          "options": [
+            "пекла",
+            "испекла"
+          ],
+          "answer": "пекла",
+          "explanation": "Два часа (how long?) = duration = imperfective: пекла."
+        },
+        {
+          "context": "Она _____ пирог за два часа. (She baked a pie in two hours.) - completed within",
+          "contextEnglish": "She baked a pie in two hours. (finished within that time)",
+          "options": [
+            "пекла",
+            "испекла"
+          ],
+          "answer": "испекла",
+          "explanation": "За два часа (within two hours) = completed. Perfective: испекла."
+        },
+        {
+          "context": "Он вчера _____ письмо. (He was writing a letter yesterday.) - process",
+          "contextEnglish": "He was writing a letter yesterday. (no mention of finishing)",
+          "options": [
+            "писал",
+            "написал"
+          ],
+          "answer": "писал",
+          "explanation": "No mention of finishing = focus on the process. Imperfective: писал."
+        },
+        {
+          "context": "Он вчера _____ письмо и отправил его. (He wrote a letter yesterday and sent it.)",
+          "contextEnglish": "He wrote a letter and sent it. (finished, then sent)",
+          "options": [
+            "писал",
+            "написал"
+          ],
+          "answer": "написал",
+          "explanation": "Wrote AND sent = two sequential completed actions. Perfective: написал."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Дети весь день _____ в парке. (The children played in the park all day.)",
+          "Он _____ домашнее задание и пошёл гулять. (He did his homework and went for a walk.)",
+          "Раньше мы часто _____ в этот ресторан. (We used to go to this restaurant often.)"
+        ],
+        "choices": [
+          "играли",
+          "сделал",
+          "ходили"
+        ],
+        "answers": [
+          "играли",
+          "сделал",
+          "ходили"
+        ],
+        "grammarFocus": "Aspect choice in past tense based on context",
+        "hints": [
+          "Весь день = all day = duration = imperfective.",
+          "Did homework AND went (sequential) = perfective.",
+          "Часто (often) + раньше (before) = habitual past = imperfective."
+        ],
+        "explanations": [
+          "Весь день = duration. Imperfective: играли.",
+          "Sequential completed actions. Perfective: сделал (then пошёл).",
+          "Часто + раньше = habitual past. Imperfective: ходили."
+        ],
+        "options": [
+          [
+            "сыграли",
+            "сыграет",
+            "играет",
+            "играли"
+          ],
+          [
+            "сделает",
+            "делает",
+            "сделал",
+            "делал"
+          ],
+          [
+            "ходили",
+            "сходили",
+            "ходит",
+            "сходит"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-time-signals",
+      "title": "Time Signal Clues",
+      "titleRussian": "Слова-подсказки",
+      "description": "Match time expressions to the correct aspect",
+      "descriptionRussian": "Соотнесите выражения времени с правильным видом глагола",
+      "icon": "clock",
+      "categorySorting": {
+        "instruction": "Sort: does this time expression signal imperfective or perfective?",
+        "categories": [
+          "Imperfective (process/repeat)",
+          "Perfective (result/completion)"
+        ],
+        "items": [
+          {
+            "word": "долго (for a long time)",
+            "category": "Imperfective (process/repeat)"
+          },
+          {
+            "word": "наконец (finally)",
+            "category": "Perfective (result/completion)"
+          },
+          {
+            "word": "каждый день (every day)",
+            "category": "Imperfective (process/repeat)"
+          },
+          {
+            "word": "уже (already)",
+            "category": "Perfective (result/completion)"
+          },
+          {
+            "word": "часто (often)",
+            "category": "Imperfective (process/repeat)"
+          },
+          {
+            "word": "вдруг (suddenly)",
+            "category": "Perfective (result/completion)"
+          },
+          {
+            "word": "обычно (usually)",
+            "category": "Imperfective (process/repeat)"
+          },
+          {
+            "word": "за час (in an hour)",
+            "category": "Perfective (result/completion)"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Мы долго решили эту задачу.",
+          "error": "решили",
+          "correction": "решали",
+          "hint": "Долго = duration = imperfective.",
+          "explanation": "Долго (for a long time) = process. Imperfective: решали, not решили.",
+          "options": [
+            "решали",
+            "решают",
+            "решат"
+          ]
+        },
+        {
+          "sentence": "Он наконец писал книгу.",
+          "error": "писал",
+          "correction": "написал",
+          "hint": "Наконец = completed = perfective.",
+          "explanation": "Наконец (finally) = completion. Perfective: написал.",
+          "options": [
+            "написал",
+            "напишет",
+            "пишет"
+          ]
+        },
+        {
+          "sentence": "Каждое утро она приготовила завтрак.",
+          "error": "приготовила",
+          "correction": "готовила",
+          "hint": "Каждое утро = every morning = habitual = imperfective.",
+          "explanation": "Каждое утро = repetition. Imperfective: готовила.",
+          "options": [
+            "готовила",
+            "готовит",
+            "готовят"
+          ]
+        },
+        {
+          "sentence": "Вдруг он вспоминал ответ.",
+          "error": "вспоминал",
+          "correction": "вспомнил",
+          "hint": "Вдруг = suddenly = single instant event = perfective.",
+          "explanation": "Вдруг (suddenly) = single completed moment. Perfective: вспомнил.",
+          "options": [
+            "вспомнил",
+            "вспомнит",
+            "вспоминает"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она _____ всю ночь. (She studied all night.) - duration",
+              "promptEnglish": "She studied all night.",
+              "options": [
+                "выучила",
+                "выучить",
+                "учила",
+                "учиться"
+              ],
+              "answer": "учила",
+              "hint": "Всю ночь (all night) = duration.",
+              "explanation": "Всю ночь = duration = imperfective: учила (was studying)."
+            },
+            {
+              "prompt": "Мальчик _____ и упал. (The boy ran and fell.) - sequence",
+              "promptEnglish": "The boy ran and fell. (two quick events)",
+              "options": [
+                "побежал",
+                "бежал",
+                "бегал",
+                "побегал"
+              ],
+              "answer": "побежал",
+              "hint": "Sequential quick events = perfective.",
+              "explanation": "Ran (started running) and fell = sequential perfective: побежал."
+            },
+            {
+              "prompt": "В детстве я каждый день _____ на велосипеде. (As a child, I rode a bicycle every day.)",
+              "promptEnglish": "As a child, I rode my bicycle every day.",
+              "options": [
+                "поехал",
+                "ехал",
+                "катался",
+                "покатался"
+              ],
+              "answer": "катался",
+              "hint": "Каждый день = habitual = imperfective.",
+              "explanation": "Каждый день (every day) in childhood = habitual. Imperfective: катался."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-za-vs-duration",
+      "title": "За vs Duration",
+      "titleRussian": "«За» и длительность",
+      "description": "Distinguish 'for two hours' (duration) from 'in two hours' (completion)",
+      "descriptionRussian": "Отличите «два часа» (длительность) от «за два часа» (результат)",
+      "icon": "timer",
+      "patternRecognition": [
+        {
+          "sentence": "Он читал книгу два часа. vs. Он прочитал книгу за два часа.",
+          "question": "What is the key difference between these sentences?",
+          "options": [
+            "'Два часа' = how long (process); 'за два часа' = within that time (completed)",
+            "They mean the same thing",
+            "The first is future tense"
+          ],
+          "answer": "'Два часа' = how long (process); 'за два часа' = within that time (completed)",
+          "explanation": "Without за: duration (how long the process lasted). With за: completed within that timeframe."
+        },
+        {
+          "sentence": "Когда я читал, он позвонил. (While I was reading, he called.)",
+          "question": "Why are two different aspects used in the same sentence?",
+          "options": [
+            "Background action (imperfective) interrupted by a sudden event (perfective)",
+            "Both are imperfective",
+            "It is a grammatical mistake"
+          ],
+          "answer": "Background action (imperfective) interrupted by a sudden event (perfective)",
+          "explanation": "Russian uses imperfective for the background action and perfective for the interrupting event."
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она _____ торт три часа. (She baked a cake for three hours.)",
+              "promptEnglish": "She baked a cake for three hours. (how long)",
+              "options": [
+                "испекла",
+                "печёт",
+                "пекла",
+                "испечь"
+              ],
+              "answer": "пекла",
+              "hint": "Three hours = how long (duration) = imperfective.",
+              "explanation": "Three hours without за = duration. Imperfective: пекла."
+            },
+            {
+              "prompt": "Она _____ торт за три часа. (She baked a cake in three hours.)",
+              "promptEnglish": "She baked a cake in three hours. (finished within)",
+              "options": [
+                "пекла",
+                "испекла",
+                "печь",
+                "печёт"
+              ],
+              "answer": "испекла",
+              "hint": "За три часа = completed within = perfective.",
+              "explanation": "За + time = completed within. Perfective: испекла."
+            },
+            {
+              "prompt": "Когда мы _____, начался дождь. (While we were walking, it started to rain.)",
+              "promptEnglish": "While we were walking, it started to rain.",
+              "options": [
+                "пошли",
+                "гуляли",
+                "погуляли",
+                "шли"
+              ],
+              "answer": "гуляли",
+              "hint": "Background action = imperfective.",
+              "explanation": "Background ongoing action: гуляли (imperfective). Rain starting = perfective начался."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Студент _____ контрольную работу за сорок минут. (The student finished the test in 40 minutes.)",
+          "Мы _____ в этом доме пять лет. (We lived in this house for five years.)",
+          "Когда я _____, пришёл друг. (While I was cooking, a friend came.)"
+        ],
+        "choices": [
+          "написал",
+          "жили",
+          "готовил"
+        ],
+        "answers": [
+          "написал",
+          "жили",
+          "готовил"
+        ],
+        "grammarFocus": "За + time (perfective) vs bare duration (imperfective) vs background action",
+        "hints": [
+          "За сорок минут = completed within = perfective.",
+          "Пять лет = duration (how long) = imperfective.",
+          "Background action (when I was...) = imperfective."
+        ],
+        "explanations": [
+          "За + time = completed. Perfective: написал.",
+          "Five years without за = duration. Imperfective: жили.",
+          "Background action interrupted = imperfective: готовил."
+        ],
+        "options": [
+          [
+            "пишет",
+            "писал",
+            "напишет",
+            "написал"
+          ],
+          [
+            "жили",
+            "живёт",
+            "прожили",
+            "проживёт"
+          ],
+          [
+            "готовил",
+            "готовит",
+            "приготовит",
+            "приготовил"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-sequences",
+      "title": "Action Chains",
+      "titleRussian": "Цепочки действий",
+      "description": "Practice sequential and background actions in past tense",
+      "descriptionRussian": "Потренируйте последовательные и фоновые действия",
+      "icon": "arrow.right",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она _____ и села. (She entered and sat down.) - two quick sequential actions",
+              "promptEnglish": "She entered and sat down.",
+              "options": [
+                "входила",
+                "входить",
+                "вошла",
+                "войти"
+              ],
+              "answer": "вошла",
+              "hint": "Two sequential completed actions = both perfective.",
+              "explanation": "Sequential completed actions: вошла (perfective) и села (perfective)."
+            },
+            {
+              "prompt": "Пока мама _____, дети играли. (While mom was cooking, the children played.)",
+              "promptEnglish": "While mom was cooking, the children played.",
+              "options": [
+                "приготовила",
+                "готовила",
+                "приготовит",
+                "готовит"
+              ],
+              "answer": "готовила",
+              "hint": "Пока (while) = background simultaneous action = imperfective.",
+              "explanation": "Пока (while) = two simultaneous ongoing actions = both imperfective: готовила, играли."
+            },
+            {
+              "prompt": "Он _____ кофе, _____ газету и пошёл на работу. (He drank coffee, read the paper, and went to work.)",
+              "promptEnglish": "He drank coffee, read the newspaper, and went to work.",
+              "options": [
+                "пил ... читал",
+                "выпил ... прочитал",
+                "пил ... прочитал",
+                "выпил ... читал"
+              ],
+              "answer": "выпил ... прочитал",
+              "hint": "Three sequential completed actions = all perfective.",
+              "explanation": "A chain of completed actions: выпил, прочитал, пошёл. All perfective."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "While I was sleeping, he left.",
+          "answer": "Пока я спал, он ушёл.",
+          "acceptableVariants": [
+            "Когда я спал, он ушёл.",
+            "Пока я спала, он ушёл."
+          ],
+          "hint": "sleeping (background) = спал, left (event) = ушёл",
+          "grammarFocus": "background imperfective + interrupting perfective",
+          "keyWord": "спал",
+          "options": [
+            "спал",
+            "спит",
+            "уснул",
+            "спать"
+          ]
+        },
+        {
+          "english": "She cooked dinner and called us.",
+          "answer": "Она приготовила ужин и позвала нас.",
+          "acceptableVariants": [],
+          "hint": "cooked (completed) = приготовила, called (completed) = позвала",
+          "grammarFocus": "sequential perfective actions",
+          "keyWord": "приготовила",
+          "options": [
+            "приготовила",
+            "готовила",
+            "приготовит",
+            "приготовлю"
+          ]
+        },
+        {
+          "english": "He studied Russian for three years.",
+          "answer": "Он учил русский язык три года.",
+          "acceptableVariants": [
+            "Он изучал русский язык три года."
+          ],
+          "hint": "three years = duration (no за) = imperfective",
+          "grammarFocus": "duration = imperfective",
+          "keyWord": "учил",
+          "options": [
+            "учил",
+            "выучил",
+            "учу",
+            "учить"
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Она _____ ужин, когда я пришёл. (She was cooking dinner when I arrived.)",
+          "contextEnglish": "She was cooking when I arrived. (background)",
+          "options": [
+            "готовила",
+            "приготовила"
+          ],
+          "answer": "готовила",
+          "explanation": "Background action in progress when something happened = imperfective: готовила."
+        },
+        {
+          "context": "Она уже _____ ужин, когда я пришёл. (She had already cooked dinner when I arrived.)",
+          "contextEnglish": "She had already cooked dinner when I arrived. (completed before)",
+          "options": [
+            "готовила",
+            "приготовила"
+          ],
+          "answer": "приготовила",
+          "explanation": "Уже (already) = completed before arrival. Perfective: приготовила."
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "A comprehensive final round on past tense aspect",
+      "descriptionRussian": "Финальный комплексный раунд",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы _____ песни и танцевали всю ночь. (We sang songs and danced all night.) - two simultaneous ongoing actions",
+              "promptEnglish": "We sang and danced all night.",
+              "options": [
+                "спели",
+                "попели",
+                "спою",
+                "пели"
+              ],
+              "answer": "пели",
+              "hint": "Всю ночь = all night = duration. Two ongoing activities = imperfective.",
+              "explanation": "Всю ночь = duration. Simultaneous ongoing activities = imperfective: пели, танцевали."
+            },
+            {
+              "prompt": "Он _____ дверь и вышел. (He opened the door and went out.) - sequence",
+              "promptEnglish": "He opened the door and went out.",
+              "options": [
+                "открывал",
+                "открыл",
+                "открывает",
+                "откроет"
+              ],
+              "answer": "открыл",
+              "hint": "Sequential completed actions = perfective.",
+              "explanation": "Opened (completed) then went out = sequential perfective: открыл."
+            },
+            {
+              "prompt": "В прошлом году я _____ в Москве. (Last year I lived in Moscow.) - general past fact",
+              "promptEnglish": "Last year I lived in Moscow.",
+              "options": [
+                "пожил",
+                "жил",
+                "поживу",
+                "жить"
+              ],
+              "answer": "жил",
+              "hint": "General statement about the past = imperfective.",
+              "explanation": "General fact about a period of time = imperfective: жил."
+            },
+            {
+              "prompt": "Она _____ все задания за полчаса. (She completed all tasks in half an hour.)",
+              "promptEnglish": "She completed all tasks in half an hour.",
+              "options": [
+                "выполняла",
+                "выполнила",
+                "выполнять",
+                "выполнить"
+              ],
+              "answer": "выполнила",
+              "hint": "За полчаса (in half an hour) = completed within = perfective.",
+              "explanation": "За + time = completed within. Perfective: выполнила."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Когда я читал книгу, я прочитал сто страниц.",
+          "error": "читал",
+          "correction": "прочитал",
+          "hint": "If you read 100 pages (quantified result), both verbs should be perfective.",
+          "explanation": "Reading 100 pages is a quantified result, not process. Should be: Я прочитал сто страниц.",
+          "options": [
+            "прочитал",
+            "прочитает",
+            "читает"
+          ]
+        },
+        {
+          "sentence": "Он пришёл домой и готовил ужин.",
+          "error": "готовил",
+          "correction": "приготовил",
+          "hint": "Came home AND cooked = two sequential completed actions.",
+          "explanation": "Sequential completed actions: пришёл (perfective) and приготовил (perfective).",
+          "options": [
+            "приготовил",
+            "приготовит",
+            "приготовлю"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "lessonId": "a1-030-review-final",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Test yourself across all A1 grammar topics",
+      "descriptionRussian": "Проверьте себя по всем темам грамматики уровня A1",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What gender is 'окно' (window)?",
+              "promptEnglish": "What gender is 'окно' (window)?",
+              "options": [
+                "Masculine",
+                "Feminine",
+                "Neuter",
+                "Plural"
+              ],
+              "answer": "Neuter",
+              "hint": "Look at the ending: -о.",
+              "explanation": "Окно ends in -о, which is neuter. Neuter nouns end in -о or -е."
+            },
+            {
+              "prompt": "Мы _____ в кафе. (work)",
+              "promptEnglish": "We work in a cafe.",
+              "options": [
+                "работаю",
+                "работаем",
+                "работаешь",
+                "работают"
+              ],
+              "answer": "работаем",
+              "hint": "Мы = we, 1st conjugation.",
+              "explanation": "Мы работаем: 1st conjugation, мы form ends in -ем."
+            },
+            {
+              "prompt": "Я вижу _____. (brother - accusative)",
+              "promptEnglish": "I see my brother.",
+              "options": [
+                "брата",
+                "брат",
+                "брату",
+                "братом"
+              ],
+              "answer": "брата",
+              "hint": "Masculine animate nouns change in the accusative.",
+              "explanation": "Брат is masculine animate: nominative брат becomes accusative брата."
+            },
+            {
+              "prompt": "_____ это книга?",
+              "promptEnglish": "Whose book is this?",
+              "options": [
+                "Кто",
+                "Что",
+                "Где",
+                "Чья"
+              ],
+              "answer": "Чья",
+              "hint": "Asking about ownership of a feminine noun.",
+              "explanation": "Чья (whose, feminine) matches the feminine noun книга."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он живёт в _____. (city - prepositional)",
+          "contextEnglish": "He lives in the city.",
+          "options": [
+            "городе",
+            "город"
+          ],
+          "answer": "городе",
+          "explanation": "After в (location), use prepositional case: город becomes городе."
+        },
+        {
+          "context": "_____ — большой город. (city - nominative)",
+          "contextEnglish": "The city is big.",
+          "options": [
+            "Город",
+            "Городе"
+          ],
+          "answer": "Город",
+          "explanation": "As the subject, use nominative: город (not городе)."
+        },
+        {
+          "context": "У меня нет _____. (car - genitive)",
+          "contextEnglish": "I don't have a car.",
+          "options": [
+            "машины",
+            "машина"
+          ],
+          "answer": "машины",
+          "explanation": "After нет, use genitive: машина becomes машины."
+        },
+        {
+          "context": "Это _____ машина. (my, feminine)",
+          "contextEnglish": "This is my car.",
+          "options": [
+            "моя",
+            "мой"
+          ],
+          "answer": "моя",
+          "explanation": "Машина is feminine, so the possessive is моя (not мой)."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in forms from across A1 and sort words by grammar category",
+      "descriptionRussian": "Вставьте формы из всех тем A1 и рассортируйте слова по грамматическим категориям",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Она _____ по телефону. (talks)",
+          "У нас нет _____. (time - genitive)",
+          "_____ тебя зовут?",
+          "Я читаю _____ книгу. (new - feminine accusative)"
+        ],
+        "choices": [
+          "говорит",
+          "времени",
+          "Как",
+          "новую",
+          "новая",
+          "время"
+        ],
+        "answers": [
+          "говорит",
+          "времени",
+          "Как",
+          "новую"
+        ],
+        "grammarFocus": "Verb conjugation, genitive after нет, question words, adjective agreement.",
+        "hints": [
+          "3rd person singular of говорить.",
+          "Genitive of время after нет.",
+          "Russian asks 'how' for names.",
+          "Feminine accusative adjective ending."
+        ],
+        "explanations": [
+          "Она говорит: 2nd conjugation, 3rd person singular.",
+          "Нет времени: время becomes времени in the genitive.",
+          "Как тебя зовут? Russian uses как (how) to ask names.",
+          "Новую: feminine adjective in accusative (новая becomes новую)."
+        ],
+        "options": [
+          [
+            "говорит",
+            "говоришь",
+            "говорим",
+            "говорю"
+          ],
+          [
+            "времена",
+            "время",
+            "временем",
+            "времени"
+          ],
+          [
+            "к",
+            "Как",
+            "како"
+          ],
+          [
+            "новую",
+            "новой",
+            "новый",
+            "новая"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort these nouns by gender",
+        "categories": [
+          "Masculine",
+          "Feminine",
+          "Neuter"
+        ],
+        "items": [
+          {
+            "word": "стул",
+            "category": "Masculine"
+          },
+          {
+            "word": "парк",
+            "category": "Masculine"
+          },
+          {
+            "word": "тетрадь",
+            "category": "Feminine"
+          },
+          {
+            "word": "книга",
+            "category": "Feminine"
+          },
+          {
+            "word": "улица",
+            "category": "Feminine"
+          },
+          {
+            "word": "письмо",
+            "category": "Neuter"
+          },
+          {
+            "word": "море",
+            "category": "Neuter"
+          },
+          {
+            "word": "город",
+            "category": "Masculine"
+          },
+          {
+            "word": "молоко",
+            "category": "Neuter"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "She does not work on Saturday.",
+          "answer": "Она не работает в субботу.",
+          "acceptableVariants": [],
+          "hint": "she = она, does not work = не работает, on Saturday = в субботу",
+          "grammarFocus": "Negation + day of week (accusative)",
+          "keyWord": "субботу",
+          "options": [
+            "субботу",
+            "суббота",
+            "субботы",
+            "субботе"
+          ]
+        },
+        {
+          "english": "My new house is big.",
+          "answer": "Мой новый дом большой.",
+          "acceptableVariants": [
+            "Мой новый дом — большой."
+          ],
+          "hint": "my = мой, new = новый, house = дом, big = большой",
+          "grammarFocus": "Possessive + adjective agreement (masculine)",
+          "keyWord": "новый",
+          "options": [
+            "новый",
+            "новая",
+            "новое",
+            "новые"
+          ]
+        },
+        {
+          "english": "Where do you live?",
+          "answer": "Где ты живёшь?",
+          "acceptableVariants": [
+            "Где вы живёте?"
+          ],
+          "hint": "where = где, you live = ты живёшь",
+          "grammarFocus": "Question word + verb conjugation",
+          "keyWord": "Где",
+          "options": [
+            "Где",
+            "Куда",
+            "Когда",
+            "Как"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Errors",
+      "titleRussian": "Найди ошибки",
+      "description": "Find and fix grammar errors across all A1 topics",
+      "descriptionRussian": "Найдите и исправьте ошибки по всем темам A1",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "У меня есть кошку.",
+          "error": "кошку",
+          "correction": "кошка",
+          "hint": "After есть, which case?",
+          "explanation": "After есть (have), use nominative: кошка (not accusative кошку).",
+          "options": [
+            "кошка",
+            "кошки",
+            "кошке"
+          ]
+        },
+        {
+          "sentence": "Она читает новый книгу.",
+          "error": "новый",
+          "correction": "новую",
+          "hint": "The adjective must agree with the feminine noun in accusative.",
+          "explanation": "Книгу is feminine accusative, so the adjective must also be feminine accusative: новый becomes новую.",
+          "options": [
+            "новую",
+            "новая",
+            "новой"
+          ]
+        },
+        {
+          "sentence": "Мы живём в Москва.",
+          "error": "Москва",
+          "correction": "Москве",
+          "hint": "After в (location), use prepositional case.",
+          "explanation": "В + location requires prepositional: Москва becomes Москве.",
+          "options": [
+            "Москве",
+            "Москву",
+            "Москвы"
+          ]
+        },
+        {
+          "sentence": "Это мой тетрадь.",
+          "error": "мой",
+          "correction": "моя",
+          "hint": "Тетрадь is feminine.",
+          "explanation": "Тетрадь is feminine (soft-sign nouns can be either gender; тетрадь is feminine), so use моя: моя тетрадь.",
+          "options": [
+            "моя",
+            "моё",
+            "мои"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ новая студентка очень умная.",
+              "promptEnglish": "This new student (f.) is very smart.",
+              "options": [
+                "Эта",
+                "Этот",
+                "Это",
+                "Эти"
+              ],
+              "answer": "Эта",
+              "hint": "Студентка is feminine.",
+              "explanation": "Студентка is feminine, so use эта (this, feminine): эта новая студентка."
+            },
+            {
+              "prompt": "Я _____ музыку каждый день.",
+              "promptEnglish": "I listen to music every day.",
+              "options": [
+                "слушает",
+                "слушаю",
+                "слушаешь",
+                "слушают"
+              ],
+              "answer": "слушаю",
+              "hint": "Я form of слушать (1st conjugation).",
+              "explanation": "Я слушаю: 1st conjugation, я form ends in -ю."
+            },
+            {
+              "prompt": "Это _____ тетрадь. (our, feminine)",
+              "promptEnglish": "This is our notebook.",
+              "options": [
+                "наш",
+                "наше",
+                "наша",
+                "наши"
+              ],
+              "answer": "наша",
+              "hint": "Тетрадь is feminine.",
+              "explanation": "Тетрадь is feminine, so the possessive is наша: наша тетрадь."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "The ultimate A1 challenge mixing all grammar topics",
+      "descriptionRussian": "Финальное задание, объединяющее все грамматические темы A1",
+      "icon": "star",
+      "patternRecognition": [
+        {
+          "sentence": "новый дом, новая книга, новое окно, новые дома",
+          "question": "What determines the ending of the adjective новый?",
+          "options": [
+            "The gender and number of the noun it describes",
+            "The verb in the sentence",
+            "The position in the sentence"
+          ],
+          "answer": "The gender and number of the noun it describes",
+          "explanation": "Adjectives agree with their noun: новый (m), новая (f), новое (n), новые (pl)."
+        },
+        {
+          "sentence": "У меня есть кошка. У меня нет кошки.",
+          "question": "Why does кошка change to кошки in the second sentence?",
+          "options": [
+            "Нет requires genitive case; есть uses nominative",
+            "Кошки means a different cat",
+            "It is a spelling mistake"
+          ],
+          "answer": "Нет requires genitive case; есть uses nominative",
+          "explanation": "After есть: nominative (кошка). After нет: genitive (кошки). The case changes the ending."
+        },
+        {
+          "sentence": "я читаю, ты читаешь, он читает, мы читаем, вы читаете, они читают",
+          "question": "What conjugation pattern is this?",
+          "options": [
+            "1st conjugation (-ю, -ешь, -ет, -ем, -ете, -ют)",
+            "2nd conjugation (-ю, -ишь, -ит, -им, -ите, -ят)",
+            "Irregular conjugation"
+          ],
+          "answer": "1st conjugation (-ю, -ешь, -ет, -ем, -ете, -ют)",
+          "explanation": "Читать follows the 1st conjugation pattern: -ю, -ешь, -ет, -ем, -ете, -ют."
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я люблю _____ сестру. (my, feminine accusative)",
+          "contextEnglish": "I love my sister.",
+          "options": [
+            "мою",
+            "моя"
+          ],
+          "answer": "мою",
+          "explanation": "Feminine accusative: моя becomes мою. Я люблю мою сестру."
+        },
+        {
+          "context": "Они _____ в пятницу. (come)",
+          "contextEnglish": "They come on Friday.",
+          "options": [
+            "приходят",
+            "приходит"
+          ],
+          "answer": "приходят",
+          "explanation": "Они requires 3rd person plural: приходят (not приходит, which is singular)."
+        },
+        {
+          "context": "Мы сейчас _____ . (here)",
+          "contextEnglish": "We are here now.",
+          "options": [
+            "здесь",
+            "там"
+          ],
+          "answer": "здесь",
+          "explanation": "Здесь (here) = where the speaker is. Там (there) = away from the speaker."
+        }
+      ]
+    }
+  ]
+}

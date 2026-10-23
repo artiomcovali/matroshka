@@ -1,0 +1,421 @@
+{
+  "id": "b1-track-numerals-10-high-flat-numerals",
+  "level": "B1",
+  "focusArea": "cases",
+  "title": "Numerals 10: Large Numbers (сорок, девяносто, сто, тысяча, миллион)",
+  "titleRussian": "Числительные 10: большие числа (сорок, девяносто, сто, тысяча, миллион)",
+  "description": "The big-number anomalies: the flat сорок/девяносто/сто (two forms only) and the noun-like тысяча/миллион, which force the genitive plural on the following noun in every case.",
+  "descriptionRussian": "Особенности больших чисел: «плоские» сорок/девяносто/сто (всего две формы) и существительные-числительные тысяча/миллион, которые во всех падежах требуют после себя родительного множественного.",
+  "imageName": "exclamationmark.triangle",
+  "trackId": "b1-numerals-mastery",
+  "trackTitle": "Numerals Mastery",
+  "trackTitleRussian": "Числительные",
+  "trackIndex": 10,
+  "trackTotal": 10,
+  "intro": "Three numbers are lazy: forty, ninety and a hundred have only two forms each, so every oblique case is the same word. Thousand and million are not really numbers at all but nouns, which means they decline like nouns and force the genitive plural on whatever follows in every case, even the nominative. They also obey the counting rule themselves.",
+  "rules": [
+    "Сорок, девяносто, and сто have only two case forms each: the nominative-accusative сорок / девяносто / сто, and a single non-nominative form сорока / девяноста / ста that covers every other case.",
+    "There is no separate dative, instrumental, or prepositional form for these three: с сорока, к девяноста, о ста all use that one non-nominative shape.",
+    "Тысяча and миллион are nouns. Тысяча declines like a feminine noun (тысячи, тысяче, тысячей); миллион like a masculine noun (миллиона, миллиону, миллионом).",
+    "Тысяча and миллион force the genitive plural on the following noun in every case, even the nominative: тысяча рублей, миллион книг.",
+    "Тысяча and миллион themselves follow the 1 / 2-4 / 5+ rule: одна тысяча, две тысячи, пять тысяч; один миллион, два миллиона, пять миллионов."
+  ],
+  "examples": [
+    "Маша рассказала о сорока студентах. (Masha told us about forty students.) Non-nom сорока + prepositional plural.",
+    "К девяноста годам он многое забыл. (By ninety he had forgotten a lot.) Dative девяноста + dative plural годам.",
+    "Это книга о ста городах. (This is a book about a hundred cities.) Prepositional ста + prepositional plural.",
+    "В классе тысяча книг. (There are a thousand books in the classroom.) Тысяча forces the genitive plural книг.",
+    "Город насчитывает миллион жителей. (The city has a million inhabitants.) Миллион forces the genitive plural жителей.",
+    "В зале было две тысячи зрителей. (There were two thousand spectators in the hall.) Две тысячи (2-4 rule on тысяча) + genitive plural зрителей."
+  ],
+  "tables": [
+    {
+      "title": "сорок / девяносто / сто: only two forms",
+      "headers": [
+        "Case",
+        "сорок",
+        "девяносто",
+        "сто"
+      ],
+      "rows": [
+        {
+          "label": "Nominative-Accusative",
+          "cells": [
+            "сорок",
+            "девяносто",
+            "сто"
+          ]
+        },
+        {
+          "label": "All other cases",
+          "cells": [
+            "сорока",
+            "девяноста",
+            "ста"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "тысяча / миллион behave like nouns",
+      "headers": [
+        "Form",
+        "Behaviour",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "тысяча",
+          "cells": [
+            "feminine noun; forces genitive plural",
+            "тысяча рублей, в тысяче километров"
+          ]
+        },
+        {
+          "label": "миллион",
+          "cells": [
+            "masculine noun; forces genitive plural",
+            "миллион книг, к миллиону зрителей"
+          ]
+        },
+        {
+          "label": "counting them",
+          "cells": [
+            "1 / 2-4 / 5+ rule applies to тысяча, миллион themselves",
+            "одна тысяча, две тысячи, пять тысяч"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Маша рассказала о _____ студентах.",
+          "promptEnglish": "Masha told us about forty students.",
+          "options": [
+            "сорок",
+            "сорока",
+            "сорокам",
+            "сороками"
+          ],
+          "answer": "сорока",
+          "hint": "Сорок has only two forms. Which one fits after о?",
+          "explanation": "Сорок has exactly two shapes: the nominative-accusative сорок and a single non-nominative form сорока for every other case. О takes the prepositional, so: о сорока студентах. Сорокам and сороками do not exist in modern Russian."
+        },
+        {
+          "prompt": "К _____ годам он уже многое забыл.",
+          "promptEnglish": "By ninety he had already forgotten a lot.",
+          "options": [
+            "девяносто",
+            "девяноста",
+            "девяностам",
+            "девяностых"
+          ],
+          "answer": "девяноста",
+          "hint": "К + dative. Девяносто has only two forms.",
+          "explanation": "Девяносто works like сорок and сто: two forms total. The nominative-accusative is девяносто; everything else is девяноста. After к (dative): к девяноста годам, with the noun in the dative plural."
+        },
+        {
+          "prompt": "В нашем городе _____ жителей.",
+          "promptEnglish": "Our city has a million inhabitants.",
+          "options": [
+            "миллион",
+            "миллиона",
+            "миллионов",
+            "миллионом"
+          ],
+          "answer": "миллион",
+          "hint": "Миллион is a noun and stands here as the nominative subject.",
+          "explanation": "Миллион is a noun-like numeral. As the subject ('a million inhabitants'), it stands in the nominative singular миллион. The following noun жителей is genitive plural, because миллион (and тысяча) always force the genitive plural on the noun after them."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "В кошельке нет даже _____ рублей.",
+          "promptEnglish": "There aren't even a hundred roubles in the wallet.",
+          "options": [
+            "сто",
+            "ста",
+            "стам",
+            "сотен"
+          ],
+          "answer": "ста",
+          "hint": "Нет governs the genitive - a case other than the nominative.",
+          "explanation": "Сто has only two forms: the nominative-accusative сто and a single non-nominative form ста for all other cases. Нет takes the genitive, so: нет ста рублей. Стам does not exist."
+        },
+        {
+          "prompt": "На стадионе была _____ зрителей.",
+          "promptEnglish": "There were a thousand spectators in the stadium.",
+          "options": [
+            "тысяча",
+            "тысячу",
+            "тысячей",
+            "тысяч"
+          ],
+          "answer": "тысяча",
+          "hint": "The subject 'a thousand ... were there' stands in the nominative; the verb agrees with тысяча.",
+          "explanation": "Тысяча is a feminine noun. As the subject it stands in the nominative singular тысяча, and the verb agrees with it: была тысяча. The counted noun goes into the genitive plural: тысяча зрителей. Тысяч is the genitive plural (after 5+: пять тысяч)."
+        },
+        {
+          "prompt": "В зале сидели две _____ человек.",
+          "promptEnglish": "Two thousand people were sitting in the hall.",
+          "options": [
+            "тысяча",
+            "тысячи",
+            "тысяч",
+            "тысячу"
+          ],
+          "answer": "тысячи",
+          "hint": "Тысяча obeys the number rule itself: what follows две?",
+          "explanation": "Тысяча is counted like any noun, so после две it takes the genitive singular: две тысячи. (Then тысячи forces человек into its own genitive-plural count form.) Тысяч is the genitive plural for 5+ (пять тысяч), and тысячу is the accusative singular."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Библиотека получила около _____ новых книг. (The library received about a hundred new books.)",
+      "В городе живёт почти _____ человек. (Almost a million people live in the city.)"
+    ],
+    "choices": [
+      "сто",
+      "ста",
+      "миллион",
+      "миллиона",
+      "миллионов"
+    ],
+    "answers": [
+      "ста",
+      "миллион"
+    ],
+    "grammarFocus": "(1) Около governs the genitive, a case other than the nominative, so сто becomes ста: около ста книг. (2) Миллион here is the nominative subject-quantity, so it stays миллион and forces the genitive plural человек.",
+    "hints": [
+      "Около takes the genitive. Which of the two forms of сто fits?",
+      "The quantity stands in the nominative here; which is the dictionary form?"
+    ]
+  },
+  "errorCorrection": [
+    {
+      "sentence": "В городе больше миллион жителей.",
+      "translationEnglish": "The city has more than a million residents.",
+      "error": "миллион",
+      "correction": "миллиона",
+      "options": [
+        "миллиона",
+        "миллиону",
+        "миллионом"
+      ],
+      "explanation": "Миллион declines like an ordinary masculine noun, unlike the flat numerals сорок / девяносто / сто. Больше governs the genitive, so the form is миллиона: больше миллиона жителей. Миллиону is the dative and миллионом the instrumental."
+    },
+    {
+      "sentence": "Антон приехал с тысяча рублей в кармане.",
+      "translationEnglish": "Anton arrived with a thousand rubles in his pocket.",
+      "error": "тысяча",
+      "correction": "тысячей",
+      "options": [
+        "тысячей",
+        "тысячу",
+        "тысяче"
+      ],
+      "explanation": "Тысяча declines like an ordinary feminine noun, not like the flat numerals. С takes the instrumental, so the form is тысячей: с тысячей рублей. Тысячу is the accusative and тысяче the dative-prepositional."
+    },
+    {
+      "sentence": "В библиотеке тысяча книг лежат на полках.",
+      "translationEnglish": "A thousand books in the library lie on the shelves.",
+      "error": "лежат",
+      "correction": "лежит",
+      "options": [
+        "лежит",
+        "лежали",
+        "лежу"
+      ],
+      "explanation": "Тысяча is a feminine singular noun, so the verb agrees with it in the singular: тысяча книг лежит. The plural лежат is the trap, pulled in by the plural-feeling 'books'. The counted noun книг stays in the genitive plural, but it is тысяча that controls the verb, hence the singular лежит (or in the past, лежала)."
+    },
+    {
+      "sentence": "В концерте участвовали два миллиона зрители.",
+      "translationEnglish": "Two million spectators took part in the concert.",
+      "error": "зрители",
+      "correction": "зрителей",
+      "options": [
+        "зрителей",
+        "зрителя",
+        "зрителям"
+      ],
+      "explanation": "Миллион forces the genitive plural on the following noun in every context: миллион зрителей, два миллиона зрителей. Зрители is the nominative plural, the trap of leaving the noun unchanged. Note also that два миллиона follows the 2-4 rule on миллион itself (genitive singular миллиона), while зрителей stays genitive plural because that is what миллион always demands."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Книга рассказывает о _____ городах.",
+      "contextEnglish": "The book tells about a hundred cities.",
+      "options": [
+        "сто",
+        "ста"
+      ],
+      "answer": "ста",
+      "explanation": "О takes a non-nominative case, and сто has just one non-nominative form: ста. So о ста городах. Сто is the nominative-accusative form, wrong after о."
+    },
+    {
+      "context": "В городе живёт _____ человек.",
+      "contextEnglish": "A million people live in the city.",
+      "options": [
+        "миллион",
+        "миллионов"
+      ],
+      "answer": "миллион",
+      "explanation": "As the nominative subject-quantity, the form is миллион, which forces the genitive plural человек: миллион человек. Миллионов is the genitive plural of миллион itself, used after 5+ (пять миллионов), not here."
+    }
+  ],
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Маша",
+        "говорила",
+        "с",
+        "сорока",
+        "студентами"
+      ],
+      "answer": "Маша говорила с сорока студентами",
+      "translation": "Masha was speaking with forty students.",
+      "hint": "с takes the instrumental; сорок has one non-nominative form (сорока)."
+    },
+    {
+      "words": [
+        "В",
+        "книге",
+        "около",
+        "ста",
+        "страниц"
+      ],
+      "answer": "В книге около ста страниц",
+      "translation": "There are about a hundred pages in the book.",
+      "hint": "около takes the genitive, so сто becomes ста and страница becomes the genitive plural."
+    },
+    {
+      "words": [
+        "В",
+        "зале",
+        "была",
+        "тысяча",
+        "зрителей"
+      ],
+      "answer": "В зале была тысяча зрителей",
+      "translation": "There were a thousand spectators in the hall.",
+      "hint": "Тысяча is the nominative subject and forces the genitive plural зрителей; the verb agrees with тысяча (была)."
+    },
+    {
+      "words": [
+        "Город",
+        "потратил",
+        "два",
+        "миллиона",
+        "рублей"
+      ],
+      "answer": "Город потратил два миллиона рублей",
+      "translation": "The city spent two million roubles.",
+      "hint": "два + genitive singular миллиона; рублей stays genitive plural because миллион demands it."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each phrase by which big-number type it uses.",
+    "categories": [
+      "Flat сорок / девяносто / сто (two forms)",
+      "Noun-like тысяча / миллион (force gen pl)"
+    ],
+    "items": [
+      {
+        "word": "о сорока студентах",
+        "category": "Flat сорок / девяносто / сто (two forms)"
+      },
+      {
+        "word": "к девяноста годам",
+        "category": "Flat сорок / девяносто / сто (two forms)"
+      },
+      {
+        "word": "нет ста рублей",
+        "category": "Flat сорок / девяносто / сто (two forms)"
+      },
+      {
+        "word": "с сорока книгами",
+        "category": "Flat сорок / девяносто / сто (two forms)"
+      },
+      {
+        "word": "тысяча рублей",
+        "category": "Noun-like тысяча / миллион (force gen pl)"
+      },
+      {
+        "word": "миллион жителей",
+        "category": "Noun-like тысяча / миллион (force gen pl)"
+      },
+      {
+        "word": "две тысячи человек",
+        "category": "Noun-like тысяча / миллион (force gen pl)"
+      },
+      {
+        "word": "пять миллионов рублей",
+        "category": "Noun-like тысяча / миллион (force gen pl)"
+      }
+    ]
+  },
+  "patternRecognition": [
+    {
+      "sentence": "Он говорил с девяноста студентами.",
+      "question": "Why is the form девяноста here?",
+      "options": [
+        "It is the single non-nominative form, used for every case but nom-acc",
+        "It is the genitive plural of девяносто",
+        "It is a spelling variant of девяносто",
+        "It is the dative-only form"
+      ],
+      "answer": "It is the single non-nominative form, used for every case but nom-acc",
+      "explanation": "Девяносто (like сорок and сто) has only two forms: the nominative-accusative девяносто and one non-nominative form девяноста that covers the genitive, dative, instrumental, and prepositional. С takes the instrumental, so: с девяноста студентами."
+    },
+    {
+      "sentence": "В деревне живёт тысяча человек.",
+      "question": "Why is человек in the genitive plural?",
+      "options": [
+        "Тысяча is a noun that forces the genitive plural on the following noun",
+        "человек is always genitive",
+        "тысяча is in the genitive, so человек agrees",
+        "It is an accusative form"
+      ],
+      "answer": "Тысяча is a noun that forces the genitive plural on the following noun",
+      "explanation": "Тысяча behaves like a noun and, like the quantity words 5+, forces the following noun into the genitive plural, even when тысяча itself is the nominative subject: тысяча человек. The verb agrees with тысяча (живёт, singular)."
+    },
+    {
+      "sentence": "В зале было три тысячи зрителей.",
+      "question": "Why is the form тысячи after три?",
+      "options": [
+        "Тысяча obeys the 2-4 rule itself, taking the genitive singular",
+        "тысячи is the nominative plural subject",
+        "три is in the genitive",
+        "It is an irregular numeral form"
+      ],
+      "answer": "Тысяча obeys the 2-4 rule itself, taking the genitive singular",
+      "explanation": "Тысяча is counted like any noun, so after три (the 2-4 slot) it takes the genitive singular: три тысячи. Then тысячи forces зрителей into the genitive plural. Тысяч would be the genitive plural after 5+ (пять тысяч)."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "сорок / девяносто / сто (flat numerals)",
+      "definition": "forty / ninety / one hundred. Only two case forms each: nom-acc сорок / девяносто / сто, and a single non-nominative form сорока / девяноста / ста for all other cases.",
+      "example": "К девяноста годам, о ста городах, с сорока студентами."
+    },
+    {
+      "term": "тысяча / миллион (noun-numerals)",
+      "definition": "thousand / million. Decline as feminine / masculine nouns and force the genitive plural on the following noun in every case.",
+      "example": "Тысяча рублей, миллион книг, к миллиону зрителей."
+    },
+    {
+      "term": "одна тысяча, две тысячи, пять тысяч",
+      "definition": "тысяча and миллион obey the 1 / 2-4 / 5+ rule themselves when counted, like any noun.",
+      "example": "Одна тысяча, две тысячи, пять тысяч; один миллион, два миллиона, пять миллионов."
+    }
+  ]
+}

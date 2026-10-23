@@ -1,0 +1,366 @@
+{
+  "id": "a2-011d-cases-4-6-review",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Cases Review: Dat, Inst, Prep",
+  "titleRussian": "Обзор падежей: Дат., Тв., Предл.",
+  "description": "Practice the last three cases",
+  "descriptionRussian": "Практика последних трёх падежей",
+  "imageName": "list.clipboard.fill",
+  "intro": "Now let's review the last three Russian cases! Dative (Кому? Чему?) marks the recipient or beneficiary — the person who receives something or experiences a feeling (Дай мне, Мне холодно, Ему 20 лет). Instrumental (Кем? Чем?) shows the means or instrument of an action, accompaniment, and professions (пишу ручкой, с другом, работает врачом). Prepositional (О ком? О чём? Где?) is always used with a preposition — for location (в Москве, на работе) and topic (о книге).",
+  "rules": [
+    "Dative (Дат.): Recipient, feelings, age, necessity. Кому? Чему? — Дай маме. Мне холодно. Мне 25 лет. Мне нужно. Verbs: звонить, помогать, советовать + dative.",
+    "Instrumental (Тв.): Means/tool, accompaniment (с + inst.), professions (работать/быть + inst.), location prepositions (под, над, за, между). Кем? Чем? — Пишу ручкой. С другом. Работает врачом.",
+    "Prepositional (Предл.): ALWAYS with a preposition! Location (в/на + prep.), topic (о/об + prep.), time (в январе). О ком? О чём? Где? — В Москве. О книге. На работе.",
+    "Key test: Dative = to/for whom? Instrumental = with/by what? Prepositional = where? about what? (always has a preposition before it)"
+  ],
+  "examples": [
+    "Я дал книгу другу. — I gave a book to a friend (dat.).",
+    "Мне нравится музыка. — I like music (lit. 'to me' it pleases), мне = dative.",
+    "Она пишет ручкой. — She writes with a pen (inst.).",
+    "Он работает врачом. — He works as a doctor (inst.).",
+    "Мы живём в Москве. — We live in Moscow (prep.).",
+    "Я думаю о брате. — I'm thinking about my brother (prep.)."
+  ],
+  "tables": [
+    {
+      "title": "Last Three Cases — Nouns",
+      "headers": [
+        "Case",
+        "Question",
+        "Masc.",
+        "Fem. (-а)",
+        "Neuter"
+      ],
+      "rows": [
+        {
+          "label": "Dative",
+          "cells": [
+            "кому? чему?",
+            "студент|у",
+            "мам|е",
+            "окн|у"
+          ]
+        },
+        {
+          "label": "Instrumental",
+          "cells": [
+            "кем? чем?",
+            "студент|ом",
+            "мам|ой",
+            "окн|ом"
+          ]
+        },
+        {
+          "label": "Prepositional",
+          "cells": [
+            "о ком? о чём?",
+            "о студент|е",
+            "о мам|е",
+            "об окн|е"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Key Prepositions by Case",
+      "headers": [
+        "Case",
+        "Prepositions",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Dative",
+          "cells": [
+            "к (toward), по (along)",
+            "к друг|у, по улиц|е"
+          ]
+        },
+        {
+          "label": "Instrumental",
+          "cells": [
+            "с, под, над, за, между",
+            "с друг|ом, под стол|ом"
+          ]
+        },
+        {
+          "label": "Prepositional",
+          "cells": [
+            "в, на, о/об, при",
+            "в школ|е, о книг|е"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я звоню _____. (I'm calling my friend.)",
+          "promptEnglish": "I'm calling my friend.",
+          "options": [
+            "другом",
+            "друге",
+            "другу",
+            "друга"
+          ],
+          "answer": "другу",
+          "hint": "Звонить + dative (to whom?)",
+          "explanation": "Звонить (to call) takes dative: друг → другу."
+        },
+        {
+          "prompt": "Она пишет _____. (She writes with a pencil.)",
+          "promptEnglish": "She writes with a pencil.",
+          "options": [
+            "карандаше",
+            "карандашом",
+            "карандашу",
+            "карандаша"
+          ],
+          "answer": "карандашом",
+          "hint": "Writing tool = instrumental",
+          "explanation": "The instrument/tool uses instrumental: карандаш → карандашом."
+        },
+        {
+          "prompt": "Мы говорим о _____. (We're talking about the film.)",
+          "promptEnglish": "We're talking about the film.",
+          "options": [
+            "фильму",
+            "фильмом",
+            "фильма",
+            "фильме"
+          ],
+          "answer": "фильме",
+          "hint": "О + prepositional (topic)",
+          "explanation": "О (about) takes prepositional case: фильм → о фильме."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Кошка спит под _____. (The cat sleeps under the chair.)",
+          "promptEnglish": "The cat sleeps under the chair.",
+          "options": [
+            "стуле",
+            "стулом",
+            "стула",
+            "стулу"
+          ],
+          "answer": "стулом",
+          "hint": "Под (under, location) + instrumental",
+          "explanation": "Под (under) for location takes instrumental: стул → стулом."
+        },
+        {
+          "prompt": "_____ нравится этот парк. (She likes this park.)",
+          "promptEnglish": "She likes this park.",
+          "options": [
+            "Она",
+            "Её",
+            "Ей",
+            "Ней"
+          ],
+          "answer": "Ей",
+          "hint": "Нравиться + dative",
+          "explanation": "Нравиться uses dative for the person who likes something: она → ей."
+        },
+        {
+          "prompt": "Я живу в _____. (I live in a city.)",
+          "promptEnglish": "I live in a city.",
+          "options": [
+            "город",
+            "города",
+            "городом",
+            "городе"
+          ],
+          "answer": "городе",
+          "hint": "В + prepositional for location",
+          "explanation": "Location uses в + prepositional: город → в городе."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Помоги _____! (Help your sister!)",
+          "promptEnglish": "Help your sister!",
+          "options": [
+            "сестрой",
+            "сестру",
+            "сестре",
+            "сестры"
+          ],
+          "answer": "сестре",
+          "hint": "Помогать + dative (to whom?)",
+          "explanation": "Помогать (to help) takes dative: сестра → сестре."
+        },
+        {
+          "prompt": "Он работает на _____. (He works at the factory.)",
+          "promptEnglish": "He works at the factory.",
+          "options": [
+            "заводу",
+            "завода",
+            "заводом",
+            "заводе"
+          ],
+          "answer": "заводе",
+          "hint": "На + prepositional for workplace",
+          "explanation": "На + prepositional for certain workplaces: завод → на заводе."
+        },
+        {
+          "prompt": "Я иду с _____. (I'm going with my brother.)",
+          "promptEnglish": "I'm going with my brother.",
+          "options": [
+            "брата",
+            "брате",
+            "братом",
+            "брату"
+          ],
+          "answer": "братом",
+          "hint": "С (with) + instrumental",
+          "explanation": "С (with) takes instrumental: брат → братом."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ холодно. (The children are cold.)"
+    ],
+    "choices": [
+      "Дети",
+      "Детям",
+      "Детей",
+      "Детьми"
+    ],
+    "answers": [
+      "Детям"
+    ],
+    "grammarFocus": "Impersonal feelings + dative",
+    "hints": [
+      "Feelings and states (холодно, жарко, весело) use dative for the person experiencing them. What is the dative plural of дети?"
+    ],
+    "explanations": [
+      "Impersonal constructions for feelings use dative: дети → детям. Детям холодно = The children are cold (literally: to the children it is cold)."
+    ],
+    "options": [
+      [
+        "детей",
+        "детьми",
+        "дети",
+        "Детям"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я купил подарок _____. (I bought a gift FOR my sister.)",
+      "contextEnglish": "I bought a gift for my sister.",
+      "options": [
+        "сестре",
+        "сестрой"
+      ],
+      "answer": "сестре",
+      "explanation": "The beneficiary/recipient uses dative: сестра → сестре. Instrumental сестрой would mean 'with my sister'."
+    },
+    {
+      "context": "Я гуляю с _____. (I'm walking WITH my sister.)",
+      "contextEnglish": "I'm walking with my sister.",
+      "options": [
+        "сестрой",
+        "сестре"
+      ],
+      "answer": "сестрой",
+      "explanation": "С (with) for accompaniment takes instrumental: сестра → сестрой. Dative сестре would mean 'to/for my sister'."
+    }
+  ],
+  "declensionTable": {
+    "word": "студент",
+    "wordType": "noun",
+    "gender": "masculine",
+    "paradigm": {
+      "nominative": "студент",
+      "genitive": "студента",
+      "dative": "студенту",
+      "accusative": "студента",
+      "instrumental": "студентом",
+      "prepositional": "студенте"
+    },
+    "blanks": [
+      "dative",
+      "instrumental",
+      "prepositional"
+    ],
+    "hints": [
+      "кому?",
+      "кем?",
+      "о ком?"
+    ],
+    "explanations": [
+      "Masculine nouns add -у in dative: студент → студенту",
+      "Masculine nouns add -ом in instrumental: студент → студентом",
+      "Masculine nouns change to -е in prepositional: студент → студенте"
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort these phrases by case: Which case is the highlighted word in?",
+    "categories": [
+      "Dative (Кому? Чему?)",
+      "Instrumental (Кем? Чем?)",
+      "Prepositional (О ком? Где?)"
+    ],
+    "items": [
+      {
+        "word": "Дай маме",
+        "category": "Dative (Кому? Чему?)"
+      },
+      {
+        "word": "Пишу ручкой",
+        "category": "Instrumental (Кем? Чем?)"
+      },
+      {
+        "word": "В школе",
+        "category": "Prepositional (О ком? Где?)"
+      },
+      {
+        "word": "Звоню другу",
+        "category": "Dative (Кому? Чему?)"
+      },
+      {
+        "word": "С братом",
+        "category": "Instrumental (Кем? Чем?)"
+      },
+      {
+        "word": "О книге",
+        "category": "Prepositional (О ком? Где?)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "дательный (Дат.)",
+      "definition": "dative — recipient, feelings, age",
+      "example": "Кому? Чему? — Дай мне. Мне холодно."
+    },
+    {
+      "term": "творительный (Тв.)",
+      "definition": "instrumental — tool, accompaniment, profession",
+      "example": "Кем? Чем? — Пишу ручкой. С другом."
+    },
+    {
+      "term": "предложный (Предл.)",
+      "definition": "prepositional — location, topic (always with preposition)",
+      "example": "О ком? Где? — В Москве. О книге."
+    },
+    {
+      "term": "нравиться / помогать / звонить",
+      "definition": "to like / to help / to call (all take dative)",
+      "example": "Мне нравится. Помогаю маме. Звоню другу."
+    }
+  ]
+}

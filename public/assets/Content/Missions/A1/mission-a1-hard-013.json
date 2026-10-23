@@ -1,0 +1,49 @@
+{
+  "id": "mission-a1-hard-013",
+  "title": "The Line Cutter",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Someone cut in front of you in line - politely reclaim your spot",
+  "imageName": "person.3.sequence.fill",
+  "initialPrompt": "О, извините, я не заметил очередь. Но мне очень надо, у меня мало времени...",
+  "systemPrompt": "You cut in line. First make excuses - you're in a hurry, didn't see the line. Can be convinced to go back if person is firm but polite, or points out others are also waiting. Keep replies short.",
+  "completionCriteria": "User convinced you to go to back of line or acknowledged priority.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините, здесь очередь (Excuse me, there's a line here)",
+    "Я тоже жду (I'm also waiting)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "очередь",
+      "definition": "line/queue"
+    },
+    {
+      "word": "ждать",
+      "definition": "to wait"
+    },
+    {
+      "word": "место",
+      "definition": "place/spot"
+    },
+    {
+      "word": "спешить",
+      "definition": "to hurry"
+    },
+    {
+      "word": "первый",
+      "definition": "first"
+    },
+    {
+      "word": "справедливо",
+      "definition": "fair"
+    }
+  ],
+  "objectives": [
+    "Point out there's a line (Здесь очередь)",
+    "Say you were here first",
+    "Handle their excuses politely",
+    "Firmly but politely ask them to wait",
+    "Resolve the situation"
+  ]
+}

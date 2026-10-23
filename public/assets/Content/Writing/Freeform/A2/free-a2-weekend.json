@@ -1,0 +1,65 @@
+{
+  "id": "free-a2-weekend",
+  "level": "A2",
+  "type": "freeform",
+  "title": "Weekend Plans",
+  "titleRussian": "Планы на выходные",
+  "theme": "weekend-plans",
+  "prompts": [
+    {
+      "id": "a2-wknd-001",
+      "prompt": "What are you going to do this weekend? Write about your plans.",
+      "promptRussian": "Что вы собираетесь делать в эти выходные? Напишите о ваших планах.",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["В эти выходные я собираюсь...", "В субботу я...", "В воскресенье..."],
+      "targetGrammar": ["future tense", "собираться + infinitive", "days of week"],
+      "gradingCriteria": ["plans mentioned", "future reference clear", "days specified"],
+      "sampleResponse": "В эти выходные я собираюсь отдыхать. В субботу я буду убирать квартиру. В воскресенье я пойду в кино."
+    },
+    {
+      "id": "a2-wknd-002",
+      "prompt": "Describe your ideal weekend. What would you do?",
+      "promptRussian": "Опишите ваши идеальные выходные. Что бы вы делали?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Идеальные выходные для меня — это...", "Я бы хотел/хотела...", "Было бы здорово..."],
+      "targetGrammar": ["conditional mood", "хотеть + infinitive", "бы constructions"],
+      "gradingCriteria": ["ideal activities described", "conditional used", "personal preference clear"],
+      "sampleResponse": "Идеальные выходные для меня — это отдых на природе. Я бы хотела поехать на озеро. Было бы здорово плавать и загорать."
+    },
+    {
+      "id": "a2-wknd-003",
+      "prompt": "Do you usually work on weekends or rest? Describe your typical weekend.",
+      "promptRussian": "Вы обычно работаете по выходным или отдыхаете? Опишите ваши типичные выходные.",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Обычно по выходным я...", "Иногда я...", "Я предпочитаю..."],
+      "targetGrammar": ["present tense habitual", "frequency adverbs", "по + dative plural"],
+      "gradingCriteria": ["typical activities described", "frequency indicated", "preference stated"],
+      "sampleResponse": "Обычно по выходным я отдыхаю. В субботу я делаю покупки. В воскресенье я часто встречаюсь с друзьями."
+    },
+    {
+      "id": "a2-wknd-004",
+      "prompt": "What did you do last weekend? Was it good?",
+      "promptRussian": "Что вы делали в прошлые выходные? Было ли хорошо?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["В прошлые выходные я...", "Это было...", "Мне понравилось..."],
+      "targetGrammar": ["past tense", "evaluation expressions", "прошлый + time"],
+      "gradingCriteria": ["past activities described", "evaluation included", "past tense correct"],
+      "sampleResponse": "В прошлые выходные я ездил к родителям. Мы вместе готовили обед. Это было очень приятно."
+    },
+    {
+      "id": "a2-wknd-005",
+      "prompt": "Are you planning to meet friends this weekend? What will you do together?",
+      "promptRussian": "Планируете ли вы встретиться с друзьями в эти выходные? Что вы будете делать вместе?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Да, я планирую...", "Мы будем...", "Возможно, мы..."],
+      "targetGrammar": ["future tense", "вместе adverb", "планировать construction"],
+      "gradingCriteria": ["friends mentioned", "joint activity described", "future reference"],
+      "sampleResponse": "Да, я планирую встретиться с друзьями в субботу. Мы будем гулять в парке. Потом мы пойдём в кафе."
+    }
+  ]
+}

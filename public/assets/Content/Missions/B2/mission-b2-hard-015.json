@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-015",
+  "title": "Debt Collector Harassment",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Debt collector using illegal pressure tactics",
+  "imageName": "phone.arrow.down.left.fill",
+  "initialPrompt": "Вы должны заплатить сегодня! Иначе мы сообщим вашему работодателю и соседям. Это ваш последний шанс!",
+  "systemPrompt": "You are aggressive debt collector using illegal tactics. Threaten, intimidate, lie about consequences. Only back off when debtor shows legal knowledge and records calls.",
+  "completionCriteria": "User handled debt collector harassment legally.",
+  "responseLimit": 15,
+  "hints": [
+    "Это незаконные угрозы (These are illegal threats)",
+    "Я записываю разговор (I am recording this call)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "долг",
+      "definition": "debt"
+    },
+    {
+      "word": "коллектор",
+      "definition": "collector"
+    },
+    {
+      "word": "угроза",
+      "definition": "threat"
+    },
+    {
+      "word": "преследование",
+      "definition": "harassment"
+    },
+    {
+      "word": "закон",
+      "definition": "law"
+    },
+    {
+      "word": "запись",
+      "definition": "recording"
+    }
+  ],
+  "objectives": [
+    "Identify illegal tactics",
+    "Assert legal rights",
+    "Document harassment",
+    "Refuse intimidation",
+    "Threaten legal action"
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "id": "b2-014-passive-constructions",
+  "level": "B2",
+  "focusArea": "conjugation",
+  "title": "Passive Constructions",
+  "titleRussian": "Пассивные конструкции",
+  "description": "Full passive voice system in Russian",
+  "descriptionRussian": "Полная система страдательного залога",
+  "imageName": "arrow.left.arrow.right",
+  "intro": "Russian has multiple ways to express passive meaning. 1) REFLEXIVE PASSIVE (-ся): Дом строится (The house is being built) - imperfective only. 2) PAST PASSIVE PARTICIPLE: Дом построен (The house is built/was built) - perfective result. 3) IMPERSONAL PASSIVE: Здесь не курят (One doesn't smoke here / Smoking is not allowed). AGENT: expressed with instrumental (без предлога) or rarely творительный падеж: Книга написана Толстым. Passive is less common in Russian than English - active voice often preferred.",
+  "rules": [
+    "Reflexive -ся (impf): ongoing process - Книга читается (is being read)",
+    "Short passive participle (pf): result state - Книга прочитана (has been read)",
+    "Agent = instrumental: Книга написана автором (written by the author)",
+    "Impersonal passive: Здесь говорят по-русски (Russian is spoken here)"
+  ],
+  "examples": [
+    "Этот журнал читается многими. (This magazine is read by many.)",
+    "Работа выполнена. (The work is done/has been done.)",
+    "Письмо было написано вчера. (The letter was written yesterday.)",
+    "Здесь не разрешается курить. (Smoking is not permitted here.)"
+  ],
+  "tables": [
+    {
+      "title": "Active → Passive Transformation",
+      "headers": [
+        "Active",
+        "Passive (long)",
+        "Passive (short)"
+      ],
+      "rows": [
+        {
+          "label": "Imperfective",
+          "cells": [
+            "чита|емая студентом книга",
+            "Книга чита|ется студентом"
+          ]
+        },
+        {
+          "label": "Perfective",
+          "cells": [
+            "прочита|нная студентом книга",
+            "Книга прочита|на студентом"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Дом _____. (is being built - process)",
+          "promptEnglish": "The house is being built.",
+          "options": [
+            "строил",
+            "построил",
+            "строится",
+            "построен"
+          ],
+          "answer": "строится",
+          "hint": "Ongoing process = -ся",
+          "explanation": "Process (impf): строится."
+        },
+        {
+          "prompt": "Дом _____. (is built - completed)",
+          "promptEnglish": "The house is built / has been built.",
+          "options": [
+            "построил",
+            "строил",
+            "построен",
+            "строится"
+          ],
+          "answer": "построен",
+          "hint": "Completed result = short participle",
+          "explanation": "Result (pf): построен."
+        },
+        {
+          "prompt": "Книга написана _____. (by Tolstoy)",
+          "promptEnglish": "The book was written by Tolstoy.",
+          "options": [
+            "Толстого",
+            "Толстому",
+            "Толстой",
+            "Толстым"
+          ],
+          "answer": "Толстым",
+          "hint": "Agent = instrumental",
+          "explanation": "Agent: instrumental Толстым."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Здесь _____ по-английски. (English is spoken)",
+          "promptEnglish": "English is spoken here.",
+          "options": [
+            "сказано",
+            "говорится",
+            "говорил",
+            "говорят"
+          ],
+          "answer": "говорят",
+          "hint": "Impersonal passive = 3rd person plural",
+          "explanation": "Impersonal: говорят (they speak)."
+        },
+        {
+          "prompt": "Работа _____ вовремя. (was completed)",
+          "promptEnglish": "The work was completed on time.",
+          "options": [
+            "выполняла",
+            "выполнила",
+            "выполнена",
+            "выполняется"
+          ],
+          "answer": "выполнена",
+          "hint": "Completed = short participle",
+          "explanation": "Completed: выполнена."
+        },
+        {
+          "prompt": "Этот вопрос сейчас _____. (is being discussed)",
+          "promptEnglish": "This question is being discussed now.",
+          "options": [
+            "обсуждён",
+            "обсудил",
+            "обсуждается",
+            "обсуждал"
+          ],
+          "answer": "обсуждается",
+          "hint": "Ongoing = -ся",
+          "explanation": "Process: обсуждается."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Письмо было _____ вчера. (written)",
+          "promptEnglish": "The letter was written yesterday.",
+          "options": [
+            "написало",
+            "написано",
+            "писалось",
+            "писало"
+          ],
+          "answer": "написано",
+          "hint": "Past result = было + short participle",
+          "explanation": "Past passive: было написано."
+        },
+        {
+          "prompt": "Здесь не _____. (smoking is not allowed)",
+          "promptEnglish": "Smoking is not allowed here.",
+          "options": [
+            "курил",
+            "покурено",
+            "курится",
+            "курят"
+          ],
+          "answer": "курят",
+          "hint": "Impersonal prohibition",
+          "explanation": "Impersonal: не курят."
+        },
+        {
+          "prompt": "Задача _____ студентом. (was solved - by student)",
+          "promptEnglish": "The problem was solved by the student.",
+          "options": [
+            "решал",
+            "решается",
+            "решила",
+            "решена"
+          ],
+          "answer": "решена",
+          "hint": "Result + agent (instrumental)",
+          "explanation": "Passive result: решена студентом."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Решение _____ директором вчера. (was made — completed result)",
+          "promptEnglish": "The decision was made by the director yesterday.",
+          "options": [
+            "принималось",
+            "принято",
+            "принимается",
+            "принимал"
+          ],
+          "answer": "принято",
+          "hint": "Completed result = short passive participle",
+          "explanation": "Completed result: принято (short participle). Agent in instrumental: директором."
+        },
+        {
+          "prompt": "В этом ресторане _____ завтраки с 7 утра. (breakfasts are served — process)",
+          "promptEnglish": "Breakfasts are served in this restaurant from 7 a.m.",
+          "options": [
+            "подали",
+            "поданы",
+            "подаются",
+            "подавал"
+          ],
+          "answer": "подаются",
+          "hint": "Ongoing process = reflexive -ся",
+          "explanation": "Ongoing habitual process: подаются (reflexive passive with -ся)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Статья _____ известным учёным. (was written)"
+    ],
+    "choices": [
+      "написана",
+      "пишется",
+      "писала",
+      "написала"
+    ],
+    "answers": [
+      "написана"
+    ],
+    "grammarFocus": "Passive result: short participle + instrumental agent",
+    "hints": [
+      "To express a completed passive result ('was written'), use the short form of the passive past participle. The agent goes in the instrumental case."
+    ],
+    "explanations": [
+      "Short passive participles express completed results: 'написана' (was written/has been written). The agent ('известным учёным') takes the instrumental case, showing who performed the action."
+    ],
+    "options": [
+      [
+        "написана",
+        "написаны",
+        "написан",
+        "написано"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Дом _____. (process - being built now)",
+      "contextEnglish": "The house is being built.",
+      "options": [
+        "строится",
+        "построен"
+      ],
+      "answer": "строится",
+      "explanation": "Process = -ся: строится."
+    },
+    {
+      "context": "Дом _____. (result - already built)",
+      "contextEnglish": "The house is built.",
+      "options": [
+        "построен",
+        "строится"
+      ],
+      "answer": "построен",
+      "explanation": "Result = participle: построен."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by passive type",
+    "categories": [
+      "Reflexive -ся (process)",
+      "Short participle (result)",
+      "Impersonal (они)"
+    ],
+    "items": [
+      {
+        "word": "Дом строится.",
+        "category": "Reflexive -ся (process)"
+      },
+      {
+        "word": "Дом построен.",
+        "category": "Short participle (result)"
+      },
+      {
+        "word": "Здесь говорят по-русски.",
+        "category": "Impersonal (они)"
+      },
+      {
+        "word": "Вопрос обсуждается.",
+        "category": "Reflexive -ся (process)"
+      },
+      {
+        "word": "Работа выполнена.",
+        "category": "Short participle (result)"
+      },
+      {
+        "word": "Здесь не курят.",
+        "category": "Impersonal (они)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "reflexive passive (-ся)",
+      "definition": "ongoing process (impf only)",
+      "example": "Дом строится."
+    },
+    {
+      "term": "short participle passive",
+      "definition": "completed result (pf)",
+      "example": "Дом построен."
+    },
+    {
+      "term": "agent = instrumental",
+      "definition": "who performed action",
+      "example": "написана автором"
+    },
+    {
+      "term": "impersonal passive",
+      "definition": "3rd person plural, no subject",
+      "example": "Здесь говорят по-русски."
+    }
+  ]
+}

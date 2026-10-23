@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-028",
+  "title": "Border Crisis",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Border guard threatening to deny entry",
+  "imageName": "shield.lefthalf.filled.badge.checkmark",
+  "initialPrompt": "Цель вашего визита подозрительна. Ваши документы могут быть поддельными. Мы можем депортировать вас немедленно.",
+  "systemPrompt": "You are suspicious border guard. Question everything, threaten deportation. Only admit traveler who stays calm, provides consistent answers, and knows their rights.",
+  "completionCriteria": "User handled border crisis professionally.",
+  "responseLimit": 15,
+  "hints": [
+    "Все мои документы подлинные (All my documents are authentic)",
+    "Я имею право на въезд (I have the right to enter)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "граница",
+      "definition": "border"
+    },
+    {
+      "word": "депортация",
+      "definition": "deportation"
+    },
+    {
+      "word": "документы",
+      "definition": "documents"
+    },
+    {
+      "word": "виза",
+      "definition": "visa"
+    },
+    {
+      "word": "подлинный",
+      "definition": "authentic"
+    },
+    {
+      "word": "права",
+      "definition": "rights"
+    }
+  ],
+  "objectives": [
+    "Stay calm under pressure",
+    "Provide consistent information",
+    "Present valid documentation",
+    "Know your entry rights",
+    "Request supervisor if needed"
+  ]
+}

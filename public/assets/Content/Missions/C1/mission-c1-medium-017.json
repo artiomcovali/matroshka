@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-medium-017",
+  "title": "Expert Testimony",
+  "level": "C1",
+  "difficulty": "medium",
+  "description": "Present complex technical evidence in court",
+  "imageName": "building.columns.fill",
+  "initialPrompt": "Вы эксперт-свидетель. Адвокат противной стороны пытается дискредитировать вашу методологию. Защитите свои выводы.",
+  "systemPrompt": "You are opposing lawyer attacking expert credibility. Question methodology, cite alternative interpretations. Only accept testimony that remains clear and professional under pressure.",
+  "completionCriteria": "User presented expert testimony clearly under cross-examination.",
+  "responseLimit": 15,
+  "hints": [
+    "Методология общепринята в... (The methodology is widely accepted in...)",
+    "Мои выводы основаны на... (My conclusions are based on...)",
+    "Альтернативная интерпретация не учитывает... (The alternative interpretation doesn't account for...)"
+  ],
+  "targetVocabulary": [
+    {"word": "свидетель", "definition": "witness"},
+    {"word": "экспертиза", "definition": "expert analysis"},
+    {"word": "методология", "definition": "methodology"},
+    {"word": "доказательства", "definition": "evidence"},
+    {"word": "показания", "definition": "testimony"},
+    {"word": "перекрёстный допрос", "definition": "cross-examination"}
+  ],
+  "objectives": [
+    "Defend methodology",
+    "Explain findings clearly",
+    "Handle hostile questioning",
+    "Maintain credibility"
+  ]
+}

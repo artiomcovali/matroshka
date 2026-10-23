@@ -1,0 +1,49 @@
+{
+  "id": "mission-a1-hard-011",
+  "title": "Return Without Receipt",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Return a broken item without the receipt",
+  "imageName": "arrow.uturn.backward.circle.fill",
+  "initialPrompt": "Добрый день. Чем могу помочь?",
+  "systemPrompt": "You work returns desk. Customer wants to return broken item but has no receipt. Policy says need receipt. Can be convinced by: store card purchase history, bank statement, or exchange for store credit. Keep replies short.",
+  "completionCriteria": "User got refund, exchange, or store credit despite no receipt.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу вернуть это (I want to return this)",
+    "У меня нет чека, но... (I don't have the receipt, but...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "вернуть",
+      "definition": "to return"
+    },
+    {
+      "word": "чек",
+      "definition": "receipt"
+    },
+    {
+      "word": "сломано",
+      "definition": "broken"
+    },
+    {
+      "word": "обмен",
+      "definition": "exchange"
+    },
+    {
+      "word": "деньги",
+      "definition": "money"
+    },
+    {
+      "word": "покупка",
+      "definition": "purchase"
+    }
+  ],
+  "objectives": [
+    "Say you want to return something",
+    "Explain the item is broken",
+    "Handle the 'no receipt' problem",
+    "Suggest an alternative proof",
+    "Get refund or exchange"
+  ]
+}

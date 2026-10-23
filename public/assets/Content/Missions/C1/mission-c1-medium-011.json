@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-medium-011",
+  "title": "Restaurant Critic",
+  "level": "C1",
+  "difficulty": "medium",
+  "description": "Defend your restaurant against harsh review",
+  "imageName": "fork.knife",
+  "initialPrompt": "Влиятельный критик написал разгромную рецензию на ваш ресторан. Он ошибся в нескольких фактах. Журналист просит комментарий.",
+  "systemPrompt": "You are journalist seeking response to bad review. Push for reaction but respect professional response. Want quotable material for follow-up story.",
+  "completionCriteria": "User defended restaurant professionally without attacking critic.",
+  "responseLimit": 15,
+  "hints": [
+    "Критик, к сожалению, ошибся в... (The critic unfortunately erred in...)",
+    "Наша кухня основана на... (Our cuisine is based on...)",
+    "Приглашаем его посетить нас снова... (We invite him to visit us again...)"
+  ],
+  "targetVocabulary": [
+    {"word": "критик", "definition": "critic"},
+    {"word": "рецензия", "definition": "review"},
+    {"word": "репутация", "definition": "reputation"},
+    {"word": "кухня", "definition": "cuisine"},
+    {"word": "качество", "definition": "quality"},
+    {"word": "гостеприимство", "definition": "hospitality"}
+  ],
+  "objectives": [
+    "Correct factual errors",
+    "Defend quality professionally",
+    "Avoid personal attacks",
+    "Invite further dialogue"
+  ]
+}

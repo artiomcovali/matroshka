@@ -1,0 +1,47 @@
+{
+  "id": "mission-a2-005",
+  "title": "Weekend Plans",
+  "level": "A2",
+  "description": "Discuss and make plans for the weekend",
+  "imageName": "calendar",
+  "initialPrompt": "Привет! Что ты делаешь в эти выходные? Хочешь куда-нибудь пойти?",
+  "systemPrompt": "You are a friend making weekend plans. Agree on: activity, when to meet, where to meet. Keep replies short.",
+  "completionCriteria": "Agreed on activity, time, and meeting place.",
+  "responseLimit": 15,
+  "hints": [
+    "Давай пойдём в... (Let's go to...)",
+    "В субботу днём (On Saturday afternoon)",
+    "Встретимся у метро (Let's meet at the metro)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "выходные",
+      "definition": "weekend"
+    },
+    {
+      "word": "пойти",
+      "definition": "to go"
+    },
+    {
+      "word": "встретиться",
+      "definition": "to meet"
+    },
+    {
+      "word": "суббота",
+      "definition": "Saturday"
+    },
+    {
+      "word": "воскресенье",
+      "definition": "Sunday"
+    },
+    {
+      "word": "давай",
+      "definition": "let's"
+    }
+  ],
+  "objectives": [
+    "Agree on an activity (кино, парк, кафе)",
+    "Decide when to meet (в субботу)",
+    "Choose a meeting place (у метро)"
+  ]
+}

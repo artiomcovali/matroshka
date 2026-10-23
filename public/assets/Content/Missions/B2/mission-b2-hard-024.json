@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-024",
+  "title": "Blackmail Threat",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Someone threatening to reveal embarrassing information",
+  "imageName": "eye.slash.fill",
+  "initialPrompt": "У меня есть компромат. Заплати 100 000, или все узнают. Это разрушит твою репутацию и карьеру.",
+  "systemPrompt": "You are blackmailer making threats. Escalate pressure, describe consequences. Only back off if target refuses firmly and threatens police.",
+  "completionCriteria": "User handled blackmail attempt correctly.",
+  "responseLimit": 15,
+  "hints": [
+    "Я не буду платить (I won't pay)",
+    "Шантаж — уголовное преступление (Blackmail is a criminal offense)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "шантаж",
+      "definition": "blackmail"
+    },
+    {
+      "word": "компромат",
+      "definition": "compromising material"
+    },
+    {
+      "word": "угроза",
+      "definition": "threat"
+    },
+    {
+      "word": "преступление",
+      "definition": "crime"
+    },
+    {
+      "word": "полиция",
+      "definition": "police"
+    },
+    {
+      "word": "доказательства",
+      "definition": "evidence"
+    }
+  ],
+  "objectives": [
+    "Refuse to pay",
+    "Stay calm under threat",
+    "Cite criminal consequences",
+    "Threaten legal action",
+    "Document the attempt"
+  ]
+}

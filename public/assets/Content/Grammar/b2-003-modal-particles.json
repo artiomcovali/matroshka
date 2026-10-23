@@ -1,0 +1,318 @@
+{
+  "id": "b2-003-modal-particles",
+  "level": "B2",
+  "focusArea": "sentenceStructure",
+  "title": "Modal Particles",
+  "titleRussian": "Модальные частицы",
+  "description": "бы, ли, же, ведь, разве, неужели",
+  "descriptionRussian": "Частицы бы, ли, же, ведь, разве, неужели",
+  "imageName": "sparkles",
+  "intro": "Modal particles add subtle meanings that are essential for natural Russian. БЫ = hypothetical/conditional: Я бы пошёл (I would go). ЛИ = whether/question: Не знаю, придёт ли он (whether he'll come). ЖЕ = emphasis: Я же говорил! (I DID tell you!). ВЕДЬ = 'after all/you know': Ведь я прав? (I'm right, aren't I?). РАЗВЕ = surprised disbelief: Разве он не знает? (Doesn't he know?!). НЕУЖЕЛИ = amazed surprise: Неужели это правда? (Can this really be true?). These particles are everywhere in spoken Russian.",
+  "rules": [
+    "Бы + past tense = conditional/hypothetical: Я бы сделал (I would do)",
+    "Ли = whether (indirect questions) or emphatic yes/no: Придёт ли он?",
+    "Же = emphasis, reminder: Я же сказал! (I DID say!)",
+    "Ведь = appeal to shared knowledge: Ведь ты знаешь... (You know, after all...)"
+  ],
+  "examples": [
+    "Я бы помог, но у меня нет времени. (I would help, but I have no time.)",
+    "Не знаю, будет ли он дома. (I don't know whether he'll be home.)",
+    "Ты же обещал! (But you promised!, emphasis)",
+    "Ведь это очевидно! (It's obvious, after all!)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я _____ пошёл, но у меня нет времени. (would)",
+          "promptEnglish": "I would go, but I have no time.",
+          "options": [
+            "же",
+            "ли",
+            "бы",
+            "ведь"
+          ],
+          "answer": "бы",
+          "hint": "Hypothetical = бы",
+          "explanation": "Conditional: бы + past."
+        },
+        {
+          "prompt": "Не знаю, придёт _____ он. (whether)",
+          "promptEnglish": "I don't know whether he will come.",
+          "options": [
+            "же",
+            "ведь",
+            "бы",
+            "ли"
+          ],
+          "answer": "ли",
+          "hint": "Whether = ли",
+          "explanation": "Indirect question: ли."
+        },
+        {
+          "prompt": "Ты _____ обещал! (emphasis - you DID promise)",
+          "promptEnglish": "But you promised!",
+          "options": [
+            "ли",
+            "ведь",
+            "же",
+            "бы"
+          ],
+          "answer": "же",
+          "hint": "Emphasis/reminder = же",
+          "explanation": "Emphatic reminder: же."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Она говорит по-русски? Но _____ она не русская! (but she's not Russian, after all!)",
+          "promptEnglish": "She speaks Russian? But she's not Russian, after all!",
+          "options": [
+            "неужели",
+            "разве",
+            "ведь",
+            "ли"
+          ],
+          "answer": "ведь",
+          "hint": "Appealing to a known fact = ведь",
+          "explanation": "Ведь appeals to shared knowledge: 'after all, we both know she's not Russian.'"
+        },
+        {
+          "prompt": "_____ ты сам это сделал?! Не верю! (Can you really have done this yourself?!)",
+          "promptEnglish": "Did you really do this yourself?! I can't believe it!",
+          "options": [
+            "Ведь",
+            "Разве",
+            "Неужели",
+            "Ли"
+          ],
+          "answer": "Неужели",
+          "hint": "Amazed that something positive is true = неужели",
+          "explanation": "Неужели expresses amazed surprise at something positive: 'Can it really be that you did this yourself?!'"
+        },
+        {
+          "prompt": "_____ ты знаешь, что он болен! (after all/you know)",
+          "promptEnglish": "You know he's sick, after all!",
+          "options": [
+            "Ли",
+            "Же",
+            "Ведь",
+            "Разве"
+          ],
+          "answer": "Ведь",
+          "hint": "Appeal to knowledge = ведь",
+          "explanation": "Appeal to shared knowledge: ведь."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я _____ сказал тебе вчера! (emphasis - I DID tell you)",
+          "promptEnglish": "I DID tell you yesterday!",
+          "options": [
+            "ведь",
+            "же",
+            "ли",
+            "бы"
+          ],
+          "answer": "же",
+          "hint": "Emphatic reminder = же",
+          "explanation": "Emphasis: же."
+        },
+        {
+          "prompt": "Если _____ я знал раньше... (if only)",
+          "promptEnglish": "If only I had known earlier...",
+          "options": [
+            "ведь",
+            "бы",
+            "же",
+            "ли"
+          ],
+          "answer": "бы",
+          "hint": "Hypothetical past = бы",
+          "explanation": "Unreal condition: если бы."
+        },
+        {
+          "prompt": "Интересно, понравится _____ ей подарок. (whether)",
+          "promptEnglish": "I wonder whether she'll like the gift.",
+          "options": [
+            "ведь",
+            "бы",
+            "ли",
+            "же"
+          ],
+          "answer": "ли",
+          "hint": "Whether = ли",
+          "explanation": "Indirect question: ли."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "_____ ты уже уходишь? Мы только начали! (surprised disbelief)",
+          "promptEnglish": "Are you really leaving already? We just started!",
+          "options": [
+            "Ведь",
+            "Же",
+            "Разве",
+            "Ли"
+          ],
+          "answer": "Разве",
+          "hint": "Surprised that something unexpected is true = разве",
+          "explanation": "Разве expresses surprised disbelief: the speaker can't believe someone is leaving so soon."
+        },
+        {
+          "prompt": "Мы _____ договорились встретиться в пять! (emphasis - we DID agree)",
+          "promptEnglish": "We DID agree to meet at five!",
+          "options": [
+            "бы",
+            "ведь",
+            "ли",
+            "же"
+          ],
+          "answer": "же",
+          "hint": "Reminding someone of a fact = же",
+          "explanation": "Же adds emphasis, reminding the listener of something they should already know."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Он _____ помог, если бы мог. (He would have helped if he could.)",
+      "Ты _____ обещал! (You DID promise!)",
+      "Не знаю, придёт _____ он. (I don't know whether he'll come.)"
+    ],
+    "choices": [
+      "бы",
+      "же",
+      "ли",
+      "ведь",
+      "разве",
+      "неужели"
+    ],
+    "answers": [
+      "бы",
+      "же",
+      "ли"
+    ],
+    "grammarFocus": "Modal particles: бы, же, ли",
+    "hints": [
+      "Which particle creates hypothetical/conditional meaning ('would have')?",
+      "Which particle adds emphasis, like reminding someone of something?",
+      "Which particle means 'whether' in indirect questions?"
+    ],
+    "explanations": [
+      "Бы + past tense forms the conditional: 'Он бы помог' = 'He would have helped.'",
+      "Же adds emphasis or reminder: 'Ты же обещал!' = 'You DID promise!'",
+      "Ли creates indirect questions: 'придёт ли он' = 'whether he'll come.'"
+    ],
+    "options": [
+      [
+        "ли",
+        "ведь",
+        "разве",
+        "бы"
+      ],
+      [
+        "ли",
+        "бы",
+        "же",
+        "разве"
+      ],
+      [
+        "же",
+        "ли",
+        "неужели",
+        "бы"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Он _____ знал об этом. (He would have known about this.)",
+      "contextEnglish": "He would have known about this.",
+      "options": [
+        "бы",
+        "же"
+      ],
+      "answer": "бы",
+      "explanation": "Бы creates a hypothetical/conditional meaning: 'would have known.'"
+    },
+    {
+      "context": "Он _____ знал об этом! (He DID know about this!)",
+      "contextEnglish": "He DID know about this!",
+      "options": [
+        "же",
+        "бы"
+      ],
+      "answer": "же",
+      "explanation": "Же adds emphasis: 'He DID know!' Stressing that this is a fact."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by particle function",
+    "categories": [
+      "Conditional (бы)",
+      "Whether (ли)",
+      "Emphasis (же)",
+      "Appeal/Surprise (ведь/разве/неужели)"
+    ],
+    "items": [
+      {
+        "word": "Я бы пошёл.",
+        "category": "Conditional (бы)"
+      },
+      {
+        "word": "Не знаю, придёт ли.",
+        "category": "Whether (ли)"
+      },
+      {
+        "word": "Ты же обещал!",
+        "category": "Emphasis (же)"
+      },
+      {
+        "word": "Ведь это правда!",
+        "category": "Appeal/Surprise (ведь/разве/неужели)"
+      },
+      {
+        "word": "Разве он не знал?",
+        "category": "Appeal/Surprise (ведь/разве/неужели)"
+      },
+      {
+        "word": "Если бы я мог...",
+        "category": "Conditional (бы)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "бы",
+      "definition": "conditional/hypothetical (+ past)",
+      "example": "Я бы сделал."
+    },
+    {
+      "term": "ли",
+      "definition": "whether (indirect questions)",
+      "example": "Не знаю, придёт ли он."
+    },
+    {
+      "term": "же",
+      "definition": "emphasis, reminder",
+      "example": "Я же говорил!"
+    },
+    {
+      "term": "разве / неужели",
+      "definition": "surprised disbelief / amazed surprise",
+      "example": "Разве?! / Неужели?!"
+    }
+  ]
+}

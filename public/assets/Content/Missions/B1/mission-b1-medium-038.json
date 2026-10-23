@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-038",
+  "title": "Utility Bill Dispute",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "Your utility bill seems incorrect and too high",
+  "imageName": "bolt.fill",
+  "initialPrompt": "Служба поддержки, здравствуйте. Чем могу помочь?",
+  "systemPrompt": "You work at utility company support. Customer bill doubled this month. After checking, find meter reading error. Offer to correct and credit account. Keep replies short.",
+  "completionCriteria": "User disputed bill and got explanation or correction.",
+  "responseLimit": 15,
+  "hints": [
+    "Мой счёт в два раза больше обычного (My bill is twice the usual amount)",
+    "Можете объяснить эту сумму? (Can you explain this amount?)",
+    "Я хочу проверить показания счётчика (I want to check the meter reading)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "счёт",
+      "definition": "bill"
+    },
+    {
+      "word": "показания",
+      "definition": "meter readings"
+    },
+    {
+      "word": "счётчик",
+      "definition": "meter"
+    },
+    {
+      "word": "перерасчёт",
+      "definition": "recalculation"
+    },
+    {
+      "word": "ошибка",
+      "definition": "error"
+    },
+    {
+      "word": "оплата",
+      "definition": "payment"
+    }
+  ],
+  "objectives": [
+    "Report the billing issue (проблема со счётом)",
+    "Ask for itemized breakdown (детализация)",
+    "Request verification (проверка)",
+    "Get correction or explanation"
+  ]
+}

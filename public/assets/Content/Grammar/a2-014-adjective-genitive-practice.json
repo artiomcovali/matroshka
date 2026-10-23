@@ -1,0 +1,590 @@
+{
+  "lessonId": "a2-014-adjective-genitive",
+  "sets": [
+    {
+      "id": "round-1-masc-neuter",
+      "title": "Masculine and Neuter",
+      "titleRussian": "Мужской и средний род",
+      "description": "Practice genitive adjective endings for masculine and neuter nouns",
+      "descriptionRussian": "Окончания прилагательных родительного падежа: мужской и средний род",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "У меня нет _____ телефона. (I don't have a new phone.)",
+              "promptEnglish": "I don't have a new phone.",
+              "options": [
+                "нового",
+                "новый",
+                "новому",
+                "новым"
+              ],
+              "answer": "нового",
+              "hint": "Нет + genitive. Masculine: -ый → -ого.",
+              "explanation": "Genitive masculine: новый → нового (-ый → -ого)."
+            },
+            {
+              "prompt": "Без _____ образования трудно найти работу. (Without a good education it's hard to find work.)",
+              "promptEnglish": "Without a good education it's hard to find work.",
+              "options": [
+                "хорошее",
+                "хорошего",
+                "хорошему",
+                "хорошим"
+              ],
+              "answer": "хорошего",
+              "hint": "Без + genitive. Neuter = same as masculine: -ее → -его.",
+              "explanation": "Genitive neuter = masculine form: хорошее → хорошего."
+            },
+            {
+              "prompt": "Это дом _____ друга. (This is the house of an old friend.)",
+              "promptEnglish": "This is an old friend's house.",
+              "options": [
+                "старый",
+                "старому",
+                "старым",
+                "старого"
+              ],
+              "answer": "старого",
+              "hint": "Possession: genitive. Masculine: -ый → -ого.",
+              "explanation": "Genitive (possession): старый → старого."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Около _____ парка есть кафе. (Near the big park there's a café.)",
+              "promptEnglish": "Near the big park there's a café.",
+              "options": [
+                "большого",
+                "большой",
+                "большому",
+                "большим"
+              ],
+              "answer": "большого",
+              "hint": "Около + genitive. Masculine: -ой → -ого.",
+              "explanation": "Около + genitive: большой → большого."
+            },
+            {
+              "prompt": "Из _____ окна видно море. (From the big window you can see the sea.)",
+              "promptEnglish": "From the big window you can see the sea.",
+              "options": [
+                "большое",
+                "большого",
+                "большому",
+                "большим"
+              ],
+              "answer": "большого",
+              "hint": "Из + genitive. Neuter genitive = masculine: -ое → -ого.",
+              "explanation": "Из + genitive. Neuter = masculine: большое → большого."
+            },
+            {
+              "prompt": "После _____ ужина мы гуляли. (After a late dinner we walked.)",
+              "promptEnglish": "After a late dinner we walked.",
+              "options": [
+                "поздний",
+                "позднему",
+                "поздним",
+                "позднего"
+              ],
+              "answer": "позднего",
+              "hint": "После + genitive. Masculine soft stem: -ий → -его.",
+              "explanation": "После + genitive. Soft stem: поздний → позднего (-ий → -его)."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "нового, старого, большого, красивого",
+          "question": "What ending pattern do these genitive adjectives share?",
+          "options": [
+            "-ого ending for hard-stem masculine/neuter",
+            "-его ending for soft-stem",
+            "-ой ending for feminine"
+          ],
+          "answer": "-ого ending for hard-stem masculine/neuter",
+          "explanation": "Hard-stem masculine and neuter genitive: -ый/-ой/-ое → -ого. Pronounced [-ova], not [-ogo]."
+        },
+        {
+          "sentence": "синего, хорошего, позднего, домашнего",
+          "question": "What ending pattern do these genitive adjectives share?",
+          "options": [
+            "-его ending for soft-stem masculine/neuter",
+            "-ого ending for hard-stem",
+            "-ой ending for feminine"
+          ],
+          "answer": "-его ending for soft-stem masculine/neuter",
+          "explanation": "Soft-stem masculine and neuter genitive: -ий/-ее → -его. Pronounced [-eva]."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "У _____ врача много пациентов. (A good doctor has many patients.)",
+          "Мы живём недалеко от _____ моря. (We live not far from the blue sea.)",
+          "Без _____ совета я не справлюсь. (Without your wise advice I won't manage.)"
+        ],
+        "choices": [
+          "хорошего",
+          "синего",
+          "мудрого"
+        ],
+        "answers": [
+          "хорошего",
+          "синего",
+          "мудрого"
+        ],
+        "grammarFocus": "Masculine genitive (-ого/-его) and neuter genitive (same form)",
+        "hints": [
+          "У + genitive. Soft stem: хороший → ?",
+          "От + genitive. Soft stem neuter: синее → ?",
+          "Без + genitive. Hard stem: мудрый → ?"
+        ],
+        "explanations": [
+          "Soft stem genitive: хороший → хорошего.",
+          "Neuter soft stem = masculine form: синее → синего.",
+          "Hard stem genitive: мудрый → мудрого."
+        ],
+        "options": [
+          [
+            "хорошему",
+            "хорошее",
+            "хорошего",
+            "хороший"
+          ],
+          [
+            "синим",
+            "синий",
+            "синему",
+            "синего"
+          ],
+          [
+            "мудрый",
+            "мудрым",
+            "мудрому",
+            "мудрого"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-feminine",
+      "title": "Feminine Genitive",
+      "titleRussian": "Женский род",
+      "description": "Practice genitive adjective endings for feminine nouns",
+      "descriptionRussian": "Окончания прилагательных родительного падежа: женский род",
+      "icon": "textformat",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Без _____ подруги мне скучно. (Without my old friend I'm bored.)",
+              "promptEnglish": "Without my old friend I'm bored.",
+              "options": [
+                "старая",
+                "старую",
+                "старой",
+                "старым"
+              ],
+              "answer": "старой",
+              "hint": "Без + genitive. Feminine: -ая → -ой.",
+              "explanation": "Feminine genitive: старая → старой (-ая → -ой)."
+            },
+            {
+              "prompt": "Это дом _____ бабушки. (This is the kind grandmother's house.)",
+              "promptEnglish": "This is the kind grandmother's house.",
+              "options": [
+                "добрая",
+                "доброй",
+                "добрую",
+                "добрым"
+              ],
+              "answer": "доброй",
+              "hint": "Possession: genitive. Feminine: -ая → -ой.",
+              "explanation": "Genitive possession: добрая → доброй."
+            },
+            {
+              "prompt": "Из _____ коробки выпал мяч. (A ball fell out of the blue box.)",
+              "promptEnglish": "A ball fell out of the blue box.",
+              "options": [
+                "синяя",
+                "синюю",
+                "синей",
+                "синим"
+              ],
+              "answer": "синей",
+              "hint": "Из + genitive. Feminine soft stem: -яя → -ей.",
+              "explanation": "Feminine soft stem genitive: синяя → синей (-яя → -ей)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я люблю _____ музыку. (I love Russian music.)",
+          "contextEnglish": "I love Russian music. (accusative)",
+          "options": [
+            "русскую",
+            "русской"
+          ],
+          "answer": "русскую",
+          "explanation": "Accusative feminine: русская → русскую (-ая → -ую)."
+        },
+        {
+          "context": "Без _____ музыки жизнь скучная. (Without Russian music life is boring.)",
+          "contextEnglish": "Without Russian music... (genitive)",
+          "options": [
+            "русскую",
+            "русской"
+          ],
+          "answer": "русской",
+          "explanation": "Genitive feminine: русская → русской (-ая → -ой)."
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "У моя мамы красивый сад.",
+          "error": "моя",
+          "correction": "моей",
+          "hint": "У + genitive. Feminine: моя → моей.",
+          "explanation": "У + genitive: моя → моей. (Мамы is already genitive.)",
+          "options": [
+            "моей",
+            "мою",
+            "моё"
+          ]
+        },
+        {
+          "sentence": "Без тёплую одежду нельзя выходить.",
+          "error": "тёплую",
+          "correction": "тёплой",
+          "hint": "Без + genitive, not accusative.",
+          "explanation": "Без + genitive: тёплая → тёплой. Тёплую is accusative.",
+          "options": [
+            "тёплой",
+            "тёплая",
+            "тёплые"
+          ]
+        },
+        {
+          "sentence": "Около новая школа есть парк.",
+          "error": "новая",
+          "correction": "новой",
+          "hint": "Около + genitive. Feminine: -ая → -ой.",
+          "explanation": "Около + genitive: новая → новой. (Школа → школы too.)",
+          "options": [
+            "новой",
+            "новую",
+            "новые"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-prepositions",
+      "title": "Genitive Prepositions",
+      "titleRussian": "Предлоги с родительным",
+      "description": "Practice adjective + noun combinations after genitive prepositions",
+      "descriptionRussian": "Прилагательное + существительное после предлогов с родительным падежом",
+      "icon": "link",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Он вернулся из _____ города. (He returned from a distant city.)",
+              "promptEnglish": "He returned from a distant city.",
+              "options": [
+                "далёкий",
+                "далёкого",
+                "далёкому",
+                "далёким"
+              ],
+              "answer": "далёкого",
+              "hint": "Из + genitive. Masculine: -ий → -ого.",
+              "explanation": "Из + genitive: далёкий → далёкого."
+            },
+            {
+              "prompt": "Мы гуляли до _____ вечера. (We walked until late evening.)",
+              "promptEnglish": "We walked until late evening.",
+              "options": [
+                "поздний",
+                "позднего",
+                "позднему",
+                "поздним"
+              ],
+              "answer": "позднего",
+              "hint": "До + genitive. Soft stem: -ий → -его.",
+              "explanation": "До + genitive: поздний → позднего."
+            },
+            {
+              "prompt": "Она вышла из _____ двери. (She came out of the back door.)",
+              "promptEnglish": "She came out of the back door.",
+              "options": [
+                "задняя",
+                "заднюю",
+                "задней",
+                "задним"
+              ],
+              "answer": "задней",
+              "hint": "Из + genitive. Feminine soft stem: -яя → -ей.",
+              "explanation": "Из + genitive feminine: задняя → задней."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "I came from the new school.",
+          "answer": "Я пришёл из новой школы.",
+          "acceptableVariants": [
+            "Я пришла из новой школы."
+          ],
+          "hint": "Из + genitive feminine: новая → новой, школа → школы",
+          "grammarFocus": "feminine genitive after из",
+          "keyWord": "новой",
+          "options": [
+            "новой",
+            "новая",
+            "новую",
+            "новые"
+          ]
+        },
+        {
+          "english": "He has no free time.",
+          "answer": "У него нет свободного времени.",
+          "acceptableVariants": [],
+          "hint": "Нет + genitive neuter: свободное → свободного, время → времени",
+          "grammarFocus": "neuter genitive with нет",
+          "keyWord": "свободного",
+          "options": [
+            "свободного",
+            "свободное",
+            "свободному",
+            "свободным"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-plural-genitive",
+      "title": "Plural Genitive",
+      "titleRussian": "Множественное число",
+      "description": "Genitive adjective endings in plural",
+      "descriptionRussian": "Окончания прилагательных множественного числа в родительном",
+      "icon": "person.3",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "В городе нет _____ парков. (The city has no big parks.)",
+              "promptEnglish": "The city has no big parks.",
+              "options": [
+                "больших",
+                "большие",
+                "большим",
+                "большими"
+              ],
+              "answer": "больших",
+              "hint": "Нет + genitive plural: -ие → -их.",
+              "explanation": "Genitive plural: большие → больших (-ие → -их)."
+            },
+            {
+              "prompt": "Пять _____ студентов пришли. (Five new students came.)",
+              "promptEnglish": "Five new students came.",
+              "options": [
+                "новые",
+                "новых",
+                "новым",
+                "новыми"
+              ],
+              "answer": "новых",
+              "hint": "After 5+, genitive plural. Hard stem: -ые → -ых.",
+              "explanation": "After numbers 5+: genitive plural. Новые → новых."
+            },
+            {
+              "prompt": "Для _____ детей нужна площадка. (A playground is needed for little children.)",
+              "promptEnglish": "A playground is needed for little children.",
+              "options": [
+                "маленькие",
+                "маленьким",
+                "маленькими",
+                "маленьких"
+              ],
+              "answer": "маленьких",
+              "hint": "Для + genitive plural.",
+              "explanation": "Для + genitive plural: маленькие → маленьких."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort: genitive singular (-ого/-ей/-ой) or genitive plural (-ых/-их)?",
+        "categories": [
+          "Genitive Singular",
+          "Genitive Plural"
+        ],
+        "items": [
+          {
+            "word": "нового друга (of a new friend)",
+            "category": "Genitive Singular"
+          },
+          {
+            "word": "новых друзей (of new friends)",
+            "category": "Genitive Plural"
+          },
+          {
+            "word": "старой книги (of an old book)",
+            "category": "Genitive Singular"
+          },
+          {
+            "word": "старых книг (of old books)",
+            "category": "Genitive Plural"
+          },
+          {
+            "word": "хорошего врача (of a good doctor)",
+            "category": "Genitive Singular"
+          },
+          {
+            "word": "хороших врачей (of good doctors)",
+            "category": "Genitive Plural"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Много _____ людей пришло. (Many young people came.)",
+          "Без _____ друзей трудно. (It's hard without close friends.)",
+          "У _____ учителей большой опыт. (Experienced teachers have great experience.)"
+        ],
+        "choices": [
+          "молодых",
+          "близких",
+          "опытных"
+        ],
+        "answers": [
+          "молодых",
+          "близких",
+          "опытных"
+        ],
+        "grammarFocus": "Genitive plural adjectives: -ые/-ие → -ых/-их",
+        "hints": [
+          "Много + genitive plural. Молодые → ?",
+          "Без + genitive plural. Близкие → ?",
+          "У + genitive plural. Опытные → ?"
+        ],
+        "explanations": [
+          "Genitive plural: молодые → молодых.",
+          "Genitive plural: близкие → близких.",
+          "Genitive plural: опытные → опытных."
+        ],
+        "options": [
+          [
+            "молодые",
+            "молодых",
+            "молодыми",
+            "молодой"
+          ],
+          [
+            "близкий",
+            "близкими",
+            "близкие",
+            "близких"
+          ],
+          [
+            "опытных",
+            "опытные",
+            "опытный",
+            "опытными"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All genitive adjective patterns in one round",
+      "descriptionRussian": "Все правила прилагательных в родительном падеже",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Машина _____ соседа стоит во дворе. (The new neighbor's car is in the yard.)",
+              "promptEnglish": "The new neighbor's car is in the yard.",
+              "options": [
+                "новый",
+                "нового",
+                "новому",
+                "новым"
+              ],
+              "answer": "нового",
+              "hint": "Whose car? Possession = genitive masculine.",
+              "explanation": "Genitive (possession): новый → нового."
+            },
+            {
+              "prompt": "Мы вышли из _____ кафе. (We left the cozy café.)",
+              "promptEnglish": "We left the cozy café.",
+              "options": [
+                "уютное",
+                "уютного",
+                "уютному",
+                "уютным"
+              ],
+              "answer": "уютного",
+              "hint": "Из + genitive. Neuter = masculine form: -ое → -ого.",
+              "explanation": "Из + genitive: уютное → уютного (neuter = masculine form)."
+            },
+            {
+              "prompt": "Без _____ помощи я не справлюсь. (Without your help I won't manage.)",
+              "promptEnglish": "Without your help I won't manage.",
+              "options": [
+                "твоя",
+                "твою",
+                "твоей",
+                "твоим"
+              ],
+              "answer": "твоей",
+              "hint": "Без + genitive feminine: твоя → твоей.",
+              "explanation": "Без + genitive: твоя → твоей (feminine -я → -ей)."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "У нового студентки красивая тетрадь.",
+          "error": "нового",
+          "correction": "новой",
+          "hint": "Студентка is feminine, so the adjective must be feminine genitive.",
+          "explanation": "Feminine genitive: новая → новой. Нового is masculine/neuter.",
+          "options": [
+            "новой",
+            "новая",
+            "новую"
+          ]
+        },
+        {
+          "sentence": "Без хорошее настроение день плохой.",
+          "error": "хорошее",
+          "correction": "хорошего",
+          "hint": "Без + genitive, not nominative.",
+          "explanation": "Без + genitive: хорошее → хорошего. (Настроение → настроения too.)",
+          "options": [
+            "хорошего",
+            "хорошему",
+            "хорошим"
+          ]
+        }
+      ]
+    }
+  ]
+}

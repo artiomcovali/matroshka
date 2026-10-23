@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-009",
+  "title": "Hostile Biography",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Stop unauthorized damaging biography",
+  "imageName": "book.closed.fill",
+  "initialPrompt": "Журналист написал неавторизованную биографию с искажёнными фактами. Книга скоро выйдет. Издатель отказывается от встречи.",
+  "systemPrompt": "You are publisher defending upcoming book. Cite journalistic freedom, dismiss corrections. Only consider changes if shown clear libel and legal threat.",
+  "completionCriteria": "User stopped or corrected damaging biography.",
+  "responseLimit": 15,
+  "hints": [
+    "Эти утверждения — клевета (These claims are libel)",
+    "Мои юристы готовят иск (My lawyers are preparing a lawsuit)"
+  ],
+  "targetVocabulary": [
+    {"word": "биография", "definition": "biography"},
+    {"word": "клевета", "definition": "libel"},
+    {"word": "издатель", "definition": "publisher"},
+    {"word": "искажение", "definition": "distortion"},
+    {"word": "опровержение", "definition": "correction"},
+    {"word": "судебный запрет", "definition": "injunction"}
+  ],
+  "objectives": [
+    "Identify specific falsehoods",
+    "Threaten legal action",
+    "Demand corrections",
+    "Negotiate with publisher",
+    "Protect reputation"
+  ]
+}

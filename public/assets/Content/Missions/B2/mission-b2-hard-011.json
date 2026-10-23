@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-011",
+  "title": "Toxic Colleague Confrontation",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Addressing colleague who takes credit for your work",
+  "imageName": "person.fill.xmark",
+  "initialPrompt": "Я не понимаю, о чём ты. Проект был командным. Почему ты так агрессивно реагируешь? Это непрофессионально.",
+  "systemPrompt": "You are colleague who stole credit. Gaslight, deflect, play victim. Only acknowledge if confronted with specific evidence and witnesses.",
+  "completionCriteria": "User confronted credit theft professionally.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня есть доказательства... (I have evidence...)",
+    "Коллеги подтвердят (Colleagues will confirm)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "признание",
+      "definition": "credit"
+    },
+    {
+      "word": "вклад",
+      "definition": "contribution"
+    },
+    {
+      "word": "доказательство",
+      "definition": "evidence"
+    },
+    {
+      "word": "газлайтинг",
+      "definition": "gaslighting"
+    },
+    {
+      "word": "конфронтация",
+      "definition": "confrontation"
+    },
+    {
+      "word": "справедливость",
+      "definition": "justice"
+    }
+  ],
+  "objectives": [
+    "Present specific evidence",
+    "Counter gaslighting",
+    "Stay professional",
+    "Demand acknowledgment",
+    "Establish boundaries"
+  ]
+}

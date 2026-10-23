@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-025",
+  "title": "Souvenir Too Expensive",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "The matryoshka is more than you can afford",
+  "imageName": "gift.fill",
+  "initialPrompt": "Здравствуйте! Красивые матрёшки! Эта большая - 3000₽.",
+  "systemPrompt": "You sell souvenirs. Big matryoshka 3000₽. Smaller ones: 500₽, 800₽. Keep replies short.",
+  "completionCriteria": "User found a cheaper option or negotiated.",
+  "responseLimit": 15,
+  "hints": [
+    "Это дорого! (That's expensive!)",
+    "Есть дешевле? (Is there something cheaper?)",
+    "А маленькая? (And a small one?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "дорого",
+      "definition": "expensive"
+    },
+    {
+      "word": "дешевле",
+      "definition": "cheaper"
+    },
+    {
+      "word": "маленький",
+      "definition": "small"
+    },
+    {
+      "word": "большой",
+      "definition": "big"
+    },
+    {
+      "word": "бюджет",
+      "definition": "budget"
+    }
+  ],
+  "objectives": [
+    "React to high price (дорого)",
+    "Ask for cheaper option (дешевле)",
+    "Buy affordable item"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "mission-a1-002",
+  "title": "Introduce Yourself",
+  "level": "A1",
+  "description": "Meet someone and introduce yourself",
+  "imageName": "person.2.fill",
+  "initialPrompt": "Привет! Я Анна. А как тебя зовут?",
+  "systemPrompt": "You are Anna meeting someone new. Ask their name, where they're from, what languages they speak. Use ты form. Keep replies short (1-2 sentences).",
+  "completionCriteria": "User shared their name, origin, and a language they speak.",
+  "responseLimit": 15,
+  "hints": [
+    "Меня зовут... (My name is...)",
+    "Я из... (I'm from...)",
+    "Я говорю по-русски (I speak Russian)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "привет",
+      "definition": "hi"
+    },
+    {
+      "word": "зовут",
+      "definition": "called/named"
+    },
+    {
+      "word": "откуда",
+      "definition": "where from"
+    },
+    {
+      "word": "говорю",
+      "definition": "I speak"
+    },
+    {
+      "word": "очень приятно",
+      "definition": "nice to meet you"
+    },
+    {
+      "word": "тоже",
+      "definition": "also/too"
+    }
+  ],
+  "objectives": [
+    "Tell your name (Меня зовут...)",
+    "Say where you're from (Я из...)",
+    "Share a language you speak (Я говорю...)"
+  ]
+}

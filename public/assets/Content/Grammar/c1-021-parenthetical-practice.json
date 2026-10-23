@@ -1,0 +1,210 @@
+{
+  "lessonId": "c1-021-parenthetical",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Identify parenthetical expressions by function and choose the correct one for each context",
+      "descriptionRussian": "Определите вводные слова по функции и выберите подходящее для каждого контекста",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Certainty: _____, он придёт вовремя. Он никогда не опаздывает.",
+              "promptEnglish": "Of course, he will come on time. He is never late.",
+              "options": [
+                "Может быть",
+                "К сожалению",
+                "Конечно",
+                "Во-первых"
+              ],
+              "answer": "Конечно",
+              "hint": "The speaker is confident, reinforced by 'he is never late.'",
+              "explanation": "Конечно (of course) expresses certainty. The second sentence confirms the speaker's confidence."
+            },
+            {
+              "prompt": "Emotion: _____, мы не успели купить билеты.",
+              "promptEnglish": "Unfortunately, we did not manage to buy the tickets.",
+              "options": [
+                "К сожалению",
+                "По-моему",
+                "Безусловно",
+                "Наверное"
+              ],
+              "answer": "К сожалению",
+              "hint": "The speaker expresses regret about the situation.",
+              "explanation": "К сожалению (unfortunately) is an emotional parenthetical expressing the speaker's regret. It is always set off by a comma."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Personal opinion: _____, этот фильм переоценён.",
+              "promptEnglish": "In my opinion, this film is overrated.",
+              "options": [
+                "Как известно",
+                "К счастью",
+                "Безусловно",
+                "По-моему"
+              ],
+              "answer": "По-моему",
+              "hint": "The speaker shares a personal viewpoint, not a general fact.",
+              "explanation": "По-моему (in my opinion) attributes the statement to the speaker's personal view. Compare with как известно, which references common knowledge."
+            },
+            {
+              "prompt": "Which parenthetical expresses strong certainty without any doubt?",
+              "promptEnglish": "Stronger than конечно, closer to 'undoubtedly.'",
+              "options": [
+                "возможно",
+                "наверное",
+                "безусловно",
+                "может быть"
+              ],
+              "answer": "безусловно",
+              "hint": "Literally 'without conditions' or 'unconditionally.'",
+              "explanation": "Безусловно (undoubtedly, certainly) is the strongest certainty marker among common parentheticals. It leaves no room for doubt."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "A friend is guessing where Лена went:",
+          "contextEnglish": "Choose the version that expresses uncertainty.",
+          "options": [
+            "Лена уехала в Петербург.",
+            "Лена, наверное, уехала в Петербург."
+          ],
+          "answer": "Лена, наверное, уехала в Петербург.",
+          "explanation": "Наверное (probably) signals the speaker's uncertainty. Without it, the sentence states Lena's departure as established fact."
+        },
+        {
+          "context": "A lecturer making a strong claim about a scientific finding:",
+          "contextEnglish": "Choose the version expressing no doubt.",
+          "options": [
+            "Это открытие изменит медицину.",
+            "Безусловно, это открытие изменит медицину."
+          ],
+          "answer": "Безусловно, это открытие изменит медицину.",
+          "explanation": "Безусловно (undoubtedly) reinforces the speaker's absolute certainty. Without it, the sentence is a prediction but not an emphatic one."
+        },
+        {
+          "context": "An author presenting a personal take on a novel:",
+          "contextEnglish": "Choose the version that marks a personal opinion.",
+          "options": [
+            "Этот роман лучше предыдущего.",
+            "По-моему, этот роман лучше предыдущего."
+          ],
+          "answer": "По-моему, этот роман лучше предыдущего.",
+          "explanation": "По-моему (in my opinion) signals a subjective judgment. Without it, the sentence reads as an objective claim."
+        }
+      ]
+    },
+    {
+      "id": "set-3-build-correct",
+      "title": "Build & Correct",
+      "titleRussian": "Построй и исправь",
+      "description": "Build sentences with parentheticals from word tiles, then fix comma-placement errors",
+      "descriptionRussian": "Составьте предложения с вводными словами, затем исправьте ошибки в расстановке запятых",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Он конечно придёт завтра.",
+          "error": "Он конечно придёт",
+          "correction": "Он, конечно, придёт",
+          "hint": "A parenthetical in mid-sentence position must be enclosed in commas.",
+          "explanation": "Конечно is a parenthetical expression (вводное слово) and must be set off by commas on both sides when placed mid-sentence: Он, конечно, придёт завтра.",
+          "options": [
+            "Он, конечно, придёт",
+            "Он, конечно придёт"
+          ]
+        },
+        {
+          "sentence": "К сожалению мы опоздали на рейс.",
+          "error": "К сожалению мы",
+          "correction": "К сожалению, мы",
+          "hint": "A parenthetical at the start of a sentence needs a comma after it.",
+          "explanation": "К сожалению (unfortunately) at the beginning must be followed by a comma before the main clause continues.",
+          "options": [
+            "К сожалению, мы",
+            "К, сожалению, мы"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "Of course, we will finish the project on time.",
+          "answer": "Конечно, мы закончим проект вовремя.",
+          "acceptableVariants": [
+            "Мы, конечно, закончим проект вовремя.",
+            "Разумеется, мы закончим проект вовремя."
+          ],
+          "hint": "Use конечно or разумеется for 'of course.' Remember the comma after the parenthetical.",
+          "grammarFocus": "Certainty parenthetical with comma placement",
+          "keyWord": "конечно",
+          "options": [
+            "конечно",
+            "точно",
+            "ясно",
+            "верно"
+          ]
+        },
+        {
+          "english": "Unfortunately, the concert was cancelled.",
+          "answer": "К сожалению, концерт отменили.",
+          "acceptableVariants": [
+            "К сожалению, концерт был отменён.",
+            "Концерт, к сожалению, отменили."
+          ],
+          "hint": "К сожалению for 'unfortunately.' Comma follows the parenthetical.",
+          "grammarFocus": "Emotional parenthetical expressing regret",
+          "keyWord": "К сожалению",
+          "options": [
+            "К сожалению",
+            "К счастью",
+            "К радости",
+            "К удивлению"
+          ]
+        },
+        {
+          "english": "She is probably already asleep.",
+          "answer": "Она, наверное, уже спит.",
+          "acceptableVariants": [
+            "Наверное, она уже спит.",
+            "Она, может быть, уже спит."
+          ],
+          "hint": "Use наверное (probably) in mid-sentence with commas on both sides.",
+          "grammarFocus": "Uncertainty parenthetical in mid-sentence position",
+          "keyWord": "наверное",
+          "options": [
+            "наверное",
+            "точно",
+            "явно",
+            "обязательно"
+          ]
+        },
+        {
+          "english": "In the opinion of doctors, this medicine is safe.",
+          "answer": "По мнению врачей, это лекарство безопасно.",
+          "acceptableVariants": [
+            "Это лекарство, по мнению врачей, безопасно."
+          ],
+          "hint": "По мнению + genitive noun for 'in the opinion of.' Comma after the parenthetical.",
+          "grammarFocus": "Source parenthetical with genitive",
+          "keyWord": "По мнению",
+          "options": [
+            "По мнению",
+            "По словам",
+            "По данным",
+            "По причине"
+          ]
+        }
+      ]
+    }
+  ]
+}

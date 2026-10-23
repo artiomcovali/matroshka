@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-009",
+  "title": "Project Deadline",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Negotiate a deadline extension with a client",
+  "imageName": "calendar.badge.exclamationmark",
+  "initialPrompt": "Добрый день! Звоню узнать о статусе проекта. Мы ждём его в пятницу, как договаривались.",
+  "systemPrompt": "You are client expecting project Friday. Team needs extension due to unexpected issues. Initially firm on deadline. Can be convinced by: honest explanation, partial delivery, quality concerns. Might agree to Monday with conditions. Keep replies short.",
+  "completionCriteria": "User negotiated acceptable timeline or compromise.",
+  "responseLimit": 15,
+  "hints": [
+    "Возникли непредвиденные сложности (Unexpected difficulties arose)",
+    "Могу сдать часть в пятницу (I can deliver part on Friday)",
+    "Качество важнее скорости (Quality is more important than speed)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "срок",
+      "definition": "deadline"
+    },
+    {
+      "word": "продление",
+      "definition": "extension"
+    },
+    {
+      "word": "задержка",
+      "definition": "delay"
+    },
+    {
+      "word": "качество",
+      "definition": "quality"
+    },
+    {
+      "word": "компромисс",
+      "definition": "compromise"
+    },
+    {
+      "word": "приоритет",
+      "definition": "priority"
+    }
+  ],
+  "objectives": [
+    "Explain the situation honestly",
+    "Propose a new timeline",
+    "Handle client's concerns",
+    "Offer partial delivery or alternative",
+    "Reach agreement on new deadline"
+  ]
+}

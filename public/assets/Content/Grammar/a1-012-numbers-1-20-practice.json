@@ -1,0 +1,515 @@
+{
+  "lessonId": "a1-012-numbers-1-20",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Number recognition and gender agreement",
+      "descriptionRussian": "Узнавание чисел и согласование по роду",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "How do you say '8' in Russian?",
+              "promptEnglish": "How do you say '8' in Russian?",
+              "options": [
+                "шесть",
+                "восемь",
+                "девять",
+                "семь"
+              ],
+              "answer": "восемь",
+              "hint": "Between 7 and 9.",
+              "explanation": "Восемь means 'eight' in Russian."
+            },
+            {
+              "prompt": "How do you say '14' in Russian?",
+              "promptEnglish": "How do you say '14' in Russian?",
+              "options": [
+                "четырнадцать",
+                "тринадцать",
+                "пятнадцать",
+                "двенадцать"
+              ],
+              "answer": "четырнадцать",
+              "hint": "четыре + надцать.",
+              "explanation": "Четырнадцать = четыре (4) + надцать (teen suffix)."
+            },
+            {
+              "prompt": "_____ яблоко (1 apple, neuter)",
+              "promptEnglish": "One apple",
+              "options": [
+                "одна",
+                "один",
+                "одно",
+                "два"
+              ],
+              "answer": "одно",
+              "hint": "Яблоко is neuter.",
+              "explanation": "Яблоко is neuter, so use одно: одно яблоко."
+            },
+            {
+              "prompt": "_____ минуты (2 minutes, feminine)",
+              "promptEnglish": "Two minutes",
+              "options": [
+                "два",
+                "одна",
+                "две",
+                "три"
+              ],
+              "answer": "две",
+              "hint": "Минута is feminine.",
+              "explanation": "Минута is feminine, so use две: две минуты."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ рубля (2 rubles)",
+          "contextEnglish": "Two rubles (рубль is masculine)",
+          "options": [
+            "два",
+            "две"
+          ],
+          "answer": "два",
+          "explanation": "Рубль is masculine, so use два: два рубля."
+        },
+        {
+          "context": "_____ копейки (2 kopecks)",
+          "contextEnglish": "Two kopecks (копейка is feminine)",
+          "options": [
+            "два",
+            "две"
+          ],
+          "answer": "две",
+          "explanation": "Копейка is feminine, so use две: две копейки."
+        },
+        {
+          "context": "_____ мама (1 mom)",
+          "contextEnglish": "One mom (мама is feminine)",
+          "options": [
+            "один",
+            "одна"
+          ],
+          "answer": "одна",
+          "explanation": "Мама is feminine, so use одна: одна мама."
+        },
+        {
+          "context": "_____ стул (1 chair)",
+          "contextEnglish": "One chair (стул is masculine)",
+          "options": [
+            "один",
+            "одна"
+          ],
+          "answer": "один",
+          "explanation": "Стул is masculine, so use один: один стул."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in number words and sort by category",
+      "descriptionRussian": "Вставьте числительные и рассортируйте по категориям",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "В комнате _____ стула. (4 chairs)",
+          "У меня _____ братьев. (5 brothers)",
+          "На столе _____ книг. (10 books)",
+          "В классе _____ учеников. (20 students)"
+        ],
+        "choices": [
+          "четыре",
+          "пять",
+          "десять",
+          "двадцать"
+        ],
+        "answers": [
+          "четыре",
+          "пять",
+          "десять",
+          "двадцать"
+        ],
+        "grammarFocus": "cardinal numbers 1-20",
+        "hints": [
+          "The number after три.",
+          "The number after четыре.",
+          "The number after девять.",
+          "The biggest number in this lesson."
+        ],
+        "explanations": [
+          "Четыре means 4: четыре стула.",
+          "Пять means 5: пять братьев.",
+          "Десять means 10: десять книг.",
+          "Двадцать means 20: двадцать учеников."
+        ],
+        "options": [
+          [
+            "четыре",
+            "четырёх",
+            "четырём",
+            "четырьмя"
+          ],
+          [
+            "пятью",
+            "пять",
+            "пяти"
+          ],
+          [
+            "десятью",
+            "десяти",
+            "десять"
+          ],
+          [
+            "двадцати",
+            "двадцатью",
+            "двадцать"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort: один/одна/одно for these nouns",
+        "categories": [
+          "один (masculine)",
+          "одна (feminine)",
+          "одно (neuter)"
+        ],
+        "items": [
+          {
+            "word": "город",
+            "category": "один (masculine)"
+          },
+          {
+            "word": "тетрадь",
+            "category": "одна (feminine)"
+          },
+          {
+            "word": "место",
+            "category": "одно (neuter)"
+          },
+          {
+            "word": "мальчик",
+            "category": "один (masculine)"
+          },
+          {
+            "word": "минута",
+            "category": "одна (feminine)"
+          },
+          {
+            "word": "слово",
+            "category": "одно (neuter)"
+          },
+          {
+            "word": "урок",
+            "category": "один (masculine)"
+          },
+          {
+            "word": "девочка",
+            "category": "одна (feminine)"
+          },
+          {
+            "word": "утро",
+            "category": "одно (neuter)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "I have two brothers.",
+          "answer": "У меня два брата.",
+          "acceptableVariants": [],
+          "hint": "two = два (брат is masculine)",
+          "grammarFocus": "numbers with masculine nouns",
+          "keyWord": "два",
+          "options": [
+            "два",
+            "две",
+            "двое",
+            "двух"
+          ]
+        },
+        {
+          "english": "She has one daughter.",
+          "answer": "У неё одна дочь.",
+          "acceptableVariants": [
+            "У неё одна дочка."
+          ],
+          "hint": "one = одна (дочь is feminine)",
+          "grammarFocus": "один agreement with feminine",
+          "keyWord": "одна",
+          "options": [
+            "одна",
+            "один",
+            "одно",
+            "одну"
+          ]
+        },
+        {
+          "english": "There are twelve months in a year.",
+          "answer": "В году двенадцать месяцев.",
+          "acceptableVariants": [
+            "Двенадцать месяцев в году."
+          ],
+          "hint": "twelve = двенадцать",
+          "grammarFocus": "teen numbers",
+          "keyWord": "двенадцать",
+          "options": [
+            "двенадцать",
+            "двадцать",
+            "одиннадцать",
+            "двенадцатый"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Error",
+      "titleRussian": "Найди ошибку",
+      "description": "Fix gender agreement mistakes with numbers",
+      "descriptionRussian": "Исправьте ошибки в согласовании чисел по роду",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "У меня один сестра.",
+          "error": "один",
+          "correction": "одна",
+          "hint": "Сестра is feminine.",
+          "explanation": "Сестра is feminine, so use одна: У меня одна сестра.",
+          "options": [
+            "одна",
+            "одно",
+            "одни",
+            "одного"
+          ]
+        },
+        {
+          "sentence": "На столе два тетради.",
+          "error": "два",
+          "correction": "две",
+          "hint": "Тетрадь is feminine.",
+          "explanation": "Тетрадь is feminine, so use две: две тетради.",
+          "options": [
+            "две",
+            "двое",
+            "двух",
+            "двумя"
+          ]
+        },
+        {
+          "sentence": "В комнате одна окно.",
+          "error": "одна",
+          "correction": "одно",
+          "hint": "Окно is neuter.",
+          "explanation": "Окно is neuter, so use одно: одно окно.",
+          "options": [
+            "одно",
+            "один",
+            "одни",
+            "одной"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "How do you say '16' in Russian?",
+              "promptEnglish": "How do you say '16' in Russian?",
+              "options": [
+                "шестнадцать",
+                "шесть",
+                "семнадцать",
+                "пятнадцать"
+              ],
+              "answer": "шестнадцать",
+              "hint": "шесть + надцать.",
+              "explanation": "Шестнадцать = шесть (6) + надцать (teen suffix) = 16."
+            },
+            {
+              "prompt": "How do you say '19' in Russian?",
+              "promptEnglish": "How do you say '19' in Russian?",
+              "options": [
+                "восемнадцать",
+                "двадцать",
+                "девятнадцать",
+                "одиннадцать"
+              ],
+              "answer": "девятнадцать",
+              "hint": "девять + надцать.",
+              "explanation": "Девятнадцать = девять (9) + надцать = 19."
+            },
+            {
+              "prompt": "What pattern do numbers 11-19 follow?",
+              "promptEnglish": "What pattern do numbers 11-19 follow?",
+              "options": [
+                "digit + десят",
+                "digit + надцать",
+                "digit + дцать",
+                "digit + сто"
+              ],
+              "answer": "digit + надцать",
+              "hint": "одиннадцать, двенадцать, тринадцать...",
+              "explanation": "Numbers 11-19 all end in -надцать: одиннадцать, двенадцать, тринадцать."
+            },
+            {
+              "prompt": "_____ места (2 seats, neuter)",
+              "promptEnglish": "Two seats",
+              "options": [
+                "одно",
+                "два",
+                "две",
+                "три"
+              ],
+              "answer": "два",
+              "hint": "Место is neuter. Два is used for masculine AND neuter.",
+              "explanation": "Два is used with both masculine and neuter nouns: два места."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "A mix of exercises on all number topics",
+      "descriptionRussian": "Разные упражнения на все темы урока",
+      "icon": "shuffle",
+      "patternRecognition": [
+        {
+          "sentence": "одиннадцать, двенадцать, тринадцать, четырнадцать",
+          "question": "What suffix do all these numbers share?",
+          "options": [
+            "-десят",
+            "-надцать",
+            "-дцать",
+            "-сять"
+          ],
+          "answer": "-надцать",
+          "explanation": "Numbers 11-19 all end in -надцать: the digit root + надцать."
+        },
+        {
+          "sentence": "один стол, одна книга, одно окно",
+          "question": "Why does один change form?",
+          "options": [
+            "It agrees with the noun's gender",
+            "It changes for number",
+            "It is irregular",
+            "It depends on the verb"
+          ],
+          "answer": "It agrees with the noun's gender",
+          "explanation": "Один/одна/одно agrees with the gender of the noun: masculine, feminine, neuter."
+        },
+        {
+          "sentence": "два брата, два окна, две сестры",
+          "question": "When do we use две instead of два?",
+          "options": [
+            "With neuter nouns",
+            "With masculine nouns",
+            "With feminine nouns",
+            "With all plural nouns"
+          ],
+          "answer": "With feminine nouns",
+          "explanation": "Две is used with feminine nouns. Два is for masculine and neuter."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "В неделе _____ дней. (7 days in a week)",
+          "В году _____ месяцев. (12 months)",
+          "_____ ручка (1 pen, feminine)",
+          "_____ кресла (2 armchairs, neuter)"
+        ],
+        "choices": [
+          "семь",
+          "двенадцать",
+          "одна",
+          "два"
+        ],
+        "answers": [
+          "семь",
+          "двенадцать",
+          "одна",
+          "два"
+        ],
+        "grammarFocus": "numbers in context, gender agreement",
+        "hints": [
+          "The number after шесть.",
+          "A teen number: две + надцать.",
+          "Ручка is feminine, so use the feminine form.",
+          "Кресло is neuter. Два works for masculine and neuter."
+        ],
+        "explanations": [
+          "Семь (7): В неделе семь дней.",
+          "Двенадцать (12): В году двенадцать месяцев.",
+          "Одна for feminine: одна ручка.",
+          "Два for neuter: два кресла."
+        ],
+        "options": [
+          [
+            "семи",
+            "семью",
+            "семь"
+          ],
+          [
+            "двенадцати",
+            "двенадцать",
+            "двенадцатью"
+          ],
+          [
+            "одной",
+            "одна",
+            "одну",
+            "одного"
+          ],
+          [
+            "два",
+            "двум",
+            "двух",
+            "двумя"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "_____ день (1 day, masculine)",
+          "contextEnglish": "One day",
+          "options": [
+            "одна",
+            "один"
+          ],
+          "answer": "один",
+          "explanation": "День is masculine, so use один: один день."
+        },
+        {
+          "context": "_____ ночь (1 night, feminine)",
+          "contextEnglish": "One night",
+          "options": [
+            "один",
+            "одна"
+          ],
+          "answer": "одна",
+          "explanation": "Ночь is feminine, so use одна: одна ночь."
+        },
+        {
+          "context": "_____ дочери (2 daughters, feminine)",
+          "contextEnglish": "Two daughters",
+          "options": [
+            "два",
+            "две"
+          ],
+          "answer": "две",
+          "explanation": "Дочь is feminine, so use две: две дочери."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-021",
+  "title": "The Broken Lock",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "The locksmith broke your lock - get free repair",
+  "imageName": "key.fill",
+  "initialPrompt": "Хм, ключ не работает. Надо менять замок. Это будет 3000 рублей.",
+  "systemPrompt": "You are a locksmith. You broke the lock trying to copy a key. Blame the old lock. Admit fault only if customer saw you break it. Offer free repair if pressed hard. Keep replies short.",
+  "completionCriteria": "User got free repair or significant discount.",
+  "responseLimit": 15,
+  "hints": [
+    "Вы сломали мой замок (You broke my lock)",
+    "Я видел, как это случилось (I saw it happen)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "замок",
+      "definition": "lock"
+    },
+    {
+      "word": "сломать",
+      "definition": "to break"
+    },
+    {
+      "word": "ключ",
+      "definition": "key"
+    },
+    {
+      "word": "бесплатно",
+      "definition": "for free"
+    },
+    {
+      "word": "ремонт",
+      "definition": "repair"
+    },
+    {
+      "word": "виноват",
+      "definition": "guilty/at fault"
+    }
+  ],
+  "objectives": [
+    "Accuse them of breaking the lock",
+    "Describe what you saw",
+    "Demand free repair",
+    "Reject their excuses",
+    "Get satisfactory resolution"
+  ]
+}

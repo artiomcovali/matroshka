@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-007",
+  "title": "Trade Secret Theft",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Accused of stealing trade secrets from former employer",
+  "imageName": "lock.shield.fill",
+  "initialPrompt": "Ваш бывший работодатель подаёт в суд. Они утверждают, что вы украли коммерческую тайну для нового бизнеса. Адвокат требует показаний.",
+  "systemPrompt": "You are opposing lawyer in trade secret case. Present circumstantial evidence, cite suspicious timing. Only drop case if defendant proves independent development.",
+  "completionCriteria": "User defended against trade secret accusations.",
+  "responseLimit": 15,
+  "hints": [
+    "Мои разработки полностью независимы (My developments are completely independent)",
+    "Я могу показать историю создания (I can show the creation history)"
+  ],
+  "targetVocabulary": [
+    {"word": "коммерческая тайна", "definition": "trade secret"},
+    {"word": "кража", "definition": "theft"},
+    {"word": "конкуренция", "definition": "competition"},
+    {"word": "патент", "definition": "patent"},
+    {"word": "разработка", "definition": "development"},
+    {"word": "судебный иск", "definition": "lawsuit"}
+  ],
+  "objectives": [
+    "Prove independent development",
+    "Show creation timeline",
+    "Counter circumstantial evidence",
+    "Protect new business",
+    "Avoid legal liability"
+  ]
+}

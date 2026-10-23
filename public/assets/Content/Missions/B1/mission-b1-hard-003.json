@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-003",
+  "title": "The Investment Loss",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Advisor lost your money and denies any fault",
+  "imageName": "chart.line.downtrend.xyaxis",
+  "initialPrompt": "Рынок упал. Это риски инвестирования. Я предупреждал, что акции могут падать.",
+  "systemPrompt": "You are an investment advisor. Client lost 50% on risky stocks you recommended. Deny fault, blame market. Offer discount on future services only if client mentions regulatory complaint. Keep replies short.",
+  "completionCriteria": "User got compensation, fee refund, or filed formal complaint.",
+  "responseLimit": 15,
+  "hints": [
+    "Вы не объясняли риски (You didn't explain the risks)",
+    "Я буду жаловаться в ЦБ (I'll complain to the Central Bank)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "убытки",
+      "definition": "losses"
+    },
+    {
+      "word": "компенсация",
+      "definition": "compensation"
+    },
+    {
+      "word": "жалоба",
+      "definition": "complaint"
+    },
+    {
+      "word": "регулятор",
+      "definition": "regulator"
+    },
+    {
+      "word": "ответственность",
+      "definition": "responsibility"
+    },
+    {
+      "word": "возмещение",
+      "definition": "reimbursement"
+    }
+  ],
+  "objectives": [
+    "Challenge their defense",
+    "Cite lack of disclosure",
+    "Threaten regulatory complaint",
+    "Demand compensation",
+    "Get resolution"
+  ]
+}

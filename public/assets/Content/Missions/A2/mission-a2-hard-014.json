@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-014",
+  "title": "The Wrong Haircut",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "The barber cut your hair too short - get a solution",
+  "imageName": "scissors",
+  "initialPrompt": "Готово! Как вам? Красиво, да?",
+  "systemPrompt": "You are barber who cut hair too short. Initially defensive - 'it looks good', 'it will grow'. Can offer: free styling product, discount, free next haircut. Keep replies short.",
+  "completionCriteria": "User expressed dissatisfaction and got compensation.",
+  "responseLimit": 15,
+  "hints": [
+    "Это слишком коротко (This is too short)",
+    "Я просил длиннее (I asked for longer)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "стрижка",
+      "definition": "haircut"
+    },
+    {
+      "word": "короткий",
+      "definition": "short"
+    },
+    {
+      "word": "длинный",
+      "definition": "long"
+    },
+    {
+      "word": "отрасти",
+      "definition": "to grow back"
+    },
+    {
+      "word": "недоволен",
+      "definition": "dissatisfied"
+    },
+    {
+      "word": "компенсация",
+      "definition": "compensation"
+    }
+  ],
+  "objectives": [
+    "Express that it's too short",
+    "Explain what you asked for",
+    "Handle defensive response",
+    "Ask for compensation",
+    "Get discount or free product"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-012",
+  "title": "Return a Defective Item",
+  "level": "A2",
+  "description": "Return a broken product to a store",
+  "imageName": "arrow.uturn.left.circle.fill",
+  "initialPrompt": "Добрый день! Чем могу помочь?",
+  "systemPrompt": "You are a customer service manager. Listen to complaint, check receipt, offer refund or exchange. Keep replies short.",
+  "completionCriteria": "User explained problem and you offered a solution.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу вернуть товар (I want to return an item)",
+    "Он не работает (It doesn't work)",
+    "Вот чек (Here's the receipt)",
+    "Можно обменять? (Can I exchange it?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "вернуть",
+      "definition": "to return"
+    },
+    {
+      "word": "обменять",
+      "definition": "to exchange"
+    },
+    {
+      "word": "сломан",
+      "definition": "broken"
+    },
+    {
+      "word": "чек",
+      "definition": "receipt"
+    },
+    {
+      "word": "возврат",
+      "definition": "refund"
+    },
+    {
+      "word": "гарантия",
+      "definition": "warranty"
+    }
+  ],
+  "objectives": [
+    "Explain the problem (не работает)",
+    "Show the receipt (чек)",
+    "Get a refund or exchange"
+  ]
+}

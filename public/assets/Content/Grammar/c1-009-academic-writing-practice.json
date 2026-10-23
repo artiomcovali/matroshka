@@ -1,0 +1,234 @@
+{
+  "lessonId": "c1-009-academic-writing",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Identify academic conventions: impersonal passives, hedging, and the authorial 'we'",
+      "descriptionRussian": "Определите особенности научного стиля: безличные конструкции, смягчения и авторское «мы»",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which sentence uses the correct impersonal academic construction?",
+              "promptEnglish": "Academic Russian avoids first-person singular.",
+              "options": [
+                "Представляется, что данная теория верна.",
+                "Я думаю, что эта теория верна.",
+                "Мне кажется, что эта теория верна.",
+                "Наверное, эта теория верна."
+              ],
+              "answer": "Представляется, что данная теория верна.",
+              "hint": "Academic style uses impersonal verbs like представляется, а не personal forms.",
+              "explanation": "Представляется, что... is the standard academic impersonal construction. Я думаю is too colloquial, мне кажется is conversational, наверное is informal hedging."
+            },
+            {
+              "prompt": "Which hedging expression is appropriate for an academic hypothesis?",
+              "promptEnglish": "Hedging shows caution without informal uncertainty.",
+              "options": [
+                "Точно можно сказать, что...",
+                "Может быть, это так.",
+                "Я не уверен, но думаю, что...",
+                "Можно предположить, что..."
+              ],
+              "answer": "Можно предположить, что...",
+              "hint": "Academic hedging uses impersonal constructions: можно предположить, вероятно, по-видимому.",
+              "explanation": "Можно предположить, что... is formal academic hedging. Может быть is conversational. Точно можно сказать is overly confident. The last option is personal and colloquial."
+            },
+            {
+              "prompt": "Choose the correctly formed academic passive construction:",
+              "promptEnglish": "The question of economic growth is being examined.",
+              "options": [
+                "Мы рассматриваем вопрос экономического роста.",
+                "Вопрос экономического роста рассматривается.",
+                "Рассматриваем вопрос экономического роста.",
+                "Экономический рост — мы его рассматриваем."
+              ],
+              "answer": "Вопрос экономического роста рассматривается.",
+              "hint": "Academic style prefers the reflexive passive (рассматривается) with the topic as subject.",
+              "explanation": "Рассматривается вопрос... or Вопрос... рассматривается is the standard academic passive. The reflexive -ся form removes the agent, creating impersonality."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "How is 'it was established that...' expressed in academic Russian?",
+              "promptEnglish": "Passive impersonal for reporting research findings.",
+              "options": [
+                "Мы установили, что...",
+                "Установили, что...",
+                "Я выяснил, что...",
+                "Было установлено, что..."
+              ],
+              "answer": "Было установлено, что...",
+              "hint": "The neuter passive past (было + short passive participle) is standard for reporting findings.",
+              "explanation": "Было установлено, что... is the canonical academic passive for reporting findings. The agent is deliberately omitted, focusing on the result rather than the researcher."
+            },
+            {
+              "prompt": "Which sentence is NOT appropriate for an academic paper?",
+              "promptEnglish": "Identify the colloquial intruder.",
+              "options": [
+                "Было установлено, что...",
+                "Можно предположить, что...",
+                "Я лично считаю, что...",
+                "Представляется, что..."
+              ],
+              "answer": "Я лично считаю, что...",
+              "hint": "Academic writing avoids first-person singular and informal emphasis like лично.",
+              "explanation": "Я лично считаю is doubly informal: first-person singular (я) and the emphatic лично. Academic style uses мы полагаем, представляется, or impersonal constructions."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Proposing a hypothesis:",
+          "contextEnglish": "One can assume that these factors are interconnected.",
+          "options": [
+            "Можно предположить, что данные факторы взаимосвязаны.",
+            "Я думаю, что эти вещи связаны."
+          ],
+          "answer": "Можно предположить, что данные факторы взаимосвязаны.",
+          "explanation": "Можно предположить is impersonal academic hedging. Данные факторы and взаимосвязаны are precise terminology, vs. the vague colloquial эти вещи связаны."
+        },
+        {
+          "context": "Drawing a conclusion:",
+          "contextEnglish": "Thus, the hypothesis has been confirmed.",
+          "options": [
+            "Таким образом, гипотеза подтвердилась.",
+            "Ну вот, всё подтвердилось."
+          ],
+          "answer": "Таким образом, гипотеза подтвердилась.",
+          "explanation": "Таким образом (thus) is the standard academic conclusion marker. Ну вот is highly colloquial."
+        },
+        {
+          "context": "Stating the purpose of a study:",
+          "contextEnglish": "The aim of this work is to analyze...",
+          "options": [
+            "Цель данной работы — проанализировать...",
+            "Мы хотим разобраться в..."
+          ],
+          "answer": "Цель данной работы — проанализировать...",
+          "explanation": "Цель данной работы is the standard academic purpose statement. Мы хотим разобраться is colloquial and lacks precision."
+        }
+      ]
+    },
+    {
+      "id": "set-3-build-correct",
+      "title": "Build & Correct",
+      "titleRussian": "Построй и исправь",
+      "description": "Assemble academic sentences from word blocks and fix colloquial intrusions",
+      "descriptionRussian": "Составьте научные предложения из блоков слов и исправьте разговорные ошибки",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Наверное, этот метод лучше. (informal hedging and comparison)",
+          "error": "Наверное",
+          "correction": "По-видимому",
+          "hint": "Replace the colloquial наверное with the academic по-видимому.",
+          "explanation": "По-видимому is formal epistemic hedging. Наверное is conversational and too casual for academic writing.",
+          "options": [
+            "По-видимому",
+            "Может быть"
+          ]
+        },
+        {
+          "sentence": "Мы посмотрели на результаты эксперимента. (colloquial verb)",
+          "error": "посмотрели на",
+          "correction": "проанализировали",
+          "hint": "Replace the colloquial посмотреть на with the academic проанализировать.",
+          "explanation": "Проанализировали is the appropriate academic verb for examining results. Посмотрели на is too informal for a research paper.",
+          "options": [
+            "проанализировали",
+            "глянули на"
+          ]
+        },
+        {
+          "sentence": "Этот результат очень важный для науки. (informal intensifier and register)",
+          "error": "очень важный",
+          "correction": "имеет существенное значение",
+          "hint": "Replace очень важный with the academic collocation имеет существенное значение.",
+          "explanation": "Имеет существенное значение (is of substantial significance) is the academic equivalent of очень важный. The intensifier очень is too colloquial.",
+          "options": [
+            "имеет существенное значение",
+            "страшно важный"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "The problem of climate change is being examined in this article.",
+          "answer": "В данной статье рассматривается проблема изменения климата.",
+          "acceptableVariants": [
+            "Проблема изменения климата рассматривается в данной статье."
+          ],
+          "hint": "Use рассматривается (impersonal passive) and данная статья.",
+          "grammarFocus": "Impersonal reflexive passive",
+          "keyWord": "рассматривается",
+          "options": [
+            "рассматривается",
+            "смотрится",
+            "глядится",
+            "видится"
+          ]
+        },
+        {
+          "english": "Apparently, this approach requires further research.",
+          "answer": "По-видимому, данный подход требует дальнейшего исследования.",
+          "acceptableVariants": [
+            "По-видимому, данный подход нуждается в дальнейшем исследовании.",
+            "Вероятно, данный подход требует дальнейшего исследования."
+          ],
+          "hint": "По-видимому for hedging. Данный подход for 'this approach.' Требует + genitive.",
+          "grammarFocus": "Academic hedging",
+          "keyWord": "По-видимому",
+          "options": [
+            "По-видимому",
+            "Наверное",
+            "Может",
+            "Похоже"
+          ]
+        },
+        {
+          "english": "We believe that the results confirm the hypothesis.",
+          "answer": "Мы полагаем, что результаты подтверждают гипотезу.",
+          "acceptableVariants": [
+            "Мы считаем, что результаты подтверждают гипотезу.",
+            "Мы полагаем, что полученные результаты подтверждают гипотезу."
+          ],
+          "hint": "Authorial 'we': мы полагаем. Подтверждают for 'confirm.'",
+          "grammarFocus": "Authorial plural",
+          "keyWord": "полагаем",
+          "options": [
+            "полагаем",
+            "знаем",
+            "надеемся",
+            "сомневаемся"
+          ]
+        },
+        {
+          "english": "It was proven that the new method is more effective.",
+          "answer": "Было доказано, что новый метод является более эффективным.",
+          "acceptableVariants": [
+            "Было доказано, что новый метод более эффективен.",
+            "Нами было доказано, что новый метод является более эффективным."
+          ],
+          "hint": "Academic passive: было доказано. Является + instrumental for formal predication.",
+          "grammarFocus": "Impersonal passive",
+          "keyWord": "доказано",
+          "options": [
+            "доказано",
+            "показано",
+            "сказано",
+            "видно"
+          ]
+        }
+      ]
+    }
+  ]
+}

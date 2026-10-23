@@ -1,0 +1,251 @@
+{
+  "id": "b1-041-word-formation",
+  "level": "B1",
+  "focusArea": "vocabulary",
+  "title": "Word Formation",
+  "titleRussian": "Словообразование",
+  "description": "Prefixes, suffixes, root patterns",
+  "descriptionRussian": "Приставки, суффиксы, корни",
+  "imageName": "puzzlepiece.extension",
+  "intro": "Russian words are built from roots, prefixes, and suffixes. Understanding word formation helps you guess meanings and expand vocabulary. PREFIXES change meaning: писать → написать, переписать, записать. SUFFIXES create new words/parts of speech: читать → читатель (reader), чтение (reading). ROOTS carry core meaning: -уч-/-учи- (learn): учить, учёба, ученик, учитель. Recognizing patterns accelerates vocabulary acquisition.",
+  "rules": [
+    "Prefixes modify verbs: пере- (re-), вы- (out), при- (arrival), без- (without)",
+    "Noun suffixes: -тель (agent), -ние/-ение (action), -ость (quality), -ка (informal/diminutive)",
+    "Adjective suffixes: -ный/-ной, -ский, -овый/-евый, -ив-/-лив- (tendency)",
+    "Same root = related meanings: вода, водный, водить (guide), подводный"
+  ],
+  "examples": [
+    "Prefix: писать → переписать (rewrite), записать (write down), выписать (copy out)",
+    "Suffix -тель: учить → учитель (teacher), читать → читатель (reader)",
+    "Suffix -ние: читать → чтение (reading), писать → письмо/писание (writing)",
+    "Root -уч-: учить, учёба, ученик, учитель, научить, выучить"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "учить → учи_____ (one who teaches)",
+          "promptEnglish": "to teach → teacher",
+          "options": [
+            "ость",
+            "ние",
+            "ка",
+            "тель"
+          ],
+          "answer": "тель",
+          "hint": "-тель = agent suffix",
+          "explanation": "Agent suffix: учитель."
+        },
+        {
+          "prompt": "читать → чте_____ (the act of reading)",
+          "promptEnglish": "to read → reading (noun)",
+          "options": [
+            "ость",
+            "ние",
+            "ка",
+            "тель"
+          ],
+          "answer": "ние",
+          "hint": "-ние = action noun suffix",
+          "explanation": "Action noun: чтение."
+        },
+        {
+          "prompt": "писать → _____писать (to rewrite)",
+          "promptEnglish": "to write → to rewrite",
+          "options": [
+            "за",
+            "вы",
+            "при",
+            "пере"
+          ],
+          "answer": "пере",
+          "hint": "пере- = re-/again",
+          "explanation": "Prefix пере-: переписать."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "работать → работ_____ (worker)",
+          "promptEnglish": "to work → worker",
+          "options": [
+            "ка",
+            "ник",
+            "ние",
+            "тель"
+          ],
+          "answer": "ник",
+          "hint": "-ник = agent (masculine)",
+          "explanation": "Agent: работник."
+        },
+        {
+          "prompt": "ходить → _____ходить (to enter)",
+          "promptEnglish": "to walk → to enter",
+          "options": [
+            "пере",
+            "при",
+            "в",
+            "вы"
+          ],
+          "answer": "в",
+          "hint": "в- = into",
+          "explanation": "Prefix в-: входить."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "The root -уч- relates to:",
+          "promptEnglish": "What does the root -уч- mean?",
+          "options": [
+            "Walking",
+            "Learning/teaching",
+            "Speaking",
+            "Writing"
+          ],
+          "answer": "Learning/teaching",
+          "hint": "Учить, ученик, учитель",
+          "explanation": "Root -уч-: learning/teaching."
+        },
+        {
+          "prompt": "строить → строи_____ (builder)",
+          "promptEnglish": "to build → builder",
+          "options": [
+            "ник",
+            "ние",
+            "ка",
+            "тель"
+          ],
+          "answer": "тель",
+          "hint": "-тель = agent",
+          "explanation": "Agent: строитель."
+        },
+        {
+          "prompt": "писать → _____писать (to copy out)",
+          "promptEnglish": "to write → to copy out/extract",
+          "options": [
+            "при",
+            "пере",
+            "вы",
+            "за"
+          ],
+          "answer": "вы",
+          "hint": "вы- = out",
+          "explanation": "Prefix вы-: выписать."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "писать → писа_____ (writer)"
+    ],
+    "choices": [
+      "тель",
+      "ние",
+      "ка",
+      "ость"
+    ],
+    "answers": [
+      "тель"
+    ],
+    "grammarFocus": "Agent suffix -тель: писатель (writer)",
+    "hints": [
+      "The word писатель means 'writer' (a person who writes). Which suffix creates agent nouns (person who does the action) from verbs?"
+    ],
+    "explanations": [
+      "The suffix -тель creates agent nouns (people who perform an action) from verb stems: писать → писатель (writer), учить → учитель (teacher), читать → читатель (reader). This is one of the most productive agent-forming suffixes in Russian."
+    ],
+    "options": [
+      [
+        "тель",
+        "телей",
+        "тели",
+        "телью"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "читать → чита_____ (one who reads)",
+      "contextEnglish": "reader (person)",
+      "options": [
+        "тель",
+        "ние"
+      ],
+      "answer": "тель",
+      "explanation": "Agent suffix: читатель."
+    },
+    {
+      "context": "читать → чте_____ (the act/process)",
+      "contextEnglish": "reading (action noun)",
+      "options": [
+        "ние",
+        "тель"
+      ],
+      "answer": "ние",
+      "explanation": "Action noun: чтение."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort suffixes by function",
+    "categories": [
+      "Agent (person)",
+      "Action/Process",
+      "Quality/State"
+    ],
+    "items": [
+      {
+        "word": "-тель (учитель)",
+        "category": "Agent (person)"
+      },
+      {
+        "word": "-ние (чтение)",
+        "category": "Action/Process"
+      },
+      {
+        "word": "-ость (молодость)",
+        "category": "Quality/State"
+      },
+      {
+        "word": "-ник (работник)",
+        "category": "Agent (person)"
+      },
+      {
+        "word": "-ка (записка)",
+        "category": "Action/Process"
+      },
+      {
+        "word": "-ота (красота)",
+        "category": "Quality/State"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "-тель",
+      "definition": "agent suffix (masculine)",
+      "example": "учитель, писатель, читатель"
+    },
+    {
+      "term": "-ние/-ение",
+      "definition": "action noun suffix",
+      "example": "чтение, изучение, написание"
+    },
+    {
+      "term": "-ость",
+      "definition": "quality/state suffix",
+      "example": "молодость, старость, глупость"
+    },
+    {
+      "term": "common roots",
+      "definition": "recognize for vocabulary",
+      "example": "-уч- (learn), -пис- (write), -чит- (read)"
+    }
+  ]
+}

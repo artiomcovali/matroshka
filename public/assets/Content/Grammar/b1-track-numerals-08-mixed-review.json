@@ -1,0 +1,289 @@
+{
+  "id": "b1-track-numerals-08-mixed-review",
+  "level": "B1",
+  "focusArea": "cases",
+  "title": "Numerals 8: Mixed Review in Context",
+  "titleRussian": "Числительные 8: Итоговое повторение в контексте",
+  "description": "Bring lessons 1-7 together: the 1 / 2-4 / 5+ split, compound numbers, numerals in non-nominative cases, collective numerals, and money / age / time, all in realistic sentences.",
+  "descriptionRussian": "Собираем уроки 1-7 воедино: правило 1 / 2-4 / 5+, составные числительные, числительные в косвенных падежах, собирательные числительные и деньги / возраст / время — всё в реальных предложениях.",
+  "imageName": "checklist",
+  "trackId": "b1-numerals-mastery",
+  "trackTitle": "Numerals Mastery",
+  "trackTitleRussian": "Числительные",
+  "trackIndex": 8,
+  "trackTotal": 10,
+  "intro": "The full counting system in one place. Read the last word of the number, pick one of three slots, and check whether the phrase is sitting in a case that makes the number decline too. The teens are the only thing that lies to you about which slot it belongs in.",
+  "rules": [
+    "The last word of a number sets the slot: один → nominative singular, 2-4 → genitive singular, 5+ → genitive plural (двадцать одна книга, двадцать две книги, двадцать пять книг).",
+    "The teens 11-14 always count as 5+: одиннадцать книг, тринадцать рублей.",
+    "In a non-nominative case the number declines with the noun: к двум часам, с тремя друзьями, о пяти книгах.",
+    "Collective numerals двое / трое / четверо take the genitive plural for groups of people, children, and plural-only nouns: двое детей, трое суток.",
+    "Money / age / time follow the same split, with the irregular пять ЛЕТ and the dative person for age: два часа, сто рублей, ему пять лет."
+  ],
+  "examples": [
+    "В классе двадцать один ученик. (There are twenty-one pupils in the class.) last word 1 → nominative singular ученик.",
+    "Я купил три книги и заплатил сто рублей. (I bought three books and paid a hundred roubles.) 3 → книги, the 5+ slot → рублей.",
+    "Приходи к двум часам. (Come by two o'clock.) non-nominative: к + dative двум часам.",
+    "Лена пришла с тремя подругами. (Lena came with three friends.) non-nominative: с + instrumental тремя подругами.",
+    "У них двое детей и трое внуков. (They have two children and three grandchildren.) collectives + genitive plural.",
+    "Моему деду восемьдесят два года. (My grandfather is eighty-two.) last word 2 → года; dative деду.",
+    "Мы говорили о пяти новых учениках. (We talked about five new pupils.) non-nominative: о + prepositional пяти учениках."
+  ],
+  "tables": [
+    {
+      "title": "Lessons 1-7 on one card",
+      "headers": [
+        "Skill",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "1 / 2-4 / 5+ split",
+          "cells": [
+            "одна книга, две книги, пять книг"
+          ]
+        },
+        {
+          "label": "Compound (last word rules)",
+          "cells": [
+            "двадцать одна книга, двадцать пять книг"
+          ]
+        },
+        {
+          "label": "Non-nominative (number declines)",
+          "cells": [
+            "к двум, с тремя, о пяти"
+          ]
+        },
+        {
+          "label": "Collective + gen. plural",
+          "cells": [
+            "двое детей, трое друзей"
+          ]
+        },
+        {
+          "label": "Money / age / time",
+          "cells": [
+            "сто рублей, два года, два часа"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "В классе двадцать один _____.",
+          "promptEnglish": "There are twenty-one pupils in the class.",
+          "options": [
+            "учеников",
+            "ученика",
+            "ученик",
+            "учениками"
+          ],
+          "answer": "ученик",
+          "hint": "Read the last word of the compound number.",
+          "explanation": "The last word, один, puts the phrase in the 1 slot, so the noun is the nominative singular: двадцать один ученик. The teens-exception does not apply (this is 21, not 11)."
+        },
+        {
+          "prompt": "Я купил три книги и заплатил сто _____.",
+          "promptEnglish": "I bought three books and paid a hundred roubles.",
+          "options": [
+            "рубля",
+            "рубль",
+            "рублём",
+            "рублей"
+          ],
+          "answer": "рублей",
+          "hint": "100 is a 5+ number.",
+          "explanation": "Сто (100) is in the 5+ slot, so the noun is the genitive plural рублей. (The first half of the sentence shows три книги: 3 → genitive singular.)"
+        },
+        {
+          "prompt": "Приходи к _____ часам.",
+          "promptEnglish": "Come by two o'clock.",
+          "options": [
+            "два",
+            "двух",
+            "двум",
+            "двумя"
+          ],
+          "answer": "двум",
+          "hint": "к governs the dative; the number itself declines.",
+          "explanation": "In a non-nominative case the number declines too. К takes the dative, and the dative of два is двум: к двум часам. This is the non-nominative-case skill from Lesson 5."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "У них _____ детей.",
+          "promptEnglish": "They have two children.",
+          "options": [
+            "два",
+            "две",
+            "двое",
+            "двух"
+          ],
+          "answer": "двое",
+          "hint": "Counting children calls for which kind of numeral?",
+          "explanation": "Children are counted with the collective numeral двое plus the genitive plural: двое детей. This is the collective-numeral skill from Lesson 6."
+        },
+        {
+          "prompt": "Моему деду восемьдесят два _____.",
+          "promptEnglish": "My grandfather is eighty-two.",
+          "options": [
+            "года",
+            "год",
+            "лет",
+            "годов"
+          ],
+          "answer": "года",
+          "hint": "Last word два → the 2-4 slot for год.",
+          "explanation": "The compound ends in два (2-4 slot), so the noun is the genitive singular года: восемьдесят два года. Лет is only for the 5+ slot. Age uses the dative person: деду."
+        },
+        {
+          "prompt": "Мы говорили о пяти новых _____.",
+          "promptEnglish": "We talked about five new pupils.",
+          "options": [
+            "ученика",
+            "учениках",
+            "учеников",
+            "ученикам"
+          ],
+          "answer": "учениках",
+          "hint": "о + prepositional, and the whole phrase agrees.",
+          "explanation": "The preposition о governs the prepositional case, so the whole phrase shifts: о пяти новых учениках. The number (пяти), the adjective (новых), and the noun (учениках) all take the prepositional plural. This is whole-phrase agreement from Lesson 5."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Лена пришла с _____ подругами. (Lena came with three friends.)"
+    ],
+    "choices": [
+      "три",
+      "трёх",
+      "трём",
+      "тремя"
+    ],
+    "answers": [
+      "тремя"
+    ],
+    "grammarFocus": "С ('together with') governs the instrumental, so the number declines: the instrumental of три is тремя, with the noun in the instrumental plural: с тремя подругами."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "У меня двадцать две книг.",
+      "translationEnglish": "I have twenty-two books.",
+      "error": "книг",
+      "correction": "книги",
+      "options": [
+        "книги",
+        "книга",
+        "книгу"
+      ],
+      "explanation": "In a compound number only the last word decides, and this one ends in две, so the noun follows the 2-4 rule and takes the genitive singular: двадцать две книги. Книг is the genitive plural, correct only when the number ends in 5-9 or 0 (двадцать пять книг). The big front part двадцать never changes the noun; only the final две does."
+    },
+    {
+      "sentence": "В семье три детей.",
+      "translationEnglish": "There are three children in the family.",
+      "error": "три",
+      "correction": "трое",
+      "options": [
+        "трое",
+        "трёх",
+        "троих"
+      ],
+      "explanation": "Counting children calls for a collective numeral, and after a collective the noun is the genitive plural детей: трое детей. The ordinary три would force the genitive singular ребёнка (три ребёнка), so 'три детей' mixes the two systems and is wrong. Трёх and троих are non-nominative forms (genitive or accusative) used when the phrase leaves the subject slot (у трёх детей). In the nominative subject position here, the form is трое."
+    },
+    {
+      "sentence": "Она дружит с три девочками.",
+      "translationEnglish": "She is friends with three girls.",
+      "error": "три",
+      "correction": "тремя",
+      "options": [
+        "тремя",
+        "трёх",
+        "трём"
+      ],
+      "explanation": "When the whole phrase is in a non-nominative case, the number declines with the noun. The preposition с takes the instrumental, so девочки becomes девочками and три must become тремя: с тремя девочками. Plain три is the frozen nominative-accusative and cannot stand after с. Both halves carry the case, never just the noun."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "В библиотеке тридцать одна _____.",
+      "contextEnglish": "There are thirty-one books in the library.",
+      "options": [
+        "книг",
+        "книга"
+      ],
+      "answer": "книга",
+      "explanation": "The compound ends in одна, so the phrase is in the 1 slot: тридцать одна книга (nominative singular). Книг (genitive plural) would only follow a 5+ number like тридцать пять."
+    },
+    {
+      "context": "Он приехал с _____ детьми.",
+      "contextEnglish": "He arrived with two children (с + instrumental).",
+      "options": [
+        "двое",
+        "двумя"
+      ],
+      "answer": "двумя",
+      "explanation": "Here the phrase is in the instrumental after с, so the ordinary number declines: с двумя детьми. The collective двое is a nominative/accusative form; in the instrumental you use двумя with the noun in the instrumental plural."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each phrase by which numeral skill it tests.",
+    "categories": [
+      "1 / 2-4 / 5+ split",
+      "Non-nominative case (number declines)",
+      "Collective numeral"
+    ],
+    "items": [
+      {
+        "word": "пять рублей",
+        "category": "1 / 2-4 / 5+ split"
+      },
+      {
+        "word": "к двум часам",
+        "category": "Non-nominative case (number declines)"
+      },
+      {
+        "word": "двое детей",
+        "category": "Collective numeral"
+      },
+      {
+        "word": "двадцать два года",
+        "category": "1 / 2-4 / 5+ split"
+      },
+      {
+        "word": "о трёх книгах",
+        "category": "Non-nominative case (number declines)"
+      },
+      {
+        "word": "трое суток",
+        "category": "Collective numeral"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "1 / 2-4 / 5+",
+      "definition": "the core counting rule, set by the last word of the number: один рубль, два рубля, пять рублей.",
+      "example": "Двадцать одна книга, двадцать две книги, двадцать пять книг."
+    },
+    {
+      "term": "косвенные падежи",
+      "definition": "in non-nominative cases the number declines with the noun: к двум, с тремя, о пяти.",
+      "example": "Мы говорили о пяти учениках."
+    },
+    {
+      "term": "двое / трое + родительный множественного",
+      "definition": "collective numerals for groups, children, and plural-only nouns, always with the genitive plural.",
+      "example": "У них двое детей и трое внуков."
+    }
+  ]
+}

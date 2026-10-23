@@ -1,0 +1,188 @@
+{
+  "id": "a2-001",
+  "level": "A2",
+  "narrator": "Маша",
+  "title": "Мой район",
+  "titleEnglish": "My Neighborhood",
+  "description": "Маша рассказывает о своём районе и любимых местах.",
+  "imageName": "building.2.fill",
+  "fullText": "Я живу в хорошем районе в Москве. На моей улице есть большой парк, маленький магазин и красивое кафе. Каждое утро я гуляю с Пряником в парке. Пряник очень любит парк — там есть большие деревья и зелёная трава. Потом я иду мимо магазина и покупаю свежий хлеб. А вечером я иногда захожу в кафе. Там работает моя подруга Анна. Она всегда говорит: «Привет, Маша! Как дела?» Мне нравится мой район — тихий, зелёный и уютный.",
+  "reviewVocab": [
+    {
+      "word": "район",
+      "definition": "neighborhood, district",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "район",
+        "района",
+        "районе"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "улица",
+      "definition": "street",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "улица",
+        "улицы",
+        "улице"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "свежий",
+      "definition": "fresh",
+      "partOfSpeech": "adjective",
+      "forms": [
+        "свежий",
+        "свежая",
+        "свежее"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "уютный",
+      "definition": "cozy, comfortable",
+      "partOfSpeech": "adjective",
+      "forms": [
+        "уютный",
+        "уютная",
+        "уютное"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Где живёт Маша?",
+      "options": [
+        "В деревне",
+        "В Санкт-Петербурге",
+        "В Москве"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша говорит: «Я живу в хорошем районе в Москве»."
+    },
+    {
+      "prompt": "Что есть на улице Маши?",
+      "options": [
+        "Парк, магазин и кафе",
+        "Школа и больница",
+        "Только магазин"
+      ],
+      "correctIndex": 0,
+      "explanation": "На улице Маши есть большой парк, маленький магазин и красивое кафе."
+    },
+    {
+      "prompt": "С кем Маша гуляет в парке?",
+      "options": [
+        "С Анной",
+        "С Пряником",
+        "С Димой"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша гуляет с Пряником в парке каждое утро."
+    },
+    {
+      "prompt": "Что покупает Маша в магазине?",
+      "options": [
+        "Свежий хлеб",
+        "Молоко и сыр",
+        "Овощи и фрукты"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша покупает свежий хлеб в магазине."
+    },
+    {
+      "prompt": "Кто работает в кафе?",
+      "options": [
+        "Маша",
+        "Дима",
+        "Анна"
+      ],
+      "correctIndex": 2,
+      "explanation": "В кафе работает Машина подруга Анна."
+    },
+    {
+      "prompt": "Какой район у Маши?",
+      "options": [
+        "Шумный и большой",
+        "Тихий и зелёный",
+        "Далёкий и холодный"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша говорит, что район тихий, зелёный и уютный."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Маша живёт в хорошем _____ в Москве.",
+      "На улице Маши есть большой _____ и маленький магазин.",
+      "Маша покупает _____ хлеб в магазине.",
+      "В кафе работает Машина подруга _____.",
+      "Маше нравится район — тихий, зелёный и _____."
+    ],
+    "choices": [
+      "районе",
+      "парк",
+      "свежий",
+      "Анна",
+      "уютный",
+      "красивый",
+      "большой"
+    ],
+    "answers": [
+      "районе",
+      "парк",
+      "свежий",
+      "Анна",
+      "уютный"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "In 'красивое кафе', why does the adjective end in '-ое' (not '-ый' or '-ая')?",
+      "options": [
+        "Кафе is masculine",
+        "Кафе is neuter",
+        "Кафе is feminine"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "gender",
+      "sentenceRef": "...большой парк, маленький магазин и красивое кафе.",
+      "explanation": "'Кафе' is a neuter noun (borrowed from French). Neuter adjectives end in '-ое' or '-ее': красивое кафе, маленькое окно.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "What does 'в парке' tell us about the grammatical case used?",
+      "options": [
+        "It uses the prepositional case",
+        "It uses the nominative case",
+        "It uses the accusative case"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "case",
+      "sentenceRef": "Каждое утро я гуляю с Пряником в парке.",
+      "explanation": "After 'в' (in/at) for location, Russian uses the prepositional case. Парк → в парке. Москва → в Москве.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "In 'большой парк,' the adjective ending '-ой' shows the noun is:",
+      "options": [
+        "Feminine",
+        "Neuter",
+        "Masculine"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "gender",
+      "sentenceRef": "На моей улице есть большой парк...",
+      "explanation": "Masculine adjectives typically end in '-ый' or '-ой': большой парк, маленький магазин. Compare with feminine '-ая' (зелёная трава) and neuter '-ое' (красивое кафе).",
+      "focusArea": "cases"
+    }
+  ],
+  "audioFile": "a2-001.m4a",
+  "audioTimingFile": "a2-001-timing.json"
+}

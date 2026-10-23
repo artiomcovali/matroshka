@@ -1,0 +1,296 @@
+{
+  "id": "c1-021-parenthetical",
+  "level": "C1",
+  "focusArea": "sentenceStructure",
+  "title": "Parenthetical Expressions",
+  "titleRussian": "Вводные конструкции",
+  "description": "Parenthetical expressions",
+  "descriptionRussian": "Вводные слова и конструкции",
+  "imageName": "text.insert",
+  "intro": "Parentheticals (вводные слова) add speaker attitude without changing grammar. CERTAINTY: конечно, безусловно, несомненно (certainly, undoubtedly). UNCERTAINTY: может быть, возможно, вероятно (maybe, possibly, probably). EMOTION: к счастью, к сожалению, к удивлению (fortunately, unfortunately). SOURCE: по-моему, по словам X, говорят (in my opinion, according to X). SEQUENCE: во-первых, во-вторых, наконец (firstly, secondly, finally). Always set off by commas. Don't confuse with similar non-parenthetical uses.",
+  "rules": [
+    "Certainty: конечно, безусловно, разумеется (of course, certainly)",
+    "Uncertainty: может быть, возможно, наверное (maybe, perhaps)",
+    "Emotion: к счастью, к сожалению (fortunately, unfortunately)",
+    "Always commas: Он, конечно, прав. NOT: Он конечно прав."
+  ],
+  "examples": [
+    "Он, конечно, придёт. (He will, of course, come.)",
+    "Может быть, она позвонит. (Maybe she will call.)",
+    "К сожалению, мы опоздали. (Unfortunately, we were late.)",
+    "Во-первых, это дорого. Во-вторых, это сложно. (Firstly... Secondly...)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Certainty: Он, _____, прав. (of course)",
+          "promptEnglish": "He is, of course, right.",
+          "options": [
+            "однако",
+            "может быть",
+            "к сожалению",
+            "конечно"
+          ],
+          "answer": "конечно",
+          "hint": "Certainty = конечно",
+          "explanation": "Certainty: конечно (of course)."
+        },
+        {
+          "prompt": "Uncertainty: _____, она уже ушла. (Maybe)",
+          "promptEnglish": "Maybe she has already left.",
+          "options": [
+            "Конечно",
+            "Безусловно",
+            "К счастью",
+            "Может быть"
+          ],
+          "answer": "Может быть",
+          "hint": "Uncertainty = может быть",
+          "explanation": "Uncertainty: Может быть (maybe)."
+        },
+        {
+          "prompt": "Emotion: _____, мы опоздали. (Unfortunately)",
+          "promptEnglish": "Unfortunately, we were late.",
+          "options": [
+            "Наверное",
+            "Конечно",
+            "К счастью",
+            "К сожалению"
+          ],
+          "answer": "К сожалению",
+          "hint": "Negative emotion = к сожалению",
+          "explanation": "Emotion: К сожалению (unfortunately)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Sequence: _____, это дорого. Во-вторых, это сложно.",
+          "promptEnglish": "Firstly... Secondly...",
+          "options": [
+            "Первое",
+            "Во-первых",
+            "Во-первом",
+            "Первый"
+          ],
+          "answer": "Во-первых",
+          "hint": "Sequence = во-первых",
+          "explanation": "Sequence: Во-первых, во-вторых..."
+        },
+        {
+          "prompt": "Opinion: _____, это неправильно. (In my opinion)",
+          "promptEnglish": "In my opinion, this is wrong.",
+          "options": [
+            "Мне",
+            "Моё мнение",
+            "По-моему",
+            "Я думаю что"
+          ],
+          "answer": "По-моему",
+          "hint": "Opinion parenthetical = по-моему",
+          "explanation": "Opinion: По-моему (in my opinion)."
+        },
+        {
+          "prompt": "Fortunately: _____, никто не пострадал.",
+          "promptEnglish": "Fortunately, no one was hurt.",
+          "options": [
+            "Конечно",
+            "Наверное",
+            "К счастью",
+            "К сожалению"
+          ],
+          "answer": "К счастью",
+          "hint": "Positive emotion = к счастью",
+          "explanation": "Emotion: К счастью (fortunately)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Undoubtedly: Это, _____, лучший вариант.",
+          "promptEnglish": "This is, undoubtedly, the best option.",
+          "options": [
+            "может быть",
+            "безусловно",
+            "однако",
+            "к сожалению"
+          ],
+          "answer": "безусловно",
+          "hint": "Strong certainty = безусловно",
+          "explanation": "Certainty: безусловно (undoubtedly)."
+        },
+        {
+          "prompt": "Probably: Он, _____, забыл. (probably)",
+          "promptEnglish": "He probably forgot.",
+          "options": [
+            "конечно",
+            "наверное",
+            "к счастью",
+            "безусловно"
+          ],
+          "answer": "наверное",
+          "hint": "Probability = наверное",
+          "explanation": "Probability: наверное (probably)."
+        },
+        {
+          "prompt": "Which needs commas around the parenthetical?",
+          "promptEnglish": "Correct punctuation",
+          "options": [
+            "Он, конечно прав.",
+            "Он конечно, прав.",
+            "Он, конечно, прав.",
+            "Он конечно прав."
+          ],
+          "answer": "Он, конечно, прав.",
+          "hint": "Commas on BOTH sides",
+          "explanation": "Correct: Он, конечно, прав."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Источник информации: _____ врачей, это безопасно.",
+          "promptEnglish": "According to doctors, this is safe.",
+          "options": [
+            "Конечно",
+            "По словам",
+            "К счастью",
+            "Наверное"
+          ],
+          "answer": "По словам",
+          "hint": "A phrase introducing someone else's words",
+          "explanation": "Вводное выражение «по словам» указывает на источник информации."
+        },
+        {
+          "prompt": "Итог перечисления: _____, нам нужно принять решение.",
+          "promptEnglish": "Finally, we need to make a decision.",
+          "options": [
+            "Во-первых",
+            "Может быть",
+            "Наконец",
+            "По-моему"
+          ],
+          "answer": "Наконец",
+          "hint": "A word signaling the last item in a list",
+          "explanation": "Вводное слово «наконец» завершает перечисление: во-первых, во-вторых, наконец."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____, он не знал об этом. (Apparently/It seems)"
+    ],
+    "choices": [
+      "По-видимому",
+      "Конечно",
+      "К счастью",
+      "Безусловно"
+    ],
+    "answers": [
+      "По-видимому"
+    ],
+    "grammarFocus": "Inference parenthetical: по-видимому",
+    "hints": [
+      "Which parenthetical expression means 'apparently/it seems' and signals that the speaker is making an inference?"
+    ],
+    "explanations": [
+      "'По-видимому' (apparently/it seems) is an inference parenthetical marking uncertain knowledge. 'Конечно' (of course) expresses certainty, 'к счастью' (fortunately) is emotional, and 'безусловно' (undoubtedly) is emphatic certainty; none express inference."
+    ],
+    "options": [
+      [
+        "Конечно",
+        "Безусловно",
+        "По-видимому",
+        "К счастью"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Certainty: Это, _____, правда.",
+      "contextEnglish": "This is, of course, true.",
+      "options": [
+        "конечно",
+        "может быть"
+      ],
+      "answer": "конечно",
+      "explanation": "Certainty: конечно."
+    },
+    {
+      "context": "Uncertainty: Это, _____, правда.",
+      "contextEnglish": "This is, perhaps, true.",
+      "options": [
+        "может быть",
+        "конечно"
+      ],
+      "answer": "может быть",
+      "explanation": "Uncertainty: может быть."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by parenthetical function",
+    "categories": [
+      "Certainty",
+      "Uncertainty",
+      "Emotion",
+      "Sequence"
+    ],
+    "items": [
+      {
+        "word": "конечно",
+        "category": "Certainty"
+      },
+      {
+        "word": "может быть",
+        "category": "Uncertainty"
+      },
+      {
+        "word": "к сожалению",
+        "category": "Emotion"
+      },
+      {
+        "word": "во-первых",
+        "category": "Sequence"
+      },
+      {
+        "word": "безусловно",
+        "category": "Certainty"
+      },
+      {
+        "word": "наверное",
+        "category": "Uncertainty"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "конечно / безусловно",
+      "definition": "of course / undoubtedly",
+      "example": "Он, конечно, прав."
+    },
+    {
+      "term": "может быть / наверное",
+      "definition": "maybe / probably",
+      "example": "Может быть, он придёт."
+    },
+    {
+      "term": "к счастью / к сожалению",
+      "definition": "fortunately / unfortunately",
+      "example": "К сожалению, мы опоздали."
+    },
+    {
+      "term": "во-первых, во-вторых",
+      "definition": "firstly, secondly",
+      "example": "Во-первых, это дорого."
+    }
+  ]
+}

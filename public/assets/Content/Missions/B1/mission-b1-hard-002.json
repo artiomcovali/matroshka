@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-002",
+  "title": "The Contractor Nightmare",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Work is shoddy and contractor is being defensive about fixing it",
+  "imageName": "hammer.fill",
+  "initialPrompt": "Работа закончена. Да, есть небольшие недочёты, но это нормально. Платите остаток.",
+  "systemPrompt": "You are a defensive contractor. Work has visible defects. Blame materials, weather, client's changes. Agree to fix only if client lists specific defects and threatens to withhold payment. Keep replies short.",
+  "completionCriteria": "User got contractor to fix defects or negotiate fair payment.",
+  "responseLimit": 15,
+  "hints": [
+    "Я не буду платить пока не исправите (I won't pay until you fix it)",
+    "Вот список проблем (Here's a list of problems)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "дефект",
+      "definition": "defect"
+    },
+    {
+      "word": "качество",
+      "definition": "quality"
+    },
+    {
+      "word": "исправить",
+      "definition": "to fix"
+    },
+    {
+      "word": "претензия",
+      "definition": "complaint"
+    },
+    {
+      "word": "гарантия",
+      "definition": "guarantee"
+    },
+    {
+      "word": "оплата",
+      "definition": "payment"
+    }
+  ],
+  "objectives": [
+    "Document the defects",
+    "Reject their excuses",
+    "Demand repairs",
+    "Negotiate fair resolution",
+    "Get work completed properly"
+  ]
+}

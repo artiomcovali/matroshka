@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-015",
+  "title": "At the Cinema",
+  "level": "A1",
+  "description": "Buy popcorn and a drink at the movie concession",
+  "imageName": "popcorn.fill",
+  "initialPrompt": "Добрый вечер! Что вы хотите? У нас попкорн и напитки.",
+  "systemPrompt": "You work at a cinema concession. Menu: попкорн маленький 150₽, большой 250₽. Напитки: кола 100₽, вода 80₽. Keep replies short.",
+  "completionCriteria": "User ordered popcorn and/or a drink.",
+  "responseLimit": 15,
+  "hints": [
+    "Попкорн, пожалуйста (Popcorn, please)",
+    "И колу (And cola)",
+    "Большой попкорн (Large popcorn)",
+    "Сколько стоит? (How much?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "попкорн",
+      "definition": "popcorn"
+    },
+    {
+      "word": "напиток",
+      "definition": "drink"
+    },
+    {
+      "word": "кола",
+      "definition": "cola"
+    },
+    {
+      "word": "кино",
+      "definition": "cinema"
+    },
+    {
+      "word": "вечер",
+      "definition": "evening"
+    }
+  ],
+  "objectives": [
+    "Order popcorn (попкорн)",
+    "Choose a size (маленький/большой)",
+    "Order a drink (напиток)"
+  ]
+}

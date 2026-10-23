@@ -1,0 +1,556 @@
+{
+  "lessonId": "b1-034-aspect-prefixes",
+  "sets": [
+    {
+      "id": "round-1-pure-vs-meaning",
+      "title": "Pure or Meaning-Changing?",
+      "titleRussian": "Чистовидовая или со значением?",
+      "description": "Distinguish pure perfectivizers from meaning-changing prefixes",
+      "descriptionRussian": "Различите чистовидовые приставки и приставки со значением",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "делать → сделать. Pure perfectivizer or meaning-changing?",
+              "promptEnglish": "Does с- change the meaning of делать?",
+              "options": [
+                "Meaning-changing (new meaning)",
+                "Pure perfectivizer (same meaning)",
+                "Suppletion",
+                "Suffixation"
+              ],
+              "answer": "Pure perfectivizer (same meaning)",
+              "hint": "Сделать = finished doing. Same core meaning as делать.",
+              "explanation": "Pure perfectivizer: с- + делать = сделать (completed doing). No new meaning."
+            },
+            {
+              "prompt": "писать → записать. Pure perfectivizer or meaning-changing?",
+              "promptEnglish": "Does за- just perfectivize or add new meaning?",
+              "options": [
+                "Pure perfectivizer",
+                "Suffixation",
+                "Meaning-changing (write down)",
+                "Suppletion"
+              ],
+              "answer": "Meaning-changing (write down)",
+              "hint": "Записать = write DOWN, not just 'finish writing.'",
+              "explanation": "Meaning-changing: за- + писать = записать (write down). New meaning, not pure aspect."
+            },
+            {
+              "prompt": "Я _____ немного и ушёл. (I sat for a while and left.)",
+              "promptEnglish": "Sat for a short while.",
+              "options": [
+                "просидел",
+                "засидел",
+                "высидел",
+                "посидел"
+              ],
+              "answer": "посидел",
+              "hint": "по- = for a while / a bit.",
+              "explanation": "По- with activity verbs = 'for a while': посидел (sat for a bit)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она вдруг _____. (She suddenly started crying.)",
+              "promptEnglish": "She suddenly began to cry.",
+              "options": [
+                "поплакала",
+                "наплакала",
+                "расплакала",
+                "заплакала"
+              ],
+              "answer": "заплакала",
+              "hint": "за- = begin (inceptive) with some verbs.",
+              "explanation": "За- (inceptive) = begin: заплакала (started crying). Meaning-changing prefix."
+            },
+            {
+              "prompt": "читать → перечитать means:",
+              "promptEnglish": "What does the prefix пере- add?",
+              "options": [
+                "To start reading",
+                "To finish reading",
+                "To reread",
+                "To read for a while"
+              ],
+              "answer": "To reread",
+              "hint": "пере- = re-/again.",
+              "explanation": "Пере- = again/re-: перечитать (reread). Meaning-changing prefix."
+            },
+            {
+              "prompt": "ехать → доехать means:",
+              "promptEnglish": "What does до- add?",
+              "options": [
+                "To begin driving",
+                "To drive for a while",
+                "To drive away",
+                "To reach/arrive by driving"
+              ],
+              "answer": "To reach/arrive by driving",
+              "hint": "до- = up to, reach the destination.",
+              "explanation": "До- = up to/reach: доехать (reach a destination by driving). Meaning-changing."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort: pure perfectivizer or meaning-changing prefix?",
+        "categories": [
+          "Pure perfectivizer",
+          "Meaning-changing"
+        ],
+        "items": [
+          {
+            "word": "написать (finish writing)",
+            "category": "Pure perfectivizer"
+          },
+          {
+            "word": "переписать (rewrite)",
+            "category": "Meaning-changing"
+          },
+          {
+            "word": "прочитать (finish reading)",
+            "category": "Pure perfectivizer"
+          },
+          {
+            "word": "почитать (read for a while)",
+            "category": "Meaning-changing"
+          },
+          {
+            "word": "сделать (finish doing)",
+            "category": "Pure perfectivizer"
+          },
+          {
+            "word": "запеть (start singing)",
+            "category": "Meaning-changing"
+          },
+          {
+            "word": "построить (finish building)",
+            "category": "Pure perfectivizer"
+          },
+          {
+            "word": "дописать (finish writing to the end)",
+            "category": "Meaning-changing"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-2-prefix-meanings",
+      "title": "Prefix Meanings",
+      "titleRussian": "Значения приставок",
+      "description": "Match prefixes to their meanings",
+      "descriptionRussian": "Соотнесите приставки с их значениями",
+      "icon": "list.bullet",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы _____ к друзьям по дороге домой. (We dropped by our friends' on the way home.)",
+              "promptEnglish": "We stopped by/dropped in.",
+              "options": [
+                "приехали",
+                "уехали",
+                "выехали",
+                "заехали"
+              ],
+              "answer": "заехали",
+              "hint": "за- with motion verbs = drop by.",
+              "explanation": "За- (motion) = drop by/stop in: заехали (dropped by)."
+            },
+            {
+              "prompt": "Он _____ весь торт один! (He ate the whole cake by himself!)",
+              "promptEnglish": "He ate up the entire cake.",
+              "options": [
+                "поел",
+                "заел",
+                "съел",
+                "наел"
+              ],
+              "answer": "съел",
+              "hint": "с- here = completely, all of it.",
+              "explanation": "С- = completely (with eating): съел (ate up the whole thing)."
+            },
+            {
+              "prompt": "Мы _____ немного в парке. (We walked for a while in the park.)",
+              "promptEnglish": "We strolled for a bit.",
+              "options": [
+                "прогуляли",
+                "загуляли",
+                "погуляли",
+                "нагулялись"
+              ],
+              "answer": "погуляли",
+              "hint": "по- = for a while.",
+              "explanation": "По- = for a while: погуляли (walked/strolled for a bit)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она _____ все старые письма. (She reread all the old letters.)",
+              "promptEnglish": "She reread all the old letters.",
+              "options": [
+                "прочитала",
+                "дочитала",
+                "перечитала",
+                "зачитала"
+              ],
+              "answer": "перечитала",
+              "hint": "пере- = re-/again.",
+              "explanation": "Пере- = again: перечитала (reread). Not the first reading."
+            },
+            {
+              "prompt": "Ребёнок _____ от матери. (The child ran away from the mother.)",
+              "promptEnglish": "The child ran away.",
+              "options": [
+                "побежал",
+                "забежал",
+                "убежал",
+                "прибежал"
+              ],
+              "answer": "убежал",
+              "hint": "у- = away from.",
+              "explanation": "У- = away from: убежал (ran away)."
+            },
+            {
+              "prompt": "Собака _____ в дом. (The dog ran into the house.)",
+              "promptEnglish": "The dog ran inside.",
+              "options": [
+                "убежала",
+                "выбежала",
+                "перебежала",
+                "вбежала"
+              ],
+              "answer": "вбежала",
+              "hint": "в- = into.",
+              "explanation": "В- = into/inside: вбежала (ran into the house)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он _____ книгу. (read to the end, completed)",
+          "contextEnglish": "He finished reading the book.",
+          "options": [
+            "прочитал",
+            "почитал"
+          ],
+          "answer": "прочитал",
+          "explanation": "Про- = completed the whole thing: прочитал (read to the end)."
+        },
+        {
+          "context": "Он _____ книгу. (read for a little while)",
+          "contextEnglish": "He read the book for a bit.",
+          "options": [
+            "почитал",
+            "прочитал"
+          ],
+          "answer": "почитал",
+          "explanation": "По- = for a while: почитал (read for a bit, didn't necessarily finish)."
+        },
+        {
+          "context": "Она _____ песню. (began singing suddenly)",
+          "contextEnglish": "She started singing.",
+          "options": [
+            "запела",
+            "спела"
+          ],
+          "answer": "запела",
+          "explanation": "За- (inceptive) = started: запела (began singing)."
+        },
+        {
+          "context": "Она _____ песню. (sang a song to the end)",
+          "contextEnglish": "She sang a song (completed).",
+          "options": [
+            "спела",
+            "запела"
+          ],
+          "answer": "спела",
+          "explanation": "С- (pure pf) = completed: спела (sang the whole song)."
+        }
+      ]
+    },
+    {
+      "id": "round-3-po-prefix",
+      "title": "The по- Prefix",
+      "titleRussian": "Приставка по-",
+      "description": "Master the 'for a while' meaning of по-",
+      "descriptionRussian": "Тренировка значения по- (немного, недолго)",
+      "icon": "clock",
+      "fillInBlank": {
+        "blanks": [
+          "Давай _____ в шахматы! (Let's play chess for a while!)",
+          "Он _____ и ушёл. (He talked for a bit and left.)",
+          "Мы _____ в кафе и пошли домой. (We sat in the cafe for a while and went home.)",
+          "Я хочу _____ перед сном. (I want to read for a bit before bed.)"
+        ],
+        "choices": [
+          "поиграем",
+          "поговорил",
+          "посидели",
+          "почитать",
+          "проиграем",
+          "заговорил"
+        ],
+        "answers": [
+          "поиграем",
+          "поговорил",
+          "посидели",
+          "почитать"
+        ],
+        "grammarFocus": "по- = for a while/a bit (limited duration)",
+        "hints": [
+          "Let's play for a while: по- + играть. First person plural future.",
+          "Talked for a bit: по- + говорить. Past tense masculine.",
+          "Sat for a while: по- + сидеть. Past tense plural.",
+          "To read for a bit: по- + читать. Infinitive form."
+        ],
+        "explanations": [
+          "Поиграем: по- + играть = play for a while. First person plural pf future: поиграем.",
+          "Поговорил: по- + говорить = talk for a while. He talked briefly, then left.",
+          "Посидели: по- + сидеть = sit for a while. They sat for a bit, then went home.",
+          "Почитать: по- + читать = read for a while. Infinitive: I want to read a little."
+        ],
+        "options": [
+          [
+            "поиграем",
+            "играли",
+            "играл",
+            "играла"
+          ],
+          [
+            "поговорил",
+            "поговорит",
+            "разговаривал",
+            "разговаривает"
+          ],
+          [
+            "сидели",
+            "сидит",
+            "сижу",
+            "посидели"
+          ],
+          [
+            "почитать",
+            "читать"
+          ]
+        ]
+      },
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Дети _____ на улице и вернулись домой. (The children played outside for a while and came back.)",
+              "promptEnglish": "Limited duration play.",
+              "options": [
+                "заиграли",
+                "проиграли",
+                "выиграли",
+                "поиграли"
+              ],
+              "answer": "поиграли",
+              "hint": "по- = for a while: поиграли.",
+              "explanation": "По- = limited duration: поиграли (played for a while). Not проиграли (lost) or выиграли (won)."
+            },
+            {
+              "prompt": "Мы _____ немного и поехали дальше. (We rested a bit and drove on.)",
+              "promptEnglish": "Rested briefly.",
+              "options": [
+                "отдыхали",
+                "отдохнули",
+                "поотдыхали",
+                "передохнули"
+              ],
+              "answer": "отдохнули",
+              "hint": "Brief rest (completed) = pf of отдыхать.",
+              "explanation": "Отдохнули: pf of отдыхать. Brief completed rest before continuing."
+            },
+            {
+              "prompt": "Он _____ в телефоне и убрал его. (He fiddled with his phone for a while and put it away.)",
+              "promptEnglish": "Used phone briefly.",
+              "options": [
+                "засидел",
+                "посидел",
+                "просидел",
+                "высидел"
+              ],
+              "answer": "посидел",
+              "hint": "по- + сидеть = spent a little time (colloquially with phone).",
+              "explanation": "Посидел: по- (for a while) + сидеть. Spent a brief time on the phone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанные задания",
+      "description": "Comprehensive drill on prefix meanings and pure perfectivizers",
+      "descriptionRussian": "Комплексная тренировка значений приставок",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы _____ реку на лодке. (We crossed the river by boat.)",
+              "promptEnglish": "Crossed from one side to the other.",
+              "options": [
+                "уплыли",
+                "заплыли",
+                "переплыли",
+                "поплыли"
+              ],
+              "answer": "переплыли",
+              "hint": "пере- = across.",
+              "explanation": "Пере- = across: переплыли (swam/sailed across the river)."
+            },
+            {
+              "prompt": "Поезд _____ из туннеля. (The train came out of the tunnel.)",
+              "promptEnglish": "The train emerged.",
+              "options": [
+                "въехал",
+                "уехал",
+                "заехал",
+                "выехал"
+              ],
+              "answer": "выехал",
+              "hint": "вы- = out of.",
+              "explanation": "Вы- = out: выехал (drove/came out of the tunnel)."
+            },
+            {
+              "prompt": "Which prefix is a pure perfectivizer in 'прочитать'?",
+              "promptEnglish": "Does про- change the meaning?",
+              "options": [
+                "Yes, it adds 'through' meaning",
+                "No, it's a pure perfectivizer",
+                "It adds 'for a while'",
+                "It adds 'begin'"
+              ],
+              "answer": "No, it's a pure perfectivizer",
+              "hint": "Прочитать = read to completion, same core meaning as читать.",
+              "explanation": "Про- in прочитать is a pure perfectivizer. It doesn't add new meaning, just completion."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Он _____ статью и нашёл ошибку. (He reread the article and found a mistake.)",
+              "promptEnglish": "He reread (read again).",
+              "options": [
+                "дочитал",
+                "прочитал",
+                "перечитал",
+                "зачитал"
+              ],
+              "answer": "перечитал",
+              "hint": "пере- = again/re-.",
+              "explanation": "Пере- = again: перечитал (reread). Found the mistake on the second reading."
+            }
+          ]
+        },
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "до- in дочитать means:",
+              "promptEnglish": "What does до- add to читать?",
+              "options": [
+                "Read for a while",
+                "Begin reading",
+                "Finish reading to the end",
+                "Reread"
+              ],
+              "answer": "Finish reading to the end",
+              "hint": "до- = up to the end, complete.",
+              "explanation": "До- = to the end/completion: дочитать (finish reading what's left)."
+            },
+            {
+              "prompt": "вы- in выписать means:",
+              "promptEnglish": "What does вы- add to писать?",
+              "options": [
+                "Rewrite",
+                "Write out/extract",
+                "Finish writing",
+                "Begin writing"
+              ],
+              "answer": "Write out/extract",
+              "hint": "вы- = out.",
+              "explanation": "Вы- = out: выписать (write out, copy out, extract). Meaning-changing."
+            },
+            {
+              "prompt": "под- in подойти means:",
+              "promptEnglish": "What does под- add to идти?",
+              "options": [
+                "Walk away",
+                "Walk in",
+                "Approach/walk up to",
+                "Walk through"
+              ],
+              "answer": "Approach/walk up to",
+              "hint": "под- = up to, toward.",
+              "explanation": "Под- = approach: подойти (walk up to, approach)."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort by the meaning of the prefix",
+        "categories": [
+          "For a while (по-)",
+          "Begin (за-)",
+          "Re-/again (пере-)",
+          "Away from (у-)"
+        ],
+        "items": [
+          {
+            "word": "посидеть (sit for a while)",
+            "category": "For a while (по-)"
+          },
+          {
+            "word": "запеть (start singing)",
+            "category": "Begin (за-)"
+          },
+          {
+            "word": "перечитать (reread)",
+            "category": "Re-/again (пере-)"
+          },
+          {
+            "word": "уехать (drive away)",
+            "category": "Away from (у-)"
+          },
+          {
+            "word": "поговорить (talk for a while)",
+            "category": "For a while (по-)"
+          },
+          {
+            "word": "заплакать (start crying)",
+            "category": "Begin (за-)"
+          },
+          {
+            "word": "переделать (redo)",
+            "category": "Re-/again (пере-)"
+          },
+          {
+            "word": "убежать (run away)",
+            "category": "Away from (у-)"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-004",
+  "title": "Legal Consultation",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Consult a lawyer about a contract dispute",
+  "imageName": "scale.3d",
+  "initialPrompt": "Добрый день! Я адвокат Петров. Расскажите, с какой проблемой вы столкнулись?",
+  "systemPrompt": "You are a lawyer. Client has contract dispute - services not delivered as promised. Ask about: contract details, communication with other party, evidence. Explain options: negotiation, mediation, court. Mention fees. Keep replies short.",
+  "completionCriteria": "User explained situation and understood legal options.",
+  "responseLimit": 15,
+  "hints": [
+    "Компания не выполнила условия договора (The company didn't fulfill contract terms)",
+    "У меня есть переписка как доказательство (I have correspondence as evidence)",
+    "Какие у меня варианты? (What are my options?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "договор",
+      "definition": "contract"
+    },
+    {
+      "word": "нарушение",
+      "definition": "violation"
+    },
+    {
+      "word": "доказательство",
+      "definition": "evidence"
+    },
+    {
+      "word": "иск",
+      "definition": "lawsuit"
+    },
+    {
+      "word": "компенсация",
+      "definition": "compensation"
+    },
+    {
+      "word": "урегулирование",
+      "definition": "settlement"
+    }
+  ],
+  "objectives": [
+    "Explain the contract problem",
+    "Describe what evidence you have",
+    "Ask about legal options",
+    "Understand pros/cons of each option",
+    "Ask about fees and timeline"
+  ]
+}

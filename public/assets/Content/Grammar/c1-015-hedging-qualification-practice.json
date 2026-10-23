@@ -1,0 +1,112 @@
+{
+  "lessonId": "c1-015-hedging-qualification",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Identify approximation, qualification, and tentativeness markers, then pick between close pairs",
+      "descriptionRussian": "Определите маркеры приблизительности, оговорок и неуверенности и различите близкие пары",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Approximation: На конференции было _____ триста участников.",
+              "promptEnglish": "There were approximately three hundred participants at the conference.",
+              "options": ["скорее", "порядка", "вроде бы", "в некотором смысле"],
+              "answer": "порядка",
+              "hint": "Academic/formal approximation with numbers.",
+              "explanation": "Порядка (on the order of, approximately) is a formal numeric approximation marker common in academic and professional writing."
+            },
+            {
+              "prompt": "Tentativeness: _____, нам стоит перенести встречу.",
+              "promptEnglish": "Perhaps we should reschedule the meeting.",
+              "options": ["Около", "Примерно", "Пожалуй", "Порядка"],
+              "answer": "Пожалуй",
+              "hint": "A soft, tentative 'perhaps' at the start of a suggestion.",
+              "explanation": "Пожалуй (perhaps, I think) signals a tentative, considered opinion. It is softer than a direct recommendation."
+            },
+            {
+              "prompt": "Qualification: Этот метод _____ является универсальным.",
+              "promptEnglish": "This method is, to some extent, universal.",
+              "options": ["примерно", "до некоторой степени", "вроде бы", "около"],
+              "answer": "до некоторой степени",
+              "hint": "A formal qualifier meaning 'to some extent.'",
+              "explanation": "До некоторой степени (to some extent) qualifies the claim: the method is universal, but not entirely or without exceptions."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Conversational hedging: Он _____ уже уехал, но я не уверен.",
+              "promptEnglish": "He sort of already left, but I'm not sure.",
+              "options": ["порядка", "до некоторой степени", "вроде бы", "примерно"],
+              "answer": "вроде бы",
+              "hint": "Informal, conversational 'it seems like / sort of.'",
+              "explanation": "Вроде бы (it seems, sort of, apparently) is an informal hedge expressing uncertainty in everyday speech."
+            },
+            {
+              "prompt": "Preference: Это _____ вопрос организации, чем финансов.",
+              "promptEnglish": "This is rather a question of organization than of finances.",
+              "options": ["примерно", "около", "скорее", "вроде бы"],
+              "answer": "скорее",
+              "hint": "Used to shift emphasis from one option to another: 'rather X than Y.'",
+              "explanation": "Скорее (rather) redirects the interpretation: this is more about organization than money."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Choosing the right approximation register for a formal report:",
+          "contextEnglish": "Choose the more formal/academic version.",
+          "options": ["Проект стоит примерно десять миллионов.", "Стоимость проекта составляет порядка десяти миллионов."],
+          "answer": "Стоимость проекта составляет порядка десяти миллионов.",
+          "explanation": "Порядка + genitive is a formal, academic approximation. Примерно is neutral and works in any register, but порядка signals professional/academic tone."
+        }
+      ],
+      "translation": [
+        {
+          "english": "There were approximately fifty students in the lecture hall.",
+          "answer": "В аудитории было примерно пятьдесят студентов.",
+          "acceptableVariants": ["Примерно пятьдесят студентов было в аудитории.", "В аудитории было около пятидесяти студентов."],
+          "hint": "Use примерно or около for 'approximately.' Remember case agreement.",
+          "grammarFocus": "Numeric approximation with примерно",
+          "keyWord": "примерно",
+          "options": ["примерно", "ровно", "точно", "именно"]
+        },
+        {
+          "english": "This theory is, to some extent, correct.",
+          "answer": "Эта теория до некоторой степени верна.",
+          "acceptableVariants": ["До некоторой степени эта теория верна.", "Эта теория в какой-то мере верна."],
+          "hint": "До некоторой степени or в какой-то мере for 'to some extent.'",
+          "grammarFocus": "Academic qualification",
+          "keyWord": "степени",
+          "options": ["степени", "меры", "части", "стороны"]
+        },
+        {
+          "english": "He seems to have already left. (conversational uncertainty)",
+          "answer": "Он вроде бы уже ушёл.",
+          "acceptableVariants": ["Вроде бы он уже ушёл.", "Он вроде уже ушёл."],
+          "hint": "Use вроде бы for informal, conversational uncertainty.",
+          "grammarFocus": "Conversational hedging with вроде бы",
+          "keyWord": "вроде бы",
+          "options": ["вроде бы", "точно", "явно", "чётко"]
+        },
+        {
+          "english": "Perhaps we should reconsider our approach.",
+          "answer": "Пожалуй, нам стоит пересмотреть наш подход.",
+          "acceptableVariants": ["Нам, пожалуй, стоит пересмотреть подход.", "Пожалуй, стоит пересмотреть наш подход."],
+          "hint": "Пожалуй for a tentative 'perhaps,' стоит for 'should/it's worth.'",
+          "grammarFocus": "Tentative suggestion with пожалуй",
+          "keyWord": "Пожалуй",
+          "options": ["Пожалуй", "Точно", "Обязательно", "Непременно"]
+        }
+      ]
+    }
+  ]
+}

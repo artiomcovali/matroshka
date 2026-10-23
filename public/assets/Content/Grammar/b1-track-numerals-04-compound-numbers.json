@@ -1,0 +1,289 @@
+{
+  "id": "b1-track-numerals-04-compound-numbers",
+  "level": "B1",
+  "focusArea": "cases",
+  "title": "Numerals 4: Compound Numbers - the Last Word Decides",
+  "titleRussian": "Числительные 4: составные числа — решает последнее слово",
+  "description": "In a compound number like 21, 32, or 105, only the LAST word governs the noun: двадцать один стол, двадцать два стола, двадцать пять столов.",
+  "descriptionRussian": "В составном числе вроде 21, 32 или 105 существительным управляет только ПОСЛЕДНЕЕ слово: двадцать один стол, двадцать два стола, двадцать пять столов.",
+  "imageName": "number.circle",
+  "trackId": "b1-numerals-mastery",
+  "trackTitle": "Numerals Mastery",
+  "trackTitleRussian": "Числительные",
+  "trackIndex": 4,
+  "trackTotal": 10,
+  "intro": "Compound numbers look like they should be complicated and are not: only the final word matters, and everything in front of it is ignored. Twenty-one takes a singular noun because it ends in one. The exception is the teens, which end in what look like small numbers but always count as large ones.",
+  "rules": [
+    "In a compound number (more than one word), only the LAST word governs the noun. Ignore the front part for choosing the noun's form.",
+    "Ends in 1 (один/одна/одно): the noun stays plain singular and один agrees in gender - двадцать один стол, тридцать одна книга, сто одно окно.",
+    "Ends in 2, 3, 4: the noun is genitive singular - двадцать два стола, сорок три окна, пятьдесят четыре дома.",
+    "Ends in 5-9 or 0: the noun is genitive plural - двадцать пять столов, сто шесть рублей, тридцать окон.",
+    "The teens 11-14 are an exception: even though they look like they end in 1-4, they always count as '5 and up' and take the genitive plural - двенадцать столов, тринадцать книг.",
+    "Avoid the English trap: 'twenty-one tables' is singular in Russian (двадцать один стол) because the number ends in один."
+  ],
+  "examples": [
+    "В библиотеке двадцать один стол. (There are twenty-one tables in the library.) ends in один -> plain singular стол.",
+    "Я прочитал двадцать одну книгу. (I read twenty-one books.) ends in одну -> singular, feminine agreement.",
+    "На полке тридцать две книги. (There are thirty-two books on the shelf.) ends in две -> genitive singular книги.",
+    "В зале сорок три окна. (There are forty-three windows in the hall.) ends in три -> genitive singular окна.",
+    "Это стоит двадцать пять рублей. (This costs twenty-five rubles.) ends in пять -> genitive plural рублей.",
+    "В классе тринадцать учеников. (There are thirteen students in the class.) teen 11-14 -> genitive plural учеников."
+  ],
+  "tables": [
+    {
+      "title": "The last word decides (same noun, three endings)",
+      "headers": [
+        "Number ends in",
+        "Noun form",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "...один / одна / одно",
+          "cells": [
+            "plain singular (agrees in gender)",
+            "двадцать один стол, тридцать одна книга"
+          ]
+        },
+        {
+          "label": "...два / две / три / четыре",
+          "cells": [
+            "genitive singular",
+            "двадцать два стола, сорок три окна"
+          ]
+        },
+        {
+          "label": "...пять ... девять / ноль / teens 11-14",
+          "cells": [
+            "genitive plural",
+            "двадцать пять столов, двенадцать книг"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "В библиотеке двадцать один _____.",
+          "promptEnglish": "There are twenty-one tables in the library.",
+          "options": [
+            "стол",
+            "стола",
+            "столов",
+            "столы"
+          ],
+          "answer": "стол",
+          "hint": "The number ends in один. What does один do to the noun?",
+          "explanation": "The last word is один, so the noun stays in its plain singular form: стол. The 'twenty' in front does not matter. (English makes this feel plural, but Russian keeps it singular: двадцать один стол.)"
+        },
+        {
+          "prompt": "На полке тридцать две _____.",
+          "promptEnglish": "There are thirty-two books on the shelf.",
+          "options": [
+            "книга",
+            "книги",
+            "книг",
+            "книгу"
+          ],
+          "answer": "книги",
+          "hint": "The number ends in две. What case did 2, 3, 4 take?",
+          "explanation": "The last word is две, so the noun is genitive singular: книги. The same form you used after plain 2 (две книги) applies in the compound тридцать две книги."
+        },
+        {
+          "prompt": "Это стоит двадцать пять _____.",
+          "promptEnglish": "This costs twenty-five rubles.",
+          "options": [
+            "рубль",
+            "рубля",
+            "рублей",
+            "рубли"
+          ],
+          "answer": "рублей",
+          "hint": "The number ends in пять. What case did 5 and up take?",
+          "explanation": "The last word is пять, so the noun is genitive plural: рублей. The compound двадцать пять follows the same rule as plain пять (пять рублей)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я прочитал двадцать _____ книгу.",
+          "promptEnglish": "I read twenty-one books.",
+          "options": [
+            "один",
+            "одну",
+            "одна",
+            "пять"
+          ],
+          "answer": "одну",
+          "hint": "Книга is feminine, and the phrase is the accusative object of прочитал. The last word must agree.",
+          "explanation": "The last word is 'one', which agrees in gender and case with the noun. Книга is feminine, and as the object of прочитал it is accusative, so одна becomes одну and книга becomes книгу: двадцать одну книгу. The number ending in 'one' keeps the noun singular, not plural."
+        },
+        {
+          "prompt": "В зале сорок три _____.",
+          "promptEnglish": "There are forty-three windows in the hall.",
+          "options": [
+            "окно",
+            "окна",
+            "окон",
+            "окнах"
+          ],
+          "answer": "окна",
+          "hint": "The number ends in три. Which case did 2, 3, 4 take?",
+          "explanation": "The last word is три, so the noun is genitive singular: окна. The front part (сорок) is ignored. Compare три окна (plain) with сорок три окна (compound) - identical noun form."
+        },
+        {
+          "prompt": "В книге сто шесть _____.",
+          "promptEnglish": "There are a hundred and six pages in the book.",
+          "options": [
+            "страница",
+            "страницы",
+            "страниц",
+            "страницу"
+          ],
+          "answer": "страниц",
+          "hint": "The number ends in шесть. Which case did 5 and up take?",
+          "explanation": "The last word is шесть, so the noun is genitive plural: страниц. The 'сто' in front does not change this. Six and up always pull the genitive plural."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "В доме тридцать один _____. (There are thirty-one floors in the house.)"
+    ],
+    "choices": [
+      "этаж",
+      "этажа",
+      "этажей",
+      "этажи"
+    ],
+    "answers": [
+      "этаж"
+    ],
+    "grammarFocus": "Look at the last word, not the 'тридцать'. Тридцать один ends in один, which keeps the noun in its plain singular form: этаж (masculine). A number ending in 'one' never takes the genitive."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "На полке двадцать один журналов.",
+      "translationEnglish": "There are twenty-one magazines on the shelf.",
+      "error": "журналов",
+      "correction": "журнал",
+      "options": [
+        "журнал",
+        "журнала",
+        "журналом"
+      ],
+      "explanation": "In a compound number only the LAST word governs the noun. The number ends in один, so the noun stays in its plain nominative singular: двадцать один журнал. Журналов is the genitive plural, which the front part of the number tempts you toward because 'twenty-one' feels plural in English, but один overrides that. Read the final word and ignore the rest."
+    },
+    {
+      "sentence": "Я купил двадцать два билетов.",
+      "translationEnglish": "I bought twenty-two tickets.",
+      "error": "билетов",
+      "correction": "билета",
+      "options": [
+        "билета",
+        "билет",
+        "билетам"
+      ],
+      "explanation": "The compound ends in два, so the noun follows the 2-4 rule and goes into the genitive singular: двадцать два билета. Билетов is the genitive plural, correct only when the number ends in 5-9 or 0 (двадцать пять билетов). The size of the number is irrelevant; only its last word, два, decides."
+    },
+    {
+      "sentence": "В зале двенадцать стола.",
+      "translationEnglish": "There are twelve tables in the hall.",
+      "error": "стола",
+      "correction": "столов",
+      "options": [
+        "столов",
+        "стол",
+        "столам"
+      ],
+      "explanation": "The teens 11-14 always count as '5 and up' and take the genitive plural, even though they sound like they end in 1-4: двенадцать столов. Стола is the genitive singular, the trap a learner falls into by treating двенадцать like два. Whenever the number is between 11 and 14, jump straight to the genitive plural."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "В классе двадцать один _____.",
+      "contextEnglish": "There are twenty-one students in the class.",
+      "options": [
+        "ученик",
+        "учеников"
+      ],
+      "answer": "ученик",
+      "explanation": "The compound ends in один, so the noun stays plain singular: ученик. Учеников (genitive plural) would be right only if the number ended in 5-9 or 0 (двадцать пять учеников). The last word, not the 'twenty', decides."
+    },
+    {
+      "context": "Я ждал тридцать две _____.",
+      "contextEnglish": "I waited thirty-two minutes.",
+      "options": [
+        "минут",
+        "минуты"
+      ],
+      "answer": "минуты",
+      "explanation": "The compound ends in две, so the noun is genitive singular: минуты. Минут (genitive plural) belongs after a '5 and up' ending (тридцать пять минут). Always read the final word: две -> singular form минуты."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "составное число (the last word decides)",
+      "definition": "in a multi-word number, only the final word governs the noun's form; the front part is ignored.",
+      "example": "Двадцать один стол, двадцать два стола, двадцать пять столов."
+    },
+    {
+      "term": "...один / одна / одно",
+      "definition": "any number ending in 'one' keeps the noun plain singular and agrees in gender: двадцать один день, тридцать одна книга.",
+      "example": "Сто один рубль, двадцать одна минута."
+    },
+    {
+      "term": "the English plural trap",
+      "definition": "'twenty-one books' feels plural, but if the number ends in один the Russian noun is singular: двадцать одна книга, not двадцать одна книг.",
+      "example": "У меня двадцать один год (I am twenty-one years old) - singular год, not лет."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each number by what its last word demands of the noun. Remember the teens 11-14 count as '5 and up'.",
+    "categories": [
+      "plain singular (ends in 1)",
+      "genitive singular (ends in 2, 3, 4)",
+      "genitive plural (ends in 5-9, 0, or teens 11-14)"
+    ],
+    "items": [
+      {
+        "word": "двадцать один ___",
+        "category": "plain singular (ends in 1)"
+      },
+      {
+        "word": "тридцать два ___",
+        "category": "genitive singular (ends in 2, 3, 4)"
+      },
+      {
+        "word": "сорок пять ___",
+        "category": "genitive plural (ends in 5-9, 0, or teens 11-14)"
+      },
+      {
+        "word": "сто три ___",
+        "category": "genitive singular (ends in 2, 3, 4)"
+      },
+      {
+        "word": "пятьдесят один ___",
+        "category": "plain singular (ends in 1)"
+      },
+      {
+        "word": "двенадцать ___",
+        "category": "genitive plural (ends in 5-9, 0, or teens 11-14)"
+      },
+      {
+        "word": "шестьдесят четыре ___",
+        "category": "genitive singular (ends in 2, 3, 4)"
+      },
+      {
+        "word": "тринадцать ___",
+        "category": "genitive plural (ends in 5-9, 0, or teens 11-14)"
+      }
+    ]
+  }
+}

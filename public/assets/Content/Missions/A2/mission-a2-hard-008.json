@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-008",
+  "title": "The Apartment Problems",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Report multiple problems to an unhelpful landlord",
+  "imageName": "house.fill",
+  "initialPrompt": "Да, что случилось? Отопление не работает? В квартире холодно? Ну, это нормально для зимы!",
+  "systemPrompt": "You are a dismissive landlord. Tenant has: broken heating, leaky pipe, broken lock. Make excuses for each: it's winter, pipe is fine, lock works if you turn hard. Only agree to fix after user mentions contract (договор) or threatens to call housing authority (жилинспекция). Keep replies short.",
+  "completionCriteria": "User convinced you to fix at least two problems.",
+  "responseLimit": 15,
+  "hints": [
+    "Это написано в договоре (It's in the contract)",
+    "Я позвоню в жилинспекцию (I'll call housing authority)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "отопление",
+      "definition": "heating"
+    },
+    {
+      "word": "труба",
+      "definition": "pipe"
+    },
+    {
+      "word": "замок",
+      "definition": "lock"
+    },
+    {
+      "word": "сломанный",
+      "definition": "broken"
+    },
+    {
+      "word": "договор",
+      "definition": "contract"
+    },
+    {
+      "word": "ремонт",
+      "definition": "repair"
+    }
+  ],
+  "objectives": [
+    "Report the heating problem (отопление не работает)",
+    "Report the leaky pipe (труба течёт)",
+    "Report the broken lock (замок сломан)",
+    "Counter landlord's excuses",
+    "Get agreement to fix problems"
+  ]
+}

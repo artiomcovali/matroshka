@@ -1,0 +1,185 @@
+{
+  "id": "a2-011",
+  "level": "A2",
+  "narrator": "Маша",
+  "title": "Пряник в парке",
+  "titleEnglish": "Pryanik in the Park",
+  "description": "Маша гуляет с Пряником в парке в хорошую погоду.",
+  "imageName": "leaf.fill",
+  "fullText": "Сегодня на улице тепло и солнечно. Мы с Пряником идём в парк. В парке красиво — зелёные деревья, яркие цветы и голубое небо. Пряник бегает по траве и играет с большой рыжей собакой. Её хозяйка стоит рядом и улыбается. Я сижу на скамейке и смотрю на деревья. Дует тёплый ветер. Хорошо! Пряник приносит мне палку. Он хочет играть! Я бросаю палку, и Пряник бежит за ней. Мы гуляем долго. В парке всегда хорошо, когда тепло.",
+  "reviewVocab": [
+    {
+      "word": "дерево",
+      "definition": "tree",
+      "partOfSpeech": "noun (n)",
+      "forms": [
+        "дерево",
+        "дерева",
+        "деревья",
+        "деревьев"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "солнечно",
+      "definition": "sunny",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "difficulty": 1
+    },
+    {
+      "word": "ветер",
+      "definition": "wind",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "ветер",
+        "ветра",
+        "ветру"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "скамейка",
+      "definition": "bench",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "скамейка",
+        "скамейки",
+        "скамейке"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Какая сегодня погода?",
+      "options": [
+        "Тепло и солнечно",
+        "Холодно и дождливо",
+        "Ветрено и пасмурно"
+      ],
+      "correctIndex": 0,
+      "explanation": "Сегодня на улице тепло и солнечно."
+    },
+    {
+      "prompt": "Что есть в парке?",
+      "options": [
+        "Магазины и кафе",
+        "Только скамейки",
+        "Деревья, цветы и голубое небо"
+      ],
+      "correctIndex": 2,
+      "explanation": "В парке зелёные деревья, яркие цветы и голубое небо."
+    },
+    {
+      "prompt": "С кем играет Пряник?",
+      "options": [
+        "С кошкой",
+        "С большой рыжей собакой",
+        "С Машей"
+      ],
+      "correctIndex": 1,
+      "explanation": "Пряник играет с большой рыжей собакой."
+    },
+    {
+      "prompt": "Где сидит Маша?",
+      "options": [
+        "На траве",
+        "На земле",
+        "На скамейке"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша сидит на скамейке и смотрит на деревья."
+    },
+    {
+      "prompt": "Что приносит Пряник Маше?",
+      "options": [
+        "Палку",
+        "Мяч",
+        "Цветок"
+      ],
+      "correctIndex": 0,
+      "explanation": "Пряник приносит Маше палку — он хочет играть."
+    },
+    {
+      "prompt": "Когда в парке хорошо?",
+      "options": [
+        "Всегда",
+        "Когда тепло",
+        "Только летом"
+      ],
+      "correctIndex": 1,
+      "explanation": "В парке всегда хорошо, когда тепло."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Сегодня на улице _____ и солнечно.",
+      "В парке красиво — зелёные _____ и яркие цветы.",
+      "Пряник бегает по _____ и играет.",
+      "Маша сидит на _____ и смотрит на деревья.",
+      "Дует _____ ветер."
+    ],
+    "choices": [
+      "тепло",
+      "деревья",
+      "траве",
+      "скамейке",
+      "тёплый",
+      "холодный",
+      "парке"
+    ],
+    "answers": [
+      "тепло",
+      "деревья",
+      "траве",
+      "скамейке",
+      "тёплый"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "'На улице тепло' — this weather expression is special because:",
+      "options": [
+        "It uses past tense",
+        "It has no subject (impersonal sentence)",
+        "It describes a person"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "mood",
+      "sentenceRef": "Сегодня на улице тепло и солнечно.",
+      "explanation": "Russian weather expressions are impersonal — they have no subject. 'Тепло' (it's warm), 'холодно' (it's cold), 'солнечно' (it's sunny). You simply state the condition.",
+      "focusArea": "conjugation"
+    },
+    {
+      "prompt": "'Голубое небо' — why does the adjective end in '-ое'?",
+      "options": [
+        "Небо is neuter",
+        "Небо is masculine",
+        "Небо is plural"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "gender",
+      "sentenceRef": "...яркие цветы и голубое небо.",
+      "explanation": "Небо (sky) is neuter. Neuter adjectives end in '-ое' or '-ее': голубое небо, зелёное дерево, большое окно.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "In 'зелёные деревья,' the adjective ends in '-ые' because:",
+      "options": [
+        "Деревья is feminine",
+        "Деревья is neuter singular",
+        "Деревья is plural"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "number",
+      "sentenceRef": "...зелёные деревья, яркие цветы...",
+      "explanation": "Plural adjectives end in '-ые' or '-ие' regardless of the noun's gender: зелёные деревья, яркие цветы, большие дома.",
+      "focusArea": "cases"
+    }
+  ],
+  "audioFile": "a2-011.m4a",
+  "audioTimingFile": "a2-011-timing.json"
+}

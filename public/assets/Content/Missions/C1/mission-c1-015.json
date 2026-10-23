@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-015",
+  "title": "Chess Tournament",
+  "level": "C1",
+  "difficulty": "easy",
+  "description": "Analyze chess strategy with a grandmaster",
+  "imageName": "checkerboard.rectangle",
+  "initialPrompt": "Интересная партия! Расскажите о вашей стратегии. Почему вы выбрали сицилианскую защиту в дебюте?",
+  "systemPrompt": "You are chess grandmaster discussing strategy. Ask about opening choices, middlegame plans, and endgame technique. Supportive analytical dialogue.",
+  "completionCriteria": "User discussed chess strategy with analytical depth.",
+  "responseLimit": 15,
+  "hints": [
+    "Сицилианская защита даёт... (The Sicilian defense gives...)",
+    "В миттельшпиле я планировал... (In the middlegame I planned...)",
+    "Позиционное преимущество... (Positional advantage...)",
+    "Эндшпиль требует точности... (The endgame requires precision...)"
+  ],
+  "targetVocabulary": [
+    {"word": "дебют", "definition": "opening"},
+    {"word": "миттельшпиль", "definition": "middlegame"},
+    {"word": "эндшпиль", "definition": "endgame"},
+    {"word": "стратегия", "definition": "strategy"},
+    {"word": "тактика", "definition": "tactics"},
+    {"word": "позиция", "definition": "position"}
+  ],
+  "objectives": [
+    "Explain opening choice",
+    "Discuss strategic plans",
+    "Analyze key positions"
+  ]
+}

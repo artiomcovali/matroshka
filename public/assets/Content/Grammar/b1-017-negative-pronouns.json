@@ -1,0 +1,287 @@
+{
+  "id": "b1-017-negative-pronouns",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Negative Pronouns",
+  "titleRussian": "Отрицательные местоимения",
+  "description": "Никто, ничего, нигде + double negation",
+  "descriptionRussian": "Отрицательные местоимения с двойным отрицанием",
+  "imageName": "xmark.circle",
+  "intro": "Russian negative pronouns are formed by adding НИ- to question words: кто → никто (nobody), что → ничто/ничего (nothing), где → нигде (nowhere), когда → никогда (never), как → никак (no way). CRITICAL: Russian uses DOUBLE NEGATION - negative pronoun + НЕ before the verb: Никто НЕ знает (Nobody knows). Without не, the sentence is grammatically incorrect. With prepositions, НИ separates: ни у кого, ни с кем, ни о чём.",
+  "rules": [
+    "Form: НИ- + question word: кто → никто, что → ничто, где → нигде, когда → никогда",
+    "DOUBLE NEGATION required: Никто НЕ пришёл. (Nobody came.) - never 'Никто пришёл'!",
+    "With prepositions, НИ separates: ни у кого (at nobody's), ни с кем (with nobody)",
+    "Ничто (nom) vs ничего (gen/acc) - ничего is more common in everyday speech"
+  ],
+  "examples": [
+    "Никто не знает ответ. (Nobody knows the answer.), double negation required",
+    "Я ничего не понимаю. (I don't understand anything.), ничего (gen) + не",
+    "Она никуда не ходит. (She doesn't go anywhere.), никуда + не",
+    "Мне не с кем поговорить. (I have nobody to talk to.), preposition splits ни"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ не пришёл на встречу. (Nobody came to the meeting.)",
+          "promptEnglish": "Nobody came to the meeting.",
+          "options": [
+            "Кто-то",
+            "Никто",
+            "Кое-кто",
+            "Все"
+          ],
+          "answer": "Никто",
+          "hint": "Nobody = никто (+ не before verb)",
+          "explanation": "Nobody uses никто with double negation."
+        },
+        {
+          "prompt": "Я _____ не знаю об этом. (I don't know anything about this.)",
+          "promptEnglish": "I don't know anything about this.",
+          "options": [
+            "всё",
+            "кое-что",
+            "что-то",
+            "ничего"
+          ],
+          "answer": "ничего",
+          "hint": "Nothing/anything = ничего",
+          "explanation": "Nothing uses ничего with не."
+        },
+        {
+          "prompt": "Он _____ не ходит по вечерам. (He doesn't go anywhere in the evenings.)",
+          "promptEnglish": "He doesn't go anywhere in the evenings.",
+          "options": [
+            "везде",
+            "куда-то",
+            "никуда",
+            "туда"
+          ],
+          "answer": "никуда",
+          "hint": "Nowhere (direction) = никуда",
+          "explanation": "Nowhere (to) uses никуда."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Мы _____ не были в этом городе. (We have never been to this city.)",
+          "promptEnglish": "We have never been to this city.",
+          "options": [
+            "иногда",
+            "однажды",
+            "всегда",
+            "никогда"
+          ],
+          "answer": "никогда",
+          "hint": "Never = никогда",
+          "explanation": "Never uses никогда with не."
+        },
+        {
+          "prompt": "Я не могу _____ найти эту книгу. (I can't find this book anywhere.)",
+          "promptEnglish": "I can't find this book anywhere.",
+          "options": [
+            "где-то",
+            "нигде",
+            "везде",
+            "здесь"
+          ],
+          "answer": "нигде",
+          "hint": "Nowhere (location) = нигде",
+          "explanation": "Nowhere (at) uses нигде."
+        },
+        {
+          "prompt": "У меня нет _____ друзей в этом городе. (I have no friends in this city.)",
+          "promptEnglish": "I have no friends in this city.",
+          "options": [
+            "всех",
+            "каких-то",
+            "никаких",
+            "многих"
+          ],
+          "answer": "никаких",
+          "hint": "No (adjective) = никакой/никаких",
+          "explanation": "No + noun uses никакой."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Мне не _____ поговорить. (I have nobody to talk to.)",
+          "promptEnglish": "I have nobody to talk to.",
+          "options": [
+            "со всеми",
+            "с кем",
+            "с кем-то",
+            "с ними"
+          ],
+          "answer": "с кем",
+          "hint": "Nobody to... = не с кем (preposition splits)",
+          "explanation": "With preposition: не с кем (ни с кем separated)."
+        },
+        {
+          "prompt": "Ему не _____ жить. (He has nowhere to live.)",
+          "promptEnglish": "He has nowhere to live.",
+          "options": [
+            "куда",
+            "откуда",
+            "где",
+            "везде"
+          ],
+          "answer": "где",
+          "hint": "Nowhere to live = не где (location)",
+          "explanation": "Nowhere to be: не где."
+        },
+        {
+          "prompt": "Она ни _____ не верит. (She doesn't believe anyone.)",
+          "promptEnglish": "She doesn't believe anyone.",
+          "options": [
+            "кем",
+            "кому",
+            "кто",
+            "ком"
+          ],
+          "answer": "кому",
+          "hint": "Believe + dative: верить кому",
+          "explanation": "Верить + dative: ни кому → никому не верит."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ не видел этот фильм. (Nobody has seen this film.)",
+      "Я _____ не знаю об этом. (I don't know anything about this.)",
+      "Она _____ не ходила вчера. (She didn't go anywhere yesterday.)"
+    ],
+    "choices": [
+      "Никто",
+      "ничего",
+      "никуда",
+      "нигде",
+      "никогда",
+      "некого"
+    ],
+    "answers": [
+      "Никто",
+      "ничего",
+      "никуда"
+    ],
+    "grammarFocus": "Negative pronouns: никто, ничего, нигде, никуда + obligatory не with verb",
+    "hints": [
+      "Nobody — which negative pronoun for people?",
+      "Nothing/anything — which negative pronoun for things?",
+      "Nowhere (direction) — which negative pronoun?"
+    ],
+    "explanations": [
+      "Никто (nobody) + не + verb: Никто не видел (double negation required).",
+      "Ничего (nothing) + не: ничего не знаю.",
+      "Никуда (nowhere, direction) + не: никуда не ходила."
+    ],
+    "options": [
+      [
+        "никому",
+        "Никто",
+        "никого",
+        "ником"
+      ],
+      [
+        "нигде",
+        "никогда",
+        "ничего",
+        "Никто"
+      ],
+      [
+        "нигде",
+        "никогда",
+        "никуда",
+        "некого"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ пришёл. (Nobody came - negative)",
+      "contextEnglish": "Nobody came.",
+      "options": [
+        "Никто не пришёл",
+        "Никто пришёл"
+      ],
+      "answer": "Никто не пришёл",
+      "explanation": "Double negation required: никто + не."
+    },
+    {
+      "context": "Мне не с _____ поговорить. (I have nobody to talk to)",
+      "contextEnglish": "I have nobody to talk to.",
+      "options": [
+        "кем",
+        "кем-то"
+      ],
+      "answer": "кем",
+      "explanation": "Preposition splits: не с кем (from ни с кем)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by what the pronoun negates",
+    "categories": [
+      "Person (кто)",
+      "Thing (что)",
+      "Place (где/куда)",
+      "Time (когда)"
+    ],
+    "items": [
+      {
+        "word": "никто",
+        "category": "Person (кто)"
+      },
+      {
+        "word": "ничего",
+        "category": "Thing (что)"
+      },
+      {
+        "word": "нигде",
+        "category": "Place (где/куда)"
+      },
+      {
+        "word": "никуда",
+        "category": "Place (где/куда)"
+      },
+      {
+        "word": "никогда",
+        "category": "Time (когда)"
+      },
+      {
+        "word": "ничто",
+        "category": "Thing (что)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "никто",
+      "definition": "nobody, no one",
+      "example": "Никто не знает."
+    },
+    {
+      "term": "ничего/ничто",
+      "definition": "nothing",
+      "example": "Ничего не случилось."
+    },
+    {
+      "term": "нигде/никуда",
+      "definition": "nowhere (location/direction)",
+      "example": "Нигде не могу найти."
+    },
+    {
+      "term": "никогда",
+      "definition": "never",
+      "example": "Никогда не забуду."
+    }
+  ]
+}

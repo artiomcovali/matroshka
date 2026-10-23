@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-035",
+  "title": "Pet Sitter Interview",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Interview a potential pet sitter for your pet",
+  "imageName": "pawprint.fill",
+  "initialPrompt": "Здравствуйте! Я увидел ваше объявление о присмотре за животными. У меня есть опыт работы с собаками и кошками. Расскажите о вашем питомце!",
+  "systemPrompt": "You are applying to be a pet sitter. Answer questions about experience, availability, and how you handle pets. Ask about the pet needs, feeding schedule, and any special requirements. Keep replies short.",
+  "completionCriteria": "User interviewed sitter and discussed pet care requirements.",
+  "responseLimit": 15,
+  "hints": [
+    "Какой у вас опыт? (What experience do you have?)",
+    "Как вы кормите животных? (How do you feed animals?)",
+    "Сколько стоит в день? (How much per day?)",
+    "Вы гуляете с собаками? (Do you walk dogs?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "присмотр",
+      "definition": "care/watching"
+    },
+    {
+      "word": "кормление",
+      "definition": "feeding"
+    },
+    {
+      "word": "прогулка",
+      "definition": "walk"
+    },
+    {
+      "word": "питомец",
+      "definition": "pet"
+    },
+    {
+      "word": "опыт",
+      "definition": "experience"
+    },
+    {
+      "word": "расписание",
+      "definition": "schedule"
+    }
+  ],
+  "objectives": [
+    "Ask about their experience (опыт)",
+    "Describe your pet's needs",
+    "Discuss feeding schedule (кормление)",
+    "Ask about walks or activities (прогулка)"
+  ]
+}

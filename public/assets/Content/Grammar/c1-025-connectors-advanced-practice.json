@@ -1,0 +1,88 @@
+{
+  "lessonId": "c1-025-connectors-advanced",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Identify the correct advanced connector for each context, then choose between close near-synonyms",
+      "descriptionRussian": "Определите правильную связку для каждого контекста и выберите между близкими по значению",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Addition: Проект требует значительных инвестиций. _____, он связан с большими рисками. (moreover)",
+              "promptEnglish": "The project requires significant investment. Moreover, it involves great risks.",
+              "options": ["Сверх того", "Между тем", "В результате", "При всём том"],
+              "answer": "Сверх того",
+              "hint": "You need an addition connector that piles on another negative point.",
+              "explanation": "Сверх того (moreover, on top of that) adds further information in the same direction, escalating the concerns."
+            },
+            {
+              "prompt": "Cause: _____ сложной экономической ситуации, компания сократила штат. (due to)",
+              "promptEnglish": "Due to the difficult economic situation, the company reduced its staff.",
+              "options": ["Вдобавок к", "В силу", "Вместе с тем", "Отсюда"],
+              "answer": "В силу",
+              "hint": "This connector introduces a cause or reason, followed by a genitive noun phrase.",
+              "explanation": "В силу (by virtue of / due to) + genitive introduces the reason. В силу сложной экономической ситуации = due to the difficult economic situation."
+            },
+            {
+              "prompt": "Concession: Доказательства неубедительны. _____, расследование будет продолжено. (be that as it may)",
+              "promptEnglish": "The evidence is unconvincing. Be that as it may, the investigation will continue.",
+              "options": ["Вследствие чего", "Как бы то ни было", "Благодаря тому что", "Сверх того"],
+              "answer": "Как бы то ни было",
+              "hint": "This connector dismisses the obstacle and reasserts the main point.",
+              "explanation": "Как бы то ни было (be that as it may) concedes the problem but insists on the conclusion regardless."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Result: Температура резко упала. _____, реки покрылись льдом. (as a result)",
+              "promptEnglish": "The temperature dropped sharply. As a result, the rivers froze over.",
+              "options": ["Вдобавок", "При всём при том", "В результате", "Ввиду того что"],
+              "answer": "В результате",
+              "hint": "This connector introduces a consequence of the preceding event.",
+              "explanation": "В результате (as a result) signals that what follows is a direct consequence of what came before."
+            },
+            {
+              "prompt": "Contrast: Министерство одобрило план. _____, эксперты выразили серьёзные сомнения. (meanwhile)",
+              "promptEnglish": "The ministry approved the plan. Meanwhile, experts expressed serious doubts.",
+              "options": ["Между тем", "Отсюда", "В силу", "Вдобавок"],
+              "answer": "Между тем",
+              "hint": "This connector introduces a contrasting or simultaneous situation.",
+              "explanation": "Между тем (meanwhile / at the same time) highlights a contrast between two simultaneous realities."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Реформа улучшила условия труда. _____, зарплаты остались прежними.\nChoose the CONTRAST connector:",
+          "contextEnglish": "The reform improved working conditions. Yet / In addition, salaries stayed the same.",
+          "options": ["Вместе с тем зарплаты остались прежними.", "Вдобавок зарплаты остались прежними."],
+          "answer": "Вместе с тем зарплаты остались прежними.",
+          "explanation": "Вместе с тем (yet / at the same time) introduces a contrasting fact. Вдобавок (in addition) would imply salaries staying the same is another improvement, which contradicts the meaning."
+        },
+        {
+          "context": "Рейс задержали _____ сильного тумана.\nChoose the CAUSE connector with genitive:",
+          "contextEnglish": "The flight was delayed due to heavy fog.",
+          "options": ["в силу сильного тумана.", "в результате сильного тумана."],
+          "answer": "в силу сильного тумана.",
+          "explanation": "В силу + genitive (due to, by virtue of) gives the reason. В результате (as a result) typically introduces what happened AFTER the cause, not the cause itself."
+        },
+        {
+          "context": "_____ тому что дороги были перекрыты, мы опоздали.\nChoose the CAUSE connector:",
+          "contextEnglish": "Due to the fact that the roads were blocked, we were late.",
+          "options": ["Благодаря тому что дороги были перекрыты, мы опоздали.", "Ввиду того что дороги были перекрыты, мы опоздали."],
+          "answer": "Ввиду того что дороги были перекрыты, мы опоздали.",
+          "explanation": "Ввиду того что (in view of the fact that) is neutral-formal cause. Благодаря тому что (thanks to the fact that) implies a POSITIVE cause, which contradicts being late due to blocked roads."
+        }
+      ]
+    }
+  ]
+}

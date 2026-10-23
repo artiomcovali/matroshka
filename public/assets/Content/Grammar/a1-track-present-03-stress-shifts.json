@@ -1,0 +1,319 @@
+{
+  "id": "a1-track-present-03-stress-shifts",
+  "level": "A1",
+  "focusArea": "conjugation",
+  "title": "Present Tense 3: Stress Shifts",
+  "titleRussian": "Настоящее время 3: подвижное ударение",
+  "description": "Many Russian verbs put the stress on the ending in the я-form, then shift it back onto the stem for ты, он, мы, вы, они. Today we lock that pattern.",
+  "descriptionRussian": "У многих глаголов ударение в форме 'я' стоит на окончании, а во всех остальных формах переходит на основу: пишу́ → пи́шешь → пи́шут.",
+  "imageName": "waveform",
+  "trackId": "a1-present-tense-mastery",
+  "trackTitle": "Present Tense Verb Mastery",
+  "trackTitleRussian": "Настоящее время",
+  "trackIndex": 3,
+  "trackTotal": 8,
+  "stressMarksInExercises": true,
+  "intro": "The verbs so far have kept their stress in one place for the whole paradigm. A large family of very common verbs moves it instead. Ordinary Russian text does not mark stress, so this is the one thing about a verb you cannot read off the page, and the one thing a native speaker notices the moment it lands wrong. The forms in this lesson are marked so you can see it. Say each one out loud, and let your ear do the learning.",
+  "rules": [
+    "Many Russian verbs have shifting stress: end-stressed in the я-form, stem-stressed in every other form. Examples: пишу́ → пи́шешь → пи́шет → пи́шут; смотрю́ → смо́тришь → смо́трит → смо́трят.",
+    "The shift is between two adjacent syllables, not arbitrary: end-stress in 1sg moves one syllable left to land on the stem in the rest of the paradigm.",
+    "Some shifting-stress verbs also have a consonant change in the stem (писать → пиш- across all forms) or a 1sg quirk (любить → люблю, готовить → готовлю). Lesson 4 covers those.",
+    "Whether a verb has shifting stress is a property of the verb, not predictable from the infinitive. Memorize one example per pattern (писать and смотреть are the canonical ones)."
+  ],
+  "examples": [
+    "Я пишу́ письмо. Маша пи́шет письмо. (I am writing a letter. Masha is writing a letter.) End-stress on я, stem-stress on Маша.",
+    "Я смотрю́ фильм. Антон смо́трит фильм. (I am watching a film. Anton is watching a film.) End-stress on я, stem-stress on Антон.",
+    "Они пи́шут сочинение. (They are writing an essay.) Stem-stress on они, the same as the rest of the non-я paradigm.",
+    "Студенты смо́трят на доску. (The students are looking at the blackboard.) Stem-stress on они.",
+    "Маша лю́бит классическую музыку. (Masha loves classical music.) Любить has the same shift: люблю́ in 1sg (lesson 4), лю́бишь, лю́бит, лю́бят in the rest.",
+    "Вы пи́шете очень аккуратно. (You write very neatly.) Stem-stress on вы, like the rest of the non-я paradigm."
+  ],
+  "tables": [
+    {
+      "title": "Shifting Stress (писать as model)",
+      "headers": [
+        "Pronoun",
+        "Form",
+        "Stress"
+      ],
+      "rows": [
+        {
+          "label": "я",
+          "cells": [
+            "пишу́",
+            "end"
+          ]
+        },
+        {
+          "label": "ты",
+          "cells": [
+            "пи́шешь",
+            "stem"
+          ]
+        },
+        {
+          "label": "он / она",
+          "cells": [
+            "пи́шет",
+            "stem"
+          ]
+        },
+        {
+          "label": "мы",
+          "cells": [
+            "пи́шем",
+            "stem"
+          ]
+        },
+        {
+          "label": "вы",
+          "cells": [
+            "пи́шете",
+            "stem"
+          ]
+        },
+        {
+          "label": "они",
+          "cells": [
+            "пи́шут",
+            "stem"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Shifting Stress (смотреть as model)",
+      "headers": [
+        "Pronoun",
+        "Form",
+        "Stress"
+      ],
+      "rows": [
+        {
+          "label": "я",
+          "cells": [
+            "смотрю́",
+            "end"
+          ]
+        },
+        {
+          "label": "ты",
+          "cells": [
+            "смо́тришь",
+            "stem"
+          ]
+        },
+        {
+          "label": "он / она",
+          "cells": [
+            "смо́трит",
+            "stem"
+          ]
+        },
+        {
+          "label": "мы",
+          "cells": [
+            "смо́трим",
+            "stem"
+          ]
+        },
+        {
+          "label": "вы",
+          "cells": [
+            "смо́трите",
+            "stem"
+          ]
+        },
+        {
+          "label": "они",
+          "cells": [
+            "смо́трят",
+            "stem"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я _____ письмо маме.",
+          "promptEnglish": "I am writing a letter to my mom. (Which form is correctly stressed?)",
+          "options": [
+            "пи́шу",
+            "пишу́",
+            "пи́шут",
+            "пише́шь"
+          ],
+          "answer": "пишу́",
+          "hint": "The я-form of писать is end-stressed. Where does the acute land?",
+          "explanation": "Я-form of писать is пишу́ with stress on the ending -у́. The я-form is the one form in the paradigm where the stress sits on the ending."
+        },
+        {
+          "prompt": "Маша _____ фильм каждый вечер.",
+          "promptEnglish": "Masha watches a film every evening. (Which 3sg form has the correct stress?)",
+          "options": [
+            "смотри́т",
+            "смо́трит",
+            "смо́трят",
+            "смотрю́"
+          ],
+          "answer": "смо́трит",
+          "hint": "3sg of смотреть. Stress shifts off the ending onto the stem in every non-я form.",
+          "explanation": "Маша is 3sg, so the ending is -ит. In every non-я form the stress sits on the stem: смо́трит."
+        },
+        {
+          "prompt": "Ты _____ хорошие книги.",
+          "promptEnglish": "You write good books. (Which form is correctly stressed?)",
+          "options": [
+            "пи́шешь",
+            "пише́шь",
+            "пишу́",
+            "пи́шут"
+          ],
+          "answer": "пи́шешь",
+          "hint": "Ты-form. Where does the stress sit on every non-я form of писать?",
+          "explanation": "Ты-form of писать is пи́шешь with stem-stress on пи́-. The shift moves stress off the ending the moment you leave the я-form."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Дети _____ сочинение в школе.",
+          "promptEnglish": "The children are writing a composition at school. (Which 3pl form is correctly stressed?)",
+          "options": [
+            "пишу́т",
+            "пи́шут",
+            "пише́те",
+            "пи́шет"
+          ],
+          "answer": "пи́шут",
+          "hint": "Дети is 3pl. The stress shift means non-я forms all sit on the stem.",
+          "explanation": "The 3pl of писать is пи́шут with stem-stress, like every other non-я form."
+        },
+        {
+          "prompt": "Вы _____ детективы?",
+          "promptEnglish": "Do you like detective stories? (Which 2pl form has the correct stress?)",
+          "options": [
+            "люби́те",
+            "лю́бите",
+            "лю́блю",
+            "лю́бят"
+          ],
+          "answer": "лю́бите",
+          "hint": "Любить has shifting stress like смотреть. Вы is 2pl.",
+          "explanation": "Любить has the same shift: люблю́ in я (lesson 4 covers the -л-), then stem-stress everywhere else. 2pl is лю́бите."
+        },
+        {
+          "prompt": "Я часто _____ старые фильмы.",
+          "promptEnglish": "I often watch old films. (Which я-form is correctly stressed?)",
+          "options": [
+            "смо́трю",
+            "смотрю́",
+            "смо́трит",
+            "смотри́т"
+          ],
+          "answer": "смотрю́",
+          "hint": "Я-form of смотреть. End or stem stress in the я-form?",
+          "explanation": "Я-form of смотреть is смотрю́ with end-stress. This is the only form in the paradigm where the stress sits on the ending."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша _____ цветы своей подруге на день рождения. (Masha gives flowers to her friend for her birthday. Pick the correctly stressed form.)"
+    ],
+    "choices": [
+      "дари́т",
+      "да́рит",
+      "дарю́",
+      "да́рят"
+    ],
+    "answers": [
+      "да́рит"
+    ],
+    "grammarFocus": "Дарить has shifting stress like смотреть: дарю́ in я (end-stress), then да́ришь, да́рит, да́рим, да́рите, да́рят (all stem-stress). Маша is 3sg, so the form is да́рит."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Маша пише́т письмо бабушке.",
+      "translationEnglish": "Masha is writing a letter to her grandmother.",
+      "error": "пише́т",
+      "correction": "пи́шет",
+      "options": [
+        "пи́шет",
+        "пишу́",
+        "пи́шут"
+      ],
+      "explanation": "Писать has shifting stress: end-stress only in the я-form (пишу́), stem-stress everywhere else. The 3sg is пи́шет. Пише́т keeps the stress on the ending, wrongly copying the я-form's pattern into the 3sg slot."
+    },
+    {
+      "sentence": "Дети смотря́т мультфильмы по утрам.",
+      "translationEnglish": "The children watch cartoons in the mornings.",
+      "error": "смотря́т",
+      "correction": "смо́трят",
+      "options": [
+        "смо́трят",
+        "смотрю́",
+        "смо́трит"
+      ],
+      "explanation": "Смотреть has shifting stress: end-stress only in the я-form (смотрю́), stem-stress everywhere else. The 3pl is смо́трят, with the stress on the stem. Смотря́т wrongly extends the я-form's end-stress into the plural."
+    },
+    {
+      "sentence": "Друзья даря́т ей цветы на праздник.",
+      "translationEnglish": "Friends give her flowers for the holiday.",
+      "error": "даря́т",
+      "correction": "да́рят",
+      "options": [
+        "да́рят",
+        "дарю́",
+        "да́рит"
+      ],
+      "explanation": "Дарить has shifting stress like смотреть: end-stress only in the я-form (дарю́), stem-stress in all the others. The 3pl is да́рят. Даря́т keeps the stress on the ending, the pattern that belongs only to the я-form. With Друзья (3pl), the correct form is the stem-stressed да́рят."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я _____ письмо маме.",
+      "contextEnglish": "I am writing a letter to my mom. (Which stress is correct?)",
+      "options": [
+        "пишу́",
+        "пи́шу"
+      ],
+      "answer": "пишу́",
+      "explanation": "The я-form is the one form where stress sits on the ending: пишу́. Пи́шу drops the stress onto the stem; that's the pattern of every form except я."
+    },
+    {
+      "context": "Маша _____ телевизор после ужина.",
+      "contextEnglish": "Masha watches TV after dinner. (Which stress is correct?)",
+      "options": [
+        "смо́трит",
+        "смотри́т"
+      ],
+      "answer": "смо́трит",
+      "explanation": "3sg is a non-я form, so the stress shifts off the ending onto the stem: смо́трит. Смотри́т would mean the stress stayed on the ending the way it does in the я-form."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "ударение",
+      "definition": "stress (the prominent syllable in a word; in Russian it is not marked in normal orthography but it is heard and matters for meaning)",
+      "example": "В слове 'пишу́' ударение стоит на окончании, в форме 'пи́шешь' — на основе."
+    },
+    {
+      "term": "подвижное ударение",
+      "definition": "shifting stress (the pattern where the stressed syllable moves between forms of the same word, e.g. between the ending and the stem across the present-tense paradigm)",
+      "example": "Глаголы 'писать' и 'смотреть' имеют подвижное ударение."
+    },
+    {
+      "term": "основное ударение",
+      "definition": "stem-stress (stress on the stem, the pattern of пи́шешь, смо́трит, лю́бят in the non-я forms of shifting-stress verbs)",
+      "example": "В формах 'пи́шет' и 'смо́трит' основное ударение."
+    }
+  ]
+}

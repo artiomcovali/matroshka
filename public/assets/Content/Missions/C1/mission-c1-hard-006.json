@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-006",
+  "title": "Legacy Dispute",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Fight for family business inheritance rights",
+  "imageName": "building.fill",
+  "initialPrompt": "Отец оставил компанию мне, но братья оспаривают завещание. Они утверждают, что я манипулировал больным стариком.",
+  "systemPrompt": "You are sibling contesting inheritance. Accuse of manipulation, demand equal share. Only back down if shown clear evidence of legitimate bequest and father's intentions.",
+  "completionCriteria": "User defended inheritance claim successfully.",
+  "responseLimit": 15,
+  "hints": [
+    "Отец был полностью дееспособен (Father was fully competent)",
+    "Есть видеозапись его решения (There is video recording of his decision)"
+  ],
+  "targetVocabulary": [
+    {"word": "наследство", "definition": "inheritance"},
+    {"word": "завещание", "definition": "will"},
+    {"word": "дееспособность", "definition": "legal capacity"},
+    {"word": "оспаривание", "definition": "contestation"},
+    {"word": "манипуляция", "definition": "manipulation"},
+    {"word": "нотариус", "definition": "notary"}
+  ],
+  "objectives": [
+    "Prove father's competence",
+    "Show evidence of intentions",
+    "Counter manipulation claims",
+    "Defend rightful inheritance",
+    "Preserve family if possible"
+  ]
+}

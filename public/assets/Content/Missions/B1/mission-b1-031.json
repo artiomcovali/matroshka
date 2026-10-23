@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-031",
+  "title": "Tea Tasting",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Participate in a Russian tea tasting event",
+  "imageName": "cup.and.saucer.fill",
+  "initialPrompt": "Добро пожаловать на нашу дегустацию русского чая! Вы раньше пробовали русские чаи? Сегодня мы представим пять сортов.",
+  "systemPrompt": "You host a tea tasting event. Teas: чёрный (black), зелёный (green), травяной (herbal), с бергамотом (Earl Grey), иван-чай (Ivan tea). Describe flavors and traditions. Keep replies short.",
+  "completionCriteria": "User tasted teas and shared preferences.",
+  "responseLimit": 15,
+  "hints": [
+    "Какой чай самый популярный? (Which tea is most popular?)",
+    "Мне нравится этот вкус (I like this taste)",
+    "Можно попробовать ещё? (Can I try more?)",
+    "С чем обычно пьют чай? (What do you usually drink tea with?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "дегустация",
+      "definition": "tasting"
+    },
+    {
+      "word": "вкус",
+      "definition": "taste/flavor"
+    },
+    {
+      "word": "аромат",
+      "definition": "aroma"
+    },
+    {
+      "word": "сорт",
+      "definition": "variety/type"
+    },
+    {
+      "word": "заваривать",
+      "definition": "to brew"
+    },
+    {
+      "word": "сладкий",
+      "definition": "sweet"
+    }
+  ],
+  "objectives": [
+    "Ask about the tea varieties (сорт)",
+    "Try at least one tea",
+    "Describe what you taste (вкус)",
+    "Share your preference"
+  ]
+}

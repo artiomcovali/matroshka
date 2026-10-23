@@ -1,0 +1,534 @@
+{
+  "lessonId": "b1-016-indefinite-pronouns",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Which Particle?",
+      "titleRussian": "Какая частица?",
+      "description": "Choose -то, -нибудь, or кое- for each context",
+      "descriptionRussian": "Выберите -то, -нибудь или кое- для каждого контекста",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ оставил сумку на стуле. (Someone left a bag on the chair. - I see the bag but don't know who.)",
+              "promptEnglish": "Someone left a bag on the chair.",
+              "options": [
+                "Кое-кто",
+                "Кто-нибудь",
+                "Никто",
+                "Кто-то"
+              ],
+              "answer": "Кто-то",
+              "hint": "A specific person did it, but I don't know who = -то.",
+              "explanation": "Specific unknown person: кто-то (someone, I don't know who)."
+            },
+            {
+              "prompt": "Ты _____ видел интересное сегодня? (Did you see anything interesting today?)",
+              "promptEnglish": "Did you see anything interesting today?",
+              "options": [
+                "что-то",
+                "кое-что",
+                "что-нибудь",
+                "ничего"
+              ],
+              "answer": "что-нибудь",
+              "hint": "Question (any at all?) = -нибудь.",
+              "explanation": "In questions, -нибудь means 'anything at all': что-нибудь."
+            },
+            {
+              "prompt": "Я хочу тебе _____ рассказать. (I want to tell you something. - I know what.)",
+              "promptEnglish": "I want to tell you something (and I know exactly what).",
+              "options": [
+                "что-нибудь",
+                "что-то",
+                "кое-что",
+                "ничего"
+              ],
+              "answer": "кое-что",
+              "hint": "Speaker knows specifically what = кое-.",
+              "explanation": "Speaker knows the specific thing: кое-что."
+            },
+            {
+              "prompt": "Если _____ позвонит, скажи, что я скоро вернусь. (If anyone calls, say I'll be back soon.)",
+              "promptEnglish": "If anyone calls, say I'll be back soon.",
+              "options": [
+                "кто-то",
+                "кое-кто",
+                "кто-нибудь",
+                "никто"
+              ],
+              "answer": "кто-нибудь",
+              "hint": "Hypothetical/conditional (if anyone at all) = -нибудь.",
+              "explanation": "Hypothetical in conditional: кто-нибудь (if anyone at all)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "На столе лежит _____ письмо. (There's some letter on the table. - I see it but don't know what it is.)",
+              "promptEnglish": "There's some kind of letter on the table.",
+              "options": [
+                "какое-то",
+                "какое-нибудь",
+                "кое-какое",
+                "никакое"
+              ],
+              "answer": "какое-то",
+              "hint": "Specific but unknown (I see it) = -то.",
+              "explanation": "I can see the letter but don't know what kind: какое-то (some kind of)."
+            },
+            {
+              "prompt": "Купи мне _____ сок, любой. (Buy me some juice, any kind.)",
+              "promptEnglish": "Buy me some juice, any kind.",
+              "options": [
+                "какой-то",
+                "кое-какой",
+                "какой-нибудь",
+                "никакой"
+              ],
+              "answer": "какой-нибудь",
+              "hint": "Any at all, I don't care which = -нибудь.",
+              "explanation": "Any kind will do: какой-нибудь (any whatsoever)."
+            },
+            {
+              "prompt": "У меня есть _____ идея. (I have a certain idea. - I know what it is.)",
+              "promptEnglish": "I have a certain idea (I know what it is, teasing).",
+              "options": [
+                "какая-то",
+                "какая-нибудь",
+                "никакая",
+                "кое-какая"
+              ],
+              "answer": "кое-какая",
+              "hint": "I know the specific idea = кое-.",
+              "explanation": "Known to the speaker, withheld from listener: кое-какая."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ звонил тебе утром. (past event, specific unknown)",
+          "contextEnglish": "Someone called you this morning. (it happened, I don't know who)",
+          "options": [
+            "Кто-то",
+            "Кто-нибудь"
+          ],
+          "answer": "Кто-то",
+          "explanation": "Past, factual event: кто-то (someone specific but unknown to me)."
+        },
+        {
+          "context": "_____ звонил тебе сегодня? (question, checking)",
+          "contextEnglish": "Did anyone call you today? (asking if it happened at all)",
+          "options": [
+            "Кто-то",
+            "Кто-нибудь"
+          ],
+          "answer": "Кто-нибудь",
+          "explanation": "Question checking if anyone at all called: кто-нибудь."
+        },
+        {
+          "context": "Мне нужно _____ сказать тебе. (I know what I need to say.)",
+          "contextEnglish": "I need to tell you something. (I have something specific in mind.)",
+          "options": [
+            "что-то",
+            "кое-что"
+          ],
+          "answer": "кое-что",
+          "explanation": "Speaker knows specifically what: кое-что. Creates suspense/teasing."
+        },
+        {
+          "context": "_____ случилось, но я не знаю что. (Something happened, I don't know what.)",
+          "contextEnglish": "Something happened, but I don't know what.",
+          "options": [
+            "Что-то",
+            "Кое-что"
+          ],
+          "answer": "Что-то",
+          "explanation": "Speaker doesn't know what happened: что-то (something unknown)."
+        }
+      ]
+    },
+    {
+      "id": "round-2-sort-fill",
+      "title": "Context Sort",
+      "titleRussian": "Сортировка по контексту",
+      "description": "Sort by which particle fits and fill in blanks",
+      "descriptionRussian": "Рассортируйте по частице и заполните пропуски",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort: Which particle does each context require?",
+        "categories": [
+          "-то (specific unknown)",
+          "-нибудь (any/hypothetical)",
+          "кое- (known to speaker)"
+        ],
+        "items": [
+          {
+            "word": "В комнате кто-... разговаривает. (I hear someone.)",
+            "category": "-то (specific unknown)"
+          },
+          {
+            "word": "Дай мне что-... почитать. (Give me anything to read.)",
+            "category": "-нибудь (any/hypothetical)"
+          },
+          {
+            "word": "Я знаю кое-... о нём. (I know something about him.)",
+            "category": "кое- (known to speaker)"
+          },
+          {
+            "word": "Если что-... будет нужно, скажи. (If you need anything...)",
+            "category": "-нибудь (any/hypothetical)"
+          },
+          {
+            "word": "Что-... упало в соседней комнате. (Something fell.)",
+            "category": "-то (specific unknown)"
+          },
+          {
+            "word": "Кое-... хочет с тобой познакомиться. (A certain someone wants to meet you.)",
+            "category": "кое- (known to speaker)"
+          },
+          {
+            "word": "Ты когда-... был в Японии? (Have you ever been?)",
+            "category": "-нибудь (any/hypothetical)"
+          },
+          {
+            "word": "Где-... я это уже видел. (I've seen this somewhere.)",
+            "category": "-то (specific unknown)"
+          },
+          {
+            "word": "У меня есть кое-... дела. (I have some business.)",
+            "category": "кое- (known to speaker)"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Завтра приготовь _____. Мне всё равно что. (Cook something tomorrow. I don't care what.)",
+          "На улице _____ кричит. Интересно, что случилось? (Someone is shouting outside.)",
+          "У меня есть _____ новости для тебя! (I have some news for you! - I know what.)",
+          "Ты _____ был за границей? (Have you ever been abroad?)"
+        ],
+        "choices": [
+          "что-нибудь",
+          "кто-то",
+          "кое-какие",
+          "когда-нибудь"
+        ],
+        "answers": [
+          "что-нибудь",
+          "кто-то",
+          "кое-какие",
+          "когда-нибудь"
+        ],
+        "grammarFocus": "-нибудь for any/hypothetical, -то for specific unknown, кое- for known to speaker",
+        "hints": [
+          "Any food, I don't care which.",
+          "Someone specific is shouting, I don't know who.",
+          "I know what the news is.",
+          "Question about general life experience (ever?)."
+        ],
+        "explanations": [
+          "Any at all: что-нибудь (any food).",
+          "Specific unknown person: кто-то (I hear them).",
+          "Known to speaker: кое-какие (I know what news).",
+          "General question about experience: когда-нибудь (ever)."
+        ],
+        "options": [
+          [
+            "что-нибудь",
+            "что-то",
+            "кое-что",
+            "что-либо"
+          ],
+          [
+            "кто-то",
+            "кто-нибудь",
+            "кое-кто",
+            "кто-либо"
+          ],
+          [
+            "кое-какие",
+            "какие-то",
+            "какие-нибудь",
+            "какие-либо"
+          ],
+          [
+            "когда-то",
+            "никогда",
+            "когда-нибудь",
+            "кое-когда"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-errors-build",
+      "title": "Fix and Build",
+      "titleRussian": "Исправь и построй",
+      "description": "Fix wrong particle choices and build sentences",
+      "descriptionRussian": "Исправьте ошибки в частицах и постройте предложения",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Кто-нибудь оставил зонт в коридоре.",
+          "error": "Кто-нибудь",
+          "correction": "Кто-то",
+          "hint": "Past fact (someone actually did it) = -то, not -нибудь.",
+          "explanation": "A factual past event needs -то: Кто-то оставил (someone actually left it).",
+          "options": [
+            "Кто-то",
+            "Кое-кто",
+            "Никто"
+          ]
+        },
+        {
+          "sentence": "Если что-то случится, позвони мне.",
+          "error": "что-то",
+          "correction": "что-нибудь",
+          "hint": "Hypothetical/conditional (if anything happens) = -нибудь.",
+          "explanation": "Conditional uses -нибудь: если что-нибудь случится (if anything at all happens).",
+          "options": [
+            "что-нибудь",
+            "кое-что",
+            "ничего"
+          ]
+        },
+        {
+          "sentence": "У тебя есть что-нибудь интересное рассказать? Я знаю, что есть!",
+          "error": "что-нибудь",
+          "correction": "кое-что",
+          "hint": "The second sentence shows the speaker knows what. Known = кое-.",
+          "explanation": "The speaker knows the specific thing: кое-что (not что-нибудь which means 'anything').",
+          "options": [
+            "кое-что",
+            "что-то",
+            "ничего"
+          ]
+        },
+        {
+          "sentence": "Дай мне кое-что почитать, мне всё равно что.",
+          "error": "кое-что",
+          "correction": "что-нибудь",
+          "hint": "'I don't care what' = any at all = -нибудь. Кое- means the speaker has something specific.",
+          "explanation": "Any at all (I don't care which): что-нибудь. Кое-что would mean a specific thing.",
+          "options": [
+            "что-нибудь",
+            "что-то",
+            "ничего"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "Someone is knocking on the door.",
+          "answer": "Кто-то стучит в дверь.",
+          "acceptableVariants": [],
+          "hint": "I hear the knocking, specific person, I don't know who = кто-то",
+          "grammarFocus": "-то for specific unknown in statements",
+          "keyWord": "Кто-то",
+          "options": [
+            "Кто-то",
+            "Кто-нибудь",
+            "Кое-кто",
+            "Никто"
+          ]
+        },
+        {
+          "english": "Do you want anything to drink?",
+          "answer": "Хочешь что-нибудь выпить?",
+          "acceptableVariants": [
+            "Ты хочешь что-нибудь выпить?"
+          ],
+          "hint": "Offer/question = -нибудь; drink = выпить",
+          "grammarFocus": "-нибудь in offers and questions",
+          "keyWord": "что-нибудь",
+          "options": [
+            "что-нибудь",
+            "что-то",
+            "кое-что",
+            "ничего"
+          ]
+        },
+        {
+          "english": "I know a certain something about this.",
+          "answer": "Я знаю кое-что об этом.",
+          "acceptableVariants": [],
+          "hint": "Known to speaker, teasing = кое-что",
+          "grammarFocus": "кое- for known to speaker",
+          "keyWord": "кое-что",
+          "options": [
+            "кое-что",
+            "что-то",
+            "что-нибудь",
+            "ничего"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Финальное задание",
+      "description": "All three particles in varied contexts",
+      "descriptionRussian": "Все три частицы в разных контекстах",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мне _____ звонили, пока меня не было? (Did anyone call me while I was out?)",
+              "promptEnglish": "Did anyone call me while I was away?",
+              "options": [
+                "кто-то",
+                "кое-кто",
+                "кто-нибудь",
+                "никто"
+              ],
+              "answer": "кто-нибудь",
+              "hint": "Question: did anyone at all? = -нибудь.",
+              "explanation": "Question checking: кто-нибудь (did anyone at all call?)."
+            },
+            {
+              "prompt": "Я _____ забыл, но не помню что. (I forgot something, but I can't remember what.)",
+              "promptEnglish": "I forgot something, but I can't remember what.",
+              "options": [
+                "что-нибудь",
+                "кое-что",
+                "что-то",
+                "ничего"
+              ],
+              "answer": "что-то",
+              "hint": "Something specific was forgotten, but I don't know what = -то.",
+              "explanation": "Specific but unknown to me: что-то (I know I forgot something, but what?)."
+            },
+            {
+              "prompt": "У него есть _____ план. Он расскажет завтра. (He has a certain plan. He'll tell us tomorrow.)",
+              "promptEnglish": "He has a certain plan. He'll share it tomorrow.",
+              "options": [
+                "какой-то",
+                "кое-какой",
+                "какой-нибудь",
+                "никакой"
+              ],
+              "answer": "кое-какой",
+              "hint": "He knows the plan, it's specific to him = кое-.",
+              "explanation": "Known to the subject: кое-какой (a particular plan he has in mind)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Поедем летом _____? (Shall we go somewhere in summer? - any place)",
+              "promptEnglish": "Shall we go somewhere this summer? (anywhere at all)",
+              "options": [
+                "куда-то",
+                "куда-нибудь",
+                "кое-куда",
+                "никуда"
+              ],
+              "answer": "куда-нибудь",
+              "hint": "Suggestion for the future, any place = -нибудь.",
+              "explanation": "Future suggestion (any destination): куда-нибудь."
+            },
+            {
+              "prompt": "Я _____ положил ключи и не могу найти. (I put the keys somewhere and can't find them.)",
+              "promptEnglish": "I put the keys somewhere and can't find them.",
+              "options": [
+                "куда-нибудь",
+                "никуда",
+                "куда-то",
+                "кое-куда"
+              ],
+              "answer": "куда-то",
+              "hint": "I put them in a specific place, but I forgot where = -то.",
+              "explanation": "Specific unknown place (past fact): куда-то (somewhere, I don't remember where)."
+            },
+            {
+              "prompt": "Which particle would you use in: 'If you need anything, let me know'?",
+              "promptEnglish": "Which particle fits a conditional 'if anything' context?",
+              "options": [
+                "-то",
+                "-нибудь",
+                "кое-",
+                "-либо"
+              ],
+              "answer": "-нибудь",
+              "hint": "Conditional (if anything at all) = -нибудь.",
+              "explanation": "Conditional/hypothetical uses -нибудь: если что-нибудь нужно. (-либо is a formal written variant of -нибудь.)"
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "кто-то, что-то, где-то, когда-то, куда-то, как-то",
+          "question": "In what type of context are -то forms used?",
+          "options": [
+            "Questions and hypotheticals",
+            "Past/present facts where the specific detail is unknown to the speaker",
+            "When the speaker knows the detail but withholds it"
+          ],
+          "answer": "Past/present facts where the specific detail is unknown to the speaker",
+          "explanation": "-то marks something specific that exists or happened, but the speaker doesn't know the details."
+        },
+        {
+          "sentence": "кто-нибудь, что-нибудь, где-нибудь, когда-нибудь, куда-нибудь",
+          "question": "In what type of context are -нибудь forms used?",
+          "options": [
+            "Past factual statements",
+            "Questions, offers, conditionals, future possibilities, requests",
+            "When the speaker knows the answer"
+          ],
+          "answer": "Questions, offers, conditionals, future possibilities, requests",
+          "explanation": "-нибудь appears in non-factual contexts: questions, offers, conditionals, and future hypotheticals."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Он _____ живёт далеко отсюда. Адреса не знаю. (He lives somewhere far from here.)",
+          "Поедем _____? Мне не важно куда. (Shall we go somewhere? I don't care where.)"
+        ],
+        "choices": [
+          "где-то",
+          "куда-нибудь"
+        ],
+        "answers": [
+          "где-то",
+          "куда-нибудь"
+        ],
+        "grammarFocus": "-то for factual unknown, -нибудь for hypothetical",
+        "hints": [
+          "He actually lives there (fact), I don't know where exactly.",
+          "Suggestion for the future, any destination."
+        ],
+        "explanations": [
+          "Factual but unknown detail: где-то (somewhere, I don't know where).",
+          "Future suggestion (any place): куда-нибудь."
+        ],
+        "options": [
+          [
+            "нигде",
+            "где-нибудь",
+            "где-то",
+            "кое-где"
+          ],
+          [
+            "куда-нибудь",
+            "никуда",
+            "кое-куда",
+            "куда-то"
+          ]
+        ]
+      }
+    }
+  ]
+}

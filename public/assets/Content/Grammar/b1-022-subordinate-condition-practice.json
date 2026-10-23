@@ -1,0 +1,486 @@
+{
+  "lessonId": "b1-022-subordinate-condition",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Real or Unreal?",
+      "titleRussian": "Реальное или нереальное?",
+      "description": "Choose the correct conditional form for each context",
+      "descriptionRussian": "Выберите правильную форму условия",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Если _____ дождь, мы останемся дома. (If it rains, we'll stay home.)",
+              "promptEnglish": "If it rains, we'll stay home. (real possibility)",
+              "options": [
+                "был бы",
+                "будет",
+                "был",
+                "бывает"
+              ],
+              "answer": "будет",
+              "hint": "Real future condition = если + future tense.",
+              "explanation": "Real condition: если будет дождь (future). It might actually rain."
+            },
+            {
+              "prompt": "Если бы я _____ богатым, я бы путешествовал. (If I were rich, I would travel.)",
+              "promptEnglish": "If I were rich, I would travel. (contrary to fact)",
+              "options": [
+                "буду",
+                "стану",
+                "был",
+                "бываю"
+              ],
+              "answer": "был",
+              "hint": "Unreal condition = если бы + past tense.",
+              "explanation": "Unreal: если бы я был (past tense). The speaker is NOT rich."
+            },
+            {
+              "prompt": "Если ты _____, позвони мне. (If you're free, call me.)",
+              "promptEnglish": "If you're free, call me. (possible situation)",
+              "options": [
+                "был бы свободен",
+                "свободен",
+                "будешь свободен",
+                "свободный"
+              ],
+              "answer": "будешь свободен",
+              "hint": "Real future possibility = если + future.",
+              "explanation": "Real condition: если будешь свободен (future). It's a real possibility."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я бы _____ тебе, если бы мог. (I would help you if I could.)",
+              "promptEnglish": "I would help you if I could. (unreal)",
+              "options": [
+                "помог",
+                "помогу",
+                "помогал",
+                "помогаю"
+              ],
+              "answer": "помог",
+              "hint": "Unreal main clause = бы + past tense.",
+              "explanation": "Unreal result: я бы помог (бы + past). The speaker can't actually help."
+            },
+            {
+              "prompt": "Если он _____ завтра, мы всё обсудим. (If he comes tomorrow, we'll discuss everything.)",
+              "promptEnglish": "If he comes tomorrow, we'll discuss everything. (real possibility)",
+              "options": [
+                "пришёл бы",
+                "приходит",
+                "придёт",
+                "пришёл"
+              ],
+              "answer": "придёт",
+              "hint": "Real future = если + pf future.",
+              "explanation": "Real condition: если он придёт (pf future). He might actually come."
+            },
+            {
+              "prompt": "Если бы мы _____ раньше, мы бы успели. (If we had left earlier, we would have made it.)",
+              "promptEnglish": "If we had left earlier, we would have made it.",
+              "options": [
+                "уедем",
+                "уехали",
+                "уезжаем",
+                "уедем бы"
+              ],
+              "answer": "уехали",
+              "hint": "Unreal past = если бы + past tense.",
+              "explanation": "Unreal past: если бы мы уехали (past). We didn't actually leave early."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Если он _____, я расскажу ему. (I expect he'll come.)",
+          "contextEnglish": "If he comes (and I think he will), I'll tell him.",
+          "options": [
+            "придёт",
+            "пришёл бы"
+          ],
+          "answer": "придёт",
+          "explanation": "Real: если придёт (future). The speaker expects it to happen."
+        },
+        {
+          "context": "Если бы он _____, я бы рассказал ему. (But he's not coming.)",
+          "contextEnglish": "If he came (but he won't), I would tell him.",
+          "options": [
+            "придёт",
+            "пришёл"
+          ],
+          "answer": "пришёл",
+          "explanation": "Unreal: если бы пришёл (past). The speaker knows he won't come."
+        },
+        {
+          "context": "Если _____ солнце, мы пойдём на пляж. (checking the forecast)",
+          "contextEnglish": "If it's sunny, we'll go to the beach. (real plan)",
+          "options": [
+            "будет",
+            "было бы"
+          ],
+          "answer": "будет",
+          "explanation": "Real condition: если будет солнце. A real possibility being planned for."
+        },
+        {
+          "context": "Если бы _____ солнце, мы бы пошли на пляж. (but it's raining)",
+          "contextEnglish": "If it were sunny (but it isn't), we would go to the beach.",
+          "options": [
+            "будет",
+            "было"
+          ],
+          "answer": "было",
+          "explanation": "Unreal: если бы было солнце. It's not sunny right now."
+        }
+      ]
+    },
+    {
+      "id": "round-3-transform-translate",
+      "title": "Transform and Translate",
+      "titleRussian": "Преобразование и перевод",
+      "description": "Convert between real and unreal conditionals and translate",
+      "descriptionRussian": "Преобразуйте условия и переведите с английского",
+      "icon": "arrow.left.arrow.right",
+      "translation": [
+        {
+          "prompt": "If it snows, we'll go skiing.",
+          "answer": "Если пойдёт снег, мы пойдём кататься на лыжах.",
+          "hint": "Real: если + future. Snow starts falling = пойдёт снег.",
+          "explanation": "Real condition: если пойдёт снег (pf future), мы пойдём (pf future).",
+          "keyWord": "пойдёт",
+          "options": [
+            "пойдёт",
+            "пошёл",
+            "идёт",
+            "шёл"
+          ]
+        },
+        {
+          "prompt": "If I knew the answer, I would tell you.",
+          "answer": "Если бы я знал ответ, я бы сказал тебе.",
+          "hint": "Unreal: если бы + past, main clause бы + past.",
+          "explanation": "Unreal: если бы знал, я бы сказал. The speaker doesn't know the answer.",
+          "keyWord": "знал",
+          "options": [
+            "знал",
+            "знаю",
+            "буду знать",
+            "знаешь"
+          ]
+        },
+        {
+          "prompt": "I'll come if you invite me.",
+          "answer": "Я приду, если ты меня пригласишь.",
+          "hint": "Real, main clause first. Comma before если.",
+          "explanation": "Real: приду (pf future), если пригласишь (pf future). Comma before если.",
+          "keyWord": "пригласишь",
+          "options": [
+            "пригласишь",
+            "пригласил",
+            "приглашаешь",
+            "пригласил бы"
+          ]
+        },
+        {
+          "prompt": "If I had more time, I would read more books.",
+          "answer": "Если бы у меня было больше времени, я бы читал больше книг.",
+          "hint": "Unreal: если бы + past. 'Had' = у меня было.",
+          "explanation": "Unreal: если бы было (past), бы читал (impf past - habitual reading).",
+          "keyWord": "было",
+          "options": [
+            "было",
+            "будет",
+            "есть",
+            "бывает"
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ ты будешь в Москве, обязательно позвони мне. (If you'll be in Moscow, call me.)",
+          "_____ я мог летать, я бы летал каждый день. (If I could fly, I'd fly every day.)",
+          "Я куплю билеты, _____ они ещё будут. (I'll buy tickets if they're still available.)"
+        ],
+        "choices": [
+          "Если",
+          "Если бы",
+          "если"
+        ],
+        "answers": [
+          "Если",
+          "Если бы",
+          "если"
+        ],
+        "grammarFocus": "Real (если) vs unreal (если бы) conditions",
+        "hints": [
+          "Real possibility: you might actually be in Moscow.",
+          "Impossible: humans can't fly. Unreal = если бы.",
+          "Real possibility: tickets might still be available. Note: lowercase after comma."
+        ],
+        "explanations": [
+          "Real condition: Если + future (будешь). Possible trip.",
+          "Unreal: Если бы + past (мог). Flying is impossible.",
+          "Real: если + future (будут). Lowercase because mid-sentence after comma."
+        ],
+        "options": [
+          [
+            "Раз",
+            "Когда",
+            "Если бы",
+            "Если"
+          ],
+          [
+            "Хотя",
+            "Если",
+            "Если бы",
+            "Когда бы"
+          ],
+          [
+            "когда",
+            "раз",
+            "если бы",
+            "если"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "categories": [
+          "Real (possible)",
+          "Unreal (hypothetical)"
+        ],
+        "items": [
+          {
+            "text": "Если будет время, я зайду.",
+            "category": "Real (possible)"
+          },
+          {
+            "text": "Если бы я знал, я бы сказал.",
+            "category": "Unreal (hypothetical)"
+          },
+          {
+            "text": "Если она позвонит, передай привет.",
+            "category": "Real (possible)"
+          },
+          {
+            "text": "Если бы у меня были деньги, я бы купил дом.",
+            "category": "Unreal (hypothetical)"
+          },
+          {
+            "text": "Если ты устал, отдохни.",
+            "category": "Real (possible)"
+          },
+          {
+            "text": "Если бы он мог, он бы помог.",
+            "category": "Unreal (hypothetical)"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Если бы я знаю, я бы сказал.",
+          "error": "знаю",
+          "correction": "знал",
+          "hint": "Unreal (если бы) needs past tense, not present.",
+          "explanation": "Если бы + past: если бы я знал (not знаю).",
+          "options": [
+            "знал",
+            "знаешь",
+            "знает"
+          ]
+        },
+        {
+          "sentence": "Если он придёт, я бы помог ему.",
+          "error": "бы",
+          "correction": "помогу",
+          "hint": "Real condition (придёт) needs a real result (future), not бы + past.",
+          "explanation": "Real: если придёт, я помогу. Don't mix real если with unreal бы.",
+          "options": [
+            "помогу",
+            "помог бы",
+            "помогал бы",
+            "буду помогать"
+          ]
+        },
+        {
+          "sentence": "Если бы я был богатый, я бы купил дом.",
+          "error": "богатый",
+          "correction": "богатым",
+          "hint": "Был + adjective takes instrumental (был богатым), not nominative.",
+          "explanation": "Был богатым (instrumental). With быть in past, use instrumental for the predicate.",
+          "options": [
+            "богатым",
+            "богатого",
+            "богатому"
+          ]
+        },
+        {
+          "sentence": "Если будет дождь я останусь дома.",
+          "error": "дождь",
+          "correction": "дождь,",
+          "hint": "Comma is required between the если-clause and the main clause.",
+          "explanation": "Always: Если будет дождь, я останусь дома. Comma before the main clause.",
+          "options": [
+            "дождь,",
+            "дождь:",
+            "дождь;"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Финальное задание",
+      "description": "Real and unreal conditionals mixed with tricky cases",
+      "descriptionRussian": "Реальные и нереальные условия вперемешку",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Если бы вчера не _____ дождь, мы бы поехали на пикник. (If it hadn't rained yesterday...)",
+              "promptEnglish": "If it hadn't rained yesterday, we would have gone on a picnic.",
+              "options": [
+                "будет",
+                "пошёл",
+                "шёл",
+                "идёт"
+              ],
+              "answer": "шёл",
+              "hint": "Unreal past: если бы не + past. Rain = шёл дождь.",
+              "explanation": "Unreal past: если бы не шёл дождь (past impf). It DID rain, this is contrary to fact."
+            },
+            {
+              "prompt": "Если она _____ экзамен, родители будут рады. (If she passes...)",
+              "promptEnglish": "If she passes the exam, her parents will be happy. (real hope)",
+              "options": [
+                "сдаст",
+                "сдала бы",
+                "сдавала",
+                "сдала"
+              ],
+              "answer": "сдаст",
+              "hint": "Real hope: если + perfective future.",
+              "explanation": "Real: если сдаст (pf future). The exam hasn't happened yet, but she might pass."
+            },
+            {
+              "prompt": "На _____ месте я бы извинился. (If I were you, I would apologize.)",
+              "promptEnglish": "In your place, I would apologize.",
+              "options": [
+                "моём",
+                "твоём",
+                "вашем",
+                "его"
+              ],
+              "answer": "твоём",
+              "hint": "На твоём месте = in your place. The speaker is addressing ты.",
+              "explanation": "На твоём месте я бы... = If I were you (informal), I would..."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Если бы он _____ русский, он бы понял эту шутку. (If he knew Russian...)",
+              "promptEnglish": "If he knew Russian, he would understand this joke.",
+              "options": [
+                "знает",
+                "будет знать",
+                "знал",
+                "узнает"
+              ],
+              "answer": "знал",
+              "hint": "Unreal present: если бы + past. He doesn't know Russian.",
+              "explanation": "Unreal: если бы знал (past). He doesn't actually know Russian."
+            },
+            {
+              "prompt": "Позвони мне, если _____ помощь. (Call me if you need help.)",
+              "promptEnglish": "Call me if you need help. (real offer)",
+              "options": [
+                "нужна будет",
+                "была бы нужна",
+                "нужна бы",
+                "нужна была"
+              ],
+              "answer": "нужна будет",
+              "hint": "Real future: если + future. Help (fem) = нужна будет.",
+              "explanation": "Real: если нужна будет помощь (future). A genuine offer of help."
+            },
+            {
+              "prompt": "Я бы _____ на твоём месте. (I wouldn't do that if I were you.)",
+              "promptEnglish": "I wouldn't do that if I were you.",
+              "options": [
+                "не сделал",
+                "не делаю",
+                "не сделаю",
+                "не делал"
+              ],
+              "answer": "не сделал",
+              "hint": "Unreal advice: я бы не сделал (бы + past).",
+              "explanation": "Unreal: я бы не сделал этого. Бы + past for hypothetical advice."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Если я найду билеты, я поеду. / Если бы я нашёл билеты, я бы поехал.",
+          "question": "What is the key grammatical difference?",
+          "options": [
+            "First = future tenses (real possibility), second = past tenses + бы (hypothetical)",
+            "First = perfective, second = imperfective",
+            "No grammatical difference, just formality"
+          ],
+          "answer": "First = future tenses (real possibility), second = past tenses + бы (hypothetical)",
+          "explanation": "Real: если + future, future. Unreal: если бы + past, бы + past. Tense and бы mark the difference."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Если _____ хорошая погода, мы поедем за город. (If the weather is nice...)",
+          "Если бы я _____ свободен, я бы пошёл с вами. (If I were free...)"
+        ],
+        "choices": [
+          "будет",
+          "был"
+        ],
+        "answers": [
+          "будет",
+          "был"
+        ],
+        "grammarFocus": "Real (future) vs unreal (past) verb forms in если-clauses",
+        "hints": [
+          "Real: если + future tense.",
+          "Unreal: если бы + past tense."
+        ],
+        "explanations": [
+          "Real possibility: если будет хорошая погода (future).",
+          "Unreal: если бы я был свободен (past). The speaker is NOT free."
+        ],
+        "options": [
+          [
+            "будет",
+            "был",
+            "бывает",
+            "бывало"
+          ],
+          [
+            "был",
+            "будет",
+            "бывает",
+            "бывал"
+          ]
+        ]
+      }
+    }
+  ]
+}

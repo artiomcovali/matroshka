@@ -1,0 +1,379 @@
+{
+  "id": "a2-track-imperative-06-negative-impf",
+  "level": "A2",
+  "focusArea": "aspect",
+  "title": "Imperative 6: Saying \"Don't\" (не + Imperfective)",
+  "titleRussian": "Повелительное наклонение 6: запрет (не + НСВ)",
+  "description": "A general prohibition uses не plus the imperfective imperative: не пей, не кури, не говори громко. The negative flips the affirmative perfective default.",
+  "descriptionRussian": "Общий запрет образуется с помощью не + повелительное наклонение несовершенного вида: не пей, не кури, не говори громко. Отрицание переворачивает обычное правило утвердительной команды.",
+  "imageName": "exclamationmark.bubble",
+  "trackId": "a2-imperative-mastery",
+  "trackTitle": "Imperative Mastery",
+  "trackTitleRussian": "Повелительное наклонение",
+  "trackIndex": 6,
+  "trackTotal": 9,
+  "intro": "Adding 'not' flips the default. A positive one-time command usually wants the perfective, but a prohibition wants the imperfective almost regardless of how specific it is. Telling someone not to buy this particular bread still uses the habit form. That reversal is the thing to take from this lesson, and it catches people who have just got the positive rule solid.",
+  "rules": [
+    "A general prohibition uses не + the imperfective imperative: не пей, не кури, не говори, не ходи.",
+    "The negative reverses the affirmative default: an affirmative one-shot command is perfective (Выпей!), but the matching prohibition is imperfective (Не пей!).",
+    "Even with a specific object the prohibition stays imperfective: Не покупай этот хлеб! (compare affirmative Купи этот хлеб!).",
+    "Не does not change the imperative ending; не пей uses the same пей as the affirmative, only the meaning is now \"don't.\""
+  ],
+  "examples": [
+    "Не пей кофе вечером! (Don't drink coffee in the evening!) Не + imperfective пей; standing rule.",
+    "Не кури в комнате! (Don't smoke in the room!) Не + imperfective кури; flat prohibition.",
+    "Не говори громко в библиотеке! (Don't speak loudly in the library!) Не + imperfective говори; a way of acting.",
+    "Не ходи по этой улице ночью! (Don't walk down this street at night!) Не + imperfective ходи; standing advice.",
+    "Не покупай этот хлеб! (Don't buy this bread!) Не + imperfective покупай; prohibition even with a specific object.",
+    "Не смотри телевизор так поздно! (Don't watch TV so late!) Не + imperfective смотри; general rule."
+  ],
+  "tables": [
+    {
+      "title": "Affirmative vs Prohibition: the Aspect Flips",
+      "headers": [
+        "Meaning",
+        "Aspect",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Do this one action",
+          "cells": [
+            "Perfective",
+            "Выпей кофе!"
+          ]
+        },
+        {
+          "label": "Don't do this (prohibition)",
+          "cells": [
+            "Imperfective",
+            "Не пей кофе!"
+          ]
+        },
+        {
+          "label": "Buy this (specific)",
+          "cells": [
+            "Perfective",
+            "Купи этот хлеб!"
+          ]
+        },
+        {
+          "label": "Don't buy this (specific)",
+          "cells": [
+            "Imperfective",
+            "Не покупай этот хлеб!"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ этот хлеб!",
+          "promptEnglish": "Buy this bread! (warm-up; affirmative, one specific action)",
+          "options": [
+            "купи",
+            "покупай",
+            "купить",
+            "покупаешь"
+          ],
+          "answer": "купи",
+          "hint": "Affirmative command for one specific thing. Which aspect?",
+          "explanation": "An affirmative command for one specific action takes the perfective imperative: купи. Watch what happens next: when we make this a prohibition, the aspect will flip to the imperfective покупай."
+        },
+        {
+          "prompt": "Не _____ этот хлеб, он несвежий!",
+          "promptEnglish": "Don't buy this bread, it isn't fresh!",
+          "options": [
+            "купи",
+            "покупай",
+            "купить",
+            "покупаешь"
+          ],
+          "answer": "покупай",
+          "hint": "Telling someone NOT to do something is a prohibition, even with a specific object.",
+          "explanation": "A prohibition takes не + imperfective: не покупай. Notice the flip from the warm-up: the affirmative was perfective купи, but the matching prohibition switches to the imperfective покупай."
+        },
+        {
+          "prompt": "Не _____ кофе вечером!",
+          "promptEnglish": "Don't drink coffee in the evening!",
+          "options": [
+            "выпей",
+            "пить",
+            "пей",
+            "пьёшь"
+          ],
+          "answer": "пей",
+          "hint": "A standing rule for every evening. Не + which aspect?",
+          "explanation": "A general prohibition (a rule for all evenings) takes не + imperfective: не пей. Выпей is perfective and would not give a standing rule."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Не _____ в комнате!",
+          "promptEnglish": "Don't smoke in the room!",
+          "options": [
+            "кури",
+            "курить",
+            "куришь",
+            "курю"
+          ],
+          "answer": "кури",
+          "hint": "A flat rule about this room. Which form is the imperfective imperative?",
+          "explanation": "A flat prohibition (no smoking here) takes не + imperfective: не кури."
+        },
+        {
+          "prompt": "Не _____ громко в библиотеке!",
+          "promptEnglish": "Don't speak loudly in the library!",
+          "options": [
+            "скажи",
+            "говорить",
+            "говоришь",
+            "говори"
+          ],
+          "answer": "говори",
+          "hint": "You are forbidding a WAY of acting (loudly). Не + which aspect?",
+          "explanation": "Forbidding a way of acting (speaking loudly, in general) takes не + imperfective: не говори. Скажи is the perfective \"say (one thing),\" which does not fit a manner rule."
+        },
+        {
+          "prompt": "Не _____ телевизор так поздно!",
+          "promptEnglish": "Don't watch TV so late!",
+          "options": [
+            "посмотри",
+            "смотри",
+            "смотреть",
+            "смотришь"
+          ],
+          "answer": "смотри",
+          "hint": "A general piece of advice, not one finished action. Which aspect?",
+          "explanation": "A general prohibition / piece of advice takes не + imperfective: не смотри. Посмотри is perfective (\"take one look / watch one thing through\"), which does not match a standing rule."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Не _____ громко здесь.",
+          "promptEnglish": "Don't speak loudly here.",
+          "options": [
+            "скажи",
+            "говори",
+            "сказать",
+            "говорит"
+          ],
+          "answer": "говори",
+          "hint": "Prohibitions take не + which aspect of the imperative?",
+          "explanation": "Negative commands about behaviour take the imperfective imperative: не говори. Не скажи is not a normal prohibition."
+        },
+        {
+          "prompt": "Не _____ телевизор так поздно.",
+          "promptEnglish": "Don't watch TV so late.",
+          "options": [
+            "посмотри",
+            "смотрит",
+            "смотри",
+            "смотреть"
+          ],
+          "answer": "смотри",
+          "hint": "A general prohibition. Imperfective or perfective imperative?",
+          "explanation": "General prohibitions use не + imperfective: не смотри. Посмотри is the perfective ('take a look'), which does not combine with a habitual ban."
+        },
+        {
+          "prompt": "Не _____ в темноте.",
+          "promptEnglish": "Don't read in the dark.",
+          "options": [
+            "читай",
+            "прочитай",
+            "читает",
+            "читать"
+          ],
+          "answer": "читай",
+          "hint": "Which imperative follows не in a standing rule?",
+          "explanation": "A standing rule takes не + imperfective imperative: не читай в темноте. Прочитай is perfective ('read it through once'), the wrong idea for a general ban."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Не _____ по этой улице ночью! (Don't walk down this street at night!)",
+      "Не _____ так быстро, я не понимаю! (Don't speak so fast, I don't understand!)"
+    ],
+    "choices": [
+      "ходи",
+      "пойди",
+      "говори",
+      "скажи"
+    ],
+    "answers": [
+      "ходи",
+      "говори"
+    ],
+    "grammarFocus": "Both are general prohibitions, so both take не + imperfective: не ходи (standing advice about the street) and не говори (forbidding the manner \"so fast\"). The perfective пойди and скажи describe single finished actions and do not fit a standing rule."
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "не",
+        "кури",
+        "в",
+        "комнате"
+      ],
+      "answer": "Не кури в комнате",
+      "translation": "Don't smoke in the room.",
+      "hint": "A flat prohibition: не + imperfective imperative goes first."
+    },
+    {
+      "words": [
+        "не",
+        "пей",
+        "так",
+        "много",
+        "кофе"
+      ],
+      "answer": "Не пей так много кофе",
+      "translation": "Don't drink so much coffee.",
+      "hint": "Не + imperfective пей for a general rule."
+    },
+    {
+      "words": [
+        "не",
+        "покупай",
+        "этот",
+        "хлеб"
+      ],
+      "answer": "Не покупай этот хлеб",
+      "translation": "Don't buy this bread.",
+      "hint": "Even with a specific object, the prohibition stays imperfective."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Не съешь сладкое перед обедом!",
+      "translationEnglish": "Don't eat sweets before lunch!",
+      "error": "съешь",
+      "correction": "ешь",
+      "options": [
+        "ешь",
+        "есть",
+        "ешьте"
+      ],
+      "explanation": "A general prohibition (a standing rule about sweets before lunch) takes не + imperfective: не ешь. The perfective не съешь is the wrong aspect for a rule."
+    },
+    {
+      "sentence": "Не пошуми в библиотеке!",
+      "translationEnglish": "Don't make noise in the library!",
+      "error": "пошуми",
+      "correction": "шуми",
+      "options": [
+        "шуми",
+        "шуметь",
+        "шумишь"
+      ],
+      "explanation": "A flat prohibition (no noise here, as a rule) takes не + imperfective: не шуми. The perfective не пошуми is the wrong aspect for a standing ban."
+    },
+    {
+      "sentence": "Не открой дверь незнакомым людям!",
+      "translationEnglish": "Don't open the door to strangers!",
+      "error": "открой",
+      "correction": "открывай",
+      "options": [
+        "открывай",
+        "открыть",
+        "открываешь"
+      ],
+      "explanation": "A standing rule of behaviour takes не + imperfective: не открывай. The perfective не открой would point to one specific occasion, not a general rule."
+    },
+    {
+      "sentence": "Не купи этот хлеб, он несвежий!",
+      "translationEnglish": "Don't buy this bread, it isn't fresh!",
+      "error": "Не купи",
+      "correction": "Не покупай",
+      "options": [
+        "Не покупай",
+        "Не покупать",
+        "Не покупаешь"
+      ],
+      "explanation": "Telling someone not to take an action is a prohibition, and a prohibition stays imperfective even with a specific object: не покупай этот хлеб. The affirmative \"Купи этот хлеб!\" (buy this one loaf) is perfective, but under negation the aspect flips to the imperfective покупай."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Не _____ кофе вечером!",
+      "contextEnglish": "Don't drink coffee in the evening! (a standing rule)",
+      "options": [
+        "пей",
+        "выпей"
+      ],
+      "answer": "пей",
+      "explanation": "A general prohibition takes не + imperfective пей. The perfective не выпей is the wrong aspect for a rule that holds every evening."
+    },
+    {
+      "context": "Не _____ этот хлеб!",
+      "contextEnglish": "Don't buy this bread! (prohibition with a specific object)",
+      "options": [
+        "покупай",
+        "купи"
+      ],
+      "answer": "покупай",
+      "explanation": "A prohibition stays imperfective even with a specific object: не покупай. The perfective купи is the affirmative aspect (Купи этот хлеб!); the negative flips to the imperfective."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Each command is correctly formed. Sort it as an affirmative order (do this) or a prohibition (don't do this).",
+    "categories": [
+      "Affirmative (perfective)",
+      "Prohibition (не + imperfective)"
+    ],
+    "items": [
+      {
+        "word": "Купи молоко!",
+        "category": "Affirmative (perfective)"
+      },
+      {
+        "word": "Не пей кофе!",
+        "category": "Prohibition (не + imperfective)"
+      },
+      {
+        "word": "Не кури здесь!",
+        "category": "Prohibition (не + imperfective)"
+      },
+      {
+        "word": "Прочитай статью!",
+        "category": "Affirmative (perfective)"
+      },
+      {
+        "word": "Не говори громко!",
+        "category": "Prohibition (не + imperfective)"
+      },
+      {
+        "word": "Выпей сок!",
+        "category": "Affirmative (perfective)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "запрет",
+      "definition": "prohibition (telling someone not to do something as a rule; built with не + imperfective imperative)",
+      "example": "В предложении 'Не пей кофе вечером!' конструкция 'не пей' выражает запрет."
+    },
+    {
+      "term": "не кури / не пей / не говори",
+      "definition": "don't smoke / don't drink / don't speak (general prohibitions; не + imperfective imperative)",
+      "example": "Не кури в комнате и не говори громко в библиотеке!"
+    },
+    {
+      "term": "не покупай (этот хлеб)",
+      "definition": "don't buy (this bread): a prohibition stays imperfective even with a specific object, while the affirmative is perfective (купи)",
+      "example": "Не покупай этот хлеб, он несвежий!"
+    }
+  ]
+}

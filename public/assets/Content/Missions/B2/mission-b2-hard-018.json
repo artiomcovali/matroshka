@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-018",
+  "title": "Dissertation Defense Attack",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Committee member aggressively attacking your research",
+  "imageName": "graduationcap.fill",
+  "initialPrompt": "Ваша методология ущербна. Выводы не подтверждаются данными. Как вы надеетесь защитить эту работу?",
+  "systemPrompt": "You are hostile dissertation committee member. Attack methodology, question conclusions, find flaws. Only pass student who defends rigorously with evidence and acknowledges limitations.",
+  "completionCriteria": "User defended dissertation under aggressive questioning.",
+  "responseLimit": 15,
+  "hints": [
+    "Методология основана на... (The methodology is based on...)",
+    "Данные подтверждают вывод о... (The data confirms the conclusion that...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "диссертация",
+      "definition": "dissertation"
+    },
+    {
+      "word": "методология",
+      "definition": "methodology"
+    },
+    {
+      "word": "защита",
+      "definition": "defense"
+    },
+    {
+      "word": "вывод",
+      "definition": "conclusion"
+    },
+    {
+      "word": "ограничения",
+      "definition": "limitations"
+    },
+    {
+      "word": "комиссия",
+      "definition": "committee"
+    }
+  ],
+  "objectives": [
+    "Defend methodology",
+    "Present supporting evidence",
+    "Acknowledge valid criticism",
+    "Show research depth",
+    "Maintain academic composure"
+  ]
+}

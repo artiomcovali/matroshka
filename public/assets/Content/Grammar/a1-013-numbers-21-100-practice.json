@@ -1,0 +1,486 @@
+{
+  "lessonId": "a1-013-numbers-21-100",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Tens, compounds, and irregular numbers",
+      "descriptionRussian": "Десятки, составные числа и нестандартные числительные",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "How do you say '60' in Russian?",
+              "promptEnglish": "How do you say '60' in Russian?",
+              "options": [
+                "пятьдесят",
+                "шестьдесят",
+                "семьдесят",
+                "сорок"
+              ],
+              "answer": "шестьдесят",
+              "hint": "шесть + десят.",
+              "explanation": "Шестьдесят = шесть (6) + десят (tens suffix) = 60."
+            },
+            {
+              "prompt": "How do you say '40' in Russian?",
+              "promptEnglish": "How do you say '40' in Russian?",
+              "options": [
+                "тридцать",
+                "пятьдесят",
+                "сорок",
+                "шестьдесят"
+              ],
+              "answer": "сорок",
+              "hint": "This is one of the three irregular numbers.",
+              "explanation": "Сорок (40) is irregular and must be memorized."
+            },
+            {
+              "prompt": "How do you say '56' in Russian?",
+              "promptEnglish": "50 + 6",
+              "options": [
+                "пятьдесят пять",
+                "шестьдесят шесть",
+                "пятьдесят шесть",
+                "сорок шесть"
+              ],
+              "answer": "пятьдесят шесть",
+              "hint": "50 + 6.",
+              "explanation": "Пятьдесят шесть = пятьдесят (50) + шесть (6) = 56."
+            },
+            {
+              "prompt": "How do you say '90' in Russian?",
+              "promptEnglish": "How do you say '90' in Russian?",
+              "options": [
+                "восемьдесят",
+                "девяносто",
+                "сто",
+                "девять"
+              ],
+              "answer": "девяносто",
+              "hint": "Another irregular number.",
+              "explanation": "Девяносто (90) is irregular. It does not follow the -десят pattern."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ одна минута (31 minutes, feminine)",
+          "contextEnglish": "31 minutes (минута is feminine)",
+          "options": [
+            "тридцать один",
+            "тридцать одна"
+          ],
+          "answer": "тридцать одна",
+          "explanation": "Минута is feminine, so один becomes одна: тридцать одна минута."
+        },
+        {
+          "context": "_____ один рубль (51 rubles, masculine)",
+          "contextEnglish": "51 rubles (рубль is masculine)",
+          "options": [
+            "пятьдесят одна",
+            "пятьдесят один"
+          ],
+          "answer": "пятьдесят один",
+          "explanation": "Рубль is masculine, so use один: пятьдесят один рубль."
+        },
+        {
+          "context": "Which tens number is irregular?",
+          "contextEnglish": "One of these does NOT follow the -десят pattern.",
+          "options": [
+            "пятьдесят",
+            "сорок"
+          ],
+          "answer": "сорок",
+          "explanation": "Сорок (40) is irregular. Пятьдесят (50) follows the regular pattern."
+        },
+        {
+          "context": "Which is correct for 100?",
+          "contextEnglish": "How do you say 100?",
+          "options": [
+            "сто",
+            "девяносто"
+          ],
+          "answer": "сто",
+          "explanation": "Сто means 100 (not 90). Девяносто is 90. Both are irregular."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in compound numbers and sort tens by type",
+      "descriptionRussian": "Вставьте составные числа и рассортируйте десятки",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "В книге _____ страниц. (80 pages)",
+          "Ему _____ лет. (35 years old)",
+          "В городе _____ школ. (100 schools)",
+          "У неё _____ рублей. (70 rubles)"
+        ],
+        "choices": [
+          "восемьдесят",
+          "тридцать пять",
+          "сто",
+          "семьдесят"
+        ],
+        "answers": [
+          "восемьдесят",
+          "тридцать пять",
+          "сто",
+          "семьдесят"
+        ],
+        "grammarFocus": "tens and compound numbers",
+        "hints": [
+          "8 tens = восемь + десят.",
+          "30 + 5.",
+          "An irregular number for the round hundred.",
+          "7 tens = семь + десят."
+        ],
+        "explanations": [
+          "Восемьдесят (80): follows the regular pattern.",
+          "Тридцать пять (35): тридцать (30) + пять (5).",
+          "Сто (100): irregular, memorize it.",
+          "Семьдесят (70): follows the regular pattern."
+        ],
+        "options": [
+          [
+            "восьмидесяти",
+            "восемьдесят",
+            "восемьюдесятью"
+          ],
+          [
+            "тридцать три",
+            "тридцать пять",
+            "двадцать пять",
+            "сорок пять"
+          ],
+          [
+            "восемьдесят",
+            "двести",
+            "девяносто",
+            "сто"
+          ],
+          [
+            "семьдесят",
+            "семидесяти",
+            "семьюдесятью"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort: regular tens or irregular?",
+        "categories": [
+          "Regular (-десят/-дцать)",
+          "Irregular (memorize)"
+        ],
+        "items": [
+          {
+            "word": "тридцать (30)",
+            "category": "Regular (-десят/-дцать)"
+          },
+          {
+            "word": "сорок (40)",
+            "category": "Irregular (memorize)"
+          },
+          {
+            "word": "пятьдесят (50)",
+            "category": "Regular (-десят/-дцать)"
+          },
+          {
+            "word": "девяносто (90)",
+            "category": "Irregular (memorize)"
+          },
+          {
+            "word": "семьдесят (70)",
+            "category": "Regular (-десят/-дцать)"
+          },
+          {
+            "word": "сто (100)",
+            "category": "Irregular (memorize)"
+          },
+          {
+            "word": "шестьдесят (60)",
+            "category": "Regular (-десят/-дцать)"
+          },
+          {
+            "word": "восемьдесят (80)",
+            "category": "Regular (-десят/-дцать)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "He is thirty years old.",
+          "answer": "Ему тридцать лет.",
+          "acceptableVariants": [],
+          "hint": "thirty = тридцать, dative of он = ему",
+          "grammarFocus": "age expressions with tens",
+          "keyWord": "тридцать",
+          "options": [
+            "тридцать",
+            "тринадцать",
+            "сорок",
+            "двадцать"
+          ]
+        },
+        {
+          "english": "There are sixty pages in the book.",
+          "answer": "В книге шестьдесят страниц.",
+          "acceptableVariants": [
+            "Шестьдесят страниц в книге."
+          ],
+          "hint": "sixty = шестьдесят",
+          "grammarFocus": "tens in context",
+          "keyWord": "шестьдесят",
+          "options": [
+            "шестьдесят",
+            "шестнадцать",
+            "семьдесят",
+            "пятьдесят"
+          ]
+        },
+        {
+          "english": "I have one hundred rubles.",
+          "answer": "У меня сто рублей.",
+          "acceptableVariants": [],
+          "hint": "one hundred = сто (irregular)",
+          "grammarFocus": "irregular number сто",
+          "keyWord": "сто",
+          "options": [
+            "сто",
+            "девяносто",
+            "сорок",
+            "шесть"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-patterns",
+      "title": "Pattern Spotter",
+      "titleRussian": "Найди закономерность",
+      "description": "Spot patterns in compound numbers and tens",
+      "descriptionRussian": "Найдите закономерности в составных числах и десятках",
+      "icon": "eye",
+      "patternRecognition": [
+        {
+          "sentence": "пятьдесят, шестьдесят, семьдесят, восемьдесят",
+          "question": "What do these tens have in common?",
+          "options": [
+            "They are all irregular",
+            "They follow the digit + десят pattern",
+            "They all end in -дцать",
+            "They are all below 50"
+          ],
+          "answer": "They follow the digit + десят pattern",
+          "explanation": "50-80 follow the regular pattern: digit + десят (пять + десят, шесть + десят, etc.)."
+        },
+        {
+          "sentence": "сорок, девяносто, сто",
+          "question": "Why must these three numbers be memorized?",
+          "options": [
+            "They are compound numbers",
+            "They are the largest numbers",
+            "They are irregular and don't follow any pattern",
+            "They change for gender"
+          ],
+          "answer": "They are irregular and don't follow any pattern",
+          "explanation": "Сорок (40), девяносто (90), and сто (100) are the three irregular numbers."
+        },
+        {
+          "sentence": "двадцать один стол, двадцать одна книга, двадцать одно окно",
+          "question": "Which part of the compound number changes for gender?",
+          "options": [
+            "двадцать changes",
+            "Both words change",
+            "Only один/одна/одно changes",
+            "Nothing changes"
+          ],
+          "answer": "Only один/одна/одно changes",
+          "explanation": "In compound numbers, only один agrees with gender. The tens part stays the same."
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "How do you say '38' in Russian?",
+              "promptEnglish": "30 + 8",
+              "options": [
+                "тридцать семь",
+                "тридцать восемь",
+                "сорок восемь",
+                "двадцать восемь"
+              ],
+              "answer": "тридцать восемь",
+              "hint": "30 + 8.",
+              "explanation": "Тридцать восемь = тридцать (30) + восемь (8) = 38."
+            },
+            {
+              "prompt": "How do you say '74' in Russian?",
+              "promptEnglish": "70 + 4",
+              "options": [
+                "шестьдесят четыре",
+                "восемьдесят четыре",
+                "семьдесят три",
+                "семьдесят четыре"
+              ],
+              "answer": "семьдесят четыре",
+              "hint": "70 + 4.",
+              "explanation": "Семьдесят четыре = семьдесят (70) + четыре (4) = 74."
+            },
+            {
+              "prompt": "_____ одна копейка (61 kopecks, feminine)",
+              "promptEnglish": "61 kopecks",
+              "options": [
+                "шестьдесят одна",
+                "шестьдесят один",
+                "пятьдесят одна",
+                "семьдесят одна"
+              ],
+              "answer": "шестьдесят одна",
+              "hint": "60 + one (feminine).",
+              "explanation": "Копейка is feminine: шестьдесят одна копейка."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All number topics in one mixed round",
+      "descriptionRussian": "Все темы урока в одном смешанном раунде",
+      "icon": "shuffle",
+      "minimalPairs": [
+        {
+          "context": "_____ одно место (41 seats, neuter)",
+          "contextEnglish": "41 seats (место is neuter)",
+          "options": [
+            "сорок одно",
+            "сорок один"
+          ],
+          "answer": "сорок одно",
+          "explanation": "Место is neuter, so один becomes одно: сорок одно место."
+        },
+        {
+          "context": "Which is 70 in Russian?",
+          "contextEnglish": "70 in Russian",
+          "options": [
+            "семьдесят",
+            "шестьдесят"
+          ],
+          "answer": "семьдесят",
+          "explanation": "Семьдесят (70) = семь + десят. Шестьдесят is 60."
+        },
+        {
+          "context": "How do you say 100?",
+          "contextEnglish": "100 in Russian",
+          "options": [
+            "девяносто",
+            "сто"
+          ],
+          "answer": "сто",
+          "explanation": "Сто = 100. Девяносто = 90. Both are irregular."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Ей _____ лет. (45 years old)",
+          "В магазине _____ товаров. (99 products)",
+          "Мне _____ лет. (28 years old)"
+        ],
+        "choices": [
+          "сорок пять",
+          "девяносто девять",
+          "двадцать восемь"
+        ],
+        "answers": [
+          "сорок пять",
+          "девяносто девять",
+          "двадцать восемь"
+        ],
+        "grammarFocus": "compound numbers in context",
+        "hints": [
+          "40 (irregular) + 5.",
+          "90 (irregular) + 9.",
+          "20 + 8."
+        ],
+        "explanations": [
+          "Сорок пять (45): сорок (40, irregular) + пять (5).",
+          "Девяносто девять (99): девяносто (90, irregular) + девять (9).",
+          "Двадцать восемь (28): двадцать (20) + восемь (8)."
+        ],
+        "options": [
+          [
+            "тридцать пять",
+            "пятьдесят пять",
+            "сорок три",
+            "сорок пять"
+          ],
+          [
+            "девяносто девять",
+            "девяносто восемь",
+            "восемьдесят девять",
+            "сто один"
+          ],
+          [
+            "двадцать шесть",
+            "двадцать восемь",
+            "двадцать девять",
+            "тридцать восемь"
+          ]
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Ему четырьдесят лет.",
+          "error": "четырьдесят",
+          "correction": "сорок",
+          "hint": "40 is irregular in Russian.",
+          "explanation": "40 is not четырьдесят. It is the irregular form сорок.",
+          "options": [
+            "сорок",
+            "четыре",
+            "сорока",
+            "девяносто"
+          ]
+        },
+        {
+          "sentence": "В городе восемьдесят одна школ.",
+          "error": "школ",
+          "correction": "школа",
+          "hint": "After одна, the noun is singular nominative.",
+          "explanation": "After a compound number ending in одна, the noun takes singular nominative: одна школа.",
+          "options": [
+            "школа",
+            "школы",
+            "школу",
+            "школе"
+          ]
+        },
+        {
+          "sentence": "Тридцать один книга на полке.",
+          "error": "один",
+          "correction": "одна",
+          "hint": "Книга is feminine.",
+          "explanation": "Книга is feminine, so один becomes одна: тридцать одна книга.",
+          "options": [
+            "одна",
+            "одно",
+            "одни"
+          ]
+        }
+      ]
+    }
+  ]
+}

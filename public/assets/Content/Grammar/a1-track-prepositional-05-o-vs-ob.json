@@ -1,0 +1,279 @@
+{
+  "id": "a1-track-prepositional-05-o-vs-ob",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Prepositional 5: 'о' or 'об'?",
+  "titleRussian": "Предложный 5: 'о' или 'об'?",
+  "description": "'О' becomes 'об' before vowel-initial nouns. There is also a rare 'обо' variant.",
+  "descriptionRussian": "'О' превращается в 'об' перед гласными. Есть и редкий вариант 'обо.'",
+  "imageName": "textformat",
+  "trackId": "a1-prepositional-mastery",
+  "trackTitle": "Prepositional Mastery",
+  "trackTitleRussian": "Предложный падеж",
+  "trackIndex": 5,
+  "trackTotal": 7,
+  "intro": "This is the least grammatical lesson in the book, and the easiest to explain: Russian adds a consonant here for the same reason English writes 'an apple' instead of 'a apple'. Two vowels colliding is uncomfortable to say, so the language puts something between them. Nothing about the noun changes. Nothing about the case changes. You are learning a mouth habit, and English has already taught you the instinct behind it.",
+  "rules": [
+    "Use 'о' before consonant-initial nouns: о маме, о школе, о работе. The default form.",
+    "Use 'об' before nouns starting with the vowels а, и, о, у, э, and never before е, ё, ю, я: об Антоне, об Иване, об офисе. The 'б' is added for pronunciation.",
+    "Use 'обо' before specific words like 'мне' and 'всём': обо мне (about me), обо всём (about everything). Rare; learn these as fixed phrases."
+  ],
+  "examples": [
+    "Я говорю о маме. (consonant: о)",
+    "Я говорю об Антоне. (vowel а: об)",
+    "Я говорю об офисе. (vowel о: об)",
+    "Я говорю об улице. (vowel у: об)",
+    "Маша думает обо мне. (special: обо мне, fixed phrase)"
+  ],
+  "tables": [
+    {
+      "title": "о / об / обо",
+      "headers": [
+        "Form",
+        "When to use",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "о",
+          "cells": [
+            "before consonant-initial nouns",
+            "о маме, о школе"
+          ]
+        },
+        {
+          "label": "об",
+          "cells": [
+            "before nouns starting with а, и, о, у, э",
+            "об Антоне, об офисе, об улице"
+          ]
+        },
+        {
+          "label": "обо",
+          "cells": [
+            "before specific words (мне, всём, ...)",
+            "обо мне, обо всём"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я думаю о _____.",
+          "promptEnglish": "I'm thinking about my brother.",
+          "options": [
+            "брат",
+            "брата",
+            "брату",
+            "брате"
+          ],
+          "answer": "брате",
+          "hint": "Recap from Lesson 4: о + masculine consonant takes which ending?",
+          "explanation": "Recap from Lesson 4: о + masculine consonant adds -е. Брат → о брате. Today's lesson focuses on the choice between о and об."
+        },
+        {
+          "prompt": "Мы говорим _____ Антоне.",
+          "promptEnglish": "We are talking about Anton.",
+          "options": [
+            "в",
+            "об",
+            "на",
+            "о"
+          ],
+          "answer": "об",
+          "hint": "Антон starts with а (vowel). Which form of the preposition?",
+          "explanation": "When the noun starts with a vowel (а, и, о, у, э), Russian uses 'об' instead of 'о.' Антон starts with А, so 'об Антоне.' The case form (Антоне) is unchanged; only the preposition shifts spelling."
+        },
+        {
+          "prompt": "Я думаю _____ маме.",
+          "promptEnglish": "I'm thinking about mom.",
+          "options": [
+            "на",
+            "в",
+            "о",
+            "об"
+          ],
+          "answer": "о",
+          "hint": "Мама starts with a consonant. Which form?",
+          "explanation": "When the noun starts with a consonant, Russian uses 'о' (the default). Мама starts with м, so 'о маме.' The case form is the same -е ending you've seen all along."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маша рассказывает _____ офисе.",
+          "promptEnglish": "Masha is telling about the office.",
+          "options": [
+            "о",
+            "в",
+            "на",
+            "об"
+          ],
+          "answer": "об",
+          "hint": "Офис starts with о, a vowel. What does that trigger?",
+          "explanation": "Офис starts with о (vowel). Russian writes 'об офисе' (not 'о офисе'). The 'б' is added for pronunciation: 'обофисе' flows better than 'оофисе.'"
+        },
+        {
+          "prompt": "Антон думает _____ Иване.",
+          "promptEnglish": "Anton is thinking about Ivan.",
+          "options": [
+            "в",
+            "о",
+            "об",
+            "на"
+          ],
+          "answer": "об",
+          "hint": "И is a vowel. Apply the rule.",
+          "explanation": "Иван starts with и (vowel). Russian writes 'об Иване.' The 'б' is purely a pronunciation aid; the case form Иване is unchanged."
+        },
+        {
+          "prompt": "Лена пишет _____ концерте.",
+          "promptEnglish": "Lena is writing about the concert.",
+          "options": [
+            "о",
+            "в",
+            "на",
+            "об"
+          ],
+          "answer": "о",
+          "hint": "Концерт starts with к. Which preposition is the default?",
+          "explanation": "Концерт starts with к (consonant). The default 'о' is used. The о/об rule only changes when a hard vowel follows."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я читаю об _____. (about America)"
+    ],
+    "choices": [
+      "Америка",
+      "Америки",
+      "Америке",
+      "Америкой"
+    ],
+    "answers": [
+      "Америке"
+    ],
+    "grammarFocus": "Америка is feminine -а. Prepositional: -а → -е → Америке. The preposition is 'об' because Америка starts with а."
+  },
+  "minimalPairs": [
+    {
+      "context": "Я думаю _____ маме.",
+      "contextEnglish": "I'm thinking about mom.",
+      "options": [
+        "о",
+        "об"
+      ],
+      "answer": "о",
+      "explanation": "Мама starts with м (consonant). The default form is 'о.' Reserve 'об' for vowel-initial nouns."
+    },
+    {
+      "context": "Я думаю _____ Иване.",
+      "contextEnglish": "I'm thinking about Ivan.",
+      "options": [
+        "о",
+        "об"
+      ],
+      "answer": "об",
+      "explanation": "Иван starts with и (vowel). Russian uses 'об' before vowels. The case form Иване does not change."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Я говорю о Антоне.",
+      "translationEnglish": "I am talking about Anton.",
+      "error": "о Антоне",
+      "correction": "об Антоне",
+      "options": [
+        "об Антоне",
+        "обо Антоне",
+        "об Антона"
+      ],
+      "explanation": "Антон starts with the vowel а, so Russian uses об, not о: об Антоне. The plain о would leave two vowels colliding (о + А), which is why о Антоне is wrong. The noun stays in the prepositional: Антоне."
+    },
+    {
+      "sentence": "Маша рассказала о офисе.",
+      "translationEnglish": "Masha told us about the office.",
+      "error": "о офисе",
+      "correction": "об офисе",
+      "options": [
+        "об офисе",
+        "обо офисе",
+        "об офиса"
+      ],
+      "explanation": "Офис starts with the vowel о, so Russian uses об: об офисе. The plain о would put two о's in a row (о + о), which is why о офисе is wrong. The noun stays in the prepositional: офисе."
+    },
+    {
+      "sentence": "Я говорю об брате.",
+      "translationEnglish": "I am talking about my brother.",
+      "error": "об брате",
+      "correction": "о брате",
+      "options": [
+        "о брате",
+        "обо брате",
+        "о брата"
+      ],
+      "explanation": "Брат starts with the consonant б, so the default о is correct: о брате. Об is used only before the vowels а, и, о, у, э (об Антоне, об офисе), so об брате is wrong. The noun stays prepositional: брате."
+    },
+    {
+      "sentence": "Дети читают об книге.",
+      "translationEnglish": "The children are reading about the book.",
+      "error": "об книге",
+      "correction": "о книге",
+      "options": [
+        "о книге",
+        "обо книге",
+        "о книги"
+      ],
+      "explanation": "Книга starts with the consonant к, so the default о is correct: о книге. Об appears only before the vowels а, и, о, у, э, so об книге is wrong. The noun must be prepositional: книге (fem -а → -е)."
+    },
+    {
+      "sentence": "Я думаю об Иван.",
+      "translationEnglish": "I am thinking about Ivan.",
+      "error": "Иван",
+      "correction": "Иване",
+      "options": [
+        "Иване",
+        "Ивана",
+        "Иваном"
+      ],
+      "explanation": "The preposition об is already correct here because Иван starts with the vowel и (об Иване, like об Антоне). The error is the noun form: after о and об the noun must be in the prepositional, and masculine consonant nouns add -е, so Иван → Иване. Иван is the bare nominative (subject form); only the prepositional Иване can follow об."
+    },
+    {
+      "sentence": "Антон всегда думает о мне.",
+      "translationEnglish": "Anton always thinks about me.",
+      "error": "о мне",
+      "correction": "обо мне",
+      "options": [
+        "обо мне",
+        "об мне",
+        "о мной"
+      ],
+      "explanation": "The pronoun мне (the prepositional of я) takes the special variant обо: обо мне. Plain о мне is the common learner error; Russian inserts the extra vowel to ease pronunciation before this specific word, exactly as in обо всём (about everything)."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "об",
+      "definition": "about (used before nouns starting with the vowels а, и, о, у, э)",
+      "example": "Я думаю об Антоне."
+    },
+    {
+      "term": "обо",
+      "definition": "about (rare variant, used before specific words like 'мне,' 'всём')",
+      "example": "Маша думает обо мне."
+    },
+    {
+      "term": "гласный",
+      "definition": "vowel (а, и, о, у, э are the 'hard' vowels that trigger 'об')",
+      "example": "Антон начинается с гласной."
+    }
+  ]
+}

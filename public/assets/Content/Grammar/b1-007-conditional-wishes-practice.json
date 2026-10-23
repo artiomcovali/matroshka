@@ -1,0 +1,476 @@
+{
+  "lessonId": "b1-007-conditional-wishes",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Wishes and Regrets Quiz",
+      "titleRussian": "Желания и сожаления",
+      "description": "Choose the correct form for wishes and regrets",
+      "descriptionRussian": "Выберите правильную форму для желаний и сожалений",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я _____ заказать кофе, пожалуйста. (I would like to order coffee, please.)",
+              "promptEnglish": "I would like to order coffee, please.",
+              "options": [
+                "хотеть",
+                "хотел бы",
+                "хочу",
+                "захочу"
+              ],
+              "answer": "хотел бы",
+              "hint": "Polite request = хотел бы + infinitive.",
+              "explanation": "Polite wish: хотел бы (I would like to). More polite than хочу (I want)."
+            },
+            {
+              "prompt": "_____, что ты не пришёл на вечеринку. (It's a pity you didn't come to the party.)",
+              "promptEnglish": "It's a pity you didn't come to the party.",
+              "options": [
+                "Странно",
+                "Хорошо",
+                "Плохо",
+                "Жаль"
+              ],
+              "answer": "Жаль",
+              "hint": "Expressing regret/disappointment about something that didn't happen.",
+              "explanation": "Жаль, что... = It's a pity that... Used for expressing regret."
+            },
+            {
+              "prompt": "_____ позвонить ей раньше. (We should have called her earlier.)",
+              "promptEnglish": "We should have called her earlier.",
+              "options": [
+                "Нужно",
+                "Надо будет",
+                "Надо было",
+                "Можно"
+              ],
+              "answer": "Надо было",
+              "hint": "Past regret: something should have been done but wasn't.",
+              "explanation": "Надо было + infinitive = should have (past regret). We didn't call, but should have."
+            },
+            {
+              "prompt": "Мне _____ побывать в Японии. (I would like to visit Japan. - soft wish)",
+              "promptEnglish": "I would like to visit Japan (softer form).",
+              "options": [
+                "хочется",
+                "хотелось бы",
+                "можно",
+                "нужно"
+              ],
+              "answer": "хотелось бы",
+              "hint": "The softest, most gentle way to express a wish (impersonal).",
+              "explanation": "Мне хотелось бы = I would like to (impersonal, very polite/gentle)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я _____ поговорить с вами. (I would like to speak with you. - polite)",
+              "promptEnglish": "I would like to speak with you.",
+              "options": [
+                "хотеть",
+                "хотела бы",
+                "буду хотеть",
+                "хочу"
+              ],
+              "answer": "хотела бы",
+              "hint": "Polite wish (female speaker) = хотела бы.",
+              "explanation": "Polite wish: хотела бы (female form of хотел бы). Gender shows in past tense form."
+            },
+            {
+              "prompt": "_____, что мы не успели на поезд. (It's a pity we missed the train.)",
+              "promptEnglish": "It's a pity we missed the train.",
+              "options": [
+                "Хорошо",
+                "Может",
+                "Жаль",
+                "Надо"
+              ],
+              "answer": "Жаль",
+              "hint": "Expressing disappointment about a missed opportunity.",
+              "explanation": "Жаль, что... = It's a pity that... Regret about something that happened."
+            },
+            {
+              "prompt": "_____ взять зонт. Теперь мы мокрые. (We should have taken an umbrella. Now we're wet.)",
+              "promptEnglish": "We should have taken an umbrella.",
+              "options": [
+                "Надо будет",
+                "Нужно",
+                "Надо",
+                "Надо было"
+              ],
+              "answer": "Надо было",
+              "hint": "Past regret about something not done. Which form?",
+              "explanation": "Надо было + infinitive for past regret: we should have taken an umbrella but didn't."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я _____ кофе. (I want coffee. - direct/casual)",
+          "contextEnglish": "I want coffee (direct, casual).",
+          "options": [
+            "хочу",
+            "хотел бы"
+          ],
+          "answer": "хочу",
+          "explanation": "Direct statement of desire: хочу (I want). Less polite, more casual."
+        },
+        {
+          "context": "Я _____ кофе, пожалуйста. (I would like coffee, please. - polite)",
+          "contextEnglish": "I would like coffee, please (polite request).",
+          "options": [
+            "хочу",
+            "хотел бы"
+          ],
+          "answer": "хотел бы",
+          "explanation": "Polite request: хотел бы (I would like). Softer and more formal than хочу."
+        },
+        {
+          "context": "_____ позвонить маме. (I need to call mom. - present obligation)",
+          "contextEnglish": "I need to call mom (right now).",
+          "options": [
+            "Надо",
+            "Надо было"
+          ],
+          "answer": "Надо",
+          "explanation": "Present obligation: надо (need to). Not a regret, but a current need."
+        },
+        {
+          "context": "_____ позвонить маме вчера. (I should have called mom yesterday. - regret)",
+          "contextEnglish": "I should have called mom yesterday.",
+          "options": [
+            "Надо",
+            "Надо было"
+          ],
+          "answer": "Надо было",
+          "explanation": "Past regret: надо было (should have). I didn't call, but I should have."
+        }
+      ]
+    },
+    {
+      "id": "round-2-sort-fill",
+      "title": "Sort and Fill",
+      "titleRussian": "Сортировка и заполнение",
+      "description": "Sort expressions by type and fill in the correct forms",
+      "descriptionRussian": "Рассортируйте выражения и заполните формы",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort: Is this a Wish, a Regret, or 'Should Have'?",
+        "categories": [
+          "Wish (хотел бы)",
+          "Regret (жаль)",
+          "Should Have (надо было)"
+        ],
+        "items": [
+          {
+            "word": "Я хотел бы узнать ваше мнение.",
+            "category": "Wish (хотел бы)"
+          },
+          {
+            "word": "Жаль, что он не пришёл.",
+            "category": "Regret (жаль)"
+          },
+          {
+            "word": "Надо было начать раньше.",
+            "category": "Should Have (надо было)"
+          },
+          {
+            "word": "Мне хотелось бы побывать в Италии.",
+            "category": "Wish (хотел бы)"
+          },
+          {
+            "word": "Жаль, что мы опоздали.",
+            "category": "Regret (жаль)"
+          },
+          {
+            "word": "Надо было купить билеты заранее.",
+            "category": "Should Have (надо было)"
+          },
+          {
+            "word": "Я хотел бы поблагодарить вас.",
+            "category": "Wish (хотел бы)"
+          },
+          {
+            "word": "Жаль, что погода плохая.",
+            "category": "Regret (жаль)"
+          },
+          {
+            "word": "Надо было слушать учителя.",
+            "category": "Should Have (надо было)"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Я _____ задать вам вопрос. (I would like to ask you a question.)",
+          "_____, что магазин уже закрыт. (It's a pity the store is already closed.)",
+          "_____ купить продукты вчера. (We should have bought groceries yesterday.)",
+          "Мне _____ посетить этот музей. (I would like to visit this museum. - soft)"
+        ],
+        "choices": [
+          "хотел бы",
+          "Жаль",
+          "Надо было",
+          "хотелось бы"
+        ],
+        "answers": [
+          "хотел бы",
+          "Жаль",
+          "Надо было",
+          "хотелось бы"
+        ],
+        "grammarFocus": "Three main constructions: wish, regret, should have",
+        "hints": [
+          "Polite request/wish. Which form?",
+          "Disappointment about a closed store. Which word starts this?",
+          "Past regret about not buying groceries. Which construction?",
+          "Soft impersonal wish. Which form?"
+        ],
+        "explanations": [
+          "Polite wish: хотел бы + infinitive.",
+          "Expressing disappointment: Жаль, что...",
+          "Past regret: Надо было + infinitive.",
+          "Soft impersonal wish: хотелось бы + infinitive."
+        ],
+        "options": [
+          [
+            "хотелось бы",
+            "Надо было",
+            "хотел бы",
+            "Жаль"
+          ],
+          [
+            "Жаль",
+            "Надо было",
+            "хотелось бы",
+            "хотел бы"
+          ],
+          [
+            "хотелось бы",
+            "Надо было",
+            "хотел бы",
+            "Жаль"
+          ],
+          [
+            "Жаль",
+            "хотел бы",
+            "хотелось бы",
+            "Надо было"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-errors-build",
+      "title": "Fix and Build",
+      "titleRussian": "Исправь и построй",
+      "description": "Fix errors in wish and regret constructions",
+      "descriptionRussian": "Исправьте ошибки в конструкциях желания и сожаления",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Я хотел заказать столик.",
+          "error": "хотел",
+          "correction": "хотел бы",
+          "hint": "Without бы this is past tense ('I wanted'), not a polite wish.",
+          "explanation": "Хотел = 'I wanted' (past). Хотел бы = 'I would like' (polite wish). The бы makes it conditional.",
+          "options": [
+            "хотел бы",
+            "хочу",
+            "захотел"
+          ]
+        },
+        {
+          "sentence": "Надо позвонить вчера.",
+          "error": "Надо",
+          "correction": "Надо было",
+          "hint": "Вчера = past. 'Need to call yesterday' doesn't work. You need 'should have.'",
+          "explanation": "Past regret requires надо было: Надо было позвонить вчера = Should have called yesterday.",
+          "options": [
+            "Надо было",
+            "Нужно",
+            "Надо будет"
+          ]
+        },
+        {
+          "sentence": "Жаль, что она придёт завтра.",
+          "error": "придёт",
+          "correction": "не придёт",
+          "hint": "Жаль expresses regret. Is 'she will come tomorrow' something to regret? Usually we regret negative things.",
+          "explanation": "Жаль, что она придёт is unusual (regretting she'll come). More natural: Жаль, что она не придёт (It's a pity she won't come).",
+          "options": [
+            "не придёт",
+            "пришла",
+            "придут"
+          ]
+        },
+        {
+          "sentence": "Мне хочется бы поехать в отпуск.",
+          "error": "хочется",
+          "correction": "хотелось",
+          "hint": "With бы, the verb must be past tense: хотелось бы, not хочется бы.",
+          "explanation": "The conditional requires past tense + бы: хотелось бы (not present хочется бы).",
+          "options": [
+            "хотелось",
+            "хотел",
+            "хотела"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "I would like to book a room, please.",
+          "answer": "Я хотел бы забронировать номер, пожалуйста.",
+          "acceptableVariants": [
+            "Я хотела бы забронировать номер, пожалуйста."
+          ],
+          "hint": "Polite wish: хотел бы + забронировать (to book), номер (room)",
+          "grammarFocus": "Polite wish with хотел бы",
+          "keyWord": "хотел бы",
+          "options": [
+            "хотел бы",
+            "хочу",
+            "хотел",
+            "захочу"
+          ]
+        },
+        {
+          "english": "It's a pity we didn't see the movie.",
+          "answer": "Жаль, что мы не посмотрели фильм.",
+          "acceptableVariants": [
+            "Жаль, что мы не видели этот фильм."
+          ],
+          "hint": "Regret: Жаль, что + не посмотрели (didn't watch)",
+          "grammarFocus": "Жаль, что for regret",
+          "keyWord": "Жаль",
+          "options": [
+            "Жаль",
+            "Хорошо",
+            "Надо",
+            "Можно"
+          ]
+        },
+        {
+          "english": "We should have left earlier.",
+          "answer": "Надо было выехать раньше.",
+          "acceptableVariants": [
+            "Надо было уехать раньше.",
+            "Нужно было выехать раньше."
+          ],
+          "hint": "Past regret: Надо было + выехать (to leave/depart)",
+          "grammarFocus": "Надо было for past regret",
+          "keyWord": "было",
+          "options": [
+            "было",
+            "был",
+            "была",
+            "будет"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All wish and regret patterns in one round",
+      "descriptionRussian": "Все паттерны желаний и сожалений в одном раунде",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____, что ты не сказал мне раньше. (It's a pity you didn't tell me earlier.)",
+              "promptEnglish": "It's a pity you didn't tell me earlier.",
+              "options": [
+                "Жаль",
+                "Надо",
+                "Хорошо",
+                "Можно"
+              ],
+              "answer": "Жаль",
+              "hint": "Expressing regret/disappointment about something not done.",
+              "explanation": "Regret about something that didn't happen: Жаль, что не сказал."
+            },
+            {
+              "prompt": "_____ предупредить её заранее. (I should have warned her in advance.)",
+              "promptEnglish": "I should have warned her in advance.",
+              "options": [
+                "Можно было",
+                "Надо было",
+                "Надо",
+                "Нужно"
+              ],
+              "answer": "Надо было",
+              "hint": "Past regret (didn't warn, but should have).",
+              "explanation": "Past regret: Надо было предупредить. The warning should have happened but didn't."
+            },
+            {
+              "prompt": "Я _____ попросить вас о помощи. (I would like to ask you for help.)",
+              "promptEnglish": "I would like to ask you for help.",
+              "options": [
+                "буду хотеть",
+                "хотел бы",
+                "хотел",
+                "хочу"
+              ],
+              "answer": "хотел бы",
+              "hint": "Polite request for help.",
+              "explanation": "Polite wish: хотел бы попросить. More appropriate than direct хочу."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я _____ поговорить. (I would like to talk. - polite wish)",
+          "contextEnglish": "I would like to talk (polite wish).",
+          "options": [
+            "хотел бы",
+            "хотел"
+          ],
+          "answer": "хотел бы",
+          "explanation": "Polite wish: хотел бы (conditional). Without бы, хотел means 'I wanted' (past tense)."
+        },
+        {
+          "context": "Я _____ поговорить, но не успел. (I wanted to talk but didn't have time. - past fact)",
+          "contextEnglish": "I wanted to talk but didn't have time.",
+          "options": [
+            "хотел бы",
+            "хотел"
+          ],
+          "answer": "хотел",
+          "explanation": "Past fact (actually wanted): хотел (past tense). Not a hypothetical wish."
+        },
+        {
+          "context": "_____ сделать это вчера. (I should have done this yesterday. - regret)",
+          "contextEnglish": "I should have done this yesterday (regret).",
+          "options": [
+            "Надо",
+            "Надо было"
+          ],
+          "answer": "Надо было",
+          "explanation": "Past regret: надо было (should have). The action was missed."
+        },
+        {
+          "context": "_____ сделать это сегодня. (I need to do this today. - present obligation)",
+          "contextEnglish": "I need to do this today (present).",
+          "options": [
+            "Надо",
+            "Надо было"
+          ],
+          "answer": "Надо",
+          "explanation": "Present obligation: надо (need to). Still time to do it."
+        }
+      ]
+    }
+  ]
+}

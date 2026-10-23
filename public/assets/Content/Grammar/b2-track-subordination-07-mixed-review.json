@@ -1,0 +1,407 @@
+{
+  "id": "b2-track-subordination-07-mixed-review",
+  "level": "B2",
+  "focusArea": "sentenceStructure",
+  "title": "Subordination 8: Mixed Review",
+  "titleRussian": "Подчинение 8: повторение",
+  "description": "Bring the whole track together: который (agreement, case, and after prepositions), чтобы vs что, the subject test for чтобы, and the cause, concession, and condition connectors, all chosen and built in realistic sentences.",
+  "descriptionRussian": "Сводим весь блок воедино: который (согласование, падеж и с предлогами), чтобы и что, проверка по подлежащему для чтобы, а также союзы причины, уступки и условия — всё в естественных предложениях.",
+  "imageName": "checklist",
+  "trackId": "b2-subordination-mastery",
+  "trackTitle": "Subordination Mastery",
+  "trackTitleRussian": "Сложноподчинённые предложения",
+  "trackIndex": 8,
+  "trackTotal": 8,
+  "intro": "Everything that joins two clauses, mixed. The linking word is never optional in Russian, so the first thing to settle is which relationship you are expressing: identifying something, reporting a fact, stating a goal, giving a cause, conceding an obstacle, or setting a condition. The word follows from the relationship, and the grammar follows from the word.",
+  "rules": [
+    "который: gender and number from the antecedent, case from the role inside the clause; a preposition, if needed, comes first (в котором, с которой).",
+    "что reports a fact with a finite verb; чтобы states a goal with an infinitive or a past-tense verb. 'In order to / so that' fits -> чтобы.",
+    "The чтобы subject test: same subject -> bare infinitive (Я хочу прийти); different subjects -> чтобы + past (Я хочу, чтобы ты пришёл).",
+    "Cause connectors point in set directions: потому что / из-за того что / благодаря тому что / так как introduce the cause; поэтому introduces the result.",
+    "Concession (хотя, несмотря на то что) = result despite an obstacle; condition (если, в случае если) = result depends on a condition, future in both clauses for a real future."
+  ],
+  "examples": [
+    "Это город, в котором я родился. (который: masc + в + prepositional)",
+    "Я знаю, что ты прав. (что: reporting a fact)",
+    "Я пришёл, чтобы попрощаться. (чтобы: goal, same subject, infinitive)",
+    "Я хочу, чтобы все были счастливы. (чтобы: different subject, past)",
+    "Было поздно, поэтому мы ушли. (поэтому: introduces the result)",
+    "Хотя было трудно, мы не сдались. (хотя: result despite an obstacle)"
+  ],
+  "tables": [
+    {
+      "title": "The whole track at a glance",
+      "headers": [
+        "The link you need",
+        "Connector",
+        "Verb form / key rule"
+      ],
+      "rows": [
+        {
+          "label": "describe a noun",
+          "cells": [
+            "который",
+            "gender/number from antecedent, case from clause"
+          ]
+        },
+        {
+          "label": "report a fact",
+          "cells": [
+            "что",
+            "finite verb, any tense"
+          ]
+        },
+        {
+          "label": "state a goal",
+          "cells": [
+            "чтобы",
+            "infinitive (same subj) / past (diff subj)"
+          ]
+        },
+        {
+          "label": "give a cause / result",
+          "cells": [
+            "потому что / поэтому",
+            "cause after result / result after cause"
+          ]
+        },
+        {
+          "label": "concede an obstacle",
+          "cells": [
+            "хотя / несмотря на то что",
+            "result happens anyway"
+          ]
+        },
+        {
+          "label": "set a condition",
+          "cells": [
+            "если / в случае если",
+            "future in both clauses (real future)"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Это статья, _____ я долго искал.",
+          "promptEnglish": "This is the article that I searched for so long.",
+          "options": [
+            "которую",
+            "которая",
+            "которой",
+            "о которой"
+          ],
+          "answer": "которую",
+          "hint": "статья is feminine. The verb искать takes a direct object in the accusative here.",
+          "explanation": "статья is feminine singular, and inside the clause it is the direct object of искать (accusative): которую.Которая would be the subject form; которой is genitive/dative/instrumental; о которой adds a preposition the verb does not need here."
+        },
+        {
+          "prompt": "Я уверен, _____ мы найдём решение.",
+          "promptEnglish": "I am sure that we will find a solution.",
+          "options": [
+            "чтобы",
+            "что",
+            "чтоб",
+            "как"
+          ],
+          "answer": "что",
+          "hint": "Is this reporting a conviction (a fact), or stating a goal?",
+          "explanation": "уверен, что reports a fact (a conviction about what will happen), with a finite verb найдём. There is no purpose here, so что, not чтобы. The 'in order to' test fails."
+        },
+        {
+          "prompt": "Родители хотят, чтобы дети _____ счастливы.",
+          "promptEnglish": "The parents want their children to be happy.",
+          "options": [
+            "были",
+            "быть",
+            "будут",
+            "есть"
+          ],
+          "answer": "были",
+          "hint": "Different subjects (parents want, children are). After чтобы, which form?",
+          "explanation": "The wanters (родители) and the subject of the wish (дети) differ, so чтобы + past: были (plural, agreeing with дети). The infinitive быть and the future будут are both impossible after чтобы with a different subject."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Магазины были закрыты, _____ был праздник.",
+          "promptEnglish": "The shops were closed because it was a holiday.",
+          "options": [
+            "поэтому",
+            "хотя",
+            "если",
+            "потому что"
+          ],
+          "answer": "потому что",
+          "hint": "The result (shops closed) comes first; the holiday is the reason. Which connector introduces a cause?",
+          "explanation": "The result is stated first and the second clause gives the cause (a holiday), so потому что.Поэтому would point the wrong way (result, not cause), and хотя/если would change the logic to concession or condition."
+        },
+        {
+          "prompt": "_____ мы устали, мы решили дойти до конца.",
+          "promptEnglish": "Although we were tired, we decided to make it to the end.",
+          "options": [
+            "Так как",
+            "Если",
+            "Хотя",
+            "Поэтому"
+          ],
+          "answer": "Хотя",
+          "hint": "Tiredness should have stopped them, but they pushed on. Despite, because, or if?",
+          "explanation": "Being tired is an obstacle they overcame, so concession: Хотя.Так как would make tiredness the reason they continued (which is illogical), and если would make continuing depend on being tired. The 'anyway' logic marks хотя."
+        },
+        {
+          "prompt": "Вот человек, _____ я хочу тебя познакомить.",
+          "promptEnglish": "Here is the person I want to introduce you to.",
+          "options": [
+            "которого",
+            "с которым",
+            "к которому",
+            "о котором"
+          ],
+          "answer": "с которым",
+          "hint": "познакомить тебя С кем? takes с + instrumental. человек is masculine.",
+          "explanation": "познакомить кого-то С кем-то uses с + instrumental.Человек is masculine, so с + instrumental = с которым. The preposition с leads, and the verb decides it, exactly as in lesson 2."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Это дом, _____.",
+          "promptEnglish": "This is the house I grew up in.",
+          "options": [
+            "в котором я вырос",
+            "который я вырос",
+            "в которого я вырос",
+            "котором я вырос"
+          ],
+          "answer": "в котором я вырос",
+          "hint": "The verb's preposition travels with the relative.",
+          "explanation": "Вырасти в доме takes в + prepositional, and the preposition leads the relative: в котором я вырос. A bare котором has no case licenser; который fails to carry the 'in' meaning."
+        },
+        {
+          "prompt": "Учитель хочет, _____ тему.",
+          "promptEnglish": "The teacher wants the students to understand the topic.",
+          "options": [
+            "чтобы студенты поняли",
+            "чтобы студенты поймут",
+            "что студенты поняли",
+            "чтобы студенты понять"
+          ],
+          "answer": "чтобы студенты поняли",
+          "hint": "Different subjects: чтобы + past.",
+          "explanation": "The wanter and the understanders differ, so чтобы + past: чтобы студенты поняли. Поймут is future, blocked after чтобы; что would report an accomplished fact; the infinitive needs one subject."
+        },
+        {
+          "prompt": "Поезд опоздал, _____.",
+          "promptEnglish": "The train was late because there was an accident.",
+          "options": [
+            "потому что была авария",
+            "поэтому была авария",
+            "чтобы была авария",
+            "хотя была авария"
+          ],
+          "answer": "потому что была авария",
+          "hint": "The second clause gives the reason.",
+          "explanation": "The reason follows with потому что: опоздал, потому что была авария. Поэтому would make the accident the result of the lateness; хотя would claim the train was late despite the accident."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "_____, матч не отменили.",
+          "promptEnglish": "Although it was raining, the match was not cancelled.",
+          "options": [
+            "Хотя шёл дождь",
+            "Если шёл дождь",
+            "Потому что шёл дождь",
+            "Чтобы шёл дождь"
+          ],
+          "answer": "Хотя шёл дождь",
+          "hint": "The rain should have stopped the match but didn't.",
+          "explanation": "Concession takes Хотя: Хотя шёл дождь, матч не отменили. Если makes cancellation depend on rain; потому что would make rain the reason for NOT cancelling, which is backwards."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ завтра будет солнечно, мы поедем за город. (If it is sunny tomorrow, we'll go out of town.)"
+    ],
+    "choices": [
+      "Если",
+      "Хотя",
+      "Поэтому",
+      "Несмотря на то что"
+    ],
+    "answers": [
+      "Если"
+    ],
+    "grammarFocus": "The trip DEPENDS on the weather, which is still uncertain, so this is a condition: Если. Note the future будет in the if-clause (Russian uses the future for a real future condition). Хотя and несмотря на то что would make it concessive, and поэтому introduces a result."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Я хочу, чтобы ты будешь здоров.",
+      "translationEnglish": "I want you to be healthy.",
+      "error": "будешь",
+      "correction": "был",
+      "options": [
+        "был",
+        "быть",
+        "была"
+      ],
+      "explanation": "After чтобы with a different subject the verb takes the past-tense form, which works as a subjunctive: был, agreeing with ты as masculine.Будешь is a finite future, and чтобы never allows a future or present finite verb.Быть is an infinitive, used only when the subject matches the wanter, and была is the feminine past, the wrong gender for ты taken as masculine here.",
+      "hint": "After чтобы the verb is never future. Use the past form agreeing with ты."
+    },
+    {
+      "sentence": "Это статьи, в которых я давно мечтал прочитать.",
+      "translationEnglish": "These are the articles I long dreamed of reading.",
+      "error": "в которых",
+      "correction": "которые",
+      "options": [
+        "которые",
+        "о которых",
+        "которых"
+      ],
+      "explanation": "The articles are the direct object of прочитать ('to read them'), which takes a plain accusative: plural inanimate gives которые with no preposition. В которых wrongly inserts a preposition the verb прочитать does not use."
+    },
+    {
+      "sentence": "Я знаю девушку, которую живёт здесь.",
+      "translationEnglish": "I know the girl who lives here.",
+      "error": "которую",
+      "correction": "которая",
+      "options": [
+        "которая",
+        "которой",
+        "которого"
+      ],
+      "explanation": "Inside the clause 'who lives here,' который is the SUBJECT of живёт, so it takes the nominative: feminine plus nominative gives которая.Которую was wrongly copied from девушку, which is accusative as the object of знаю in the main clause, but который never inherits the antecedent's case.Которую would be right only if который were the object inside its clause ('девушка, которую я знаю'), and которой (genitive, dative, instrumental) or которого (masculine) do not fit a feminine subject.",
+      "hint": "девушку is the object of 'know,' but inside its own clause который is doing the living."
+    },
+    {
+      "sentence": "Я позвонил, что узнать адрес.",
+      "translationEnglish": "I called in order to find out the address.",
+      "error": "что",
+      "correction": "чтобы",
+      "options": [
+        "чтобы",
+        "как",
+        "потому что"
+      ],
+      "explanation": "Calling was done for a PURPOSE, to find out the address, and purpose is чтобы plus an infinitive: чтобы узнать.Что reports a fact with a finite verb and cannot precede the bare infinitive узнать.Как would mean 'how,' and потому что ('because') would give the reason for calling rather than its goal, so neither matches the 'in order to' sense.",
+      "hint": "Why did you call? 'In order to' points to the goal connector."
+    },
+    {
+      "sentence": "Если было темно, мы всё равно нашли дорогу.",
+      "translationEnglish": "Although it was dark, we found the way anyway.",
+      "error": "Если",
+      "correction": "Хотя",
+      "options": [
+        "Хотя",
+        "Несмотря на то что",
+        "Потому что"
+      ],
+      "explanation": "всё равно ('anyway') shows the darkness did NOT stop them from finding the way, the despite-an-obstacle logic of concession: Хотя ('although').Если ('if') would make finding the way depend on the darkness, a conditional reading that contradicts 'we found it anyway.' Несмотря на то что also marks concession but is the formal multi-word form usually placed at the head of the sentence, and Потому что ('because') would wrongly turn the darkness into the reason they found the way.",
+      "hint": "всё равно says the dark did not stop them. That despite-feeling is concession."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Книга, которую мне подарили, лежит на столе.",
+      "question": "Which link is this connector making?",
+      "options": [
+        "describing a noun (который)",
+        "stating a goal (чтобы)",
+        "giving a cause (потому что)",
+        "setting a condition (если)"
+      ],
+      "answer": "describing a noun (который)",
+      "explanation": "который attaches a clause to the noun книга and plays a role inside it (the object of подарили). That is the describe-a-noun link, not a goal, cause, or condition."
+    },
+    {
+      "sentence": "Я открыл окно, чтобы проветрить комнату.",
+      "question": "Which link is this connector making?",
+      "options": [
+        "describing a noun (который)",
+        "stating a goal (чтобы)",
+        "giving a cause (потому что)",
+        "setting a condition (если)"
+      ],
+      "answer": "stating a goal (чтобы)",
+      "explanation": "чтобы + infinitive проветрить gives the purpose of opening the window. 'In order to air out the room' fits, so this is the goal link, not a reported fact or a cause."
+    },
+    {
+      "sentence": "Я не пришёл, потому что заболел.",
+      "question": "Which link is this connector making?",
+      "options": [
+        "describing a noun (который)",
+        "stating a goal (чтобы)",
+        "giving a cause (потому что)",
+        "setting a condition (если)"
+      ],
+      "answer": "giving a cause (потому что)",
+      "explanation": "The second clause gives the reason for not coming, so this is the cause link. потому что introduces the cause after the result; it is not a goal or a condition."
+    },
+    {
+      "sentence": "Если ты позвонишь, я приду.",
+      "question": "Which link is this connector making?",
+      "options": [
+        "describing a noun (который)",
+        "stating a goal (чтобы)",
+        "giving a cause (потому что)",
+        "setting a condition (если)"
+      ],
+      "answer": "setting a condition (если)",
+      "explanation": "Coming depends on the call, and both verbs are future (позвонишь, приду), the real-future condition pattern. That is the condition link, not a cause."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Он сказал, _____ опоздает. (He said that he would be late - a fact.)",
+      "contextEnglish": "He said that he would be late.",
+      "options": [
+        "что",
+        "чтобы"
+      ],
+      "answer": "что",
+      "explanation": "He REPORTS a fact (that he will be late), so что + finite verb опоздает.Чтобы would express a goal, but there is no purpose here, only a statement. 'In order to' does not fit."
+    },
+    {
+      "context": "Я открыл окно, _____ проветрить. (I opened the window in order to air it out - a goal.)",
+      "contextEnglish": "I opened the window in order to air it out.",
+      "options": [
+        "что",
+        "чтобы"
+      ],
+      "answer": "чтобы",
+      "explanation": "This states the PURPOSE of opening the window, so чтобы + infinitive проветрить (same subject).Что would report a fact, but here we have a goal. 'In order to air it out' confirms чтобы."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "который — два шага",
+      "definition": "gender and number from the antecedent, case from the role inside the clause; a preposition, if the role needs one, comes first.",
+      "example": "книга, которую я читаю; дом, в котором я живу; друзья, которым я помог."
+    },
+    {
+      "term": "что / чтобы",
+      "definition": "что reports a fact (finite verb); чтобы states a goal (infinitive for the same subject, past tense for a different one). Test with 'in order to.'",
+      "example": "Он сказал, что придёт. / Он пришёл, чтобы помочь. / Я хочу, чтобы ты пришёл."
+    },
+    {
+      "term": "союзы причины, уступки, условия",
+      "definition": "cause (потому что / поэтому / так как / из-за того что / благодаря тому что), concession (хотя / несмотря на то что), condition (если / в случае если).",
+      "example": "Опоздал, потому что проспал. Хотя устал, дошёл. Если будет время, зайду."
+    }
+  ]
+}

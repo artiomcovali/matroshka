@@ -1,0 +1,294 @@
+{
+  "id": "c1-009-academic-writing",
+  "level": "C1",
+  "focusArea": "vocabulary",
+  "title": "Academic Writing",
+  "titleRussian": "Академический русский",
+  "description": "Academic and scientific writing conventions",
+  "descriptionRussian": "Научный стиль речи",
+  "imageName": "graduationcap.fill",
+  "intro": "Academic Russian (научный стиль) is used in scholarly articles, theses, and scientific texts. KEY FEATURES: Impersonal constructions (рассматривается, было установлено), hedging (по-видимому, представляется), precision (терминология), objectivity (avoid я, use мы or passive). STRUCTURE: Clear thesis, logical connectors, citations. VOCABULARY: Abstract nouns, compound terms, Latinate borrowings. SYNTAX: Complex sentences with multiple subordinate clauses, participial phrases. Differs from business Russian in being more analytical and less formulaic.",
+  "rules": [
+    "Impersonal: Рассматривается вопрос..., Было установлено, что...",
+    "Hedging: по-видимому, вероятно, представляется, можно предположить",
+    "We instead of I: Мы полагаем (not Я думаю), Нами было показано",
+    "Abstract nouns: исследование, рассмотрение, анализ, изучение"
+  ],
+  "examples": [
+    "В данной работе рассматривается проблема... (This paper examines the problem of...)",
+    "Было установлено, что данный метод эффективен. (It was established that this method is effective.)",
+    "По-видимому, результаты подтверждают гипотезу. (Apparently, the results confirm the hypothesis.)",
+    "Нами был проведён анализ полученных данных. (We conducted an analysis of the obtained data.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Academic opening: В данной работе _____ проблема... (is examined)",
+          "promptEnglish": "This paper examines the problem...",
+          "options": [
+            "смотрится",
+            "глядится",
+            "видится",
+            "рассматривается"
+          ],
+          "answer": "рассматривается",
+          "hint": "Impersonal passive",
+          "explanation": "Academic: рассматривается (is examined)."
+        },
+        {
+          "prompt": "Hedging: _____, результаты верны. (apparently)",
+          "promptEnglish": "Apparently, the results are correct.",
+          "options": [
+            "Точно",
+            "Конечно",
+            "По-видимому",
+            "Ясно"
+          ],
+          "answer": "По-видимому",
+          "hint": "Academic caution",
+          "explanation": "Hedging: По-видимому (apparently)."
+        },
+        {
+          "prompt": "Formal 'we': _____ было показано, что... (By us)",
+          "promptEnglish": "We have shown that... (formal)",
+          "options": [
+            "Я",
+            "Мы",
+            "Мной",
+            "Нами"
+          ],
+          "answer": "Нами",
+          "hint": "Instrumental 'we' in passive",
+          "explanation": "Formal: Нами было показано."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Finding: Было _____, что метод работает. (established)",
+          "promptEnglish": "It was established that the method works.",
+          "options": [
+            "хотено",
+            "установлено",
+            "думано",
+            "сказано"
+          ],
+          "answer": "установлено",
+          "hint": "Academic = установлено",
+          "explanation": "Academic: Было установлено."
+        },
+        {
+          "prompt": "Hedging: _____ предположить, что... (One can)",
+          "promptEnglish": "One can assume that...",
+          "options": [
+            "Надо",
+            "Нужно",
+            "Можно",
+            "Должно"
+          ],
+          "answer": "Можно",
+          "hint": "Tentative = можно предположить",
+          "explanation": "Hedging: Можно предположить."
+        },
+        {
+          "prompt": "Which is TOO casual for academic writing?",
+          "promptEnglish": "Identify informal language",
+          "options": [
+            "Представляется вероятным...",
+            "Я думаю, что это круто.",
+            "Нами было показано...",
+            "Рассматривается вопрос..."
+          ],
+          "answer": "Я думаю, что это круто.",
+          "hint": "я + slang",
+          "explanation": "Too casual: Я думаю, круто."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Conclusion: _____ образом, гипотеза подтверждена. (Thus)",
+          "promptEnglish": "Thus, the hypothesis is confirmed.",
+          "options": [
+            "Каким",
+            "Таким",
+            "Этим",
+            "Тем"
+          ],
+          "answer": "Таким",
+          "hint": "Conclusion = таким образом",
+          "explanation": "Conclusion: Таким образом."
+        },
+        {
+          "prompt": "Reference: Как _____ выше, ... (mentioned)",
+          "promptEnglish": "As mentioned above...",
+          "options": [
+            "трепалось",
+            "отмечалось",
+            "говорилось",
+            "болталось"
+          ],
+          "answer": "отмечалось",
+          "hint": "Academic = отмечалось",
+          "explanation": "Reference: Как отмечалось выше."
+        },
+        {
+          "prompt": "Hedging: Данные _____ свидетельствовать о... (seem to)",
+          "promptEnglish": "The data seem to indicate...",
+          "options": [
+            "делаются",
+            "являются",
+            "представляются",
+            "становятся"
+          ],
+          "answer": "представляются",
+          "hint": "Cautious = представляются",
+          "explanation": "Hedging: представляются (seem to)."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "_____, что данный метод является наиболее эффективным.",
+          "promptEnglish": "It appears that this method is the most effective.",
+          "options": [
+            "Я думаю",
+            "Мне кажется",
+            "Представляется",
+            "Говорят"
+          ],
+          "answer": "Представляется",
+          "hint": "Academic hedging: impersonal construction instead of 'я думаю'",
+          "explanation": "В научном стиле вместо «я думаю» используется безличное «представляется» для выражения осторожного мнения."
+        },
+        {
+          "prompt": "В _____ исследования были получены значимые результаты.",
+          "promptEnglish": "In the course of the research, significant results were obtained.",
+          "options": [
+            "ходе",
+            "процессе",
+            "время",
+            "начале"
+          ],
+          "answer": "ходе",
+          "hint": "Academic phrase for 'during/in the course of'",
+          "explanation": "«В ходе исследования» — стандартная конструкция научного стиля, означающая «в процессе проведения»."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "В ходе исследования _____ получены следующие результаты. (were)"
+    ],
+    "choices": [
+      "были",
+      "есть",
+      "будут",
+      "стали"
+    ],
+    "answers": [
+      "были"
+    ],
+    "grammarFocus": "Passive past: были получены (were obtained)",
+    "hints": [
+      "Academic Russian uses passive constructions. The results 'were obtained.' Which auxiliary verb forms the past passive?"
+    ],
+    "explanations": [
+      "Academic passive uses 'были + short past passive participle': 'были получены' (were obtained). This impersonal passive construction is standard in Russian academic writing, avoiding personal subjects like 'мы получили.'"
+    ],
+    "options": [
+      [
+        "был",
+        "было",
+        "была",
+        "были"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Academic: _____ полагаем, что... (We believe)",
+      "contextEnglish": "We believe that... (formal academic)",
+      "options": [
+        "Мы",
+        "Я"
+      ],
+      "answer": "Мы",
+      "explanation": "Academic uses 'we' not 'I'."
+    },
+    {
+      "context": "Academic passive: _____ было показано... (By us)",
+      "contextEnglish": "It was shown by us...",
+      "options": [
+        "Нами",
+        "Мы"
+      ],
+      "answer": "Нами",
+      "explanation": "Passive: Нами было показано."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: academic or casual?",
+    "categories": [
+      "Academic (научный)",
+      "Casual/Colloquial"
+    ],
+    "items": [
+      {
+        "word": "Рассматривается вопрос...",
+        "category": "Academic (научный)"
+      },
+      {
+        "word": "Я думаю, что...",
+        "category": "Casual/Colloquial"
+      },
+      {
+        "word": "Было установлено, что...",
+        "category": "Academic (научный)"
+      },
+      {
+        "word": "Короче, это работает.",
+        "category": "Casual/Colloquial"
+      },
+      {
+        "word": "По-видимому, данные верны.",
+        "category": "Academic (научный)"
+      },
+      {
+        "word": "Мне кажется, норм.",
+        "category": "Casual/Colloquial"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "рассматривается",
+      "definition": "is examined/considered",
+      "example": "Рассматривается проблема..."
+    },
+    {
+      "term": "было установлено",
+      "definition": "it was established",
+      "example": "Было установлено, что..."
+    },
+    {
+      "term": "по-видимому / представляется",
+      "definition": "apparently / it seems (hedging)",
+      "example": "По-видимому, это верно."
+    },
+    {
+      "term": "нами было + participle",
+      "definition": "we have (done) - formal passive",
+      "example": "Нами было показано..."
+    }
+  ]
+}

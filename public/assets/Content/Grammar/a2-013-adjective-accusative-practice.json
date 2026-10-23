@@ -1,0 +1,550 @@
+{
+  "lessonId": "a2-013-adjective-accusative",
+  "sets": [
+    {
+      "id": "round-1-feminine-neuter",
+      "title": "Feminine and Neuter",
+      "titleRussian": "Женский и средний род",
+      "description": "Practice accusative adjective endings for feminine and neuter nouns",
+      "descriptionRussian": "Окончания прилагательных в винительном падеже: женский и средний род",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я купила _____ юбку. (I bought a new skirt.)",
+              "promptEnglish": "I bought a new skirt.",
+              "options": [
+                "новая",
+                "новой",
+                "новую",
+                "новое"
+              ],
+              "answer": "новую",
+              "hint": "Feminine accusative: -ая → -ую.",
+              "explanation": "Feminine accusative: новая → новую (-ая → -ую)."
+            },
+            {
+              "prompt": "Мы видим _____ озеро. (We see a big lake.)",
+              "promptEnglish": "We see a big lake.",
+              "options": [
+                "большое",
+                "большого",
+                "большую",
+                "большой"
+              ],
+              "answer": "большое",
+              "hint": "Neuter accusative = nominative form.",
+              "explanation": "Neuter accusative = nominative: большое stays большое."
+            },
+            {
+              "prompt": "Она читает _____ газету. (She reads the morning newspaper.)",
+              "promptEnglish": "She reads the morning newspaper.",
+              "options": [
+                "утренняя",
+                "утреннюю",
+                "утренней",
+                "утреннее"
+              ],
+              "answer": "утреннюю",
+              "hint": "Feminine soft-stem accusative: -яя → -юю.",
+              "explanation": "Feminine soft stem: утренняя → утреннюю (-яя → -юю)."
+            },
+            {
+              "prompt": "Он пьёт _____ молоко. (He drinks warm milk.)",
+              "promptEnglish": "He drinks warm milk.",
+              "options": [
+                "тёплого",
+                "тёплое",
+                "тёплую",
+                "тёплый"
+              ],
+              "answer": "тёплое",
+              "hint": "Neuter accusative = nominative.",
+              "explanation": "Neuter accusative = nominative: тёплое."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ книга лежит на столе. (An interesting book is on the table.)",
+          "contextEnglish": "An interesting book is on the table. (subject = nominative)",
+          "options": [
+            "Интересная",
+            "Интересную"
+          ],
+          "answer": "Интересная",
+          "explanation": "Subject = nominative: интересная книга."
+        },
+        {
+          "context": "Я читаю _____ книгу. (I'm reading an interesting book.)",
+          "contextEnglish": "I'm reading an interesting book. (object = accusative)",
+          "options": [
+            "интересная",
+            "интересную"
+          ],
+          "answer": "интересную",
+          "explanation": "Direct object = accusative: интересная → интересную."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Она носит _____ платье. (She wears a red dress.)",
+          "Мы слушаем _____ музыку. (We listen to Russian music.)",
+          "Он открыл _____ окно. (He opened the old window.)"
+        ],
+        "choices": [
+          "красное",
+          "русскую",
+          "старое"
+        ],
+        "answers": [
+          "красное",
+          "русскую",
+          "старое"
+        ],
+        "grammarFocus": "Neuter (= nominative), feminine (-ую), neuter (= nominative)",
+        "hints": [
+          "Neuter accusative = nominative. Красное.",
+          "Feminine accusative: русская → ?",
+          "Neuter accusative = nominative. Старое."
+        ],
+        "explanations": [
+          "Neuter: красное (accusative = nominative).",
+          "Feminine: русская → русскую (-ая → -ую).",
+          "Neuter: старое (accusative = nominative)."
+        ],
+        "options": [
+          [
+            "красное",
+            "красному",
+            "красного",
+            "красным"
+          ],
+          [
+            "русскую",
+            "русской",
+            "русская",
+            "русский"
+          ],
+          [
+            "старым",
+            "старое",
+            "старому",
+            "старого"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-animate-masculine",
+      "title": "Animate Masculine Trap",
+      "titleRussian": "Одушевлённый мужской род",
+      "description": "The hardest part: animate masculine accusative = genitive ending",
+      "descriptionRussian": "Самое сложное: одушевлённый мужской род = окончание родительного",
+      "icon": "exclamationmark.triangle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я вижу _____ студента. (I see a new student.) - animate",
+              "promptEnglish": "I see a new student. (animate masculine)",
+              "options": [
+                "новый",
+                "нового",
+                "новому",
+                "новым"
+              ],
+              "answer": "нового",
+              "hint": "Animate masculine accusative = genitive: -ый → -ого.",
+              "explanation": "Animate masculine: новый → нового (-ый → -ого, like genitive)."
+            },
+            {
+              "prompt": "Он купил _____ телефон. (He bought a new phone.) - inanimate",
+              "promptEnglish": "He bought a new phone. (inanimate masculine)",
+              "options": [
+                "новый",
+                "нового",
+                "новому",
+                "новым"
+              ],
+              "answer": "новый",
+              "hint": "Inanimate masculine accusative = nominative.",
+              "explanation": "Inanimate masculine: accusative = nominative. Новый stays новый."
+            },
+            {
+              "prompt": "Мы встретили _____ соседа. (We met an old neighbor.) - animate",
+              "promptEnglish": "We met an old neighbor.",
+              "options": [
+                "старый",
+                "старого",
+                "старому",
+                "старым"
+              ],
+              "answer": "старого",
+              "hint": "Animate masculine = genitive form.",
+              "explanation": "Animate masculine: старый → старого."
+            },
+            {
+              "prompt": "Она нашла _____ ключ. (She found an old key.) - inanimate",
+              "promptEnglish": "She found an old key.",
+              "options": [
+                "старый",
+                "старого",
+                "старому",
+                "старым"
+              ],
+              "answer": "старый",
+              "hint": "Inanimate masculine = nominative form.",
+              "explanation": "Inanimate masculine: accusative = nominative. Старый ключ."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Вижу нового студента. vs. Купил новый телефон.",
+          "question": "Why is the adjective different in these accusative sentences?",
+          "options": [
+            "Студент is animate (person), so the adjective takes genitive form. Телефон is inanimate, so it stays nominative.",
+            "They are different cases",
+            "One is past tense, one is present"
+          ],
+          "answer": "Студент is animate (person), so the adjective takes genitive form. Телефон is inanimate, so it stays nominative.",
+          "explanation": "The animate/inanimate distinction only matters for masculine accusative. Animate = genitive endings (-ого), inanimate = nominative endings (-ый)."
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Я вижу молодой врач.",
+          "error": "врач",
+          "correction": "врача",
+          "hint": "Animate masculine accusative needs genitive form for both noun and adjective.",
+          "explanation": "Animate masculine: врач → врача (noun), молодой → молодого (adjective). Both change.",
+          "options": [
+            "врача",
+            "врачу",
+            "врачом"
+          ]
+        },
+        {
+          "sentence": "Она любит русского языка.",
+          "error": "русского",
+          "correction": "русский",
+          "hint": "Language is inanimate, so accusative = nominative.",
+          "explanation": "Язык is inanimate: accusative = nominative. Русский язык, not русского языка.",
+          "options": [
+            "русский",
+            "русскому",
+            "русским"
+          ]
+        },
+        {
+          "sentence": "Мы знаем хороший учитель.",
+          "error": "учитель",
+          "correction": "учителя",
+          "hint": "Animate masculine: accusative = genitive form.",
+          "explanation": "Animate: учитель → учителя. The adjective should also change: хорошего учителя.",
+          "options": [
+            "учителя",
+            "учителю",
+            "учителем"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-mixed-genders",
+      "title": "All Genders Mixed",
+      "titleRussian": "Все роды вместе",
+      "description": "Practice accusative adjectives across all genders in the same set",
+      "descriptionRussian": "Прилагательные в винительном падеже всех родов",
+      "icon": "shuffle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она выбрала _____ сумку. (She chose a beautiful bag.)",
+              "promptEnglish": "She chose a beautiful bag.",
+              "options": [
+                "красивая",
+                "красивую",
+                "красивой",
+                "красивое"
+              ],
+              "answer": "красивую",
+              "hint": "Feminine accusative: -ая → -ую.",
+              "explanation": "Feminine: красивая → красивую."
+            },
+            {
+              "prompt": "Мы встретили _____ друга. (We met a good friend.)",
+              "promptEnglish": "We met a good friend.",
+              "options": [
+                "хороший",
+                "хорошего",
+                "хорошему",
+                "хорошим"
+              ],
+              "answer": "хорошего",
+              "hint": "Animate masculine: -ий → -его.",
+              "explanation": "Animate masculine (soft stem): хороший → хорошего."
+            },
+            {
+              "prompt": "Я вижу _____ здание. (I see a tall building.)",
+              "promptEnglish": "I see a tall building.",
+              "options": [
+                "высокое",
+                "высокого",
+                "высокую",
+                "высокий"
+              ],
+              "answer": "высокое",
+              "hint": "Neuter accusative = nominative.",
+              "explanation": "Neuter: высокое (accusative = nominative)."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "I'm reading an old letter.",
+          "answer": "Я читаю старое письмо.",
+          "acceptableVariants": [],
+          "hint": "Neuter: accusative = nominative. Письмо = neuter",
+          "grammarFocus": "neuter accusative",
+          "keyWord": "старое",
+          "options": [
+            "старое",
+            "старая",
+            "старую",
+            "старого"
+          ]
+        },
+        {
+          "english": "She loves her younger brother.",
+          "answer": "Она любит младшего брата.",
+          "acceptableVariants": [
+            "Она любит своего младшего брата."
+          ],
+          "hint": "Animate masculine: младший → младшего, брат → брата",
+          "grammarFocus": "animate masculine accusative",
+          "keyWord": "младшего",
+          "options": [
+            "младшего",
+            "младший",
+            "младшему",
+            "младшим"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-plural-accusative",
+      "title": "Plural Accusative",
+      "titleRussian": "Множественное число",
+      "description": "Accusative adjective endings in plural (animate vs inanimate)",
+      "descriptionRussian": "Окончания прилагательных множественного числа в винительном",
+      "icon": "person.3",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я читаю _____ книги. (I'm reading interesting books.) - inanimate plural",
+              "promptEnglish": "I'm reading interesting books.",
+              "options": [
+                "интересные",
+                "интересных",
+                "интересным",
+                "интересными"
+              ],
+              "answer": "интересные",
+              "hint": "Inanimate plural accusative = nominative form.",
+              "explanation": "Inanimate plural: accusative = nominative. Интересные книги."
+            },
+            {
+              "prompt": "Мы знаем _____ людей. (We know interesting people.) - animate plural",
+              "promptEnglish": "We know interesting people.",
+              "options": [
+                "интересные",
+                "интересных",
+                "интересным",
+                "интересными"
+              ],
+              "answer": "интересных",
+              "hint": "Animate plural accusative = genitive form.",
+              "explanation": "Animate plural: accusative = genitive. Интересных людей."
+            },
+            {
+              "prompt": "Она купила _____ цветы. (She bought beautiful flowers.) - inanimate plural",
+              "promptEnglish": "She bought beautiful flowers.",
+              "options": [
+                "красивые",
+                "красивых",
+                "красивым",
+                "красивыми"
+              ],
+              "answer": "красивые",
+              "hint": "Flowers are inanimate: plural accusative = nominative.",
+              "explanation": "Inanimate plural: красивые (accusative = nominative)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я вижу _____ дома. (I see new houses.)",
+          "contextEnglish": "I see new houses. (inanimate plural)",
+          "options": [
+            "новые",
+            "новых"
+          ],
+          "answer": "новые",
+          "explanation": "Inanimate plural: accusative = nominative. Новые дома."
+        },
+        {
+          "context": "Я вижу _____ студентов. (I see new students.)",
+          "contextEnglish": "I see new students. (animate plural)",
+          "options": [
+            "новые",
+            "новых"
+          ],
+          "answer": "новых",
+          "explanation": "Animate plural: accusative = genitive. Новых студентов."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Мы пригласили _____ друзей. (We invited old friends.)",
+          "Они строят _____ здания. (They're building new buildings.)",
+          "Я встретил _____ девушек. (I met beautiful girls.)"
+        ],
+        "choices": [
+          "старых",
+          "новые",
+          "красивых"
+        ],
+        "answers": [
+          "старых",
+          "новые",
+          "красивых"
+        ],
+        "grammarFocus": "Animate plural = genitive, inanimate plural = nominative",
+        "hints": [
+          "Friends are animate: plural accusative = genitive.",
+          "Buildings are inanimate: plural accusative = nominative.",
+          "Girls are animate: plural accusative = genitive."
+        ],
+        "explanations": [
+          "Animate plural: старые → старых (genitive form).",
+          "Inanimate plural: новые stays новые.",
+          "Animate plural: красивые → красивых."
+        ],
+        "options": [
+          [
+            "старыми",
+            "старые",
+            "старых",
+            "старый"
+          ],
+          [
+            "нового",
+            "новыми",
+            "новых",
+            "новые"
+          ],
+          [
+            "красивыми",
+            "красивых",
+            "красивые",
+            "красивый"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All accusative adjective patterns in one round",
+      "descriptionRussian": "Все правила прилагательных в винительном падеже",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Дети любят _____ собаку. (The children love the big dog.)",
+              "promptEnglish": "The children love the big dog.",
+              "options": [
+                "большая",
+                "большую",
+                "большого",
+                "большой"
+              ],
+              "answer": "большую",
+              "hint": "Собака is feminine. Feminine accusative: -ая → -ую.",
+              "explanation": "Feminine: большая → большую. (Собака is grammatically feminine even if the dog is male.)"
+            },
+            {
+              "prompt": "Он смотрит _____ фильм. (He's watching a funny movie.)",
+              "promptEnglish": "He's watching a funny movie.",
+              "options": [
+                "смешной",
+                "смешного",
+                "смешную",
+                "смешное"
+              ],
+              "answer": "смешной",
+              "hint": "Film is inanimate masculine: accusative = nominative.",
+              "explanation": "Inanimate masculine: смешной (accusative = nominative)."
+            },
+            {
+              "prompt": "Врач осмотрел _____ ребёнка. (The doctor examined the sick child.)",
+              "promptEnglish": "The doctor examined the sick child.",
+              "options": [
+                "больной",
+                "больного",
+                "больную",
+                "больное"
+              ],
+              "answer": "больного",
+              "hint": "Child is animate masculine: -ой → -ого.",
+              "explanation": "Animate masculine: больной → больного."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Она смотрит интересная передача.",
+          "error": "интересная",
+          "correction": "интересную",
+          "hint": "Direct object = accusative. Feminine: -ая → -ую.",
+          "explanation": "Feminine accusative: интересная → интересную. (Передача → передачу too.)",
+          "options": [
+            "интересную",
+            "интересной",
+            "интересное"
+          ]
+        },
+        {
+          "sentence": "Мы видим маленького котёнок.",
+          "error": "котёнок",
+          "correction": "котёнка",
+          "hint": "The adjective is correct (animate masculine), but the noun also needs accusative.",
+          "explanation": "Both must be accusative: маленького котёнка. The noun was left in nominative.",
+          "options": [
+            "котёнка",
+            "котёнку",
+            "котёнком"
+          ]
+        }
+      ]
+    }
+  ]
+}

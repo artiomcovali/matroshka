@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-028",
+  "title": "Bank Account Frozen",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Your bank account is temporarily frozen",
+  "imageName": "banknote.fill",
+  "initialPrompt": "Добрый день! Чем могу помочь? Ваша карта?",
+  "systemPrompt": "You are bank clerk. Account frozen due to suspicious activity alert - standard security check. Need passport to verify identity, then unfreeze in 10 minutes. Keep replies short.",
+  "completionCriteria": "User provided identification and got account unfrozen.",
+  "responseLimit": 15,
+  "hints": [
+    "Моя карта не работает (My card is not working)",
+    "Почему заблокирован счёт? (Why is the account blocked?)",
+    "Вот мой паспорт (Here is my passport)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "счёт",
+      "definition": "account"
+    },
+    {
+      "word": "заблокирован",
+      "definition": "frozen/blocked"
+    },
+    {
+      "word": "безопасность",
+      "definition": "security"
+    },
+    {
+      "word": "проверка",
+      "definition": "verification"
+    },
+    {
+      "word": "паспорт",
+      "definition": "passport"
+    },
+    {
+      "word": "разблокировать",
+      "definition": "to unfreeze"
+    }
+  ],
+  "objectives": [
+    "Report the account problem",
+    "Learn why it is frozen (безопасность)",
+    "Provide identification",
+    "Get account unfrozen"
+  ]
+}

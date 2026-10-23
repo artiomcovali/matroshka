@@ -1,0 +1,284 @@
+{
+  "id": "a2-track-adjdecl-02-accusative",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Adjective Declension 2: Accusative Singular and the Animacy Split",
+  "titleRussian": "Склонение прилагательных 2: винительный падеж и одушевлённость",
+  "description": "The accusative singular for hard-stem adjectives. The masculine inanimate keeps the nominative form (-ый). The masculine animate borrows the genitive form (-ого). The feminine has its own ending (-ую). The neuter is always like the nominative (-ое).",
+  "descriptionRussian": "Винительный падеж единственного числа: мужской неодушевлённый как именительный (-ый), мужской одушевлённый как родительный (-ого), женский -ую, средний как именительный (-ое).",
+  "imageName": "arrow.right.square",
+  "trackId": "a2-adjective-declension-mastery",
+  "trackTitle": "Adjective Full Declension Mastery",
+  "trackTitleRussian": "Склонение прилагательных",
+  "trackIndex": 2,
+  "trackTotal": 9,
+  "intro": "The accusative brings back the animacy split you met in the A1 accusative book, and it works the same way: masculine words for people and animals borrow their form from the genitive, while masculine words for things stay as they are. What is new is only that the adjective has to do it too, in step with its noun.",
+  "rules": [
+    "Masculine inanimate (objects, places, abstractions): the adjective in the accusative is identical to the nominative. -ый stays -ый. Я читаю новый журнал.",
+    "Masculine animate (people, animals): the adjective borrows the GENITIVE form. -ый becomes -ого. Я знаю нового брата. (The same -ого reappears as the genitive in Lesson 3.)",
+    "Feminine (-а, -я, or -ь noun): the adjective takes -ую in the accusative. -ая becomes -ую. Я читаю новую книгу. Animacy makes no difference for the feminine.",
+    "Neuter: the adjective is identical to the nominative. -ое stays -ое. Я читаю новое письмо.",
+    "The animacy split applies only to the masculine in the singular. The plural will keep its own animacy split (Lesson 7), but feminine and neuter singulars ignore it."
+  ],
+  "examples": [
+    "Я читаю новый журнал. (I am reading a new magazine.) Журнал is masculine inanimate, so the adjective stays -ый: новый.",
+    "Я знаю нового брата Маши. (I know Masha's new brother.) Брат is masculine animate, so the adjective takes -ого: нового.",
+    "Я читаю новую книгу. (I am reading a new book.) Книга is feminine, so the adjective takes -ую: новую.",
+    "Я люблю старое озеро. (I love the old lake.) Озеро is neuter, so the adjective stays -ое: старое.",
+    "Антон видит красивую улицу. (Anton sees a beautiful street.) Улица is feminine inanimate, but feminine ignores animacy: -ую → красивую.",
+    "Маша знает старого учителя. (Masha knows the old teacher.) Учитель is masculine animate, so the adjective takes -ого: старого."
+  ],
+  "tables": [
+    {
+      "title": "Accusative Singular Endings (новый as model)",
+      "headers": [
+        "Slot",
+        "Ending",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "masc inanimate",
+          "cells": [
+            "-ый (= nom)",
+            "Я читаю новый журнал."
+          ]
+        },
+        {
+          "label": "masc animate",
+          "cells": [
+            "-ого (= gen)",
+            "Я знаю нового брата."
+          ]
+        },
+        {
+          "label": "feminine (any animacy)",
+          "cells": [
+            "-ую",
+            "Я читаю новую книгу."
+          ]
+        },
+        {
+          "label": "neuter",
+          "cells": [
+            "-ое (= nom)",
+            "Я читаю новое письмо."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Three Adjectives in the Accusative",
+      "headers": [
+        "Adjective",
+        "Masc anim",
+        "Feminine"
+      ],
+      "rows": [
+        {
+          "label": "новый",
+          "cells": [
+            "нового брата",
+            "новую книгу"
+          ]
+        },
+        {
+          "label": "старый",
+          "cells": [
+            "старого друга",
+            "старую улицу"
+          ]
+        },
+        {
+          "label": "красивый",
+          "cells": [
+            "красивого сына",
+            "красивую сестру"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Это _____ книга.",
+          "promptEnglish": "This is a new book.",
+          "options": [
+            "новая",
+            "новый",
+            "новое",
+            "новые"
+          ],
+          "answer": "новая",
+          "hint": "Lesson 1 recap: which slot is the nominative for книга?",
+          "explanation": "Recap from Lesson 1. Книга is feminine singular. In the nominative the hard-stem feminine ending is -ая: новая. Today's drill, which starts at Q1.2, switches to the accusative."
+        },
+        {
+          "prompt": "Я читаю _____ журнал.",
+          "promptEnglish": "I am reading a new magazine.",
+          "options": [
+            "нового",
+            "новую",
+            "новый",
+            "новое"
+          ],
+          "answer": "новый",
+          "hint": "Журнал is masculine inanimate. What does the adjective do in the accusative?",
+          "explanation": "Журнал is masculine inanimate. For masculine inanimate, the accusative adjective is identical to the nominative: -ый stays -ый. So новый."
+        },
+        {
+          "prompt": "Маша знает _____ брата.",
+          "promptEnglish": "Masha knows my new brother.",
+          "options": [
+            "новую",
+            "нового",
+            "новые",
+            "новый"
+          ],
+          "answer": "нового",
+          "hint": "Брат is masculine animate. The adjective borrows which case's form?",
+          "explanation": "Брат is masculine animate. For masculine animate, the accusative adjective borrows the genitive form: -ый becomes -ого. So нового. Lesson 3 will teach -ого officially as the genitive ending; today it shows up here as the animate-accusative borrowing."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Антон читает _____ книгу.",
+          "promptEnglish": "Anton is reading an interesting book.",
+          "options": [
+            "интересный",
+            "интересная",
+            "интересное",
+            "интересную"
+          ],
+          "answer": "интересную",
+          "hint": "Книгу is feminine. The feminine accusative ending is brand new today.",
+          "explanation": "Книгу is feminine accusative. The feminine adjective ending in the accusative is -ую: интересную. Notice both the noun (-у) and the adjective (-ую) shift in parallel: nominative книга → accusative книгу; nominative интересная → accusative интересную."
+        },
+        {
+          "prompt": "Я люблю _____ озеро.",
+          "promptEnglish": "I love the old lake.",
+          "options": [
+            "старое",
+            "старую",
+            "старого",
+            "старые"
+          ],
+          "answer": "старое",
+          "hint": "Озеро is neuter. Does the adjective change in the accusative?",
+          "explanation": "Озеро is neuter. The neuter accusative is identical to the nominative: -ое stays -ое. So старое. The same form would appear as the subject of a sentence: 'Старое озеро красивое' would also start with старое."
+        },
+        {
+          "prompt": "Лена видит _____ друга.",
+          "promptEnglish": "Lena sees an old friend.",
+          "options": [
+            "старая",
+            "старую",
+            "старого",
+            "старый"
+          ],
+          "answer": "старого",
+          "hint": "Друг is masculine animate. Recall the rule from Q1.3.",
+          "explanation": "Друг is masculine animate. The adjective borrows the genitive form: -ый becomes -ого. So старого. Pattern check: Q1.3 had нового брата; this is the same rule on a different animate noun."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша покупает _____ машину. (Masha buys a beautiful car.)"
+    ],
+    "choices": [
+      "красивый",
+      "красивая",
+      "красивую",
+      "красивое"
+    ],
+    "answers": [
+      "красивую"
+    ],
+    "grammarFocus": "Машину is feminine accusative. The feminine adjective ending in the accusative is -ую: красивую. The same -ую appears on every feminine accusative adjective regardless of animacy."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Вечером Маша читает красивая книгу.",
+      "translationEnglish": "In the evening Masha reads a beautiful book.",
+      "error": "красивая",
+      "correction": "красивую",
+      "options": [
+        "красивую",
+        "красивого",
+        "красивое"
+      ],
+      "explanation": "Книгу is feminine in the accusative (the noun has already shifted from книга to книгу), so the adjective takes the feminine accusative ending -ую: красивую. Красивая is the nominative form, correct only when the book is the subject."
+    },
+    {
+      "sentence": "Маша хорошо знает умный брата Лены.",
+      "translationEnglish": "Masha knows Lena's smart brother well.",
+      "error": "умный",
+      "correction": "умного",
+      "options": [
+        "умного",
+        "умную",
+        "умное"
+      ],
+      "explanation": "Брат is masculine animate, and a masculine animate noun in the accusative borrows the genitive form on both the noun (брата) and the adjective: -ый becomes -ого, giving умного. Умный is the nominative, the form for a subject."
+    },
+    {
+      "sentence": "Антон покупает старого журнал в киоске.",
+      "translationEnglish": "Anton buys an old magazine at the kiosk.",
+      "error": "старого",
+      "correction": "старый",
+      "options": [
+        "старый",
+        "старую",
+        "старое"
+      ],
+      "explanation": "Журнал is masculine inanimate, so its accusative is identical to the nominative on both noun and adjective: старый журнал stays unchanged. Старого is the masculine ANIMATE accusative (старого брата), which fires only for living beings."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я читаю _____ журнал.",
+      "contextEnglish": "I am reading a new magazine.",
+      "options": [
+        "новый",
+        "нового"
+      ],
+      "answer": "новый",
+      "explanation": "Журнал is masculine INANIMATE, so the accusative adjective is identical to the nominative: -ый. Нового would be required if the noun were animate (e.g., нового брата)."
+    },
+    {
+      "context": "Я знаю _____ учителя.",
+      "contextEnglish": "I know the old teacher.",
+      "options": [
+        "старый",
+        "старого"
+      ],
+      "answer": "старого",
+      "explanation": "Учитель is masculine ANIMATE, so the accusative adjective borrows the genitive form: -ого. Старый would be the form for a masculine inanimate noun like учебник."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "винительный падеж",
+      "definition": "accusative case (marks the direct object; answers 'Кого? / Что?')",
+      "example": "В предложении 'Я знаю нового брата' слово 'брата' и слово 'нового' стоят в винительном падеже."
+    },
+    {
+      "term": "одушевлённый",
+      "definition": "animate (a person or animal; in masculine singular accusative, the adjective borrows the genitive ending -ого)",
+      "example": "Слово 'друг' одушевлённое, поэтому винительный падеж выглядит как родительный: старого друга."
+    },
+    {
+      "term": "неодушевлённый",
+      "definition": "inanimate (a thing, place, or abstraction; in masculine singular accusative, the adjective is identical to the nominative)",
+      "example": "Слово 'журнал' неодушевлённое, поэтому винительный падеж совпадает с именительным: новый журнал."
+    }
+  ]
+}

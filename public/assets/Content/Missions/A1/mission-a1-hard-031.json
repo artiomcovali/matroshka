@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-031",
+  "title": "The Expired Coupon",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Shop won't accept your valid-looking coupon",
+  "imageName": "tag.fill",
+  "initialPrompt": "Этот купон? Нет, он не работает.",
+  "systemPrompt": "You reject the coupon claiming it's expired or invalid. Accept it if user: shows the date is valid, asks for manager, or is very polite and persistent. Keep replies short.",
+  "completionCriteria": "User got the coupon accepted or found solution.",
+  "responseLimit": 15,
+  "hints": [
+    "Посмотрите дату (Look at the date)",
+    "Он ещё действует (It's still valid)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "купон",
+      "definition": "coupon"
+    },
+    {
+      "word": "скидка",
+      "definition": "discount"
+    },
+    {
+      "word": "действует",
+      "definition": "valid/works"
+    },
+    {
+      "word": "дата",
+      "definition": "date"
+    },
+    {
+      "word": "менеджер",
+      "definition": "manager"
+    }
+  ],
+  "objectives": [
+    "Present coupon (У меня купон)",
+    "Learn it's rejected",
+    "Show the date is valid (Посмотрите дату)",
+    "Insist it should work (Он действует)",
+    "Get discount applied"
+  ]
+}

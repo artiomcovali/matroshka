@@ -1,0 +1,45 @@
+{
+  "id": "mission-a2-hard-006",
+  "title": "The Cold Food",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Your food arrived cold - get it replaced or refunded",
+  "imageName": "thermometer.snowflake",
+  "initialPrompt": "Вот ваша пицца. Приятного аппетита!",
+  "systemPrompt": "You are a delivery person. The pizza is cold because of delays. Initially blame traffic. Offer solutions only if customer: insists it's unacceptable, asks to speak to manager, or requests refund. Can offer: reheat, new pizza in 20 min, or 50% refund. Keep replies short.",
+  "completionCriteria": "User got compensation - new pizza, refund, or other resolution.",
+  "responseLimit": 15,
+  "hints": [
+    "Пицца холодная (The pizza is cold)",
+    "Я хочу возврат денег (I want a refund)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "холодный",
+      "definition": "cold"
+    },
+    {
+      "word": "горячий",
+      "definition": "hot"
+    },
+    {
+      "word": "доставка",
+      "definition": "delivery"
+    },
+    {
+      "word": "возврат",
+      "definition": "refund"
+    },
+    {
+      "word": "заменить",
+      "definition": "to replace"
+    }
+  ],
+  "objectives": [
+    "Point out the pizza is cold",
+    "Reject the traffic excuse",
+    "Demand a solution",
+    "Choose: new pizza or refund",
+    "Confirm the resolution"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-medium-005",
+  "title": "Orchestra Dispute",
+  "level": "C1",
+  "difficulty": "medium",
+  "description": "Mediate conflict between conductor and musicians",
+  "imageName": "music.mic",
+  "initialPrompt": "Оркестр на грани забастовки. Музыканты недовольны темпом репетиций и выбором репертуара. Как менеджер, примирите стороны.",
+  "systemPrompt": "You are orchestra conductor frustrated with musicians. Demand artistic control. Only compromise if manager shows understanding of both artistic and practical concerns.",
+  "completionCriteria": "User mediated artistic dispute professionally.",
+  "responseLimit": 15,
+  "hints": [
+    "Обе стороны хотят успеха концерта... (Both sides want the concert to succeed...)",
+    "Репертуар можно скорректировать... (The repertoire can be adjusted...)",
+    "Расписание репетиций... (The rehearsal schedule...)"
+  ],
+  "targetVocabulary": [
+    {"word": "оркестр", "definition": "orchestra"},
+    {"word": "дирижёр", "definition": "conductor"},
+    {"word": "репертуар", "definition": "repertoire"},
+    {"word": "репетиция", "definition": "rehearsal"},
+    {"word": "компромисс", "definition": "compromise"},
+    {"word": "забастовка", "definition": "strike"}
+  ],
+  "objectives": [
+    "Understand both positions",
+    "Find practical solutions",
+    "Preserve artistic quality",
+    "Prevent work stoppage"
+  ]
+}

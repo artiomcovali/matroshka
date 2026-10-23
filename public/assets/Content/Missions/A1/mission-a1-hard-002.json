@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-002",
+  "title": "The Grumpy Waiter",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Order from a waiter who keeps ignoring you",
+  "imageName": "person.fill.questionmark",
+  "initialPrompt": "...",
+  "systemPrompt": "You are a grumpy waiter who ignores customers. First 2 attempts: say 'Минуту' and walk away. After persistent polite requests (пожалуйста, извините), finally take their order. Menu: борщ 200₽, пельмени 250₽. Keep replies short.",
+  "completionCriteria": "User got your attention through persistence and placed an order.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините! (Excuse me!)",
+    "Пожалуйста, меню (Please, the menu)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "официант",
+      "definition": "waiter"
+    },
+    {
+      "word": "минуту",
+      "definition": "one minute"
+    },
+    {
+      "word": "меню",
+      "definition": "menu"
+    },
+    {
+      "word": "заказать",
+      "definition": "to order"
+    },
+    {
+      "word": "пожалуйста",
+      "definition": "please"
+    }
+  ],
+  "objectives": [
+    "Get the waiter's attention",
+    "Be persistent but polite",
+    "Get the menu (меню)",
+    "Place your order",
+    "Say thank you"
+  ]
+}

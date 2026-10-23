@@ -1,0 +1,310 @@
+{
+  "id": "a2-track-necessity-01-nado-nuzhno-dative",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Necessity 1: Мне надо (the dative subject)",
+  "titleRussian": "Необходимость 1: Мне надо (дательный субъект)",
+  "description": "To say 'I have to' in Russian, the person goes into the DATIVE: Мне надо... / Мне нужно..., not 'я надо.' Надо and нужно are impersonal and never agree with anyone.",
+  "descriptionRussian": "Чтобы сказать «мне нужно что-то сделать», человек ставится в ДАТЕЛЬНЫЙ падеж: Мне надо... / Мне нужно..., а не «я надо». Надо и нужно безличны и ни с кем не согласуются.",
+  "imageName": "checklist",
+  "trackId": "a2-necessity-mastery",
+  "trackTitle": "Necessity Mastery",
+  "trackTitleRussian": "Необходимость",
+  "trackIndex": 1,
+  "trackTotal": 6,
+  "intro": "Saying you need something in Russian starts by removing yourself from the subject slot. There is no subject at all in these sentences: the structure is impersonal, and you appear in the dative as the person the need belongs to. If you did the dative book this is a familiar move. If not, it is the error worth killing first.",
+  "rules": [
+    "Надо and нужно are impersonal ('it is necessary'). They have NO subject and never change form for gender or number.",
+    "The person who feels the need goes into the DATIVE case: Мне надо работать, NOT «я надо работать». This is the error to kill first.",
+    "Dative pronouns to memorize: я → мне, ты → тебе, он → ему, она → ей, мы → нам, вы → вам, они → им.",
+    "The pattern is three slots: dative person + надо/нужно + infinitive. Мне надо отдохнуть. Нам нужно купить хлеб.",
+    "Надо and нужно are near-synonyms. Надо is a bit more colloquial, нужно a bit more neutral; both express plain necessity and are usually interchangeable."
+  ],
+  "examples": [
+    "Мне надо работать. (I have to work.) Person 'я' → dative мне, NOT 'я надо'.",
+    "Тебе нужно отдохнуть. (You need to rest.) ты → тебе.",
+    "Ей надо позвонить маме. (She has to call mom.) она → ей.",
+    "Нам нужно купить хлеб. (We need to buy bread.) мы → нам.",
+    "Лене надо встать рано. (Lena needs to get up early.) Лена → Лене, the noun goes dative too.",
+    "Антону нужно отдохнуть. (Anton needs to rest.) Антон → Антону."
+  ],
+  "tables": [
+    {
+      "title": "Dative of the person + надо/нужно + infinitive",
+      "headers": [
+        "Subject (English)",
+        "Dative person",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "I",
+          "cells": [
+            "мне",
+            "Мне надо работать."
+          ]
+        },
+        {
+          "label": "you (sg)",
+          "cells": [
+            "тебе",
+            "Тебе нужно поесть."
+          ]
+        },
+        {
+          "label": "he",
+          "cells": [
+            "ему",
+            "Ему надо отдохнуть."
+          ]
+        },
+        {
+          "label": "she",
+          "cells": [
+            "ей",
+            "Ей нужно позвонить."
+          ]
+        },
+        {
+          "label": "we",
+          "cells": [
+            "нам",
+            "Нам надо купить хлеб."
+          ]
+        },
+        {
+          "label": "you (pl/polite)",
+          "cells": [
+            "вам",
+            "Вам нужно подождать."
+          ]
+        },
+        {
+          "label": "they",
+          "cells": [
+            "им",
+            "Им надо встать рано."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ надо работать.",
+          "promptEnglish": "I have to work.",
+          "options": [
+            "Я",
+            "Мне",
+            "Меня",
+            "Мной"
+          ],
+          "answer": "Мне",
+          "hint": "Надо has no subject. The person who must do something goes into the dative.",
+          "explanation": "This is the core rule. Надо is impersonal, so 'I' is not the subject. The person goes into the dative: я → мне. «Я надо работать» is the classic mistake; the correct form is Мне надо работать."
+        },
+        {
+          "prompt": "_____ нужно отдохнуть.",
+          "promptEnglish": "You need to rest.",
+          "options": [
+            "Ты",
+            "Тебя",
+            "Тебе",
+            "Тобой"
+          ],
+          "answer": "Тебе",
+          "hint": "Same pattern: dative of 'ты'.",
+          "explanation": "Нужно works exactly like надо: impersonal, person in the dative. Ты → тебе. Тебе нужно отдохнуть, never «ты нужно»."
+        },
+        {
+          "prompt": "_____ надо позвонить маме.",
+          "promptEnglish": "She has to call mom.",
+          "options": [
+            "Она",
+            "Ей",
+            "Её",
+            "Ею"
+          ],
+          "answer": "Ей",
+          "hint": "Dative of 'она' is one short word.",
+          "explanation": "она → ей in the dative. Ей надо позвонить маме."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ нужно купить хлеб.",
+          "promptEnglish": "We need to buy bread.",
+          "options": [
+            "Нам",
+            "Мы",
+            "Нас",
+            "Нами"
+          ],
+          "answer": "Нам",
+          "hint": "Dative of 'мы'.",
+          "explanation": "мы → нам in the dative. Нам нужно купить хлеб. The infinitive купить (perfective) marks a single completed errand."
+        },
+        {
+          "prompt": "_____ надо встать рано.",
+          "promptEnglish": "Lena needs to get up early.",
+          "options": [
+            "Лена",
+            "Лену",
+            "Лене",
+            "Леной"
+          ],
+          "answer": "Лене",
+          "hint": "Nouns follow the same rule: the person goes dative. Лена is feminine -а.",
+          "explanation": "Nouns behave like pronouns here. Лена is feminine ending in -а, so the dative is Лене (-а → -е). Лене надо встать рано. Not «Лена надо»."
+        },
+        {
+          "prompt": "_____ нужно подождать.",
+          "promptEnglish": "They have to wait.",
+          "options": [
+            "Они",
+            "Их",
+            "Им",
+            "Ими"
+          ],
+          "answer": "Им",
+          "hint": "Dative of 'они'.",
+          "explanation": "они → им in the dative. Им нужно подождать."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ надо позвонить врачу. (Anton has to call the doctor.)"
+    ],
+    "choices": [
+      "Антон",
+      "Антона",
+      "Антону",
+      "Антоном"
+    ],
+    "answers": [
+      "Антону"
+    ],
+    "grammarFocus": "The person who must do something goes into the dative, even when it is a name. Антон is masculine consonant: dative + -у → Антону. Антону надо позвонить, not «Антон надо»."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Он надо работать.",
+      "translationEnglish": "He has to work.",
+      "error": "Он",
+      "correction": "Ему",
+      "options": [
+        "Ему",
+        "Его",
+        "Им"
+      ],
+      "explanation": "Надо is impersonal and has no subject, so 'he' cannot stand in the nominative. The person who must act goes into the dative: он becomes ему."
+    },
+    {
+      "sentence": "Вы нужно отдохнуть.",
+      "translationEnglish": "You need to rest.",
+      "error": "Вы",
+      "correction": "Вам",
+      "options": [
+        "Вам",
+        "Вас",
+        "Вами"
+      ],
+      "explanation": "Нужно is impersonal, so the person who needs to rest takes the dative: вы becomes вам. Вы is the nominative, a form the impersonal нужно never allows."
+    },
+    {
+      "sentence": "Антон надо купить хлеб.",
+      "translationEnglish": "Anton needs to buy bread.",
+      "error": "Антон",
+      "correction": "Антону",
+      "options": [
+        "Антону",
+        "Антона",
+        "Антоном"
+      ],
+      "explanation": "Надо takes the dative person, not the nominative: Антон becomes Антону. Антон is the nominative subject form that the impersonal надо has no room for."
+    },
+    {
+      "sentence": "Антон нужно отдохнуть после работы.",
+      "translationEnglish": "Anton needs to rest after work.",
+      "error": "Антон",
+      "correction": "Антону",
+      "options": [
+        "Антону",
+        "Антона",
+        "Антоном"
+      ],
+      "explanation": "A noun naming the necessity-feeler goes into the dative just like a pronoun. Нужно is impersonal, so Антон cannot stay nominative: a masculine consonant noun adds -у, giving Антону. Correct: Антону нужно отдохнуть после работы."
+    },
+    {
+      "sentence": "Машу нужно купить продукты.",
+      "translationEnglish": "Masha needs to buy groceries.",
+      "error": "Машу",
+      "correction": "Маше",
+      "options": [
+        "Маше",
+        "Маша",
+        "Машей"
+      ],
+      "explanation": "The necessity-feeler takes the DATIVE, not the accusative. Машу is the accusative ('он видит Машу'), but with нужно the person is not an object: they are the one for whom the action is necessary, so the dative Маше is required."
+    },
+    {
+      "sentence": "Он надо рано вставать.",
+      "translationEnglish": "He has to get up early.",
+      "error": "Он",
+      "correction": "Ему",
+      "options": [
+        "Ему",
+        "Его",
+        "Им"
+      ],
+      "explanation": "Надо is impersonal, so 'he' takes the dative: он becomes ему. Он is the nominative, the classic «он надо» mistake. Correct: Ему надо рано вставать."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "_____ надо работать.",
+      "contextEnglish": "I have to work.",
+      "options": [
+        "Я",
+        "Мне"
+      ],
+      "answer": "Мне",
+      "explanation": "Надо is impersonal: the person goes into the dative, never the nominative. Я → мне. «Я надо» is wrong; Мне надо работать is correct. This is THE error to eliminate."
+    },
+    {
+      "context": "_____ нужно поесть.",
+      "contextEnglish": "He needs to eat.",
+      "options": [
+        "Он",
+        "Ему"
+      ],
+      "answer": "Ему",
+      "explanation": "Нужно behaves like надо. Он → ему in the dative. Ему нужно поесть. The nominative «он нужно» does not work, because нужно has no subject to agree with."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "надо / нужно",
+      "definition": "it is necessary / one has to (impersonal predicatives). The person who must act goes into the dative; надо and нужно never change form.",
+      "example": "Мне надо работать. Нам нужно купить хлеб."
+    },
+    {
+      "term": "мне, тебе, ему, ей, нам, вам, им",
+      "definition": "dative forms of the personal pronouns. With надо/нужно, the necessity-feeler takes one of these, not the nominative (я, ты, он...).",
+      "example": "Ей надо отдохнуть. Им нужно подождать."
+    },
+    {
+      "term": "Мне надо (not «Я надо»)",
+      "definition": "the correct frame for 'I have to': dative person + надо + infinitive. «Я надо» is the most common beginner mistake.",
+      "example": "Мне надо позвонить."
+    }
+  ]
+}

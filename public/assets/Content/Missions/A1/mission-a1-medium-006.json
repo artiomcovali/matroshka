@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-006",
+  "title": "Wrong Order",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "The waiter brought the wrong food - get it fixed",
+  "imageName": "fork.knife",
+  "initialPrompt": "Вот ваш заказ! Приятного аппетита!",
+  "systemPrompt": "You are a waiter. You brought борщ but customer ordered пельмени. Apologize and fix when told. Keep replies short.",
+  "completionCriteria": "User pointed out the wrong order and you brought the correct dish.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините, это не моё (Sorry, this isn't mine)",
+    "Я заказал пельмени (I ordered pelmeni)",
+    "Принесите, пожалуйста (Please bring)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "заказ",
+      "definition": "order"
+    },
+    {
+      "word": "борщ",
+      "definition": "borscht (beet soup)"
+    },
+    {
+      "word": "пельмени",
+      "definition": "dumplings"
+    },
+    {
+      "word": "принести",
+      "definition": "to bring"
+    },
+    {
+      "word": "правильный",
+      "definition": "correct"
+    }
+  ],
+  "objectives": [
+    "Tell waiter about the mistake (не моё)",
+    "Say what you ordered (пельмени)",
+    "Get the correct dish"
+  ]
+}

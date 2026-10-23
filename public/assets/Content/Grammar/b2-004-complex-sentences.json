@@ -1,0 +1,295 @@
+{
+  "id": "b2-004-complex-sentences",
+  "level": "B2",
+  "focusArea": "sentenceStructure",
+  "title": "Complex Sentences",
+  "titleRussian": "Сложные предложения",
+  "description": "Compound-complex sentence structures",
+  "descriptionRussian": "Сложносочинённые и сложноподчинённые предложения",
+  "imageName": "text.alignleft",
+  "intro": "Russian complex sentences combine multiple clauses. COMPOUND (сложносочинённые): independent clauses joined by и, а, но, или: Я устал, но продолжал работать. COMPLEX (сложноподчинённые): main + subordinate with что, который, когда, если, потому что: Я знаю, что он придёт. COMPOUND-COMPLEX: both types combined: Хотя я устал, я продолжал работать, и наконец закончил. PUNCTUATION: Always use comma before subordinate conjunctions. Mastering these structures is essential for formal and written Russian.",
+  "rules": [
+    "Compound: independent clauses with и, а, но, или - comma before conjunction",
+    "Complex: main + subordinate (что, который, когда, если, чтобы, потому что)",
+    "Multiple subordinates possible: Я знаю, что он сказал, когда ты ушёл",
+    "Comma ALWAYS before subordinate conjunctions (что, который, когда, если, etc.)"
+  ],
+  "examples": [
+    "Он пришёл, но она уже ушла. (Compound: but)",
+    "Я думаю, что он прав. (Complex: that)",
+    "Книга, которую ты дал, очень интересная. (Complex: which, embedded)",
+    "Хотя шёл дождь, мы пошли гулять, и не пожалели. (Compound-complex)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я знаю, _____ он придёт. (that)",
+          "promptEnglish": "I know that he will come.",
+          "options": [
+            "когда",
+            "что",
+            "который",
+            "если"
+          ],
+          "answer": "что",
+          "hint": "Fact clause = что",
+          "explanation": "Fact/statement clause: что."
+        },
+        {
+          "prompt": "Он хотел помочь, _____ не знал как. (but)",
+          "promptEnglish": "He wanted to help but didn't know how.",
+          "options": [
+            "потому что",
+            "и",
+            "что",
+            "но"
+          ],
+          "answer": "но",
+          "hint": "Contrast = но",
+          "explanation": "Compound with contrast: но."
+        },
+        {
+          "prompt": "Книга, _____ я читаю, очень интересная. (which)",
+          "promptEnglish": "The book which I'm reading is very interesting.",
+          "options": [
+            "что",
+            "где",
+            "когда",
+            "которую"
+          ],
+          "answer": "которую",
+          "hint": "Relative clause (accusative) = которую",
+          "explanation": "Relative clause: которую (acc)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ он позвонил, я уже спал. (When)",
+          "promptEnglish": "When he called, I was already sleeping.",
+          "options": [
+            "Что",
+            "Когда",
+            "Потому что",
+            "Который"
+          ],
+          "answer": "Когда",
+          "hint": "Time clause = когда",
+          "explanation": "Time subordinate: когда."
+        },
+        {
+          "prompt": "Я не пойду, _____ идёт дождь. (because)",
+          "promptEnglish": "I won't go because it's raining.",
+          "options": [
+            "если",
+            "когда",
+            "что",
+            "потому что"
+          ],
+          "answer": "потому что",
+          "hint": "Cause = потому что",
+          "explanation": "Cause clause: потому что."
+        },
+        {
+          "prompt": "Она устала, _____ продолжала работать. (but)",
+          "promptEnglish": "She was tired but continued working.",
+          "options": [
+            "и",
+            "чтобы",
+            "что",
+            "но"
+          ],
+          "answer": "но",
+          "hint": "Contrast = но",
+          "explanation": "Compound with contrast: но."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я позвоню тебе, _____ приду домой. (when)",
+          "promptEnglish": "I'll call you when I get home.",
+          "options": [
+            "который",
+            "чтобы",
+            "когда",
+            "что"
+          ],
+          "answer": "когда",
+          "hint": "Time = когда",
+          "explanation": "Time clause: когда."
+        },
+        {
+          "prompt": "_____ ты хочешь, я помогу. (If)",
+          "promptEnglish": "If you want, I'll help.",
+          "options": [
+            "Что",
+            "Потому что",
+            "Когда",
+            "Если"
+          ],
+          "answer": "Если",
+          "hint": "Condition = если",
+          "explanation": "Conditional clause: если."
+        },
+        {
+          "prompt": "Он сказал, _____ придёт завтра, _____ будет время. (that / if)",
+          "promptEnglish": "He said that he would come tomorrow if he has time.",
+          "options": [
+            "если, что",
+            "что, когда",
+            "когда, что",
+            "что, если"
+          ],
+          "answer": "что, если",
+          "hint": "Statement + condition",
+          "explanation": "Multiple subordinates: что + если."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Он позвонил, _____ я уже вышел из дома. (but)",
+          "promptEnglish": "He called, but I had already left the house.",
+          "options": [
+            "что",
+            "потому что",
+            "но",
+            "когда"
+          ],
+          "answer": "но",
+          "hint": "Contrast between two independent clauses = но",
+          "explanation": "Compound sentence with contrast: но joins two independent clauses."
+        },
+        {
+          "prompt": "Я не знаю, _____ она уехала. (why)",
+          "promptEnglish": "I don't know why she left.",
+          "options": [
+            "почему",
+            "который",
+            "что",
+            "если"
+          ],
+          "answer": "почему",
+          "hint": "Reason/cause question in subordinate clause",
+          "explanation": "Complex sentence: почему introduces a subordinate clause about reason."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я думаю, _____ это хорошая идея. (that)"
+    ],
+    "choices": [
+      "что",
+      "который",
+      "когда",
+      "если"
+    ],
+    "answers": [
+      "что"
+    ],
+    "grammarFocus": "Fact/opinion clauses use что",
+    "hints": [
+      "After verbs of thinking/knowing/saying, which conjunction introduces the content of the thought?"
+    ],
+    "explanations": [
+      "The conjunction что ('that') introduces fact or opinion clauses after verbs like думать, знать, сказать. It differs from который (relative pronoun) and когда/если (time/condition)."
+    ],
+    "options": [
+      [
+        "если",
+        "что",
+        "который",
+        "когда"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я знаю, _____ он сказал. (what, the thing)",
+      "contextEnglish": "I know what he said.",
+      "options": [
+        "что",
+        "который"
+      ],
+      "answer": "что",
+      "explanation": "What (content) = что."
+    },
+    {
+      "context": "Человек, _____ это сказал, ушёл. (who, relative)",
+      "contextEnglish": "The person who said this left.",
+      "options": [
+        "который",
+        "что"
+      ],
+      "answer": "который",
+      "explanation": "Relative pronoun = который."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by sentence type",
+    "categories": [
+      "Compound (и/а/но/или)",
+      "Complex (subordinate)",
+      "Compound-Complex"
+    ],
+    "items": [
+      {
+        "word": "Он пришёл, но она ушла.",
+        "category": "Compound (и/а/но/или)"
+      },
+      {
+        "word": "Я знаю, что он придёт.",
+        "category": "Complex (subordinate)"
+      },
+      {
+        "word": "Хотя шёл дождь, мы гуляли, и было хорошо.",
+        "category": "Compound-Complex"
+      },
+      {
+        "word": "Она читала, а он смотрел телевизор.",
+        "category": "Compound (и/а/но/или)"
+      },
+      {
+        "word": "Когда он пришёл, все обрадовались.",
+        "category": "Complex (subordinate)"
+      },
+      {
+        "word": "Если хочешь, я помогу, но это займёт время.",
+        "category": "Compound-Complex"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "compound sentence",
+      "definition": "independent clauses with и/а/но/или",
+      "example": "Он пришёл, но она ушла."
+    },
+    {
+      "term": "complex sentence",
+      "definition": "main + subordinate clause",
+      "example": "Я знаю, что он придёт."
+    },
+    {
+      "term": "что vs который",
+      "definition": "что = content; который = relative",
+      "example": "Знаю, что... / Человек, который..."
+    },
+    {
+      "term": "punctuation rule",
+      "definition": "comma BEFORE subordinate conjunctions",
+      "example": "Я думаю, что..."
+    }
+  ]
+}

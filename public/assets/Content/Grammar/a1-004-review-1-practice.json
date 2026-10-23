@@ -1,0 +1,563 @@
+{
+  "lessonId": "a1-004-review-1",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Quiz mixing pronouns, gender, and nominative case",
+      "descriptionRussian": "Викторина: местоимения, род и именительный падеж",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Машина новая. _____ стоит у дома.",
+              "promptEnglish": "The car is new. _____ is parked by the house.",
+              "options": [
+                "Он",
+                "Оно",
+                "Она",
+                "Они"
+              ],
+              "answer": "Она",
+              "hint": "Машина ends in -а (feminine).",
+              "explanation": "Машина is feminine (ends in -а), so the pronoun is она."
+            },
+            {
+              "prompt": "What gender is «чашка» (cup)?",
+              "promptEnglish": "What gender is «чашка» (cup)?",
+              "options": [
+                "masculine",
+                "feminine",
+                "neuter"
+              ],
+              "answer": "feminine",
+              "hint": "Ends in -а.",
+              "explanation": "Чашка ends in -а, the standard feminine ending."
+            },
+            {
+              "prompt": "Choose the correct form: Это мой _____.",
+              "promptEnglish": "This is my cat.",
+              "options": [
+                "кота",
+                "кот",
+                "коту",
+                "котом"
+              ],
+              "answer": "кот",
+              "hint": "After это, use nominative.",
+              "explanation": "After это, the noun stays in nominative: кот."
+            },
+            {
+              "prompt": "Speaking to a stranger: _____ не скажете, который час?",
+              "promptEnglish": "Could _____ tell me what time it is?",
+              "options": [
+                "ты",
+                "мы",
+                "вы",
+                "они"
+              ],
+              "answer": "вы",
+              "hint": "Strangers require the formal form.",
+              "explanation": "Use вы with strangers as a sign of politeness."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ это? Это книга.",
+          "contextEnglish": "_____ is this? This is a book.",
+          "options": [
+            "Что",
+            "Кто"
+          ],
+          "answer": "Что",
+          "explanation": "Книга is a thing. Use Что (What) for objects."
+        },
+        {
+          "context": "Молоко на столе. _____ свежее.",
+          "contextEnglish": "The milk is on the table. _____ is fresh.",
+          "options": [
+            "Он",
+            "Оно"
+          ],
+          "answer": "Оно",
+          "explanation": "Молоко is neuter (ends in -о), so the pronoun is оно."
+        },
+        {
+          "context": "_____ пишет письмо.",
+          "contextEnglish": "_____ is writing a letter.",
+          "options": [
+            "Брат",
+            "Брата"
+          ],
+          "answer": "Брат",
+          "explanation": "Брат is the subject (who writes). Subjects take nominative: Брат."
+        },
+        {
+          "context": "To your younger sister: _____ хочешь мороженое?",
+          "contextEnglish": "Do _____ want ice cream?",
+          "options": [
+            "ты",
+            "вы"
+          ],
+          "answer": "ты",
+          "explanation": "Younger siblings are family. Use the informal ты."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in pronouns and sort nouns by gender",
+      "descriptionRussian": "Вставьте местоимения и рассортируйте существительные по роду",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "_____ хочу пить. (I'm thirsty.)",
+          "_____ живёт в Петербурге. (He lives in Petersburg.)",
+          "_____ говорите по-английски? (Do you [formal] speak English?)",
+          "_____ учатся в университете. (They study at university.)"
+        ],
+        "choices": [
+          "Я",
+          "Он",
+          "Вы",
+          "Они"
+        ],
+        "answers": [
+          "Я",
+          "Он",
+          "Вы",
+          "Они"
+        ],
+        "grammarFocus": "pronoun-verb agreement",
+        "hints": [
+          "First person singular: хочу.",
+          "Third person singular: живёт.",
+          "Second person formal/plural: говорите.",
+          "Third person plural: учатся."
+        ],
+        "explanations": [
+          "Хочу is the я form of хотеть.",
+          "Живёт is the он/она form of жить.",
+          "Говорите is the вы form of говорить.",
+          "Учатся is the они form of учиться."
+        ],
+        "options": [
+          [
+            "Он",
+            "Ты",
+            "Я",
+            "Мы"
+          ],
+          [
+            "Они",
+            "Я",
+            "Она",
+            "Он"
+          ],
+          [
+            "Вы",
+            "Ты",
+            "Мы",
+            "Они"
+          ],
+          [
+            "Они",
+            "Он",
+            "Она",
+            "Мы"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort these nouns by gender",
+        "categories": [
+          "Masculine",
+          "Feminine",
+          "Neuter"
+        ],
+        "items": [
+          {
+            "word": "парк",
+            "category": "Masculine"
+          },
+          {
+            "word": "ручка",
+            "category": "Feminine"
+          },
+          {
+            "word": "озеро",
+            "category": "Neuter"
+          },
+          {
+            "word": "журнал",
+            "category": "Masculine"
+          },
+          {
+            "word": "газета",
+            "category": "Feminine"
+          },
+          {
+            "word": "место",
+            "category": "Neuter"
+          },
+          {
+            "word": "билет",
+            "category": "Masculine"
+          },
+          {
+            "word": "сумка",
+            "category": "Feminine"
+          },
+          {
+            "word": "кольцо",
+            "category": "Neuter"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-3-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Составь и переведи",
+      "description": "Build sentences and translate across all three review topics",
+      "descriptionRussian": "Составляйте и переводите предложения по всем темам",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "Who is this? This is our teacher.",
+          "answer": "Кто это? Это наш учитель.",
+          "acceptableVariants": [
+            "Кто это? Это — наш учитель."
+          ],
+          "hint": "who = кто, our = наш (masc.), teacher = учитель",
+          "grammarFocus": "кто + это + nominative",
+          "keyWord": "Кто",
+          "options": [
+            "Кто",
+            "Что",
+            "Где",
+            "Как"
+          ]
+        },
+        {
+          "english": "She is a student.",
+          "answer": "Она студентка.",
+          "acceptableVariants": [
+            "Она — студентка."
+          ],
+          "hint": "she = она, student (f.) = студентка",
+          "grammarFocus": "pronoun + nominative predicate",
+          "keyWord": "Она",
+          "options": [
+            "Она",
+            "Он",
+            "Оно",
+            "Они"
+          ]
+        },
+        {
+          "english": "The house is big.",
+          "answer": "Дом большой.",
+          "acceptableVariants": [
+            "Дом — большой."
+          ],
+          "hint": "house = дом (masc.), big (masc.) = большой",
+          "grammarFocus": "masculine noun + adjective agreement",
+          "keyWord": "Дом",
+          "options": [
+            "Дом",
+            "Дома",
+            "Дому",
+            "Домом"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What gender is «аэропорт» (airport)?",
+              "promptEnglish": "What gender is «аэропорт» (airport)?",
+              "options": [
+                "neuter",
+                "masculine",
+                "feminine"
+              ],
+              "answer": "masculine",
+              "hint": "Ends in a consonant.",
+              "explanation": "Аэропорт ends in the consonant т (masculine)."
+            },
+            {
+              "prompt": "«Автобус едет по улице.» Which word is in nominative?",
+              "promptEnglish": "The bus is driving along the street. Which is nominative?",
+              "options": [
+                "по улице",
+                "автобус",
+                "едет"
+              ],
+              "answer": "автобус",
+              "hint": "What is moving?",
+              "explanation": "Автобус (bus) is the subject (what is driving). По улице is prepositional."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-spot-errors",
+      "title": "Find the Mistakes",
+      "titleRussian": "Найди ошибки",
+      "description": "Spot errors in pronoun, gender, and case usage",
+      "descriptionRussian": "Найдите ошибки в местоимениях, роде и падежах",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Это моя брат.",
+          "error": "моя",
+          "correction": "мой",
+          "hint": "Брат is masculine, but моя is the feminine possessive.",
+          "explanation": "Брат is masculine, so the possessive must be мой (not моя).",
+          "options": [
+            "мой",
+            "моё",
+            "мои"
+          ]
+        },
+        {
+          "sentence": "Окно большой.",
+          "error": "большой",
+          "correction": "большое",
+          "hint": "Окно is neuter, but большой is the masculine adjective form.",
+          "explanation": "Окно is neuter, so the adjective needs the neuter ending: большое.",
+          "options": [
+            "большое",
+            "большая",
+            "большие"
+          ]
+        },
+        {
+          "sentence": "Студента читает книгу.",
+          "error": "Студента",
+          "correction": "Студент",
+          "hint": "The subject must be in nominative case.",
+          "explanation": "Студент is the subject (who reads), so it must be in nominative: Студент, not Студента.",
+          "options": [
+            "Студент",
+            "Студенту",
+            "Студентом"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ это? Это Саша.",
+              "promptEnglish": "_____ is this? This is Sasha.",
+              "options": [
+                "Что",
+                "Где",
+                "Когда",
+                "Кто"
+              ],
+              "answer": "Кто",
+              "hint": "Asking about a person.",
+              "explanation": "Саша is a person, so use Кто (Who)."
+            },
+            {
+              "prompt": "Вот моя сестра. _____ учится в школе.",
+              "promptEnglish": "Here is my sister. _____ studies at school.",
+              "options": [
+                "Он",
+                "Они",
+                "Она",
+                "Оно"
+              ],
+              "answer": "Она",
+              "hint": "A sister is female.",
+              "explanation": "Сестра (sister) is feminine, so use она (she)."
+            },
+            {
+              "prompt": "Choose the correct form: _____ звонит.",
+              "promptEnglish": "The phone is ringing.",
+              "options": [
+                "Телефону",
+                "Телефон",
+                "Телефона",
+                "Телефоном"
+              ],
+              "answer": "Телефон",
+              "hint": "What is ringing? Use the dictionary form.",
+              "explanation": "Телефон is the subject (what is ringing). Nominative: Телефон."
+            },
+            {
+              "prompt": "What gender is «кресло» (armchair)?",
+              "promptEnglish": "What gender is «кресло» (armchair)?",
+              "options": [
+                "masculine",
+                "neuter",
+                "feminine"
+              ],
+              "answer": "neuter",
+              "hint": "Ends in -о.",
+              "explanation": "Кресло ends in -о (neuter)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанная практика",
+      "description": "A fresh round mixing all three review topics",
+      "descriptionRussian": "Новый раунд по всем темам повторения",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "У меня есть брат. _____ живёт в Москве.",
+              "promptEnglish": "I have a brother. _____ lives in Moscow.",
+              "options": [
+                "Она",
+                "Он",
+                "Оно",
+                "Они"
+              ],
+              "answer": "Он",
+              "hint": "A brother is male.",
+              "explanation": "Брат (brother) is masculine, so use он (he)."
+            },
+            {
+              "prompt": "What gender is «песня» (song)?",
+              "promptEnglish": "What gender is «песня» (song)?",
+              "options": [
+                "masculine",
+                "neuter",
+                "feminine"
+              ],
+              "answer": "feminine",
+              "hint": "The -я ending works like -а.",
+              "explanation": "Песня ends in -я (feminine)."
+            },
+            {
+              "prompt": "Это _____. (milk)",
+              "promptEnglish": "This is milk.",
+              "options": [
+                "молоком",
+                "молока",
+                "молоко",
+                "молоку"
+              ],
+              "answer": "молоко",
+              "hint": "After это, use the dictionary form.",
+              "explanation": "Молоко stays in its dictionary form (nominative) after это."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ это? Это словарь.",
+          "_____ тебя зовут?",
+          "_____ ты учишься?",
+          "_____ это? Это наш учитель."
+        ],
+        "choices": [
+          "Что",
+          "Как",
+          "Где",
+          "Кто"
+        ],
+        "answers": [
+          "Что",
+          "Как",
+          "Где",
+          "Кто"
+        ],
+        "grammarFocus": "question words",
+        "hints": [
+          "A dictionary is a thing.",
+          "Asking someone's name.",
+          "Asking about location of study.",
+          "Asking about a person."
+        ],
+        "explanations": [
+          "Словарь is a thing, so use Что (What).",
+          "Как тебя зовут? (What is your name?) uses Как (How).",
+          "Где (Where) asks about location.",
+          "Учитель is a person, so use Кто (Who)."
+        ],
+        "options": [
+          [
+            "Что",
+            "Когда",
+            "Где",
+            "Кто"
+          ],
+          [
+            "Что",
+            "Кто",
+            "Где",
+            "Как"
+          ],
+          [
+            "Когда",
+            "Кто",
+            "Где",
+            "Как"
+          ],
+          [
+            "Как",
+            "Кто",
+            "Что",
+            "Где"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "What gender is «зеркало» (mirror)?",
+          "contextEnglish": "What gender is 'зеркало'?",
+          "options": [
+            "masculine",
+            "neuter"
+          ],
+          "answer": "neuter",
+          "explanation": "Зеркало ends in -о (neuter)."
+        },
+        {
+          "context": "_____ висит на стене.",
+          "contextEnglish": "A picture is hanging on the wall.",
+          "options": [
+            "Картина",
+            "Картину"
+          ],
+          "answer": "Картина",
+          "explanation": "Картина is the subject (what is hanging). Nominative: Картина."
+        },
+        {
+          "context": "Speaking to a police officer: _____ можете помочь?",
+          "contextEnglish": "Can _____ help me?",
+          "options": [
+            "ты",
+            "вы"
+          ],
+          "answer": "вы",
+          "explanation": "Police officers are strangers in authority. Use the formal вы."
+        }
+      ]
+    }
+  ]
+}

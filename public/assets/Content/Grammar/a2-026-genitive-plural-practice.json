@@ -1,0 +1,813 @@
+{
+  "lessonId": "a2-026-genitive-plural",
+  "sets": [
+    {
+      "id": "round-1-masculine",
+      "title": "Masculine (-ов/-ев/-ей)",
+      "titleRussian": "Мужской род (-ов/-ев/-ей)",
+      "description": "Genitive plural endings for masculine nouns",
+      "descriptionRussian": "Окончания родительного падежа множественного числа (м. род)",
+      "icon": "square.stack.3d.up",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Пять _____. (Five students.)",
+              "promptEnglish": "5+ = genitive plural.",
+              "options": [
+                "студентов",
+                "студенты",
+                "студента",
+                "студентам"
+              ],
+              "answer": "студентов",
+              "hint": "Masculine hard stem: + -ов.",
+              "explanation": "Masculine genitive plural: студент → студентов."
+            },
+            {
+              "prompt": "Много _____. (Many tables.)",
+              "promptEnglish": "Много + genitive plural.",
+              "options": [
+                "столов",
+                "столы",
+                "стола",
+                "столам"
+              ],
+              "answer": "столов",
+              "hint": "Masculine hard stem: + -ов.",
+              "explanation": "Masculine genitive plural: стол → столов."
+            },
+            {
+              "prompt": "Десять _____. (Ten doctors.)",
+              "promptEnglish": "10 = genitive plural.",
+              "options": [
+                "врачей",
+                "врачи",
+                "врача",
+                "врачам"
+              ],
+              "answer": "врачей",
+              "hint": "After ч/ш/ж/щ: + -ей.",
+              "explanation": "After sibilant: врач → врачей."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Шесть _____. (Six months.)",
+              "promptEnglish": "6 = genitive plural.",
+              "options": [
+                "месяцев",
+                "месяцы",
+                "месяца",
+                "месяцам"
+              ],
+              "answer": "месяцев",
+              "hint": "After ц: + -ев.",
+              "explanation": "After ц: месяц → месяцев."
+            },
+            {
+              "prompt": "Нет _____. (There are no keys.)",
+              "promptEnglish": "Нет + genitive plural.",
+              "options": [
+                "ключей",
+                "ключи",
+                "ключа",
+                "ключам"
+              ],
+              "answer": "ключей",
+              "hint": "After ч: + -ей.",
+              "explanation": "After sibilant: ключ → ключей."
+            },
+            {
+              "prompt": "Восемь _____. (Eight museums.)",
+              "promptEnglish": "8 = genitive plural.",
+              "options": [
+                "музеев",
+                "музеи",
+                "музея",
+                "музеям"
+              ],
+              "answer": "музеев",
+              "hint": "Masculine -й stem: + -ев.",
+              "explanation": "Masculine -й: музей → музеев."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Семь _____. (Seven boys.)",
+          "Много _____. (Many teachers.)",
+          "Двадцать _____. (Twenty rubles.)"
+        ],
+        "choices": [
+          "мальчиков",
+          "учителей",
+          "рублей",
+          "мальчики",
+          "учителя"
+        ],
+        "answers": [
+          "мальчиков",
+          "учителей",
+          "рублей"
+        ],
+        "grammarFocus": "Masculine genitive plural: hard -ов, soft/sibilant -ей, ц -ев",
+        "hints": [
+          "Hard stem: + -ов.",
+          "Soft stem (ь): + -ей.",
+          "Soft stem: + -ей."
+        ],
+        "explanations": [
+          "Masculine genitive plural: мальчик → мальчиков.",
+          "Soft-stem: учитель → учителей.",
+          "Soft-stem: рубль → рублей."
+        ],
+        "options": [
+          [
+            "мальчиками",
+            "мальчикам",
+            "мальчики",
+            "мальчиков"
+          ],
+          [
+            "учителей",
+            "учителям",
+            "учители",
+            "учителями"
+          ],
+          [
+            "рублям",
+            "рублей",
+            "рубли",
+            "рублями"
+          ]
+        ]
+      },
+      "patternRecognition": [
+        {
+          "sentence": "студентов, столов, мальчиков, городов",
+          "question": "What ending do these masculine nouns take in genitive plural?",
+          "options": [
+            "-ов (hard stem)",
+            "-ей (after sibilant/soft)",
+            "-ев (after ц/-й)"
+          ],
+          "answer": "-ов (hard stem)",
+          "explanation": "Hard-stem masculine: add -ов."
+        },
+        {
+          "sentence": "врачей, ключей, учителей, дней",
+          "question": "What ending do these masculine nouns take in genitive plural?",
+          "options": [
+            "-ей (sibilant or soft stem)",
+            "-ов (hard stem)",
+            "zero ending"
+          ],
+          "answer": "-ей (sibilant or soft stem)",
+          "explanation": "After sibilants (ч, ш, ж, щ) or soft stems (ь): add -ей."
+        }
+      ]
+    },
+    {
+      "id": "round-2-feminine-neuter",
+      "title": "Feminine & Neuter (Zero Ending)",
+      "titleRussian": "Женский и средний род (нулевое окончание)",
+      "description": "Genitive plural for feminine and neuter nouns (drop the ending)",
+      "descriptionRussian": "Родительный падеж множественного числа (ж. и ср. род)",
+      "icon": "minus.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Много _____. (Many books.)",
+              "promptEnglish": "Много + genitive plural.",
+              "options": [
+                "книг",
+                "книги",
+                "книга",
+                "книгам"
+              ],
+              "answer": "книг",
+              "hint": "Feminine -а drops: zero ending.",
+              "explanation": "Feminine genitive plural: книга → книг."
+            },
+            {
+              "prompt": "Шесть _____. (Six windows.)",
+              "promptEnglish": "6 = genitive plural.",
+              "options": [
+                "окон",
+                "окна",
+                "окно",
+                "окнам"
+              ],
+              "answer": "окон",
+              "hint": "Neuter -о drops: zero ending (+ fleeting о).",
+              "explanation": "Neuter genitive plural: окно → окон."
+            },
+            {
+              "prompt": "Пять _____. (Five words.)",
+              "promptEnglish": "5 = genitive plural.",
+              "options": [
+                "слов",
+                "слова",
+                "слово",
+                "словам"
+              ],
+              "answer": "слов",
+              "hint": "Neuter -о drops: zero ending.",
+              "explanation": "Neuter genitive plural: слово → слов."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Десять _____. (Ten girls.)",
+              "promptEnglish": "10 = genitive plural.",
+              "options": [
+                "девушек",
+                "девушки",
+                "девушка",
+                "девушкам"
+              ],
+              "answer": "девушек",
+              "hint": "Consonant cluster: fleeting е inserted.",
+              "explanation": "Fleeting vowel: девушка → девушек."
+            },
+            {
+              "prompt": "Пять _____. (Five weeks.)",
+              "promptEnglish": "5 = genitive plural.",
+              "options": [
+                "недель",
+                "недели",
+                "неделя",
+                "неделям"
+              ],
+              "answer": "недель",
+              "hint": "Feminine -я: drop + add ь.",
+              "explanation": "Feminine -я: неделя → недель."
+            },
+            {
+              "prompt": "Много _____. (Many places.)",
+              "promptEnglish": "Много + genitive plural.",
+              "options": [
+                "мест",
+                "места",
+                "место",
+                "местам"
+              ],
+              "answer": "мест",
+              "hint": "Neuter -о drops: zero ending.",
+              "explanation": "Neuter genitive plural: место → мест."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort genitive plural forms by ending type.",
+        "categories": [
+          "-ов/-ев (masculine)",
+          "Zero ending (fem/neuter)",
+          "-ей (soft/irregular)"
+        ],
+        "items": [
+          {
+            "word": "столов",
+            "category": "-ов/-ев (masculine)"
+          },
+          {
+            "word": "книг",
+            "category": "Zero ending (fem/neuter)"
+          },
+          {
+            "word": "врачей",
+            "category": "-ей (soft/irregular)"
+          },
+          {
+            "word": "окон",
+            "category": "Zero ending (fem/neuter)"
+          },
+          {
+            "word": "музеев",
+            "category": "-ов/-ев (masculine)"
+          },
+          {
+            "word": "слов",
+            "category": "Zero ending (fem/neuter)"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Много книгов на столе.",
+          "error": "книгов",
+          "correction": "книг",
+          "explanation": "Feminine nouns take zero ending, not -ов. Книга → книг.",
+          "options": [
+            "книг",
+            "книги",
+            "книгам",
+            "книгах"
+          ]
+        },
+        {
+          "sentence": "Пять окнов в комнате.",
+          "error": "окнов",
+          "correction": "окон",
+          "explanation": "Neuter nouns take zero ending, not -ов. Окно → окон.",
+          "options": [
+            "окон",
+            "окна",
+            "окнам",
+            "окнах"
+          ]
+        },
+        {
+          "sentence": "Десять словов в тексте.",
+          "error": "словов",
+          "correction": "слов",
+          "explanation": "Neuter: zero ending. Слово → слов (not словов).",
+          "options": [
+            "слов",
+            "слова",
+            "словам",
+            "словах"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-irregulars",
+      "title": "Irregular Forms",
+      "titleRussian": "Нестандартные формы",
+      "description": "Practice the most common irregular genitive plural forms",
+      "descriptionRussian": "Самые частые нестандартные формы род. пад. мн. числа",
+      "icon": "exclamationmark.triangle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Много _____. (Many people.)",
+              "promptEnglish": "Irregular: люди → ?",
+              "options": [
+                "людей",
+                "людов",
+                "людям",
+                "люди"
+              ],
+              "answer": "людей",
+              "hint": "Irregular: люди → людей.",
+              "explanation": "Irregular: люди → людей."
+            },
+            {
+              "prompt": "Нет _____. (There are no children.)",
+              "promptEnglish": "Irregular: дети → ?",
+              "options": [
+                "детей",
+                "детов",
+                "детям",
+                "дети"
+              ],
+              "answer": "детей",
+              "hint": "Irregular: дети → детей.",
+              "explanation": "Irregular: дети → детей."
+            },
+            {
+              "prompt": "Много _____. (Many friends.)",
+              "promptEnglish": "Irregular: друзья → ?",
+              "options": [
+                "друзей",
+                "другов",
+                "друзьям",
+                "друзья"
+              ],
+              "answer": "друзей",
+              "hint": "Irregular: друзья → друзей.",
+              "explanation": "Irregular: друзья → друзей."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Ему двадцать _____. (He is twenty years old.)",
+              "promptEnglish": "Irregular: год → ? (for 5+)",
+              "options": [
+                "лет",
+                "годов",
+                "годам",
+                "года"
+              ],
+              "answer": "лет",
+              "hint": "Irregular: 5+ лет (not годов).",
+              "explanation": "Irregular: год → лет (for 5+)."
+            },
+            {
+              "prompt": "Пять _____. (Five sisters.)",
+              "promptEnglish": "Fleeting vowel: сестра → ?",
+              "options": [
+                "сестёр",
+                "сестров",
+                "сёстрам",
+                "сестры"
+              ],
+              "answer": "сестёр",
+              "hint": "Fleeting vowel: сестра → сестёр.",
+              "explanation": "Feminine with fleeting ё: сестра → сестёр."
+            },
+            {
+              "prompt": "Десять _____. (Ten chairs.)",
+              "promptEnglish": "Neuter with fleeting е: стул → ?",
+              "options": [
+                "стульев",
+                "стулов",
+                "стулам",
+                "стулы"
+              ],
+              "answer": "стульев",
+              "hint": "Irregular: стул → стульев.",
+              "explanation": "Irregular: стул → стульев."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Два _____. (Two years.)",
+          "contextEnglish": "2-4 = genitive singular of год.",
+          "options": [
+            "года",
+            "лет"
+          ],
+          "answer": "года",
+          "explanation": "2-4: года (genitive singular)."
+        },
+        {
+          "context": "Пять _____. (Five years.)",
+          "contextEnglish": "5+ = genitive plural (irregular).",
+          "options": [
+            "лет",
+            "года"
+          ],
+          "answer": "лет",
+          "explanation": "5+: лет (irregular genitive plural)."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "В городе много _____. (There are many people in the city.)",
+          "У них нет _____. (They have no children.)",
+          "Ей тридцать _____. (She is thirty years old.)"
+        ],
+        "choices": [
+          "людей",
+          "детей",
+          "лет",
+          "людов",
+          "детов"
+        ],
+        "answers": [
+          "людей",
+          "детей",
+          "лет"
+        ],
+        "grammarFocus": "Key irregulars: люди → людей, дети → детей, год → лет",
+        "hints": [
+          "Irregular: люди → людей.",
+          "Irregular: дети → детей.",
+          "Irregular: 5+ years = лет."
+        ],
+        "explanations": [
+          "Irregular genitive plural: людей.",
+          "Irregular genitive plural: детей.",
+          "Irregular: год → лет (for 5+)."
+        ],
+        "options": [
+          [
+            "людьми",
+            "людям",
+            "люди",
+            "людей"
+          ],
+          [
+            "детьми",
+            "детям",
+            "дети",
+            "детей"
+          ],
+          [
+            "годы",
+            "годами",
+            "лет",
+            "годам"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-number-agreement",
+      "title": "Numbers + Genitive",
+      "titleRussian": "Числа + родительный падеж",
+      "description": "Choose genitive singular (2-4) vs genitive plural (5+)",
+      "descriptionRussian": "Род. ед. (2-4) или род. мн. (5+)?",
+      "icon": "number",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Три _____. (Three books.)",
+              "promptEnglish": "2-4 = genitive singular.",
+              "options": [
+                "книги",
+                "книг",
+                "книга",
+                "книгам"
+              ],
+              "answer": "книги",
+              "hint": "2-4 = genitive SINGULAR.",
+              "explanation": "2-4: genitive singular. Книга → книги."
+            },
+            {
+              "prompt": "Семь _____. (Seven books.)",
+              "promptEnglish": "5+ = genitive plural.",
+              "options": [
+                "книг",
+                "книги",
+                "книга",
+                "книгам"
+              ],
+              "answer": "книг",
+              "hint": "5+ = genitive PLURAL.",
+              "explanation": "5+: genitive plural. Книга → книг."
+            },
+            {
+              "prompt": "Двадцать один _____. (Twenty-one student.)",
+              "promptEnglish": "Ends in 1 = nominative singular.",
+              "options": [
+                "студент",
+                "студента",
+                "студентов",
+                "студентам"
+              ],
+              "answer": "студент",
+              "hint": "Numbers ending in 1 (except 11) = nominative singular.",
+              "explanation": "21 = nominative singular: студент."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Двенадцать _____. (Twelve days.)",
+              "promptEnglish": "12 = genitive plural.",
+              "options": [
+                "дней",
+                "дня",
+                "день",
+                "дням"
+              ],
+              "answer": "дней",
+              "hint": "11-19 always = genitive plural.",
+              "explanation": "12: genitive plural. День → дней."
+            },
+            {
+              "prompt": "Два _____. (Two students.)",
+              "promptEnglish": "2 = genitive singular.",
+              "options": [
+                "студента",
+                "студентов",
+                "студент",
+                "студентам"
+              ],
+              "answer": "студента",
+              "hint": "2-4 = genitive singular.",
+              "explanation": "2: genitive singular. Студент → студента."
+            },
+            {
+              "prompt": "Одиннадцать _____. (Eleven windows.)",
+              "promptEnglish": "11 = genitive plural (teens always plural).",
+              "options": [
+                "окон",
+                "окна",
+                "окно",
+                "окнам"
+              ],
+              "answer": "окон",
+              "hint": "11-19 = genitive plural.",
+              "explanation": "11: genitive plural. Окно → окон."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "sourceText": "Five students",
+          "targetText": "Пять студентов",
+          "hint": "5+ = genitive plural. Masculine: -ов.",
+          "explanation": "Genitive plural: студент → студентов.",
+          "keyWord": "студентов",
+          "options": [
+            "студентов",
+            "студента",
+            "студенты",
+            "студентам"
+          ]
+        },
+        {
+          "sourceText": "Many children",
+          "targetText": "Много детей",
+          "hint": "Много + genitive plural. Irregular: дети → детей.",
+          "explanation": "Irregular genitive plural: детей.",
+          "keyWord": "детей",
+          "options": [
+            "детей",
+            "дети",
+            "детям",
+            "детьми"
+          ]
+        },
+        {
+          "sourceText": "Three weeks",
+          "targetText": "Три недели",
+          "hint": "2-4 = genitive SINGULAR. Неделя → недели.",
+          "explanation": "Genitive singular: неделя → недели.",
+          "keyWord": "недели",
+          "options": [
+            "недели",
+            "недель",
+            "неделя",
+            "неделям"
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "1, 21, 31, 101 → nominative singular",
+          "question": "What rule governs numbers ending in 1 (except 11)?",
+          "options": [
+            "Nominative singular",
+            "Genitive singular",
+            "Genitive plural"
+          ],
+          "answer": "Nominative singular",
+          "explanation": "Numbers ending in 1 (except 11) take nominative singular."
+        },
+        {
+          "sentence": "11, 12, 13, 14, 15 → genitive plural",
+          "question": "What rule governs teen numbers (11-19)?",
+          "options": [
+            "Always genitive plural",
+            "Genitive singular for 12-14",
+            "Nominative plural"
+          ],
+          "answer": "Always genitive plural",
+          "explanation": "Teen numbers (11-19) ALWAYS take genitive plural."
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All genitive plural skills: endings, irregulars, number agreement",
+      "descriptionRussian": "Все навыки: окончания, исключения, согласование с числами",
+      "icon": "bolt.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Восемь _____. (Eight months.)",
+              "promptEnglish": "8 = genitive plural.",
+              "options": [
+                "месяцев",
+                "месяца",
+                "месяцы",
+                "месяцам"
+              ],
+              "answer": "месяцев",
+              "hint": "5+, after ц: -ев.",
+              "explanation": "Genitive plural: месяц → месяцев."
+            },
+            {
+              "prompt": "Много _____. (Many letters.)",
+              "promptEnglish": "Много + genitive plural (neuter).",
+              "options": [
+                "писем",
+                "письма",
+                "письмо",
+                "письмам"
+              ],
+              "answer": "писем",
+              "hint": "Neuter with fleeting e: письмо → писем.",
+              "explanation": "Neuter genitive plural with fleeting е: писем."
+            },
+            {
+              "prompt": "Четыре _____. (Four chairs.)",
+              "promptEnglish": "2-4 = genitive singular.",
+              "options": [
+                "стула",
+                "стульев",
+                "стулья",
+                "стулам"
+              ],
+              "answer": "стула",
+              "hint": "2-4 = genitive SINGULAR of стул.",
+              "explanation": "Genitive singular: стул → стула."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Нет _____. (There are no friends.)",
+              "promptEnglish": "Нет + genitive plural (irregular).",
+              "options": [
+                "друзей",
+                "друзья",
+                "другов",
+                "друзьям"
+              ],
+              "answer": "друзей",
+              "hint": "Irregular: друзья → друзей.",
+              "explanation": "Irregular genitive plural: друзей."
+            },
+            {
+              "prompt": "Тридцать _____. (Thirty years.)",
+              "promptEnglish": "30 = genitive plural (irregular for год).",
+              "options": [
+                "лет",
+                "годов",
+                "года",
+                "годам"
+              ],
+              "answer": "лет",
+              "hint": "Irregular: 5+ years = лет.",
+              "explanation": "Irregular: год → лет."
+            },
+            {
+              "prompt": "Двадцать две _____. (Twenty-two girls.)",
+              "promptEnglish": "Ends in 2 = genitive singular.",
+              "options": [
+                "девушки",
+                "девушек",
+                "девушка",
+                "девушкам"
+              ],
+              "answer": "девушки",
+              "hint": "Numbers ending in 2-4 = genitive singular.",
+              "explanation": "22: genitive singular. Девушка → девушки."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Ему двадцать годов.",
+          "error": "годов",
+          "correction": "лет",
+          "explanation": "Irregular: 5+ years = лет (not годов).",
+          "options": [
+            "лет",
+            "года",
+            "годам"
+          ]
+        },
+        {
+          "sentence": "Много книгов в библиотеке.",
+          "error": "книгов",
+          "correction": "книг",
+          "explanation": "Feminine zero ending: книга → книг (not книгов).",
+          "options": [
+            "книг",
+            "книги",
+            "книгам"
+          ]
+        },
+        {
+          "sentence": "Пять детов в классе.",
+          "error": "детов",
+          "correction": "детей",
+          "explanation": "Irregular: дети → детей (not детов).",
+          "options": [
+            "детей",
+            "дети",
+            "детям"
+          ]
+        }
+      ]
+    }
+  ]
+}

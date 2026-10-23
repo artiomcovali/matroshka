@@ -1,0 +1,505 @@
+{
+  "lessonId": "b1-001-aspect-past",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Aspect in Narratives",
+      "titleRussian": "Вид глагола в рассказе",
+      "description": "Choose the correct aspect for each narrative context",
+      "descriptionRussian": "Выберите правильный вид глагола для каждого контекста",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "На улице _____ снег. Было тихо. (Snow was falling outside. It was quiet.)",
+              "promptEnglish": "Snow was falling outside. It was quiet.",
+              "options": [
+                "шёл",
+                "идёт",
+                "пошёл",
+                "пойдёт"
+              ],
+              "answer": "шёл",
+              "hint": "Scene-setting/background uses imperfective past.",
+              "explanation": "Background description uses imperfective: шёл (was falling). This sets the scene."
+            },
+            {
+              "prompt": "Она _____ дверь и вошла в комнату. (She opened the door and entered the room.)",
+              "promptEnglish": "She opened the door and entered the room.",
+              "options": [
+                "открывала",
+                "открыла",
+                "открывает",
+                "откроет"
+              ],
+              "answer": "открыла",
+              "hint": "Sequential completed actions use perfective.",
+              "explanation": "Sequence of events: opened (completed), entered. Both perfective: открыла."
+            },
+            {
+              "prompt": "В детстве каждое утро бабушка _____ нам блины. (Every morning grandma made us pancakes.)",
+              "promptEnglish": "In childhood, every morning grandma made us pancakes.",
+              "options": [
+                "готовила",
+                "готовит",
+                "приготовит",
+                "приготовила"
+              ],
+              "answer": "готовила",
+              "hint": "Repeated past actions (каждое утро) use imperfective.",
+              "explanation": "Habitual/repeated past action (каждое утро) requires imperfective: готовила."
+            },
+            {
+              "prompt": "Мы гуляли в парке, когда вдруг _____ гроза. (We were walking in the park when suddenly a storm started.)",
+              "promptEnglish": "We were walking in the park when a storm suddenly started.",
+              "options": [
+                "начнётся",
+                "начиналась",
+                "начинается",
+                "началась"
+              ],
+              "answer": "началась",
+              "hint": "A sudden interrupting event uses perfective.",
+              "explanation": "A sudden interruption (вдруг) uses perfective: началась."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Пока отец _____ машину, мать собирала вещи. (While father was washing the car, mother was packing things.)",
+              "promptEnglish": "While father was washing the car, mother was packing things.",
+              "options": [
+                "мыл",
+                "моет",
+                "помоет",
+                "помыл"
+              ],
+              "answer": "мыл",
+              "hint": "Simultaneous ongoing actions (пока) both use imperfective.",
+              "explanation": "Simultaneous background actions with 'пока' use imperfective: мыл."
+            },
+            {
+              "prompt": "Он _____ чай, сел за стол и начал работать. (He made tea, sat down, and started working.)",
+              "promptEnglish": "He made tea, sat down, and started working.",
+              "options": [
+                "заварил",
+                "заваривает",
+                "заварит",
+                "заваривал"
+              ],
+              "answer": "заварил",
+              "hint": "A chain of completed actions uses perfective.",
+              "explanation": "Sequential completed events: заварил, сел, начал. All perfective."
+            },
+            {
+              "prompt": "Она _____ весь день и очень устала. (She worked all day and was very tired.)",
+              "promptEnglish": "She worked all day and was very tired.",
+              "options": [
+                "работает",
+                "поработала",
+                "поработает",
+                "работала"
+              ],
+              "answer": "работала",
+              "hint": "Duration (весь день) signals imperfective.",
+              "explanation": "Duration marker 'весь день' requires imperfective past: работала."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он _____ обед два часа. (He cooked dinner for two hours - duration.)",
+          "contextEnglish": "He cooked dinner for two hours (focus on the process).",
+          "options": [
+            "готовил",
+            "приготовил"
+          ],
+          "answer": "готовил",
+          "explanation": "Duration (два часа) emphasizes the process, requiring imperfective: готовил."
+        },
+        {
+          "context": "Он _____ обед и позвал всех к столу. (He cooked dinner and called everyone to the table.)",
+          "contextEnglish": "He finished cooking dinner and called everyone.",
+          "options": [
+            "готовил",
+            "приготовил"
+          ],
+          "answer": "приготовил",
+          "explanation": "Completed action followed by the next event requires perfective: приготовил."
+        },
+        {
+          "context": "Она _____ задачу, но так и не решила. (She was solving the problem but never solved it.)",
+          "contextEnglish": "She was working on the problem but didn't solve it.",
+          "options": [
+            "решала",
+            "решила"
+          ],
+          "answer": "решала",
+          "explanation": "Process without result uses imperfective: решала. The 'но не решила' confirms no completion."
+        },
+        {
+          "context": "Наконец она _____ эту задачу! (She finally solved this problem!)",
+          "contextEnglish": "She finally solved this problem!",
+          "options": [
+            "решала",
+            "решила"
+          ],
+          "answer": "решила",
+          "explanation": "Result achieved (наконец) requires perfective: решила."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-correct",
+      "title": "Fill and Fix",
+      "titleRussian": "Заполни и исправь",
+      "description": "Choose the right aspect form and fix aspect errors",
+      "descriptionRussian": "Выберите правильную форму и исправьте ошибки в виде глагола",
+      "icon": "pencil.and.outline",
+      "fillInBlank": {
+        "blanks": [
+          "Мы _____ по улице, когда увидели старого друга. (We were walking down the street when we saw an old friend.)",
+          "Он _____ дверь, снял пальто и прошёл в комнату. (He opened the door, took off his coat, and walked into the room.)",
+          "Раньше она каждый вечер _____ книги. (She used to read books every evening.)",
+          "Вдруг кто-то _____ в дверь. (Suddenly someone knocked on the door.)"
+        ],
+        "choices": [
+          "шли",
+          "открыл",
+          "читала",
+          "постучал"
+        ],
+        "answers": [
+          "шли",
+          "открыл",
+          "читала",
+          "постучал"
+        ],
+        "grammarFocus": "Background = imperfective; completed events/sequence = perfective",
+        "hints": [
+          "Ongoing action interrupted by seeing someone. Which aspect for the background?",
+          "First in a chain of completed actions. Which aspect?",
+          "Habitual past action (каждый вечер). Which aspect?",
+          "Sudden single event (вдруг). Which aspect?"
+        ],
+        "explanations": [
+          "Background action before interruption uses imperfective: шли (were walking).",
+          "First event in a completed sequence uses perfective: открыл.",
+          "Repeated habitual action uses imperfective: читала.",
+          "Sudden single event uses perfective: постучал."
+        ],
+        "options": [
+          [
+            "пошли",
+            "шли",
+            "пойдёт",
+            "идёт"
+          ],
+          [
+            "открыл",
+            "открывает",
+            "откроет",
+            "открывал"
+          ],
+          [
+            "читала",
+            "прочитала",
+            "читает",
+            "прочитает"
+          ],
+          [
+            "стучал",
+            "стучит",
+            "постучал",
+            "постучит"
+          ]
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Дети играли в саду, когда начинался дождь.",
+          "error": "начинался",
+          "correction": "начался",
+          "hint": "The rain starting is a sudden single event that interrupts the playing.",
+          "explanation": "The interrupting event is a completed action: imperfective начинался should be perfective начался.",
+          "options": [
+            "начался",
+            "начинается",
+            "начнётся"
+          ]
+        },
+        {
+          "sentence": "Он вставал, умылся и вышел из дома.",
+          "error": "вставал",
+          "correction": "встал",
+          "hint": "All three actions in this sequence are completed events.",
+          "explanation": "Sequential completed actions all use perfective: встал (not imperfective вставал).",
+          "options": [
+            "встал",
+            "встаёт",
+            "встанет"
+          ]
+        },
+        {
+          "sentence": "Пока мы обедали, позвонила телефон.",
+          "error": "позвонила",
+          "correction": "позвонил",
+          "hint": "Телефон is masculine, not feminine.",
+          "explanation": "Телефон is masculine: позвонил (not позвонила). The perfective aspect is correct here.",
+          "options": [
+            "позвонил",
+            "позвонят",
+            "позвонит"
+          ]
+        },
+        {
+          "sentence": "Каждый день он приготовил завтрак в семь часов.",
+          "error": "приготовил",
+          "correction": "готовил",
+          "hint": "Каждый день signals a repeated action. Which aspect for repetition?",
+          "explanation": "Repeated habitual actions (каждый день) require imperfective: готовил, not perfective приготовил.",
+          "options": [
+            "готовил",
+            "приготовит",
+            "готовит"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Весь вечер мы _____ и смеялись. (All evening we talked and laughed.)",
+              "promptEnglish": "All evening we talked and laughed.",
+              "options": [
+                "разговариваем",
+                "поговорим",
+                "разговаривали",
+                "поговорили"
+              ],
+              "answer": "разговаривали",
+              "hint": "Duration (весь вечер) + simultaneous actions = imperfective.",
+              "explanation": "Duration with simultaneous ongoing actions uses imperfective: разговаривали."
+            },
+            {
+              "prompt": "Она _____ письмо и отправила его. (She wrote the letter and sent it.)",
+              "promptEnglish": "She wrote the letter and sent it.",
+              "options": [
+                "пишет",
+                "напишет",
+                "писала",
+                "написала"
+              ],
+              "answer": "написала",
+              "hint": "Completed action followed by the next step = perfective.",
+              "explanation": "Sequential completed actions use perfective: написала, отправила."
+            },
+            {
+              "prompt": "В комнате было тихо. Все _____. (The room was quiet. Everyone was sleeping.)",
+              "promptEnglish": "The room was quiet. Everyone was sleeping.",
+              "options": [
+                "заснули",
+                "спали",
+                "заснут",
+                "спят"
+              ],
+              "answer": "спали",
+              "hint": "Background state/scene-setting = imperfective.",
+              "explanation": "Scene-setting (background state) uses imperfective: спали."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All narrative aspect patterns in one final round",
+      "descriptionRussian": "Все аспектные паттерны в одном финальном раунде",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Было поздно. Город _____. (It was late. The city was sleeping.)",
+              "promptEnglish": "It was late. The city was sleeping.",
+              "options": [
+                "спал",
+                "уснул",
+                "засыпал",
+                "заснул"
+              ],
+              "answer": "спал",
+              "hint": "A background state describing the scene.",
+              "explanation": "Scene-setting background state uses imperfective: город спал."
+            },
+            {
+              "prompt": "Она _____ кошелёк и побежала в полицию. (She lost her wallet and ran to the police.)",
+              "promptEnglish": "She lost her wallet and ran to the police.",
+              "options": [
+                "потеряла",
+                "потеряет",
+                "теряет",
+                "теряла"
+              ],
+              "answer": "потеряла",
+              "hint": "A completed event that triggers the next action.",
+              "explanation": "Completed event in a sequence uses perfective: потеряла."
+            },
+            {
+              "prompt": "Раньше мы часто _____ в этом ресторане. (We used to eat at this restaurant often.)",
+              "promptEnglish": "We used to eat at this restaurant often.",
+              "options": [
+                "пообедали",
+                "пообедаем",
+                "обедали",
+                "обедаем"
+              ],
+              "answer": "обедали",
+              "hint": "Repeated past action (раньше, часто) = imperfective.",
+              "explanation": "Habitual past with 'раньше' and 'часто' requires imperfective: обедали."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Пока она приготовила ужин, дети смотрели мультфильм.",
+          "error": "приготовила",
+          "correction": "готовила",
+          "hint": "Пока (while) describes two simultaneous ongoing actions.",
+          "explanation": "With 'пока' both actions are simultaneous and ongoing, requiring imperfective: готовила, not perfective приготовила.",
+          "options": [
+            "готовила",
+            "приготовит",
+            "готовит"
+          ]
+        },
+        {
+          "sentence": "Вдруг он вставал и ушёл.",
+          "error": "вставал",
+          "correction": "встал",
+          "hint": "Вдруг signals a sudden action. Which aspect for sudden events?",
+          "explanation": "A sudden action (вдруг) requires perfective: встал, not imperfective вставал.",
+          "options": [
+            "встал",
+            "встаёт",
+            "встанет"
+          ]
+        },
+        {
+          "sentence": "Она долго написала этот роман.",
+          "error": "написала",
+          "correction": "писала",
+          "hint": "Долго emphasizes the duration of the process.",
+          "explanation": "Duration marker 'долго' requires imperfective: писала, not perfective написала.",
+          "options": [
+            "писала",
+            "напишет",
+            "пишет"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "While she was cooking, the children were playing.",
+          "answer": "Пока она готовила, дети играли.",
+          "acceptableVariants": [
+            "Она готовила, а дети играли."
+          ],
+          "hint": "пока = while, готовила = was cooking (impf), играли = were playing (impf)",
+          "grammarFocus": "Simultaneous background actions: both imperfective",
+          "keyWord": "пока",
+          "options": [
+            "пока",
+            "если",
+            "чтобы",
+            "что"
+          ]
+        },
+        {
+          "english": "He read the book and fell asleep.",
+          "answer": "Он прочитал книгу и заснул.",
+          "acceptableVariants": [
+            "Он прочёл книгу и заснул."
+          ],
+          "hint": "Sequential completed actions: прочитал (finished reading), заснул (fell asleep)",
+          "grammarFocus": "Sequential perfective events",
+          "keyWord": "прочитал",
+          "options": [
+            "прочитал",
+            "читал",
+            "прочитает",
+            "прочитала"
+          ]
+        },
+        {
+          "english": "I was watching a movie when my friend called.",
+          "answer": "Я смотрел фильм, когда позвонил друг.",
+          "acceptableVariants": [
+            "Я смотрела фильм, когда позвонил друг.",
+            "Я смотрел фильм, когда друг позвонил."
+          ],
+          "hint": "Background (impf) + когда + interruption (pf): смотрел + позвонил",
+          "grammarFocus": "Interruption pattern: imperfective + когда + perfective",
+          "keyWord": "смотрел",
+          "options": [
+            "смотрел",
+            "посмотрел",
+            "смотрит",
+            "посмотрит"
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these past tense sentences: is the highlighted verb background (imperfective) or a plot event (perfective)?",
+        "categories": [
+          "Background (imperfective)",
+          "Plot event (perfective)"
+        ],
+        "items": [
+          {
+            "word": "Солнце САДИЛОСЬ за горизонт.",
+            "category": "Background (imperfective)"
+          },
+          {
+            "word": "Вдруг РАЗДАЛСЯ громкий звук.",
+            "category": "Plot event (perfective)"
+          },
+          {
+            "word": "Дети БЕГАЛИ по двору.",
+            "category": "Background (imperfective)"
+          },
+          {
+            "word": "Она ВОШЛА в комнату.",
+            "category": "Plot event (perfective)"
+          },
+          {
+            "word": "Мы долго РАЗГОВАРИВАЛИ о жизни.",
+            "category": "Background (imperfective)"
+          },
+          {
+            "word": "Он ВКЛЮЧИЛ свет.",
+            "category": "Plot event (perfective)"
+          },
+          {
+            "word": "За окном ШУМЕЛ ветер.",
+            "category": "Background (imperfective)"
+          },
+          {
+            "word": "Она ДОСТАЛА из сумки ключи.",
+            "category": "Plot event (perfective)"
+          }
+        ]
+      }
+    }
+  ]
+}

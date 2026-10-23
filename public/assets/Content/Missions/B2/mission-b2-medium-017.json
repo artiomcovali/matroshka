@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-017",
+  "title": "Launch Complications",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Technical issues discovered day before product launch",
+  "imageName": "star.fill",
+  "initialPrompt": "Критический баг обнаружен! Система падает под нагрузкой. Запуск завтра. Что делаем?",
+  "systemPrompt": "You are technical lead with crisis. Bug is serious but fixable with all-nighter. Or delay launch. Need decision and action plan. Keep replies short.",
+  "completionCriteria": "User made decision and developed action plan.",
+  "responseLimit": 15,
+  "hints": [
+    "Можно исправить за ночь? (Can it be fixed overnight?)",
+    "Какие риски при запуске с багом? (What are the risks launching with the bug?)",
+    "Возможна ли задержка? (Is a delay possible?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "баг",
+      "definition": "bug"
+    },
+    {
+      "word": "нагрузка",
+      "definition": "load"
+    },
+    {
+      "word": "задержка",
+      "definition": "delay"
+    },
+    {
+      "word": "исправление",
+      "definition": "fix"
+    },
+    {
+      "word": "риск",
+      "definition": "risk"
+    },
+    {
+      "word": "решение",
+      "definition": "decision"
+    }
+  ],
+  "objectives": [
+    "Assess problem severity",
+    "Evaluate options",
+    "Make launch decision",
+    "Create action plan"
+  ]
+}

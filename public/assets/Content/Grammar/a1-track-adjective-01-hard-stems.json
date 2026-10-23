@@ -1,0 +1,252 @@
+{
+  "id": "a1-track-adjective-01-hard-stems",
+  "level": "A1",
+  "focusArea": "other",
+  "title": "Adjective Agreement 1: Hard Stems",
+  "titleRussian": "Согласование прилагательных 1: твёрдая основа",
+  "description": "Russian adjectives change shape to match the gender and number of their noun. Today we drill the four hard-stem endings: -ый for masculine, -ая for feminine, -ое for neuter, -ые for plural.",
+  "descriptionRussian": "Прилагательные с твёрдой основой и четыре окончания: -ый (мужской), -ая (женский), -ое (средний), -ые (множественное число). Слова: новый, красивый, большое, старые.",
+  "imageName": "square.grid.2x2",
+  "trackId": "a1-adjective-agreement-mastery",
+  "trackTitle": "Adjective Agreement Mastery",
+  "trackTitleRussian": "Согласование прилагательных",
+  "trackIndex": 1,
+  "trackTotal": 6,
+  "intro": "Adjectives run on the same machinery you just built for possessives: one noun, four slots, gender read off the ending. If that book landed, this one costs you less than it looks. What adjectives buy you is different, though. They are the difference between naming things and describing them, which is roughly the difference between a phrasebook and a conversation. This lesson takes the largest and most regular family first.",
+  "rules": [
+    "Hard-stem adjectives have four nominative endings: -ый (m sg), -ая (f sg), -ое (n sg), -ые (pl, any gender). The stem does not change; only the ending swaps.",
+    "Adjective gender follows the noun's grammatical gender, not the meaning. Платье is neuter, so it takes -ое (красивое платье), even though it is worn by a person.",
+    "The plural ending -ые is the same for masculine, feminine, and neuter nouns. Старые дома, старые книги, старые окна all use one ending.",
+    "The dictionary form of a hard-stem adjective is the masculine singular -ый: новый, красивый, старый. To predict the other three forms, swap the ending."
+  ],
+  "examples": [
+    "Это новый дом. (This is a new house.) Дом is masculine singular, so the adjective takes -ый: новый.",
+    "Это красивая книга. (This is a beautiful book.) Книга is feminine singular, so the adjective takes -ая: красивая.",
+    "Это большое окно. (This is a big window.) Окно is neuter singular, so the adjective takes -ое: большое.",
+    "Это старые машины. (These are old cars.) Машины is plural, so the adjective takes -ые: старые. The plural ending is the same regardless of gender.",
+    "У Маши умная сестра. (Masha has a smart sister.) Сестра is feminine singular, so the adjective takes -ая: умная.",
+    "Тёплый чай стоит на столе. (Hot tea is on the table.) Чай is masculine singular, so the adjective takes -ый: тёплый. The soft -й ending on the noun does not change the adjective."
+  ],
+  "tables": [
+    {
+      "title": "Hard-Stem Endings (новый as model)",
+      "headers": [
+        "Form",
+        "Ending",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "masculine singular",
+          "cells": [
+            "-ый",
+            "новый дом"
+          ]
+        },
+        {
+          "label": "feminine singular",
+          "cells": [
+            "-ая",
+            "новая книга"
+          ]
+        },
+        {
+          "label": "neuter singular",
+          "cells": [
+            "-ое",
+            "новое окно"
+          ]
+        },
+        {
+          "label": "plural (any gender)",
+          "cells": [
+            "-ые",
+            "новые дома"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Это _____ дом.",
+          "promptEnglish": "This is a new house.",
+          "options": [
+            "новый",
+            "новая",
+            "новое",
+            "новые"
+          ],
+          "answer": "новый",
+          "hint": "Дом is one item. Which gender does it belong to?",
+          "explanation": "Дом is masculine singular (consonant ending, no special marker). The hard-stem masculine ending is -ый: новый."
+        },
+        {
+          "prompt": "Это _____ книга.",
+          "promptEnglish": "This is a beautiful book.",
+          "options": [
+            "красивый",
+            "красивая",
+            "красивое",
+            "красивые"
+          ],
+          "answer": "красивая",
+          "hint": "Книга ends in -а. Which gender does that signal?",
+          "explanation": "Книга ends in -а, the standard feminine marker. The hard-stem feminine ending is -ая: красивая. The same -ая would land on any other feminine -а noun: красивая улица, красивая комната."
+        },
+        {
+          "prompt": "Это _____ окно.",
+          "promptEnglish": "This is a big window.",
+          "options": [
+            "большой",
+            "большая",
+            "большое",
+            "большие"
+          ],
+          "answer": "большое",
+          "hint": "Окно ends in -о. Which gender takes the -ое ending?",
+          "explanation": "Окно ends in -о, the standard neuter marker. The hard-stem neuter ending is -ое: большое. (The masculine form большой uses a stressed -ой, which Lesson 4 returns to; today the neuter -ое is fully regular.)"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Это _____ машины.",
+          "promptEnglish": "These are old cars.",
+          "options": [
+            "старый",
+            "старая",
+            "старое",
+            "старые"
+          ],
+          "answer": "старые",
+          "hint": "Машины is plural. The plural ending is the same across all genders.",
+          "explanation": "Машины is the plural of машина. Russian collapses gender in the plural for adjectives: -ые is the only ending. So старые. The same form works for plural masculine (старые дома) and plural neuter (старые окна)."
+        },
+        {
+          "prompt": "У Маши _____ сестра.",
+          "promptEnglish": "Masha has a smart sister.",
+          "options": [
+            "умный",
+            "умная",
+            "умное",
+            "умные"
+          ],
+          "answer": "умная",
+          "hint": "Сестра ends in -а: feminine singular. Match the ending you used on книга earlier.",
+          "explanation": "Сестра is feminine singular. The hard-stem feminine ending is -ая, attached to the stem ум-: умная. Same logic as красивая книга above."
+        },
+        {
+          "prompt": "_____ чай стоит на столе.",
+          "promptEnglish": "Hot tea is on the table.",
+          "options": [
+            "тёплый",
+            "тёплая",
+            "тёплое",
+            "тёплые"
+          ],
+          "answer": "тёплый",
+          "hint": "Чай ends in -й. Is it masculine, feminine, or neuter?",
+          "explanation": "Чай is masculine singular (the -й ending is the soft variant of a masculine consonant ending). The hard-stem masculine ending is -ый: тёплый. The noun's soft -й does not affect the adjective; the adjective stem decides."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Это _____ книга. (This is an interesting book.)"
+    ],
+    "choices": [
+      "интересный",
+      "интересная",
+      "интересное",
+      "интересные"
+    ],
+    "answers": [
+      "интересная"
+    ],
+    "grammarFocus": "Книга is feminine singular. The hard-stem feminine ending is -ая, attached to the stem интересн-: интересная."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "У меня новый машина в гараже.",
+      "translationEnglish": "I have a new car in the garage.",
+      "error": "новый",
+      "correction": "новая",
+      "options": [
+        "новая",
+        "новое",
+        "новые"
+      ],
+      "explanation": "Машина is feminine, so the hard-stem adjective takes the feminine -ая ending: новая. Новый is the masculine form and does not match a feminine noun. Read the noun's gender first, then pick the ending."
+    },
+    {
+      "sentence": "Это большой комната в нашей квартире.",
+      "translationEnglish": "This is a big room in our apartment.",
+      "error": "большой",
+      "correction": "большая",
+      "options": [
+        "большая",
+        "большое",
+        "большие"
+      ],
+      "explanation": "Комната is feminine (-а ending), so the adjective takes the feminine -ая ending: большая. The feminine -ая directly mirrors the noun's -а, a useful visual cue."
+    },
+    {
+      "sentence": "У меня умная папа, он работает врачом.",
+      "translationEnglish": "I have a smart dad; he works as a doctor.",
+      "error": "умная",
+      "correction": "умный",
+      "options": [
+        "умный",
+        "умное",
+        "умные"
+      ],
+      "explanation": "Папа ends in -а but names a male person, so it is masculine, and the adjective must agree: умный папа. Meaning beats ending with words like папа, дядя, дедушка. Умная would fit a feminine noun like мама."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Это _____ дом.",
+      "contextEnglish": "This is a new house.",
+      "options": [
+        "новый",
+        "новая"
+      ],
+      "answer": "новый",
+      "explanation": "Дом is masculine singular, so the adjective takes the -ый ending: новый. Новая would require a feminine noun like квартира or улица."
+    },
+    {
+      "context": "У Маши _____ платье.",
+      "contextEnglish": "Masha has a beautiful dress.",
+      "options": [
+        "красивое",
+        "красивые"
+      ],
+      "answer": "красивое",
+      "explanation": "Платье is neuter singular (the -е ending is the marker). The hard-stem neuter ending is -ое: красивое. Красивые would require a plural noun like платья."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "согласование",
+      "definition": "agreement (the rule that an adjective takes endings matching its noun's gender and number)",
+      "example": "В предложении 'красивая книга' видно согласование: и существительное, и прилагательное стоят в женском роде."
+    },
+    {
+      "term": "прилагательное",
+      "definition": "adjective (a word describing a noun: новый, красивый, тёплый)",
+      "example": "В словосочетании 'новый дом' слово 'новый' — это прилагательное, а 'дом' — существительное."
+    },
+    {
+      "term": "окончание прилагательного",
+      "definition": "adjective ending (the suffix that carries gender and number on a Russian adjective: -ый, -ая, -ое, -ые)",
+      "example": "Окончание прилагательного 'старая' — это -ая, потому что слово 'мама' стоит в женском роде."
+    }
+  ]
+}

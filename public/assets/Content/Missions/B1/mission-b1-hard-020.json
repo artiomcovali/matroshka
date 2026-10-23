@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-020",
+  "title": "Billing Scam",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Company keeps adding unauthorized charges to your account",
+  "imageName": "creditcard.trianglebadge.exclamationmark",
+  "initialPrompt": "Это стандартные услуги. Вы согласились при регистрации. Отказаться нельзя.",
+  "systemPrompt": "You are customer service for a company adding hidden fees. Claim customer agreed in terms. Cancel charges only if customer threatens credit card dispute or regulatory complaint. Keep replies short.",
+  "completionCriteria": "User got unauthorized charges removed.",
+  "responseLimit": 15,
+  "hints": [
+    "Я не давал согласия (I didn't give consent)",
+    "Я обращусь в банк (I'll contact my bank)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "списание",
+      "definition": "charge"
+    },
+    {
+      "word": "согласие",
+      "definition": "consent"
+    },
+    {
+      "word": "отменить",
+      "definition": "to cancel"
+    },
+    {
+      "word": "жалоба",
+      "definition": "complaint"
+    },
+    {
+      "word": "возврат",
+      "definition": "refund"
+    },
+    {
+      "word": "мошенничество",
+      "definition": "fraud"
+    }
+  ],
+  "objectives": [
+    "Identify unauthorized charges",
+    "Deny giving consent",
+    "Threaten dispute/complaint",
+    "Demand full refund",
+    "Get charges removed"
+  ]
+}

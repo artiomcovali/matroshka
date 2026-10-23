@@ -1,0 +1,227 @@
+{
+  "id": "a2-track-adjdecl-04-dative",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Adjective Declension 4: Dative Singular",
+  "titleRussian": "Склонение прилагательных 4: дательный падеж",
+  "description": "The dative singular for hard-stem adjectives. Masculine and neuter share -ому. The feminine reuses -ой (the same form as the genitive). Triggers: помогать, звонить, дать, нравиться, рад, the preposition к, age, and the impersonal 'мне холодно' family.",
+  "descriptionRussian": "Дательный падеж единственного числа: мужской и средний делят окончание -ому, женский повторяет -ой (та же форма, что и в родительном).",
+  "imageName": "arrow.right.circle",
+  "trackId": "a2-adjective-declension-mastery",
+  "trackTitle": "Adjective Full Declension Mastery",
+  "trackTitleRussian": "Склонение прилагательных",
+  "trackIndex": 4,
+  "trackTotal": 9,
+  "intro": "One new ending for the masculine and neuter, and nothing at all for the feminine, which keeps the form from last lesson. Worth noticing in passing: the masculine animate accusative borrowed from the genitive, but it does not borrow from the dative. That loan was a one-off, not a habit.",
+  "rules": [
+    "Masculine and neuter share one dative singular ending: -ому. Hard-stem -ый and -ое both become -ому. Spelled -ому, pronounced /-omu/.",
+    "Feminine takes -ой in the dative singular, the same form as the feminine genitive. The trigger (verb / preposition / construction), not the form, decides the case.",
+    "Dative triggers: помогать / звонить / дать + dat, нравиться-style experiencer, рад / рада + dat, к + dat (motion toward a person), age constructions ('Маше 25 лет'), impersonal feelings ('мне холодно').",
+    "The masculine animate accusative borrowed the genitive -ого form, but it does NOT borrow the dative -ому. Three distinct masculine forms appear across acc / gen / dat: нового брата (acc), нет нового брата (gen), помогаю новому брату (dat)."
+  ],
+  "examples": [
+    "Я помогаю новому брату. (I help my new brother.) Брат masc: новый → новому.",
+    "Я звоню старой маме. (I am calling old mom.) Мама fem: старая → старой. Same form as the genitive 'у старой мамы'.",
+    "Маша рада новому письму. (Masha is glad about the new letter.) Письмо neut: новое → новому. Same -ому as the masculine.",
+    "Антон идёт к старому учителю. (Anton is going to the old teacher.) 'К + dat': старый → старому, учитель → учителю.",
+    "Умной сестре двадцать лет. (The smart sister is twenty years old.) Age: experiencer is dative. Сестра fem: умная → умной.",
+    "Маленькому мальчику холодно. (The little boy is cold.) Impersonal feeling: experiencer is dative. Мальчик masc: маленький → маленькому."
+  ],
+  "tables": [
+    {
+      "title": "Dative Singular Endings (новый as model)",
+      "headers": [
+        "Slot",
+        "Ending",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "masculine",
+          "cells": [
+            "-ому",
+            "помогать новому брату"
+          ]
+        },
+        {
+          "label": "neuter",
+          "cells": [
+            "-ому (= masc)",
+            "рад новому письму"
+          ]
+        },
+        {
+          "label": "feminine",
+          "cells": [
+            "-ой",
+            "помогать новой сестре"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Three Cases of новый брат: Compare",
+      "headers": [
+        "Case",
+        "Form",
+        "Example trigger"
+      ],
+      "rows": [
+        {
+          "label": "Accusative (animate)",
+          "cells": [
+            "нового брата",
+            "Я знаю ..."
+          ]
+        },
+        {
+          "label": "Genitive",
+          "cells": [
+            "нового брата",
+            "У меня нет ..."
+          ]
+        },
+        {
+          "label": "Dative (today)",
+          "cells": [
+            "новому брату",
+            "Я помогаю ..."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "У меня нет _____ журнала.",
+          "promptEnglish": "I don't have a new magazine.",
+          "options": [
+            "новой",
+            "нового",
+            "новый",
+            "новые"
+          ],
+          "answer": "нового",
+          "hint": "Recap from Lesson 3: 'нет' triggers which case? Журнал is masculine.",
+          "explanation": "Recap from Lesson 3. 'У меня нет' triggers the genitive. Журнал is masculine: новый → нового. Today's drill, starting Q1.2, switches to the dative."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маша рада _____ письму.",
+          "promptEnglish": "Masha is glad about the new letter.",
+          "options": [
+            "новой",
+            "новому",
+            "новые",
+            "новое"
+          ],
+          "answer": "новому",
+          "hint": "'Рад / рада + dat'. Письмо is neuter. Does the neuter take its own ending in the dative?",
+          "explanation": "'Рад / рада' takes a dative complement. Письмо is neuter; from the genitive onward neuter shares with masculine: -ому → новому. The same -ому would also fit a masculine noun (рада новому брату)."
+        },
+        {
+          "prompt": "Антон идёт к _____ учителю.",
+          "promptEnglish": "Anton is going to the old teacher.",
+          "options": [
+            "старая",
+            "старого",
+            "старой",
+            "старому"
+          ],
+          "answer": "старому",
+          "hint": "'К + dat' for motion toward a person. Учитель is masc.",
+          "explanation": "'К + dat' triggers the dative. Учитель is masculine, so старый → старому. Note учитель ends in soft -ь but its dative is hard -ю → учителю; the adjective ends in hard -ому regardless of the noun's softness."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маленькому _____ холодно. (The little boy is cold.)"
+    ],
+    "choices": [
+      "мальчик",
+      "мальчика",
+      "мальчику",
+      "мальчиком"
+    ],
+    "answers": [
+      "мальчику"
+    ],
+    "grammarFocus": "Impersonal feeling phrases ('кому холодно / весело / грустно') put the experiencer in the dative. Мальчик is masculine: + -у → мальчику. The adjective in the question is already in the dative (маленькому); the noun follows the same case."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Я часто помогаю маленького брату.",
+      "translationEnglish": "I often help my little brother.",
+      "error": "маленького",
+      "correction": "маленькому",
+      "options": [
+        "маленькому",
+        "маленький",
+        "маленькой"
+      ],
+      "explanation": "Помогать governs the dative, so the adjective takes the masculine dative ending -ому: маленькому брату. Маленького is the genitive and animate-accusative form (я знаю маленького брата), a natural slip because the stem is the same."
+    },
+    {
+      "sentence": "Вечером Маша звонит старую подруге.",
+      "translationEnglish": "In the evening Masha calls her old friend.",
+      "error": "старую",
+      "correction": "старой",
+      "options": [
+        "старой",
+        "старая",
+        "старому"
+      ],
+      "explanation": "Звонить governs the dative, and the feminine dative ending is -ой: старой подруге. Старую is the feminine ACCUSATIVE (Маша видит старую подругу), a natural slip if you treat the person called as a direct object, but звонить takes a recipient in the dative, not an object. The feminine -ой here is the same form as the feminine genitive from Lesson 3."
+    },
+    {
+      "sentence": "Антон очень рад интересное письму.",
+      "translationEnglish": "Anton is very glad about the interesting letter.",
+      "error": "интересное",
+      "correction": "интересному",
+      "options": [
+        "интересному",
+        "интересной",
+        "интересная"
+      ],
+      "explanation": "The short adjective рад governs the dative, and from the genitive onward the neuter shares the masculine ending, so -ое becomes -ому: интересному письму. Интересное is the nominative/accusative neuter form, correct only for a subject or direct object."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша рада _____ книге.",
+      "contextEnglish": "Masha is glad about the new book.",
+      "options": [
+        "новой",
+        "новую"
+      ],
+      "answer": "новой",
+      "explanation": "'Рад / рада' takes the dative. Книга is feminine, so the dative ending is -ой: новой. Новую would be the accusative form ('Маша читает новую книгу')."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "дательный падеж",
+      "definition": "dative case (marks the recipient or experiencer; answers 'Кому?')",
+      "example": "В предложении 'Я помогаю новому брату' слова 'новому' и 'брату' стоят в дательном падеже."
+    },
+    {
+      "term": "получатель",
+      "definition": "recipient (the person who receives an action: помогать кому, звонить кому, дать что-то кому)",
+      "example": "В предложении 'Я звоню старому другу' слово 'другу' обозначает получателя звонка."
+    },
+    {
+      "term": "переживающий",
+      "definition": "experiencer (the person whose age, feeling, or state is being described; goes in the dative)",
+      "example": "В предложении 'Умной сестре двадцать лет' умной сестре — переживающий, поэтому стоит в дательном падеже."
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "lessonId": "a2-002-accusative-full",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Choose the correct accusative form for each sentence",
+      "descriptionRussian": "Выберите правильную форму винительного падежа",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я знаю _____. (I know the doctor.)",
+              "promptEnglish": "I know the doctor.",
+              "options": [
+                "врач",
+                "врачу",
+                "врача",
+                "враче"
+              ],
+              "answer": "врача",
+              "hint": "Врач (doctor) is alive. How do animate masculine nouns behave in accusative?",
+              "explanation": "Врач is animate masculine. Accusative follows genitive: врача."
+            },
+            {
+              "prompt": "Он купил _____. (He bought a newspaper.)",
+              "promptEnglish": "He bought a newspaper.",
+              "options": [
+                "газета",
+                "газету",
+                "газеты",
+                "газете"
+              ],
+              "answer": "газету",
+              "hint": "Газета is feminine. Feminine -а changes to what in accusative?",
+              "explanation": "Газета (feminine -а) changes to газету in accusative: -а → -у."
+            },
+            {
+              "prompt": "Мы видим _____. (We see the park.)",
+              "promptEnglish": "We see the park.",
+              "options": [
+                "парк",
+                "парка",
+                "парку",
+                "парке"
+              ],
+              "answer": "парк",
+              "hint": "Is a park alive or not?",
+              "explanation": "Парк is inanimate masculine. Inanimate masculine nouns don't change in accusative."
+            },
+            {
+              "prompt": "Она встретила _____. (She met her friend.)",
+              "promptEnglish": "She met her (female) friend.",
+              "options": [
+                "подруга",
+                "подругу",
+                "подруги",
+                "подруге"
+              ],
+              "answer": "подругу",
+              "hint": "Подруга is feminine -а.",
+              "explanation": "Подруга (feminine -а) becomes подругу in accusative."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я вижу _____. (I see the cat.)",
+          "contextEnglish": "I see the cat. (кот = animate masculine)",
+          "options": [
+            "кот",
+            "кота"
+          ],
+          "answer": "кота",
+          "explanation": "Кот (cat) is animate masculine. Accusative = genitive: кота."
+        },
+        {
+          "context": "Я вижу _____. (I see the chair.)",
+          "contextEnglish": "I see the chair. (стул = inanimate masculine)",
+          "options": [
+            "стул",
+            "стула"
+          ],
+          "answer": "стул",
+          "explanation": "Стул (chair) is inanimate masculine. No change in accusative: стул."
+        },
+        {
+          "context": "Он слушает _____. (He listens to a song.)",
+          "contextEnglish": "He listens to a song. (песня = feminine -я)",
+          "options": [
+            "песня",
+            "песню"
+          ],
+          "answer": "песню",
+          "explanation": "Песня (feminine -я) becomes песню in accusative: -я → -ю."
+        },
+        {
+          "context": "Мы видим _____. (We see the sea.)",
+          "contextEnglish": "We see the sea. (море = neuter)",
+          "options": [
+            "море",
+            "моря"
+          ],
+          "answer": "море",
+          "explanation": "Море (neuter) stays the same in accusative. Neuter nouns never change."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Она любит _____. (She loves her father.)",
+          "Он читает _____. (He reads a magazine.)",
+          "Мы видим _____. (We see the apple.)"
+        ],
+        "choices": [
+          "отца",
+          "журнал",
+          "яблоко"
+        ],
+        "answers": [
+          "отца",
+          "журнал",
+          "яблоко"
+        ],
+        "grammarFocus": "Accusative forms for animate/inanimate masculine and neuter",
+        "hints": [
+          "Отец (father) is animate masculine.",
+          "Журнал (magazine) is inanimate masculine.",
+          "Яблоко (apple) is neuter."
+        ],
+        "explanations": [
+          "Отец is animate masculine. Accusative = genitive: отца.",
+          "Журнал is inanimate masculine. No change in accusative: журнал.",
+          "Яблоко is neuter. Neuter nouns don't change in accusative: яблоко."
+        ],
+        "options": [
+          [
+            "отцу",
+            "отцом",
+            "отец",
+            "отца"
+          ],
+          [
+            "журналом",
+            "журнала",
+            "журналу",
+            "журнал"
+          ],
+          [
+            "яблоку",
+            "яблоко",
+            "яблоком",
+            "яблока"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-sort-correct",
+      "title": "Sort and Correct",
+      "titleRussian": "Сортировка и исправление",
+      "description": "Sort nouns by their accusative behavior and fix case errors",
+      "descriptionRussian": "Рассортируйте существительные и исправьте падежные ошибки",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort: does this noun change form in accusative?",
+        "categories": [
+          "Changes in accusative",
+          "Same as nominative"
+        ],
+        "items": [
+          {
+            "word": "друг (friend)",
+            "category": "Changes in accusative"
+          },
+          {
+            "word": "город (city)",
+            "category": "Same as nominative"
+          },
+          {
+            "word": "сестра (sister)",
+            "category": "Changes in accusative"
+          },
+          {
+            "word": "окно (window)",
+            "category": "Same as nominative"
+          },
+          {
+            "word": "мальчик (boy)",
+            "category": "Changes in accusative"
+          },
+          {
+            "word": "телефон (phone)",
+            "category": "Same as nominative"
+          },
+          {
+            "word": "рыба (fish)",
+            "category": "Changes in accusative"
+          },
+          {
+            "word": "письмо (letter)",
+            "category": "Same as nominative"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Мы видим друг в парке.",
+          "error": "друг",
+          "correction": "друга",
+          "hint": "Друг (friend) is alive.",
+          "explanation": "Друг is animate masculine. Accusative = genitive: друга.",
+          "options": [
+            "друга",
+            "другу",
+            "друге"
+          ]
+        },
+        {
+          "sentence": "Она читает газета каждый день.",
+          "error": "газета",
+          "correction": "газету",
+          "hint": "Газета is the direct object. What case does it need?",
+          "explanation": "Газета is feminine -а. In accusative: -а → -у, so газету.",
+          "options": [
+            "газету",
+            "газеты",
+            "газете"
+          ]
+        },
+        {
+          "sentence": "Он встретил учитель на улице.",
+          "error": "учитель",
+          "correction": "учителя",
+          "hint": "Учитель is a person.",
+          "explanation": "Учитель is animate masculine (soft-stem). Accusative = genitive: учителя.",
+          "options": [
+            "учителя",
+            "учителю",
+            "учителе"
+          ]
+        },
+        {
+          "sentence": "Они купили машина вчера.",
+          "error": "машина",
+          "correction": "машину",
+          "hint": "Машина is the direct object being bought.",
+          "explanation": "Машина is feminine -а. In accusative: -а → -у, so машину.",
+          "options": [
+            "машину",
+            "машины",
+            "машине"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "I see a boy.",
+          "answer": "Я вижу мальчика.",
+          "acceptableVariants": [],
+          "hint": "I = я, see = вижу, boy (accusative) = мальчика",
+          "grammarFocus": "animate masculine accusative",
+          "keyWord": "мальчика",
+          "options": [
+            "мальчика",
+            "мальчик",
+            "мальчику",
+            "мальчике"
+          ]
+        },
+        {
+          "english": "She bought a book.",
+          "answer": "Она купила книгу.",
+          "acceptableVariants": [],
+          "hint": "She = она, bought = купила, book (accusative) = книгу",
+          "grammarFocus": "feminine accusative",
+          "keyWord": "книгу",
+          "options": [
+            "книгу",
+            "книга",
+            "книги",
+            "книге"
+          ]
+        },
+        {
+          "english": "We see the school.",
+          "answer": "Мы видим школу.",
+          "acceptableVariants": [],
+          "hint": "We = мы, see = видим, school (accusative) = школу",
+          "grammarFocus": "feminine accusative",
+          "keyWord": "школу",
+          "options": [
+            "школу",
+            "школа",
+            "школы",
+            "школе"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-patterns",
+      "title": "Spot the Pattern",
+      "titleRussian": "Найди закономерность",
+      "description": "Recognize how animacy and gender determine the accusative form",
+      "descriptionRussian": "Определите, как одушевлённость и род определяют винительный падеж",
+      "icon": "eye",
+      "patternRecognition": [
+        {
+          "sentence": "студента, врача, кота, друга",
+          "question": "What do all these accusative forms have in common?",
+          "options": [
+            "They are all animate masculine nouns",
+            "They are all feminine nouns",
+            "They are all neuter nouns"
+          ],
+          "answer": "They are all animate masculine nouns",
+          "explanation": "All of these are animate masculine nouns. They take genitive-like endings in accusative (-а)."
+        },
+        {
+          "sentence": "стол, парк, журнал, компьютер",
+          "question": "Why do these nouns NOT change in accusative?",
+          "options": [
+            "They are inanimate masculine nouns",
+            "They are neuter nouns",
+            "They are already in accusative"
+          ],
+          "answer": "They are inanimate masculine nouns",
+          "explanation": "These are all inanimate masculine nouns. Inanimate masculine accusative = nominative (no change)."
+        },
+        {
+          "sentence": "книгу, сестру, собаку, газету",
+          "question": "What ending pattern do these accusative forms share?",
+          "options": [
+            "Feminine -а nouns changing to -у",
+            "Masculine nouns adding -у",
+            "Neuter nouns changing to -у"
+          ],
+          "answer": "Feminine -а nouns changing to -у",
+          "explanation": "All are feminine nouns ending in -а, which changes to -у in accusative."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Она ждёт _____. (She is waiting for a friend. - male friend)",
+          "Он открыл _____. (He opened the door.)",
+          "Мы слушаем _____. (We listen to the teacher.)",
+          "Я вижу _____. (I see the building.)"
+        ],
+        "choices": [
+          "друга",
+          "дверь",
+          "учителя",
+          "здание"
+        ],
+        "answers": [
+          "друга",
+          "дверь",
+          "учителя",
+          "здание"
+        ],
+        "grammarFocus": "Mixed accusative forms across genders and animacy",
+        "hints": [
+          "Друг is animate masculine.",
+          "Дверь is feminine soft-sign. Soft-sign feminines don't change in accusative.",
+          "Учитель is animate masculine.",
+          "Здание is neuter."
+        ],
+        "explanations": [
+          "Друг is animate masculine. Accusative = genitive: друга.",
+          "Дверь (feminine -ь) stays the same in accusative: дверь.",
+          "Учитель is animate masculine (soft-stem). Accusative = genitive: учителя.",
+          "Здание is neuter. Neuter nouns don't change in accusative: здание."
+        ],
+        "options": [
+          [
+            "другом",
+            "другу",
+            "друг",
+            "друга"
+          ],
+          [
+            "дверей",
+            "двери",
+            "дверь",
+            "дверью"
+          ],
+          [
+            "учителя",
+            "учителем",
+            "учитель",
+            "учителю"
+          ],
+          [
+            "здание",
+            "зданием",
+            "здания",
+            "зданию"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "Я знаю _____. (I know the cook. - повар is a person)",
+          "contextEnglish": "I know the cook.",
+          "options": [
+            "повар",
+            "повара"
+          ],
+          "answer": "повара",
+          "explanation": "Повар (cook) is animate masculine. Accusative = genitive: повара."
+        },
+        {
+          "context": "Я вижу _____. (I see the umbrella.)",
+          "contextEnglish": "I see the umbrella. (зонт = inanimate masculine)",
+          "options": [
+            "зонт",
+            "зонта"
+          ],
+          "answer": "зонт",
+          "explanation": "Зонт (umbrella) is inanimate masculine. No change in accusative."
+        },
+        {
+          "context": "Она купила _____. (She bought a week's vacation.)",
+          "contextEnglish": "She bought a week of vacation. (неделя = feminine -я)",
+          "options": [
+            "неделя",
+            "неделю"
+          ],
+          "answer": "неделю",
+          "explanation": "Неделя (week) is feminine -я. In accusative: -я → -ю, so неделю."
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "A final round mixing all accusative skills together",
+      "descriptionRussian": "Финальный раунд: все виды заданий на винительный падеж",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мальчик любит _____. (The boy loves his grandfather.)",
+              "promptEnglish": "The boy loves his grandfather.",
+              "options": [
+                "дедушку",
+                "дедушка",
+                "дедушке",
+                "дедушки"
+              ],
+              "answer": "дедушку",
+              "hint": "Дедушка ends in -а like a feminine noun, but refers to a man.",
+              "explanation": "Дедушка declines like a feminine -а noun despite being masculine: дедушка → дедушку in accusative."
+            },
+            {
+              "prompt": "Они нашли _____. (They found the keys.)",
+              "promptEnglish": "They found the keys.",
+              "options": [
+                "ключей",
+                "ключи",
+                "ключам",
+                "ключа"
+              ],
+              "answer": "ключи",
+              "hint": "Ключи (keys) are inanimate. What happens to inanimate plurals?",
+              "explanation": "Ключи is inanimate plural. Inanimate plural accusative = nominative plural: ключи."
+            },
+            {
+              "prompt": "Я вижу _____. (I see the students.)",
+              "promptEnglish": "I see the students.",
+              "options": [
+                "студенты",
+                "студентам",
+                "студентов",
+                "студентах"
+              ],
+              "answer": "студентов",
+              "hint": "Студенты are people. What happens to animate plurals?",
+              "explanation": "Студенты is animate plural. Animate plural accusative = genitive plural: студентов."
+            },
+            {
+              "prompt": "Мы купили _____. (We bought an armchair.)",
+              "promptEnglish": "We bought an armchair.",
+              "options": [
+                "кресло",
+                "кресла",
+                "креслу",
+                "кресле"
+              ],
+              "answer": "кресло",
+              "hint": "Кресло is neuter.",
+              "explanation": "Кресло (armchair) is neuter. Neuter nouns don't change in accusative: кресло."
+            }
+          ]
+        },
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я жду _____. (I'm waiting for my sister.)",
+              "promptEnglish": "I'm waiting for my sister.",
+              "options": [
+                "сестра",
+                "сестре",
+                "сестру",
+                "сестры"
+              ],
+              "answer": "сестру",
+              "hint": "Ждать takes accusative. Сестра is feminine -а.",
+              "explanation": "Ждать (to wait for) requires accusative. Сестра → сестру (-а → -у)."
+            },
+            {
+              "prompt": "Мы знаем этого _____. (We know this artist.)",
+              "promptEnglish": "We know this artist.",
+              "options": [
+                "артист",
+                "артиста",
+                "артисту",
+                "артисте"
+              ],
+              "answer": "артиста",
+              "hint": "Артист is a person.",
+              "explanation": "Артист is animate masculine. Accusative = genitive: артиста."
+            },
+            {
+              "prompt": "Дети нашли _____. (The children found a ball.)",
+              "promptEnglish": "The children found a ball.",
+              "options": [
+                "мяча",
+                "мячу",
+                "мяч",
+                "мяче"
+              ],
+              "answer": "мяч",
+              "hint": "Is a ball alive?",
+              "explanation": "Мяч (ball) is inanimate masculine. No change in accusative: мяч."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Она встретила подруга на улице.",
+          "error": "подруга",
+          "correction": "подругу",
+          "hint": "Подруга is feminine -а, not masculine.",
+          "explanation": "Подруга is feminine -а. In accusative: -а → -у, so подругу. Don't confuse with masculine -а → -а genitive pattern.",
+          "options": [
+            "подругу",
+            "подруги",
+            "подруге"
+          ]
+        },
+        {
+          "sentence": "Мы видим дедушке в парке.",
+          "error": "дедушке",
+          "correction": "дедушку",
+          "hint": "Дедушке is prepositional/dative, not accusative.",
+          "explanation": "Дедушка declines like feminine -а: accusative is дедушку, not дедушке (which is dative/prepositional).",
+          "options": [
+            "дедушку",
+            "дедушка",
+            "дедушки"
+          ]
+        },
+        {
+          "sentence": "Он купил компьютера вчера.",
+          "error": "компьютера",
+          "correction": "компьютер",
+          "hint": "Is a computer alive?",
+          "explanation": "Компьютер is inanimate masculine. No change in accusative: компьютер, not компьютера.",
+          "options": [
+            "компьютер",
+            "компьютеру",
+            "компьютере"
+          ]
+        }
+      ],
+      "declensionTable": {
+        "word": "студент",
+        "wordType": "noun",
+        "gender": "masculine",
+        "paradigm": {
+          "nominative": "студент",
+          "genitive": "студента",
+          "dative": "студенту",
+          "accusative": "студента",
+          "instrumental": "студентом",
+          "prepositional": "студенте"
+        },
+        "blanks": [
+          "accusative",
+          "genitive"
+        ],
+        "hints": [
+          "кого? что?",
+          "кого? чего?"
+        ]
+      }
+    }
+  ]
+}

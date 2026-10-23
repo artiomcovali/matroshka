@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-007",
+  "title": "Bus Delayed",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "Your bus is delayed - find out when the next one leaves",
+  "imageName": "bus.fill",
+  "initialPrompt": "Здравствуйте! Чем могу помочь?",
+  "systemPrompt": "You work at bus station info desk. Bus to центр is delayed 30 minutes. Next one at 15:00. Keep replies short.",
+  "completionCriteria": "User asked about bus delay and you gave the new time.",
+  "responseLimit": 15,
+  "hints": [
+    "Когда автобус? (When is the bus?)",
+    "Он опаздывает? (Is it delayed?)",
+    "Во сколько следующий? (What time is the next one?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "автобус",
+      "definition": "bus"
+    },
+    {
+      "word": "опаздывать",
+      "definition": "to be late/delayed"
+    },
+    {
+      "word": "следующий",
+      "definition": "next"
+    },
+    {
+      "word": "минута",
+      "definition": "minute"
+    },
+    {
+      "word": "ждать",
+      "definition": "to wait"
+    }
+  ],
+  "objectives": [
+    "Ask about the bus (автобус)",
+    "Learn about the delay (опаздывает)",
+    "Find out the new time"
+  ]
+}

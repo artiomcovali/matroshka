@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-014",
+  "title": "Call a Plumber",
+  "level": "A2",
+  "description": "Call to report a plumbing problem at home",
+  "imageName": "wrench.and.screwdriver.fill",
+  "initialPrompt": "Алло, служба сантехников. Слушаю вас.",
+  "systemPrompt": "You are a plumber dispatcher. Get problem type, address, available time. Offer appointment. Keep replies short.",
+  "completionCriteria": "User explained problem and you scheduled a visit.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня течёт кран (My faucet is leaking)",
+    "Туалет не работает (The toilet isn't working)",
+    "Мой адрес... (My address is...)",
+    "Когда вы можете прийти? (When can you come?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "сантехник",
+      "definition": "plumber"
+    },
+    {
+      "word": "кран",
+      "definition": "faucet"
+    },
+    {
+      "word": "труба",
+      "definition": "pipe"
+    },
+    {
+      "word": "течь",
+      "definition": "to leak"
+    },
+    {
+      "word": "сломан",
+      "definition": "broken"
+    },
+    {
+      "word": "починить",
+      "definition": "to fix"
+    }
+  ],
+  "objectives": [
+    "Explain the problem (течёт, не работает)",
+    "Give your address",
+    "Schedule an appointment"
+  ]
+}

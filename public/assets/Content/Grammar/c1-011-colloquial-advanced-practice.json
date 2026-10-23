@@ -1,0 +1,136 @@
+{
+  "lessonId": "c1-011-colloquial-advanced",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Identify the meaning of colloquial particles (же, -то, ну, ведь) and set phrases",
+      "descriptionRussian": "Определите значение разговорных частиц (же, -то, ну, ведь) и устойчивых выражений",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я же тебе говорил!\nWhat does же add here?",
+              "promptEnglish": "I DID tell you! / I told you, remember?",
+              "options": ["Question marker", "Negation", "Emphasis / reminder (I told you!)", "Polite softening"],
+              "answer": "Emphasis / reminder (I told you!)",
+              "hint": "Же stresses that this was already said or known.",
+              "explanation": "Же adds emphasis and a sense of 'but I already told you!' It reminds the listener of something previously stated."
+            },
+            {
+              "prompt": "Ты ведь знаешь об этом?\nWhat does ведь express?",
+              "promptEnglish": "You DO know about this, don't you? / After all, you know about this?",
+              "options": ["Unfortunately", "Suddenly", "On the contrary", "After all / you know / surely"],
+              "answer": "After all / you know / surely",
+              "hint": "Ведь appeals to shared knowledge or expected agreement.",
+              "explanation": "Ведь signals that the speaker assumes the listener already knows or should agree: 'after all,' 'surely,' 'you do know.'"
+            },
+            {
+              "prompt": "Где-то я это видел.\nWhat does -то add to где?",
+              "promptEnglish": "I saw this somewhere (can't quite recall where).",
+              "options": [
+                "Exactness (right here)",
+                "Negation (nowhere)",
+                "Emphasis (absolutely here)",
+                "Indefiniteness / vagueness (somewhere, at some point)"
+              ],
+              "answer": "Indefiniteness / vagueness (somewhere, at some point)",
+              "hint": "The suffix -то on question words creates indefinite pronouns.",
+              "explanation": "Где-то = somewhere (vague). The suffix -то attached to question words (кто-то, что-то, когда-то) creates indefinite forms with a casual, slightly vague flavor."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Он-то знает правду.\nWhat nuance does -то give here?",
+              "promptEnglish": "HE knows the truth (implying others might not).",
+              "options": ["Indefiniteness", "Question", "Politeness", "Contrastive emphasis (HE, for his part)"],
+              "answer": "Contrastive emphasis (HE, for his part)",
+              "hint": "When -то attaches to a specific noun or pronoun, it contrasts that person with others.",
+              "explanation": "Он-то знает = HE (at least) knows. The suffix -то on a definite noun/pronoun adds contrastive stress: this person does, even if others don't."
+            },
+            {
+              "prompt": "Ну ты даёшь!\nWhat does this colloquial expression mean?",
+              "promptEnglish": "A reaction to someone's surprising behavior.",
+              "options": [
+                "You're unbelievable! / Wow, you're something else!",
+                "You're being generous",
+                "You're giving it to me",
+                "You're leaving"
+              ],
+              "answer": "You're unbelievable! / Wow, you're something else!",
+              "hint": "Ну ты даёшь is a set colloquial phrase expressing astonishment.",
+              "explanation": "Ну ты даёшь! is a fixed colloquial expression meaning 'You're unbelievable!' or 'I can't believe you!' Used when someone does something surprising or outrageous."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Someone asks 'What did you say?' Choose the colloquial version:",
+          "contextEnglish": "Informal way to ask 'What?'",
+          "options": ["Что вы сказали?", "Чего?"],
+          "answer": "Чего?",
+          "explanation": "Чего? is a colloquial truncation of Что ты сказал? or just 'What?' Used constantly in casual speech. Что вы сказали? is polite/formal."
+        },
+        {
+          "context": "Choose the version with the emphatic particle же:",
+          "contextEnglish": "I already told you!",
+          "options": ["Я тебе уже говорил.", "Я же тебе говорил!"],
+          "answer": "Я же тебе говорил!",
+          "explanation": "Же adds emotional emphasis: 'I DID tell you!' / 'I already told you, remember?' The version without же is a calm neutral statement."
+        },
+        {
+          "context": "Someone says something surprising. Choose the colloquial reaction:",
+          "contextEnglish": "No way! / Really?! (disbelief)",
+          "options": ["Неужели это правда?", "Да ладно!"],
+          "answer": "Да ладно!",
+          "explanation": "Да ладно! with rising intonation = 'No way! / You're kidding!' Much more colloquial than the formal Неужели."
+        }
+      ],
+      "translation": [
+        {
+          "english": "But I already told you! (emphatic, with же)",
+          "answer": "Я же тебе говорил!",
+          "acceptableVariants": ["Я же тебе сказал!", "Я же говорил!"],
+          "hint": "Же after я for emphatic reminder.",
+          "grammarFocus": "Emphatic particle же",
+          "keyWord": "же",
+          "options": ["же", "бы", "ли", "ка"]
+        },
+        {
+          "english": "Well, I don't know... (hesitation, with ну)",
+          "answer": "Ну, я не знаю...",
+          "acceptableVariants": ["Ну, не знаю...", "Ну не знаю..."],
+          "hint": "Ну at the start = well, um (hesitation filler).",
+          "grammarFocus": "Filler particle ну",
+          "keyWord": "Ну",
+          "options": ["Ну", "Вот", "Да", "Эх"]
+        },
+        {
+          "english": "After all, she promised! (with ведь)",
+          "answer": "Она ведь обещала!",
+          "acceptableVariants": ["Ведь она обещала!"],
+          "hint": "Ведь = after all, surely. Goes near the subject.",
+          "grammarFocus": "Particle ведь for shared knowledge",
+          "keyWord": "ведь",
+          "options": ["ведь", "бы", "ли", "ка"]
+        },
+        {
+          "english": "He, at least, understands. (contrastive -то)",
+          "answer": "Он-то понимает.",
+          "acceptableVariants": ["Он-то всё понимает."],
+          "hint": "Suffix -то on он contrasts him with others.",
+          "grammarFocus": "Contrastive suffix -то",
+          "keyWord": "-то",
+          "options": ["-то", "-ка", "-нибудь", "-либо"]
+        }
+      ]
+    }
+  ]
+}

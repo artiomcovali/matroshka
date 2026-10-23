@@ -1,0 +1,312 @@
+{
+  "id": "a2-031-relative-pronouns",
+  "level": "A2",
+  "focusArea": "sentenceStructure",
+  "title": "Relative Pronouns",
+  "titleRussian": "Относительные местоимения",
+  "description": "Using который to connect clauses",
+  "descriptionRussian": "Использование «который» для связи предложений",
+  "imageName": "link",
+  "intro": "Relative pronouns connect clauses by referring back to a noun. The main relative pronoun is который (which/who/that). It agrees in GENDER and NUMBER with the noun it refers to, but its CASE depends on its role in the relative clause. If который is the subject of the clause, it's nominative; if it's the object, it's accusative; and so on. This is one of the trickiest grammar points!",
+  "rules": [
+    "Который agrees in gender/number with its antecedent: Девушка, которая... (The girl who...)",
+    "Case of который depends on its role in the clause: subject = nom, object = acc, etc.",
+    "Nominative: Человек, который пришёл... (The person who came...) - который is subject.",
+    "Accusative: Книга, которую я читаю... (The book that I'm reading...) - которую is object.",
+    "Который declines like a regular adjective (новый pattern): который, которого, которому, которым, о котором."
+  ],
+  "examples": [
+    "Человек, который звонил, — мой друг. (The person who called is my friend.), nom",
+    "Книга, которую я читаю, интересная. (The book that I'm reading is interesting.), acc",
+    "Друг, которому я помогаю, студент. (The friend whom I help is a student.), dat",
+    "Дом, в котором я живу, старый. (The house in which I live is old.), prep"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Студент, _____ пришёл, мой друг. (The student who came is my friend.)",
+          "promptEnglish": "The student who came is my friend.",
+          "options": [
+            "которую",
+            "которая",
+            "который",
+            "которое"
+          ],
+          "answer": "который",
+          "hint": "Студент = masculine; который is subject (nominative)",
+          "explanation": "Masculine nominative: который (subject of 'came')."
+        },
+        {
+          "prompt": "Девушка, _____ я видел, красивая. (The girl whom I saw is beautiful.)",
+          "promptEnglish": "The girl whom I saw is beautiful.",
+          "options": [
+            "которой",
+            "которым",
+            "которую",
+            "которая"
+          ],
+          "answer": "которую",
+          "hint": "Девушка = feminine; которую is object (accusative)",
+          "explanation": "Feminine accusative: которую (object of 'saw')."
+        },
+        {
+          "prompt": "Дети, _____ играют в парке, весёлые. (The children who play in the park are cheerful.)",
+          "promptEnglish": "The children who play in the park are cheerful.",
+          "options": [
+            "которых",
+            "которые",
+            "которая",
+            "который"
+          ],
+          "answer": "которые",
+          "hint": "Дети = plural; которые is subject (nominative)",
+          "explanation": "Plural nominative: которые (subject of 'play')."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Книга, _____ я читаю, интересная. (The book that I'm reading is interesting.)",
+          "promptEnglish": "The book that I'm reading is interesting.",
+          "options": [
+            "которой",
+            "которым",
+            "которая",
+            "которую"
+          ],
+          "answer": "которую",
+          "hint": "Книга = feminine; которую is object (accusative)",
+          "explanation": "Feminine accusative: которую (object of 'reading')."
+        },
+        {
+          "prompt": "Друг, _____ я помогаю, студент. (The friend whom I help is a student.)",
+          "promptEnglish": "The friend whom I help is a student.",
+          "options": [
+            "которым",
+            "которому",
+            "который",
+            "которого"
+          ],
+          "answer": "которому",
+          "hint": "Друг = masculine; помогать + dative",
+          "explanation": "Masculine dative: которому (помогать requires dative)."
+        },
+        {
+          "prompt": "Женщина, _____ работает здесь, врач. (The woman who works here is a doctor.)",
+          "promptEnglish": "The woman who works here is a doctor.",
+          "options": [
+            "которую",
+            "который",
+            "которая",
+            "которое"
+          ],
+          "answer": "которая",
+          "hint": "Женщина = feminine; которая is subject (nominative)",
+          "explanation": "Feminine nominative: которая (subject of 'works')."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Дом, в _____ я живу, старый. (The house in which I live is old.)",
+          "promptEnglish": "The house in which I live is old.",
+          "options": [
+            "который",
+            "которому",
+            "котором",
+            "которого"
+          ],
+          "answer": "котором",
+          "hint": "Дом = masculine; в + prepositional",
+          "explanation": "Masculine prepositional: в котором."
+        },
+        {
+          "prompt": "Человек, о _____ мы говорим, известный. (The person about whom we're talking is famous.)",
+          "promptEnglish": "The person about whom we're talking is famous.",
+          "options": [
+            "который",
+            "которому",
+            "котором",
+            "которого"
+          ],
+          "answer": "котором",
+          "hint": "Человек = masculine; о + prepositional",
+          "explanation": "Masculine prepositional: о котором."
+        },
+        {
+          "prompt": "Студенты, _____ я знаю, умные. (The students whom I know are smart.)",
+          "promptEnglish": "The students whom I know are smart.",
+          "options": [
+            "которым",
+            "которые",
+            "которых",
+            "которыми"
+          ],
+          "answer": "которых",
+          "hint": "Студенты = plural animate; accusative = genitive",
+          "explanation": "Plural accusative animate: которых."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Учитель, с _____ я говорил, добрый. (The teacher with whom I spoke is kind.)",
+      "Студент, _____ пришёл, мой друг. (The student who came is my friend.)",
+      "Книга, _____ я читаю, интересная. (The book that I'm reading is interesting.)"
+    ],
+    "choices": [
+      "которым",
+      "который",
+      "которую",
+      "которого",
+      "котором"
+    ],
+    "answers": [
+      "которым",
+      "который",
+      "которую"
+    ],
+    "grammarFocus": "Который in different cases depending on role in clause",
+    "hints": [
+      "С (with) requires instrumental case. What is the masculine instrumental form of который?",
+      "Студент is masculine. Который is the subject of 'пришёл' — what case is that?",
+      "Книга is feminine. Которую is the object of 'читаю' — what case and gender?"
+    ],
+    "explanations": [
+      "С requires instrumental case: которым (masculine instrumental, like новым).",
+      "Который is the subject (nominative) of the relative clause: который пришёл.",
+      "Книга is feminine and которую is the direct object (accusative): которую я читаю."
+    ],
+    "options": [
+      [
+        "которым",
+        "которых",
+        "которые",
+        "которыми"
+      ],
+      [
+        "которому",
+        "который",
+        "которым",
+        "которого"
+      ],
+      [
+        "которую",
+        "которой",
+        "который",
+        "которая"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Человек, _____ пришёл... (who came) - subject",
+      "contextEnglish": "The person who came...",
+      "options": [
+        "который",
+        "которого"
+      ],
+      "answer": "который",
+      "explanation": "Subject = nominative: который."
+    },
+    {
+      "context": "Человек, _____ я видел... (whom I saw) - object",
+      "contextEnglish": "The person whom I saw...",
+      "options": [
+        "которого",
+        "который"
+      ],
+      "answer": "которого",
+      "explanation": "Object (animate) = accusative = genitive: которого."
+    }
+  ],
+  "declensionTable": {
+    "word": "который",
+    "wordType": "pronoun",
+    "gender": "masculine",
+    "paradigm": {
+      "nominative": "который",
+      "genitive": "которого",
+      "dative": "которому",
+      "accusative": "которого",
+      "instrumental": "которым",
+      "prepositional": "котором"
+    },
+    "blanks": [
+      "accusative",
+      "dative",
+      "prepositional"
+    ],
+    "hints": [
+      "Fill in the oblique cases for который"
+    ],
+    "explanations": [
+      "Accusative = genitive for animate: который → которого",
+      "Dative: который → которому (same pattern as adjectives)",
+      "Prepositional: который → котором (same pattern as adjectives)"
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort который by case used",
+    "categories": [
+      "Nominative (subject)",
+      "Accusative (object)",
+      "Other cases"
+    ],
+    "items": [
+      {
+        "word": "Человек, который пришёл",
+        "category": "Nominative (subject)"
+      },
+      {
+        "word": "Книга, которую я читаю",
+        "category": "Accusative (object)"
+      },
+      {
+        "word": "Друг, которому я помогаю",
+        "category": "Other cases"
+      },
+      {
+        "word": "Девушка, которая работает",
+        "category": "Nominative (subject)"
+      },
+      {
+        "word": "Дом, в котором я живу",
+        "category": "Other cases"
+      },
+      {
+        "word": "Человек, которого я знаю",
+        "category": "Accusative (object)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "который/которая/которое",
+      "definition": "who/which/that (m/f/n)",
+      "example": "Человек, который... Книга, которая..."
+    },
+    {
+      "term": "Gender = antecedent",
+      "definition": "который matches noun's gender",
+      "example": "Девушка, которая... (fem matches fem)"
+    },
+    {
+      "term": "Case = role in clause",
+      "definition": "который's case depends on function",
+      "example": "Subject = nom; object = acc."
+    },
+    {
+      "term": "в/о/с + который",
+      "definition": "prepositions determine case",
+      "example": "В котором (prep), с которым (inst)."
+    }
+  ]
+}

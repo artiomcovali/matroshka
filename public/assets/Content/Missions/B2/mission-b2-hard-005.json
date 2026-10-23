@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-005",
+  "title": "Insurance Claim Denial",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Fighting an unfair insurance claim denial",
+  "imageName": "shield.slash.fill",
+  "initialPrompt": "Ваша страховая претензия отклонена. Случай не покрывается полисом. Мы не можем помочь.",
+  "systemPrompt": "You are unhelpful insurance agent. Deny claims citing technicalities. Only escalate or reconsider if customer shows policy knowledge and persistent professionalism.",
+  "completionCriteria": "User challenged denial with policy knowledge.",
+  "responseLimit": 15,
+  "hints": [
+    "Согласно полису, параграф... (According to the policy, paragraph...)",
+    "Я требую пересмотра (I demand a review)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "страховка",
+      "definition": "insurance"
+    },
+    {
+      "word": "претензия",
+      "definition": "claim"
+    },
+    {
+      "word": "полис",
+      "definition": "policy"
+    },
+    {
+      "word": "покрытие",
+      "definition": "coverage"
+    },
+    {
+      "word": "отказ",
+      "definition": "denial"
+    },
+    {
+      "word": "апелляция",
+      "definition": "appeal"
+    }
+  ],
+  "objectives": [
+    "Challenge denial rationale",
+    "Reference policy specifics",
+    "Request escalation",
+    "Document all interactions",
+    "Pursue formal appeal"
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "lessonId": "a1-020-adjective-nominative",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Match adjective endings to nouns",
+      "descriptionRussian": "Подберите окончания прилагательных к существительным",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ улица (quiet, feminine)",
+              "promptEnglish": "A quiet street",
+              "options": [
+                "тихое",
+                "тихий",
+                "тихая",
+                "тихие"
+              ],
+              "answer": "тихая",
+              "hint": "Улица is feminine.",
+              "explanation": "Улица is feminine: тихая улица (-ая)."
+            },
+            {
+              "prompt": "_____ человек (Russian, masculine)",
+              "promptEnglish": "A Russian person",
+              "options": [
+                "русский",
+                "русская",
+                "русское",
+                "русские"
+              ],
+              "answer": "русский",
+              "hint": "Человек is masculine.",
+              "explanation": "Человек is masculine: русский человек (-ий after к, spelling rule)."
+            },
+            {
+              "prompt": "_____ слово (last, neuter, soft-stem)",
+              "promptEnglish": "The last word",
+              "options": [
+                "последний",
+                "последняя",
+                "последнее",
+                "последние"
+              ],
+              "answer": "последнее",
+              "hint": "Слово is neuter. Soft-stem neuter = -ее.",
+              "explanation": "Слово is neuter. Soft-stem: последнее слово (-ее)."
+            },
+            {
+              "prompt": "_____ цветы (beautiful, plural)",
+              "promptEnglish": "Beautiful flowers",
+              "options": [
+                "красивый",
+                "красивое",
+                "красивые",
+                "красивая"
+              ],
+              "answer": "красивые",
+              "hint": "Цветы is plural.",
+              "explanation": "Цветы is plural: красивые цветы (-ые)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ день (last, soft-stem, masculine)",
+          "contextEnglish": "The last day",
+          "options": [
+            "последнее",
+            "последний"
+          ],
+          "answer": "последний",
+          "explanation": "День is masculine. Soft-stem masculine: последний день (-ий)."
+        },
+        {
+          "context": "_____ ночь (last, soft-stem, feminine)",
+          "contextEnglish": "The last night",
+          "options": [
+            "последний",
+            "последняя"
+          ],
+          "answer": "последняя",
+          "explanation": "Ночь is feminine. Soft-stem feminine: последняя ночь (-яя)."
+        },
+        {
+          "context": "_____ молоко (cold, neuter)",
+          "contextEnglish": "Cold milk",
+          "options": [
+            "холодный",
+            "холодное"
+          ],
+          "answer": "холодное",
+          "explanation": "Молоко is neuter: холодное молоко (-ое)."
+        },
+        {
+          "context": "_____ чай (hot, masculine)",
+          "contextEnglish": "Hot tea",
+          "options": [
+            "горячий",
+            "горячая"
+          ],
+          "answer": "горячий",
+          "explanation": "Чай is masculine: горячий чай (-ий after ч, spelling rule)."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in adjective forms and sort by stem type",
+      "descriptionRussian": "Вставьте формы прилагательных и рассортируйте по типу основы",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Это _____ парк. (small, masculine)",
+          "У меня _____ сумка. (new, feminine)",
+          "Какое _____ здание! (tall, neuter)",
+          "Это _____ студенты. (good, plural)"
+        ],
+        "choices": [
+          "маленький",
+          "новая",
+          "высокое",
+          "хорошие"
+        ],
+        "answers": [
+          "маленький",
+          "новая",
+          "высокое",
+          "хорошие"
+        ],
+        "grammarFocus": "adjective endings across all genders and plural",
+        "hints": [
+          "Парк is masculine: -ий after к.",
+          "Сумка is feminine: -ая.",
+          "Здание is neuter: -ое.",
+          "Студенты is plural: -ие after ш."
+        ],
+        "explanations": [
+          "Маленький парк (masculine: -ий after к).",
+          "Новая сумка (feminine: -ая).",
+          "Высокое здание (neuter: -ое).",
+          "Хорошие студенты (plural: -ие after ш)."
+        ],
+        "options": [
+          [
+            "маленького",
+            "маленьким",
+            "маленькому",
+            "маленький"
+          ],
+          [
+            "нового",
+            "новой",
+            "новая",
+            "новую"
+          ],
+          [
+            "высокому",
+            "высокого",
+            "высоким",
+            "высокое"
+          ],
+          [
+            "хорошего",
+            "хороших",
+            "хорошие",
+            "хорошими"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort: hard-stem or soft-stem adjective?",
+        "categories": [
+          "Hard-stem (-ый/-ая/-ое/-ые)",
+          "Soft-stem (-ий/-яя/-ее/-ие)"
+        ],
+        "items": [
+          {
+            "word": "новый",
+            "category": "Hard-stem (-ый/-ая/-ое/-ые)"
+          },
+          {
+            "word": "синий",
+            "category": "Soft-stem (-ий/-яя/-ее/-ие)"
+          },
+          {
+            "word": "красивый",
+            "category": "Hard-stem (-ый/-ая/-ое/-ые)"
+          },
+          {
+            "word": "последний",
+            "category": "Soft-stem (-ий/-яя/-ее/-ие)"
+          },
+          {
+            "word": "старый",
+            "category": "Hard-stem (-ый/-ая/-ое/-ые)"
+          },
+          {
+            "word": "домашний",
+            "category": "Soft-stem (-ий/-яя/-ее/-ие)"
+          },
+          {
+            "word": "интересный",
+            "category": "Hard-stem (-ый/-ая/-ое/-ые)"
+          },
+          {
+            "word": "летний",
+            "category": "Soft-stem (-ий/-яя/-ее/-ие)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "We have a small dog.",
+          "answer": "У нас маленькая собака.",
+          "acceptableVariants": [
+            "У нас есть маленькая собака."
+          ],
+          "hint": "small (feminine) = маленькая",
+          "grammarFocus": "feminine adjective agreement",
+          "keyWord": "маленькая",
+          "options": [
+            "маленькая",
+            "маленький",
+            "маленькое",
+            "маленькие"
+          ]
+        },
+        {
+          "english": "This is a cold winter.",
+          "answer": "Это холодная зима.",
+          "acceptableVariants": [],
+          "hint": "cold (feminine) = холодная",
+          "grammarFocus": "hard-stem feminine",
+          "keyWord": "холодная",
+          "options": [
+            "холодная",
+            "холодный",
+            "холодное",
+            "холодные"
+          ]
+        },
+        {
+          "english": "He is a good teacher.",
+          "answer": "Он хороший учитель.",
+          "acceptableVariants": [],
+          "hint": "good (masculine) = хороший",
+          "grammarFocus": "masculine adjective after ш",
+          "keyWord": "хороший",
+          "options": [
+            "хороший",
+            "хорошая",
+            "хорошее",
+            "хорошие"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Error",
+      "titleRussian": "Найди ошибку",
+      "description": "Fix adjective ending mistakes",
+      "descriptionRussian": "Исправьте ошибки в окончаниях прилагательных",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Это маленький кошка.",
+          "error": "маленький",
+          "correction": "маленькая",
+          "hint": "Кошка is feminine.",
+          "explanation": "Кошка is feminine: маленькая кошка (-ая), not маленький (-ий).",
+          "options": [
+            "маленькая",
+            "маленькое",
+            "маленькие"
+          ]
+        },
+        {
+          "sentence": "Какой красивый озеро!",
+          "error": "красивый",
+          "correction": "красивое",
+          "hint": "Озеро is neuter.",
+          "explanation": "Озеро is neuter: красивое озеро (-ое), not красивый (-ый).",
+          "options": [
+            "красивое",
+            "красивая",
+            "красивые"
+          ]
+        },
+        {
+          "sentence": "Это последнее урок.",
+          "error": "последнее",
+          "correction": "последний",
+          "hint": "Урок is masculine.",
+          "explanation": "Урок is masculine: последний урок (-ий), not последнее (-ее).",
+          "options": [
+            "последний",
+            "последняя",
+            "последние"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ музыка (Russian, feminine)",
+              "promptEnglish": "Russian music",
+              "options": [
+                "русский",
+                "русское",
+                "русская",
+                "русские"
+              ],
+              "answer": "русская",
+              "hint": "Музыка is feminine.",
+              "explanation": "Музыка is feminine: русская музыка (-ая)."
+            },
+            {
+              "prompt": "_____ лето (warm, neuter, soft-stem)",
+              "promptEnglish": "A warm summer",
+              "options": [
+                "тёплый",
+                "тёплое",
+                "тёплая",
+                "тёплые"
+              ],
+              "answer": "тёплое",
+              "hint": "Лето is neuter.",
+              "explanation": "Лето is neuter: тёплое лето (-ое)."
+            },
+            {
+              "prompt": "_____ вечера (long, plural)",
+              "promptEnglish": "Long evenings",
+              "options": [
+                "длинный",
+                "длинная",
+                "длинное",
+                "длинные"
+              ],
+              "answer": "длинные",
+              "hint": "Вечера is plural.",
+              "explanation": "Вечера is plural: длинные вечера (-ые)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All adjective ending topics mixed",
+      "descriptionRussian": "Все темы окончаний прилагательных вместе",
+      "icon": "shuffle",
+      "patternRecognition": [
+        {
+          "sentence": "большой, молодой, дорогой, золотой",
+          "question": "Why do these masculine adjectives end in -ой instead of -ый?",
+          "options": [
+            "They are soft-stem",
+            "The stress falls on the ending",
+            "They are irregular",
+            "They describe feminine nouns"
+          ],
+          "answer": "The stress falls on the ending",
+          "explanation": "When stress falls on the ending, masculine hard-stem adjectives use -ой instead of -ый."
+        },
+        {
+          "sentence": "хороший, маленький, русский, тихий",
+          "question": "Why do these masculine adjectives end in -ий?",
+          "options": [
+            "They are soft-stem adjectives",
+            "Spelling rule: after к, г, х, ч, ш, щ, ж use -ий",
+            "They are neuter",
+            "They are plural"
+          ],
+          "answer": "Spelling rule: after к, г, х, ч, ш, щ, ж use -ий",
+          "explanation": "After к, г, х, ч, ш, щ, ж the ending is -ий (not -ый). This is a spelling rule, not a soft stem."
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ зима (cold, feminine)",
+          "contextEnglish": "A cold winter",
+          "options": [
+            "холодная",
+            "холодное"
+          ],
+          "answer": "холодная",
+          "explanation": "Зима is feminine: холодная зима (-ая)."
+        },
+        {
+          "context": "_____ лето (cold, neuter)",
+          "contextEnglish": "A cold summer",
+          "options": [
+            "холодная",
+            "холодное"
+          ],
+          "answer": "холодное",
+          "explanation": "Лето is neuter: холодное лето (-ое)."
+        },
+        {
+          "context": "_____ линия (last, soft-stem, feminine)",
+          "contextEnglish": "The last line",
+          "options": [
+            "последний",
+            "последняя"
+          ],
+          "answer": "последняя",
+          "explanation": "Линия is feminine. Soft-stem feminine: последняя линия (-яя)."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Это _____ дорога. (long, feminine)",
+          "Какой _____ день! (beautiful, masculine)",
+          "У них _____ дом. (big, masculine)"
+        ],
+        "choices": [
+          "длинная",
+          "красивый",
+          "большой"
+        ],
+        "answers": [
+          "длинная",
+          "красивый",
+          "большой"
+        ],
+        "grammarFocus": "adjective endings in exclamations and descriptions",
+        "hints": [
+          "Дорога is feminine: -ая.",
+          "День is masculine: -ый.",
+          "Дом is masculine: -ой (stress on ending)."
+        ],
+        "explanations": [
+          "Длинная дорога (feminine: -ая).",
+          "Красивый день (masculine: -ый).",
+          "Большой дом (masculine: -ой, stressed ending)."
+        ],
+        "options": [
+          [
+            "длинной",
+            "длинная",
+            "длинного",
+            "длинную"
+          ],
+          [
+            "красивого",
+            "красивый",
+            "красивым",
+            "красивому"
+          ],
+          [
+            "большую",
+            "большой",
+            "большого",
+            "большая"
+          ]
+        ]
+      }
+    }
+  ]
+}

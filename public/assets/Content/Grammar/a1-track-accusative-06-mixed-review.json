@@ -1,0 +1,379 @@
+{
+  "id": "a1-track-accusative-06-mixed-review",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Accusative 8: Putting It All Together",
+  "titleRussian": "Винительный 8: Всё вместе",
+  "description": "Mixed review: every accusative rule in one lesson.",
+  "descriptionRussian": "Смешанное повторение: все правила винительного падежа.",
+  "imageName": "checkmark.seal.fill",
+  "trackId": "a1-accusative-mastery",
+  "trackTitle": "Accusative Mastery",
+  "trackTitleRussian": "Винительный падеж",
+  "trackIndex": 8,
+  "trackTotal": 8,
+  "intro": "Everything from the last seven lessons at once, unlabeled, the way a real sentence hands it to you. The whole case comes down to one question asked before you speak: is this word one of the two kinds that change, or one of the many that do not? Answer that and the right ending follows without effort.",
+  "rules": [
+    "Masculine inanimate: NO change in the accusative (стол → стол, фильм → фильм).",
+    "Feminine -а / -я: ending changes to -у / -ю (книга → книгу, песня → песню).",
+    "Neuter -о / -е: NO change (письмо → письмо, море → море).",
+    "Inanimate plural: NO change (книги → книги, окна → окна).",
+    "Masculine animate: ADDS -а (студент → студента, брат → брата).",
+    "Pronouns have special accusative forms: я → меня, ты → тебя, он → его, она → её, мы → нас, вы → вас, они → их."
+  ],
+  "examples": [
+    "Маша читает журнал. (Masha reads a magazine.) Masculine inanimate, no change.",
+    "Антон любит музыку. (Anton loves music.) Feminine -а becomes -у.",
+    "Я читаю письмо. (I am reading a letter.) Neuter, no change.",
+    "Мы любим книги. (We love books.) Inanimate plural, no change.",
+    "Я знаю студента. (I know the student.) Masculine animate adds -а.",
+    "Лена видит меня. (Lena sees me.) Pronoun, special form.",
+    "Мы любим её. (We love her.) Pronoun, special form."
+  ],
+  "tables": [
+    {
+      "title": "Every Accusative Rule at a Glance",
+      "headers": [
+        "Type",
+        "Example (Nom → Acc)",
+        "Rule"
+      ],
+      "rows": [
+        {
+          "label": "Masc. inanimate",
+          "cells": [
+            "журнал → журнал",
+            "no change"
+          ]
+        },
+        {
+          "label": "Feminine -а",
+          "cells": [
+            "книга → книгу",
+            "-а → -у"
+          ]
+        },
+        {
+          "label": "Feminine -я",
+          "cells": [
+            "песня → песню",
+            "-я → -ю"
+          ]
+        },
+        {
+          "label": "Neuter -о / -е",
+          "cells": [
+            "письмо → письмо, море → море",
+            "no change"
+          ]
+        },
+        {
+          "label": "Inanimate plural",
+          "cells": [
+            "книги → книги, окна → окна",
+            "no change"
+          ]
+        },
+        {
+          "label": "Masc. animate",
+          "cells": [
+            "студент → студента",
+            "add -а"
+          ]
+        },
+        {
+          "label": "Pronouns",
+          "cells": [
+            "меня / тебя / его / её / нас / вас / их",
+            "special forms"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Маша читает _____.",
+          "promptEnglish": "Masha is reading a magazine.",
+          "options": [
+            "журнала",
+            "журнал",
+            "журналу",
+            "журналом"
+          ],
+          "answer": "журнал",
+          "hint": "Quick check: is журнал a thing or a person? What gender?",
+          "explanation": "Step one: identify the type. Журнал is a thing (inanimate) and masculine. Step two: apply the rule. Masculine inanimate does not change in the accusative."
+        },
+        {
+          "prompt": "Антон любит _____.",
+          "promptEnglish": "Anton loves music.",
+          "options": [
+            "музыка",
+            "музыке",
+            "музыкой",
+            "музыку"
+          ],
+          "answer": "музыку",
+          "hint": "Музыка ends in -а. Which rule does that trigger?",
+          "explanation": "Switch gears: this one is feminine, not masculine. Feminine -а consistently swaps to -у. So музыка → музыку."
+        },
+        {
+          "prompt": "Я знаю _____.",
+          "promptEnglish": "I know the student.",
+          "options": [
+            "студенту",
+            "студентом",
+            "студента",
+            "студент"
+          ],
+          "answer": "студента",
+          "hint": "Студент is a person. What does that change about the rule?",
+          "explanation": "Person, not thing, so the rule shifts. Masculine animate adds -а: студент → студента. Notice that -а plays two different roles in Russian: it is the dictionary ending on feminine nouns (which then change to -у), and it is the added ending on masculine animate nouns."
+        },
+        {
+          "prompt": "Соня пьёт _____.",
+          "promptEnglish": "Sonya is drinking milk.",
+          "options": [
+            "молоко",
+            "молока",
+            "молоком",
+            "молоку"
+          ],
+          "answer": "молоко",
+          "hint": "Молоко ends in -о. What gender, and what's the rule?",
+          "explanation": "Молоко is neuter (-о ending) and inanimate. Neuter inanimate joins the same 'no change' club as masculine inanimate."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Лена видит _____.",
+          "promptEnglish": "Lena sees me.",
+          "options": [
+            "меня",
+            "мне",
+            "мной",
+            "я"
+          ],
+          "answer": "меня",
+          "hint": "Pronouns don't follow noun rules. What is the accusative of я?",
+          "explanation": "Pronouns are their own system. Я → меня. You can't derive it from gender or animacy rules; it's a memorized form, just like 'me' in English."
+        },
+        {
+          "prompt": "Мама покупает _____.",
+          "promptEnglish": "Mom is buying a pen.",
+          "options": [
+            "ручкой",
+            "ручке",
+            "ручку",
+            "ручка"
+          ],
+          "answer": "ручку",
+          "hint": "Ручка ends in -а. Apply the feminine rule.",
+          "explanation": "Notice the pattern: any feminine noun ending in -а behaves the same way. Книга → книгу, музыка → музыку, ручка → ручку. One rule, applied everywhere."
+        },
+        {
+          "prompt": "Я люблю _____.",
+          "promptEnglish": "I love tea.",
+          "options": [
+            "чаем",
+            "чая",
+            "чаю",
+            "чай"
+          ],
+          "answer": "чай",
+          "hint": "Is чай a thing or a person? What gender?",
+          "explanation": "Чай is masculine and a thing, so it falls under the very first rule of the track: no change. Drinks like чай and сок stay in their dictionary form when they are direct objects."
+        },
+        {
+          "prompt": "Маша покупает _____.",
+          "promptEnglish": "Masha is buying flowers.",
+          "options": [
+            "цветов",
+            "цветы",
+            "цветами",
+            "цветам"
+          ],
+          "answer": "цветы",
+          "hint": "Цветы is already plural. Are flowers things or people?",
+          "explanation": "Цветы is the inanimate plural. Like other inanimate plurals, it doesn't change in the accusative: Маша покупает цветы."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я вижу _____ в комнате.",
+          "promptEnglish": "I see a table in the room.",
+          "options": [
+            "стол",
+            "стола",
+            "столу",
+            "столом"
+          ],
+          "answer": "стол",
+          "hint": "Стол is masculine inanimate. Does the form change?",
+          "explanation": "Masculine INANIMATE nouns do not change in the accusative: я вижу стол."
+        },
+        {
+          "prompt": "Антон знает _____ с детства.",
+          "promptEnglish": "Anton has known Ivan since childhood.",
+          "options": [
+            "Ивана",
+            "Иван",
+            "Ивану",
+            "Иваном"
+          ],
+          "answer": "Ивана",
+          "hint": "Иван is a person. What does masculine animate do in the accusative?",
+          "explanation": "Иван is a person, so the accusative borrows the genitive -а: Антон знает Ивана. Compare the inanimate стол, which stays unchanged. Animacy decides which pattern fires."
+        },
+        {
+          "prompt": "Мы очень любим _____.",
+          "promptEnglish": "We love her very much.",
+          "options": [
+            "она",
+            "ей",
+            "её",
+            "ею"
+          ],
+          "answer": "её",
+          "hint": "What is the accusative pronoun for она?",
+          "explanation": "Она becomes её as a direct object: мы любим её. Pronouns have their own memorized accusative forms."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Я читаю _____ от мамы.",
+          "promptEnglish": "I am reading a letter from mom.",
+          "options": [
+            "письмо",
+            "письма",
+            "письму",
+            "письмом"
+          ],
+          "answer": "письмо",
+          "hint": "Письмо ends in -о. What gender, and what is the rule?",
+          "explanation": "Письмо is neuter, and neuter inanimate nouns are identical in the nominative and accusative: я читаю письмо."
+        },
+        {
+          "prompt": "Маша любит _____ о путешествиях.",
+          "promptEnglish": "Masha loves books about travel.",
+          "options": [
+            "книги",
+            "книг",
+            "книгам",
+            "книгами"
+          ],
+          "answer": "книги",
+          "hint": "Books are inanimate. Does the plural change in the accusative?",
+          "explanation": "Inanimate plurals are identical in the nominative and accusative: Маша любит книги."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Соня видит _____. (Sonya sees her brother.)"
+    ],
+    "choices": [
+      "брат",
+      "брата",
+      "брату",
+      "братом"
+    ],
+    "answers": [
+      "брата"
+    ],
+    "grammarFocus": "Брат is a person (animate) and masculine. Masculine animate adds -а in the accusative: брат → брата."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Я знаю врач в этой больнице.",
+      "translationEnglish": "I know a doctor at this hospital.",
+      "error": "врач",
+      "correction": "врача",
+      "options": [
+        "врача",
+        "врачу",
+        "врачом"
+      ],
+      "explanation": "Врач is a person (animate) and masculine. Masculine animate nouns add -а in the accusative: врач → врача. The bare врач is the nominative form, used only when the doctor is the subject."
+    },
+    {
+      "sentence": "Маша читает книга после ужина.",
+      "translationEnglish": "Masha reads a book after dinner.",
+      "error": "книга",
+      "correction": "книгу",
+      "options": [
+        "книгу",
+        "книги",
+        "книгой"
+      ],
+      "explanation": "Книга is feminine ending in -а, so the accusative swaps -а → -у: книгу. Книга is the nominative, used only when the book is the subject. The -а → -у rule applies to every feminine noun ending in -а."
+    },
+    {
+      "sentence": "Маша любит он, но не говорит ему об этом.",
+      "translationEnglish": "Masha loves him but doesn't tell him about it.",
+      "error": "он",
+      "correction": "его",
+      "options": [
+        "его",
+        "ему",
+        "им"
+      ],
+      "explanation": "Pronouns have their own accusative forms. Он is the nominative, used only when 'he' is the subject; as a direct object it becomes его: Маша любит его."
+    },
+    {
+      "sentence": "Я очень люблю фильмов о Москве.",
+      "translationEnglish": "I really love films about Moscow.",
+      "error": "фильмов",
+      "correction": "фильмы",
+      "options": [
+        "фильмы",
+        "фильмам",
+        "фильмами"
+      ],
+      "explanation": "Фильмы is an inanimate plural, so the accusative is identical to the nominative plural: фильмы. Фильмов is the genitive plural, used in counting ('много фильмов'); after люблю an inanimate plural stays in its nominative shape."
+    },
+    {
+      "sentence": "Мама готовит мяса на ужин для всех гостей.",
+      "translationEnglish": "Mom is cooking meat for dinner for all the guests.",
+      "error": "мяса",
+      "correction": "мясо",
+      "options": [
+        "мясо",
+        "мясу",
+        "мясом"
+      ],
+      "explanation": "Мясо is neuter (-о ending) and inanimate. Neuter inanimate accusative is identical to the nominative: мясо. Мяса is the genitive, used in partitive phrases like 'хочу немного мяса' ('I want a bit of meat') but not as a full direct object. For a direct object of готовить, the standard accusative is мясо."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "винительный падеж",
+      "definition": "accusative case (the case of the direct object)",
+      "example": "В предложении 'Я вижу маму' слово 'маму' стоит в винительном падеже."
+    },
+    {
+      "term": "одушевлённый",
+      "definition": "animate (a person or animal)",
+      "example": "Студент, брат, кот — одушевлённые."
+    },
+    {
+      "term": "неодушевлённый",
+      "definition": "inanimate (a thing, not a person or animal)",
+      "example": "Стол, книга, телефон — неодушевлённые."
+    }
+  ]
+}

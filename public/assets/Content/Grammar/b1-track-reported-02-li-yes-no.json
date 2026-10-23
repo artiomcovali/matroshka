@@ -1,0 +1,356 @@
+{
+  "id": "b1-track-reported-02-li-yes-no",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Reported Speech 2: Ли for Yes/No Questions",
+  "titleRussian": "Косвенная речь 2: Частица «ли» для общих вопросов",
+  "description": "Russian reports a yes/no question with the particle ли. The word you are asking about moves to the front of the reported clause, and ли leans on it as the second word. The verb keeps its original tense.",
+  "descriptionRussian": "Общий вопрос в косвенной речи передаётся частицей «ли». То слово, о котором спрашивают, выносится в начало зависимого предложения, а «ли» становится вторым словом и прислоняется к нему. Время глагола сохраняется.",
+  "imageName": "questionmark.circle",
+  "trackId": "b1-reported-speech-mastery",
+  "trackTitle": "Reported Speech Mastery",
+  "trackTitleRussian": "Косвенная речь",
+  "trackIndex": 2,
+  "trackTotal": 5,
+  "intro": "Yes/no questions need a linking word that English does not have, and it behaves unusually: it can never come first. It leans on whatever word you are actually asking about, so that word moves to the front and the linker follows it. The word you put first is therefore doing real work, because it marks what the question was about.",
+  "rules": [
+    "To report a yes/no question, move the word you are asking about to the front and put ли right after it as the second word.",
+    "Ли can never start a clause. It leans on the word in front of it, so a focus word always comes first.",
+    "Open the sentence with an asking verb in the past: спросил, узнал, поинтересовался, выяснил, проверил. Put a comma before the reported clause.",
+    "Keep the verb's original tense, just like reported statements with что.",
+    "Use ли, never если, for reported yes/no questions. Если is only for real conditions ('if it rains')."
+  ],
+  "examples": [
+    "Direct: Антон спросил: «Маша дома?» Reported: Антон спросил, дома ли Маша. We ask whether she is home, so дома goes first.",
+    "Direct: Маша спросила: «Антон придёт?» Reported: Маша спросила, придёт ли Антон. The verb придёт goes first; the subject follows ли.",
+    "Direct: Я спросил: «Ты читал эту книгу?» Reported: Я спросил, читал ли он эту книгу. Past tense kept; ты shifts to он.",
+    "Direct: Антон поинтересовался: «У вас есть время?» Reported: Антон поинтересовался, есть ли у нас время. Есть goes first; у вас shifts to у нас.",
+    "Direct: Маша спросила: «Это правда?» Reported: Маша спросила, правда ли это. Правда goes first; это follows ли.",
+    "Direct: Я узнал: «Антон сдал экзамен?» Reported: Я узнал, сдал ли Антон экзамен. Past tense kept; the object follows the subject."
+  ],
+  "tables": [
+    {
+      "title": "Direct vs reported yes / no questions",
+      "headers": [
+        "Focus",
+        "Direct speech",
+        "Reported speech"
+      ],
+      "rows": [
+        {
+          "label": "Whether at home",
+          "cells": [
+            "Антон спросил: «Маша дома?»",
+            "Антон спросил, дома ли Маша."
+          ]
+        },
+        {
+          "label": "Whether will come",
+          "cells": [
+            "Маша спросила: «Антон придёт?»",
+            "Маша спросила, придёт ли Антон."
+          ]
+        },
+        {
+          "label": "Whether has read",
+          "cells": [
+            "Я спросил: «Ты читал книгу?»",
+            "Я спросил, читал ли он книгу."
+          ]
+        },
+        {
+          "label": "Whether is true",
+          "cells": [
+            "Маша спросила: «Это правда?»",
+            "Маша спросила, правда ли это."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Маша сказала, _____ она устала.",
+          "promptEnglish": "Masha said that she was tired.",
+          "options": [
+            "что",
+            "ли",
+            "если",
+            "когда"
+          ],
+          "answer": "что",
+          "hint": "Recap from Lesson 1: the linking word for a reported statement.",
+          "explanation": "Что links a reported statement (Lesson 1). Ли is for yes/no questions (today), but 'said that she was tired' is a statement, not a question. Если is for real conditions. Когда means 'when'."
+        },
+        {
+          "prompt": "Антон спросил, дома _____ Маша.",
+          "promptEnglish": "Anton asked whether Masha was home.",
+          "options": [
+            "когда",
+            "если",
+            "что",
+            "ли"
+          ],
+          "answer": "ли",
+          "hint": "Reported yes/no question, focus on 'whether at home'.",
+          "explanation": "Ли marks a reported yes/no question and sits second, leaning on the focus word дома. Что links a statement, если marks a real condition, and когда means 'when' (a content-question word, not a yes/no marker)."
+        },
+        {
+          "prompt": "Я спросил, _____ ли он эту книгу.",
+          "promptEnglish": "I asked whether he had read this book.",
+          "options": [
+            "читать",
+            "читает",
+            "читал",
+            "прочитает"
+          ],
+          "answer": "читал",
+          "hint": "The original question was past tense: «Ты читал...?» Keep that tense.",
+          "explanation": "The original question was «Ты читал эту книгу?» (past), and Russian keeps the original tense, so читал stays. Читает is present, прочитает is future, and читать is the infinitive (which cannot host ли here)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Антон _____ , придёт ли Маша на встречу.",
+          "promptEnglish": "Anton asked whether Masha would come to the meeting.",
+          "options": [
+            "спросил",
+            "сказал",
+            "ответил",
+            "написал"
+          ],
+          "answer": "спросил",
+          "hint": "An asking verb, past tense, masculine.",
+          "explanation": "Спросил is the past of the asking verb спросить. Сказал, ответил, and написал mean said, answered, and wrote; they frame statements (что), not yes/no questions. The ли in the reported clause requires an asking verb in front."
+        },
+        {
+          "prompt": "Маша спросила, _____ ли он на работе вчера.",
+          "promptEnglish": "Masha asked whether he was at work yesterday.",
+          "options": [
+            "будет",
+            "есть",
+            "был",
+            "была"
+          ],
+          "answer": "был",
+          "hint": "Past tense kept; the subject он is masculine.",
+          "explanation": "The original question was «Ты был на работе вчера?» (past). The kept verb agrees with он, so был (masculine). Будет is future, есть is present, and была is feminine past (wrong for он). Был goes first to host ли."
+        },
+        {
+          "prompt": "Антон поинтересовался, есть _____ у нас время.",
+          "promptEnglish": "Anton inquired whether we had any free time.",
+          "options": [
+            "что",
+            "ли",
+            "если",
+            "когда"
+          ],
+          "answer": "ли",
+          "hint": "A reported yes/no question about whether time exists.",
+          "explanation": "Ли marks the reported yes/no question and sits second, leaning on есть. Что links a statement, если marks a real condition, and когда means 'when'. Note the pronoun shift у вас → у нас."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Антон спросил, _____ Маша.",
+          "promptEnglish": "Anton asked whether Masha was home.",
+          "options": [
+            "дома ли",
+            "ли дома",
+            "что дома",
+            "если дома"
+          ],
+          "answer": "дома ли",
+          "hint": "The focused word goes first, then ли.",
+          "explanation": "A reported yes/no question fronts the focused word and clips ли after it: спросил, дома ли Маша. Ли can never stand first in its clause; что reports a statement; если is a real-condition word."
+        },
+        {
+          "prompt": "Маша спросила, _____ Антон.",
+          "promptEnglish": "Masha asked whether Anton would come.",
+          "options": [
+            "придёт ли",
+            "ли придёт",
+            "что придёт",
+            "если придёт"
+          ],
+          "answer": "придёт ли",
+          "hint": "The verb is the focus here.",
+          "explanation": "The focused verb fronts and ли follows: спросила, придёт ли Антон. Ли is always second in the embedded clause; если would turn it into a condition, not a question."
+        },
+        {
+          "prompt": "Лена спросила, _____ это.",
+          "promptEnglish": "Lena asked whether it was true.",
+          "options": [
+            "правда ли",
+            "ли правда",
+            "что правда",
+            "если правда"
+          ],
+          "answer": "правда ли",
+          "hint": "Front the questioned word, then ли.",
+          "explanation": "The questioned word правда fronts, ли clips onto it: спросила, правда ли это. Ли never leads; что would report a statement of fact instead of a question."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Я спросил, _____ он дома.",
+          "promptEnglish": "I asked whether he had been at home.",
+          "options": [
+            "был ли",
+            "ли был",
+            "что был",
+            "если был"
+          ],
+          "answer": "был ли",
+          "hint": "Past-tense yes/no question, reported.",
+          "explanation": "The verb fronts with ли after it: спросил, был ли он дома. The original past tense stays; ли stays second; если would make it conditional."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша спросила, придёт _____ Антон на встречу. (Masha asked whether Anton would come to the meeting.)"
+    ],
+    "choices": [
+      "что",
+      "ли",
+      "если",
+      "когда"
+    ],
+    "answers": [
+      "ли"
+    ],
+    "grammarFocus": "Ли marks the reported yes/no question and sits second, leaning on the verb придёт in first position. Что would link a statement, если marks a real condition, and когда would introduce a question about time."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Лена сказала, придёт ли Антон на встречу.",
+      "translationEnglish": "Lena asked whether Anton would come to the meeting.",
+      "error": "сказала",
+      "correction": "спросила",
+      "options": [
+        "спросила",
+        "ответила",
+        "написала"
+      ],
+      "explanation": "A reported yes/no question marked by ли needs an asking verb in front: спросила. Сказала ('said') frames a statement (a что clause), not a question, so 'сказала ... ли' clashes. Ответила ('answered') and написала ('wrote') do not introduce ли-questions either."
+    },
+    {
+      "sentence": "Мама спросила, сдаст ли сын экзамен на прошлой неделе.",
+      "translationEnglish": "Mom asked whether her son had passed the exam last week.",
+      "error": "сдаст",
+      "correction": "сдал",
+      "options": [
+        "сдал",
+        "сдаёт",
+        "сдавал"
+      ],
+      "explanation": "Russian keeps the original tense, and 'на прошлой неделе' (last week) marks a past event, so сдал stays. Сдаст is future and clashes with 'last week'. Сдаёт is present; сдавал is past imperfective ('was taking'). The perfective сдал names the single finished result."
+    },
+    {
+      "sentence": "Вчера я спросил Антона, читал ли ты эту статью.",
+      "translationEnglish": "Yesterday I asked Anton whether he had read this article.",
+      "error": "ты",
+      "correction": "он",
+      "options": [
+        "он",
+        "я",
+        "она"
+      ],
+      "explanation": "When you report a question asked of someone, the second-person ты shifts to the third person naming that someone. I asked Anton «ты читал?»; reported, ты becomes он. Keeping ты would address the current listener; я would be the narrator; она is feminine but Anton is masculine, and читал is masculine."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Антон спросил, _____ Маша дома.",
+      "contextEnglish": "Anton asked whether Masha was home.",
+      "options": [
+        "ли",
+        "если"
+      ],
+      "answer": "ли",
+      "explanation": "Reported yes/no questions take ли, not если. Если is for real conditions ('if it rains'). The frame here reports a question, so ли is correct (and in the full sentence it would sit second, after a focus word)."
+    },
+    {
+      "context": "Маша спросила, _____ он на работе вчера.",
+      "contextEnglish": "Masha asked whether he was at work yesterday.",
+      "options": [
+        "был ли",
+        "если"
+      ],
+      "answer": "был ли",
+      "explanation": "Reported yes/no questions put the focus word first with ли right after it. 'Был ли' is the verb in first position with ли leaning on it. Если is for real conditions, not reported questions."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each direct question by whether its reported version uses ли (yes/no) or a question word (content).",
+    "categories": [
+      "Yes/No question (use ли)",
+      "Content question (use Q-word)"
+    ],
+    "items": [
+      {
+        "word": "Маша дома?",
+        "category": "Yes/No question (use ли)"
+      },
+      {
+        "word": "Где Антон?",
+        "category": "Content question (use Q-word)"
+      },
+      {
+        "word": "Антон придёт?",
+        "category": "Yes/No question (use ли)"
+      },
+      {
+        "word": "Когда ты вернёшься?",
+        "category": "Content question (use Q-word)"
+      },
+      {
+        "word": "Это правда?",
+        "category": "Yes/No question (use ли)"
+      },
+      {
+        "word": "Кто это сказал?",
+        "category": "Content question (use Q-word)"
+      },
+      {
+        "word": "Ты читал эту книгу?",
+        "category": "Yes/No question (use ли)"
+      },
+      {
+        "word": "Почему ты так думаешь?",
+        "category": "Content question (use Q-word)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "общий вопрос",
+      "definition": "a yes/no question (its answer is yes or no; reported in Russian with ли attached to the focus word)",
+      "example": "В предложении «Антон спросил, дома ли Маша» зависимая часть передаёт общий вопрос."
+    },
+    {
+      "term": "дома ли Маша",
+      "definition": "ли is the second word, leaning on the focus word дома; it can never start the clause",
+      "example": "Антон спросил, дома ли Маша. Частица «ли» стоит вторым словом."
+    },
+    {
+      "term": "спросить, узнать, поинтересоваться",
+      "definition": "asking verbs that open a reported yes/no question, in the past tense (спросил, узнал, поинтересовался)",
+      "example": "Антон поинтересовался, есть ли у нас время."
+    }
+  ]
+}

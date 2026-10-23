@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-006",
+  "title": "Gotcha Questions",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Journalist is asking loaded questions during interview",
+  "imageName": "mic.fill",
+  "initialPrompt": "Значит, ваша компания скрывает проблемы с безопасностью? Источники говорят о серьёзных инцидентах.",
+  "systemPrompt": "You are aggressive journalist. Ask loaded questions, cite anonymous sources. Can be redirected with calm, factual responses and requests for specifics. Keep replies short.",
+  "completionCriteria": "User handled hostile questions professionally.",
+  "responseLimit": 15,
+  "hints": [
+    "Это неверная характеристика (That's a mischaracterization)",
+    "Позвольте уточнить факты (Let me clarify the facts)",
+    "Какие конкретно инциденты? (Which incidents specifically?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "вопрос",
+      "definition": "question"
+    },
+    {
+      "word": "источник",
+      "definition": "source"
+    },
+    {
+      "word": "опровержение",
+      "definition": "refutation"
+    },
+    {
+      "word": "факты",
+      "definition": "facts"
+    },
+    {
+      "word": "манипуляция",
+      "definition": "manipulation"
+    },
+    {
+      "word": "контроль",
+      "definition": "control"
+    }
+  ],
+  "objectives": [
+    "Stay calm under pressure",
+    "Request specifics",
+    "Correct mischaracterizations",
+    "Redirect to facts"
+  ]
+}

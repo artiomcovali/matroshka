@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-029",
+  "title": "Buy Water",
+  "level": "A1",
+  "description": "Purchase bottled water",
+  "imageName": "drop.fill",
+  "initialPrompt": "Добрый день! Что вам?",
+  "systemPrompt": "You work at a kiosk. Water: газированная 50₽, без газа 50₽, большая 80₽. Keep replies short.",
+  "completionCriteria": "User bought water specifying type.",
+  "responseLimit": 15,
+  "hints": [
+    "Воду, пожалуйста (Water, please)",
+    "Без газа (Without gas/still)",
+    "Газированную (Sparkling)",
+    "Холодную (Cold)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "вода",
+      "definition": "water"
+    },
+    {
+      "word": "бутылка",
+      "definition": "bottle"
+    },
+    {
+      "word": "газированная",
+      "definition": "sparkling"
+    },
+    {
+      "word": "без газа",
+      "definition": "still (without gas)"
+    },
+    {
+      "word": "холодный",
+      "definition": "cold"
+    }
+  ],
+  "objectives": [
+    "Ask for water (вода)",
+    "Specify type (газированная/без газа)",
+    "Complete purchase"
+  ]
+}

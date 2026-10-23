@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-009",
+  "title": "Road Closed",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "Ask for directions but the usual way is closed",
+  "imageName": "road.lanes",
+  "initialPrompt": "Извините, вы местный? Можете помочь?",
+  "systemPrompt": "You are a local. The direct road to вокзал is closed today. Alternative: go прямо, then направо at магазин. Keep replies short.",
+  "completionCriteria": "User asked for directions and understood the alternative route.",
+  "responseLimit": 15,
+  "hints": [
+    "Как пройти к вокзалу? (How to get to the station?)",
+    "Другой путь? (Another way?)",
+    "Понятно, спасибо! (Understood, thanks!)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "вокзал",
+      "definition": "train station"
+    },
+    {
+      "word": "закрыто",
+      "definition": "closed"
+    },
+    {
+      "word": "прямо",
+      "definition": "straight"
+    },
+    {
+      "word": "направо",
+      "definition": "to the right"
+    },
+    {
+      "word": "путь",
+      "definition": "way/path"
+    }
+  ],
+  "objectives": [
+    "Ask for directions (как пройти)",
+    "Learn the road is closed (закрыто)",
+    "Understand the alternative route"
+  ]
+}

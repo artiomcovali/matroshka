@@ -1,0 +1,50 @@
+{
+  "id": "mission-a1-010",
+  "title": "At the Pharmacy",
+  "level": "A1",
+  "difficulty": "easy",
+  "description": "Buy medicine for a headache at a Russian pharmacy",
+  "imageName": "cross.case.fill",
+  "initialPrompt": "Здравствуйте! Чем могу помочь? У нас большой выбор лекарств.",
+  "systemPrompt": "You are a pharmacist. Sell aspirin 100₽, vitamins 250₽, cough medicine 180₽. Ask what problem they have, suggest medicine. Keep replies short.",
+  "completionCriteria": "User described their problem and purchased medicine.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня болит голова (I have a headache)",
+    "Мне нужно лекарство от... (I need medicine for...)",
+    "Что вы рекомендуете? (What do you recommend?)",
+    "Сколько стоит? (How much does it cost?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "аптека",
+      "definition": "pharmacy"
+    },
+    {
+      "word": "лекарство",
+      "definition": "medicine"
+    },
+    {
+      "word": "болит",
+      "definition": "hurts/aches"
+    },
+    {
+      "word": "голова",
+      "definition": "head"
+    },
+    {
+      "word": "таблетки",
+      "definition": "pills"
+    },
+    {
+      "word": "принимать",
+      "definition": "to take (medicine)"
+    }
+  ],
+  "objectives": [
+    "Describe your problem (У меня болит...)",
+    "Ask what medicine they have",
+    "Ask the price (Сколько стоит?)",
+    "Buy the medicine"
+  ]
+}

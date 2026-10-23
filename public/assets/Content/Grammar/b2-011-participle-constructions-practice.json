@@ -1,0 +1,551 @@
+{
+  "lessonId": "b2-011-participle-constructions",
+  "sets": [
+    {
+      "id": "round-1-type-quiz",
+      "title": "Participle Types",
+      "titleRussian": "Типы причастий",
+      "description": "Identify participle types and their formation",
+      "descriptionRussian": "Определите типы причастий и их образование",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "\"читающий\" is which type of participle?",
+              "promptEnglish": "Identify the participle type.",
+              "options": [
+                "Active past",
+                "Active present",
+                "Passive present",
+                "Passive past"
+              ],
+              "answer": "Active present",
+              "hint": "Suffix -ющ- signals active present.",
+              "explanation": "Читающий: -ющ- suffix = active present participle. 'Who is reading.'"
+            },
+            {
+              "prompt": "\"прочитанная\" is which type?",
+              "promptEnglish": "Identify the participle type.",
+              "options": [
+                "Active present",
+                "Passive past",
+                "Passive present",
+                "Active past"
+              ],
+              "answer": "Passive past",
+              "hint": "Suffix -нн- signals passive past.",
+              "explanation": "Прочитанная: -нн- suffix = passive past participle. 'Which was read.'"
+            },
+            {
+              "prompt": "\"написавший\" is which type?",
+              "promptEnglish": "Identify the participle type.",
+              "options": [
+                "Passive past",
+                "Active present",
+                "Passive present",
+                "Active past"
+              ],
+              "answer": "Active past",
+              "hint": "Suffix -вш- signals active past.",
+              "explanation": "Написавший: -вш- suffix = active past participle. 'Who wrote/has written.'"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "\"читаемая\" is which type?",
+              "promptEnglish": "Identify the participle type.",
+              "options": [
+                "Passive present",
+                "Active past",
+                "Active present",
+                "Passive past"
+              ],
+              "answer": "Passive present",
+              "hint": "Suffix -ем- signals passive present.",
+              "explanation": "Читаемая: -ем- suffix = passive present participle. 'Being read.'"
+            },
+            {
+              "prompt": "Which suffix marks active present participles?",
+              "promptEnglish": "Choose the correct suffix group.",
+              "options": [
+                "-вш-/-ш-",
+                "-нн-/-т-",
+                "-ущ-/-ющ-/-ащ-/-ящ-",
+                "-ем-/-им-"
+              ],
+              "answer": "-ущ-/-ющ-/-ащ-/-ящ-",
+              "hint": "Active PRESENT = the 'ushch/yushch' sounds.",
+              "explanation": "-ущ-/-ющ-/-ащ-/-ящ-: active present. These come from imperfective verbs."
+            },
+            {
+              "prompt": "Which suffix group marks passive past participles?",
+              "promptEnglish": "Choose the correct suffix group.",
+              "options": [
+                "-ущ-/-ющ-/-ащ-/-ящ-",
+                "-ем-/-им-",
+                "-нн-/-т-",
+                "-вш-/-ш-"
+              ],
+              "answer": "-нн-/-т-",
+              "hint": "Think: написанный, открытый.",
+              "explanation": "-нн-/-т-: passive past. Написанный (-нн-), открытый (-т-)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ книгу студент сидел в углу. (The student reading a book sat in the corner.)",
+          "contextEnglish": "Before noun: no commas needed.",
+          "options": [
+            "Читающий",
+            "Студент, читающий"
+          ],
+          "answer": "Читающий",
+          "explanation": "Before noun: no commas. Читающий книгу студент = the book-reading student."
+        },
+        {
+          "context": "Студент, _____ книгу, сидел в углу. (The student, who was reading a book, sat in the corner.)",
+          "contextEnglish": "After noun: commas required.",
+          "options": [
+            "читающий",
+            "читающего"
+          ],
+          "answer": "читающий",
+          "explanation": "After noun: commas required. Студент, читающий книгу, ... Agreement: nom masc."
+        },
+        {
+          "context": "_____ учителем задание было сложным. (The task given by the teacher was difficult.)",
+          "contextEnglish": "Before noun: passive past participle.",
+          "options": [
+            "Данное",
+            "Задание, данное"
+          ],
+          "answer": "Данное",
+          "explanation": "Before noun: Данное учителем задание. No commas. Neuter nom agrees with задание."
+        },
+        {
+          "context": "Задание, _____ учителем, было сложным. (The task, given by the teacher, was difficult.)",
+          "contextEnglish": "After noun: commas required.",
+          "options": [
+            "данное",
+            "данного"
+          ],
+          "answer": "данное",
+          "explanation": "After noun: commas. Задание, данное учителем, ... Neuter nom."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Работа, _____ студентом, получила высокую оценку. (The work written by the student...)",
+          "_____ в парке дети весело смеялись. (The children playing in the park...)",
+          "Мы видели дом, _____ в прошлом веке. (We saw a house built last century.)"
+        ],
+        "choices": [
+          "написанная",
+          "Играющие",
+          "построенный"
+        ],
+        "answers": [
+          "написанная",
+          "Играющие",
+          "построенный"
+        ],
+        "grammarFocus": "Participle positioning and agreement",
+        "hints": [
+          "After noun (commas): passive past fem nom agrees with работа.",
+          "Before noun (no commas): active present pl nom agrees with дети.",
+          "After noun (commas): passive past masc acc agrees with дом."
+        ],
+        "explanations": [
+          "Написанная (passive past, fem nom): agrees with работа. After noun = commas.",
+          "Играющие (active present, pl nom): agrees with дети. Before noun = no commas.",
+          "Построенный (passive past, masc acc): agrees with дом. After noun = commas."
+        ],
+        "options": [
+          [
+            "написавшую",
+            "написавшею",
+            "написанная",
+            "написавшей"
+          ],
+          [
+            "Играющие",
+            "играющими",
+            "игравших",
+            "играющих"
+          ],
+          [
+            "построенный",
+            "построившего",
+            "построившему",
+            "построившим"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-3-replace-kotoryj",
+      "title": "Replace который",
+      "titleRussian": "Замена который",
+      "description": "Transform который clauses into participle constructions",
+      "descriptionRussian": "Замените придаточные с который на причастные обороты",
+      "icon": "arrow.triangle.2.circlepath",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "\"Человек, который пришёл вчера\" → \"Человек, _____ вчера\"",
+              "promptEnglish": "Replace который with a participle.",
+              "options": [
+                "приходящий",
+                "пришедший",
+                "приходивший",
+                "пришёдший"
+              ],
+              "answer": "пришедший",
+              "hint": "Active past: who came (completed) = -вш-/-ш- form.",
+              "explanation": "Пришедший (active past, -ш-): who came. From прийти."
+            },
+            {
+              "prompt": "\"Задание, которое проверил учитель\" → \"Задание, _____ учителем\"",
+              "promptEnglish": "Replace with passive past participle.",
+              "options": [
+                "проверяющее",
+                "проверенное",
+                "проверяемое",
+                "проверившее"
+              ],
+              "answer": "проверенное",
+              "hint": "Passive past: was checked by = -нн- form.",
+              "explanation": "Проверенное учителем (passive past, neuter): checked by the teacher."
+            },
+            {
+              "prompt": "Can all который clauses be replaced with participles?",
+              "promptEnglish": "Is participle replacement always possible?",
+              "options": [
+                "No, only when который is nominative or accusative subject/object.",
+                "Yes, always.",
+                "No, only with present tense.",
+                "Only with past tense."
+              ],
+              "answer": "No, only when который is nominative or accusative subject/object.",
+              "hint": "Participles can't replace dative, instrumental, or prepositional который.",
+              "explanation": "Only nom/acc который clauses convert to participles. Others keep который."
+            }
+          ]
+        },
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я встретил девушку, _____ в библиотеке. (I met a girl studying in the library.)",
+              "promptEnglish": "Accusative feminine agreement.",
+              "options": [
+                "занимающуюся",
+                "занимающийся",
+                "занимающаяся",
+                "занимающиеся"
+              ],
+              "answer": "занимающуюся",
+              "hint": "Девушку (acc fem) requires acc fem participle.",
+              "explanation": "After noun, acc fem: занимающуюся agrees with девушку."
+            },
+            {
+              "prompt": "Мы говорили о студентах, _____ экзамен. (about students who passed the exam)",
+              "promptEnglish": "Prepositional plural agreement.",
+              "options": [
+                "сдавших",
+                "сдавшие",
+                "сдавшим",
+                "сдавшими"
+              ],
+              "answer": "сдавших",
+              "hint": "О студентах (prep pl) requires prep pl participle.",
+              "explanation": "Prep pl: о студентах, сдавших экзамен. -вших is prep pl of active past."
+            },
+            {
+              "prompt": "Книга, _____ моим другом, очень интересная. (The book recommended by my friend...)",
+              "promptEnglish": "Nominative feminine agreement.",
+              "options": [
+                "рекомендованному",
+                "рекомендованная",
+                "рекомендованный",
+                "рекомендованной"
+              ],
+              "answer": "рекомендованная",
+              "hint": "Книга (nom fem) requires nom fem participle.",
+              "explanation": "Nom fem: книга, рекомендованная. Passive past agrees in nom fem."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Студент читающий книгу сидел тихо. (missing commas after noun)",
+          "error": "Студент читающий",
+          "correction": "Студент, читающий",
+          "hint": "After noun: commas required around the participle phrase.",
+          "explanation": "Студент, читающий книгу, сидел тихо. Commas when participle follows noun.",
+          "options": [
+            "Студент, читающий",
+            "Студент - читающий",
+            "Студент: читающий"
+          ]
+        },
+        {
+          "sentence": "Написанная книга Толстой стала классикой.",
+          "error": "Толстой",
+          "correction": "Толстым",
+          "hint": "Agent with passive participle: instrumental case.",
+          "explanation": "Написанная Толстым (instrumental): the agent takes instrumental case.",
+          "options": [
+            "Толстым",
+            "Толстого",
+            "Толстому"
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort by participle position relative to the noun",
+        "categories": [
+          "Before noun (no commas)",
+          "After noun (with commas)"
+        ],
+        "items": [
+          {
+            "word": "Читающий книгу студент сидел тихо.",
+            "category": "Before noun (no commas)"
+          },
+          {
+            "word": "Студент, читающий книгу, сидел тихо.",
+            "category": "After noun (with commas)"
+          },
+          {
+            "word": "Написанная мной статья была опубликована.",
+            "category": "Before noun (no commas)"
+          },
+          {
+            "word": "Статья, написанная мной, была опубликована.",
+            "category": "After noun (with commas)"
+          },
+          {
+            "word": "Работающие здесь люди очень добрые.",
+            "category": "Before noun (no commas)"
+          },
+          {
+            "word": "Люди, работающие здесь, очень добрые.",
+            "category": "After noun (with commas)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-4-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Постройте и переведите",
+      "description": "Build sentences with participles and translate",
+      "descriptionRussian": "Постройте предложения с причастиями и переведите",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "The people working here are very kind.",
+          "answer": "Работающие здесь люди очень добрые.",
+          "acceptableVariants": [
+            "Люди, работающие здесь, очень добрые."
+          ],
+          "hint": "Active present participle (работающие). Before or after noun.",
+          "grammarFocus": "Active present participle construction",
+          "keyWord": "работающие",
+          "options": [
+            "работающие",
+            "работавшие",
+            "работающих",
+            "работающий"
+          ]
+        },
+        {
+          "english": "The book written by him became popular.",
+          "answer": "Написанная им книга стала популярной.",
+          "acceptableVariants": [
+            "Книга, написанная им, стала популярной."
+          ],
+          "hint": "Passive past participle. Agent (им) in instrumental.",
+          "grammarFocus": "Passive past with instrumental agent",
+          "keyWord": "написанная",
+          "options": [
+            "написанная",
+            "написанный",
+            "написанную",
+            "написавшая"
+          ]
+        },
+        {
+          "english": "I saw a girl reading a book.",
+          "answer": "Я видел девушку, читающую книгу.",
+          "acceptableVariants": [
+            "Я видела девушку, читающую книгу."
+          ],
+          "hint": "Acc fem: девушку, читающую. After noun = commas.",
+          "grammarFocus": "Accusative agreement",
+          "keyWord": "читающую",
+          "options": [
+            "читающую",
+            "читающая",
+            "читающий",
+            "читавшую"
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Вопрос, _____ студентом, был очень сложным. (The question asked by the student...)",
+          "Мы живём в доме, _____ в XIX веке. (We live in a house built in the 19th century.)"
+        ],
+        "choices": [
+          "заданный",
+          "построенном"
+        ],
+        "answers": [
+          "заданный",
+          "построенном"
+        ],
+        "grammarFocus": "Passive past, active past, prepositional agreement",
+        "hints": [
+          "Passive past, nom masc: agrees with вопрос. After noun.",
+          "Passive past, prep masc: agrees with в доме."
+        ],
+        "explanations": [
+          "Заданный (passive past, nom masc): the question asked by the student.",
+          "Построенном (passive past, prep masc): в доме, построенном в XIX веке."
+        ],
+        "options": [
+          [
+            "задавшим",
+            "задавшему",
+            "заданный",
+            "задавшего"
+          ],
+          [
+            "построенном",
+            "построивший",
+            "построившего",
+            "построившему"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All participle types, positions, and transformations",
+      "descriptionRussian": "Все типы причастий, позиции и преобразования",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы видели _____ по улице человека. (We saw a person walking down the street.)",
+              "promptEnglish": "Active present, accusative masculine.",
+              "options": [
+                "идущий",
+                "идущего",
+                "шедшего",
+                "идущему"
+              ],
+              "answer": "идущего",
+              "hint": "Видели кого? Человека (acc masc animate) = acc participle form.",
+              "explanation": "Acc masc animate: идущего. Before noun (no commas): идущего по улице человека."
+            },
+            {
+              "prompt": "Статья, _____ вчера, вызвала споры. (The article published yesterday caused debate.)",
+              "promptEnglish": "Passive past, nominative feminine.",
+              "options": [
+                "опубликованная",
+                "опубликованную",
+                "опубликовавшая",
+                "опубликованной"
+              ],
+              "answer": "опубликованная",
+              "hint": "Статья (nom fem) after noun: passive past nom fem.",
+              "explanation": "Опубликованная (passive past, nom fem): agrees with статья."
+            },
+            {
+              "prompt": "_____ в парке дети не слышали звонка. (The children playing in the park...)",
+              "promptEnglish": "Active present, nominative plural, before noun.",
+              "options": [
+                "Игравшие",
+                "Играющих",
+                "Играющие",
+                "Игравших"
+              ],
+              "answer": "Играющие",
+              "hint": "Active present, nom pl: before noun, no commas.",
+              "explanation": "Играющие (active present, nom pl): before noun = no commas."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Написанный книга автором стала популярной.",
+          "error": "Написанный",
+          "correction": "Написанная",
+          "hint": "Книга is feminine. Participle must agree: fem nom.",
+          "explanation": "Agreement: книга (fem) requires написанная, not написанный (masc).",
+          "options": [
+            "Написанная",
+            "Написанное",
+            "Написанные"
+          ]
+        },
+        {
+          "sentence": "Девушка сидящая у окна читала книгу.",
+          "error": "Девушка сидящая",
+          "correction": "Девушка, сидящая",
+          "hint": "After noun: commas required.",
+          "explanation": "After noun: Девушка, сидящая у окна, читала книгу. Commas needed.",
+          "options": [
+            "Девушка, сидящая",
+            "Девушка - сидящая",
+            "Девушка: сидящая"
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "читающий / работающий / сидящий / говорящий",
+          "question": "What do these participles have in common?",
+          "options": [
+            "All passive past",
+            "All active present with -ущ-/-ющ-/-ащ-/-ящ-",
+            "All active past",
+            "All passive present"
+          ],
+          "answer": "All active present with -ущ-/-ющ-/-ащ-/-ящ-",
+          "explanation": "Active present suffixes: -ющ- (читающий), -ющ- (работающий), -ящ- (сидящий, говорящий)."
+        },
+        {
+          "sentence": "написанный / построенный / открытый / сделанный",
+          "question": "What type are these?",
+          "options": [
+            "Active present",
+            "Active past",
+            "Passive present",
+            "Passive past with -нн-/-т-"
+          ],
+          "answer": "Passive past with -нн-/-т-",
+          "explanation": "Passive past: -нн- (написанный, построенный, сделанный), -т- (открытый)."
+        }
+      ]
+    }
+  ]
+}

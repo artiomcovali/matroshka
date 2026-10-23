@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-040",
+  "title": "Parking Ticket Appeal",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "You received a parking ticket that seems unfair",
+  "imageName": "car.fill",
+  "initialPrompt": "Здравствуйте, комиссия по апелляциям. У вас есть штраф на обжалование?",
+  "systemPrompt": "You handle parking appeals. Ticket was for expired meter, but user says meter was broken. With evidence (photo of broken meter), can dismiss ticket. Keep replies short.",
+  "completionCriteria": "User presented case and got decision on appeal.",
+  "responseLimit": 15,
+  "hints": [
+    "Паркомат не работал (The parking meter was not working)",
+    "У меня есть фотография (I have a photo)",
+    "Я прошу отменить штраф (I request to cancel the fine)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "штраф",
+      "definition": "fine/ticket"
+    },
+    {
+      "word": "апелляция",
+      "definition": "appeal"
+    },
+    {
+      "word": "обжалование",
+      "definition": "contesting"
+    },
+    {
+      "word": "доказательство",
+      "definition": "evidence"
+    },
+    {
+      "word": "паркомат",
+      "definition": "parking meter"
+    },
+    {
+      "word": "отменить",
+      "definition": "to cancel"
+    }
+  ],
+  "objectives": [
+    "Explain the situation (ситуация)",
+    "Present your evidence (доказательства)",
+    "Request ticket dismissal (отменить штраф)",
+    "Get appeal decision"
+  ]
+}

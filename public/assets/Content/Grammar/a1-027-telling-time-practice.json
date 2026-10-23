@@ -1,0 +1,504 @@
+{
+  "lessonId": "a1-027-telling-time",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Test your knowledge of hour forms and time of day",
+      "descriptionRussian": "Проверьте знание форм слова «час» и времени суток",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я прихожу домой в шесть _____.",
+              "promptEnglish": "I come home at six o'clock.",
+              "options": [
+                "час",
+                "часа",
+                "часов",
+                "часу"
+              ],
+              "answer": "часов",
+              "hint": "6 is in the 5-12 range.",
+              "explanation": "After 5-12, use часов: шесть часов."
+            },
+            {
+              "prompt": "Обед в два _____.",
+              "promptEnglish": "Lunch is at two o'clock.",
+              "options": [
+                "часов",
+                "часа",
+                "час",
+                "часу"
+              ],
+              "answer": "часа",
+              "hint": "2 is in the 2-4 range.",
+              "explanation": "After 2, 3, 4, use часа: два часа."
+            },
+            {
+              "prompt": "Спектакль начинается в _____.",
+              "promptEnglish": "The show starts at one o'clock.",
+              "options": [
+                "часа",
+                "часов",
+                "часу",
+                "час"
+              ],
+              "answer": "час",
+              "hint": "For 1 o'clock, just say...",
+              "explanation": "For 1 o'clock, simply say в час (not один час in everyday speech)."
+            },
+            {
+              "prompt": "Концерт в восемь _____.",
+              "promptEnglish": "The concert is at eight o'clock.",
+              "options": [
+                "час",
+                "часу",
+                "часов",
+                "часа"
+              ],
+              "answer": "часов",
+              "hint": "8 is in the 5-12 range.",
+              "explanation": "After 5-12, use часов: восемь часов."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Урок начинается в три _____.",
+          "contextEnglish": "The class starts at three o'clock.",
+          "options": [
+            "часа",
+            "часов"
+          ],
+          "answer": "часа",
+          "explanation": "After 3 (in the 2-4 range), use часа: три часа."
+        },
+        {
+          "context": "Поезд отправляется в десять _____.",
+          "contextEnglish": "The train departs at ten o'clock.",
+          "options": [
+            "часов",
+            "часа"
+          ],
+          "answer": "часов",
+          "explanation": "After 10 (in the 5-12 range), use часов: десять часов."
+        },
+        {
+          "context": "Завтрак в семь _____.",
+          "contextEnglish": "Breakfast is at seven in the morning.",
+          "options": [
+            "утра",
+            "вечера"
+          ],
+          "answer": "утра",
+          "explanation": "7 in the morning = семь утра. Утра means AM/morning."
+        },
+        {
+          "context": "Фильм в девять _____.",
+          "contextEnglish": "The movie is at nine in the evening.",
+          "options": [
+            "вечера",
+            "утра"
+          ],
+          "answer": "вечера",
+          "explanation": "A movie at 9 is typically in the evening: девять вечера."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in the correct hour forms and sort times by part of day",
+      "descriptionRussian": "Вставьте правильные формы и рассортируйте время по частям суток",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Магазин закрывается в десять _____.",
+          "Мы встретимся в три _____.",
+          "Автобус приходит в _____.",
+          "Занятия начинаются в девять _____."
+        ],
+        "choices": [
+          "часов",
+          "часа",
+          "час",
+          "часу"
+        ],
+        "answers": [
+          "часов",
+          "часа",
+          "час",
+          "часов"
+        ],
+        "grammarFocus": "Hour form depends on the number: 1 = час, 2-4 = часа, 5-12 = часов.",
+        "hints": [
+          "10 is in the 5-12 range.",
+          "3 is in the 2-4 range.",
+          "For 1 o'clock, just say...",
+          "9 is in the 5-12 range."
+        ],
+        "explanations": [
+          "Десять часов: after 5-12, use часов.",
+          "Три часа: after 2-4, use часа.",
+          "В час: for 1 o'clock, say час (not один час).",
+          "Девять часов: after 5-12, use часов."
+        ],
+        "options": [
+          [
+            "часами",
+            "часов",
+            "часам",
+            "часы"
+          ],
+          [
+            "часа",
+            "час",
+            "часом",
+            "часу"
+          ],
+          [
+            "часу",
+            "часа",
+            "часом",
+            "час"
+          ],
+          [
+            "часами",
+            "часам",
+            "часов",
+            "часы"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort these times by part of day",
+        "categories": [
+          "Утро (Morning)",
+          "День (Afternoon)",
+          "Вечер (Evening)"
+        ],
+        "items": [
+          {
+            "word": "в пять утра",
+            "category": "Утро (Morning)"
+          },
+          {
+            "word": "в девять утра",
+            "category": "Утро (Morning)"
+          },
+          {
+            "word": "в одиннадцать утра",
+            "category": "Утро (Morning)"
+          },
+          {
+            "word": "в два часа дня",
+            "category": "День (Afternoon)"
+          },
+          {
+            "word": "в четыре часа дня",
+            "category": "День (Afternoon)"
+          },
+          {
+            "word": "в час дня",
+            "category": "День (Afternoon)"
+          },
+          {
+            "word": "в семь вечера",
+            "category": "Вечер (Evening)"
+          },
+          {
+            "word": "в десять вечера",
+            "category": "Вечер (Evening)"
+          },
+          {
+            "word": "в восемь вечера",
+            "category": "Вечер (Evening)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "The train arrives at three o'clock.",
+          "answer": "Поезд приходит в три часа.",
+          "acceptableVariants": [
+            "Поезд приезжает в три часа."
+          ],
+          "hint": "train = поезд, arrives = приходит, 3 = три часа",
+          "grammarFocus": "2-4 range uses часа",
+          "keyWord": "часа",
+          "options": [
+            "часа",
+            "часов",
+            "час",
+            "часу"
+          ]
+        },
+        {
+          "english": "I go to bed at ten in the evening.",
+          "answer": "Я ложусь спать в десять вечера.",
+          "acceptableVariants": [
+            "Я ложусь спать в десять часов вечера."
+          ],
+          "hint": "go to bed = ложусь спать, ten = десять, evening = вечера",
+          "grammarFocus": "Time of day: вечера for evening",
+          "keyWord": "вечера",
+          "options": [
+            "вечера",
+            "утра",
+            "дня",
+            "ночи"
+          ]
+        },
+        {
+          "english": "What time is it? Five o'clock.",
+          "answer": "Который час? Пять часов.",
+          "acceptableVariants": [
+            "Сколько времени? Пять часов."
+          ],
+          "hint": "What time = Который час, five = пять часов",
+          "grammarFocus": "Asking time with Который час?",
+          "keyWord": "час",
+          "options": [
+            "час",
+            "часа",
+            "часов",
+            "часу"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Errors",
+      "titleRussian": "Найди ошибки",
+      "description": "Find and fix errors in time expressions",
+      "descriptionRussian": "Найдите и исправьте ошибки во временных выражениях",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Встреча в два часов.",
+          "error": "часов",
+          "correction": "часа",
+          "hint": "Which hour form goes with 2?",
+          "explanation": "After 2, 3, 4, use часа (not часов): два часа.",
+          "options": [
+            "часа",
+            "час",
+            "часу"
+          ]
+        },
+        {
+          "sentence": "Я просыпаюсь в семь час.",
+          "error": "час",
+          "correction": "часов",
+          "hint": "7 is in the 5-12 range.",
+          "explanation": "After 5-12, use часов (not час): семь часов.",
+          "options": [
+            "часов",
+            "часа",
+            "часу"
+          ]
+        },
+        {
+          "sentence": "Магазин открывается в десять часа.",
+          "error": "часа",
+          "correction": "часов",
+          "hint": "10 is in the 5-12 range.",
+          "explanation": "After 5-12, use часов: десять часов (not часа).",
+          "options": [
+            "часов",
+            "час",
+            "часу"
+          ]
+        },
+        {
+          "sentence": "Он приходит в четыре часов.",
+          "error": "часов",
+          "correction": "часа",
+          "hint": "Which hour form goes with 4?",
+          "explanation": "After 2, 3, 4, use часа (not часов): четыре часа.",
+          "options": [
+            "часа",
+            "час",
+            "часу"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Обычно люди спят в два _____.",
+              "promptEnglish": "People usually sleep at two in the morning.",
+              "options": [
+                "утра",
+                "дня",
+                "ночи",
+                "вечера"
+              ],
+              "answer": "ночи",
+              "hint": "2 AM is in the middle of the night.",
+              "explanation": "2 AM = два часа ночи. Ночи means 'at night' (roughly midnight to 4 AM)."
+            },
+            {
+              "prompt": "Обед обычно в _____ дня.",
+              "promptEnglish": "Lunch is usually at one in the afternoon.",
+              "options": [
+                "часа",
+                "час",
+                "часов",
+                "часу"
+              ],
+              "answer": "час",
+              "hint": "For 1 o'clock, just say...",
+              "explanation": "В час дня = at 1 PM. For one o'clock, use час."
+            },
+            {
+              "prompt": "Мы ужинаем в семь _____.",
+              "promptEnglish": "We have dinner at seven in the evening.",
+              "options": [
+                "вечера",
+                "утра",
+                "ночи",
+                "дня"
+              ],
+              "answer": "вечера",
+              "hint": "7 PM is in the evening.",
+              "explanation": "7 PM = семь вечера. Вечера means 'in the evening.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "A mixed challenge covering all time expressions",
+      "descriptionRussian": "Смешанное задание по всем временным выражениям",
+      "icon": "star",
+      "patternRecognition": [
+        {
+          "sentence": "один час, два часа, пять часов",
+          "question": "What determines which form of 'hour' to use?",
+          "options": [
+            "The number before it",
+            "The time of day",
+            "The gender of the subject"
+          ],
+          "answer": "The number before it",
+          "explanation": "The number determines the form: 1 = час, 2-4 = часа, 5-12 = часов."
+        },
+        {
+          "sentence": "утра, дня, вечера, ночи",
+          "question": "What do these four words indicate?",
+          "options": [
+            "Time of day (AM/PM equivalent)",
+            "Days of the week",
+            "Seasons of the year"
+          ],
+          "answer": "Time of day (AM/PM equivalent)",
+          "explanation": "These are time-of-day markers: утра (morning), дня (afternoon), вечера (evening), ночи (night)."
+        },
+        {
+          "sentence": "в час, в два часа, в три часа, в четыре часа",
+          "question": "Why does час appear alone with 1 but часа appears with 2, 3, and 4?",
+          "options": [
+            "1 uses the base form час; 2-4 use the special form часа",
+            "It is a spelling difference only",
+            "Час and часа mean different things"
+          ],
+          "answer": "1 uses the base form час; 2-4 use the special form часа",
+          "explanation": "Russian numbers govern noun forms: 1 = nominative singular (час), 2-4 = genitive singular (часа), 5+ = genitive plural (часов)."
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Самолёт прилетает в двенадцать _____. (noon)",
+          "contextEnglish": "The plane arrives at noon.",
+          "options": [
+            "дня",
+            "ночи"
+          ],
+          "answer": "дня",
+          "explanation": "Noon = двенадцать дня. Midnight would be двенадцать ночи."
+        },
+        {
+          "context": "Я завтракаю в восемь _____.",
+          "contextEnglish": "I have breakfast at eight in the morning.",
+          "options": [
+            "утра",
+            "вечера"
+          ],
+          "answer": "утра",
+          "explanation": "Breakfast is in the morning: восемь утра (8 AM)."
+        },
+        {
+          "context": "Работа начинается в четыре _____ дня.",
+          "contextEnglish": "Work starts at four in the afternoon.",
+          "options": [
+            "часа",
+            "часов"
+          ],
+          "answer": "часа",
+          "explanation": "After 4 (in the 2-4 range), use часа: в четыре часа дня."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Собрание в одиннадцать _____. (The meeting is at eleven o'clock.)",
+          "Кафе открывается в _____ утра. (The cafe opens at eight in the morning.)",
+          "Сколько сейчас _____? (What time is it now?)"
+        ],
+        "choices": [
+          "часов",
+          "восемь",
+          "времени",
+          "часа"
+        ],
+        "answers": [
+          "часов",
+          "восемь",
+          "времени"
+        ],
+        "grammarFocus": "Hour forms, numbers with time, asking time.",
+        "hints": [
+          "11 is in the 5-12 range.",
+          "Fill in the number for 8.",
+          "Genitive form of время."
+        ],
+        "explanations": [
+          "Одиннадцать часов: after 5-12, use часов.",
+          "В восемь утра: the number goes before the time-of-day word.",
+          "Сколько времени? is another way to ask 'What time is it?' Времени is genitive of время."
+        ],
+        "options": [
+          [
+            "часы",
+            "часам",
+            "часами",
+            "часов"
+          ],
+          [
+            "восемью",
+            "восемь",
+            "восьми"
+          ],
+          [
+            "временем",
+            "времени",
+            "время",
+            "времена"
+          ]
+        ]
+      }
+    }
+  ]
+}

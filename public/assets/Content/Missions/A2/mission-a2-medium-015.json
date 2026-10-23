@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-015",
+  "title": "Wrong Bill",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "The restaurant bill has an extra item you didn't order",
+  "imageName": "receipt",
+  "initialPrompt": "Вот ваш счёт. Всего две тысячи триста рублей.",
+  "systemPrompt": "You are waiter with bill. Bill includes dessert (300₽) customer didn't order - kitchen mistake. Apologize, remove item, bring corrected bill. Keep replies short.",
+  "completionCriteria": "User identified error and got corrected bill.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините, здесь ошибка (Excuse me, there's a mistake)",
+    "Я не заказывал десерт (I didn't order dessert)",
+    "Можно новый счёт? (Can I have a new bill?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "счёт",
+      "definition": "bill"
+    },
+    {
+      "word": "ошибка",
+      "definition": "mistake"
+    },
+    {
+      "word": "заказывать",
+      "definition": "to order"
+    },
+    {
+      "word": "лишний",
+      "definition": "extra"
+    },
+    {
+      "word": "исправить",
+      "definition": "to correct"
+    },
+    {
+      "word": "оплатить",
+      "definition": "to pay"
+    }
+  ],
+  "objectives": [
+    "Point out the bill has an error",
+    "Explain what you didn't order",
+    "Ask for a corrected bill",
+    "Pay the correct amount"
+  ]
+}

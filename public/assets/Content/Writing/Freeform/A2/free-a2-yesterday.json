@@ -1,0 +1,65 @@
+{
+  "id": "free-a2-yesterday",
+  "level": "A2",
+  "type": "freeform",
+  "title": "Yesterday's Events",
+  "titleRussian": "Вчерашние события",
+  "theme": "yesterday",
+  "prompts": [
+    {
+      "id": "a2-yest-001",
+      "prompt": "What did you do yesterday morning? Describe your activities.",
+      "promptRussian": "Что вы делали вчера утром? Опишите ваши занятия.",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Вчера утром я...", "Сначала...", "Потом..."],
+      "targetGrammar": ["past tense", "time expressions", "sequence words"],
+      "gradingCriteria": ["morning activities described", "time reference clear", "past tense correct"],
+      "sampleResponse": "Вчера утром я проснулся в семь часов. Сначала я принял душ. Потом я позавтракал."
+    },
+    {
+      "id": "a2-yest-002",
+      "prompt": "Did you meet anyone yesterday? Who and where?",
+      "promptRussian": "Вы встретились с кем-нибудь вчера? С кем и где?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Вчера я встретился/встретилась с...", "Мы встретились в...", "Мы разговаривали о..."],
+      "targetGrammar": ["past tense", "instrumental case with с", "prepositional case for location"],
+      "gradingCriteria": ["person mentioned", "location included", "correct case usage"],
+      "sampleResponse": "Вчера я встретилась с подругой. Мы встретились в кафе в центре города. Мы разговаривали о работе."
+    },
+    {
+      "id": "a2-yest-003",
+      "prompt": "What did you eat yesterday? Describe your meals.",
+      "promptRussian": "Что вы ели вчера? Опишите ваши приёмы пищи.",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["На завтрак я ел/ела...", "На обед...", "На ужин..."],
+      "targetGrammar": ["past tense", "food vocabulary", "на + accusative for meals"],
+      "gradingCriteria": ["at least 2 meals mentioned", "food items listed", "past tense correct"],
+      "sampleResponse": "На завтрак я ела кашу и пила кофе. На обед я ела салат. На ужин я приготовила пасту."
+    },
+    {
+      "id": "a2-yest-004",
+      "prompt": "What was the weather like yesterday? How did it affect your day?",
+      "promptRussian": "Какая была погода вчера? Как она повлияла на ваш день?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Вчера было...", "Из-за погоды я...", "Поэтому..."],
+      "targetGrammar": ["past tense", "weather expressions", "cause/effect"],
+      "gradingCriteria": ["weather described", "effect mentioned", "past tense used"],
+      "sampleResponse": "Вчера было солнечно и тепло. Поэтому я решил погулять в парке. Было очень приятно."
+    },
+    {
+      "id": "a2-yest-005",
+      "prompt": "What did you do yesterday evening? Did you stay home or go out?",
+      "promptRussian": "Что вы делали вчера вечером? Вы остались дома или вышли куда-то?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Вчера вечером я...", "Я остался/осталась дома и...", "Я вышел/вышла..."],
+      "targetGrammar": ["past tense", "evening activities", "directional verbs"],
+      "gradingCriteria": ["evening activity described", "location clear", "past tense correct"],
+      "sampleResponse": "Вчера вечером я остался дома. Я смотрел фильм и потом читал книгу. Я лёг спать в одиннадцать."
+    }
+  ]
+}

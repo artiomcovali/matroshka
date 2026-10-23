@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-018",
+  "title": "The Cold Pizza",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Your delivery pizza arrived cold and late",
+  "imageName": "phone.fill",
+  "initialPrompt": "Пиццерия «Италия». Вы получили заказ?",
+  "systemPrompt": "Pizza was late and cold. First deny: 'Курьер выехал вовремя.' Offer discount or redelivery if user insists politely. Keep replies short.",
+  "completionCriteria": "User got compensation - discount or new pizza.",
+  "responseLimit": 15,
+  "hints": [
+    "Пицца холодная! (The pizza is cold!)",
+    "Она опоздала на час (It was an hour late)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "холодная",
+      "definition": "cold"
+    },
+    {
+      "word": "опоздала",
+      "definition": "was late"
+    },
+    {
+      "word": "скидка",
+      "definition": "discount"
+    },
+    {
+      "word": "новая",
+      "definition": "new one"
+    },
+    {
+      "word": "жалоба",
+      "definition": "complaint"
+    }
+  ],
+  "objectives": [
+    "Explain pizza is cold (холодная)",
+    "Say it was late (опоздала)",
+    "Express dissatisfaction",
+    "Ask for solution (скидка or новая)",
+    "Get discount or replacement"
+  ]
+}

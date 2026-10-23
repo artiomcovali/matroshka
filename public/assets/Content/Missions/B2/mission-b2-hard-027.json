@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-027",
+  "title": "Academic Rivalry",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Rival researcher trying to sabotage your work",
+  "imageName": "flask.fill",
+  "initialPrompt": "Ваши исследования повторяют мою работу. Это плагиат. Я подам жалобу в научный совет. Ваша репутация будет уничтожена.",
+  "systemPrompt": "You are jealous rival researcher making false accusations. Threaten reputation, cite imagined similarities. Only back down when confronted with timeline evidence and independent verification.",
+  "completionCriteria": "User defended research independence effectively.",
+  "responseLimit": 15,
+  "hints": [
+    "Наши работы развивались независимо (Our works developed independently)",
+    "Даты публикаций подтверждают... (Publication dates confirm...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "исследование",
+      "definition": "research"
+    },
+    {
+      "word": "независимость",
+      "definition": "independence"
+    },
+    {
+      "word": "плагиат",
+      "definition": "plagiarism"
+    },
+    {
+      "word": "публикация",
+      "definition": "publication"
+    },
+    {
+      "word": "репутация",
+      "definition": "reputation"
+    },
+    {
+      "word": "верификация",
+      "definition": "verification"
+    }
+  ],
+  "objectives": [
+    "Prove independent development",
+    "Present timeline evidence",
+    "Counter false accusations",
+    "Protect academic reputation",
+    "Suggest neutral arbitration"
+  ]
+}

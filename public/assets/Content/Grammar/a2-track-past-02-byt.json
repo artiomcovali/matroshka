@@ -1,0 +1,311 @@
+{
+  "id": "a2-track-past-02-byt",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Past Tense 2: Был, Была, Было, Были",
+  "titleRussian": "Прошедшее время 2: был, была, было, были",
+  "description": "The past of быть (to be): был / была / было / были. Saying where someone was, what there was, and what the weather was like.",
+  "descriptionRussian": "Прошедшее время глагола быть: был / была / было / были. Где кто был, что было и какая была погода.",
+  "imageName": "person.fill.checkmark",
+  "trackId": "a2-past-tense-mastery",
+  "trackTitle": "Past Tense Mastery",
+  "trackTitleRussian": "Прошедшее время",
+  "trackIndex": 2,
+  "trackTotal": 5,
+  "intro": "In the present tense Russian leaves out the verb 'to be' entirely, which is one of the first things you learn. In the past it comes back, and it is not optional. That one verb carries most of what you will want to say about the past at first: where you were, what there was, what the weather was like. One verb, four forms, a whole lesson.",
+  "rules": [
+    "The past of быть has the regular four forms: был (masc), была (fem), было (neut), были (plural). The subject picks the form: Антон был, Маша была, дети были.",
+    "In the present tense Russian omits 'to be' (Антон дома), but in the past the verb returns and must agree: Антон был дома.",
+    "'There was / there were' uses быть agreeing with the thing that existed: На столе была лампа. В парке были дети.",
+    "Impersonal sentences (weather, feelings, no subject) use the neuter было: Было холодно. Было интересно.",
+    "The feminine form is end-stressed: была́. The other three forms stress the stem (был, бы́ло, бы́ли). Memorize была́ now."
+  ],
+  "examples": [
+    "Антон был в школе вчера. (Anton was at school yesterday.) Masculine subject → был.",
+    "Маша была на работе утром. (Masha was at work in the morning.) Feminine subject → была.",
+    "Молоко было в холодильнике. (The milk was in the fridge.) Neuter subject → было.",
+    "Дети были в парке весь день. (The children were in the park all day.) Plural subject → были.",
+    "На столе была лампа. (There was a lamp on the table.) The lamp existed; лампа is feminine → была.",
+    "Вчера было холодно. (It was cold yesterday.) No subject → neuter было."
+  ],
+  "tables": [
+    {
+      "title": "The Past of Быть",
+      "headers": [
+        "Subject",
+        "Form",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "masculine sg",
+          "cells": [
+            "был",
+            "Антон был дома."
+          ]
+        },
+        {
+          "label": "feminine sg",
+          "cells": [
+            "была́",
+            "Маша была́ дома."
+          ]
+        },
+        {
+          "label": "neuter sg / impersonal",
+          "cells": [
+            "бы́ло",
+            "Бы́ло холодно."
+          ]
+        },
+        {
+          "label": "plural",
+          "cells": [
+            "бы́ли",
+            "Дети бы́ли дома."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Three Jobs of the Past of Быть",
+      "headers": [
+        "Job",
+        "Pattern",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "where someone was",
+          "cells": [
+            "subject + был/была + place",
+            "Я был в Москве."
+          ]
+        },
+        {
+          "label": "there was / were",
+          "cells": [
+            "place + был/была/было/были + thing",
+            "На столе была лампа."
+          ]
+        },
+        {
+          "label": "weather / feelings",
+          "cells": [
+            "было + adverb",
+            "Вчера было тепло."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Антон _____ в школе вчера.",
+          "promptEnglish": "Anton was at school yesterday.",
+          "options": [
+            "был",
+            "была",
+            "было",
+            "были"
+          ],
+          "answer": "был",
+          "hint": "Антон is one person, masculine.",
+          "explanation": "Антон is masculine singular, so быть takes the masculine form: был. In the present this sentence would have no verb at all (Антон в школе); in the past the verb returns and agrees."
+        },
+        {
+          "prompt": "Лена _____ на концерте в субботу.",
+          "promptEnglish": "Lena was at a concert on Saturday.",
+          "options": [
+            "был",
+            "были",
+            "была",
+            "было"
+          ],
+          "answer": "была",
+          "hint": "Лена is feminine. And remember where the stress goes on this form.",
+          "explanation": "Лена is feminine singular → была (end-stressed: была́)."
+        },
+        {
+          "prompt": "Вчера _____ очень холодно.",
+          "promptEnglish": "It was very cold yesterday.",
+          "options": [
+            "был",
+            "была",
+            "были",
+            "было"
+          ],
+          "answer": "было",
+          "hint": "Is there a subject in this sentence at all?",
+          "explanation": "There is no subject - 'it was cold' is impersonal. Impersonal sentences take the neuter form: было. Было холодно, было интересно, было трудно all follow this pattern."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Родители _____ дома весь вечер.",
+          "promptEnglish": "The parents were at home all evening.",
+          "options": [
+            "были",
+            "был",
+            "была",
+            "было"
+          ],
+          "answer": "были",
+          "hint": "Родители is plural.",
+          "explanation": "Родители is plural, so быть takes the plural form: были. The plural form is the same for any gender mix, just like -ли in Lesson 1."
+        },
+        {
+          "prompt": "На столе _____ лампа.",
+          "promptEnglish": "There was a lamp on the table.",
+          "options": [
+            "был",
+            "была",
+            "было",
+            "были"
+          ],
+          "answer": "была",
+          "hint": "In 'there was X', the verb agrees with X. What gender is лампа?",
+          "explanation": "In a 'there was' sentence the thing that existed is the subject. Лампа is feminine → была. If it were a masc noun: На столе был журнал; neuter: На столе было яблоко."
+        },
+        {
+          "prompt": "Я _____ в Петербурге в мае. (speaker is female)",
+          "promptEnglish": "I was in Petersburg in May. (I am female.)",
+          "options": [
+            "была",
+            "был",
+            "было",
+            "были"
+          ],
+          "answer": "была",
+          "hint": "The form agrees with the speaker's gender.",
+          "explanation": "With я, the past of быть shows the speaker's gender: a female speaker says я была, a male speaker says я был. The verb agrees with the subject, and here the subject is the speaker herself."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "В парке _____ дети и собаки. (There were children and dogs in the park.)"
+    ],
+    "choices": [
+      "был",
+      "была",
+      "было",
+      "были"
+    ],
+    "answers": [
+      "были"
+    ],
+    "grammarFocus": "'There were children and dogs' - the things that existed are plural, so быть takes the plural form: были. In 'there was/were' sentences the verb agrees with the thing that existed."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Маша был дома вчера.",
+      "translationEnglish": "Masha was at home yesterday.",
+      "error": "был",
+      "correction": "была",
+      "options": [
+        "была",
+        "было",
+        "были"
+      ],
+      "explanation": "Маша is feminine, so быть takes the feminine form: была. Был fits only a masculine subject (Антон был дома)."
+    },
+    {
+      "sentence": "Вчера была холодно.",
+      "translationEnglish": "It was cold yesterday.",
+      "error": "была",
+      "correction": "было",
+      "options": [
+        "было",
+        "был",
+        "были"
+      ],
+      "explanation": "'It was cold' has no subject, and subjectless (impersonal) sentences take the neuter: было холодно. Была would need a feminine subject like зима: Зима была холодная."
+    },
+    {
+      "sentence": "Антон и Лена был в кино.",
+      "translationEnglish": "Anton and Lena were at the cinema.",
+      "error": "был",
+      "correction": "были",
+      "options": [
+        "были",
+        "была",
+        "было"
+      ],
+      "explanation": "Антон и Лена together are a plural subject, so быть takes the plural form: были. Антон и Лена были в кино."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Утром _____ тепло.",
+      "contextEnglish": "It was warm in the morning.",
+      "options": [
+        "было",
+        "была"
+      ],
+      "answer": "было",
+      "explanation": "No subject - impersonal weather sentence - so the neuter было. Была would need a feminine noun as subject (Весна была тёплая)."
+    },
+    {
+      "context": "В комнате _____ телевизор.",
+      "contextEnglish": "There was a TV in the room.",
+      "options": [
+        "был",
+        "было"
+      ],
+      "answer": "был",
+      "explanation": "In 'there was X', быть agrees with X. Телевизор is masculine → был. Было would fit a neuter noun: В комнате было кресло."
+    }
+  ],
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Маша",
+        "была",
+        "в",
+        "школе",
+        "вчера"
+      ],
+      "answer": "Маша была в школе вчера.",
+      "translation": "Masha was at school yesterday.",
+      "hint": "Subject first, then the agreeing past of быть, then the place.",
+      "explanation": "Маша (feminine) takes была. Place and time follow the verb in the neutral word order: Маша была в школе вчера."
+    },
+    {
+      "words": [
+        "вчера",
+        "было",
+        "очень",
+        "холодно"
+      ],
+      "answer": "Вчера было очень холодно.",
+      "translation": "It was very cold yesterday.",
+      "hint": "Impersonal sentence: time word, then the neuter verb.",
+      "explanation": "Impersonal weather sentence: no subject, neuter было, and the adverb холодно. Вчера opens the sentence as the time frame."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "был / была / было / были",
+      "definition": "the past forms of быть (to be); the verb that is invisible in the present returns in the past and agrees with the subject",
+      "example": "Антон был дома, Маша была на работе, дети были в парке."
+    },
+    {
+      "term": "безличное предложение",
+      "definition": "impersonal sentence (no subject; the verb sits in the neuter: было)",
+      "example": "Вчера было холодно, а сегодня тепло."
+    },
+    {
+      "term": "там был / там была / там были",
+      "definition": "'there was / there were' (быть agrees with the thing that existed)",
+      "example": "На столе была лампа, а на полке были книги."
+    }
+  ]
+}

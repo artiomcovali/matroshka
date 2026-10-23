@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-030",
+  "title": "Workshop Full",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "The photography workshop is already at capacity",
+  "imageName": "camera.fill",
+  "initialPrompt": "К сожалению, на субботнюю прогулку все места заняты. Очень популярный маршрут.",
+  "systemPrompt": "You organize photography tours. Saturday tour full (10 people max). Can add to waitlist, offer next weekend, or private tour at higher price. Keep replies short.",
+  "completionCriteria": "User got on waitlist, booked alternative, or arranged private tour.",
+  "responseLimit": 15,
+  "hints": [
+    "Можно в лист ожидания? (Can I be on the waitlist?)",
+    "Когда следующий тур? (When's the next tour?)",
+    "Сколько стоит частная экскурсия? (How much is a private tour?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "полный",
+      "definition": "full"
+    },
+    {
+      "word": "лист ожидания",
+      "definition": "waitlist"
+    },
+    {
+      "word": "альтернатива",
+      "definition": "alternative"
+    },
+    {
+      "word": "частный",
+      "definition": "private"
+    },
+    {
+      "word": "записаться",
+      "definition": "to sign up"
+    },
+    {
+      "word": "следующий",
+      "definition": "next"
+    }
+  ],
+  "objectives": [
+    "Understand the situation",
+    "Ask about waitlist",
+    "Consider alternatives",
+    "Secure a spot"
+  ]
+}

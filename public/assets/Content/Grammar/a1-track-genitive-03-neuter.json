@@ -1,0 +1,310 @@
+{
+  "id": "a1-track-genitive-03-neuter",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Genitive 3: Neuter Endings (-а and -я)",
+  "titleRussian": "Родительный 3: Средние окончания (-а и -я)",
+  "description": "Neuter nouns ending in -о take -а in the genitive. Neuter nouns ending in -е take -я.",
+  "descriptionRussian": "Существительные среднего рода на -о получают окончание -а в родительном падеже. Существительные на -е получают окончание -я.",
+  "imageName": "square",
+  "trackId": "a1-genitive-mastery",
+  "trackTitle": "Genitive Mastery",
+  "trackTitleRussian": "Родительный падеж",
+  "trackIndex": 3,
+  "trackTotal": 8,
+  "intro": "Neuter nouns produce a form you have already seen, doing a different job. The genitive singular of a neuter noun looks exactly like its plural, which means context rather than shape tells you which one you are looking at. That sounds like a problem and mostly is not, because the trigger word in front of the noun settles it every time. But it is the first genuinely ambiguous ending in this book, and worth meeting deliberately.",
+  "rules": [
+    "Neuter nouns ending in -о swap -о for -а in the genitive: окно → окна, письмо → письма, молоко → молока.",
+    "Neuter nouns ending in -е swap -е for -я: море → моря, поле → поля. The soft -е → soft -я pattern parallels the feminine -я → -и pattern from Lesson 2.",
+    "The spelling rule from Lesson 2 does NOT apply to -а or -я. It restricts only -ы. So молоко → молока with no spelling-rule complication."
+  ],
+  "examples": [
+    "В комнате нет окна. (There's no window in the room.) окно → окна.",
+    "У Маши нет письма. (Masha doesn't have a letter.) письмо → письма.",
+    "В холодильнике нет молока. (There's no milk in the fridge.) молоко → молока.",
+    "Здесь нет моря. (There's no sea here.) море → моря.",
+    "У нас нет места. (We don't have any room/space.) место → места."
+  ],
+  "tables": [
+    {
+      "title": "Neuter Genitive: -о → -а, -е → -я",
+      "headers": [
+        "Что? (Nominative)",
+        "Чего нет? (Genitive)",
+        "Change"
+      ],
+      "rows": [
+        {
+          "label": "окно",
+          "cells": [
+            "окна",
+            "-о → -а"
+          ]
+        },
+        {
+          "label": "письмо",
+          "cells": [
+            "письма",
+            "-о → -а"
+          ]
+        },
+        {
+          "label": "молоко",
+          "cells": [
+            "молока",
+            "-о → -а"
+          ]
+        },
+        {
+          "label": "место",
+          "cells": [
+            "места",
+            "-о → -а"
+          ]
+        },
+        {
+          "label": "яблоко",
+          "cells": [
+            "яблока",
+            "-о → -а"
+          ]
+        },
+        {
+          "label": "море",
+          "cells": [
+            "моря",
+            "-е → -я"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "В комнате нет _____.",
+          "promptEnglish": "There is no window in the room.",
+          "options": [
+            "окна",
+            "окно",
+            "окну",
+            "окном"
+          ],
+          "answer": "окна",
+          "hint": "Neuter -о swaps to which letter in the genitive?",
+          "explanation": "Neuter nouns ending in -о swap -о for -а in the genitive: окно → окна. The form looks like a masculine genitive in writing, but the source pattern is different: masculine ADDS -а, neuter SWAPS -о for -а."
+        },
+        {
+          "prompt": "У Маши нет _____.",
+          "promptEnglish": "Masha doesn't have a letter.",
+          "options": [
+            "письмо",
+            "письму",
+            "письма",
+            "письмом"
+          ],
+          "answer": "письма",
+          "hint": "Same pattern as окно.",
+          "explanation": "Письмо follows the same pattern: -о → -а → письма. The carrier construction 'у Х нет ___' triggers genitive, just like in Lessons 1 and 2."
+        },
+        {
+          "prompt": "В холодильнике нет _____.",
+          "promptEnglish": "There is no milk in the fridge.",
+          "options": [
+            "молоко",
+            "молока",
+            "молоку",
+            "молоком"
+          ],
+          "answer": "молока",
+          "hint": "Молоко ends in -ко. Does the spelling rule from Lesson 2 apply?",
+          "explanation": "Молоко ends in -ко (after к). For -ы/-и the spelling rule applied; for -о/-а it does not. Молоко → молока with no special handling of к. The spelling rule restricts only -ы."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "У Лены нет _____.",
+          "promptEnglish": "Lena doesn't have a book.",
+          "options": [
+            "книга",
+            "книгу",
+            "книгой",
+            "книги"
+          ],
+          "answer": "книги",
+          "hint": "Recap from Lesson 2: feminine -а becomes which letter (with the spelling rule)?",
+          "explanation": "Recap from Lesson 2: feminine -а swaps to -ы in the genitive, but the spelling rule writes -и after к, г, х, ш, ж, щ, ч. So книга → книги. Today's lesson is neuter, but feminine forms stay warm in your memory."
+        },
+        {
+          "prompt": "Здесь нет _____.",
+          "promptEnglish": "There's no sea here.",
+          "options": [
+            "моря",
+            "море",
+            "морю",
+            "морем"
+          ],
+          "answer": "моря",
+          "hint": "Neuter -е takes which ending?",
+          "explanation": "Neuter nouns ending in -е take -я in the genitive: море → моря. The soft -е → soft -я pattern is parallel to feminine -я → -и: soft endings stay soft."
+        },
+        {
+          "prompt": "У нас нет _____.",
+          "promptEnglish": "We don't have any room (space).",
+          "options": [
+            "место",
+            "месту",
+            "места",
+            "местом"
+          ],
+          "answer": "места",
+          "hint": "Место is neuter -о. Apply the rule from earlier in this lesson.",
+          "explanation": "Место → места. The pattern -о → -а holds across all neuter -о nouns: окно → окна, письмо → письма, молоко → молока, место → места."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "У меня нет _____. (I don't have any meat.)"
+    ],
+    "choices": [
+      "мясо",
+      "мяса",
+      "мясу",
+      "мясом"
+    ],
+    "answers": [
+      "мяса"
+    ],
+    "grammarFocus": "Мясо is neuter ending in -о. Genitive: -о → -а → мяса."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "У меня нет яблоко в сумке.",
+      "translationEnglish": "I don't have an apple in my bag.",
+      "error": "яблоко",
+      "correction": "яблока",
+      "options": [
+        "яблока",
+        "яблоку",
+        "яблоком"
+      ],
+      "explanation": "After нет the noun shifts into the genitive. Яблоко is neuter ending in -о; the neuter genitive swaps -о → -а: яблока."
+    },
+    {
+      "sentence": "У Антона нет слово от друга уже неделю.",
+      "translationEnglish": "Anton hasn't had word from his friend for a week.",
+      "error": "слово",
+      "correction": "слова",
+      "options": [
+        "слова",
+        "слову",
+        "словом"
+      ],
+      "explanation": "After нет the noun shifts to the genitive. Слово is neuter (-о ending); the neuter genitive ends in -а: слова."
+    },
+    {
+      "sentence": "Здесь нет лето даже в июле, всегда холодно.",
+      "translationEnglish": "There's no summer here even in July, it's always cold.",
+      "error": "лето",
+      "correction": "лета",
+      "options": [
+        "лета",
+        "лету",
+        "летом"
+      ],
+      "explanation": "After нет the noun shifts into the genitive. Лето is neuter (-о ending); the neuter genitive ends in -а: лета."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "В комнате есть _____.",
+      "contextEnglish": "There is a window in the room.",
+      "options": [
+        "окно",
+        "окна"
+      ],
+      "answer": "окно",
+      "explanation": "After есть the noun stays in the nominative: окно. Есть keeps the nominative; нет triggers the genitive (окна)."
+    },
+    {
+      "context": "В холодильнике нет _____.",
+      "contextEnglish": "There is no milk in the fridge.",
+      "options": [
+        "молоко",
+        "молока"
+      ],
+      "answer": "молока",
+      "explanation": "After нет the noun shifts into the genitive: молока. Compare with 'В холодильнике есть молоко' (There is milk in the fridge), where молоко stays in the nominative."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort these nouns by gender. The gender determines the genitive ending.",
+    "categories": [
+      "Masculine (+ -а)",
+      "Feminine (-ы / -и)",
+      "Neuter (-а / -я)"
+    ],
+    "items": [
+      {
+        "word": "журнал",
+        "category": "Masculine (+ -а)"
+      },
+      {
+        "word": "книга",
+        "category": "Feminine (-ы / -и)"
+      },
+      {
+        "word": "окно",
+        "category": "Neuter (-а / -я)"
+      },
+      {
+        "word": "стол",
+        "category": "Masculine (+ -а)"
+      },
+      {
+        "word": "комната",
+        "category": "Feminine (-ы / -и)"
+      },
+      {
+        "word": "молоко",
+        "category": "Neuter (-а / -я)"
+      },
+      {
+        "word": "брат",
+        "category": "Masculine (+ -а)"
+      },
+      {
+        "word": "кошка",
+        "category": "Feminine (-ы / -и)"
+      },
+      {
+        "word": "море",
+        "category": "Neuter (-а / -я)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "средний род",
+      "definition": "neuter gender (the gender of окно, молоко, море)",
+      "example": "Окно, письмо, море — это средний род."
+    },
+    {
+      "term": "родительный падеж",
+      "definition": "genitive case (the case of absence and possession)",
+      "example": "В предложении 'В комнате нет окна' слово 'окна' стоит в родительном падеже."
+    },
+    {
+      "term": "холодильник",
+      "definition": "refrigerator",
+      "example": "В холодильнике нет молока."
+    }
+  ]
+}

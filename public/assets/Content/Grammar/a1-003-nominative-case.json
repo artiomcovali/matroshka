@@ -1,0 +1,216 @@
+{
+  "id": "a1-003-nominative-case",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Nominative Case",
+  "titleRussian": "Именительный падеж",
+  "description": "The nominative case as subject and predicate",
+  "descriptionRussian": "Именительный падеж как подлежащее и сказуемое",
+  "imageName": "person.fill.questionmark",
+  "intro": "Russian has six grammatical cases that change word endings based on function. The nominative case (именительный падеж) is the 'dictionary form' - how words appear when you look them up. It's used for the subject of a sentence (who/what does the action) and after 'это' (this is).",
+  "rules": [
+    "Nominative is the 'dictionary form' - how words appear in dictionaries and word lists.",
+    "Use nominative for the subject of a sentence: Кошка спит. (The cat is sleeping.)",
+    "Use nominative after «это»: Это книга. (This is a book.)",
+    "Question words Кто? (Who?) and Что? (What?) ask for nominative answers."
+  ],
+  "examples": [
+    "Студент читает. (The student is reading.), студент is nominative (subject)",
+    "Это мой друг. (This is my friend.), друг is nominative (after это)",
+    "Кто это? — Это Анна. (Who is this?, This is Anna.)",
+    "Что это? — Это книга. (What is this?, This is a book.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "In «Мама читает книгу», which word is the subject (nominative)?",
+          "promptEnglish": "In 'Mom is reading a book', which word is the subject?",
+          "options": [
+            "книгу",
+            "мама",
+            "читает"
+          ],
+          "answer": "мама",
+          "hint": "Who is doing the action?",
+          "explanation": "Мама (mom) is doing the reading, so it's the subject in nominative case."
+        },
+        {
+          "prompt": "In «Собака спит», which word is in nominative case?",
+          "promptEnglish": "In 'The dog is sleeping', which word is in nominative?",
+          "options": [
+            "спит",
+            "собака"
+          ],
+          "answer": "собака",
+          "hint": "The subject of the sentence",
+          "explanation": "Собака (dog) is the subject doing the sleeping - nominative case."
+        },
+        {
+          "prompt": "Which question asks for a nominative answer about a person?",
+          "promptEnglish": "Which question word asks 'who'?",
+          "options": [
+            "Что?",
+            "Кто?",
+            "Когда?",
+            "Где?"
+          ],
+          "answer": "Кто?",
+          "hint": "Used for people",
+          "explanation": "Кто? (Who?) asks about people and expects a nominative answer."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Complete: Это _____. (book)",
+          "promptEnglish": "This is a book.",
+          "options": [
+            "книге",
+            "книга",
+            "книгу",
+            "книги"
+          ],
+          "answer": "книга",
+          "hint": "After 'это' use nominative (dictionary form)",
+          "explanation": "After это, use nominative: книга (not книгу or книге)."
+        },
+        {
+          "prompt": "Complete: _____ работает. (teacher, m.)",
+          "promptEnglish": "The teacher is working.",
+          "options": [
+            "Учителю",
+            "Учителем",
+            "Учитель",
+            "Учителя"
+          ],
+          "answer": "Учитель",
+          "hint": "Subject of the sentence = nominative",
+          "explanation": "Учитель is the subject (who is working), so it's in nominative."
+        },
+        {
+          "prompt": "Which question asks for nominative about a thing?",
+          "promptEnglish": "Which question word asks 'what'?",
+          "options": [
+            "Где?",
+            "Как?",
+            "Кто?",
+            "Что?"
+          ],
+          "answer": "Что?",
+          "hint": "Used for things",
+          "explanation": "Что? (What?) asks about things and expects a nominative answer."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Это _____. (a young man at university)"
+    ],
+    "choices": [
+      "студент",
+      "студента",
+      "студенту",
+      "студентом"
+    ],
+    "answers": [
+      "студент"
+    ],
+    "hints": [
+      "After 'это', use the dictionary form (nominative)."
+    ],
+    "explanations": [
+      "'Это' takes nominative — the basic dictionary form. студент is correct here."
+    ],
+    "grammarFocus": "nominative after это",
+    "options": [
+      [
+        "студента",
+        "студенту",
+        "студент",
+        "студентом"
+      ]
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort: Which words are subjects (nominative)?",
+    "categories": [
+      "Subject (Nominative)",
+      "Not Subject"
+    ],
+    "items": [
+      {
+        "word": "Мама читает",
+        "category": "Subject (Nominative)"
+      },
+      {
+        "word": "читает книгу",
+        "category": "Not Subject"
+      },
+      {
+        "word": "Студент пишет",
+        "category": "Subject (Nominative)"
+      },
+      {
+        "word": "пишет письмо",
+        "category": "Not Subject"
+      },
+      {
+        "word": "Кошка спит",
+        "category": "Subject (Nominative)"
+      },
+      {
+        "word": "видит кошку",
+        "category": "Not Subject"
+      }
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ читает газету. (The student is reading.)",
+      "contextEnglish": "The student is reading the newspaper.",
+      "options": [
+        "Студент",
+        "Студента"
+      ],
+      "answer": "Студент",
+      "explanation": "The student is the subject (doing the reading), so use nominative: Студент."
+    },
+    {
+      "context": "Это _____. (my book)",
+      "contextEnglish": "This is my book.",
+      "options": [
+        "моя книга",
+        "мою книгу"
+      ],
+      "answer": "моя книга",
+      "explanation": "After это, use nominative: моя книга."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "именительный падеж",
+      "definition": "nominative case",
+      "example": "Книга — именительный падеж"
+    },
+    {
+      "term": "подлежащее",
+      "definition": "subject (of sentence)",
+      "example": "Мама — подлежащее"
+    },
+    {
+      "term": "кто?",
+      "definition": "who? (nominative question)",
+      "example": "Кто это? — Это Анна."
+    },
+    {
+      "term": "что?",
+      "definition": "what? (nominative question)",
+      "example": "Что это? — Это книга."
+    }
+  ]
+}

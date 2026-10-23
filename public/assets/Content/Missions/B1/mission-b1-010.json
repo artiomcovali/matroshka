@@ -1,0 +1,51 @@
+{
+  "id": "mission-b1-010",
+  "title": "Bank Account",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Open a bank account and learn about services",
+  "imageName": "building.columns.fill",
+  "initialPrompt": "Добрый день! Добро пожаловать в наш банк. Чем могу помочь?",
+  "systemPrompt": "You are bank employee. Account types: savings (5% interest), checking (free transfers). Need passport to open. Cards: debit free, credit with 20% APR. Mobile app available. Keep replies short.",
+  "completionCriteria": "User opened an account or understood options fully.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу открыть счёт (I want to open an account)",
+    "Какие виды счетов есть? (What types of accounts are there?)",
+    "Какой процент по вкладу? (What's the interest rate?)",
+    "Мне нужна карта (I need a card)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "счёт",
+      "definition": "account"
+    },
+    {
+      "word": "вклад",
+      "definition": "savings/deposit"
+    },
+    {
+      "word": "процент",
+      "definition": "interest/percent"
+    },
+    {
+      "word": "перевод",
+      "definition": "transfer"
+    },
+    {
+      "word": "карта",
+      "definition": "card"
+    },
+    {
+      "word": "кредит",
+      "definition": "credit/loan"
+    }
+  ],
+  "objectives": [
+    "Say you want to open an account",
+    "Ask about account types",
+    "Ask about interest rates or fees",
+    "Ask about cards",
+    "Provide documents or complete opening"
+  ]
+}

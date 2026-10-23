@@ -1,0 +1,359 @@
+{
+  "id": "a2-track-conjunctions-05-mixed-review",
+  "level": "A2",
+  "focusArea": "sentenceStructure",
+  "title": "Conjunctions 5: Mixed Review (и, а, но, потому что, поэтому, тоже, также)",
+  "titleRussian": "Союзы 5: итоговое повторение (и, а, но, потому что, поэтому, тоже, также)",
+  "description": "Pull the whole track together: in one mixed set, pick the conjunction that fits - simple addition (и), parallel contrast (а), broken expectation (но), cause (потому что), result (поэтому), or one of the two also words (тоже / также).",
+  "descriptionRussian": "Собираем весь трек воедино: в одном смешанном наборе нужно выбрать подходящий союз — простое прибавление (и), параллельное противопоставление (а), обманутое ожидание (но), причину (потому что), результат (поэтому) или одно из двух «также» (тоже / также).",
+  "imageName": "checkmark.seal",
+  "trackId": "a2-conjunctions-mastery",
+  "trackTitle": "Conjunctions Mastery",
+  "trackTitleRussian": "Союзы",
+  "trackIndex": 5,
+  "trackTotal": 5,
+  "intro": "Seven connectors, and every one of them is a decision about the relationship between two halves of a sentence rather than about grammar. Adding, comparing, canceling, explaining, concluding, or bringing someone new in. Pick the relationship first and the word follows, which is the reverse of how most people learn these.",
+  "rules": [
+    "и - simple addition, same direction, no contrast (no comma inside one clause).",
+    "а - parallel contrast: same frame, different value (always with a comma). Whereas test.",
+    "но - real, expectation-breaking 'but': same situation, opposite outcome (always with a comma). However test.",
+    "потому что - because: what follows is the REASON. Structure: RESULT, потому что REASON.",
+    "поэтому - so / therefore: what follows is the RESULT. Structure: REASON, поэтому RESULT.",
+    "тоже - new SUBJECT, same comment ('me too'). Sits next to the subject.",
+    "также - same SUBJECT, new comment ('and also this'). Sits before the new fact."
+  ],
+  "examples": [
+    "Я учусь и работаю. (и - addition.)",
+    "Я учусь, а он работает. (а - parallel contrast.)",
+    "Я учился, но не сдал. (но - broken expectation.)",
+    "Он остался дома, потому что был болен. (потому что - reason.)",
+    "Он был болен, поэтому остался дома. (поэтому - result.)",
+    "Лена любит чай. Я тоже люблю чай. (тоже - new subject, same comment.)",
+    "Я прочитал книгу. Я также написал отзыв. (также - same subject, new comment.)"
+  ],
+  "tables": [
+    {
+      "title": "The full conjunction decision tree (A2 set)",
+      "headers": [
+        "Word",
+        "What it signals",
+        "Quick test"
+      ],
+      "rows": [
+        {
+          "label": "и",
+          "cells": [
+            "simple addition, same direction",
+            "no contrast inside the clause, no comma"
+          ]
+        },
+        {
+          "label": "а",
+          "cells": [
+            "parallel contrast, same frame, different value",
+            "whereas / while fits in English"
+          ]
+        },
+        {
+          "label": "но",
+          "cells": [
+            "broken expectation, same situation, opposite outcome",
+            "however fits in English"
+          ]
+        },
+        {
+          "label": "потому что",
+          "cells": [
+            "reason for what came before",
+            "English connector is because"
+          ]
+        },
+        {
+          "label": "поэтому",
+          "cells": [
+            "result of what came before",
+            "English connector is so / therefore"
+          ]
+        },
+        {
+          "label": "тоже",
+          "cells": [
+            "new subject, same comment",
+            "English cue: 'me too' / 'X too' at the end"
+          ]
+        },
+        {
+          "label": "также",
+          "cells": [
+            "same subject, new comment",
+            "English cue: 'also' in the middle / 'in addition'"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я хотел прийти, _____ заболел.",
+          "promptEnglish": "I wanted to come, but I got sick.",
+          "options": [
+            "и",
+            "а",
+            "но",
+            "поэтому"
+          ],
+          "answer": "но",
+          "hint": "Plan blocked by an unexpected event - the however test fits.",
+          "explanation": "Wanting to come sets up an expectation; getting sick blocks it. Broken expectation = но. However test: 'I wanted to come, however I got sick.'"
+        },
+        {
+          "prompt": "Сегодня дождь, _____ я взял зонт.",
+          "promptEnglish": "Today it is raining, so I took an umbrella.",
+          "options": [
+            "потому что",
+            "и",
+            "поэтому",
+            "но"
+          ],
+          "answer": "поэтому",
+          "hint": "Reason comes first; what follows the blank is the result.",
+          "explanation": "The rain is the reason; taking the umbrella is the result. The result follows the connector, so the word is поэтому. The English cue is 'so'."
+        },
+        {
+          "prompt": "Лена любит мороженое. Я _____ люблю мороженое.",
+          "promptEnglish": "Lena likes ice cream. I like ice cream too.",
+          "options": [
+            "также",
+            "тоже",
+            "и",
+            "поэтому"
+          ],
+          "answer": "тоже",
+          "hint": "Same comment, new subject. Which is the everyday 'me too' word?",
+          "explanation": "Same comment (likes ice cream), new subject (I instead of Lena) - that is тоже. The English cue is 'too' at the end of the sentence."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Антон работает _____ учится.",
+          "promptEnglish": "Anton works and studies.",
+          "options": [
+            "и",
+            "а",
+            "но",
+            "также"
+          ],
+          "answer": "и",
+          "hint": "One person, two activities going the same way, inside one clause.",
+          "explanation": "One subject (Anton), two activities lined up in the same direction, no contrast - that is и. There is also no comma in the prompt, which is the visual signal for и inside one clause."
+        },
+        {
+          "prompt": "Магазин закрыт, _____ сегодня воскресенье.",
+          "promptEnglish": "The shop is closed because today is Sunday.",
+          "options": [
+            "поэтому",
+            "потому что",
+            "и",
+            "а"
+          ],
+          "answer": "потому что",
+          "hint": "Why is the shop closed? The reason comes after the blank.",
+          "explanation": "The shop being closed is the result; today being Sunday is the reason. The reason follows the connector, so the word is потому что. The English cue is 'because'."
+        },
+        {
+          "prompt": "Я устал, _____ лёг спать рано.",
+          "promptEnglish": "I was tired, so I went to bed early.",
+          "options": [
+            "но",
+            "потому что",
+            "тоже",
+            "поэтому"
+          ],
+          "answer": "поэтому",
+          "hint": "Reason first, consequence after.",
+          "explanation": "Tiredness is the reason; going to bed early is the result. The result follows the connector, so the word is поэтому. The English cue is 'so'."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я живу в Москве, _____ моя сестра живёт в Петербурге.",
+          "promptEnglish": "I live in Moscow, and my sister lives in Petersburg.",
+          "options": [
+            "и",
+            "но",
+            "а",
+            "поэтому"
+          ],
+          "answer": "а",
+          "hint": "Same frame (X lives in Y), different person, different city.",
+          "explanation": "Two people, two cities, parallel frame - classic а. The whereas test fits: 'I live in Moscow, whereas my sister lives in Petersburg.'"
+        },
+        {
+          "prompt": "Я люблю читать. Я _____ люблю писать.",
+          "promptEnglish": "I like reading. I also like writing.",
+          "options": [
+            "тоже",
+            "также",
+            "и",
+            "а"
+          ],
+          "answer": "также",
+          "hint": "Same person (I), new activity stacked on top.",
+          "explanation": "Same subject (I in both sentences), new fact (writing on top of reading) - that is также. The English cue is 'also' meaning 'in addition'."
+        },
+        {
+          "prompt": "Антон купил хлеб _____ молоко.",
+          "promptEnglish": "Anton bought bread and milk.",
+          "options": [
+            "а",
+            "и",
+            "но",
+            "тоже"
+          ],
+          "answer": "и",
+          "hint": "Two items joined inside one clause - is there any contrast?",
+          "explanation": "Two items joined inside one clause, no contrast, no comma - that is и."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Урок был трудный, _____ интересный. (The lesson was difficult, but interesting.)"
+    ],
+    "choices": [
+      "и",
+      "а",
+      "но",
+      "потому что"
+    ],
+    "answers": [
+      "но"
+    ],
+    "grammarFocus": "One subject (the lesson), one negative trait then a positive one that pulls in the opposite direction - that is the quality-vs-catch но pattern. The however test fits: 'difficult, however interesting.'"
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Лена учится, и Антон работает.",
+      "translationEnglish": "Lena studies, and Anton works.",
+      "error": "и Антон",
+      "correction": "а Антон",
+      "options": [
+        "а Антон",
+        "но Антон",
+        "поэтому Антон"
+      ],
+      "explanation": "Two different people in the same frame doing different things is a parallel contrast, which takes а: Лена учится, а Антон работает. The whereas test fits ('Lena studies, whereas Anton works'). И is for plain same-direction addition with no contrast (and inside one clause it takes no comma), but here the two halves are set against each other."
+    },
+    {
+      "sentence": "Я опоздал, поэтому забыл ключи.",
+      "translationEnglish": "I was late because I forgot my keys.",
+      "error": "поэтому",
+      "correction": "потому что",
+      "options": [
+        "потому что",
+        "и",
+        "но"
+      ],
+      "explanation": "Поэтому puts the result after it, so this reads 'I was late, therefore I forgot my keys', making lateness cause the forgetting: backwards. Forgetting the keys is the reason and being late is the result, so the connector that introduces the reason is потому что: Я опоздал, потому что забыл ключи. Поэтому would be correct with the order reversed (Я забыл ключи, поэтому опоздал - I forgot my keys, so I was late)."
+    },
+    {
+      "sentence": "Лена хочет пойти. Антон также хочет пойти.",
+      "translationEnglish": "Lena wants to go. Anton wants to go too.",
+      "error": "также",
+      "correction": "тоже",
+      "options": [
+        "тоже",
+        "но",
+        "поэтому"
+      ],
+      "explanation": "The comment ('wants to go') is the same; what is new is the subject (Anton instead of Lena), so a new subject doing the same thing takes тоже: Антон тоже хочет пойти. The English cue is 'too' at the end. Также would fit only if the same subject added a new fact (Антон хочет пойти. Он также хочет позвонить - Anton wants to go. He also wants to call). But here a second person matches the first, which is the тоже job."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я люблю чай, _____ Антон любит кофе.",
+      "contextEnglish": "I like tea, and Anton likes coffee.",
+      "options": [
+        "а",
+        "но"
+      ],
+      "answer": "а",
+      "explanation": "Two people, two drinks, parallel frame - that is а, the gentle contrast. The whereas test fits ('I like tea, whereas Anton likes coffee'). Но would imply a broken expectation, but my liking tea does not predict anything about Anton's tastes."
+    },
+    {
+      "context": "Я был болен, _____ остался дома.",
+      "contextEnglish": "I was ill, so I stayed home.",
+      "options": [
+        "потому что",
+        "поэтому"
+      ],
+      "answer": "поэтому",
+      "explanation": "The illness is the reason; staying home is the result. The result follows the connector, so the word is поэтому. Потому что here would mean 'I was ill because I stayed home', inverting the cause and the result."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each conjunction by the job it does.",
+    "categories": [
+      "addition / contrast",
+      "cause / result",
+      "also (тоже/также)"
+    ],
+    "items": [
+      {
+        "word": "и",
+        "category": "addition / contrast"
+      },
+      {
+        "word": "а",
+        "category": "addition / contrast"
+      },
+      {
+        "word": "но",
+        "category": "addition / contrast"
+      },
+      {
+        "word": "потому что",
+        "category": "cause / result"
+      },
+      {
+        "word": "поэтому",
+        "category": "cause / result"
+      },
+      {
+        "word": "тоже",
+        "category": "also (тоже/также)"
+      },
+      {
+        "word": "также",
+        "category": "also (тоже/также)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "the seven-word A2 conjunction set",
+      "definition": "и (addition), а (parallel contrast), но (broken expectation), потому что (because + reason), поэтому (so + result), тоже (new subject, same comment), также (same subject, new comment). Knowing which slot you are in picks the word.",
+      "example": "Я учусь и работаю. / Я учусь, а он работает. / Я учился, но не сдал. / Он остался дома, потому что был болен. / Он был болен, поэтому остался дома. / Я тоже устал. / Я также написал отзыв."
+    },
+    {
+      "term": "the whereas / however / because / so cues",
+      "definition": "English signals that pick the Russian word: whereas → а; however → но; because → потому что; so or therefore → поэтому.",
+      "example": "I study, whereas he works → Я учусь, а он работает. / I studied, however I did not pass → Я учился, но не сдал."
+    },
+    {
+      "term": "the тоже / также test",
+      "definition": "ask what is new in the second sentence: if the SUBJECT is new and the comment is the same, use тоже; if the SUBJECT is the same and the COMMENT is new, use также.",
+      "example": "Антон тоже работает. / Я также читаю."
+    }
+  ]
+}

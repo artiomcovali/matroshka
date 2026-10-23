@@ -1,0 +1,376 @@
+{
+  "id": "b1-034-aspect-prefixes",
+  "level": "B1",
+  "focusArea": "aspect",
+  "title": "Aspect Prefixes",
+  "titleRussian": "Приставки совершенного вида",
+  "description": "по-, с-, на-, про- and meaning changes",
+  "descriptionRussian": "Приставки и изменение значения",
+  "imageName": "plus.square.on.square",
+  "intro": "Building on B1 aspect pairs and formation patterns, we now explore how prefixes work. PURE PERFECTIVIZERS: писать → написать (write/finish writing), делать → сделать (do/finish doing). MEANING-CHANGING: писать → переписать (rewrite), записать (write down), дописать (finish writing), выписать (copy out). The same prefix can be pure with some verbs, meaning-changing with others. по- often means 'for a while': читать → почитать (read for a bit).",
+  "rules": [
+    "Pure perfectivizers don't change meaning: на- (написать), с- (сделать), про- (прочитать)",
+    "по- often = 'for a while/a bit': посидеть (sit for a while), почитать (read a bit)",
+    "Most prefixes add directional/new meaning: за- (begin/drop by), пере- (re-/across)",
+    "Same prefix varies by verb: написать (pure pf) vs. набрать (collect, new meaning)"
+  ],
+  "examples": [
+    "Pure pf: писать → написать, делать → сделать, читать → прочитать",
+    "по- 'for a while': Я почитал книгу. (I read for a while.)",
+    "за- 'begin': Она запела. (She started singing.), new meaning",
+    "пере- 'again': Перепиши это! (Rewrite this!), new meaning"
+  ],
+  "tables": [
+    {
+      "title": "Verb Prefix Meanings",
+      "headers": [
+        "Prefix",
+        "Meaning",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "на-",
+          "cells": [
+            "pure pf / accumulation",
+            "на|писать (finish writing)"
+          ]
+        },
+        {
+          "label": "с-",
+          "cells": [
+            "pure pf / together",
+            "с|делать (finish doing)"
+          ]
+        },
+        {
+          "label": "про-",
+          "cells": [
+            "pure pf / through",
+            "про|читать (read through)"
+          ]
+        },
+        {
+          "label": "по-",
+          "cells": [
+            "for a while / begin",
+            "по|читать (read a bit)"
+          ]
+        },
+        {
+          "label": "за-",
+          "cells": [
+            "begin / drop by",
+            "за|петь (start singing)"
+          ]
+        },
+        {
+          "label": "пере-",
+          "cells": [
+            "re- / across",
+            "пере|писать (rewrite)"
+          ]
+        },
+        {
+          "label": "вы-",
+          "cells": [
+            "out / thoroughly",
+            "вы|писать (copy out)"
+          ]
+        },
+        {
+          "label": "до-",
+          "cells": [
+            "finish / up to",
+            "до|писать (finish writing)"
+          ]
+        },
+        {
+          "label": "у-",
+          "cells": [
+            "away / removal",
+            "у|ехать (drive away)"
+          ]
+        },
+        {
+          "label": "в-",
+          "cells": [
+            "into / inward",
+            "в|бежать (run in)"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "писать → написать is:",
+          "promptEnglish": "What type of prefixation is писать → написать?",
+          "options": [
+            "Suppletion",
+            "Suffixation",
+            "Meaning-changing",
+            "Pure perfectivizer"
+          ],
+          "answer": "Pure perfectivizer",
+          "hint": "Same meaning, just completed",
+          "explanation": "Pure pf: написать = finished writing."
+        },
+        {
+          "prompt": "Я _____ книгу немного. (I read for a while.)",
+          "promptEnglish": "I read for a while.",
+          "options": [
+            "перечитал",
+            "прочитал",
+            "зачитал",
+            "почитал"
+          ],
+          "answer": "почитал",
+          "hint": "по- = for a while",
+          "explanation": "по- indicates 'for a while': почитал."
+        },
+        {
+          "prompt": "писать → переписать means:",
+          "promptEnglish": "What does переписать mean?",
+          "options": [
+            "to begin writing",
+            "to rewrite",
+            "to write for a while",
+            "to finish writing"
+          ],
+          "answer": "to rewrite",
+          "hint": "пере- = re-/again",
+          "explanation": "пере- adds meaning: rewrite."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Она вдруг _____. (She suddenly started singing.)",
+          "promptEnglish": "She suddenly started singing.",
+          "options": [
+            "напела",
+            "запела",
+            "пропела",
+            "попела"
+          ],
+          "answer": "запела",
+          "hint": "за- = begin (with some verbs)",
+          "explanation": "за- with motion/action = begin: запела."
+        },
+        {
+          "prompt": "делать → сделать is:",
+          "promptEnglish": "What type of prefixation is this?",
+          "options": [
+            "Meaning-changing",
+            "Suppletion",
+            "Suffixation",
+            "Pure perfectivizer"
+          ],
+          "answer": "Pure perfectivizer",
+          "hint": "Same meaning: do → finish doing",
+          "explanation": "Pure pf: сделать = completed doing."
+        },
+        {
+          "prompt": "Мы _____ у друзей. (We dropped by our friends'.)",
+          "promptEnglish": "We dropped by our friends' place.",
+          "options": [
+            "уехали",
+            "выехали",
+            "приехали",
+            "заехали"
+          ],
+          "answer": "заехали",
+          "hint": "за- = drop by (with motion verbs)",
+          "explanation": "за- with motion = drop by: заехали."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Он _____ немного и ушёл. (He sat for a while and left.)",
+          "promptEnglish": "He sat for a while and left.",
+          "options": [
+            "просидел",
+            "высидел",
+            "посидел",
+            "засидел"
+          ],
+          "answer": "посидел",
+          "hint": "по- = for a while",
+          "explanation": "по- indicates short duration: посидел."
+        },
+        {
+          "prompt": "читать → перечитать means:",
+          "promptEnglish": "What does перечитать mean?",
+          "options": [
+            "to start reading",
+            "to finish reading",
+            "to reread",
+            "to read for a while"
+          ],
+          "answer": "to reread",
+          "hint": "пере- = re-/again",
+          "explanation": "пере- = again: перечитать = reread."
+        },
+        {
+          "prompt": "про- in 'прочитать' is:",
+          "promptEnglish": "What function does про- have in прочитать?",
+          "options": [
+            "Adds 'a while' meaning",
+            "Adds 'through' meaning",
+            "Pure perfectivizer",
+            "Adds 'begin' meaning"
+          ],
+          "answer": "Pure perfectivizer",
+          "hint": "Same meaning as читать, just pf",
+          "explanation": "Pure pf: прочитать = read to completion."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Express completion with a pure perfective prefix: Я читал книгу весь день.",
+          "promptEnglish": "про- = pure perfectivizer",
+          "options": [
+            "Я прочитал книгу.",
+            "Я почитал книгу.",
+            "Я читал книгу.",
+            "Я дочитал книгу."
+          ],
+          "answer": "Я прочитал книгу.",
+          "hint": "про- = pure perfectivizer",
+          "explanation": "про- is the pure perfectivizer for читать: Я прочитал книгу."
+        },
+        {
+          "prompt": "Express 'began singing' with за-: Она пела.",
+          "promptEnglish": "за- = begin (new meaning)",
+          "options": [
+            "Она запела.",
+            "Она спела.",
+            "Она пела.",
+            "Она попела."
+          ],
+          "answer": "Она запела.",
+          "hint": "за- = begin (new meaning)",
+          "explanation": "за- marks the beginning of an action (inceptive): Она запела."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Дети _____ в саду. (The children played for a while in the garden.)"
+    ],
+    "choices": [
+      "поиграли",
+      "проиграли",
+      "заиграли",
+      "выиграли"
+    ],
+    "answers": [
+      "поиграли"
+    ],
+    "grammarFocus": "по- = for a while: поиграли (played for a bit)",
+    "hints": [
+      "The children played 'for a bit' (немного). Which prefix adds the meaning 'for a while' to a verb?"
+    ],
+    "explanations": [
+      "The prefix по- with activity verbs means 'for a while/a bit.' Поиграли (from играть) means 'played for a while,' a limited, casual duration. Compare with проиграли (lost) or выиграли (won), which have entirely different meanings."
+    ],
+    "options": [
+      [
+        "проиграли",
+        "заиграли",
+        "поиграли",
+        "выиграли"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Он _____ книгу. (finished reading it)",
+      "contextEnglish": "He read the book (to completion).",
+      "options": [
+        "прочитал",
+        "почитал"
+      ],
+      "answer": "прочитал",
+      "explanation": "про- = completed: прочитал."
+    },
+    {
+      "context": "Он _____ книгу. (read for a while)",
+      "contextEnglish": "He read the book for a while.",
+      "options": [
+        "почитал",
+        "прочитал"
+      ],
+      "answer": "почитал",
+      "explanation": "по- = for a while: почитал."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: Pure perfectivizer or Meaning-changing?",
+    "categories": [
+      "Pure perfectivizer",
+      "Meaning-changing"
+    ],
+    "items": [
+      {
+        "word": "написать (write → finish writing)",
+        "category": "Pure perfectivizer"
+      },
+      {
+        "word": "переписать (write → rewrite)",
+        "category": "Meaning-changing"
+      },
+      {
+        "word": "сделать (do → finish doing)",
+        "category": "Pure perfectivizer"
+      },
+      {
+        "word": "запеть (sing → start singing)",
+        "category": "Meaning-changing"
+      },
+      {
+        "word": "прочитать (read → finish reading)",
+        "category": "Pure perfectivizer"
+      },
+      {
+        "word": "почитать (read → read for a while)",
+        "category": "Meaning-changing"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "pure perfectivizer",
+      "definition": "adds pf without changing meaning",
+      "example": "на-/с-/про-: написать, сделать"
+    },
+    {
+      "term": "по- (for a while)",
+      "definition": "short/limited duration",
+      "example": "почитать, посидеть, поговорить"
+    },
+    {
+      "term": "за- (begin)",
+      "definition": "start of action",
+      "example": "запеть, заговорить, заплакать"
+    },
+    {
+      "term": "пере- (re-/again)",
+      "definition": "repeat action",
+      "example": "переписать, перечитать, переделать"
+    }
+  ]
+}

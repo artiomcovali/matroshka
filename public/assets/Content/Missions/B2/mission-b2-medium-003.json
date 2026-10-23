@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-003",
+  "title": "Skeptical Client",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Potential client doubts your company's experience",
+  "imageName": "briefcase.fill",
+  "initialPrompt": "Ваша компания молодая. У вас есть опыт с проектами такого масштаба? Наш бюджет - 50 миллионов.",
+  "systemPrompt": "You are skeptical client with big budget. Doubt smaller company's capability. Can be convinced by relevant case studies, team expertise, or references. Keep replies short.",
+  "completionCriteria": "User built credibility and addressed experience concerns.",
+  "responseLimit": 15,
+  "hints": [
+    "Вот примеры похожих проектов (Here are examples of similar projects)",
+    "Наша команда включает... (Our team includes...)",
+    "Могу предоставить рекомендации (I can provide references)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "опыт",
+      "definition": "experience"
+    },
+    {
+      "word": "масштаб",
+      "definition": "scale"
+    },
+    {
+      "word": "компетенция",
+      "definition": "competence"
+    },
+    {
+      "word": "референсы",
+      "definition": "references"
+    },
+    {
+      "word": "портфолио",
+      "definition": "portfolio"
+    },
+    {
+      "word": "доверие",
+      "definition": "trust"
+    }
+  ],
+  "objectives": [
+    "Acknowledge their concern",
+    "Present relevant experience",
+    "Highlight team qualifications",
+    "Offer references"
+  ]
+}

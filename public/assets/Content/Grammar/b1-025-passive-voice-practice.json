@@ -1,0 +1,483 @@
+{
+  "lessonId": "b1-025-passive-voice",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Passive Type",
+      "titleRussian": "Тип страдательного залога",
+      "description": "Identify and choose the correct passive construction",
+      "descriptionRussian": "Определите и выберите правильную пассивную конструкцию",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Эта книга _____ многими людьми. (This book is read by many people.)",
+              "promptEnglish": "This book is read by many people. (ongoing, general)",
+              "options": [
+                "прочитана",
+                "читается",
+                "читает",
+                "прочитается"
+              ],
+              "answer": "читается",
+              "hint": "Ongoing/general passive = -ся form (imperfective).",
+              "explanation": "Читается: reflexive passive (-ся). Ongoing/habitual: the book IS read (by many)."
+            },
+            {
+              "prompt": "Письмо _____. Можно его отправить. (The letter is written. We can send it.)",
+              "promptEnglish": "The letter is written (finished). We can send it.",
+              "options": [
+                "пишется",
+                "написано",
+                "писалось",
+                "напишется"
+              ],
+              "answer": "написано",
+              "hint": "Result/completed = short passive participle (neuter: письмо).",
+              "explanation": "Написано: short passive participle (neuter). The letter IS written (result)."
+            },
+            {
+              "prompt": "Дом был _____ в прошлом веке. (The house was built last century.)",
+              "promptEnglish": "The house was built in the last century.",
+              "options": [
+                "строился",
+                "строить",
+                "построен",
+                "строил"
+              ],
+              "answer": "построен",
+              "hint": "Completed past action = был + short passive participle.",
+              "explanation": "Был построен: passive participle with был for past. The house WAS built (completed)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Здесь _____ по-русски. (Russian is spoken here.)",
+              "promptEnglish": "Russian is spoken here. (general statement)",
+              "options": [
+                "говорили",
+                "говорится",
+                "сказано",
+                "говорят"
+              ],
+              "answer": "говорится",
+              "hint": "General passive statement = -ся passive.",
+              "explanation": "Говорится: reflexive passive. A general statement about what happens here."
+            },
+            {
+              "prompt": "Все билеты _____. (All tickets are sold out.)",
+              "promptEnglish": "All tickets have been sold. (result)",
+              "options": [
+                "продаются",
+                "продавались",
+                "проданы",
+                "продают"
+              ],
+              "answer": "проданы",
+              "hint": "Result = short passive participle (plural: билеты).",
+              "explanation": "Проданы: short passive participle (plural). All tickets ARE sold (result)."
+            },
+            {
+              "prompt": "Этот роман _____ Толстым. (This novel was written by Tolstoy.)",
+              "promptEnglish": "This novel was written by Tolstoy.",
+              "options": [
+                "написан",
+                "писался",
+                "писал",
+                "написали"
+              ],
+              "answer": "написан",
+              "hint": "Result + agent (instrumental) = short participle.",
+              "explanation": "Написан Толстым: short participle + instrumental for agent (by Tolstoy)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Книги _____ в этом магазине. (Books are sold here - general fact.)",
+          "contextEnglish": "Books are sold in this store. (ongoing, habitual)",
+          "options": [
+            "продаются",
+            "проданы"
+          ],
+          "answer": "продаются",
+          "explanation": "Продаются: -ся passive (ongoing). Books are generally sold here."
+        },
+        {
+          "context": "Все книги _____. (All books have been sold - none left.)",
+          "contextEnglish": "All books are sold out. (completed result)",
+          "options": [
+            "продаются",
+            "проданы"
+          ],
+          "answer": "проданы",
+          "explanation": "Проданы: short participle (result). The selling is done, none remain."
+        },
+        {
+          "context": "Дом _____. (The house is being built - construction ongoing.)",
+          "contextEnglish": "The house is under construction.",
+          "options": [
+            "строится",
+            "построен"
+          ],
+          "answer": "строится",
+          "explanation": "Строится: -ся passive (process). Construction is in progress."
+        },
+        {
+          "context": "Дом _____. (The house is built - ready to move in.)",
+          "contextEnglish": "The house has been built. (completed)",
+          "options": [
+            "строится",
+            "построен"
+          ],
+          "answer": "построен",
+          "explanation": "Построен: short participle (result). Construction is finished."
+        }
+      ]
+    },
+    {
+      "id": "round-3-transform-translate",
+      "title": "Transform and Translate",
+      "titleRussian": "Преобразование и перевод",
+      "description": "Convert active to passive and translate",
+      "descriptionRussian": "Преобразуйте из действительного залога в страдательный и переведите",
+      "icon": "arrow.left.arrow.right",
+      "translation": [
+        {
+          "prompt": "Russian is spoken here.",
+          "answer": "Здесь говорится по-русски.",
+          "hint": "General passive = -ся form. No specific agent.",
+          "explanation": "Говорится: reflexive passive for general statements.",
+          "keyWord": "говорится",
+          "options": [
+            "говорится",
+            "говорят",
+            "сказано",
+            "говорилось"
+          ]
+        },
+        {
+          "prompt": "The letter has been sent.",
+          "answer": "Письмо отправлено.",
+          "hint": "Result = short participle (neuter: письмо).",
+          "explanation": "Отправлено: short passive participle (neuter). Result state.",
+          "keyWord": "отправлено",
+          "options": [
+            "отправлено",
+            "отправлен",
+            "отправлена",
+            "отправлены"
+          ]
+        },
+        {
+          "prompt": "The house was built by my grandfather.",
+          "answer": "Дом был построен моим дедушкой.",
+          "hint": "Past result = был + short participle. Agent in instrumental.",
+          "explanation": "Был построен: past passive. Моим дедушкой: instrumental agent.",
+          "keyWord": "построен",
+          "options": [
+            "построен",
+            "построена",
+            "построено",
+            "построены"
+          ]
+        },
+        {
+          "prompt": "These products are sold in every store.",
+          "answer": "Эти продукты продаются в каждом магазине.",
+          "hint": "General/habitual passive = -ся form (plural: продаются).",
+          "explanation": "Продаются: -ся passive (plural, ongoing). Sold in general.",
+          "keyWord": "продаются",
+          "options": [
+            "продаются",
+            "проданы",
+            "продают",
+            "продан"
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Музей _____ каждый день в десять утра. (The museum opens every day at ten.)",
+          "Работа _____. Можно отдыхать. (The work is done. We can rest.)",
+          "Этот фильм _____ известным режиссёром. (This film was directed by a famous director.)"
+        ],
+        "choices": [
+          "открывается",
+          "сделана",
+          "снят"
+        ],
+        "answers": [
+          "открывается",
+          "сделана",
+          "снят"
+        ],
+        "grammarFocus": "-ся passive (habitual) vs short participle (result) vs participle + agent",
+        "hints": [
+          "Habitual/regular event = -ся passive.",
+          "Completed result (fem: работа) = short participle.",
+          "Result + by (instrumental) = short participle + agent."
+        ],
+        "explanations": [
+          "Открывается: -ся passive. The museum opens (regularly).",
+          "Сделана: short participle (fem). The work is done.",
+          "Снят режиссёром: short participle (masc) + instrumental agent."
+        ],
+        "options": [
+          [
+            "открывается",
+            "открывался",
+            "открывалась",
+            "открывает"
+          ],
+          [
+            "сделавший",
+            "сделал",
+            "сделана",
+            "делается"
+          ],
+          [
+            "снят",
+            "снято",
+            "сняты",
+            "снята"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "categories": [
+          "-ся passive (process/ongoing)",
+          "Short participle (result/completed)"
+        ],
+        "items": [
+          {
+            "text": "Здесь продаются газеты.",
+            "category": "-ся passive (process/ongoing)"
+          },
+          {
+            "text": "Задача решена.",
+            "category": "Short participle (result/completed)"
+          },
+          {
+            "text": "Музей открывается в девять.",
+            "category": "-ся passive (process/ongoing)"
+          },
+          {
+            "text": "Письмо отправлено.",
+            "category": "Short participle (result/completed)"
+          },
+          {
+            "text": "Эта музыка часто исполняется.",
+            "category": "-ся passive (process/ongoing)"
+          },
+          {
+            "text": "Работа сделана.",
+            "category": "Short participle (result/completed)"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Книга написана Толстой.",
+          "error": "Толстой",
+          "correction": "Толстым",
+          "hint": "Agent in passive = instrumental. Толстой -> Толстым.",
+          "explanation": "Instrumental of Толстой is Толстым. Agent always takes instrumental in passive.",
+          "options": [
+            "Толстым",
+            "Толстого",
+            "Толстому"
+          ]
+        },
+        {
+          "sentence": "Работа сделан.",
+          "error": "сделан",
+          "correction": "сделана",
+          "hint": "Short participle agrees with subject. Работа is feminine = сделана.",
+          "explanation": "Работа (fem) -> сделана (fem). Short participles agree in gender/number.",
+          "options": [
+            "сделана",
+            "сделано",
+            "сделаны"
+          ]
+        },
+        {
+          "sentence": "Магазин открывает в девять.",
+          "error": "открывает",
+          "correction": "открывается",
+          "hint": "The store doesn't open something - it IS opened. Passive needs -ся.",
+          "explanation": "Открывается: the store opens (passive/reflexive). Without -ся it means 'opens something.'",
+          "options": [
+            "открывается",
+            "открыт",
+            "открывают"
+          ]
+        },
+        {
+          "sentence": "Эти книги были продана.",
+          "error": "продана",
+          "correction": "проданы",
+          "hint": "Plural subject (книги) needs plural participle (проданы).",
+          "explanation": "Книги (plural) -> проданы (plural). Short participle must agree in number.",
+          "options": [
+            "проданы",
+            "продан",
+            "продано"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Финальное задание",
+      "description": "All passive constructions mixed with active for contrast",
+      "descriptionRussian": "Все пассивные конструкции вместе с активными для сравнения",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which sentence is passive?",
+              "promptEnglish": "Which uses passive voice?",
+              "options": [
+                "Мама приготовила ужин.",
+                "Ужин приготовлен мамой.",
+                "Мама готовит ужин.",
+                "Мама будет готовить."
+              ],
+              "answer": "Ужин приготовлен мамой.",
+              "hint": "Passive = subject receives action. Short participle + instrumental agent.",
+              "explanation": "Ужин приготовлен мамой: the dinner (subject) was prepared by mom (agent). Passive."
+            },
+            {
+              "prompt": "В этом ресторане _____ итальянские блюда. (Italian dishes are served at this restaurant.)",
+              "promptEnglish": "Italian dishes are served at this restaurant. (general/ongoing)",
+              "options": [
+                "подаются",
+                "поданы",
+                "подавали",
+                "подали"
+              ],
+              "answer": "подаются",
+              "hint": "Ongoing/general = -ся passive.",
+              "explanation": "Подаются: -ся passive (habitual). Italian dishes are generally served here."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Задание _____ вовремя. (The assignment was submitted on time.)",
+              "promptEnglish": "The assignment was submitted on time. (result)",
+              "options": [
+                "сдавалось",
+                "сдано",
+                "сдаётся",
+                "сдали"
+              ],
+              "answer": "сдано",
+              "hint": "Completed result (neuter: задание) = short participle.",
+              "explanation": "Сдано: short participle (neuter). The assignment IS submitted (completed result)."
+            },
+            {
+              "prompt": "Эта песня часто _____ на радио. (This song is often played on the radio.)",
+              "promptEnglish": "This song is often played on the radio. (habitual)",
+              "options": [
+                "исполнена",
+                "играется",
+                "играла",
+                "исполняется"
+              ],
+              "answer": "исполняется",
+              "hint": "Habitual/regular = -ся passive. Often = ongoing.",
+              "explanation": "Исполняется: -ся passive (habitual). The song IS played regularly."
+            },
+            {
+              "prompt": "Все документы _____ и отправлены. (All documents are signed and sent.)",
+              "promptEnglish": "All documents have been signed and sent.",
+              "options": [
+                "подписаны",
+                "подписались",
+                "подписываются",
+                "подписали"
+              ],
+              "answer": "подписаны",
+              "hint": "Result (plural: документы) = short participle plural.",
+              "explanation": "Подписаны: short participle (plural). Both signed and sent (results)."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Дом строится. / Дом построен.",
+          "question": "What is the key difference?",
+          "options": [
+            "First = process (being built now, -ся); second = result (built, finished, participle)",
+            "First = active, second = passive",
+            "First = present, second = future"
+          ],
+          "answer": "First = process (being built now, -ся); second = result (built, finished, participle)",
+          "explanation": "-Ся = ongoing process (under construction). Short participle = completed result (built)."
+        },
+        {
+          "sentence": "Роман написан Пушкиным. (by Pushkin) / Роман написан на русском языке. (in Russian)",
+          "question": "What role does the instrumental play in each?",
+          "options": [
+            "Both mark the agent (who did it)",
+            "First = agent (by Pushkin); second = means/language (in Russian)",
+            "Both mark the language"
+          ],
+          "answer": "First = agent (by Pushkin); second = means/language (in Russian)",
+          "explanation": "Instrumental has multiple roles: Пушкиным = agent (by whom). На русском языке = means/language."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Двери _____ в восемь утра. (The doors open at 8 AM.) - habitual",
+          "Все вопросы _____. (All questions have been answered.) - result"
+        ],
+        "choices": [
+          "открываются",
+          "решены"
+        ],
+        "answers": [
+          "открываются",
+          "решены"
+        ],
+        "grammarFocus": "-ся passive (habitual) vs short participle (result)",
+        "hints": [
+          "Habitual opening = -ся passive.",
+          "Completed result (plural) = short participle."
+        ],
+        "explanations": [
+          "Открываются: -ся passive. The doors open regularly.",
+          "Решены: short participle (plural). All questions ARE resolved."
+        ],
+        "options": [
+          [
+            "открывалась",
+            "открываются",
+            "открывался",
+            "открывают"
+          ],
+          [
+            "решены",
+            "решил",
+            "решивший",
+            "решается"
+          ]
+        ]
+      }
+    }
+  ]
+}

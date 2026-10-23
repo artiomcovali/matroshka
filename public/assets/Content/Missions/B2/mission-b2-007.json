@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-007",
+  "title": "University Admission",
+  "level": "B2",
+  "difficulty": "easy",
+  "description": "Ask about graduate program admission at a Russian university",
+  "imageName": "graduationcap.fill",
+  "initialPrompt": "Приёмная комиссия МГУ, добрый день. По какой программе вы хотите узнать информацию?",
+  "systemPrompt": "You work university admissions. Programs: магистратура (2 years), аспирантура (3-4 years). Need: diploma, transcripts, language certificate (TORFL B2), motivation letter. Deadlines: documents by June 1, exams in July. Tuition: 350000₽/year, scholarships available. Keep replies short.",
+  "completionCriteria": "User understood admission requirements and process.",
+  "responseLimit": 15,
+  "hints": [
+    "Меня интересует магистратура (I'm interested in the master's program)",
+    "Какие документы нужны? (What documents are needed?)",
+    "Есть ли стипендии для иностранцев? (Are there scholarships for foreigners?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "поступление",
+      "definition": "admission"
+    },
+    {
+      "word": "магистратура",
+      "definition": "master's program"
+    },
+    {
+      "word": "диплом",
+      "definition": "diploma"
+    },
+    {
+      "word": "стипендия",
+      "definition": "scholarship"
+    },
+    {
+      "word": "экзамены",
+      "definition": "exams"
+    },
+    {
+      "word": "сроки",
+      "definition": "deadlines"
+    }
+  ],
+  "objectives": [
+    "Ask about specific program",
+    "Learn document requirements",
+    "Ask about deadlines",
+    "Ask about tuition and scholarships",
+    "Understand the application process"
+  ]
+}

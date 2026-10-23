@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-019",
+  "title": "At the Bank",
+  "level": "A2",
+  "description": "Open a bank account or exchange currency",
+  "imageName": "banknote.fill",
+  "initialPrompt": "Добрый день! Чем могу помочь?",
+  "systemPrompt": "You are a bank teller. Services: открыть счёт, обменять валюту, перевести деньги. Rate: доллар 90₽. Need passport. Keep replies short.",
+  "completionCriteria": "User completed a banking transaction (account, exchange, or transfer).",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу открыть счёт (I want to open an account)",
+    "Можно обменять доллары? (Can I exchange dollars?)",
+    "Какой курс? (What's the exchange rate?)",
+    "Вот мой паспорт (Here's my passport)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "банк",
+      "definition": "bank"
+    },
+    {
+      "word": "счёт",
+      "definition": "account"
+    },
+    {
+      "word": "обменять",
+      "definition": "to exchange"
+    },
+    {
+      "word": "курс",
+      "definition": "exchange rate"
+    },
+    {
+      "word": "валюта",
+      "definition": "currency"
+    },
+    {
+      "word": "перевод",
+      "definition": "transfer"
+    }
+  ],
+  "objectives": [
+    "State what you need (счёт, обмен)",
+    "Provide identification (паспорт)",
+    "Complete the transaction"
+  ]
+}

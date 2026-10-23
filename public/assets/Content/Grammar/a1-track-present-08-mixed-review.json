@@ -1,0 +1,263 @@
+{
+  "id": "a1-track-present-08-mixed-review",
+  "level": "A1",
+  "focusArea": "conjugation",
+  "title": "Present Tense 8: Mixed Review",
+  "titleRussian": "Настоящее время 8: повторение",
+  "description": "Synthesis. Mixed quiz across all seven prior rules: 1st and 2nd conjugation, stress shifts, 1sg mutations, the husher rule, and the high-frequency irregulars.",
+  "descriptionRussian": "Повторение всех семи правил: первое и второе спряжения, подвижное ударение, чередования в форме 'я', шипящие, исключения.",
+  "imageName": "graduationcap",
+  "trackId": "a1-present-tense-mastery",
+  "trackTitle": "Present Tense Verb Mastery",
+  "trackTitleRussian": "Настоящее время",
+  "trackIndex": 8,
+  "trackTotal": 8,
+  "intro": "Everything from the last seven lessons arrives at once, and the question changes slightly. Until now you were building forms. Here you work backwards: given a Russian verb, say why it has the shape it has. Which conjugation, whether the я-form does something of its own, whether a spelling rule has intervened, or whether the verb is simply irregular.",
+  "rules": [
+    "1st conjugation: -ать / -ять verbs with -ю / -ешь / -ет / -ем / -ете / -ют. 2nd conjugation: most -ить verbs plus the husher-stem and видеть-class -еть/-ать exceptions, with -ю / -ишь / -ит / -им / -ите / -ят.",
+    "Stress can be fixed (читать throughout, говорить throughout) or shifting (1sg end-stressed, rest stem-stressed: писать, смотреть, любить, готовить).",
+    "1sg consonant mutation in 2nd-conj: labial + л (любить → люблю, готовить → готовлю, спать → сплю) or dental → husher (видеть → вижу, сидеть → сижу, просить → прошу). Mutation is exclusively in the я-form.",
+    "Husher spelling rule: after ж, ш, ч, щ, write -у not -ю and -а not -я. Affects 1sg (учу́, не 'учю') and 3pl (учат, не 'учят' in 2nd-conj; пишут, не 'пишют' in 1st-conj).",
+    "Core irregulars: хотеть (mixed conj), мочь (мог-/мож- alternation), есть (own paradigm), жить, пить, петь (irregular monosyllabic stems), идти, ехать (unidirectional motion). All use 1st-conj endings except есть and хотеть."
+  ],
+  "examples": [
+    "Я работаю в офисе. (1st-conj regular, no quirks: stem работа-, ending -ю.)",
+    "Маша говорит по-английски. (2nd-conj regular: stem говор-, 3sg ending -ит, end-stressed.)",
+    "Мы пишем письмо вместе. (1st-conj with stem mutation пис- → пиш-, 1pl ending -ем, stem-stressed.)",
+    "Я люблю русскую музыку. (2nd-conj with 1sg labial+л mutation: люб- → любл-, ending -ю.)",
+    "Дети учат стихи наизусть. (2nd-conj with husher rule: stem уч-, 3pl ending -ат not -ят.)",
+    "Я хочу пиццу. Мы хотим пиццу. (Mixed-conj irregular: singular хочу uses 1st-conj endings on хоч-; plural хотим switches to 2nd-conj on хот-.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Мы _____ в большом красивом доме.",
+          "promptEnglish": "We live in a big beautiful house.",
+          "options": [
+            "живут",
+            "живёшь",
+            "живём",
+            "живёт"
+          ],
+          "answer": "живём",
+          "hint": "Warm-up from Lesson 7. Жить has stem жив-, end-stressed throughout. Мы takes the 1pl ending.",
+          "explanation": "Recall from Lesson 7: жить has stem жив-, all forms end-stressed. The 1pl ending is -ём (the end-stressed counterpart of -ем): живём."
+        },
+        {
+          "prompt": "Антон и Маша _____ ответ на этот вопрос.",
+          "promptEnglish": "Anton and Masha know the answer to this question.",
+          "options": [
+            "знают",
+            "знаем",
+            "знаешь",
+            "знает"
+          ],
+          "answer": "знают",
+          "hint": "Subject is two people: 3pl. Знать is 1st-conj. Which 3pl ending fits?",
+          "explanation": "Знать is 1st-conj (Lesson 1). 3pl ending -ют on stem зна-: знают. No quirks: stem-stressed, no mutation, no husher rule. The cleanest case in the diagnostic."
+        },
+        {
+          "prompt": "Студенты _____ по-английски на уроке.",
+          "promptEnglish": "The students are speaking English in class.",
+          "options": [
+            "говорю",
+            "говоришь",
+            "говорят",
+            "говорите"
+          ],
+          "answer": "говорят",
+          "hint": "Subject is 3pl. Говорить is the 2nd-conj model. Which 3pl ending applies (no husher rule needed)?",
+          "explanation": "Говорить is 2nd-conj (Lesson 2). Stem говор- ends in -р-, not a husher, so the standard 3pl ending -ят applies: говорят. Compare учат (3pl with husher rule, lesson 5)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маша _____ старый итальянский фильм.",
+          "promptEnglish": "Masha is watching an old Italian film.",
+          "options": [
+            "смотрят",
+            "смотрит",
+            "смотрю",
+            "смотрите"
+          ],
+          "answer": "смотрит",
+          "hint": "Маша is 3sg. Смотреть has shifting stress (Lesson 3). Which form for 3sg, and where does the stress sit?",
+          "explanation": "Смотреть has shifting stress (Lesson 3): 1sg смотрю́ end-stressed, the rest stem-stressed. 3sg смотрит, stem-stressed (смо́трит). 2nd-conj endings, stem смотр- with no mutation today."
+        },
+        {
+          "prompt": "Я _____ свежий хлеб в булочной по утрам.",
+          "promptEnglish": "I buy fresh bread at the bakery in the morning.",
+          "options": [
+            "покупаю",
+            "покупает",
+            "покупаешь",
+            "покупают"
+          ],
+          "answer": "покупаю",
+          "hint": "Я + покупать. Покупать is 1st-conj from Lesson 1. Which ending fits я?",
+          "explanation": "Покупать is 1st-conj (Lesson 1). Я-ending -ю lands on stem покупа-: покупаю. Note that покупать is the imperfective of the pair покупать / купить; купить is 2nd-conj and would have the labial+л mutation in 1sg (куплю). Today's drill stays imperfective."
+        },
+        {
+          "prompt": "Дети _____ английский язык в школе.",
+          "promptEnglish": "The children are learning English at school.",
+          "options": [
+            "учу",
+            "учите",
+            "учим",
+            "учат"
+          ],
+          "answer": "учат",
+          "hint": "Subject is 3pl. Учить has stem уч- ending in a husher. Husher rule: which letter follows the husher in the 3pl?",
+          "explanation": "Учить is 2nd-conj with stem уч- ending in the husher -ч- (Lesson 5). The 3pl ending after a husher is -ат, not -ят: учат. Same rule produces 1sg учу́ (not 'учю')."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я _____ Машу из своего окна каждое утро. (I see Masha from my window every morning.)"
+    ],
+    "choices": [
+      "вижу",
+      "видит",
+      "видим",
+      "видят"
+    ],
+    "answers": [
+      "вижу"
+    ],
+    "grammarFocus": "Я + видеть. Lesson 4's dental-to-husher mutation: stem вид- → виж- in 1sg only, ending -у. Form: вижу."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Я готовю ужин для гостей сегодня.",
+      "translationEnglish": "I am cooking dinner for the guests today.",
+      "error": "готовю",
+      "correction": "готовлю",
+      "options": [
+        "готовлю",
+        "готовит",
+        "готовят"
+      ],
+      "explanation": "Готовить has a labial stem (готов-, ending in -в-), so the 1sg inserts -л-: готовл- + -ю = готовлю. Готовю skips the insertion, the 1sg labial mutation from Lesson 4. The -л- appears only in the я-form."
+    },
+    {
+      "sentence": "Мои друзья любют русскую кухню.",
+      "translationEnglish": "My friends love Russian cuisine.",
+      "error": "любют",
+      "correction": "любят",
+      "options": [
+        "любят",
+        "любит",
+        "люблю"
+      ],
+      "explanation": "Любить is second-conjugation, so the 3pl ending is -ят: любят. Любют applies the first-conjugation -ют (the читают pattern), the most common second-conjugation error."
+    },
+    {
+      "sentence": "Я можу помочь тебе завтра утром.",
+      "translationEnglish": "I can help you tomorrow morning.",
+      "error": "можу",
+      "correction": "могу",
+      "options": [
+        "могу",
+        "может",
+        "можешь"
+      ],
+      "explanation": "Мочь uses the stem мог- in only two slots, the 1sg and 3pl: the 1sg is могу. Можу wrongly applies the more frequent мож- stem to the 1sg."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша _____ горячий чай с лимоном.",
+      "contextEnglish": "Masha wants hot tea with lemon.",
+      "options": [
+        "хочет",
+        "хотят"
+      ],
+      "answer": "хочет",
+      "explanation": "Маша is 3sg. Хотеть's singular forms use 1st-conj endings on stem хоч-: хочет. The 3pl хотят (stem хот-, 2nd-conj ending) would need a plural subject."
+    },
+    {
+      "context": "Я _____ за столом и работаю над статьёй.",
+      "contextEnglish": "I am sitting at the desk and working on an article.",
+      "options": [
+        "сижу",
+        "сидю"
+      ],
+      "answer": "сижу",
+      "explanation": "Сидеть changes its root sound in the я form: the д becomes ж. So 'I sit' is сижу, never сидю. This д → ж change happens only in the я form; the other forms keep д (ты сидишь, он сидит, они сидят)."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Маша работает в банке каждый день.",
+      "question": "Which rule is at work in the form работает?",
+      "options": [
+        "1st-conjugation regular (Lesson 1)",
+        "2nd-conjugation regular (Lesson 2)",
+        "Shifting stress (Lesson 3)",
+        "1sg consonant mutation (Lesson 4)"
+      ],
+      "answer": "1st-conjugation regular (Lesson 1)",
+      "explanation": "Работать is a clean 1st-conj verb. Stem работа-, 3sg ending -ет, no stress shift, no mutation, no husher. The simplest case in the diagnostic."
+    },
+    {
+      "sentence": "Я готовлю ужин для всей семьи.",
+      "question": "Which rule produces the form готовлю with its extra -л-?",
+      "options": [
+        "Husher spelling rule (Lesson 5)",
+        "1sg labial + Л mutation (Lesson 4)",
+        "Mixed-conjugation irregular (Lesson 6)",
+        "Shifting stress (Lesson 3)"
+      ],
+      "answer": "1sg labial + Л mutation (Lesson 4)",
+      "explanation": "Готовить has a labial stem (готов-, ending in -в-). The 1sg adds -л-: готовл- + -ю = готовлю. The same labial+л pattern as люблю and сплю. The rest of the paradigm has no -л-."
+    },
+    {
+      "sentence": "Студенты учат новые слова перед экзаменом.",
+      "question": "Why does the 3pl form end in -ат and not -ят?",
+      "options": [
+        "Stress shift (Lesson 3)",
+        "Mixed conjugation (Lesson 6)",
+        "Husher spelling rule (Lesson 5)",
+        "Stem alternation (Lesson 6)"
+      ],
+      "answer": "Husher spelling rule (Lesson 5)",
+      "explanation": "Stem уч- ends in the husher -ч-. After ж, ш, ч, щ Russian writes -ат, not -ят. So учат (not 'учят'). The same orthographic rule produces учу́ in the 1sg (not 'учю')."
+    },
+    {
+      "sentence": "Я хочу поехать в Москву на выходных.",
+      "question": "Why does хотеть have хочу in the 1sg but хотим in the 1pl?",
+      "options": [
+        "Stress shift (Lesson 3)",
+        "1sg consonant mutation (Lesson 4)",
+        "Mixed conjugation (Lesson 6)",
+        "Husher spelling rule (Lesson 5)"
+      ],
+      "answer": "Mixed conjugation (Lesson 6)",
+      "explanation": "Хотеть is the only common modern Russian verb with mixed conjugation: singular forms use 1st-conj endings on stem хоч- (with husher rule giving -у in хочу), plural forms switch to 2nd-conj endings on stem хот-. Both the stem and the ending pattern change between singular and plural."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "правила настоящего времени",
+      "definition": "rules of the present tense (the system of conjugation classes, stress patterns, mutations, the husher rule, and the irregular paradigms; together they describe how every Russian verb conjugates)",
+      "example": "Правила настоящего времени включают два спряжения, подвижное ударение, чередование в форме 'я' и правило после шипящих."
+    },
+    {
+      "term": "диагностика формы",
+      "definition": "form diagnostic (the analytical procedure for asking why a given verb form has its shape: identify the conjugation class, the stress pattern, any 1sg mutation, any husher-rule effect, and whether the verb is irregular)",
+      "example": "Диагностика формы 'люблю': второе спряжение, форма 1-го лица, чередование б → бл, окончание -ю."
+    },
+    {
+      "term": "исключение",
+      "definition": "exception (a verb whose forms cannot be derived from the standard rules; in modern Russian the high-frequency exceptions are хотеть, мочь, есть, жить, пить, петь, идти, ехать)",
+      "example": "Глаголы 'хотеть' и 'есть' — самые частотные исключения; их формы надо запоминать."
+    }
+  ]
+}

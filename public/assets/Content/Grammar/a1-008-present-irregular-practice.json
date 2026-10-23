@@ -1,0 +1,566 @@
+{
+  "lessonId": "a1-008-present-irregular",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Pick the right form of irregular verbs",
+      "descriptionRussian": "Выберите правильную форму неправильного глагола",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я _____ кофе. (хотеть)",
+              "promptEnglish": "I want coffee.",
+              "options": [
+                "хочет",
+                "хотим",
+                "хочу",
+                "хотят"
+              ],
+              "answer": "хочу",
+              "hint": "я + хотеть.",
+              "explanation": "Хотеть with я: хочу (irregular stem change хот- to хоч-)."
+            },
+            {
+              "prompt": "Он _____ завтрак. (есть)",
+              "promptEnglish": "He is eating breakfast.",
+              "options": [
+                "ем",
+                "ешь",
+                "ест",
+                "едят"
+              ],
+              "answer": "ест",
+              "hint": "он + есть (to eat).",
+              "explanation": "Есть (to eat) with он: ест. Fully irregular verb."
+            },
+            {
+              "prompt": "Мы _____ чай. (пить)",
+              "promptEnglish": "We drink tea.",
+              "options": [
+                "пью",
+                "пьёшь",
+                "пьём",
+                "пьют"
+              ],
+              "answer": "пьём",
+              "hint": "мы + пить.",
+              "explanation": "Пить with мы: пьём. Note the soft sign + ё pattern."
+            },
+            {
+              "prompt": "Они _____ спать. (хотеть)",
+              "promptEnglish": "They want to sleep.",
+              "options": [
+                "хочу",
+                "хочет",
+                "хотим",
+                "хотят"
+              ],
+              "answer": "хотят",
+              "hint": "они + хотеть.",
+              "explanation": "Хотеть with они: хотят. The plural forms use хот- stem (like 2nd conjugation)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ ест яблоко.",
+          "contextEnglish": "_____ is eating an apple.",
+          "options": [
+            "Он",
+            "Они"
+          ],
+          "answer": "Он",
+          "explanation": "Ест is the он/она form. The они form would be едят."
+        },
+        {
+          "context": "Ты _____ воду? (пить)",
+          "contextEnglish": "Are you drinking water?",
+          "options": [
+            "пьёшь",
+            "пьёт"
+          ],
+          "answer": "пьёшь",
+          "explanation": "Ты takes пьёшь. Пьёт is for он/она."
+        },
+        {
+          "context": "Мы _____ гулять. (хотеть)",
+          "contextEnglish": "We want to go for a walk.",
+          "options": [
+            "хотим",
+            "хочет"
+          ],
+          "answer": "хотим",
+          "explanation": "Мы takes хотим (хот- stem). Хочет (хоч- stem) is for он/она."
+        },
+        {
+          "context": "Я _____. (I am a student.)",
+          "contextEnglish": "I am a student.",
+          "options": [
+            "Я студент.",
+            "Я есть студент."
+          ],
+          "answer": "Я студент.",
+          "explanation": "Russian omits быть (to be) in the present tense. Just: Я студент."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in irregular verb forms and sort by verb",
+      "descriptionRussian": "Вставьте формы неправильных глаголов и рассортируйте",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Ты _____ суп? (есть)",
+          "Вы _____ помочь? (хотеть)",
+          "Она _____ молоко. (пить)",
+          "Мы _____ пиццу. (есть)"
+        ],
+        "choices": [
+          "ешь",
+          "хотите",
+          "пьёт",
+          "едим"
+        ],
+        "answers": [
+          "ешь",
+          "хотите",
+          "пьёт",
+          "едим"
+        ],
+        "grammarFocus": "irregular verb conjugation",
+        "hints": [
+          "ты + есть (to eat).",
+          "вы + хотеть.",
+          "она + пить.",
+          "мы + есть (to eat)."
+        ],
+        "explanations": [
+          "Есть with ты: ешь.",
+          "Хотеть with вы: хотите (хот- stem, like 2nd conjugation).",
+          "Пить with она: пьёт.",
+          "Есть with мы: едим."
+        ],
+        "options": [
+          [
+            "ем",
+            "едим",
+            "ешь",
+            "ест"
+          ],
+          [
+            "хочу",
+            "хотят",
+            "хотим",
+            "хотите"
+          ],
+          [
+            "пьёт",
+            "пью",
+            "пьёшь",
+            "пьём"
+          ],
+          [
+            "едим",
+            "едят",
+            "ешь",
+            "едите"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort these forms by which verb they belong to",
+        "categories": [
+          "хотеть (to want)",
+          "есть (to eat)",
+          "пить (to drink)"
+        ],
+        "items": [
+          {
+            "word": "хочу",
+            "category": "хотеть (to want)"
+          },
+          {
+            "word": "ем",
+            "category": "есть (to eat)"
+          },
+          {
+            "word": "пью",
+            "category": "пить (to drink)"
+          },
+          {
+            "word": "хотим",
+            "category": "хотеть (to want)"
+          },
+          {
+            "word": "едят",
+            "category": "есть (to eat)"
+          },
+          {
+            "word": "пьёшь",
+            "category": "пить (to drink)"
+          },
+          {
+            "word": "хочет",
+            "category": "хотеть (to want)"
+          },
+          {
+            "word": "ест",
+            "category": "есть (to eat)"
+          },
+          {
+            "word": "пьют",
+            "category": "пить (to drink)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-3-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Составь и переведи",
+      "description": "Build sentences and translate using irregular verbs",
+      "descriptionRussian": "Составьте и переведите предложения с неправильными глаголами",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "He wants tea.",
+          "answer": "Он хочет чай.",
+          "acceptableVariants": [
+            "Он хочет чаю."
+          ],
+          "hint": "he = он, wants = хочет, tea = чай",
+          "grammarFocus": "хотеть, он form",
+          "keyWord": "хочет",
+          "options": [
+            "хочет",
+            "хочу",
+            "хотят",
+            "хотим"
+          ]
+        },
+        {
+          "english": "They eat breakfast.",
+          "answer": "Они едят завтрак.",
+          "acceptableVariants": [
+            "Они завтракают."
+          ],
+          "hint": "they = они, eat = едят, breakfast = завтрак",
+          "grammarFocus": "есть (to eat), они form",
+          "keyWord": "едят",
+          "options": [
+            "едят",
+            "ест",
+            "ем",
+            "едите"
+          ]
+        },
+        {
+          "english": "I am a doctor.",
+          "answer": "Я врач.",
+          "acceptableVariants": [
+            "Я доктор."
+          ],
+          "hint": "No verb 'to be' in Russian present tense",
+          "grammarFocus": "быть omitted in present tense",
+          "keyWord": "врач",
+          "options": [
+            "врач",
+            "врача",
+            "врачу",
+            "врачом"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which verb has NO present tense forms in Russian?",
+              "promptEnglish": "Which verb is omitted in the present tense?",
+              "options": [
+                "быть",
+                "хотеть",
+                "пить",
+                "есть"
+              ],
+              "answer": "быть",
+              "hint": "Я _____ студент. (Just: Я студент.)",
+              "explanation": "Быть (to be) is omitted in present tense. Just say: Я студент (I am a student)."
+            },
+            {
+              "prompt": "Вы _____ молоко? (пить)",
+              "promptEnglish": "Do you drink milk?",
+              "options": [
+                "пьёте",
+                "пью",
+                "пьёшь",
+                "пьют"
+              ],
+              "answer": "пьёте",
+              "hint": "вы + пить.",
+              "explanation": "Пить with вы: пьёте."
+            },
+            {
+              "prompt": "Ты _____ яблоко. (есть)",
+              "promptEnglish": "You are eating an apple.",
+              "options": [
+                "ем",
+                "ест",
+                "ешь",
+                "едим"
+              ],
+              "answer": "ешь",
+              "hint": "ты + есть (to eat).",
+              "explanation": "Есть (to eat) with ты: ешь."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-spot-errors",
+      "title": "Find the Mistakes",
+      "titleRussian": "Найди ошибки",
+      "description": "Spot errors in irregular verb forms",
+      "descriptionRussian": "Найдите ошибки в формах неправильных глаголов",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Они хочет спать.",
+          "error": "хочет",
+          "correction": "хотят",
+          "hint": "Хочет is for он/она, not они.",
+          "explanation": "Они requires хотят (plural). Хочет is the он/она (singular) form.",
+          "options": [
+            "хотят",
+            "хочу",
+            "хотим"
+          ]
+        },
+        {
+          "sentence": "Мы ешь пиццу.",
+          "error": "ешь",
+          "correction": "едим",
+          "hint": "Ешь is the ты form of есть.",
+          "explanation": "Мы requires едим. Ешь is the ты form of есть (to eat).",
+          "options": [
+            "едим",
+            "ем",
+            "едят"
+          ]
+        },
+        {
+          "sentence": "Я есть студент.",
+          "error": "есть",
+          "correction": "Я студент.",
+          "hint": "Russian omits 'to be' in present tense.",
+          "explanation": "Быть is not used in present tense. Just say: Я студент.",
+          "options": [
+            "Я студент.",
+            "Я есть студент.",
+            "Я являюсь студент.",
+            "Я быть студент."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она _____ воду. (пить)",
+              "promptEnglish": "She is drinking water.",
+              "options": [
+                "пью",
+                "пьёшь",
+                "пьёт",
+                "пьют"
+              ],
+              "answer": "пьёт",
+              "hint": "она + пить.",
+              "explanation": "Пить with она: пьёт."
+            },
+            {
+              "prompt": "Я _____ суп. (есть)",
+              "promptEnglish": "I am eating soup.",
+              "options": [
+                "ест",
+                "ешь",
+                "ем",
+                "едим"
+              ],
+              "answer": "ем",
+              "hint": "я + есть (to eat).",
+              "explanation": "Есть (to eat) with я: ем."
+            },
+            {
+              "prompt": "Ты _____ чай? (хотеть)",
+              "promptEnglish": "Do you want tea?",
+              "options": [
+                "хочу",
+                "хочешь",
+                "хочет",
+                "хотим"
+              ],
+              "answer": "хочешь",
+              "hint": "ты + хотеть.",
+              "explanation": "Хотеть with ты: хочешь (хоч- stem, like 1st conjugation in singular)."
+            },
+            {
+              "prompt": "Вы _____ завтрак? (есть)",
+              "promptEnglish": "Are you eating breakfast?",
+              "options": [
+                "ем",
+                "ешь",
+                "едите",
+                "едят"
+              ],
+              "answer": "едите",
+              "hint": "вы + есть (to eat).",
+              "explanation": "Есть (to eat) with вы: едите."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанная практика",
+      "description": "A fresh round mixing all irregular verbs",
+      "descriptionRussian": "Новый раунд по всем неправильным глаголам",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы _____ есть. (хотеть)",
+              "promptEnglish": "We want to eat.",
+              "options": [
+                "хочу",
+                "хочет",
+                "хотим",
+                "хотят"
+              ],
+              "answer": "хотим",
+              "hint": "мы + хотеть.",
+              "explanation": "Хотеть with мы: хотим (хот- stem, 2nd conjugation pattern in plural)."
+            },
+            {
+              "prompt": "Они _____ молоко. (пить)",
+              "promptEnglish": "They drink milk.",
+              "options": [
+                "пью",
+                "пьёт",
+                "пьём",
+                "пьют"
+              ],
+              "answer": "пьют",
+              "hint": "они + пить.",
+              "explanation": "Пить with они: пьют."
+            },
+            {
+              "prompt": "Она _____. (She is a teacher.)",
+              "promptEnglish": "She is a teacher.",
+              "options": [
+                "Она есть учительница.",
+                "Она учительница.",
+                "Она быть учительница.",
+                "Она является учительница."
+              ],
+              "answer": "Она учительница.",
+              "hint": "No 'to be' in present tense.",
+              "explanation": "Russian omits быть in present tense: Она учительница."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Он _____ кофе. (пить)",
+          "Я _____ спать. (хотеть)",
+          "Они _____ обед. (есть)"
+        ],
+        "choices": [
+          "пьёт",
+          "хочу",
+          "едят"
+        ],
+        "answers": [
+          "пьёт",
+          "хочу",
+          "едят"
+        ],
+        "grammarFocus": "mixed irregular verbs",
+        "hints": [
+          "он + пить.",
+          "я + хотеть.",
+          "они + есть (to eat)."
+        ],
+        "explanations": [
+          "Пить with он: пьёт.",
+          "Хотеть with я: хочу.",
+          "Есть (to eat) with они: едят."
+        ],
+        "options": [
+          [
+            "пьёт",
+            "пьём",
+            "пьёшь",
+            "пью"
+          ],
+          [
+            "хочешь",
+            "хотите",
+            "хочет",
+            "хочу"
+          ],
+          [
+            "едите",
+            "ем",
+            "едят",
+            "едим"
+          ]
+        ]
+      },
+      "conjugationTable": {
+        "verb": "есть (to eat)",
+        "paradigm": [
+          "ем",
+          "ешь",
+          "ест",
+          "едим",
+          "едите",
+          "едят"
+        ],
+        "blanks": [
+          1,
+          3,
+          5
+        ],
+        "hints": [
+          "ты",
+          "мы",
+          "они"
+        ],
+        "tense": "present",
+        "explanations": [
+          "Есть with ты: ешь (irregular).",
+          "Есть with мы: едим (irregular).",
+          "Есть with они: едят (irregular)."
+        ]
+      }
+    }
+  ]
+}

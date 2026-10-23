@@ -1,0 +1,50 @@
+{
+  "id": "mission-a2-027",
+  "title": "Pet Grooming",
+  "level": "A2",
+  "difficulty": "easy",
+  "description": "Book a grooming appointment for your dog",
+  "imageName": "pawprint.fill",
+  "initialPrompt": "Добрый день, салон для животных! Хотите записать питомца на стрижку?",
+  "systemPrompt": "You work at a pet grooming salon. Services: стрижка 1500₽, купание 800₽, полный уход 2200₽. Ask dog breed and size. Appointments available tomorrow or next week. Keep replies short.",
+  "completionCriteria": "User booked grooming appointment with service and time confirmed.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу записать собаку (I want to book my dog)",
+    "На стрижку, пожалуйста (For a haircut, please)",
+    "Когда можно? (When is available?)",
+    "У меня лабрадор (I have a Labrador)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "собака",
+      "definition": "dog"
+    },
+    {
+      "word": "стрижка",
+      "definition": "haircut/grooming"
+    },
+    {
+      "word": "записать",
+      "definition": "to book/schedule"
+    },
+    {
+      "word": "питомец",
+      "definition": "pet"
+    },
+    {
+      "word": "порода",
+      "definition": "breed"
+    },
+    {
+      "word": "купание",
+      "definition": "bathing"
+    }
+  ],
+  "objectives": [
+    "Say you want to book grooming for your dog",
+    "Describe your dog (breed or size)",
+    "Choose a grooming service",
+    "Pick an appointment time"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-010",
+  "title": "The Overbooked Hotel",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Your reserved room was given away and the hotel is fully booked",
+  "imageName": "bed.double.fill",
+  "initialPrompt": "Добрый вечер. Бронь на Смирнов? Ой, извините, у нас нет свободных номеров. Была ошибка в системе.",
+  "systemPrompt": "You are a hotel receptionist. Hotel is overbooked. User's room was given away. First offer nothing, then tiny room without bathroom, then room in partner hotel far away. Only give proper room if user shows confirmation email and asks for manager. Keep replies short.",
+  "completionCriteria": "User got a suitable room or compensation.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня есть подтверждение (I have confirmation)",
+    "Позовите менеджера (Call the manager)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "бронь",
+      "definition": "reservation"
+    },
+    {
+      "word": "номер",
+      "definition": "room"
+    },
+    {
+      "word": "свободный",
+      "definition": "available"
+    },
+    {
+      "word": "менеджер",
+      "definition": "manager"
+    },
+    {
+      "word": "подтверждение",
+      "definition": "confirmation"
+    },
+    {
+      "word": "компенсация",
+      "definition": "compensation"
+    }
+  ],
+  "objectives": [
+    "Show you have a reservation (У меня есть бронь)",
+    "Reject the unsuitable alternatives",
+    "Show your confirmation email",
+    "Ask for the manager",
+    "Get a proper room or compensation"
+  ]
+}

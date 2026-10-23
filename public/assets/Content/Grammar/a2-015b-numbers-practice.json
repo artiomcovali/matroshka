@@ -1,0 +1,341 @@
+{
+  "id": "a2-015b-numbers-practice",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Numbers & Cases Practice",
+  "titleRussian": "Числа и падежи: практика",
+  "description": "Extra practice with number-case patterns",
+  "descriptionRussian": "Дополнительная практика числительных с падежами",
+  "imageName": "number.circle.fill",
+  "intro": "Practice applying the number-case rules! Remember: 1 takes nominative singular, 2-4 take genitive singular, and 5-20 take genitive plural. This lesson focuses on common nouns with tricky forms: рубль (рубля/рублей), год (года/лет), минута (минуты/минут), час (часа/часов), день (дня/дней), and человек (человека/человек). Pay special attention to irregular genitive plurals like лет and человек!",
+  "rules": [
+    "Quick reference: 1 = nominative singular (один рубль, одна минута, одно место).",
+    "2-4 = genitive singular (два рубля, три минуты, четыре места). Remember: два/две changes for gender!",
+    "5-20 = genitive plural (пять рублей, шесть минут, семь мест). Compound numbers follow the last digit: 21 рубль, 22 рубля, 25 рублей.",
+    "Common irregular genitive plurals: год → лет (NOT годов), человек → человек (zero ending), раз → раз (zero ending)."
+  ],
+  "tables": [
+    {
+      "title": "Number Patterns: Common Nouns",
+      "headers": [
+        "Noun",
+        "1 (nom sg)",
+        "2-4 (gen sg)",
+        "5+ (gen pl)"
+      ],
+      "rows": [
+        {
+          "label": "рубль (m)",
+          "cells": [
+            "один рубль",
+            "два рубл|я",
+            "пять рубл|ей"
+          ]
+        },
+        {
+          "label": "минута (f)",
+          "cells": [
+            "одна минута",
+            "две минут|ы",
+            "пять минут"
+          ]
+        },
+        {
+          "label": "час (m)",
+          "cells": [
+            "один час",
+            "два час|а",
+            "пять час|ов"
+          ]
+        },
+        {
+          "label": "день (m)",
+          "cells": [
+            "один день",
+            "два дн|я",
+            "пять дн|ей"
+          ]
+        },
+        {
+          "label": "год (m)",
+          "cells": [
+            "один год",
+            "два год|а",
+            "пять лет"
+          ]
+        },
+        {
+          "label": "человек (m)",
+          "cells": [
+            "один человек",
+            "два человек|а",
+            "пять человек"
+          ]
+        }
+      ]
+    }
+  ],
+  "examples": [
+    "Три рубля. (Three rubles.), gen sg",
+    "Десять рублей. (Ten rubles.), gen pl",
+    "Двадцать один человек. (Twenty-one people.), nom sg",
+    "Сорок пять минут. (Forty-five minutes.), gen pl"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Три _____. (Three rubles.)",
+          "promptEnglish": "Three rubles.",
+          "options": [
+            "рублей",
+            "рубля",
+            "рубль",
+            "рубли"
+          ],
+          "answer": "рубля",
+          "hint": "2-4 = genitive singular",
+          "explanation": "Numbers 2-4 take genitive singular: рубль → рубля."
+        },
+        {
+          "prompt": "Семь _____. (Seven hours.)",
+          "promptEnglish": "Seven hours.",
+          "options": [
+            "часа",
+            "час",
+            "часы",
+            "часов"
+          ],
+          "answer": "часов",
+          "hint": "5-20 = genitive plural",
+          "explanation": "Numbers 5-20 take genitive plural: час → часов."
+        },
+        {
+          "prompt": "Двадцать один _____. (Twenty-one days.)",
+          "promptEnglish": "Twenty-one days.",
+          "options": [
+            "дней",
+            "дня",
+            "день",
+            "дни"
+          ],
+          "answer": "день",
+          "hint": "Last digit 1 = nominative singular",
+          "explanation": "21 ends in 1, so nominative singular: день."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Пять _____. (Five people.)",
+          "promptEnglish": "Five people.",
+          "options": [
+            "человека",
+            "человеки",
+            "человек",
+            "людей"
+          ],
+          "answer": "человек",
+          "hint": "Irregular genitive plural with zero ending",
+          "explanation": "Человек has an irregular genitive plural with zero ending: пять человек."
+        },
+        {
+          "prompt": "Четыре _____. (Four minutes.)",
+          "promptEnglish": "Four minutes.",
+          "options": [
+            "минут",
+            "минуты",
+            "минута",
+            "минутов"
+          ],
+          "answer": "минуты",
+          "hint": "2-4 = genitive singular",
+          "explanation": "Numbers 2-4 take genitive singular: минута → минуты."
+        },
+        {
+          "prompt": "Тридцать _____. (Thirty years.)",
+          "promptEnglish": "Thirty years.",
+          "options": [
+            "год",
+            "года",
+            "лет",
+            "годов"
+          ],
+          "answer": "лет",
+          "hint": "30 ends in 0, so 5+ rule = genitive plural",
+          "explanation": "30 follows the 5+ rule: genitive plural. Год → лет (irregular)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Двадцать два _____. (Twenty-two rubles.)",
+          "promptEnglish": "Twenty-two rubles.",
+          "options": [
+            "рубль",
+            "рублей",
+            "рубля",
+            "рубли"
+          ],
+          "answer": "рубля",
+          "hint": "Last digit 2-4 = genitive singular",
+          "explanation": "22 ends in 2, so genitive singular: рубля."
+        },
+        {
+          "prompt": "Одна _____. (One minute.)",
+          "promptEnglish": "One minute.",
+          "options": [
+            "минуты",
+            "минут",
+            "минута",
+            "минутой"
+          ],
+          "answer": "минута",
+          "hint": "1 = nominative singular",
+          "explanation": "One takes nominative singular: минута."
+        },
+        {
+          "prompt": "Восемь _____. (Eight days.)",
+          "promptEnglish": "Eight days.",
+          "options": [
+            "день",
+            "дней",
+            "дня",
+            "дни"
+          ],
+          "answer": "дней",
+          "hint": "5-20 = genitive plural",
+          "explanation": "Numbers 5-20 take genitive plural: день → дней."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Двенадцать _____. (Twelve hours.)"
+    ],
+    "choices": [
+      "часов",
+      "часа",
+      "час",
+      "часы"
+    ],
+    "answers": [
+      "часов"
+    ],
+    "grammarFocus": "5-20 = genitive plural",
+    "hints": [
+      "12 falls in the 5-20 range. What is the genitive plural of час?"
+    ],
+    "explanations": [
+      "After numbers 5-20, nouns take genitive plural. Час forms genitive plural as часов."
+    ],
+    "options": [
+      [
+        "часами",
+        "часам",
+        "часов",
+        "часы"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Два _____. (Two years.)",
+      "contextEnglish": "Two years.",
+      "options": [
+        "года",
+        "лет"
+      ],
+      "answer": "года",
+      "explanation": "2-4 take genitive singular: год → года. Лет is genitive plural (for 5+)."
+    },
+    {
+      "context": "Пять _____. (Five years.)",
+      "contextEnglish": "Five years.",
+      "options": [
+        "лет",
+        "года"
+      ],
+      "answer": "лет",
+      "explanation": "5-20 take genitive plural: год → лет (irregular). Года is genitive singular (for 2-4)."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Три часов прошло.",
+      "error": "часов",
+      "correction": "часа",
+      "hint": "Numbers 2-4 need genitive singular, not genitive plural.",
+      "explanation": "Numbers 2-4 require genitive singular: три часа, not три часов (genitive plural)."
+    },
+    {
+      "sentence": "Десять годов назад.",
+      "error": "годов",
+      "correction": "лет",
+      "hint": "The genitive plural of год is an irregular form. It's a completely different word.",
+      "explanation": "The genitive plural of год is irregular: лет, not годов. Десять лет назад."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort these number phrases by the required case form",
+    "categories": [
+      "Nominative singular (1)",
+      "Genitive singular (2-4)",
+      "Genitive plural (5+)"
+    ],
+    "items": [
+      {
+        "word": "один день",
+        "category": "Nominative singular (1)"
+      },
+      {
+        "word": "три дня",
+        "category": "Genitive singular (2-4)"
+      },
+      {
+        "word": "пять дней",
+        "category": "Genitive plural (5+)"
+      },
+      {
+        "word": "двадцать один рубль",
+        "category": "Nominative singular (1)"
+      },
+      {
+        "word": "два человека",
+        "category": "Genitive singular (2-4)"
+      },
+      {
+        "word": "десять человек",
+        "category": "Genitive plural (5+)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "рубль / рубля / рублей",
+      "definition": "ruble: nom sg / gen sg / gen pl",
+      "example": "Один рубль, два рубля, пять рублей."
+    },
+    {
+      "term": "год / года / лет",
+      "definition": "year: nom sg / gen sg / gen pl (irregular!)",
+      "example": "Один год, два года, пять лет."
+    },
+    {
+      "term": "человек / человека / человек",
+      "definition": "person: nom sg / gen sg / gen pl (zero ending!)",
+      "example": "Один человек, два человека, пять человек."
+    },
+    {
+      "term": "день / дня / дней",
+      "definition": "day: nom sg / gen sg / gen pl",
+      "example": "Один день, два дня, пять дней."
+    }
+  ]
+}

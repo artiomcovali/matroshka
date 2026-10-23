@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-medium-001",
+  "title": "Cold Food",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Your food arrived cold - ask to have it reheated",
+  "imageName": "flame.fill",
+  "initialPrompt": "Вот ваш заказ. Приятного аппетита!",
+  "systemPrompt": "You are a waiter. The soup came out cold. Apologize and offer to reheat it or bring fresh portion. Keep replies short.",
+  "completionCriteria": "User complained about cold food and you offered to fix it.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините, суп холодный (Sorry, the soup is cold)",
+    "Можно подогреть? (Can you reheat it?)",
+    "Принесите новый (Bring a new one)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "холодный",
+      "definition": "cold"
+    },
+    {
+      "word": "горячий",
+      "definition": "hot"
+    },
+    {
+      "word": "подогреть",
+      "definition": "to reheat"
+    },
+    {
+      "word": "суп",
+      "definition": "soup"
+    },
+    {
+      "word": "жаловаться",
+      "definition": "to complain"
+    },
+    {
+      "word": "свежий",
+      "definition": "fresh"
+    }
+  ],
+  "objectives": [
+    "Tell waiter food is cold (холодный)",
+    "Ask them to fix it (подогреть)",
+    "Get resolution (new dish or reheated)"
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "id": "a2-track-adjdecl-01-foundation",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Adjective Declension 1: Foundation and the Four Nominative Slots",
+  "titleRussian": "Склонение прилагательных 1: четыре именительные формы",
+  "description": "Restart point for adjective work at A2: the four nominative endings (-ый / -ая / -ое / -ые) locked one more time, with a short preview of what each oblique case will do to those endings later in the track.",
+  "descriptionRussian": "Стартовая точка А2: повторение четырёх именительных окончаний (-ый / -ая / -ое / -ые) и короткий обзор того, что произойдёт с ними в косвенных падежах.",
+  "imageName": "square.grid.2x2",
+  "trackId": "a2-adjective-declension-mastery",
+  "trackTitle": "Adjective Full Declension Mastery",
+  "trackTitleRussian": "Склонение прилагательных",
+  "trackIndex": 1,
+  "trackTotal": 9,
+  "intro": "You already know these four endings from the A1 adjective book. This one takes them through every case, which sounds like a great many new forms and is not. The masculine and neuter stop being separate almost immediately: from the genitive onward they share one ending each time. So most of what looks like a grid is two columns pretending to be three.",
+  "rules": [
+    "Hard-stem adjectives have four nominative endings: -ый (m sg), -ая (f sg), -ое (n sg), -ые (pl, any gender). The stem does not change across slots; only the ending swaps.",
+    "Adjective gender follows the noun's grammatical gender. Море is neuter (the -е ending is the marker), so 'a new sea' is новое море with the neuter -ое.",
+    "The plural ending is the same regardless of the noun's gender: новые дома, новые книги, новые окна all use -ые.",
+    "From the genitive case onward the masculine and neuter slots share endings (нового, новому, новым, новом). The feminine has its own pair across cases (новой in gen / dat / instr / prep). The plural collapses gender and number into single endings."
+  ],
+  "examples": [
+    "Это новый дом. (This is a new house.) Дом is masculine singular: новый.",
+    "Это новая школа. (This is a new school.) Школа is feminine singular: новая.",
+    "Это новое озеро. (This is a new lake.) Озеро is neuter singular: новое.",
+    "Это новые машины. (These are new cars.) Машины is plural: новые.",
+    "У Маши умная сестра. (Masha has a smart sister.) Сестра is feminine singular: умная.",
+    "Лена покупает интересный журнал. (Lena buys an interesting magazine.) Журнал is masculine singular: интересный."
+  ],
+  "tables": [
+    {
+      "title": "The Four Nominative Slots (новый as model)",
+      "headers": [
+        "Slot",
+        "Ending",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "masculine singular",
+          "cells": [
+            "-ый",
+            "новый дом"
+          ]
+        },
+        {
+          "label": "feminine singular",
+          "cells": [
+            "-ая",
+            "новая книга"
+          ]
+        },
+        {
+          "label": "neuter singular",
+          "cells": [
+            "-ое",
+            "новое окно"
+          ]
+        },
+        {
+          "label": "plural (any gender)",
+          "cells": [
+            "-ые",
+            "новые машины"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preview: новый Across the Six Cases",
+      "headers": [
+        "Case",
+        "Masculine / Neuter",
+        "Feminine"
+      ],
+      "rows": [
+        {
+          "label": "Nominative (today)",
+          "cells": [
+            "новый дом / новое окно",
+            "новая книга"
+          ]
+        },
+        {
+          "label": "Accusative (L2)",
+          "cells": [
+            "новый дом / нового брата",
+            "новую книгу"
+          ]
+        },
+        {
+          "label": "Genitive (L3)",
+          "cells": [
+            "нового",
+            "новой"
+          ]
+        },
+        {
+          "label": "Dative (L4)",
+          "cells": [
+            "новому",
+            "новой"
+          ]
+        },
+        {
+          "label": "Instrumental (L5)",
+          "cells": [
+            "новым",
+            "новой"
+          ]
+        },
+        {
+          "label": "Prepositional (L6)",
+          "cells": [
+            "о новом",
+            "о новой"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Это _____ дом.",
+          "promptEnglish": "This is a new house.",
+          "options": [
+            "новый",
+            "новая",
+            "новое",
+            "новые"
+          ],
+          "answer": "новый",
+          "hint": "Дом is one item. Which gender does the consonant ending signal?",
+          "explanation": "Дом is masculine singular (consonant ending, no special marker). The hard-stem masculine ending is -ый: новый. From Lesson 3 onward this ending will change to -ого in the genitive, but today we lock the nominative."
+        },
+        {
+          "prompt": "Это _____ улица.",
+          "promptEnglish": "This is a beautiful street.",
+          "options": [
+            "красивые",
+            "красивая",
+            "красивое",
+            "красивый"
+          ],
+          "answer": "красивая",
+          "hint": "Улица ends in -а. Which slot is that?",
+          "explanation": "Улица ends in -а, the standard feminine marker. The hard-stem feminine ending is -ая: красивая. The feminine slot keeps -ая only in the nominative; from Lesson 3 onward it shifts to -ой across four oblique cases."
+        },
+        {
+          "prompt": "Это _____ озеро.",
+          "promptEnglish": "This is a big lake.",
+          "options": [
+            "большая",
+            "большие",
+            "большое",
+            "большой"
+          ],
+          "answer": "большое",
+          "hint": "Озеро ends in -о. Which gender takes the -ое ending?",
+          "explanation": "Озеро ends in -о, the standard neuter marker. The hard-stem neuter ending is -ое: большое. (Большой uses a stressed -ой in the masculine, which the L4 spelling lesson of the A1 track covered; today every adjective is unstressed -ый / -ое.)"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Это _____ машины.",
+          "promptEnglish": "These are old cars.",
+          "options": [
+            "старые",
+            "старая",
+            "старое",
+            "старый"
+          ],
+          "answer": "старые",
+          "hint": "Машины is plural. The plural ending is the same across genders.",
+          "explanation": "Машины is the plural of машина. Russian collapses gender in the plural for adjectives: -ые is the only ending. So старые. Lesson 7 will return to the plural and run it through the other cases."
+        },
+        {
+          "prompt": "У Антона _____ брат.",
+          "promptEnglish": "Anton has a smart brother.",
+          "options": [
+            "умное",
+            "умные",
+            "умный",
+            "умная"
+          ],
+          "answer": "умный",
+          "hint": "Брат is masculine singular. Match the ending you used on дом earlier.",
+          "explanation": "Брат is masculine singular. Hard-stem masculine ending is -ый: умный. Note: брат is ANIMATE, which matters in the accusative starting next lesson; in the nominative, animacy makes no difference."
+        },
+        {
+          "prompt": "Это _____ письмо.",
+          "promptEnglish": "This is an interesting letter.",
+          "options": [
+            "интересный",
+            "интересная",
+            "интересные",
+            "интересное"
+          ],
+          "answer": "интересное",
+          "hint": "Письмо ends in -о. Same slot as озеро in Q1.3.",
+          "explanation": "Письмо is neuter singular. Hard-stem neuter ending is -ое: интересное. The same neuter -ое will move to -ого in the genitive and -ому in the dative as the track progresses."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Это _____ книга. (This is an interesting book.)"
+    ],
+    "choices": [
+      "интересный",
+      "интересная",
+      "интересное",
+      "интересные"
+    ],
+    "answers": [
+      "интересная"
+    ],
+    "grammarFocus": "Книга is feminine singular. The hard-stem feminine ending is -ая, attached to the stem интересн-: интересная. From the genitive onward the feminine moves to -ой (интересной книги, интересной книге)."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "В центре города есть красивая парк.",
+      "translationEnglish": "There is a beautiful park in the center of the city.",
+      "error": "красивая",
+      "correction": "красивый",
+      "options": [
+        "красивый",
+        "красивое",
+        "красивые"
+      ],
+      "explanation": "Парк is masculine (it ends in a consonant, with no special gender marker), so the hard-stem adjective takes the masculine ending -ый: красивый. The -ая in красивая is the feminine ending, correct with a feminine noun like улица (красивая улица). In the nominative the ending is chosen by the noun's gender alone."
+    },
+    {
+      "sentence": "У Лены во дворе новый машина.",
+      "translationEnglish": "Lena has a new car in the yard.",
+      "error": "новый",
+      "correction": "новая",
+      "options": [
+        "новая",
+        "новое",
+        "новые"
+      ],
+      "explanation": "Машина ends in -а, the standard feminine marker, so the adjective takes the feminine ending -ая: новая. The -ый in новый is the masculine ending, used with masculine nouns like дом (новый дом). The -а on the noun is the signal that selects the feminine adjective ending in the nominative."
+    },
+    {
+      "sentence": "На полке стоят красивый книги.",
+      "translationEnglish": "There are beautiful books on the shelf.",
+      "error": "красивый",
+      "correction": "красивые",
+      "options": [
+        "красивые",
+        "красивая",
+        "красивое"
+      ],
+      "explanation": "Книги is plural (the -и ending on the noun), and Russian uses one adjective ending for the plural across all genders: -ые, so красивые. Красивый is the masculine singular, correct for one masculine noun (красивый журнал), not for a plural."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Это _____ парк.",
+      "contextEnglish": "This is a beautiful park.",
+      "options": [
+        "красивый",
+        "красивая"
+      ],
+      "answer": "красивый",
+      "explanation": "Парк is masculine singular, so the hard-stem ending is -ый: красивый. Красивая would require a feminine noun like улица or площадь."
+    },
+    {
+      "context": "У Антона _____ окно.",
+      "contextEnglish": "Anton has a big window.",
+      "options": [
+        "большое",
+        "большие"
+      ],
+      "answer": "большое",
+      "explanation": "Окно is neuter singular. The hard-stem neuter ending is -ое: большое. Большие would require a plural noun like окна."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "склонение",
+      "definition": "declension (the change of an adjective's or noun's ending across the six cases)",
+      "example": "В словосочетании 'нового брата' видно склонение: прилагательное 'нового' стоит в родительном падеже."
+    },
+    {
+      "term": "именительный падеж",
+      "definition": "nominative case (the dictionary form, used for the subject and after это and у меня)",
+      "example": "В предложении 'Это новая книга' слово 'книга' стоит в именительном падеже."
+    },
+    {
+      "term": "косвенный падеж",
+      "definition": "oblique case (any case other than the nominative: genitive, dative, accusative, instrumental, prepositional)",
+      "example": "В предложении 'У меня нет новой книги' слово 'новой' стоит в родительном падеже, то есть в косвенном падеже."
+    }
+  ]
+}

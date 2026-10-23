@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-006",
+  "title": "Customer Complaint",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Handle an escalated complaint as a customer service manager",
+  "imageName": "exclamationmark.bubble.fill",
+  "initialPrompt": "Наконец-то менеджер! Я уже третий раз звоню! Ваш сотрудник нагрубил мне, и мой заказ до сих пор не доставлен!",
+  "systemPrompt": "You are angry customer. Order 2 weeks late, previous staff was rude. Want: apology, immediate delivery, compensation. Can calm down if agent is professional, apologizes sincerely, offers real solution. Keep replies short but emotional initially.",
+  "completionCriteria": "User calmed customer and provided acceptable solution.",
+  "responseLimit": 15,
+  "hints": [
+    "Приношу извинения за неудобства (I apologize for the inconvenience)",
+    "Я разберусь с этим лично (I'll handle this personally)",
+    "Могу предложить вам компенсацию (I can offer you compensation)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "жалоба",
+      "definition": "complaint"
+    },
+    {
+      "word": "извинения",
+      "definition": "apology"
+    },
+    {
+      "word": "компенсация",
+      "definition": "compensation"
+    },
+    {
+      "word": "доставка",
+      "definition": "delivery"
+    },
+    {
+      "word": "недовольство",
+      "definition": "dissatisfaction"
+    },
+    {
+      "word": "решить проблему",
+      "definition": "to solve the problem"
+    }
+  ],
+  "objectives": [
+    "Acknowledge the customer's frustration",
+    "Apologize sincerely",
+    "Ask about the specific issues",
+    "Offer concrete solution",
+    "Provide compensation or follow-up"
+  ]
+}

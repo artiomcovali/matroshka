@@ -1,0 +1,601 @@
+{
+  "lessonId": "a2-007-aspect-pairs",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Identify perfective verbs formed with prefixes",
+      "descriptionRussian": "Определите совершенный вид, образованный приставками",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What is the perfective of писать (to write)?",
+              "promptEnglish": "What is the perfective of писать (to write)?",
+              "options": [
+                "записать",
+                "написать",
+                "дописать",
+                "переписать"
+              ],
+              "answer": "написать",
+              "hint": "The pure prefix that just adds 'completion' to writing.",
+              "explanation": "Написать is the pure perfective pair. Записать (write down), дописать (finish writing), переписать (rewrite) are different verbs."
+            },
+            {
+              "prompt": "What is the perfective of делать (to do/make)?",
+              "promptEnglish": "What is the perfective of делать?",
+              "options": [
+                "переделать",
+                "сделать",
+                "доделать",
+                "разделать"
+              ],
+              "answer": "сделать",
+              "hint": "Which prefix simply means 'completed the doing'?",
+              "explanation": "Сделать is the pure perfective pair. Переделать (redo), доделать (finish doing) change the meaning."
+            },
+            {
+              "prompt": "Она _____ красивую картину. (She drew a beautiful picture.) - completed",
+              "promptEnglish": "She drew a beautiful picture. (finished)",
+              "options": [
+                "нарисовала",
+                "рисовала",
+                "рисовать",
+                "нарисовать"
+              ],
+              "answer": "нарисовала",
+              "hint": "Completed picture = perfective. Рисовать → на + рисовать.",
+              "explanation": "Completed result: нарисовала (perfective of рисовать, prefix на-)."
+            },
+            {
+              "prompt": "Мы долго _____ этот дом. (We built this house for a long time.) - process",
+              "promptEnglish": "We built this house for a long time. (process)",
+              "options": [
+                "построили",
+                "строим",
+                "строили",
+                "построим"
+              ],
+              "answer": "строили",
+              "hint": "Долго = duration = imperfective.",
+              "explanation": "Долго (a long time) = process/duration = imperfective: строили."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я _____ обед. (I cooked lunch.) - I finished it",
+          "contextEnglish": "I cooked lunch. (it's done, ready to eat)",
+          "options": [
+            "готовил",
+            "приготовил"
+          ],
+          "answer": "приготовил",
+          "explanation": "Focus on completion = perfective: приготовил (prefix при-)."
+        },
+        {
+          "context": "Я _____ обед. (I was cooking lunch.) - process",
+          "contextEnglish": "I was cooking lunch. (still in progress or general statement)",
+          "options": [
+            "готовил",
+            "приготовил"
+          ],
+          "answer": "готовил",
+          "explanation": "Focus on the process, not result = imperfective: готовил."
+        },
+        {
+          "context": "Студент _____ все правила. (The student learned all the rules.) - result",
+          "contextEnglish": "The student learned all the rules. (mastered them)",
+          "options": [
+            "учил",
+            "выучил"
+          ],
+          "answer": "выучил",
+          "explanation": "Все (all) + completed mastery = perfective: выучил (prefix вы-)."
+        },
+        {
+          "context": "Студент целый год _____ правила. (The student studied the rules all year.) - process",
+          "contextEnglish": "The student studied the rules all year long.",
+          "options": [
+            "учил",
+            "выучил"
+          ],
+          "answer": "учил",
+          "explanation": "Целый год (all year) = long process = imperfective: учил."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Он уже _____ книгу. (He already read the book.)",
+          "Она каждый день _____ картины. (She draws pictures every day.)",
+          "Мы наконец _____ ремонт. (We finally finished the renovation.)"
+        ],
+        "choices": [
+          "прочитал",
+          "рисует",
+          "сделали"
+        ],
+        "answers": [
+          "прочитал",
+          "рисует",
+          "сделали"
+        ],
+        "grammarFocus": "Prefix-based perfective vs imperfective pairs",
+        "hints": [
+          "Уже = completed = perfective. Читать → про + читать.",
+          "Каждый день = repetition = imperfective. Рисовать stays as is.",
+          "Наконец = completed = perfective. Делать → с + делать."
+        ],
+        "explanations": [
+          "Уже = completion. Perfective: прочитал (prefix про-).",
+          "Каждый день = habitual. Imperfective present: рисует.",
+          "Наконец = completion. Perfective: сделали (prefix с-)."
+        ],
+        "options": [
+          [
+            "прочитает",
+            "читал",
+            "прочитал",
+            "читает"
+          ],
+          [
+            "рисовал",
+            "нарисовала",
+            "рисует",
+            "нарисовал"
+          ],
+          [
+            "сделали",
+            "делает",
+            "делали",
+            "делаю"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-sort-match",
+      "title": "Sort and Match",
+      "titleRussian": "Сортировка и подбор",
+      "description": "Sort verbs by aspect and match pairs",
+      "descriptionRussian": "Рассортируйте глаголы и подберите пары",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort: Imperfective (base verb) or Perfective (with prefix)?",
+        "categories": [
+          "Imperfective (НСВ)",
+          "Perfective (СВ)"
+        ],
+        "items": [
+          {
+            "word": "строить (build)",
+            "category": "Imperfective (НСВ)"
+          },
+          {
+            "word": "построить (build/complete)",
+            "category": "Perfective (СВ)"
+          },
+          {
+            "word": "рисовать (draw)",
+            "category": "Imperfective (НСВ)"
+          },
+          {
+            "word": "нарисовать (draw/finish)",
+            "category": "Perfective (СВ)"
+          },
+          {
+            "word": "варить (boil/cook)",
+            "category": "Imperfective (НСВ)"
+          },
+          {
+            "word": "сварить (boil/finish)",
+            "category": "Perfective (СВ)"
+          },
+          {
+            "word": "смотреть (watch)",
+            "category": "Imperfective (НСВ)"
+          },
+          {
+            "word": "посмотреть (watch/finish)",
+            "category": "Perfective (СВ)"
+          }
+        ]
+      },
+      "patternRecognition": [
+        {
+          "sentence": "сделать, сварить, сыграть",
+          "question": "What prefix do all these perfective verbs share?",
+          "options": [
+            "с-",
+            "на-",
+            "по-",
+            "про-"
+          ],
+          "answer": "с-",
+          "explanation": "All three use the prefix с-: сделать (do), сварить (cook), сыграть (play)."
+        },
+        {
+          "sentence": "написать, нарисовать, напечатать",
+          "question": "What prefix do all these perfective verbs share?",
+          "options": [
+            "с-",
+            "на-",
+            "по-",
+            "про-"
+          ],
+          "answer": "на-",
+          "explanation": "All three use the prefix на-: написать (write), нарисовать (draw), напечатать (print/type)."
+        },
+        {
+          "sentence": "записать, переписать, дописать, подписать",
+          "question": "Are these all aspect pairs of писать?",
+          "options": [
+            "No, these are different verbs with changed meanings",
+            "Yes, they are all perfective forms of писать"
+          ],
+          "answer": "No, these are different verbs with changed meanings",
+          "explanation": "Only написать is the pure pair. Записать (write down), переписать (rewrite), дописать (finish writing), подписать (sign) are different verbs."
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Каждый вечер она посмотрела телевизор.",
+          "error": "посмотрела",
+          "correction": "смотрела",
+          "hint": "Каждый вечер = habitual = imperfective.",
+          "explanation": "Каждый вечер (every evening) = habitual. Imperfective: смотрела, not посмотрела.",
+          "options": [
+            "смотрела",
+            "смотрит",
+            "посмотрит"
+          ]
+        },
+        {
+          "sentence": "Он долго построил дом.",
+          "error": "построил",
+          "correction": "строил",
+          "hint": "Долго = duration = imperfective.",
+          "explanation": "Долго (for a long time) = process/duration = imperfective: строил.",
+          "options": [
+            "строил",
+            "строит",
+            "построит"
+          ]
+        },
+        {
+          "sentence": "Она уже готовила ужин, можно есть.",
+          "error": "готовила",
+          "correction": "приготовила",
+          "hint": "Уже + можно есть (can eat) = the food is done = perfective.",
+          "explanation": "The food is ready (result) = perfective: приготовила.",
+          "options": [
+            "приготовила",
+            "готовит",
+            "приготовит"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-prefixes",
+      "title": "Prefix Practice",
+      "titleRussian": "Практика приставок",
+      "description": "Add the correct prefix to form the perfective verb",
+      "descriptionRussian": "Добавьте правильную приставку для образования совершенного вида",
+      "icon": "plus.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "готовить → ___готовить (to cook → to finish cooking)",
+              "promptEnglish": "Which prefix makes готовить perfective?",
+              "options": [
+                "на-",
+                "при-",
+                "с-",
+                "по-"
+              ],
+              "answer": "при-",
+              "hint": "Think: приготовить.",
+              "explanation": "Готовить → приготовить. The pure prefix for готовить is при-."
+            },
+            {
+              "prompt": "смотреть → ___смотреть (to watch → to watch/finish)",
+              "promptEnglish": "Which prefix makes смотреть perfective?",
+              "options": [
+                "про-",
+                "на-",
+                "с-",
+                "по-"
+              ],
+              "answer": "по-",
+              "hint": "Think: посмотреть.",
+              "explanation": "Смотреть → посмотреть. The pure prefix for смотреть is по-."
+            },
+            {
+              "prompt": "проверить → this verb already has a prefix. Is it perfective or imperfective?",
+              "promptEnglish": "Проверить: perfective or imperfective?",
+              "options": [
+                "Perfective",
+                "Imperfective"
+              ],
+              "answer": "Perfective",
+              "hint": "It has the prefix про-. Its pair is проверять.",
+              "explanation": "Проверить is perfective (prefix про-). Its imperfective pair is проверять."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Я хочу _____ эту книгу до конца. (I want to read this book to the end.)",
+          "Нужно _____ домашнее задание. (You need to do the homework.)",
+          "Мы хотим _____ этот фильм. (We want to watch this film.)",
+          "Она решила _____ торт. (She decided to bake a cake.)"
+        ],
+        "choices": [
+          "прочитать",
+          "сделать",
+          "посмотреть",
+          "испечь"
+        ],
+        "answers": [
+          "прочитать",
+          "сделать",
+          "посмотреть",
+          "испечь"
+        ],
+        "grammarFocus": "Choosing the correct perfective infinitive",
+        "hints": [
+          "Read to the end = completion = perfective of читать.",
+          "Need to complete = perfective of делать.",
+          "Want to watch (a single film) = perfective of смотреть.",
+          "Decided to bake (one cake) = perfective of печь."
+        ],
+        "explanations": [
+          "Until the end = completion: прочитать (про- + читать).",
+          "Need to finish: сделать (с- + делать).",
+          "Watch one film: посмотреть (по- + смотреть).",
+          "Bake one cake: испечь (ис- + печь). Irregular prefix."
+        ],
+        "options": [
+          [
+            "читать",
+            "читаю",
+            "прочитать",
+            "прочитал"
+          ],
+          [
+            "сделал",
+            "делаю",
+            "сделать",
+            "делать"
+          ],
+          [
+            "посмотрели",
+            "посмотреть",
+            "смотрим",
+            "смотреть"
+          ],
+          [
+            "печёт",
+            "испечь",
+            "печь",
+            "испекла"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-pure-vs-meaning-change",
+      "title": "Pure Pair or New Verb?",
+      "titleRussian": "Пара или новый глагол?",
+      "description": "Distinguish pure aspect pairs from prefixed verbs with changed meaning",
+      "descriptionRussian": "Отличите видовую пару от нового глагола с изменённым значением",
+      "icon": "eye",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "писать → записать. Is записать the perfective pair of писать?",
+              "promptEnglish": "Is записать the perfective pair?",
+              "options": [
+                "No, записать means 'to write down' (different meaning)",
+                "Yes, it just means 'finished writing'"
+              ],
+              "answer": "No, записать means 'to write down' (different meaning)",
+              "hint": "Записать adds a new meaning, not just completion.",
+              "explanation": "Записать means 'to write down/record,' not just 'to finish writing.' The pure pair is написать."
+            },
+            {
+              "prompt": "читать → перечитать. Is перечитать the perfective pair of читать?",
+              "promptEnglish": "Is перечитать the perfective pair?",
+              "options": [
+                "Yes, it means 'finished reading'",
+                "No, перечитать means 'to reread' (different meaning)"
+              ],
+              "answer": "No, перечитать means 'to reread' (different meaning)",
+              "hint": "Пере- means 're-' (again).",
+              "explanation": "Перечитать means 'to reread.' The pure pair of читать is прочитать."
+            },
+            {
+              "prompt": "строить → построить. Is построить the perfective pair?",
+              "promptEnglish": "Is построить the perfective pair?",
+              "options": [
+                "Yes, построить = to build/complete building",
+                "No, it has a different meaning"
+              ],
+              "answer": "Yes, построить = to build/complete building",
+              "hint": "По- here is the pure prefix for строить.",
+              "explanation": "Построить is the pure perfective pair: it means 'to build (and finish),' same meaning as строить but completed."
+            },
+            {
+              "prompt": "делать → переделать. Is переделать the perfective pair?",
+              "promptEnglish": "Is переделать the perfective pair?",
+              "options": [
+                "Yes, it means 'to finish doing'",
+                "No, переделать means 'to redo'",
+                "No, переделать means 'to unod'"
+              ],
+              "answer": "No, переделать means 'to redo'",
+              "hint": "Пере- adds 'again' to the meaning.",
+              "explanation": "Переделать means 'to redo.' The pure pair of делать is сделать."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он _____ все слова из текста. (He wrote out all the words from the text.)",
+          "contextEnglish": "He wrote out/copied all the words. (выписать = to write out)",
+          "options": [
+            "написал",
+            "выписал"
+          ],
+          "answer": "выписал",
+          "explanation": "Выписать (вы- + писать) = to write out/extract. Different meaning from написать (pure pair)."
+        },
+        {
+          "context": "Он _____ длинное письмо. (He wrote a long letter.) - completed",
+          "contextEnglish": "He wrote a long letter. (finished writing it)",
+          "options": [
+            "написал",
+            "выписал"
+          ],
+          "answer": "написал",
+          "explanation": "Написать = perfective pair of писать (to write). He finished writing the letter."
+        }
+      ],
+      "translation": [
+        {
+          "english": "She finally drew the portrait.",
+          "answer": "Она наконец нарисовала портрет.",
+          "acceptableVariants": [],
+          "hint": "finally = наконец, drew (completed) = нарисовала",
+          "grammarFocus": "perfective prefix на- with рисовать",
+          "keyWord": "нарисовала",
+          "options": [
+            "нарисовала",
+            "рисовала",
+            "нарисовал",
+            "нарисует"
+          ]
+        },
+        {
+          "english": "They built a new school.",
+          "answer": "Они построили новую школу.",
+          "acceptableVariants": [],
+          "hint": "built (completed) = построили, new school (acc.) = новую школу",
+          "grammarFocus": "perfective prefix по- with строить",
+          "keyWord": "построили",
+          "options": [
+            "построили",
+            "строили",
+            "построил",
+            "построят"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "A final round combining prefix pairs, aspect choice, and context",
+      "descriptionRussian": "Финальный раунд: приставки, выбор вида и контекст",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы _____ эту песню много раз. (We sang this song many times.)",
+              "promptEnglish": "We sang this song many times.",
+              "options": [
+                "спели",
+                "пели",
+                "попели",
+                "запели"
+              ],
+              "answer": "пели",
+              "hint": "Много раз (many times) = repetition = imperfective.",
+              "explanation": "Много раз = repetition = imperfective: пели."
+            },
+            {
+              "prompt": "Он быстро _____ задачу. (He quickly solved the problem.)",
+              "promptEnglish": "He quickly solved the problem. (completed)",
+              "options": [
+                "решил",
+                "решал",
+                "решать",
+                "решить"
+              ],
+              "answer": "решил",
+              "hint": "Quickly solved = single completed action = perfective.",
+              "explanation": "Single completed action: решил (perfective). Решить from решать."
+            },
+            {
+              "prompt": "Мама каждый день _____ обед. (Mom cooks lunch every day.)",
+              "promptEnglish": "Mom cooks lunch every day.",
+              "options": [
+                "приготовит",
+                "готовит",
+                "приготовила",
+                "готовила"
+              ],
+              "answer": "готовит",
+              "hint": "Каждый день = habitual = imperfective present.",
+              "explanation": "Каждый день = habitual action = imperfective present: готовит."
+            },
+            {
+              "prompt": "Бабушка уже _____ свитер. (Grandma already knitted the sweater.)",
+              "promptEnglish": "Grandma already knitted the sweater. (it's done)",
+              "options": [
+                "связала",
+                "вязала",
+                "вяжет",
+                "свяжет"
+              ],
+              "answer": "связала",
+              "hint": "Уже = completed = perfective. Вязать → связать.",
+              "explanation": "Уже = completed result. Perfective: связала (с- + вязать)."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Обычно он посмотрел новости утром.",
+          "error": "посмотрел",
+          "correction": "смотрел",
+          "hint": "Обычно (usually) = habitual = imperfective.",
+          "explanation": "Обычно = habitual action = imperfective: смотрел, not посмотрел.",
+          "options": [
+            "смотрел",
+            "смотрит",
+            "посмотрит"
+          ]
+        },
+        {
+          "sentence": "Вчера она наконец рисовала портрет.",
+          "error": "рисовала",
+          "correction": "нарисовала",
+          "hint": "Наконец (finally) = completed = perfective.",
+          "explanation": "Наконец = completion. Perfective: нарисовала (на- + рисовать).",
+          "options": [
+            "нарисовала",
+            "рисует",
+            "нарисует"
+          ]
+        }
+      ]
+    }
+  ]
+}

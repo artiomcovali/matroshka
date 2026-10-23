@@ -1,0 +1,313 @@
+{
+  "id": "a2-track-past-06-mixed-review",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Past Tense 5: Mixed Review",
+  "titleRussian": "Прошедшее время 5: повторение",
+  "description": "Synthesis of the whole past tense: regular formation, быть, tricky agreement, the irregular -чь / -ти families, and stress shifts. Four-step diagnostic: subject → family → ending → stress.",
+  "descriptionRussian": "Повторение всего прошедшего времени: правильное образование, быть, трудное согласование, неправильные классы на -чь и -ти, сдвиги ударения.",
+  "imageName": "checkmark.seal",
+  "trackId": "a2-past-tense-mastery",
+  "trackTitle": "Past Tense Mastery",
+  "trackTitleRussian": "Прошедшее время",
+  "trackIndex": 5,
+  "trackTotal": 5,
+  "stressMarksInExercises": true,
+  "intro": "Everything from the last four lessons arrives together. Every past-tense form comes down to the same three questions, asked in order: who or what is the subject, does the verb belong to one of the irregular families, and which of the four endings does that leave you. Nothing today tells you which lesson a question came from.",
+  "rules": [
+    "The four past-tense slots: -л (masc), -ла (fem), -ло (neut / impersonal), -ли (plural, polite вы, compound subjects).",
+    "Regular verbs: drop -ть, add the slot ending. Быть is regular in shape: был / была́ / бы́ло / бы́ли.",
+    "Irregular families: -чь (мог, лёг, пёк) and -ти / -сти (шёл, нёс, вёл) lose or reshape the masculine -л; other forms take regular endings.",
+    "Three-step diagnostic: subject → family → ending."
+  ],
+  "examples": [
+    "Маша читала книгу. (Masha was reading a book.) Regular, feminine: -ла.",
+    "Вы были в Москве? (Were you in Moscow? - polite.) Polite вы → plural были.",
+    "Папа был на работе. (Dad was at work.) Папа is masculine despite -а → был.",
+    "Антон шёл домой. (Anton was walking home.) -ти class, suppletive stem, masc шёл.",
+    "Лена жила́ в Петербурге. (Lena lived in Petersburg.) Stress-shift family, fem end-stressed жила́.",
+    "Вчера бы́ло холодно. (It was cold yesterday.) Impersonal → neuter бы́ло."
+  ],
+  "tables": [
+    {
+      "title": "The Whole Past Tense on One Page",
+      "headers": [
+        "Family",
+        "Masc",
+        "Fem / Neut / Pl"
+      ],
+      "rows": [
+        {
+          "label": "Regular (читать)",
+          "cells": [
+            "читал",
+            "читала / читало / читали"
+          ]
+        },
+        {
+          "label": "Быть",
+          "cells": [
+            "был",
+            "была́ / бы́ло / бы́ли"
+          ]
+        },
+        {
+          "label": "-чь class (мочь)",
+          "cells": [
+            "мог (no -л)",
+            "могла́ / могло́ / могли́"
+          ]
+        },
+        {
+          "label": "-ти class (идти)",
+          "cells": [
+            "шёл",
+            "шла / шло / шли"
+          ]
+        },
+        {
+          "label": "Stress-shift (жить)",
+          "cells": [
+            "жил",
+            "жила́ / жи́ло / жи́ли"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Agreement Quick Reference",
+      "headers": [
+        "Subject",
+        "Slot",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "polite вы",
+          "cells": [
+            "plural",
+            "Вы были дома?"
+          ]
+        },
+        {
+          "label": "папа / дедушка",
+          "cells": [
+            "masculine",
+            "Папа был на работе."
+          ]
+        },
+        {
+          "label": "кто / никто",
+          "cells": [
+            "masc sg",
+            "Кто был дома?"
+          ]
+        },
+        {
+          "label": "no subject (weather)",
+          "cells": [
+            "neuter",
+            "Было холодно."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Лена _____ Антону вчера вечером.",
+          "promptEnglish": "Lena called Anton yesterday evening.",
+          "options": [
+            "звонил",
+            "звонила",
+            "звонило",
+            "звонили"
+          ],
+          "answer": "звонила",
+          "hint": "Recap from Lesson 1: regular verb, feminine subject.",
+          "explanation": "Recap from Lesson 1. Звонить is regular: drop -ть, add the slot ending. Лена is feminine singular → звонила. Today's drill mixes all five lessons."
+        },
+        {
+          "prompt": "Вы _____ на собрании, Анна Петровна?",
+          "promptEnglish": "Were you at the meeting, Anna Petrovna?",
+          "options": [
+            "была",
+            "был",
+            "были",
+            "было"
+          ],
+          "answer": "были",
+          "hint": "Step 1: the subject is polite вы.",
+          "explanation": "Polite вы always takes the plural: Вы были (Lesson 3). The verb follows the pronoun's plural grammar even when you address one person."
+        },
+        {
+          "prompt": "Антон не _____ помочь вчера.",
+          "promptEnglish": "Anton was not able to help yesterday.",
+          "options": [
+            "могл",
+            "мог",
+            "могла́",
+            "могли́"
+          ],
+          "answer": "мог",
+          "hint": "Step 2: мочь is in the -чь family. What happens to the masculine -л?",
+          "explanation": "Мочь is in the -чь class (Lesson 4): the masculine past is the bare stem мог, with no -л."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Дедушка _____ газету утром.",
+          "promptEnglish": "Grandpa was reading the paper in the morning.",
+          "options": [
+            "читала",
+            "читали",
+            "читал",
+            "читало"
+          ],
+          "answer": "читал",
+          "hint": "Step 1: дедушка ends in -а, but who does it name?",
+          "explanation": "Дедушка names a man, so it is masculine (Lesson 3): читал. The -а ending changes how the noun declines, not how the verb agrees."
+        },
+        {
+          "prompt": "Дети _____ домой через парк.",
+          "promptEnglish": "The children were walking home through the park.",
+          "options": [
+            "шёл",
+            "шла",
+            "шло",
+            "шли"
+          ],
+          "answer": "шли",
+          "hint": "Step 2: the past of идти is built on a completely different stem. Step 1: plural subject.",
+          "explanation": "Идти builds its past on a completely different stem, ш- (Lesson 4). Plural subject → шли."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Вчера _____ очень тепло, и мы гуляли весь день. (Yesterday it was very warm, and we walked all day.)"
+    ],
+    "choices": [
+      "был",
+      "была",
+      "было",
+      "были"
+    ],
+    "answers": [
+      "было"
+    ],
+    "grammarFocus": "'It was warm' is impersonal - no subject - so быть sits in the neuter: было (Lesson 2). The second verb гуляли is regular plural agreeing with мы."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Маша написал бабушке длинное письмо.",
+      "translationEnglish": "Masha wrote grandma a long letter.",
+      "error": "написал",
+      "correction": "написала",
+      "options": [
+        "написала",
+        "написали",
+        "написало"
+      ],
+      "explanation": "Маша is feminine singular, so the past takes -ла: написала. The past tense agrees with the subject's gender, not with the speaker."
+    },
+    {
+      "sentence": "Антон шёлл домой через парк.",
+      "translationEnglish": "Anton was walking home through the park.",
+      "error": "шёлл",
+      "correction": "шёл",
+      "options": [
+        "шёл",
+        "шла",
+        "шли"
+      ],
+      "explanation": "Идти's past masculine is шёл - a single -л. Шёлл doubles the -л, which never happens in any past-tense form."
+    },
+    {
+      "sentence": "Кто были в классе утром?",
+      "translationEnglish": "Who was in the classroom in the morning?",
+      "error": "были",
+      "correction": "был",
+      "options": [
+        "был",
+        "была",
+        "было"
+      ],
+      "explanation": "Кто is grammatically masculine singular (Lesson 3): Кто был в классе? The verb agrees with кто itself, even if the expected answer is a group."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Утром _____ холодно, а днём тепло.",
+      "contextEnglish": "It was cold in the morning and warm in the afternoon.",
+      "options": [
+        "была",
+        "было"
+      ],
+      "answer": "было",
+      "explanation": "Impersonal weather sentence: no subject, so neuter было. Была would need a feminine subject like зима."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Вы были на концерте, Иван Сергеевич?",
+      "question": "Which rule explains the plural были for one man?",
+      "options": [
+        "Compound subjects take the plural",
+        "Кто-questions force the plural",
+        "Polite вы always takes the plural verb",
+        "Concert contexts use formal plurals"
+      ],
+      "answer": "Polite вы always takes the plural verb",
+      "explanation": "The pronoun вы is grammatically plural even when politely addressing one person (Lesson 3), so the verb is plural: были."
+    },
+    {
+      "sentence": "Антон мог помочь, а Лена не могла́.",
+      "question": "Why does the masculine form мог have no -л ending?",
+      "options": [
+        "Мочь is in the -чь class: the masculine past is the bare stem",
+        "The negative не removes the -л",
+        "Мог is a future form, not a past form",
+        "It is a colloquial shortening of могл"
+      ],
+      "answer": "Мочь is in the -чь class: the masculine past is the bare stem",
+      "explanation": "The -чь class (мочь, лечь, печь) forms its masculine past without -л: мог, лёг, пёк (Lesson 4). The feminine, neuter, and plural add the regular endings: могла́, могло́, могли́."
+    },
+    {
+      "sentence": "На полке были книги и журналы.",
+      "question": "Which rule picks были in this 'there were' sentence?",
+      "options": [
+        "Impersonal sentences always take были",
+        "Быть agrees with the things that existed, which are plural here",
+        "Полка is feminine, so the verb is plural",
+        "Lists of objects always take the neuter было"
+      ],
+      "answer": "Быть agrees with the things that existed, which are plural here",
+      "explanation": "In 'there was / there were' sentences the existing things are the subject (Lesson 2). Книги и журналы is plural, so были. With one feminine thing it would be была: На полке была книга."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "четыре шага",
+      "definition": "the four-step diagnostic for any past form: subject → family → ending → stress",
+      "example": "Шаг 1: подлежащее (Лена, женский род). Шаг 2: семья (жить — сдвиг ударения). Шаг 3: окончание (-ла). Шаг 4: ударение (жила́)."
+    },
+    {
+      "term": "правильный глагол",
+      "definition": "regular verb (standard past formation: drop -ть, add -л / -ла / -ло / -ли, no stress shift)",
+      "example": "Глагол 'читать' — правильный: читал / читала / читало / читали."
+    },
+    {
+      "term": "неправильный глагол",
+      "definition": "irregular verb (missing masculine -л, stem changes, or stress shifts; Lessons 4 and 5)",
+      "example": "Глагол 'мочь' — неправильный: мужская форма 'мог' не имеет окончания -л."
+    }
+  ]
+}

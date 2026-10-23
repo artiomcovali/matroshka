@@ -1,0 +1,489 @@
+{
+  "lessonId": "a1-016-est-constructions",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Possession, existence, and pronoun forms after у",
+      "descriptionRussian": "Владение, существование и формы местоимений после «у»",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "У _____ есть велосипед. (I have a bicycle.)",
+              "promptEnglish": "I have a bicycle.",
+              "options": [
+                "мне",
+                "меня",
+                "я",
+                "мой"
+              ],
+              "answer": "меня",
+              "hint": "У + genitive.",
+              "explanation": "У + genitive pronoun: я → меня. У меня есть велосипед."
+            },
+            {
+              "prompt": "У _____ есть дети. (They have children.)",
+              "promptEnglish": "They have children.",
+              "options": [
+                "они",
+                "их",
+                "них",
+                "ним"
+              ],
+              "answer": "них",
+              "hint": "After у, они becomes них.",
+              "explanation": "After prepositions, они becomes них: У них есть дети."
+            },
+            {
+              "prompt": "В парке _____ озеро. (There is a lake in the park.)",
+              "promptEnglish": "There is a lake in the park.",
+              "options": [
+                "был",
+                "нет",
+                "есть",
+                "это"
+              ],
+              "answer": "есть",
+              "hint": "Expressing that something exists.",
+              "explanation": "Есть expresses existence: В парке есть озеро."
+            },
+            {
+              "prompt": "У неё _____ волосы. (She has long hair - describing.)",
+              "promptEnglish": "She has long hair.",
+              "options": [
+                "есть длинные",
+                "длинные",
+                "нет длинные",
+                "были длинные"
+              ],
+              "answer": "длинные",
+              "hint": "When DESCRIBING, есть is omitted.",
+              "explanation": "When describing a quality, omit есть: У неё длинные волосы."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "У _____ есть собака. (He has a dog.)",
+          "contextEnglish": "He has a dog.",
+          "options": [
+            "него",
+            "его"
+          ],
+          "answer": "него",
+          "explanation": "After у, он becomes него: У него есть собака."
+        },
+        {
+          "context": "У _____ есть кошка. (She has a cat.)",
+          "contextEnglish": "She has a cat.",
+          "options": [
+            "её",
+            "неё"
+          ],
+          "answer": "неё",
+          "explanation": "After у, она becomes неё: У неё есть кошка."
+        },
+        {
+          "context": "У _____ есть билеты. (We have tickets.)",
+          "contextEnglish": "We have tickets.",
+          "options": [
+            "нас",
+            "мы"
+          ],
+          "answer": "нас",
+          "explanation": "У + genitive: мы → нас. У нас есть билеты."
+        },
+        {
+          "context": "У _____ есть вопрос. (You have a question, informal.)",
+          "contextEnglish": "You have a question.",
+          "options": [
+            "тебя",
+            "ты"
+          ],
+          "answer": "тебя",
+          "explanation": "У + genitive: ты → тебя. У тебя есть вопрос."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in genitive pronouns and sort by есть usage",
+      "descriptionRussian": "Вставьте местоимения в родительном падеже и рассортируйте",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "У _____ есть сын. (She has a son.)",
+          "У _____ есть работа. (You have a job, formal.)",
+          "У _____ есть план. (We have a plan.)",
+          "У _____ есть идея. (He has an idea.)"
+        ],
+        "choices": [
+          "неё",
+          "вас",
+          "нас",
+          "него",
+          "тебя",
+          "них"
+        ],
+        "answers": [
+          "неё",
+          "вас",
+          "нас",
+          "него"
+        ],
+        "grammarFocus": "genitive pronoun forms after у",
+        "hints": [
+          "She: она → неё after у.",
+          "You (formal): вы → вас after у.",
+          "We: мы → нас after у.",
+          "He: он → него after у."
+        ],
+        "explanations": [
+          "После у: она → неё. У неё есть сын.",
+          "После у: вы → вас. У вас есть работа.",
+          "После у: мы → нас. У нас есть план.",
+          "После у: он → него. У него есть идея."
+        ],
+        "options": [
+          [
+            "она",
+            "ей",
+            "ею",
+            "неё"
+          ],
+          [
+            "вами",
+            "вам",
+            "вас",
+            "вы"
+          ],
+          [
+            "мы",
+            "нами",
+            "нас",
+            "нам"
+          ],
+          [
+            "него",
+            "он",
+            "им",
+            "ему"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort: keep есть or omit it?",
+        "categories": [
+          "Keep есть (stating fact)",
+          "Omit есть (describing)"
+        ],
+        "items": [
+          {
+            "word": "У меня ___ кошка. (I have a cat.)",
+            "category": "Keep есть (stating fact)"
+          },
+          {
+            "word": "У него ___ голубые глаза. (blue eyes)",
+            "category": "Omit есть (describing)"
+          },
+          {
+            "word": "У тебя ___ брат? (Do you have?)",
+            "category": "Keep есть (stating fact)"
+          },
+          {
+            "word": "У неё ___ красивый голос. (beautiful voice)",
+            "category": "Omit есть (describing)"
+          },
+          {
+            "word": "Здесь ___ магазин? (Is there a store?)",
+            "category": "Keep есть (stating fact)"
+          },
+          {
+            "word": "У него ___ большой нос. (big nose)",
+            "category": "Omit есть (describing)"
+          },
+          {
+            "word": "У них ___ дом. (They have a house.)",
+            "category": "Keep есть (stating fact)"
+          },
+          {
+            "word": "У неё ___ тёмные волосы. (dark hair)",
+            "category": "Omit есть (describing)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "Do you have a sister? (informal)",
+          "answer": "У тебя есть сестра?",
+          "acceptableVariants": [],
+          "hint": "you (genitive) = тебя",
+          "grammarFocus": "есть for asking about possession",
+          "keyWord": "есть",
+          "options": [
+            "есть",
+            "был",
+            "нет",
+            "это"
+          ]
+        },
+        {
+          "english": "She has beautiful eyes.",
+          "answer": "У неё красивые глаза.",
+          "acceptableVariants": [],
+          "hint": "Descriptive - omit есть. she (gen) = неё",
+          "grammarFocus": "omitting есть with descriptions",
+          "keyWord": "красивые",
+          "options": [
+            "красивые",
+            "красивая",
+            "красивый",
+            "красивое"
+          ]
+        },
+        {
+          "english": "Is there a cafe here?",
+          "answer": "Здесь есть кафе?",
+          "acceptableVariants": [
+            "Тут есть кафе?"
+          ],
+          "hint": "here = здесь, there is = есть",
+          "grammarFocus": "есть for existence",
+          "keyWord": "есть",
+          "options": [
+            "есть",
+            "был",
+            "нет",
+            "это"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Error",
+      "titleRussian": "Найди ошибку",
+      "description": "Fix mistakes with есть constructions",
+      "descriptionRussian": "Исправьте ошибки в конструкциях с «есть»",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "У его есть машина.",
+          "error": "его",
+          "correction": "него",
+          "hint": "After у, он becomes него.",
+          "explanation": "After prepositions like у, он → него: У него есть машина.",
+          "options": [
+            "него",
+            "ему",
+            "он"
+          ]
+        },
+        {
+          "sentence": "У её есть брат.",
+          "error": "её",
+          "correction": "неё",
+          "hint": "After у, она becomes неё.",
+          "explanation": "After prepositions like у, она → неё: У неё есть брат.",
+          "options": [
+            "неё",
+            "ней",
+            "она"
+          ]
+        },
+        {
+          "sentence": "У я есть собака.",
+          "error": "я",
+          "correction": "меня",
+          "hint": "After у, я becomes меня.",
+          "explanation": "У + genitive: я → меня. У меня есть собака.",
+          "options": [
+            "меня",
+            "мне",
+            "мной"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "У _____ есть квартира? (Do you have, formal)",
+              "promptEnglish": "Do you have an apartment? (formal)",
+              "options": [
+                "вы",
+                "вам",
+                "вас",
+                "ваш"
+              ],
+              "answer": "вас",
+              "hint": "After у, вы becomes вас.",
+              "explanation": "У + genitive: вы → вас. У вас есть квартира?"
+            },
+            {
+              "prompt": "_____ есть библиотека? (Is there a library nearby?)",
+              "promptEnglish": "Is there a library nearby?",
+              "options": [
+                "Там",
+                "Где",
+                "Здесь",
+                "Это"
+              ],
+              "answer": "Здесь",
+              "hint": "Asking about existence at this location.",
+              "explanation": "Здесь есть + noun asks if something exists here."
+            },
+            {
+              "prompt": "Choose the correct sentence:",
+              "promptEnglish": "She has a big family. (describing)",
+              "options": [
+                "У неё есть большая семья.",
+                "У неё большая семья.",
+                "У ней есть семья.",
+                "У неё есть семья большая."
+              ],
+              "answer": "У неё большая семья.",
+              "hint": "When describing, omit есть.",
+              "explanation": "Descriptive adjective = omit есть: У неё большая семья."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All есть topics in one final round",
+      "descriptionRussian": "Все темы «есть» в одном финальном раунде",
+      "icon": "shuffle",
+      "patternRecognition": [
+        {
+          "sentence": "У меня есть кошка. У тебя есть кошка? Да, есть.",
+          "question": "What is the function of есть in these sentences?",
+          "options": [
+            "It means 'to eat'",
+            "It expresses possession and existence",
+            "It marks past tense",
+            "It is a question word"
+          ],
+          "answer": "It expresses possession and existence",
+          "explanation": "Есть in the construction У + genitive + есть expresses possession: 'have.'"
+        },
+        {
+          "sentence": "У неё красивые глаза. У неё длинные волосы. У него большой нос.",
+          "question": "Why is есть omitted in all three sentences?",
+          "options": [
+            "It's a question",
+            "The noun is plural",
+            "A descriptive adjective is used",
+            "The speaker is unsure"
+          ],
+          "answer": "A descriptive adjective is used",
+          "explanation": "When describing a feature or quality, есть is omitted. The focus is on the description, not existence."
+        },
+        {
+          "sentence": "У него, у неё, у них",
+          "question": "Why do он, она, они gain an н- after у?",
+          "options": [
+            "For emphasis",
+            "It's a dialectal feature",
+            "Third-person pronouns add н- after prepositions",
+            "It marks plural"
+          ],
+          "answer": "Third-person pronouns add н- after prepositions",
+          "explanation": "After prepositions, third-person pronouns gain н-: он → него, она → неё, они → них."
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "У неё есть машина. vs У неё красивая машина.",
+          "contextEnglish": "When do you include есть?",
+          "options": [
+            "Include есть when stating a fact of possession",
+            "Include есть when describing"
+          ],
+          "answer": "Include есть when stating a fact of possession",
+          "explanation": "Use есть for simple possession (she has a car). Omit for descriptions (she has a beautiful car)."
+        },
+        {
+          "context": "У _____ есть дом. (They have a house.)",
+          "contextEnglish": "They have a house.",
+          "options": [
+            "них",
+            "их"
+          ],
+          "answer": "них",
+          "explanation": "After у, они becomes них: У них есть дом."
+        },
+        {
+          "context": "Рядом _____ аптека? (Is there a pharmacy nearby?)",
+          "contextEnglish": "Is there a pharmacy nearby?",
+          "options": [
+            "есть",
+            "нет"
+          ],
+          "answer": "есть",
+          "explanation": "Asking about existence: Рядом есть аптека?"
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "У _____ есть вопрос? (Do you have a question, informal)",
+          "У _____ есть опыт. (He has experience.)",
+          "У _____ маленькая кухня. (We have a small kitchen - describing.)"
+        ],
+        "choices": [
+          "тебя",
+          "него",
+          "нас",
+          "них"
+        ],
+        "answers": [
+          "тебя",
+          "него",
+          "нас"
+        ],
+        "grammarFocus": "genitive pronouns and есть/omit patterns",
+        "hints": [
+          "ты → тебя after у.",
+          "он → него after у.",
+          "мы → нас after у. Descriptive - no есть."
+        ],
+        "explanations": [
+          "У тебя есть вопрос? (ты → тебя after preposition).",
+          "У него есть опыт. (он → него after preposition).",
+          "У нас маленькая кухня. (мы → нас; descriptive adjective = omit есть)."
+        ],
+        "options": [
+          [
+            "тобой",
+            "тебя",
+            "тебе",
+            "ты"
+          ],
+          [
+            "ему",
+            "он",
+            "него",
+            "им"
+          ],
+          [
+            "мы",
+            "нам",
+            "нас",
+            "нами"
+          ]
+        ]
+      }
+    }
+  ]
+}

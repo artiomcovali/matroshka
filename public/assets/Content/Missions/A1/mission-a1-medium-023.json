@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-023",
+  "title": "Market Scale Broken",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "The scale is broken, must buy by piece",
+  "imageName": "leaf.fill",
+  "initialPrompt": "Здравствуйте! Фрукты свежие! Что хотите?",
+  "systemPrompt": "You sell fruit. Scale is broken. Say 'Весы сломаны. Продаю поштучно: яблоко 30₽, апельсин 50₽.' Keep replies short.",
+  "completionCriteria": "User bought fruit by piece after learning scale is broken.",
+  "responseLimit": 15,
+  "hints": [
+    "Килограмм яблок (A kilogram of apples)",
+    "Весы сломаны? (Scale is broken?)",
+    "Тогда пять яблок (Then five apples)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "весы",
+      "definition": "scale"
+    },
+    {
+      "word": "сломаны",
+      "definition": "broken"
+    },
+    {
+      "word": "поштучно",
+      "definition": "by piece"
+    },
+    {
+      "word": "штука",
+      "definition": "piece"
+    },
+    {
+      "word": "яблоко",
+      "definition": "apple"
+    }
+  ],
+  "objectives": [
+    "Ask for fruit by weight",
+    "Learn scale is broken (весы сломаны)",
+    "Buy by piece (поштучно)"
+  ]
+}

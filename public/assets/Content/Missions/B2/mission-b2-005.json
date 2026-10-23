@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-005",
+  "title": "Real Estate Agent",
+  "level": "B2",
+  "difficulty": "easy",
+  "description": "Discuss requirements with a real estate agent to find an apartment",
+  "imageName": "house.fill",
+  "initialPrompt": "Агентство недвижимости 'Дом', добрый день! Вы ищете квартиру для покупки или аренды?",
+  "systemPrompt": "You are real estate agent. Ask about: budget, location preferences, size, must-haves (parking, balcony, metro nearby). Have options: центр expensive, спальный район cheaper. Commission: 50% month rent or 2% purchase price. Keep replies short.",
+  "completionCriteria": "User specified requirements and understood next steps.",
+  "responseLimit": 15,
+  "hints": [
+    "Ищу двухкомнатную квартиру (Looking for a two-bedroom apartment)",
+    "Бюджет до... в месяц (Budget up to... per month)",
+    "Важно, чтобы рядом было метро (It's important to have metro nearby)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "недвижимость",
+      "definition": "real estate"
+    },
+    {
+      "word": "покупка",
+      "definition": "purchase"
+    },
+    {
+      "word": "аренда",
+      "definition": "rent"
+    },
+    {
+      "word": "район",
+      "definition": "neighborhood"
+    },
+    {
+      "word": "комиссия",
+      "definition": "commission"
+    },
+    {
+      "word": "просмотр",
+      "definition": "viewing"
+    }
+  ],
+  "objectives": [
+    "State if buying or renting",
+    "Specify your budget",
+    "Describe location preferences",
+    "List must-have features",
+    "Understand agent's commission and process"
+  ]
+}

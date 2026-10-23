@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-031",
+  "title": "Tea You Dislike",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "The recommended tea at a tasting event does not suit your taste",
+  "imageName": "cup.and.saucer.fill",
+  "initialPrompt": "Добро пожаловать на нашу дегустацию! Попробуйте этот чай — это наш самый популярный сорт. Как вам?",
+  "systemPrompt": "You host tea tastings. You enthusiastically recommended your best seller, but user does not like it. Offer alternatives based on their preferences. Keep replies short.",
+  "completionCriteria": "User politely expressed dislike and found a tea they prefer.",
+  "responseLimit": 15,
+  "hints": [
+    "Интересный вкус, но не совсем мой (Interesting taste, but not quite mine)",
+    "Я предпочитаю что-то более мягкое (I prefer something milder)",
+    "Есть что-то без такого сильного вкуса? (Is there something without such a strong taste?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "дегустация",
+      "definition": "tasting"
+    },
+    {
+      "word": "вкус",
+      "definition": "taste/flavor"
+    },
+    {
+      "word": "предпочитать",
+      "definition": "to prefer"
+    },
+    {
+      "word": "мягкий",
+      "definition": "mild/soft"
+    },
+    {
+      "word": "крепкий",
+      "definition": "strong"
+    },
+    {
+      "word": "сорт",
+      "definition": "variety/type"
+    }
+  ],
+  "objectives": [
+    "Politely say the tea is not to your taste (не совсем мой вкус)",
+    "Describe what you prefer (предпочитаю)",
+    "Ask about alternatives (альтернативы)",
+    "Find a tea you like"
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "id": "b1-track-plural-04-genitive-fem-neut",
+  "level": "B1",
+  "focusArea": "cases",
+  "title": "Plural 4: Feminine and Neuter Genitive (zero ending and -ей)",
+  "titleRussian": "Множественное число 4: Родительный падеж женского и среднего рода",
+  "description": "The feminine and neuter genitive plural relies on a different mechanic. Hard fem -а and hard neuter -о drop their vowel to a zero ending, often inserting a fleeting -о- or -е- to break a consonant cluster. Soft fem -ь and soft neuter -е take -ей. The 3rd-declension feminine line takes -ей as well.",
+  "descriptionRussian": "Родительный падеж множественного числа женского и среднего рода работает иначе. Твёрдые основы (книга, окно) теряют гласную и получают нулевое окончание, часто с беглой -о- или -е-. Мягкие основы (тетрадь, море) получают -ей.",
+  "imageName": "minus.circle.fill",
+  "trackId": "b1-plural-cases-mastery",
+  "trackTitle": "Plural Cases Mastery",
+  "trackTitleRussian": "Множественное число — все падежи",
+  "trackIndex": 4,
+  "trackTotal": 11,
+  "intro": "The other half of the genitive, and it works on a completely different principle. Instead of adding an ending, hard feminine and neuter nouns take one away, leaving a bare stem. When that leaves a cluster nobody can pronounce, Russian slips a vowel back in. So the ending here is nothing at all, and the difficulty is entirely in what happens to the stem.",
+  "rules": [
+    "Hard feminine -а drops to a zero ending: книга → книг, мама → мам, школа → школ, улица → улиц.",
+    "Hard neuter -о drops to a zero ending: место → мест, дело → дел, слово → слов.",
+    "When the resulting stem ends in a consonant cluster, a fleeting vowel is inserted to make it pronounceable. The fleeting vowel is most often -е- (or stressed -ё-): ручка → ручек, письмо → писем, сестра → сестёр. After a hard cluster like -кн-, the fleeting vowel surfaces as -о-: окно → окон.",
+    "Soft feminine -ь (3rd-declension) takes -ей: тетрадь → тетрадей, дверь → дверей, ночь → ночей, площадь → площадей.",
+    "Soft neuter -е takes -ей: море → морей, поле → полей.",
+    "Triggers are identical to L3: numbers 5+, много / мало / несколько, нет, prepositions без / у / для / из / от. Only the ending depends on the gender."
+  ],
+  "examples": [
+    "В библиотеке много книг. (There are many books in the library.) книга → книг, fem -а → zero.",
+    "У Лены много ручек. (Lena has many pens.) ручка → ручек, fem -а cluster + fleeting -е-.",
+    "В шкафу пять тетрадей. (There are five notebooks in the cupboard.) тетрадь → тетрадей, soft fem -ь + -ей.",
+    "В комнате восемь окон. (There are eight windows in the room.) окно → окон, neuter -о cluster + fleeting -о-.",
+    "В России много морей. (Russia has many seas.) море → морей, soft neuter -е + -ей.",
+    "У этой девочки нет сестёр. (This girl has no sisters.) сестра → сестёр, fem -а cluster + stressed fleeting -ё-."
+  ],
+  "tables": [
+    {
+      "title": "Feminine and Neuter Genitive Plural",
+      "headers": [
+        "Singular",
+        "Genitive Plural",
+        "Pattern"
+      ],
+      "rows": [
+        {
+          "label": "книга",
+          "cells": [
+            "книг",
+            "fem -а → zero"
+          ]
+        },
+        {
+          "label": "школа",
+          "cells": [
+            "школ",
+            "fem -а → zero"
+          ]
+        },
+        {
+          "label": "улица",
+          "cells": [
+            "улиц",
+            "fem -а → zero"
+          ]
+        },
+        {
+          "label": "ручка",
+          "cells": [
+            "ручек",
+            "cluster + fleeting -е-"
+          ]
+        },
+        {
+          "label": "девочка",
+          "cells": [
+            "девочек",
+            "cluster + fleeting -е-"
+          ]
+        },
+        {
+          "label": "сестра",
+          "cells": [
+            "сестёр",
+            "cluster + fleeting -ё- (stressed)"
+          ]
+        },
+        {
+          "label": "тетрадь",
+          "cells": [
+            "тетрадей",
+            "soft fem -ь + -ей"
+          ]
+        },
+        {
+          "label": "дверь",
+          "cells": [
+            "дверей",
+            "soft fem -ь + -ей"
+          ]
+        },
+        {
+          "label": "мать",
+          "cells": [
+            "матерей",
+            "stem-extension + -ей"
+          ]
+        },
+        {
+          "label": "место",
+          "cells": [
+            "мест",
+            "neuter -о → zero"
+          ]
+        },
+        {
+          "label": "слово",
+          "cells": [
+            "слов",
+            "neuter -о → zero"
+          ]
+        },
+        {
+          "label": "окно",
+          "cells": [
+            "окон",
+            "cluster + fleeting -о-"
+          ]
+        },
+        {
+          "label": "письмо",
+          "cells": [
+            "писем",
+            "cluster + fleeting -е-"
+          ]
+        },
+        {
+          "label": "море",
+          "cells": [
+            "морей",
+            "soft neuter -е + -ей"
+          ]
+        },
+        {
+          "label": "поле",
+          "cells": [
+            "полей",
+            "soft neuter -е + -ей"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "В кабинете шесть _____.",
+          "promptEnglish": "There are six doctors in the office.",
+          "options": [
+            "врачи",
+            "врачам",
+            "врачей",
+            "врачами"
+          ],
+          "answer": "врачей",
+          "hint": "Recap from L3: the consonants ж, ш, ч, щ take which gen pl ending?",
+          "explanation": "L3 recap: masculine nouns ending in ж, ш, ч, щ take -ей in the gen pl. Врач → врачей. After numbers 5 and above, the noun goes into the genitive plural; the consonant ч selects the -ей ending."
+        },
+        {
+          "prompt": "В библиотеке много _____.",
+          "promptEnglish": "There are many books in the library.",
+          "options": [
+            "книг",
+            "книги",
+            "книгам",
+            "книгами"
+          ],
+          "answer": "книг",
+          "hint": "Книга is feminine -а. What is the gen pl ending for hard fem -а stems?",
+          "explanation": "Hard feminine -а stems drop the -а to a zero ending in the gen pl. Книга → книг. The fem rule is the mirror of the masc rule: instead of adding -ов, the feminine drops the vowel."
+        },
+        {
+          "prompt": "У Лены пять _____.",
+          "promptEnglish": "Lena has five pens.",
+          "options": [
+            "ручки",
+            "ручек",
+            "ручкам",
+            "ручками"
+          ],
+          "answer": "ручек",
+          "hint": "Ручка ends in -ка (consonant cluster чк before -а). What gets inserted?",
+          "explanation": "When the stem ends in a consonant cluster, a fleeting vowel breaks it up. Ручка → ручек, with -е- inserted between ч and к. The same pattern gives девочка → девочек, чашка → чашек, тарелка → тарелок."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "В шкафу пять _____.",
+          "promptEnglish": "There are five notebooks in the cupboard.",
+          "options": [
+            "тетрадей",
+            "тетради",
+            "тетрадях",
+            "тетрадям"
+          ],
+          "answer": "тетрадей",
+          "hint": "Тетрадь is 3rd-declension feminine in soft -ь. Soft fem -ь takes which gen pl ending?",
+          "explanation": "Soft feminine -ь (3rd-declension) takes -ей in the gen pl: тетрадь → тетрадей. The same -ей ending also covers дверь → дверей, ночь → ночей, площадь → площадей. Watch for the stem-extension irregulars мать → матерей, дочь → дочерей."
+        },
+        {
+          "prompt": "В комнате восемь _____.",
+          "promptEnglish": "There are eight windows in the room.",
+          "options": [
+            "окна",
+            "окнам",
+            "окон",
+            "окнах"
+          ],
+          "answer": "окон",
+          "hint": "Окно is neuter -о. The cluster кн forces a fleeting vowel; which one fits a hard stem?",
+          "explanation": "Neuter -о drops to a zero ending. The stem окн- is a consonant cluster, so a fleeting vowel breaks it: окон. The fleeting vowel is -о- here because the surrounding consonants are hard."
+        },
+        {
+          "prompt": "В России много _____.",
+          "promptEnglish": "Russia has many seas.",
+          "options": [
+            "моря",
+            "морях",
+            "морями",
+            "морей"
+          ],
+          "answer": "морей",
+          "hint": "Море is neuter -е. Soft neuter takes which gen pl ending?",
+          "explanation": "Soft neuter -е takes -ей in the gen pl: море → морей, поле → полей. This mirrors the soft fem -ь pattern (тетрадь → тетрадей). Hard neuter -о drops to zero (окно → окон); soft neuter -е uses the soft ending -ей."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "В этом районе пять _____. (There are five schools in this district.)"
+    ],
+    "choices": [
+      "школа",
+      "школы",
+      "школ",
+      "школам"
+    ],
+    "answers": [
+      "школ"
+    ],
+    "grammarFocus": "After numbers 5 and above, the noun takes the genitive plural. Школа is hard fem -а with no consonant cluster, so the gen pl is simply the bare stem: школ."
+  },
+  "minimalPairs": [
+    {
+      "context": "В библиотеке много _____.",
+      "contextEnglish": "There are many ___ (books) in the library.",
+      "options": [
+        "книги",
+        "книг"
+      ],
+      "answer": "книг",
+      "explanation": "After много + countable plural, the noun takes the genitive plural. Книги is the plural nominative ('the books' as a subject). Книг is the gen pl with the zero ending characteristic of hard fem -а stems."
+    },
+    {
+      "context": "В этой книге много _____.",
+      "contextEnglish": "There are many words in this book.",
+      "options": [
+        "слова",
+        "слов"
+      ],
+      "answer": "слов",
+      "explanation": "After много + countable plural, the noun takes the gen pl. Слово is hard neuter -о, so the gen pl is the zero ending: слов. Слова is the plural nominative or singular genitive (depending on stress); neither fits after много."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "В нашем классе нет девочк.",
+      "translationEnglish": "There are no girls in our class.",
+      "error": "девочк",
+      "correction": "девочек",
+      "options": [
+        "девочек",
+        "девочки",
+        "девочкам"
+      ],
+      "explanation": "Девочка is a hard feminine -а, so its genitive plural is a zero ending. But the bare stem девочк ends in an unpronounceable cluster -чк, so Russian inserts a fleeting vowel: девочек. After ч the fleeting vowel is -е-, never -о-. Девочк is the trap of dropping -а and stopping there; it cannot be pronounced. The fleeting vowel is the whole point of these cluster nouns."
+    },
+    {
+      "sentence": "В магазине пять сумк.",
+      "translationEnglish": "There are five bags in the shop.",
+      "error": "сумк",
+      "correction": "сумок",
+      "options": [
+        "сумок",
+        "сумки",
+        "сумками"
+      ],
+      "explanation": "Сумка is a hard feminine -а with a zero genitive plural, but the cluster -мк needs a fleeting vowel to be sayable: сумок. After the hard consonant м the fleeting vowel surfaces as -о- (contrast девочек, where ч forces -е-). Сумк is the bare-cluster trap. The number пять triggers the genitive plural here."
+    },
+    {
+      "sentence": "На столе нет письм.",
+      "translationEnglish": "There are no letters on the table.",
+      "error": "письм",
+      "correction": "писем",
+      "options": [
+        "писем",
+        "письма",
+        "письмам"
+      ],
+      "explanation": "Письмо is neuter -о with a zero genitive plural, but the cluster -сьм needs a fleeting vowel: писем. The soft sign of письмо is replaced by the inserted -е-, giving писем (not письм). Письм is the bare-cluster trap that a learner produces by dropping -о and stopping. Neuter cluster nouns take the same fleeting vowel treatment as the feminines."
+    },
+    {
+      "sentence": "В киоске много газетов.",
+      "translationEnglish": "There are many newspapers at the kiosk.",
+      "error": "газетов",
+      "correction": "газет",
+      "options": [
+        "газет",
+        "газеты",
+        "газетам"
+      ],
+      "explanation": "Газета is feminine -а, not masculine, so the masculine -ов ending does not apply. The hard feminine -а genitive plural is a bare zero ending: газет. Газетов is the trap of borrowing the masculine -ов where it does not belong."
+    },
+    {
+      "sentence": "У бабушки пять сестр.",
+      "translationEnglish": "Grandmother has five sisters.",
+      "error": "сестр",
+      "correction": "сестёр",
+      "options": [
+        "сестёр",
+        "сестры",
+        "сёстрам"
+      ],
+      "explanation": "Сестра has a zero genitive plural, but the cluster -стр would be unpronounceable at the end, so a fleeting vowel breaks it: сестёр. The fleeting vowel here is the stressed -ё-. Сестр is the bare-stem form without the rescue vowel; it is not Russian."
+    },
+    {
+      "sentence": "В журнале нет словов.",
+      "translationEnglish": "There are no words in the magazine.",
+      "error": "словов",
+      "correction": "слов",
+      "options": [
+        "слов",
+        "слова",
+        "словам"
+      ],
+      "explanation": "Слово is neuter, not masculine, so it does not take -ов. The neuter -о genitive plural is a zero ending with no cluster to break: слов. Словов is the same over-applied masculine -ов trap as книгов; it is not a real form. When the stem ends in a single consonant, no fleeting vowel is needed: just drop the -о."
+    },
+    {
+      "sentence": "В комнате пять кроватов.",
+      "translationEnglish": "There are five beds in the room.",
+      "error": "кроватов",
+      "correction": "кроватей",
+      "options": [
+        "кроватей",
+        "кровати",
+        "кроватям"
+      ],
+      "explanation": "Кровать is 3rd-declension feminine (soft -ь), not masculine, so the -ов ending never applies. The soft feminine -ь genitive plural is -ей: кроватей. Кроватов is the trap of treating a 3rd-declension noun as a hard masculine."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "нулевое окончание",
+      "definition": "zero ending; no overt suffix on the noun. Used in the gen pl of hard fem -а (книг) and hard neuter -о (слов) stems.",
+      "example": "В предложении 'У Лены пять книг' слово 'книг' имеет нулевое окончание."
+    },
+    {
+      "term": "беглая гласная",
+      "definition": "fleeting vowel; an -о-, -е-, or stressed -ё- inserted to break a consonant cluster in the gen pl. Examples: ручка → ручек, окно → окон, сестра → сестёр.",
+      "example": "В слове 'окон' появляется беглая -о-, чтобы разбить группу согласных."
+    },
+    {
+      "term": "третье склонение",
+      "definition": "the 3rd declension; feminine nouns ending in soft -ь (тетрадь, дверь, ночь). Their gen pl ending is -ей.",
+      "example": "В предложении 'У Лены пять тетрадей' слово 'тетрадей' стоит в родительном падеже множественного числа третьего склонения."
+    }
+  ]
+}

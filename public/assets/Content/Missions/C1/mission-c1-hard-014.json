@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-014",
+  "title": "Wrongful Imprisonment",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Prove innocence after wrongful conviction",
+  "imageName": "lock.open.fill",
+  "initialPrompt": "Вы были осуждены за преступление, которого не совершали. Адвокат нашёл новые доказательства. Убедите суд пересмотреть дело.",
+  "systemPrompt": "You are skeptical appeals judge. Resistant to overturning conviction, cite original evidence. Only grant appeal if shown compelling new evidence of innocence.",
+  "completionCriteria": "User argued for case review convincingly.",
+  "responseLimit": 15,
+  "hints": [
+    "Новые доказательства ДНК показывают... (New DNA evidence shows...)",
+    "Свидетель отказался от показаний (The witness recanted testimony)"
+  ],
+  "targetVocabulary": [
+    {"word": "осуждение", "definition": "conviction"},
+    {"word": "апелляция", "definition": "appeal"},
+    {"word": "невиновность", "definition": "innocence"},
+    {"word": "доказательства", "definition": "evidence"},
+    {"word": "пересмотр", "definition": "review"},
+    {"word": "реабилитация", "definition": "exoneration"}
+  ],
+  "objectives": [
+    "Present new evidence",
+    "Challenge original case",
+    "Show procedural errors",
+    "Argue for review",
+    "Secure freedom"
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "id": "a2-track-reflexive-10-passive",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Reflexive 10: The Passive Use (дом строится)",
+  "titleRussian": "Возвратные 10: Страдательное значение (дом строится)",
+  "description": "The -ся marker can make a sentence passive: the subject is the thing that the action happens to. Дом строится means 'The house is being built.' If you name who does it, that doer goes in the instrumental: строится рабочими.",
+  "descriptionRussian": "Показатель -ся может сделать предложение страдательным: подлежащее — это то, с чем происходит действие. «Дом строится» значит 'дом строят'. Если назвать того, кто делает действие, он стоит в творительном падеже: «строится рабочими».",
+  "imageName": "arrow.triangle.2.circlepath",
+  "trackId": "a2-reflexive-mastery",
+  "trackTitle": "Reflexive Verbs Deep",
+  "trackTitleRussian": "Возвратные глаголы — глубокая проработка",
+  "trackIndex": 10,
+  "trackTotal": 12,
+  "intro": "A third job for the ending, and the most useful one for reading. Adding it lets a sentence describe something being done without naming who is doing it: the house is being built, the book reads easily. Russian reaches for this constantly in signs, notices and news, so recognizing it matters more than producing it at this stage.",
+  "rules": [
+    "Add -ся to make the sentence passive: the subject becomes the thing the action happens to. Дом строится = the house is being built.",
+    "The doer is usually left out. When you name the doer, put it in the instrumental case (the кем? case): строится рабочими.",
+    "The verb still agrees with its subject: singular subject takes the singular ending (дом строится), plural subject takes the plural ending (дома строятся).",
+    "This passive use is most common with imperfective verbs in the present and past (строится, строился, читается, читался)."
+  ],
+  "examples": [
+    "Дом строится рядом с парком. (The house is being built next to the park.) Subject дом undergoes the action; no doer named.",
+    "Дом строится рабочими. (The house is being built by workers.) The doer рабочими is in the instrumental.",
+    "Книга читается легко. (The book reads easily.) Passive use; the book is the thing being read.",
+    "Завтрак подаётся в восемь часов. (Breakfast is served at eight o'clock.) Common on signs and timetables.",
+    "Письмо пишется секретарём. (The letter is being written by the secretary.) Doer секретарём in the instrumental.",
+    "Новые дома строятся быстро. (The new houses are being built quickly.) Plural subject дома → plural ending строятся."
+  ],
+  "tables": [
+    {
+      "title": "Active vs Passive (same news, two angles)",
+      "headers": [
+        "Active (doer is subject)",
+        "Passive (-ся; thing is subject)",
+        "Meaning"
+      ],
+      "rows": [
+        {
+          "label": "Рабочие строят дом.",
+          "cells": [
+            "Дом строится (рабочими).",
+            "is being built (by workers)"
+          ]
+        },
+        {
+          "label": "Люди читают книгу.",
+          "cells": [
+            "Книга читается.",
+            "is read / reads"
+          ]
+        },
+        {
+          "label": "Кафе подаёт завтрак.",
+          "cells": [
+            "Завтрак подаётся.",
+            "is served"
+          ]
+        },
+        {
+          "label": "Журналист пишет статью.",
+          "cells": [
+            "Статья пишется (журналистом).",
+            "is being written (by a journalist)"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Новый дом _____ рядом с парком.",
+          "promptEnglish": "A new house is being built next to the park.",
+          "options": [
+            "строит",
+            "строится",
+            "построил",
+            "строю"
+          ],
+          "answer": "строится",
+          "hint": "The house is the thing the action happens to. Which form carries -ся?",
+          "explanation": "Passive use: дом is the subject and undergoes the action, so the verb takes -ся → строится."
+        },
+        {
+          "prompt": "Эта книга _____ очень легко.",
+          "promptEnglish": "This book reads very easily.",
+          "options": [
+            "читает",
+            "читают",
+            "читается",
+            "читал"
+          ],
+          "answer": "читается",
+          "hint": "The book is read; the readers are not named. Add -ся.",
+          "explanation": "Passive use: книга is the thing being read, so the verb takes -ся → читается."
+        },
+        {
+          "prompt": "Завтрак _____ с восьми часов утра.",
+          "promptEnglish": "Breakfast is served from eight in the morning.",
+          "options": [
+            "подаёт",
+            "подаётся",
+            "подал",
+            "подают"
+          ],
+          "answer": "подаётся",
+          "hint": "A timetable line. The breakfast is the subject of the action.",
+          "explanation": "Passive use, common on signs and timetables: завтрак is the subject undergoing the action → подаётся."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Дом строится _____.",
+          "promptEnglish": "The house is being built by workers.",
+          "options": [
+            "рабочие",
+            "рабочих",
+            "рабочими",
+            "рабочим"
+          ],
+          "answer": "рабочими",
+          "hint": "When you name the doer in a passive sentence, which case do you use?",
+          "explanation": "In a passive sentence the named doer goes in the instrumental (the кем? case): рабочими."
+        },
+        {
+          "prompt": "Письмо пишется _____.",
+          "promptEnglish": "The letter is being written by the secretary.",
+          "options": [
+            "секретарь",
+            "секретаря",
+            "секретарю",
+            "секретарём"
+          ],
+          "answer": "секретарём",
+          "hint": "The doer of a passive action takes the instrumental.",
+          "explanation": "The doer of a passive sentence is in the instrumental: секретарём (answers кем?)."
+        },
+        {
+          "prompt": "Новые дома _____ очень быстро.",
+          "promptEnglish": "The new houses are being built very quickly.",
+          "options": [
+            "строится",
+            "строятся",
+            "строит",
+            "строил"
+          ],
+          "answer": "строятся",
+          "hint": "The subject дома is plural. Match the ending.",
+          "explanation": "The verb agrees with its subject: дома is plural, so the passive form takes the plural ending → строятся."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Дом _____.",
+          "promptEnglish": "The house is being built.",
+          "options": [
+            "строит",
+            "строится",
+            "строил",
+            "строят"
+          ],
+          "answer": "строится",
+          "hint": "The house is not doing the building. Which -ся form?",
+          "explanation": "The passive -ся turns the thing acted on into the subject: дом строится."
+        },
+        {
+          "prompt": "Школа строится _____.",
+          "promptEnglish": "The school is being built by workers.",
+          "options": [
+            "рабочие",
+            "рабочих",
+            "рабочими",
+            "рабочим"
+          ],
+          "answer": "рабочими",
+          "hint": "The named doer of a -ся passive goes in which case?",
+          "explanation": "The doer of a -ся passive stands in the instrumental: школа строится рабочими."
+        },
+        {
+          "prompt": "Книга _____ легко.",
+          "promptEnglish": "The book reads easily.",
+          "options": [
+            "читает",
+            "читается",
+            "читают",
+            "читала"
+          ],
+          "answer": "читается",
+          "hint": "The book is not doing the reading. Which form?",
+          "explanation": "The -ся passive with no doer named: книга читается легко."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Новая школа _____ в центре города. (A new school is being built in the city centre.)",
+      "Этот журнал _____ во всех киосках. (This magazine is sold at every kiosk.)"
+    ],
+    "choices": [
+      "строит",
+      "строится",
+      "продаёт",
+      "продаётся"
+    ],
+    "answers": [
+      "строится",
+      "продаётся"
+    ],
+    "grammarFocus": "Passive use of -ся. The subjects (школа, журнал) are the things the action happens to, so the verbs take -ся: строится, продаётся."
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "дом",
+        "строится",
+        "рабочими"
+      ],
+      "answer": "Дом строится рабочими.",
+      "translation": "The house is being built by workers.",
+      "hint": "Subject first; the named doer goes in the instrumental at the end."
+    },
+    {
+      "words": [
+        "книга",
+        "читается",
+        "легко"
+      ],
+      "answer": "Книга читается легко.",
+      "translation": "The book reads easily.",
+      "hint": "Passive verb with -ся; no doer is named here."
+    },
+    {
+      "words": [
+        "завтрак",
+        "подаётся",
+        "в",
+        "восемь"
+      ],
+      "answer": "Завтрак подаётся в восемь.",
+      "translation": "Breakfast is served at eight.",
+      "hint": "A timetable line: subject, passive verb, then the time."
+    },
+    {
+      "words": [
+        "статья",
+        "пишется",
+        "журналистом"
+      ],
+      "answer": "Статья пишется журналистом.",
+      "translation": "The article is being written by a journalist.",
+      "hint": "The named doer (the journalist) goes in the instrumental."
+    }
+  ],
+  "conjugationTable": {
+    "verb": "строиться",
+    "paradigm": [
+      "строюсь",
+      "строишься",
+      "строится",
+      "строимся",
+      "строитесь",
+      "строятся"
+    ],
+    "blanks": [
+      2,
+      5
+    ],
+    "hints": [
+      "он/она/оно (дом ...): singular subject undergoing the action",
+      "они (дома ...): plural subject undergoing the action"
+    ],
+    "tense": "present"
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Этот дом продаёт уже год.",
+      "translationEnglish": "This house has been for sale for a year already.",
+      "error": "продаёт",
+      "correction": "продаётся",
+      "options": [
+        "продаётся",
+        "продал",
+        "продают"
+      ],
+      "explanation": "The house is the thing being sold, so the verb needs -ся → продаётся. The bare продаёт means 'is selling something' and would need a doer-subject plus an object, which the sentence does not have."
+    },
+    {
+      "sentence": "Дом строится строители за один год.",
+      "translationEnglish": "The house is being built by builders in one year.",
+      "error": "строители",
+      "correction": "строителями",
+      "options": [
+        "строителями",
+        "строителей",
+        "строителям"
+      ],
+      "explanation": "In a passive sentence the named doer goes in the instrumental (the кем? case): строителями. Строители is the nominative, which would make them the active subject ('the builders build')."
+    },
+    {
+      "sentence": "Эти газеты продаётся в каждом киоске.",
+      "translationEnglish": "These newspapers are sold at every kiosk.",
+      "error": "продаётся",
+      "correction": "продаются",
+      "options": [
+        "продаются",
+        "продаёт",
+        "продал"
+      ],
+      "explanation": "The verb agrees with its subject. Газеты is plural, so the passive form needs the plural ending → продаются. Продаётся is the singular form (for one газета)."
+    },
+    {
+      "sentence": "Ужин ещё готовит, подожди немного.",
+      "translationEnglish": "Dinner is still being prepared - wait a little.",
+      "error": "готовит",
+      "correction": "готовится",
+      "options": [
+        "готовится",
+        "готовят",
+        "готовил"
+      ],
+      "explanation": "Ужин is the thing being prepared, so the verb needs -ся → готовится. The bare готовит means 'is cooking something' and would need a doer-subject plus an object."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Новая школа _____ в центре города.",
+      "contextEnglish": "A new school is being built in the city centre.",
+      "options": [
+        "строит",
+        "строится"
+      ],
+      "answer": "строится",
+      "explanation": "Passive use: школа is the thing being built, so the verb takes -ся → строится. Строит is the active form ('is building something') and would need a doer-subject plus an object."
+    },
+    {
+      "context": "Дом строится _____.",
+      "contextEnglish": "The house is being built by workers.",
+      "options": [
+        "рабочие",
+        "рабочими"
+      ],
+      "answer": "рабочими",
+      "explanation": "When the doer is named in a passive sentence, it goes in the instrumental: рабочими. Рабочие is the nominative, which would turn them into the active subject ('the workers are building')."
+    },
+    {
+      "context": "Эта книга _____ очень легко.",
+      "contextEnglish": "This book reads very easily.",
+      "options": [
+        "читает",
+        "читается"
+      ],
+      "answer": "читается",
+      "explanation": "Passive use: книга is the thing being read, so the verb takes -ся → читается. Читает means 'he/she reads (something)' and would need a different subject plus an object."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "строиться",
+      "definition": "to be built (passive use of строить with -ся; дом строится = the house is being built)",
+      "example": "Новый дом строится рядом с парком."
+    },
+    {
+      "term": "строится + (кем) рабочими",
+      "definition": "is being built (by ...); the named doer of a passive sentence goes in the instrumental: рабочими, журналистом",
+      "example": "Дом строится рабочими."
+    },
+    {
+      "term": "читается / подаётся",
+      "definition": "is read / is served; passive use of -ся on everyday imperfective verbs; the subject is the thing the action happens to",
+      "example": "Книга читается легко. Завтрак подаётся в восемь."
+    }
+  ]
+}

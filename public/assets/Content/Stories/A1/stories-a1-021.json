@@ -1,0 +1,175 @@
+{
+  "id": "a1-021",
+  "level": "A1",
+  "narrator": "Пряник",
+  "title": "Одежда",
+  "titleEnglish": "Clothing",
+  "description": "Маша выбирает, что надеть.",
+  "imageName": "tshirt.fill",
+  "fullText": "Утро. Я открываю шкаф и думаю, что надеть сегодня. На улице холодно, поэтому я надеваю тёплый свитер и джинсы. Потом я надеваю куртку и шапку. А где мой шарф? Ах, вот он! Пряник смотрит на меня. Я говорю ему, что ему не нужна одежда, потому что у него есть шерсть. Я смеюсь и иду на работу.",
+  "reviewVocab": [
+    {
+      "word": "одежда",
+      "definition": "clothes",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "одежда",
+        "одежды",
+        "одежду"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "куртка",
+      "definition": "jacket",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "куртка",
+        "куртки",
+        "куртку"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "шапка",
+      "definition": "hat, cap",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "шапка",
+        "шапки",
+        "шапку"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "надевать",
+      "definition": "to put on (clothes)",
+      "partOfSpeech": "verb (impf)",
+      "forms": [
+        "надеваю",
+        "надеваешь",
+        "надевает"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Что Маша открывает утром?",
+      "options": [
+        "Окно",
+        "Дверь",
+        "Шкаф"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша открывает шкаф."
+    },
+    {
+      "prompt": "Какая погода на улице?",
+      "options": [
+        "Холодно",
+        "Жарко",
+        "Тепло"
+      ],
+      "correctIndex": 0,
+      "explanation": "На улице холодно."
+    },
+    {
+      "prompt": "Что надевает Маша?",
+      "options": [
+        "Шорты",
+        "Платье",
+        "Свитер и джинсы"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша надевает тёплый свитер и джинсы."
+    },
+    {
+      "prompt": "Что ищет Маша?",
+      "options": [
+        "Шарф",
+        "Шапку",
+        "Перчатки"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша ищет шарф. «А где мой шарф?»"
+    },
+    {
+      "prompt": "Почему Пряник не нужна одежда?",
+      "options": [
+        "У него есть шерсть",
+        "Ему не холодно",
+        "Он дома"
+      ],
+      "correctIndex": 0,
+      "explanation": "«У тебя есть шерсть!»"
+    },
+    {
+      "prompt": "Что делает Маша в конце?",
+      "options": [
+        "Смеётся и идёт на работу",
+        "Идёт спать",
+        "Остаётся дома"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша смеётся и идёт на работу."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Я открываю _____.",
+      "На улице _____.",
+      "Я надеваю тёплый _____.",
+      "Потом я надеваю куртку и _____.",
+      "У Пряника есть _____."
+    ],
+    "choices": [
+      "шкаф",
+      "холодно",
+      "свитер",
+      "шапку",
+      "шерсть",
+      "жарко",
+      "джинсы"
+    ],
+    "answers": [
+      "шкаф",
+      "холодно",
+      "свитер",
+      "шапку",
+      "шерсть"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "What is the accusative of 'куртка'?",
+      "options": [
+        "куртка",
+        "куртки",
+        "куртку"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "cases",
+      "sentenceRef": "Она надевает куртку.",
+      "explanation": "Feminine nouns ending in -а change to -у in accusative case (used for direct objects). Examples: куртка → куртку, шапка → шапку, книга → книгу. Я надеваю куртку (I put on a jacket).",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "What does 'надевать' mean?",
+      "options": [
+        "To wear",
+        "To take off",
+        "To put on"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "vocabulary",
+      "sentenceRef": "Маша надевает куртку.",
+      "explanation": "'Надевать' = to put on clothes (the action of dressing). 'Носить' = to wear (habitually). Example: Я надеваю шапку (I'm putting on a hat) vs. Я ношу шапку зимой (I wear a hat in winter).",
+      "focusArea": "vocabulary"
+    }
+  ],
+  "audioFile": "a1-021.m4a",
+  "audioTimingFile": "a1-021-timing.json"
+}

@@ -1,0 +1,498 @@
+{
+  "lessonId": "a1-026-days-and-months",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Test your knowledge of days, months, and their case forms",
+      "descriptionRussian": "Проверьте знание дней недели, месяцев и их падежных форм",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Урок в _____. (The lesson is on Friday.)",
+              "promptEnglish": "The lesson is on Friday.",
+              "options": [
+                "пятницу",
+                "пятнице",
+                "пятница",
+                "пятницой"
+              ],
+              "answer": "пятницу",
+              "hint": "'On [day]' uses в + accusative.",
+              "explanation": "Days of the week use в + accusative: пятница -> в пятницу."
+            },
+            {
+              "prompt": "Каникулы начинаются в _____. (Vacation starts in August.)",
+              "promptEnglish": "Vacation starts in August.",
+              "options": [
+                "август",
+                "августе",
+                "августа",
+                "августом"
+              ],
+              "answer": "августе",
+              "hint": "'In [month]' uses в + prepositional.",
+              "explanation": "Months use в + prepositional: август -> в августе."
+            },
+            {
+              "prompt": "What day comes after среда (Wednesday)?",
+              "promptEnglish": "What day comes after среда (Wednesday)?",
+              "options": [
+                "вторник",
+                "пятница",
+                "четверг",
+                "понедельник"
+              ],
+              "answer": "четверг",
+              "hint": "Wednesday is the third day of the week in Russia.",
+              "explanation": "The order is: понедельник, вторник, среда, четверг. Thursday follows Wednesday."
+            },
+            {
+              "prompt": "Цветы появляются в _____. (Flowers appear in May.)",
+              "promptEnglish": "Flowers appear in May.",
+              "options": [
+                "мае",
+                "май",
+                "мая",
+                "маем"
+              ],
+              "answer": "мае",
+              "hint": "Prepositional case for months.",
+              "explanation": "'In May' = в мае (prepositional case of май)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Мы поедем в _____. (on Saturday)",
+          "contextEnglish": "We will go on Saturday.",
+          "options": [
+            "субботу",
+            "субботе"
+          ],
+          "answer": "субботу",
+          "explanation": "'On [day]' = в + accusative. Суббота -> в субботу."
+        },
+        {
+          "context": "День рождения в _____. (in February)",
+          "contextEnglish": "The birthday is in February.",
+          "options": [
+            "февраль",
+            "феврале"
+          ],
+          "answer": "феврале",
+          "explanation": "'In [month]' = в + prepositional: в феврале."
+        },
+        {
+          "context": "Экзамен в _____. (on Tuesday)",
+          "contextEnglish": "The exam is on Tuesday.",
+          "options": [
+            "вторник",
+            "вторнике"
+          ],
+          "answer": "вторник",
+          "explanation": "'On [day]' = в + accusative. Вторник is masculine and stays unchanged in the accusative."
+        },
+        {
+          "context": "Снег тает в _____. (in April)",
+          "contextEnglish": "The snow melts in April.",
+          "options": [
+            "апрель",
+            "апреле"
+          ],
+          "answer": "апреле",
+          "explanation": "'In [month]' = в + prepositional: апрель -> в апреле."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in the correct forms and sort days from months",
+      "descriptionRussian": "Вставьте правильные формы и рассортируйте дни и месяцы",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Занятия начинаются в _____. (Classes start on Monday.)",
+          "Праздник в _____. (The holiday is in November.)",
+          "Мы гуляем в парке в _____. (We walk in the park on Sunday.)",
+          "Школа открывается в _____. (School opens in September.)"
+        ],
+        "choices": [
+          "понедельник",
+          "ноябре",
+          "воскресенье",
+          "сентябре",
+          "ноябрь"
+        ],
+        "answers": [
+          "понедельник",
+          "ноябре",
+          "воскресенье",
+          "сентябре"
+        ],
+        "grammarFocus": "Days use в + accusative (no ending change for masculine), months use в + prepositional (-е ending).",
+        "hints": [
+          "Masculine day, accusative stays the same.",
+          "Month in prepositional case.",
+          "Neuter day, accusative stays the same.",
+          "Month in prepositional case."
+        ],
+        "explanations": [
+          "В понедельник: masculine inanimate nouns don't change in the accusative.",
+          "В ноябре: ноябрь -> ноябре in the prepositional case.",
+          "В воскресенье: neuter nouns don't change in the accusative.",
+          "В сентябре: сентябрь -> сентябре in the prepositional case."
+        ],
+        "options": [
+          [
+            "понедельник",
+            "понедельника",
+            "понедельником",
+            "понедельнику"
+          ],
+          [
+            "ноябрю",
+            "ноябрь",
+            "ноября",
+            "ноябре"
+          ],
+          [
+            "воскресенье",
+            "воскресения",
+            "воскресением",
+            "воскресению"
+          ],
+          [
+            "сентябре",
+            "сентябрю",
+            "сентябрь",
+            "сентября"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort: Day of the Week or Month?",
+        "categories": [
+          "Day of the Week",
+          "Month"
+        ],
+        "items": [
+          {
+            "word": "четверг",
+            "category": "Day of the Week"
+          },
+          {
+            "word": "октябрь",
+            "category": "Month"
+          },
+          {
+            "word": "воскресенье",
+            "category": "Day of the Week"
+          },
+          {
+            "word": "февраль",
+            "category": "Month"
+          },
+          {
+            "word": "вторник",
+            "category": "Day of the Week"
+          },
+          {
+            "word": "июнь",
+            "category": "Month"
+          },
+          {
+            "word": "суббота",
+            "category": "Day of the Week"
+          },
+          {
+            "word": "апрель",
+            "category": "Month"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "I work on Wednesday.",
+          "answer": "Я работаю в среду.",
+          "acceptableVariants": [],
+          "hint": "I = я, work = работаю, Wednesday accusative = среду",
+          "grammarFocus": "в + accusative for days",
+          "keyWord": "среду",
+          "options": [
+            "среду",
+            "среда",
+            "среде",
+            "среды"
+          ]
+        },
+        {
+          "english": "My birthday is in October.",
+          "answer": "Мой день рождения в октябре.",
+          "acceptableVariants": [
+            "День рождения в октябре."
+          ],
+          "hint": "birthday = день рождения, October prepositional = октябре",
+          "grammarFocus": "в + prepositional for months",
+          "keyWord": "октябре",
+          "options": [
+            "октябре",
+            "октябрь",
+            "октября",
+            "октябрём"
+          ]
+        },
+        {
+          "english": "We rest on Saturday.",
+          "answer": "Мы отдыхаем в субботу.",
+          "acceptableVariants": [],
+          "hint": "we = мы, rest = отдыхаем, Saturday accusative = субботу",
+          "grammarFocus": "в + accusative for days",
+          "keyWord": "субботу",
+          "options": [
+            "субботу",
+            "суббота",
+            "субботе",
+            "субботы"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Errors",
+      "titleRussian": "Найди ошибки",
+      "description": "Find and fix case errors in sentences about days and months",
+      "descriptionRussian": "Найдите и исправьте падежные ошибки в предложениях о днях и месяцах",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Мы поедем в среда.",
+          "error": "среда",
+          "correction": "среду",
+          "hint": "'On [day]' requires в + accusative.",
+          "explanation": "Среда is feminine, so it changes in the accusative: среда -> среду. В среду.",
+          "options": [
+            "среду",
+            "среде",
+            "среды",
+            "средой"
+          ]
+        },
+        {
+          "sentence": "Праздник в март.",
+          "error": "март",
+          "correction": "марте",
+          "hint": "'In [month]' requires в + prepositional.",
+          "explanation": "Months use в + prepositional: март -> в марте.",
+          "options": [
+            "марте",
+            "марта",
+            "мартом"
+          ]
+        },
+        {
+          "sentence": "Я не работаю в суббота.",
+          "error": "суббота",
+          "correction": "субботу",
+          "hint": "Feminine days change in the accusative.",
+          "explanation": "Суббота is feminine: суббота -> субботу in the accusative. В субботу.",
+          "options": [
+            "субботу",
+            "субботе",
+            "субботы"
+          ]
+        },
+        {
+          "sentence": "Дождь идёт в октябрь.",
+          "error": "октябрь",
+          "correction": "октябре",
+          "hint": "Months need the prepositional case after в.",
+          "explanation": "'In October' = в октябре. The prepositional ending is -е.",
+          "options": [
+            "октябре",
+            "октября",
+            "октябрём"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which form is correct: 'в пятница' or 'в пятницу'?",
+              "promptEnglish": "Which is the correct form for 'on Friday'?",
+              "options": [
+                "в пятница",
+                "в пятницу",
+                "в пятнице",
+                "в пятницой"
+              ],
+              "answer": "в пятницу",
+              "hint": "Days use accusative after в.",
+              "explanation": "Пятница is feminine: пятница -> пятницу in the accusative. В пятницу."
+            },
+            {
+              "prompt": "Жарко в _____. (It's hot in June.)",
+              "promptEnglish": "It's hot in June.",
+              "options": [
+                "июнь",
+                "июня",
+                "июне",
+                "июнём"
+              ],
+              "answer": "июне",
+              "hint": "Months use prepositional after в.",
+              "explanation": "'In June' = в июне. Prepositional case: июнь -> июне."
+            },
+            {
+              "prompt": "What is the last month of the year?",
+              "promptEnglish": "What is the last month of the year?",
+              "options": [
+                "ноябрь",
+                "январь",
+                "декабрь",
+                "октябрь"
+              ],
+              "answer": "декабрь",
+              "hint": "The month before January.",
+              "explanation": "Декабрь (December) is the 12th and last month of the year."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "A mixed challenge covering days, months, and case forms",
+      "descriptionRussian": "Смешанное задание по дням недели, месяцам и падежным формам",
+      "icon": "star",
+      "patternRecognition": [
+        {
+          "sentence": "в понедельник, в четверг, во вторник",
+          "question": "What case do these day-of-the-week forms use after в?",
+          "options": [
+            "Prepositional",
+            "Accusative",
+            "Genitive"
+          ],
+          "answer": "Accusative",
+          "explanation": "'On [day]' uses в + accusative. Masculine days like понедельник, четверг, вторник stay unchanged in the accusative."
+        },
+        {
+          "sentence": "в январе, в марте, в июне",
+          "question": "What case do these month forms use after в?",
+          "options": [
+            "Accusative",
+            "Genitive",
+            "Prepositional"
+          ],
+          "answer": "Prepositional",
+          "explanation": "'In [month]' uses в + prepositional. The -е ending is the prepositional marker."
+        },
+        {
+          "sentence": "в среду, в субботу, в пятницу",
+          "question": "Why do these days end in -у after в?",
+          "options": [
+            "They are feminine nouns in the accusative case",
+            "They are in the prepositional case",
+            "They are in the genitive case"
+          ],
+          "answer": "They are feminine nouns in the accusative case",
+          "explanation": "Среда, суббота, пятница are feminine. Feminine -а nouns change to -у in the accusative: в среду, в субботу, в пятницу."
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Концерт в _____. (on Thursday)",
+          "contextEnglish": "The concert is on Thursday.",
+          "options": [
+            "четверг",
+            "четверге"
+          ],
+          "answer": "четверг",
+          "explanation": "'On [day]' = в + accusative. Четверг is masculine and stays unchanged."
+        },
+        {
+          "context": "Листья падают в _____. (in October)",
+          "contextEnglish": "Leaves fall in October.",
+          "options": [
+            "октябре",
+            "октябрь"
+          ],
+          "answer": "октябре",
+          "explanation": "'In [month]' = в + prepositional: октябрь -> в октябре."
+        },
+        {
+          "context": "Мы поедем в _____. (on Wednesday)",
+          "contextEnglish": "We will go on Wednesday.",
+          "options": [
+            "среду",
+            "среде"
+          ],
+          "answer": "среду",
+          "explanation": "'On [day]' = в + accusative. Среда is feminine: среда -> среду."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Тепло в _____. (It's warm in May.)",
+          "У нас собрание в _____. (We have a meeting on Monday.)",
+          "Новый семестр в _____. (The new semester is in February.)"
+        ],
+        "choices": [
+          "мае",
+          "понедельник",
+          "феврале",
+          "май"
+        ],
+        "answers": [
+          "мае",
+          "понедельник",
+          "феврале"
+        ],
+        "grammarFocus": "Months use prepositional (в мае, в феврале), days use accusative (в понедельник).",
+        "hints": [
+          "Month in prepositional case.",
+          "Masculine day, accusative stays the same.",
+          "Month in prepositional case."
+        ],
+        "explanations": [
+          "В мае: май -> мае in the prepositional case.",
+          "В понедельник: masculine inanimate nouns don't change in the accusative.",
+          "В феврале: февраль -> феврале in the prepositional case."
+        ],
+        "options": [
+          [
+            "мая",
+            "маю",
+            "мае",
+            "май"
+          ],
+          [
+            "понедельника",
+            "понедельник",
+            "понедельнику",
+            "понедельником"
+          ],
+          [
+            "февралю",
+            "феврале",
+            "февраль",
+            "февраля"
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "id": "c1-011-colloquial-advanced",
+  "level": "C1",
+  "focusArea": "vocabulary",
+  "title": "Advanced Colloquial Russian",
+  "titleRussian": "Разговорный язык (углублённый)",
+  "description": "Advanced features of spoken Russian",
+  "descriptionRussian": "Продвинутые черты разговорной речи",
+  "imageName": "bubble.left.and.bubble.right",
+  "intro": "Spoken Russian differs significantly from written. PARTICLES: же (emphasis), -то (known info), ну (filler/softener), вот (pointing), ведь (after all). TRUNCATION: Чего? (= Что?), Куда? (going implied), Тебя (= Это тебя касается). WORD ORDER: Fronting for emphasis (Книгу я читал), right dislocation (Хороший он, этот фильм). ELLIPSIS: Omitting understood elements. REPETITION: Да-да-да (agreement), так-так (thinking). These features mark natural speech vs. bookish language.",
+  "rules": [
+    "Particles: же (emphasis), -то (familiar), ну (filler), ведь (after all)",
+    "Truncation: Чего? for Что?, Куда ты? (verb omitted)",
+    "Ellipsis: - Кофе? - Мне. (I'll have coffee) - subject/verb implied",
+    "Repetition for emphasis: да-да, ну-ну, так-так"
+  ],
+  "examples": [
+    "Ты же знаешь! (You know!, emphatic reminder)",
+    "Книга-то где? (Where's that book?, familiar reference)",
+    "Ну, не знаю... (Well, I don't know..., hedging)",
+    "Хороший он человек, Иван. (He's a good person, Ivan., right dislocation)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Emphasis: Ты _____ знаешь! (you DO know!)",
+          "promptEnglish": "Emphatic reminder",
+          "options": [
+            "то",
+            "вот",
+            "ну",
+            "же"
+          ],
+          "answer": "же",
+          "hint": "Emphatic = же",
+          "explanation": "Emphasis: же (you DO know)."
+        },
+        {
+          "prompt": "Familiar reference: Книга_____ где? (that book)",
+          "promptEnglish": "Where's that book we know about?",
+          "options": [
+            "-же",
+            "-ведь",
+            "-то",
+            "-ну"
+          ],
+          "answer": "-то",
+          "hint": "Known/familiar = -то",
+          "explanation": "Familiar: -то (that thing we both know)."
+        },
+        {
+          "prompt": "Filler/softener: _____, не знаю... (well)",
+          "promptEnglish": "Well, I don't know...",
+          "options": [
+            "Же",
+            "Ну",
+            "Вот",
+            "То"
+          ],
+          "answer": "Ну",
+          "hint": "Hedging filler",
+          "explanation": "Filler: Ну (well...)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Colloquial for 'Что?': _____?",
+          "promptEnglish": "What? (informal)",
+          "options": [
+            "Что",
+            "Чём",
+            "Чего",
+            "Чё"
+          ],
+          "answer": "Чего",
+          "hint": "Colloquial = чего",
+          "explanation": "Colloquial: Чего?For Что?"
+        },
+        {
+          "prompt": "Which shows right dislocation?",
+          "promptEnglish": "Topic moved to end for emphasis",
+          "options": [
+            "Хороший Иван.",
+            "Хороший он, Иван.",
+            "Иван хороший.",
+            "Он хороший."
+          ],
+          "answer": "Хороший он, Иван.",
+          "hint": "Comment first, topic last",
+          "explanation": "Right dislocation: predicate + он + topic."
+        },
+        {
+          "prompt": "Appeal: _____, ты должен понять. (after all)",
+          "promptEnglish": "After all, you must understand.",
+          "options": [
+            "Вот",
+            "Ну",
+            "Же",
+            "Ведь"
+          ],
+          "answer": "Ведь",
+          "hint": "Appealing to shared knowledge",
+          "explanation": "Appeal: Ведь (after all, you see)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Elliptical: - Кофе? - _____. (I'll have some)",
+          "promptEnglish": "Minimal response accepting offer",
+          "options": [
+            "Да кофе",
+            "Кофе мне",
+            "Мне",
+            "Я хочу кофе"
+          ],
+          "answer": "Мне",
+          "hint": "Just dative pronoun = 'for me'",
+          "explanation": "Ellipsis: Мне (= give it to me)."
+        },
+        {
+          "prompt": "Agreement repetition: _____, я понял. (yes yes)",
+          "promptEnglish": "Emphatic agreement",
+          "options": [
+            "Ну-ну",
+            "Нет-нет",
+            "Так-так",
+            "Да-да"
+          ],
+          "answer": "Да-да",
+          "hint": "Quick agreement",
+          "explanation": "Repetition: Да-да (emphatic yes)."
+        },
+        {
+          "prompt": "Pointing: _____ он идёт! (there he is)",
+          "promptEnglish": "Look, there he goes!",
+          "options": [
+            "То",
+            "Ну",
+            "Вот",
+            "Же"
+          ],
+          "answer": "Вот",
+          "hint": "Pointing/presenting = вот",
+          "explanation": "Pointing: Вот (there/here is)."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Он _____ хороший человек, просто устал. (ведь — обращение к общему знанию)",
+          "promptEnglish": "He is, after all, a good person; he's just tired.",
+          "options": [
+            "же",
+            "вот",
+            "ну",
+            "ведь"
+          ],
+          "answer": "ведь",
+          "hint": "Обращение к тому, что собеседник и так знает",
+          "explanation": "Частица «ведь» апеллирует к общему знанию: «ты ведь знаешь, что он хороший»."
+        },
+        {
+          "prompt": "Деньги_____ куда дел? (знакомый предмет)",
+          "promptEnglish": "Where did you put that money (we both know about)?",
+          "options": [
+            "-же",
+            "-ведь",
+            "-то",
+            "-ну"
+          ],
+          "answer": "-то",
+          "hint": "Частица для известного, знакомого предмета",
+          "explanation": "Частица «-то» указывает на предмет, известный обоим собеседникам: «деньги-то» — те самые деньги."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Она _____ сама всё знает! (after all - appeal to known fact)"
+    ],
+    "choices": [
+      "ведь",
+      "же",
+      "то",
+      "ну"
+    ],
+    "answers": [
+      "ведь"
+    ],
+    "grammarFocus": "Particle ведь: appealing to shared knowledge",
+    "hints": [
+      "Which particle appeals to shared knowledge, meaning 'after all' or 'you know'? It implies the information should be obvious."
+    ],
+    "explanations": [
+      "'Ведь' appeals to shared knowledge or common sense: 'Она ведь сама знает!' (She knows herself, after all!). It differs from 'же' (emphatic reminder) by adding a reasoning/justification tone rather than just emphasis."
+    ],
+    "options": [
+      [
+        "же",
+        "ведь",
+        "ну",
+        "то"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Emphasis on YOU: Ты _____ знаешь! (emphatic)",
+      "contextEnglish": "YOU know! (reminder)",
+      "options": [
+        "же",
+        "ведь"
+      ],
+      "answer": "же",
+      "explanation": "Direct emphasis: же."
+    },
+    {
+      "context": "Appeal to reason: _____ ты знаешь! (after all)",
+      "contextEnglish": "After all, you know!",
+      "options": [
+        "Ведь",
+        "Же"
+      ],
+      "answer": "Ведь",
+      "explanation": "Appealing: Ведь (you know this)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by colloquial feature type",
+    "categories": [
+      "Particle",
+      "Truncation",
+      "Repetition"
+    ],
+    "items": [
+      {
+        "word": "же",
+        "category": "Particle"
+      },
+      {
+        "word": "Чего?",
+        "category": "Truncation"
+      },
+      {
+        "word": "да-да",
+        "category": "Repetition"
+      },
+      {
+        "word": "ведь",
+        "category": "Particle"
+      },
+      {
+        "word": "Куда ты?",
+        "category": "Truncation"
+      },
+      {
+        "word": "ну-ну",
+        "category": "Repetition"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "же",
+      "definition": "emphatic particle (indeed!)",
+      "example": "Ты же знаешь!"
+    },
+    {
+      "term": "-то",
+      "definition": "particle for familiar reference",
+      "example": "Книга-то где?"
+    },
+    {
+      "term": "ведь",
+      "definition": "after all, you see (appeal)",
+      "example": "Ведь ты понимаешь."
+    },
+    {
+      "term": "ну",
+      "definition": "well, so (filler/softener)",
+      "example": "Ну, не знаю..."
+    }
+  ]
+}

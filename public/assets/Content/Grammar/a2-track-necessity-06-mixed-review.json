@@ -1,0 +1,334 @@
+{
+  "id": "a2-track-necessity-06-mixed-review",
+  "level": "A2",
+  "focusArea": "sentenceStructure",
+  "title": "Necessity 6: Putting It All Together",
+  "titleRussian": "Необходимость 6: Всё вместе",
+  "description": "A mixed review of the whole track: надо/нужно (dative), должен (nominative, agrees), нельзя/можно with aspect, past and future, and the can/should/must/will-have-to spectrum.",
+  "descriptionRussian": "Смешанное повторение всего трека: надо/нужно (дательный), должен (именительный, согласуется), нельзя/можно с видом, прошлое и будущее, и шкала можно/стоит/надо/придётся.",
+  "imageName": "checkmark.seal.fill",
+  "trackId": "a2-necessity-mastery",
+  "trackTitle": "Necessity Mastery",
+  "trackTitleRussian": "Необходимость",
+  "trackIndex": 6,
+  "trackTotal": 6,
+  "intro": "Everything here runs on one split. Most of these words are impersonal and put the person in the dative, where nothing agrees with anything. One of them is personal and puts the person in the nominative, where everything agrees. Decide which machine you are in before you touch the person, and the rest follows.",
+  "rules": [
+    "Dative machine (надо, нужно, можно, нельзя, стоит, придётся): person in the DATIVE, word never agrees. Past = было, future = будет (both frozen neuter).",
+    "Personal machine (должен): subject in the NOMINATIVE, agrees in gender/number (должен/должна/должны), past agrees too (должен был / должна была / должны были).",
+    "Нельзя + imperfective = forbidden (a rule); нельзя + perfective = impossible. Придётся usually takes a perfective infinitive.",
+    "Strength spectrum soft to hard: можно (may) → стоит (worth doing) → нужно/надо (need to) → придётся (no choice).",
+    "Never «я надо» (use мне надо) and never «мне должен» (use я должен). Dative freezes; nominative agrees."
+  ],
+  "examples": [
+    "Мне надо позвонить врачу. (I have to call the doctor.) dative machine, present.",
+    "Лена должна была работать. (Lena had to work.) personal machine, past, feminine agreement.",
+    "Здесь нельзя курить. (Smoking is forbidden here.) нельзя + imperfective = a rule.",
+    "Эту дверь нельзя открыть. (This door can't be opened.) нельзя + perfective = impossible.",
+    "Нам придётся подождать. (We'll have to wait.) strong necessity, dative, perfective.",
+    "Тебе стоит отдохнуть. (You should rest.) gentle advice, dative."
+  ],
+  "tables": [
+    {
+      "title": "The whole system at a glance",
+      "headers": [
+        "Word",
+        "Person's case",
+        "Agrees?"
+      ],
+      "rows": [
+        {
+          "label": "надо / нужно",
+          "cells": [
+            "dative (мне)",
+            "no, frozen"
+          ]
+        },
+        {
+          "label": "можно / нельзя",
+          "cells": [
+            "dative (мне)",
+            "no, frozen"
+          ]
+        },
+        {
+          "label": "стоит / придётся",
+          "cells": [
+            "dative (мне)",
+            "no, frozen"
+          ]
+        },
+        {
+          "label": "должен",
+          "cells": [
+            "nominative (я)",
+            "yes: должен/должна/должны"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ надо позвонить маме сегодня.",
+          "promptEnglish": "I have to call mom today.",
+          "options": [
+            "Я",
+            "Мне",
+            "Меня",
+            "Мной"
+          ],
+          "answer": "Мне",
+          "hint": "Надо is the dative machine. The person freezes into which case?",
+          "explanation": "Надо is impersonal: the person goes into the dative. Я becomes мне. Мне надо позвонить маме. Never «я надо»."
+        },
+        {
+          "prompt": "Лена _____ работать в субботу.",
+          "promptEnglish": "Lena must work on Saturday.",
+          "options": [
+            "должен",
+            "должно",
+            "должна",
+            "надо"
+          ],
+          "answer": "должна",
+          "hint": "Должен agrees with the subject. Лена is feminine.",
+          "explanation": "Должен is the personal machine: the subject is nominative and должен agrees. Лена is feminine, so должна. Лена должна работать."
+        },
+        {
+          "prompt": "Здесь нельзя _____. (a rule against loud talking)",
+          "promptEnglish": "Loud talking is forbidden here.",
+          "options": [
+            "громко разговаривать",
+            "громко поговорить",
+            "громко разговариваю",
+            "громко поговори"
+          ],
+          "answer": "громко разговаривать",
+          "hint": "A rule forbidding an activity takes which aspect after нельзя?",
+          "explanation": "A prohibition (a rule) uses нельзя + imperfective: разговаривать. Здесь нельзя громко разговаривать."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Вчера Антон должен _____ встать рано.",
+          "promptEnglish": "Yesterday Anton had to get up early.",
+          "options": [
+            "было",
+            "был",
+            "была",
+            "были"
+          ],
+          "answer": "был",
+          "hint": "Должен agrees in the past too. Антон is masculine singular.",
+          "explanation": "Должен is personal, so the past copula agrees: Антон is masculine singular → был. Антон должен был встать рано."
+        },
+        {
+          "prompt": "Лекарства нет, нам _____ купить новое.",
+          "promptEnglish": "There's no medicine, we'll have to buy new.",
+          "options": [
+            "можно",
+            "стоит",
+            "придётся",
+            "должны"
+          ],
+          "answer": "придётся",
+          "hint": "No choice in the matter. Which is the strongest word, and does it take dative?",
+          "explanation": "A forced, no-choice necessity uses придётся with the dative person: Нам придётся купить новое."
+        },
+        {
+          "prompt": "Завтра мне надо _____ работать.",
+          "promptEnglish": "Tomorrow I will have to work.",
+          "options": [
+            "было",
+            "был",
+            "будет",
+            "была"
+          ],
+          "answer": "будет",
+          "hint": "'Завтра' is future. With надо the future copula is frozen.",
+          "explanation": "Future necessity with надо adds будет, which stays neuter regardless of the dative person: Завтра мне надо будет работать."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "У меня болит голова. Мне _____ отдохнуть. (I have a headache. I need to rest.)"
+    ],
+    "choices": [
+      "должен",
+      "должна",
+      "нужно",
+      "нельзя"
+    ],
+    "answers": [
+      "нужно"
+    ],
+    "grammarFocus": "The frame is 'Мне ____ отдохнуть' with a dative person (мне), so the word must belong to the impersonal machine: нужно. Мне нужно отдохнуть = I need to rest."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Он надо купить хлеб.",
+      "translationEnglish": "He needs to buy bread.",
+      "error": "Он",
+      "correction": "Ему",
+      "options": [
+        "Ему",
+        "Его",
+        "Им"
+      ],
+      "explanation": "Надо is impersonal and takes the dative person, never the nominative: он becomes ему. Ему надо купить хлеб."
+    },
+    {
+      "sentence": "Мне должен работать сегодня.",
+      "translationEnglish": "I must work today.",
+      "error": "Мне",
+      "correction": "Я",
+      "options": [
+        "Я",
+        "Меня",
+        "Мной"
+      ],
+      "explanation": "Должен is personal and takes a nominative subject, not the dative: the «мне должен» blend is the other signature error. Use я (and pick должен/должна by gender). Correct: Я должен работать сегодня."
+    },
+    {
+      "sentence": "Они должна были подождать.",
+      "translationEnglish": "They had to wait.",
+      "error": "должна",
+      "correction": "должны",
+      "options": [
+        "должны",
+        "должен",
+        "должно"
+      ],
+      "explanation": "Они is plural, so должен agrees in the plural: должны были, not the feminine singular должна. Correct: Они должны были подождать."
+    },
+    {
+      "sentence": "Этот файл нельзя открывать, он повреждён.",
+      "translationEnglish": "This file can't be opened, it's damaged.",
+      "error": "открывать",
+      "correction": "открыть",
+      "options": [
+        "открыть",
+        "открой",
+        "открываю"
+      ],
+      "explanation": "The file physically cannot be opened (it's damaged), which is impossibility, not a rule, so нельзя takes the perfective: открыть. The imperfective открывать would read as 'one is forbidden to open it,' a rule, which 'он повреждён' rules out. Correct: Этот файл нельзя открыть."
+    },
+    {
+      "sentence": "Магазин закрыт, нам придётся приходить завтра.",
+      "translationEnglish": "The store is closed, we'll have to come tomorrow.",
+      "error": "приходить",
+      "correction": "прийти",
+      "options": [
+        "прийти",
+        "приходим",
+        "приди"
+      ],
+      "explanation": "Придётся takes a perfective infinitive for the single act you are forced into, so the one-time return needs прийти, not the imperfective приходить (which would mean coming repeatedly or habitually). Correct: Нам придётся прийти завтра."
+    },
+    {
+      "sentence": "Вчера Лене надо была встать рано.",
+      "translationEnglish": "Yesterday Lena had to get up early.",
+      "error": "была",
+      "correction": "было",
+      "options": [
+        "было",
+        "был",
+        "будет"
+      ],
+      "explanation": "Надо is impersonal, so its past copula is the frozen neuter было, no matter who the dative person is. Even with feminine Лене it stays было, not была, because надо has no subject to agree with. Correct: Вчера Лене надо было встать рано."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "_____ надо отдохнуть.",
+      "contextEnglish": "I need to rest.",
+      "options": [
+        "Я",
+        "Мне"
+      ],
+      "answer": "Мне",
+      "explanation": "Надо is the dative machine, so the person freezes into the dative: мне. «Я надо» is the classic error; Мне надо отдохнуть is correct."
+    },
+    {
+      "context": "Антон _____ работать завтра.",
+      "contextEnglish": "Anton must work tomorrow.",
+      "options": [
+        "должен",
+        "надо"
+      ],
+      "answer": "должен",
+      "explanation": "The subject Антон is in the nominative, which signals the personal machine: должен agrees with it. Надо would require a dative person (Антону надо работать), not the nominative Антон."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each necessity word by which case the person takes.",
+    "categories": [
+      "Dative person (мне, тебе...)",
+      "Nominative subject (я, ты...)"
+    ],
+    "items": [
+      {
+        "word": "надо",
+        "category": "Dative person (мне, тебе...)"
+      },
+      {
+        "word": "нужно",
+        "category": "Dative person (мне, тебе...)"
+      },
+      {
+        "word": "можно",
+        "category": "Dative person (мне, тебе...)"
+      },
+      {
+        "word": "нельзя",
+        "category": "Dative person (мне, тебе...)"
+      },
+      {
+        "word": "стоит",
+        "category": "Dative person (мне, тебе...)"
+      },
+      {
+        "word": "придётся",
+        "category": "Dative person (мне, тебе...)"
+      },
+      {
+        "word": "должен",
+        "category": "Nominative subject (я, ты...)"
+      },
+      {
+        "word": "должна",
+        "category": "Nominative subject (я, ты...)"
+      },
+      {
+        "word": "должны",
+        "category": "Nominative subject (я, ты...)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "the dative machine",
+      "definition": "надо, нужно, можно, нельзя, стоит, придётся: all impersonal, all put the person in the dative, none agree. Past = было, future = будет.",
+      "example": "Мне надо работать. Тебе стоит отдохнуть. Нам придётся подождать."
+    },
+    {
+      "term": "the personal machine (должен)",
+      "definition": "должен: the one necessity word with a nominative subject that it agrees with (должен/должна/должны, past должен был / должна была / должны были).",
+      "example": "Я должна работать. Они должны были подождать."
+    },
+    {
+      "term": "the two errors to kill",
+      "definition": "«я надо» → мне надо (dative, frozen); «мне должен» → я должен (nominative, agrees). Master these two and the whole necessity system follows.",
+      "example": "Мне надо позвонить. Я должен позвонить."
+    }
+  ]
+}

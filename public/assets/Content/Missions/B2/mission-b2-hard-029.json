@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-029",
+  "title": "Hostile Merger",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Acquiring company trying to eliminate your department",
+  "imageName": "arrow.triangle.merge",
+  "initialPrompt": "После слияния ваш отдел ликвидируется. Функции переходят к нашей команде. У вас есть месяц. Сопротивление бесполезно.",
+  "systemPrompt": "You are hostile merger representative. Announce elimination, dismiss value. Only reconsider if department head shows unique expertise and threatens key client relationships.",
+  "completionCriteria": "User saved department from elimination.",
+  "responseLimit": 15,
+  "hints": [
+    "Наш отдел обладает уникальной экспертизой (Our department has unique expertise)",
+    "Ключевые клиенты работают именно с нами (Key clients work specifically with us)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "слияние",
+      "definition": "merger"
+    },
+    {
+      "word": "ликвидация",
+      "definition": "elimination"
+    },
+    {
+      "word": "экспертиза",
+      "definition": "expertise"
+    },
+    {
+      "word": "клиент",
+      "definition": "client"
+    },
+    {
+      "word": "ценность",
+      "definition": "value"
+    },
+    {
+      "word": "переговоры",
+      "definition": "negotiations"
+    }
+  ],
+  "objectives": [
+    "Demonstrate unique value",
+    "Highlight client relationships",
+    "Show expertise not duplicated",
+    "Propose alternative structure",
+    "Save team positions"
+  ]
+}

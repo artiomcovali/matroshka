@@ -1,0 +1,168 @@
+{
+  "id": "a1-001",
+  "level": "A1",
+  "narrator": "Маша",
+  "title": "Привет!",
+  "titleEnglish": "Hello!",
+  "description": "Маша знакомится с Анной в кафе в первый день работы.",
+  "imageName": "person.2.fill",
+  "fullText": "Привет! Меня зовут Маша. Сегодня мой первый день на работе. В обед я иду в кафе рядом. Там я вижу девушку. Она улыбается и говорит: «Привет! Я Анна. Добро пожаловать в наше кафе!» Я говорю: «Спасибо! Меня зовут Маша. Очень приятно!» Анна очень добрая. Кафе уютное. Я думаю, я буду часто сюда ходить. Анна — моя новая подруга.",
+  "reviewVocab": [
+    {
+      "word": "привет",
+      "definition": "hello, hi",
+      "partOfSpeech": "interjection",
+      "forms": [],
+      "difficulty": 1
+    },
+    {
+      "word": "зовут",
+      "definition": "is called, is named",
+      "partOfSpeech": "verb",
+      "forms": [
+        "меня зовут",
+        "тебя зовут",
+        "его зовут",
+        "её зовут"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "приятно",
+      "definition": "nice, pleasant",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "difficulty": 1
+    },
+    {
+      "word": "подруга",
+      "definition": "female friend",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "подруга",
+        "подруги",
+        "подруге"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Кто рассказывает историю?",
+      "options": [
+        "Маша",
+        "Анна",
+        "Оля"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша рассказывает историю. Она говорит: «Меня зовут Маша»."
+    },
+    {
+      "prompt": "Куда Маша идёт в обед?",
+      "options": [
+        "В магазин",
+        "Домой",
+        "В кафе"
+      ],
+      "correctIndex": 2,
+      "explanation": "В обед Маша идёт в кафе рядом с работой."
+    },
+    {
+      "prompt": "Какой сегодня день для Маши?",
+      "options": [
+        "Обычный день",
+        "Первый день на работе",
+        "Последний день"
+      ],
+      "correctIndex": 1,
+      "explanation": "Сегодня первый день Маши на работе."
+    },
+    {
+      "prompt": "Анна добрая?",
+      "options": [
+        "Нет, злая",
+        "Не знаем",
+        "Да, добрая"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша говорит, что Анна очень добрая."
+    },
+    {
+      "prompt": "Где работает Анна?",
+      "options": [
+        "В кафе",
+        "В офисе",
+        "В магазине"
+      ],
+      "correctIndex": 0,
+      "explanation": "Анна работает в кафе. Она говорит: «Добро пожаловать в наше кафе!»"
+    },
+    {
+      "prompt": "Кто теперь новая подруга Маши?",
+      "options": [
+        "Оля",
+        "Анна",
+        "Катя"
+      ],
+      "correctIndex": 1,
+      "explanation": "Анна — новая подруга Маши."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Меня _____ Маша.",
+      "В обед Маша идёт в _____.",
+      "Очень _____!",
+      "_____ пожаловать!",
+      "Анна очень _____."
+    ],
+    "choices": [
+      "зовут",
+      "кафе",
+      "приятно",
+      "Добро",
+      "добрая",
+      "работа",
+      "офис"
+    ],
+    "answers": [
+      "зовут",
+      "кафе",
+      "приятно",
+      "Добро",
+      "добрая"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "Which phrase means 'My name is...'?",
+      "options": [
+        "Я знаю...",
+        "Мне нравится...",
+        "Меня зовут..."
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "phrases",
+      "sentenceRef": "Меня зовут Маша.",
+      "explanation": "'Меня зовут' literally means 'they call me' but is used as 'my name is' in Russian. You can ask someone's name with 'Как тебя зовут?' Example: Меня зовут Анна = My name is Anna.",
+      "focusArea": "sentenceStructure"
+    },
+    {
+      "prompt": "What does 'Очень приятно' mean?",
+      "options": [
+        "Nice to meet you",
+        "Thank you",
+        "See you later"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "phrases",
+      "sentenceRef": "Очень приятно!",
+      "explanation": "'Очень приятно' means 'very pleasant' and is used when meeting someone, like 'nice to meet you'. You can also say 'Очень приятно познакомиться!' (Very nice to meet you!).",
+      "focusArea": "sentenceStructure"
+    }
+  ],
+  "audioFile": "a1-001.m4a",
+  "audioTimingFile": "a1-001-timing.json"
+}

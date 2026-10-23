@@ -1,0 +1,319 @@
+{
+  "id": "a1-015-review-3",
+  "level": "A1",
+  "sortKey": "a1-020b-review-3",
+  "focusArea": "sentenceStructure",
+  "title": "Review 3",
+  "titleRussian": "Повторение 3",
+  "description": "Possessives, есть/нет constructions, plurals, and adjectives",
+  "descriptionRussian": "Притяжательные местоимения, конструкции есть/нет, множественное число и прилагательные",
+  "imageName": "star.fill",
+  "intro": "This review covers possessive pronouns (мой, твой, наш, etc.), the есть/нет constructions for expressing 'have' and 'don't have', how to form noun plurals, and how adjectives agree with nouns in gender and number. These topics connect: when you say 'I have a new book', you need possessives, есть, adjective agreement, and the right noun form.",
+  "rules": [
+    "Possessive pronouns agree with the noun they modify: мой стол (m), моя книга (f), моё окно (n), мои друзья (pl).",
+    "У меня есть + nominative means 'I have': У меня есть кошка. (I have a cat.)",
+    "У меня нет + genitive means 'I don't have': У меня нет кошки. (I don't have a cat.)",
+    "Most masculine nouns add -ы/-и for plural: стол → столы, друг → друзья. Feminine -а → -ы, -я → -и. Neuter -о → -а, -е → -я.",
+    "Adjectives match the noun: новый (m), новая (f), новое (n), новые (pl). Soft-stem: синий, синяя, синее, синие."
+  ],
+  "examples": [
+    "Это мой дом. Это моя мама. Это моё кресло. (my house, my mom, my armchair)",
+    "У Анны есть собака. (Anna has a dog.)",
+    "У него нет машины. (He doesn't have a car.)",
+    "книга → книги, стол → столы, окно → окна (plurals)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ книга на столе. (my, feminine)",
+          "promptEnglish": "My book is on the table.",
+          "options": [
+            "моя",
+            "мой",
+            "моё",
+            "мои"
+          ],
+          "answer": "моя",
+          "hint": "Книга is feminine",
+          "explanation": "Книга is feminine, so the possessive takes the feminine form: моя книга."
+        },
+        {
+          "prompt": "_____ окно большое. (our, neuter)",
+          "promptEnglish": "Our window is big.",
+          "options": [
+            "наш",
+            "наше",
+            "наша",
+            "наши"
+          ],
+          "answer": "наше",
+          "hint": "Окно is neuter",
+          "explanation": "Окно is neuter, so наш takes the neuter form: наше окно."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "У меня _____ кошка.",
+          "promptEnglish": "I have a cat.",
+          "options": [
+            "есть",
+            "нет",
+            "был",
+            "это"
+          ],
+          "answer": "есть",
+          "hint": "Expressing possession with 'have'",
+          "explanation": "У меня есть + nominative expresses 'I have': У меня есть кошка."
+        },
+        {
+          "prompt": "У него нет _____. (car)",
+          "promptEnglish": "He doesn't have a car.",
+          "options": [
+            "машина",
+            "машину",
+            "машины",
+            "машине"
+          ],
+          "answer": "машины",
+          "hint": "After нет, use genitive case",
+          "explanation": "After нет, the noun takes genitive case. Машина (f) → машины in genitive."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "What is the plural of 'книга'?",
+          "promptEnglish": "What is the plural of 'книга' (book)?",
+          "options": [
+            "книгу",
+            "книге",
+            "книги",
+            "книгой"
+          ],
+          "answer": "книги",
+          "hint": "Feminine -а changes to -и (spelling rule: after г, use и not ы)",
+          "explanation": "Книга → книги. After г, к, х, ж, ш, щ, ч, the plural ending is -и, not -ы."
+        },
+        {
+          "prompt": "What is the plural of 'окно'?",
+          "promptEnglish": "What is the plural of 'окно' (window)?",
+          "options": [
+            "окны",
+            "окна",
+            "окне",
+            "окну"
+          ],
+          "answer": "окна",
+          "hint": "Neuter -о changes to -а",
+          "explanation": "Neuter nouns ending in -о form plural with -а: окно → окна."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "_____ машина (red, feminine)",
+          "promptEnglish": "A red car",
+          "options": [
+            "красный",
+            "красное",
+            "красные",
+            "красная"
+          ],
+          "answer": "красная",
+          "hint": "Машина is feminine",
+          "explanation": "Машина is feminine, so the adjective takes -ая: красная машина."
+        },
+        {
+          "prompt": "_____ дома (new, plural)",
+          "promptEnglish": "New houses",
+          "options": [
+            "новый",
+            "новая",
+            "новое",
+            "новые"
+          ],
+          "answer": "новые",
+          "hint": "Дома is plural",
+          "explanation": "Plural adjectives take -ые or -ие regardless of gender: новые дома."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Это _____ брат. (my, masculine)",
+      "У неё _____ собака. (there is)",
+      "У меня нет _____. (brother, genitive)",
+      "Это _____ дома. (big, plural)",
+      "Стол → _____ (plural)"
+    ],
+    "choices": [
+      "мой",
+      "есть",
+      "брата",
+      "большие",
+      "столы",
+      "моя"
+    ],
+    "answers": [
+      "мой",
+      "есть",
+      "брата",
+      "большие",
+      "столы"
+    ],
+    "grammarFocus": "Possessive pronouns, есть/нет, adjective agreement, and plurals",
+    "options": [
+      [
+        "хочет",
+        "мой",
+        "ест",
+        "пьёт"
+      ],
+      [
+        "нравятся",
+        "кажется",
+        "хочется",
+        "есть"
+      ],
+      [
+        "Наши",
+        "Твои",
+        "брата",
+        "Ваши"
+      ],
+      [
+        "моё",
+        "наше",
+        "его",
+        "большие"
+      ],
+      [
+        "столы",
+        "маленькая",
+        "новая",
+        "красивая"
+      ]
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort possessive pronouns by gender they describe",
+    "categories": [
+      "Masculine",
+      "Feminine",
+      "Neuter",
+      "Plural"
+    ],
+    "items": [
+      {
+        "word": "мой",
+        "category": "Masculine"
+      },
+      {
+        "word": "моя",
+        "category": "Feminine"
+      },
+      {
+        "word": "моё",
+        "category": "Neuter"
+      },
+      {
+        "word": "мои",
+        "category": "Plural"
+      },
+      {
+        "word": "твой",
+        "category": "Masculine"
+      },
+      {
+        "word": "твоя",
+        "category": "Feminine"
+      },
+      {
+        "word": "твоё",
+        "category": "Neuter"
+      },
+      {
+        "word": "твои",
+        "category": "Plural"
+      }
+    ]
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "есть",
+        "кошка",
+        "У",
+        "меня"
+      ],
+      "answer": "У меня есть кошка.",
+      "translation": "I have a cat.",
+      "hint": "У + genitive + есть + nominative"
+    },
+    {
+      "words": [
+        "нет",
+        "У",
+        "машины",
+        "него"
+      ],
+      "answer": "У него нет машины.",
+      "translation": "He doesn't have a car.",
+      "hint": "У + genitive pronoun + нет + genitive noun"
+    },
+    {
+      "words": [
+        "книга",
+        "Это",
+        "интересная",
+        "моя"
+      ],
+      "answer": "Это моя интересная книга.",
+      "translation": "This is my interesting book.",
+      "hint": "Это + possessive + adjective + noun"
+    },
+    {
+      "words": [
+        "новые",
+        "Это",
+        "друзья",
+        "мои"
+      ],
+      "answer": "Это мои новые друзья.",
+      "translation": "These are my new friends.",
+      "hint": "Это + possessive + adjective + noun (all plural)"
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "притяжательное местоимение",
+      "definition": "possessive pronoun",
+      "example": "Мой, твой, наш — притяжательные местоимения."
+    },
+    {
+      "term": "множественное число",
+      "definition": "plural number",
+      "example": "Книги, столы, окна — множественное число."
+    },
+    {
+      "term": "прилагательное",
+      "definition": "adjective",
+      "example": "Новый, красивый, большой — прилагательные."
+    },
+    {
+      "term": "есть / нет",
+      "definition": "have / don't have",
+      "example": "У меня есть кошка. У меня нет собаки."
+    }
+  ]
+}

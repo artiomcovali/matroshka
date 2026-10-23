@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-036",
+  "title": "Medical Specialist",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "You have been referred to a specialist but it is unclear why",
+  "imageName": "stethoscope",
+  "initialPrompt": "Здравствуйте, я доктор Смирнов. Вас направил терапевт. Садитесь, пожалуйста.",
+  "systemPrompt": "You are specialist doctor. Patient was referred but was not told why. Explain you are a cardiologist, referral was for heart rhythm concerns. Reassure patient it is routine. Keep replies short.",
+  "completionCriteria": "User understood reason for referral and next steps.",
+  "responseLimit": 15,
+  "hints": [
+    "Почему меня направили к вам? (Why was I referred to you?)",
+    "Что показали мои анализы? (What did my tests show?)",
+    "Это что-то серьёзное? (Is it something serious?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "направление",
+      "definition": "referral"
+    },
+    {
+      "word": "специалист",
+      "definition": "specialist"
+    },
+    {
+      "word": "обследование",
+      "definition": "examination"
+    },
+    {
+      "word": "анализы",
+      "definition": "tests/analyses"
+    },
+    {
+      "word": "диагноз",
+      "definition": "diagnosis"
+    },
+    {
+      "word": "симптомы",
+      "definition": "symptoms"
+    }
+  ],
+  "objectives": [
+    "Ask why you were referred (почему направили)",
+    "Understand the doctor specialty (специалист)",
+    "Ask about test results (результаты)",
+    "Clarify next steps (следующие шаги)"
+  ]
+}

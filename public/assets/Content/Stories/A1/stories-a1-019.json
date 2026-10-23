@@ -1,0 +1,169 @@
+{
+  "id": "a1-019",
+  "level": "A1",
+  "narrator": "Маша",
+  "title": "Что ты ешь?",
+  "titleEnglish": "What Do You Eat?",
+  "description": "Маша и Анна говорят о еде.",
+  "imageName": "fork.knife",
+  "fullText": "Сегодня мы с Анной обедаем в кафе. Анна спрашивает, что я ем, и я говорю, что ем салат и суп. Она ест пиццу и говорит, что очень вкусно. Я люблю здоровую еду: овощи, фрукты, рыбу. А Анна любит пиццу и пасту. Она спрашивает, хочу ли я попробовать. Я пробую пиццу и говорю, что правда вкусно!",
+  "reviewVocab": [
+    {
+      "word": "еда",
+      "definition": "food",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "еда",
+        "еды",
+        "еду"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "овощи",
+      "definition": "vegetables",
+      "partOfSpeech": "noun (pl)",
+      "forms": [
+        "овощи",
+        "овощей"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "фрукты",
+      "definition": "fruits",
+      "partOfSpeech": "noun (pl)",
+      "forms": [
+        "фрукты",
+        "фруктов"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "вкусно",
+      "definition": "delicious, tasty",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Где обедают Маша и Анна?",
+      "options": [
+        "Дома",
+        "В офисе",
+        "В кафе"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша и Анна обедают в кафе."
+    },
+    {
+      "prompt": "Что ест Маша?",
+      "options": [
+        "Пиццу",
+        "Салат и суп",
+        "Пасту"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша ест салат и суп."
+    },
+    {
+      "prompt": "Что ест Анна?",
+      "options": [
+        "Суп",
+        "Пиццу",
+        "Салат"
+      ],
+      "correctIndex": 1,
+      "explanation": "Анна ест пиццу."
+    },
+    {
+      "prompt": "Какую еду любит Маша?",
+      "options": [
+        "Сладкое",
+        "Фастфуд",
+        "Здоровую еду"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша любит здоровую еду: овощи, фрукты, рыбу."
+    },
+    {
+      "prompt": "Маша пробует пиццу?",
+      "options": [
+        "Да",
+        "Нет",
+        "Не знаем"
+      ],
+      "correctIndex": 0,
+      "explanation": "Да, Маша пробует пиццу."
+    },
+    {
+      "prompt": "Пицца вкусная?",
+      "options": [
+        "Да",
+        "Нет",
+        "Не очень"
+      ],
+      "correctIndex": 0,
+      "explanation": "Да, пицца вкусная. Маша говорит «правда вкусно!»"
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Мы с Анной _____ в кафе.",
+      "Я ем _____ и суп.",
+      "Анна ест _____.",
+      "Я люблю здоровую _____.",
+      "Анна спрашивает, хочу ли я _____."
+    ],
+    "choices": [
+      "обедаем",
+      "салат",
+      "пиццу",
+      "еду",
+      "попробовать",
+      "ужинаем",
+      "рыбу"
+    ],
+    "answers": [
+      "обедаем",
+      "салат",
+      "пиццу",
+      "еду",
+      "попробовать"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "What is the difference between 'есть' and 'ешь'?",
+      "options": [
+        "They are the same",
+        "'Ешь' is past tense",
+        "'Есть' is infinitive, 'ешь' is 'you eat'"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "verb conjugation",
+      "sentenceRef": "Что ты ешь?",
+      "explanation": "'Есть' = to eat (infinitive). It conjugates irregularly: я ем, ты ешь, он/она ест, мы едим, они едят. Note: 'есть' also means 'there is' (У меня есть). Context tells them apart.",
+      "focusArea": "conjugation"
+    },
+    {
+      "prompt": "What case is 'пиццу' in?",
+      "options": [
+        "Accusative",
+        "Genitive",
+        "Nominative"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "cases",
+      "sentenceRef": "Я ем пиццу.",
+      "explanation": "'Пиццу' is accusative case (the object being eaten). Feminine nouns ending in -а change to -у in accusative. Nominative: пицца, accusative: пиццу. Example: Я люблю пиццу (I love pizza).",
+      "focusArea": "cases"
+    }
+  ],
+  "audioFile": "a1-019.m4a",
+  "audioTimingFile": "a1-019-timing.json"
+}

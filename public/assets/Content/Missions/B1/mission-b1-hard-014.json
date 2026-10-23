@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-014",
+  "title": "The Dead Plants",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Plants died following garden center advice - get compensation",
+  "imageName": "leaf.fill",
+  "initialPrompt": "Растения погибли? Это климат, не наша рекомендация. Мы не несём ответственности.",
+  "systemPrompt": "You work at garden center. Customer's plants died after your bad advice. Blame climate, watering. Offer replacement only if customer mentions other successful plants with same care. Keep replies short.",
+  "completionCriteria": "User got replacement plants or refund.",
+  "responseLimit": 15,
+  "hints": [
+    "Я следовал вашим инструкциям (I followed your instructions)",
+    "Другие растения живы (Other plants are alive)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "погибнуть",
+      "definition": "to die (plants)"
+    },
+    {
+      "word": "рекомендация",
+      "definition": "recommendation"
+    },
+    {
+      "word": "замена",
+      "definition": "replacement"
+    },
+    {
+      "word": "уход",
+      "definition": "care"
+    },
+    {
+      "word": "гарантия",
+      "definition": "guarantee"
+    },
+    {
+      "word": "совет",
+      "definition": "advice"
+    }
+  ],
+  "objectives": [
+    "Explain what happened",
+    "Counter their excuses",
+    "Show you followed advice",
+    "Request compensation",
+    "Get resolution"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-a1-hard-010",
+  "title": "The Stubborn Landlord",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Your heating is broken - convince your reluctant landlord to fix it",
+  "imageName": "thermometer.snowflake",
+  "initialPrompt": "Да? Кто это? А, жилец из квартиры пять. Что случилось?",
+  "systemPrompt": "You are a grumpy landlord. Heating is broken in tenant's apartment. First say 'maybe tomorrow' or 'it's not so cold'. Can be convinced if tenant says it's very cold, they're sick, or threatens to call authorities. Keep replies short.",
+  "completionCriteria": "User convinced you to send repair person or you agreed to fix it.",
+  "responseLimit": 15,
+  "hints": [
+    "Отопление не работает (The heating doesn't work)",
+    "Очень холодно в квартире (It's very cold in the apartment)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "отопление",
+      "definition": "heating"
+    },
+    {
+      "word": "холодно",
+      "definition": "cold"
+    },
+    {
+      "word": "сломано",
+      "definition": "broken"
+    },
+    {
+      "word": "починить",
+      "definition": "to repair"
+    },
+    {
+      "word": "срочно",
+      "definition": "urgently"
+    },
+    {
+      "word": "жаловаться",
+      "definition": "to complain"
+    }
+  ],
+  "objectives": [
+    "Explain the heating problem (Отопление не работает)",
+    "Emphasize it's urgent or cold",
+    "Handle the landlord's excuses",
+    "Convince them to fix it today",
+    "Get confirmation of repair"
+  ]
+}

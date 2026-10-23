@@ -1,0 +1,301 @@
+{
+  "id": "a2-001-past-tense",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Past Tense",
+  "titleRussian": "Прошедшее время",
+  "description": "Past tense formation and usage",
+  "descriptionRussian": "Образование и употребление прошедшего времени",
+  "imageName": "clock.arrow.circlepath",
+  "intro": "The Russian past tense is remarkably simple compared to present tense. Instead of six different endings for each person, there are only FOUR forms total - based on gender and number. Remove the -ть from the infinitive and add: -л (masculine), -ла (feminine), -ло (neuter), -ли (plural/formal). The subject determines which ending to use.",
+  "rules": [
+    "Past tense agrees with GENDER and NUMBER, not person: я читал (m), я читала (f), мы читали (pl).",
+    "Formation: infinitive stem + -л/-ла/-ло/-ли: читать → читал/читала/читало/читали.",
+    "я takes masculine or feminine based on speaker's gender: я читал (male), я читала (female).",
+    "вы always uses -ли, whether formal singular or plural.",
+    "Some verbs have irregular past tense stems. Common examples: мочь → мог/могла (drop -чь, add -г), идти → шёл/шла (completely different stem)."
+  ],
+  "examples": [
+    "Я читал книгу. (I read a book., male speaker)",
+    "Я читала книгу. (I read a book., female speaker)",
+    "Он работал вчера. (He worked yesterday.)",
+    "Она работала вчера. (She worked yesterday.)",
+    "Мы смотрели фильм. (We watched a movie.)"
+  ],
+  "tables": [
+    {
+      "title": "Past Tense Endings",
+      "headers": [
+        "",
+        "читать",
+        "говорить"
+      ],
+      "rows": [
+        {
+          "label": "он",
+          "cells": [
+            "чита|л",
+            "говори|л"
+          ]
+        },
+        {
+          "label": "она",
+          "cells": [
+            "чита|ла",
+            "говори|ла"
+          ]
+        },
+        {
+          "label": "оно",
+          "cells": [
+            "чита|ло",
+            "говори|ло"
+          ]
+        },
+        {
+          "label": "они",
+          "cells": [
+            "чита|ли",
+            "говори|ли"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Он _____ книгу вчера. (He read a book yesterday.)",
+          "promptEnglish": "He read a book yesterday.",
+          "options": [
+            "читала",
+            "читали",
+            "читал",
+            "читало"
+          ],
+          "answer": "читал",
+          "hint": "Masculine singular",
+          "explanation": "Он (he) is masculine singular, so use -л ending: читал."
+        },
+        {
+          "prompt": "Она _____ в магазине. (She worked at the store.)",
+          "promptEnglish": "She worked at the store.",
+          "options": [
+            "работали",
+            "работало",
+            "работал",
+            "работала"
+          ],
+          "answer": "работала",
+          "hint": "Feminine singular",
+          "explanation": "Она (she) is feminine singular, so use -ла ending: работала."
+        },
+        {
+          "prompt": "Мы _____ фильм. (We watched a movie.)",
+          "promptEnglish": "We watched a movie.",
+          "options": [
+            "смотрело",
+            "смотрели",
+            "смотрел",
+            "смотрела"
+          ],
+          "answer": "смотрели",
+          "hint": "Plural",
+          "explanation": "Мы (we) is plural, so use -ли ending: смотрели."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Вчера я _____ дома. (Yesterday I was at home. - female speaker)",
+          "promptEnglish": "Yesterday I was at home. (female speaker)",
+          "options": [
+            "было",
+            "был",
+            "была",
+            "были"
+          ],
+          "answer": "была",
+          "hint": "Female speaker = feminine",
+          "explanation": "When a woman says 'I was,' use была (feminine)."
+        },
+        {
+          "prompt": "Они _____ в Москве. (They were in Moscow.)",
+          "promptEnglish": "They were in Moscow.",
+          "options": [
+            "была",
+            "было",
+            "были",
+            "был"
+          ],
+          "answer": "были",
+          "hint": "Plural",
+          "explanation": "Они (they) is plural, so use были."
+        },
+        {
+          "prompt": "Анна _____ по телефону. (Anna talked on the phone.)",
+          "promptEnglish": "Anna talked on the phone.",
+          "options": [
+            "говорил",
+            "говорили",
+            "говорило",
+            "говорила"
+          ],
+          "answer": "говорила",
+          "hint": "Анна is feminine",
+          "explanation": "Анна is a woman's name (feminine), so use говорила."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Дети _____ в парке. (The children played in the park.)",
+          "promptEnglish": "The children played in the park.",
+          "options": [
+            "играла",
+            "играло",
+            "играл",
+            "играли"
+          ],
+          "answer": "играли",
+          "hint": "Дети is plural",
+          "explanation": "Дети (children) is plural, so use играли."
+        },
+        {
+          "prompt": "Иван _____ письмо. (Ivan wrote a letter.)",
+          "promptEnglish": "Ivan wrote a letter.",
+          "options": [
+            "писало",
+            "писала",
+            "писали",
+            "писал"
+          ],
+          "answer": "писал",
+          "hint": "Иван is masculine",
+          "explanation": "Иван is a man's name (masculine), so use писал."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Он _____ вчера. (He worked yesterday.)",
+      "Она _____ утром. (She worked in the morning.)",
+      "Мы _____ весь день. (We worked all day.)",
+      "Радио _____ весь вечер. (The radio worked all evening.)"
+    ],
+    "choices": [
+      "работал",
+      "работала",
+      "работали",
+      "работало"
+    ],
+    "answers": [
+      "работал",
+      "работала",
+      "работали",
+      "работало"
+    ],
+    "grammarFocus": "Past tense agrees with gender/number of subject",
+    "hints": [
+      "Он is masculine singular — which past tense ending matches?",
+      "Она is feminine singular — which past tense ending matches?",
+      "Мы is plural — which past tense ending matches?",
+      "Радио is neuter — which past tense ending matches?"
+    ],
+    "explanations": [
+      "Он (he) is masculine singular, so use the -л ending: работал.",
+      "Она (she) is feminine singular, so use the -ла ending: работала.",
+      "Мы (we) is plural, so use the -ли ending: работали.",
+      "Радио (radio) is neuter, so use the -ло ending: работало."
+    ],
+    "options": [
+      [
+        "работало",
+        "работала",
+        "работал",
+        "работали"
+      ],
+      [
+        "работало",
+        "работала",
+        "работал",
+        "работали"
+      ],
+      [
+        "работали",
+        "работала",
+        "работал",
+        "работало"
+      ],
+      [
+        "работала",
+        "работало",
+        "работали",
+        "работал"
+      ]
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort past tense forms by gender/number",
+    "categories": [
+      "Masculine (-л)",
+      "Feminine (-ла)",
+      "Plural (-ли)"
+    ],
+    "items": [
+      {
+        "word": "читал",
+        "category": "Masculine (-л)"
+      },
+      {
+        "word": "читала",
+        "category": "Feminine (-ла)"
+      },
+      {
+        "word": "читали",
+        "category": "Plural (-ли)"
+      },
+      {
+        "word": "был",
+        "category": "Masculine (-л)"
+      },
+      {
+        "word": "была",
+        "category": "Feminine (-ла)"
+      },
+      {
+        "word": "были",
+        "category": "Plural (-ли)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "прошедшее время",
+      "definition": "past tense",
+      "example": "Вчера он работал."
+    },
+    {
+      "term": "-л / -ла / -ло / -ли",
+      "definition": "past tense endings (m/f/n/pl)",
+      "example": "читал, читала, читало, читали"
+    },
+    {
+      "term": "был / была / было / были",
+      "definition": "was / were",
+      "example": "Я был дома. Она была дома."
+    },
+    {
+      "term": "вчера",
+      "definition": "yesterday",
+      "example": "Вчера мы смотрели фильм."
+    }
+  ]
+}

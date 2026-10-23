@@ -1,0 +1,747 @@
+{
+  "lessonId": "a2-030-short-adjectives",
+  "sets": [
+    {
+      "id": "round-1-common-short-forms",
+      "title": "Common Short-Only Adjectives",
+      "titleRussian": "Частые краткие прилагательные",
+      "description": "Practice рад, готов, должен, нужен - adjectives used mainly in short form",
+      "descriptionRussian": "Рад, готов, должен, нужен - прилагательные в краткой форме",
+      "icon": "textformat.size.smaller",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я _____ тебя видеть. (I'm glad to see you.) - male speaker",
+              "promptEnglish": "Male speaker: masculine short form.",
+              "options": [
+                "рад",
+                "рада",
+                "рады",
+                "радый"
+              ],
+              "answer": "рад",
+              "hint": "Masculine short form: рад.",
+              "explanation": "Masculine: рад."
+            },
+            {
+              "prompt": "Она _____ помочь. (She is ready to help.)",
+              "promptEnglish": "Feminine short form.",
+              "options": [
+                "готова",
+                "готов",
+                "готовы",
+                "готовая"
+              ],
+              "answer": "готова",
+              "hint": "Feminine short form: готова.",
+              "explanation": "Feminine: готова."
+            },
+            {
+              "prompt": "Мы _____ идти. (We must go.)",
+              "promptEnglish": "Plural short form.",
+              "options": [
+                "должны",
+                "должен",
+                "должна",
+                "должное"
+              ],
+              "answer": "должны",
+              "hint": "Plural short form: должны.",
+              "explanation": "Plural: должны."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Мне _____ эта книга. (I need this book.)",
+              "promptEnglish": "Book = feminine: нужна.",
+              "options": [
+                "нужна",
+                "нужен",
+                "нужно",
+                "нужны"
+              ],
+              "answer": "нужна",
+              "hint": "Книга = feminine: нужна.",
+              "explanation": "Нужен agrees with the thing needed: книга (fem) → нужна."
+            },
+            {
+              "prompt": "Мне _____ словарь. (I need a dictionary.)",
+              "promptEnglish": "Dictionary = masculine: нужен.",
+              "options": [
+                "нужен",
+                "нужна",
+                "нужно",
+                "нужны"
+              ],
+              "answer": "нужен",
+              "hint": "Словарь = masculine: нужен.",
+              "explanation": "Masculine: нужен словарь."
+            },
+            {
+              "prompt": "Мне _____ деньги. (I need money.)",
+              "promptEnglish": "Money = plural: нужны.",
+              "options": [
+                "нужны",
+                "нужен",
+                "нужна",
+                "нужно"
+              ],
+              "answer": "нужны",
+              "hint": "Деньги = plural: нужны.",
+              "explanation": "Plural: нужны деньги."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Я _____ вас видеть! (I'm glad to see you!) - female speaker",
+          "Он _____ работать сегодня. (He must work today.)",
+          "Мне _____ помощь. (I need help.)"
+        ],
+        "choices": [
+          "рада",
+          "должен",
+          "нужна",
+          "рад",
+          "должна"
+        ],
+        "answers": [
+          "рада",
+          "должен",
+          "нужна"
+        ],
+        "grammarFocus": "Short form agrees in gender/number: рад/рада/рады, должен/должна/должны",
+        "hints": [
+          "Female speaker = feminine: рада.",
+          "Он = masculine: должен.",
+          "Помощь = feminine: нужна."
+        ],
+        "explanations": [
+          "Feminine: рада.",
+          "Masculine: должен.",
+          "Помощь is feminine: нужна."
+        ],
+        "options": [
+          [
+            "рады",
+            "рада",
+            "раду",
+            "раде"
+          ],
+          [
+            "должна",
+            "должен",
+            "должны",
+            "должно"
+          ],
+          [
+            "нужна",
+            "нужны",
+            "нужен",
+            "нужно"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort by gender/number of the short form.",
+        "categories": [
+          "Masculine",
+          "Feminine",
+          "Plural"
+        ],
+        "items": [
+          {
+            "word": "Он рад.",
+            "category": "Masculine"
+          },
+          {
+            "word": "Она рада.",
+            "category": "Feminine"
+          },
+          {
+            "word": "Мы рады.",
+            "category": "Plural"
+          },
+          {
+            "word": "Он готов.",
+            "category": "Masculine"
+          },
+          {
+            "word": "Она должна.",
+            "category": "Feminine"
+          },
+          {
+            "word": "Они должны.",
+            "category": "Plural"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-2-gender-agreement",
+      "title": "Gender Agreement",
+      "titleRussian": "Согласование по роду",
+      "description": "Match short adjective form to the subject's gender and number",
+      "descriptionRussian": "Краткая форма зависит от рода и числа подлежащего",
+      "icon": "person.fill.questionmark",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Он _____. (He is sick.)",
+              "promptEnglish": "Masculine: болен.",
+              "options": [
+                "болен",
+                "больна",
+                "больно",
+                "больны"
+              ],
+              "answer": "болен",
+              "hint": "Masculine with fleeting vowel: больной → болен.",
+              "explanation": "Masculine: болен (fleeting е)."
+            },
+            {
+              "prompt": "Она _____. (She is sick.)",
+              "promptEnglish": "Feminine: больна.",
+              "options": [
+                "больна",
+                "болен",
+                "больно",
+                "больны"
+              ],
+              "answer": "больна",
+              "hint": "Feminine: больна.",
+              "explanation": "Feminine: больна."
+            },
+            {
+              "prompt": "Дети _____. (The children are sick.)",
+              "promptEnglish": "Plural: больны.",
+              "options": [
+                "больны",
+                "болен",
+                "больна",
+                "больно"
+              ],
+              "answer": "больны",
+              "hint": "Plural: больны.",
+              "explanation": "Plural: больны."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Этот дом очень _____. (This house is very beautiful.)",
+              "promptEnglish": "Masculine: красив.",
+              "options": [
+                "красив",
+                "красива",
+                "красиво",
+                "красивы"
+              ],
+              "answer": "красив",
+              "hint": "Дом = masculine: красив.",
+              "explanation": "Masculine: красив."
+            },
+            {
+              "prompt": "Эта картина _____. (This painting is beautiful.)",
+              "promptEnglish": "Feminine: красива.",
+              "options": [
+                "красива",
+                "красив",
+                "красиво",
+                "красивы"
+              ],
+              "answer": "красива",
+              "hint": "Картина = feminine: красива.",
+              "explanation": "Feminine: красива."
+            },
+            {
+              "prompt": "Это место _____. (This place is beautiful.)",
+              "promptEnglish": "Neuter: красиво.",
+              "options": [
+                "красиво",
+                "красив",
+                "красива",
+                "красивы"
+              ],
+              "answer": "красиво",
+              "hint": "Место = neuter: красиво.",
+              "explanation": "Neuter: красиво."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он _____ тебя видеть. (He is glad.) - masculine",
+          "contextEnglish": "Masculine: -∅.",
+          "options": [
+            "рад",
+            "рада"
+          ],
+          "answer": "рад",
+          "explanation": "Masculine: рад."
+        },
+        {
+          "context": "Она _____ тебя видеть. (She is glad.) - feminine",
+          "contextEnglish": "Feminine: -а.",
+          "options": [
+            "рада",
+            "рад"
+          ],
+          "answer": "рада",
+          "explanation": "Feminine: рада."
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Она должен работать.",
+          "error": "должен",
+          "correction": "должна",
+          "explanation": "Она = feminine. Short form: должна (not должен).",
+          "options": [
+            "должна",
+            "должно",
+            "должны"
+          ]
+        },
+        {
+          "sentence": "Мы рад вас видеть.",
+          "error": "рад",
+          "correction": "рады",
+          "explanation": "Мы = plural. Short form: рады (not рад).",
+          "options": [
+            "рады",
+            "рада",
+            "радо"
+          ]
+        },
+        {
+          "sentence": "Он больна.",
+          "error": "больна",
+          "correction": "болен",
+          "explanation": "Он = masculine. Short form: болен (not больна).",
+          "options": [
+            "болен",
+            "больно",
+            "больны"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-long-vs-short",
+      "title": "Long vs Short Form",
+      "titleRussian": "Полная или краткая форма?",
+      "description": "Choose: long form before nouns, short form as predicates",
+      "descriptionRussian": "Полная форма перед существительным, краткая - сказуемое",
+      "icon": "arrow.left.arrow.right",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ девушка стоит там. (The beautiful girl is standing there.)",
+              "promptEnglish": "Before a noun = long form.",
+              "options": [
+                "Красивая",
+                "Красива",
+                "Красиво",
+                "Красивы"
+              ],
+              "answer": "Красивая",
+              "hint": "Before a noun: always long form.",
+              "explanation": "Before noun: красивая (long form)."
+            },
+            {
+              "prompt": "Эта девушка _____. (This girl is beautiful.)",
+              "promptEnglish": "Predicate (after subject) = short form OK.",
+              "options": [
+                "красива",
+                "красивая",
+                "красиво",
+                "красивы"
+              ],
+              "answer": "красива",
+              "hint": "Predicate: short form.",
+              "explanation": "Predicate: красива (short form)."
+            },
+            {
+              "prompt": "_____ человек пришёл. (A sick person came.)",
+              "promptEnglish": "Before a noun = long form.",
+              "options": [
+                "Больной",
+                "Болен",
+                "Больна",
+                "Больны"
+              ],
+              "answer": "Больной",
+              "hint": "Before a noun: long form.",
+              "explanation": "Before noun: больной (long form)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Задача очень _____. (The problem is very difficult.)",
+              "promptEnglish": "Predicate = short form.",
+              "options": [
+                "сложна",
+                "сложная",
+                "сложно",
+                "сложные"
+              ],
+              "answer": "сложна",
+              "hint": "Predicate: short form. Задача = fem.",
+              "explanation": "Predicate feminine: сложна."
+            },
+            {
+              "prompt": "Это _____ вопрос. (This is a difficult question.)",
+              "promptEnglish": "Before noun = long form.",
+              "options": [
+                "сложный",
+                "сложен",
+                "сложна",
+                "сложны"
+              ],
+              "answer": "сложный",
+              "hint": "Before a noun: long form.",
+              "explanation": "Before noun: сложный (long form)."
+            },
+            {
+              "prompt": "Дети _____. (The children are happy.)",
+              "promptEnglish": "Predicate = short form.",
+              "options": [
+                "счастливы",
+                "счастливые",
+                "счастливая",
+                "счастлив"
+              ],
+              "answer": "счастливы",
+              "hint": "Predicate plural: short form.",
+              "explanation": "Predicate plural: счастливы."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Красивая девушка. Больной человек. Новый дом.",
+          "question": "These adjectives are before nouns. Which form is used?",
+          "options": [
+            "Long form (full)",
+            "Short form",
+            "Either works"
+          ],
+          "answer": "Long form (full)",
+          "explanation": "Before nouns: ALWAYS long form."
+        },
+        {
+          "sentence": "Она красива. Он болен. Мы рады.",
+          "question": "These adjectives are predicates (after subject). Which form?",
+          "options": [
+            "Short form",
+            "Long form only",
+            "Either (but short is preferred)"
+          ],
+          "answer": "Short form",
+          "explanation": "Predicates: short form (for these common adjectives)."
+        }
+      ],
+      "translation": [
+        {
+          "sourceText": "She is ready.",
+          "targetText": "Она готова.",
+          "hint": "Predicate feminine: short form.",
+          "explanation": "Short form: готова.",
+          "keyWord": "готова",
+          "options": [
+            "готова",
+            "готов",
+            "готовы",
+            "готовая"
+          ]
+        },
+        {
+          "sourceText": "A beautiful city.",
+          "targetText": "Красивый город.",
+          "hint": "Before noun: long form.",
+          "explanation": "Long form: красивый город.",
+          "keyWord": "Красивый",
+          "options": [
+            "Красивый",
+            "Красив",
+            "Красивая",
+            "Красивое"
+          ]
+        },
+        {
+          "sourceText": "The city is beautiful.",
+          "targetText": "Город красив.",
+          "hint": "Predicate masculine: short form.",
+          "explanation": "Short form: красив.",
+          "keyWord": "красив",
+          "options": [
+            "красив",
+            "красивый",
+            "красива",
+            "красиво"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-нужен-должен",
+      "title": "Нужен & Должен in Sentences",
+      "titleRussian": "Нужен и должен в предложениях",
+      "description": "Practice нужен (needed) and должен (must) in full sentences",
+      "descriptionRussian": "Нужен и должен в полных предложениях",
+      "icon": "exclamationmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мне _____ новый телефон. (I need a new phone.)",
+              "promptEnglish": "Телефон = masculine: нужен.",
+              "options": [
+                "нужен",
+                "нужна",
+                "нужно",
+                "нужны"
+              ],
+              "answer": "нужен",
+              "hint": "Нужен agrees with the thing needed. Телефон = masc.",
+              "explanation": "Masculine: мне нужен телефон."
+            },
+            {
+              "prompt": "Ей _____ отдохнуть. (She needs to rest.)",
+              "promptEnglish": "With infinitive: нужно (neuter).",
+              "options": [
+                "нужно",
+                "нужен",
+                "нужна",
+                "нужны"
+              ],
+              "answer": "нужно",
+              "hint": "Before infinitive: always нужно.",
+              "explanation": "Before infinitive: нужно отдохнуть."
+            },
+            {
+              "prompt": "Нам _____ новые учебники. (We need new textbooks.)",
+              "promptEnglish": "Учебники = plural: нужны.",
+              "options": [
+                "нужны",
+                "нужен",
+                "нужна",
+                "нужно"
+              ],
+              "answer": "нужны",
+              "hint": "Учебники = plural: нужны.",
+              "explanation": "Plural: нужны учебники."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она _____ закончить работу. (She must finish the work.)",
+              "promptEnglish": "Она = feminine: должна.",
+              "options": [
+                "должна",
+                "должен",
+                "должно",
+                "должны"
+              ],
+              "answer": "должна",
+              "hint": "Она = feminine: должна.",
+              "explanation": "Feminine: должна."
+            },
+            {
+              "prompt": "Ты _____ быть осторожен. (You must be careful.) - male",
+              "promptEnglish": "Male ты = masculine: должен.",
+              "options": [
+                "должен",
+                "должна",
+                "должно",
+                "должны"
+              ],
+              "answer": "должен",
+              "hint": "Ты (male) = masculine: должен.",
+              "explanation": "Masculine: должен."
+            },
+            {
+              "prompt": "Они _____ прийти в 9. (They must come at 9.)",
+              "promptEnglish": "Они = plural: должны.",
+              "options": [
+                "должны",
+                "должен",
+                "должна",
+                "должно"
+              ],
+              "answer": "должны",
+              "hint": "Они = plural: должны.",
+              "explanation": "Plural: должны."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Мне нужен помощь.",
+          "error": "нужен",
+          "correction": "нужна",
+          "explanation": "Помощь = feminine. Нужна (not нужен).",
+          "options": [
+            "нужна",
+            "нужно",
+            "нужны"
+          ]
+        },
+        {
+          "sentence": "Мне нужны словарь.",
+          "error": "нужны",
+          "correction": "нужен",
+          "explanation": "Словарь = masculine singular. Нужен (not нужны).",
+          "options": [
+            "нужен",
+            "нужна",
+            "нужно"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All short adjective skills: common forms, agreement, long vs short, нужен/должен",
+      "descriptionRussian": "Все навыки: частые формы, согласование, полная/краткая, нужен/должен",
+      "icon": "bolt.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы _____ вас видеть! (We are glad to see you!)",
+              "promptEnglish": "Plural: рады.",
+              "options": [
+                "рады",
+                "рад",
+                "рада",
+                "радостные"
+              ],
+              "answer": "рады",
+              "hint": "Мы = plural: рады.",
+              "explanation": "Plural: рады."
+            },
+            {
+              "prompt": "Этот фильм очень _____. (This film is very good.)",
+              "promptEnglish": "Predicate masculine: short form.",
+              "options": [
+                "хорош",
+                "хороший",
+                "хорошее",
+                "хороша"
+              ],
+              "answer": "хорош",
+              "hint": "Predicate: short form. Фильм = masc.",
+              "explanation": "Short masculine: хорош."
+            },
+            {
+              "prompt": "Мне _____ эта сумка. (I need this bag.)",
+              "promptEnglish": "Сумка = feminine: нужна.",
+              "options": [
+                "нужна",
+                "нужен",
+                "нужно",
+                "нужны"
+              ],
+              "answer": "нужна",
+              "hint": "Сумка = feminine: нужна.",
+              "explanation": "Feminine: нужна."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она _____ уйти. (She must leave.)",
+              "promptEnglish": "Feminine: должна.",
+              "options": [
+                "должна",
+                "должен",
+                "должны",
+                "должное"
+              ],
+              "answer": "должна",
+              "hint": "Она = feminine: должна.",
+              "explanation": "Feminine: должна."
+            },
+            {
+              "prompt": "Погода _____. (The weather is wonderful.)",
+              "promptEnglish": "Predicate feminine: short form.",
+              "options": [
+                "прекрасна",
+                "прекрасная",
+                "прекрасно",
+                "прекрасные"
+              ],
+              "answer": "прекрасна",
+              "hint": "Predicate. Погода = feminine: прекрасна.",
+              "explanation": "Feminine predicate: прекрасна."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Красива девушка стоит здесь.",
+          "error": "Красива",
+          "correction": "Красивая",
+          "explanation": "Before a noun: long form. Красивая девушка.",
+          "options": [
+            "Красивая",
+            "Красивую",
+            "Красивые"
+          ]
+        },
+        {
+          "sentence": "Мы должен работать.",
+          "error": "должен",
+          "correction": "должны",
+          "explanation": "Мы = plural: должны (not должен).",
+          "options": [
+            "должны",
+            "должна",
+            "должно"
+          ]
+        },
+        {
+          "sentence": "Мне нужна отдохнуть.",
+          "error": "нужна",
+          "correction": "нужно",
+          "explanation": "Before infinitive: always нужно (not нужна).",
+          "options": [
+            "нужно",
+            "нужен",
+            "нужны"
+          ]
+        }
+      ]
+    }
+  ]
+}

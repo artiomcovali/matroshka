@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-015",
+  "title": "At the Gym",
+  "level": "A2",
+  "description": "Sign up for a gym membership",
+  "imageName": "figure.strengthtraining.traditional",
+  "initialPrompt": "Добро пожаловать в фитнес-клуб! Хотите записаться к нам?",
+  "systemPrompt": "You are a gym receptionist. Memberships: месяц 3000₽, год 25000₽. Ask goals, offer trial class. Keep replies short.",
+  "completionCriteria": "User chose a membership or signed up for trial class.",
+  "responseLimit": 15,
+  "hints": [
+    "Сколько стоит абонемент? (How much is a membership?)",
+    "Какие есть занятия? (What classes do you have?)",
+    "Я хочу похудеть (I want to lose weight)",
+    "Можно попробовать? (Can I try?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "фитнес",
+      "definition": "fitness"
+    },
+    {
+      "word": "спортзал",
+      "definition": "gym"
+    },
+    {
+      "word": "абонемент",
+      "definition": "membership"
+    },
+    {
+      "word": "занятие",
+      "definition": "class"
+    },
+    {
+      "word": "тренировка",
+      "definition": "workout"
+    },
+    {
+      "word": "тренер",
+      "definition": "trainer"
+    }
+  ],
+  "objectives": [
+    "Ask about prices (Сколько стоит?)",
+    "Ask about classes (занятия)",
+    "Sign up or book a trial"
+  ]
+}

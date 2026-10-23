@@ -1,0 +1,284 @@
+{
+  "id": "a1-track-negation-02-net-genitive",
+  "level": "A1",
+  "focusArea": "sentenceStructure",
+  "title": "Negation 2: Нет + Genitive",
+  "titleRussian": "Отрицание 2: «нет» + родительный падеж",
+  "description": "When Russian wants to say something does not exist, has not arrived, or is missing, it uses нет followed by the noun in the genitive. Three frames cover almost every A1 use: bare absence, possession, and absence at a location.",
+  "descriptionRussian": "Когда нужно сказать, что чего-то нет, не имеется или нет в наличии, по-русски используется конструкция «нет + родительный падеж». Три модели покрывают почти все A1-случаи: само отсутствие, отсутствие у владельца и отсутствие в месте.",
+  "imageName": "minus.circle",
+  "trackId": "a1-negation-mastery",
+  "trackTitle": "Negation and Existence",
+  "trackTitleRussian": "Отрицание и наличие",
+  "trackIndex": 2,
+  "trackTotal": 5,
+  "intro": "The second way is stranger. Denying that something exists does not merely add a word in Russian, it changes the shape of the thing being denied. The bread is not just absent; the word for bread bends to say so. If you have done the genitive book this will feel familiar and you can spend the lesson on the frames instead. If you have not, this is a case doing something no English construction does.",
+  "rules": [
+    "Нет + noun in the genitive case denies that the noun exists, is present, or is owned. Хлеба нет: there is no bread.",
+    "Possession frame: у + person in the genitive + нет + thing in the genitive. У меня нет машины: I do not have a car.",
+    "Location frame: location adverb or в / на + prepositional + нет + thing in the genitive. В классе нет учителя: there is no teacher in the classroom.",
+    "Compare affirmative and negative. У меня есть машина (have a car, nominative) versus У меня нет машины (do not have a car, genitive). Same noun, two cases.",
+    "The construction stays in the singular today. Plural forms (нет книг, нет домов) are a B1 topic in the Plural Cases track."
+  ],
+  "examples": [
+    "Хлеба нет. (There is no bread.) Bare absence; хлеба is the genitive of хлеб.",
+    "У меня нет ручки. (I do not have a pen.) Possession frame; меня is gen of я; ручки is gen of ручка.",
+    "У Маши нет машины. (Masha does not have a car.) Owner Маши is in the genitive, missing thing машины is also in the genitive.",
+    "Здесь нет магазина. (There is no store here.) Location adverb здесь + нет + gen магазина.",
+    "В классе нет учителя. (There is no teacher in the classroom.) Locative phrase в классе + нет + gen учителя.",
+    "На столе нет молока. (There is no milk on the table.) Locative phrase на столе + нет + gen молока."
+  ],
+  "tables": [
+    {
+      "title": "The three frames of нет + genitive",
+      "headers": [
+        "Frame",
+        "Pattern",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Bare absence",
+          "cells": [
+            "Noun-gen + нет",
+            "Хлеба нет."
+          ]
+        },
+        {
+          "label": "Possession",
+          "cells": [
+            "У + person-gen + нет + thing-gen",
+            "У меня нет машины."
+          ]
+        },
+        {
+          "label": "Location",
+          "cells": [
+            "Place + нет + thing-gen",
+            "Здесь нет магазина."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Genitive singular endings (the workhorse forms)",
+      "headers": [
+        "Gender / type",
+        "Nominative",
+        "Genitive"
+      ],
+      "rows": [
+        {
+          "label": "Masc consonant",
+          "cells": [
+            "магазин",
+            "магазина"
+          ]
+        },
+        {
+          "label": "Fem -а",
+          "cells": [
+            "ручка",
+            "ручки"
+          ]
+        },
+        {
+          "label": "Fem -я",
+          "cells": [
+            "тётя",
+            "тёти"
+          ]
+        },
+        {
+          "label": "Neuter -о",
+          "cells": [
+            "молоко",
+            "молока"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Это _____ моя машина.",
+          "promptEnglish": "This is not my car.",
+          "options": [
+            "не",
+            "нет",
+            "ни",
+            "но"
+          ],
+          "answer": "не",
+          "hint": "Recap from Lesson 1: identity sentence in the present tense. Which particle attaches to the noun phrase?",
+          "explanation": "Warm-up from Lesson 1. The sentence denies an identity ('this is not my car'). Не attaches directly to the noun phrase моя машина because there is no Russian verb in the present-tense identity construction."
+        },
+        {
+          "prompt": "У меня нет _____ .",
+          "promptEnglish": "I do not have a pen.",
+          "options": [
+            "ручка",
+            "ручки",
+            "ручку",
+            "ручкой"
+          ],
+          "answer": "ручки",
+          "hint": "Нет takes the genitive. Feminine -а → which ending?",
+          "explanation": "Нет triggers the genitive on the missing thing. Ручка is feminine in -а; its genitive is ручки (-а → -и after к, per the spelling rule)."
+        },
+        {
+          "prompt": "_____ нет.",
+          "promptEnglish": "There is no bread.",
+          "options": [
+            "Хлеба",
+            "Хлеб",
+            "Хлебом",
+            "Хлебу"
+          ],
+          "answer": "Хлеба",
+          "hint": "Bare absence frame. The noun whose absence is reported takes which case?",
+          "explanation": "Bare absence frame: noun in the genitive + нет. Хлеб is masculine with a consonant ending; its genitive adds -а: хлеба."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "У Маши нет _____ .",
+          "promptEnglish": "Masha does not have a car.",
+          "options": [
+            "машина",
+            "машину",
+            "машины",
+            "машине"
+          ],
+          "answer": "машины",
+          "hint": "Same construction as Q1.2. Feminine -а noun in the genitive.",
+          "explanation": "Possession frame: У + person-gen + нет + thing-gen. Машина is feminine in -а; its genitive is машины. Маши is itself the genitive of Маша; both endpoints of the construction land in the genitive."
+        },
+        {
+          "prompt": "В классе нет _____ .",
+          "promptEnglish": "There is no teacher in the classroom.",
+          "options": [
+            "учитель",
+            "учителю",
+            "учителем",
+            "учителя"
+          ],
+          "answer": "учителя",
+          "hint": "Location frame. Masculine consonant + soft sign noun: which genitive ending?",
+          "explanation": "Location frame: в + prepositional location + нет + thing-gen. Учитель ends in soft sign -ь; its genitive is учителя (the soft-sign masculine pattern, -ь → -я)."
+        },
+        {
+          "prompt": "На столе нет _____ .",
+          "promptEnglish": "There is no milk on the table.",
+          "options": [
+            "молоко",
+            "молока",
+            "молоком",
+            "молоку"
+          ],
+          "answer": "молока",
+          "hint": "Location frame with neuter noun. Neuter -о → which ending in the genitive?",
+          "explanation": "Location frame: на + prepositional location + нет + thing-gen. Молоко is neuter ending in -о; its genitive is молока (neuter -о → -а)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "У Антона нет _____ . (Anton does not have a sister.)"
+    ],
+    "choices": [
+      "сестра",
+      "сестру",
+      "сестры",
+      "сестрой"
+    ],
+    "answers": [
+      "сестры"
+    ],
+    "grammarFocus": "Possession frame, missing thing in the genitive. Сестра is feminine in -а; its genitive is сестры. The animacy of сестра (a person) does not change the rule: нет always triggers the genitive, regardless of animacy."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "В кухне нет хлеб для завтрака сегодня.",
+      "translationEnglish": "There's no bread in the kitchen for breakfast today.",
+      "error": "хлеб",
+      "correction": "хлеба",
+      "options": [
+        "хлеба",
+        "хлебу",
+        "хлебом"
+      ],
+      "explanation": "After нет the noun must shift into the genitive. Хлеб is masculine ending in a consonant; the genitive adds -а: хлеба. Leaving the noun in the nominative (хлеб) is the classic mistake. One rule covers every noun: after нет, the absent thing is always genitive."
+    },
+    {
+      "sentence": "В нашем районе не магазина, только кафе и бары.",
+      "translationEnglish": "There's no store in our neighbourhood, only cafés and bars.",
+      "error": "не",
+      "correction": "нет",
+      "options": [
+        "нет",
+        "ни",
+        "ничего"
+      ],
+      "explanation": "Russian splits negation into two different words. Не negates verbs and adjectives ('она не работает'); нет declares the absence of a thing and pairs with a genitive noun ('здесь нет магазина'). The 'there is no X' frame is built with нет + genitive, never with не."
+    },
+    {
+      "sentence": "В холодильнике нет сок и нужно срочно идти в магазин.",
+      "translationEnglish": "There's no juice in the fridge and we urgently need to go to the store.",
+      "error": "сок",
+      "correction": "сока",
+      "options": [
+        "сока",
+        "соку",
+        "соком"
+      ],
+      "explanation": "After нет the noun shifts into the genitive: сока. Сок is the nominative, the form for 'есть сок' ('there is juice'). The нет + genitive rule applies with no exceptions."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "У Маши _____ кошка.",
+      "contextEnglish": "Masha has a cat.",
+      "options": [
+        "есть",
+        "нет"
+      ],
+      "answer": "есть",
+      "explanation": "Affirmative possession claim. Есть takes the nominative on the owned thing (кошка stays in the nominative). Нет would shift the meaning to a denial and would require the genitive (кошки)."
+    },
+    {
+      "context": "У меня нет _____ .",
+      "contextEnglish": "I do not have a book.",
+      "options": [
+        "книга",
+        "книги"
+      ],
+      "answer": "книги",
+      "explanation": "Нет triggers the genitive on the missing thing. Книга is feminine in -а; its genitive is книги (-а → -и after к). Книга would be nominative, which нет does not allow."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "нет (отрицание наличия)",
+      "definition": "нет meaning 'there is no, has no' (always followed by the noun in the genitive; distinct from the everyday 'no' answer to a yes-or-no question)",
+      "example": "В предложении «У меня нет времени» слово «нет» обозначает отсутствие, а слово «времени» стоит в родительном падеже."
+    },
+    {
+      "term": "наличие",
+      "definition": "existence, presence, availability (the affirmative meaning carried by есть; pairs with the absence meaning of нет)",
+      "example": "В предложении «У меня есть машина» утверждается наличие машины."
+    },
+    {
+      "term": "отсутствие",
+      "definition": "absence (the meaning carried by the нет + genitive construction)",
+      "example": "Конструкция «нет + родительный падеж» выражает отсутствие предмета или лица."
+    }
+  ]
+}

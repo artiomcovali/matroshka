@@ -1,0 +1,331 @@
+{
+  "id": "a2-010-instrumental",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Instrumental Case",
+  "titleRussian": "Творительный падеж",
+  "description": "Instrumental case forms and uses",
+  "descriptionRussian": "Формы и употребление творительного падежа",
+  "imageName": "wrench.and.screwdriver.fill",
+  "intro": "The instrumental case answers Кем? Чем? (By whom? With what?). It shows the INSTRUMENT or MEANS of an action, accompaniment (with), and professions after быть/стать. Use it with prepositions с (with), за/под/над/между (behind/under/above/between for location). The endings are distinctive: -ом/-ем for masculine/neuter, -ой/-ей for feminine.",
+  "rules": [
+    "Instrumental answers Кем? Чем? (By whom? With what?) - shows means, instrument, or accompaniment.",
+    "Instrumental answers 'with what?' or 'by what means?': пишу ручкой (writing with a pen).",
+    "Used with быть in past/future: она была врачом (she was a doctor).",
+    "Used with с (with): кофе с молоком (coffee with milk), гулять с другом (walk with friend).",
+    "Used after certain prepositions: между (between), над (above), под (under), за (behind)."
+  ],
+  "examples": [
+    "Я пишу ручкой. (I write with a pen.), instrument",
+    "Я иду с другом. (I'm going with a friend.), accompaniment",
+    "Он работает врачом. (He works as a doctor.), profession",
+    "Кошка под столом. (The cat is under the table.), location"
+  ],
+  "tables": [
+    {
+      "title": "Instrumental Case Endings",
+      "headers": [
+        "Gender",
+        "Nominative",
+        "Instrumental",
+        "Ending"
+      ],
+      "rows": [
+        {
+          "label": "Masculine",
+          "cells": [
+            "студент",
+            "студент|ом",
+            "-ом"
+          ]
+        },
+        {
+          "label": "Feminine -а",
+          "cells": [
+            "мама",
+            "мам|ой",
+            "-ой"
+          ]
+        },
+        {
+          "label": "Feminine -ь",
+          "cells": [
+            "ночь",
+            "ноч|ью",
+            "-ью"
+          ]
+        },
+        {
+          "label": "Neuter",
+          "cells": [
+            "окно",
+            "окн|ом",
+            "-ом"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я пишу _____. (I write with a pen.)",
+          "promptEnglish": "I write with a pen.",
+          "options": [
+            "ручку",
+            "ручкой",
+            "ручка",
+            "ручке"
+          ],
+          "answer": "ручкой",
+          "hint": "Instrument = instrumental",
+          "explanation": "The tool/instrument uses instrumental: ручка → ручкой."
+        },
+        {
+          "prompt": "Я иду с _____. (I'm going with a friend.)",
+          "promptEnglish": "I'm going with a friend.",
+          "options": [
+            "друга",
+            "друге",
+            "другу",
+            "другом"
+          ],
+          "answer": "другом",
+          "hint": "С + instrumental",
+          "explanation": "С (with) takes instrumental: друг → другом."
+        },
+        {
+          "prompt": "Кошка сидит под _____. (The cat is sitting under the table.)",
+          "promptEnglish": "The cat is sitting under the table.",
+          "options": [
+            "столе",
+            "стола",
+            "столу",
+            "столом"
+          ],
+          "answer": "столом",
+          "hint": "Под + instrumental (location)",
+          "explanation": "Под (under) for location takes instrumental: стол → столом."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Он работает _____. (He works as a doctor.)",
+          "promptEnglish": "He works as a doctor.",
+          "options": [
+            "враче",
+            "врача",
+            "врачом",
+            "врачу"
+          ],
+          "answer": "врачом",
+          "hint": "Profession = instrumental",
+          "explanation": "Professions with работать use instrumental: врач → врачом."
+        },
+        {
+          "prompt": "Я режу хлеб _____. (I cut bread with a knife.)",
+          "promptEnglish": "I cut bread with a knife.",
+          "options": [
+            "ножа",
+            "ножу",
+            "ножом",
+            "ноже"
+          ],
+          "answer": "ножом",
+          "hint": "Tool = instrumental",
+          "explanation": "The tool uses instrumental: нож → ножом."
+        },
+        {
+          "prompt": "Она пьёт чай с _____. (She drinks tea with milk.)",
+          "promptEnglish": "She drinks tea with milk.",
+          "options": [
+            "молоке",
+            "молока",
+            "молоком",
+            "молоку"
+          ],
+          "answer": "молоком",
+          "hint": "С + instrumental",
+          "explanation": "С (with) takes instrumental: молоко → молоком."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Лампа висит над _____. (The lamp hangs above the table.)",
+          "promptEnglish": "The lamp hangs above the table.",
+          "options": [
+            "стола",
+            "столу",
+            "столе",
+            "столом"
+          ],
+          "answer": "столом",
+          "hint": "Над + instrumental",
+          "explanation": "Над (above) takes instrumental: стол → столом."
+        },
+        {
+          "prompt": "Я хочу стать _____. (I want to become a teacher.)",
+          "promptEnglish": "I want to become a teacher.",
+          "options": [
+            "учителя",
+            "учителем",
+            "учителю",
+            "учителе"
+          ],
+          "answer": "учителем",
+          "hint": "Стать + instrumental",
+          "explanation": "Стать (become) + profession takes instrumental: учитель → учителем."
+        },
+        {
+          "prompt": "Дом находится между _____ и парком. (The house is between the school and park.)",
+          "promptEnglish": "The house is between the school and park.",
+          "options": [
+            "школу",
+            "школе",
+            "школа",
+            "школой"
+          ],
+          "answer": "школой",
+          "hint": "Между + instrumental",
+          "explanation": "Между (between) takes instrumental: школа → школой."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Она была _____. (She was a student.)"
+    ],
+    "choices": [
+      "студенткой",
+      "студентку",
+      "студентка",
+      "студентке"
+    ],
+    "answers": [
+      "студенткой"
+    ],
+    "grammarFocus": "Быть + instrumental for past/future professions/roles",
+    "hints": [
+      "After была (was), professions and roles use instrumental case. What is the instrumental of студентка?"
+    ],
+    "explanations": [
+      "Быть (to be) in past/future tense requires instrumental case for professions: студентка (feminine -а) becomes студенткой (-ой ending)."
+    ],
+    "options": [
+      [
+        "студенткой",
+        "студентка",
+        "студентке",
+        "студентки"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я вижу _____. (I see the doctor.)",
+      "contextEnglish": "I see the doctor.",
+      "options": [
+        "врача",
+        "врачом"
+      ],
+      "answer": "врача",
+      "explanation": "Видеть takes accusative: врача."
+    },
+    {
+      "context": "Он работает _____. (He works as a doctor.)",
+      "contextEnglish": "He works as a doctor.",
+      "options": [
+        "врачом",
+        "врача"
+      ],
+      "answer": "врачом",
+      "explanation": "Profession uses instrumental: врачом."
+    }
+  ],
+  "declensionTable": {
+    "word": "книга",
+    "wordType": "noun",
+    "gender": "feminine",
+    "paradigm": {
+      "nominative": "книга",
+      "genitive": "книги",
+      "dative": "книге",
+      "accusative": "книгу",
+      "instrumental": "книгой",
+      "prepositional": "книге"
+    },
+    "blanks": [
+      "instrumental"
+    ],
+    "hints": [
+      "чем?"
+    ],
+    "explanations": [
+      "Feminine -а nouns change to -ой in instrumental: книга → книгой"
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort prepositions: Instrumental or other case?",
+    "categories": [
+      "Instrumental",
+      "Other case"
+    ],
+    "items": [
+      {
+        "word": "с (with)",
+        "category": "Instrumental"
+      },
+      {
+        "word": "под (under-location)",
+        "category": "Instrumental"
+      },
+      {
+        "word": "над (above)",
+        "category": "Instrumental"
+      },
+      {
+        "word": "в (in)",
+        "category": "Other case"
+      },
+      {
+        "word": "между (between)",
+        "category": "Instrumental"
+      },
+      {
+        "word": "из (from)",
+        "category": "Other case"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "творительный падеж",
+      "definition": "instrumental case",
+      "example": "Кем? Чем? — творительный падеж."
+    },
+    {
+      "term": "с + твор. падеж",
+      "definition": "with + instrumental",
+      "example": "С другом, с молоком, с удовольствием."
+    },
+    {
+      "term": "работать/быть/стать + твор.",
+      "definition": "work as/be/become + instrumental",
+      "example": "Работаю врачом. Стану учителем."
+    },
+    {
+      "term": "под, над, за, между + твор.",
+      "definition": "under, above, behind, between + inst.",
+      "example": "Под столом, над головой."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-009",
+  "title": "The Wrong Prescription",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "The pharmacist gave you wrong medicine and won't exchange it",
+  "imageName": "pills.fill",
+  "initialPrompt": "Что? Не те лекарства? Нет, смотрите, вот рецепт — всё правильно! Вы просто не понимаете.",
+  "systemPrompt": "You are a defensive pharmacist. You gave wrong medicine. First deny mistake, then say you can't exchange opened box, then offer different wrong medicine. Only fix after user reads exact prescription details and insists they'll report error. Keep replies short.",
+  "completionCriteria": "User got the correct medicine after correcting the pharmacist.",
+  "responseLimit": 15,
+  "hints": [
+    "В рецепте написано... (The prescription says...)",
+    "Это опасная ошибка (This is a dangerous mistake)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "лекарство",
+      "definition": "medicine"
+    },
+    {
+      "word": "рецепт",
+      "definition": "prescription"
+    },
+    {
+      "word": "ошибка",
+      "definition": "mistake"
+    },
+    {
+      "word": "аптека",
+      "definition": "pharmacy"
+    },
+    {
+      "word": "обменять",
+      "definition": "to exchange"
+    },
+    {
+      "word": "правильный",
+      "definition": "correct"
+    }
+  ],
+  "objectives": [
+    "Point out the medicine is wrong (Это не те лекарства)",
+    "Read what prescription actually says",
+    "Counter the 'can't exchange' excuse",
+    "Emphasize this is a medical error",
+    "Get the correct medicine"
+  ]
+}

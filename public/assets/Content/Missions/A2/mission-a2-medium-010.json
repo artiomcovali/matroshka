@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-medium-010",
+  "title": "Exhibit Closed",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "The museum exhibit you came for is closed today",
+  "imageName": "building.columns.fill",
+  "initialPrompt": "Добро пожаловать в музей! Один билет?",
+  "systemPrompt": "You work at museum. The Egyptian exhibit is closed for renovation. Other exhibits open. Can come back Friday when it opens. Keep replies short.",
+  "completionCriteria": "User learned exhibit is closed and decided to visit other exhibits or return later.",
+  "responseLimit": 15,
+  "hints": [
+    "Хочу посмотреть египетскую выставку (I want to see the Egyptian exhibit)",
+    "Когда она откроется? (When will it open?)",
+    "Тогда посмотрю другие (Then I'll see the others)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "выставка",
+      "definition": "exhibit"
+    },
+    {
+      "word": "музей",
+      "definition": "museum"
+    },
+    {
+      "word": "закрыто",
+      "definition": "closed"
+    },
+    {
+      "word": "ремонт",
+      "definition": "renovation"
+    },
+    {
+      "word": "открыться",
+      "definition": "to open"
+    },
+    {
+      "word": "экспонат",
+      "definition": "exhibit item"
+    }
+  ],
+  "objectives": [
+    "Ask about the exhibit (выставка)",
+    "Learn it's closed (закрыто)",
+    "Decide what to do (see others or return)"
+  ]
+}

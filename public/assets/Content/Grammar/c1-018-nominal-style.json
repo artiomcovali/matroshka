@@ -1,0 +1,295 @@
+{
+  "id": "c1-018-nominal-style",
+  "level": "C1",
+  "focusArea": "sentenceStructure",
+  "title": "Nominal Style",
+  "titleRussian": "Номинальный стиль",
+  "description": "Nominalized constructions",
+  "descriptionRussian": "Номинализация и отглагольные существительные",
+  "imageName": "doc.plaintext",
+  "intro": "Nominal style replaces verbs with nouns, characteristic of formal/academic Russian. VERB → NOUN: проверить → проверка, исследовать → исследование, решить → решение, развивать → развитие. CONSTRUCTION: осуществить проверку (carry out a check) instead of проверить. WITH GENITIVE: проверка документов (checking of documents). ADVANTAGES: Formal tone, condensed information. DISADVANTAGES: Can be heavy, bureaucratic. Compare: Мы проверили документы (neutral) vs. Была осуществлена проверка документов (formal/official).",
+  "rules": [
+    "Verb → Noun: -ка (проверка), -ние/-ение (решение), -тие (развитие)",
+    "осуществить/провести + noun instead of simple verb",
+    "Noun + genitive: проверка документов, решение проблемы",
+    "More formal: Была проведена проверка vs Мы проверили"
+  ],
+  "examples": [
+    "Была проведена проверка документов. (An inspection of documents was conducted.)",
+    "Осуществление проекта займёт год. (Implementation of the project will take a year.)",
+    "После рассмотрения вопроса... (After consideration of the matter...)",
+    "Развитие экономики продолжается. (Economic development continues.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Noun from решить: принять _____",
+          "promptEnglish": "To make a decision",
+          "options": [
+            "решка",
+            "решимость",
+            "решённость",
+            "решение"
+          ],
+          "answer": "решение",
+          "hint": "What noun ending in -ние comes from this verb?",
+          "explanation": "Nominalization: решение."
+        },
+        {
+          "prompt": "Noun from проверить: провести _____",
+          "promptEnglish": "To conduct an inspection",
+          "options": [
+            "проверить",
+            "проверяя",
+            "проверку",
+            "проверенный"
+          ],
+          "answer": "проверку",
+          "hint": "Noun suffix -ка transforms this verb",
+          "explanation": "Nominalization: проверку."
+        },
+        {
+          "prompt": "Formal: _____ реформ продолжается. (implementation)",
+          "promptEnglish": "Implementation of reforms continues.",
+          "options": [
+            "Работа",
+            "Делание",
+            "Процесс",
+            "Осуществление"
+          ],
+          "answer": "Осуществление",
+          "hint": "Which -ние/-ение noun matches?",
+          "explanation": "Nominalization: осуществление."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Noun from развивать: _____ экономики",
+          "promptEnglish": "Economic development",
+          "options": [
+            "развитость",
+            "развив",
+            "развивание",
+            "развитие"
+          ],
+          "answer": "развитие",
+          "hint": "Think about the -тие suffix",
+          "explanation": "Nominalization: развитие."
+        },
+        {
+          "prompt": "Formal verb: _____ проверку (conduct)",
+          "promptEnglish": "To conduct an inspection",
+          "options": [
+            "иметь",
+            "быть",
+            "провести",
+            "делать"
+          ],
+          "answer": "провести",
+          "hint": "Formal verbs meaning 'conduct' or 'carry out'",
+          "explanation": "Formal: провести проверку."
+        },
+        {
+          "prompt": "Noun from рассмотреть: после _____ вопроса",
+          "promptEnglish": "After consideration of the matter",
+          "options": [
+            "рассмотрка",
+            "рассмотрения",
+            "рассмотра",
+            "рассмотрение"
+          ],
+          "answer": "рассмотрения",
+          "hint": "After после, use genitive of the nominalized form",
+          "explanation": "Nominalization: рассмотрения (genitive)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Which is more formal/nominal?",
+          "promptEnglish": "Identify nominal style",
+          "options": [
+            "Проверяем.",
+            "Мы проверили.",
+            "Была проведена проверка.",
+            "Проверим!"
+          ],
+          "answer": "Была проведена проверка.",
+          "hint": "Noun + passive = formal",
+          "explanation": "Nominal: Была проведена проверка."
+        },
+        {
+          "prompt": "Noun from исследовать: научное _____",
+          "promptEnglish": "Scientific research",
+          "options": [
+            "исследуя",
+            "исследование",
+            "исследователь",
+            "исследовка"
+          ],
+          "answer": "исследование",
+          "hint": "Scientific activity: which -ание noun?",
+          "explanation": "Nominalization: исследование."
+        },
+        {
+          "prompt": "Noun from улучшить: _____ условий",
+          "promptEnglish": "Improvement of conditions",
+          "options": [
+            "улучшив",
+            "улучшённость",
+            "улучшка",
+            "улучшение"
+          ],
+          "answer": "улучшение",
+          "hint": "Improvement: which -ение noun?",
+          "explanation": "Nominalization: улучшение."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Номинальный стиль: _____ закона состоялось вчера.",
+          "promptEnglish": "The signing of the law took place yesterday.",
+          "options": [
+            "Подписание",
+            "Подписать",
+            "Подписав",
+            "Подписанный"
+          ],
+          "answer": "Подписание",
+          "hint": "The nominalized form of 'to sign'",
+          "explanation": "Номинализация: подписать → подписание (существительное на -ние)."
+        },
+        {
+          "prompt": "Было осуществлено _____ новых сотрудников. (приём на работу)",
+          "promptEnglish": "The hiring of new employees was carried out.",
+          "options": [
+            "принимать",
+            "принятый",
+            "трудоустройство",
+            "принимая"
+          ],
+          "answer": "трудоустройство",
+          "hint": "Formal pattern: carry out + verbal noun",
+          "explanation": "Номинальный стиль: осуществить + трудоустройство (существительное вместо глагола)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "После _____ документов мы приняли решение. (checking, genitive)"
+    ],
+    "choices": [
+      "проверки",
+      "проверить",
+      "проверяя",
+      "проверенный"
+    ],
+    "answers": [
+      "проверки"
+    ],
+    "grammarFocus": "Nominalization + genitive: после проверки",
+    "hints": [
+      "Nominal style replaces verbs with nouns. After 'после' (after), you need a noun in the genitive case, not a verb form."
+    ],
+    "explanations": [
+      "'После проверки' (after checking/after the check) uses the nominalized form of 'проверить.' The genitive noun 'проверки' follows 'после.' This nominal style is typical of formal/official Russian, replacing verbal clauses with noun phrases."
+    ],
+    "options": [
+      [
+        "проверка",
+        "проверке",
+        "проверку",
+        "проверки"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Verbal (neutral): Мы _____ документы.",
+      "contextEnglish": "We checked the documents.",
+      "options": [
+        "проверили",
+        "провели проверку"
+      ],
+      "answer": "проверили",
+      "explanation": "Verbal style: проверили."
+    },
+    {
+      "context": "Nominal (formal): Была _____ документов.",
+      "contextEnglish": "An inspection was conducted.",
+      "options": [
+        "проведена проверка",
+        "проверено"
+      ],
+      "answer": "проведена проверка",
+      "explanation": "Nominal style: проведена проверка."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Match verbs with their nominal forms",
+    "categories": [
+      "-ние/-ение",
+      "-ка",
+      "-тие"
+    ],
+    "items": [
+      {
+        "word": "решение (решить)",
+        "category": "-ние/-ение"
+      },
+      {
+        "word": "проверка (проверить)",
+        "category": "-ка"
+      },
+      {
+        "word": "развитие (развивать)",
+        "category": "-тие"
+      },
+      {
+        "word": "исследование (исследовать)",
+        "category": "-ние/-ение"
+      },
+      {
+        "word": "оценка (оценить)",
+        "category": "-ка"
+      },
+      {
+        "word": "открытие (открыть)",
+        "category": "-тие"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "проверка / рассмотрение",
+      "definition": "check / consideration (nouns)",
+      "example": "После проверки документов..."
+    },
+    {
+      "term": "осуществление / развитие",
+      "definition": "implementation / development",
+      "example": "Осуществление плана."
+    },
+    {
+      "term": "провести / осуществить + noun",
+      "definition": "conduct/carry out (formal)",
+      "example": "Провести проверку."
+    },
+    {
+      "term": "noun + genitive",
+      "definition": "nominal construction pattern",
+      "example": "Решение проблемы."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-006",
+  "title": "Corrupt Official",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Official demanding bribe for service you're entitled to",
+  "imageName": "hand.raised.slash.fill",
+  "initialPrompt": "Документы можно оформить быстрее... за дополнительную плату. Иначе ждите три месяца. Решайте.",
+  "systemPrompt": "You are corrupt official hinting at bribe. Apply pressure subtly. Only process legally if person firmly refuses and threatens formal complaint.",
+  "completionCriteria": "User refused bribe and demanded legal service.",
+  "responseLimit": 15,
+  "hints": [
+    "Я настаиваю на официальной процедуре (I insist on official procedure)",
+    "Я напишу жалобу (I will file a complaint)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "взятка",
+      "definition": "bribe"
+    },
+    {
+      "word": "коррупция",
+      "definition": "corruption"
+    },
+    {
+      "word": "жалоба",
+      "definition": "complaint"
+    },
+    {
+      "word": "официальный",
+      "definition": "official"
+    },
+    {
+      "word": "законный",
+      "definition": "legal"
+    },
+    {
+      "word": "процедура",
+      "definition": "procedure"
+    }
+  ],
+  "objectives": [
+    "Refuse bribe firmly",
+    "Demand legal process",
+    "Threaten formal complaint",
+    "Request supervisor",
+    "Document the attempt"
+  ]
+}

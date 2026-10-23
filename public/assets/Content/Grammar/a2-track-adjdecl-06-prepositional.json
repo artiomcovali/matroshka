@@ -1,0 +1,327 @@
+{
+  "id": "a2-track-adjdecl-06-prepositional",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Adjective Declension 6: Prepositional Singular",
+  "titleRussian": "Склонение прилагательных 6: предложный падеж",
+  "description": "The prepositional singular for hard-stem adjectives. Masculine and neuter share -ом. The feminine reuses -ой. Triggers: в, на, о / об, при + prepositional. The prepositional always sits behind a preposition.",
+  "descriptionRussian": "Предложный падеж единственного числа: мужской и средний делят окончание -ом, женский повторяет -ой. Падеж всегда требует предлог: в / на / о / об / при.",
+  "imageName": "location.circle",
+  "trackId": "a2-adjective-declension-mastery",
+  "trackTitle": "Adjective Full Declension Mastery",
+  "trackTitleRussian": "Склонение прилагательных",
+  "trackIndex": 6,
+  "trackTotal": 9,
+  "intro": "The last case in the singular, and the feminine form still has not changed: four cases now share it. If you have been holding this book as a grid you should be able to see how few cells are actually distinct. The masculine and neuter take their final new ending, and the second spelling rule turns up to adjust it after certain consonants.",
+  "rules": [
+    "Masculine and neuter share one prepositional singular ending: -ом. Hard-stem -ый and -ое both become -ом.",
+    "Spelling rule (Rule 2): after a husher (ж, ш, ч, щ) in unstressed position, the masculine / neuter ending is written -ем not -ом. Хороший → о хорошем; свежий → о свежем. Stressed endings keep -ом: большом, чужом.",
+    "Feminine takes -ой in the prepositional, the same form as the genitive, dative, and instrumental. Four cases converge on -ой for the feminine slot.",
+    "Triggers: в + prep (location inside), на + prep (on a surface or idiomatic place), о / об + prep (topic of speech or thought), при + prep (presence or condition). The prepositional always sits behind one of these prepositions."
+  ],
+  "examples": [
+    "Маша живёт в новом доме. (Masha lives in a new house.) В + prep; дом masc: новом.",
+    "Антон работает в маленькой школе. (Anton works in a small school.) В + prep; школа fem: маленькой.",
+    "Книга лежит на старом столе. (The book lies on the old table.) На + prep; стол masc: старом.",
+    "Маша думает о хорошем друге. (Masha thinks about a good friend.) О + prep; husher rule: хороший → хорошем.",
+    "Лена говорит о красивой сестре. (Lena talks about her beautiful sister.) О + prep; сестра fem: красивой.",
+    "Дети играют в большом парке. (Children play in a big park.) В + prep; stressed ending stays -ом: большом."
+  ],
+  "tables": [
+    {
+      "title": "Prepositional Singular Endings (новый as model)",
+      "headers": [
+        "Slot",
+        "Ending",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "masculine",
+          "cells": [
+            "-ом",
+            "о новом друге"
+          ]
+        },
+        {
+          "label": "neuter",
+          "cells": [
+            "-ом (= masc)",
+            "о новом письме"
+          ]
+        },
+        {
+          "label": "feminine",
+          "cells": [
+            "-ой",
+            "о новой подруге"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Husher Rule (Rule 2): -ом Becomes -ем (Unstressed)",
+      "headers": [
+        "Adjective",
+        "Stress on ending?",
+        "Prepositional form"
+      ],
+      "rows": [
+        {
+          "label": "хороший",
+          "cells": [
+            "unstressed",
+            "о хорошем"
+          ]
+        },
+        {
+          "label": "свежий",
+          "cells": [
+            "unstressed",
+            "о свежем"
+          ]
+        },
+        {
+          "label": "большой",
+          "cells": [
+            "stressed",
+            "о большом"
+          ]
+        },
+        {
+          "label": "чужой",
+          "cells": [
+            "stressed",
+            "о чужом"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Маша гордится _____ сестрой.",
+          "promptEnglish": "Masha is proud of her smart sister.",
+          "options": [
+            "умной",
+            "умную",
+            "умного",
+            "умному"
+          ],
+          "answer": "умной",
+          "hint": "Recap from Lesson 5: гордиться takes which case? Сестра is fem.",
+          "explanation": "Recap from Lesson 5. Гордиться + instr. Сестра is feminine, so the instr ending is -ой: умной. Today's drill, starting Q1.2, switches to the prepositional. Note: -ой will appear AGAIN today as the feminine prepositional ending."
+        },
+        {
+          "prompt": "Антон работает в _____ городе.",
+          "promptEnglish": "Anton works in a big city.",
+          "options": [
+            "большой",
+            "большому",
+            "большим",
+            "большом"
+          ],
+          "answer": "большом",
+          "hint": "В + prep. Город is masc. The masculine prep ending is brand new today.",
+          "explanation": "В + prep triggers the prepositional. Город is masculine, so the prep ending is -ом: большом. Note большой is end-stressed, so the stressed -ом keeps the -о (Rule 2 only swaps -ом → -ем in unstressed position). Маленький (unstressed) would give о маленьком."
+        },
+        {
+          "prompt": "Книга лежит на _____ столе.",
+          "promptEnglish": "The book lies on the old table.",
+          "options": [
+            "старой",
+            "старом",
+            "старого",
+            "старому"
+          ],
+          "answer": "старом",
+          "hint": "На + prep. Стол is masc. Same masculine prep ending as Q1.2.",
+          "explanation": "На + prep triggers the prepositional. Стол is masculine, so the prep ending is -ом: старом. Both в + prep and на + prep mark static location; the choice between в and на depends on the noun (enclosed space vs surface or event)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Дети играют в _____ парке.",
+          "promptEnglish": "Children play in a beautiful park.",
+          "options": [
+            "красивая",
+            "красивым",
+            "красивом",
+            "красивого"
+          ],
+          "answer": "красивом",
+          "hint": "В + prep. Парк is masc; the adjective stem ends in -в-, no spelling rule applies.",
+          "explanation": "В + prep. Парк is masculine, so the prep ending is -ом: красивом. The stem ends in -в- (not a husher or velar), so the -ом is straight."
+        },
+        {
+          "prompt": "Маша думает о _____ друге.",
+          "promptEnglish": "Masha thinks about a good friend.",
+          "options": [
+            "хорошем",
+            "хорошим",
+            "хорошего",
+            "хороший"
+          ],
+          "answer": "хорошем",
+          "hint": "О + prep. Хороший stem ends in -ш-: which Rule 2 form?",
+          "explanation": "О + prep. Друг is masculine. Хороший ends in -ш- with an unstressed ending, so by Rule 2 the prepositional is хорошем (not хорошом). Pair with свежем (о свежем хлебе): same -ж-/-ш- pattern, same unstressed ending."
+        },
+        {
+          "prompt": "Лена говорит о _____ сестре.",
+          "promptEnglish": "Lena talks about her smart sister.",
+          "options": [
+            "умного",
+            "умной",
+            "умную",
+            "умному"
+          ],
+          "answer": "умной",
+          "hint": "О + prep. Сестра is fem. Same feminine ending you have used four times now.",
+          "explanation": "О + prep. Сестра is feminine, so the prep ending is -ой: умной. -Ой closes out the feminine sequence: gen, dat, instr, prep, four cases, one form. Only the nominative (-ая) and the accusative (-ую) stand apart for the feminine."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Маша живёт в _____ квартире.",
+          "promptEnglish": "Masha lives in a new apartment.",
+          "options": [
+            "новая",
+            "новой",
+            "новую",
+            "новым"
+          ],
+          "answer": "новой",
+          "hint": "В + prepositional. Which ending do feminine adjectives take?",
+          "explanation": "The feminine prepositional adjective ending is -ой: в новой квартире."
+        },
+        {
+          "prompt": "Антон работает в _____ школе.",
+          "promptEnglish": "Anton works in a small school.",
+          "options": [
+            "маленькой",
+            "маленькая",
+            "маленьком",
+            "маленькую"
+          ],
+          "answer": "маленькой",
+          "hint": "Школа is feminine, and в + location takes the prepositional.",
+          "explanation": "Школа is feminine, and the feminine prepositional ending is -ой: в маленькой школе."
+        },
+        {
+          "prompt": "Лена говорит о _____ друге.",
+          "promptEnglish": "Lena talks about her old friend.",
+          "options": [
+            "старый",
+            "старого",
+            "старом",
+            "старым"
+          ],
+          "answer": "старом",
+          "hint": "О + prepositional. Друг is masculine.",
+          "explanation": "The masculine prepositional adjective ending is -ом: о старом друге. Animacy does not matter in the prepositional."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Антон живёт в _____ квартире. (Anton lives in a small apartment.)"
+    ],
+    "choices": [
+      "маленький",
+      "маленькой",
+      "маленькую",
+      "маленьким"
+    ],
+    "answers": [
+      "маленькой"
+    ],
+    "grammarFocus": "В + prep triggers the prepositional. Квартира is feminine, so the adjective takes -ой: маленькой. Same feminine -ой you have seen across gen / dat / instr / prep."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Маша думает о свежом воздухе.",
+      "translationEnglish": "Masha is thinking about the fresh air.",
+      "error": "свежом",
+      "correction": "свежем",
+      "options": [
+        "свежем",
+        "свежим",
+        "свежего"
+      ],
+      "explanation": "О + prep triggers the prepositional, and after -ж- in unstressed position Rule 2 writes the ending -ем, not -ом: свежем. Свежом violates Rule 2 (no unstressed -о after ж, ш, ч, щ). The plain -ом survives only on other stems or under stress (о большом доме, where -ом is stressed)."
+    },
+    {
+      "sentence": "Антон работает в старую школе.",
+      "translationEnglish": "Anton works in an old school.",
+      "error": "старую",
+      "correction": "старой",
+      "options": [
+        "старой",
+        "старая",
+        "старом"
+      ],
+      "explanation": "В answering 'where' takes the prepositional, and the feminine prepositional ending is -ой: старой. Старую is the feminine ACCUSATIVE, which would follow в only for motion 'into' (Антон идёт в старую школу)."
+    },
+    {
+      "sentence": "Лена говорит о глубокое озере.",
+      "translationEnglish": "Lena talks about the deep lake.",
+      "error": "глубокое",
+      "correction": "глубоком",
+      "options": [
+        "глубоком",
+        "глубокой",
+        "глубоким"
+      ],
+      "explanation": "О + prep triggers the prepositional, and from the genitive onward the neuter shares the masculine ending: -ое becomes -ом, giving глубоком озере. Глубокое is the nominative/accusative neuter form."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша живёт в _____ доме.",
+      "contextEnglish": "Masha lives in a new house.",
+      "options": [
+        "новом",
+        "новым"
+      ],
+      "answer": "новом",
+      "explanation": "В + prep triggers the prepositional, not the instrumental. The masculine prep ending is -ом: новом. Новым would be the instr form (Lesson 5: с новым другом)."
+    },
+    {
+      "context": "Антон думает о _____ друге.",
+      "contextEnglish": "Anton thinks about a good friend.",
+      "options": [
+        "хорошом",
+        "хорошем"
+      ],
+      "answer": "хорошем",
+      "explanation": "After -ш- in unstressed position, Rule 2 forbids -о. The prep ending is written -ем: хорошем. Хорошом violates Rule 2."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "предложный падеж",
+      "definition": "prepositional case (always sits behind a preposition; answers 'О ком? / О чём? / Где?')",
+      "example": "В предложении 'Маша живёт в новом доме' слова 'новом' и 'доме' стоят в предложном падеже."
+    },
+    {
+      "term": "местонахождение",
+      "definition": "location (the meaning behind в + prep and на + prep: where something is)",
+      "example": "В фразе 'в большом городе' конструкция в + prep выражает местонахождение."
+    },
+    {
+      "term": "тема",
+      "definition": "topic (the meaning behind о / об + prep: what something is about)",
+      "example": "В фразе 'о хорошем друге' конструкция о + prep вводит тему разговора."
+    }
+  ]
+}

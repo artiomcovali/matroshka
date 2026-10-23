@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-026",
+  "title": "Medicine Interaction",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "The pharmacist warns about a drug interaction",
+  "imageName": "pills.fill",
+  "initialPrompt": "Ваш рецепт готов. Но подождите минутку...",
+  "systemPrompt": "You are pharmacist. Customer's new medicine interacts with their allergy medicine. Can take new medicine in morning, allergy at night. Or doctor can prescribe alternative. Keep replies short.",
+  "completionCriteria": "User understood the interaction and chose how to proceed.",
+  "responseLimit": 15,
+  "hints": [
+    "В чём проблема? (What is the problem?)",
+    "Что мне делать? (What should I do?)",
+    "Можно принимать в разное время? (Can I take them at different times?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "лекарство",
+      "definition": "medicine"
+    },
+    {
+      "word": "взаимодействие",
+      "definition": "interaction"
+    },
+    {
+      "word": "рецепт",
+      "definition": "prescription"
+    },
+    {
+      "word": "аллергия",
+      "definition": "allergy"
+    },
+    {
+      "word": "принимать",
+      "definition": "to take"
+    },
+    {
+      "word": "альтернатива",
+      "definition": "alternative"
+    }
+  ],
+  "objectives": [
+    "Learn about the interaction",
+    "Understand the options",
+    "Ask clarifying questions",
+    "Decide how to take medicines safely"
+  ]
+}

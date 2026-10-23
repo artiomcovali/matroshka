@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-medium-012",
+  "title": "Political Advisor",
+  "level": "C1",
+  "difficulty": "medium",
+  "description": "Navigate coalition tensions",
+  "imageName": "person.2.fill",
+  "initialPrompt": "Коалиция на грани распада. Партнёры требуют взаимоисключающих уступок. Как советник, предложите стратегию сохранения союза.",
+  "systemPrompt": "You are politician in fragile coalition. Present impossible demands from partners. Only accept strategy that addresses core concerns of all sides.",
+  "completionCriteria": "User proposed viable coalition strategy.",
+  "responseLimit": 15,
+  "hints": [
+    "Найдём общие интересы... (Let's find common interests...)",
+    "Компромисс возможен в области... (Compromise is possible in the area of...)",
+    "Приоритизируем требования... (Let's prioritize demands...)"
+  ],
+  "targetVocabulary": [
+    {"word": "коалиция", "definition": "coalition"},
+    {"word": "уступка", "definition": "concession"},
+    {"word": "стратегия", "definition": "strategy"},
+    {"word": "союзник", "definition": "ally"},
+    {"word": "компромисс", "definition": "compromise"},
+    {"word": "переговоры", "definition": "negotiations"}
+  ],
+  "objectives": [
+    "Identify common ground",
+    "Prioritize demands",
+    "Propose viable compromises",
+    "Preserve coalition"
+  ]
+}

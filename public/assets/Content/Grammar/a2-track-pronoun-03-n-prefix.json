@@ -1,0 +1,373 @@
+{
+  "id": "a2-track-pronoun-03-n-prefix",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Pronoun Declension 3: The н- Prefix on 3rd-Person Pronouns After Prepositions",
+  "titleRussian": "Склонение местоимений 3: приставка н- у местоимений 3-го лица после предлогов",
+  "description": "After a preposition, the 3rd-person pronouns (он, она, оно, они) gain a leading н-: его → у него, ей → к ней, их → с ними. The 1st and 2nd person never take this prefix. Highest-failure-rate A2 pronoun rule.",
+  "descriptionRussian": "После предлога местоимения 3-го лица (он, она, оно, они) получают начальное н-: его → у него, ей → к ней, их → с ними. У местоимений 1-го и 2-го лица приставки нет.",
+  "imageName": "arrow.left.and.right.righttriangle.left.righttriangle.right",
+  "trackId": "a2-pronoun-declension-mastery",
+  "trackTitle": "Pronoun Declension Mastery",
+  "trackTitleRussian": "Склонение местоимений",
+  "trackIndex": 3,
+  "trackTotal": 6,
+  "intro": "A whole lesson for one letter, and it earns it. Third-person pronouns grow an extra consonant on the front after a preposition, purely because the combination is easier to say. First and second person never do this. And the possessive words that look identical to these pronouns never do either, which is the distinction that actually catches people.",
+  "rules": [
+    "After a preposition, 3rd-person personal pronouns (он, она, оно, они) gain a leading н-: его → него, её → неё, ему → нему, ей → ней, им → ним, ими → ними, их → них.",
+    "1st and 2nd person pronouns NEVER take the н- prefix. У меня, к тебе, с нами, о вас all use the bare forms.",
+    "The 3rd-person prepositional forms (о нём, о ней, о них) always include н- because the prepositional case always has a preposition.",
+    "The possessive его / её / их (his / her / their, from the A1 Possessives track) NEVER takes the prefix even after a preposition: у его брата (at his brother's), not 'у него брата'."
+  ],
+  "examples": [
+    "У него есть собака. (He has a dog.) У + gen with the 3sg masc pronoun: его → него.",
+    "Маша идёт к ней. (Masha is going to her.) К + dat with 3sg fem: ей → ней.",
+    "Антон работает с ним. (Anton works with him.) С + instr with 3sg masc: им → ним.",
+    "Лена думает о них. (Lena is thinking about them.) О + prep with 3pl: их → них (always prefixed in the prep).",
+    "Я знаю его. (I know him.) No preposition, so no prefix: bare его.",
+    "У меня нет книги. (I do not have a book.) 1st-person, never prefixed: bare меня."
+  ],
+  "tables": [
+    {
+      "title": "3rd-Person Pronouns: Bare vs Prefixed",
+      "headers": [
+        "Pronoun",
+        "Case",
+        "Bare (no prep)",
+        "Prefixed (after prep)"
+      ],
+      "rows": [
+        {
+          "label": "он / оно",
+          "cells": [
+            "acc / gen",
+            "его",
+            "у / без / для него"
+          ]
+        },
+        {
+          "label": "он / оно",
+          "cells": [
+            "dative",
+            "ему",
+            "к / по нему"
+          ]
+        },
+        {
+          "label": "он / оно",
+          "cells": [
+            "instr",
+            "им",
+            "с / за / над ним"
+          ]
+        },
+        {
+          "label": "она",
+          "cells": [
+            "acc / gen",
+            "её",
+            "у / без / для неё"
+          ]
+        },
+        {
+          "label": "она",
+          "cells": [
+            "dative",
+            "ей",
+            "к / по ней"
+          ]
+        },
+        {
+          "label": "она",
+          "cells": [
+            "instr",
+            "ей",
+            "с / за / перед ней"
+          ]
+        },
+        {
+          "label": "они",
+          "cells": [
+            "acc / gen",
+            "их",
+            "у / без / для них"
+          ]
+        },
+        {
+          "label": "они",
+          "cells": [
+            "dative",
+            "им",
+            "к / по ним"
+          ]
+        },
+        {
+          "label": "они",
+          "cells": [
+            "instr",
+            "ими",
+            "с / за / между ними"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Three Common Trigger Frames (3rd person)",
+      "headers": [
+        "Frame",
+        "Masc / neut",
+        "Fem",
+        "Plural"
+      ],
+      "rows": [
+        {
+          "label": "у ___ есть / нет (gen)",
+          "cells": [
+            "у него",
+            "у неё",
+            "у них"
+          ]
+        },
+        {
+          "label": "к ___ (dat motion)",
+          "cells": [
+            "к нему",
+            "к ней",
+            "к ним"
+          ]
+        },
+        {
+          "label": "с ___ (instr accompaniment)",
+          "cells": [
+            "с ним",
+            "с ней",
+            "с ними"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Маша помогает _____.",
+          "promptEnglish": "Masha helps me. (warm-up from Lesson 2)",
+          "options": [
+            "меня",
+            "обо мне",
+            "мне",
+            "мной"
+          ],
+          "answer": "мне",
+          "hint": "Recap from Lesson 2: помогать takes the dative. The dat of я is мне.",
+          "explanation": "Recap from Lesson 2: the dative of я is мне. Помогать takes a dative indirect object. Today we move to a different rule: when a 3rd-person pronoun (он, она, они) follows a preposition, it gains the н- prefix."
+        },
+        {
+          "prompt": "У _____ есть собака.",
+          "promptEnglish": "He has a dog.",
+          "options": [
+            "его",
+            "ему",
+            "неё",
+            "него"
+          ],
+          "answer": "него",
+          "hint": "У + gen with a 3rd-person masc pronoun. The preposition triggers the н- prefix.",
+          "explanation": "У + gen with the 3rd-person masc pronoun triggers the н- prefix: его → него. Without the preposition, the bare form его is used (Я знаю его)."
+        },
+        {
+          "prompt": "Маша идёт к _____.",
+          "promptEnglish": "Masha is going to her.",
+          "options": [
+            "неё",
+            "ей",
+            "ней",
+            "её"
+          ],
+          "answer": "ней",
+          "hint": "К + dat with a 3rd-person fem pronoun. The preposition triggers the н- prefix.",
+          "explanation": "К + dat with the 3rd-person fem pronoun triggers the н- prefix: ей → ней. The bare ей would be used after a verb like помогать (Маша помогает ей)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Антон работает с _____.",
+          "promptEnglish": "Anton works with him.",
+          "options": [
+            "его",
+            "ним",
+            "ему",
+            "им"
+          ],
+          "answer": "ним",
+          "hint": "С + instr with a 3rd-person masc pronoun. The preposition triggers the prefix.",
+          "explanation": "С + instr with the 3rd-person masc pronoun triggers the н- prefix: им → ним. The bare им would be used after a verb like гордиться (Антон гордится им)."
+        },
+        {
+          "prompt": "Я знаю _____.",
+          "promptEnglish": "I know her.",
+          "options": [
+            "её",
+            "ней",
+            "неё",
+            "ей"
+          ],
+          "answer": "её",
+          "hint": "Знать takes the accusative; there is no preposition. Does the prefix apply?",
+          "explanation": "There is no preposition, so the н- prefix does NOT apply. The acc of она is the bare form её. Compare у неё (after a preposition) with я знаю её (no preposition)."
+        },
+        {
+          "prompt": "Лена думает о _____.",
+          "promptEnglish": "Lena is thinking about them.",
+          "options": [
+            "им",
+            "них",
+            "их",
+            "ими"
+          ],
+          "answer": "них",
+          "hint": "О + prepositional. The 3rd-person prepositional always carries the н- prefix.",
+          "explanation": "The 3rd-person prepositional always has the н- prefix because the case always has a preposition. Их (acc / gen) → них (prep). There is no bare *них in modern Russian."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша звонит _____. (Masha calls him.)"
+    ],
+    "choices": [
+      "его",
+      "ему",
+      "нему",
+      "ним"
+    ],
+    "answers": [
+      "ему"
+    ],
+    "grammarFocus": "Звонить takes the dative; the dat of он is ему. There is no preposition, so the н- prefix does not apply: bare ему. Compare к нему (preposition + dat, prefix triggered) with звонит ему (verb + dat, no preposition, no prefix)."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Антон пришёл к ему в гости.",
+      "translationEnglish": "Anton came to visit him.",
+      "error": "ему",
+      "correction": "нему",
+      "options": [
+        "нему",
+        "него",
+        "ним"
+      ],
+      "explanation": "After a preposition, a 3rd-person pronoun gains the н- prefix, so к + он (dative) is к нему, not к ему. The bare ему appears only without a preposition ('Я помогаю ему'). Correct: Антон пришёл к нему в гости."
+    },
+    {
+      "sentence": "Маша давно дружит с им.",
+      "translationEnglish": "Masha has been friends with him for a long time.",
+      "error": "с им",
+      "correction": "с ним",
+      "options": [
+        "с ним",
+        "с его",
+        "с нём"
+      ],
+      "explanation": "After the preposition с, the 3rd-person masculine instrumental им gains the н- prefix: с ним. С им leaves the bare form, which only appears without a preposition (гордиться им). Correct: Маша давно дружит с ним."
+    },
+    {
+      "sentence": "Я очень хорошо знаю него.",
+      "translationEnglish": "I know him very well.",
+      "error": "него",
+      "correction": "его",
+      "options": [
+        "его",
+        "ему",
+        "нему"
+      ],
+      "explanation": "The н- prefix appears only when the 3rd-person pronoun follows a preposition. Знать takes the accusative его with no preposition, so the bare form is correct: знаю его, not него. Него is the prefixed form used after a preposition ('у него', 'без него'). With no preposition, the form stays bare: его."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я знаю _____.",
+      "contextEnglish": "I know him.",
+      "options": [
+        "него",
+        "его"
+      ],
+      "answer": "его",
+      "explanation": "There is no preposition, so the bare form его is correct. Него is the prefixed form used after a preposition (у него, без него). Знать + acc with no preposition = bare."
+    },
+    {
+      "context": "Маша работает с _____.",
+      "contextEnglish": "Masha works with her.",
+      "options": [
+        "ней",
+        "ей"
+      ],
+      "answer": "ней",
+      "explanation": "С + instr with the 3rd-person fem pronoun. The preposition triggers the н- prefix: ей → ней. The bare ей would only be used after a verb like помогать (Маша помогает ей)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each phrase by whether it gets the н- prefix.",
+    "categories": [
+      "н-prefix needed (3rd person + preposition)",
+      "no prefix (1st / 2nd person OR no preposition)"
+    ],
+    "items": [
+      {
+        "word": "у ___ нет (она)",
+        "category": "н-prefix needed (3rd person + preposition)"
+      },
+      {
+        "word": "помогать ___ (он, no prep)",
+        "category": "no prefix (1st / 2nd person OR no preposition)"
+      },
+      {
+        "word": "к ___ (они)",
+        "category": "н-prefix needed (3rd person + preposition)"
+      },
+      {
+        "word": "у ___ есть (мы)",
+        "category": "no prefix (1st / 2nd person OR no preposition)"
+      },
+      {
+        "word": "знать ___ (она, no prep)",
+        "category": "no prefix (1st / 2nd person OR no preposition)"
+      },
+      {
+        "word": "с ___ (он)",
+        "category": "н-prefix needed (3rd person + preposition)"
+      },
+      {
+        "word": "о ___ (вы)",
+        "category": "no prefix (1st / 2nd person OR no preposition)"
+      },
+      {
+        "word": "без ___ (они)",
+        "category": "н-prefix needed (3rd person + preposition)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "приставка н-",
+      "definition": "the н- prefix (the leading н that 3rd-person personal pronouns gain after a preposition: его → него, её → неё, их → них)",
+      "example": "В сочетании 'у него' приставка н- прибавляется к местоимению его, потому что перед местоимением стоит предлог у."
+    },
+    {
+      "term": "третье лицо",
+      "definition": "third person (он, она, оно, они: the only personal-pronoun group that takes the н- prefix after a preposition)",
+      "example": "Местоимения третьего лица его, её, их получают приставку н- после предлога: у него, к ней, с ними."
+    },
+    {
+      "term": "первое и второе лицо",
+      "definition": "first and second person (я, ты, мы, вы: never takes the н- prefix)",
+      "example": "У меня, у тебя, у нас, у вас: формы первого и второго лица не получают приставку н-, в отличие от третьего лица."
+    }
+  ]
+}

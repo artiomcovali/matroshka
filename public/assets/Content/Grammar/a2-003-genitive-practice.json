@@ -1,0 +1,610 @@
+{
+  "lessonId": "a2-003-genitive",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Choose the correct genitive form in each sentence",
+      "descriptionRussian": "Выберите правильную форму родительного падежа",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Это машина _____. (This is my friend's car.)",
+              "promptEnglish": "This is my friend's car.",
+              "options": [
+                "друг",
+                "другу",
+                "друга",
+                "друге"
+              ],
+              "answer": "друга",
+              "hint": "Possession uses genitive. Друг is masculine.",
+              "explanation": "Possession requires genitive: друг → друга (masculine -а ending)."
+            },
+            {
+              "prompt": "У неё нет _____. (She doesn't have a cat.)",
+              "promptEnglish": "She doesn't have a cat.",
+              "options": [
+                "кошка",
+                "кошки",
+                "кошку",
+                "кошке"
+              ],
+              "answer": "кошки",
+              "hint": "Нет requires genitive. Кошка is feminine -а.",
+              "explanation": "After нет, use genitive: кошка → кошки (feminine -а → -и)."
+            },
+            {
+              "prompt": "Стакан _____. (A glass of milk.)",
+              "promptEnglish": "A glass of milk.",
+              "options": [
+                "молоко",
+                "молока",
+                "молоку",
+                "молоке"
+              ],
+              "answer": "молока",
+              "hint": "A container 'of' something uses genitive. Молоко is neuter.",
+              "explanation": "Genitive for 'of': молоко → молока (neuter -о → -а)."
+            },
+            {
+              "prompt": "Он пришёл без _____. (He came without a jacket.)",
+              "promptEnglish": "He came without a jacket.",
+              "options": [
+                "куртка",
+                "курткой",
+                "куртке",
+                "куртки"
+              ],
+              "answer": "куртки",
+              "hint": "Без (without) takes genitive. Куртка is feminine -а.",
+              "explanation": "Без requires genitive: куртка → куртки (feminine -а → -и)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "У меня есть _____. (I have a dog.)",
+          "contextEnglish": "I have a dog.",
+          "options": [
+            "собака",
+            "собаки"
+          ],
+          "answer": "собака",
+          "explanation": "After есть (have), use nominative: собака."
+        },
+        {
+          "context": "У меня нет _____. (I don't have a dog.)",
+          "contextEnglish": "I don't have a dog.",
+          "options": [
+            "собака",
+            "собаки"
+          ],
+          "answer": "собаки",
+          "explanation": "After нет (don't have), use genitive: собака → собаки."
+        },
+        {
+          "context": "Он идёт в _____. (He's going to the store.)",
+          "contextEnglish": "He's going to the store.",
+          "options": [
+            "магазин",
+            "магазина"
+          ],
+          "answer": "магазин",
+          "explanation": "В + accusative for direction: магазин (inanimate, no change)."
+        },
+        {
+          "context": "Он идёт из _____. (He's coming from the store.)",
+          "contextEnglish": "He's coming from the store.",
+          "options": [
+            "магазин",
+            "магазина"
+          ],
+          "answer": "магазина",
+          "explanation": "Из (from) requires genitive: магазин → магазина."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Это дом _____. (This is the teacher's house.)",
+          "После _____ мы пошли домой. (After work we went home.)",
+          "Два _____ лежат на столе. (Two letters are lying on the table.)"
+        ],
+        "choices": [
+          "учителя",
+          "работы",
+          "письма"
+        ],
+        "answers": [
+          "учителя",
+          "работы",
+          "письма"
+        ],
+        "grammarFocus": "Genitive for possession, prepositions, and numbers 2-4",
+        "hints": [
+          "Possession: учитель is masculine soft-stem.",
+          "После (after) takes genitive. Работа is feminine -а.",
+          "After два, use genitive singular. Письмо is neuter."
+        ],
+        "explanations": [
+          "Possession: учитель → учителя (masculine -ь → -я).",
+          "После + genitive: работа → работы (feminine -а → -ы).",
+          "Два + genitive singular: письмо → письма (neuter -о → -а)."
+        ],
+        "options": [
+          [
+            "учителю",
+            "учителем",
+            "учитель",
+            "учителя"
+          ],
+          [
+            "работа",
+            "работу",
+            "работе",
+            "работы"
+          ],
+          [
+            "письмо",
+            "письму",
+            "письмом",
+            "письма"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-sort-correct",
+      "title": "Sort and Correct",
+      "titleRussian": "Сортировка и исправление",
+      "description": "Sort genitive forms by gender and fix case errors",
+      "descriptionRussian": "Рассортируйте формы по родам и исправьте ошибки",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort these nouns: which genitive ending do they take?",
+        "categories": [
+          "Genitive -а/-я (masculine/neuter)",
+          "Genitive -ы/-и (feminine)"
+        ],
+        "items": [
+          {
+            "word": "город → города",
+            "category": "Genitive -а/-я (masculine/neuter)"
+          },
+          {
+            "word": "школа → школы",
+            "category": "Genitive -ы/-и (feminine)"
+          },
+          {
+            "word": "окно → окна",
+            "category": "Genitive -а/-я (masculine/neuter)"
+          },
+          {
+            "word": "мама → мамы",
+            "category": "Genitive -ы/-и (feminine)"
+          },
+          {
+            "word": "музей → музея",
+            "category": "Genitive -а/-я (masculine/neuter)"
+          },
+          {
+            "word": "неделя → недели",
+            "category": "Genitive -ы/-и (feminine)"
+          },
+          {
+            "word": "врач → врача",
+            "category": "Genitive -а/-я (masculine/neuter)"
+          },
+          {
+            "word": "подруга → подруги",
+            "category": "Genitive -ы/-и (feminine)"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "У меня нет брат.",
+          "error": "брат",
+          "correction": "брата",
+          "hint": "Нет requires genitive, not nominative.",
+          "explanation": "After нет, use genitive: брат → брата.",
+          "options": [
+            "брата",
+            "брату",
+            "брате"
+          ]
+        },
+        {
+          "sentence": "Это ключи учителю.",
+          "error": "учителю",
+          "correction": "учителя",
+          "hint": "Possession requires genitive, not dative.",
+          "explanation": "To show 'whose keys,' use genitive: учитель → учителя, not учителю (dative).",
+          "options": [
+            "учителя",
+            "учитель",
+            "учителе"
+          ]
+        },
+        {
+          "sentence": "Он приехал из Москву.",
+          "error": "Москву",
+          "correction": "Москвы",
+          "hint": "Из takes genitive, not accusative.",
+          "explanation": "Из (from) requires genitive: Москва → Москвы, not Москву (accusative).",
+          "options": [
+            "Москвы",
+            "Москва",
+            "Москве"
+          ]
+        },
+        {
+          "sentence": "Чашка чай стоит на столе.",
+          "error": "чай",
+          "correction": "чая",
+          "hint": "A cup 'of' tea needs genitive.",
+          "explanation": "Genitive for 'of': чай → чая (masculine -й → -я).",
+          "options": [
+            "чая",
+            "чаю",
+            "чаем"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "I don't have time.",
+          "answer": "У меня нет времени.",
+          "acceptableVariants": [],
+          "hint": "I don't have = у меня нет, time (genitive) = времени",
+          "grammarFocus": "нет + genitive (irregular noun время)",
+          "keyWord": "времени",
+          "options": [
+            "времени",
+            "время",
+            "временем",
+            "времён"
+          ]
+        },
+        {
+          "english": "This is the doctor's office.",
+          "answer": "Это кабинет врача.",
+          "acceptableVariants": [],
+          "hint": "doctor's = врача (genitive), office = кабинет",
+          "grammarFocus": "possession with genitive",
+          "keyWord": "врача",
+          "options": [
+            "врача",
+            "врач",
+            "врачу",
+            "враче"
+          ]
+        },
+        {
+          "english": "A bottle of water.",
+          "answer": "Бутылка воды.",
+          "acceptableVariants": [],
+          "hint": "bottle = бутылка, water (genitive) = воды",
+          "grammarFocus": "genitive for 'of' (container)",
+          "keyWord": "воды",
+          "options": [
+            "воды",
+            "вода",
+            "воду",
+            "водой"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-patterns",
+      "title": "Spot the Pattern",
+      "titleRussian": "Найди закономерность",
+      "description": "Recognize when genitive is needed and which prepositions trigger it",
+      "descriptionRussian": "Определите, когда нужен родительный падеж",
+      "icon": "eye",
+      "patternRecognition": [
+        {
+          "sentence": "из школы, от друга, до магазина, без воды",
+          "question": "What do these phrases have in common?",
+          "options": [
+            "They all use prepositions that require genitive case",
+            "They all show possession",
+            "They all use dative case"
+          ],
+          "answer": "They all use prepositions that require genitive case",
+          "explanation": "Из, от, до, без are all prepositions that require the genitive case."
+        },
+        {
+          "sentence": "нет молока, нет времени, нет друга, нет сестры",
+          "question": "Why are all these nouns in genitive?",
+          "options": [
+            "They follow нет (absence/negation)",
+            "They show possession",
+            "They follow a preposition"
+          ],
+          "answer": "They follow нет (absence/negation)",
+          "explanation": "Нет (there is no / don't have) always requires the genitive case."
+        },
+        {
+          "sentence": "два стола, три книги, четыре окна",
+          "question": "What case follows the numbers 2, 3, and 4?",
+          "options": [
+            "Nominative singular",
+            "Genitive singular",
+            "Genitive plural",
+            "Accusative"
+          ],
+          "answer": "Genitive singular",
+          "explanation": "Numbers 2-4 are followed by genitive singular: два стола, три книги, четыре окна."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "До _____ пять минут. (It's five minutes to the metro.)",
+          "Он живёт около _____. (He lives near the park.)",
+          "У неё нет _____. (She doesn't have a car.)",
+          "Четыре _____ сидят за столом. (Four boys are sitting at the table.)"
+        ],
+        "choices": [
+          "метро",
+          "парка",
+          "машины",
+          "мальчика"
+        ],
+        "answers": [
+          "метро",
+          "парка",
+          "машины",
+          "мальчика"
+        ],
+        "grammarFocus": "Genitive after prepositions, нет, and numbers 2-4",
+        "hints": [
+          "До (to/until) takes genitive. Метро is indeclinable.",
+          "Около (near) takes genitive. Парк is masculine.",
+          "Нет takes genitive. Машина is feminine -а.",
+          "After четыре, use genitive singular. Мальчик is masculine."
+        ],
+        "explanations": [
+          "До + genitive: метро is indeclinable (foreign word), so it stays метро.",
+          "Около + genitive: парк → парка (masculine -а).",
+          "Нет + genitive: машина → машины (feminine -а → -ы).",
+          "Четыре + genitive singular: мальчик → мальчика."
+        ],
+        "options": [
+          [
+            "метра",
+            "метро",
+            "метру",
+            "метром"
+          ],
+          [
+            "парк",
+            "парком",
+            "парку",
+            "парка"
+          ],
+          [
+            "машине",
+            "машину",
+            "машины",
+            "машина"
+          ],
+          [
+            "мальчик",
+            "мальчиком",
+            "мальчику",
+            "мальчика"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "Я иду до _____. (I'm walking to the park.)",
+          "contextEnglish": "I'm walking to the park. (до requires genitive)",
+          "options": [
+            "парк",
+            "парка"
+          ],
+          "answer": "парка",
+          "explanation": "До (to/until) requires genitive: парк → парка."
+        },
+        {
+          "context": "Два _____. (Two brothers.)",
+          "contextEnglish": "Two brothers. (number 2-4 + genitive singular)",
+          "options": [
+            "братья",
+            "брата"
+          ],
+          "answer": "брата",
+          "explanation": "After два, use genitive singular: брат → брата (not the nominative plural братья)."
+        },
+        {
+          "context": "Это книга _____. (This is my sister's book.)",
+          "contextEnglish": "This is my sister's book.",
+          "options": [
+            "сестра",
+            "сестры"
+          ],
+          "answer": "сестры",
+          "explanation": "Possession uses genitive: сестра → сестры."
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "A final round with transforms, corrections, and tricky genitive uses",
+      "descriptionRussian": "Финальный раунд: преобразования, исправления и сложные случаи",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Кусок _____. (A piece of bread.)",
+              "promptEnglish": "A piece of bread.",
+              "options": [
+                "хлеб",
+                "хлеба",
+                "хлебу",
+                "хлебе"
+              ],
+              "answer": "хлеба",
+              "hint": "A piece 'of' something uses genitive.",
+              "explanation": "Genitive for 'of': хлеб → хлеба (masculine -а)."
+            },
+            {
+              "prompt": "Она вышла из _____. (She left the kitchen.)",
+              "promptEnglish": "She left the kitchen.",
+              "options": [
+                "кухню",
+                "кухня",
+                "кухни",
+                "кухне"
+              ],
+              "answer": "кухни",
+              "hint": "Из takes genitive. Кухня is feminine -я.",
+              "explanation": "Из + genitive: кухня → кухни (feminine -я → -и)."
+            },
+            {
+              "prompt": "Много _____ в классе. (Many students in the class.)",
+              "promptEnglish": "Many students in the class.",
+              "options": [
+                "студенты",
+                "студента",
+                "студентам",
+                "студентов"
+              ],
+              "answer": "студентов",
+              "hint": "Много takes genitive plural.",
+              "explanation": "Много + genitive plural: студент → студентов."
+            },
+            {
+              "prompt": "Мы приехали от _____. (We came from grandma's place.)",
+              "promptEnglish": "We came from grandma's place.",
+              "options": [
+                "бабушка",
+                "бабушке",
+                "бабушку",
+                "бабушки"
+              ],
+              "answer": "бабушки",
+              "hint": "От (from a person) takes genitive.",
+              "explanation": "От + genitive: бабушка → бабушки (feminine -а → -и)."
+            }
+          ]
+        },
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Три _____ стоят на полке. (Three cups are on the shelf.)",
+              "promptEnglish": "Three cups are on the shelf.",
+              "options": [
+                "чашки",
+                "чашка",
+                "чашек",
+                "чашку"
+              ],
+              "answer": "чашки",
+              "hint": "After 2-4, use genitive singular.",
+              "explanation": "Numbers 2-4 require genitive singular: чашка → чашки."
+            },
+            {
+              "prompt": "Около _____ есть парк. (There is a park near the house.)",
+              "promptEnglish": "There is a park near the house.",
+              "options": [
+                "дом",
+                "дому",
+                "дома",
+                "доме"
+              ],
+              "answer": "дома",
+              "hint": "Около (near) takes genitive.",
+              "explanation": "Около requires genitive: дом → дома (masculine -а)."
+            },
+            {
+              "prompt": "Он пришёл после _____. (He came after lunch.)",
+              "promptEnglish": "He came after lunch.",
+              "options": [
+                "обед",
+                "обеду",
+                "обеда",
+                "обеде"
+              ],
+              "answer": "обеда",
+              "hint": "После (after) takes genitive.",
+              "explanation": "После requires genitive: обед → обеда (masculine -а)."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "У них нет машина.",
+          "error": "машина",
+          "correction": "машины",
+          "hint": "Нет requires genitive, not nominative.",
+          "explanation": "Нет + genitive: машина → машины (feminine -а → -ы).",
+          "options": [
+            "машины",
+            "машину",
+            "машине"
+          ]
+        },
+        {
+          "sentence": "Он вышел из комнату.",
+          "error": "комнату",
+          "correction": "комнаты",
+          "hint": "Из takes genitive, not accusative.",
+          "explanation": "Из + genitive: комната → комнаты (not комнату, which is accusative).",
+          "options": [
+            "комнаты",
+            "комната",
+            "комнате"
+          ]
+        },
+        {
+          "sentence": "Это подарок для сестра.",
+          "error": "сестра",
+          "correction": "сестры",
+          "hint": "Для (for) takes genitive.",
+          "explanation": "Для + genitive: сестра → сестры (feminine -а → -ы).",
+          "options": [
+            "сестры",
+            "сестру",
+            "сестре"
+          ]
+        }
+      ],
+      "declensionTable": {
+        "word": "книга",
+        "wordType": "noun",
+        "gender": "feminine",
+        "paradigm": {
+          "nominative": "книга",
+          "genitive": "книги",
+          "dative": "книге",
+          "accusative": "книгу",
+          "instrumental": "книгой",
+          "prepositional": "книге"
+        },
+        "blanks": [
+          "genitive",
+          "accusative"
+        ],
+        "hints": [
+          "кого? чего?",
+          "кого? что?"
+        ]
+      }
+    }
+  ]
+}

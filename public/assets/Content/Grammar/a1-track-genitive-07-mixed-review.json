@@ -1,0 +1,263 @@
+{
+  "id": "a1-track-genitive-07-mixed-review",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Genitive 7: Mixed Review (All Triggers, All Genders)",
+  "titleRussian": "Родительный 7: Итоговый обзор",
+  "description": "Synthesis lesson. Mixes нет, есть, and prepositions across all three genders. Identify the trigger, apply the form.",
+  "descriptionRussian": "Итоговый урок. Смешивает нет, есть и предлоги во всех трёх родах.",
+  "imageName": "checkmark.seal",
+  "trackId": "a1-genitive-mastery",
+  "trackTitle": "Genitive Mastery",
+  "trackTitleRussian": "Родительный падеж",
+  "trackIndex": 7,
+  "trackTotal": 8,
+  "intro": "One habit covers this whole case: look for the trigger before you look at the noun. Six different words pull a noun into the genitive and one word pulls it back out, and none of them are marked in any way. Today they are mixed together, so nothing tells you which trigger you are dealing with.",
+  "rules": [
+    "Genitive triggers from this track: нет (Lessons 1 to 4) and prepositions без, у, для, из, от (Lesson 6). Pattern recognition matters more here than memorizing endings.",
+    "Есть (Lesson 5) is the flip: it keeps the noun in the nominative. The есть/нет alternation is the cleanest way to feel the case shift.",
+    "Identify the trigger first; then apply the gender rule from Lessons 1 to 3. Same noun, different form, depending on the trigger.",
+    "3rd-declension feminine (-ь): тетрадь, ночь, кровать, мать, дочь take -и in the genitive (тетради, ночи, кровати, матери, дочери). Мать and дочь take a stem extension (мат-ер-, доч-ер-) before the ending.",
+    "Endings by gender (from Lessons 1 to 3): masculine hard consonant takes -а (журнал → журнала) and soft -й/-ь takes -я (чай → чая, учитель → учителя); feminine -а takes -ы/-и (книга → книги) and -я takes -и (неделя → недели); neuter -о takes -а (окно → окна) and -е takes -я (море → моря)."
+  ],
+  "examples": [
+    "У меня нет книги. (нет triggers genitive; feminine with spelling rule)",
+    "У меня есть машина. (есть keeps nominative; feminine)",
+    "Чай без молока. (preposition без; neuter)",
+    "Это для брата. (preposition для; masculine)",
+    "Я из России. (preposition из; feminine -я)",
+    "Письмо от Маши. (preposition от; feminine name)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я из _____.",
+          "promptEnglish": "I am from Moscow.",
+          "options": [
+            "Москва",
+            "Москве",
+            "Москвы",
+            "Москву"
+          ],
+          "answer": "Москвы",
+          "hint": "Recap from Lesson 6: which case does из require?",
+          "explanation": "Recap from Lesson 6: из triggers genitive. Москва is feminine -а: -а → -ы → Москвы."
+        },
+        {
+          "prompt": "У Антона нет _____.",
+          "promptEnglish": "Anton doesn't have a cat.",
+          "options": [
+            "кота",
+            "котом",
+            "кот",
+            "коту"
+          ],
+          "answer": "кота",
+          "hint": "Нет + masculine animate. Apply Lesson 1's rule.",
+          "explanation": "Нет triggers genitive. Кот is masculine: + -а → кота. Animacy doesn't change the genitive form (unlike the accusative)."
+        },
+        {
+          "prompt": "Это для _____.",
+          "promptEnglish": "It's for the sister.",
+          "options": [
+            "сестру",
+            "сестрой",
+            "сестре",
+            "сестры"
+          ],
+          "answer": "сестры",
+          "hint": "Для is a preposition + genitive. What does feminine -а become?",
+          "explanation": "Для is a genitive-triggering preposition. Сестра is feminine -а: -а → -ы → сестры. The case rules from Lessons 1 to 3 apply to all genitive triggers, not just нет."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Чай без _____.",
+          "promptEnglish": "Tea without milk.",
+          "options": [
+            "молоко",
+            "молока",
+            "молоком",
+            "молоку"
+          ],
+          "answer": "молока",
+          "hint": "Без + neuter -о. What replaces -о?",
+          "explanation": "Без is a genitive-triggering preposition. Молоко is neuter -о: -о → -а → молока. Same rule as for нет; only the trigger differs."
+        },
+        {
+          "prompt": "У нас есть _____.",
+          "promptEnglish": "We have a TV.",
+          "options": [
+            "телевизор",
+            "телевизора",
+            "телевизору",
+            "телевизором"
+          ],
+          "answer": "телевизор",
+          "hint": "Есть keeps the noun in which case?",
+          "explanation": "After есть the noun stays in the nominative. Телевизор is the dictionary form. The flip side ('У нас нет телевизора') would have телевизора in the genitive."
+        },
+        {
+          "prompt": "Письмо от _____.",
+          "promptEnglish": "A letter from Ivan.",
+          "options": [
+            "Иван",
+            "Ивану",
+            "Ивана",
+            "Иваном"
+          ],
+          "answer": "Ивана",
+          "hint": "От is a preposition + genitive. Иван is a masculine name.",
+          "explanation": "От triggers genitive. Иван is masculine consonant: + -а → Ивана. From-person constructions use от; from-place uses из (compare 'из Москвы' with 'от Ивана')."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "У меня нет _____. (I don't have a book.)"
+    ],
+    "choices": [
+      "книгу",
+      "книга",
+      "книги",
+      "книгой"
+    ],
+    "answers": [
+      "книги"
+    ],
+    "grammarFocus": "Нет triggers genitive. Книга is feminine -а with the spelling rule (-ы becomes -и after к, г, х, ш, ж, щ, ч): книги."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "У меня нет работа на этой неделе, поэтому я отдыхаю.",
+      "translationEnglish": "I have no work this week, so I'm resting.",
+      "error": "работа",
+      "correction": "работы",
+      "options": [
+        "работы",
+        "работу",
+        "работой"
+      ],
+      "explanation": "Trigger spotting: нет → genitive. Работа is feminine ending in -а, so the genitive swaps -а → -ы: работы. Same -а → -ы rule from Lesson 2."
+    },
+    {
+      "sentence": "Я каждый день пью кофе без сахар по утрам.",
+      "translationEnglish": "I drink coffee without sugar every morning.",
+      "error": "сахар",
+      "correction": "сахара",
+      "options": [
+        "сахара",
+        "сахару",
+        "сахаром"
+      ],
+      "explanation": "Trigger spotting: без → genitive. Сахар is masculine consonant, so the genitive adds -а: сахара. The five gen-triggering prepositions taught in Lesson 6 are без, у, для, из, от; every one of them puts the next noun in the genitive, regardless of what verb the sentence uses."
+    },
+    {
+      "sentence": "У Антона есть машины и красивый дом в центре.",
+      "translationEnglish": "Anton has a car and a beautiful house in the centre.",
+      "error": "машины",
+      "correction": "машина",
+      "options": [
+        "машина",
+        "машину",
+        "машиной"
+      ],
+      "explanation": "Trigger spotting: ЕСТЬ keeps the nominative, the opposite of нет. The form here should be машина, not машины. Lesson 5 teaches the есть/нет contrast: presence → nom, absence → gen. The second noun in the conjunction ('красивый дом') correctly stays in the nominative because есть governs both; the same trigger applies to every noun in the есть-list."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "У Антона есть _____.",
+      "contextEnglish": "Anton has a cat.",
+      "options": [
+        "кот",
+        "кота"
+      ],
+      "answer": "кот",
+      "explanation": "After есть the noun stays in the nominative: кот. The genitive form кота appears in 'У Антона нет кота' (Anton doesn't have a cat). The same есть/нет alternation works for all genders."
+    },
+    {
+      "context": "У меня нет _____.",
+      "contextEnglish": "I don't have a book.",
+      "options": [
+        "книга",
+        "книги"
+      ],
+      "answer": "книги",
+      "explanation": "Нет triggers genitive. The regular rule -а → -ы would give 'книгы,' but the spelling rule writes -и after к, г, х, ш, ж, щ, ч. So книги."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Чай без молока.",
+      "question": "What triggers the genitive case here?",
+      "options": [
+        "Negation with нет",
+        "Preposition без (without)",
+        "Preposition для (for)",
+        "Negation of a verb"
+      ],
+      "answer": "Preposition без (without)",
+      "explanation": "Без is one of the prepositions that requires genitive. The noun молоко shifts to молока."
+    },
+    {
+      "sentence": "Здесь нет хлеба.",
+      "question": "What triggers the genitive case here?",
+      "options": [
+        "Preposition у (at)",
+        "Negation with нет",
+        "Preposition для (for)",
+        "Possession with есть"
+      ],
+      "answer": "Negation with нет",
+      "explanation": "Нет triggers genitive on the absent noun. Хлеб shifts to хлеба. The adverb здесь just sets the location; it does not affect case."
+    },
+    {
+      "sentence": "Это подарок для брата.",
+      "question": "What triggers the genitive case here?",
+      "options": [
+        "Preposition для (for)",
+        "Preposition без (without)",
+        "Negation with нет",
+        "Preposition от (from)"
+      ],
+      "answer": "Preposition для (for)",
+      "explanation": "Для is one of the prepositions that requires genitive. Брат shifts to брата."
+    },
+    {
+      "sentence": "Я из Москвы.",
+      "question": "What triggers the genitive case here?",
+      "options": [
+        "Preposition в (in)",
+        "Preposition из (from)",
+        "Negation with нет",
+        "Preposition о (about)"
+      ],
+      "answer": "Preposition из (from)",
+      "explanation": "Из is one of the prepositions that requires genitive. Москва shifts to Москвы. (The other prepositions in this list, в and о, take a different case which you'll meet in another track.)"
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "падеж",
+      "definition": "case (a noun's grammatical role: nominative, genitive, dative, etc.)",
+      "example": "В русском языке шесть падежей."
+    },
+    {
+      "term": "родительный падеж",
+      "definition": "genitive case (used after нет and after the prepositions без, у, для, из, от)",
+      "example": "В предложении 'У меня нет книги' слово 'книги' стоит в родительном падеже."
+    },
+    {
+      "term": "мастерство",
+      "definition": "mastery (the goal of this track)",
+      "example": "Это требует мастерства."
+    }
+  ]
+}

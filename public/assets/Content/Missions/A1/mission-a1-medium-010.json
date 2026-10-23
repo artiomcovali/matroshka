@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-010",
+  "title": "Book Checked Out",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "The book you want is already borrowed by someone else",
+  "imageName": "book.fill",
+  "initialPrompt": "Добрый день! Какую книгу вы ищете?",
+  "systemPrompt": "You are a librarian. The book 'Война и мир' is checked out. Returns in 2 weeks. Can reserve it. Keep replies short.",
+  "completionCriteria": "User asked for book, learned it's unavailable, and reserved it or chose another.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужна книга (I need a book)",
+    "Когда она вернётся? (When will it return?)",
+    "Можно зарезервировать? (Can I reserve it?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "книга",
+      "definition": "book"
+    },
+    {
+      "word": "библиотека",
+      "definition": "library"
+    },
+    {
+      "word": "зарезервировать",
+      "definition": "to reserve"
+    },
+    {
+      "word": "неделя",
+      "definition": "week"
+    },
+    {
+      "word": "вернуться",
+      "definition": "to return"
+    }
+  ],
+  "objectives": [
+    "Ask for the book (книга)",
+    "Learn it's unavailable",
+    "Reserve it or find alternative"
+  ]
+}

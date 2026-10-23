@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-026",
+  "title": "Buy Stamps",
+  "level": "A1",
+  "description": "Purchase stamps at the post office",
+  "imageName": "envelope.fill",
+  "initialPrompt": "Здравствуйте! Чем могу помочь?",
+  "systemPrompt": "You work at the post office. Stamps: Россия 25₽, Европа 50₽, Америка 60₽. Keep replies short.",
+  "completionCriteria": "User bought stamps.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужны марки (I need stamps)",
+    "Для письма в Америку (For a letter to America)",
+    "Две марки (Two stamps)",
+    "Сколько стоит? (How much?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "марка",
+      "definition": "stamp"
+    },
+    {
+      "word": "письмо",
+      "definition": "letter"
+    },
+    {
+      "word": "почта",
+      "definition": "post office"
+    },
+    {
+      "word": "отправить",
+      "definition": "to send"
+    },
+    {
+      "word": "конверт",
+      "definition": "envelope"
+    }
+  ],
+  "objectives": [
+    "Ask for stamps (марки)",
+    "Specify destination",
+    "Buy the stamps"
+  ]
+}

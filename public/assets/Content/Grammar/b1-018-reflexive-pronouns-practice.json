@@ -1,0 +1,464 @@
+{
+  "lessonId": "b1-018-reflexive-pronouns",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Себя in All Cases",
+      "titleRussian": "Себя во всех падежах",
+      "description": "Choose the correct form of себя for each context",
+      "descriptionRussian": "Выберите правильную форму «себя»",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Он видит _____ в зеркале. (He sees himself in the mirror.)",
+              "promptEnglish": "He sees himself in the mirror.",
+              "options": [
+                "себе",
+                "собой",
+                "себя",
+                "его"
+              ],
+              "answer": "себя",
+              "hint": "Видеть кого? Accusative. Himself = себя.",
+              "explanation": "Accusative reflexive: себя. Видеть себя = see oneself."
+            },
+            {
+              "prompt": "Я купила _____ новые туфли. (I bought myself new shoes.)",
+              "promptEnglish": "I bought myself new shoes.",
+              "options": [
+                "себя",
+                "мне",
+                "себе",
+                "собой"
+              ],
+              "answer": "себе",
+              "hint": "For myself = dative. Себе.",
+              "explanation": "Dative reflexive: себе. Купить себе = buy for oneself."
+            },
+            {
+              "prompt": "Она довольна _____. (She is pleased with herself.)",
+              "promptEnglish": "She is pleased with herself.",
+              "options": [
+                "себя",
+                "себе",
+                "собой",
+                "ей"
+              ],
+              "answer": "собой",
+              "hint": "Доволен кем? Instrumental. With oneself = собой.",
+              "explanation": "Instrumental reflexive: собой. Доволен собой = pleased with oneself."
+            },
+            {
+              "prompt": "Он думает только о _____. (He only thinks about himself.)",
+              "promptEnglish": "He only thinks about himself.",
+              "options": [
+                "себя",
+                "себе",
+                "собой",
+                "нём"
+              ],
+              "answer": "себе",
+              "hint": "Думать о ком? Prepositional. О себе.",
+              "explanation": "Prepositional reflexive: себе. О себе = about oneself."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Возьмите это с _____. (Take this with you. - with oneself)",
+              "promptEnglish": "Take this with you (take along).",
+              "options": [
+                "собой",
+                "себя",
+                "себе",
+                "вами"
+              ],
+              "answer": "собой",
+              "hint": "With oneself = instrumental: с собой.",
+              "explanation": "С собой = with oneself (take along). Instrumental after с."
+            },
+            {
+              "prompt": "Он поставил перед _____ трудную задачу. (He set a difficult task before himself.)",
+              "promptEnglish": "He set himself a difficult task.",
+              "options": [
+                "себя",
+                "собой",
+                "себе",
+                "ним"
+              ],
+              "answer": "собой",
+              "hint": "Перед кем? Instrumental: перед собой.",
+              "explanation": "Перед + instrumental: перед собой (before oneself)."
+            },
+            {
+              "prompt": "Дети остались у _____ в комнате. (The children stayed by themselves in the room.)",
+              "promptEnglish": "The children stayed in their room by themselves.",
+              "options": [
+                "себе",
+                "себя",
+                "собой",
+                "них"
+              ],
+              "answer": "себя",
+              "hint": "У кого? Genitive: у себя.",
+              "explanation": "У себя = at one's own place / by oneself. Genitive reflexive."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он взял _____ книгу. (his OWN book)",
+          "contextEnglish": "He took his own book.",
+          "options": [
+            "свою",
+            "его"
+          ],
+          "answer": "свою",
+          "explanation": "Свою = his own (refers back to subject). Его = someone else's."
+        },
+        {
+          "context": "Он взял _____ книгу. (another person's book)",
+          "contextEnglish": "He took his (someone else's) book.",
+          "options": [
+            "свою",
+            "его"
+          ],
+          "answer": "его",
+          "explanation": "Его = another person's. Not the subject's own."
+        },
+        {
+          "context": "Маша любит _____ кота. (Masha's own cat)",
+          "contextEnglish": "Masha loves her own cat.",
+          "options": [
+            "своего",
+            "её"
+          ],
+          "answer": "своего",
+          "explanation": "Своего = her own (reflexive possessive, refers to subject Маша)."
+        },
+        {
+          "context": "Маша любит _____ кота. (another woman's cat)",
+          "contextEnglish": "Masha loves her (another woman's) cat.",
+          "options": [
+            "своего",
+            "её"
+          ],
+          "answer": "её",
+          "explanation": "Её = another person's. The cat belongs to someone else, not Masha."
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort: Does the possessive refer to the SUBJECT (свой) or SOMEONE ELSE (его/её/их)?",
+        "categories": [
+          "Subject's own (свой)",
+          "Another person's (его/её/их)"
+        ],
+        "items": [
+          {
+            "word": "Он забыл СВОЙ телефон. (his own)",
+            "category": "Subject's own (свой)"
+          },
+          {
+            "word": "Он забыл ЕГО телефон. (someone else's)",
+            "category": "Another person's (его/её/их)"
+          },
+          {
+            "word": "Она любит СВОЮ работу. (her own)",
+            "category": "Subject's own (свой)"
+          },
+          {
+            "word": "Она помнит ЕЁ слова. (another woman's)",
+            "category": "Another person's (его/её/их)"
+          },
+          {
+            "word": "Дети играют в СВОЕЙ комнате. (their own)",
+            "category": "Subject's own (свой)"
+          },
+          {
+            "word": "Мы видели ИХ дом. (their house, not ours)",
+            "category": "Another person's (его/её/их)"
+          },
+          {
+            "word": "Я потерял СВОИ ключи. (my own)",
+            "category": "Subject's own (свой)"
+          },
+          {
+            "word": "Он читает ЕЁ дневник. (her diary, not his)",
+            "category": "Another person's (его/её/их)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-4-errors-build",
+      "title": "Fix and Build",
+      "titleRussian": "Исправь и построй",
+      "description": "Fix свой/его confusion and build reflexive sentences",
+      "descriptionRussian": "Исправьте ошибки свой/его и постройте предложения",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Она любит её работу. (intended: her own work)",
+          "error": "её",
+          "correction": "свою",
+          "hint": "Her OWN work (subject's own) = свою, not её.",
+          "explanation": "Subject's own: свою работу. Её = another woman's work.",
+          "options": [
+            "свою",
+            "свой",
+            "своей",
+            "свои"
+          ]
+        },
+        {
+          "sentence": "Он доволен себя.",
+          "error": "себя",
+          "correction": "собой",
+          "hint": "Доволен кем? Instrumental. Себя is accusative/genitive.",
+          "explanation": "Доволен + instrumental: собой (not accusative себя).",
+          "options": [
+            "собой",
+            "себе",
+            "себ"
+          ]
+        },
+        {
+          "sentence": "Мы пригласили друзей в наш дом.",
+          "error": "наш",
+          "correction": "свой",
+          "hint": "When the subject is мы and the possessive refers to мы, use свой.",
+          "explanation": "Subject's own: в свой дом. Наш is not wrong here, but свой is the standard reflexive.",
+          "options": [
+            "свой",
+            "своего",
+            "своём",
+            "своему"
+          ]
+        },
+        {
+          "sentence": "Он взял себя зонт.",
+          "error": "себя",
+          "correction": "с собой",
+          "hint": "Took with him = с собой (took along). Себя alone doesn't mean 'with.'",
+          "explanation": "С собой = with oneself (took along). Себя without с doesn't work here.",
+          "options": [
+            "с собой",
+            "с себя",
+            "с себе",
+            "к себе"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "She bought herself a new dress.",
+          "answer": "Она купила себе новое платье.",
+          "acceptableVariants": [],
+          "hint": "For herself (dative) = себе. Dress = платье (neuter).",
+          "grammarFocus": "Dative reflexive себе",
+          "keyWord": "себе",
+          "options": [
+            "себе",
+            "себя",
+            "собой",
+            "себ"
+          ]
+        },
+        {
+          "english": "He is not satisfied with himself.",
+          "answer": "Он недоволен собой.",
+          "acceptableVariants": [
+            "Он не доволен собой."
+          ],
+          "hint": "With himself (instrumental) = собой. Satisfied = доволен.",
+          "grammarFocus": "Instrumental reflexive собой",
+          "keyWord": "собой",
+          "options": [
+            "собой",
+            "себя",
+            "себе",
+            "себ"
+          ]
+        },
+        {
+          "english": "They love their own children very much.",
+          "answer": "Они очень любят своих детей.",
+          "acceptableVariants": [],
+          "hint": "Their own = своих (genitive/accusative plural, animate). Children = детей.",
+          "grammarFocus": "Свой for subject's own possessive",
+          "keyWord": "своих",
+          "options": [
+            "своих",
+            "свои",
+            "своими",
+            "свой"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Финальное задание",
+      "description": "Себя, свой, and edge cases",
+      "descriptionRussian": "Себя, свой и сложные случаи",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Чувствуйте _____ как дома! (Make yourself at home!)",
+              "promptEnglish": "Make yourself at home! (Feel yourself as at home.)",
+              "options": [
+                "себе",
+                "себя",
+                "собой",
+                "вас"
+              ],
+              "answer": "себя",
+              "hint": "Feel oneself = чувствовать себя (accusative).",
+              "explanation": "Чувствовать себя = feel oneself. Accusative: себя."
+            },
+            {
+              "prompt": "Я взяла с _____ книгу. (I took a book with me.)",
+              "promptEnglish": "I took a book with me (brought along).",
+              "options": [
+                "мной",
+                "себя",
+                "собой",
+                "себе"
+              ],
+              "answer": "собой",
+              "hint": "With oneself = с собой (instrumental).",
+              "explanation": "С собой = with oneself (took along). Instrumental after с."
+            },
+            {
+              "prompt": "Маша попросила Аню дать ей _____ тетрадь. (Masha asked Anya to give her Anya's notebook.)",
+              "promptEnglish": "Masha asked Anya to give her Anya's own notebook.",
+              "options": [
+                "свою",
+                "её",
+                "мою",
+                "нашу"
+              ],
+              "answer": "свою",
+              "hint": "Свою refers to the subject of the infinitive clause (Аня gives HER OWN).",
+              "explanation": "Свою refers to Anya (the logical subject of 'дать'): Anya's own notebook."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Себя can never be used as the _____.",
+              "promptEnglish": "Себя cannot function as the...",
+              "options": [
+                "subject",
+                "direct object",
+                "indirect object",
+                "instrumental"
+              ],
+              "answer": "subject",
+              "hint": "Себя has no nominative form. It can't be the subject.",
+              "explanation": "Себя has no nominative: it can only be an object (accusative, genitive, dative, instrumental, prepositional)."
+            },
+            {
+              "prompt": "Дети играли у _____ в комнате. (The children played in their own room.)",
+              "promptEnglish": "The children played in their own room.",
+              "options": [
+                "себе",
+                "них",
+                "себя",
+                "своей"
+              ],
+              "answer": "себя",
+              "hint": "У себя = at one's own place. Genitive of себя.",
+              "explanation": "У себя = at one's own place/room. Fixed expression with genitive."
+            },
+            {
+              "prompt": "Каждый должен решать _____ проблемы сам. (Everyone must solve their own problems themselves.)",
+              "promptEnglish": "Everyone must solve their own problems themselves.",
+              "options": [
+                "его",
+                "свои",
+                "их",
+                "эти"
+              ],
+              "answer": "свои",
+              "hint": "Their OWN = свои (refers back to subject каждый).",
+              "explanation": "Свои = one's own (plural accusative). Refers back to каждый."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "себя (acc/gen), себе (dat/prep), собой (instr)",
+          "question": "What is notable about the declension of себя?",
+          "options": [
+            "It has no nominative form",
+            "It changes by gender",
+            "It has irregular plural forms"
+          ],
+          "answer": "It has no nominative form",
+          "explanation": "Себя has no nominative because it can never be the subject. It starts at accusative/genitive."
+        },
+        {
+          "sentence": "Он любит свою жену. / Она любит своего мужа. / Они любят своих детей.",
+          "question": "What determines the form of свой here?",
+          "options": [
+            "The gender/number of the subject",
+            "The gender/number/case of the possessed noun",
+            "The tense of the verb"
+          ],
+          "answer": "The gender/number/case of the possessed noun",
+          "explanation": "Свой agrees with the OWNED thing, not the owner: свою жену (fem acc), своего мужа (masc anim acc), своих детей (pl anim acc)."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Не забудь взять с _____ паспорт! (Don't forget to take your passport with you!)",
+          "Каждый знает _____ недостатки. (Everyone knows their own flaws.)"
+        ],
+        "choices": [
+          "собой",
+          "свои"
+        ],
+        "answers": [
+          "собой",
+          "свои"
+        ],
+        "grammarFocus": "с собой for 'take along,' свои for subject's own",
+        "hints": [
+          "Take with oneself = с собой.",
+          "Their own flaws (refers to каждый) = свои."
+        ],
+        "explanations": [
+          "С собой = with oneself (instrumental).",
+          "Свои = one's own (plural, refers to subject каждый)."
+        ],
+        "options": [
+          [
+            "себе",
+            "себя",
+            "собой"
+          ],
+          [
+            "свой",
+            "своими",
+            "своих",
+            "свои"
+          ]
+        ]
+      }
+    }
+  ]
+}

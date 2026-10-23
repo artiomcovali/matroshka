@@ -1,0 +1,788 @@
+{
+  "lessonId": "a2-025-adjective-all-cases",
+  "sets": [
+    {
+      "id": "round-1-nominative-accusative",
+      "title": "Nominative & Accusative",
+      "titleRussian": "Именительный и винительный",
+      "description": "Subject (nom) vs direct object (acc), with animacy distinction",
+      "descriptionRussian": "Подлежащее и прямое дополнение, одушевлённость",
+      "icon": "person.fill.questionmark",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ студент читает книгу. (The new student reads a book.)",
+              "promptEnglish": "Subject = nominative.",
+              "options": [
+                "Новый",
+                "Нового",
+                "Новому",
+                "Новым"
+              ],
+              "answer": "Новый",
+              "hint": "Subject = nominative masculine: -ый.",
+              "explanation": "Nominative: новый."
+            },
+            {
+              "prompt": "Я вижу _____ студента. (I see the new student.)",
+              "promptEnglish": "Animate accusative = genitive.",
+              "options": [
+                "нового",
+                "новый",
+                "новому",
+                "новым"
+              ],
+              "answer": "нового",
+              "hint": "Animate masculine accusative = genitive: -ого.",
+              "explanation": "Accusative animate: нового."
+            },
+            {
+              "prompt": "Я читаю _____ книгу. (I read an interesting book.)",
+              "promptEnglish": "Feminine accusative: -ую.",
+              "options": [
+                "интересную",
+                "интересной",
+                "интересная",
+                "интересным"
+              ],
+              "answer": "интересную",
+              "hint": "Feminine accusative has its own form: -ую.",
+              "explanation": "Accusative feminine: интересная → интересную."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я вижу _____ дом. (I see the new house.)",
+              "promptEnglish": "Inanimate accusative = nominative.",
+              "options": [
+                "новый",
+                "нового",
+                "новому",
+                "новом"
+              ],
+              "answer": "новый",
+              "hint": "Inanimate masculine accusative = nominative.",
+              "explanation": "Inanimate accusative: новый (same as nominative)."
+            },
+            {
+              "prompt": "_____ девушка работает здесь. (The beautiful girl works here.)",
+              "promptEnglish": "Subject = nominative feminine.",
+              "options": [
+                "Красивая",
+                "Красивую",
+                "Красивой",
+                "Красивым"
+              ],
+              "answer": "Красивая",
+              "hint": "Subject = nominative feminine: -ая.",
+              "explanation": "Nominative feminine: красивая."
+            },
+            {
+              "prompt": "Мы видим _____ детей. (We see the little children.)",
+              "promptEnglish": "Animate plural accusative = genitive.",
+              "options": [
+                "маленьких",
+                "маленькие",
+                "маленьким",
+                "маленькими"
+              ],
+              "answer": "маленьких",
+              "hint": "Animate plural accusative = genitive: -их.",
+              "explanation": "Accusative animate plural: маленьких."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я вижу _____ дом. (I see the new house.) - inanimate",
+          "contextEnglish": "Inanimate = nominative form.",
+          "options": [
+            "новый",
+            "нового"
+          ],
+          "answer": "новый",
+          "explanation": "Inanimate accusative = nominative: новый."
+        },
+        {
+          "context": "Я вижу _____ друга. (I see the new friend.) - animate",
+          "contextEnglish": "Animate = genitive form.",
+          "options": [
+            "нового",
+            "новый"
+          ],
+          "answer": "нового",
+          "explanation": "Animate accusative = genitive: нового."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ учитель пришёл. (The strict teacher arrived.)",
+          "Я знаю _____ учителя. (I know the strict teacher.)",
+          "Мы видим _____ здание. (We see the beautiful building.)"
+        ],
+        "choices": [
+          "Строгий",
+          "строгого",
+          "красивое",
+          "строгому",
+          "красивого"
+        ],
+        "answers": [
+          "Строгий",
+          "строгого",
+          "красивое"
+        ],
+        "grammarFocus": "Nominative vs accusative (animacy matters for masculine)",
+        "hints": [
+          "Subject = nominative masculine.",
+          "Animate masculine accusative = genitive.",
+          "Inanimate neuter accusative = nominative."
+        ],
+        "explanations": [
+          "Nominative: строгий.",
+          "Accusative animate: строгого.",
+          "Inanimate neuter accusative = nominative: красивое."
+        ],
+        "options": [
+          [
+            "строгому",
+            "строгим",
+            "Строгий",
+            "строгого"
+          ],
+          [
+            "строгое",
+            "строгий",
+            "строгому",
+            "строгого"
+          ],
+          [
+            "красивого",
+            "красивым",
+            "красивому",
+            "красивое"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-genitive-dative",
+      "title": "Genitive & Dative",
+      "titleRussian": "Родительный и дательный",
+      "description": "Possession/absence (gen) vs giving/helping (dat)",
+      "descriptionRussian": "Притяжание и отсутствие (род.) vs давать/помогать (дат.)",
+      "icon": "arrow.right",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Это книга _____ студента. (This is the new student's book.) - genitive",
+              "promptEnglish": "Possession = genitive.",
+              "options": [
+                "нового",
+                "новому",
+                "новым",
+                "новом"
+              ],
+              "answer": "нового",
+              "hint": "Whose? = genitive masculine: -ого.",
+              "explanation": "Genitive masculine: нового."
+            },
+            {
+              "prompt": "Я помогаю _____ студенту. (I help the new student.) - dative",
+              "promptEnglish": "Help = dative.",
+              "options": [
+                "новому",
+                "нового",
+                "новым",
+                "новом"
+              ],
+              "answer": "новому",
+              "hint": "Помогать + dative: -ому.",
+              "explanation": "Dative masculine: новому."
+            },
+            {
+              "prompt": "Нет _____ книги. (There is no interesting book.) - genitive",
+              "promptEnglish": "Absence = genitive feminine.",
+              "options": [
+                "интересной",
+                "интересную",
+                "интересная",
+                "интересным"
+              ],
+              "answer": "интересной",
+              "hint": "Нет + genitive feminine: -ой.",
+              "explanation": "Genitive feminine: интересной."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она дала подарок _____ подруге. (She gave a gift to her best friend.) - dative",
+              "promptEnglish": "Give to = dative feminine.",
+              "options": [
+                "лучшей",
+                "лучшую",
+                "лучшая",
+                "лучших"
+              ],
+              "answer": "лучшей",
+              "hint": "Dative feminine: -ей.",
+              "explanation": "Dative feminine: лучшей."
+            },
+            {
+              "prompt": "У _____ студентов нет книг. (The new students have no books.) - genitive pl",
+              "promptEnglish": "У + genitive plural.",
+              "options": [
+                "новых",
+                "новым",
+                "новыми",
+                "новые"
+              ],
+              "answer": "новых",
+              "hint": "У + genitive plural: -ых.",
+              "explanation": "Genitive plural: новых."
+            },
+            {
+              "prompt": "Мы рады _____ новостям. (We are glad for the good news.) - dative pl",
+              "promptEnglish": "Рады + dative plural.",
+              "options": [
+                "хорошим",
+                "хороших",
+                "хорошими",
+                "хорошие"
+              ],
+              "answer": "хорошим",
+              "hint": "Рады + dative plural: -им.",
+              "explanation": "Dative plural: хорошим."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Это книга новому студента.",
+          "error": "новому",
+          "correction": "нового",
+          "explanation": "Possession = genitive (not dative). Masculine genitive: нового.",
+          "options": [
+            "нового",
+            "новым",
+            "новом"
+          ]
+        },
+        {
+          "sentence": "Я помогаю нового студенту.",
+          "error": "нового",
+          "correction": "новому",
+          "explanation": "Помогать + dative (not genitive). Masculine dative: новому.",
+          "options": [
+            "новому",
+            "новым",
+            "новом"
+          ]
+        },
+        {
+          "sentence": "Нет интересную книги.",
+          "error": "интересную",
+          "correction": "интересной",
+          "explanation": "Нет + genitive (not accusative). Feminine genitive: интересной.",
+          "options": [
+            "интересной",
+            "интересная",
+            "интересным"
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort: genitive (whose? of what?) or dative (to whom?)?",
+        "categories": [
+          "Genitive (possession/absence)",
+          "Dative (giving/helping)"
+        ],
+        "items": [
+          {
+            "word": "книга нового студента",
+            "category": "Genitive (possession/absence)"
+          },
+          {
+            "word": "помогаю новому студенту",
+            "category": "Dative (giving/helping)"
+          },
+          {
+            "word": "нет хорошей книги",
+            "category": "Genitive (possession/absence)"
+          },
+          {
+            "word": "дала подарок лучшей подруге",
+            "category": "Dative (giving/helping)"
+          },
+          {
+            "word": "у старых друзей",
+            "category": "Genitive (possession/absence)"
+          },
+          {
+            "word": "рады хорошим новостям",
+            "category": "Dative (giving/helping)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-3-instrumental-prepositional",
+      "title": "Instrumental & Prepositional",
+      "titleRussian": "Творительный и предложный",
+      "description": "With/by means of (inst) vs location/about (prep)",
+      "descriptionRussian": "С/чем (тв.) vs в/о (предл.)",
+      "icon": "map",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я говорю с _____ другом. (I talk with my new friend.) - instrumental",
+              "promptEnglish": "С + instrumental.",
+              "options": [
+                "новым",
+                "новом",
+                "новому",
+                "нового"
+              ],
+              "answer": "новым",
+              "hint": "С + instrumental masculine: -ым.",
+              "explanation": "Instrumental: новым."
+            },
+            {
+              "prompt": "Я думаю о _____ друге. (I think about my new friend.) - prepositional",
+              "promptEnglish": "О + prepositional.",
+              "options": [
+                "новом",
+                "новым",
+                "новому",
+                "нового"
+              ],
+              "answer": "новом",
+              "hint": "О + prepositional masculine: -ом.",
+              "explanation": "Prepositional: новом."
+            },
+            {
+              "prompt": "Мы довольны _____ результатами. (We're satisfied with the good results.) - instrumental pl",
+              "promptEnglish": "Довольны + instrumental plural.",
+              "options": [
+                "хорошими",
+                "хороших",
+                "хорошим",
+                "хорошие"
+              ],
+              "answer": "хорошими",
+              "hint": "Довольны + instrumental plural: -ими.",
+              "explanation": "Instrumental plural: хорошими."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она живёт в _____ квартире. (She lives in a big apartment.) - prepositional",
+              "promptEnglish": "В + prepositional feminine.",
+              "options": [
+                "большой",
+                "большую",
+                "большая",
+                "большим"
+              ],
+              "answer": "большой",
+              "hint": "В + prepositional feminine: -ой.",
+              "explanation": "Prepositional feminine: большой."
+            },
+            {
+              "prompt": "Он стал _____ врачом. (He became a good doctor.) - instrumental",
+              "promptEnglish": "Profession = instrumental.",
+              "options": [
+                "хорошим",
+                "хорошем",
+                "хорошему",
+                "хорошего"
+              ],
+              "answer": "хорошим",
+              "hint": "Profession = instrumental masculine: -им.",
+              "explanation": "Instrumental: хорошим."
+            },
+            {
+              "prompt": "Мы говорим о _____ проблемах. (We talk about serious problems.) - prepositional pl",
+              "promptEnglish": "О + prepositional plural.",
+              "options": [
+                "серьёзных",
+                "серьёзными",
+                "серьёзным",
+                "серьёзные"
+              ],
+              "answer": "серьёзных",
+              "hint": "О + prepositional plural: -ых.",
+              "explanation": "Prepositional plural: серьёзных."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я говорю с _____ коллегой. (With my new colleague.) - instrumental",
+          "contextEnglish": "С + instrumental: -ым.",
+          "options": [
+            "новым",
+            "новом"
+          ],
+          "answer": "новым",
+          "explanation": "Instrumental: новым."
+        },
+        {
+          "context": "Я думаю о _____ коллеге. (About my new colleague.) - prepositional",
+          "contextEnglish": "О + prepositional: -ом.",
+          "options": [
+            "новом",
+            "новым"
+          ],
+          "answer": "новом",
+          "explanation": "Prepositional: новом."
+        }
+      ],
+      "translation": [
+        {
+          "sourceText": "She walks with her younger sister.",
+          "targetText": "Она гуляет с младшей сестрой.",
+          "hint": "С + instrumental feminine: -ей.",
+          "explanation": "Instrumental feminine: младшая → младшей.",
+          "keyWord": "младшей",
+          "options": [
+            "младшей",
+            "младшую",
+            "младшая",
+            "младшими"
+          ]
+        },
+        {
+          "sourceText": "We live in a beautiful city.",
+          "targetText": "Мы живём в красивом городе.",
+          "hint": "В + prepositional masculine: -ом.",
+          "explanation": "Prepositional masculine: красивый → красивом.",
+          "keyWord": "красивом",
+          "options": [
+            "красивом",
+            "красивому",
+            "красивого",
+            "красивый"
+          ]
+        },
+        {
+          "sourceText": "I read about old traditions.",
+          "targetText": "Я читал о старых традициях.",
+          "hint": "О + prepositional plural: -ых.",
+          "explanation": "Prepositional plural: старые → старых.",
+          "keyWord": "старых",
+          "options": [
+            "старых",
+            "старыми",
+            "старым",
+            "старые"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-all-six-cases",
+      "title": "All Six Cases",
+      "titleRussian": "Все шесть падежей",
+      "description": "Identify the case from context and choose the right adjective form",
+      "descriptionRussian": "Определите падеж по контексту и выберите правильную форму",
+      "icon": "tablecells",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ девушка пришла. (The beautiful girl arrived.) - ?",
+              "promptEnglish": "Subject = which case?",
+              "options": [
+                "Красивая",
+                "Красивую",
+                "Красивой",
+                "Красивым"
+              ],
+              "answer": "Красивая",
+              "hint": "Subject = nominative.",
+              "explanation": "Nominative feminine: красивая."
+            },
+            {
+              "prompt": "У _____ подруги есть собака. (My good friend has a dog.) - ?",
+              "promptEnglish": "У + genitive = possession.",
+              "options": [
+                "хорошей",
+                "хорошую",
+                "хорошая",
+                "хорошим"
+              ],
+              "answer": "хорошей",
+              "hint": "У + genitive feminine: -ей.",
+              "explanation": "Genitive feminine: хорошей."
+            },
+            {
+              "prompt": "Мы дали цветы _____ учительнице. (We gave flowers to the kind teacher.) - ?",
+              "promptEnglish": "Gave to = dative.",
+              "options": [
+                "доброй",
+                "добрую",
+                "добрая",
+                "добрым"
+              ],
+              "answer": "доброй",
+              "hint": "Gave to = dative feminine: -ой.",
+              "explanation": "Dative feminine: доброй."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я купил _____ машину. (I bought a new car.) - ?",
+              "promptEnglish": "Bought = accusative feminine.",
+              "options": [
+                "новую",
+                "новой",
+                "новая",
+                "новым"
+              ],
+              "answer": "новую",
+              "hint": "Accusative feminine: -ую.",
+              "explanation": "Accusative feminine: новую."
+            },
+            {
+              "prompt": "Он работает _____ инженером. (He works as a good engineer.) - ?",
+              "promptEnglish": "Profession = instrumental.",
+              "options": [
+                "хорошим",
+                "хорошего",
+                "хорошему",
+                "хороший"
+              ],
+              "answer": "хорошим",
+              "hint": "Profession = instrumental masculine: -им.",
+              "explanation": "Instrumental: хорошим."
+            },
+            {
+              "prompt": "Дети играют в _____ парке. (Children play in a big park.) - ?",
+              "promptEnglish": "В + location = prepositional.",
+              "options": [
+                "большом",
+                "большому",
+                "большого",
+                "большой"
+              ],
+              "answer": "большом",
+              "hint": "В + prepositional masculine: -ом.",
+              "explanation": "Prepositional: большом."
+            }
+          ]
+        }
+      ],
+      "declensionTable": {
+        "word": "новый",
+        "wordType": "adjective",
+        "gender": "masculine",
+        "paradigm": {
+          "nominative": "новый",
+          "genitive": "нового",
+          "dative": "новому",
+          "accusative": "нового",
+          "instrumental": "новым",
+          "prepositional": "новом"
+        },
+        "blanks": [
+          "genitive",
+          "dative",
+          "instrumental",
+          "prepositional"
+        ],
+        "hints": [
+          "Gen: -ого",
+          "Dat: -ому",
+          "Inst: -ым",
+          "Prep: -ом"
+        ],
+        "explanations": [
+          "Genitive: нового.",
+          "Dative: новому.",
+          "Instrumental: новым.",
+          "Prepositional: новом."
+        ]
+      },
+      "patternRecognition": [
+        {
+          "sentence": "новой книги, новой книге, новой книгой, о новой книге",
+          "question": "Feminine oblique cases (gen/dat/inst/prep) all share which ending?",
+          "options": [
+            "-ой/-ей for all four",
+            "Each has a unique ending",
+            "-ую for all four"
+          ],
+          "answer": "-ой/-ей for all four",
+          "explanation": "Feminine genitive, dative, instrumental, and prepositional all use -ой/-ей."
+        },
+        {
+          "sentence": "новому (dat) vs новом (prep)",
+          "question": "How do you tell dative from prepositional for masculine?",
+          "options": [
+            "Dative has -у at the end, prepositional does not",
+            "They are the same form",
+            "Prepositional has -у at the end"
+          ],
+          "answer": "Dative has -у at the end, prepositional does not",
+          "explanation": "Dative: -ому (with -у). Prepositional: -ом (without -у)."
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "Random cases, genders, and numbers combined",
+      "descriptionRussian": "Случайные падежи, рода и числа",
+      "icon": "bolt.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы живём в _____ доме. (We live in an old house.)",
+              "promptEnglish": "В + prepositional masculine.",
+              "options": [
+                "старом",
+                "старому",
+                "старого",
+                "старый"
+              ],
+              "answer": "старом",
+              "hint": "В + prepositional: -ом.",
+              "explanation": "Prepositional: старом."
+            },
+            {
+              "prompt": "Она знает _____ врача. (She knows the famous doctor.)",
+              "promptEnglish": "Accusative animate masculine.",
+              "options": [
+                "известного",
+                "известный",
+                "известному",
+                "известным"
+              ],
+              "answer": "известного",
+              "hint": "Accusative animate = genitive: -ого.",
+              "explanation": "Accusative animate: известного."
+            },
+            {
+              "prompt": "Я рад _____ встрече. (I'm glad for the unexpected meeting.)",
+              "promptEnglish": "Рад + dative feminine.",
+              "options": [
+                "неожиданной",
+                "неожиданную",
+                "неожиданная",
+                "неожиданным"
+              ],
+              "answer": "неожиданной",
+              "hint": "Рад + dative feminine: -ой.",
+              "explanation": "Dative feminine: неожиданной."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Дети играют с _____ игрушками. (Children play with new toys.)",
+              "promptEnglish": "С + instrumental plural.",
+              "options": [
+                "новыми",
+                "новых",
+                "новым",
+                "новые"
+              ],
+              "answer": "новыми",
+              "hint": "С + instrumental plural: -ыми.",
+              "explanation": "Instrumental plural: новыми."
+            },
+            {
+              "prompt": "У _____ бабушки красивый сад. (Our kind grandmother has a beautiful garden.)",
+              "promptEnglish": "У + genitive feminine.",
+              "options": [
+                "доброй",
+                "добрую",
+                "добрая",
+                "добрым"
+              ],
+              "answer": "доброй",
+              "hint": "У + genitive feminine: -ой.",
+              "explanation": "Genitive feminine: доброй."
+            },
+            {
+              "prompt": "_____ дети играют в саду. (The little children play in the garden.)",
+              "promptEnglish": "Subject = nominative plural.",
+              "options": [
+                "Маленькие",
+                "Маленьких",
+                "Маленьким",
+                "Маленькими"
+              ],
+              "answer": "Маленькие",
+              "hint": "Subject = nominative plural: -ие.",
+              "explanation": "Nominative plural: маленькие."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Я живу в новому доме.",
+          "error": "новому",
+          "correction": "новом",
+          "explanation": "В + prepositional (-ом), not dative (-ому).",
+          "options": [
+            "новом",
+            "новым",
+            "нового"
+          ]
+        },
+        {
+          "sentence": "Мы говорим с новом другом.",
+          "error": "новом",
+          "correction": "новым",
+          "explanation": "С + instrumental (-ым), not prepositional (-ом).",
+          "options": [
+            "новым",
+            "новому",
+            "нового"
+          ]
+        },
+        {
+          "sentence": "Я вижу новый студента.",
+          "error": "новый",
+          "correction": "нового",
+          "explanation": "Animate accusative = genitive (-ого), not nominative (-ый).",
+          "options": [
+            "нового",
+            "новому",
+            "новым"
+          ]
+        }
+      ]
+    }
+  ]
+}

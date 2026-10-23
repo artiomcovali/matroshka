@@ -1,0 +1,126 @@
+{
+  "lessonId": "c1-008-formal-writing",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Identify formal vocabulary and official register markers, then contrast formal and informal variants",
+      "descriptionRussian": "Определите деловую лексику и маркеры официального стиля, сравните формальные и неформальные варианты",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which is the formal equivalent of 'этот документ'?",
+              "promptEnglish": "Formal register uses specific demonstratives.",
+              "options": ["такой документ", "данный документ", "тот документ", "этот самый документ"],
+              "answer": "данный документ",
+              "hint": "The formal word for 'this' in documents is данный.",
+              "explanation": "Данный документ is standard in official writing. Этот is conversational; такой means 'such'; тот means 'that.'"
+            },
+            {
+              "prompt": "What is the formal nominalized equivalent of 'помочь'?",
+              "promptEnglish": "Formal writing replaces verbs with noun + verb constructions.",
+              "options": ["оказать помощь", "делать помощь", "давать помощь", "показать помощь"],
+              "answer": "оказать помощь",
+              "hint": "The collocating verb for помощь is оказать.",
+              "explanation": "Оказать помощь (to render assistance) is the standard nominalized form. Помочь is fine in speech but too casual for official documents."
+            },
+            {
+              "prompt": "Which phrase means 'in accordance with'?",
+              "promptEnglish": "A formulaic prepositional phrase governing the instrumental case.",
+              "options": ["в целях", "на основании", "в соответствии с", "в связи с"],
+              "answer": "в соответствии с",
+              "hint": "This phrase uses с + instrumental.",
+              "explanation": "В соответствии с (+ instrumental) means 'in accordance with.' В целях = 'for the purpose of,' на основании = 'on the basis of,' в связи с = 'in connection with.'"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Choose the correct formal opening for 'We hereby inform you...'",
+              "promptEnglish": "Standard opening formula in official letters.",
+              "options": ["Мы хотим сказать...", "Настоящим сообщаем...", "Мы сообщаем вам...", "Говорим вам..."],
+              "answer": "Настоящим сообщаем...",
+              "hint": "Настоящим means 'hereby' in formal contexts.",
+              "explanation": "Настоящим сообщаем is the standard impersonal opening. 'Мы хотим сказать' is colloquial. 'Мы сообщаем вам' is acceptable but less formal."
+            },
+            {
+              "prompt": "Which sentence uses the impersonal passive correctly?",
+              "promptEnglish": "Impersonal passive avoids naming the agent.",
+              "options": ["Мы приняли решение.", "Решение было принято.", "Решение принимали.", "Кто-то принял решение."],
+              "answer": "Решение было принято.",
+              "hint": "Passive: noun + было + short past participle.",
+              "explanation": "Решение было принято (A decision was made) is impersonal passive, standard in formal writing. 'Мы приняли' names the agent, which formal style avoids."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Choose the formal version of 'We decided to...'",
+          "contextEnglish": "Official documents avoid first-person plural decisions.",
+          "options": ["Было принято решение...", "Мы решили..."],
+          "answer": "Было принято решение...",
+          "explanation": "Было принято решение (A decision was made) uses impersonal passive, avoiding 'мы.' This is standard in formal documents."
+        },
+        {
+          "context": "Choose the formal way to say 'because of the delay':",
+          "contextEnglish": "Formal causal phrase with instrumental case.",
+          "options": ["в связи с задержкой", "из-за задержки"],
+          "answer": "в связи с задержкой",
+          "explanation": "В связи с (+ instrumental) is the formal causal phrase. Из-за (+ genitive) is neutral/informal and sounds too blunt in official writing."
+        },
+        {
+          "context": "Choose the formal way to say 'for the purpose of improving':",
+          "contextEnglish": "Stating the purpose of an official action.",
+          "options": ["в целях улучшения", "чтобы улучшить"],
+          "answer": "в целях улучшения",
+          "explanation": "В целях (+ genitive noun) is the formal purpose formula. Чтобы + infinitive is standard grammar but too plain for official documents."
+        }
+      ],
+      "translation": [
+        {
+          "english": "We hereby notify you of the schedule change.",
+          "answer": "Настоящим уведомляем Вас об изменении расписания.",
+          "acceptableVariants": ["Настоящим уведомляем Вас об изменении графика.", "Настоящим сообщаем Вас об изменении расписания."],
+          "hint": "Use настоящим + уведомляем + Вас (formal) + об + prepositional.",
+          "grammarFocus": "Formal letter opening with настоящим",
+          "keyWord": "уведомляем",
+          "options": ["уведомляем", "звоним", "спрашиваем", "благодарим"]
+        },
+        {
+          "english": "A decision was made to postpone the meeting.",
+          "answer": "Было принято решение о переносе совещания.",
+          "acceptableVariants": ["Принято решение о переносе совещания.", "Было принято решение перенести совещание."],
+          "hint": "Use impersonal passive: было принято решение + о + prepositional noun.",
+          "grammarFocus": "Impersonal passive construction",
+          "keyWord": "решение",
+          "options": ["решение", "вывод", "выбор", "мысль"]
+        },
+        {
+          "english": "In accordance with the contract terms...",
+          "answer": "В соответствии с условиями договора...",
+          "acceptableVariants": ["В соответствии с условиями контракта..."],
+          "hint": "В соответствии с + instrumental case.",
+          "grammarFocus": "Formulaic prepositional phrase (в соответствии с)",
+          "keyWord": "соответствии",
+          "options": ["соответствии", "согласии", "связи", "сравнении"]
+        },
+        {
+          "english": "For the purpose of improving working conditions...",
+          "answer": "В целях улучшения условий труда...",
+          "acceptableVariants": ["В целях улучшения рабочих условий..."],
+          "hint": "В целях + genitive abstract noun.",
+          "grammarFocus": "Formulaic purpose phrase (в целях)",
+          "keyWord": "целях",
+          "options": ["целях", "причинах", "результатах", "условиях"]
+        }
+      ]
+    }
+  ]
+}

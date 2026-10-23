@@ -1,0 +1,49 @@
+{
+  "id": "mission-a1-medium-017",
+  "title": "Wrong Pizza",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "Your pizza order has the wrong toppings",
+  "imageName": "takeoutbag.and.cup.and.straw.fill",
+  "initialPrompt": "Вот ваша пицца! Пицца с грибами и колбасой. Приятного аппетита!",
+  "systemPrompt": "You are pizza delivery. You brought пицца с грибами и колбасой. Customer ordered different pizza. Apologize and offer: bring correct pizza in 20 min, or 50% discount on this one. Keep replies short.",
+  "completionCriteria": "User explained the mistake and chose a solution.",
+  "responseLimit": 15,
+  "hints": [
+    "Это не моя пицца (This isn't my pizza)",
+    "Я заказал... (I ordered...)",
+    "Можно поменять? (Can you exchange it?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "пицца",
+      "definition": "pizza"
+    },
+    {
+      "word": "заказ",
+      "definition": "order"
+    },
+    {
+      "word": "ошибка",
+      "definition": "mistake"
+    },
+    {
+      "word": "поменять",
+      "definition": "to exchange"
+    },
+    {
+      "word": "скидка",
+      "definition": "discount"
+    },
+    {
+      "word": "принести",
+      "definition": "to bring"
+    }
+  ],
+  "objectives": [
+    "Explain this is the wrong pizza",
+    "Say what you actually ordered",
+    "Listen to the options offered",
+    "Choose a solution"
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "id": "a2-013-adjective-accusative",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Adjectives in Accusative",
+  "titleRussian": "Прилагательные в винительном падеже",
+  "description": "Adjective accusative case endings",
+  "descriptionRussian": "Окончания прилагательных в винительном падеже",
+  "imageName": "textformat.size",
+  "intro": "Adjectives must match their nouns in case. In accusative, the key rule is: ANIMATE MASCULINE adjectives look like GENITIVE (-ого/-его), while everything else looks like NOMINATIVE. So 'new book' → 'новую книгу' (fem acc = -ую), but 'new student' → 'нового студента' (animate masc = -ого). Feminine and neuter have their own distinct endings.",
+  "rules": [
+    "Adjective accusative depends on whether the noun is animate or inanimate (masculine only).",
+    "Feminine adjective accusative is always -ую/-юю, regardless of animacy.",
+    "Neuter adjective accusative always matches nominative (-ое/-ее).",
+    "Plural animate adjectives use genitive form (-ых/-их), inanimate use nominative (-ые/-ие)."
+  ],
+  "examples": [
+    "Я читаю интересную книгу. (I'm reading an interesting book.), fem: -ая → -ую",
+    "Я вижу старого друга. (I see an old friend.), animate masc: -ый → -ого",
+    "Он купил новый телефон. (He bought a new phone.), inanimate masc: same as nom",
+    "Она любит синее море. (She loves the blue sea.), neuter: same as nom"
+  ],
+  "tables": [
+    {
+      "title": "Adjective Endings - Accusative",
+      "headers": [
+        "",
+        "Masculine Anim.",
+        "Masculine Inan.",
+        "Feminine",
+        "Neuter"
+      ],
+      "rows": [
+        {
+          "label": "Hard stem",
+          "cells": [
+            "нов|ого",
+            "нов|ый",
+            "нов|ую",
+            "нов|ое"
+          ]
+        },
+        {
+          "label": "Soft stem",
+          "cells": [
+            "син|его",
+            "син|ий",
+            "син|юю",
+            "син|ее"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я читаю _____ книгу. (I'm reading an interesting book.)",
+          "promptEnglish": "I'm reading an interesting book.",
+          "options": [
+            "интересная",
+            "интересной",
+            "интересную",
+            "интересном"
+          ],
+          "answer": "интересную",
+          "hint": "Feminine accusative: -ая → -ую",
+          "explanation": "Feminine adjectives change -ая to -ую in accusative."
+        },
+        {
+          "prompt": "Она видит _____ студента. (She sees a young student.)",
+          "promptEnglish": "She sees a young student.",
+          "options": [
+            "молодому",
+            "молодого",
+            "молодым",
+            "молодой"
+          ],
+          "answer": "молодого",
+          "hint": "Animate masculine: acc = gen (-ого)",
+          "explanation": "Animate masculine adjectives use genitive ending: -ой → -ого."
+        },
+        {
+          "prompt": "Мы купили _____ стол. (We bought a new table.)",
+          "promptEnglish": "We bought a new table.",
+          "options": [
+            "новому",
+            "нового",
+            "новый",
+            "новым"
+          ],
+          "answer": "новый",
+          "hint": "Inanimate masculine: acc = nom",
+          "explanation": "Inanimate masculine stays same as nominative in accusative."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я люблю _____ музыку. (I love Russian music.)",
+          "promptEnglish": "I love Russian music.",
+          "options": [
+            "русском",
+            "русской",
+            "русскую",
+            "русская"
+          ],
+          "answer": "русскую",
+          "hint": "Feminine accusative: -ая → -ую",
+          "explanation": "Feminine: русская → русскую."
+        },
+        {
+          "prompt": "Он знает _____ человека. (He knows a famous person.)",
+          "promptEnglish": "He knows a famous person.",
+          "options": [
+            "известным",
+            "известный",
+            "известному",
+            "известного"
+          ],
+          "answer": "известного",
+          "hint": "Animate masculine: acc = gen",
+          "explanation": "Animate masculine: известный → известного."
+        },
+        {
+          "prompt": "Она смотрит _____ фильм. (She's watching an old film.)",
+          "promptEnglish": "She's watching an old film.",
+          "options": [
+            "старым",
+            "старого",
+            "старому",
+            "старый"
+          ],
+          "answer": "старый",
+          "hint": "Inanimate masculine: acc = nom",
+          "explanation": "Фильм is inanimate: старый stays старый."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я вижу _____ море. (I see the blue sea.)",
+          "promptEnglish": "I see the blue sea.",
+          "options": [
+            "синему",
+            "синим",
+            "синее",
+            "синего"
+          ],
+          "answer": "синее",
+          "hint": "Neuter: accusative = nominative",
+          "explanation": "Neuter accusative is same as nominative: синее."
+        },
+        {
+          "prompt": "Она любит _____ собаку. (She loves her big dog.)",
+          "promptEnglish": "She loves her big dog.",
+          "options": [
+            "большой",
+            "большую",
+            "большая",
+            "большим"
+          ],
+          "answer": "большую",
+          "hint": "Feminine accusative: -ая → -ую",
+          "explanation": "Feminine: большая → большую."
+        },
+        {
+          "prompt": "Мы встретили _____ врача. (We met an excellent doctor.)",
+          "promptEnglish": "We met an excellent doctor.",
+          "options": [
+            "отличному",
+            "отличным",
+            "отличный",
+            "отличного"
+          ],
+          "answer": "отличного",
+          "hint": "Animate masculine: acc = gen",
+          "explanation": "Врач is animate masculine: отличный → отличного."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я слушаю _____ песню. (I'm listening to a beautiful song.)"
+    ],
+    "choices": [
+      "красивую",
+      "красивая",
+      "красивой",
+      "красивым"
+    ],
+    "answers": [
+      "красивую"
+    ],
+    "grammarFocus": "Feminine adjective accusative: -ая → -ую",
+    "hints": [
+      "Песню is feminine accusative. What ending does a feminine adjective take in accusative case?"
+    ],
+    "explanations": [
+      "Feminine adjectives change from -ая to -ую in accusative: красивая becomes красивую to match песню (song)."
+    ],
+    "options": [
+      [
+        "красивая",
+        "красивой",
+        "красивую",
+        "красивый"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я вижу _____ дом. (I see a new house.)",
+      "contextEnglish": "I see a new house.",
+      "options": [
+        "новый",
+        "нового"
+      ],
+      "answer": "новый",
+      "explanation": "Дом is inanimate: accusative = nominative (новый)."
+    },
+    {
+      "context": "Я вижу _____ мальчика. (I see a new boy.)",
+      "contextEnglish": "I see a new boy.",
+      "options": [
+        "нового",
+        "новый"
+      ],
+      "answer": "нового",
+      "explanation": "Мальчик is animate: accusative = genitive (нового)."
+    }
+  ],
+  "declensionTable": {
+    "word": "новый",
+    "wordType": "adjective",
+    "gender": "masculine",
+    "paradigm": {
+      "nominative": "новый",
+      "genitive": "нового",
+      "dative": "новому",
+      "accusative": "нового (anim) / новый (inan)",
+      "instrumental": "новым",
+      "prepositional": "новом"
+    },
+    "blanks": [
+      "accusative"
+    ],
+    "hints": [
+      "какого? (animate)"
+    ],
+    "explanations": [
+      "Masculine adjective accusative = genitive for animate nouns: новый → нового"
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort adjective forms: Accusative changes or stays same?",
+    "categories": [
+      "Changes (animate masc/fem)",
+      "Same as nominative (inanimate masc/neuter)"
+    ],
+    "items": [
+      {
+        "word": "нового студента",
+        "category": "Changes (animate masc/fem)"
+      },
+      {
+        "word": "новый стол",
+        "category": "Same as nominative (inanimate masc/neuter)"
+      },
+      {
+        "word": "красивую девушку",
+        "category": "Changes (animate masc/fem)"
+      },
+      {
+        "word": "интересное кино",
+        "category": "Same as nominative (inanimate masc/neuter)"
+      },
+      {
+        "word": "хорошего друга",
+        "category": "Changes (animate masc/fem)"
+      },
+      {
+        "word": "большой город",
+        "category": "Same as nominative (inanimate masc/neuter)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "одушевлённый мужской род",
+      "definition": "animate masculine",
+      "example": "Вижу нового студента (acc = gen)."
+    },
+    {
+      "term": "неодушевлённый мужской род",
+      "definition": "inanimate masculine",
+      "example": "Вижу новый стол (acc = nom)."
+    },
+    {
+      "term": "женский род: -ая → -ую",
+      "definition": "feminine: -aya → -uyu",
+      "example": "Читаю интересную книгу."
+    },
+    {
+      "term": "средний род: без изменений",
+      "definition": "neuter: no change",
+      "example": "Вижу синее море."
+    }
+  ]
+}

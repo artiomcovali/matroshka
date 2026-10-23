@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-008",
+  "title": "Hostile Media Interview",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Journalist trying to trap you in controversial statement",
+  "imageName": "mic.fill",
+  "initialPrompt": "Ваша компания загрязняет реку. Жители болеют. Вы лично несёте ответственность за это?",
+  "systemPrompt": "You are aggressive journalist. Ask loaded questions, twist words, seek scandal. Only respect interviewee who stays composed and redirects skillfully.",
+  "completionCriteria": "User handled media ambush professionally.",
+  "responseLimit": 15,
+  "hints": [
+    "Это неточная характеристика... (That's an inaccurate characterization...)",
+    "Позвольте представить факты (Let me present the facts)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "интервью",
+      "definition": "interview"
+    },
+    {
+      "word": "обвинение",
+      "definition": "accusation"
+    },
+    {
+      "word": "ответственность",
+      "definition": "responsibility"
+    },
+    {
+      "word": "факты",
+      "definition": "facts"
+    },
+    {
+      "word": "манипуляция",
+      "definition": "manipulation"
+    },
+    {
+      "word": "репутация",
+      "definition": "reputation"
+    }
+  ],
+  "objectives": [
+    "Avoid loaded questions",
+    "Correct mischaracterizations",
+    "Stay on message",
+    "Present accurate facts",
+    "Maintain composure"
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "id": "a2-track-time-04-cherez-nazad",
+  "level": "A2",
+  "focusArea": "prepositions",
+  "title": "Time 4: через час, час назад (in / ago)",
+  "titleRussian": "Время 4: через час, час назад (спустя / тому назад)",
+  "description": "To say something happens IN / AFTER a stretch of time, use через + accusative BEFORE the phrase: через час (in an hour). To say AGO, put the time in the accusative and add назад AFTER it: час назад (an hour ago). Через comes before; назад comes after.",
+  "descriptionRussian": "Чтобы сказать, что что-то будет ЧЕРЕЗ какой-то срок (в будущем), ставят через + винительный ПЕРЕД словами: через час. Чтобы сказать «назад», срок ставят в винительный и добавляют назад ПОСЛЕ него: час назад. Через — впереди, назад — сзади.",
+  "imageName": "arrow.left.arrow.right",
+  "trackId": "a2-time-expressions-mastery",
+  "trackTitle": "Time Expressions Mastery",
+  "trackTitleRussian": "Выражения времени",
+  "trackIndex": 4,
+  "trackTotal": 6,
+  "intro": "Two mirror-image expressions, one pointing forwards and one backwards. The neat part is that they sit on opposite sides of the time word: one goes in front of it and the other trails behind. Both put the time word in the accusative, and the backward one takes no preposition at all. Counting rules apply inside both.",
+  "rules": [
+    "Через + accusative, placed BEFORE the time, means 'in / after' a stretch of time, looking to the future: через час, через неделю, через год.",
+    "Accusative + назад, with назад placed AFTER the time, means 'ago,' looking to the past: час назад, неделю назад, год назад.",
+    "The time word is in the accusative in both. Feminine -а words change to -у (минута → минуту, неделя → неделю); masculine/neuter words (час, год, месяц) look unchanged.",
+    "There is no preposition before назад; the phrase is just the time word + назад.",
+    "With numbers, the counting forms return inside the phrase: через два часа, через пять минут, три дня назад, десять минут назад."
+  ],
+  "examples": [
+    "Я приду через час. (I will come in an hour.) через FIRST, future. час accusative.",
+    "Поезд будет через десять минут. (The train will be here in ten minutes.) через + пять/десять минут.",
+    "Урок начнётся через неделю. (The lesson will start in a week.) неделя → неделю.",
+    "Он ушёл час назад. (He left an hour ago.) назад LAST, past.",
+    "Мы приехали неделю назад. (We arrived a week ago.) неделю + назад.",
+    "Это было три дня назад. (That was three days ago.) три дня + назад, counting form дня."
+  ],
+  "tables": [
+    {
+      "title": "Forward with через, backward with назад",
+      "headers": [
+        "Future: через + acc",
+        "Past: acc + назад",
+        "Time word"
+      ],
+      "rows": [
+        {
+          "label": "час",
+          "cells": [
+            "через час",
+            "час назад"
+          ]
+        },
+        {
+          "label": "минута",
+          "cells": [
+            "через минуту",
+            "минуту назад"
+          ]
+        },
+        {
+          "label": "неделя",
+          "cells": [
+            "через неделю",
+            "неделю назад"
+          ]
+        },
+        {
+          "label": "год",
+          "cells": [
+            "через год",
+            "год назад"
+          ]
+        },
+        {
+          "label": "пять минут",
+          "cells": [
+            "через пять минут",
+            "пять минут назад"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я приду _____ час.",
+          "promptEnglish": "I will come in an hour.",
+          "options": [
+            "через",
+            "назад",
+            "в",
+            "на"
+          ],
+          "answer": "через",
+          "hint": "You are looking forward to the future. Which word goes before the time?",
+          "explanation": "For the future ('in an hour'), use через before the time phrase: через час. Назад would mean 'ago' and would go after the time."
+        },
+        {
+          "prompt": "Он ушёл час _____.",
+          "promptEnglish": "He left an hour ago.",
+          "options": [
+            "через",
+            "назад",
+            "вперёд",
+            "в"
+          ],
+          "answer": "назад",
+          "hint": "This points to the past, and the word comes after the time.",
+          "explanation": "For the past ('an hour ago'), put назад after the time phrase: час назад. Через would mean 'in an hour' and would go before."
+        },
+        {
+          "prompt": "Урок начнётся через _____.",
+          "promptEnglish": "The lesson will start in a week.",
+          "options": [
+            "неделя",
+            "неделю",
+            "недели",
+            "неделе"
+          ],
+          "answer": "неделю",
+          "hint": "After через the time is accusative. Неделя is feminine -а.",
+          "explanation": "Через takes the accusative. Неделя is feminine in -а, so it becomes неделю: через неделю."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Мы приехали _____ назад.",
+          "promptEnglish": "We arrived a week ago.",
+          "options": [
+            "неделя",
+            "неделе",
+            "неделю",
+            "недели"
+          ],
+          "answer": "неделю",
+          "hint": "With назад the time is still accusative; only the word's position differs from через.",
+          "explanation": "The accusative form is the same with назад as with через: неделю. The phrase 'a week ago' is неделю назад - same form, назад at the end."
+        },
+        {
+          "prompt": "Поезд будет через _____ минут.",
+          "promptEnglish": "The train will be here in ten minutes.",
+          "options": [
+            "десять",
+            "десятая",
+            "десяти",
+            "десятью"
+          ],
+          "answer": "десять",
+          "hint": "Use the plain counting number with минут.",
+          "explanation": "'In ten minutes' is через десять минут: the counting number десять plus минут (the 5-and-up counting form of минута)."
+        },
+        {
+          "prompt": "Это было три дня _____.",
+          "promptEnglish": "That was three days ago.",
+          "options": [
+            "через",
+            "назад",
+            "вперёд",
+            "потом"
+          ],
+          "answer": "назад",
+          "hint": "It already happened, so it is in the past.",
+          "explanation": "'Three days ago' is три дня назад - past, so назад comes after the time. (After 2-4, день takes the counting form дня.)"
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я позвоню тебе через _____. (I will call you in a minute.)"
+    ],
+    "choices": [
+      "минута",
+      "минуту",
+      "минуты",
+      "минуте"
+    ],
+    "answers": [
+      "минуту"
+    ],
+    "grammarFocus": "Через takes the accusative. Минута is feminine -а, so the accusative is минуту: через минуту."
+  },
+  "categorySorting": {
+    "instruction": "Sort each phrase by whether it points to the future or the past.",
+    "categories": [
+      "Future (через)",
+      "Past (назад)"
+    ],
+    "items": [
+      {
+        "word": "через час",
+        "category": "Future (через)"
+      },
+      {
+        "word": "час назад",
+        "category": "Past (назад)"
+      },
+      {
+        "word": "через неделю",
+        "category": "Future (через)"
+      },
+      {
+        "word": "неделю назад",
+        "category": "Past (назад)"
+      },
+      {
+        "word": "через пять минут",
+        "category": "Future (через)"
+      },
+      {
+        "word": "три дня назад",
+        "category": "Past (назад)"
+      }
+    ]
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Это было три дня вперёд.",
+      "translationEnglish": "That was three days ago.",
+      "error": "вперёд",
+      "correction": "назад",
+      "options": [
+        "назад",
+        "потом",
+        "тогда"
+      ],
+      "explanation": "To say 'ago', looking back into the past, Russian puts назад after the accusative time phrase: три дня назад. Вперёд means 'forward / ahead' and points the wrong way in time. Since the event already happened ('that was...'), the past marker назад is correct: три дня назад."
+    },
+    {
+      "sentence": "Урок начнётся через минута.",
+      "translationEnglish": "The lesson will start in a minute.",
+      "error": "минута",
+      "correction": "минуту",
+      "options": [
+        "минуту",
+        "минуты",
+        "минуте"
+      ],
+      "explanation": "Через takes the accusative, and a feminine -а noun changes -а to -у: минута becomes минуту, so 'in a minute' is через минуту."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Фильм начнётся _____ час.",
+      "contextEnglish": "The film will start in an hour.",
+      "options": [
+        "через",
+        "назад"
+      ],
+      "answer": "через",
+      "explanation": "The film will start in the future, so use через before the time: через час. Назад ('ago') would point to the past and would come after the time."
+    },
+    {
+      "context": "Фильм закончился час _____.",
+      "contextEnglish": "The film ended an hour ago.",
+      "options": [
+        "через",
+        "назад"
+      ],
+      "answer": "назад",
+      "explanation": "The film already ended (past), so use назад after the time: час назад. Через would mean 'in an hour' and would come before the time."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "через + винительный",
+      "definition": "'in / after' a stretch of time, looking forward; placed before the time word, which is accusative: через час, через неделю.",
+      "example": "Я приду через пять минут."
+    },
+    {
+      "term": "... назад",
+      "definition": "'ago'; placed after the accusative time phrase, with no preposition: час назад, неделю назад.",
+      "example": "Мы приехали год назад."
+    },
+    {
+      "term": "через впереди, назад сзади",
+      "definition": "the position rule: через comes before the time for the future; назад comes after the time for the past. The accusative form of the time word is the same either way.",
+      "example": "через неделю (in a week) vs неделю назад (a week ago)."
+    }
+  ]
+}

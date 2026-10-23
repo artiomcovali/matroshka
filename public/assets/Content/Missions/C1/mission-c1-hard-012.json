@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-012",
+  "title": "Hostile Acquisition",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Competitor using dirty tactics to acquire your company",
+  "imageName": "arrow.triangle.merge",
+  "initialPrompt": "Мы скупили ваших поставщиков. Клиенты уходят. Продайте компанию сейчас, пока она ещё чего-то стоит.",
+  "systemPrompt": "You are ruthless competitor. Cite deteriorating position, pressure for quick sale. Only negotiate fairly if target shows resilience and alternative strategies.",
+  "completionCriteria": "User resisted hostile acquisition tactics.",
+  "responseLimit": 15,
+  "hints": [
+    "У нас есть альтернативные поставщики (We have alternative suppliers)",
+    "Наши клиенты лояльны (Our clients are loyal)"
+  ],
+  "targetVocabulary": [
+    {"word": "поглощение", "definition": "acquisition"},
+    {"word": "конкурент", "definition": "competitor"},
+    {"word": "поставщик", "definition": "supplier"},
+    {"word": "тактика", "definition": "tactics"},
+    {"word": "устойчивость", "definition": "resilience"},
+    {"word": "альтернатива", "definition": "alternative"}
+  ],
+  "objectives": [
+    "Show resilience",
+    "Present alternatives",
+    "Counter pressure tactics",
+    "Refuse unfair terms",
+    "Protect company"
+  ]
+}

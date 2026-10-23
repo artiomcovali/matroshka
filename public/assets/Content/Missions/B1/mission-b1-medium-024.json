@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-024",
+  "title": "Schedule Conflict",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "Volunteer schedule conflicts with your availability",
+  "imageName": "heart.fill",
+  "initialPrompt": "Нам очень нужна помощь по субботам с 9 до 15. Это единственное время.",
+  "systemPrompt": "You coordinate volunteers. Saturdays 9-15 is only available shift. Can offer Sunday or split shifts if volunteer pushes back firmly. Need commitment for 3 months. Keep replies short.",
+  "completionCriteria": "User found workable schedule or alternative role.",
+  "responseLimit": 15,
+  "hints": [
+    "По субботам я работаю (I work on Saturdays)",
+    "Можно по воскресеньям? (Is Sunday possible?)",
+    "А вечернее время? (What about evening time?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "расписание",
+      "definition": "schedule"
+    },
+    {
+      "word": "конфликт",
+      "definition": "conflict"
+    },
+    {
+      "word": "смена",
+      "definition": "shift"
+    },
+    {
+      "word": "гибкий",
+      "definition": "flexible"
+    },
+    {
+      "word": "альтернатива",
+      "definition": "alternative"
+    },
+    {
+      "word": "обязательство",
+      "definition": "commitment"
+    }
+  ],
+  "objectives": [
+    "Explain your conflict",
+    "Ask about alternatives",
+    "Negotiate workable schedule",
+    "Confirm new arrangement"
+  ]
+}

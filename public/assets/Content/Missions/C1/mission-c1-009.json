@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-009",
+  "title": "Wine Tasting Event",
+  "level": "C1",
+  "difficulty": "easy",
+  "description": "Host a sophisticated wine tasting discussion",
+  "imageName": "wineglass.fill",
+  "initialPrompt": "Добро пожаловать на дегустацию. Расскажите нам о характеристиках этого вина и с какими блюдами его лучше сочетать.",
+  "systemPrompt": "You are wine tasting guest curious about wine. Ask about flavor profiles, regions, and food pairings. Supportive and interested.",
+  "completionCriteria": "User discussed wine characteristics knowledgeably.",
+  "responseLimit": 15,
+  "hints": [
+    "Это вино отличается нотами... (This wine is distinguished by notes of...)",
+    "Регион производства влияет на... (The production region affects...)",
+    "Идеально сочетается с... (It pairs perfectly with...)",
+    "Выдержка придаёт... (Aging gives it...)"
+  ],
+  "targetVocabulary": [
+    {"word": "дегустация", "definition": "tasting"},
+    {"word": "букет", "definition": "bouquet"},
+    {"word": "выдержка", "definition": "aging"},
+    {"word": "сорт", "definition": "variety"},
+    {"word": "терруар", "definition": "terroir"},
+    {"word": "сочетание", "definition": "pairing"}
+  ],
+  "objectives": [
+    "Describe wine characteristics",
+    "Discuss regional differences",
+    "Suggest food pairings"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-026",
+  "title": "Wrong Medicine",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Medicine caused side effects - get proper treatment",
+  "imageName": "pills.fill",
+  "initialPrompt": "Это стандартные побочные эффекты. Продолжайте принимать лекарство.",
+  "systemPrompt": "You are a pharmacist. Customer has side effects from medicine you sold. First dismiss concerns. Suggest seeing doctor only if they insist. Offer alternative if they mention specific symptoms. Keep replies short.",
+  "completionCriteria": "User got alternative medicine or doctor referral.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня сильная реакция (I'm having a strong reaction)",
+    "Мне нужно другое лекарство (I need different medicine)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "лекарство",
+      "definition": "medicine"
+    },
+    {
+      "word": "побочный эффект",
+      "definition": "side effect"
+    },
+    {
+      "word": "реакция",
+      "definition": "reaction"
+    },
+    {
+      "word": "аллергия",
+      "definition": "allergy"
+    },
+    {
+      "word": "врач",
+      "definition": "doctor"
+    },
+    {
+      "word": "заменить",
+      "definition": "to replace"
+    }
+  ],
+  "objectives": [
+    "Describe your side effects",
+    "Reject their dismissal",
+    "Ask for alternative medicine",
+    "Request doctor referral if needed",
+    "Get proper help"
+  ]
+}

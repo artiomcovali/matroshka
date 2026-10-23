@@ -1,0 +1,368 @@
+{
+  "id": "a2-track-pronoun-04-possessives",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Pronoun Declension 4: Possessive Declension Across All Six Cases",
+  "titleRussian": "Склонение местоимений 4: склонение притяжательных по всем шести падежам",
+  "description": "The possessives мой, твой, наш, ваш decline like adjectives across the six cases: моего, моему, моим, о моём; моей; моих, моими, о моих. The invariant trio его / её / их never agrees and never declines.",
+  "descriptionRussian": "Притяжательные местоимения мой, твой, наш, ваш склоняются как прилагательные: моего, моему, моим, о моём; моей; моих, моими, о моих. Неизменяемая тройка его / её / их не согласуется и не склоняется.",
+  "imageName": "person.crop.rectangle.stack",
+  "trackId": "a2-pronoun-declension-mastery",
+  "trackTitle": "Pronoun Declension Mastery",
+  "trackTitleRussian": "Склонение местоимений",
+  "trackIndex": 4,
+  "trackTotal": 6,
+  "intro": "Possessives decline, and they do it on the pattern you just spent nine lessons learning for adjectives. The feminine collapses four cases into one form here too. The exception is the same three words that were invariant back at A1: whatever case the noun lands in, they do not move. They did not decline then and they still do not.",
+  "rules": [
+    "Possessives мой / твой decline through all six cases: nom мой / моя / моё / мои; gen моего / моей / моего / моих; dat моему / моей / моему / моим; instr моим / моей / моим / моими; prep о моём / о моей / о моём / о моих. Acc follows the inan = nom, animate = gen pattern.",
+    "Possessives наш / ваш follow the same pattern but with husher-rule spelling shifts: prep -ем (о нашем, о вашем); plural -и not -ы (наши, наших, нашими).",
+    "Feminine singular collapses four cases (gen / dat / instr / prep) into one form: моей, твоей, нашей, вашей. The same form covers four sentence roles; only the trigger word disambiguates.",
+    "The invariant trio его / её / их NEVER declines. Whatever case the noun is in, the possessive stays the same form: у его брата, к его брату, о его брате."
+  ],
+  "examples": [
+    "У моего брата есть собака. (My brother has a dog.) У + gen, masc animate; мой → моего.",
+    "Маша помогает моей сестре. (Masha helps my sister.) Помогать + dat, fem; моя → моей.",
+    "Антон работает с нашим директором. (Anton works with our director.) С + instr, masc; наш → нашим.",
+    "Лена думает о вашем плане. (Lena is thinking about your plan.) О + prep, masc; ваш → вашем (husher rule: -ом → -ем).",
+    "Я знаю его сестру. (I know his sister.) Acc fem on сестра, but его is invariant: stays его even though the noun is in the accusative.",
+    "У её родителей большой дом. (Her parents have a big house.) Gen plural on родители, but её is invariant: stays её."
+  ],
+  "tables": [
+    {
+      "title": "Мой Across All Six Cases",
+      "headers": [
+        "Case",
+        "Masc / neut sg",
+        "Fem sg",
+        "Plural"
+      ],
+      "rows": [
+        {
+          "label": "Nominative",
+          "cells": [
+            "мой / моё",
+            "моя",
+            "мои"
+          ]
+        },
+        {
+          "label": "Accusative",
+          "cells": [
+            "мой / моего / моё",
+            "мою",
+            "мои / моих"
+          ]
+        },
+        {
+          "label": "Genitive",
+          "cells": [
+            "моего",
+            "моей",
+            "моих"
+          ]
+        },
+        {
+          "label": "Dative",
+          "cells": [
+            "моему",
+            "моей",
+            "моим"
+          ]
+        },
+        {
+          "label": "Instrumental",
+          "cells": [
+            "моим",
+            "моей",
+            "моими"
+          ]
+        },
+        {
+          "label": "Prepositional",
+          "cells": [
+            "о моём",
+            "о моей",
+            "о моих"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Наш Across All Six Cases (note husher rule)",
+      "headers": [
+        "Case",
+        "Masc / neut sg",
+        "Fem sg",
+        "Plural"
+      ],
+      "rows": [
+        {
+          "label": "Nominative",
+          "cells": [
+            "наш / наше",
+            "наша",
+            "наши"
+          ]
+        },
+        {
+          "label": "Genitive",
+          "cells": [
+            "нашего",
+            "нашей",
+            "наших"
+          ]
+        },
+        {
+          "label": "Dative",
+          "cells": [
+            "нашему",
+            "нашей",
+            "нашим"
+          ]
+        },
+        {
+          "label": "Instrumental",
+          "cells": [
+            "нашим",
+            "нашей",
+            "нашими"
+          ]
+        },
+        {
+          "label": "Prepositional",
+          "cells": [
+            "о нашем",
+            "о нашей",
+            "о наших"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "У _____ есть собака.",
+          "promptEnglish": "He has a dog. (warm-up from Lesson 3)",
+          "options": [
+            "него",
+            "его",
+            "ему",
+            "нему"
+          ],
+          "answer": "него",
+          "hint": "Recap from Lesson 3: у + gen with 3sg masc personal pronoun. Does the prefix apply?",
+          "explanation": "Recap from Lesson 3: у + gen with the 3rd-person masc personal pronoun triggers the н- prefix: его → него. Today we move to a different his / her / their: the possessive его (which never changes) and the declinable possessives мой / наш."
+        },
+        {
+          "prompt": "У _____ брата есть собака.",
+          "promptEnglish": "My brother has a dog.",
+          "options": [
+            "мой",
+            "моего",
+            "моему",
+            "моим"
+          ],
+          "answer": "моего",
+          "hint": "У + gen, and брат is masculine animate. The possessive matches the noun's case.",
+          "explanation": "У + gen takes the genitive. The masc gen of мой is моего. The phrase 'у моего брата' = 'at my brother's' (i.e. my brother has). Note the same -ого ending you saw on adjectives in the A2 Adjective Declension track."
+        },
+        {
+          "prompt": "Маша помогает _____ сестре.",
+          "promptEnglish": "Masha helps my sister.",
+          "options": [
+            "моя",
+            "мою",
+            "моим",
+            "моей"
+          ],
+          "answer": "моей",
+          "hint": "Помогать + dat. Сестра is feminine. The fem dat of мой is the four-in-one fem form.",
+          "explanation": "The dative of моя is моей. The feminine collapses gen / dat / instr / prep into one form (моей), so all four oblique-case fem slots use the same word; the trigger (verb or preposition) tells you which case it actually is."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Антон работает с _____ директором.",
+          "promptEnglish": "Anton works with our director.",
+          "options": [
+            "наш",
+            "нашего",
+            "нашим",
+            "нашему"
+          ],
+          "answer": "нашим",
+          "hint": "С + instr. Директор is masculine. The masc instr of наш applies the husher rule.",
+          "explanation": "The instrumental of наш (masc) is нашим. The husher-rule shift here is the spelling -ы → -и: the predicted -ым becomes -им because the husher ш rejects -ы. The same shift happens in the plural form наши (not нашы)."
+        },
+        {
+          "prompt": "Лена думает о _____ плане.",
+          "promptEnglish": "Lena is thinking about your (plural) plan.",
+          "options": [
+            "ваш",
+            "вашем",
+            "вашему",
+            "вашего"
+          ],
+          "answer": "вашем",
+          "hint": "О + prep. План is masculine. The masc prep of ваш applies the husher rule.",
+          "explanation": "The prepositional of ваш (masc) is вашем. The husher-rule shift here is -ом → -ем in unstressed position after the husher ш. Compare о моём (no husher, -ём stays) with о вашем (husher, -ом → -ем). This is the same Rule 2 you saw on adjectives like о хорошем."
+        },
+        {
+          "prompt": "Я знаю _____ сестру.",
+          "promptEnglish": "I know his sister.",
+          "options": [
+            "его",
+            "ему",
+            "него",
+            "ей"
+          ],
+          "answer": "его",
+          "hint": "The possessive 'his' never changes form, no matter what case the noun is in.",
+          "explanation": "Его (his) is invariant. It does NOT change to match the noun's case. Сестру is in the accusative (singular feminine animate), but его stays его. The same rule applies in every case: его сестры (gen), к его сестре (dat), с его сестрой (instr), о его сестре (prep)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я у _____ брата.",
+          "promptEnglish": "I am at your brother's place.",
+          "options": [
+            "твоего",
+            "твой",
+            "твоему",
+            "твоим"
+          ],
+          "answer": "твоего",
+          "hint": "У + genitive. How does твой decline with брат?",
+          "explanation": "У takes the genitive, and the possessive declines together with its noun: у твоего брата. Possessives always travel in the same case as their noun."
+        },
+        {
+          "prompt": "Я говорю с _____ сестрой.",
+          "promptEnglish": "I am talking with your sister.",
+          "options": [
+            "твоя",
+            "твоей",
+            "твою",
+            "твоих"
+          ],
+          "answer": "твоей",
+          "hint": "С + instrumental, feminine possessive.",
+          "explanation": "С ('together with') takes the instrumental, so the feminine possessive is твоей: с твоей сестрой."
+        },
+        {
+          "prompt": "Я думаю о _____ родителях.",
+          "promptEnglish": "I am thinking about our parents.",
+          "options": [
+            "наши",
+            "нашим",
+            "наших",
+            "нашими"
+          ],
+          "answer": "наших",
+          "hint": "О + prepositional, plural possessive.",
+          "explanation": "О takes the prepositional, and the plural possessive is наших: о наших родителях. It is the same -их ending you saw on plural adjectives."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я говорю с _____ другом. (I am talking with my friend.)"
+    ],
+    "choices": [
+      "мой",
+      "моего",
+      "моим",
+      "моему"
+    ],
+    "answers": [
+      "моим"
+    ],
+    "grammarFocus": "С + instr takes the instrumental. The masc instr of мой is моим. Друг is masculine animate, but animacy only matters in the accusative; in the instrumental the -им ending applies regardless of animacy."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Антон работает с мой братом.",
+      "translationEnglish": "Anton works with my brother.",
+      "error": "мой",
+      "correction": "моим",
+      "options": [
+        "моим",
+        "моего",
+        "моему"
+      ],
+      "explanation": "The possessive agrees with its noun in case. Братом is instrumental (after с), so the possessive must also be instrumental: моим братом, not the nominative мой. Мой is the subject form ('мой брат'). After с, the whole phrase is instrumental: с моим братом."
+    },
+    {
+      "sentence": "Мы были в гостях у ней сестры.",
+      "translationEnglish": "We visited her sister.",
+      "error": "ней",
+      "correction": "её",
+      "options": [
+        "её",
+        "неё",
+        "ей"
+      ],
+      "explanation": "Её here is the possessive 'her', which is invariant and NEVER takes the н- prefix, even after a preposition: у её сестры. Ней is the personal pronoun form used after prepositions ('о ней' = about her), a different word doing a different job. Correct: у её сестры."
+    },
+    {
+      "sentence": "Лена долго думала о нашом плане.",
+      "translationEnglish": "Lena thought about our plan for a long time.",
+      "error": "нашом",
+      "correction": "нашем",
+      "options": [
+        "нашем",
+        "нашим",
+        "нашего"
+      ],
+      "explanation": "Наш ends in the husher ш, and after a husher an unstressed -о becomes -е, so the masculine prepositional is нашем, not нашом. О + prepositional gives о нашем плане."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "У _____ брата есть машина.",
+      "contextEnglish": "My brother has a car.",
+      "options": [
+        "моего",
+        "мой"
+      ],
+      "answer": "моего",
+      "explanation": "У + gen; брат is masc animate. The masc gen of мой is моего. Мой would be the nominative form, used as in 'мой брат любит музыку'."
+    },
+    {
+      "context": "Маша работает с _____ другом.",
+      "contextEnglish": "Masha works with his friend.",
+      "options": [
+        "его",
+        "ним"
+      ],
+      "answer": "его",
+      "explanation": "His as a possessive is invariant: его, never declines, regardless of the noun's case. Ним is the prefixed instr of the personal pronoun он (Маша работает с ним = with him), a different role."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "склоняемое притяжательное",
+      "definition": "declinable possessive (мой, твой, наш, ваш: changes endings across the six cases to match the noun)",
+      "example": "В сочетании 'у моего брата' притяжательное 'моего' стоит в родительном падеже, согласуясь с одушевлённым 'братом'."
+    },
+    {
+      "term": "неизменяемое притяжательное",
+      "definition": "invariant possessive (его, её, их: never changes form, even when the noun is in an oblique case)",
+      "example": "В сочетании 'к его брату' притяжательное его не меняется, хотя 'брату' стоит в дательном падеже."
+    },
+    {
+      "term": "согласование с существительным",
+      "definition": "agreement with the noun (declinable possessives match their noun's gender, number, and case; invariant possessives do not)",
+      "example": "Видно согласование: моего брата (м.р., ед.ч., род. пад.); моей сестры (ж.р., ед.ч., род. пад.); наших родителей (мн.ч., род. пад.)."
+    }
+  ]
+}

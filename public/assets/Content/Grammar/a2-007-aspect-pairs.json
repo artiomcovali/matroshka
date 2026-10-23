@@ -1,0 +1,332 @@
+{
+  "id": "a2-007-aspect-pairs",
+  "level": "A2",
+  "focusArea": "aspect",
+  "title": "Aspect Pairs: Prefixes",
+  "titleRussian": "Видовые пары: приставки",
+  "description": "Forming perfective verbs by adding prefixes",
+  "descriptionRussian": "Образование совершенного вида с помощью приставок",
+  "imageName": "arrow.2.squarepath",
+  "intro": "The most common way to form a perfective verb is by adding a prefix. Each imperfective verb has one 'pure' prefix that makes it perfective without changing the meaning: делать → сделать, писать → написать, читать → прочитать. The prefix just adds the sense of completion. Be careful — other prefixes change the meaning entirely!",
+  "rules": [
+    "PREFIX pattern: add a prefix to make perfective: делать → сделать, писать → написать, читать → прочитать.",
+    "Each verb has ONE 'pure' prefix that doesn't change meaning: с- for делать, на- for писать, про- for читать.",
+    "Other prefixes change meaning: писать (write) → записать (write down) — this is a NEW verb, not a pair.",
+    "Common pure prefixes: с- (сделать, сварить), на- (написать, нарисовать), по- (построить, посмотреть), про- (прочитать, проверить)."
+  ],
+  "examples": [
+    "делать / сделать — to do (impf/pf), prefix с-",
+    "писать / написать — to write (impf/pf), prefix на-",
+    "читать / прочитать — to read (impf/pf), prefix про-",
+    "готовить / приготовить — to cook (impf/pf), prefix при-"
+  ],
+  "tables": [
+    {
+      "title": "Prefix Pairs",
+      "headers": [
+        "Verb",
+        "Imperfective (НСВ)",
+        "Perfective (СВ)",
+        "Prefix"
+      ],
+      "rows": [
+        {
+          "label": "read",
+          "cells": [
+            "читать",
+            "про|читать",
+            "про-"
+          ]
+        },
+        {
+          "label": "write",
+          "cells": [
+            "писать",
+            "на|писать",
+            "на-"
+          ]
+        },
+        {
+          "label": "do/make",
+          "cells": [
+            "делать",
+            "с|делать",
+            "с-"
+          ]
+        },
+        {
+          "label": "cook",
+          "cells": [
+            "готовить",
+            "при|готовить",
+            "при-"
+          ]
+        },
+        {
+          "label": "draw",
+          "cells": [
+            "рисовать",
+            "на|рисовать",
+            "на-"
+          ]
+        },
+        {
+          "label": "build",
+          "cells": [
+            "строить",
+            "по|строить",
+            "по-"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "What is the perfective pair of 'читать'?",
+          "promptEnglish": "What is the perfective pair of 'читать'?",
+          "options": [
+            "читать",
+            "почитать",
+            "зачитать",
+            "прочитать"
+          ],
+          "answer": "прочитать",
+          "hint": "Add про- prefix for basic 'read completely'",
+          "explanation": "Читать → прочитать (prefix про- means completion)."
+        },
+        {
+          "prompt": "What is the perfective pair of 'писать'?",
+          "promptEnglish": "What is the perfective pair of 'писать'?",
+          "options": [
+            "написать",
+            "писать",
+            "пописать",
+            "списать"
+          ],
+          "answer": "написать",
+          "hint": "Add на- prefix for basic 'write completely'",
+          "explanation": "Писать → написать (prefix на- means completion)."
+        },
+        {
+          "prompt": "What prefix makes 'делать' perfective?",
+          "promptEnglish": "What prefix makes 'делать' perfective?",
+          "options": [
+            "по-",
+            "на-",
+            "с-",
+            "про-"
+          ],
+          "answer": "с-",
+          "hint": "Делать → с_делать",
+          "explanation": "Делать → сделать. The prefix с- makes it perfective."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "What is the perfective pair of 'готовить'?",
+          "promptEnglish": "What is the perfective pair of 'готовить'?",
+          "options": [
+            "заготовить",
+            "поготовить",
+            "приготовить",
+            "наготовить"
+          ],
+          "answer": "приготовить",
+          "hint": "Add при- prefix",
+          "explanation": "Готовить → приготовить (prefix при- means completion)."
+        },
+        {
+          "prompt": "Which verb is the imperfective form?",
+          "promptEnglish": "Which verb is the imperfective form?",
+          "options": [
+            "сделать",
+            "написать",
+            "рисовать",
+            "прочитать"
+          ],
+          "answer": "рисовать",
+          "hint": "Imperfective = no prefix (the base form)",
+          "explanation": "Рисовать is imperfective (base form). Its perfective pair is нарисовать."
+        },
+        {
+          "prompt": "What is the perfective pair of 'строить'?",
+          "promptEnglish": "What is the perfective pair of 'строить'?",
+          "options": [
+            "достроить",
+            "построить",
+            "застроить",
+            "строить"
+          ],
+          "answer": "построить",
+          "hint": "Add по- prefix",
+          "explanation": "Строить → построить (prefix по- means completion)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "What is the perfective pair of 'рисовать'?",
+          "promptEnglish": "What is the perfective pair of 'рисовать'?",
+          "options": [
+            "рисовать",
+            "дорисовать",
+            "нарисовать",
+            "срисовать"
+          ],
+          "answer": "нарисовать",
+          "hint": "Same prefix as написать",
+          "explanation": "Рисовать → нарисовать (prefix на-, same as писать → написать)."
+        },
+        {
+          "prompt": "What is the imperfective pair of 'сварить'?",
+          "promptEnglish": "What is the imperfective pair of 'сварить'?",
+          "options": [
+            "сварить",
+            "заварить",
+            "варить",
+            "поварить"
+          ],
+          "answer": "варить",
+          "hint": "Remove the prefix to find the base form",
+          "explanation": "Сварить (pf) ← варить (impf). Remove the prefix с-."
+        },
+        {
+          "prompt": "What is the perfective pair of 'смотреть'?",
+          "promptEnglish": "What is the perfective pair of 'смотреть'?",
+          "options": [
+            "засмотреть",
+            "присмотреть",
+            "просмотреть",
+            "посмотреть"
+          ],
+          "answer": "посмотреть",
+          "hint": "Add по- prefix for 'watch/look completely'",
+          "explanation": "Смотреть → посмотреть (prefix по- means completion)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Мама _____ вкусный обед, и мы сели обедать. (Mom cooked a delicious lunch, and we sat down to eat.)"
+    ],
+    "choices": [
+      "приготовила",
+      "готовила",
+      "заготовила",
+      "поготовила"
+    ],
+    "answers": [
+      "приготовила"
+    ],
+    "grammarFocus": "Prefix при- makes готовить perfective",
+    "hints": [
+      "The result is a completed lunch. Which prefix makes готовить perfective?"
+    ],
+    "explanations": [
+      "Приготовила is the perfective past tense of приготовить. The prefix при- shows the cooking was completed."
+    ],
+    "options": [
+      [
+        "готовила",
+        "приготовила",
+        "готовит",
+        "приготовит"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я каждый день _____ книгу. (I read a book every day.)",
+      "contextEnglish": "I read a book every day.",
+      "options": [
+        "читаю",
+        "прочитаю"
+      ],
+      "answer": "читаю",
+      "explanation": "Repeated action (каждый день) = imperfective: читаю."
+    },
+    {
+      "context": "Я уже _____ эту книгу. (I already read this book.)",
+      "contextEnglish": "I already read this book.",
+      "options": [
+        "прочитал",
+        "читал"
+      ],
+      "answer": "прочитал",
+      "explanation": "Completed result (уже) = perfective: прочитал."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort verbs: imperfective or perfective?",
+    "categories": [
+      "Imperfective (НСВ)",
+      "Perfective (СВ)"
+    ],
+    "items": [
+      {
+        "word": "читать",
+        "category": "Imperfective (НСВ)"
+      },
+      {
+        "word": "прочитать",
+        "category": "Perfective (СВ)"
+      },
+      {
+        "word": "писать",
+        "category": "Imperfective (НСВ)"
+      },
+      {
+        "word": "написать",
+        "category": "Perfective (СВ)"
+      },
+      {
+        "word": "делать",
+        "category": "Imperfective (НСВ)"
+      },
+      {
+        "word": "сделать",
+        "category": "Perfective (СВ)"
+      },
+      {
+        "word": "готовить",
+        "category": "Imperfective (НСВ)"
+      },
+      {
+        "word": "приготовить",
+        "category": "Perfective (СВ)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "читать / прочитать",
+      "definition": "to read (impf/pf), prefix про-",
+      "example": "Я прочитал эту книгу вчера."
+    },
+    {
+      "term": "писать / написать",
+      "definition": "to write (impf/pf), prefix на-",
+      "example": "Он написал письмо маме."
+    },
+    {
+      "term": "делать / сделать",
+      "definition": "to do/make (impf/pf), prefix с-",
+      "example": "Я сделал домашнее задание."
+    },
+    {
+      "term": "готовить / приготовить",
+      "definition": "to cook (impf/pf), prefix при-",
+      "example": "Она приготовила ужин."
+    }
+  ]
+}

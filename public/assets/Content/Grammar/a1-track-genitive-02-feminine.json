@@ -1,0 +1,271 @@
+{
+  "id": "a1-track-genitive-02-feminine",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Genitive 2: Feminine Endings (-ы and -и)",
+  "titleRussian": "Родительный 2: Женские окончания (-ы и -и)",
+  "description": "Feminine nouns ending in -а take -ы in the genitive (-и after к, г, х, ш, ж, щ, ч). Feminine nouns ending in -я take -и.",
+  "descriptionRussian": "Женские существительные на -а получают окончание -ы (или -и после к, г, х, ш, ж, щ, ч). Существительные на -я получают окончание -и.",
+  "imageName": "pencil",
+  "trackId": "a1-genitive-mastery",
+  "trackTitle": "Genitive Mastery",
+  "trackTitleRussian": "Родительный падеж",
+  "trackIndex": 2,
+  "trackTotal": 8,
+  "intro": "Feminine nouns bring back a spelling rule you have now met in three different books: once deciding noun plurals, once deciding adjective endings, and now here. If it is still costing you thought, this is the lesson to finally fix it, because it is not going to stop appearing. Everything else today is a single swap at the end of the word. The rule sitting on top of it is the only place a mistake is likely.",
+  "rules": [
+    "Feminine nouns ending in -а swap -а for -ы in the genitive: комната → комнаты, газета → газеты, сестра → сестры.",
+    "Feminine nouns ending in -я swap -я for -и: неделя → недели, песня → песни, кухня → кухни.",
+    "Spelling rule: write -и instead of -ы after к, г, х, ш, ж, щ, ч. So книга → книги (not 'книгы'), кошка → кошки. The grammar is the same; only the letter changes."
+  ],
+  "examples": [
+    "У меня нет комнаты. (I don't have a room.) комната → комнаты.",
+    "На столе нет газеты. (There is no newspaper on the table.) газета → газеты.",
+    "У Лены нет книги. (Lena doesn't have a book.) книга → книги (spelling rule).",
+    "В квартире нет кухни. (There's no kitchen in the apartment.) кухня → кухни.",
+    "У Антона нет машины. (Anton doesn't have a car.) машина → машины."
+  ],
+  "tables": [
+    {
+      "title": "Feminine Genitive: -а → -ы (or -и after к, г, х, ш, ж, щ, ч)",
+      "headers": [
+        "Что? (Nominative)",
+        "Чего нет? (Genitive)",
+        "Change"
+      ],
+      "rows": [
+        {
+          "label": "комната",
+          "cells": [
+            "комнаты",
+            "-а → -ы"
+          ]
+        },
+        {
+          "label": "газета",
+          "cells": [
+            "газеты",
+            "-а → -ы"
+          ]
+        },
+        {
+          "label": "сестра",
+          "cells": [
+            "сестры",
+            "-а → -ы"
+          ]
+        },
+        {
+          "label": "книга",
+          "cells": [
+            "книги",
+            "-а → -и (spelling rule)"
+          ]
+        },
+        {
+          "label": "кошка",
+          "cells": [
+            "кошки",
+            "-а → -и (spelling rule)"
+          ]
+        },
+        {
+          "label": "неделя",
+          "cells": [
+            "недели",
+            "-я → -и"
+          ]
+        },
+        {
+          "label": "кухня",
+          "cells": [
+            "кухни",
+            "-я → -и"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "У Маши нет _____.",
+          "promptEnglish": "Masha doesn't have a room.",
+          "options": [
+            "комната",
+            "комнату",
+            "комнаты",
+            "комнатой"
+          ],
+          "answer": "комнаты",
+          "hint": "Feminine -а changes to which letter in the genitive?",
+          "explanation": "Feminine nouns ending in -а swap -а for -ы in the genitive: комната → комнаты. The construction 'у Х нет ___' triggers genitive, just like in Lesson 1."
+        },
+        {
+          "prompt": "На столе нет _____.",
+          "promptEnglish": "There is no newspaper on the table.",
+          "options": [
+            "газету",
+            "газета",
+            "газетой",
+            "газеты"
+          ],
+          "answer": "газеты",
+          "hint": "Same pattern as комната.",
+          "explanation": "The pattern is consistent: -а replaces with -ы. Газета → газеты, just like комната → комнаты."
+        },
+        {
+          "prompt": "У Лены нет _____.",
+          "promptEnglish": "Lena doesn't have a book.",
+          "options": [
+            "книгу",
+            "книги",
+            "книгой",
+            "книга"
+          ],
+          "answer": "книги",
+          "hint": "Beware the spelling rule. Russian can't write -ы after к, г, х, ш, ж, щ, ч.",
+          "explanation": "Книга would become 'книгы' by the regular rule, but Russian's spelling rule says: after к, г, х, ш, ж, щ, ч you must write -и instead of -ы. So книга → книги. The same rule will apply to other words whose stem ends in к, г, х, ш, ж, щ, or ч."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "У меня нет _____.",
+          "promptEnglish": "I don't have a magazine.",
+          "options": [
+            "журнала",
+            "журнал",
+            "журналу",
+            "журналом"
+          ],
+          "answer": "журнала",
+          "hint": "Recap from Lesson 1: what ending did masculine consonants take?",
+          "explanation": "Quick recap from Lesson 1: masculine nouns ending in a hard consonant add -а in the genitive. Журнал → журнала. Today's lesson is feminine, but this masculine pattern stays warm in your memory."
+        },
+        {
+          "prompt": "У Антона нет _____.",
+          "promptEnglish": "Anton doesn't have an aunt.",
+          "options": [
+            "тётю",
+            "тётя",
+            "тёти",
+            "тётей"
+          ],
+          "answer": "тёти",
+          "hint": "Soft -я swaps to which soft vowel?",
+          "explanation": "Feminine nouns ending in -я take -и in the genitive. Тётя → тёти. The soft -я always swaps to soft -и."
+        },
+        {
+          "prompt": "У Ивана нет _____.",
+          "promptEnglish": "Ivan doesn't have a cat.",
+          "options": [
+            "кошки",
+            "кошка",
+            "кошку",
+            "кошкой"
+          ],
+          "answer": "кошки",
+          "hint": "Кошка ends in -ка. Which letter must follow к?",
+          "explanation": "Кошка ends in -ка, so the spelling rule applies: write -и not -ы. Кошки. Even though кошка is animate (a cat), genitive does not care about animacy. Both animate and inanimate feminine nouns follow the same pattern after к, г, х, ш, ж, щ, ч."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "У меня нет _____. (I don't have a sister.)"
+    ],
+    "choices": [
+      "сестра",
+      "сестры",
+      "сестру",
+      "сестрой"
+    ],
+    "answers": [
+      "сестры"
+    ],
+    "grammarFocus": "Сестра is feminine ending in -а. Genitive: -а → -ы → сестры."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "У Антона нет машина в гараже.",
+      "translationEnglish": "Anton doesn't have a car in the garage.",
+      "error": "машина",
+      "correction": "машины",
+      "options": [
+        "машины",
+        "машине",
+        "машиной"
+      ],
+      "explanation": "After нет the noun shifts into the genitive. Машина is feminine ending in -а, so the genitive swaps -а → -ы: машины. The -ы ending is the standard feminine genitive after most consonants."
+    },
+    {
+      "sentence": "У нас нет ручка на столе.",
+      "translationEnglish": "We don't have a pen on the table.",
+      "error": "ручка",
+      "correction": "ручки",
+      "options": [
+        "ручки",
+        "ручку",
+        "ручкой"
+      ],
+      "explanation": "After нет, ручка shifts into the genitive. Normally -а swaps to -ы, but the spelling rule blocks -ы after к, г, х, ж, ш, щ, ч. Ручка's stem ends in -к, so the ending becomes -и instead: ручки."
+    },
+    {
+      "sentence": "У меня нет кухня в новой квартире.",
+      "translationEnglish": "I don't have a kitchen in my new apartment.",
+      "error": "кухня",
+      "correction": "кухни",
+      "options": [
+        "кухни",
+        "кухню",
+        "кухней"
+      ],
+      "explanation": "After нет the noun shifts to the genitive. Кухня is feminine ending in -я (the soft counterpart of -а); the soft-stem feminine genitive ends in -и: кухни. The -я → -и pattern is the soft parallel of -а → -ы."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "У Маши есть _____.",
+      "contextEnglish": "Masha has a room.",
+      "options": [
+        "комната",
+        "комнаты"
+      ],
+      "answer": "комната",
+      "explanation": "After есть ('there is X' / 'one has X') the noun stays in the nominative: комната. The genitive form комнаты appears in the opposite construction: 'У Маши нет комнаты' (Masha doesn't have a room). Есть keeps nominative, нет triggers genitive."
+    },
+    {
+      "context": "У меня нет _____.",
+      "contextEnglish": "I don't have a book.",
+      "options": [
+        "книга",
+        "книги"
+      ],
+      "answer": "книги",
+      "explanation": "After нет the noun shifts into the genitive. The regular rule would give -ы (книгы), but the spelling rule converts that to -и after к, г, х, ш, ж, щ, ч. So книга → книги."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "женский род",
+      "definition": "feminine gender",
+      "example": "Книга, школа, мама — это женский род."
+    },
+    {
+      "term": "окончание",
+      "definition": "ending (of a word)",
+      "example": "Окончание -а меняется на -ы или -и в родительном падеже."
+    },
+    {
+      "term": "кого?",
+      "definition": "whom? (the genitive question word for people and animals)",
+      "example": "У кого нет книги? — У Антона."
+    }
+  ]
+}

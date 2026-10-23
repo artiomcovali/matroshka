@@ -1,0 +1,51 @@
+{
+  "id": "mission-a1-009",
+  "title": "The Pet Shop",
+  "level": "A1",
+  "difficulty": "easy",
+  "description": "Choose and buy a pet at a friendly pet shop",
+  "imageName": "pawprint.fill",
+  "initialPrompt": "Привет! Добро пожаловать в наш зоомагазин! У нас есть кошки, собаки, рыбки и попугаи. Какое животное вам нравится?",
+  "systemPrompt": "You are a friendly pet shop owner. Pets: кошка 5000₽, собака 8000₽, рыбка 500₽, попугай 3000₽. Ask what pet they like, what color/size they prefer, help them choose. Give pet care tips with purchase. Keep replies short but helpful.",
+  "completionCriteria": "User chose a pet and completed the purchase.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нравится... (I like...)",
+    "Я хочу... (I want...)",
+    "Какой цвет есть? (What colors do you have?)",
+    "Сколько стоит? (How much does it cost?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "кошка",
+      "definition": "cat"
+    },
+    {
+      "word": "собака",
+      "definition": "dog"
+    },
+    {
+      "word": "рыбка",
+      "definition": "fish"
+    },
+    {
+      "word": "попугай",
+      "definition": "parrot"
+    },
+    {
+      "word": "животное",
+      "definition": "animal"
+    },
+    {
+      "word": "кормить",
+      "definition": "to feed"
+    }
+  ],
+  "objectives": [
+    "Say which pet you like (Мне нравится...)",
+    "Ask about colors or sizes available",
+    "Ask the price (Сколько стоит?)",
+    "Choose your pet",
+    "Complete the purchase"
+  ]
+}

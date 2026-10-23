@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-021",
+  "title": "The Lemon Car",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "You bought a car with major hidden defects",
+  "imageName": "car.fill",
+  "initialPrompt": "Машина была в отличном состоянии при продаже. Это износ после покупки. Ничего не вернём.",
+  "systemPrompt": "You are a used car dealer. Sold car with hidden defects. Deny knowledge, blame buyer's use. Offer partial refund only if buyer mentions lawyer or consumer protection. Keep replies short.",
+  "completionCriteria": "User got refund, repair, or started formal dispute.",
+  "responseLimit": 15,
+  "hints": [
+    "Дефект был скрыт (The defect was hidden)",
+    "Я обращусь в защиту прав потребителей (I'll contact consumer protection)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "дефект",
+      "definition": "defect"
+    },
+    {
+      "word": "скрытый",
+      "definition": "hidden"
+    },
+    {
+      "word": "возврат",
+      "definition": "return"
+    },
+    {
+      "word": "защита",
+      "definition": "protection"
+    },
+    {
+      "word": "потребитель",
+      "definition": "consumer"
+    },
+    {
+      "word": "гарантия",
+      "definition": "warranty"
+    }
+  ],
+  "objectives": [
+    "Document the defects",
+    "Prove pre-existing issue",
+    "Cite consumer rights",
+    "Threaten formal complaint",
+    "Get resolution"
+  ]
+}

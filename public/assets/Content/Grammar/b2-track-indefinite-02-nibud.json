@@ -1,0 +1,241 @@
+{
+  "id": "b2-track-indefinite-02-nibud",
+  "level": "B2",
+  "focusArea": "other",
+  "title": "Indefinite 2: -нибудь (Any, Not Yet Chosen)",
+  "titleRussian": "Неопределённые 2: частица -нибудь (любой, ещё не выбранный)",
+  "description": "The particle -нибудь (кто-нибудь, что-нибудь, где-нибудь) means 'any one at all, it doesn't matter which.' It lives in questions, requests, commands, the future, and hypotheticals, where the referent is still open.",
+  "descriptionRussian": "Частица -нибудь (кто-нибудь, что-нибудь, где-нибудь) значит «любой, всё равно какой». Живёт в вопросах, просьбах, командах, будущем и гипотезах, где предмет ещё не определён.",
+  "imageName": "dice",
+  "trackId": "b2-indefinite-pronouns-mastery",
+  "trackTitle": "Indefinite Pronouns Mastery",
+  "trackTitleRussian": "Неопределённые местоимения",
+  "trackIndex": 2,
+  "trackTotal": 7,
+  "intro": "The other particle, and it marks the opposite: a referent nobody has picked yet, where any candidate would do and possibly none exists. It shows up in four predictable places, all of which leave the referent open: questions, requests, the future, and hypotheticals. There is a more formal third particle that means much the same thing and belongs in writing.",
+  "rules": [
+    "Form -нибудь pronouns by gluing -нибудь onto a question word: кто-нибудь, что-нибудь, где-нибудь, когда-нибудь, какой-нибудь. The particle is hyphenated and never changes.",
+    "-нибудь marks a referent that is NOT YET FIXED: any candidate at all will do, it does not matter which (possibly none). The speaker is not pointing at a particular one.",
+    "-нибудь lives in four contexts where the referent is still open: QUESTIONS (Ты что-нибудь нашёл?), REQUESTS / COMMANDS (Скажи что-нибудь), the FUTURE (Я когда-нибудь вернусь), and HYPOTHETICALS / conditions (Если кто-нибудь придёт...).",
+    "Do not use -нибудь for a completed action by a real, particular referent. 'Someone already came' is a fact about a definite person, so it takes -то (Кто-то уже пришёл).",
+    "-либо (кто-либо, что-либо) means roughly the same as -нибудь but is more formal and bookish; use -нибудь in everyday speech."
+  ],
+  "examples": [
+    "Позови кого-нибудь на помощь. (Call someone for help.) Any person will do; a request.",
+    "Дай мне что-нибудь почитать. (Give me something to read.) Anything readable; a request.",
+    "Ты где-нибудь видел мои ключи? (Have you seen my keys anywhere?) A question, open place.",
+    "Давай поедем куда-нибудь летом. (Let's go somewhere this summer.) An unfixed future plan.",
+    "Ты был когда-нибудь в Петербурге? (Have you ever been to Petersburg?) A question about any time.",
+    "Если кто-нибудь позвонит, запиши номер. (If anyone calls, write down the number.) A hypothetical."
+  ],
+  "tables": [
+    {
+      "title": "The four homes of -нибудь",
+      "headers": [
+        "Context",
+        "Example",
+        "Why -нибудь"
+      ],
+      "rows": [
+        {
+          "label": "Question",
+          "cells": [
+            "Ты кого-нибудь видел?",
+            "no particular person in mind"
+          ]
+        },
+        {
+          "label": "Request / command",
+          "cells": [
+            "Купи что-нибудь к чаю.",
+            "anything will do"
+          ]
+        },
+        {
+          "label": "Future",
+          "cells": [
+            "Я когда-нибудь поеду туда.",
+            "unfixed future time"
+          ]
+        },
+        {
+          "label": "Hypothetical / condition",
+          "cells": [
+            "Если кто-нибудь спросит...",
+            "purely hypothetical person"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Ты _____ слышал об этом фильме?",
+          "promptEnglish": "Have you heard anything about this film?",
+          "options": [
+            "что-то",
+            "что-нибудь",
+            "ничего",
+            "нечего"
+          ],
+          "answer": "что-нибудь",
+          "hint": "This is a question, and the asker has no particular piece of news in mind. Open referent.",
+          "explanation": "A yes/no question with an open referent (any news at all would count) takes -нибудь: что-нибудь. Что-то would imply you already know a specific thing was heard, which a question does not assume. Ничего would need не and would mean the answer is 'nothing.'"
+        },
+        {
+          "prompt": "Принеси мне _____ попить, пожалуйста.",
+          "promptEnglish": "Bring me something to drink, please.",
+          "options": [
+            "что-то",
+            "ничего",
+            "что-нибудь",
+            "нечего"
+          ],
+          "answer": "что-нибудь",
+          "hint": "A request: any drink at all will do, nothing specific is meant.",
+          "explanation": "A request where any candidate works (water, tea, juice, whatever) is the classic -нибудь slot: что-нибудь. Что-то would name a particular drink the speaker has in mind, which contradicts 'anything to drink.' This is one of the four homes of -нибудь: a request."
+        },
+        {
+          "prompt": "Давай встретимся _____ на выходных.",
+          "promptEnglish": "Let's meet somewhere this weekend.",
+          "options": [
+            "где-то",
+            "нигде",
+            "негде",
+            "где-нибудь"
+          ],
+          "answer": "где-нибудь",
+          "hint": "A future plan; the place is not chosen yet. Any spot will do.",
+          "explanation": "A future plan with no place fixed yet takes -нибудь: где-нибудь (anywhere we end up choosing). Где-то would mean a specific place you already know but cannot name, which clashes with an unsettled plan. The future is one of the four homes of -нибудь."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Ты был _____ за границей?",
+          "promptEnglish": "Have you ever been abroad?",
+          "options": [
+            "когда-нибудь",
+            "когда-то",
+            "никогда",
+            "некогда"
+          ],
+          "answer": "когда-нибудь",
+          "hint": "A question about any time at all ('ever?'). The referent (a time) is open.",
+          "explanation": "In a question, 'ever?' (any time at all) is когда-нибудь. Когда-то ('once, at a definite past time') would belong in a statement, not this open question. Никогда means never and needs не. This is the question home of -нибудь."
+        },
+        {
+          "prompt": "Если _____ позвонит, скажи, что я перезвоню.",
+          "promptEnglish": "If anyone calls, say I'll call back.",
+          "options": [
+            "кто-то",
+            "никто",
+            "некому",
+            "кто-нибудь"
+          ],
+          "answer": "кто-нибудь",
+          "hint": "A hypothetical 'if' clause; the caller is purely imagined, not real yet.",
+          "explanation": "An 'если' (if) clause sets up a hypothetical: the caller does not exist yet and any caller would trigger the instruction. That is the hypothetical home of -нибудь: кто-нибудь. Кто-то would mean a specific real caller, which a hypothetical condition does not have. Никто needs не."
+        },
+        {
+          "prompt": "Дай мне _____ книгу, мне всё равно какую.",
+          "promptEnglish": "Give me some book, I don't care which one.",
+          "options": [
+            "какую-нибудь",
+            "какую-то",
+            "никакую",
+            "какую"
+          ],
+          "answer": "какую-нибудь",
+          "hint": "The phrase 'мне всё равно какую' (I don't care which) is the giveaway. Choice is open.",
+          "explanation": "'Мне всё равно какую' (it doesn't matter which) makes the open, any-candidate reading explicit, so the particle is -нибудь: какую-нибудь. Какую-то would point to a particular book the speaker has in mind, the opposite of 'I don't care which.' (Note: какую is the accusative of какой, agreeing with книгу.)"
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Спроси у _____, как пройти к вокзалу. (Ask someone how to get to the station.)"
+    ],
+    "choices": [
+      "кого-то",
+      "кого-нибудь",
+      "никого",
+      "некого"
+    ],
+    "answers": [
+      "кого-нибудь"
+    ],
+    "grammarFocus": "A request / command where any passerby will do takes -нибудь, and the preposition у governs the genitive, so the pronoun core declines to кого: у кого-нибудь. Кого-то would name a specific person already in mind; никого would need не."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Летом поедем куда-то отдыхать, всё равно куда.",
+      "translationEnglish": "In summer let's go somewhere to relax - anywhere at all.",
+      "error": "куда-то",
+      "correction": "куда-нибудь",
+      "options": [
+        "куда-нибудь",
+        "никуда",
+        "кое-куда"
+      ],
+      "explanation": "This is a plan where any destination would satisfy ('всё равно куда'), so the non-specific -нибудь is correct: куда-нибудь. -то would mean the speaker has one specific place in mind, contradicting 'anywhere at all'. Кое-куда hints at a place the speaker knows but won't name."
+    },
+    {
+      "sentence": "Позвони кому-то, если вечером понадобится помощь.",
+      "translationEnglish": "Call someone if you need help in the evening.",
+      "error": "кому-то",
+      "correction": "кому-нибудь",
+      "options": [
+        "кому-нибудь",
+        "никому",
+        "кого-нибудь"
+      ],
+      "explanation": "This is a future, hypothetical situation (если понадобится) where any helper would do, so -нибудь is correct: кому-нибудь. -то would point to a specific person the speaker already has in mind, which the open 'if you need help' rules out. Никому would require a negated verb (никому не звони, 'don't call anyone'), reversing the sense. Кого-нибудь is the accusative, but звонить governs the dative, so the form must be кому-нибудь. Future plus condition is a reliable -нибудь cue."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Позови _____, мне нужна помощь. (Any person at all; call whoever you can find.)",
+      "contextEnglish": "Call someone, I need help (anyone at all will do).",
+      "options": [
+        "кого-то",
+        "кого-нибудь"
+      ],
+      "answer": "кого-нибудь",
+      "explanation": "This is a command where any helper will do and nobody is chosen yet, so the particle is -нибудь: кого-нибудь. Кого-то would mean 'call that specific person,' which contradicts 'anyone at all.' A command with an open referent is the -нибудь home; the verb позвать governs the accusative, so the core declines to кого."
+    },
+    {
+      "context": "Ты _____ ел сегодня? (A question; have you eaten anything at all?)",
+      "contextEnglish": "Have you eaten anything today? (a question, open referent)",
+      "options": [
+        "что-нибудь",
+        "что-то"
+      ],
+      "answer": "что-нибудь",
+      "explanation": "A yes/no question with an open referent (any food at all) takes -нибудь: что-нибудь. Что-то in a question would presuppose a particular thing was eaten, which the asker does not assume. Questions are one of the four homes of -нибудь."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "частица -нибудь",
+      "definition": "attaches to a question word to mark an open, not-yet-fixed referent: any one at all, it doesn't matter which. Lives in questions, requests, the future, and hypotheticals.",
+      "example": "Дай мне что-нибудь почитать — подойдёт любая книга."
+    },
+    {
+      "term": "кто-нибудь / что-нибудь",
+      "definition": "anyone / anything: any candidate will do; no particular person or thing is meant.",
+      "example": "Ты кого-нибудь там знаешь?"
+    },
+    {
+      "term": "когда-нибудь",
+      "definition": "ever / someday: an unfixed time, typical of questions ('ever?') and future plans ('someday').",
+      "example": "Я когда-нибудь напишу книгу."
+    }
+  ]
+}

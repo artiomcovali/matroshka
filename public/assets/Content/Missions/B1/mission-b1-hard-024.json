@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-024",
+  "title": "Wrongful Termination",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "You were fired unfairly - negotiate fair resolution",
+  "imageName": "person.badge.minus",
+  "initialPrompt": "Вы уволены по сокращению. Получите двухнедельную зарплату и всё.",
+  "systemPrompt": "You are HR manager firing employee. Offer minimal severance. Increase offer only if employee mentions labor law, union, or lawyer. Maximum 3 months salary. Keep replies short.",
+  "completionCriteria": "User negotiated fair severance or formal dispute.",
+  "responseLimit": 15,
+  "hints": [
+    "По закону мне положено... (By law I'm entitled to...)",
+    "Я обращусь в трудовую инспекцию (I'll contact labor inspection)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "увольнение",
+      "definition": "termination"
+    },
+    {
+      "word": "выходное пособие",
+      "definition": "severance"
+    },
+    {
+      "word": "трудовой кодекс",
+      "definition": "labor code"
+    },
+    {
+      "word": "инспекция",
+      "definition": "inspection"
+    },
+    {
+      "word": "права",
+      "definition": "rights"
+    },
+    {
+      "word": "компенсация",
+      "definition": "compensation"
+    }
+  ],
+  "objectives": [
+    "Question the termination",
+    "Cite labor rights",
+    "Negotiate better severance",
+    "Threaten formal complaint",
+    "Get fair resolution"
+  ]
+}

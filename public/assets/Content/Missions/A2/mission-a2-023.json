@@ -1,0 +1,51 @@
+{
+  "id": "mission-a2-023",
+  "title": "Movie Tickets",
+  "level": "A2",
+  "difficulty": "easy",
+  "description": "Buy movie tickets and choose your seats",
+  "imageName": "film.fill",
+  "initialPrompt": "Добро пожаловать в кинотеатр! На какой фильм хотите билеты?",
+  "systemPrompt": "You sell movie tickets. Movies: комедия 16:00 and 19:00, боевик 18:00 and 21:00. Tickets 400₽. Ask how many tickets, which session, show seat map (front, middle, back available). Keep replies short.",
+  "completionCriteria": "User bought tickets with movie, time, and seats chosen.",
+  "responseLimit": 15,
+  "hints": [
+    "Два билета, пожалуйста (Two tickets, please)",
+    "На семь часов (For 7 o'clock)",
+    "Какие места свободны? (Which seats are available?)",
+    "В середине, пожалуйста (In the middle, please)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "кинотеатр",
+      "definition": "cinema"
+    },
+    {
+      "word": "фильм",
+      "definition": "movie"
+    },
+    {
+      "word": "сеанс",
+      "definition": "showing/session"
+    },
+    {
+      "word": "место",
+      "definition": "seat"
+    },
+    {
+      "word": "ряд",
+      "definition": "row"
+    },
+    {
+      "word": "свободный",
+      "definition": "free/available"
+    }
+  ],
+  "objectives": [
+    "Choose a movie",
+    "Say how many tickets you need",
+    "Choose a showtime",
+    "Pick your seats",
+    "Complete purchase"
+  ]
+}

@@ -1,0 +1,811 @@
+{
+  "lessonId": "a2-018b-time-telling-part2",
+  "sets": [
+    {
+      "id": "round-1-precise-minutes-past",
+      "title": "Precise Minutes Past",
+      "titleRussian": "Точные минуты после часа",
+      "description": "Drill exact minute counts with the next-hour rule",
+      "descriptionRussian": "Точные минуты с правилом следующего часа",
+      "icon": "clock",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Сейчас пять минут _____. (It's 6:05.)",
+              "promptEnglish": "It's 6:05.",
+              "options": [
+                "шестого",
+                "седьмого",
+                "шесть",
+                "семь"
+              ],
+              "answer": "седьмого",
+              "hint": "Minutes of NEXT hour: 6:05 = 5 min of the 7th.",
+              "explanation": "6:05 = пять минут седьмого."
+            },
+            {
+              "prompt": "Двадцать пять минут _____. (It's 10:25.)",
+              "promptEnglish": "It's 10:25.",
+              "options": [
+                "десятого",
+                "одиннадцатого",
+                "десять",
+                "одиннадцать"
+              ],
+              "answer": "одиннадцатого",
+              "hint": "NEXT hour: 10:25 = 25 min of the 11th.",
+              "explanation": "10:25 = двадцать пять минут одиннадцатого."
+            },
+            {
+              "prompt": "Одна _____ третьего. (It's 2:01.)",
+              "promptEnglish": "It's 2:01.",
+              "options": [
+                "минута",
+                "минуты",
+                "минут",
+                "минутой"
+              ],
+              "answer": "минута",
+              "hint": "Одна requires nominative singular.",
+              "explanation": "Одна минута третьего (2:01). 1 = минута."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Три _____ пятого. (It's 4:03.)",
+              "promptEnglish": "It's 4:03.",
+              "options": [
+                "минута",
+                "минуты",
+                "минут",
+                "минутой"
+              ],
+              "answer": "минуты",
+              "hint": "2-4 requires genitive singular: минуты.",
+              "explanation": "Три минуты пятого (4:03). 2-4 = минуты."
+            },
+            {
+              "prompt": "Пятнадцать _____ второго. (It's 1:15.)",
+              "promptEnglish": "It's 1:15.",
+              "options": [
+                "минута",
+                "минуты",
+                "минут",
+                "минутой"
+              ],
+              "answer": "минут",
+              "hint": "5-20 requires genitive plural: минут.",
+              "explanation": "Пятнадцать минут второго (1:15). 5-20 = минут."
+            },
+            {
+              "prompt": "Двадцать одна _____ шестого. (It's 5:21.)",
+              "promptEnglish": "It's 5:21.",
+              "options": [
+                "минута",
+                "минуты",
+                "минут",
+                "минутой"
+              ],
+              "answer": "минута",
+              "hint": "21 ends in один: nominative singular.",
+              "explanation": "Двадцать одна минута (5:21). Numbers ending in 1 = минута."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Сейчас десять _____ четвёртого. (It's 3:10.)",
+          "Сейчас двадцать две _____ девятого. (It's 8:22.)",
+          "Сейчас семь _____ первого. (It's 12:07.)"
+        ],
+        "choices": [
+          "минут",
+          "минуты",
+          "минуте",
+          "минута",
+          "минутой"
+        ],
+        "answers": [
+          "минут",
+          "минуты",
+          "минут"
+        ],
+        "grammarFocus": "Minute word agreement: 1 минута, 2-4 минуты, 5-20 минут",
+        "hints": [
+          "10 = genitive plural.",
+          "22 ends in два = genitive singular.",
+          "7 = genitive plural."
+        ],
+        "explanations": [
+          "Десять минут: 5-20 = минут.",
+          "Двадцать две минуты: ends in 2 = минуты.",
+          "Семь минут: 5-20 = минут."
+        ],
+        "options": [
+          [
+            "минут",
+            "минутам",
+            "минутами",
+            "минутах"
+          ],
+          [
+            "минута",
+            "минуте",
+            "минуты",
+            "минуту"
+          ],
+          [
+            "минутами",
+            "минутам",
+            "минутах",
+            "минут"
+          ]
+        ]
+      },
+      "patternRecognition": [
+        {
+          "sentence": "одна минута, двадцать одна минута, тридцать одна минута",
+          "question": "What determines the form минута here?",
+          "options": [
+            "The number ends in 1 (except 11)",
+            "The number is odd",
+            "The number is small"
+          ],
+          "answer": "The number ends in 1 (except 11)",
+          "explanation": "Numbers ending in 1 (except 11) take минута: одна, двадцать одна, тридцать одна."
+        },
+        {
+          "sentence": "две минуты, три минуты, четыре минуты, двадцать две минуты",
+          "question": "What determines the form минуты here?",
+          "options": [
+            "The number ends in 2, 3, or 4 (except 12-14)",
+            "All even numbers",
+            "Numbers under 30"
+          ],
+          "answer": "The number ends in 2, 3, or 4 (except 12-14)",
+          "explanation": "Numbers ending in 2/3/4 (except teens) take минуты."
+        }
+      ]
+    },
+    {
+      "id": "round-2-bez-genitive",
+      "title": "Без + Genitive",
+      "titleRussian": "Без + родительный падеж",
+      "description": "Practice genitive forms after без for minutes to the hour",
+      "descriptionRussian": "Родительный падеж чисел после без",
+      "icon": "minus.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Без _____ четыре. (It's 3:55.)",
+              "promptEnglish": "It's 3:55.",
+              "options": [
+                "пяти",
+                "пять",
+                "пятого",
+                "пятый"
+              ],
+              "answer": "пяти",
+              "hint": "Без + genitive: пять → пяти.",
+              "explanation": "Без пяти четыре (3:55). Genitive: пяти."
+            },
+            {
+              "prompt": "Без _____ семь. (It's 6:50.)",
+              "promptEnglish": "It's 6:50.",
+              "options": [
+                "десять",
+                "десяти",
+                "десятого",
+                "десятый"
+              ],
+              "answer": "десяти",
+              "hint": "Без + genitive: десять → десяти.",
+              "explanation": "Без десяти семь (6:50). Genitive: десяти."
+            },
+            {
+              "prompt": "Без двадцати _____ девять. (It's 8:35.)",
+              "promptEnglish": "It's 8:35.",
+              "options": [
+                "пять",
+                "пятого",
+                "пятый",
+                "пяти"
+              ],
+              "answer": "пяти",
+              "hint": "Без двадцати пяти: genitive of пять.",
+              "explanation": "Без двадцати пяти девять (8:35). 25 minutes to: genitive."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Без _____ два. (It's 1:45.)",
+              "promptEnglish": "It's 1:45.",
+              "options": [
+                "четверти",
+                "четверть",
+                "пятнадцать",
+                "пятнадцати"
+              ],
+              "answer": "четверти",
+              "hint": "Без + genitive: четверть → четверти.",
+              "explanation": "Без четверти два. Genitive of четверть: четверти."
+            },
+            {
+              "prompt": "Без _____ час. (It's 12:40.)",
+              "promptEnglish": "It's 12:40.",
+              "options": [
+                "двадцать",
+                "двадцати",
+                "двадцатого",
+                "двадцатый"
+              ],
+              "answer": "двадцати",
+              "hint": "Без + genitive: двадцать → двадцати.",
+              "explanation": "Без двадцати час (12:40). Genitive: двадцати."
+            },
+            {
+              "prompt": "Без _____ одиннадцать. (It's 10:50.)",
+              "promptEnglish": "It's 10:50.",
+              "options": [
+                "десять",
+                "десятого",
+                "десятый",
+                "десяти"
+              ],
+              "answer": "десяти",
+              "hint": "Без + genitive.",
+              "explanation": "Без десяти одиннадцать (10:50). Genitive: десяти."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Без пять три. (for 2:55)",
+          "error": "пять",
+          "correction": "пяти",
+          "explanation": "Без requires genitive: пять → пяти.",
+          "options": [
+            "пяти",
+            "пятью",
+            "пятого"
+          ]
+        },
+        {
+          "sentence": "Без двадцать шесть. (for 5:40)",
+          "error": "двадцать",
+          "correction": "двадцати",
+          "explanation": "Без requires genitive: двадцать → двадцати.",
+          "options": [
+            "двадцати",
+            "двадцатью",
+            "двадцатого"
+          ]
+        },
+        {
+          "sentence": "Без четверть семь. (for 6:45)",
+          "error": "четверть",
+          "correction": "четверти",
+          "explanation": "Без requires genitive: четверть → четверти.",
+          "options": [
+            "четверти",
+            "четвертью",
+            "четвертей"
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Без _____ восемь. (It's 7:55.)",
+          "contextEnglish": "It's 7:55 - 5 minutes to.",
+          "options": [
+            "пяти",
+            "пять"
+          ],
+          "answer": "пяти",
+          "explanation": "Без takes genitive: пять → пяти."
+        },
+        {
+          "context": "Пять минут _____. (It's 7:05.)",
+          "contextEnglish": "It's 7:05 - 5 minutes past.",
+          "options": [
+            "восьмого",
+            "восемь"
+          ],
+          "answer": "восьмого",
+          "explanation": "Minutes past: genitive ordinal of next hour. Восьмого."
+        }
+      ]
+    },
+    {
+      "id": "round-3-24h-format",
+      "title": "24-Hour Formal Clock",
+      "titleRussian": "24-часовой формат",
+      "description": "Practice formal time for schedules and announcements",
+      "descriptionRussian": "Формальное время для расписаний и объявлений",
+      "icon": "tram",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Поезд в пятнадцать _____ пять. (Train at 15:05.)",
+              "promptEnglish": "Train at 15:05.",
+              "options": [
+                "и",
+                "ноль",
+                "часов",
+                "минут"
+              ],
+              "answer": "ноль",
+              "hint": "Single-digit minutes in 24h use ноль.",
+              "explanation": "15:05 = пятнадцать ноль пять. Ноль for single digits."
+            },
+            {
+              "prompt": "Самолёт в _____ сорок. (Plane at 22:40.)",
+              "promptEnglish": "Plane at 22:40.",
+              "options": [
+                "двадцать два",
+                "двадцать второго",
+                "десять",
+                "двадцати двух"
+              ],
+              "answer": "двадцать два",
+              "hint": "24-hour: just cardinal numbers.",
+              "explanation": "22:40 = двадцать два сорок."
+            },
+            {
+              "prompt": "Магазин закрывается в _____ ноль-ноль. (Store closes at 21:00.)",
+              "promptEnglish": "Store closes at 21:00.",
+              "options": [
+                "двадцать один",
+                "двадцать первого",
+                "девять",
+                "двадцати одного"
+              ],
+              "answer": "двадцать один",
+              "hint": "24-hour: cardinal numbers.",
+              "explanation": "21:00 = двадцать один ноль-ноль."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Экскурсия в _____ тридцать. (Tour at 14:30.)",
+              "promptEnglish": "Tour at 14:30.",
+              "options": [
+                "четырнадцать",
+                "два",
+                "четырнадцатого",
+                "второго"
+              ],
+              "answer": "четырнадцать",
+              "hint": "2pm = 14 in 24-hour.",
+              "explanation": "14:30 = четырнадцать тридцать."
+            },
+            {
+              "prompt": "Лекция начинается в десять _____. (Lecture starts at 10:15.)",
+              "promptEnglish": "Lecture starts at 10:15.",
+              "options": [
+                "пятнадцать",
+                "четверть",
+                "пятнадцати",
+                "четверти"
+              ],
+              "answer": "пятнадцать",
+              "hint": "24-hour: plain cardinal numbers, no четверть.",
+              "explanation": "10:15 = десять пятнадцать."
+            },
+            {
+              "prompt": "Автобус в шестнадцать _____ три. (Bus at 16:03.)",
+              "promptEnglish": "Bus at 16:03.",
+              "options": [
+                "и",
+                "ноль",
+                "часа",
+                "минуты"
+              ],
+              "answer": "ноль",
+              "hint": "Single-digit minutes: use ноль.",
+              "explanation": "16:03 = шестнадцать ноль три."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Поезд отправляется в восемнадцать _____ семь. (Train departs at 18:07.)",
+          "Рейс в двадцать три _____. (Flight at 23:30.)",
+          "Магазин открывается в _____ ноль-ноль. (Store opens at 8:00.)"
+        ],
+        "choices": [
+          "ноль",
+          "тридцать",
+          "восемь",
+          "нуля",
+          "тридцати"
+        ],
+        "answers": [
+          "ноль",
+          "тридцать",
+          "восемь"
+        ],
+        "grammarFocus": "24-hour format: cardinal numbers, ноль for single-digit minutes",
+        "hints": [
+          "18:07 - single digit minute: insert ноль.",
+          "23:30 - just the cardinal number for 30.",
+          "8:00 - cardinal number for 8."
+        ],
+        "explanations": [
+          "18:07 = восемнадцать ноль семь.",
+          "23:30 = двадцать три тридцать.",
+          "8:00 = восемь ноль-ноль."
+        ],
+        "options": [
+          [
+            "ноля",
+            "нолю",
+            "ноль",
+            "нолём"
+          ],
+          [
+            "тридцати",
+            "тридцатью",
+            "тридцать"
+          ],
+          [
+            "восемь",
+            "восемью",
+            "восьми"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-colloquial-vs-formal",
+      "title": "Colloquial vs Formal",
+      "titleRussian": "Разговорное и формальное время",
+      "description": "Match between everyday and 24-hour time expressions",
+      "descriptionRussian": "Соответствие между разговорным и 24-часовым форматом",
+      "icon": "arrow.2.squarepath",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Двадцать минут третьего = ? в 24-часовом формате. (2:20 formally?)",
+              "promptEnglish": "2:20 in 24-hour format?",
+              "options": [
+                "два двадцать",
+                "четырнадцать двадцать",
+                "два часа двадцать минут",
+                "третий двадцать"
+              ],
+              "answer": "четырнадцать двадцать",
+              "hint": "2pm = 14 in 24-hour format.",
+              "explanation": "2:20pm = четырнадцать двадцать."
+            },
+            {
+              "prompt": "Без четверти девять (утра) = ? formally.",
+              "promptEnglish": "8:45am in 24-hour format?",
+              "options": [
+                "двадцать сорок пять",
+                "девять без четверти",
+                "восемь сорок пять",
+                "девять сорок пять"
+              ],
+              "answer": "восемь сорок пять",
+              "hint": "8:45am stays 8:45 in 24h. Just say the numbers.",
+              "explanation": "8:45am = восемь сорок пять."
+            },
+            {
+              "prompt": "Пятнадцать ноль пять = ? colloquially.",
+              "promptEnglish": "15:05 in everyday speech?",
+              "options": [
+                "пять минут четвёртого",
+                "пять минут третьего",
+                "без пяти четыре",
+                "три часа пять минут"
+              ],
+              "answer": "пять минут четвёртого",
+              "hint": "15:05 = 3:05pm. Minutes of NEXT hour: 5 min of the 4th.",
+              "explanation": "15:05 = 3:05 = пять минут четвёртого."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Семнадцать пятьдесят = ? colloquially.",
+              "promptEnglish": "17:50 in everyday speech?",
+              "options": [
+                "без десяти шесть",
+                "без десяти пять",
+                "десять минут шестого",
+                "пятьдесят минут шестого"
+              ],
+              "answer": "без десяти шесть",
+              "hint": "17:50 = 5:50pm = 10 min to 6.",
+              "explanation": "17:50 = 5:50 = без десяти шесть."
+            },
+            {
+              "prompt": "Половина седьмого = ? in 24h (evening).",
+              "promptEnglish": "Half past six (evening) in 24-hour?",
+              "options": [
+                "шесть тридцать",
+                "восемнадцать тридцать",
+                "семь тридцать",
+                "девятнадцать тридцать"
+              ],
+              "answer": "восемнадцать тридцать",
+              "hint": "6:30pm = 18:30.",
+              "explanation": "6:30pm = восемнадцать тридцать."
+            },
+            {
+              "prompt": "Двадцать один ноль пять = ? colloquially.",
+              "promptEnglish": "21:05 in everyday speech?",
+              "options": [
+                "пять минут двадцать второго",
+                "без пяти десять",
+                "пять минут десятого",
+                "двадцать одна минута"
+              ],
+              "answer": "пять минут десятого",
+              "hint": "21:05 = 9:05pm. Minutes of NEXT hour: 5 min of the 10th.",
+              "explanation": "21:05 = 9:05 = пять минут десятого."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort: colloquial (everyday) or formal (24-hour)?",
+        "categories": [
+          "Colloquial",
+          "Formal (24h)"
+        ],
+        "items": [
+          {
+            "word": "десять минут третьего",
+            "category": "Colloquial"
+          },
+          {
+            "word": "четырнадцать десять",
+            "category": "Formal (24h)"
+          },
+          {
+            "word": "без двадцати семь",
+            "category": "Colloquial"
+          },
+          {
+            "word": "восемнадцать сорок",
+            "category": "Formal (24h)"
+          },
+          {
+            "word": "половина пятого",
+            "category": "Colloquial"
+          },
+          {
+            "word": "шестнадцать тридцать",
+            "category": "Formal (24h)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "sourceText": "The train is at 3:15pm.",
+          "targetText": "Поезд в пятнадцать пятнадцать.",
+          "hint": "3:15pm = 15:15. Formal: just numbers.",
+          "explanation": "Formal: пятнадцать пятнадцать.",
+          "keyWord": "пятнадцать",
+          "options": [
+            "пятнадцать",
+            "пятнадцати",
+            "пятнадцатого",
+            "пятнадцатью"
+          ]
+        },
+        {
+          "sourceText": "It's twenty past four (4:20).",
+          "targetText": "Двадцать минут пятого.",
+          "hint": "Minutes of NEXT hour: 4:20 = 20 min of the 5th.",
+          "explanation": "Colloquial: двадцать минут пятого.",
+          "keyWord": "пятого",
+          "options": [
+            "пятого",
+            "четвёртого",
+            "пятый",
+            "пятому"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All time skills: precise minutes, без + genitive, 24h, colloquial vs formal",
+      "descriptionRussian": "Все навыки: точные минуты, без + род. падеж, 24ч, разговорное и формальное",
+      "icon": "bolt.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Двадцать две _____ шестого. (It's 5:22.)",
+              "promptEnglish": "It's 5:22.",
+              "options": [
+                "минуты",
+                "минута",
+                "минут",
+                "минутой"
+              ],
+              "answer": "минуты",
+              "hint": "22 ends in 2: genitive singular.",
+              "explanation": "Двадцать две минуты. Ends in 2 = минуты."
+            },
+            {
+              "prompt": "Без _____ десять. (It's 9:40.)",
+              "promptEnglish": "It's 9:40.",
+              "options": [
+                "двадцать",
+                "двадцати",
+                "двадцатого",
+                "двадцатый"
+              ],
+              "answer": "двадцати",
+              "hint": "Без + genitive: двадцать → двадцати.",
+              "explanation": "Без двадцати десять (9:40). Genitive: двадцати."
+            },
+            {
+              "prompt": "Рейс в двадцать _____ ноль восемь. (Flight at 20:08.)",
+              "promptEnglish": "Flight at 20:08.",
+              "options": [
+                "часов",
+                "минут",
+                "и",
+                "ноль"
+              ],
+              "answer": "ноль",
+              "hint": "Single-digit minutes in 24h use ноль.",
+              "explanation": "20:08 = двадцать ноль восемь."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Пятнадцать минут _____. (It's 11:15.)",
+              "promptEnglish": "It's 11:15.",
+              "options": [
+                "одиннадцатого",
+                "одиннадцать",
+                "двенадцать",
+                "двенадцатого"
+              ],
+              "answer": "двенадцатого",
+              "hint": "NEXT hour: 11:15 = 15 min of the 12th.",
+              "explanation": "11:15 = пятнадцать минут двенадцатого."
+            },
+            {
+              "prompt": "Без пятнадцати _____. (It's 3:45.)",
+              "promptEnglish": "It's 3:45.",
+              "options": [
+                "три",
+                "четыре",
+                "третьего",
+                "четвёртого"
+              ],
+              "answer": "четыре",
+              "hint": "Без + minutes + NEXT hour cardinal.",
+              "explanation": "3:45 = без пятнадцати четыре."
+            },
+            {
+              "prompt": "Автобус в семнадцать _____. (Bus at 17:25.)",
+              "promptEnglish": "Bus at 17:25.",
+              "options": [
+                "двадцать пять",
+                "двадцати пяти",
+                "двадцать пятого",
+                "двадцать пятом"
+              ],
+              "answer": "двадцать пять",
+              "hint": "24-hour: plain cardinal numbers.",
+              "explanation": "17:25 = семнадцать двадцать пять."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Сейчас десять минут пятого. (for 5:10)",
+          "error": "пятого",
+          "correction": "шестого",
+          "explanation": "NEXT hour rule: 5:10 = 10 min of the 6th, not 5th.",
+          "options": [
+            "шестого",
+            "седьмого",
+            "шесть"
+          ]
+        },
+        {
+          "sentence": "Без десять два. (for 1:50)",
+          "error": "десять",
+          "correction": "десяти",
+          "explanation": "Без requires genitive: десять → десяти.",
+          "options": [
+            "десяти",
+            "десятью",
+            "десятого"
+          ]
+        },
+        {
+          "sentence": "Пять минута третьего. (for 2:05)",
+          "error": "минута",
+          "correction": "минут",
+          "explanation": "Пять requires genitive plural: минут, not минута.",
+          "options": [
+            "минут",
+            "минуты",
+            "минуту"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "sourceText": "It's 4:25.",
+          "targetText": "Двадцать пять минут пятого.",
+          "hint": "25 minutes of NEXT hour. 4:25 = 25 min of the 5th.",
+          "explanation": "Двадцать пять минут пятого.",
+          "keyWord": "пятого",
+          "options": [
+            "пятого",
+            "четвёртого",
+            "пятый",
+            "пятому"
+          ]
+        },
+        {
+          "sourceText": "It's 10 to 8 (7:50).",
+          "targetText": "Без десяти восемь.",
+          "hint": "Without 10, eight. Без + genitive: десяти.",
+          "explanation": "Без десяти восемь (7:50).",
+          "keyWord": "десяти",
+          "options": [
+            "десяти",
+            "десять",
+            "десятью",
+            "десятого"
+          ]
+        },
+        {
+          "sourceText": "The plane is at 6:05am.",
+          "targetText": "Самолёт в шесть ноль пять.",
+          "hint": "6:05 formal: ноль for single digits.",
+          "explanation": "Шесть ноль пять.",
+          "keyWord": "ноль",
+          "options": [
+            "ноль",
+            "нуля",
+            "нулём",
+            "нолей"
+          ]
+        }
+      ]
+    }
+  ]
+}

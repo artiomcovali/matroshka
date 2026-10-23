@@ -1,0 +1,623 @@
+{
+  "lessonId": "a2-006-aspect-intro",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Choose the correct aspect for each situation",
+      "descriptionRussian": "Выберите правильный вид глагола",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я _____ книгу весь вечер. (I was reading a book all evening.) - ongoing process",
+              "promptEnglish": "I was reading a book all evening. (process)",
+              "options": [
+                "прочитал",
+                "прочитала",
+                "читал",
+                "читала"
+              ],
+              "answer": "читал",
+              "hint": "All evening = duration, ongoing process. Which aspect shows process?",
+              "explanation": "Весь вечер (all evening) shows duration. Imperfective читал shows the process."
+            },
+            {
+              "prompt": "Она наконец _____ письмо. (She finally finished the letter.) - completed result",
+              "promptEnglish": "She finally finished the letter.",
+              "options": [
+                "писала",
+                "написала",
+                "писал",
+                "написал"
+              ],
+              "answer": "написала",
+              "hint": "Наконец (finally) signals a completed result. Она = feminine.",
+              "explanation": "Наконец (finally) signals completion. Perfective написала shows the result."
+            },
+            {
+              "prompt": "Каждый день он _____ газету. (Every day he reads the newspaper.) - repetition",
+              "promptEnglish": "Every day he reads the newspaper.",
+              "options": [
+                "прочитает",
+                "прочитал",
+                "читал",
+                "читает"
+              ],
+              "answer": "читает",
+              "hint": "Каждый день = every day = repeated action.",
+              "explanation": "Каждый день (every day) = repetition. Imperfective читает for habitual actions."
+            },
+            {
+              "prompt": "Мы _____ все задачи. (We solved all the problems.) - completed set",
+              "promptEnglish": "We solved all the problems.",
+              "options": [
+                "решали",
+                "решили",
+                "решать",
+                "решить"
+              ],
+              "answer": "решили",
+              "hint": "Все (all) + completed = perfective.",
+              "explanation": "Solving ALL problems = completed result. Perfective решили."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он _____ книгу. (He read/was reading the book.) - he's telling you about the process",
+          "contextEnglish": "He was reading the book. (process, no mention of finishing)",
+          "options": [
+            "читал",
+            "прочитал"
+          ],
+          "answer": "читал",
+          "explanation": "No mention of finishing = focus on the process. Imperfective: читал."
+        },
+        {
+          "context": "Он _____ книгу. (He read/finished the book.) - he's telling you about the result",
+          "contextEnglish": "He read the book. (finished it, has the result)",
+          "options": [
+            "читал",
+            "прочитал"
+          ],
+          "answer": "прочитал",
+          "explanation": "Focus on result (he finished it). Perfective: прочитал."
+        },
+        {
+          "context": "Она долго _____ обед. (She cooked lunch for a long time.) - duration",
+          "contextEnglish": "She cooked lunch for a long time.",
+          "options": [
+            "готовила",
+            "приготовила"
+          ],
+          "answer": "готовила",
+          "explanation": "Долго (for a long time) emphasizes duration. Imperfective: готовила."
+        },
+        {
+          "context": "Она уже _____ обед. (She already cooked lunch.) - done",
+          "contextEnglish": "She already cooked lunch. (it's ready)",
+          "options": [
+            "готовила",
+            "приготовила"
+          ],
+          "answer": "приготовила",
+          "explanation": "Уже (already) signals the action is complete. Perfective: приготовила."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Вчера мы _____ фильм три часа. (Yesterday we watched a movie for three hours.)",
+          "Ты уже _____ домашнее задание? (Did you already finish your homework?)",
+          "Раньше я часто _____ письма. (I used to write letters often.)"
+        ],
+        "choices": [
+          "смотрели",
+          "сделал",
+          "писал"
+        ],
+        "answers": [
+          "смотрели",
+          "сделал",
+          "писал"
+        ],
+        "grammarFocus": "Choosing aspect based on context clues",
+        "hints": [
+          "Три часа = duration. Which aspect shows duration?",
+          "Уже (already) = completed. Which aspect shows completion?",
+          "Часто (often) = repetition. Which aspect shows repetition?"
+        ],
+        "explanations": [
+          "Три часа (three hours) = duration → imperfective: смотрели.",
+          "Уже (already) = completion → perfective: сделал.",
+          "Часто (often) = habitual/repeated → imperfective: писал."
+        ],
+        "options": [
+          [
+            "посмотрели",
+            "смотрит",
+            "посмотрит",
+            "смотрели"
+          ],
+          [
+            "делает",
+            "делал",
+            "сделал",
+            "сделает"
+          ],
+          [
+            "написал",
+            "напишет",
+            "пишет",
+            "писал"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-sort-recognize",
+      "title": "Sort and Recognize",
+      "titleRussian": "Сортировка и определение",
+      "description": "Sort verbs by aspect and identify aspect in context",
+      "descriptionRussian": "Рассортируйте глаголы по виду",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort these verbs: Imperfective (process) or Perfective (result)?",
+        "categories": [
+          "Imperfective (НСВ)",
+          "Perfective (СВ)"
+        ],
+        "items": [
+          {
+            "word": "читать (to read)",
+            "category": "Imperfective (НСВ)"
+          },
+          {
+            "word": "прочитать (to finish reading)",
+            "category": "Perfective (СВ)"
+          },
+          {
+            "word": "писать (to write)",
+            "category": "Imperfective (НСВ)"
+          },
+          {
+            "word": "написать (to write/finish)",
+            "category": "Perfective (СВ)"
+          },
+          {
+            "word": "делать (to do)",
+            "category": "Imperfective (НСВ)"
+          },
+          {
+            "word": "сделать (to do/complete)",
+            "category": "Perfective (СВ)"
+          },
+          {
+            "word": "готовить (to cook)",
+            "category": "Imperfective (НСВ)"
+          },
+          {
+            "word": "приготовить (to cook/finish)",
+            "category": "Perfective (СВ)"
+          }
+        ]
+      },
+      "patternRecognition": [
+        {
+          "sentence": "весь день, долго, часто, обычно, каждый раз",
+          "question": "These time words signal which aspect?",
+          "options": [
+            "Imperfective (process/duration/repetition)",
+            "Perfective (result/completion)"
+          ],
+          "answer": "Imperfective (process/duration/repetition)",
+          "explanation": "Words showing duration (долго, весь день) or repetition (часто, обычно, каждый раз) signal imperfective."
+        },
+        {
+          "sentence": "уже, наконец, вдруг, сразу",
+          "question": "These time words signal which aspect?",
+          "options": [
+            "Perfective (result/completion/single event)",
+            "Imperfective (process/duration)"
+          ],
+          "answer": "Perfective (result/completion/single event)",
+          "explanation": "Words showing completion (уже, наконец) or a sudden single event (вдруг, сразу) signal perfective."
+        },
+        {
+          "sentence": "прочитать, написать, сделать, приготовить",
+          "question": "How are these perfective verbs formed from their imperfective pairs?",
+          "options": [
+            "By adding a prefix",
+            "By changing the suffix",
+            "By using a different stem"
+          ],
+          "answer": "By adding a prefix",
+          "explanation": "про-читать, на-писать, с-делать, при-готовить: all add a prefix to the imperfective base."
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она вдруг _____ стихотворение. (She suddenly remembered a poem.)",
+              "promptEnglish": "She suddenly remembered a poem.",
+              "options": [
+                "вспоминала",
+                "вспомнила",
+                "вспоминать",
+                "вспомнить"
+              ],
+              "answer": "вспомнила",
+              "hint": "Вдруг (suddenly) = single completed event.",
+              "explanation": "Вдруг (suddenly) signals a single completed action. Perfective: вспомнила."
+            },
+            {
+              "prompt": "Я обычно _____ в парке. (I usually walk in the park.)",
+              "promptEnglish": "I usually walk in the park.",
+              "options": [
+                "погулял",
+                "гуляю",
+                "погуляю",
+                "гулял"
+              ],
+              "answer": "гуляю",
+              "hint": "Обычно (usually) = habitual action.",
+              "explanation": "Обычно (usually) = repeated/habitual action. Imperfective present: гуляю."
+            },
+            {
+              "prompt": "Мы долго _____ эту задачу. (We worked on this problem for a long time.)",
+              "promptEnglish": "We worked on this problem for a long time.",
+              "options": [
+                "решали",
+                "решили",
+                "решить",
+                "решать"
+              ],
+              "answer": "решали",
+              "hint": "Долго (a long time) = duration of process.",
+              "explanation": "Долго (for a long time) = duration. Imperfective: решали."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-pairs-build",
+      "title": "Pairs and Building",
+      "titleRussian": "Пары и предложения",
+      "description": "Match aspect pairs and build sentences with the right aspect",
+      "descriptionRussian": "Определите видовые пары и составьте предложения",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "I read the book. (finished it)",
+          "answer": "Я прочитал книгу.",
+          "acceptableVariants": [
+            "Я прочитала книгу."
+          ],
+          "hint": "finished = completed result = perfective прочитать",
+          "grammarFocus": "perfective for completed result",
+          "keyWord": "прочитал",
+          "options": [
+            "прочитал",
+            "читал",
+            "прочитает",
+            "прочитают"
+          ]
+        },
+        {
+          "english": "She was cooking dinner.",
+          "answer": "Она готовила ужин.",
+          "acceptableVariants": [],
+          "hint": "was cooking = process/ongoing = imperfective готовить",
+          "grammarFocus": "imperfective for process",
+          "keyWord": "готовила",
+          "options": [
+            "готовила",
+            "приготовила",
+            "готовил",
+            "готовит"
+          ]
+        },
+        {
+          "english": "We already did everything.",
+          "answer": "Мы уже всё сделали.",
+          "acceptableVariants": [],
+          "hint": "already did = completed = perfective сделать",
+          "grammarFocus": "perfective with уже",
+          "keyWord": "сделали",
+          "options": [
+            "сделали",
+            "делали",
+            "сделал",
+            "сделает"
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Студенты каждый день _____ новые слова. (Students learn new words every day.)",
+          "contextEnglish": "Students learn new words every day. (habitual)",
+          "options": [
+            "учат",
+            "выучат"
+          ],
+          "answer": "учат",
+          "explanation": "Каждый день (every day) = repetition. Imperfective: учат."
+        },
+        {
+          "context": "Студенты уже _____ все новые слова. (The students already learned all the new words.)",
+          "contextEnglish": "The students already learned all the new words. (completed)",
+          "options": [
+            "учили",
+            "выучили"
+          ],
+          "answer": "выучили",
+          "explanation": "Уже (already) + все (all) = completed result. Perfective: выучили."
+        }
+      ]
+    },
+    {
+      "id": "round-4-context-clues",
+      "title": "Context Clues",
+      "titleRussian": "Подсказки контекста",
+      "description": "Use time words and context to pick the right aspect",
+      "descriptionRussian": "Используйте слова-подсказки для выбора вида глагола",
+      "icon": "eye",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which time word signals IMPERFECTIVE?",
+              "promptEnglish": "Which word signals an ongoing/repeated action?",
+              "options": [
+                "вдруг (suddenly)",
+                "всегда (always)",
+                "наконец (finally)",
+                "уже (already)"
+              ],
+              "answer": "всегда (always)",
+              "hint": "Which word shows repetition or habit?",
+              "explanation": "Всегда (always) signals habitual/repeated action, which requires imperfective."
+            },
+            {
+              "prompt": "Which time word signals PERFECTIVE?",
+              "promptEnglish": "Which word signals a completed/single action?",
+              "options": [
+                "часто (often)",
+                "обычно (usually)",
+                "долго (for a long time)",
+                "наконец (finally)"
+              ],
+              "answer": "наконец (finally)",
+              "hint": "Which word implies the action reached its end?",
+              "explanation": "Наконец (finally) implies the action is complete, requiring perfective."
+            },
+            {
+              "prompt": "Мама _____ пирог каждое воскресенье. (Mom bakes a pie every Sunday.)",
+              "promptEnglish": "Mom bakes a pie every Sunday.",
+              "options": [
+                "испечёт",
+                "печёт",
+                "испекла",
+                "пекла"
+              ],
+              "answer": "печёт",
+              "hint": "Каждое воскресенье = every Sunday = repetition.",
+              "explanation": "Каждое воскресенье (every Sunday) = habitual. Imperfective present: печёт."
+            },
+            {
+              "prompt": "Он сразу _____ ответ. (He immediately found the answer.)",
+              "promptEnglish": "He immediately found the answer.",
+              "options": [
+                "находил",
+                "нашёл",
+                "находить",
+                "найти"
+              ],
+              "answer": "нашёл",
+              "hint": "Сразу (immediately) = single instant event.",
+              "explanation": "Сразу (immediately) + a single event = perfective: нашёл."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Дети целый час _____ уроки. (The children did homework for a whole hour.)",
+          "Я уже _____ билеты. (I already bought the tickets.)",
+          "Раньше он каждый вечер _____ в парке. (He used to jog in the park every evening.)",
+          "Она наконец _____ работу. (She finally finished the work.)"
+        ],
+        "choices": [
+          "делали",
+          "купил",
+          "бегал",
+          "закончила"
+        ],
+        "answers": [
+          "делали",
+          "купил",
+          "бегал",
+          "закончила"
+        ],
+        "grammarFocus": "Context clues determine aspect choice",
+        "hints": [
+          "Целый час (a whole hour) = duration = imperfective.",
+          "Уже (already) = completed = perfective.",
+          "Каждый вечер (every evening) = repetition = imperfective.",
+          "Наконец (finally) = completed = perfective."
+        ],
+        "explanations": [
+          "Целый час = duration. Imperfective: делали.",
+          "Уже = completed result. Perfective: купил.",
+          "Каждый вечер = habitual repetition. Imperfective: бегал.",
+          "Наконец = completion. Perfective: закончила."
+        ],
+        "options": [
+          [
+            "сделали",
+            "делает",
+            "делали",
+            "сделает"
+          ],
+          [
+            "покупал",
+            "купит",
+            "покупает",
+            "купил"
+          ],
+          [
+            "побежал",
+            "бегает",
+            "побежит",
+            "бегал"
+          ],
+          [
+            "закончит",
+            "заканчивает",
+            "заканчивала",
+            "закончила"
+          ]
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Я уже прочитал эту книгу каждый день.",
+          "error": "прочитал",
+          "correction": "читал",
+          "hint": "Каждый день (every day) requires imperfective, not perfective.",
+          "explanation": "Каждый день = repetition, which requires imperfective: читал, not прочитал.",
+          "options": [
+            "читал",
+            "читала",
+            "читают"
+          ]
+        },
+        {
+          "sentence": "Она долго приготовила ужин.",
+          "error": "приготовила",
+          "correction": "готовила",
+          "hint": "Долго (for a long time) shows duration, not result.",
+          "explanation": "Долго = duration of process = imperfective: готовила, not приготовила.",
+          "options": [
+            "готовила",
+            "готовил",
+            "готовит"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "A final round testing all aspect concepts together",
+      "descriptionRussian": "Финальный раунд: все аспекты вида глагола",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What does imperfective aspect express?",
+              "promptEnglish": "What does imperfective aspect express?",
+              "options": [
+                "Process, duration, and repetition",
+                "Completion and result",
+                "Future actions only",
+                "Past actions only"
+              ],
+              "answer": "Process, duration, and repetition",
+              "hint": "Think of the ongoing nature of imperfective verbs.",
+              "explanation": "Imperfective (НСВ) expresses process, duration, and repetition: things happening, not finished."
+            },
+            {
+              "prompt": "Вчера я _____ три статьи. (Yesterday I wrote three articles.) - all three completed",
+              "promptEnglish": "Yesterday I wrote three articles. (all completed)",
+              "options": [
+                "писал",
+                "написал",
+                "писала",
+                "написала"
+              ],
+              "answer": "написал",
+              "hint": "Three completed articles = result. Male speaker.",
+              "explanation": "Three completed articles = quantified result. Perfective: написал."
+            },
+            {
+              "prompt": "Когда я _____, зазвонил телефон. (While I was reading, the phone rang.)",
+              "promptEnglish": "While I was reading, the phone rang.",
+              "options": [
+                "прочитал",
+                "читал",
+                "прочитала",
+                "читала"
+              ],
+              "answer": "читал",
+              "hint": "Background action interrupted by another event = imperfective.",
+              "explanation": "Background ongoing action = imperfective: читал. The phone ringing was the perfective event."
+            },
+            {
+              "prompt": "Она _____ торт и позвала гостей. (She baked a cake and called the guests.)",
+              "promptEnglish": "She baked a cake and then called the guests. (sequential completed events)",
+              "options": [
+                "пекла",
+                "испекла",
+                "печёт",
+                "испечёт"
+              ],
+              "answer": "испекла",
+              "hint": "Two sequential completed events (baked, then called).",
+              "explanation": "Sequential completed actions in a chain = perfective: испекла, then позвала."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Каждый день она написала письмо маме.",
+          "error": "написала",
+          "correction": "писала",
+          "hint": "Каждый день = every day = habitual repetition.",
+          "explanation": "Каждый день (every day) = habitual repetition = imperfective: писала.",
+          "options": [
+            "писала",
+            "писал",
+            "пишет"
+          ]
+        },
+        {
+          "sentence": "Он наконец решал эту задачу.",
+          "error": "решал",
+          "correction": "решил",
+          "hint": "Наконец (finally) signals the action was completed.",
+          "explanation": "Наконец (finally) = completion = perfective: решил, not решал.",
+          "options": [
+            "решил",
+            "решила",
+            "решит"
+          ]
+        },
+        {
+          "sentence": "Вчера весь день я сделал домашнее задание.",
+          "error": "сделал",
+          "correction": "делал",
+          "hint": "Весь день (all day) = duration, not a single completed moment.",
+          "explanation": "Весь день = duration = imperfective: делал. Perfective сделал would mean a single moment of completing.",
+          "options": [
+            "делал",
+            "делала",
+            "делает"
+          ]
+        }
+      ]
+    }
+  ]
+}

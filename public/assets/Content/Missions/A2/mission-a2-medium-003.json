@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-medium-003",
+  "title": "Missed Train",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "You missed your train - rebook for the next one",
+  "imageName": "tram.fill",
+  "initialPrompt": "Здравствуйте! Чем могу помочь?",
+  "systemPrompt": "You work at train station. User missed 14:00 train to Москва. Next one at 16:30, costs extra 200₽ to change. Keep replies short.",
+  "completionCriteria": "User explained they missed the train and successfully rebooked.",
+  "responseLimit": 15,
+  "hints": [
+    "Я опоздал на поезд (I missed the train)",
+    "Когда следующий? (When is the next one?)",
+    "Можно поменять билет? (Can I change the ticket?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "опоздать",
+      "definition": "to miss/be late"
+    },
+    {
+      "word": "поезд",
+      "definition": "train"
+    },
+    {
+      "word": "следующий",
+      "definition": "next"
+    },
+    {
+      "word": "поменять",
+      "definition": "to change"
+    },
+    {
+      "word": "доплата",
+      "definition": "extra payment"
+    },
+    {
+      "word": "расписание",
+      "definition": "schedule"
+    }
+  ],
+  "objectives": [
+    "Explain you missed the train (опоздал)",
+    "Ask about next train (следующий)",
+    "Rebook your ticket"
+  ]
+}

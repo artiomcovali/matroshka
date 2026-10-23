@@ -1,0 +1,175 @@
+{
+  "id": "a1-031",
+  "level": "A1",
+  "narrator": "Маша",
+  "title": "В библиотеке",
+  "titleEnglish": "At the Library",
+  "description": "Маша берёт книгу в библиотеке.",
+  "imageName": "books.vertical.fill",
+  "fullText": "Сегодня я иду в библиотеку. Там так много книг! Я очень люблю читать и ищу книгу на русском языке. Я спрашиваю библиотекаря, может ли он помочь мне найти что-нибудь интересное. Он даёт мне хорошую книгу, и я беру её. Библиотекарь говорит, что я могу читать её две недели. Я благодарю его и иду домой!",
+  "reviewVocab": [
+    {
+      "word": "библиотека",
+      "definition": "library",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "библиотека",
+        "библиотеки",
+        "в библиотеке"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "искать",
+      "definition": "to search, to look for",
+      "partOfSpeech": "verb (impf)",
+      "forms": [
+        "ищу",
+        "ищешь",
+        "ищет"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "помочь",
+      "definition": "to help",
+      "partOfSpeech": "verb (pf)",
+      "forms": [
+        "помогу",
+        "поможешь",
+        "поможет"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "язык",
+      "definition": "language",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "язык",
+        "языка",
+        "на языке"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Куда идёт Маша?",
+      "options": [
+        "В магазин",
+        "В библиотеку",
+        "На почту"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша идёт в библиотеку."
+    },
+    {
+      "prompt": "Что любит делать Маша?",
+      "options": [
+        "Читать",
+        "Рисовать",
+        "Писать"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша любит читать."
+    },
+    {
+      "prompt": "На каком языке книга?",
+      "options": [
+        "На английском",
+        "На французском",
+        "На русском"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша ищет книгу на русском языке."
+    },
+    {
+      "prompt": "Кто помогает Маше?",
+      "options": [
+        "Анна",
+        "Библиотекарь",
+        "Продавец"
+      ],
+      "correctIndex": 1,
+      "explanation": "Библиотекарь помогает Маше."
+    },
+    {
+      "prompt": "Сколько времени Маша может читать книгу?",
+      "options": [
+        "Одну неделю",
+        "Две недели",
+        "Один месяц"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша может читать книгу две недели."
+    },
+    {
+      "prompt": "Много книг в библиотеке?",
+      "options": [
+        "Нет",
+        "Да",
+        "Не знаем"
+      ],
+      "correctIndex": 1,
+      "explanation": "В библиотеке много книг."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Я иду в _____.",
+      "Там много _____!",
+      "Я _____ книгу на русском языке.",
+      "Библиотекарь даёт мне хорошую _____.",
+      "Я могу читать её две _____."
+    ],
+    "choices": [
+      "библиотеку",
+      "книг",
+      "ищу",
+      "книгу",
+      "недели",
+      "читать",
+      "дней"
+    ],
+    "answers": [
+      "библиотеку",
+      "книг",
+      "ищу",
+      "книгу",
+      "недели"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "What is the prepositional of 'библиотека'?",
+      "options": [
+        "библиотеку",
+        "библиотеке",
+        "библиотеки"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "cases",
+      "sentenceRef": "В библиотеке много книг.",
+      "explanation": "'В библиотеке' uses prepositional case to show location. Feminine nouns ending in -а change to -е: библиотека → в библиотеке, школа → в школе, аптека → в аптеке. This answers 'where?' (где?).",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "What does 'на русском языке' mean?",
+      "options": [
+        "In Russian",
+        "About Russian",
+        "Russian language"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "prepositions",
+      "sentenceRef": "Она ищет книгу на русском языке.",
+      "explanation": "'На' + prepositional case is used for 'in a language': на русском языке (in Russian), на английском языке (in English). You can also say short forms: по-русски (in Russian), по-английски (in English).",
+      "focusArea": "prepositions"
+    }
+  ],
+  "audioFile": "a1-031.m4a",
+  "audioTimingFile": "a1-031-timing.json"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-medium-004",
+  "title": "Editorial Dispute",
+  "level": "C1",
+  "difficulty": "medium",
+  "description": "Defend controversial article",
+  "imageName": "newspaper.fill",
+  "initialPrompt": "Ваша статья вызвала скандал. Редактор под давлением хочет напечатать опровержение. Убедите его, что статья обоснована.",
+  "systemPrompt": "You are editor under pressure to retract. Need strong justification for keeping article. Challenge factual basis and consider legal risks.",
+  "completionCriteria": "User defended journalistic work with evidence.",
+  "responseLimit": 15,
+  "hints": [
+    "Все факты подтверждены источниками (All facts are confirmed by sources)",
+    "Общественный интерес оправдывает... (Public interest justifies...)",
+    "Юридически мы защищены... (Legally we are protected...)"
+  ],
+  "targetVocabulary": [
+    {"word": "редакция", "definition": "editorial office"},
+    {"word": "опровержение", "definition": "retraction"},
+    {"word": "источник", "definition": "source"},
+    {"word": "журналистика", "definition": "journalism"},
+    {"word": "достоверность", "definition": "credibility"},
+    {"word": "клевета", "definition": "libel"}
+  ],
+  "objectives": [
+    "Defend article's accuracy",
+    "Cite sources and evidence",
+    "Address legal concerns",
+    "Maintain editorial integrity"
+  ]
+}

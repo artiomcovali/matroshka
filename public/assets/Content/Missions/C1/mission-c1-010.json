@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-010",
+  "title": "Architectural Tour",
+  "level": "C1",
+  "difficulty": "easy",
+  "description": "Describe historical building significance",
+  "imageName": "building.columns.fill",
+  "initialPrompt": "Вы проводите экскурсию по историческому центру. Расскажите о архитектурном значении этих зданий и их месте в истории города.",
+  "systemPrompt": "You are tour group asking about architecture. Ask about styles, history, and cultural significance. Curious and engaged.",
+  "completionCriteria": "User described architectural features with historical context.",
+  "responseLimit": 15,
+  "hints": [
+    "Это здание построено в стиле... (This building was built in the style of...)",
+    "Архитектор стремился передать... (The architect aimed to convey...)",
+    "Историческое значение... (Historical significance...)",
+    "Обратите внимание на... (Note the...)"
+  ],
+  "targetVocabulary": [
+    {"word": "архитектура", "definition": "architecture"},
+    {"word": "стиль", "definition": "style"},
+    {"word": "фасад", "definition": "facade"},
+    {"word": "колонна", "definition": "column"},
+    {"word": "наследие", "definition": "heritage"},
+    {"word": "реставрация", "definition": "restoration"}
+  ],
+  "objectives": [
+    "Describe architectural features",
+    "Provide historical context",
+    "Engage audience effectively"
+  ]
+}

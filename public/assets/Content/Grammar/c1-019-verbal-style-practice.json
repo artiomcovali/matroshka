@@ -1,0 +1,163 @@
+{
+  "lessonId": "c1-019-verbal-style",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Identify verbal (clear) vs nominal (bureaucratic) style, then pick the better version in close pairs",
+      "descriptionRussian": "Определите глагольный или именной стиль и выберите лучший вариант",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which sentence uses verbal style (clearer, shows the agent)?",
+              "promptEnglish": "Verbal style uses verbs instead of abstract nouns.",
+              "options": [
+                "Было осуществлено рассмотрение заявки.",
+                "Мы рассмотрели заявку.",
+                "Рассмотрение заявки было произведено.",
+                "Имело место рассмотрение заявки."
+              ],
+              "answer": "Мы рассмотрели заявку.",
+              "hint": "Verbal style uses a concrete verb and shows who performed the action.",
+              "explanation": "Мы рассмотрели заявку - a clear verb (рассмотрели) and a visible agent (мы). The other options pile up abstract nouns (рассмотрение, осуществление)."
+            },
+            {
+              "prompt": "Which sentence uses nominal (bureaucratic) style?",
+              "promptEnglish": "Nominal style hides the agent behind abstract nouns.",
+              "options": [
+                "Директор подписал приказ.",
+                "Комиссия проверила документы.",
+                "Подписание приказа было осуществлено.",
+                "Врач осмотрел пациента."
+              ],
+              "answer": "Подписание приказа было осуществлено.",
+              "hint": "Look for abstract nouns (подписание, осуществление) instead of concrete verbs.",
+              "explanation": "Подписание приказа было осуществлено - the agent is hidden, the action is turned into a noun (подписание). This is classic nominal/bureaucratic style."
+            },
+            {
+              "prompt": "What is the main advantage of verbal style over nominal?",
+              "promptEnglish": "Think about clarity and readability.",
+              "options": [
+                "It uses longer sentences with more detail",
+                "It is required in all Russian writing",
+                "It sounds more official and authoritative",
+                "It shows who does the action and is easier to understand"
+              ],
+              "answer": "It shows who does the action and is easier to understand",
+              "hint": "Verbal style makes the agent visible and reduces abstraction.",
+              "explanation": "Глагольный стиль прямо называет исполнителя действия и заменяет цепочки отвлечённых существительных конкретными глаголами, делая текст яснее и живее."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Which version would be best for a newspaper article?",
+              "promptEnglish": "Journalism prefers verbal style for clarity and engagement.",
+              "options": [
+                "Произведение ремонта моста заняло три месяца.",
+                "Осуществление ремонтных работ на мосту заняло три месяца.",
+                "Ремонт моста был произведён в течение трёх месяцев.",
+                "Рабочие ремонтировали мост три месяца."
+              ],
+              "answer": "Рабочие ремонтировали мост три месяца.",
+              "hint": "Journalism uses verbal style: who did what, clearly.",
+              "explanation": "Рабочие ремонтировали мост три месяца - clear agent (рабочие) + concrete verb (ремонтировали). This is engaging and easy to read."
+            },
+            {
+              "prompt": "Which verbal noun signals nominal style?\nОсуществление финансирования проекта было одобрено.",
+              "promptEnglish": "Which word is a verb turned into a noun?",
+              "options": ["осуществление", "проекта", "одобрено", "финансирования"],
+              "answer": "осуществление",
+              "hint": "Look for a noun derived from a verb (осуществить -> осуществление).",
+              "explanation": "Осуществление (from осуществить) is a verbal noun that adds bureaucratic weight. The verbal rewrite: Руководство одобрило финансирование проекта."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Choose the clearer version for a news report:",
+          "contextEnglish": "The mayor signed the agreement.",
+          "options": ["Мэр подписал соглашение.", "Подписание соглашения было осуществлено мэром."],
+          "answer": "Мэр подписал соглашение.",
+          "explanation": "Мэр подписал соглашение - verbal style: clear agent (мэр) + concrete verb (подписал). The nominal version buries the agent and uses abstract nouns."
+        },
+        {
+          "context": "Choose the appropriate style for a scientific abstract:",
+          "contextEnglish": "An analysis of the data was conducted.",
+          "options": ["Мы проанализировали данные.", "Был проведён анализ данных."],
+          "answer": "Был проведён анализ данных.",
+          "explanation": "Scientific abstracts use nominal style to focus on the research process, not the researchers. Был проведён анализ данных is standard academic register."
+        },
+        {
+          "context": "Choose the more engaging version for a presentation:",
+          "contextEnglish": "Sales grew by 20% this quarter.",
+          "options": ["Продажи выросли на 20% в этом квартале.", "Рост продаж на 20% был зафиксирован в данном квартале."],
+          "answer": "Продажи выросли на 20% в этом квартале.",
+          "explanation": "Presentations should engage the audience. Verbal style (выросли) is dynamic and clear. The nominal alternative (рост... зафиксирован) sounds like a bureaucratic footnote."
+        }
+      ]
+    },
+    {
+      "id": "set-3-build-correct",
+      "title": "Build & Correct",
+      "titleRussian": "Построй и исправь",
+      "description": "Assemble verbal-style sentences from word blocks and fix overloaded nominal constructions",
+      "descriptionRussian": "Составьте глагольные предложения из слов и исправьте именные конструкции",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "The doctors examined the patient. (verbal style)",
+          "answer": "Врачи осмотрели пациента.",
+          "acceptableVariants": ["Врачи обследовали пациента."],
+          "hint": "Use a concrete verb and name the agent directly.",
+          "grammarFocus": "Verbal style with visible agent",
+          "keyWord": "осмотрели",
+          "options": ["осмотрели", "осмотр", "осмотрен", "осматривание"]
+        },
+        {
+          "english": "The teacher explained the rule clearly. (verbal style)",
+          "answer": "Учитель понятно объяснил правило.",
+          "acceptableVariants": ["Учитель ясно объяснил правило.", "Преподаватель понятно объяснил правило."],
+          "hint": "Agent + adverb + verb + object.",
+          "grammarFocus": "Verbal style with adverb",
+          "keyWord": "объяснил",
+          "options": ["объяснил", "объяснение", "объяснён", "объясняя"]
+        },
+        {
+          "english": "We completed the project ahead of schedule.",
+          "answer": "Мы завершили проект раньше срока.",
+          "acceptableVariants": ["Мы закончили проект раньше срока.", "Мы выполнили проект раньше срока."],
+          "hint": "Use мы as the agent and a concrete verb for 'completed'.",
+          "grammarFocus": "Verbal style replacing nominal 'completion of project'",
+          "keyWord": "завершили",
+          "options": ["завершили", "завершение", "завершён", "завершая"]
+        },
+        {
+          "english": "Engineers developed a new system in six months.",
+          "answer": "Инженеры разработали новую систему за шесть месяцев.",
+          "acceptableVariants": ["Инженеры создали новую систему за шесть месяцев."],
+          "hint": "Agent + verb + object + за + time period.",
+          "grammarFocus": "Verbal style vs nominal 'development was carried out'",
+          "keyWord": "разработали",
+          "options": ["разработали", "разработка", "разработан", "разрабатывая"]
+        },
+        {
+          "english": "The journalists described the event in detail. (verbal style)",
+          "answer": "Журналисты подробно описали событие.",
+          "acceptableVariants": ["Журналисты детально описали событие."],
+          "hint": "Use a concrete verb and name the agent directly: описали (not описание).",
+          "grammarFocus": "Verbal style with visible agent",
+          "keyWord": "описали",
+          "options": ["описали", "описание", "описан", "описывая"]
+        }
+      ]
+    }
+  ]
+}

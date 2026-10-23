@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-013",
+  "title": "Taxi Overcharge",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "The taxi driver wants more than the agreed price",
+  "imageName": "car.fill",
+  "initialPrompt": "Приехали! С вас тысяча рублей.",
+  "systemPrompt": "You are taxi driver. Trip should be 500₽ but you're asking 1000₽, claiming traffic, long route. Can be negotiated down if customer mentions agreed price, threatens to call dispatcher, or offers to pay what meter shows. Keep replies short.",
+  "completionCriteria": "User negotiated fair price or resolved the dispute.",
+  "responseLimit": 15,
+  "hints": [
+    "Мы договорились на пятьсот (We agreed on 500)",
+    "Это слишком дорого (That's too expensive)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "цена",
+      "definition": "price"
+    },
+    {
+      "word": "договориться",
+      "definition": "to agree"
+    },
+    {
+      "word": "счётчик",
+      "definition": "meter"
+    },
+    {
+      "word": "пробка",
+      "definition": "traffic jam"
+    },
+    {
+      "word": "диспетчер",
+      "definition": "dispatcher"
+    },
+    {
+      "word": "платить",
+      "definition": "to pay"
+    }
+  ],
+  "objectives": [
+    "Question the high price",
+    "Reference the agreed price",
+    "Handle driver's excuses",
+    "Negotiate or threaten to call dispatcher",
+    "Pay a fair amount"
+  ]
+}

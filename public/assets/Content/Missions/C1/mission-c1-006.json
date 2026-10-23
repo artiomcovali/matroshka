@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-006",
+  "title": "Scientific Presentation",
+  "level": "C1",
+  "difficulty": "easy",
+  "description": "Explain research findings to colleagues",
+  "imageName": "flask.fill",
+  "initialPrompt": "Расскажите нам о вашем исследовании. Какова основная гипотеза и какие методы вы использовали для её проверки?",
+  "systemPrompt": "You are conference moderator interested in research. Ask clarifying questions about methodology and findings. Supportive academic environment.",
+  "completionCriteria": "User explained research clearly with proper scientific terminology.",
+  "responseLimit": 15,
+  "hints": [
+    "Наша гипотеза заключается в... (Our hypothesis is that...)",
+    "Методология включала... (The methodology included...)",
+    "Результаты показали... (Results showed...)",
+    "Статистическая значимость... (Statistical significance...)"
+  ],
+  "targetVocabulary": [
+    {"word": "гипотеза", "definition": "hypothesis"},
+    {"word": "методология", "definition": "methodology"},
+    {"word": "исследование", "definition": "research"},
+    {"word": "данные", "definition": "data"},
+    {"word": "вывод", "definition": "conclusion"},
+    {"word": "эксперимент", "definition": "experiment"}
+  ],
+  "objectives": [
+    "Present research clearly",
+    "Explain methodology",
+    "Discuss findings professionally"
+  ]
+}

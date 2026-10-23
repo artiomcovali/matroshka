@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-015",
+  "title": "Damaged Furniture",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Movers broke furniture and deny it",
+  "imageName": "shippingbox.fill",
+  "initialPrompt": "Мебель была уже повреждена. Мы всё аккуратно несли. Подпишите акт приёмки.",
+  "systemPrompt": "You are a moving company worker. Broke furniture but deny it. Blame old furniture, packing. Admit only if customer refuses to sign and mentions photos/insurance. Keep replies short.",
+  "completionCriteria": "User documented damage and got compensation commitment.",
+  "responseLimit": 15,
+  "hints": [
+    "Я не подпишу пока не зафиксируем повреждения (I won't sign until we document damage)",
+    "У меня есть страховка (I have insurance)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "повреждение",
+      "definition": "damage"
+    },
+    {
+      "word": "акт",
+      "definition": "document/report"
+    },
+    {
+      "word": "страховка",
+      "definition": "insurance"
+    },
+    {
+      "word": "зафиксировать",
+      "definition": "to document"
+    },
+    {
+      "word": "претензия",
+      "definition": "claim"
+    },
+    {
+      "word": "компенсация",
+      "definition": "compensation"
+    }
+  ],
+  "objectives": [
+    "Refuse to sign as-is",
+    "Document the damage",
+    "Counter their denial",
+    "Cite insurance/contract",
+    "Get damage claim started"
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "id": "b2-track-indefinite-04-double-negation",
+  "level": "B2",
+  "focusArea": "sentenceStructure",
+  "title": "Indefinite 4: Negative ни- and Double Negation",
+  "titleRussian": "Неопределённые 4: отрицательное ни- и двойное отрицание",
+  "description": "Negative pronouns (никто, ничего, никогда, нигде, никакой) require a second negation on the verb: никто НЕ пришёл. The two negatives cooperate, not cancel. Stack as many as the sentence needs.",
+  "descriptionRussian": "Отрицательные местоимения (никто, ничего, никогда, нигде, никакой) требуют второго отрицания при глаголе: никто НЕ пришёл. Два отрицания не уничтожают друг друга, а работают вместе.",
+  "imageName": "nosign",
+  "trackId": "b2-indefinite-pronouns-mastery",
+  "trackTitle": "Indefinite Pronouns Mastery",
+  "trackTitleRussian": "Неопределённые местоимения",
+  "trackIndex": 4,
+  "trackTotal": 7,
+  "intro": "Negatives are built the same way, with a prefix on the front instead of a particle on the end, and they bring back the double negative from A1. What is new is stacking. You can pile up three or four of these in one sentence and they all share a single negation on the verb, which produces sentences that look impossible in English and are ordinary here.",
+  "rules": [
+    "Negative pronouns put ни- in FRONT of the question word: никто, ничто / ничего, никогда, нигде, никакой, никак.",
+    "A negative pronoun does NOT negate the verb by itself. The verb still needs its own не: Никто НЕ пришёл, Я ничего НЕ знаю. Dropping не is ungrammatical.",
+    "The two negatives COOPERATE, they do not cancel. Unlike English, where two negatives make a positive, Russian uses them together for one strong negation.",
+    "Stack as many ни- words as you need, and they ALL share one не: Никто никогда ничего не говорил (three ни- words, one не).",
+    "ничто is the bookish nominative; everyday speech prefers ничего (Я ничего не знаю). The declined forms (никого, никому) and the prepositional split (ни с кем) come in lesson 5."
+  ],
+  "examples": [
+    "Никто не пришёл на встречу. (Nobody came to the meeting.) ни- word + не on the verb.",
+    "Я ничего не понял. (I understood nothing.) ничего + не, the everyday form.",
+    "Она никогда не опаздывает. (She is never late.) никогда + не.",
+    "Его нигде не было. (He was nowhere to be found.) нигде + не (было).",
+    "Никто никогда ничего мне не говорил. (Nobody ever told me anything.) Three ни- words, one не.",
+    "Это никак не помогает. (This doesn't help at all.) никак + не."
+  ],
+  "tables": [
+    {
+      "title": "Negative pronouns and the obligatory не",
+      "headers": [
+        "Negative word",
+        "Full clause",
+        "Literal"
+      ],
+      "rows": [
+        {
+          "label": "никто",
+          "cells": [
+            "Никто не звонил.",
+            "nobody not called"
+          ]
+        },
+        {
+          "label": "ничего",
+          "cells": [
+            "Я ничего не вижу.",
+            "I nothing not see"
+          ]
+        },
+        {
+          "label": "никогда",
+          "cells": [
+            "Он никогда не врёт.",
+            "he never not lies"
+          ]
+        },
+        {
+          "label": "нигде",
+          "cells": [
+            "Их нигде не было.",
+            "them nowhere not was"
+          ]
+        },
+        {
+          "label": "никакой",
+          "cells": [
+            "Нет никаких проблем.",
+            "no any-kind problems"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Никто _____ знает ответа на этот вопрос.",
+          "promptEnglish": "Nobody knows the answer to this question.",
+          "options": [
+            "не",
+            "ни",
+            "нет",
+            "(пусто)"
+          ],
+          "answer": "не",
+          "hint": "A ни- word at the front still demands a second negation on the verb. Which one goes before the verb?",
+          "explanation": "Russian requires double negation: the negative pronoun никто must be paired with не on the verb. Никто не знает = 'nobody knows.' Leaving out не (Никто знает) is ungrammatical. Ни is the particle that builds the pronoun, not the verb negator; нет is 'there is no' and needs the genitive. The two negatives cooperate to build one negation."
+        },
+        {
+          "prompt": "Я _____ не сказал об этом.",
+          "promptEnglish": "I said nothing about it.",
+          "options": [
+            "что-то",
+            "ничего",
+            "что-нибудь",
+            "нечего"
+          ],
+          "answer": "ничего",
+          "hint": "The English is 'said nothing.' Which negative pronoun pairs with the не that's already there?",
+          "explanation": "'Said nothing' is ничего не сказал: the negative pronoun ничего plus the не on the verb, working together. Что-то / что-нибудь are non-negative and would clash with the не already present. Нечего ('nothing to') is a different construction (lesson 6). Ничего is the everyday genitive form (ничто is the bookish nominative)."
+        },
+        {
+          "prompt": "Она _____ не жалуется, даже когда ей трудно.",
+          "promptEnglish": "She never complains, even when things are hard for her.",
+          "options": [
+            "когда-то",
+            "никогда",
+            "когда-нибудь",
+            "некогда"
+          ],
+          "answer": "никогда",
+          "hint": "The не is already on the verb. Which negative time word pairs with it to mean 'never'?",
+          "explanation": "'Never' is никогда, and it must co-occur with не on the verb: никогда не жалуется. The pair is obligatory. Когда-то (once) and когда-нибудь (ever / someday) are non-negative and cannot carry the negation. Некогда in the construction sense means 'no time to' (lesson 6)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Мы искали повсюду, но его _____ не нашли.",
+          "promptEnglish": "We looked everywhere, but found him nowhere.",
+          "options": [
+            "где-то",
+            "где-нибудь",
+            "негде",
+            "нигде"
+          ],
+          "answer": "нигде",
+          "hint": "The не is already there. Which negative place word means 'nowhere' and pairs with it?",
+          "explanation": "'Nowhere' is нигде, and it teams up with the не on the verb: нигде не нашли. The two negatives reinforce each other. Где-то / где-нибудь are non-negative. Негде means 'there is nowhere to' (a different construction, lesson 6)."
+        },
+        {
+          "prompt": "Какой выбор правильный для 'Nobody ever helps here'?",
+          "promptEnglish": "Pick the correct Russian for 'Nobody ever helps here.'",
+          "options": [
+            "Никто никогда здесь не помогает.",
+            "Никто когда-то здесь помогает.",
+            "Кто-то никогда здесь помогает.",
+            "Никто никогда здесь помогает."
+          ],
+          "answer": "Никто никогда здесь не помогает.",
+          "hint": "Make every indefinite word negative, then anchor them all to a single не on the verb.",
+          "explanation": "Russian makes both slots negative (никто, никогда) and ties them to ONE не on the verb: Никто никогда здесь не помогает. The last option drops the obligatory не, so it is ungrammatical; the others mix in non-negative forms (когда-то, кто-то), which English's 'nobody ever' can mislead you into."
+        },
+        {
+          "prompt": "У нас нет _____ проблем.",
+          "promptEnglish": "We have no problems of any kind.",
+          "options": [
+            "какие-то",
+            "какие-нибудь",
+            "никаких",
+            "некоторые"
+          ],
+          "answer": "никаких",
+          "hint": "'No problems of any kind' uses the negative 'no kind of,' in the genitive after нет.",
+          "explanation": "никакой ('no kind of') is the negative adjective-pronoun; here it agrees with проблем in the genitive plural (нет governs genitive): нет никаких проблем. The нет itself supplies the negation that никакой leans on. Какие-то / какие-нибудь are non-negative and would contradict нет; некоторые ('some') is positive too."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "_____ не позвонил утром.",
+          "promptEnglish": "Nobody called in the morning.",
+          "options": [
+            "Никто",
+            "Кто-то",
+            "Некто",
+            "Никого"
+          ],
+          "answer": "Никто",
+          "hint": "The negative subject word, with не kept on the verb.",
+          "explanation": "The negated subject is никто, and the verb keeps its не: Никто не позвонил. Кто-то would assert someone DID call; некто is a literary 'a certain person'; никого is the genitive/accusative form."
+        },
+        {
+          "prompt": "Он _____, даже в плохую погоду.",
+          "promptEnglish": "He is never late, even in bad weather.",
+          "options": [
+            "никогда не опаздывает",
+            "некогда не опаздывает",
+            "никогда опаздывает",
+            "не никогда опаздывает"
+          ],
+          "answer": "никогда не опаздывает",
+          "hint": "'Never' + the obligatory second не.",
+          "explanation": "Никогда pairs with не on the verb: никогда не опаздывает. Некогда (stressed не-) means 'there is no time to'; dropping the не or putting it before никогда breaks the double-negation frame."
+        },
+        {
+          "prompt": "Я _____ из этой лекции.",
+          "promptEnglish": "I understood nothing from that lecture.",
+          "options": [
+            "ничего не понял",
+            "ничего понял",
+            "нечего не понял",
+            "что-то не понял"
+          ],
+          "answer": "ничего не понял",
+          "hint": "'Nothing' as the object, plus не.",
+          "explanation": "The negative object is ничего with не kept on the verb: ничего не понял. Dropping не is ungrammatical; нечего belongs to the 'nothing to do' construction; что-то не понял would mean one specific thing eluded me."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Его _____, мы уже всё обыскали.",
+          "promptEnglish": "He is nowhere to be seen - we've already searched everywhere.",
+          "options": [
+            "нигде не видно",
+            "негде не видно",
+            "нигде видно",
+            "никуда не видно"
+          ],
+          "answer": "нигде не видно",
+          "hint": "'Nowhere' + не with a perception word.",
+          "explanation": "The negative place adverb is нигде plus не: нигде не видно. Негде (stressed не-) means 'there is nowhere to'; dropping не breaks the frame; никуда is direction, not location."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Никто ничего _____ заметил. (Nobody noticed anything.)"
+    ],
+    "choices": [
+      "не",
+      "ни",
+      "нет",
+      "никак"
+    ],
+    "answers": [
+      "не"
+    ],
+    "grammarFocus": "Two ни- words (никто, ничего) stack on a single не on the verb: никто ничего не заметил. Every ни- word demands the second negation, and they all share the same не. Omitting не would be ungrammatical."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Никто знает ответ на этот трудный вопрос.",
+      "translationEnglish": "Nobody knows the answer to this difficult question.",
+      "error": "знает",
+      "correction": "не знает",
+      "options": [
+        "не знает",
+        "не знают",
+        "знают"
+      ],
+      "explanation": "Russian requires DOUBLE negation: a ни-word demands не on the verb as well. Никто alone is ungrammatical; the sentence must be Никто не знает. Знает (without не) is the most common learner error, carried over from English 'nobody knows', which negates only once. Никто is grammatically singular and takes a singular verb, so знают and не знают (both plural) are wrong. The fix adds the obligatory не: не знает."
+    },
+    {
+      "sentence": "Она ничего рассказала о поездке.",
+      "translationEnglish": "She told nothing about the trip.",
+      "error": "рассказала",
+      "correction": "не рассказала",
+      "options": [
+        "не рассказала",
+        "не рассказал",
+        "рассказывала"
+      ],
+      "explanation": "The negative pronoun ничего needs the second negation не on the verb: ничего не рассказала. Without не the clause is ungrammatical, an English-style single negation. Не рассказал is masculine and clashes with the feminine она; рассказывала changes the aspect but still leaves out the required не. The fix is не рассказала."
+    },
+    {
+      "sentence": "Зимой мы некуда не ездим.",
+      "translationEnglish": "In winter we don't go anywhere.",
+      "error": "некуда",
+      "correction": "никуда",
+      "options": [
+        "никуда",
+        "куда-то",
+        "никак"
+      ],
+      "explanation": "'Nowhere / not anywhere' with a negated verb is никуда, the ни- adverb that pairs with не: никуда не ездим. Некуда with the stressed не- means 'there is nowhere to go' (a different, infinitive construction from lesson 6), not plain negation."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Никто _____ согласился с этим планом. (Make a correct, fully negative clause.)",
+      "contextEnglish": "Nobody agreed with this plan.",
+      "options": [
+        "не",
+        "ни"
+      ],
+      "answer": "не",
+      "explanation": "After the negative pronoun никто the verb MUST take не: Никто не согласился. The double negation is obligatory in Russian; the ни- word alone cannot negate the verb. Ни is only the particle that builds the pronoun (никто), not the verb negator, so it cannot fill this slot."
+    },
+    {
+      "context": "Он _____ не звонит по вечерам. (He never calls in the evenings.)",
+      "contextEnglish": "He never calls in the evenings.",
+      "options": [
+        "никогда",
+        "когда-то"
+      ],
+      "answer": "никогда",
+      "explanation": "'Never' is никогда, the negative adverb that pairs with the не already on the verb: никогда не звонит. Когда-то means 'once / at some point' and is non-negative, so it would contradict the не. Only the ни- form anchors to the second negation."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "двойное отрицание (double negation)",
+      "definition": "a ни- word and the не on the verb are both required and cooperate to form one negation: Никто не пришёл. Omitting не is ungrammatical.",
+      "example": "Я ничего не знаю — два отрицания вместе, не друг против друга."
+    },
+    {
+      "term": "стопка отрицаний (stacked negatives)",
+      "definition": "any number of ни- words share a single не on the verb. They do not multiply the negation.",
+      "example": "Никто никогда ничего не говорил."
+    },
+    {
+      "term": "ничто vs ничего",
+      "definition": "ничто is the bookish nominative; ничего (genitive) is the everyday workhorse used as both subject and object in negative clauses.",
+      "example": "Меня ничто не пугает (formal) / Я ничего не боюсь (everyday)."
+    }
+  ]
+}

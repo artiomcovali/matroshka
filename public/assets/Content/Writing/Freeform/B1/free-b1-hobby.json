@@ -1,0 +1,65 @@
+{
+  "id": "free-b1-hobby",
+  "level": "B1",
+  "type": "freeform",
+  "title": "My Hobby",
+  "titleRussian": "Моё хобби",
+  "theme": "my-hobby",
+  "prompts": [
+    {
+      "id": "b1-hob-001",
+      "prompt": "Describe your favorite hobby. When did you start and why do you enjoy it?",
+      "promptRussian": "Опишите своё любимое хобби. Когда вы начали и почему вам это нравится?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Моё любимое хобби — это...", "Я начал/начала заниматься этим...", "Мне нравится, потому что..."],
+      "targetGrammar": ["начать construction", "заниматься + instrumental", "нравиться construction"],
+      "gradingCriteria": ["hobby named", "when started mentioned", "reasons for enjoyment given"],
+      "sampleResponse": "Моё любимое хобби — это фотография. Я начал заниматься этим пять лет назад, когда получил первую камеру. Мне нравится, потому что это творческий процесс и возможность сохранить красивые моменты."
+    },
+    {
+      "id": "b1-hob-002",
+      "prompt": "How does your hobby affect your life? Has it helped you in any way?",
+      "promptRussian": "Как ваше хобби влияет на вашу жизнь? Помогло ли оно вам каким-либо образом?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Благодаря моему хобби я...", "Это помогло мне...", "Я научился/научилась..."],
+      "targetGrammar": ["благодаря + dative", "помочь + dative", "научиться construction"],
+      "gradingCriteria": ["impact on life described", "specific benefits mentioned", "personal growth shown"],
+      "sampleResponse": "Благодаря моему хобби я познакомился с интересными людьми. Это помогло мне стать более терпеливым и внимательным к деталям. Я также научился лучше замечать красоту в обычных вещах."
+    },
+    {
+      "id": "b1-hob-003",
+      "prompt": "Would you recommend your hobby to others? Why or why not?",
+      "promptRussian": "Рекомендовали бы вы своё хобби другим? Почему?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Я бы рекомендовал/рекомендовала...", "Это хобби подойдёт тем, кто...", "Единственный минус в том, что..."],
+      "targetGrammar": ["conditional recommendation", "подходить + dative", "тот/те кто constructions"],
+      "gradingCriteria": ["recommendation given", "target audience described", "pros/cons balanced"],
+      "sampleResponse": "Я бы рекомендовала фотографию всем, кто любит творчество. Это хобби подойдёт тем, кто хочет научиться видеть мир по-новому. Единственный минус в том, что хорошее оборудование стоит дорого."
+    },
+    {
+      "id": "b1-hob-004",
+      "prompt": "Is there a hobby you tried but didn't enjoy? What happened?",
+      "promptRussian": "Есть ли хобби, которое вы попробовали, но оно вам не понравилось? Что случилось?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Однажды я попробовал/попробовала...", "Мне не понравилось, потому что...", "Я понял/поняла, что это не для меня..."],
+      "targetGrammar": ["past tense", "не понравиться construction", "понять что clause"],
+      "gradingCriteria": ["hobby mentioned", "reason for not enjoying explained", "reflection on experience"],
+      "sampleResponse": "Однажды я попробовала заниматься бегом. Мне не понравилось, потому что это было скучно бегать одной. Я поняла, что мне больше подходят командные виды спорта, где можно общаться."
+    },
+    {
+      "id": "b1-hob-005",
+      "prompt": "If you had more free time, what new hobby would you like to try?",
+      "promptRussian": "Если бы у вас было больше свободного времени, какое новое хобби вы хотели бы попробовать?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Если бы у меня было больше времени...", "Я бы хотел/хотела научиться...", "Меня давно интересует..."],
+      "targetGrammar": ["conditional если бы", "хотеть + infinitive", "интересовать construction"],
+      "gradingCriteria": ["hypothetical hobby named", "reasons for interest", "conditional used correctly"],
+      "sampleResponse": "Если бы у меня было больше времени, я бы хотел научиться играть на гитаре. Меня давно интересует музыка, но всегда не хватает времени на занятия. Это было бы отличным способом расслабиться."
+    }
+  ]
+}

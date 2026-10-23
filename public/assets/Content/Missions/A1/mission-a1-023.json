@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-023",
+  "title": "The Birthday Card",
+  "level": "A1",
+  "description": "Buy a birthday card for a friend",
+  "imageName": "envelope.fill",
+  "initialPrompt": "Здравствуйте! Вам нужна открытка? У нас много разных.",
+  "systemPrompt": "You sell cards. Types: день рождения, новый год, спасибо. Price: 80-150₽. Keep replies short.",
+  "completionCriteria": "User bought a birthday card.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужна открытка (I need a card)",
+    "На день рождения (For a birthday)",
+    "Для друга (For a friend)",
+    "Эта красивая (This one is beautiful)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "открытка",
+      "definition": "card"
+    },
+    {
+      "word": "день рождения",
+      "definition": "birthday"
+    },
+    {
+      "word": "друг",
+      "definition": "friend (m)"
+    },
+    {
+      "word": "подруга",
+      "definition": "friend (f)"
+    },
+    {
+      "word": "нужна",
+      "definition": "need"
+    }
+  ],
+  "objectives": [
+    "Say you need a card (открытка)",
+    "Specify birthday (день рождения)",
+    "Buy the card"
+  ]
+}

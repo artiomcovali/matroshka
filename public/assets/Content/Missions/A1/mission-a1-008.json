@@ -1,0 +1,51 @@
+{
+  "id": "mission-a1-008",
+  "title": "The Fortune Teller",
+  "level": "A1",
+  "difficulty": "easy",
+  "description": "Visit a fortune teller who asks about your life and makes predictions",
+  "imageName": "sparkles",
+  "initialPrompt": "Добро пожаловать, дорогой гость! Садитесь. Я вижу много интересного в вашем будущем. Но сначала — расскажите о себе. Как вас зовут?",
+  "systemPrompt": "You are a friendly fortune teller. Ask: name, age, favorite color, lucky number. Make positive predictions based on answers. Be theatrical and mystical but keep responses simple. Keep replies short but fun.",
+  "completionCriteria": "User answered all questions and received their fortune.",
+  "responseLimit": 15,
+  "hints": [
+    "Меня зовут... (My name is...)",
+    "Мне ... лет (I am ... years old)",
+    "Мой любимый цвет... (My favorite color is...)",
+    "Моё счастливое число... (My lucky number is...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "будущее",
+      "definition": "future"
+    },
+    {
+      "word": "счастье",
+      "definition": "happiness"
+    },
+    {
+      "word": "любимый",
+      "definition": "favorite"
+    },
+    {
+      "word": "число",
+      "definition": "number"
+    },
+    {
+      "word": "цвет",
+      "definition": "color"
+    },
+    {
+      "word": "удача",
+      "definition": "luck"
+    }
+  ],
+  "objectives": [
+    "Tell the fortune teller your name",
+    "Share your age (Мне ... лет)",
+    "Tell your favorite color (любимый цвет)",
+    "Share your lucky number",
+    "Receive your fortune"
+  ]
+}

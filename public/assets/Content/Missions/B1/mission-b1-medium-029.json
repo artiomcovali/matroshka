@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-029",
+  "title": "Schedule Conflict",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "Your preferred piano lesson time slot is not available",
+  "imageName": "pianokeys",
+  "initialPrompt": "Среда в 18:00? К сожалению, это время занято. Могу предложить пятницу в 20:00.",
+  "systemPrompt": "You are piano teacher. Wednesday 6pm taken. Offer Friday 8pm or Saturday morning. Can also do shorter 30-min lessons twice a week if client insists on flexibility. Keep replies short.",
+  "completionCriteria": "User arranged suitable lesson schedule.",
+  "responseLimit": 15,
+  "hints": [
+    "Пятница поздно для меня (Friday is too late for me)",
+    "Суббота утром подходит (Saturday morning works)",
+    "Можно два раза в неделю? (Can we do twice a week?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "расписание",
+      "definition": "schedule"
+    },
+    {
+      "word": "занят",
+      "definition": "occupied/busy"
+    },
+    {
+      "word": "удобный",
+      "definition": "convenient"
+    },
+    {
+      "word": "гибкий",
+      "definition": "flexible"
+    },
+    {
+      "word": "компромисс",
+      "definition": "compromise"
+    },
+    {
+      "word": "предложить",
+      "definition": "to offer"
+    }
+  ],
+  "objectives": [
+    "Explain time preferences",
+    "Consider alternatives",
+    "Negotiate suitable time",
+    "Confirm schedule"
+  ]
+}

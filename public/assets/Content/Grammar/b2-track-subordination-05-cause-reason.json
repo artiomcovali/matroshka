@@ -1,0 +1,351 @@
+{
+  "id": "b2-track-subordination-05-cause-reason",
+  "level": "B2",
+  "focusArea": "sentenceStructure",
+  "title": "Subordination 6: Cause and Reason",
+  "titleRussian": "Подчинение 6: причина",
+  "description": "Connect a result to its cause: потому что (because, answers why), так как / поскольку (since, fronted reason), поэтому (therefore, introduces the result), из-за того что (because of, negative cause), благодаря тому что (thanks to, positive cause).",
+  "descriptionRussian": "Связывают следствие с причиной: потому что (отвечает на «почему»), так как / поскольку (вводят причину в начале), поэтому (вводит следствие), из-за того что (по причине, чаще негативной), благодаря тому что (благодаря, позитивная причина).",
+  "imageName": "arrow.right.circle",
+  "trackId": "b2-subordination-mastery",
+  "trackTitle": "Subordination Mastery",
+  "trackTitleRussian": "Сложноподчинённые предложения",
+  "trackIndex": 6,
+  "trackTotal": 8,
+  "intro": "Several connectors, and the thing to get right is which direction each one points. Some introduce the cause and some introduce the result, so putting the wrong one in produces a sentence that is grammatical and backwards. Two of them also carry a judgment: one is for causes you resent and one for causes you are grateful for. Matching that to the situation is part of sounding fluent.",
+  "rules": [
+    "потому что (because) introduces the CAUSE, follows the result, and answers 'why?': Он остался дома, потому что шёл дождь. It cannot open the sentence it explains, the way так как can. It can, however, stand alone as a reply: Почему ты не пришёл? — Потому что был занят.",
+    "так как and поскольку (since / as) also introduce the cause but are flexible and can come FIRST: Так как шёл дождь, он остался дома.",
+    "поэтому (therefore) introduces the RESULT, not the cause: the cause comes first, then поэтому gives the consequence. Шёл дождь, поэтому он остался дома. It is the mirror image of потому что.",
+    "из-за того что (because of) introduces a usually NEGATIVE cause (a problem, an obstacle): Мы опоздали, из-за того что сломался лифт.",
+    "благодаря тому что (thanks to) introduces a POSITIVE, helpful cause: Мы успели, благодаря тому что нам помогли. Match the tone of the connector to the outcome."
+  ],
+  "examples": [
+    "Он остался дома, потому что шёл дождь. (He stayed home because it was raining.) - result, then cause.",
+    "Так как шёл дождь, он остался дома. (Since it was raining, he stayed home.) - cause first.",
+    "Шёл дождь, поэтому он остался дома. (It was raining, therefore he stayed home.) - cause first, поэтому introduces the result.",
+    "Мы опоздали, из-за того что сломался лифт. (We were late because the lift broke down.) - negative cause.",
+    "Мы успели, благодаря тому что нам помогли. (We made it, thanks to the fact that they helped us.) - positive cause.",
+    "Поскольку все устали, мы решили отдохнуть. (Since everyone was tired, we decided to rest.) - fronted reason."
+  ],
+  "tables": [
+    {
+      "title": "Cause connectors: which side do they introduce?",
+      "headers": [
+        "Connector",
+        "Introduces",
+        "Tone / note"
+      ],
+      "rows": [
+        {
+          "label": "потому что",
+          "cells": [
+            "the cause (follows result)",
+            "neutral, standard; cannot start the sentence"
+          ]
+        },
+        {
+          "label": "так как / поскольку",
+          "cells": [
+            "the cause (can come first)",
+            "explanatory, a bit more formal"
+          ]
+        },
+        {
+          "label": "поэтому",
+          "cells": [
+            "the result",
+            "mirror of потому что; cause comes before it"
+          ]
+        },
+        {
+          "label": "из-за того что",
+          "cells": [
+            "the cause",
+            "usually negative (a problem)"
+          ]
+        },
+        {
+          "label": "благодаря тому что",
+          "cells": [
+            "the cause",
+            "positive, helpful"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я не пошёл на работу, _____ заболел.",
+          "promptEnglish": "I didn't go to work because I got sick.",
+          "options": [
+            "потому что",
+            "поэтому",
+            "чтобы",
+            "хотя"
+          ],
+          "answer": "потому что",
+          "hint": "The result comes first (I didn't go); the second clause gives the reason. Which connector introduces a cause?",
+          "explanation": "The first clause is the result and the second gives the cause (why I didn't go), so потому что.Поэтому would point the wrong way (it introduces a result, not a cause). 'Because I got sick' is the reason, which is exactly потому что's job."
+        },
+        {
+          "prompt": "Я заболел, _____ не пошёл на работу.",
+          "promptEnglish": "I got sick, therefore I didn't go to work.",
+          "options": [
+            "потому что",
+            "поэтому",
+            "так как",
+            "из-за того что"
+          ],
+          "answer": "поэтому",
+          "hint": "Now the cause comes first. Which connector introduces the RESULT that follows?",
+          "explanation": "Here the cause (I got sick) comes first, and the second clause is the consequence (so I didn't go).Поэтому introduces the result. Using потому что here would wrongly say 'I got sick because I didn't go to work,' flipping the logic."
+        },
+        {
+          "prompt": "Поезд задержали, _____ на путях были работы.",
+          "promptEnglish": "The train was delayed because there was work on the tracks.",
+          "options": [
+            "благодаря тому что",
+            "поэтому",
+            "из-за того что",
+            "чтобы"
+          ],
+          "answer": "из-за того что",
+          "hint": "The cause is a problem (work on the tracks delayed the train). Which 'because of' fits a negative cause?",
+          "explanation": "The cause is an unwelcome obstacle (track work delaying the train), so из-за того что, the negative-tone 'because of.' благодаря тому что (thanks to) would clash with the bad outcome; поэтому introduces a result, not a cause."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Мы выиграли матч, _____ команда хорошо подготовилась.",
+          "promptEnglish": "We won the match thanks to the fact that the team prepared well.",
+          "options": [
+            "из-за того что",
+            "благодаря тому что",
+            "поэтому",
+            "хотя"
+          ],
+          "answer": "благодаря тому что",
+          "hint": "The cause is helpful and the outcome is good. Which 'because of' carries a positive tone?",
+          "explanation": "The cause (good preparation) made a positive outcome (the win) possible, so благодаря тому что, the positive-tone connector.Из-за того что would sound odd with a welcome result, since it normally marks a problem."
+        },
+        {
+          "prompt": "_____ магазин был закрыт, мы пошли в другой.",
+          "promptEnglish": "Since the shop was closed, we went to another one.",
+          "options": [
+            "Поэтому",
+            "Потому что",
+            "Так как",
+            "Чтобы"
+          ],
+          "answer": "Так как",
+          "hint": "The cause comes FIRST, at the start of the sentence. Which connector can begin a sentence with the reason?",
+          "explanation": "The reason (the shop was closed) is fronted, at the start of the sentence.Так как can introduce the cause first, which потому что cannot do (потому что always follows the result).Поэтому introduces a result, not a cause."
+        },
+        {
+          "prompt": "Дороги были скользкие, _____ мы ехали медленно.",
+          "promptEnglish": "The roads were slippery, so we drove slowly.",
+          "options": [
+            "потому что",
+            "поэтому",
+            "так как",
+            "благодаря тому что"
+          ],
+          "answer": "поэтому",
+          "hint": "The cause (slippery roads) comes first; the slow driving is the consequence. Which connector introduces a result?",
+          "explanation": "The cause is stated first and the second clause is the consequence (so we drove slowly), so поэтому.Потому что and так как both introduce a cause, but here the second clause is the result, not the reason."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Он остался дома, _____.",
+          "promptEnglish": "He stayed home because it was raining.",
+          "options": [
+            "потому что шёл дождь",
+            "поэтому шёл дождь",
+            "благодаря тому что шёл дождь",
+            "что шёл дождь"
+          ],
+          "answer": "потому что шёл дождь",
+          "hint": "Result first, reason after: which connector?",
+          "explanation": "The reason follows the result with потому что: остался дома, потому что шёл дождь. Поэтому would make the rain the RESULT of staying home; благодаря is for positive causes; что merely reports."
+        },
+        {
+          "prompt": "Шёл дождь, _____.",
+          "promptEnglish": "It was raining, so he stayed home.",
+          "options": [
+            "поэтому он остался дома",
+            "потому что он остался дома",
+            "из-за того что он остался дома",
+            "благодаря тому что он остался дома"
+          ],
+          "answer": "поэтому он остался дома",
+          "hint": "Cause first, result after.",
+          "explanation": "When the cause leads, the result takes поэтому: шёл дождь, поэтому он остался дома. Потому что would flip the logic into 'it rained because he stayed home'."
+        },
+        {
+          "prompt": "Мы опоздали, _____.",
+          "promptEnglish": "We were late because the lift broke down.",
+          "options": [
+            "из-за того что сломался лифт",
+            "благодаря тому что сломался лифт",
+            "поэтому сломался лифт",
+            "так что сломался лифт"
+          ],
+          "answer": "из-за того что сломался лифт",
+          "hint": "A negative outcome picks which 'because of'?",
+          "explanation": "A bad outcome takes the negative-tone из-за того что: опоздали, из-за того что сломался лифт. Благодаря literally contains 'thanks' and fits only helpful causes; поэтому reverses the direction."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Мы успели на поезд, _____.",
+          "promptEnglish": "We made the train thanks to the fact that they helped us.",
+          "options": [
+            "благодаря тому что нам помогли",
+            "из-за того что нам помогли",
+            "поэтому нам помогли",
+            "хотя нам помогли"
+          ],
+          "answer": "благодаря тому что нам помогли",
+          "hint": "A helpful cause with a good outcome.",
+          "explanation": "A positive cause takes благодаря тому что: успели, благодаря тому что нам помогли. Из-за того что carries a negative tone; поэтому reverses cause and result; хотя is concession."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Концерт отменили, _____ артист заболел. (The concert was cancelled because the artist fell ill.)"
+    ],
+    "choices": [
+      "из-за того что",
+      "благодаря тому что",
+      "поэтому",
+      "хотя"
+    ],
+    "answers": [
+      "из-за того что"
+    ],
+    "grammarFocus": "The result (the concert was cancelled) comes first, and the cause is a problem (the artist's illness), so из-за того что, the negative-tone 'because of.' благодаря тому что would clash with the unwelcome outcome, and поэтому introduces a result, not a cause."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Он устал, поэтому что много работал.",
+      "translationEnglish": "He is tired because he worked a lot.",
+      "error": "поэтому что",
+      "correction": "потому что",
+      "options": [
+        "потому что",
+        "поэтому",
+        "так как"
+      ],
+      "explanation": "The second clause gives the CAUSE (working a lot is why he is tired), so the connector is потому что, which always introduces the reason after the result.Поэтому что is not a valid connector at all, just a blend of two separate words.Поэтому alone means 'therefore' and introduces a result, the wrong direction here, and так как, though it does introduce a cause, normally fronts the clause ('Так как он много работал, он устал') rather than following the result like this.",
+      "hint": "The second clause is the reason he is tired. Which single connector means 'because'?"
+    },
+    {
+      "sentence": "Мы опоздали, благодаря тому что сломалась машина.",
+      "translationEnglish": "We were late because the car broke down.",
+      "error": "благодаря тому что",
+      "correction": "из-за того что",
+      "options": [
+        "из-за того что",
+        "поэтому",
+        "так что"
+      ],
+      "explanation": "The cause is a breakdown and the outcome is bad (being late), so the negative-tone connector из-за того что fits.Благодаря тому что literally contains 'thanks' and is reserved for a helpful, positive cause, so it clashes with an unwelcome event: you do not thank a broken car.Поэтому introduces a result rather than a cause, and так что ('so, with the result that') likewise points to a consequence, not the reason.",
+      "hint": "A breakdown is a bad cause. Which 'because of' connector carries a negative tone?"
+    },
+    {
+      "sentence": "Она улыбалась, поэтому была счастлива.",
+      "translationEnglish": "She was smiling because she was happy.",
+      "error": "поэтому",
+      "correction": "потому что",
+      "options": [
+        "потому что",
+        "так что",
+        "из-за того что"
+      ],
+      "explanation": "Being happy is the CAUSE of the smiling, so the reason connector потому что is needed: she smiled because she was happy.Поэтому means 'therefore' and would reverse the logic into 'she smiled, therefore she was happy,' making the smile the cause of the happiness, which the gloss does not support.Так что also introduces a result, and из-за того что, while it does mark a cause, carries a negative tone that clashes with the positive feeling of happiness.",
+      "hint": "Which came first, the happiness or the smile? The happiness is the cause."
+    },
+    {
+      "sentence": "Было поздно, потому что мы вернулись домой.",
+      "translationEnglish": "It was late, so we went back home.",
+      "error": "потому что",
+      "correction": "поэтому",
+      "options": [
+        "поэтому",
+        "так как",
+        "хотя"
+      ],
+      "explanation": "The lateness is the CAUSE and going home is the RESULT, so the result connector поэтому is needed: it was late, therefore we went home.Потому что would flip the arrow into 'it was late because we went home,' which reverses cause and effect into nonsense.Так как fronts a cause and would not follow the result like this, and хотя ('although') marks a concession, not a cause-result link.",
+      "hint": "The lateness causes the going home. Which connector introduces the result?"
+    },
+    {
+      "sentence": "Мы успели на поезд, из-за того что нам помогли.",
+      "translationEnglish": "We made it to the train thanks to the fact that they helped us.",
+      "error": "из-за того что",
+      "correction": "благодаря тому что",
+      "options": [
+        "благодаря тому что",
+        "поэтому",
+        "несмотря на то что"
+      ],
+      "explanation": "The cause is helpful and the outcome is good (we made the train), so the positive-tone connector благодаря тому что fits: thanks to the help.Из-за того что carries a negative tone for problems and obstacles, so it clashes with a welcome outcome that someone's help made possible.Поэтому introduces a result rather than a cause, and несмотря на то что ('in spite of the fact that') marks a concession, the wrong logic for a cause that actually helped.",
+      "hint": "The help was good and the outcome was good. Which 'because' connector means 'thanks to'?"
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я остался дома, _____ шёл дождь. (I stayed home because it was raining.)",
+      "contextEnglish": "I stayed home because it was raining.",
+      "options": [
+        "потому что",
+        "поэтому"
+      ],
+      "answer": "потому что",
+      "explanation": "The result (I stayed home) comes first and the rain is the cause, so потому что introduces the reason.Поэтому would mean 'I stayed home, therefore it was raining,' which reverses cause and effect into nonsense."
+    },
+    {
+      "context": "Команда победила, _____ упорно тренировалась. (The team won thanks to training hard.)",
+      "contextEnglish": "The team won thanks to the fact that it trained hard.",
+      "options": [
+        "благодаря тому что",
+        "из-за того что"
+      ],
+      "answer": "благодаря тому что",
+      "explanation": "The cause (hard training) is positive and produced a good result (the win), so благодаря тому что.Из-за того что carries a negative tone and would clash with the welcome outcome of winning."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "потому что / поэтому",
+      "definition": "потому что introduces the cause and follows the result (answers 'why'); поэтому introduces the result and follows the cause. They are mirror images, so the cause sits on opposite sides.",
+      "example": "Он опоздал, потому что проспал. / Он проспал, поэтому опоздал."
+    },
+    {
+      "term": "так как / поскольку",
+      "definition": "since / as: introduce the cause and, unlike потому что, can come first, before the result. Slightly more formal and explanatory.",
+      "example": "Так как шёл дождь, мы остались дома."
+    },
+    {
+      "term": "из-за того что / благодаря тому что",
+      "definition": "'because of' (из-за того что, usually a negative cause) vs 'thanks to' (благодаря тому что, a positive cause). Match the connector's tone to whether the outcome is good or bad.",
+      "example": "Опоздали из-за того что была пробка. / Успели благодаря тому что вышли рано."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-028",
+  "title": "Bathroom Out of Order",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "The main bathroom is closed for cleaning",
+  "imageName": "figure.stand",
+  "initialPrompt": "Извините, этот туалет закрыт. Уборка.",
+  "systemPrompt": "Main bathroom closed for cleaning. Another bathroom on second floor. Keep replies short.",
+  "completionCriteria": "User found the other bathroom.",
+  "responseLimit": 15,
+  "hints": [
+    "А где другой? (Where is another one?)",
+    "На втором этаже? (On the second floor?)",
+    "Спасибо! (Thank you!)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "закрыт",
+      "definition": "closed"
+    },
+    {
+      "word": "уборка",
+      "definition": "cleaning"
+    },
+    {
+      "word": "другой",
+      "definition": "another"
+    },
+    {
+      "word": "этаж",
+      "definition": "floor"
+    },
+    {
+      "word": "второй",
+      "definition": "second"
+    }
+  ],
+  "objectives": [
+    "Learn bathroom is closed (закрыт)",
+    "Ask for alternative (другой)",
+    "Find the other bathroom"
+  ]
+}

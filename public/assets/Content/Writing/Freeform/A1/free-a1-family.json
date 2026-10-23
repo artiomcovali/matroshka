@@ -1,0 +1,65 @@
+{
+  "id": "free-a1-family",
+  "level": "A1",
+  "type": "freeform",
+  "title": "My Family",
+  "titleRussian": "Моя семья",
+  "theme": "my-family",
+  "prompts": [
+    {
+      "id": "a1-fam-001",
+      "prompt": "Write about your family. How many people are in your family?",
+      "promptRussian": "Напишите о вашей семье. Сколько человек в вашей семье?",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["В моей семье...", "У меня есть...", "Мои родители..."],
+      "targetGrammar": ["possessive pronouns", "numbers", "nominative case"],
+      "gradingCriteria": ["family mentioned", "number of people included", "correct possessive usage"],
+      "sampleResponse": "В моей семье четыре человека. У меня есть мама, папа и брат. Мой брат студент."
+    },
+    {
+      "id": "a1-fam-002",
+      "prompt": "Describe your mother or father. What do they look like? What do they do?",
+      "promptRussian": "Опишите вашу маму или папу. Как они выглядят? Чем они занимаются?",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Моя мама...", "Мой папа...", "Он/Она работает..."],
+      "targetGrammar": ["adjectives", "profession vocabulary", "present tense"],
+      "gradingCriteria": ["parent mentioned", "description included", "occupation or activity"],
+      "sampleResponse": "Моя мама красивая. Она добрая. Она работает врачом. Она любит готовить."
+    },
+    {
+      "id": "a1-fam-003",
+      "prompt": "Do you have brothers or sisters? Write about them.",
+      "promptRussian": "У вас есть братья или сёстры? Напишите о них.",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["У меня есть...", "У меня нет...", "Мой брат/Моя сестра..."],
+      "targetGrammar": ["есть/нет construction", "nominative case", "basic adjectives"],
+      "gradingCriteria": ["sibling mentioned or stated none", "basic description"],
+      "sampleResponse": "У меня есть сестра. Её зовут Анна. Ей двадцать лет. Она студентка."
+    },
+    {
+      "id": "a1-fam-004",
+      "prompt": "Write about your grandparents. Where do they live?",
+      "promptRussian": "Напишите о ваших бабушке и дедушке. Где они живут?",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Моя бабушка...", "Мой дедушка...", "Они живут в..."],
+      "targetGrammar": ["possessive pronouns", "prepositional case for location", "present tense"],
+      "gradingCriteria": ["grandparents mentioned", "location included"],
+      "sampleResponse": "Моя бабушка живёт в деревне. Мой дедушка тоже там живёт. Они старые, но добрые."
+    },
+    {
+      "id": "a1-fam-005",
+      "prompt": "What do you do with your family on weekends?",
+      "promptRussian": "Что вы делаете с семьёй по выходным?",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["По выходным мы...", "Мы вместе...", "Я люблю..."],
+      "targetGrammar": ["plural verbs", "time expressions", "accusative case"],
+      "gradingCriteria": ["activity mentioned", "family involvement clear", "weekend reference"],
+      "sampleResponse": "По выходным мы вместе завтракаем. Потом мы гуляем в парке. Вечером мы смотрим фильм."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-029",
+  "title": "Gym Equipment Broken",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "The machine you need is broken",
+  "imageName": "dumbbell.fill",
+  "initialPrompt": "Привет! Как тренировка? Нужна помощь?",
+  "systemPrompt": "You are gym trainer. Treadmill 3 is broken, repair tomorrow. Can use treadmill 1 or 5, or suggest alternative cardio - rowing machine or bike. Keep replies short.",
+  "completionCriteria": "User found alternative equipment or exercise.",
+  "responseLimit": 15,
+  "hints": [
+    "Этот тренажёр сломан (This machine is broken)",
+    "Есть другая беговая дорожка? (Is there another treadmill?)",
+    "Какие есть альтернативы? (What alternatives are there?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "тренажёр",
+      "definition": "exercise machine"
+    },
+    {
+      "word": "беговая дорожка",
+      "definition": "treadmill"
+    },
+    {
+      "word": "сломан",
+      "definition": "broken"
+    },
+    {
+      "word": "кардио",
+      "definition": "cardio"
+    },
+    {
+      "word": "велотренажёр",
+      "definition": "exercise bike"
+    },
+    {
+      "word": "гребной",
+      "definition": "rowing"
+    }
+  ],
+  "objectives": [
+    "Report the broken machine",
+    "Ask about alternatives",
+    "Learn what is available",
+    "Choose alternative equipment"
+  ]
+}

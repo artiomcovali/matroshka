@@ -1,0 +1,312 @@
+{
+  "id": "b1-031-verbal-adverbs",
+  "level": "B1",
+  "focusArea": "other",
+  "title": "Verbal Adverbs (Gerunds)",
+  "titleRussian": "Деепричастия",
+  "description": "Imperfective (-я/-а) and perfective (-в/-вши) formation",
+  "descriptionRussian": "Образование несовершенного и совершенного вида",
+  "imageName": "arrow.triangle.branch",
+  "intro": "Verbal adverbs (деепричастия) describe actions happening alongside the main verb. They answer 'how?' or 'when?' about the main action. IMPERFECTIVE verbal adverbs (читая, говоря) show simultaneous action: Читая книгу, он пил чай (While reading a book, he drank tea). PERFECTIVE verbal adverbs (прочитав, написав) show prior action: Прочитав книгу, он лёг спать (Having read the book, he went to sleep). Form from present stem + -я/-а (impf) or past stem + -в/-вши (pf).",
+  "rules": [
+    "Imperfective: 3rd pl present stem + -я (or -а after ш/ж/ч/щ): читают → читая, слышат → слыша",
+    "Perfective: past stem + -в (after vowel) or -вши (after consonant): прочитал → прочитав, принёс → принёсши",
+    "Imperfective = simultaneous action: Слушая музыку, она работала. (While listening...)",
+    "Perfective = prior/completed action: Написав письмо, он ушёл. (Having written...)"
+  ],
+  "examples": [
+    "Читая газету, он завтракал. (While reading the newspaper, he had breakfast.)",
+    "Гуляя по парку, мы разговаривали. (Walking in the park, we talked.)",
+    "Прочитав книгу, она вернула её в библиотеку. (Having read the book, she returned it to the library.)",
+    "Закончив работу, он пошёл домой. (Having finished work, he went home.)"
+  ],
+  "tables": [
+    {
+      "title": "Verbal Adverb (Деепричастие) Formation",
+      "headers": [
+        "Aspect",
+        "From",
+        "Suffix",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Imperfective",
+          "cells": [
+            "present stem",
+            "-а / -я",
+            "чита|я"
+          ]
+        },
+        {
+          "label": "Perfective",
+          "cells": [
+            "past stem",
+            "-в / -вши",
+            "прочита|в"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "читать → они читают → _____",
+          "promptEnglish": "to read → they read → while reading",
+          "options": [
+            "читающий",
+            "прочитав",
+            "читавший",
+            "читая"
+          ],
+          "answer": "читая",
+          "hint": "Imperfective: present stem + -я",
+          "explanation": "Formation: читают → читая."
+        },
+        {
+          "prompt": "прочитать → прочитал → _____",
+          "promptEnglish": "to read (pf) → read → having read",
+          "options": [
+            "читая",
+            "прочитав",
+            "прочитанный",
+            "читавший"
+          ],
+          "answer": "прочитав",
+          "hint": "Perfective: past stem + -в",
+          "explanation": "Formation: прочитал → прочитав."
+        },
+        {
+          "prompt": "_____ книгу, он пил кофе. (While reading...)",
+          "promptEnglish": "While reading a book, he drank coffee.",
+          "options": [
+            "Читающий",
+            "Читая",
+            "Прочитав",
+            "Прочитавший"
+          ],
+          "answer": "Читая",
+          "hint": "Simultaneous = imperfective",
+          "explanation": "Simultaneous action: читая (impf)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ работу, она ушла домой. (Having finished...)",
+          "promptEnglish": "Having finished work, she went home.",
+          "options": [
+            "Заканчивая",
+            "Закончивший",
+            "Закончив",
+            "Заканчивающий"
+          ],
+          "answer": "Закончив",
+          "hint": "Prior action = perfective",
+          "explanation": "Prior completed action: закончив (pf)."
+        },
+        {
+          "prompt": "говорить → они говорят → _____",
+          "promptEnglish": "to speak → they speak → while speaking",
+          "options": [
+            "говоривший",
+            "говоря",
+            "сказав",
+            "говорящий"
+          ],
+          "answer": "говоря",
+          "hint": "Imperfective: говорят → говоря",
+          "explanation": "Formation: говорят → говоря."
+        },
+        {
+          "prompt": "написать → написал → _____",
+          "promptEnglish": "to write (pf) → wrote → having written",
+          "options": [
+            "писая",
+            "написав",
+            "написавший",
+            "пишущий"
+          ],
+          "answer": "написав",
+          "hint": "Perfective: написал → написав",
+          "explanation": "Formation: написал → написав."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "слышать → они слышат → _____",
+          "promptEnglish": "to hear → they hear → while hearing",
+          "options": [
+            "слышащий",
+            "услышав",
+            "слыша",
+            "слышавший"
+          ],
+          "answer": "слыша",
+          "hint": "After ш: use -а, not -я",
+          "explanation": "After ш/ж/ч/щ: слыша."
+        },
+        {
+          "prompt": "_____ музыку, она танцевала. (While listening...)",
+          "promptEnglish": "While listening to music, she danced.",
+          "options": [
+            "Послушав",
+            "Слушающая",
+            "Послушавшая",
+            "Слушая"
+          ],
+          "answer": "Слушая",
+          "hint": "Simultaneous = imperfective",
+          "explanation": "Simultaneous: слушая."
+        },
+        {
+          "prompt": "_____ письмо, он отправил его. (Having written...)",
+          "promptEnglish": "Having written the letter, he sent it.",
+          "options": [
+            "Пишущий",
+            "Написав",
+            "Писая",
+            "Написавший"
+          ],
+          "answer": "Написав",
+          "hint": "Prior completed = perfective",
+          "explanation": "Prior action: написав."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ по улице, я встретил друга. (While walking down the street, I met a friend.)",
+      "Combine with verbal adverb: _____ книгу, он пил чай.",
+      "Combine: _____ письмо, она ушла."
+    ],
+    "choices": [
+      "Написав",
+      "Читая",
+      "Идя",
+      "Придя",
+      "Идущий"
+    ],
+    "answers": [
+      "Идя",
+      "Читая",
+      "Написав"
+    ],
+    "grammarFocus": "Simultaneous action: imperfective verbal adverb",
+    "hints": [
+      "Walking and meeting happened at the same time — use the imperfective verbal adverb from идти (идут → ...).",
+      "Reading and drinking tea happen simultaneously — use the imperfective verbal adverb from читать.",
+      "Writing was completed before she left — use the perfective verbal adverb from написать."
+    ],
+    "explanations": [
+      "Идя is the imperfective verbal adverb of идти: идут → remove -ут → add -я = идя (while walking). It shows simultaneous action.",
+      "Читая is the imperfective verbal adverb of читать: читают → remove -ют → add -я = читая (while reading). Simultaneous with drinking tea.",
+      "Написав is the perfective verbal adverb of написать: написал → написа- + -в = написав (having written). The writing was completed before she left."
+    ],
+    "options": [
+      [
+        "шедшего",
+        "идите",
+        "Идя",
+        "шедшими"
+      ],
+      [
+        "Читая",
+        "читавши",
+        "читав"
+      ],
+      [
+        "написанным",
+        "написан",
+        "написанными",
+        "Написав"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ книгу, он пил чай. (while reading - simultaneous)",
+      "contextEnglish": "While reading a book, he drank tea.",
+      "options": [
+        "Читая",
+        "Прочитав"
+      ],
+      "answer": "Читая",
+      "explanation": "Simultaneous: imperfective читая."
+    },
+    {
+      "context": "_____ книгу, он лёг спать. (having read, prior)",
+      "contextEnglish": "Having read the book, he went to sleep.",
+      "options": [
+        "Прочитав",
+        "Читая"
+      ],
+      "answer": "Прочитав",
+      "explanation": "Prior action: perfective прочитав."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by aspect",
+    "categories": [
+      "Imperfective (simultaneous)",
+      "Perfective (prior)"
+    ],
+    "items": [
+      {
+        "word": "читая",
+        "category": "Imperfective (simultaneous)"
+      },
+      {
+        "word": "прочитав",
+        "category": "Perfective (prior)"
+      },
+      {
+        "word": "говоря",
+        "category": "Imperfective (simultaneous)"
+      },
+      {
+        "word": "сказав",
+        "category": "Perfective (prior)"
+      },
+      {
+        "word": "слушая",
+        "category": "Imperfective (simultaneous)"
+      },
+      {
+        "word": "написав",
+        "category": "Perfective (prior)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "-я/-а (impf)",
+      "definition": "simultaneous action",
+      "example": "читая, говоря, слыша"
+    },
+    {
+      "term": "-в/-вши (pf)",
+      "definition": "prior/completed action",
+      "example": "прочитав, сказав, принёсши"
+    },
+    {
+      "term": "simultaneous",
+      "definition": "actions at same time",
+      "example": "Читая, он пил чай."
+    },
+    {
+      "term": "prior",
+      "definition": "first action then second",
+      "example": "Прочитав, он ушёл."
+    }
+  ]
+}

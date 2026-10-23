@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-005",
+  "title": "The Non-Paying Client",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Client refuses to pay for completed work",
+  "imageName": "doc.text.fill",
+  "initialPrompt": "Сайт не совсем то, что мы хотели. Мы не будем платить полную сумму.",
+  "systemPrompt": "You are a difficult client. Work is done but you want to pay only 50%. Claim it doesn't match expectations. Pay in full only if developer cites contract terms or threatens legal action. Keep replies short.",
+  "completionCriteria": "User got full payment or fair negotiated settlement.",
+  "responseLimit": 15,
+  "hints": [
+    "По договору работа выполнена (Per contract, work is complete)",
+    "Я буду вынужден обратиться к юристу (I'll have to contact a lawyer)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "оплата",
+      "definition": "payment"
+    },
+    {
+      "word": "договор",
+      "definition": "contract"
+    },
+    {
+      "word": "выполнен",
+      "definition": "completed"
+    },
+    {
+      "word": "юрист",
+      "definition": "lawyer"
+    },
+    {
+      "word": "условия",
+      "definition": "terms"
+    },
+    {
+      "word": "суд",
+      "definition": "court"
+    }
+  ],
+  "objectives": [
+    "Remind of contract terms",
+    "Counter their objections",
+    "Threaten legal action",
+    "Negotiate if needed",
+    "Secure payment"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-027",
+  "title": "The Switched Price Tag",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Item rings up higher than the marked price",
+  "imageName": "tag.fill",
+  "initialPrompt": "Шарф - 1500 рублей.",
+  "systemPrompt": "Price tag said 800₽ but register shows 1500₽. Insist register is right. Honor marked price if user shows tag or insists it was labeled differently. Keep replies short.",
+  "completionCriteria": "User got the marked price honored.",
+  "responseLimit": 15,
+  "hints": [
+    "На ценнике 800 (The tag says 800)",
+    "Это неправильная цена (That's the wrong price)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "ценник",
+      "definition": "price tag"
+    },
+    {
+      "word": "касса",
+      "definition": "register"
+    },
+    {
+      "word": "неправильно",
+      "definition": "wrong/incorrect"
+    },
+    {
+      "word": "показать",
+      "definition": "to show"
+    },
+    {
+      "word": "разница",
+      "definition": "difference"
+    }
+  ],
+  "objectives": [
+    "Notice price discrepancy",
+    "Point out tag says 800 (На ценнике 800)",
+    "Show the price tag",
+    "Insist on marked price",
+    "Get correct price honored"
+  ]
+}

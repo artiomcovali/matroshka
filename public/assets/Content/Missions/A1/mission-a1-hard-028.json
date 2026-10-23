@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-028",
+  "title": "The Locked Bathroom",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "The bathroom requires a code or purchase to access",
+  "imageName": "figure.stand",
+  "initialPrompt": "Туалет? Только для клиентов. Нужен чек.",
+  "systemPrompt": "Bathroom needs receipt. Be firm: 'Без чека нельзя.' Let user in if they offer to buy something small or explain emergency (очень нужно). Keep replies short.",
+  "completionCriteria": "User gained bathroom access.",
+  "responseLimit": 15,
+  "hints": [
+    "Это срочно! (It's urgent!)",
+    "Я куплю воду (I'll buy water)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "клиент",
+      "definition": "customer"
+    },
+    {
+      "word": "чек",
+      "definition": "receipt"
+    },
+    {
+      "word": "нельзя",
+      "definition": "not allowed"
+    },
+    {
+      "word": "срочно",
+      "definition": "urgent"
+    },
+    {
+      "word": "код",
+      "definition": "code"
+    }
+  ],
+  "objectives": [
+    "Ask to use bathroom (Где туалет?)",
+    "Learn you need receipt (нужен чек)",
+    "Explain it's urgent (Это срочно!)",
+    "Offer to buy something (Я куплю воду)",
+    "Get bathroom access"
+  ]
+}

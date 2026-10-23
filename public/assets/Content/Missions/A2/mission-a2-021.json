@@ -1,0 +1,51 @@
+{
+  "id": "mission-a2-021",
+  "title": "Rent a Bicycle",
+  "level": "A2",
+  "difficulty": "easy",
+  "description": "Rent a bicycle from a rental shop in the park",
+  "imageName": "bicycle",
+  "initialPrompt": "Здравствуйте! Хотите взять велосипед напрокат? У нас обычные и горные велосипеды.",
+  "systemPrompt": "You rent bicycles. Regular bike 200₽/hour, mountain bike 350₽/hour. Need deposit (паспорт or 1000₽). Ask how long they want it. Keep replies short.",
+  "completionCriteria": "User rented a bicycle with duration and deposit handled.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу взять велосипед (I want to rent a bicycle)",
+    "На два часа (For two hours)",
+    "Сколько стоит час? (How much per hour?)",
+    "Какой залог? (What deposit?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "велосипед",
+      "definition": "bicycle"
+    },
+    {
+      "word": "напрокат",
+      "definition": "for rent"
+    },
+    {
+      "word": "час",
+      "definition": "hour"
+    },
+    {
+      "word": "залог",
+      "definition": "deposit"
+    },
+    {
+      "word": "горный",
+      "definition": "mountain"
+    },
+    {
+      "word": "вернуть",
+      "definition": "to return"
+    }
+  ],
+  "objectives": [
+    "Say you want to rent a bicycle",
+    "Choose type of bicycle",
+    "Say how long you need it",
+    "Ask about or pay the deposit",
+    "Complete the rental"
+  ]
+}

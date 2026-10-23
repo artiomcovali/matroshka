@@ -1,0 +1,53 @@
+{
+  "id": "mission-a2-002",
+  "title": "Buy Train Tickets",
+  "level": "A2",
+  "description": "Purchase train tickets at a station",
+  "imageName": "tram.fill",
+  "initialPrompt": "Добрый день! Куда вы едете?",
+  "systemPrompt": "You sell train tickets. Prices: Москва 500₽, Петербург 800₽. Ask destination, quantity, one-way/round-trip. Keep replies short.",
+  "completionCriteria": "User bought tickets with destination, quantity, and type specified.",
+  "responseLimit": 15,
+  "hints": [
+    "Один билет до... (One ticket to...)",
+    "В одну сторону (One way)",
+    "Туда и обратно (Round trip)",
+    "Сколько стоит? (How much does it cost?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "билет",
+      "definition": "ticket"
+    },
+    {
+      "word": "поезд",
+      "definition": "train"
+    },
+    {
+      "word": "куда",
+      "definition": "where to"
+    },
+    {
+      "word": "ехать",
+      "definition": "to go (by transport)"
+    },
+    {
+      "word": "сегодня",
+      "definition": "today"
+    },
+    {
+      "word": "завтра",
+      "definition": "tomorrow"
+    },
+    {
+      "word": "рубль",
+      "definition": "ruble"
+    }
+  ],
+  "objectives": [
+    "Say your destination (Москва, Петербург)",
+    "Specify number of tickets (один билет)",
+    "Choose one-way (в одну сторону) or round-trip (туда и обратно)",
+    "Confirm the purchase"
+  ]
+}

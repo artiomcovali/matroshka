@@ -1,0 +1,47 @@
+{
+  "id": "mission-a2-004",
+  "title": "At the Doctor",
+  "level": "A2",
+  "description": "Explain your symptoms to a doctor",
+  "imageName": "stethoscope",
+  "initialPrompt": "Здравствуйте! Садитесь, пожалуйста. Что вас беспокоит?",
+  "systemPrompt": "You are a doctor. Ask about symptoms and how long they've been sick. Give simple advice at end. Keep replies short.",
+  "completionCriteria": "User described symptoms and duration, you gave advice.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня болит... (I have a pain in...)",
+    "Уже три дня (For three days already)",
+    "Я принимал лекарство (I took medicine)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "болит",
+      "definition": "hurts"
+    },
+    {
+      "word": "голова",
+      "definition": "head"
+    },
+    {
+      "word": "горло",
+      "definition": "throat"
+    },
+    {
+      "word": "температура",
+      "definition": "temperature/fever"
+    },
+    {
+      "word": "лекарство",
+      "definition": "medicine"
+    },
+    {
+      "word": "врач",
+      "definition": "doctor"
+    }
+  ],
+  "objectives": [
+    "Describe your symptoms (У меня болит...)",
+    "Tell how long you've been sick (уже три дня)",
+    "Receive the doctor's advice"
+  ]
+}

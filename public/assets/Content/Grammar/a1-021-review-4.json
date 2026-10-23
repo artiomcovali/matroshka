@@ -1,0 +1,319 @@
+{
+  "id": "a1-021-review-4",
+  "level": "A1",
+  "sortKey": "a1-025b-review-4",
+  "focusArea": "sentenceStructure",
+  "title": "Review 4",
+  "titleRussian": "Повторение 4",
+  "description": "Demonstratives, accusative case, prepositional case, and prepositions",
+  "descriptionRussian": "Указательные местоимения, винительный падеж, предложный падеж и предлоги",
+  "imageName": "star.fill",
+  "intro": "This review covers demonstrative pronouns (этот/тот), the accusative case for direct objects, the prepositional case for locations, and key prepositions like в and на. These topics work together: 'I see this house' uses accusative, while 'I live in this house' uses prepositional — same noun, different cases depending on the role in the sentence.",
+  "rules": [
+    "Demonstrative pronouns agree with the noun: этот дом (m), эта книга (f), это окно (n), эти люди (pl). Тот/та/то/те = 'that'.",
+    "Accusative case marks the direct object. Masculine animate and feminine nouns change: маму (f -а→-у), брата (m animate +а). Masculine inanimate and neuter don't change.",
+    "Prepositional case is used after в (in) and на (on/at) for location: в доме, на столе, в школе.",
+    "В + prepositional = inside: в магазине (in the store). На + prepositional = on/at: на работе (at work).",
+    "Prepositional endings: masculine/neuter -е (доме, окне), feminine -е (школе), some nouns use -и (площади)."
+  ],
+  "examples": [
+    "Я вижу этот дом. (I see this house.) — accusative, m. inanimate = no change",
+    "Я вижу эту книгу. (I see this book.) — accusative feminine: эта → эту, книга → книгу",
+    "Мы живём в этом доме. (We live in this house.) — prepositional after в",
+    "Книга на столе. (The book is on the table.) — prepositional after на"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я вижу _____ книгу. (this, feminine accusative)",
+          "promptEnglish": "I see this book.",
+          "options": [
+            "эту",
+            "этот",
+            "эта",
+            "это"
+          ],
+          "answer": "эту",
+          "hint": "Feminine demonstrative in accusative",
+          "explanation": "Эта changes to эту in the accusative case for feminine nouns."
+        },
+        {
+          "prompt": "_____ дом очень красивый. (this, masculine nominative)",
+          "promptEnglish": "This house is very beautiful.",
+          "options": [
+            "Это",
+            "Этот",
+            "Эта",
+            "Эти"
+          ],
+          "answer": "Этот",
+          "hint": "Masculine nominative demonstrative",
+          "explanation": "Этот is the masculine nominative form of the demonstrative pronoun."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я читаю _____. (book, accusative)",
+          "promptEnglish": "I am reading a book.",
+          "options": [
+            "книга",
+            "книге",
+            "книгу",
+            "книги"
+          ],
+          "answer": "книгу",
+          "hint": "Feminine nouns: -а → -у in accusative",
+          "explanation": "Книга is feminine. In accusative case, -а changes to -у: книгу."
+        },
+        {
+          "prompt": "Я вижу _____. (brother, accusative)",
+          "promptEnglish": "I see my brother.",
+          "options": [
+            "брат",
+            "брата",
+            "брату",
+            "брате"
+          ],
+          "answer": "брата",
+          "hint": "Masculine animate nouns change in accusative",
+          "explanation": "Брат is masculine animate. Animate masculine nouns add -а in accusative: брата."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Мы живём _____ Москве.",
+          "promptEnglish": "We live in Moscow.",
+          "options": [
+            "на",
+            "из",
+            "в",
+            "о"
+          ],
+          "answer": "в",
+          "hint": "Inside a city = в + prepositional",
+          "explanation": "В + prepositional case means 'in/inside'. Мы живём в Москве."
+        },
+        {
+          "prompt": "Книга лежит _____ столе.",
+          "promptEnglish": "The book is lying on the table.",
+          "options": [
+            "в",
+            "на",
+            "из",
+            "к"
+          ],
+          "answer": "на",
+          "hint": "On a surface = на + prepositional",
+          "explanation": "На + prepositional case means 'on'. Книга на столе = The book is on the table."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Он работает в _____. (school)",
+          "promptEnglish": "He works at a school.",
+          "options": [
+            "школа",
+            "школу",
+            "школе",
+            "школы"
+          ],
+          "answer": "школе",
+          "hint": "Prepositional case: feminine -а → -е",
+          "explanation": "After в (location), use prepositional case. Школа → школе."
+        },
+        {
+          "prompt": "Я вижу _____ стол. (this, masculine accusative inanimate)",
+          "promptEnglish": "I see this table.",
+          "options": [
+            "эту",
+            "этого",
+            "эти",
+            "этот"
+          ],
+          "answer": "этот",
+          "hint": "Masculine inanimate accusative = nominative",
+          "explanation": "For masculine inanimate nouns, accusative = nominative. Этот стол stays этот стол."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я люблю _____ маму. (my, feminine accusative)",
+      "Мы живём в _____. (house, prepositional)",
+      "_____ девушка очень красивая. (that, feminine)",
+      "Книги лежат на _____. (table, prepositional)",
+      "Он читает _____ газету. (this, feminine accusative)"
+    ],
+    "choices": [
+      "мою",
+      "доме",
+      "Та",
+      "столе",
+      "эту",
+      "моя"
+    ],
+    "answers": [
+      "мою",
+      "доме",
+      "Та",
+      "столе",
+      "эту"
+    ],
+    "grammarFocus": "Accusative and prepositional case forms with demonstratives and possessives",
+    "options": [
+      [
+        "мой",
+        "моя",
+        "мою",
+        "моей"
+      ],
+      [
+        "доме",
+        "дому",
+        "дома",
+        "дом"
+      ],
+      [
+        "той",
+        "Та",
+        "ту",
+        "того"
+      ],
+      [
+        "стол",
+        "стола",
+        "столу",
+        "столе"
+      ],
+      [
+        "этой",
+        "этот",
+        "эта",
+        "эту"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я вижу _____. (table — masculine inanimate)",
+      "contextEnglish": "I see a table.",
+      "options": [
+        "стол",
+        "стола"
+      ],
+      "answer": "стол",
+      "explanation": "Masculine inanimate nouns don't change in accusative. Стол stays стол."
+    },
+    {
+      "context": "Я вижу _____. (brother — masculine animate)",
+      "contextEnglish": "I see my brother.",
+      "options": [
+        "брата",
+        "брат"
+      ],
+      "answer": "брата",
+      "explanation": "Masculine animate nouns change in accusative: брат → брата."
+    },
+    {
+      "context": "Она работает _____ школе. (location)",
+      "contextEnglish": "She works at a school.",
+      "options": [
+        "в",
+        "на"
+      ],
+      "answer": "в",
+      "explanation": "В + prepositional is used for 'in/inside' a building. На is used for 'at/on' surfaces or certain fixed expressions."
+    },
+    {
+      "context": "Книга лежит _____ столе. (surface)",
+      "contextEnglish": "The book is on the table.",
+      "options": [
+        "на",
+        "в"
+      ],
+      "answer": "на",
+      "explanation": "На + prepositional means 'on' a surface. В means 'in/inside'."
+    }
+  ],
+  "sentenceBuilding": [
+    {
+      "words": [
+        "книгу",
+        "Я",
+        "эту",
+        "читаю"
+      ],
+      "answer": "Я читаю эту книгу.",
+      "translation": "I am reading this book.",
+      "hint": "Subject + verb + demonstrative + object (all accusative)"
+    },
+    {
+      "words": [
+        "в",
+        "живём",
+        "доме",
+        "Мы",
+        "большом"
+      ],
+      "answer": "Мы живём в большом доме.",
+      "translation": "We live in a big house.",
+      "hint": "Subject + verb + в + adjective + noun (prepositional)"
+    },
+    {
+      "words": [
+        "маму",
+        "свою",
+        "любит",
+        "Он"
+      ],
+      "answer": "Он любит свою маму.",
+      "translation": "He loves his mom.",
+      "hint": "Subject + verb + possessive + object (feminine accusative)"
+    },
+    {
+      "words": [
+        "на",
+        "Кошка",
+        "столе",
+        "сидит"
+      ],
+      "answer": "Кошка сидит на столе.",
+      "translation": "The cat is sitting on the table.",
+      "hint": "Subject + verb + на + noun (prepositional)"
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "винительный падеж",
+      "definition": "accusative case (direct object)",
+      "example": "Я вижу книгу. (книгу — винительный падеж)"
+    },
+    {
+      "term": "предложный падеж",
+      "definition": "prepositional case (location, about)",
+      "example": "Я живу в Москве. (Москве — предложный падеж)"
+    },
+    {
+      "term": "этот / эта / это / эти",
+      "definition": "this (m / f / n / pl)",
+      "example": "Этот дом, эта книга, это окно, эти люди."
+    },
+    {
+      "term": "предлог",
+      "definition": "preposition",
+      "example": "В, на, из — предлоги."
+    }
+  ]
+}

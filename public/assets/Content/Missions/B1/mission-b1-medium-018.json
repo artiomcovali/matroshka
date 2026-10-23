@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-018",
+  "title": "Difficult Student",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "Your child is struggling and the teacher seems defensive",
+  "imageName": "person.2.fill",
+  "initialPrompt": "Добрый день. Ваш сын плохо учится. Честно говоря, он не делает домашнее задание.",
+  "systemPrompt": "You are a teacher. Student struggling, but you blame only the student, not teaching methods. Become more helpful if parent asks specific questions about how to help. Keep replies short.",
+  "completionCriteria": "User got constructive advice despite teacher's initial defensiveness.",
+  "responseLimit": 15,
+  "hints": [
+    "Как мы можем помочь дома? (How can we help at home?)",
+    "Может, нужен репетитор? (Maybe he needs a tutor?)",
+    "Какие темы самые сложные? (Which topics are hardest?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "успеваемость",
+      "definition": "performance"
+    },
+    {
+      "word": "репетитор",
+      "definition": "tutor"
+    },
+    {
+      "word": "отставать",
+      "definition": "to fall behind"
+    },
+    {
+      "word": "помощь",
+      "definition": "help"
+    },
+    {
+      "word": "поддержка",
+      "definition": "support"
+    },
+    {
+      "word": "улучшение",
+      "definition": "improvement"
+    }
+  ],
+  "objectives": [
+    "Listen to teacher's concerns",
+    "Ask constructive questions",
+    "Get specific recommendations",
+    "Agree on action plan"
+  ]
+}

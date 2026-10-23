@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-011",
+  "title": "Need Prescription",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "The medicine you want requires a prescription",
+  "imageName": "cross.case.fill",
+  "initialPrompt": "Здравствуйте! Чем могу помочь?",
+  "systemPrompt": "You are a pharmacist. User asks for антибиотик but it needs prescription. Can sell витамины or аспирин without one. Keep replies short.",
+  "completionCriteria": "User learned they need prescription and bought an alternative.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужно лекарство (I need medicine)",
+    "Без рецепта? (Without prescription?)",
+    "Тогда аспирин (Then aspirin)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "аптека",
+      "definition": "pharmacy"
+    },
+    {
+      "word": "рецепт",
+      "definition": "prescription"
+    },
+    {
+      "word": "лекарство",
+      "definition": "medicine"
+    },
+    {
+      "word": "антибиотик",
+      "definition": "antibiotic"
+    },
+    {
+      "word": "без",
+      "definition": "without"
+    }
+  ],
+  "objectives": [
+    "Ask for medicine (лекарство)",
+    "Learn you need prescription (рецепт)",
+    "Buy alternative medicine"
+  ]
+}

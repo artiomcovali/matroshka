@@ -1,0 +1,806 @@
+{
+  "lessonId": "a2-022-adjective-dative",
+  "sets": [
+    {
+      "id": "round-1-masc-neuter",
+      "title": "Masculine & Neuter Dative (-ому/-ему)",
+      "titleRussian": "Мужской и средний род (-ому/-ему)",
+      "description": "Drill dative adjective endings for masculine and neuter nouns",
+      "descriptionRussian": "Окончания прилагательных в дательном падеже (м. и ср. род)",
+      "icon": "person.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я помогаю _____ студенту. (I help the new student.)",
+              "promptEnglish": "I help the new student. (masc)",
+              "options": [
+                "новому",
+                "нового",
+                "новый",
+                "новым"
+              ],
+              "answer": "новому",
+              "hint": "Студент = masculine, dative: -ому.",
+              "explanation": "Masculine dative: новый → новому."
+            },
+            {
+              "prompt": "Он позвонил _____ другу. (He called his old friend.)",
+              "promptEnglish": "He called his old friend. (masc)",
+              "options": [
+                "старого",
+                "старому",
+                "старый",
+                "старым"
+              ],
+              "answer": "старому",
+              "hint": "Друг = masculine, dative: -ому.",
+              "explanation": "Masculine dative: старый → старому."
+            },
+            {
+              "prompt": "Мы рады _____ событию. (We are glad for the big event.)",
+              "promptEnglish": "We are glad for the big event. (neuter)",
+              "options": [
+                "большому",
+                "большого",
+                "большое",
+                "большим"
+              ],
+              "answer": "большому",
+              "hint": "Событие = neuter, dative: -ому (same as masculine).",
+              "explanation": "Neuter dative: большое → большому."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она написала _____ учителю. (She wrote to the strict teacher.)",
+              "promptEnglish": "She wrote to the strict teacher. (masc)",
+              "options": [
+                "строгому",
+                "строгого",
+                "строгий",
+                "строгим"
+              ],
+              "answer": "строгому",
+              "hint": "Учитель = masculine, dative: -ому.",
+              "explanation": "Masculine dative: строгий → строгому."
+            },
+            {
+              "prompt": "Они дали книгу _____ мальчику. (They gave a book to the little boy.)",
+              "promptEnglish": "They gave a book to the little boy. (masc)",
+              "options": [
+                "маленькому",
+                "маленький",
+                "маленького",
+                "маленьким"
+              ],
+              "answer": "маленькому",
+              "hint": "Мальчик = masculine, dative: -ому.",
+              "explanation": "Masculine dative: маленький → маленькому."
+            },
+            {
+              "prompt": "Я звоню _____ брату. (I'm calling my younger brother.)",
+              "promptEnglish": "I'm calling my younger brother. (masc, soft stem)",
+              "options": [
+                "младшему",
+                "младшего",
+                "младший",
+                "младшим"
+              ],
+              "answer": "младшему",
+              "hint": "Soft stem: младший → -ему.",
+              "explanation": "Masculine soft-stem dative: младший → младшему."
+            }
+          ]
+        }
+      ],
+      "declensionTable": {
+        "word": "хороший",
+        "wordType": "adjective",
+        "gender": "masculine",
+        "paradigm": {
+          "nominative": "хороший",
+          "genitive": "хорошего",
+          "dative": "хорошему",
+          "accusative": "хорошего",
+          "instrumental": "хорошим",
+          "prepositional": "хорошем"
+        },
+        "blanks": [
+          "dative"
+        ],
+        "hints": [
+          "Masc soft-stem dative: -ий → -ему"
+        ],
+        "explanations": [
+          "Masculine soft-stem dative: хороший → хорошему."
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Мы дали подарок _____ соседу. (We gave a gift to the kind neighbor.)",
+          "Она позвонила _____ врачу. (She called the good doctor.)",
+          "Я помогаю _____ ребёнку. (I help the small child.)"
+        ],
+        "choices": [
+          "доброму",
+          "хорошему",
+          "маленькому",
+          "добрый",
+          "хороший"
+        ],
+        "answers": [
+          "доброму",
+          "хорошему",
+          "маленькому"
+        ],
+        "grammarFocus": "Masculine/neuter dative: hard -ому, soft -ему",
+        "hints": [
+          "Добрый = hard stem: -ому.",
+          "Хороший = soft stem: -ему.",
+          "Маленький = hard stem: -ому."
+        ],
+        "explanations": [
+          "Masculine dative: добрый → доброму.",
+          "Masculine soft-stem dative: хороший → хорошему.",
+          "Masculine dative: маленький → маленькому."
+        ],
+        "options": [
+          [
+            "добрым",
+            "добрый",
+            "доброго",
+            "доброму"
+          ],
+          [
+            "хорошее",
+            "хорошему",
+            "хороший",
+            "хорошего"
+          ],
+          [
+            "маленьким",
+            "маленького",
+            "маленький",
+            "маленькому"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-feminine",
+      "title": "Feminine Dative (-ой/-ей)",
+      "titleRussian": "Женский род (-ой/-ей)",
+      "description": "Drill dative adjective endings for feminine nouns",
+      "descriptionRussian": "Окончания прилагательных в дательном падеже (ж. род)",
+      "icon": "person.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Он дал цветы _____ девушке. (He gave flowers to the beautiful girl.)",
+              "promptEnglish": "He gave flowers to the beautiful girl. (fem)",
+              "options": [
+                "красивой",
+                "красивую",
+                "красивая",
+                "красивым"
+              ],
+              "answer": "красивой",
+              "hint": "Девушка = feminine, dative: -ой.",
+              "explanation": "Feminine dative: красивая → красивой."
+            },
+            {
+              "prompt": "Я помогаю _____ сестре. (I help my older sister.)",
+              "promptEnglish": "I help my older sister. (fem)",
+              "options": [
+                "старшей",
+                "старшую",
+                "старшая",
+                "старшим"
+              ],
+              "answer": "старшей",
+              "hint": "Сестра = feminine, soft stem: -ей.",
+              "explanation": "Feminine soft-stem dative: старшая → старшей."
+            },
+            {
+              "prompt": "Мы рады _____ погоде. (We are glad for the warm weather.)",
+              "promptEnglish": "We are glad for the warm weather. (fem)",
+              "options": [
+                "тёплой",
+                "тёплую",
+                "тёплая",
+                "тёплым"
+              ],
+              "answer": "тёплой",
+              "hint": "Погода = feminine, dative: -ой.",
+              "explanation": "Feminine dative: тёплая → тёплой."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она написала _____ подруге. (She wrote to her best friend.)",
+              "promptEnglish": "She wrote to her best friend. (fem, soft stem)",
+              "options": [
+                "лучшей",
+                "лучшую",
+                "лучшая",
+                "лучшим"
+              ],
+              "answer": "лучшей",
+              "hint": "Подруга = feminine, soft stem: -ей.",
+              "explanation": "Feminine soft-stem dative: лучшая → лучшей."
+            },
+            {
+              "prompt": "Он позвонил _____ маме. (He called his dear mom.)",
+              "promptEnglish": "He called his dear mom. (fem)",
+              "options": [
+                "дорогой",
+                "дорогую",
+                "дорогая",
+                "дорогим"
+              ],
+              "answer": "дорогой",
+              "hint": "Мама = feminine, dative: -ой.",
+              "explanation": "Feminine dative: дорогая → дорогой."
+            },
+            {
+              "prompt": "Мы помогаем _____ бабушке. (We help our kind grandmother.)",
+              "promptEnglish": "We help our kind grandmother. (fem)",
+              "options": [
+                "доброй",
+                "добрую",
+                "добрая",
+                "добрым"
+              ],
+              "answer": "доброй",
+              "hint": "Бабушка = feminine, dative: -ой.",
+              "explanation": "Feminine dative: добрая → доброй."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я вижу _____ девушку. (I see the beautiful girl.) - accusative",
+          "contextEnglish": "Accusative: whom do I see?",
+          "options": [
+            "красивую",
+            "красивой"
+          ],
+          "answer": "красивую",
+          "explanation": "Accusative feminine: красивую."
+        },
+        {
+          "context": "Я помогаю _____ девушке. (I help the beautiful girl.) - dative",
+          "contextEnglish": "Dative: whom do I help?",
+          "options": [
+            "красивой",
+            "красивую"
+          ],
+          "answer": "красивой",
+          "explanation": "Dative feminine: красивой."
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Он помогает новую сестре.",
+          "error": "новую",
+          "correction": "новой",
+          "explanation": "Помогать takes dative. Feminine dative: новая → новой (not accusative новую).",
+          "options": [
+            "новой",
+            "новая",
+            "новым"
+          ]
+        },
+        {
+          "sentence": "Я звоню старшая подруге.",
+          "error": "старшая",
+          "correction": "старшей",
+          "explanation": "Звонить takes dative. Feminine dative: старшая → старшей.",
+          "options": [
+            "старшей",
+            "старшую",
+            "старшим"
+          ]
+        },
+        {
+          "sentence": "Мы рады хорошую новость.",
+          "error": "хорошую",
+          "correction": "хорошей",
+          "explanation": "Рады takes dative. Feminine dative: хорошая → хорошей. Noun also needs dative: новости.",
+          "options": [
+            "хорошей",
+            "хорошая",
+            "хорошим"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-plural",
+      "title": "Plural Dative (-ым/-им)",
+      "titleRussian": "Множественное число (-ым/-им)",
+      "description": "Drill dative adjective endings for plural nouns",
+      "descriptionRussian": "Окончания прилагательных в дательном падеже (мн. число)",
+      "icon": "person.3.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы помогаем _____ студентам. (We help new students.)",
+              "promptEnglish": "We help new students. (plural)",
+              "options": [
+                "новым",
+                "нового",
+                "новому",
+                "новые"
+              ],
+              "answer": "новым",
+              "hint": "Студенты (pl), dative: -ым.",
+              "explanation": "Plural dative: новые → новым."
+            },
+            {
+              "prompt": "Она написала _____ друзьям. (She wrote to her old friends.)",
+              "promptEnglish": "She wrote to her old friends. (plural)",
+              "options": [
+                "старым",
+                "старого",
+                "старому",
+                "старые"
+              ],
+              "answer": "старым",
+              "hint": "Друзья (pl), dative: -ым.",
+              "explanation": "Plural dative: старые → старым."
+            },
+            {
+              "prompt": "Он дал подарки _____ детям. (He gave gifts to the little children.)",
+              "promptEnglish": "He gave gifts to the little children. (plural)",
+              "options": [
+                "маленьким",
+                "маленького",
+                "маленькому",
+                "маленькие"
+              ],
+              "answer": "маленьким",
+              "hint": "Дети (pl), dative: -им.",
+              "explanation": "Plural dative: маленькие → маленьким."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Мы рады _____ новостям. (We are glad for the good news.)",
+              "promptEnglish": "We are glad for the good news. (plural, soft stem)",
+              "options": [
+                "хорошим",
+                "хороших",
+                "хорошему",
+                "хорошие"
+              ],
+              "answer": "хорошим",
+              "hint": "Новости (pl), soft stem dative: -им.",
+              "explanation": "Plural soft-stem dative: хорошие → хорошим."
+            },
+            {
+              "prompt": "Она звонит _____ соседям. (She calls the kind neighbors.)",
+              "promptEnglish": "She calls the kind neighbors. (plural)",
+              "options": [
+                "добрым",
+                "доброго",
+                "доброму",
+                "добрые"
+              ],
+              "answer": "добрым",
+              "hint": "Соседи (pl), dative: -ым.",
+              "explanation": "Plural dative: добрые → добрым."
+            },
+            {
+              "prompt": "Учитель объяснил правила _____ ученикам. (The teacher explained rules to young students.)",
+              "promptEnglish": "The teacher explained rules to young students. (plural)",
+              "options": [
+                "молодым",
+                "молодого",
+                "молодому",
+                "молодые"
+              ],
+              "answer": "молодым",
+              "hint": "Ученики (pl), dative: -ым.",
+              "explanation": "Plural dative: молодые → молодым."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these dative adjective phrases by gender/number.",
+        "categories": [
+          "Masculine/Neuter (-ому/-ему)",
+          "Feminine (-ой/-ей)",
+          "Plural (-ым/-им)"
+        ],
+        "items": [
+          {
+            "word": "новому студенту",
+            "category": "Masculine/Neuter (-ому/-ему)"
+          },
+          {
+            "word": "красивой девушке",
+            "category": "Feminine (-ой/-ей)"
+          },
+          {
+            "word": "старым друзьям",
+            "category": "Plural (-ым/-им)"
+          },
+          {
+            "word": "хорошему врачу",
+            "category": "Masculine/Neuter (-ому/-ему)"
+          },
+          {
+            "word": "младшей сестре",
+            "category": "Feminine (-ой/-ей)"
+          },
+          {
+            "word": "маленьким детям",
+            "category": "Plural (-ым/-им)"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Мы рады _____ результатам. (We are glad for the great results.)",
+          "Он помогает _____ коллегам. (He helps his young colleagues.)",
+          "Она дала книги _____ студентам. (She gave books to the best students.)"
+        ],
+        "choices": [
+          "отличным",
+          "молодым",
+          "лучшим",
+          "отличные",
+          "молодого"
+        ],
+        "answers": [
+          "отличным",
+          "молодым",
+          "лучшим"
+        ],
+        "grammarFocus": "Plural dative: hard stem -ым, soft stem -им",
+        "hints": [
+          "Отличные, hard stem: -ым.",
+          "Молодые, hard stem: -ым.",
+          "Лучшие, soft stem: -им."
+        ],
+        "explanations": [
+          "Plural dative: отличные → отличным.",
+          "Plural dative: молодые → молодым.",
+          "Plural soft-stem dative: лучшие → лучшим."
+        ],
+        "options": [
+          [
+            "отличный",
+            "отличным",
+            "отличного",
+            "отличному"
+          ],
+          [
+            "молодым",
+            "молодые",
+            "молодых",
+            "молодыми"
+          ],
+          [
+            "хорошего",
+            "хороший",
+            "хорошему",
+            "лучшим"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-case-contrast",
+      "title": "Dative vs Other Cases",
+      "titleRussian": "Дательный и другие падежи",
+      "description": "Distinguish dative adjective endings from other cases",
+      "descriptionRussian": "Отличие дательного падежа от других падежей",
+      "icon": "arrow.triangle.branch",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я вижу _____ студента. (I see the new student.) - accusative",
+              "promptEnglish": "Accusative: whom do I see?",
+              "options": [
+                "нового",
+                "новому",
+                "новый",
+                "новым"
+              ],
+              "answer": "нового",
+              "hint": "Вижу + accusative animate = genitive form: нового.",
+              "explanation": "Accusative animate masculine: нового."
+            },
+            {
+              "prompt": "Я помогаю _____ студенту. (I help the new student.) - dative",
+              "promptEnglish": "Dative: whom do I help?",
+              "options": [
+                "новому",
+                "нового",
+                "новый",
+                "новым"
+              ],
+              "answer": "новому",
+              "hint": "Помогаю + dative: новому.",
+              "explanation": "Dative masculine: новому."
+            },
+            {
+              "prompt": "Я говорю о _____ студенте. (I talk about the new student.) - prepositional",
+              "promptEnglish": "Prepositional: about whom?",
+              "options": [
+                "новом",
+                "новому",
+                "нового",
+                "новым"
+              ],
+              "answer": "новом",
+              "hint": "О + prepositional: новом.",
+              "explanation": "Prepositional masculine: новом."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она дала подарок _____ подруге. (She gave a gift to her best friend.) - dative",
+              "promptEnglish": "Dative: to whom?",
+              "options": [
+                "лучшей",
+                "лучшую",
+                "лучшая",
+                "лучшим"
+              ],
+              "answer": "лучшей",
+              "hint": "Дала + dative feminine: -ей.",
+              "explanation": "Feminine dative: лучшая → лучшей."
+            },
+            {
+              "prompt": "Она знает _____ подругу. (She knows her best friend.) - accusative",
+              "promptEnglish": "Accusative: whom does she know?",
+              "options": [
+                "лучшую",
+                "лучшей",
+                "лучшая",
+                "лучшим"
+              ],
+              "answer": "лучшую",
+              "hint": "Знает + accusative feminine: -ую.",
+              "explanation": "Accusative feminine: лучшая → лучшую."
+            },
+            {
+              "prompt": "Он написал _____ друзьям. (He wrote to his old friends.) - dative",
+              "promptEnglish": "Dative plural: to whom?",
+              "options": [
+                "старым",
+                "старых",
+                "старые",
+                "старому"
+              ],
+              "answer": "старым",
+              "hint": "Написал + dative plural: -ым.",
+              "explanation": "Plural dative: старые → старым."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я говорю о _____ друге. (I talk about my good friend.) - prepositional",
+          "contextEnglish": "Prepositional: о + -ом.",
+          "options": [
+            "хорошем",
+            "хорошему"
+          ],
+          "answer": "хорошем",
+          "explanation": "Prepositional: хорошем. Dative would be хорошему."
+        },
+        {
+          "context": "Я звоню _____ другу. (I call my good friend.) - dative",
+          "contextEnglish": "Dative: -ему.",
+          "options": [
+            "хорошему",
+            "хорошем"
+          ],
+          "answer": "хорошему",
+          "explanation": "Dative: хорошему. Prepositional would be хорошем."
+        }
+      ],
+      "translation": [
+        {
+          "sourceText": "I gave a book to the kind teacher.",
+          "targetText": "Я дал книгу доброму учителю.",
+          "hint": "Gave to (dative). Учитель = masculine: добрый → доброму.",
+          "explanation": "Dative masculine: доброму учителю.",
+          "keyWord": "доброму",
+          "options": [
+            "доброму",
+            "доброй",
+            "доброго",
+            "добрым"
+          ]
+        },
+        {
+          "sourceText": "She helps her younger sister.",
+          "targetText": "Она помогает младшей сестре.",
+          "hint": "Help (dative). Сестра = feminine: младшая → младшей.",
+          "explanation": "Dative feminine: младшей сестре.",
+          "keyWord": "младшей",
+          "options": [
+            "младшей",
+            "младшая",
+            "младшую",
+            "младшим"
+          ]
+        },
+        {
+          "sourceText": "We wrote to our new neighbors.",
+          "targetText": "Мы написали новым соседям.",
+          "hint": "Wrote to (dative). Соседи = plural: новые → новым.",
+          "explanation": "Dative plural: новым соседям.",
+          "keyWord": "новым",
+          "options": [
+            "новым",
+            "новые",
+            "новых",
+            "новому"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All dative adjective skills: masculine, feminine, plural, case contrast",
+      "descriptionRussian": "Все навыки: м., ж., мн., сравнение падежей",
+      "icon": "bolt.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы звоним _____ друзьям. (We call our good friends.)",
+              "promptEnglish": "Dative plural.",
+              "options": [
+                "хорошим",
+                "хороших",
+                "хорошему",
+                "хорошие"
+              ],
+              "answer": "хорошим",
+              "hint": "Друзья (pl), dative: -им.",
+              "explanation": "Plural soft-stem dative: хорошие → хорошим."
+            },
+            {
+              "prompt": "Она дала цветы _____ учительнице. (She gave flowers to the nice teacher.)",
+              "promptEnglish": "Dative feminine.",
+              "options": [
+                "приятной",
+                "приятную",
+                "приятная",
+                "приятным"
+              ],
+              "answer": "приятной",
+              "hint": "Учительница = feminine, dative: -ой.",
+              "explanation": "Feminine dative: приятная → приятной."
+            },
+            {
+              "prompt": "Он помогает _____ дедушке. (He helps his dear grandfather.)",
+              "promptEnglish": "Дедушка = masculine (despite -а ending), dative.",
+              "options": [
+                "дорогому",
+                "дорогой",
+                "дорогого",
+                "дорогим"
+              ],
+              "answer": "дорогому",
+              "hint": "Дедушка is masculine! Dative: -ому.",
+              "explanation": "Masculine dative (дедушка is masc): дорогой → дорогому."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я улыбнулась _____ ребёнку. (I smiled at the cheerful child.)",
+              "promptEnglish": "Dative masculine.",
+              "options": [
+                "весёлому",
+                "весёлого",
+                "весёлый",
+                "весёлым"
+              ],
+              "answer": "весёлому",
+              "hint": "Ребёнок = masculine, dative: -ому.",
+              "explanation": "Masculine dative: весёлый → весёлому."
+            },
+            {
+              "prompt": "Они написали _____ коллеге. (They wrote to their new colleague.)",
+              "promptEnglish": "Dative: коллега can be masc or fem, ending is the same here.",
+              "options": [
+                "новой",
+                "новому",
+                "нового",
+                "новым"
+              ],
+              "answer": "новой",
+              "hint": "Коллега has fem-type declension: -ой in dative.",
+              "explanation": "Коллега declines like feminine: новой коллеге."
+            },
+            {
+              "prompt": "Мы рады _____ каникулам. (We are glad for the long vacation.)",
+              "promptEnglish": "Dative plural.",
+              "options": [
+                "длинным",
+                "длинных",
+                "длинному",
+                "длинные"
+              ],
+              "answer": "длинным",
+              "hint": "Каникулы (pl only), dative: -ым.",
+              "explanation": "Plural dative: длинные → длинным."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Я помогаю новый студенту.",
+          "error": "новый",
+          "correction": "новому",
+          "explanation": "Помогать takes dative. Masculine dative: новый → новому.",
+          "options": [
+            "новому",
+            "нового",
+            "новым"
+          ]
+        },
+        {
+          "sentence": "Она звонит старшая сестре.",
+          "error": "старшая",
+          "correction": "старшей",
+          "explanation": "Звонить takes dative. Feminine dative: старшая → старшей.",
+          "options": [
+            "старшей",
+            "старшую",
+            "старшим"
+          ]
+        },
+        {
+          "sentence": "Мы рады хорошие новостям.",
+          "error": "хорошие",
+          "correction": "хорошим",
+          "explanation": "Рады takes dative. Plural dative: хорошие → хорошим.",
+          "options": [
+            "хорошим",
+            "хороших",
+            "хорошему"
+          ]
+        }
+      ]
+    }
+  ]
+}

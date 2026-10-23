@@ -1,0 +1,889 @@
+{
+  "lessonId": "b2-023-position-verbs",
+  "sets": [
+    {
+      "id": "round-1-state-vs-action-quiz",
+      "title": "State or Action?",
+      "titleRussian": "Состояние или действие?",
+      "description": "Choose the correct position verb: state (where something is) vs action (placing it there)",
+      "descriptionRussian": "Выберите правильный глагол: состояние или действие",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Ваза _____ на столе уже три дня.",
+              "promptEnglish": "The vase has been standing on the table for three days.",
+              "options": [
+                "стоит",
+                "поставила",
+                "ставит",
+                "поставит"
+              ],
+              "answer": "стоит",
+              "hint": "The vase is currently in an upright position. That is a state, not an action.",
+              "explanation": "Стоит (state) describes the vase's current upright position. No one is placing it right now."
+            },
+            {
+              "prompt": "Мама _____ цветы в вазу.",
+              "promptEnglish": "Mom put the flowers into the vase.",
+              "options": [
+                "стояла",
+                "поставила",
+                "стоит",
+                "ставила"
+              ],
+              "answer": "поставила",
+              "hint": "Someone performed the action of placing the flowers upright.",
+              "explanation": "Поставила (perfective action) means she completed the act of placing the flowers upright into the vase."
+            },
+            {
+              "prompt": "Книга _____ на полке рядом со словарём.",
+              "promptEnglish": "The book is lying on the shelf next to the dictionary.",
+              "options": [
+                "положила",
+                "лежит",
+                "кладёт",
+                "ляжет"
+              ],
+              "answer": "лежит",
+              "hint": "The book is flat on a surface. That is a state of lying.",
+              "explanation": "Лежит (state) describes the book's current flat position on the shelf."
+            },
+            {
+              "prompt": "Я _____ документы в ящик стола.",
+              "promptEnglish": "I put the documents into the desk drawer.",
+              "options": [
+                "лежу",
+                "положил",
+                "лежал",
+                "лягу"
+              ],
+              "answer": "положил",
+              "hint": "Someone performed the action of placing documents flat into a drawer.",
+              "explanation": "Положил (perfective action) means the speaker completed placing the documents into the drawer."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Картина _____ на стене в гостиной.",
+              "promptEnglish": "The painting is hanging on the living room wall.",
+              "options": [
+                "висит",
+                "повесил",
+                "вешает",
+                "повесит"
+              ],
+              "answer": "висит",
+              "hint": "The painting is currently in a suspended position. That is a state.",
+              "explanation": "Висит (state) describes the painting's current suspended position on the wall."
+            },
+            {
+              "prompt": "Рабочий _____ новую люстру в зале.",
+              "promptEnglish": "The worker hung a new chandelier in the hall.",
+              "options": [
+                "висел",
+                "повесил",
+                "висит",
+                "вешал"
+              ],
+              "answer": "повесил",
+              "hint": "The worker performed the action of hanging the chandelier.",
+              "explanation": "Повесил (perfective action) means the worker completed the act of hanging the chandelier."
+            },
+            {
+              "prompt": "Гости _____ за столом и ждут ужин.",
+              "promptEnglish": "The guests are sitting at the table, waiting for dinner.",
+              "options": [
+                "посадили",
+                "сажают",
+                "сидят",
+                "посадят"
+              ],
+              "answer": "сидят",
+              "hint": "The guests are currently in a seated position. That is a state.",
+              "explanation": "Сидят (state) describes the guests' current seated position at the table."
+            },
+            {
+              "prompt": "Официант _____ нас за лучший столик.",
+              "promptEnglish": "The waiter seated us at the best table.",
+              "options": [
+                "сидел",
+                "посадил",
+                "сидит",
+                "сажал"
+              ],
+              "answer": "посадил",
+              "hint": "The waiter performed the action of seating someone.",
+              "explanation": "Посадил (perfective action) means the waiter completed the act of seating the guests."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "Телефон _____ на диване. Не забудь его!",
+              "promptEnglish": "The phone is lying on the sofa. Don't forget it!",
+              "options": [
+                "лежит",
+                "положили",
+                "кладут",
+                "ляжет"
+              ],
+              "answer": "лежит",
+              "hint": "The phone is flat on a surface right now.",
+              "explanation": "Лежит (state) describes the phone's current flat position on the sofa."
+            },
+            {
+              "prompt": "Не _____ ноги на стол!",
+              "promptEnglish": "Don't put your feet on the table!",
+              "options": [
+                "лежи",
+                "клади",
+                "лежат",
+                "положи"
+              ],
+              "answer": "клади",
+              "hint": "This is a prohibition: don't perform the action of placing. Use the imperfective imperative for negative commands.",
+              "explanation": "Не клади (imperfective imperative) is the correct form for a negative command. In Russian, prohibitions use imperfective imperatives."
+            },
+            {
+              "prompt": "Бутылка _____ на столе рядом со стаканом.",
+              "promptEnglish": "The bottle is standing on the table next to the glass.",
+              "options": [
+                "поставили",
+                "стоит",
+                "ставит",
+                "поставит"
+              ],
+              "answer": "стоит",
+              "hint": "An upright object at rest. That is a state.",
+              "explanation": "Стоит (state) describes the bottle's current upright position on the table."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Ваза _____ на окне. (describing where it is now)",
+          "contextEnglish": "The vase is standing on the windowsill.",
+          "options": [
+            "стоит",
+            "поставили"
+          ],
+          "answer": "стоит",
+          "explanation": "Стоит (state) describes the vase's current upright position. Поставили would describe the action of placing it."
+        },
+        {
+          "context": "Вазу _____ на окно. (describing what someone did)",
+          "contextEnglish": "They put the vase on the windowsill.",
+          "options": [
+            "поставили",
+            "стоит"
+          ],
+          "answer": "поставили",
+          "explanation": "Поставили (action) describes placing the vase upright. Notice the accusative вазу and на + accusative окно for direction."
+        },
+        {
+          "context": "Пальто _____ на вешалке. (current location)",
+          "contextEnglish": "The coat is hanging on the hook.",
+          "options": [
+            "висит",
+            "повесили"
+          ],
+          "answer": "висит",
+          "explanation": "Висит (state) describes the coat's current suspended position."
+        },
+        {
+          "context": "Пальто _____ на вешалку. (completed placement)",
+          "contextEnglish": "They hung the coat on the hook.",
+          "options": [
+            "повесили",
+            "висит"
+          ],
+          "answer": "повесили",
+          "explanation": "Повесили (action) describes hanging the coat. Note на + accusative вешалку for the direction of placement."
+        },
+        {
+          "context": "Ребёнок _____ на стуле и рисует. (current position)",
+          "contextEnglish": "The child is sitting on the chair and drawing.",
+          "options": [
+            "сидит",
+            "посадили"
+          ],
+          "answer": "сидит",
+          "explanation": "Сидит (state) describes the child's current seated position."
+        },
+        {
+          "context": "Ребёнка _____ за парту. (the teacher placed the child)",
+          "contextEnglish": "They sat the child at the desk.",
+          "options": [
+            "посадили",
+            "сидит"
+          ],
+          "answer": "посадили",
+          "explanation": "Посадили (action) means someone seated the child. Note accusative ребёнка and за + accusative парту."
+        }
+      ]
+    },
+    {
+      "id": "round-2-sorting-fillin",
+      "title": "Sort and Fill In",
+      "titleRussian": "Сортировка и заполнение",
+      "description": "Categorize objects by their natural position verb and fill in the correct forms",
+      "descriptionRussian": "Распределите предметы по глаголам положения и заполните пропуски",
+      "icon": "tray.2.fill",
+      "categorySorting": {
+        "instruction": "Sort these objects by which position verb describes their natural resting state",
+        "categories": [
+          "стоять (upright)",
+          "лежать (flat)",
+          "висеть (hanging)"
+        ],
+        "items": [
+          {
+            "word": "бутылка на столе",
+            "category": "стоять (upright)"
+          },
+          {
+            "word": "газета на диване",
+            "category": "лежать (flat)"
+          },
+          {
+            "word": "картина на стене",
+            "category": "висеть (hanging)"
+          },
+          {
+            "word": "ваза на полке",
+            "category": "стоять (upright)"
+          },
+          {
+            "word": "полотенце на крючке",
+            "category": "висеть (hanging)"
+          },
+          {
+            "word": "тарелка на столе",
+            "category": "лежать (flat)"
+          },
+          {
+            "word": "лампа на тумбочке",
+            "category": "стоять (upright)"
+          },
+          {
+            "word": "шторы на окне",
+            "category": "висеть (hanging)"
+          },
+          {
+            "word": "письмо на столе",
+            "category": "лежать (flat)"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Молоко _____ в холодильнике на верхней полке. (The milk is standing in the fridge on the top shelf.)",
+          "Журналы _____ на журнальном столике. (The magazines are lying on the coffee table.)",
+          "Зеркало _____ в прихожей над вешалкой. (The mirror is hanging in the hallway above the coat rack.)",
+          "Кот _____ на подоконнике и смотрит на птиц. (The cat is sitting on the windowsill, watching birds.)",
+          "_____ сумку на стул, пожалуйста. (Put the bag on the chair, please.)",
+          "Мария _____ тарелки в шкаф после ужина. (Maria put the plates into the cupboard after dinner.)"
+        ],
+        "choices": [
+          "стоит",
+          "лежат",
+          "висит",
+          "сидит",
+          "Повесь",
+          "поставила"
+        ],
+        "answers": [
+          "стоит",
+          "лежат",
+          "висит",
+          "сидит",
+          "Повесь",
+          "поставила"
+        ],
+        "grammarFocus": "Choosing the correct position verb by object orientation and state vs action",
+        "hints": [
+          "A carton or bottle stands upright.",
+          "Flat items like magazines lie on a surface.",
+          "A mirror is attached to a wall - it hangs.",
+          "An animal on a surface is typically in a seated position.",
+          "Someone is asking you to hang the bag. Use the perfective imperative.",
+          "She completed the action of placing plates upright. Past tense, feminine."
+        ],
+        "explanations": [
+          "Стоит - milk cartons stand upright in the fridge.",
+          "Лежат - magazines are flat objects that lie on surfaces.",
+          "Висит - a mirror on a wall hangs (is suspended).",
+          "Сидит - animals in a resting position 'sit' in Russian.",
+          "Повесь - perfective imperative of повесить. You hang a bag on a chair back.",
+          "Поставила - she placed the plates upright into the cupboard (feminine past perfective)."
+        ],
+        "options": [
+          [
+            "стоит",
+            "сидит",
+            "лежит",
+            "висит"
+          ],
+          [
+            "стоят",
+            "сидят",
+            "лежат",
+            "висят"
+          ],
+          [
+            "сидит",
+            "висит",
+            "стоит",
+            "лежит"
+          ],
+          [
+            "стоит",
+            "висит",
+            "сидит",
+            "лежит"
+          ],
+          [
+            "сиди",
+            "лежи",
+            "стой",
+            "Повесь"
+          ],
+          [
+            "сидела",
+            "лежала",
+            "поставила",
+            "стояла"
+          ]
+        ]
+      },
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which verb describes the natural position of a painting on a wall?",
+              "promptEnglish": "Which verb describes the natural position of a painting on a wall?",
+              "options": [
+                "лежит",
+                "стоит",
+                "висит",
+                "сидит"
+              ],
+              "answer": "висит",
+              "hint": "A painting is attached to a wall, suspended.",
+              "explanation": "Висит - paintings hang on walls. They are suspended, not standing or lying."
+            },
+            {
+              "prompt": "Тарелки _____ в шкафу на полке.",
+              "promptEnglish": "The plates are standing in the cupboard on the shelf.",
+              "options": [
+                "висят",
+                "лежат",
+                "стоят",
+                "сидят"
+              ],
+              "answer": "стоят",
+              "hint": "Plates stored upright on a shelf are in a standing position.",
+              "explanation": "Стоят - plates stacked or stored upright on shelves 'stand' in Russian."
+            },
+            {
+              "prompt": "Собака _____ у двери и ждёт прогулки.",
+              "promptEnglish": "The dog is sitting by the door, waiting for a walk.",
+              "options": [
+                "стоит",
+                "лежит",
+                "висит",
+                "сидит"
+              ],
+              "answer": "сидит",
+              "hint": "An animal waiting in an alert resting position sits.",
+              "explanation": "Сидит - dogs in a resting but alert posture 'sit' in Russian."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-transform-errorcorrect",
+      "title": "Transform and Correct",
+      "titleRussian": "Трансформация и исправление",
+      "description": "Convert between state and action descriptions and find errors in position verb usage",
+      "descriptionRussian": "Переведите описание из состояния в действие и найдите ошибки",
+      "icon": "arrow.triangle.2.circlepath",
+      "errorCorrection": [
+        {
+          "sentence": "Ваза лежит на столе рядом с цветами.",
+          "error": "лежит",
+          "correction": "стоит",
+          "hint": "A vase is an upright object. Which verb describes upright position?",
+          "explanation": "A vase is tall and upright, so it стоит (stands), not лежит (lies). Лежит would mean the vase is on its side.",
+          "options": [
+            "стоит",
+            "висит",
+            "сидит"
+          ]
+        },
+        {
+          "sentence": "Я поставил документы в папку.",
+          "error": "поставил",
+          "correction": "положил",
+          "hint": "Documents go flat into a folder. Which action verb is for flat placement?",
+          "explanation": "Documents are flat and go into a folder horizontally, so the correct verb is положил (placed flat), not поставил (placed upright).",
+          "options": [
+            "положил",
+            "повесил",
+            "посадил"
+          ]
+        },
+        {
+          "sentence": "Картина стоит на стене в спальне.",
+          "error": "стоит",
+          "correction": "висит",
+          "hint": "A painting on a wall is suspended, not standing upright.",
+          "explanation": "A painting attached to a wall висит (hangs). Стоит would mean it is standing upright on a surface, like propped against something on the floor.",
+          "options": [
+            "висит",
+            "лежит",
+            "сидит"
+          ]
+        },
+        {
+          "sentence": "Мама висела ребёнка на стул.",
+          "error": "висела",
+          "correction": "посадила",
+          "hint": "Placing a person onto a chair is seating, not hanging.",
+          "explanation": "Посадила (seated) is the correct action verb for placing someone in a sitting position. Висеть/вешать refers to hanging objects.",
+          "options": [
+            "посадила",
+            "положила",
+            "поставила"
+          ]
+        },
+        {
+          "sentence": "Кот лежит на стуле и смотрит в окно.",
+          "error": "лежит",
+          "correction": "сидит",
+          "hint": "An alert animal watching something is in a sitting posture, not lying down.",
+          "explanation": "An alert cat watching birds сидит (sits). Лежит would mean the cat is stretched out flat and relaxed. The phrase 'смотрит в окно' suggests an alert, upright posture.",
+          "options": [
+            "сидит",
+            "стоит",
+            "висит"
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я _____ книгу на полку. (completed the action of placing it flat)",
+          "contextEnglish": "I put the book on the shelf.",
+          "options": [
+            "положил",
+            "поставил"
+          ],
+          "answer": "положил",
+          "explanation": "Положил - placing a book flat on a shelf. Поставил would mean placing it upright (spine visible)."
+        },
+        {
+          "context": "Я _____ книгу на полку. (placed it upright, spine out)",
+          "contextEnglish": "I stood the book up on the shelf.",
+          "options": [
+            "поставил",
+            "положил"
+          ],
+          "answer": "поставил",
+          "explanation": "Поставил - placing a book upright on a shelf so the spine faces out, like in a library."
+        },
+        {
+          "context": "Бельё _____ на верёвке. (current state after being hung)",
+          "contextEnglish": "The laundry is hanging on the line.",
+          "options": [
+            "висит",
+            "повесили"
+          ],
+          "answer": "висит",
+          "explanation": "Висит (state) describes the laundry's current position on the clothesline."
+        },
+        {
+          "context": "Бельё _____ на верёвку утром. (the action of hanging it up)",
+          "contextEnglish": "They hung the laundry on the line in the morning.",
+          "options": [
+            "повесили",
+            "висит"
+          ],
+          "answer": "повесили",
+          "explanation": "Повесили (action) describes the completed act of hanging the laundry on the line. Note на + accusative верёвку for direction."
+        }
+      ]
+    },
+    {
+      "id": "round-4-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Построение и перевод",
+      "description": "Assemble sentences with position verbs and translate between Russian and English",
+      "descriptionRussian": "Составьте предложения с глаголами положения и переведите",
+      "icon": "hammer.fill",
+      "translation": [
+        {
+          "english": "The cat is sitting on the windowsill and watching the birds.",
+          "answer": "Кот сидит на подоконнике и смотрит на птиц.",
+          "acceptableVariants": [
+            "Кошка сидит на подоконнике и смотрит на птиц.",
+            "Кот сидит на подоконнике и наблюдает за птицами."
+          ],
+          "hint": "Seated animal = сидит. Location = на + prepositional.",
+          "grammarFocus": "State verb сидеть for seated position",
+          "keyWord": "сидит",
+          "options": [
+            "сидит",
+            "стоит",
+            "лежит",
+            "сидел"
+          ]
+        },
+        {
+          "english": "I hung the new curtains in the bedroom.",
+          "answer": "Я повесил новые шторы в спальне.",
+          "acceptableVariants": [
+            "Я повесила новые шторы в спальне.",
+            "В спальне я повесил новые шторы."
+          ],
+          "hint": "Action of suspending = повесил/повесила.",
+          "grammarFocus": "Action verb повесить for hanging",
+          "keyWord": "повесил",
+          "options": [
+            "повесил",
+            "поставил",
+            "положил",
+            "вешал"
+          ]
+        },
+        {
+          "english": "Don't put the book on the floor! Put it on the shelf.",
+          "answer": "Не клади книгу на пол! Положи её на полку.",
+          "acceptableVariants": [
+            "Не клади книгу на пол! Положи на полку."
+          ],
+          "hint": "Negative command = не + imperfective imperative (клади). Positive command = perfective imperative (положи).",
+          "grammarFocus": "Imperfective vs perfective imperatives with position verbs",
+          "keyWord": "клади",
+          "options": [
+            "клади",
+            "положи",
+            "ставь",
+            "клал"
+          ]
+        },
+        {
+          "english": "The plates are standing in the cupboard on the top shelf.",
+          "answer": "Тарелки стоят в шкафу на верхней полке.",
+          "acceptableVariants": [
+            "В шкафу на верхней полке стоят тарелки."
+          ],
+          "hint": "Upright objects = стоят. Location uses prepositional case.",
+          "grammarFocus": "State verb стоять for upright objects",
+          "keyWord": "стоят",
+          "options": [
+            "стоят",
+            "лежат",
+            "висят",
+            "стоит"
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ пальто на вешалку, когда приходишь домой. (Hang your coat on the hook when you come home.)",
+          "Не _____ чашку на край стола! (Don't put the cup on the edge of the table!)",
+          "Учитель _____ учеников по парам. (The teacher seated the students in pairs.)",
+          "Где _____ мой телефон? (Where is my phone lying?)",
+          "Мой телефон? На диване _____. (It's lying on the sofa.)"
+        ],
+        "choices": [
+          "Вешай",
+          "ставь",
+          "посадил",
+          "лежит / лежит"
+        ],
+        "answers": [
+          "Вешай",
+          "ставь",
+          "посадил",
+          "лежит",
+          "лежит"
+        ],
+        "grammarFocus": "Imperatives and correct verb choice for different positions",
+        "hints": [
+          "A habitual instruction (when you come home) uses imperfective imperative of вешать.",
+          "Negative command for placing a cup upright uses imperfective imperative of ставить.",
+          "The teacher completed the action of seating students.",
+          "A phone on a sofa is flat. Use the state verb for lying."
+        ],
+        "explanations": [
+          "Вешай - imperfective imperative for a habitual instruction: always hang your coat when you arrive.",
+          "Ставь - не + imperfective imperative (не ставь) for a prohibition. A cup stands upright.",
+          "Посадил - perfective past, the teacher completed the action of seating the students.",
+          "Лежит - a phone is a flat object lying on the sofa. The state verb лежит describes its current position."
+        ],
+        "options": [
+          [
+            "вешает",
+            "вешаю",
+            "Вешай",
+            "вешаешь"
+          ],
+          [
+            "ставит",
+            "ставлю",
+            "ставь",
+            "ставишь"
+          ],
+          [
+            "посадил",
+            "поставил",
+            "положил",
+            "повесил"
+          ],
+          [
+            "лежит",
+            "лежишь",
+            "лежу",
+            "лежим"
+          ],
+          [
+            "лежу",
+            "лежим",
+            "лежишь",
+            "лежит"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All position verb topics combined in varied exercises",
+      "descriptionRussian": "Все темы глаголов положения в разных типах заданий",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Почему чемодан _____ посреди комнаты? Убери его!",
+              "promptEnglish": "Why is the suitcase standing in the middle of the room? Move it!",
+              "options": [
+                "лежит",
+                "стоит",
+                "висит",
+                "сидит"
+              ],
+              "answer": "стоит",
+              "hint": "A suitcase is typically upright.",
+              "explanation": "Стоит - a suitcase is a tall, upright object that 'stands' in Russian."
+            },
+            {
+              "prompt": "_____ тарелки на стол, ужин скоро. (Place the plates on the table.)",
+              "promptEnglish": "Put the plates on the table, dinner is soon.",
+              "options": [
+                "Положи",
+                "Повесь",
+                "Поставь",
+                "Посади"
+              ],
+              "answer": "Поставь",
+              "hint": "Plates are placed upright/flat-upright on a table. Use the perfective imperative.",
+              "explanation": "Поставь - plates are placed on a table in an upright position (ставить). Perfective imperative for a specific one-time instruction."
+            },
+            {
+              "prompt": "Где моя сумка? — Она _____ на стуле в коридоре.",
+              "promptEnglish": "Where is my bag? - It's hanging on the chair in the hallway.",
+              "options": [
+                "стоит",
+                "лежит",
+                "висит",
+                "сидит"
+              ],
+              "answer": "висит",
+              "hint": "A bag draped over a chair back is hanging.",
+              "explanation": "Висит - a bag on a chair is typically hanging from the backrest, so it 'hangs' in Russian."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Бабушка _____ в кресле и вяжет шарф.",
+              "promptEnglish": "Grandma is sitting in the armchair, knitting a scarf.",
+              "options": [
+                "лежит",
+                "стоит",
+                "висит",
+                "сидит"
+              ],
+              "answer": "сидит",
+              "hint": "A person in a chair is in a seated position.",
+              "explanation": "Сидит - a person in an armchair is seated. This is the state verb for the sitting position."
+            },
+            {
+              "prompt": "Я _____ все фотографии на стену в кабинете.",
+              "promptEnglish": "I hung all the photographs on the wall in the office.",
+              "options": [
+                "поставил",
+                "положил",
+                "посадил",
+                "повесил"
+              ],
+              "answer": "повесил",
+              "hint": "Photos go on a wall. What verb describes the action of suspending something?",
+              "explanation": "Повесил - the action of attaching photos to a wall is hanging (повесить)."
+            },
+            {
+              "prompt": "Снег _____ на земле с утра.",
+              "promptEnglish": "Snow has been lying on the ground since morning.",
+              "options": [
+                "стоит",
+                "висит",
+                "лежит",
+                "сидит"
+              ],
+              "answer": "лежит",
+              "hint": "Snow covers the ground in a flat layer.",
+              "explanation": "Лежит - snow lies on the ground as a flat covering. This is one of the most natural uses of лежать."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "Туман _____ над рекой всё утро.",
+              "promptEnglish": "Fog hung over the river all morning.",
+              "options": [
+                "стоял",
+                "лежал",
+                "висел",
+                "сидел"
+              ],
+              "answer": "висел",
+              "hint": "Fog is suspended in the air above the river.",
+              "explanation": "Висел - fog 'hangs' in the air. This is a common figurative use of висеть for suspended atmospheric phenomena."
+            },
+            {
+              "prompt": "_____ ребёнка в детское кресло в машине.",
+              "promptEnglish": "Put the child in the car seat.",
+              "options": [
+                "Поставь",
+                "Положи",
+                "Повесь",
+                "Посади"
+              ],
+              "answer": "Посади",
+              "hint": "Placing a child in a seat means seating them.",
+              "explanation": "Посади - the perfective imperative of посадить. Seating a child in a car seat is the action of placing someone in a sitting position."
+            },
+            {
+              "prompt": "Велосипед _____ у стены в гараже.",
+              "promptEnglish": "The bicycle is standing by the wall in the garage.",
+              "options": [
+                "лежит",
+                "висит",
+                "стоит",
+                "сидит"
+              ],
+              "answer": "стоит",
+              "hint": "A bicycle leaning upright against a wall is in a standing position.",
+              "explanation": "Стоит - a bicycle is an upright object. Even leaning against a wall, it 'stands' in Russian."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Зонт стоит на вешалке у двери.",
+          "error": "стоит",
+          "correction": "висит",
+          "hint": "An umbrella on a hook or coat rack is hanging, not standing.",
+          "explanation": "An umbrella hooked on a coat rack висит (hangs). It would стоит only if placed upright in an umbrella stand.",
+          "options": [
+            "висит",
+            "лежит",
+            "сидит"
+          ]
+        },
+        {
+          "sentence": "Я повесил стаканы на полку.",
+          "error": "повесил",
+          "correction": "поставил",
+          "hint": "Glasses go on a shelf upright. They are not suspended.",
+          "explanation": "Glasses are placed upright on a shelf (поставил), not hung (повесил). Повесить is for objects that are suspended.",
+          "options": [
+            "поставил",
+            "положил",
+            "посадил"
+          ]
+        },
+        {
+          "sentence": "Положи пальто на вешалку, пожалуйста.",
+          "error": "Положи",
+          "correction": "Повесь",
+          "hint": "A coat goes on a hook or hanger. That means it will hang.",
+          "explanation": "A coat on a вешалка (coat rack/hanger) is hung, not laid flat. The correct imperative is повесь (from повесить).",
+          "options": [
+            "Повесь",
+            "Поставь",
+            "Посади"
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Ваза стоит. / Бутылка стоит. / Лампа стоит. / Чемодан стоит.",
+          "question": "What physical characteristic unites all the objects that 'stand'?",
+          "options": [
+            "They are flat",
+            "They are attached to a wall",
+            "They are upright or tall",
+            "They are alive"
+          ],
+          "answer": "They are upright or tall",
+          "explanation": "All these objects are taller than they are wide and rest in an upright position. Стоять is for vertically oriented objects."
+        },
+        {
+          "sentence": "Книга лежит. / Газета лежит. / Письмо лежит. / Полотенце лежит.",
+          "question": "What do all these objects have in common?",
+          "options": [
+            "They are suspended in the air",
+            "They are flat and resting on a surface",
+            "They are round",
+            "They are upright"
+          ],
+          "answer": "They are flat and resting on a surface",
+          "explanation": "All these objects are flat and rest horizontally on a surface. Лежать describes a flat, horizontal resting position."
+        },
+        {
+          "sentence": "State: стоит на столе. Action: поставил на стол. State: лежит в ящике. Action: положил в ящик.",
+          "question": "What grammatical change happens to the location phrase when switching from state to action?",
+          "options": [
+            "Nothing changes",
+            "The preposition changes to без",
+            "Prepositional case changes to accusative case",
+            "The verb becomes reflexive"
+          ],
+          "answer": "Prepositional case changes to accusative case",
+          "explanation": "State verbs use prepositional case for location (на столе, в ящике). Action verbs use accusative case for direction (на стол, в ящик). This mirrors the Russian location vs direction distinction."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "id": "b2-track-particles-06-word-order",
+  "level": "B2",
+  "focusArea": "sentenceStructure",
+  "title": "Particles 7: Word Order and Stacking",
+  "titleRussian": "Частицы 7: порядок слов и сочетание частиц",
+  "description": "Where particles sit. же and ли lean on the word in front of them and never begin a clause; ведь, вот, разве, неужели are freer and often lead. This lesson drills placement and the order in which particles stack.",
+  "descriptionRussian": "Где стоят частицы. же и ли опираются на слово перед собой и никогда не начинают предложение; ведь, вот, разве, неужели свободнее и часто стоят в начале. Этот урок отрабатывает положение частиц и порядок их сочетания.",
+  "imageName": "arrow.left.arrow.right",
+  "trackId": "b2-particles-mastery",
+  "trackTitle": "Particles Mastery",
+  "trackTitleRussian": "Частицы",
+  "trackIndex": 7,
+  "trackTotal": 8,
+  "intro": "Position is not decoration here. For the two particles that lean on a word, moving them moves the emphasis, so the same words in a different order ask a different question. The free-standing ones are less fussy. There is also a stacking etiquette: use one reminder particle at a time, because two makes the sentence sound like it is trying too hard.",
+  "rules": [
+    "же and ли lean on the word before them: they never begin a clause and attach right after the first stressed (focused) word. *Же куда ты идёшь and *Ли ты знаешь are impossible.",
+    "Moving же or ли moves the focus. ли: Знаешь ли ты? (questions the verb) vs Ты ли знаешь? (questions the subject). же: Куда же...? (emphasis on куда) vs Ты же...! (emphasis on ты).",
+    "ведь, вот, разве, неужели are freer, stressable words. разве/неужели usually lead the sentence; ведь can lead or sit before the verb; вот stands right before what it presents.",
+    "In a stack, ну leads (ну вот, ну же, ну ведь). Use only ONE reminder particle at a time, же OR ведь, not both, or it sounds clumsy.",
+    "разве and неужели never combine with ли. Keep stacks short and let ну introduce them: Ну же, иди! ('Come on, go!')."
+  ],
+  "examples": [
+    "Знаешь ли ты ответ? (Do you know the answer?) ли clips after the fronted verb знаешь, never first.",
+    "Куда же ты идёшь? (Where on earth are you going?) же sits right after the focused question word.",
+    "Разве ты не знал? (You didn't know?) разве leads the whole sentence.",
+    "Он ведь знает дорогу. (He knows the way, after all.) ведь sits before the verb, but could also lead.",
+    "Ну же, иди! (Come on, go!) ну leads, же urges; a fixed colloquial stack.",
+    "Вот почему он опоздал. (That's why he was late.) вот stands directly before what it presents."
+  ],
+  "tables": [
+    {
+      "title": "Placement by particle",
+      "headers": [
+        "Particle",
+        "Can it start a clause?",
+        "Typical slot"
+      ],
+      "rows": [
+        {
+          "label": "же (leans)",
+          "cells": [
+            "No",
+            "after the first stressed/focused word"
+          ]
+        },
+        {
+          "label": "ли (leans)",
+          "cells": [
+            "No",
+            "after the fronted/questioned word"
+          ]
+        },
+        {
+          "label": "ведь",
+          "cells": [
+            "Yes",
+            "front of clause or before the verb"
+          ]
+        },
+        {
+          "label": "вот",
+          "cells": [
+            "Yes",
+            "directly before what it presents"
+          ]
+        },
+        {
+          "label": "разве / неужели",
+          "cells": [
+            "Yes (usually)",
+            "lead the sentence"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Which is correctly placed?",
+          "promptEnglish": "Pick the grammatical sentence.",
+          "options": [
+            "Же куда ты идёшь?",
+            "Куда ты же идёшь?",
+            "Куда ты идёшь же?",
+            "Куда же ты идёшь?"
+          ],
+          "answer": "Куда же ты идёшь?",
+          "hint": "же leans on the word before it: right after the first stressed word, never first.",
+          "explanation": "же clips in right after the focused question word: Куда же ты идёшь? It can never begin the clause (Же куда...), it should not split off from the focus (Куда ты же...), and since it leans on the word in front it does not drift to the very end (...идёшь же). Right after the first stressed word is the rule."
+        },
+        {
+          "prompt": "Where does ли go in a direct yes-no question about the verb 'know'?",
+          "promptEnglish": "Do you know the answer? (formal)",
+          "options": [
+            "Ли ты знаешь ответ?",
+            "Знаешь ли ты ответ?",
+            "Ты знаешь ответ ли?",
+            "Ты ли знаешь ответ?"
+          ],
+          "answer": "Знаешь ли ты ответ?",
+          "hint": "Front the word being questioned (the verb), then clip ли right after it.",
+          "explanation": "To question the action, front the verb and attach ли: Знаешь ли ты ответ?Ли cannot begin the clause (Ли ты...) and, leaning on the word before it, does not float to the end (...ответ ли). Note that Ты ли знаешь ответ?Is also grammatical but shifts the focus to the subject ('Is it YOU who knows?'), a different question."
+        },
+        {
+          "prompt": "Which particle is allowed to begin the sentence?",
+          "promptEnglish": "Pick the particle that can lead a clause.",
+          "options": [
+            "Же",
+            "Ли",
+            "Разве",
+            "(none can)"
+          ],
+          "answer": "Разве",
+          "hint": "The leaning particles never start a clause; the freer ones can.",
+          "explanation": "разве is a free, stressable particle and typically leads the sentence (Разве ты не знал?).Же and ли lean on the word in front and can never begin a clause. The freer group (ведь, вот, разве, неужели) leads; же and ли sit right after the first stressed word."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "How does focus differ: 'Видел ли он это?' vs 'Он ли видел это?'",
+          "promptEnglish": "What changes when you move ли?",
+          "options": [
+            "They mean exactly the same",
+            "First questions whether he saw it; second questions whether it was HE who saw it",
+            "The second is ungrammatical",
+            "ли changes the tense"
+          ],
+          "answer": "First questions whether he saw it; second questions whether it was HE who saw it",
+          "hint": "ли attaches to the word in focus; moving it moves the question's focus.",
+          "explanation": "ли clips onto the word being questioned. Видел ли он это?Fronts the verb, asking whether the seeing happened. Он ли видел это?Fronts the subject, asking whether it was HE (rather than someone else). Both are grammatical; the placement of ли redirects the focus.Ли never changes the tense, and the second sentence is perfectly grammatical."
+        },
+        {
+          "prompt": "Urge someone to act with a fixed colloquial stack: 'Come on, go!'",
+          "promptEnglish": "Come on, go!",
+          "options": [
+            "Же ну, иди!",
+            "Ли ну, иди!",
+            "Ну же, иди!",
+            "Иди же ну!"
+          ],
+          "answer": "Ну же, иди!",
+          "hint": "In a stack, ну leads; же urges.",
+          "explanation": "Ну же, иди!Is the set urging stack: ну leads, же follows and pushes for action.Же cannot precede ну (Же ну is wrong), ли does not urge, and Иди же ну reorders the fixed pair awkwardly.Ну always leads a particle stack."
+        },
+        {
+          "prompt": "Which stack of reminder particles sounds clumsy and should be trimmed to one?",
+          "promptEnglish": "Pick the over-stacked version to avoid.",
+          "options": [
+            "Ты же обещал.",
+            "Ты же ведь обещал.",
+            "Ты ведь обещал.",
+            "Ну ты же обещал."
+          ],
+          "answer": "Ты же ведь обещал.",
+          "hint": "Use only ONE reminder particle (же OR ведь), not both.",
+          "explanation": "Stacking both же and ведь (Ты же ведь обещал) doubles up two reminder particles and sounds clumsy. Pick one: Ты же обещал (sharp) or Ты ведь обещал (soft). Ну ты же обещал is fine because ну is a different kind of opener, not a second reminder particle."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "_____ обещал помочь.",
+          "promptEnglish": "You promised to help, didn't you (sharp reminder).",
+          "options": [
+            "Ты же",
+            "Же ты",
+            "Ты же ведь бы",
+            "Ты ли же"
+          ],
+          "answer": "Ты же",
+          "hint": "же leans on the word before it.",
+          "explanation": "Же clips onto the focused subject: Ты же обещал. Же can never start the clause; stacking же with ведь or ли is not natural Russian."
+        },
+        {
+          "prompt": "_____ он письмо?",
+          "promptEnglish": "Did he see the letter? (formal, verb questioned)",
+          "options": [
+            "Видел ли",
+            "Ли видел",
+            "Видел же",
+            "Разве ли видел"
+          ],
+          "answer": "Видел ли",
+          "hint": "The questioned verb fronts; ли follows.",
+          "explanation": "The formal yes/no question is verb + ли: Видел ли он письмо? Ли never leads; же makes an emphatic statement; разве ли doubles the question markers."
+        },
+        {
+          "prompt": "_____ делаешь?",
+          "promptEnglish": "What on earth are you doing?",
+          "options": [
+            "Что же ты",
+            "Же что ты",
+            "Что ты же",
+            "Что вот ты"
+          ],
+          "answer": "Что же ты",
+          "hint": "же after the fronted question word adds 'on earth'.",
+          "explanation": "Же clips onto the question word for surprised emphasis: Что же ты делаешь? Же cannot lead; ли же stacks illegally; вот does not intensify questions."
+        }
+      ]
+    }
+  ],
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Куда",
+        "же",
+        "ты",
+        "идёшь"
+      ],
+      "answer": "Куда же ты идёшь",
+      "translation": "Where on earth are you going?",
+      "hint": "же leans on the word before it: put it right after the focused question word куда, then the rest follows."
+    },
+    {
+      "words": [
+        "Знаешь",
+        "ли",
+        "ты",
+        "ответ"
+      ],
+      "answer": "Знаешь ли ты ответ",
+      "translation": "Do you know the answer?",
+      "hint": "To question the verb, front it and clip ли right after it; ли can never start the clause."
+    },
+    {
+      "words": [
+        "Он",
+        "ведь",
+        "знает",
+        "дорогу"
+      ],
+      "answer": "Он ведь знает дорогу",
+      "translation": "He knows the way, after all.",
+      "hint": "ведь is freer; here it sits before the verb, after the subject."
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Ты _____ обещал помочь, не забудь. (You did promise to help, don't forget.)"
+    ],
+    "choices": [
+      "же",
+      "ли",
+      "вот",
+      "разве"
+    ],
+    "answers": [
+      "же"
+    ],
+    "grammarFocus": "же clips in right after the focused pronoun ты, reminding with emphasis ('you DID promise').Ли would make a question, вот is a pointer, разве adds disbelief.Же must sit right after ты, never first.",
+    "hints": [
+      "Right after ты, emphasizing a reminder. Which particle fits, and where must it sit?"
+    ],
+    "explanations": [
+      "же clips in right after the focused ты: Ты же обещал ('you DID promise'). It cannot begin the clause and cannot drift away from ты. ли would form a question, вот would point, разве would add disbelief; none of those is the emphatic reminder needed here."
+    ]
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Же что ты собираешься делать со всеми этими старыми вещами?",
+      "translationEnglish": "So what on earth are you going to do with all these old things?",
+      "error": "Же что",
+      "correction": "Что же",
+      "options": [
+        "Что же",
+        "Ведь что",
+        "Что ли"
+      ],
+      "explanation": "же never begins a clause; it must sit right after the focused word, so the question word что leads and же follows: Что же ты собираешься делать? Putting же first (Же что) is impossible. Ведь что is wrong because ведь does not attach to a question word to emphasize it this way and would shift toward reasoning. Что ли is a real colloquial tag but it questions the whole idea ('what, or something?'), not the emphatic 'what on earth' the gloss expresses."
+    },
+    {
+      "sentence": "Разве знаешь ли ты, как трудно было всё это организовать?",
+      "translationEnglish": "Do you really know how hard it was to organize all this?",
+      "error": "Разве знаешь ли ты",
+      "correction": "Разве ты знаешь",
+      "options": [
+        "Разве ты знаешь",
+        "Знаешь ли разве ты",
+        "Разве ли ты знаешь"
+      ],
+      "explanation": "разве already makes the sentence a charged yes-no question, so it never combines with the question particle ли: say Разве ты знаешь?, not Разве знаешь ли ты. The remaining options all keep the forbidden ли somewhere in the clause, but the fix is to drop ли entirely, not relocate it. A plain Знаешь ли ты?Without разве would be a neutral question, but the disbelieving 'really' of the gloss calls for разве alone."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Order the particle: '_____ ты идёшь?' meaning 'Where on earth are you going?' Choose the correct opening.",
+      "contextEnglish": "Where on earth are you going?",
+      "options": [
+        "Куда же",
+        "Же куда"
+      ],
+      "answer": "Куда же",
+      "explanation": "же leans on the word in front and must sit right after the first stressed word: Куда же ты идёшь? Же куда is impossible because же can never begin a clause. The focus word (куда) comes first, then же clips on behind it."
+    },
+    {
+      "context": "Lead a stack correctly: '_____, иди!' meaning 'Come on, go!'",
+      "contextEnglish": "Come on, go!",
+      "options": [
+        "Ну же",
+        "Же ну"
+      ],
+      "answer": "Ну же",
+      "explanation": "In a particle stack, ну leads and же follows: Ну же, иди! Же ну reverses the fixed order and is wrong, because же cannot occupy first position.Ну is the opener; же leans on it."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Что же он имел в виду?",
+      "question": "Why is же in this exact position?",
+      "options": [
+        "It leans on the word before it and must follow the first stressed word (the question word что)",
+        "It can stand anywhere in the sentence",
+        "It is starting the clause",
+        "It marks an indefinite word"
+      ],
+      "answer": "It leans on the word before it and must follow the first stressed word (the question word что)",
+      "explanation": "же leans on the word in front of it and lands right after the first stressed word, here the question word что. It cannot lead the clause and cannot roam freely. That fixed slot right after the focused word is exactly what makes же behave almost like a suffix."
+    },
+    {
+      "sentence": "Вот почему я ведь так волновался.",
+      "question": "What is the placement issue in this constructed sentence?",
+      "options": [
+        "It stacks two markers awkwardly; вот почему and ведь fight for the same job, so drop one",
+        "вот must come last",
+        "ведь cannot appear before a verb",
+        "почему must take ли"
+      ],
+      "answer": "It stacks two markers awkwardly; вот почему and ведь fight for the same job, so drop one",
+      "explanation": "Вот почему... already presents the reason clearly; adding ведь on top piles a second stance marker into one short clause and sounds cluttered. Natural Russian would say Вот почему я так волновался (presenting the reason) or Я ведь так волновался (appealing to shared knowledge), not both at once. Keep particle stacks short and purposeful."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "же, ли (placement)",
+      "definition": "же and ли lean on the word in front of them: they never begin a clause and clip in right after the first stressed (focused) word. Moving them moves the focus or breaks the sentence.",
+      "example": "Куда же ты идёшь? / Знаешь ли ты ответ? (never Же куда..., Ли ты...)."
+    },
+    {
+      "term": "ведь, вот, разве, неужели (placement)",
+      "definition": "stressable, mobile words. разве/неужели usually lead the sentence; ведь leads or precedes the verb; вот stands right before what it presents. They are not pinned to the spot after the first word.",
+      "example": "Разве ты не знал? / Он ведь знает. / Вот почему я опоздал."
+    },
+    {
+      "term": "ну же / ну вот (stacking)",
+      "definition": "Particle stacks follow fixed habits: ну leads (ну вот, ну же, ну ведь). Use only ONE reminder particle (же OR ведь), never both. разве/неужели never combine with ли.",
+      "example": "Ну же, иди! / Ты ведь обещал (not Ты же ведь обещал)."
+    }
+  ]
+}

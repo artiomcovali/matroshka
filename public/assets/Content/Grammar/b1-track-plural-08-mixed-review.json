@@ -1,0 +1,370 @@
+{
+  "id": "b1-track-plural-08-mixed-review",
+  "level": "B1",
+  "focusArea": "cases",
+  "title": "Plural 8: All Six Cases Together",
+  "titleRussian": "Множественное число 8: Шесть падежей вместе",
+  "description": "A mixed review of the regular plural endings across all six cases (lessons 1-7). Pick the right plural form for the job, name the case at work, and produce a few forms yourself. No new material.",
+  "descriptionRussian": "Повторение регулярных окончаний множественного числа во всех шести падежах (уроки 1-7). Выберите нужную форму, определите падеж и образуйте несколько форм самостоятельно. Ничего нового.",
+  "imageName": "checkmark.seal",
+  "trackId": "b1-plural-cases-mastery",
+  "trackTitle": "Plural Cases Mastery",
+  "trackTitleRussian": "Множественное число — все падежи",
+  "trackIndex": 8,
+  "trackTotal": 11,
+  "intro": "All six cases at once, and by now the decision tree is short. Is it the genitive, which needs a gender check and possibly a vanished vowel? Is it the accusative, where you ask whether the noun is alive? Or is it one of the three that take a single ending regardless. Three of the six are that last kind.",
+  "rules": [
+    "Plural nominative (L1): hard stems → -ы (журналы, машины), soft → -и (словари, песни), neuter → -а / -я (окна, моря). Four endings, picked by gender and hard / soft.",
+    "Plural accusative (L2): inanimate plural acc = pl nom (читает книги); animate plural acc = pl gen (знает друзей). Animacy split applies to ALL three genders in the plural.",
+    "Plural genitive (L3 + L4): masc -ов / -ев / -ей (журналов, музеев, учителей, врачей); fem -а / hard neuter -о → zero ending (книг, окон), soft fem / soft neuter → -ей (тетрадей, морей). Family-pl masc splits two ways: -ьев for брат / стул (братьев, стульев), -ей for друг / сын (друзей, сыновей).",
+    "Plural dative (L5): one ending across all three genders. Hard → -ам, soft → -ям. Family-pl → -ьям; suppletive дети / люди → детям / людям.",
+    "Plural instrumental (L6): one ending across all three genders. Hard → -ами, soft → -ями. Family-pl → -ьями; suppletive дети / люди / лошади → contracted -ьми (детьми, людьми, лошадьми).",
+    "Plural prepositional (L7): one ending across all three genders. Hard → -ах, soft → -ях. Family-pl → -ьях; suppletive дети / люди → детях / людях. Always after a preposition (в, на, о / об, при)."
+  ],
+  "examples": [
+    "Антон часто думает о книгах. (Anton often thinks about books.) Prepositional pl after о, hard feminine -ах: книгах.",
+    "Лена помогает студентам. (Lena helps the students.) Dative pl after помогать, hard masculine -ам: студентам.",
+    "Ольга гордится результатами. (Olga is proud of the results.) Instrumental pl, hard masculine -ами: результатами.",
+    "В офисе пять столов. (There are five desks in the office.) Genitive pl after пять, hard masculine -ов: столов.",
+    "Антон видит соседей. (Anton sees the neighbours.) Animate accusative pl copies the genitive: соседей.",
+    "В городе красивые улицы. (In the city there are beautiful streets.) Nominative pl subject, hard feminine -ы: улицы."
+  ],
+  "tables": [
+    {
+      "title": "All Six Plural Cases (Regular Endings)",
+      "headers": [
+        "Case",
+        "Hard stem",
+        "Soft stem"
+      ],
+      "rows": [
+        {
+          "label": "Nominative",
+          "cells": [
+            "-ы (журналы)",
+            "-и (словари)"
+          ]
+        },
+        {
+          "label": "Accusative (thing)",
+          "cells": [
+            "= nom (журналы)",
+            "= nom (словари)"
+          ]
+        },
+        {
+          "label": "Accusative (person / animal)",
+          "cells": [
+            "= gen (студентов)",
+            "= gen (учителей)"
+          ]
+        },
+        {
+          "label": "Genitive",
+          "cells": [
+            "-ов / zero (столов / книг)",
+            "-ей / zero (словарей / тетрадей)"
+          ]
+        },
+        {
+          "label": "Dative",
+          "cells": [
+            "-ам (столам)",
+            "-ям (словарям)"
+          ]
+        },
+        {
+          "label": "Instrumental",
+          "cells": [
+            "-ами (столами)",
+            "-ями (словарями)"
+          ]
+        },
+        {
+          "label": "Prepositional",
+          "cells": [
+            "-ах (в столах)",
+            "-ях (в словарях)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Family-pl, Suppletive, and Stem-Extension Irregulars",
+      "headers": [
+        "Singular",
+        "Pl Stem",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "label": "брат",
+          "cells": [
+            "брать-",
+            "family-pl: братья / братьев / братьям / братьями / братьях"
+          ]
+        },
+        {
+          "label": "друг",
+          "cells": [
+            "друзь-",
+            "family-pl irreg: друзья / друзей / друзьям / друзьями / друзьях"
+          ]
+        },
+        {
+          "label": "ребёнок",
+          "cells": [
+            "дет-",
+            "suppletive: дети / детей / детям / детьми / детях"
+          ]
+        },
+        {
+          "label": "человек",
+          "cells": [
+            "люд-",
+            "suppletive: люди / людей / людям / людьми / людях"
+          ]
+        },
+        {
+          "label": "мать",
+          "cells": [
+            "матер-",
+            "stem-extension: матери / матерей / матерям / матерями / матерях"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Маша часто думает о _____.",
+          "promptEnglish": "Masha often thinks about books.",
+          "options": [
+            "книги",
+            "книгами",
+            "книгах",
+            "книгам"
+          ],
+          "answer": "книгах",
+          "hint": "Recap from L7: о + ? Hard fem with velar к, prep pl ending?",
+          "explanation": "L7 recap: о + prepositional for the topic of speech / thought. Книга is hard fem -а with velar к; the prep pl is -ах by the spelling rule: книгах. Today's lesson mixes all six cases."
+        },
+        {
+          "prompt": "Маша помогает _____.",
+          "promptEnglish": "Masha helps the children.",
+          "options": [
+            "детьми",
+            "детям",
+            "детях",
+            "детей"
+          ],
+          "answer": "детям",
+          "hint": "Помогать takes the dative. Дети is suppletive; the dat pl ending goes on the suppletive stem.",
+          "explanation": "Помогать + dat is one of the core dative triggers. Дети is the suppletive plural of ребёнок; the dat pl is детям (suppletive stem дет- + soft ending -ям). Compare детьми (instr pl, contracted -ьми) and детях (prep pl, soft -ях)."
+        },
+        {
+          "prompt": "Маша гордится своими _____.",
+          "promptEnglish": "Masha is proud of her teachers.",
+          "options": [
+            "учителями",
+            "учителях",
+            "учителя",
+            "учителей"
+          ],
+          "answer": "учителями",
+          "hint": "Гордиться takes the instrumental directly (no preposition). Soft -ь masc + ?",
+          "explanation": "Гордиться is one of the gerundive verbs that take the instrumental directly. Учитель is soft -ь masc, so the instr pl is -ями: учителями. Compare учителях (prep pl, after о or в) and учителям (dat pl, after помогать)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "В офисе пять _____.",
+          "promptEnglish": "There are five desks in the office.",
+          "options": [
+            "столам",
+            "столов",
+            "столами",
+            "столы"
+          ],
+          "answer": "столов",
+          "hint": "After numbers 5+, the noun is in which case? Hard masc cons + ending?",
+          "explanation": "After numbers 5 and above, the counted noun goes into the genitive plural. Стол is hard masc cons; the gen pl ending is -ов: столов. Compare with numbers 2-4, which take the genitive singular instead (два стола)."
+        },
+        {
+          "prompt": "Маша знает своих _____.",
+          "promptEnglish": "Masha knows her friends.",
+          "options": [
+            "друзья",
+            "друзьям",
+            "друзей",
+            "друзьями"
+          ],
+          "answer": "друзей",
+          "hint": "Знать takes the accusative. Друг is animate; animate plural acc = ?",
+          "explanation": "Знать takes the accusative. Друг is animate, so the plural acc borrows the genitive plural form: друзей (family-pl with the -ей ending, like сыновей; compare братьев / стульев with -ьев). The animacy split applies across all three genders in the plural; compare читает книги (inanimate, acc = nom)."
+        },
+        {
+          "prompt": "В этом городе красивые _____.",
+          "promptEnglish": "In this city there are beautiful streets.",
+          "options": [
+            "улицы",
+            "улицами",
+            "улицам",
+            "улицах"
+          ],
+          "answer": "улицы",
+          "hint": "The streets are the SUBJECT of the sentence. Subject = which case?",
+          "explanation": "Улицы is the subject of 'есть красивые улицы' (the verb есть is implied). Subjects take the nominative. Улица is hard fem -а; the pl nom is -ы: улицы."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "У Маши много _____. (Masha has many sisters.)"
+    ],
+    "choices": [
+      "сёстры",
+      "сестёр",
+      "сёстрами",
+      "сёстрам"
+    ],
+    "answers": [
+      "сестёр"
+    ],
+    "grammarFocus": "После много + countable plural, the noun is in the genitive plural. Сестра is fem -а with consonant cluster; the gen pl gets a stressed fleeting -ё-: сестёр."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "В парке Антон встретил своих братья.",
+      "translationEnglish": "In the park Anton met his brothers.",
+      "error": "братья",
+      "correction": "братьев",
+      "options": [
+        "братьев",
+        "братьям",
+        "братьями"
+      ],
+      "explanation": "Брат is animate, so its accusative plural is the genitive plural: встретил братьев. Братья is the nominative plural, fine as a subject (братья пришли) but not as the object of встретил."
+    },
+    {
+      "sentence": "На полке стоит много книг и пять словарёв.",
+      "translationEnglish": "On the shelf there are many books and five dictionaries.",
+      "error": "словарёв",
+      "correction": "словарей",
+      "options": [
+        "словарей",
+        "словари",
+        "словарям"
+      ],
+      "explanation": "Словарь is a soft masculine noun (-ь), so its genitive plural is -ей: пять словарей. Словарёв is the trap of grafting the hard -ов ending onto a soft stem; it is not a real form. The number пять triggers the genitive plural, and the soft -ь supplies -ей, the same ending seen in the husher nouns ножей, врачей."
+    },
+    {
+      "sentence": "Маша пишет письма свои подругам каждую неделю.",
+      "translationEnglish": "Masha writes letters to her girlfriends every week.",
+      "error": "свои",
+      "correction": "своим",
+      "options": [
+        "своим",
+        "своих",
+        "своими"
+      ],
+      "explanation": "Подругам is the dative plural (the recipients of the letters), so the possessive must agree in the dative plural: своим подругам. Свои is the nominative or inanimate-accusative plural, the form that would modify a direct object, but here подругам is the indirect object. The verb писать sends letters TO people, so the recipient and its modifier both take the dative plural: своим подругам."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша помогает _____.",
+      "contextEnglish": "Masha helps ___ (her friends).",
+      "options": [
+        "друзей",
+        "друзьям"
+      ],
+      "answer": "друзьям",
+      "explanation": "Помогать takes the dative, not the genitive. Друзей is the gen pl (or the animate plural acc), used after много or as the direct object of знать / видеть. Друзьям is the dat pl with the family-pl ending -ьям."
+    },
+    {
+      "context": "Антон работает с _____.",
+      "contextEnglish": "Anton works with ___ (the teachers).",
+      "options": [
+        "учителям",
+        "учителями"
+      ],
+      "answer": "учителями",
+      "explanation": "С (with) for accompaniment takes the instrumental, not the dative. Учителями is the instr pl with the soft -ями ending. Учителям is the dat pl ('to the teachers'), which doesn't fit after с."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "В библиотеке много книг.",
+      "question": "What case is книг in?",
+      "options": [
+        "Nominative pl",
+        "Genitive pl",
+        "Dative pl",
+        "Instrumental pl"
+      ],
+      "answer": "Genitive pl",
+      "explanation": "Много + countable plural triggers the genitive plural. Книг is the gen pl with the zero ending characteristic of hard fem -а stems (the L4 rule)."
+    },
+    {
+      "sentence": "Учительница помогает девочкам.",
+      "question": "What case is девочкам in?",
+      "options": [
+        "Genitive pl",
+        "Dative pl",
+        "Instrumental pl",
+        "Prepositional pl"
+      ],
+      "answer": "Dative pl",
+      "explanation": "Помогать takes the dative (L5). Девочкам is the dative plural; the velar к keeps the ending hard, -ам."
+    },
+    {
+      "sentence": "Антон обедает с коллегами.",
+      "question": "What case is коллегами in?",
+      "options": [
+        "Accusative pl",
+        "Dative pl",
+        "Instrumental pl",
+        "Prepositional pl"
+      ],
+      "answer": "Instrumental pl",
+      "explanation": "С (together with) takes the instrumental (L6). Коллегами is the instrumental plural with the hard -ами ending."
+    },
+    {
+      "sentence": "Лена часто думает о соседях.",
+      "question": "What case is соседях in?",
+      "options": [
+        "Genitive pl",
+        "Dative pl",
+        "Instrumental pl",
+        "Prepositional pl"
+      ],
+      "answer": "Prepositional pl",
+      "explanation": "О takes the prepositional (L7). Соседях is the prepositional plural of сосед with the soft -ях ending."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "падежная таблица множественного числа",
+      "definition": "the master plural-cases table; six cases × two columns (hard / soft) = a compact view of all twelve plural endings.",
+      "example": "В предложении 'Маша помогает братьям' слово 'братьям' стоит в дательном падеже множественного числа."
+    },
+    {
+      "term": "семейные множественные",
+      "definition": "family-plural masculines (брат, друг, сын, стул); their plural stem takes -ья (братья), and all oblique cases use the soft ending on that stem: братьев / братьям / братьями / братьях.",
+      "example": "Маша часто пишет братьям, гуляет с друзьями и думает о сыновьях."
+    },
+    {
+      "term": "супплетивные формы",
+      "definition": "suppletive plurals (дети, люди, лошади); their plural stem replaces the singular entirely. The instrumental uses the contracted -ьми (детьми, людьми, лошадьми); the other cases take the regular soft endings.",
+      "example": "Маша помогает детям, гордится людьми и работает с лошадьми."
+    }
+  ]
+}

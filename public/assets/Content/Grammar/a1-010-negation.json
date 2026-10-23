@@ -1,0 +1,239 @@
+{
+  "id": "a1-010-negation",
+  "level": "A1",
+  "focusArea": "sentenceStructure",
+  "title": "Negation",
+  "titleRussian": "Отрицание",
+  "description": "Forming negative sentences with не",
+  "descriptionRussian": "Образование отрицательных предложений с «не»",
+  "imageName": "xmark.circle.fill",
+  "intro": "To make a sentence negative in Russian, simply add не (not) before the word you want to negate - usually the verb. Unlike English, Russian uses double negatives, and they don't cancel out. Saying «Я ничего не знаю» (I don't know nothing) is grammatically correct and means 'I don't know anything.'",
+  "rules": [
+    "Place не directly before the word being negated: Я не знаю. (I don't know.)",
+    "Не + verb = negative action: Он не читает. (He doesn't read.)",
+    "Не + adjective/noun = negative quality: Дом не большой. (The house is not big.) Это не книга. (This is not a book.)",
+    "Double negatives are correct in Russian: Никто не знает. (Nobody knows.) - literally 'Nobody doesn't know.'"
+  ],
+  "examples": [
+    "Я не понимаю. (I don't understand.)",
+    "Она не говорит по-русски. (She doesn't speak Russian.)",
+    "Это не моя книга. (This is not my book.)",
+    "Никто не знает. (Nobody knows.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я _____ понимаю. (I don't understand.)",
+          "promptEnglish": "I don't understand.",
+          "options": [
+            "нет",
+            "но",
+            "не",
+            "ни"
+          ],
+          "answer": "не",
+          "hint": "Negation particle before the verb",
+          "explanation": "Use не before the verb to negate the action: Я не понимаю."
+        },
+        {
+          "prompt": "Он _____ работает сегодня. (He is not working today.)",
+          "promptEnglish": "He is not working today.",
+          "options": [
+            "нет",
+            "да",
+            "не",
+            "ни"
+          ],
+          "answer": "не",
+          "hint": "Negation before the verb",
+          "explanation": "Place не before работает to negate: Он не работает."
+        },
+        {
+          "prompt": "Это _____ моя сумка. (This is not my bag.)",
+          "promptEnglish": "This is not my bag.",
+          "options": [
+            "нет",
+            "но",
+            "не",
+            "ни"
+          ],
+          "answer": "не",
+          "hint": "Negation before the possessive",
+          "explanation": "Use не before моя to negate possession: Это не моя сумка."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ не знает ответ. (Nobody knows the answer.)",
+          "promptEnglish": "Nobody knows the answer.",
+          "options": [
+            "Все",
+            "Никто",
+            "Кто",
+            "Он"
+          ],
+          "answer": "Никто",
+          "hint": "Negative pronoun + не",
+          "explanation": "Никто (nobody) requires не before the verb: Никто не знает."
+        },
+        {
+          "prompt": "Я _____ не видел. (I saw nothing / I didn't see anything.)",
+          "promptEnglish": "I didn't see anything.",
+          "options": [
+            "всё",
+            "ничего",
+            "это",
+            "что"
+          ],
+          "answer": "ничего",
+          "hint": "Negative pronoun for 'nothing'",
+          "explanation": "Ничего (nothing) + не видел = I didn't see anything. Double negative is correct."
+        },
+        {
+          "prompt": "Она _____ не ходит в кино. (She never goes to the cinema.)",
+          "promptEnglish": "She never goes to the cinema.",
+          "options": [
+            "всегда",
+            "никогда",
+            "иногда",
+            "часто"
+          ],
+          "answer": "никогда",
+          "hint": "Negative adverb for 'never'",
+          "explanation": "Никогда (never) + не = She never goes. Double negative required."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я _____ говорю по-английски. (I don't speak English.)",
+      "Это _____ моя книга. (This is not my book.)",
+      "Он _____ работает сегодня. (He doesn't work today.)",
+      "У меня _____ машины. (I don't have a car.)"
+    ],
+    "choices": [
+      "не",
+      "не",
+      "не",
+      "нет",
+      "да",
+      "ни"
+    ],
+    "answers": [
+      "не",
+      "не",
+      "не",
+      "нет"
+    ],
+    "grammarFocus": "Не before verbs/adjectives; нет for 'don't have' (у меня нет + genitive)",
+    "options": [
+      [
+        "да",
+        "ни",
+        "не",
+        "нет"
+      ],
+      [
+        "нет",
+        "не",
+        "да",
+        "ни"
+      ],
+      [
+        "да",
+        "ни",
+        "не",
+        "нет"
+      ],
+      [
+        "да",
+        "ни",
+        "нет",
+        "не"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Он _____ студент. (He is not a student.)",
+      "contextEnglish": "He is not a student.",
+      "options": [
+        "не",
+        "нет"
+      ],
+      "answer": "не",
+      "explanation": "Use не before the noun/adjective to negate. Нет means 'no' as an answer or 'there is no.'"
+    },
+    {
+      "context": "— Ты студент? — _____. (Are you a student? - No.)",
+      "contextEnglish": "Are you a student? - No.",
+      "options": [
+        "Нет",
+        "Не"
+      ],
+      "answer": "Нет",
+      "explanation": "Нет is used as the answer 'no.' Не is used within sentences to negate."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort into affirmative and negative sentences",
+    "categories": [
+      "Affirmative",
+      "Negative"
+    ],
+    "items": [
+      {
+        "word": "Я знаю",
+        "category": "Affirmative"
+      },
+      {
+        "word": "Я не знаю",
+        "category": "Negative"
+      },
+      {
+        "word": "Он работает",
+        "category": "Affirmative"
+      },
+      {
+        "word": "Он не работает",
+        "category": "Negative"
+      },
+      {
+        "word": "Никто не пришёл",
+        "category": "Negative"
+      },
+      {
+        "word": "Все пришли",
+        "category": "Affirmative"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "не",
+      "definition": "not (negation particle)",
+      "example": "Я не знаю."
+    },
+    {
+      "term": "нет",
+      "definition": "no (answer); there is no",
+      "example": "— Ты студент? — Нет."
+    },
+    {
+      "term": "никто, ничего, никогда",
+      "definition": "nobody, nothing, never",
+      "example": "Никто не знает."
+    },
+    {
+      "term": "двойное отрицание",
+      "definition": "double negative",
+      "example": "Я ничего не вижу."
+    }
+  ]
+}

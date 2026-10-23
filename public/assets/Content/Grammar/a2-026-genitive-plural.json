@@ -1,0 +1,405 @@
+{
+  "id": "a2-026-genitive-plural",
+  "level": "A2",
+  "sortKey": "a2-014b-genitive-plural",
+  "focusArea": "cases",
+  "title": "Genitive Plural",
+  "titleRussian": "Родительный падеж (мн. число)",
+  "description": "Genitive plural noun endings",
+  "descriptionRussian": "Окончания существительных в родительном падеже множественного числа",
+  "imageName": "square.stack.3d.up",
+  "intro": "The genitive plural is one of Russian's trickiest forms! It's used after numbers 5+, много/мало, нет (absence), and for 'of' constructions. The endings vary by gender: masculine takes -ов/-ев (студент → студентов, стол → столов), feminine -а drops to zero (книга → книг), and neuter -о drops to zero (окно → окон). Many common words have irregular forms you must memorize: люди → людей, дети → детей, друзья → друзей.",
+  "rules": [
+    "Genitive plural is needed after: numbers 5+, много/мало/несколько, and нет. Pattern: masculine adds -ов/-ев (стол → столов), feminine drops -а to zero ending (книга → книг), neuter drops -о to zero ending (окно → окон).",
+    "Number + noun quick guide: 1 + nominative singular (один студент), 2-4 + genitive singular (два студента), 5+ + genitive plural (пять студентов).",
+    "When consonant clusters form from the zero ending, a fleeting о/е is inserted: сестра → сестёр, окно → окон, девушка → девушек.",
+    "Key irregulars to memorize: люди → людей, дети → детей, друзья → друзей, год → лет (5+ years). These appear in almost every conversation."
+  ],
+  "examples": [
+    "Пять студентов. (Five students.), masculine -ов",
+    "Много книг. (Many books.), feminine zero ending",
+    "Нет детей. (No children.), irregular",
+    "Шесть окон. (Six windows.), neuter zero ending"
+  ],
+  "tables": [
+    {
+      "title": "Genitive Plural Endings",
+      "headers": [
+        "Nom. Sing.",
+        "Gender",
+        "Gen. Plural",
+        "Pattern"
+      ],
+      "rows": [
+        {
+          "label": "стол",
+          "cells": [
+            "Masculine",
+            "стол|ов",
+            "-ов"
+          ]
+        },
+        {
+          "label": "студент",
+          "cells": [
+            "Masculine",
+            "студент|ов",
+            "-ов"
+          ]
+        },
+        {
+          "label": "врач",
+          "cells": [
+            "Masculine",
+            "врач|ей",
+            "-ей"
+          ]
+        },
+        {
+          "label": "книга",
+          "cells": [
+            "Feminine",
+            "книг",
+            "zero"
+          ]
+        },
+        {
+          "label": "неделя",
+          "cells": [
+            "Feminine",
+            "недель",
+            "-ь"
+          ]
+        },
+        {
+          "label": "окно",
+          "cells": [
+            "Neuter",
+            "окон",
+            "zero"
+          ]
+        },
+        {
+          "label": "море",
+          "cells": [
+            "Neuter",
+            "мор|ей",
+            "-ей"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Пять _____. (Five students.)",
+          "promptEnglish": "Five students.",
+          "options": [
+            "студенты",
+            "студентам",
+            "студентов",
+            "студента"
+          ],
+          "answer": "студентов",
+          "hint": "5+ = genitive plural; masculine -ов",
+          "explanation": "Genitive plural masculine: студентов."
+        },
+        {
+          "prompt": "Много _____. (Many books.)",
+          "promptEnglish": "Many books.",
+          "options": [
+            "книга",
+            "книги",
+            "книгам",
+            "книг"
+          ],
+          "answer": "книг",
+          "hint": "Много + genitive plural; feminine zero ending",
+          "explanation": "Genitive plural feminine: книг (zero ending)."
+        },
+        {
+          "prompt": "Шесть _____. (Six windows.)",
+          "promptEnglish": "Six windows.",
+          "options": [
+            "окна",
+            "окно",
+            "окнам",
+            "окон"
+          ],
+          "answer": "окон",
+          "hint": "6 = genitive plural; neuter zero ending",
+          "explanation": "Genitive plural neuter: окон (zero ending)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Нет _____. (There are no children.)",
+          "promptEnglish": "There are no children.",
+          "options": [
+            "детям",
+            "детей",
+            "дети",
+            "детьми"
+          ],
+          "answer": "детей",
+          "hint": "Нет + genitive plural; irregular",
+          "explanation": "Genitive plural of дети: детей (irregular)."
+        },
+        {
+          "prompt": "Много _____. (Many people.)",
+          "promptEnglish": "Many people.",
+          "options": [
+            "людям",
+            "людей",
+            "людьми",
+            "люди"
+          ],
+          "answer": "людей",
+          "hint": "Много + genitive plural; irregular",
+          "explanation": "Genitive plural of люди: людей (irregular)."
+        },
+        {
+          "prompt": "Семь _____. (Seven days.)",
+          "promptEnglish": "Seven days.",
+          "options": [
+            "день",
+            "дней",
+            "дням",
+            "дни"
+          ],
+          "answer": "дней",
+          "hint": "7 = genitive plural; день → дней",
+          "explanation": "Genitive plural of день: дней."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Десять _____. (Ten doctors.)",
+          "promptEnglish": "Ten doctors.",
+          "options": [
+            "врача",
+            "врачам",
+            "врачи",
+            "врачей"
+          ],
+          "answer": "врачей",
+          "hint": "10 = genitive plural; after ч = -ей",
+          "explanation": "Genitive plural after ч/ш/ж/щ: врачей."
+        },
+        {
+          "prompt": "Пять _____. (Five weeks.)",
+          "promptEnglish": "Five weeks.",
+          "options": [
+            "недели",
+            "неделя",
+            "неделям",
+            "недель"
+          ],
+          "answer": "недель",
+          "hint": "Feminine -я → -ь in genitive plural",
+          "explanation": "Genitive plural: неделя → недель."
+        },
+        {
+          "prompt": "Много _____. (Many friends.)",
+          "promptEnglish": "Many friends.",
+          "options": [
+            "друга",
+            "друзей",
+            "друзья",
+            "друзьям"
+          ],
+          "answer": "друзей",
+          "hint": "Irregular: друзья → друзей",
+          "explanation": "Genitive plural of друзья: друзей (irregular)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "В классе двадцать _____. (There are twenty students in the class.)",
+      "Много _____ на столе. (There are many books on the table.)",
+      "Нет _____. (There are no children.)",
+      "Пять _____ в комнате. (There are five windows in the room.)",
+      "Семь _____ в неделе. (There are seven days in a week.)"
+    ],
+    "choices": [
+      "студентов",
+      "книг",
+      "детей",
+      "окон",
+      "дней",
+      "студента",
+      "книги"
+    ],
+    "answers": [
+      "студентов",
+      "книг",
+      "детей",
+      "окон",
+      "дней"
+    ],
+    "grammarFocus": "Numbers 5+ require genitive plural",
+    "hints": [
+      "After numbers 5+, use genitive plural. Студент is masculine. Masculine genitive plural adds -ов.",
+      "Много requires genitive plural. Книга is feminine. Feminine nouns drop -а for a zero ending.",
+      "Нет requires genitive plural. Дети is irregular. What is the genitive plural of дети?",
+      "After numbers 5+, use genitive plural. Окно is neuter. Neuter nouns drop -о for a zero ending.",
+      "After numbers 5+, use genitive plural. День is masculine with a soft sign. What is the genitive plural of день?"
+    ],
+    "explanations": [
+      "Masculine genitive plural: студент + -ов → студентов.",
+      "Feminine genitive plural: книга drops -а → книг (zero ending).",
+      "Irregular genitive plural: дети → детей (must memorize).",
+      "Neuter genitive plural: окно drops -о → окон (zero ending, fleeting о inserted).",
+      "Genitive plural of день: дней (soft-stem masculine with -ей ending)."
+    ],
+    "options": [
+      [
+        "студенты",
+        "студентов",
+        "студентам",
+        "студентами"
+      ],
+      [
+        "книгами",
+        "книгам",
+        "книгах",
+        "книг"
+      ],
+      [
+        "детям",
+        "детьми",
+        "детей",
+        "дети"
+      ],
+      [
+        "окнах",
+        "окон",
+        "окнам",
+        "окнами"
+      ],
+      [
+        "днями",
+        "дням",
+        "дни",
+        "дней"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Два _____. (Two students.)",
+      "contextEnglish": "Two students.",
+      "options": [
+        "студента",
+        "студентов"
+      ],
+      "answer": "студента",
+      "explanation": "2-4 = genitive singular: студента."
+    },
+    {
+      "context": "Пять _____. (Five students.)",
+      "contextEnglish": "Five students.",
+      "options": [
+        "студентов",
+        "студента"
+      ],
+      "answer": "студентов",
+      "explanation": "5+ = genitive plural: студентов."
+    },
+    {
+      "context": "Три _____. (Three books.)",
+      "contextEnglish": "Three books.",
+      "options": [
+        "книги",
+        "книг"
+      ],
+      "answer": "книги",
+      "explanation": "2-4 = genitive singular: книги."
+    },
+    {
+      "context": "Десять _____. (Ten books.)",
+      "contextEnglish": "Ten books.",
+      "options": [
+        "книг",
+        "книги"
+      ],
+      "answer": "книг",
+      "explanation": "5+ = genitive plural: книг."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort genitive plural by ending type",
+    "categories": [
+      "-ов/-ев (masculine)",
+      "Zero ending",
+      "-ей (irregular/soft)"
+    ],
+    "items": [
+      {
+        "word": "студентов",
+        "category": "-ов/-ев (masculine)"
+      },
+      {
+        "word": "книг",
+        "category": "Zero ending"
+      },
+      {
+        "word": "детей",
+        "category": "-ей (irregular/soft)"
+      },
+      {
+        "word": "столов",
+        "category": "-ов/-ев (masculine)"
+      },
+      {
+        "word": "окон",
+        "category": "Zero ending"
+      },
+      {
+        "word": "людей",
+        "category": "-ей (irregular/soft)"
+      },
+      {
+        "word": "врачей",
+        "category": "-ей (irregular/soft)"
+      },
+      {
+        "word": "слов",
+        "category": "Zero ending"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "5+ / много / мало / нет",
+      "definition": "triggers for genitive plural",
+      "example": "Пять книг, много людей, нет детей."
+    },
+    {
+      "term": "-ов / -ев (м.р.)",
+      "definition": "masculine genitive plural",
+      "example": "Студентов, столов, музеев."
+    },
+    {
+      "term": "нулевое окончание",
+      "definition": "zero ending (fem -а, neut -о)",
+      "example": "Книг, окон, слов."
+    },
+    {
+      "term": "дети/люди/друзья",
+      "definition": "irregular: детей/людей/друзей",
+      "example": "Много детей, людей, друзей."
+    }
+  ]
+}

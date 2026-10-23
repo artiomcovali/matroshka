@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-039",
+  "title": "Warranty Claim",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "Your product broke just after the warranty expired",
+  "imageName": "wrench.and.screwdriver.fill",
+  "initialPrompt": "Добрый день, сервисный центр. Что у вас случилось?",
+  "systemPrompt": "You work at service center. Customer laptop broke 2 weeks after warranty ended. Can offer goodwill repair at 50 percent discount or extended warranty for future. Keep replies short.",
+  "completionCriteria": "User negotiated exception or accepted available options.",
+  "responseLimit": 15,
+  "hints": [
+    "Гарантия закончилась две недели назад (The warranty ended two weeks ago)",
+    "Это производственный дефект (This is a manufacturing defect)",
+    "Можно сделать исключение? (Can you make an exception?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "гарантия",
+      "definition": "warranty"
+    },
+    {
+      "word": "дефект",
+      "definition": "defect"
+    },
+    {
+      "word": "ремонт",
+      "definition": "repair"
+    },
+    {
+      "word": "исключение",
+      "definition": "exception"
+    },
+    {
+      "word": "скидка",
+      "definition": "discount"
+    },
+    {
+      "word": "замена",
+      "definition": "replacement"
+    }
+  ],
+  "objectives": [
+    "Explain the problem (сломался)",
+    "Mention warranty timing (гарантия)",
+    "Request exception (исключение)",
+    "Negotiate solution or accept offer"
+  ]
+}

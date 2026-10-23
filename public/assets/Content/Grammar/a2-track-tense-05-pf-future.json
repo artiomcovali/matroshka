@@ -1,0 +1,317 @@
+{
+  "id": "a2-track-tense-05-pf-future",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Future Tense 3: Perfective Future (One Word)",
+  "titleRussian": "Будущее время 3: перфективное будущее (одно слово)",
+  "description": "The perfective future tense in Russian. The same conjugation as the present tense, but applied to a perfective verb. Single-word future for completed, bounded actions: я прочитаю, я скажу, я напишу.",
+  "descriptionRussian": "Перфективное будущее: спряжение совпадает с настоящим временем, но применяется к перфективным глаголам. Одно слово выражает завершённое действие в будущем: я прочитаю, я скажу, я напишу.",
+  "imageName": "checkmark.circle",
+  "trackId": "a2-future-tense-mastery",
+  "trackTitle": "Future Tense Mastery",
+  "trackTitleRussian": "Будущее время",
+  "trackIndex": 3,
+  "trackTotal": 6,
+  "intro": "The second future has no future marker at all. You conjugate a perfective verb with the endings you learned for the present tense, and the result is a future. That works because perfective verbs have no present in Russian, so there is nothing for the form to collide with. It means я прочитаю looks like a present and means 'I will read it through'.",
+  "rules": [
+    "Perfective synthetic future formation: conjugate a perfective verb using the present-tense endings. The result is a one-word future, not a present.",
+    "Perfective verbs have no present tense in Russian. The 'present-tense form' of a perfective verb is automatically read as a future.",
+    "The same conjugation produces a present on impf verbs and a future on pf partners: я читаю (present, impf) vs я прочитаю (future, pf); я пишу vs я напишу; я говорю vs я скажу.",
+    "The pf synthetic future expresses a single completed result; the imperfective future (Lesson 2) expresses ongoing process or habit."
+  ],
+  "examples": [
+    "Я прочитаю книгу. (I will read the book.) Pf synthetic future: completed reading.",
+    "Антон напишет письмо. (Anton will write a letter.) Pf synthetic future, 3sg: single act.",
+    "Маша скажет правду. (Masha will tell the truth.) Pf, 3sg, с/ш alternation in 1sg (я скажу) only.",
+    "Мы купим новую машину. (We will buy a new car.) Pf, 1pl, п/пл alternation in 1sg (я куплю).",
+    "Вы ответите на вопрос. (You will answer the question.) Pf, 2pl.",
+    "Они сделают домашнее задание. (They will do the homework.) Pf, 3pl, regular -ать verb."
+  ],
+  "tables": [
+    {
+      "title": "Pf Synthetic Future: Six Verbs",
+      "headers": [
+        "Pf Infinitive",
+        "1sg",
+        "3sg / 3pl"
+      ],
+      "rows": [
+        {
+          "label": "прочитать",
+          "cells": [
+            "прочитаю",
+            "прочитает / прочитают"
+          ]
+        },
+        {
+          "label": "написать",
+          "cells": [
+            "напишу",
+            "напишет / напишут"
+          ]
+        },
+        {
+          "label": "сказать",
+          "cells": [
+            "скажу",
+            "скажет / скажут"
+          ]
+        },
+        {
+          "label": "купить",
+          "cells": [
+            "куплю",
+            "купит / купят"
+          ]
+        },
+        {
+          "label": "ответить",
+          "cells": [
+            "отвечу",
+            "ответит / ответят"
+          ]
+        },
+        {
+          "label": "сделать",
+          "cells": [
+            "сделаю",
+            "сделает / сделают"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Same Endings, Two Tenses (Aspect Decides)",
+      "headers": [
+        "Person",
+        "Impf (present)",
+        "Pf (future)"
+      ],
+      "rows": [
+        {
+          "label": "1sg",
+          "cells": [
+            "я читаю",
+            "я прочитаю"
+          ]
+        },
+        {
+          "label": "3sg",
+          "cells": [
+            "он пишет",
+            "он напишет"
+          ]
+        },
+        {
+          "label": "1pl",
+          "cells": [
+            "мы говорим",
+            "мы скажем"
+          ]
+        },
+        {
+          "label": "3pl",
+          "cells": [
+            "они покупают",
+            "они купят"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Завтра я _____ читать книгу.",
+          "promptEnglish": "Tomorrow I will be reading the book.",
+          "options": [
+            "буду",
+            "будешь",
+            "будет",
+            "будут"
+          ],
+          "answer": "буду",
+          "hint": "Recap from Lesson 2: 1sg impf future. Process / ongoing reading.",
+          "explanation": "Recap from Lesson 2. 'Я буду читать' is the imperfective future for an ongoing process. Today's drill switches to the perfective synthetic future for a completed result."
+        },
+        {
+          "prompt": "Я _____ книгу до конца недели.",
+          "promptEnglish": "I will read (and finish) the book by the end of the week.",
+          "options": [
+            "буду читать",
+            "прочитал",
+            "прочитаю",
+            "читаю"
+          ],
+          "answer": "прочитаю",
+          "hint": "Bounded result, deadline. The future is perfective synthetic.",
+          "explanation": "'До конца недели' is a deadline cue: the action must finish. That calls for the perfective future, 1sg: прочитаю."
+        },
+        {
+          "prompt": "Антон _____ письмо.",
+          "promptEnglish": "Anton will write (and finish) a letter.",
+          "options": [
+            "напишу",
+            "напишет",
+            "напишем",
+            "напишут"
+          ],
+          "answer": "напишет",
+          "hint": "Pf synthetic, 3sg ('Антон').",
+          "explanation": "Pf synthetic future, 3sg. Написать is the perfective partner of писать; the conjugation uses present-tense endings (-ет for 3sg) but reads as a future. So 'Антон напишет'."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маша _____ правду.",
+          "promptEnglish": "Masha will tell the truth.",
+          "options": [
+            "скажу",
+            "скажешь",
+            "скажет",
+            "скажут"
+          ],
+          "answer": "скажет",
+          "hint": "Pf synthetic, 3sg. Сказать is the pf partner of говорить.",
+          "explanation": "Perfective future, 3sg: Маша скажет. Telling the truth once is a single completed act, so the perfective is the right choice."
+        },
+        {
+          "prompt": "Мы _____ новую машину.",
+          "promptEnglish": "We will buy a new car.",
+          "options": [
+            "купят",
+            "купит",
+            "куплю",
+            "купим"
+          ],
+          "answer": "купим",
+          "hint": "Pf synthetic, 1pl. Купить is the pf partner of покупать.",
+          "explanation": "Perfective future, 1pl: мы купим. Buying a car is a single completed purchase, so the perfective is the right choice."
+        },
+        {
+          "prompt": "Они _____ работу.",
+          "promptEnglish": "They will do (and finish) the work.",
+          "options": [
+            "сделают",
+            "сделает",
+            "сделаем",
+            "сделаю"
+          ],
+          "answer": "сделают",
+          "hint": "Pf synthetic, 3pl. Сделать is the pf partner of делать.",
+          "explanation": "Pf synthetic future, 3pl. Сделать → сделают. The prefix с- turns делать (impf) into сделать (pf); the conjugation stays regular -ать. Finished work is a bounded result; pf is correct."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Лена _____ на вопрос. (Lena will answer the question.)"
+    ],
+    "choices": [
+      "отвечу",
+      "ответит",
+      "ответим",
+      "ответят"
+    ],
+    "answers": [
+      "ответит"
+    ],
+    "grammarFocus": "Perfective future, 3sg. Лена is one person, so the form is ответит."
+  },
+  "minimalPairs": [
+    {
+      "context": "Завтра я _____ книгу.",
+      "contextEnglish": "Tomorrow I will read (and finish) the book.",
+      "options": [
+        "буду читать",
+        "прочитаю"
+      ],
+      "answer": "прочитаю",
+      "explanation": "The English 'will read (and finish)' carries a completion claim. Pf synthetic future: прочитаю. 'Буду читать' would describe ongoing reading without committing to finishing it."
+    },
+    {
+      "context": "Скоро Маша _____ правду.",
+      "contextEnglish": "Masha will tell the truth soon.",
+      "options": [
+        "говорит",
+        "скажет"
+      ],
+      "answer": "скажет",
+      "explanation": "'Скоро' puts the telling in the future, and it is a single act, so the pf synthetic future fits: скажет. Говорит is the present tense ('Masha is speaking the truth right now'), which 'скоро' rules out."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Лена будет прочитать книгу.",
+      "translationEnglish": "Lena will read (and finish) the book.",
+      "error": "будет прочитать",
+      "correction": "прочитает",
+      "options": [
+        "прочитает",
+        "будет читать",
+        "прочитают"
+      ],
+      "explanation": "The infinitive after будет must be imperfective. Прочитать is perfective, so 'будет прочитать' is ungrammatical. Use the one-word perfective future instead: прочитает."
+    },
+    {
+      "sentence": "Я скажет правду завтра.",
+      "translationEnglish": "I will tell the truth tomorrow.",
+      "error": "скажет",
+      "correction": "скажу",
+      "options": [
+        "скажу",
+        "скажешь",
+        "скажут"
+      ],
+      "explanation": "Скажет is 3sg ('он скажет'). The subject я is 1sg, so the form must be скажу. The pf synthetic future inflects for person exactly like the present tense: the form changes, the future meaning comes from the perfective aspect."
+    },
+    {
+      "sentence": "Антон будет купить машину.",
+      "translationEnglish": "Anton will buy a car.",
+      "error": "будет купить",
+      "correction": "купит",
+      "options": [
+        "купит",
+        "будет покупать",
+        "купят"
+      ],
+      "explanation": "Купить is perfective, so it cannot follow the auxiliary будет. The one-word perfective future for 3sg is купит."
+    },
+    {
+      "sentence": "Я буду сделать работу завтра.",
+      "translationEnglish": "I will do the work tomorrow.",
+      "error": "буду сделать",
+      "correction": "сделаю",
+      "options": [
+        "сделаю",
+        "сделал",
+        "сделает",
+        "сделают"
+      ],
+      "explanation": "Сделать is perfective. The pf synthetic future for 1sg is сделаю. 'Буду делать' (with the impf делать) would be grammatically OK but would shift the meaning to 'I will be doing' (no claim of finishing); for a single completed act, the perfective synthetic future is the right tool."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "перфективное будущее",
+      "definition": "perfective future (synthetic; same conjugation as the present tense, but applied to a perfective verb)",
+      "example": "В предложении 'Я прочитаю книгу' слово 'прочитаю' стоит в перфективном будущем."
+    },
+    {
+      "term": "синтетический",
+      "definition": "synthetic (one-word; the perfective future is synthetic in contrast to the two-word imperfective future)",
+      "example": "Перфективное будущее — синтетическое: одно слово выражает и время, и вид, и лицо."
+    },
+    {
+      "term": "вид глагола",
+      "definition": "verb aspect (the property that splits Russian verbs into impf and pf; decides which future construction to use)",
+      "example": "В будущем времени вид глагола решает, какую конструкцию использовать: имперфективное 'буду читать' или перфективное 'прочитаю'."
+    }
+  ]
+}

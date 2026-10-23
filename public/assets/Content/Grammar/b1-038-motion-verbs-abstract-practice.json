@@ -1,0 +1,681 @@
+{
+  "lessonId": "b1-038-motion-verbs-abstract",
+  "sets": [
+    {
+      "id": "round-1-weather-nature",
+      "title": "Weather and Nature Idioms",
+      "titleRussian": "Погода и природа",
+      "description": "Motion verbs used for weather and natural phenomena",
+      "descriptionRussian": "Глаголы движения в контексте погоды и природы",
+      "icon": "cloud.rain",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "На улице _____ дождь. (It's raining outside.)",
+              "promptEnglish": "Rain 'goes' in Russian.",
+              "options": [
+                "идёт",
+                "бежит",
+                "ходит",
+                "летит"
+              ],
+              "answer": "идёт",
+              "hint": "Rain 'goes' (идёт) in Russian.",
+              "explanation": "Идёт дождь: rain uses идти. This is abstract/figurative, not physical walking."
+            },
+            {
+              "prompt": "Вчера весь день _____ снег. (Yesterday it snowed all day.)",
+              "promptEnglish": "Snow 'went' all day.",
+              "options": [
+                "ходил",
+                "бежал",
+                "шёл",
+                "летел"
+              ],
+              "answer": "шёл",
+              "hint": "Past tense of идти for weather = шёл.",
+              "explanation": "Шёл снег: past tense of идти for snow. Duration = imperfective."
+            },
+            {
+              "prompt": "Abstract motion verbs for weather use:",
+              "promptEnglish": "Which motion verb describes precipitation?",
+              "options": [
+                "ходить (multi)",
+                "идти (uni)",
+                "ехать (vehicle)",
+                "бегать (multi)"
+              ],
+              "answer": "идти (uni)",
+              "hint": "Weather always uses the unidirectional verb.",
+              "explanation": "Weather uses идти (unidirectional): дождь идёт, снег идёт. Never ходить."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "По небу _____ облака. (Clouds are drifting across the sky.)",
+              "promptEnglish": "Clouds moving across the sky.",
+              "options": [
+                "идут",
+                "ходят",
+                "бегут",
+                "плывут"
+              ],
+              "answer": "плывут",
+              "hint": "Clouds 'swim/float' across the sky.",
+              "explanation": "Плыть for slow, floating motion: облака плывут (clouds drift)."
+            },
+            {
+              "prompt": "Листья _____ с деревьев. (Leaves are flying off the trees.)",
+              "promptEnglish": "Leaves in the wind.",
+              "options": [
+                "идут",
+                "летят",
+                "ходят",
+                "ездят"
+              ],
+              "answer": "летят",
+              "hint": "Leaves 'fly' in the wind.",
+              "explanation": "Лететь for things carried by wind: листья летят (leaves fly)."
+            },
+            {
+              "prompt": "Река _____ через город. (The river runs through the city.)",
+              "promptEnglish": "Water flowing through a location.",
+              "options": [
+                "идёт",
+                "ходит",
+                "бежит",
+                "течёт"
+              ],
+              "answer": "течёт",
+              "hint": "Rivers 'flow' (течь).",
+              "explanation": "Течь for flowing water: река течёт (the river flows). Not a standard motion verb pair but commonly tested."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "На улице _____ дождь. (It's raining right now.)",
+          "contextEnglish": "Rain currently happening.",
+          "options": [
+            "идёт",
+            "ходит"
+          ],
+          "answer": "идёт",
+          "explanation": "Weather uses идти (not ходить): идёт дождь."
+        },
+        {
+          "context": "Осенью часто _____ дожди. (In autumn it often rains.)",
+          "contextEnglish": "Rain as a recurring phenomenon.",
+          "options": [
+            "идут",
+            "ходят"
+          ],
+          "answer": "идут",
+          "explanation": "Even for recurring weather, use идти (not ходить): идут дожди."
+        },
+        {
+          "context": "Облака медленно _____ по небу. (Clouds slowly drift across the sky.)",
+          "contextEnglish": "Slow, floating motion.",
+          "options": [
+            "плывут",
+            "летят"
+          ],
+          "answer": "плывут",
+          "explanation": "Плыть for slow, floating, graceful motion: облака плывут."
+        },
+        {
+          "context": "Листья _____ по ветру. (Leaves are flying in the wind.)",
+          "contextEnglish": "Fast, windblown motion.",
+          "options": [
+            "летят",
+            "плывут"
+          ],
+          "answer": "летят",
+          "explanation": "Лететь for fast motion through air: листья летят."
+        }
+      ]
+    },
+    {
+      "id": "round-2-time-abstract",
+      "title": "Time and Abstract Processes",
+      "titleRussian": "Время и абстрактные процессы",
+      "description": "Motion verbs for time, rumors, and abstract concepts",
+      "descriptionRussian": "Глаголы движения для времени и абстрактных понятий",
+      "icon": "clock",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Время _____. (Time flies.)",
+              "promptEnglish": "Time moves quickly.",
+              "options": [
+                "ходит",
+                "летит",
+                "идёт",
+                "бежит"
+              ],
+              "answer": "летит",
+              "hint": "Time 'flies' when moving fast.",
+              "explanation": "Время летит: time flies. Uses лететь for speed."
+            },
+            {
+              "prompt": "Время медленно _____. (Time passes slowly.)",
+              "promptEnglish": "Time moving at normal/slow pace.",
+              "options": [
+                "летит",
+                "бежит",
+                "идёт",
+                "ходит"
+              ],
+              "answer": "идёт",
+              "hint": "Normal pace of time = идти.",
+              "explanation": "Время идёт: time passes at a normal pace. Идти for steady progression."
+            },
+            {
+              "prompt": "Годы _____. (The years fly by.)",
+              "promptEnglish": "Years passing quickly.",
+              "options": [
+                "идут",
+                "ходят",
+                "бегут",
+                "летят"
+              ],
+              "answer": "летят",
+              "hint": "Years 'fly' (pass quickly).",
+              "explanation": "Годы летят: the years fly by. Emphasizes speed of passing time."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "По городу _____ слухи. (Rumors are going around the city.)",
+              "promptEnglish": "Rumors spreading.",
+              "options": [
+                "идут",
+                "бегут",
+                "ходят",
+                "летят"
+              ],
+              "answer": "ходят",
+              "hint": "Rumors 'walk around' (multidirectional).",
+              "explanation": "Слухи ходят: rumors circulate. Ходить (multi) for spreading in multiple directions."
+            },
+            {
+              "prompt": "Мне в голову _____ мысль. (A thought came to my mind.)",
+              "promptEnglish": "A thought 'arrived.'",
+              "options": [
+                "ходила",
+                "пришла",
+                "летела",
+                "бежала"
+              ],
+              "answer": "пришла",
+              "hint": "A thought 'came' = прийти (perfective of идти with prefix).",
+              "explanation": "Мысль пришла: a thought came (arrived). Прийти for arrival of ideas."
+            },
+            {
+              "prompt": "In the expression слухи ходят, why ходить (not идти)?",
+              "promptEnglish": "Why multidirectional for rumors?",
+              "options": [
+                "Rumors are slow",
+                "Rumors spread in many directions",
+                "It's past tense",
+                "It's formal"
+              ],
+              "answer": "Rumors spread in many directions",
+              "hint": "Ходить = multidirectional, no single path.",
+              "explanation": "Ходить (multidirectional): rumors spread in all directions, not on one path."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these abstract expressions by the motion verb used",
+        "categories": [
+          "идти (steady)",
+          "лететь (fast)",
+          "ходить (circulate)",
+          "бежать (rush)"
+        ],
+        "items": [
+          {
+            "word": "время идёт (time passes)",
+            "category": "идти (steady)"
+          },
+          {
+            "word": "время летит (time flies)",
+            "category": "лететь (fast)"
+          },
+          {
+            "word": "слухи ходят (rumors circulate)",
+            "category": "ходить (circulate)"
+          },
+          {
+            "word": "идёт дождь (it's raining)",
+            "category": "идти (steady)"
+          },
+          {
+            "word": "годы летят (years fly by)",
+            "category": "лететь (fast)"
+          },
+          {
+            "word": "мысли бегут (thoughts race)",
+            "category": "бежать (rush)"
+          },
+          {
+            "word": "идёт снег (it's snowing)",
+            "category": "идти (steady)"
+          },
+          {
+            "word": "идёт фильм (a film is showing)",
+            "category": "идти (steady)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-3-events-media",
+      "title": "Events and Media",
+      "titleRussian": "Мероприятия и медиа",
+      "description": "Motion verbs for films, performances, and events",
+      "descriptionRussian": "Глаголы движения для фильмов и мероприятий",
+      "icon": "film",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "В кинотеатре _____ новый фильм. (A new film is showing at the cinema.)",
+              "promptEnglish": "A film is being shown.",
+              "options": [
+                "ходит",
+                "бежит",
+                "идёт",
+                "летит"
+              ],
+              "answer": "идёт",
+              "hint": "Films and performances 'go' (идти).",
+              "explanation": "Идёт фильм: a film is showing/playing. Идти for ongoing events."
+            },
+            {
+              "prompt": "Переговоры _____ уже два часа. (Negotiations have been going on for two hours.)",
+              "promptEnglish": "A process in progress.",
+              "options": [
+                "летят",
+                "ходят",
+                "идут",
+                "бегут"
+              ],
+              "answer": "идут",
+              "hint": "Ongoing process = идти.",
+              "explanation": "Идут переговоры: negotiations are in progress. Идти for ongoing processes."
+            },
+            {
+              "prompt": "Этот спектакль _____ каждый вечер. (This performance runs every evening.)",
+              "promptEnglish": "Regular showings.",
+              "options": [
+                "бежит",
+                "летит",
+                "ходит",
+                "идёт"
+              ],
+              "answer": "идёт",
+              "hint": "Even regular performances use идти.",
+              "explanation": "Спектакль идёт: the show is running. Идти for performances, even regularly scheduled ones."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Дела _____ хорошо. (Things are going well.)",
+              "promptEnglish": "How things are going.",
+              "options": [
+                "ходят",
+                "бегут",
+                "летят",
+                "идут"
+              ],
+              "answer": "идут",
+              "hint": "How things go = идти.",
+              "explanation": "Дела идут: things are going (progressing). Standard abstract use of идти."
+            },
+            {
+              "prompt": "Ей _____ это платье. (This dress suits her.)",
+              "promptEnglish": "'Goes' in the sense of suiting/looking good.",
+              "options": [
+                "бежит",
+                "ходит",
+                "летит",
+                "идёт"
+              ],
+              "answer": "идёт",
+              "hint": "To suit/look good on = идти + dative.",
+              "explanation": "Идёт ей: suits her. Идти + dative for 'something looks good on someone.'"
+            },
+            {
+              "prompt": "Речь _____ о важных вопросах. (The discussion is about important questions.)",
+              "promptEnglish": "What the conversation is about.",
+              "options": [
+                "ходит",
+                "бежит",
+                "идёт",
+                "летит"
+              ],
+              "answer": "идёт",
+              "hint": "Речь идёт о = we're talking about.",
+              "explanation": "Речь идёт о + prepositional: the discussion is about. A very common idiom."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Завтра в театре _____ новый спектакль. (Tomorrow a new performance runs at the theater.)",
+          "Дела на работе _____ отлично. (Things at work are going great.)",
+          "Время так быстро _____! (Time flies so fast!)"
+        ],
+        "choices": [
+          "идёт",
+          "идут",
+          "летит",
+          "ходят",
+          "бежит"
+        ],
+        "answers": [
+          "идёт",
+          "идут",
+          "летит"
+        ],
+        "grammarFocus": "Abstract uses of motion verbs: events, progress, time",
+        "hints": [
+          "A performance 'goes' = идёт.",
+          "Дела (plural) 'go' = идут.",
+          "Time 'flies' = лететь in abstract sense."
+        ],
+        "explanations": [
+          "Идёт спектакль: the show is on/running.",
+          "Дела идут: things are going (progressing). Plural subject.",
+          "Время летит: time flies. Abstract use of лететь for rapid passage."
+        ],
+        "options": [
+          [
+            "идёт",
+            "иду",
+            "идёшь",
+            "идём"
+          ],
+          [
+            "идём",
+            "иду",
+            "идёте",
+            "идут"
+          ],
+          [
+            "летит",
+            "летим",
+            "летишь",
+            "лечу"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-human-idioms",
+      "title": "Human Activities and Idioms",
+      "titleRussian": "Идиомы с глаголами движения",
+      "description": "Motion verbs describing non-physical human activities",
+      "descriptionRussian": "Глаголы движения для описания человеческих действий",
+      "icon": "person.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "У него голова _____. (His head is spinning.)",
+              "promptEnglish": "Dizziness, feeling overwhelmed.",
+              "options": [
+                "идёт",
+                "летит",
+                "ходит",
+                "кружится"
+              ],
+              "answer": "кружится",
+              "hint": "Head 'spins' = кружиться.",
+              "explanation": "Голова кружится: the head spins (dizziness). Not a standard motion verb pair but a common expression."
+            },
+            {
+              "prompt": "Мурашки _____ по коже. (Goosebumps run across the skin.)",
+              "promptEnglish": "Goosebumps/chills.",
+              "options": [
+                "идут",
+                "ходят",
+                "бегут",
+                "летят"
+              ],
+              "answer": "бегут",
+              "hint": "Goosebumps 'run' quickly across skin.",
+              "explanation": "Мурашки бегут: goosebumps run. Бежать for quick, scattered motion across a surface."
+            },
+            {
+              "prompt": "Кровь _____ по жилам. (Blood flows through the veins.)",
+              "promptEnglish": "Blood circulating.",
+              "options": [
+                "идёт",
+                "бежит",
+                "ходит",
+                "летит"
+              ],
+              "answer": "бежит",
+              "hint": "Blood 'runs' through veins.",
+              "explanation": "Кровь бежит: blood runs through the veins. Бежать for continuous rapid flow."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Часы _____. (The clock is running.)",
+              "promptEnglish": "A clock in operation.",
+              "options": [
+                "бегут",
+                "летят",
+                "ходят",
+                "идут"
+              ],
+              "answer": "идут",
+              "hint": "Clocks 'go' = идти.",
+              "explanation": "Часы идут: the clock is running/working. Standard abstract идти."
+            },
+            {
+              "prompt": "Часы _____. (The clock is fast.)",
+              "promptEnglish": "A clock running fast/ahead.",
+              "options": [
+                "идут",
+                "бегут",
+                "ходят",
+                "летят"
+              ],
+              "answer": "бегут",
+              "hint": "A fast clock 'runs' = бежать.",
+              "explanation": "Часы бегут: the clock runs fast (gains time). Бежать implies 'too fast.'"
+            },
+            {
+              "prompt": "In 'часы идут' vs 'часы бегут', what changes?",
+              "promptEnglish": "Difference between идут and бегут for a clock.",
+              "options": [
+                "Tense",
+                "Aspect",
+                "Speed: normal vs fast",
+                "Formal vs informal"
+              ],
+              "answer": "Speed: normal vs fast",
+              "hint": "Идти = normal pace, бежать = too fast.",
+              "explanation": "Часы идут = the clock is running (normally). Часы бегут = the clock is fast (gaining time)."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "It has been raining all day.",
+          "answer": "Весь день идёт дождь.",
+          "acceptableVariants": [
+            "Дождь идёт весь день.",
+            "Целый день идёт дождь."
+          ],
+          "hint": "Rain 'goes' = идёт дождь",
+          "grammarFocus": "Abstract идти for weather",
+          "keyWord": "идёт",
+          "options": [
+            "идёт",
+            "идут",
+            "шёл",
+            "ходит"
+          ]
+        },
+        {
+          "english": "Time flies when you're having fun.",
+          "answer": "Время летит, когда весело.",
+          "acceptableVariants": [
+            "Время летит, когда тебе весело."
+          ],
+          "hint": "Time 'flies' = время летит",
+          "grammarFocus": "Abstract лететь for fast-moving time",
+          "keyWord": "летит",
+          "options": [
+            "летит",
+            "летят",
+            "летел",
+            "летает"
+          ]
+        },
+        {
+          "english": "Rumors are going around the office.",
+          "answer": "По офису ходят слухи.",
+          "acceptableVariants": [
+            "Слухи ходят по офису."
+          ],
+          "hint": "Rumors 'walk around' = слухи ходят",
+          "grammarFocus": "Abstract ходить for spreading information",
+          "keyWord": "ходят",
+          "options": [
+            "ходят",
+            "ходит",
+            "идут",
+            "шли"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-abstract",
+      "title": "Mixed Abstract Motion",
+      "titleRussian": "Смешанные задания",
+      "description": "Comprehensive drill on all abstract motion verb uses",
+      "descriptionRussian": "Комплексная тренировка абстрактных значений",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Сегодня _____ сильный дождь и ветер. (Today there is heavy rain and wind.)",
+              "promptEnglish": "Weather happening now.",
+              "options": [
+                "ходит",
+                "бежит",
+                "летит",
+                "идёт"
+              ],
+              "answer": "идёт",
+              "hint": "Weather = идти.",
+              "explanation": "Идёт дождь: standard weather expression with идти."
+            },
+            {
+              "prompt": "По школе _____ слух, что директор уходит. (A rumor is going around school that the principal is leaving.)",
+              "promptEnglish": "Rumor spreading.",
+              "options": [
+                "идёт",
+                "бежит",
+                "ходит",
+                "летит"
+              ],
+              "answer": "ходит",
+              "hint": "Rumors circulate = ходить.",
+              "explanation": "Ходит слух: a rumor is going around. Ходить for circulating information."
+            },
+            {
+              "prompt": "В этом кинотеатре _____ хорошие фильмы. (Good films show at this cinema.)",
+              "promptEnglish": "Films being shown.",
+              "options": [
+                "ходят",
+                "бегут",
+                "летят",
+                "идут"
+              ],
+              "answer": "идут",
+              "hint": "Films/performances 'go' = идти.",
+              "explanation": "Идут фильмы: films are showing. Идти for events and performances."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Годы _____, а он всё не меняется. (Years fly by, and he still doesn't change.)",
+              "promptEnglish": "Years passing rapidly.",
+              "options": [
+                "идут",
+                "ходят",
+                "бегут",
+                "летят"
+              ],
+              "answer": "летят",
+              "hint": "Years 'fly' = лететь.",
+              "explanation": "Годы летят: years fly by quickly. Лететь for rapid passage of time."
+            },
+            {
+              "prompt": "Тебе очень _____ синий цвет. (Blue really suits you.)",
+              "promptEnglish": "A color 'goes' / suits someone.",
+              "options": [
+                "ходит",
+                "бежит",
+                "идёт",
+                "летит"
+              ],
+              "answer": "идёт",
+              "hint": "To suit = идти + dative.",
+              "explanation": "Идёт тебе: suits you. Идти + dative for suitability."
+            },
+            {
+              "prompt": "Облака _____ по небу. (Clouds are floating across the sky.)",
+              "promptEnglish": "Slow, floating movement.",
+              "options": [
+                "бегут",
+                "идут",
+                "летят",
+                "плывут"
+              ],
+              "answer": "плывут",
+              "hint": "Floating/gliding = плыть.",
+              "explanation": "Облака плывут: clouds float/drift. Плыть for slow, graceful movement."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

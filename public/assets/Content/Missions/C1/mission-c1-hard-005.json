@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-005",
+  "title": "Bankruptcy Negotiation",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Negotiate with creditors to save your business",
+  "imageName": "chart.line.downtrend.xyaxis",
+  "initialPrompt": "Ваша компания неплатёжеспособна. Мы требуем полного погашения долга немедленно. Иначе — банкротство и ликвидация.",
+  "systemPrompt": "You are aggressive creditor demanding payment. Threaten bankruptcy proceedings. Only accept restructuring if shown viable recovery plan with concrete guarantees.",
+  "completionCriteria": "User negotiated debt restructuring successfully.",
+  "responseLimit": 15,
+  "hints": [
+    "У нас есть план реструктуризации (We have a restructuring plan)",
+    "Ликвидация невыгодна для всех (Liquidation is disadvantageous for everyone)"
+  ],
+  "targetVocabulary": [
+    {"word": "банкротство", "definition": "bankruptcy"},
+    {"word": "кредитор", "definition": "creditor"},
+    {"word": "реструктуризация", "definition": "restructuring"},
+    {"word": "долг", "definition": "debt"},
+    {"word": "ликвидация", "definition": "liquidation"},
+    {"word": "платёжеспособность", "definition": "solvency"}
+  ],
+  "objectives": [
+    "Present recovery plan",
+    "Negotiate payment terms",
+    "Avoid immediate bankruptcy",
+    "Offer creditor guarantees",
+    "Save the business"
+  ]
+}

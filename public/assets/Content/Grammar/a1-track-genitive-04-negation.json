@@ -1,0 +1,246 @@
+{
+  "id": "a1-track-genitive-04-negation",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Genitive 4: 'There Is No X' Across All Genders",
+  "titleRussian": "Родительный 4: 'Нет' для всех родов",
+  "description": "The нет + genitive construction works the same way for all three genders. Today you mix masculine, feminine, and neuter together.",
+  "descriptionRussian": "Конструкция нет + родительный падеж работает одинаково для всех родов. Сегодня смешиваем мужской, женский и средний.",
+  "imageName": "xmark.circle",
+  "trackId": "a1-genitive-mastery",
+  "trackTitle": "Genitive Mastery",
+  "trackTitleRussian": "Родительный падеж",
+  "trackIndex": 4,
+  "trackTotal": 8,
+  "intro": "Three lessons, three genders, and now no more warnings about which one is coming. The construction has not changed since lesson 1. What changes is that you have to work out the gender before you can produce the ending, and that is exactly the step that gets skipped when you practice one gender at a time.",
+  "rules": [
+    "The нет + genitive construction works the same way for all three genders. The trigger is always нет; the form depends on the noun's dictionary form.",
+    "Common subject frames: 'У X нет ___' (X doesn't have), 'В/На X нет ___' (there's no Y in/on X), 'Здесь нет ___' (there's no Y here).",
+    "When you see нет followed by a noun, identify the gender of the noun's dictionary form and apply the matching rule: masculine consonant + -а, feminine -а → -ы / -и, feminine -я → -и, neuter -о → -а, neuter -е → -я."
+  ],
+  "examples": [
+    "В комнате нет окна. (There's no window in the room.) окно (neuter) → окна.",
+    "У Лены нет брата. (Lena doesn't have a brother.) брат (masc) → брата.",
+    "У Маши нет книги. (Masha doesn't have a book.) книга (fem) → книги (spelling rule).",
+    "В холодильнике нет молока. (There's no milk in the fridge.) молоко (neuter) → молока.",
+    "У меня нет журнала. (I don't have a magazine.) журнал (masc) → журнала."
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "В комнате нет _____.",
+          "promptEnglish": "There's no window in the room.",
+          "options": [
+            "окно",
+            "окна",
+            "окну",
+            "окном"
+          ],
+          "answer": "окна",
+          "hint": "Recap from Lesson 3: neuter -о becomes which letter?",
+          "explanation": "Recap from Lesson 3: neuter nouns ending in -о swap -о for -а in the genitive. Окно → окна. The construction нет + genitive applies regardless of gender."
+        },
+        {
+          "prompt": "У Лены нет _____.",
+          "promptEnglish": "Lena doesn't have a brother.",
+          "options": [
+            "братом",
+            "брат",
+            "брату",
+            "брата"
+          ],
+          "answer": "брата",
+          "hint": "Брат is masculine. Apply Lesson 1's rule.",
+          "explanation": "Брат is masculine. The construction is the same as for neuter and feminine (нет triggers genitive), but the form follows the masculine rule: add -а → брата."
+        },
+        {
+          "prompt": "У Маши нет _____.",
+          "promptEnglish": "Masha doesn't have a book.",
+          "options": [
+            "книги",
+            "книга",
+            "книгу",
+            "книгой"
+          ],
+          "answer": "книги",
+          "hint": "Recall the spelling rule from Lesson 2.",
+          "explanation": "Книга is feminine -а. The regular rule would give книгы, but the spelling rule writes -и instead of -ы after к, г, х, ш, ж, щ, ч. So книга → книги."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "В холодильнике нет _____.",
+          "promptEnglish": "There's no milk in the fridge.",
+          "options": [
+            "молоко",
+            "молоком",
+            "молока",
+            "молоку"
+          ],
+          "answer": "молока",
+          "hint": "Молоко is neuter. The -о becomes...?",
+          "explanation": "Молоко is neuter -о. Genitive: -о swaps to -а → молока. Notice that the construction is now 'В X нет ___' rather than 'У X нет ___,' but the case behavior is identical."
+        },
+        {
+          "prompt": "У Антона нет _____.",
+          "promptEnglish": "Anton doesn't have a car.",
+          "options": [
+            "машины",
+            "машина",
+            "машину",
+            "машиной"
+          ],
+          "answer": "машины",
+          "hint": "Машина is feminine -а. What replaces -а?",
+          "explanation": "Машина is feminine ending in -а (no spelling-rule trigger). Genitive: -а → -ы → машины. The regular feminine pattern."
+        },
+        {
+          "prompt": "У меня нет _____.",
+          "promptEnglish": "I don't have a magazine.",
+          "options": [
+            "журнал",
+            "журналу",
+            "журналом",
+            "журнала"
+          ],
+          "answer": "журнала",
+          "hint": "First lesson's rule: masculine consonant + which ending?",
+          "explanation": "Quick callback to Lesson 1: masculine consonant nouns add -а in the genitive. Журнал → журнала. By the end of this track this should feel automatic."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "В стакане нет _____. (There's no water in the glass.)"
+    ],
+    "choices": [
+      "вода",
+      "воды",
+      "воду",
+      "водой"
+    ],
+    "answers": [
+      "воды"
+    ],
+    "grammarFocus": "Вода is feminine ending in -а. Genitive: -а → -ы → воды. The construction 'В X нет ___' triggers genitive just like 'У X нет ___.'"
+  },
+  "errorCorrection": [
+    {
+      "sentence": "У Антона нет сын, только дочь.",
+      "translationEnglish": "Anton has no son, only a daughter.",
+      "error": "сын",
+      "correction": "сына",
+      "options": [
+        "сына",
+        "сыну",
+        "сыном"
+      ],
+      "explanation": "After нет the noun shifts into the genitive. Сын is masculine animate; the genitive adds -а: сына. The 'two-clause' structure 'нет X, только Y' is a common Russian way to contrast, and both X and Y need their proper case (here X is gen, Y is nom because дочь is the subject of an implicit есть)."
+    },
+    {
+      "sentence": "У меня нет яблоко на завтрак сегодня.",
+      "translationEnglish": "I don't have an apple for breakfast today.",
+      "error": "яблоко",
+      "correction": "яблока",
+      "options": [
+        "яблока",
+        "яблоку",
+        "яблоком"
+      ],
+      "explanation": "After нет the noun shifts into the genitive. Яблоко is neuter (-о ending); the neuter genitive swaps -о → -а: яблока. The same -а appears on masculine genitives (журнал → журнала): different ending starting points, same destination vowel."
+    },
+    {
+      "sentence": "У Лены нет сестра, и она всегда чувствует это.",
+      "translationEnglish": "Lena has no sister, and she always feels it.",
+      "error": "сестра",
+      "correction": "сестры",
+      "options": [
+        "сестры",
+        "сестре",
+        "сестрой"
+      ],
+      "explanation": "After нет the noun shifts into the genitive. Сестра is feminine ending in -а; the genitive swaps -а → -ы: сестры. The stem-final -р is a 'normal' consonant (not k/g/x/sh/zh/shch/ch), so the spelling rule does NOT kick in here; -ы stays as -ы."
+    },
+    {
+      "sentence": "У меня нет телефон в моей комнате.",
+      "translationEnglish": "I don't have a phone in my room.",
+      "error": "телефон",
+      "correction": "телефона",
+      "options": [
+        "телефона",
+        "телефону",
+        "телефоном"
+      ],
+      "explanation": "After нет the noun must shift into the genitive. Masculine consonant nouns add -а: телефон → телефона. Leaving the noun in the nominative is the most common mistake learners make with нет; Russian requires the genitive here."
+    },
+    {
+      "sentence": "У Маши нет ручкы, чтобы писать письмо.",
+      "translationEnglish": "Masha has no pen to write the letter with.",
+      "error": "ручкы",
+      "correction": "ручки",
+      "options": [
+        "ручки",
+        "ручка",
+        "ручкой"
+      ],
+      "explanation": "Feminine -а would normally swap to -ы (ручкы), but Russian's spelling rule blocks -ы after к, г, х, ж, ш, щ, ч. The correct form is ручки. The form 'ручкы' is not valid Russian; it's exactly the trap the spelling rule exists to catch."
+    },
+    {
+      "sentence": "В классе нет место для нового стола.",
+      "translationEnglish": "There's no room in the classroom for a new table.",
+      "error": "место",
+      "correction": "места",
+      "options": [
+        "места",
+        "месту",
+        "местом"
+      ],
+      "explanation": "Neuter -о swaps to -а in the genitive: место → места. The construction 'В X нет Y' is parallel to 'У X нет Y'; both trigger the genitive on Y for any gender."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "В комнате есть _____.",
+      "contextEnglish": "There is a window in the room.",
+      "options": [
+        "окно",
+        "окна"
+      ],
+      "answer": "окно",
+      "explanation": "After есть the noun stays in the nominative: окно. The genitive form окна appears in 'В комнате нет окна' (There's no window in the room). The same есть/нет contrast you saw in Lessons 1 and 2 holds for neuter as well."
+    },
+    {
+      "context": "У меня нет _____.",
+      "contextEnglish": "I don't have a book.",
+      "options": [
+        "книга",
+        "книги"
+      ],
+      "answer": "книги",
+      "explanation": "After нет the noun shifts into the genitive. The regular rule would give книгы, but the spelling rule converts -ы to -и after к, г, х, ш, ж, щ, ч. So книга → книги."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "род",
+      "definition": "gender (grammatical category: masculine, feminine, or neuter)",
+      "example": "В русском языке три рода: мужской, женский и средний."
+    },
+    {
+      "term": "стол",
+      "definition": "table (its genitive form is стола)",
+      "example": "В комнате нет стола."
+    },
+    {
+      "term": "стакан",
+      "definition": "glass (drinking vessel)",
+      "example": "В стакане нет воды."
+    }
+  ]
+}

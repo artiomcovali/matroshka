@@ -1,0 +1,295 @@
+{
+  "id": "c1-019-verbal-style",
+  "level": "C1",
+  "focusArea": "sentenceStructure",
+  "title": "Verbal Style",
+  "titleRussian": "Глагольный стиль",
+  "description": "Verbal vs. nominal style choice",
+  "descriptionRussian": "Выбор между глагольным и номинальным стилем",
+  "imageName": "textformat.abc",
+  "intro": "While nominal style suits formal writing, verbal style is clearer and more dynamic. VERBAL ADVANTAGES: Easier to understand, shows who does what, more engaging. WHEN TO USE: Journalism, fiction, instructions, spoken language. COMPARE: Nominal: 'Осуществление проверки документов было проведено' vs. Verbal: 'Мы проверили документы'. MIXED STYLE: Alternate nominal and verbal for rhythm. REWRITING: Convert nominalizations back to verbs for clarity. Choose style based on audience and purpose.",
+  "rules": [
+    "Verbal = clearer: Мы решили (verbal) vs. Было принято решение (nominal)",
+    "Verbal shows agent: Директор подписал vs. Подписание было осуществлено",
+    "Use verbal for: journalism, instructions, spoken Russian",
+    "Mix styles for rhythm and emphasis in formal writing"
+  ],
+  "examples": [
+    "Nominal: Было осуществлено рассмотрение вопроса. → Verbal: Мы рассмотрели вопрос.",
+    "Nominal: После завершения работы... → Verbal: Когда мы закончили работу...",
+    "Nominal: Принятие решения откладывается. → Verbal: Мы откладываем решение.",
+    "Mixed: Проверка показала, что система работает правильно. (noun + verb)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Which is verbal style?",
+          "promptEnglish": "Identify the verbal construction",
+          "options": [
+            "Проверка документов.",
+            "Была проведена проверка.",
+            "Осуществление проверки.",
+            "Мы проверили документы."
+          ],
+          "answer": "Мы проверили документы.",
+          "hint": "Verb + object = verbal",
+          "explanation": "Verbal: Мы проверили документы."
+        },
+        {
+          "prompt": "Which is clearer for instructions?",
+          "promptEnglish": "Best for giving directions",
+          "options": [
+            "Нажатие кнопки.",
+            "Нажмите кнопку.",
+            "Осуществите нажатие кнопки.",
+            "Было произведено нажатие."
+          ],
+          "answer": "Нажмите кнопку.",
+          "hint": "Direct verb = clearer",
+          "explanation": "Instructions: Нажмите кнопку."
+        },
+        {
+          "prompt": "Convert: 'Было принято решение' → verbal",
+          "promptEnglish": "Make it verbal style",
+          "options": [
+            "Решение было.",
+            "Принятие решения.",
+            "Решение принято.",
+            "Мы решили."
+          ],
+          "answer": "Мы решили.",
+          "hint": "Subject + verb",
+          "explanation": "Verbal: Мы решили."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Verbal style advantage: shows _____",
+          "promptEnglish": "What does verbal style make clear?",
+          "options": [
+            "official tone",
+            "formality",
+            "complexity",
+            "who acts (agent)"
+          ],
+          "answer": "who acts (agent)",
+          "hint": "Мы сделали shows WHO",
+          "explanation": "Verbal shows agent: who does what."
+        },
+        {
+          "prompt": "Which suits journalism?",
+          "promptEnglish": "News writing prefers...",
+          "options": [
+            "Было произведено подписание.",
+            "Подписание закона было осуществлено.",
+            "Президент подписал закон.",
+            "Осуществление подписания."
+          ],
+          "answer": "Президент подписал закон.",
+          "hint": "Clear, dynamic = verbal",
+          "explanation": "Journalism: verbal style."
+        },
+        {
+          "prompt": "Convert: 'После рассмотрения вопроса' → verbal",
+          "promptEnglish": "Use a clause instead of noun",
+          "options": [
+            "Рассмотрение вопроса",
+            "Рассмотренный вопрос",
+            "Вопрос рассмотрения",
+            "Когда мы рассмотрели вопрос"
+          ],
+          "answer": "Когда мы рассмотрели вопрос",
+          "hint": "когда + verb",
+          "explanation": "Verbal: Когда мы рассмотрели..."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Which is too heavy/bureaucratic?",
+          "promptEnglish": "Identify over-nominalized style",
+          "options": [
+            "Мы провели проверку.",
+            "Осуществление проверки было произведено.",
+            "Проверка показала ошибки.",
+            "Документы проверены."
+          ],
+          "answer": "Осуществление проверки было произведено.",
+          "hint": "Noun + noun + passive = heavy",
+          "explanation": "Too nominal: Осуществление...Было произведено."
+        },
+        {
+          "prompt": "Mixed style: Проверка _____, что всё в порядке.",
+          "promptEnglish": "Noun subject + verb predicate",
+          "options": [
+            "показанная",
+            "показав",
+            "показала",
+            "показание"
+          ],
+          "answer": "показала",
+          "hint": "Noun + verb = good mix",
+          "explanation": "Mixed: Проверка показала (noun + verb)."
+        },
+        {
+          "prompt": "Best for spoken Russian?",
+          "promptEnglish": "Natural in conversation",
+          "options": [
+            "Факт непонимания.",
+            "Я не понял.",
+            "Было зафиксировано непонимание.",
+            "Непонимание имело место."
+          ],
+          "answer": "Я не понял.",
+          "hint": "Spoken = simple verbs",
+          "explanation": "Spoken: Я не понял."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Глагольный стиль: Комиссия _____ все жалобы.",
+          "promptEnglish": "The commission reviewed all complaints.",
+          "options": [
+            "провела рассмотрение",
+            "осуществила рассмотрение",
+            "рассмотрела",
+            "произвела рассмотрение"
+          ],
+          "answer": "рассмотрела",
+          "hint": "Глагольный стиль = простой глагол",
+          "explanation": "Глагольный стиль заменяет «провела рассмотрение» на простой глагол «рассмотрела»."
+        },
+        {
+          "prompt": "Для инструкции лучше: _____ файл и нажмите «Отправить».",
+          "promptEnglish": "Open the file and click 'Send'.",
+          "options": [
+            "Откройте",
+            "Осуществите открытие",
+            "Произведите открытие",
+            "Открытие"
+          ],
+          "answer": "Откройте",
+          "hint": "Инструкции пишутся глагольным стилем",
+          "explanation": "Для инструкций глагольный стиль яснее: «откройте» вместо «произведите открытие»."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Convert to verbal: 'Принятие решения откладывается' → Мы _____ решение. (postpone)"
+    ],
+    "choices": [
+      "откладываем",
+      "отложение",
+      "отложив",
+      "отложенный"
+    ],
+    "answers": [
+      "откладываем"
+    ],
+    "grammarFocus": "Nominal → Verbal conversion",
+    "hints": [
+      "Converting from nominal to verbal style means replacing abstract nouns with active verbs. What verb replaces 'откладывается'?"
+    ],
+    "explanations": [
+      "Verbal style uses active verbs with explicit subjects: 'Мы откладываем решение' instead of nominal 'Принятие решения откладывается.' Verbal style is clearer and more natural in spoken Russian, while nominal style is preferred in official documents."
+    ],
+    "options": [
+      [
+        "откладывают",
+        "откладываем",
+        "откладываете",
+        "откладываешь"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Formal report: _____ проверка документов.",
+      "contextEnglish": "An inspection was conducted.",
+      "options": [
+        "Была проведена",
+        "Мы провели"
+      ],
+      "answer": "Была проведена",
+      "explanation": "Formal: nominal style."
+    },
+    {
+      "context": "News article: _____ документы.",
+      "contextEnglish": "We checked the documents.",
+      "options": [
+        "Мы проверили",
+        "Была проведена проверка"
+      ],
+      "answer": "Мы проверили",
+      "explanation": "Journalism: verbal style."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by appropriate context",
+    "categories": [
+      "Verbal (journalism/spoken)",
+      "Nominal (official/formal)",
+      "Mixed (good balance)"
+    ],
+    "items": [
+      {
+        "word": "Мы решили проблему.",
+        "category": "Verbal (journalism/spoken)"
+      },
+      {
+        "word": "Было принято решение.",
+        "category": "Nominal (official/formal)"
+      },
+      {
+        "word": "Проверка показала ошибки.",
+        "category": "Mixed (good balance)"
+      },
+      {
+        "word": "Директор подписал документ.",
+        "category": "Verbal (journalism/spoken)"
+      },
+      {
+        "word": "Осуществление проекта завершено.",
+        "category": "Nominal (official/formal)"
+      },
+      {
+        "word": "Анализ выявил проблемы.",
+        "category": "Mixed (good balance)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "глагольный стиль",
+      "definition": "verbal style (clearer, dynamic)",
+      "example": "Мы решили проблему."
+    },
+    {
+      "term": "номинальный стиль",
+      "definition": "nominal style (formal, official)",
+      "example": "Было принято решение."
+    },
+    {
+      "term": "смешанный стиль",
+      "definition": "mixed style (noun + verb)",
+      "example": "Проверка показала..."
+    },
+    {
+      "term": "ясность / динамичность",
+      "definition": "clarity / dynamism",
+      "example": "Verbal style = clarity."
+    }
+  ]
+}

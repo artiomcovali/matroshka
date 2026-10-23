@@ -1,0 +1,296 @@
+{
+  "id": "b1-030-participles-summary",
+  "level": "B1",
+  "focusArea": "other",
+  "title": "Participles Summary",
+  "titleRussian": "Причастия (обзор)",
+  "description": "All 4 participle types compared",
+  "descriptionRussian": "Сравнение всех четырёх типов причастий",
+  "imageName": "square.grid.2x2",
+  "intro": "Russian has 4 participle types in a 2x2 grid: ACTIVE vs PASSIVE, and PRESENT vs PAST. Active participles describe the doer (читающий = who reads). Passive participles describe the receiver (читаемый = being read). Present participles describe ongoing/general actions. Past participles describe completed actions. All replace 'который' clauses: человек, который читает → читающий человек. Choose based on: Is the noun doing or receiving? Is the action now or completed?",
+  "rules": [
+    "Active = noun does action: читающий (who reads), читавший (who was reading)",
+    "Passive = noun receives action: читаемый (being read), прочитанный (that was read)",
+    "Present = ongoing/habitual: читающий, читаемый (from imperfective verbs)",
+    "Past = completed: читавший, прочитанный (impf or pf verbs)"
+  ],
+  "examples": [
+    "Читающий студент — The reading student (active present: who reads)",
+    "Читавший студент — The student who was reading (active past)",
+    "Читаемая книга — The book being read (passive present)",
+    "Прочитанная книга — The book that was read (passive past)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Студент, _____ книгу сейчас... (who is reading - active present)",
+          "promptEnglish": "The student who is reading a book now...",
+          "options": [
+            "читавший",
+            "прочитанный",
+            "читающий",
+            "читаемый"
+          ],
+          "answer": "читающий",
+          "hint": "Active (does action) + present (now)",
+          "explanation": "Active present: читающий."
+        },
+        {
+          "prompt": "Книга, _____ всеми... (loved by all - passive)",
+          "promptEnglish": "The book loved by all...",
+          "options": [
+            "любившая",
+            "любящая",
+            "любимая",
+            "полюбившая"
+          ],
+          "answer": "любимая",
+          "hint": "Passive (receives love) + ongoing",
+          "explanation": "Passive present: любимая."
+        },
+        {
+          "prompt": "Человек, _____ письмо вчера... (who wrote, active past)",
+          "promptEnglish": "The person who wrote a letter yesterday...",
+          "options": [
+            "написанный",
+            "писавший",
+            "написавший",
+            "пишущий"
+          ],
+          "answer": "написавший",
+          "hint": "Active (did action) + completed (pf)",
+          "explanation": "Active past perfective: написавший."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Статья, _____ журналистом... (written by - passive past)",
+          "promptEnglish": "The article written by the journalist...",
+          "options": [
+            "писавшая",
+            "написавшая",
+            "пишущая",
+            "написанная"
+          ],
+          "answer": "написанная",
+          "hint": "Passive (was written) + completed",
+          "explanation": "Passive past: написанная."
+        },
+        {
+          "prompt": "Преподаватель, _____ лекцию... (giving, active present)",
+          "promptEnglish": "The teacher giving a lecture...",
+          "options": [
+            "читавший",
+            "читаемый",
+            "читающий",
+            "прочитанный"
+          ],
+          "answer": "читающий",
+          "hint": "Active (does action) + ongoing",
+          "explanation": "Active present: читающий (читать лекцию)."
+        },
+        {
+          "prompt": "Вопрос, _____ студентами... (being discussed - passive present)",
+          "promptEnglish": "The question being discussed by students...",
+          "options": [
+            "обсудивший",
+            "обсуждающий",
+            "обсуждаемый",
+            "обсуждённый"
+          ],
+          "answer": "обсуждаемый",
+          "hint": "Passive (receives action) + ongoing",
+          "explanation": "Passive present: обсуждаемый."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Дети, _____ в парке весь день... (who were playing - active past)",
+          "promptEnglish": "The children who were playing in the park all day...",
+          "options": [
+            "играемые",
+            "сыгравшие",
+            "играющие",
+            "игравшие"
+          ],
+          "answer": "игравшие",
+          "hint": "Active (did action) + past impf",
+          "explanation": "Active past imperfective: игравшие."
+        },
+        {
+          "prompt": "Дверь, _____ ветром... (opened by - passive past)",
+          "promptEnglish": "The door opened by the wind...",
+          "options": [
+            "открывающая",
+            "открытая",
+            "открывшая",
+            "открываемая"
+          ],
+          "answer": "открытая",
+          "hint": "Passive (was opened) + completed",
+          "explanation": "Passive past: открытая."
+        },
+        {
+          "prompt": "Женщина, _____ по телефону... (talking - active present)",
+          "promptEnglish": "The woman talking on the phone...",
+          "options": [
+            "говорившая",
+            "сказанная",
+            "сказавшая",
+            "говорящая"
+          ],
+          "answer": "говорящая",
+          "hint": "Active (does action) + ongoing",
+          "explanation": "Active present: говорящая."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Which participle type (Active/Passive, Present/Past)? Студент, который читает книгу, мой друг.",
+          "promptEnglish": "Student does the action, now",
+          "options": [
+            "Active Present: читающий",
+            "Active Past: читавший",
+            "Passive Present: читаемый",
+            "Passive Past: прочитанный"
+          ],
+          "answer": "Active Present: читающий",
+          "hint": "Student does the action, now",
+          "explanation": "The student performs the action (active) right now (present): читающий."
+        },
+        {
+          "prompt": "Which participle type (Active/Passive, Present/Past)? Книга, которую написал Толстой, знаменита.",
+          "promptEnglish": "Book receives action, completed",
+          "options": [
+            "Passive Past: написанная",
+            "Active Past: написавший",
+            "Active Present: пишущий",
+            "Passive Present: читаемый"
+          ],
+          "answer": "Passive Past: написанная",
+          "hint": "Book receives action, completed",
+          "explanation": "The book receives the action (passive), completed in the past: написанная."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Человек, _____ эту книгу, рекомендует её всем. (who read, active past pf)"
+    ],
+    "choices": [
+      "прочитавший",
+      "читающий",
+      "прочитанный",
+      "читаемый"
+    ],
+    "answers": [
+      "прочитавший"
+    ],
+    "grammarFocus": "Active past pf: did the action + completed",
+    "hints": [
+      "The person did the reading and completed it. Is the noun the doer or receiver? Was the action present or past?"
+    ],
+    "explanations": [
+      "The person is the doer (active) who completed the reading (past, perfective). This requires an active past perfective participle: прочитавший. Active = doer, past = completed action."
+    ],
+    "options": [
+      [
+        "прочитавший",
+        "прочитавшего",
+        "прочитавшим",
+        "прочитавшему"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ книгу студент (who is reading - does action)",
+      "contextEnglish": "The student reading a book",
+      "options": [
+        "Читающий",
+        "Читаемая"
+      ],
+      "answer": "Читающий",
+      "explanation": "Active: student does the reading."
+    },
+    {
+      "context": "_____ студентами книга (being read - receives action)",
+      "contextEnglish": "The book being read by students",
+      "options": [
+        "Читаемая",
+        "Читающая"
+      ],
+      "answer": "Читаемая",
+      "explanation": "Passive: book receives the action."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by participle type",
+    "categories": [
+      "Active Present",
+      "Active Past",
+      "Passive Present",
+      "Passive Past"
+    ],
+    "items": [
+      {
+        "word": "читающий",
+        "category": "Active Present"
+      },
+      {
+        "word": "читавший",
+        "category": "Active Past"
+      },
+      {
+        "word": "читаемый",
+        "category": "Passive Present"
+      },
+      {
+        "word": "прочитанный",
+        "category": "Passive Past"
+      },
+      {
+        "word": "говорящий",
+        "category": "Active Present"
+      },
+      {
+        "word": "написанный",
+        "category": "Passive Past"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "Active Present",
+      "definition": "-ущий/-ющий, -ащий/-ящий",
+      "example": "читающий, говорящий"
+    },
+    {
+      "term": "Active Past",
+      "definition": "-вший/-ший",
+      "example": "читавший, нёсший"
+    },
+    {
+      "term": "Passive Present",
+      "definition": "-емый/-имый",
+      "example": "читаемый, любимый"
+    },
+    {
+      "term": "Passive Past",
+      "definition": "-нный/-тый",
+      "example": "прочитанный, открытый"
+    }
+  ]
+}

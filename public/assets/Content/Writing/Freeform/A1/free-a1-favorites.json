@@ -1,0 +1,65 @@
+{
+  "id": "free-a1-favorites",
+  "level": "A1",
+  "type": "freeform",
+  "title": "My Favorites",
+  "titleRussian": "Моё любимое",
+  "theme": "favorites",
+  "prompts": [
+    {
+      "id": "a1-fav-001",
+      "prompt": "Write about your favorite food and drink.",
+      "promptRussian": "Напишите о вашей любимой еде и напитке.",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Моя любимая еда...", "Я люблю пить...", "Мне нравится..."],
+      "targetGrammar": ["adjectives", "accusative case", "present tense"],
+      "gradingCriteria": ["food mentioned", "drink mentioned", "correct adjective agreement"],
+      "sampleResponse": "Моя любимая еда — пицца. Я также люблю борщ. Мой любимый напиток — чай."
+    },
+    {
+      "id": "a1-fav-002",
+      "prompt": "What is your favorite color? Write about things you have in that color.",
+      "promptRussian": "Какой ваш любимый цвет? Напишите о вещах этого цвета, которые у вас есть.",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Мой любимый цвет...", "У меня есть...", "синий/красный/зелёный"],
+      "targetGrammar": ["adjective agreement", "есть construction", "nominative case"],
+      "gradingCriteria": ["color mentioned", "at least one object described"],
+      "sampleResponse": "Мой любимый цвет — синий. У меня есть синяя куртка. Моя машина тоже синяя."
+    },
+    {
+      "id": "a1-fav-003",
+      "prompt": "Write about your favorite season and why you like it.",
+      "promptRussian": "Напишите о вашем любимом времени года и почему оно вам нравится.",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Моё любимое время года...", "Мне нравится, потому что...", "Летом/Зимой..."],
+      "targetGrammar": ["neuter adjective agreement", "потому что clause", "seasons vocabulary"],
+      "gradingCriteria": ["season mentioned", "reason given"],
+      "sampleResponse": "Моё любимое время года — лето. Летом тепло и солнечно. Я люблю гулять и плавать."
+    },
+    {
+      "id": "a1-fav-004",
+      "prompt": "What is your favorite animal? Describe it.",
+      "promptRussian": "Какое ваше любимое животное? Опишите его.",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Моё любимое животное...", "Оно большое/маленькое...", "У меня есть..."],
+      "targetGrammar": ["adjectives", "neuter agreement", "description vocabulary"],
+      "gradingCriteria": ["animal mentioned", "at least one descriptive detail"],
+      "sampleResponse": "Моё любимое животное — собака. Собаки добрые и умные. У меня есть маленькая собака."
+    },
+    {
+      "id": "a1-fav-005",
+      "prompt": "Write about your favorite place in your city or town.",
+      "promptRussian": "Напишите о вашем любимом месте в вашем городе.",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Моё любимое место...", "Там красиво...", "Я часто хожу..."],
+      "targetGrammar": ["prepositional case", "там adverb", "frequency adverbs"],
+      "gradingCriteria": ["place mentioned", "reason or description included"],
+      "sampleResponse": "Моё любимое место — парк рядом с домом. Там красиво и тихо. Я часто там гуляю."
+    }
+  ]
+}

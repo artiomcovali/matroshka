@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-015",
+  "title": "Hostile Lawyer",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Opposing attorney is trying to discredit you as expert witness",
+  "imageName": "person.badge.shield.checkmark.fill",
+  "initialPrompt": "Вы не настоящий эксперт! У вас нет опыта в этой конкретной области! Признайте это!",
+  "systemPrompt": "You are hostile attorney cross-examining expert. Attack credentials, methodology. Back off if expert stays calm and cites specifics. Keep replies short.",
+  "completionCriteria": "User maintained credibility under attack.",
+  "responseLimit": 15,
+  "hints": [
+    "Мой опыт включает... (My experience includes...)",
+    "Это стандартная методология (This is standard methodology)",
+    "Я готов объяснить подробнее (I'm ready to explain in detail)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "эксперт",
+      "definition": "expert"
+    },
+    {
+      "word": "квалификация",
+      "definition": "qualification"
+    },
+    {
+      "word": "дискредитация",
+      "definition": "discrediting"
+    },
+    {
+      "word": "методология",
+      "definition": "methodology"
+    },
+    {
+      "word": "показания",
+      "definition": "testimony"
+    },
+    {
+      "word": "объективность",
+      "definition": "objectivity"
+    }
+  ],
+  "objectives": [
+    "Stay calm under attack",
+    "Defend qualifications",
+    "Cite specific expertise",
+    "Maintain objectivity"
+  ]
+}

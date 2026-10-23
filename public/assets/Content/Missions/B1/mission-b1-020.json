@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-020",
+  "title": "Investment Account",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Open an investment account at the bank",
+  "imageName": "chart.line.uptrend.xyaxis",
+  "initialPrompt": "Добрый день! Вас интересуют инвестиции? Какие у вас цели?",
+  "systemPrompt": "You are a bank investment advisor. Offer: savings (3%), bonds (5%), stocks (higher risk). Ask about goals, timeline, risk tolerance. Minimum investment 50K₽. Keep replies short.",
+  "completionCriteria": "User understood options and opened account or scheduled follow-up.",
+  "responseLimit": 15,
+  "hints": [
+    "Какие варианты есть? (What options are there?)",
+    "Какой минимальный вклад? (What's the minimum deposit?)",
+    "Какой процент? (What's the interest rate?)",
+    "Какие риски? (What are the risks?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "инвестиция",
+      "definition": "investment"
+    },
+    {
+      "word": "счёт",
+      "definition": "account"
+    },
+    {
+      "word": "процент",
+      "definition": "interest rate"
+    },
+    {
+      "word": "риск",
+      "definition": "risk"
+    },
+    {
+      "word": "доход",
+      "definition": "income/return"
+    },
+    {
+      "word": "вклад",
+      "definition": "deposit"
+    }
+  ],
+  "objectives": [
+    "Explain your investment goals",
+    "Ask about different options",
+    "Understand risks and returns",
+    "Open account or get more info"
+  ]
+}

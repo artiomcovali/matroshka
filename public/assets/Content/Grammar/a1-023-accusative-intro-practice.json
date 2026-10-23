@@ -1,0 +1,439 @@
+{
+  "lessonId": "a1-023-accusative-intro",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Accusative case forms for direct objects",
+      "descriptionRussian": "Формы винительного падежа для прямых дополнений",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я читаю _____. (newspaper, feminine)",
+              "promptEnglish": "I am reading a newspaper.",
+              "options": [
+                "газета",
+                "газете",
+                "газету",
+                "газеты"
+              ],
+              "answer": "газету",
+              "hint": "Feminine -а -> -у in accusative.",
+              "explanation": "Газета (f, -а) -> газету in accusative."
+            },
+            {
+              "prompt": "Он пишет _____. (letter, neuter)",
+              "promptEnglish": "He is writing a letter.",
+              "options": [
+                "письмо",
+                "письму",
+                "письма",
+                "письме"
+              ],
+              "answer": "письмо",
+              "hint": "Neuter nouns don't change in accusative.",
+              "explanation": "Neuter nouns stay the same: письмо -> письмо."
+            },
+            {
+              "prompt": "Мы смотрим _____. (movie, masculine inanimate)",
+              "promptEnglish": "We are watching a movie.",
+              "options": [
+                "фильма",
+                "фильму",
+                "фильм",
+                "фильме"
+              ],
+              "answer": "фильм",
+              "hint": "Masculine inanimate = same as nominative.",
+              "explanation": "Masculine inanimate nouns don't change: фильм -> фильм."
+            },
+            {
+              "prompt": "Она слушает _____. (song, feminine)",
+              "promptEnglish": "She is listening to a song.",
+              "options": [
+                "песня",
+                "песню",
+                "песни",
+                "песне"
+              ],
+              "answer": "песню",
+              "hint": "Feminine -я -> -ю in accusative.",
+              "explanation": "Песня (f, -я) -> песню in accusative."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я вижу _____. (house, masculine inanimate)",
+          "contextEnglish": "I see a house.",
+          "options": [
+            "дом",
+            "дома"
+          ],
+          "answer": "дом",
+          "explanation": "Дом is masculine inanimate: stays the same in accusative."
+        },
+        {
+          "context": "Я вижу _____. (brother, masculine animate)",
+          "contextEnglish": "I see my brother.",
+          "options": [
+            "брат",
+            "брата"
+          ],
+          "answer": "брата",
+          "explanation": "Брат is masculine animate: takes genitive form in accusative -> брата."
+        },
+        {
+          "context": "Она купила _____. (skirt, feminine)",
+          "contextEnglish": "She bought a skirt.",
+          "options": [
+            "юбка",
+            "юбку"
+          ],
+          "answer": "юбку",
+          "explanation": "Юбка (f, -а) -> юбку in accusative."
+        },
+        {
+          "context": "Он знает _____. (word, neuter)",
+          "contextEnglish": "He knows the word.",
+          "options": [
+            "слово",
+            "слова"
+          ],
+          "answer": "слово",
+          "explanation": "Слово is neuter: doesn't change in accusative."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in accusative forms and sort by change pattern",
+      "descriptionRussian": "Вставьте формы винительного падежа и рассортируйте",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Я люблю _____. (mom, feminine)",
+          "Он читает _____. (journal, masculine inanimate)",
+          "Она ест _____. (porridge, feminine)",
+          "Мы учим _____. (lesson, masculine inanimate)"
+        ],
+        "choices": [
+          "маму",
+          "журнал",
+          "кашу",
+          "урок"
+        ],
+        "answers": [
+          "маму",
+          "журнал",
+          "кашу",
+          "урок"
+        ],
+        "grammarFocus": "accusative forms: feminine changes, masculine inanimate stays",
+        "hints": [
+          "Мама (f, -а) -> -у.",
+          "Журнал (m, inanimate) stays the same.",
+          "Каша (f, -а) -> -у.",
+          "Урок (m, inanimate) stays the same."
+        ],
+        "explanations": [
+          "Мама -> маму (feminine accusative: -а -> -у).",
+          "Журнал -> журнал (masculine inanimate: no change).",
+          "Каша -> кашу (feminine accusative: -а -> -у).",
+          "Урок -> урок (masculine inanimate: no change)."
+        ],
+        "options": [
+          [
+            "мама",
+            "маме",
+            "маму",
+            "мамы"
+          ],
+          [
+            "журналу",
+            "журнала",
+            "журнал",
+            "журналом"
+          ],
+          [
+            "каши",
+            "каше",
+            "кашу",
+            "каша"
+          ],
+          [
+            "уроком",
+            "урок",
+            "урока",
+            "уроку"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort: changes in accusative or stays the same?",
+        "categories": [
+          "Changes (-а/-я -> -у/-ю)",
+          "Stays the same (m inanimate/neuter)"
+        ],
+        "items": [
+          {
+            "word": "книга -> книгу",
+            "category": "Changes (-а/-я -> -у/-ю)"
+          },
+          {
+            "word": "стол -> стол",
+            "category": "Stays the same (m inanimate/neuter)"
+          },
+          {
+            "word": "песня -> песню",
+            "category": "Changes (-а/-я -> -у/-ю)"
+          },
+          {
+            "word": "окно -> окно",
+            "category": "Stays the same (m inanimate/neuter)"
+          },
+          {
+            "word": "газета -> газету",
+            "category": "Changes (-а/-я -> -у/-ю)"
+          },
+          {
+            "word": "фильм -> фильм",
+            "category": "Stays the same (m inanimate/neuter)"
+          },
+          {
+            "word": "музыка -> музыку",
+            "category": "Changes (-а/-я -> -у/-ю)"
+          },
+          {
+            "word": "письмо -> письмо",
+            "category": "Stays the same (m inanimate/neuter)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "She is reading a book.",
+          "answer": "Она читает книгу.",
+          "acceptableVariants": [],
+          "hint": "book (acc) = книгу",
+          "grammarFocus": "feminine accusative",
+          "keyWord": "книгу",
+          "options": [
+            "книгу",
+            "книга",
+            "книге",
+            "книги"
+          ]
+        },
+        {
+          "english": "I love this city.",
+          "answer": "Я люблю этот город.",
+          "acceptableVariants": [],
+          "hint": "city (m inanimate acc) = город (no change), this (m acc) = этот",
+          "grammarFocus": "masculine inanimate accusative",
+          "keyWord": "город",
+          "options": [
+            "город",
+            "города",
+            "городу",
+            "городе"
+          ]
+        },
+        {
+          "english": "He is buying a hat.",
+          "answer": "Он покупает шапку.",
+          "acceptableVariants": [],
+          "hint": "hat (f acc) = шапку",
+          "grammarFocus": "feminine accusative -а -> -у",
+          "keyWord": "шапку",
+          "options": [
+            "шапку",
+            "шапка",
+            "шапке",
+            "шапки"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Error",
+      "titleRussian": "Найди ошибку",
+      "description": "Fix accusative case mistakes",
+      "descriptionRussian": "Исправьте ошибки в винительном падеже",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Я читаю книга.",
+          "error": "книга",
+          "correction": "книгу",
+          "hint": "Feminine -а -> -у in accusative after a verb.",
+          "explanation": "Читать requires accusative: книга -> книгу.",
+          "options": [
+            "книгу",
+            "книге",
+            "книги",
+            "книгой"
+          ]
+        },
+        {
+          "sentence": "Она слушает песня.",
+          "error": "песня",
+          "correction": "песню",
+          "hint": "Feminine -я -> -ю in accusative.",
+          "explanation": "Слушать requires accusative: песня -> песню.",
+          "options": [
+            "песню",
+            "песне",
+            "песни",
+            "песней"
+          ]
+        },
+        {
+          "sentence": "Он видит собака.",
+          "error": "собака",
+          "correction": "собаку",
+          "hint": "Feminine -а -> -у in accusative.",
+          "explanation": "Видеть requires accusative: собака -> собаку.",
+          "options": [
+            "собаку",
+            "собаке",
+            "собаки",
+            "собакой"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я пью _____. (water, feminine)",
+              "promptEnglish": "I am drinking water.",
+              "options": [
+                "вода",
+                "воде",
+                "воду",
+                "воды"
+              ],
+              "answer": "воду",
+              "hint": "Feminine -а -> -у.",
+              "explanation": "Пить + accusative: вода -> воду."
+            },
+            {
+              "prompt": "Мы изучаем _____. (language, masculine inanimate)",
+              "promptEnglish": "We are studying a language.",
+              "options": [
+                "языка",
+                "языку",
+                "язык",
+                "языке"
+              ],
+              "answer": "язык",
+              "hint": "Masculine inanimate = no change.",
+              "explanation": "Язык is masculine inanimate: stays the same in accusative."
+            },
+            {
+              "prompt": "Она готовит _____. (dinner, masculine inanimate)",
+              "promptEnglish": "She is making dinner.",
+              "options": [
+                "ужина",
+                "ужин",
+                "ужину",
+                "ужине"
+              ],
+              "answer": "ужин",
+              "hint": "Masculine inanimate = no change.",
+              "explanation": "Ужин is masculine inanimate: stays the same."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All accusative topics mixed together",
+      "descriptionRussian": "Все темы винительного падежа вместе",
+      "icon": "shuffle",
+      "patternRecognition": [
+        {
+          "sentence": "книга -> книгу, газета -> газету, музыка -> музыку",
+          "question": "What happens to feminine nouns ending in -а in accusative?",
+          "options": [
+            "-а stays the same",
+            "-а becomes -у",
+            "-а becomes -е",
+            "-а becomes -ы"
+          ],
+          "answer": "-а becomes -у",
+          "explanation": "Feminine nouns: -а -> -у in accusative (книга -> книгу)."
+        },
+        {
+          "sentence": "стол -> стол, фильм -> фильм, журнал -> журнал",
+          "question": "Why don't these masculine nouns change in accusative?",
+          "options": [
+            "They are irregular",
+            "Masculine inanimate nouns stay the same",
+            "They are in nominative",
+            "They are neuter"
+          ],
+          "answer": "Masculine inanimate nouns stay the same",
+          "explanation": "Masculine inanimate nouns keep their nominative form in accusative."
+        },
+        {
+          "sentence": "Я вижу брата. Я вижу стол.",
+          "question": "Why does брат change to брата but стол stays стол?",
+          "options": [
+            "Брат is feminine",
+            "Брат is animate (a person), стол is inanimate (a thing)",
+            "Стол is irregular",
+            "They are different cases"
+          ],
+          "answer": "Брат is animate (a person), стол is inanimate (a thing)",
+          "explanation": "Masculine animate nouns change in accusative (like genitive). Inanimate ones don't."
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я вижу _____. (teacher, masculine animate)",
+          "contextEnglish": "I see the teacher.",
+          "options": [
+            "учитель",
+            "учителя"
+          ],
+          "answer": "учителя",
+          "explanation": "Учитель is masculine animate: accusative = genitive form -> учителя."
+        },
+        {
+          "context": "Я вижу _____. (textbook, masculine inanimate)",
+          "contextEnglish": "I see the textbook.",
+          "options": [
+            "учебник",
+            "учебника"
+          ],
+          "answer": "учебник",
+          "explanation": "Учебник is masculine inanimate: no change in accusative."
+        },
+        {
+          "context": "Она ест _____. (apple, neuter)",
+          "contextEnglish": "She is eating an apple.",
+          "options": [
+            "яблоко",
+            "яблоку"
+          ],
+          "answer": "яблоко",
+          "explanation": "Яблоко is neuter: no change in accusative."
+        }
+      ]
+    }
+  ]
+}

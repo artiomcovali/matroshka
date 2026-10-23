@@ -1,0 +1,310 @@
+{
+  "id": "a1-track-adjective-06-mixed-review",
+  "level": "A1",
+  "focusArea": "other",
+  "title": "Adjective Agreement 6: Mixed Review",
+  "titleRussian": "Согласование прилагательных 6: повторение",
+  "description": "Synthesis. Mixed quiz across all five prior rules: hard stems, soft stems, mixed stems, the three spelling rules, and the chain frames. Pattern recognition asks which rule produced each form.",
+  "descriptionRussian": "Повторение всех пяти правил: твёрдая, мягкая, смешанная основы, три орфографических правила, цепочки в конструкциях 'это' и 'у меня'.",
+  "imageName": "graduationcap",
+  "trackId": "a1-adjective-agreement-mastery",
+  "trackTitle": "Adjective Agreement Mastery",
+  "trackTitleRussian": "Согласование прилагательных",
+  "trackIndex": 6,
+  "trackTotal": 6,
+  "intro": "Everything from the last five lessons together, unlabeled. Three families of adjective, three spelling rules that reshape their endings, and two sentence frames to put them in. The procedure does not change: read the noun, pick the family, then check whether a spelling rule fires. What is new is having to do it without being told which is which.",
+  "rules": [
+    "Hard stem -ый / -ая / -ое / -ые (Lesson 1): the default class. New, beautiful, smart, old.",
+    "Soft stem -ий / -яя / -ее / -ие (Lesson 2): the -ний family. Blue, last, home, morning, early.",
+    "Mixed stem (Lesson 3) plus three spelling rules (Lesson 4): хороший, русский, маленький, большой; -ие plural after velar / husher; -ее unstressed neuter after husher; -ой stressed masculine.",
+    "Chain in two frames (Lesson 5): 'Это [adj] [noun]' and 'У меня [adj] [noun]'. Это is invariant; agreement happens between the adjective and the noun in the predicate.",
+    "Diagnostic: read the noun, pick the class, run the three spelling-rule checks. Five steps, one form."
+  ],
+  "examples": [
+    "Это новый дом. (Lesson 1: hard-stem masculine -ый, no spelling rule fires.)",
+    "Это синие цветы. (Lesson 2: soft-stem plural -ие.)",
+    "У меня хорошие друзья. (Lesson 4 Rule 1: husher stem in plural takes -ие, not -ые.)",
+    "У Маши свежее молоко. (Lesson 4 Rule 2: husher stem with unstressed neuter ending takes -ее, not -ое.)",
+    "Это большой парк. (Lesson 4 Rule 3: stressed masculine ending takes -ой, not -ый.)",
+    "Это синяя машина. (Lesson 2: soft-stem feminine -яя; Lesson 5 frame.)"
+  ],
+  "tables": [
+    {
+      "title": "Five-Step Diagnostic at a Glance",
+      "headers": [
+        "Step",
+        "Question",
+        "Output"
+      ],
+      "rows": [
+        {
+          "label": "1",
+          "cells": [
+            "What is the noun's gender and number?",
+            "Pick m sg, f sg, n sg, or pl"
+          ]
+        },
+        {
+          "label": "2",
+          "cells": [
+            "Which adjective class?",
+            "Hard, soft, or mixed"
+          ]
+        },
+        {
+          "label": "3",
+          "cells": [
+            "Velar or husher stem?",
+            "If yes, no -ы (write -и)"
+          ]
+        },
+        {
+          "label": "4",
+          "cells": [
+            "Husher + unstressed neuter?",
+            "If yes, no -о (write -е)"
+          ]
+        },
+        {
+          "label": "5",
+          "cells": [
+            "Stressed masculine ending?",
+            "If yes, write -ой not -ый"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "У меня _____ новости.",
+          "promptEnglish": "I have good news.",
+          "options": [
+            "хороший",
+            "хорошие",
+            "хорошая",
+            "хорошее"
+          ],
+          "answer": "хорошие",
+          "hint": "Warm-up from Lesson 5. Новости is plural; husher stem; chain frame у меня. Which spelling rule shapes the plural?",
+          "explanation": "Recall the L5 chain frame and the L4 Rule 1: новости is plural and хорош- ends in the husher -ш-, so the plural is хорошие, not 'хорошые'. The 'у меня' frame keeps the noun in the nominative; the adjective agrees with it."
+        },
+        {
+          "prompt": "Это _____ дом.",
+          "promptEnglish": "This is a new house.",
+          "options": [
+            "новая",
+            "новые",
+            "новый",
+            "новое"
+          ],
+          "answer": "новый",
+          "hint": "Дом is masculine singular. Hard stem, no spelling rule fires.",
+          "explanation": "Дом is masculine singular. Hard-stem -ый is the default masculine ending (Lesson 1). The stem нов- has no velar and no husher, so no spelling rule fires. The cleanest case in the diagnostic."
+        },
+        {
+          "prompt": "Это _____ песня.",
+          "promptEnglish": "This is the last song.",
+          "options": [
+            "последняя",
+            "последний",
+            "последнее",
+            "последние"
+          ],
+          "answer": "последняя",
+          "hint": "Песня is feminine singular. Soft stem (Lesson 2).",
+          "explanation": "Песня is feminine singular. Last is the soft-stem -ний family, so the feminine ending is -яя: последняя. The Lesson 2 paradigm hands you the form directly."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "В Москве _____ парки.",
+          "promptEnglish": "Moscow has big parks.",
+          "options": [
+            "большой",
+            "большая",
+            "большое",
+            "большие"
+          ],
+          "answer": "большие",
+          "hint": "Парки is plural. Husher stem. Which spelling rule shapes the plural ending?",
+          "explanation": "Парки is plural and больш- ends in the husher -ш-. Rule 1 fires: no -ы, so plural is -ие. Большие. The same rule turned маленьк-ы-е into маленькие and хорош-ы-е into хорошие."
+        },
+        {
+          "prompt": "У Маши _____ молоко.",
+          "promptEnglish": "Masha has fresh milk.",
+          "options": [
+            "свежий",
+            "свежее",
+            "свежая",
+            "свежие"
+          ],
+          "answer": "свежее",
+          "hint": "Молоко is neuter singular. Husher stem with an unstressed ending. Which rule shapes the neuter form?",
+          "explanation": "Молоко is neuter singular. Свеж- ends in the husher -ж- and the ending is unstressed. Rule 2 fires: no -о, so neuter is -ее. Свежее. Compare large stressed -о́е (большое), where the stress saves the -о."
+        },
+        {
+          "prompt": "Это _____ магазин.",
+          "promptEnglish": "This is an expensive store.",
+          "options": [
+            "дорогая",
+            "дорогие",
+            "дорогой",
+            "дорогое"
+          ],
+          "answer": "дорогой",
+          "hint": "Магазин is masculine singular. The adjective is end-stressed (дорого́й). Which rule writes the masculine ending?",
+          "explanation": "Магазин is masculine singular. The adjective дорого́й is end-stressed, so Rule 3 fires: stressed masculine ending is -ой not -ый. The other forms of the same adjective (дорогая, дорогое, дорогие) follow the regular pattern."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "В лесу _____ деревья. (There are old trees in the forest.)"
+    ],
+    "choices": [
+      "старый",
+      "старая",
+      "старое",
+      "старые"
+    ],
+    "answers": [
+      "старые"
+    ],
+    "grammarFocus": "Деревья is plural. Стар- has no velar and no husher, so the plural is the regular hard-stem -ые: старые. No spelling rule fires; this is the default plural form."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "У меня умный сестра, она работает в больнице учителем.",
+      "translationEnglish": "I have a smart sister; she works at the hospital as a teacher.",
+      "error": "умный",
+      "correction": "умная",
+      "options": [
+        "умная",
+        "умное",
+        "умные"
+      ],
+      "explanation": "Сестра is feminine, so the hard-stem adjective takes the feminine -ая ending: умная. Умный is the masculine form. The four endings (-ый, -ая, -ое, -ые) line up one-to-one with the four noun categories; no spelling rules needed here because the stem 'умн-' ends in a regular consonant."
+    },
+    {
+      "sentence": "Это синяя цветы в нашем саду растут каждое лето.",
+      "translationEnglish": "These blue flowers grow in our garden every summer.",
+      "error": "синяя",
+      "correction": "синие",
+      "options": [
+        "синие",
+        "синий",
+        "синее"
+      ],
+      "explanation": "Цветы (flowers) is plural, so the soft-stem adjective takes the plural -ие ending: синие. Синяя is the feminine singular and cannot describe a plural noun. Soft-stem plural -ие parallels hard-stem plural -ые: same job, different surface vowel."
+    },
+    {
+      "sentence": "В Москве маленький магазины около метро всегда открыты.",
+      "translationEnglish": "Small stores near the metro in Moscow are always open.",
+      "error": "маленький",
+      "correction": "маленькие",
+      "options": [
+        "маленькие",
+        "маленькая",
+        "маленькое"
+      ],
+      "explanation": "Магазины (stores) is plural. The stem 'ма́леньк-' ends in the velar -к, so Rule 1 (no -ы after velar) forces the plural ending to -ие instead of -ые: маленькие. Маленький is masculine singular and doesn't agree with a plural noun. The plural form is one shape regardless of the noun's gender."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Это _____ собака.",
+      "contextEnglish": "This is a beautiful dog.",
+      "options": [
+        "красивый",
+        "красивая"
+      ],
+      "answer": "красивая",
+      "explanation": "Собака is feminine singular: hard-stem -ая (Lesson 1) gives красивая. Красивый would require a masculine noun like красивый дом."
+    },
+    {
+      "context": "У меня _____ сапоги.",
+      "contextEnglish": "I have warm boots.",
+      "options": [
+        "тёплый",
+        "тёплые"
+      ],
+      "answer": "тёплые",
+      "explanation": "Сапоги is plural: hard-stem plural -ые (Lesson 1) gives тёплые. Тёплый is the masculine singular and would require one specific masculine noun."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Это синий шарф.",
+      "question": "Which rule is at work in the form синий?",
+      "options": [
+        "Hard-stem masculine -ый (Lesson 1)",
+        "Soft-stem masculine -ий (Lesson 2)",
+        "Rule 1: -ы / -и after velar or husher (Lesson 4)",
+        "Rule 3: stressed masculine -ой (Lesson 4)"
+      ],
+      "answer": "Soft-stem masculine -ий (Lesson 2)",
+      "explanation": "Синий belongs to the soft-stem class (its dictionary form ends in -ний). The masculine form is -ий: синий. The Lesson 4 spelling rules do not fire here; the form comes straight from the Lesson 2 paradigm."
+    },
+    {
+      "sentence": "У меня хорошие новости.",
+      "question": "Which rule produces the form хорошие?",
+      "options": [
+        "Hard-stem plural -ые (Lesson 1)",
+        "Soft-stem plural -ие (Lesson 2)",
+        "Rule 1: -ы / -и after velar or husher (Lesson 4)",
+        "Rule 3: stressed masculine -ой (Lesson 4)"
+      ],
+      "answer": "Rule 1: -ы / -и after velar or husher (Lesson 4)",
+      "explanation": "The stem хорош- ends in the husher -ш-. Rule 1 forbids -ы after a husher, so the plural ending is written -ие: хорошие. The same rule turns маленьк-ы-е into маленькие and больш-ы-е into большие."
+    },
+    {
+      "sentence": "У Маши свежее молоко.",
+      "question": "Which rule produces the form свежее?",
+      "options": [
+        "Soft-stem neuter -ее (Lesson 2)",
+        "Rule 2: -о / -е unstressed after husher (Lesson 4)",
+        "Hard-stem neuter -ое (Lesson 1)",
+        "Mixed-stem default (Lesson 3)"
+      ],
+      "answer": "Rule 2: -о / -е unstressed after husher (Lesson 4)",
+      "explanation": "Свеж- ends in the husher -ж-, and the neuter ending is unstressed (свежее, with stress on the stem). Rule 2 forbids -о in this position, so the neuter is written -ее. Compare большо́е (stressed -о́е), where the rule does not fire."
+    },
+    {
+      "sentence": "Это большой парк.",
+      "question": "Which rule produces the masculine form большой with -ой?",
+      "options": [
+        "Hard-stem masculine -ый (Lesson 1)",
+        "Soft-stem masculine -ий (Lesson 2)",
+        "Rule 1: -ы / -и after velar or husher (Lesson 4)",
+        "Rule 3: stressed masculine -ой (Lesson 4)"
+      ],
+      "answer": "Rule 3: stressed masculine -ой (Lesson 4)",
+      "explanation": "Большо́й is end-stressed. Rule 3 says stressed masculine endings are written -ой not -ый. The husher stem is incidental here; Rule 1 controls the plural (большие) but the masculine -ой is purely a stress effect."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "повторение",
+      "definition": "review (the synthesis lesson at the end of a track; tests all earlier rules in mixed contexts)",
+      "example": "Этот урок — повторение всего трека: твёрдая, мягкая и смешанная основы плюс орфографические правила."
+    },
+    {
+      "term": "диагностика формы",
+      "definition": "form diagnostic (the analytic procedure for asking why a given adjective form has its shape: identify the noun's gender and number, the adjective's class, and which spelling rule applies)",
+      "example": "Диагностика формы 'хорошее': мужской/женский/средний? — средний; класс? — смешанная основа; правило 2 — после шипящего и без ударения пишем -е."
+    },
+    {
+      "term": "правила согласования",
+      "definition": "agreement rules (the family of patterns governing how Russian adjectives agree with their nouns: gender, number, plus the three spelling rules from Lesson 4)",
+      "example": "Правила согласования включают четыре окончания и три орфографических правила; вместе они объясняют любую форму прилагательного в именительном падеже."
+    }
+  ]
+}

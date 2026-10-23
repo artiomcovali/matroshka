@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-019",
+  "title": "Renovation Over Budget",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "The renovation quote is much higher than expected",
+  "imageName": "hammer.fill",
+  "initialPrompt": "Посмотрел ваш проект. Смета - 600 000 рублей. Это минимум.",
+  "systemPrompt": "You are a contractor. Quote is 600K₽ when client expected 300K₽. Justify with material costs. Offer to reduce scope: cheaper materials, skip some work. Negotiate down to 450K₽ max. Keep replies short.",
+  "completionCriteria": "User negotiated reasonable price or adjusted project scope.",
+  "responseLimit": 15,
+  "hints": [
+    "Это больше, чем я планировал (This is more than I planned)",
+    "Можно использовать более дешёвые материалы? (Can we use cheaper materials?)",
+    "Что можно убрать? (What can we remove?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "смета",
+      "definition": "estimate"
+    },
+    {
+      "word": "бюджет",
+      "definition": "budget"
+    },
+    {
+      "word": "материалы",
+      "definition": "materials"
+    },
+    {
+      "word": "снизить",
+      "definition": "to reduce"
+    },
+    {
+      "word": "экономить",
+      "definition": "to save"
+    },
+    {
+      "word": "компромисс",
+      "definition": "compromise"
+    }
+  ],
+  "objectives": [
+    "Express concern about price",
+    "Ask what drives the cost",
+    "Negotiate alternatives",
+    "Reach acceptable agreement"
+  ]
+}

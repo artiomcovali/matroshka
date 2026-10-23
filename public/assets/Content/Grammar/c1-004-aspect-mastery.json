@@ -1,0 +1,296 @@
+{
+  "id": "c1-004-aspect-mastery",
+  "level": "C1",
+  "focusArea": "aspect",
+  "title": "Aspect Mastery",
+  "titleRussian": "Мастерство вида",
+  "description": "Final mastery of aspectual nuance",
+  "descriptionRussian": "Полное овладение видовыми нюансами",
+  "imageName": "checkmark.seal.fill",
+  "intro": "At C1 level, aspect becomes a tool for expressing subtle shades of meaning. POLITENESS: Question forms are softer (Вы не подскажете? vs. Подскажите!); imperfective imperatives are softer (Садитесь! vs. Сядьте!). DEFINITENESS: Perfective implies certainty (Я это сделаю = I will definitely do it). EXPERIENCE VS COMPLETION: Ты читал? (Have you read/experienced?) vs. Ты прочитал? (Did you finish?). NEGATION NUANCES: Imperfective negation is neutral (не читал = didn't read), perfective negation can imply failure (не прочитал = didn't manage to finish). REPEATED PAST WITH RESULTS: Each time aspect choice affects meaning. Master these nuances for truly native-like Russian.",
+  "rules": [
+    "Politeness: Question form softer than imperative; impf imperative softer (Садитесь!) than pf (Сядьте!)",
+    "Definiteness: Perfective = certainty - Я сделаю (I will do) vs Я буду делать (ongoing)",
+    "Experience vs completion: Ты читал? (experience) vs Ты прочитал? (finished)",
+    "Negation nuance: не делал (neutral) vs не сделал (failed to complete)"
+  ],
+  "examples": [
+    "Вы не подскажете, как пройти? (Could you tell me how to get there?, polite impf)",
+    "Я обязательно это сделаю. (I will definitely do this., definite pf)",
+    "Ты смотрел этот фильм? (Have you seen this movie?, experience)",
+    "Я не успел прочитать книгу. (I didn't manage to finish the book., failed completion)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Polite request: Вы не _____, где метро? (tell)",
+          "promptEnglish": "Could you tell me where the metro is?",
+          "options": [
+            "подскажите",
+            "подскажете",
+            "скажите",
+            "скажете"
+          ],
+          "answer": "подскажете",
+          "hint": "Question form = polite (vs imperative)",
+          "explanation": "Polite: Вы не подскажете? (question, not imperative)"
+        },
+        {
+          "prompt": "Definite promise: Я обязательно это _____. (will do)",
+          "promptEnglish": "I will definitely do this.",
+          "options": [
+            "делаю",
+            "буду делать",
+            "сделаю",
+            "сделал"
+          ],
+          "answer": "сделаю",
+          "hint": "Certainty = perfective",
+          "explanation": "Definite: сделаю (perfective future)."
+        },
+        {
+          "prompt": "Experience question: Ты _____ «Войну и мир»? (read)",
+          "promptEnglish": "Have you read War and Peace?",
+          "options": [
+            "читаешь",
+            "читал",
+            "прочитаешь",
+            "прочитал"
+          ],
+          "answer": "читал",
+          "hint": "Experience = imperfective",
+          "explanation": "Experience: Ты читал? (have you ever read)"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Completion question: Ты уже _____ отчёт? (finished)",
+          "promptEnglish": "Have you finished the report yet?",
+          "options": [
+            "напишешь",
+            "пишешь",
+            "писал",
+            "написал"
+          ],
+          "answer": "написал",
+          "hint": "Completion focus = perfective",
+          "explanation": "Completion: Ты написал? (did you finish?)"
+        },
+        {
+          "prompt": "Neutral negation: Я вчера не _____ телевизор. (watched)",
+          "promptEnglish": "I didn't watch TV yesterday.",
+          "options": [
+            "посмотрю",
+            "посмотрел",
+            "смотрю",
+            "смотрел"
+          ],
+          "answer": "смотрел",
+          "hint": "Neutral 'didn't' = imperfective",
+          "explanation": "Neutral: не смотрел (simply didn't watch)."
+        },
+        {
+          "prompt": "Failed attempt: Я не _____ дозвониться. (managed to call)",
+          "promptEnglish": "I couldn't get through (on the phone).",
+          "options": [
+            "мог",
+            "могу",
+            "смогу",
+            "смог"
+          ],
+          "answer": "смог",
+          "hint": "Failed completion = perfective negation",
+          "explanation": "Failed: не смог (couldn't manage to)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Repeated past (each time completed): Раньше каждый раз он _____ задачу. (solved)",
+          "promptEnglish": "He used to solve the problem each time.",
+          "options": [
+            "решает",
+            "решит",
+            "решил",
+            "решал"
+          ],
+          "answer": "решал",
+          "hint": "Repeated = imperfective (even if completed each time)",
+          "explanation": "Repeated: решал (each time, habitual)."
+        },
+        {
+          "prompt": "Single completed: Вчера он наконец _____ задачу. (solved)",
+          "promptEnglish": "Yesterday he finally solved the problem.",
+          "options": [
+            "решал",
+            "решит",
+            "решает",
+            "решил"
+          ],
+          "answer": "решил",
+          "hint": "Single completion = perfective",
+          "explanation": "Single: решил (finally completed)."
+        },
+        {
+          "prompt": "Indirect command (polite): Она попросила, чтобы я _____. (called)",
+          "promptEnglish": "She asked me to call.",
+          "options": [
+            "позвоню",
+            "звоню",
+            "позвонил",
+            "звонил"
+          ],
+          "answer": "позвонил",
+          "hint": "Indirect command typically perfective",
+          "explanation": "Indirect command: чтобы позвонил (pf)."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Вежливая просьба: _____, пожалуйста! (садиться — мягко)",
+          "promptEnglish": "Please, sit down! (polite/soft)",
+          "options": [
+            "Сядьте",
+            "Сесть",
+            "Садитесь",
+            "Сели"
+          ],
+          "answer": "Садитесь",
+          "hint": "Несовершенный вид императива = мягче, вежливее",
+          "explanation": "Вежливость: Садитесь (несов.) мягче, чем Сядьте (сов.)."
+        },
+        {
+          "prompt": "Я вчера не _____ отчёт. (не успел закончить)",
+          "promptEnglish": "I didn't finish the report yesterday. (failed attempt)",
+          "options": [
+            "писал",
+            "написал",
+            "пишу",
+            "напишу"
+          ],
+          "answer": "написал",
+          "hint": "Совершенный вид с отрицанием = не удалось завершить",
+          "explanation": "Не написал = не удалось завершить (неудача). Не писал = просто не писал (нейтрально)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Вы не _____, который час? (tell, polite)"
+    ],
+    "choices": [
+      "подскажете",
+      "подскажите",
+      "скажете",
+      "скажите"
+    ],
+    "answers": [
+      "подскажете"
+    ],
+    "grammarFocus": "Polite requests use question form (Вы не...?) rather than imperative",
+    "hints": [
+      "Polite requests use 'Вы не...?' with the future indicative form, not the imperative. Which ending signals future indicative vs. imperative?"
+    ],
+    "explanations": [
+      "'Подскажете' (future indicative) forms the polite question 'Вы не подскажете?' 'Подскажите' is the imperative (a direct command). The -ете ending (indicative) is polite; the -ите ending (imperative) is more direct."
+    ],
+    "options": [
+      [
+        "подскажут",
+        "подскажем",
+        "подскажу",
+        "подскажете"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Ты _____ эту книгу? (experience vs completion)",
+      "contextEnglish": "Have you read this book? (ever)",
+      "options": [
+        "читал",
+        "прочитал"
+      ],
+      "answer": "читал",
+      "explanation": "Experience: читал (have you ever read)."
+    },
+    {
+      "context": "Ты уже _____ эту книгу? (completion)",
+      "contextEnglish": "Have you finished reading this book?",
+      "options": [
+        "прочитал",
+        "читал"
+      ],
+      "answer": "прочитал",
+      "explanation": "Completion: прочитал (finished)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by aspectual function",
+    "categories": [
+      "Politeness (impf)",
+      "Certainty (pf)",
+      "Experience (impf)",
+      "Completion (pf)"
+    ],
+    "items": [
+      {
+        "word": "Вы не подскажете?",
+        "category": "Politeness (impf)"
+      },
+      {
+        "word": "Я обязательно сделаю.",
+        "category": "Certainty (pf)"
+      },
+      {
+        "word": "Ты смотрел этот фильм?",
+        "category": "Experience (impf)"
+      },
+      {
+        "word": "Ты уже написал?",
+        "category": "Completion (pf)"
+      },
+      {
+        "word": "Вы не поможете?",
+        "category": "Politeness (impf)"
+      },
+      {
+        "word": "Я точно приду.",
+        "category": "Certainty (pf)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "impf for politeness",
+      "definition": "Вы не подскажете? softer than Подскажите!",
+      "example": "Вы не поможете?"
+    },
+    {
+      "term": "pf for certainty",
+      "definition": "perfective implies definite outcome",
+      "example": "Я сделаю. (I will do it.)"
+    },
+    {
+      "term": "impf for experience",
+      "definition": "Ты читал? = have you ever read?",
+      "example": "Ты смотрел этот фильм?"
+    },
+    {
+      "term": "pf negation = failure",
+      "definition": "не сделал can imply failed attempt",
+      "example": "Не успел прочитать."
+    }
+  ]
+}

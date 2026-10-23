@@ -1,0 +1,423 @@
+{
+  "id": "b1-track-plural-02-accusative",
+  "level": "B1",
+  "focusArea": "cases",
+  "title": "Plural 2: Accusative and the Animacy Split",
+  "titleRussian": "Множественное число 2: Винительный падеж и одушевлённость",
+  "description": "In the plural, the accusative depends on animacy. Inanimate plurals reuse the nominative plural; animate plurals borrow the genitive plural. The split applies to all three genders, not just to masculines as in the singular.",
+  "descriptionRussian": "Во множественном числе винительный падеж зависит от одушевлённости. Неодушевлённые существительные совпадают с именительным падежом; одушевлённые — с родительным. Это правило действует для всех трёх родов.",
+  "imageName": "person.2",
+  "trackId": "b1-plural-cases-mastery",
+  "trackTitle": "Plural Cases Mastery",
+  "trackTitleRussian": "Множественное число — все падежи",
+  "trackIndex": 2,
+  "trackTotal": 11,
+  "intro": "Animacy comes back, and in the plural it is stricter than you have seen it. In the singular only masculine nouns split; here all three genders do, so feminine words for people change too. There is a wrinkle in the order: animate objects borrow the genitive plural, which you do not build until the next two lessons. For now, learn today's forms by sight and the machinery will catch up.",
+  "rules": [
+    "The plural accusative depends on animacy. Inanimate plurals reuse the nominative plural form; animate plurals borrow the genitive plural form. In both cases the noun is still in the ACCUSATIVE case - it only shares a shape with the nominative or genitive.",
+    "Inanimate plural accusative = nominative plural: Маша читает книги. Антон покупает журналы. Студенты пишут письма.",
+    "Animate plural accusative looks identical to the genitive plural, but it is still the accusative (a direct object answering кого?): Маша знает братьев. Антон видит друзей. Учительница учит студентов.",
+    "The animacy split applies to ALL genders in the plural, not just to masculines as in the singular. Animate feminines switch too: вижу подруг, знаю сестёр.",
+    "Common animate object forms to learn by sight here: братьев, друзей, сестёр, подруг, учителей, студентов, детей, людей."
+  ],
+  "examples": [
+    "Маша читает интересные журналы. (Masha reads interesting magazines.) журнал is inanimate, so plural acc = plural nom журналы.",
+    "Антон знает моих братьев. (Anton knows my brothers.) брат is animate, so plural acc = gen pl братьев.",
+    "Студенты пишут длинные письма. (The students are writing long letters.) письмо is inanimate, so plural acc = plural nom письма.",
+    "Учительница знает всех учителей. (The teacher knows all the teachers.) учитель is animate, so plural acc = gen pl учителей.",
+    "Маша часто видит сестёр. (Masha often sees her sisters.) сестра is animate, so plural acc = gen pl сестёр.",
+    "В магазине покупают новые телефоны. (At the shop they buy new phones.) телефон is inanimate, so plural acc = plural nom телефоны."
+  ],
+  "tables": [
+    {
+      "title": "Plural Accusative by Animacy",
+      "headers": [
+        "Singular",
+        "Plural Accusative",
+        "Logic"
+      ],
+      "rows": [
+        {
+          "label": "журнал",
+          "cells": [
+            "журналы",
+            "inanimate → nom pl"
+          ]
+        },
+        {
+          "label": "книга",
+          "cells": [
+            "книги",
+            "inanimate → nom pl"
+          ]
+        },
+        {
+          "label": "письмо",
+          "cells": [
+            "письма",
+            "inanimate → nom pl"
+          ]
+        },
+        {
+          "label": "брат",
+          "cells": [
+            "братьев",
+            "animate → gen pl"
+          ]
+        },
+        {
+          "label": "друг",
+          "cells": [
+            "друзей",
+            "animate → gen pl"
+          ]
+        },
+        {
+          "label": "сестра",
+          "cells": [
+            "сестёр",
+            "animate → gen pl"
+          ]
+        },
+        {
+          "label": "учитель",
+          "cells": [
+            "учителей",
+            "animate → gen pl"
+          ]
+        },
+        {
+          "label": "подруга",
+          "cells": [
+            "подруг",
+            "animate → gen pl"
+          ]
+        },
+        {
+          "label": "студент",
+          "cells": [
+            "студентов",
+            "animate → gen pl"
+          ]
+        },
+        {
+          "label": "ребёнок",
+          "cells": [
+            "детей",
+            "animate → gen pl (a different word in the plural)"
+          ]
+        },
+        {
+          "label": "человек",
+          "cells": [
+            "людей",
+            "animate → gen pl (a different word in the plural)"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "На столе свежие _____.",
+          "promptEnglish": "There are fresh newspapers on the table.",
+          "options": [
+            "газета",
+            "газеты",
+            "газету",
+            "газетам"
+          ],
+          "answer": "газеты",
+          "hint": "The noun is the subject here, and газета is feminine with a hard т. What is its plural?",
+          "explanation": "Газета is the subject of 'there are X', so it stays in the nominative plural: газеты."
+        },
+        {
+          "prompt": "Маша часто покупает _____.",
+          "promptEnglish": "Masha often buys magazines.",
+          "options": [
+            "журналы",
+            "журналов",
+            "журнал",
+            "журналом"
+          ],
+          "answer": "журналы",
+          "hint": "Журнал is inanimate. What is the rule for inanimate plurals in the accusative?",
+          "explanation": "Журнал is inanimate, so the plural accusative equals the plural nominative: журналы. Журналов is the genitive plural (used after много or нет, not as a plain object)."
+        },
+        {
+          "prompt": "Антон давно не видел своих _____.",
+          "promptEnglish": "Anton hasn't seen his brothers in a long time.",
+          "options": [
+            "братьям",
+            "братьев",
+            "братья",
+            "братьями"
+          ],
+          "answer": "братьев",
+          "hint": "Брат is animate. What form does the animate plural accusative borrow?",
+          "explanation": "Брат is animate, so the plural accusative borrows the genitive plural: братьев. Братья is the nominative plural (a subject form)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маша часто встречает своих _____.",
+          "promptEnglish": "Masha often meets her girlfriends.",
+          "options": [
+            "подруги",
+            "подругами",
+            "подруг",
+            "подругам"
+          ],
+          "answer": "подруг",
+          "hint": "Подруга is an animate feminine. What form does the animate plural accusative take?",
+          "explanation": "Подруга is animate, so the plural accusative is the genitive plural подруг, even though it is feminine. Подруги is the nominative plural (the form an English speaker reaches for). The animacy split applies to feminines too."
+        },
+        {
+          "prompt": "Студенты пишут длинные _____.",
+          "promptEnglish": "The students are writing long letters.",
+          "options": [
+            "письма",
+            "письмо",
+            "письмами",
+            "письмам"
+          ],
+          "answer": "письма",
+          "hint": "Письмо is inanimate. Plural accusative = ?",
+          "explanation": "Письмо is inanimate, so the plural accusative equals the plural nominative: письма."
+        },
+        {
+          "prompt": "Эта школа знает всех своих _____.",
+          "promptEnglish": "This school knows all its teachers.",
+          "options": [
+            "учителям",
+            "учителях",
+            "учителей",
+            "учителями"
+          ],
+          "answer": "учителей",
+          "hint": "Учитель is animate. The animate plural accusative matches the genitive plural.",
+          "explanation": "Учитель is animate, so the plural accusative is the genitive plural учителей."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Маша знает _____ соседки.",
+          "promptEnglish": "Masha knows the neighbor's sons.",
+          "options": [
+            "сыновей",
+            "сыновья",
+            "сыновьям",
+            "сыновьями"
+          ],
+          "answer": "сыновей",
+          "hint": "Сын is animate: the plural object borrows which form?",
+          "explanation": "Animate plurals take the genitive plural as their object form: знает сыновей. Сыновья is the nominative plural (subject only)."
+        },
+        {
+          "prompt": "Антон читает _____ по вечерам.",
+          "promptEnglish": "Anton reads interesting books in the evenings.",
+          "options": [
+            "интересные книги",
+            "интересных книг",
+            "интересным книгам",
+            "интересными книгами"
+          ],
+          "answer": "интересные книги",
+          "hint": "Книга is inanimate: what does the plural object look like?",
+          "explanation": "Inanimate plural objects equal the nominative plural: читает книги. Книг is the genitive plural ('нет книг'); the animacy split only redirects animate nouns."
+        },
+        {
+          "prompt": "Учительница видит _____ в коридоре.",
+          "promptEnglish": "The teacher sees the students in the corridor.",
+          "options": [
+            "студентов",
+            "студенты",
+            "студентам",
+            "студентами"
+          ],
+          "answer": "студентов",
+          "hint": "Студент is animate. Object form?",
+          "explanation": "Animate plural objects borrow the genitive plural: видит студентов. Студенты is the nominative plural."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Лена встречает _____ после работы.",
+          "promptEnglish": "Lena meets her sisters after work.",
+          "options": [
+            "своих сестёр",
+            "свои сёстры",
+            "своим сёстрам",
+            "своими сёстрами"
+          ],
+          "answer": "своих сестёр",
+          "hint": "Сестра is an animate feminine. Watch the plural object.",
+          "explanation": "The animacy split covers feminines in the plural: встречает сестёр (genitive plural with the fleeting -ё-). Сёстры is the nominative plural, the shape English pulls you toward."
+        },
+        {
+          "prompt": "Маша покупает _____ в киоске.",
+          "promptEnglish": "Masha buys flowers at the kiosk.",
+          "options": [
+            "цветы",
+            "цветов",
+            "цветам",
+            "цветами"
+          ],
+          "answer": "цветы",
+          "hint": "Цветы is inanimate. Object form in the plural?",
+          "explanation": "Inanimate plural objects equal the nominative plural: покупает цветы. Цветов is the genitive plural. Only animate plurals borrow the genitive."
+        },
+        {
+          "prompt": "Мы видим _____ на площадке.",
+          "promptEnglish": "We see the children on the playground.",
+          "options": [
+            "детей",
+            "дети",
+            "детям",
+            "детьми"
+          ],
+          "answer": "детей",
+          "hint": "Ребёнок is animate; its plural is irregular.",
+          "explanation": "Дети is animate, so its object form is the genitive plural детей: видим детей. Дети is the nominative plural."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша часто видит _____. (Masha often sees her sisters.)"
+    ],
+    "choices": [
+      "сёстры",
+      "сестёр",
+      "сёстрам",
+      "сёстрами"
+    ],
+    "answers": [
+      "сестёр"
+    ],
+    "grammarFocus": "Сестра is animate, so the plural accusative is the genitive plural: сестёр. Сёстры is the nominative plural."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Антон знает друзья по университету.",
+      "translationEnglish": "Anton knows friends from university.",
+      "error": "друзья",
+      "correction": "друзей",
+      "options": [
+        "друзей",
+        "друзьям",
+        "друзьями"
+      ],
+      "explanation": "Друг is animate, so the object form is the genitive plural друзей: знает друзей. Друзья is the nominative plural, correct as a subject (друзья пришли) but not as the object of знает."
+    },
+    {
+      "sentence": "Антон встречает свои сёстры после работы.",
+      "translationEnglish": "Anton meets his sisters after work.",
+      "error": "сёстры",
+      "correction": "сестёр",
+      "options": [
+        "сестёр",
+        "сёстрам",
+        "сёстрами"
+      ],
+      "explanation": "In the plural the animacy split applies to feminines too. Сестра is animate, so the object form is the genitive plural сестёр: встречает сестёр. Сёстры is the nominative plural (the shape English pulls you toward)."
+    },
+    {
+      "sentence": "Маша часто читает книг по вечерам.",
+      "translationEnglish": "Masha often reads books in the evenings.",
+      "error": "книг",
+      "correction": "книги",
+      "options": [
+        "книги",
+        "книгам",
+        "книгами"
+      ],
+      "explanation": "Книга is inanimate, so its object form equals the nominative plural: читает книги. Книг is the genitive plural, correct after a quantity word or нет (много книг, нет книг) but not as a plain object. This is the opposite mistake from the animate ones: do not switch a thing to the genitive."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша знает _____.",
+      "contextEnglish": "Masha knows ___ (her brothers).",
+      "options": [
+        "братья",
+        "братьев"
+      ],
+      "answer": "братьев",
+      "explanation": "Знать takes the accusative. Брат is animate, so the object form is the genitive plural братьев. Братья is the nominative plural ('the brothers' as a subject), which does not fit after знать."
+    },
+    {
+      "context": "Маша читает _____.",
+      "contextEnglish": "Masha reads ___ (the books).",
+      "options": [
+        "книги",
+        "книг"
+      ],
+      "answer": "книги",
+      "explanation": "Читать takes the accusative. Книга is inanimate, so the object form equals the nominative plural: книги. Книг is the genitive plural, used after numbers, after много, or after нет, but not as a plain object."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each direct object by whether its plural accusative keeps the nominative plural (inanimate) or switches to the genitive plural (animate).",
+    "categories": [
+      "keeps nominative plural (inanimate)",
+      "switches to genitive plural (animate)"
+    ],
+    "items": [
+      {
+        "word": "журналы",
+        "category": "keeps nominative plural (inanimate)"
+      },
+      {
+        "word": "братьев",
+        "category": "switches to genitive plural (animate)"
+      },
+      {
+        "word": "письма",
+        "category": "keeps nominative plural (inanimate)"
+      },
+      {
+        "word": "подруг",
+        "category": "switches to genitive plural (animate)"
+      },
+      {
+        "word": "телефоны",
+        "category": "keeps nominative plural (inanimate)"
+      },
+      {
+        "word": "студентов",
+        "category": "switches to genitive plural (animate)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "знать / видеть / встречать братьев, друзей, сестёр",
+      "definition": "to know / see / meet brothers, friends, sisters; animate plural objects take the genitive plural as their accusative form, in every gender.",
+      "example": "Маша знает братьев, видит сестёр и встречает подруг."
+    },
+    {
+      "term": "читать / покупать книги, журналы, письма",
+      "definition": "to read / buy books, magazines, letters; inanimate plural objects keep the nominative plural as their accusative form.",
+      "example": "Антон читает книги и покупает журналы."
+    },
+    {
+      "term": "детей, людей",
+      "definition": "children, people (plural accusative / genitive); irregular plural object forms of ребёнок and человек, both animate.",
+      "example": "Учителя хорошо знают детей и любят людей."
+    }
+  ]
+}

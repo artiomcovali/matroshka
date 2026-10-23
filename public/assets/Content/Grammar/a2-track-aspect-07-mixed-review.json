@@ -1,0 +1,260 @@
+{
+  "id": "a2-track-aspect-07-mixed-review",
+  "level": "A2",
+  "focusArea": "aspect",
+  "title": "Aspect 7: Mixed Review (All Triggers, Both Tenses)",
+  "titleRussian": "Виды глагола 7: Итоговый обзор",
+  "description": "Synthesis. Mixes process vs completion, duration vs result, and the two futures.",
+  "descriptionRussian": "Итоговый урок. Смешивает все темы трека: процесс и результат, длительность и завершение и оба будущих времени.",
+  "imageName": "checkmark.seal",
+  "trackId": "a2-aspect-intro-mastery",
+  "trackTitle": "Aspect Introduction",
+  "trackTitleRussian": "Виды глагола: введение",
+  "trackIndex": 7,
+  "trackTotal": 7,
+  "intro": "Everything from the last six lessons, both tenses at once. The procedure never changes: find the cue in the sentence, let it tell you the aspect, then build the form. The cues are the part worth having automatic, because the form rules stop being interesting once you know which verb of the pair you want.",
+  "rules": [
+    "All trigger families from this track use the same recognition logic. Identify the cue first; then pick the aspect.",
+    "Imperfective triggers: duration (долго, час, всё утро) and habit (часто, каждый день, обычно).",
+    "Perfective triggers: completion adverbs (уже, наконец, сразу), 'за + acc time' phrases (за час, за день), and 'к + dat time' deadlines (к утру, к понедельнику).",
+    "When you see an aspect form in a sentence, ask: which cue created the choice? The cue and meaning differ; the form rules do not."
+  ],
+  "examples": [
+    "Маша часто читала книги. (Habit → НСВ.)",
+    "Я уже сделал работу. (Completion adverb уже → СВ.)",
+    "Они написали статью за час. (За + acc → СВ.)",
+    "Завтра мы будем готовить весь день. (Habit / duration in future → НСВ future.)",
+    "Маша приготовит обед к семи часам. (Deadline in future → СВ future.)"
+  ],
+  "tables": [
+    {
+      "title": "Track Summary: Aspect Triggers",
+      "headers": [
+        "Cue family",
+        "Aspect",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Duration",
+          "cells": [
+            "Imperfective",
+            "Я читал книгу всё утро."
+          ]
+        },
+        {
+          "label": "Habit / frequency",
+          "cells": [
+            "Imperfective",
+            "Маша часто читала."
+          ]
+        },
+        {
+          "label": "Completion adverbs",
+          "cells": [
+            "Perfective",
+            "Я уже сделал работу."
+          ]
+        },
+        {
+          "label": "За + acc time",
+          "cells": [
+            "Perfective",
+            "Они написали статью за час."
+          ]
+        },
+        {
+          "label": "К + dat deadline",
+          "cells": [
+            "Perfective",
+            "Маша приготовит обед к семи."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Завтра я _____ книгу.",
+          "promptEnglish": "Tomorrow I (m) will read the book through.",
+          "options": [
+            "прочитаю",
+            "прочитал",
+            "читаю",
+            "буду читать"
+          ],
+          "answer": "прочитаю",
+          "hint": "Recap from Lesson 6: single completed event in the future. Which form?",
+          "explanation": "Recap from Lesson 6: a single completed event in the future uses the perfective future, which is the present-conjugation form of the perfective verb. Прочитаю (1sg)."
+        },
+        {
+          "prompt": "Маша _____ книгу час.",
+          "promptEnglish": "Masha was reading the book for an hour.",
+          "options": [
+            "прочитала",
+            "читаю",
+            "читала",
+            "прочитает"
+          ],
+          "answer": "читала",
+          "hint": "'Час' (for an hour) without 'за' is which family of cue?",
+          "explanation": "Bare accusative 'час' (without 'за') marks duration: the activity lasted an hour. Imperfective past, fem -ла → читала. Compare with 'за час' (in an hour, Lesson 5), which would lock in the perfective."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я _____ работу к утру.",
+          "promptEnglish": "I (m) will finish the work by morning.",
+          "options": [
+            "делаю",
+            "буду делать",
+            "сделал",
+            "сделаю"
+          ],
+          "answer": "сделаю",
+          "hint": "'К утру' is a deadline cue. Future tense.",
+          "explanation": "'К утру' (Lesson 5) is a deadline cue, locking in the perfective. Future tense → perfective future, which is the present-conjugation form of the perfective verb. Сделаю (1sg)."
+        },
+        {
+          "prompt": "Они _____ кофе каждое утро.",
+          "promptEnglish": "They drank coffee every morning.",
+          "options": [
+            "выпили",
+            "выпьют",
+            "пили",
+            "пьют"
+          ],
+          "answer": "пили",
+          "hint": "'Каждое утро' is a habit cue. Past plural.",
+          "explanation": "'Каждое утро' (Lesson 4) is a habit cue, locking in the imperfective. Past plural -ли → пили."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Антон _____ суп всё утро. (Anton was cooking soup all morning.)"
+    ],
+    "choices": [
+      "готовит",
+      "готовил",
+      "приготовил",
+      "приготовит"
+    ],
+    "answers": [
+      "готовил"
+    ],
+    "grammarFocus": "'Всё утро' is a duration cue (Lesson 4), locking in the imperfective. Past masc -л → готовил. Compare with 'за утро' (in a morning), which would lock in the perfective."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "В субботу мы будем убрать квартиру и приготовим обед.",
+      "translationEnglish": "On Saturday we will clean the apartment and cook dinner.",
+      "error": "будем убрать",
+      "correction": "уберём",
+      "options": [
+        "уберём",
+        "будем убирать",
+        "убираем"
+      ],
+      "explanation": "Буду never takes a perfective infinitive, so 'будем убрать' is impossible; the perfective future is the one-word form уберём. The parallel verb 'приготовим' is also perfective future, marking two completed tasks for Saturday, so уберём matches it."
+    },
+    {
+      "sentence": "Я долго выбрал подарок и наконец купил его.",
+      "translationEnglish": "I chose a gift for a long time and finally bought it.",
+      "error": "выбрал",
+      "correction": "выбирал",
+      "options": [
+        "выбирал",
+        "выбираю",
+        "выберу"
+      ],
+      "explanation": "Долго (for a long time) measures the duration of the choosing process, which takes the imperfective: выбирал. Perfective выбрал marks the single moment of settling on the gift, which cannot stretch over 'a long time'; that completed moment is carried by 'наконец купил.' The sentence pairs an imperfective process (выбирал) with a perfective result (купил), the core aspect contrast."
+    },
+    {
+      "sentence": "Раньше она обычно сдала экзамены на отлично.",
+      "translationEnglish": "She used to pass her exams with top marks.",
+      "error": "сдала",
+      "correction": "сдавала",
+      "options": [
+        "сдавала",
+        "сдаёт",
+        "сдаст"
+      ],
+      "explanation": "Обычно marks a repeated habit, and a regularly repeated outcome is expressed with the imperfective: сдавала. Perfective сдала reports one single exam passed, which clashes with 'usually' covering many exams over time. Russian uses the imperfective for habitual outcomes, even successful ones, reserving сдала for a specific occasion ('Вчера она сдала экзамен')."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я _____ книгу за час.",
+      "contextEnglish": "I (m) read the book through in an hour.",
+      "options": [
+        "читал",
+        "прочитал"
+      ],
+      "answer": "прочитал",
+      "explanation": "'За час' is a perfective time-frame cue (Lesson 5). Perfective past → прочитал. The imperfective читал would describe duration without the 'за' marker."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Маша часто читала книги.",
+      "question": "What triggers the imperfective here?",
+      "options": [
+        "Habit / frequency cue",
+        "Completion adverb",
+        "Duration cue",
+        "За + acc time"
+      ],
+      "answer": "Habit / frequency cue",
+      "explanation": "Часто (often) is a habit / frequency cue (Lesson 4). It locks the verb into the imperfective: читала."
+    },
+    {
+      "sentence": "Я уже сделал работу.",
+      "question": "What triggers the perfective here?",
+      "options": [
+        "Duration cue",
+        "Completion adverb",
+        "За + acc time",
+        "Habit cue"
+      ],
+      "answer": "Completion adverb",
+      "explanation": "Уже (already) is a completion adverb (Lesson 5). It marks the action as finished and locks in the perfective: сделал."
+    },
+    {
+      "sentence": "Маша приготовит обед к семи часам.",
+      "question": "What triggers the perfective future here?",
+      "options": [
+        "Habit cue",
+        "К + dat time (deadline)",
+        "Duration cue",
+        "Completion adverb"
+      ],
+      "answer": "К + dat time (deadline)",
+      "explanation": "'К семи часам' (by seven o'clock) is a 'к + dat time' deadline (Lesson 5), locking in the perfective. Perfective future = present-conjugation form of the perfective verb: приготовит (3sg)."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "вид глагола",
+      "definition": "verbal aspect (the grammatical category that distinguishes process from completion in Russian verbs)",
+      "example": "Вид глагола показывает, на чём фокус: на процессе или на результате."
+    },
+    {
+      "term": "видовая пара",
+      "definition": "aspectual pair (an imperfective verb and its perfective counterpart, sharing a meaning but differing in aspect)",
+      "example": "Видовая пара 'читать / прочитать' выражает одно действие в двух видах."
+    },
+    {
+      "term": "завершение",
+      "definition": "completion (the perfective focus; the action is finished or has produced a result)",
+      "example": "Совершенный вид выражает завершение: 'Я уже сделал работу.'"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-022",
+  "title": "Ethics Committee",
+  "level": "B2",
+  "difficulty": "easy",
+  "description": "Present a case to an ethics committee",
+  "imageName": "scale.3d",
+  "initialPrompt": "Добрый день! Рассматриваем ваш запрос на этическую экспертизу исследования. Представьте основные этические аспекты.",
+  "systemPrompt": "You chair ethics committee. Ask about informed consent, privacy, risks to participants. Probe potential concerns but fair-minded. Keep replies short.",
+  "completionCriteria": "User addressed ethical concerns satisfactorily.",
+  "responseLimit": 15,
+  "hints": [
+    "Информированное согласие получено... (Informed consent is obtained...)",
+    "Риски минимизированы путём... (Risks are minimized by...)",
+    "Конфиденциальность обеспечивается... (Confidentiality is ensured by...)",
+    "Польза исследования... (The benefit of the research...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "этика",
+      "definition": "ethics"
+    },
+    {
+      "word": "согласие",
+      "definition": "consent"
+    },
+    {
+      "word": "конфиденциальность",
+      "definition": "confidentiality"
+    },
+    {
+      "word": "риск",
+      "definition": "risk"
+    },
+    {
+      "word": "участник",
+      "definition": "participant"
+    },
+    {
+      "word": "одобрение",
+      "definition": "approval"
+    }
+  ],
+  "objectives": [
+    "Present ethical framework",
+    "Explain consent procedures",
+    "Address privacy concerns",
+    "Justify research benefits"
+  ]
+}

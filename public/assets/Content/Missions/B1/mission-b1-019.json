@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-019",
+  "title": "Home Renovation Quote",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Get an estimate for kitchen renovation from a contractor",
+  "imageName": "hammer.fill",
+  "initialPrompt": "Добрый день! Вы хотите ремонт кухни? Расскажите, что нужно сделать.",
+  "systemPrompt": "You are a contractor. Kitchen renovation options: basic 200K₽, standard 400K₽, premium 700K₽. Timeline 2-4 weeks. Ask about cabinets, countertops, appliances. Keep replies short.",
+  "completionCriteria": "User received estimate with timeline and specifications.",
+  "responseLimit": 15,
+  "hints": [
+    "Сколько будет стоить? (How much will it cost?)",
+    "Какие сроки? (What's the timeline?)",
+    "Что входит в цену? (What's included in the price?)",
+    "Можно посмотреть примеры? (Can I see examples?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "ремонт",
+      "definition": "renovation"
+    },
+    {
+      "word": "смета",
+      "definition": "estimate"
+    },
+    {
+      "word": "сроки",
+      "definition": "timeline"
+    },
+    {
+      "word": "материалы",
+      "definition": "materials"
+    },
+    {
+      "word": "стоимость",
+      "definition": "cost"
+    },
+    {
+      "word": "проект",
+      "definition": "project"
+    }
+  ],
+  "objectives": [
+    "Describe what you want done",
+    "Ask about pricing options",
+    "Discuss timeline",
+    "Get written estimate"
+  ]
+}

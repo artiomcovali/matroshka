@@ -1,0 +1,655 @@
+{
+  "lessonId": "a2-005-prepositions-cases",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Choose the correct case after each preposition",
+      "descriptionRussian": "Выберите правильный падеж после каждого предлога",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы едем в _____. (We're going to the city.) - direction",
+              "promptEnglish": "We're going to the city.",
+              "options": [
+                "городе",
+                "город",
+                "города",
+                "городу"
+              ],
+              "answer": "город",
+              "hint": "В + accusative for direction. Город is inanimate masculine.",
+              "explanation": "В + accusative for direction: город stays город (inanimate masculine, no change)."
+            },
+            {
+              "prompt": "Мы живём в _____. (We live in the city.) - location",
+              "promptEnglish": "We live in the city.",
+              "options": [
+                "город",
+                "городу",
+                "городе",
+                "города"
+              ],
+              "answer": "городе",
+              "hint": "В + prepositional for location.",
+              "explanation": "В + prepositional for location: город → городе."
+            },
+            {
+              "prompt": "Она пришла без _____. (She came without an umbrella.)",
+              "promptEnglish": "She came without an umbrella.",
+              "options": [
+                "зонт",
+                "зонта",
+                "зонтом",
+                "зонте"
+              ],
+              "answer": "зонта",
+              "hint": "Без always takes genitive.",
+              "explanation": "Без + genitive: зонт → зонта (masculine -а)."
+            },
+            {
+              "prompt": "Он идёт к _____. (He's going to his friend.)",
+              "promptEnglish": "He's going to his friend.",
+              "options": [
+                "друг",
+                "друга",
+                "другу",
+                "другом"
+              ],
+              "answer": "другу",
+              "hint": "К always takes dative.",
+              "explanation": "К + dative: друг → другу."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я иду на _____. (I'm going TO the concert.) - direction",
+          "contextEnglish": "I'm going to the concert.",
+          "options": [
+            "концерт",
+            "концерте"
+          ],
+          "answer": "концерт",
+          "explanation": "На + accusative for direction. Концерт is inanimate masculine, no change."
+        },
+        {
+          "context": "Я сижу на _____. (I'm sitting AT the concert.) - location",
+          "contextEnglish": "I'm sitting at the concert.",
+          "options": [
+            "концерт",
+            "концерте"
+          ],
+          "answer": "концерте",
+          "explanation": "На + prepositional for location: концерт → концерте."
+        },
+        {
+          "context": "Кошка сидит под _____. (The cat sits under the table.) - location",
+          "contextEnglish": "The cat sits under the table.",
+          "options": [
+            "столом",
+            "стол"
+          ],
+          "answer": "столом",
+          "explanation": "Под + instrumental for location: стол → столом."
+        },
+        {
+          "context": "Она положила книгу на _____. (She put the book on the table.) - direction",
+          "contextEnglish": "She put the book on the table.",
+          "options": [
+            "столе",
+            "стол"
+          ],
+          "answer": "стол",
+          "explanation": "На + accusative for direction (placing onto): стол stays стол (inanimate)."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Я пришёл из _____. (I came from the library.)",
+          "Это подарок для _____. (This is a gift for my sister.)",
+          "Он работает с _____. (He works with his brother.)"
+        ],
+        "choices": [
+          "библиотеки",
+          "сестры",
+          "братом"
+        ],
+        "answers": [
+          "библиотеки",
+          "сестры",
+          "братом"
+        ],
+        "grammarFocus": "Из + genitive, для + genitive, с + instrumental",
+        "hints": [
+          "Из (from) takes genitive. Библиотека is feminine -а.",
+          "Для (for) takes genitive. Сестра is feminine -а.",
+          "С (with) takes instrumental. Брат is masculine."
+        ],
+        "explanations": [
+          "Из + genitive: библиотека → библиотеки.",
+          "Для + genitive: сестра → сестры.",
+          "С + instrumental: брат → братом."
+        ],
+        "options": [
+          [
+            "библиотеки",
+            "библиотеке",
+            "библиотеку",
+            "библиотека"
+          ],
+          [
+            "сестру",
+            "сестра",
+            "сестры",
+            "сестре"
+          ],
+          [
+            "брату",
+            "брат",
+            "братом",
+            "брата"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-sort-correct",
+      "title": "Sort and Correct",
+      "titleRussian": "Сортировка и исправление",
+      "description": "Sort prepositions by case and fix preposition-case errors",
+      "descriptionRussian": "Рассортируйте предлоги по падежам и исправьте ошибки",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort these prepositions by the case they require",
+        "categories": [
+          "Genitive",
+          "Dative",
+          "Instrumental"
+        ],
+        "items": [
+          {
+            "word": "без (without)",
+            "category": "Genitive"
+          },
+          {
+            "word": "к (towards)",
+            "category": "Dative"
+          },
+          {
+            "word": "с (with)",
+            "category": "Instrumental"
+          },
+          {
+            "word": "для (for)",
+            "category": "Genitive"
+          },
+          {
+            "word": "по (along)",
+            "category": "Dative"
+          },
+          {
+            "word": "над (above)",
+            "category": "Instrumental"
+          },
+          {
+            "word": "от (from)",
+            "category": "Genitive"
+          },
+          {
+            "word": "между (between)",
+            "category": "Instrumental"
+          },
+          {
+            "word": "до (until)",
+            "category": "Genitive"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Она живёт в Москву.",
+          "error": "Москву",
+          "correction": "Москве",
+          "hint": "Living somewhere is location, not direction.",
+          "explanation": "Жить (live) = location. В + prepositional: Москва → Москве (not accusative Москву).",
+          "options": [
+            "Москве",
+            "Москва",
+            "Москвой",
+            "Москвы"
+          ]
+        },
+        {
+          "sentence": "Я иду к друга.",
+          "error": "друга",
+          "correction": "другу",
+          "hint": "К takes dative, not genitive.",
+          "explanation": "К + dative: друг → другу (not друга, which is genitive).",
+          "options": [
+            "другу",
+            "друг",
+            "другом",
+            "друге"
+          ]
+        },
+        {
+          "sentence": "Мы гуляем по парка.",
+          "error": "парка",
+          "correction": "парку",
+          "hint": "По takes dative, not genitive.",
+          "explanation": "По + dative: парк → парку (not парка, which is genitive).",
+          "options": [
+            "парку",
+            "парк",
+            "парком",
+            "парке"
+          ]
+        },
+        {
+          "sentence": "Книга лежит под столе.",
+          "error": "столе",
+          "correction": "столом",
+          "hint": "Под takes instrumental, not prepositional.",
+          "explanation": "Под + instrumental: стол → столом (not столе, which is prepositional).",
+          "options": [
+            "столом",
+            "стол",
+            "стола"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "I'm coming from school.",
+          "answer": "Я иду из школы.",
+          "acceptableVariants": [
+            "Я прихожу из школы."
+          ],
+          "hint": "from = из, school (genitive) = школы",
+          "grammarFocus": "из + genitive",
+          "keyWord": "школы",
+          "options": [
+            "школы",
+            "школу",
+            "школе",
+            "школа"
+          ]
+        },
+        {
+          "english": "She's going to the doctor.",
+          "answer": "Она идёт к врачу.",
+          "acceptableVariants": [],
+          "hint": "to (a person) = к, doctor (dative) = врачу",
+          "grammarFocus": "к + dative",
+          "keyWord": "врачу",
+          "options": [
+            "врачу",
+            "врача",
+            "врачом",
+            "враче"
+          ]
+        },
+        {
+          "english": "He works with his father.",
+          "answer": "Он работает с отцом.",
+          "acceptableVariants": [],
+          "hint": "with = с, father (instrumental) = отцом",
+          "grammarFocus": "с + instrumental",
+          "keyWord": "отцом",
+          "options": [
+            "отцом",
+            "отца",
+            "отцу",
+            "отце"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-direction-vs-location",
+      "title": "Direction or Location?",
+      "titleRussian": "Направление или место?",
+      "description": "Master the в/на accusative (direction) vs prepositional (location) distinction",
+      "descriptionRussian": "Отличите направление (куда?) от местоположения (где?)",
+      "icon": "location",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Дети бегут на _____. (The children are running to the playground.)",
+              "promptEnglish": "The children are running to the playground. (direction)",
+              "options": [
+                "площадке",
+                "площадку",
+                "площадки",
+                "площадка"
+              ],
+              "answer": "площадку",
+              "hint": "Running TO = direction = на + accusative.",
+              "explanation": "На + accusative for direction: площадка → площадку."
+            },
+            {
+              "prompt": "Дети играют на _____. (The children are playing at the playground.)",
+              "promptEnglish": "The children are playing at the playground. (location)",
+              "options": [
+                "площадку",
+                "площадка",
+                "площадке",
+                "площадки"
+              ],
+              "answer": "площадке",
+              "hint": "Playing AT = location = на + prepositional.",
+              "explanation": "На + prepositional for location: площадка → площадке."
+            },
+            {
+              "prompt": "Мы ходим в _____. (We go to the gym regularly.)",
+              "promptEnglish": "We go to the gym. (direction)",
+              "options": [
+                "спортзале",
+                "спортзал",
+                "спортзала",
+                "спортзалу"
+              ],
+              "answer": "спортзал",
+              "hint": "Going TO = direction = в + accusative. Masculine inanimate.",
+              "explanation": "В + accusative for direction: спортзал stays спортзал (inanimate masc.)."
+            },
+            {
+              "prompt": "Он занимается в _____. (He exercises at the gym.)",
+              "promptEnglish": "He exercises at the gym. (location)",
+              "options": [
+                "спортзал",
+                "спортзалу",
+                "спортзала",
+                "спортзале"
+              ],
+              "answer": "спортзале",
+              "hint": "Exercising AT = location = в + prepositional.",
+              "explanation": "В + prepositional for location: спортзал → спортзале."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я еду в _____. (I'm traveling to Russia.) - direction",
+          "contextEnglish": "I'm traveling to Russia.",
+          "options": [
+            "Россию",
+            "России"
+          ],
+          "answer": "Россию",
+          "explanation": "В + accusative for direction: Россия → Россию."
+        },
+        {
+          "context": "Я живу в _____. (I live in Russia.) - location",
+          "contextEnglish": "I live in Russia.",
+          "options": [
+            "Россию",
+            "России"
+          ],
+          "answer": "России",
+          "explanation": "В + prepositional for location: Россия → России."
+        },
+        {
+          "context": "Мы пошли на _____. (We went to work.) - direction",
+          "contextEnglish": "We went to work.",
+          "options": [
+            "работу",
+            "работе"
+          ],
+          "answer": "работу",
+          "explanation": "На + accusative for direction: работа → работу."
+        },
+        {
+          "context": "Мы сидим на _____. (We're sitting at work.) - location",
+          "contextEnglish": "We're sitting at work.",
+          "options": [
+            "работу",
+            "работе"
+          ],
+          "answer": "работе",
+          "explanation": "На + prepositional for location: работа → работе."
+        }
+      ]
+    },
+    {
+      "id": "round-4-patterns",
+      "title": "Spot the Pattern",
+      "titleRussian": "Найди закономерность",
+      "description": "Recognize which case each preposition demands",
+      "descriptionRussian": "Определите, какой падеж требует каждый предлог",
+      "icon": "eye",
+      "patternRecognition": [
+        {
+          "sentence": "в школу, на работу, через дорогу, за угол",
+          "question": "What case do all these prepositions require in these examples?",
+          "options": [
+            "Accusative (direction/motion)",
+            "Prepositional (location)",
+            "Genitive"
+          ],
+          "answer": "Accusative (direction/motion)",
+          "explanation": "All examples show motion/direction: в/на + accusative, через + accusative, за + accusative."
+        },
+        {
+          "sentence": "из школы, от друга, без денег, для мамы, до вечера",
+          "question": "What case do all these prepositions require?",
+          "options": [
+            "Genitive",
+            "Dative",
+            "Instrumental"
+          ],
+          "answer": "Genitive",
+          "explanation": "Из, от, без, для, до all require genitive case."
+        },
+        {
+          "sentence": "в школе → из школы, на работе → с работы",
+          "question": "What pattern connects location prepositions to their 'from' counterparts?",
+          "options": [
+            "В pairs with из; на pairs with с",
+            "В pairs with с; на pairs with из",
+            "Both use от"
+          ],
+          "answer": "В pairs with из; на pairs with с",
+          "explanation": "В (in) pairs with из (out of). На (on) pairs with с (off of). Location → source."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Мы идём через _____. (We're walking through the park.)",
+          "Лампа висит над _____. (The lamp hangs above the table.)",
+          "Он гуляет по _____. (He walks along the street.)",
+          "Я вернусь до _____. (I'll be back by evening.)"
+        ],
+        "choices": [
+          "парк",
+          "столом",
+          "улице",
+          "вечера"
+        ],
+        "answers": [
+          "парк",
+          "столом",
+          "улице",
+          "вечера"
+        ],
+        "grammarFocus": "через + acc, над + inst, по + dat, до + gen",
+        "hints": [
+          "Через (through) takes accusative. Парк is inanimate masculine.",
+          "Над (above) takes instrumental. Стол is masculine.",
+          "По (along) takes dative. Улица is feminine.",
+          "До (until) takes genitive. Вечер is masculine."
+        ],
+        "explanations": [
+          "Через + accusative: парк stays парк (inanimate masculine).",
+          "Над + instrumental: стол → столом.",
+          "По + dative: улица → улице.",
+          "До + genitive: вечер → вечера."
+        ],
+        "options": [
+          [
+            "парк",
+            "парку",
+            "парком",
+            "парка"
+          ],
+          [
+            "столом",
+            "столу",
+            "стол",
+            "стола"
+          ],
+          [
+            "улица",
+            "улицу",
+            "улицы",
+            "улице"
+          ],
+          [
+            "вечеру",
+            "вечер",
+            "вечером",
+            "вечера"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "Он сидит за _____. (He sits behind the desk.) - location",
+          "contextEnglish": "He sits behind the desk. (location = instrumental)",
+          "options": [
+            "столом",
+            "стол"
+          ],
+          "answer": "столом",
+          "explanation": "За + instrumental for location (behind): стол → столом."
+        },
+        {
+          "context": "Он сел за _____. (He sat down at the desk.) - direction/motion",
+          "contextEnglish": "He sat down at the desk. (direction = accusative)",
+          "options": [
+            "столом",
+            "стол"
+          ],
+          "answer": "стол",
+          "explanation": "За + accusative for direction (moving to sit): стол stays стол (inanimate)."
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "A final round mixing all preposition-case combinations",
+      "descriptionRussian": "Финальный раунд: все сочетания предлогов с падежами",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она мечтает о _____. (She dreams about a vacation.)",
+              "promptEnglish": "She dreams about a vacation.",
+              "options": [
+                "отпуск",
+                "отпуска",
+                "отпуске",
+                "отпуском"
+              ],
+              "answer": "отпуске",
+              "hint": "О (about) takes prepositional.",
+              "explanation": "О + prepositional: отпуск → отпуске."
+            },
+            {
+              "prompt": "Мы пришли с _____. (We came from the concert.)",
+              "promptEnglish": "We came from the concert.",
+              "options": [
+                "концерта",
+                "концерте",
+                "концертом",
+                "концерт"
+              ],
+              "answer": "концерта",
+              "hint": "С (from) takes genitive. This is different from с (with) + instrumental.",
+              "explanation": "С + genitive (meaning 'from'): концерт → концерта."
+            },
+            {
+              "prompt": "Птица летит над _____. (The bird flies above the forest.)",
+              "promptEnglish": "The bird flies above the forest.",
+              "options": [
+                "леса",
+                "лесом",
+                "лесу",
+                "лесе"
+              ],
+              "answer": "лесом",
+              "hint": "Над (above) takes instrumental.",
+              "explanation": "Над + instrumental: лес → лесом."
+            },
+            {
+              "prompt": "Дети играют около _____. (The children play near the house.)",
+              "promptEnglish": "The children play near the house.",
+              "options": [
+                "дом",
+                "дому",
+                "дома",
+                "доме"
+              ],
+              "answer": "дома",
+              "hint": "Около (near) takes genitive.",
+              "explanation": "Около + genitive: дом → дома."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Мы пришли из работу.",
+          "error": "работу",
+          "correction": "работы",
+          "hint": "Из takes genitive, not accusative. Also, 'from work' uses с, not из.",
+          "explanation": "Из takes genitive: работа → работы. Note: 'from work' is actually с работы (с + genitive), since на работе pairs with с работы.",
+          "options": [
+            "работы",
+            "работе",
+            "работой",
+            "работа"
+          ]
+        },
+        {
+          "sentence": "Он сидит в стул.",
+          "error": "стул",
+          "correction": "стуле",
+          "hint": "Sitting IN is location, not direction.",
+          "explanation": "Location = в + prepositional: стул → стуле (not accusative стул).",
+          "options": [
+            "стуле",
+            "стула",
+            "стулом"
+          ]
+        },
+        {
+          "sentence": "Она идёт с другом в магазине.",
+          "error": "магазине",
+          "correction": "магазин",
+          "hint": "Going = direction, not location.",
+          "explanation": "Идёт (going) = direction. В + accusative: магазин stays магазин (not prepositional магазине).",
+          "options": [
+            "магазин",
+            "магазина",
+            "магазину",
+            "магазином"
+          ]
+        }
+      ]
+    }
+  ]
+}

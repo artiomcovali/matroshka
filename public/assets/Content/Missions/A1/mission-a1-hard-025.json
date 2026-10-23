@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-025",
+  "title": "The Disputed Bill",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "The bill includes items you didn't order",
+  "imageName": "creditcard.fill",
+  "initialPrompt": "Ваш счёт: суп, салат, десерт, вино. 1200 рублей.",
+  "systemPrompt": "Bill has items user didn't order (вино, десерт). Insist at first: 'Это ваш стол.' Remove items only if user clearly states they didn't order them. Keep replies short.",
+  "completionCriteria": "User got correct bill without wrong items.",
+  "responseLimit": 15,
+  "hints": [
+    "Я не заказывал вино (I didn't order wine)",
+    "Проверьте, пожалуйста (Please check)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "счёт",
+      "definition": "bill"
+    },
+    {
+      "word": "не заказывал",
+      "definition": "didn't order"
+    },
+    {
+      "word": "ошибка",
+      "definition": "mistake"
+    },
+    {
+      "word": "убрать",
+      "definition": "to remove"
+    },
+    {
+      "word": "проверить",
+      "definition": "to check"
+    }
+  ],
+  "objectives": [
+    "Notice wrong items on bill",
+    "Say you didn't order wine (Я не заказывал вино)",
+    "Say you didn't order dessert",
+    "Ask to check (Проверьте, пожалуйста)",
+    "Get correct bill"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-022",
+  "title": "Package Tracking Lost",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Your package tracking number is not working",
+  "imageName": "shippingbox.fill",
+  "initialPrompt": "Почта России, добрый день! Чем могу помочь?",
+  "systemPrompt": "You work at post office. Tracking number shows error in system. Can search by sender name and date sent. Package arrived yesterday, at counter 3. Keep replies short.",
+  "completionCriteria": "User got package status despite tracking problem.",
+  "responseLimit": 15,
+  "hints": [
+    "Мой номер отслеживания не работает (My tracking number is not working)",
+    "Можете найти по имени? (Can you search by name?)",
+    "Отправитель был... (The sender was...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "посылка",
+      "definition": "package"
+    },
+    {
+      "word": "отслеживание",
+      "definition": "tracking"
+    },
+    {
+      "word": "номер",
+      "definition": "number"
+    },
+    {
+      "word": "отправитель",
+      "definition": "sender"
+    },
+    {
+      "word": "дата",
+      "definition": "date"
+    },
+    {
+      "word": "получить",
+      "definition": "to receive"
+    }
+  ],
+  "objectives": [
+    "Explain tracking is not working",
+    "Provide alternative info (name, date)",
+    "Learn package location",
+    "Pick up or confirm next steps"
+  ]
+}

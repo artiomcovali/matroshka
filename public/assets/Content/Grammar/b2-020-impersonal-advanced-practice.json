@@ -1,0 +1,831 @@
+{
+  "lessonId": "b2-020-impersonal-advanced",
+  "sets": [
+    {
+      "id": "round-1-impersonal-quiz",
+      "title": "Impersonal Construction Types",
+      "titleRussian": "Типы безличных конструкций",
+      "description": "Identify impersonal construction types and sort them by category",
+      "descriptionRussian": "Определите типы безличных конструкций и рассортируйте их",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which sentence is an impersonal construction?",
+              "promptEnglish": "Identify the subjectless sentence.",
+              "options": [
+                "Он скучает по дому.",
+                "Мне скучно.",
+                "Скука мучает его.",
+                "Скучный фильм закончился."
+              ],
+              "answer": "Мне скучно.",
+              "hint": "Impersonal constructions have no grammatical subject in the nominative.",
+              "explanation": "Мне скучно is impersonal: the experiencer (мне) is in dative, and there is no nominative subject. The others all have a nominative subject (он, скука, фильм)."
+            },
+            {
+              "prompt": "What case is the experiencer in: \"Ему было холодно\"?",
+              "promptEnglish": "What case is ему?",
+              "options": [
+                "Nominative",
+                "Accusative",
+                "Dative",
+                "Instrumental"
+              ],
+              "answer": "Dative",
+              "hint": "The person experiencing the state in impersonal sentences takes the dative.",
+              "explanation": "In impersonal constructions with state words (холодно, скучно, весело), the experiencer is always in the dative: ему, мне, тебе."
+            },
+            {
+              "prompt": "\"Светает.\" What type of impersonal construction is this?",
+              "promptEnglish": "Dawn is breaking.",
+              "options": [
+                "Dative experiencer",
+                "Modal impersonal",
+                "Weather/nature verb",
+                "Evaluative impersonal"
+              ],
+              "answer": "Weather/nature verb",
+              "hint": "Verbs describing natural phenomena with no subject at all.",
+              "explanation": "Светает (it's getting light) is a weather/nature impersonal verb. No subject exists, not even an implied one."
+            },
+            {
+              "prompt": "\"Нам нужно уходить.\" What type of impersonal construction is this?",
+              "promptEnglish": "We need to leave.",
+              "options": [
+                "Weather verb",
+                "Dative experiencer state",
+                "Modal impersonal",
+                "Evaluative impersonal"
+              ],
+              "answer": "Modal impersonal",
+              "hint": "Нужно + infinitive expresses necessity.",
+              "explanation": "Нужно + infinitive is a modal impersonal construction expressing necessity. The experiencer нам is in the dative."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Which word means \"it is forbidden / one must not\"?",
+              "promptEnglish": "Which modal word expresses prohibition?",
+              "options": [
+                "нельзя",
+                "надо",
+                "можно",
+                "нужно"
+              ],
+              "answer": "нельзя",
+              "hint": "This word can mean both 'it is impossible' and 'it is forbidden.'",
+              "explanation": "Нельзя means 'one cannot / one must not.' With imperfective infinitive it means prohibition; with perfective it means impossibility."
+            },
+            {
+              "prompt": "\"Трудно понять этот текст.\" What type of impersonal construction?",
+              "promptEnglish": "It's hard to understand this text.",
+              "options": [
+                "Modal impersonal",
+                "Weather verb",
+                "Evaluative impersonal",
+                "Dative experiencer state"
+              ],
+              "answer": "Evaluative impersonal",
+              "hint": "Трудно/легко/интересно + infinitive evaluate the difficulty or quality of an action.",
+              "explanation": "Evaluative impersonals use adverbs like трудно, легко, интересно + infinitive to assess an action. No grammatical subject."
+            },
+            {
+              "prompt": "\"Ничего не видно.\" What makes this construction impersonal?",
+              "promptEnglish": "Nothing is visible.",
+              "options": [
+                "It uses a weather verb",
+                "It has a modal word",
+                "There is no nominative subject",
+                "It uses a dative pronoun"
+              ],
+              "answer": "There is no nominative subject",
+              "hint": "Look for who or what is doing the action. Is there a subject in nominative?",
+              "explanation": "Ничего не видно has no nominative subject. Видно is an impersonal predicate, and ничего is in the genitive (negative context)."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "How do you form the past tense of \"Мне холодно\"?",
+              "promptEnglish": "I am cold -> I was cold",
+              "options": [
+                "Мне было холодно.",
+                "Мне холодно был.",
+                "Я был холодно.",
+                "Мне холодный был."
+              ],
+              "answer": "Мне было холодно.",
+              "hint": "Impersonal past uses neuter было, not masculine or feminine.",
+              "explanation": "Impersonal past tense always uses neuter было: Мне было холодно. There is no subject to agree with, so the default neuter form is used."
+            },
+            {
+              "prompt": "\"Вечереет.\" When would you use this verb?",
+              "promptEnglish": "It's getting dark / evening is falling.",
+              "options": [
+                "When someone is tired in the evening",
+                "When describing evening approaching as a natural process",
+                "When talking about evening plans",
+                "When someone is working late"
+              ],
+              "answer": "When describing evening approaching as a natural process",
+              "hint": "This is a weather/nature impersonal verb like светает and темнеет.",
+              "explanation": "Вечереет describes evening falling as a natural, subjectless process. Like светает (dawn breaks) and темнеет (it gets dark), these verbs have no subject."
+            },
+            {
+              "prompt": "What is the difference between \"нельзя курить\" and \"нельзя прочитать\"?",
+              "promptEnglish": "Нельзя + imperfective vs. нельзя + perfective",
+              "options": [
+                "No difference",
+                "Impf = prohibition, Pf = impossibility",
+                "Impf = impossibility, Pf = prohibition",
+                "Impf = past, Pf = future"
+              ],
+              "answer": "Impf = prohibition, Pf = impossibility",
+              "hint": "The aspect of the infinitive after нельзя changes the meaning entirely.",
+              "explanation": "Нельзя курить (impf) = smoking is forbidden/prohibited. Нельзя прочитать (pf) = it is impossible to read. Aspect shifts meaning from prohibition to impossibility."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these sentences by impersonal construction type",
+        "categories": [
+          "Dative Experiencer",
+          "Modal (надо/можно/нельзя)",
+          "Evaluative (трудно/легко)",
+          "Weather/Nature Verb"
+        ],
+        "items": [
+          {
+            "word": "Мне весело.",
+            "category": "Dative Experiencer"
+          },
+          {
+            "word": "Надо позвонить врачу.",
+            "category": "Modal (надо/можно/нельзя)"
+          },
+          {
+            "word": "Интересно читать эту книгу.",
+            "category": "Evaluative (трудно/легко)"
+          },
+          {
+            "word": "Темнеет рано зимой.",
+            "category": "Weather/Nature Verb"
+          },
+          {
+            "word": "Ей было грустно.",
+            "category": "Dative Experiencer"
+          },
+          {
+            "word": "Здесь нельзя парковаться.",
+            "category": "Modal (надо/можно/нельзя)"
+          },
+          {
+            "word": "Трудно выучить все правила.",
+            "category": "Evaluative (трудно/легко)"
+          },
+          {
+            "word": "Светает.",
+            "category": "Weather/Nature Verb"
+          },
+          {
+            "word": "Нам было жарко.",
+            "category": "Dative Experiencer"
+          },
+          {
+            "word": "Можно войти?",
+            "category": "Modal (надо/можно/нельзя)"
+          },
+          {
+            "word": "Легко ошибиться.",
+            "category": "Evaluative (трудно/легко)"
+          },
+          {
+            "word": "Вечереет.",
+            "category": "Weather/Nature Verb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-2-dative-modal",
+      "title": "Dative and Modal Practice",
+      "titleRussian": "Дательный падеж и модальные слова",
+      "description": "Practice dative experiencers and modal impersonal words through minimal pairs and fill-in-the-blank",
+      "descriptionRussian": "Практикуйте дательный падеж и модальные слова",
+      "icon": "person.and.arrow.left.and.arrow.right",
+      "minimalPairs": [
+        {
+          "context": "_____ здесь курить? (Is it allowed?)",
+          "contextEnglish": "May one smoke here? (asking permission)",
+          "options": [
+            "Можно",
+            "Нельзя"
+          ],
+          "answer": "Можно",
+          "explanation": "Можно = 'is it permitted / may one?' Asking for permission. Нельзя would mean 'it is forbidden.'"
+        },
+        {
+          "context": "_____ здесь курить. (It is forbidden.)",
+          "contextEnglish": "One must not smoke here. (prohibition)",
+          "options": [
+            "Нельзя",
+            "Можно"
+          ],
+          "answer": "Нельзя",
+          "explanation": "Нельзя + imperfective infinitive = prohibition. Smoking is not allowed here."
+        },
+        {
+          "context": "Ей _____ уйти пораньше. (She needs to leave early.)",
+          "contextEnglish": "She needs to leave early. (necessity)",
+          "options": [
+            "надо",
+            "можно"
+          ],
+          "answer": "надо",
+          "explanation": "Надо + infinitive = necessity. Ей надо уйти = she needs to leave."
+        },
+        {
+          "context": "Ей _____ уйти пораньше. (She is permitted to leave early.)",
+          "contextEnglish": "She may leave early. (permission)",
+          "options": [
+            "можно",
+            "надо"
+          ],
+          "answer": "можно",
+          "explanation": "Можно + infinitive = permission. Ей можно уйти = she is allowed to leave."
+        },
+        {
+          "context": "_____ холодно. (He is cold.)",
+          "contextEnglish": "He is cold. (physical sensation)",
+          "options": [
+            "Ему",
+            "Он"
+          ],
+          "answer": "Ему",
+          "explanation": "In impersonal constructions, the experiencer takes the dative: ему (not nominative он)."
+        },
+        {
+          "context": "_____ замёрз. (He got cold.)",
+          "contextEnglish": "He got cold. (personal construction with subject)",
+          "options": [
+            "Он",
+            "Ему"
+          ],
+          "answer": "Он",
+          "explanation": "Замёрз is a personal verb that takes a nominative subject: Он замёрз. Compare with impersonal Ему холодно."
+        },
+        {
+          "context": "Мне _____ идти. (I have to go. - stronger obligation)",
+          "contextEnglish": "I have to go. (strong obligation)",
+          "options": [
+            "нужно",
+            "можно"
+          ],
+          "answer": "нужно",
+          "explanation": "Нужно expresses strong necessity or obligation: I need/have to go."
+        },
+        {
+          "context": "Мне _____ идти? (May I go? - requesting permission)",
+          "contextEnglish": "May I go? (asking permission)",
+          "options": [
+            "можно",
+            "нужно"
+          ],
+          "answer": "можно",
+          "explanation": "Можно in a question = asking permission: May I go?"
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ было страшно во время грозы. (She was scared during the storm.)",
+          "_____ нужно закончить отчёт к пятнице. (We need to finish the report by Friday.)",
+          "Здесь _____ фотографировать. (It is forbidden to take photos here.)",
+          "_____ было весело на вечеринке. (They had fun at the party.)",
+          "Тебе _____ отдохнуть. (You should rest.)",
+          "_____ трудно было решить эту задачу. (It was hard for me to solve this problem.)"
+        ],
+        "choices": [
+          "Ей",
+          "Нам",
+          "нельзя",
+          "Им",
+          "надо",
+          "Мне"
+        ],
+        "answers": [
+          "Ей",
+          "Нам",
+          "нельзя",
+          "Им",
+          "надо",
+          "Мне"
+        ],
+        "grammarFocus": "Dative experiencers and modal words in impersonal constructions",
+        "hints": [
+          "She (dative) = ей.",
+          "We (dative) = нам.",
+          "Prohibition = which modal word?",
+          "They (dative) = им.",
+          "Advice/recommendation = надо or нужно.",
+          "I (dative) = мне."
+        ],
+        "explanations": [
+          "Ей (dative of она) was scared: Ей было страшно. The experiencer takes the dative.",
+          "Нам (dative of мы) need to: Нам нужно. Modal impersonal with dative experiencer.",
+          "Нельзя + imperfective infinitive = prohibition: photography is forbidden here.",
+          "Им (dative of они) had fun: Им было весело. Past tense uses neuter было.",
+          "Надо + infinitive = advice or mild obligation: you should rest.",
+          "Мне (dative of я) found it hard: Мне трудно было. Evaluative impersonal with dative."
+        ],
+        "options": [
+          [
+            "она",
+            "её",
+            "Ей",
+            "ею"
+          ],
+          [
+            "нас",
+            "Нам",
+            "мы",
+            "нами"
+          ],
+          [
+            "можно",
+            "нужно",
+            "надо",
+            "нельзя"
+          ],
+          [
+            "они",
+            "ими",
+            "Им",
+            "их"
+          ],
+          [
+            "надо",
+            "можно",
+            "пора",
+            "нельзя"
+          ],
+          [
+            "мной",
+            "я",
+            "меня",
+            "Мне"
+          ]
+        ]
+      },
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Студентам _____ пользоваться словарём на экзамене. (Students are not allowed to use a dictionary.)",
+              "promptEnglish": "Students are forbidden from using a dictionary on the exam.",
+              "options": [
+                "надо",
+                "можно",
+                "нельзя",
+                "нужно"
+              ],
+              "answer": "нельзя",
+              "hint": "Prohibition = нельзя.",
+              "explanation": "Нельзя + imperfective infinitive = prohibition. Students must not use a dictionary."
+            },
+            {
+              "prompt": "Ребёнку _____ гулять одному в парке. (The child is not allowed to walk alone.)",
+              "promptEnglish": "The child is not permitted to walk alone in the park.",
+              "options": [
+                "нужно",
+                "можно",
+                "нельзя",
+                "надо"
+              ],
+              "answer": "нельзя",
+              "hint": "Prohibition for a child walking alone.",
+              "explanation": "Нельзя = prohibition. The child must not walk alone. Dative ребёнку + нельзя + imperfective infinitive."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ надо поговорить. (We need to talk.)",
+              "promptEnglish": "We need to talk.",
+              "options": [
+                "Мы",
+                "Нас",
+                "Нам",
+                "Наш"
+              ],
+              "answer": "Нам",
+              "hint": "The experiencer in a modal impersonal takes the dative.",
+              "explanation": "Нам (dative of мы) with надо: Нам надо поговорить. Not nominative мы."
+            },
+            {
+              "prompt": "Тебе _____ заниматься каждый день. (You need to study every day.)",
+              "promptEnglish": "You need to study every day.",
+              "options": [
+                "можно",
+                "нельзя",
+                "видно",
+                "нужно"
+              ],
+              "answer": "нужно",
+              "hint": "Expressing necessity or strong recommendation.",
+              "explanation": "Нужно + infinitive = necessity. Тебе нужно заниматься = you need to study."
+            },
+            {
+              "prompt": "Вам _____ здесь остановиться? (Are you allowed to stop here?)",
+              "promptEnglish": "May you stop here? (asking about permission)",
+              "options": [
+                "надо",
+                "нельзя",
+                "нужно",
+                "можно"
+              ],
+              "answer": "можно",
+              "hint": "Asking about permission = можно in a question.",
+              "explanation": "Можно in a question asks about permission: Вам можно? = Are you allowed?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Составьте и переведите",
+      "description": "Build impersonal sentences from parts and translate them",
+      "descriptionRussian": "Составьте безличные предложения и переведите их",
+      "icon": "text.badge.plus",
+      "translation": [
+        {
+          "english": "It was fun for us at the concert.",
+          "answer": "Нам было весело на концерте.",
+          "acceptableVariants": [
+            "На концерте нам было весело."
+          ],
+          "hint": "Dative experiencer + было + state adverb + location",
+          "grammarFocus": "Dative experiencer in past tense",
+          "keyWord": "весело",
+          "options": [
+            "весело",
+            "весёлый",
+            "весёлое",
+            "веселье"
+          ]
+        },
+        {
+          "english": "You are not allowed to enter without a ticket.",
+          "answer": "Без билета нельзя входить.",
+          "acceptableVariants": [
+            "Нельзя входить без билета.",
+            "Вам нельзя входить без билета."
+          ],
+          "hint": "Нельзя + imperfective infinitive = prohibition",
+          "grammarFocus": "Modal impersonal prohibition",
+          "keyWord": "нельзя",
+          "options": [
+            "нельзя",
+            "можно",
+            "надо",
+            "нужно"
+          ]
+        },
+        {
+          "english": "It is easy to make a mistake here.",
+          "answer": "Здесь легко ошибиться.",
+          "acceptableVariants": [
+            "Легко ошибиться здесь.",
+            "Тут легко ошибиться."
+          ],
+          "hint": "Evaluative impersonal: легко + infinitive",
+          "grammarFocus": "Evaluative impersonal",
+          "keyWord": "легко",
+          "options": [
+            "легко",
+            "лёгкий",
+            "лёгкое",
+            "лёгок"
+          ]
+        },
+        {
+          "english": "I need to call my parents.",
+          "answer": "Мне нужно позвонить родителям.",
+          "acceptableVariants": [
+            "Мне надо позвонить родителям."
+          ],
+          "hint": "Dative + нужно/надо + infinitive",
+          "grammarFocus": "Modal necessity with dative",
+          "keyWord": "нужно",
+          "options": [
+            "нужно",
+            "можно",
+            "нельзя",
+            "видно"
+          ]
+        },
+        {
+          "english": "Nothing could be seen in the fog.",
+          "answer": "В тумане ничего не было видно.",
+          "acceptableVariants": [
+            "Ничего не было видно в тумане."
+          ],
+          "hint": "Negative impersonal in past: ничего не было видно",
+          "grammarFocus": "Negative impersonal predicate in past tense",
+          "keyWord": "видно",
+          "options": [
+            "видно",
+            "видный",
+            "вижу",
+            "видеть"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All impersonal construction types mixed in varied exercises",
+      "descriptionRussian": "Все типы безличных конструкций в разных упражнениях",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ интересно изучать иностранные языки. (It's interesting to study foreign languages.)",
+              "promptEnglish": "Fill in the blank to complete this evaluative impersonal.",
+              "options": [
+                "Оно",
+                "Это",
+                "Мне",
+                "Я"
+              ],
+              "answer": "Мне",
+              "hint": "The experiencer in an evaluative impersonal takes the dative.",
+              "explanation": "Мне интересно: dative experiencer + evaluative adverb + infinitive. Not nominative я or это."
+            },
+            {
+              "prompt": "Ему было _____ на лекции. (He was bored at the lecture.)",
+              "promptEnglish": "What state word completes this?",
+              "options": [
+                "скучный",
+                "скука",
+                "скучно",
+                "скучал"
+              ],
+              "answer": "скучно",
+              "hint": "Impersonal state words are adverbs (short form), not adjectives or nouns.",
+              "explanation": "Скучно (adverb/predicate) in impersonal: Ему было скучно. Not скучный (adjective) or скука (noun)."
+            },
+            {
+              "prompt": "Утром рано _____. (It gets light early in the morning.)",
+              "promptEnglish": "Which weather verb fits?",
+              "options": [
+                "светает",
+                "темнеет",
+                "вечереет",
+                "холодает"
+              ],
+              "answer": "светает",
+              "hint": "Which verb describes dawn, the morning light appearing?",
+              "explanation": "Светает = it's getting light (dawn). Темнеет = getting dark, вечереет = evening falling, холодает = getting colder."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Нельзя _____ этот текст без словаря. (It's impossible to understand.)",
+              "promptEnglish": "Нельзя + perfective = impossibility. Which infinitive?",
+              "options": [
+                "понимать",
+                "понять",
+                "понимающий",
+                "поняв"
+              ],
+              "answer": "понять",
+              "hint": "Нельзя + perfective infinitive = impossibility.",
+              "explanation": "Нельзя + perfective понять = impossibility (cannot understand). With imperfective понимать it would mean prohibition."
+            },
+            {
+              "prompt": "_____ рано темнеет, а летом поздно. (In winter it gets dark early.)",
+              "promptEnglish": "Which time expression completes the weather impersonal?",
+              "options": [
+                "Утром",
+                "Зимой",
+                "Ночью",
+                "Вечером"
+              ],
+              "answer": "Зимой",
+              "hint": "The contrast is with летом (in summer), so what season is the opposite?",
+              "explanation": "Зимой рано темнеет, а летом поздно. Winter vs. summer contrast with the impersonal weather verb темнеет."
+            },
+            {
+              "prompt": "Мне _____ было вставать в 5 утра. (I had to get up at 5 AM.)",
+              "promptEnglish": "Which modal word expresses past necessity?",
+              "options": [
+                "можно",
+                "нельзя",
+                "пришлось",
+                "видно"
+              ],
+              "answer": "пришлось",
+              "hint": "Past necessity that actually happened (had to) = пришлось.",
+              "explanation": "Пришлось (past of приходиться) = had to, was forced to. Мне пришлось = I had to. Stronger than надо было."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "Легко _____, но трудно _____. (Easy to promise, hard to do.)",
+              "promptEnglish": "Complete this Russian proverb-like evaluative impersonal.",
+              "options": [
+                "обещать / сделать",
+                "обещаю / делаю",
+                "обещал / сделал",
+                "обещание / дело"
+              ],
+              "answer": "обещать / сделать",
+              "hint": "Evaluative impersonals use infinitives: легко + infinitive, трудно + infinitive.",
+              "explanation": "Легко обещать, но трудно сделать. Evaluative impersonals take infinitives. This captures a universal truth."
+            },
+            {
+              "prompt": "В комнате _____ тихо. Ничего не слышно. (It was quiet. Nothing could be heard.)",
+              "promptEnglish": "Past tense of an impersonal state.",
+              "options": [
+                "был",
+                "была",
+                "было",
+                "были"
+              ],
+              "answer": "было",
+              "hint": "Impersonal past always uses neuter было.",
+              "explanation": "Impersonal past = neuter было, regardless of surrounding nouns: В комнате было тихо."
+            },
+            {
+              "prompt": "Детям _____ играть на дороге. (Children are not allowed to play on the road.)",
+              "promptEnglish": "Prohibition for children.",
+              "options": [
+                "можно",
+                "надо",
+                "нужно",
+                "нельзя"
+              ],
+              "answer": "нельзя",
+              "hint": "Prohibition = нельзя + imperfective infinitive.",
+              "explanation": "Нельзя играть = it is forbidden to play. Imperfective infinitive with нельзя expresses prohibition."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Я холодно.",
+          "error": "Я",
+          "correction": "Мне",
+          "hint": "The experiencer in an impersonal construction takes the dative, not nominative.",
+          "explanation": "Impersonal states require dative: Мне холодно (not Я холодно). There is no nominative subject.",
+          "options": [
+            "Мне",
+            "Меня",
+            "Мной"
+          ]
+        },
+        {
+          "sentence": "Мне была скучно на уроке.",
+          "error": "была",
+          "correction": "было",
+          "hint": "Impersonal past tense always uses neuter form, regardless of the experiencer's gender.",
+          "explanation": "Always neuter было in impersonal past: Мне было скучно. Not была (feminine) even if the speaker is female.",
+          "options": [
+            "было",
+            "был",
+            "были"
+          ]
+        },
+        {
+          "sentence": "Нельзя понимать этот текст без контекста. (meant: it's impossible to understand)",
+          "error": "понимать",
+          "correction": "понять",
+          "hint": "Нельзя + imperfective = prohibition. For impossibility, use perfective.",
+          "explanation": "Нельзя понимать = it's forbidden to understand (absurd). Нельзя понять = it's impossible to understand (correct meaning).",
+          "options": [
+            "понять",
+            "понимаю",
+            "пойму"
+          ]
+        },
+        {
+          "sentence": "Ему нужно работает каждый день.",
+          "error": "работает",
+          "correction": "работать",
+          "hint": "After modal words (нужно, надо, можно), the verb must be in the infinitive.",
+          "explanation": "Modal impersonals require infinitive: нужно работать (not работает). The modal word replaces the conjugation.",
+          "options": [
+            "работать",
+            "работал",
+            "работают"
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Мне холодно. / Ей грустно. / Нам весело. / Тебе жарко.",
+          "question": "What structural pattern do all four sentences share?",
+          "options": [
+            "Nominative subject + adjective",
+            "Dative experiencer + impersonal state adverb",
+            "Accusative object + verb",
+            "Genitive + noun"
+          ],
+          "answer": "Dative experiencer + impersonal state adverb",
+          "explanation": "All four use dative pronoun (мне, ей, нам, тебе) + a state adverb (холодно, грустно, весело, жарко). No nominative subject."
+        },
+        {
+          "sentence": "Светает. / Темнеет. / Вечереет. / Морозит.",
+          "question": "What do these verbs have in common?",
+          "options": [
+            "They all describe emotions",
+            "They are impersonal weather/nature verbs with no subject",
+            "They require a dative experiencer",
+            "They are reflexive verbs"
+          ],
+          "answer": "They are impersonal weather/nature verbs with no subject",
+          "explanation": "These are impersonal verbs describing natural phenomena. They have no grammatical subject at all, not even an implied one."
+        },
+        {
+          "sentence": "Надо учиться. / Нужно работать. / Можно отдохнуть. / Нельзя опаздывать.",
+          "question": "What structural element follows every modal word here?",
+          "options": [
+            "A conjugated verb",
+            "An infinitive",
+            "A noun in dative",
+            "An adjective"
+          ],
+          "answer": "An infinitive",
+          "explanation": "Modal impersonal words (надо, нужно, можно, нельзя) are always followed by an infinitive: учиться, работать, отдохнуть, опаздывать."
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Здесь нельзя _____. (It is forbidden to swim here.)",
+          "contextEnglish": "Prohibition: swimming is not allowed.",
+          "options": [
+            "купаться",
+            "искупаться"
+          ],
+          "answer": "купаться",
+          "explanation": "Нельзя + imperfective купаться = prohibition (swimming is forbidden). Perfective искупаться would mean impossibility."
+        },
+        {
+          "context": "Здесь нельзя _____. (It is impossible to swim here - the water is too cold.)",
+          "contextEnglish": "Impossibility: the water makes swimming impossible.",
+          "options": [
+            "искупаться",
+            "купаться"
+          ],
+          "answer": "искупаться",
+          "explanation": "Нельзя + perfective искупаться = impossibility (impossible to swim, e.g., water too cold). Imperfective would mean prohibition."
+        },
+        {
+          "context": "_____ надо было позвонить. (I should have called.)",
+          "contextEnglish": "Past necessity: I needed to call.",
+          "options": [
+            "Мне",
+            "Я"
+          ],
+          "answer": "Мне",
+          "explanation": "Impersonal modal in past: Мне надо было позвонить. Dative мне, not nominative я."
+        },
+        {
+          "context": "_____ позвонил вчера. (I called yesterday.)",
+          "contextEnglish": "Personal past: I called.",
+          "options": [
+            "Я",
+            "Мне"
+          ],
+          "answer": "Я",
+          "explanation": "Personal construction with a regular verb: Я позвонил. Nominative subject, not dative."
+        }
+      ]
+    }
+  ]
+}

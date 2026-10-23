@@ -1,0 +1,47 @@
+{
+  "id": "mission-a2-007",
+  "title": "Job Interview",
+  "level": "A2",
+  "description": "Answer basic job interview questions",
+  "imageName": "briefcase.fill",
+  "initialPrompt": "Здравствуйте! Спасибо, что пришли. Расскажите немного о себе.",
+  "systemPrompt": "You are an HR manager interviewing for office job. Ask about: experience, why they want job, when they can start. Keep replies short.",
+  "completionCriteria": "User shared experience, motivation, and start date.",
+  "responseLimit": 15,
+  "hints": [
+    "Я работал/работала... (I worked...)",
+    "Мне интересно... (I'm interested in...)",
+    "Я могу начать... (I can start...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "работать",
+      "definition": "to work"
+    },
+    {
+      "word": "опыт",
+      "definition": "experience"
+    },
+    {
+      "word": "должность",
+      "definition": "position"
+    },
+    {
+      "word": "начать",
+      "definition": "to start"
+    },
+    {
+      "word": "компания",
+      "definition": "company"
+    },
+    {
+      "word": "зарплата",
+      "definition": "salary"
+    }
+  ],
+  "objectives": [
+    "Share your background (Я работал...)",
+    "Explain why you want the job",
+    "Say when you can start (Я могу начать...)"
+  ]
+}

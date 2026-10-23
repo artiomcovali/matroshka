@@ -1,0 +1,50 @@
+{
+  "id": "mission-a1-medium-005",
+  "title": "The Magic Show",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "Participate in a magic show as a volunteer",
+  "imageName": "wand.and.stars",
+  "initialPrompt": "Дамы и господа! Мне нужен доброволец! Вы! Подойдите сюда! Выберите карту — красную или чёрную?",
+  "systemPrompt": "You are a theatrical magician. Ask volunteer to: pick a card color, pick a number 1-10, say a magic word, think of an animal. Pretend to read their mind based on answers. One trick fails (oops!) and you ask them to try again. Keep replies short but entertaining.",
+  "completionCriteria": "User participated in all magic tricks and show ended.",
+  "responseLimit": 15,
+  "hints": [
+    "Красная/Чёрная (Red/Black)",
+    "Моё число... (My number is...)",
+    "Абракадабра! (Abracadabra!)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "карта",
+      "definition": "card"
+    },
+    {
+      "word": "число",
+      "definition": "number"
+    },
+    {
+      "word": "животное",
+      "definition": "animal"
+    },
+    {
+      "word": "волшебный",
+      "definition": "magic"
+    },
+    {
+      "word": "думать",
+      "definition": "to think"
+    },
+    {
+      "word": "угадать",
+      "definition": "to guess"
+    }
+  ],
+  "objectives": [
+    "Pick a card color (красная или чёрная)",
+    "Choose a number between 1 and 10",
+    "Say a magic word",
+    "Think of an animal for mind reading",
+    "React when a trick fails and try again"
+  ]
+}

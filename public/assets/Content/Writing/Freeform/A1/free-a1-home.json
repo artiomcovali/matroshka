@@ -1,0 +1,65 @@
+{
+  "id": "free-a1-home",
+  "level": "A1",
+  "type": "freeform",
+  "title": "My Home",
+  "titleRussian": "Мой дом",
+  "theme": "my-home",
+  "prompts": [
+    {
+      "id": "a1-home-001",
+      "prompt": "Describe your home. Is it a house or an apartment? How many rooms?",
+      "promptRussian": "Опишите ваш дом. Это дом или квартира? Сколько комнат?",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Я живу в...", "В моей квартире...", "У меня есть..."],
+      "targetGrammar": ["prepositional case", "numbers", "есть construction"],
+      "gradingCriteria": ["type of dwelling mentioned", "number of rooms included"],
+      "sampleResponse": "Я живу в квартире. В моей квартире три комнаты. Есть кухня и ванная."
+    },
+    {
+      "id": "a1-home-002",
+      "prompt": "Describe your room. What furniture do you have?",
+      "promptRussian": "Опишите вашу комнату. Какая у вас мебель?",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["В моей комнате...", "У меня есть...", "На столе..."],
+      "targetGrammar": ["prepositional case", "есть construction", "furniture vocabulary"],
+      "gradingCriteria": ["room mentioned", "at least 2 furniture items"],
+      "sampleResponse": "Моя комната небольшая. В ней есть кровать, стол и шкаф. На столе стоит лампа."
+    },
+    {
+      "id": "a1-home-003",
+      "prompt": "Write about your kitchen. What is in it?",
+      "promptRussian": "Напишите о вашей кухне. Что в ней есть?",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["На кухне...", "Там есть...", "Мы готовим..."],
+      "targetGrammar": ["prepositional case", "kitchen vocabulary", "там adverb"],
+      "gradingCriteria": ["kitchen mentioned", "items or activities described"],
+      "sampleResponse": "Моя кухня маленькая, но уютная. На кухне есть стол и холодильник. Там мы готовим еду."
+    },
+    {
+      "id": "a1-home-004",
+      "prompt": "What do you like about your home? What don't you like?",
+      "promptRussian": "Что вам нравится в вашем доме? Что не нравится?",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Мне нравится...", "Мне не нравится...", "Дом/Квартира..."],
+      "targetGrammar": ["нравится construction", "dative case", "adjectives"],
+      "gradingCriteria": ["positive aspect mentioned", "negative aspect mentioned or stated none"],
+      "sampleResponse": "Мне нравится моя квартира. Она светлая и тёплая. Мне не нравится, что она маленькая."
+    },
+    {
+      "id": "a1-home-005",
+      "prompt": "Where is your home? Describe the area around it.",
+      "promptRussian": "Где находится ваш дом? Опишите район вокруг него.",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Мой дом находится...", "Рядом есть...", "Недалеко от..."],
+      "targetGrammar": ["location expressions", "prepositional case", "рядом/недалеко"],
+      "gradingCriteria": ["location given", "at least one nearby feature mentioned"],
+      "sampleResponse": "Мой дом находится в центре города. Рядом есть парк и магазин. Недалеко метро."
+    }
+  ]
+}

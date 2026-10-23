@@ -1,0 +1,175 @@
+{
+  "id": "a1-023",
+  "level": "A1",
+  "narrator": "Пряник",
+  "title": "Животные",
+  "titleEnglish": "Animals",
+  "description": "Маша рассказывает о животных.",
+  "imageName": "pawprint.fill",
+  "fullText": "Я очень люблю животных! У меня есть собака Пряник. Он большой и добрый. У моей подруги Анны есть кошка, которую зовут Мурка. Мурка маленькая и серая. У моего брата Димы нет домашних животных, но он любит птиц. В парке всегда много птиц! А какое животное ты любишь?",
+  "reviewVocab": [
+    {
+      "word": "животное",
+      "definition": "animal",
+      "partOfSpeech": "noun (n)",
+      "forms": [
+        "животное",
+        "животного",
+        "животные"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "собака",
+      "definition": "dog",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "собака",
+        "собаки",
+        "собаку"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "кошка",
+      "definition": "cat",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "кошка",
+        "кошки",
+        "кошку"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "птица",
+      "definition": "bird",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "птица",
+        "птицы",
+        "птиц"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Какое животное у Маши?",
+      "options": [
+        "Кошка",
+        "Собака",
+        "Птица"
+      ],
+      "correctIndex": 1,
+      "explanation": "У Маши есть собака Пряник."
+    },
+    {
+      "prompt": "Какой Пряник?",
+      "options": [
+        "Маленький и серый",
+        "Большой и добрый",
+        "Чёрный и злой"
+      ],
+      "correctIndex": 1,
+      "explanation": "Пряник большой и добрый."
+    },
+    {
+      "prompt": "Как зовут кошку Анны?",
+      "options": [
+        "Мурка",
+        "Барсик",
+        "Пряник"
+      ],
+      "correctIndex": 0,
+      "explanation": "Кошку зовут Мурка."
+    },
+    {
+      "prompt": "Какая Мурка?",
+      "options": [
+        "Большая и белая",
+        "Рыжая",
+        "Маленькая и серая"
+      ],
+      "correctIndex": 2,
+      "explanation": "Мурка маленькая и серая."
+    },
+    {
+      "prompt": "Есть ли у Димы животное?",
+      "options": [
+        "Нет",
+        "Да, кошка",
+        "Да, собака"
+      ],
+      "correctIndex": 0,
+      "explanation": "У Димы нет домашних животных."
+    },
+    {
+      "prompt": "Каких животных любит Дима?",
+      "options": [
+        "Собак",
+        "Кошек",
+        "Птиц"
+      ],
+      "correctIndex": 2,
+      "explanation": "Дима любит птиц."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Я очень люблю _____!",
+      "У меня есть _____ Пряник.",
+      "У Анны есть _____.",
+      "Мурка маленькая и _____.",
+      "Дима любит _____."
+    ],
+    "choices": [
+      "животных",
+      "собака",
+      "кошка",
+      "серая",
+      "птиц",
+      "большая",
+      "рыбку"
+    ],
+    "answers": [
+      "животных",
+      "собака",
+      "кошка",
+      "серая",
+      "птиц"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "What is the genitive plural of 'птица'?",
+      "options": [
+        "птиц",
+        "птицы",
+        "птицам"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "plurals",
+      "sentenceRef": "В парке много птиц!",
+      "explanation": "'Много' (many/a lot) requires the genitive plural case. Птица → птиц, книга → книг, дом → домов. Example: В парке много птиц (There are many birds in the park), много людей (many people).",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "How do you say 'Dima doesn't have pets'?",
+      "options": [
+        "Дима не имеет животных",
+        "У Димы нет животных",
+        "Дима без животных"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "possession",
+      "sentenceRef": "У Димы нет домашних животных.",
+      "explanation": "'У + genitive + нет + genitive' = 'someone doesn't have something'. Compare: У Димы есть собака (Dima has a dog) vs. У Димы нет кошки (Dima doesn't have a cat). 'Нет' replaces 'есть' in negation.",
+      "focusArea": "cases"
+    }
+  ],
+  "audioFile": "a1-023.m4a",
+  "audioTimingFile": "a1-023-timing.json"
+}

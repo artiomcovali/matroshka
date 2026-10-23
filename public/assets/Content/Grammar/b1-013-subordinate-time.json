@@ -1,0 +1,286 @@
+{
+  "id": "b1-013-subordinate-time",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Time Clauses",
+  "titleRussian": "Придаточные времени",
+  "description": "Когда, пока, после того как, прежде чем",
+  "descriptionRussian": "Временные союзы и конструкции",
+  "imageName": "clock",
+  "intro": "Russian time clauses use various conjunctions depending on the temporal relationship. КОГДА (when) is most common and flexible. ПОКА (while) for simultaneous actions, ПОКА НЕ (until) for 'until X happens'. ПОСЛЕ ТОГО КАК (after) for sequence. ПРЕЖДЕ ЧЕМ / ДО ТОГО КАК (before) for actions preceding others. ПЕРЕД ТЕМ КАК is synonymous with прежде чем. Master these to express complex time relationships.",
+  "rules": [
+    "Когда = when (general): Когда он пришёл, мы ужинали. (When he came, we were having dinner.)",
+    "Пока = while (simultaneous): Пока она готовила, он читал. (While she cooked, he read.)",
+    "Пока не = until: Жди, пока я не вернусь. (Wait until I return.)",
+    "После того как = after: После того как он ушёл, я лёг спать. (After he left, I went to bed.)"
+  ],
+  "examples": [
+    "Когда я был молодым, я много путешествовал. (When I was young, I traveled a lot.)",
+    "Пока ты спал, я приготовил завтрак. (While you slept, I made breakfast.)",
+    "Подожди, пока я не закончу. (Wait until I finish.)",
+    "Прежде чем уйти, он попрощался. (Before leaving, he said goodbye.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ он позвонил, я уже спал. (When he called, I was already sleeping.)",
+          "promptEnglish": "When he called, I was already sleeping.",
+          "options": [
+            "После того как",
+            "Когда",
+            "Прежде чем",
+            "Пока"
+          ],
+          "answer": "Когда",
+          "hint": "General 'when' = когда",
+          "explanation": "General time reference uses когда."
+        },
+        {
+          "prompt": "_____ мама готовила обед, дети играли. (While mom was cooking lunch, the children were playing.)",
+          "promptEnglish": "While mom was cooking, the children were playing.",
+          "options": [
+            "Когда",
+            "До того как",
+            "Пока",
+            "После того как"
+          ],
+          "answer": "Пока",
+          "hint": "Simultaneous actions = пока",
+          "explanation": "Simultaneous ongoing actions use пока."
+        },
+        {
+          "prompt": "Не уходи, _____ я не вернусь! (Don't leave until I return!)",
+          "promptEnglish": "Don't leave until I return!",
+          "options": [
+            "прежде чем",
+            "когда",
+            "после того как",
+            "пока"
+          ],
+          "answer": "пока",
+          "hint": "Until = пока не",
+          "explanation": "Until uses пока + не: пока я не вернусь."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ он закончил работу, он пошёл домой. (After he finished work, he went home.)",
+          "promptEnglish": "After he finished work, he went home.",
+          "options": [
+            "Прежде чем",
+            "После того как",
+            "Когда",
+            "Пока"
+          ],
+          "answer": "После того как",
+          "hint": "After (completed action first) = после того как",
+          "explanation": "Sequence (after) uses после того как."
+        },
+        {
+          "prompt": "_____ выйти, проверь, закрыл ли ты окна. (Before leaving, check if you closed the windows.)",
+          "promptEnglish": "Before leaving, check if you closed the windows.",
+          "options": [
+            "Пока",
+            "После того как",
+            "Когда",
+            "Прежде чем"
+          ],
+          "answer": "Прежде чем",
+          "hint": "Before (action that comes later) = прежде чем",
+          "explanation": "Before uses прежде чем + infinitive."
+        },
+        {
+          "prompt": "_____ я читал книгу, зазвонил телефон. (While I was reading a book, the phone rang.)",
+          "promptEnglish": "While I was reading, the phone rang.",
+          "options": [
+            "До того как",
+            "Пока",
+            "После того как",
+            "Прежде чем"
+          ],
+          "answer": "Пока",
+          "hint": "Background action interrupted = пока",
+          "explanation": "Background action uses пока."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я буду ждать, _____ ты не позвонишь. (I'll wait until you call.)",
+          "promptEnglish": "I'll wait until you call.",
+          "options": [
+            "как только",
+            "после того как",
+            "когда",
+            "пока"
+          ],
+          "answer": "пока",
+          "hint": "Until = пока не",
+          "explanation": "Until uses пока + не: пока ты не позвонишь."
+        },
+        {
+          "prompt": "_____ я приехал в Москву, я сразу позвонил маме. (After I arrived in Moscow, I immediately called mom.)",
+          "promptEnglish": "After I arrived in Moscow, I immediately called mom.",
+          "options": [
+            "Прежде чем",
+            "После того как",
+            "До того как",
+            "Пока"
+          ],
+          "answer": "После того как",
+          "hint": "After = после того как",
+          "explanation": "Sequence uses после того как."
+        },
+        {
+          "prompt": "_____ ложиться спать, почисти зубы. (Before going to bed, brush your teeth.)",
+          "promptEnglish": "Before going to bed, brush your teeth.",
+          "options": [
+            "Когда",
+            "После того как",
+            "Прежде чем",
+            "Пока"
+          ],
+          "answer": "Прежде чем",
+          "hint": "Before = прежде чем + infinitive",
+          "explanation": "Before with infinitive: прежде чем + infinitive."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ он читал, она готовила ужин. (While he was reading, she was cooking dinner.)",
+      "_____ мы поели, мы пошли гулять. (After we ate, we went for a walk.)",
+      "_____ уйти, он выключил свет. (Before leaving, he turned off the light.)"
+    ],
+    "choices": [
+      "Пока",
+      "После того как",
+      "Прежде чем",
+      "Когда",
+      "Потому что",
+      "Чтобы"
+    ],
+    "answers": [
+      "Пока",
+      "После того как",
+      "Прежде чем"
+    ],
+    "grammarFocus": "Time conjunctions: пока (while), после того как (after), прежде чем (before)",
+    "hints": [
+      "Two simultaneous actions — which time conjunction?",
+      "One action followed another — which conjunction?",
+      "One action happened before another — which conjunction?"
+    ],
+    "explanations": [
+      "Пока (while) connects two simultaneous ongoing actions.",
+      "После того как (after) shows sequence: first ate, then walked.",
+      "Прежде чем (before) shows the later action first: before leaving."
+    ],
+    "options": [
+      [
+        "Когда",
+        "Чтобы",
+        "Прежде чем",
+        "Пока"
+      ],
+      [
+        "После того как",
+        "Когда",
+        "Потому что",
+        "Прежде чем"
+      ],
+      [
+        "Когда",
+        "Потому что",
+        "Прежде чем",
+        "Чтобы"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ он пришёл, мы начали. (when, general time)",
+      "contextEnglish": "When he came, we started.",
+      "options": [
+        "Когда",
+        "Пока"
+      ],
+      "answer": "Когда",
+      "explanation": "General time point uses когда."
+    },
+    {
+      "context": "_____ он читал, она спала. (while - simultaneous)",
+      "contextEnglish": "While he was reading, she was sleeping.",
+      "options": [
+        "Пока",
+        "Когда"
+      ],
+      "answer": "Пока",
+      "explanation": "Simultaneous duration uses пока."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by temporal meaning",
+    "categories": [
+      "Simultaneous (while)",
+      "Sequential (after/before)",
+      "Point in time (when)"
+    ],
+    "items": [
+      {
+        "word": "когда он пришёл",
+        "category": "Point in time (when)"
+      },
+      {
+        "word": "пока она спала",
+        "category": "Simultaneous (while)"
+      },
+      {
+        "word": "после того как он ушёл",
+        "category": "Sequential (after/before)"
+      },
+      {
+        "word": "прежде чем уйти",
+        "category": "Sequential (after/before)"
+      },
+      {
+        "word": "пока я работал",
+        "category": "Simultaneous (while)"
+      },
+      {
+        "word": "когда я был молодым",
+        "category": "Point in time (when)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "когда",
+      "definition": "when (general time)",
+      "example": "Когда он пришёл, мы ужинали."
+    },
+    {
+      "term": "пока",
+      "definition": "while (simultaneous)",
+      "example": "Пока она готовила, он читал."
+    },
+    {
+      "term": "пока не",
+      "definition": "until",
+      "example": "Жди, пока я не вернусь."
+    },
+    {
+      "term": "после того как / прежде чем",
+      "definition": "after / before",
+      "example": "После того как он ушёл... / Прежде чем уйти..."
+    }
+  ]
+}

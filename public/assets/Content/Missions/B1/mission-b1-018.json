@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-018",
+  "title": "Parent-Teacher Meeting",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Discuss your child's school progress with their teacher",
+  "imageName": "person.2.fill",
+  "initialPrompt": "Здравствуйте! Я классный руководитель вашего сына. Давайте поговорим о его успеваемости.",
+  "systemPrompt": "You are a teacher. Student doing well in Russian, struggling in math. Suggest extra help. Ask about homework habits at home. Keep replies short.",
+  "completionCriteria": "User discussed grades and agreed on improvement plan.",
+  "responseLimit": 15,
+  "hints": [
+    "Как у него дела? (How is he doing?)",
+    "Какие оценки по математике? (What grades in math?)",
+    "Что вы рекомендуете? (What do you recommend?)",
+    "Мы будем помогать дома (We will help at home)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "успеваемость",
+      "definition": "academic performance"
+    },
+    {
+      "word": "оценка",
+      "definition": "grade"
+    },
+    {
+      "word": "учитель",
+      "definition": "teacher"
+    },
+    {
+      "word": "домашнее задание",
+      "definition": "homework"
+    },
+    {
+      "word": "предмет",
+      "definition": "subject"
+    },
+    {
+      "word": "улучшить",
+      "definition": "to improve"
+    }
+  ],
+  "objectives": [
+    "Ask about child's performance",
+    "Discuss specific subjects",
+    "Understand areas for improvement",
+    "Agree on action plan"
+  ]
+}

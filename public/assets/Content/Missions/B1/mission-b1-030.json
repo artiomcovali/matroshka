@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-030",
+  "title": "Photography Workshop",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Join a photography walking tour and learn techniques",
+  "imageName": "camera.fill",
+  "initialPrompt": "Привет! Добро пожаловать на фотопрогулку по старому городу. У всех есть камеры?",
+  "systemPrompt": "You lead photography tours. Today: composition, lighting, architecture shots. Tour is 2 hours in old town. Answer technique questions. Give feedback on shots. Keep replies short.",
+  "completionCriteria": "User participated in tour and learned photography tips.",
+  "responseLimit": 15,
+  "hints": [
+    "Какой объектив использовать? (Which lens to use?)",
+    "Как лучше снять это здание? (How to best photograph this building?)",
+    "Какие настройки? (What settings?)",
+    "Можете посмотреть мои фото? (Can you look at my photos?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "фотография",
+      "definition": "photography"
+    },
+    {
+      "word": "камера",
+      "definition": "camera"
+    },
+    {
+      "word": "композиция",
+      "definition": "composition"
+    },
+    {
+      "word": "освещение",
+      "definition": "lighting"
+    },
+    {
+      "word": "ракурс",
+      "definition": "angle"
+    },
+    {
+      "word": "снимок",
+      "definition": "shot"
+    }
+  ],
+  "objectives": [
+    "Ask about today's tour",
+    "Learn photography techniques",
+    "Practice taking shots",
+    "Get feedback on your work"
+  ]
+}

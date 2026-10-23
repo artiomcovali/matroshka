@@ -1,0 +1,457 @@
+{
+  "lessonId": "b1-032-verbal-adverbs-usage",
+  "sets": [
+    {
+      "id": "round-1-same-subject",
+      "title": "Same Subject Rule",
+      "titleRussian": "Правило одного субъекта",
+      "description": "Identify correct and incorrect verbal adverb usage",
+      "descriptionRussian": "Определите правильное и неправильное употребление деепричастий",
+      "icon": "checkmark.shield",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which is CORRECT?",
+              "promptEnglish": "Which sentence correctly uses the verbal adverb?",
+              "options": [
+                "Подходя к дому, начался дождь.",
+                "Открыв окно, стало холодно.",
+                "Услышав новость, она обрадовалась.",
+                "Читая книгу, зазвонил телефон."
+              ],
+              "answer": "Услышав новость, она обрадовалась.",
+              "hint": "Same subject: она услышала, она обрадовалась.",
+              "explanation": "Same subject (она) in both parts. The other options have different subjects."
+            },
+            {
+              "prompt": "Why is 'Выходя из дома, пошёл дождь' wrong?",
+              "promptEnglish": "What is the error?",
+              "options": [
+                "Wrong aspect",
+                "Wrong tense",
+                "Different subjects (I left, rain started)",
+                "Wrong word order"
+              ],
+              "answer": "Different subjects (I left, rain started)",
+              "hint": "Who was leaving? Who started raining?",
+              "explanation": "The person leaving and the rain starting are different subjects. Verbal adverbs require the same subject."
+            },
+            {
+              "prompt": "Fix: 'Гуляя в парке, начался дождь.' The correct version is:",
+              "promptEnglish": "Different subjects need a когда clause.",
+              "options": [
+                "Гуляя в парке, дождь начался.",
+                "Когда я гулял в парке, начался дождь.",
+                "Гулявши в парке, начался дождь.",
+                "Погуляв в парке, начался дождь."
+              ],
+              "answer": "Когда я гулял в парке, начался дождь.",
+              "hint": "Different subjects: use когда clause instead.",
+              "explanation": "Different subjects (I walked, rain started) require a когда clause, not a verbal adverb."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Which is CORRECT?",
+              "promptEnglish": "Which sentence correctly uses the verbal adverb?",
+              "options": [
+                "Придя домой, было темно.",
+                "Закрыв окно, стало тихо.",
+                "Закончив работу, я пошёл домой.",
+                "Садясь в машину, мотор заглох."
+              ],
+              "answer": "Закончив работу, я пошёл домой.",
+              "hint": "Same subject: я закончил, я пошёл.",
+              "explanation": "Same subject (я) in both clauses. The other options have different or missing subjects."
+            },
+            {
+              "prompt": "Which sentence has an ERROR?",
+              "promptEnglish": "Which uses a verbal adverb incorrectly?",
+              "options": [
+                "Войдя в комнату, он снял пальто.",
+                "Не зная адреса, она спросила прохожего.",
+                "Проснувшись рано, на улице было тихо.",
+                "Думая о проблеме, он нашёл решение."
+              ],
+              "answer": "Проснувшись рано, на улице было тихо.",
+              "hint": "'На улице было тихо' is impersonal (no subject to match).",
+              "explanation": "Impersonal clause 'было тихо' has no subject. The person who woke up can't match it."
+            },
+            {
+              "prompt": "Verbal adverbs CANNOT be used when:",
+              "promptEnglish": "When are verbal adverbs impossible?",
+              "options": [
+                "The main clause has a future verb",
+                "The verbal adverb is perfective",
+                "The subjects of the two actions are different",
+                "The sentence is negative"
+              ],
+              "answer": "The subjects of the two actions are different",
+              "hint": "Same subject rule is absolute.",
+              "explanation": "Verbal adverbs require the same subject for both actions. Different subjects = use когда/пока."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort: correct or error?",
+        "categories": [
+          "Correct (same subject)",
+          "Error (different subjects)"
+        ],
+        "items": [
+          {
+            "word": "Читая газету, он завтракал.",
+            "category": "Correct (same subject)"
+          },
+          {
+            "word": "Читая газету, позвонили в дверь.",
+            "category": "Error (different subjects)"
+          },
+          {
+            "word": "Придя домой, я поужинал.",
+            "category": "Correct (same subject)"
+          },
+          {
+            "word": "Придя домой, было уже поздно.",
+            "category": "Error (different subjects)"
+          },
+          {
+            "word": "Не зная ответа, студент молчал.",
+            "category": "Correct (same subject)"
+          },
+          {
+            "word": "Подъезжая к городу, начался дождь.",
+            "category": "Error (different subjects)"
+          },
+          {
+            "word": "Закончив работу, она пошла домой.",
+            "category": "Correct (same subject)"
+          },
+          {
+            "word": "Войдя в комнату, погас свет.",
+            "category": "Error (different subjects)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-3-position-style",
+      "title": "Position and Style",
+      "titleRussian": "Позиция и стиль",
+      "description": "Practice verbal adverb placement and register",
+      "descriptionRussian": "Тренировка позиции деепричастия и стиля",
+      "icon": "text.alignleft",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Не _____ русского языка, турист попросил помощи. (Not knowing Russian, the tourist asked for help.)",
+              "promptEnglish": "Not knowing Russian, the tourist asked for help.",
+              "options": [
+                "знающий",
+                "зная",
+                "знавши",
+                "узнав"
+              ],
+              "answer": "зная",
+              "hint": "Not knowing (negated impf verbal adverb): не зная.",
+              "explanation": "Negation + impf verbal adverb: не зная (not knowing). Same subject: турист."
+            },
+            {
+              "prompt": "Which sentence is correct?",
+              "promptEnglish": "The verbal adverb and the main verb must share one subject.",
+              "options": [
+                "Читая книгу, я услышал звонок.",
+                "Читая книгу, зазвонил телефон.",
+                "Читая книгу, телефон зазвонил.",
+                "Читая книгу, начался дождь."
+              ],
+              "answer": "Читая книгу, я услышал звонок.",
+              "hint": "Who reads must also do the second action.",
+              "explanation": "Same-subject rule: only я both reads (читая) and hears (услышал). The others have a different subject (telephone, rain)."
+            },
+            {
+              "prompt": "In everyday speech, «Придя домой, она отдохнула» is most naturally said as:",
+              "promptEnglish": "Verbal adverbs are bookish; spoken Russian prefers a clause.",
+              "options": [
+                "Когда она пришла домой, она отдохнула.",
+                "Приходя домой, она отдохнула.",
+                "Пришедши домой, она отдохнула.",
+                "Прийти домой, она отдохнула."
+              ],
+              "answer": "Когда она пришла домой, она отдохнула.",
+              "hint": "Spoken style replaces the verbal adverb with a когда clause.",
+              "explanation": "Verbal adverbs sound formal/written. In speech a когда clause is more natural: Когда она пришла домой..."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ по улице, я встретил друга. (same subject, correct)",
+          "contextEnglish": "While walking, I met a friend. (correct usage)",
+          "options": [
+            "Идя",
+            "Когда я шёл"
+          ],
+          "answer": "Идя",
+          "explanation": "Same subject (я): verbal adverb is correct and more formal."
+        },
+        {
+          "context": "_____ по улице, начался дождь. (different subjects, needs fix)",
+          "contextEnglish": "While I walked, rain started. (different subjects)",
+          "options": [
+            "Когда я шёл",
+            "Идя"
+          ],
+          "answer": "Когда я шёл",
+          "explanation": "Different subjects (I, rain): must use когда clause."
+        }
+      ]
+    },
+    {
+      "id": "round-4-negation-reflexive",
+      "title": "Negation and Reflexive Forms",
+      "titleRussian": "Отрицание и возвратные формы",
+      "description": "Practice negated and reflexive verbal adverbs",
+      "descriptionRussian": "Тренировка отрицательных и возвратных деепричастий",
+      "icon": "arrow.uturn.backward",
+      "fillInBlank": {
+        "blanks": [
+          "_____ дороги, мы заблудились. (Not knowing the road, we got lost.)",
+          "_____ утром, он опоздал на работу. (Having overslept in the morning, he was late for work.)",
+          "_____ домой, она увидела соседа. (While returning home, she saw her neighbor.)",
+          "_____ ничего, он ушёл. (Not having said anything, he left.)"
+        ],
+        "choices": [
+          "Не зная",
+          "Проспав",
+          "Возвращаясь",
+          "Не сказав",
+          "Не знавший",
+          "Проспавший"
+        ],
+        "answers": [
+          "Не зная",
+          "Проспав",
+          "Возвращаясь",
+          "Не сказав"
+        ],
+        "grammarFocus": "Negation (не + verbal adverb) and reflexive forms (-сь)",
+        "hints": [
+          "Not knowing (negated impf): не + зная. Same subject: мы.",
+          "Having overslept (pf prior action): from проспать → проспав.",
+          "While returning (impf reflexive simultaneous): from возвращаться → возвращаясь.",
+          "Not having said (negated pf prior action): не + сказав."
+        ],
+        "explanations": [
+          "Не зная: negation + impf verbal adverb. Не + зная (separate words). Same subject: мы.",
+          "Проспав: pf verbal adverb of проспать. Prior action: first overslept, then was late.",
+          "Возвращаясь: impf reflexive verbal adverb. Reflexive -сь added after -я. Simultaneous.",
+          "Не сказав: negation + pf verbal adverb. Не + сказав (separate words). Prior action."
+        ],
+        "options": [
+          [
+            "Не зная",
+            "Возвращаясь",
+            "Не знавший",
+            "Проспавший"
+          ],
+          [
+            "проспит",
+            "проспавшую",
+            "проспанную",
+            "Проспав"
+          ],
+          [
+            "возвращаешься",
+            "Возвращаясь",
+            "возвращающийся",
+            "возвращавшаяся"
+          ],
+          [
+            "Проспав",
+            "Возвращаясь",
+            "Не зная",
+            "Не сказав"
+          ]
+        ]
+      },
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "In spoken Russian, verbal adverbs are often replaced by:",
+              "promptEnglish": "What do speakers use instead?",
+              "options": [
+                "Participles",
+                "когда/пока clauses",
+                "Infinitives",
+                "Imperatives"
+              ],
+              "answer": "когда/пока clauses",
+              "hint": "Verbal adverbs are formal/written. Spoken Russian prefers...",
+              "explanation": "Verbal adverbs are bookish. Spoken Russian prefers когда/пока clauses."
+            },
+            {
+              "prompt": "Which is more formal?",
+              "promptEnglish": "Which style is more formal?",
+              "options": [
+                "Когда я читал книгу, я пил чай.",
+                "Читая книгу, я пил чай.",
+                "Я читал книгу и пил чай.",
+                "Я пил чай, когда читал книгу."
+              ],
+              "answer": "Читая книгу, я пил чай.",
+              "hint": "Verbal adverbs = formal/written style.",
+              "explanation": "The verbal adverb construction (Читая книгу...) is more formal/literary than когда or и."
+            },
+            {
+              "prompt": "Can this use a verbal adverb? 'Когда мы приехали, все уже ушли.'",
+              "promptEnglish": "Both subjects are 'мы' and 'все' (different). Can you use a verbal adverb?",
+              "options": [
+                "Yes, use приехав",
+                "No, subjects are different (мы vs все)",
+                "Yes, use приезжая",
+                "No, wrong tense"
+              ],
+              "answer": "No, subjects are different (мы vs все)",
+              "hint": "We arrived, but everyone had left. Two different groups.",
+              "explanation": "Мы (we) and все (everyone) are different subjects. Cannot use a verbal adverb."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанные задания",
+      "description": "Comprehensive usage drill combining all rules",
+      "descriptionRussian": "Комплексная тренировка всех правил употребления",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ в комнату, он поздоровался. (Having entered the room, he said hello.)",
+              "promptEnglish": "Having entered the room, he said hello.",
+              "options": [
+                "Входя",
+                "Войдя",
+                "Входящий",
+                "Вошедший"
+              ],
+              "answer": "Войдя",
+              "hint": "First entered, then greeted. Prior completed = perfective.",
+              "explanation": "Prior completed action: войдя (pf verbal adverb of войти). Same subject: он."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ экзамены, студенты отдыхали. (Having passed the exams, the students relaxed.)",
+              "promptEnglish": "Having passed the exams, the students relaxed.",
+              "options": [
+                "Сдавая",
+                "Сдав",
+                "Сдающие",
+                "Сдавшие"
+              ],
+              "answer": "Сдав",
+              "hint": "First passed exams, then relaxed. Prior = perfective. Same subject: студенты.",
+              "explanation": "Prior completed, same subject: сдав (pf verbal adverb of сдать)."
+            },
+            {
+              "prompt": "Which sentence is CORRECT?",
+              "promptEnglish": "Which correctly uses a verbal adverb?",
+              "options": [
+                "Подъезжая к станции, поезд замедлил ход.",
+                "Приехав на вокзал, было уже поздно.",
+                "Переходя дорогу, загорелся красный свет.",
+                "Выходя из магазина, пакет порвался."
+              ],
+              "answer": "Подъезжая к станции, поезд замедлил ход.",
+              "hint": "The train is approaching AND slowing down. Same subject: поезд.",
+              "explanation": "Same subject (поезд): the train approaches and slows. All others have different subjects."
+            },
+            {
+              "prompt": "Не _____ ответа, она продолжала ждать. (Not having received an answer, she continued to wait.)",
+              "promptEnglish": "Not having received an answer, she continued to wait.",
+              "options": [
+                "получая",
+                "получившая",
+                "получив",
+                "получавшая"
+              ],
+              "answer": "получив",
+              "hint": "Not received (negated pf prior action): не получив.",
+              "explanation": "Negated perfective verbal adverb: не получив (not having received). Same subject: она."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "While working, he listened to music.",
+          "answer": "Работая, он слушал музыку.",
+          "acceptableVariants": [
+            "Он, работая, слушал музыку."
+          ],
+          "hint": "While working = работая (impf, simultaneous)",
+          "grammarFocus": "Imperfective verbal adverb, simultaneous actions",
+          "keyWord": "Работая",
+          "options": [
+            "Работая",
+            "Поработав",
+            "Работавший",
+            "Работающий"
+          ]
+        },
+        {
+          "english": "Having arrived at the station, we bought tickets.",
+          "answer": "Приехав на вокзал, мы купили билеты.",
+          "acceptableVariants": [
+            "Прибыв на вокзал, мы купили билеты."
+          ],
+          "hint": "Having arrived = приехав (pf, prior action)",
+          "grammarFocus": "Perfective verbal adverb, prior action",
+          "keyWord": "Приехав",
+          "options": [
+            "Приехав",
+            "Приезжая",
+            "Приехавший",
+            "Приезжавший"
+          ]
+        },
+        {
+          "english": "Not understanding the question, he asked again.",
+          "answer": "Не понимая вопроса, он переспросил.",
+          "acceptableVariants": [
+            "Не поняв вопроса, он переспросил."
+          ],
+          "hint": "Not understanding = не понимая (negated impf)",
+          "grammarFocus": "Negated verbal adverb",
+          "keyWord": "понимая",
+          "options": [
+            "понимая",
+            "понимающий",
+            "понимавший",
+            "понятый"
+          ]
+        }
+      ]
+    }
+  ]
+}

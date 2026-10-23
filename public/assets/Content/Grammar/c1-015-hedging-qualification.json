@@ -1,0 +1,295 @@
+{
+  "id": "c1-015-hedging-qualification",
+  "level": "C1",
+  "focusArea": "sentenceStructure",
+  "title": "Hedging and Qualification",
+  "titleRussian": "Смягчение и уточнение",
+  "description": "Hedging and qualification strategies",
+  "descriptionRussian": "Стратегии смягчения и уточнения",
+  "imageName": "slider.horizontal.below.rectangle",
+  "intro": "Hedging softens claims and adds nuance. APPROXIMATION: примерно (approximately), около (about), порядка (on the order of), где-то (somewhere around). QUALIFICATION: в некотором смысле (in a sense), до некоторой степени (to some extent), в целом (on the whole), в основном (mainly). TENTATIVENESS: пожалуй (perhaps), вроде бы (sort of), как бы (kind of), скорее (rather). LIMITATION: отчасти (partly), не совсем (not quite), не вполне (not entirely). These markers are essential for academic writing and diplomatic speech.",
+  "rules": [
+    "Approximation: примерно, около, порядка (approximately, about)",
+    "Qualification: в некотором смысле (in a sense), до некоторой степени (to some extent)",
+    "Tentativeness: пожалуй (perhaps), вроде бы (sort of), скорее (rather)",
+    "Limitation: отчасти (partly), не совсем (not quite)"
+  ],
+  "examples": [
+    "Это стоит примерно сто рублей. (This costs approximately 100 rubles.)",
+    "В некотором смысле вы правы. (In a sense, you're right.)",
+    "Пожалуй, я соглашусь. (Perhaps I'll agree.)",
+    "Это не совсем верно. (That's not quite correct.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Approximation: Там было _____ сто человек. (approximately)",
+          "promptEnglish": "There were approximately 100 people.",
+          "options": [
+            "именно",
+            "ровно",
+            "точно",
+            "примерно"
+          ],
+          "answer": "примерно",
+          "hint": "Approximate = примерно",
+          "explanation": "Approximation: примерно (approximately)."
+        },
+        {
+          "prompt": "In a sense: _____ смысле вы правы. (In a certain)",
+          "promptEnglish": "In a sense, you're right.",
+          "options": [
+            "В полном",
+            "В прямом",
+            "В некотором",
+            "В точном"
+          ],
+          "answer": "В некотором",
+          "hint": "Partial agreement = в некотором смысле",
+          "explanation": "Qualification: в некотором смысле."
+        },
+        {
+          "prompt": "Perhaps: _____, это хорошая идея. (I suppose)",
+          "promptEnglish": "Perhaps this is a good idea.",
+          "options": [
+            "Точно",
+            "Ясно",
+            "Конечно",
+            "Пожалуй"
+          ],
+          "answer": "Пожалуй",
+          "hint": "Tentative agreement = пожалуй",
+          "explanation": "Tentativeness: Пожалуй (perhaps)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Not quite: Это _____ верно. (not quite)",
+          "promptEnglish": "That's not quite correct.",
+          "options": [
+            "вполне",
+            "совсем не",
+            "не совсем",
+            "очень"
+          ],
+          "answer": "не совсем",
+          "hint": "Partial negation = не совсем",
+          "explanation": "Limitation: не совсем (not quite)."
+        },
+        {
+          "prompt": "Sort of: Он _____ устал. (kind of)",
+          "promptEnglish": "He's sort of tired.",
+          "options": [
+            "совсем",
+            "очень",
+            "точно",
+            "вроде бы"
+          ],
+          "answer": "вроде бы",
+          "hint": "Informal hedge = вроде бы",
+          "explanation": "Tentativeness: вроде бы (sort of)."
+        },
+        {
+          "prompt": "Rather: Это _____ сложно. (rather)",
+          "promptEnglish": "This is rather difficult.",
+          "options": [
+            "очень",
+            "совсем",
+            "скорее",
+            "точно"
+          ],
+          "answer": "скорее",
+          "hint": "Moderate = скорее",
+          "explanation": "Qualification: скорее (rather)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Partly: Я _____ согласен. (partly)",
+          "promptEnglish": "I partly agree.",
+          "options": [
+            "полностью",
+            "отчасти",
+            "совсем",
+            "очень"
+          ],
+          "answer": "отчасти",
+          "hint": "Partial = отчасти",
+          "explanation": "Limitation: отчасти (partly)."
+        },
+        {
+          "prompt": "On the whole: _____, результаты хорошие. (On the whole)",
+          "promptEnglish": "On the whole, the results are good.",
+          "options": [
+            "В частности",
+            "В точности",
+            "В итоге",
+            "В целом"
+          ],
+          "answer": "В целом",
+          "hint": "General summary = в целом",
+          "explanation": "Qualification: В целом (on the whole)."
+        },
+        {
+          "prompt": "To some extent: Это верно _____ степени. (to some)",
+          "promptEnglish": "This is true to some extent.",
+          "options": [
+            "до полной",
+            "до такой",
+            "до некоторой",
+            "до высокой"
+          ],
+          "answer": "до некоторой",
+          "hint": "Partial = до некоторой степени",
+          "explanation": "Qualification: до некоторой степени."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Результаты _____ хорошие, но есть замечания. (mainly)",
+          "promptEnglish": "The results are mainly good, but there are remarks.",
+          "options": [
+            "совершенно",
+            "абсолютно",
+            "в основном",
+            "точно"
+          ],
+          "answer": "в основном",
+          "hint": "A qualifier meaning 'for the most part'",
+          "explanation": "В основном (mainly) смягчает утверждение, допуская исключения."
+        },
+        {
+          "prompt": "Я _____ помню этот день. (sort of, vaguely)",
+          "promptEnglish": "I sort of remember that day.",
+          "options": [
+            "как бы",
+            "точно",
+            "полностью",
+            "именно"
+          ],
+          "answer": "как бы",
+          "hint": "A hedging particle common in speech",
+          "explanation": "Как бы (sort of / kind of) выражает неуверенность, смягчает утверждение."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Это _____ правильно, но есть нюансы. (not entirely)"
+    ],
+    "choices": [
+      "не вполне",
+      "совсем",
+      "очень",
+      "точно"
+    ],
+    "answers": [
+      "не вполне"
+    ],
+    "grammarFocus": "Limitation: не вполне (not entirely)",
+    "hints": [
+      "Which hedging expression means 'not entirely/not quite,' softening a statement by acknowledging partial truth?"
+    ],
+    "explanations": [
+      "'Не вполне' (not entirely/not quite) is a hedging qualifier that partially negates without fully rejecting: 'not entirely correct, but with nuances.' 'Совсем' means 'completely/at all,' 'очень' means 'very,' and 'точно' means 'exactly'; none of these hedge."
+    ],
+    "options": [
+      [
+        "точно",
+        "очень",
+        "не вполне",
+        "совсем"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Partial negation: Это _____ верно.",
+      "contextEnglish": "That's not quite correct.",
+      "options": [
+        "не совсем",
+        "совсем не"
+      ],
+      "answer": "не совсем",
+      "explanation": "Partial: не совсем (not quite)."
+    },
+    {
+      "context": "Complete negation: Это _____ верно.",
+      "contextEnglish": "That's not at all correct.",
+      "options": [
+        "совсем не",
+        "не совсем"
+      ],
+      "answer": "совсем не",
+      "explanation": "Complete: совсем не (not at all)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by hedging function",
+    "categories": [
+      "Approximation",
+      "Qualification",
+      "Limitation"
+    ],
+    "items": [
+      {
+        "word": "примерно",
+        "category": "Approximation"
+      },
+      {
+        "word": "в некотором смысле",
+        "category": "Qualification"
+      },
+      {
+        "word": "не совсем",
+        "category": "Limitation"
+      },
+      {
+        "word": "около",
+        "category": "Approximation"
+      },
+      {
+        "word": "в целом",
+        "category": "Qualification"
+      },
+      {
+        "word": "отчасти",
+        "category": "Limitation"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "примерно / около",
+      "definition": "approximately, about",
+      "example": "Примерно сто человек."
+    },
+    {
+      "term": "в некотором смысле",
+      "definition": "in a sense, in a way",
+      "example": "В некотором смысле вы правы."
+    },
+    {
+      "term": "не совсем / не вполне",
+      "definition": "not quite, not entirely",
+      "example": "Это не совсем так."
+    },
+    {
+      "term": "пожалуй",
+      "definition": "perhaps, I suppose",
+      "example": "Пожалуй, да."
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "id": "c1-008-formal-writing",
+  "level": "C1",
+  "focusArea": "vocabulary",
+  "title": "Formal Writing",
+  "titleRussian": "Деловой русский",
+  "description": "Official and business Russian",
+  "descriptionRussian": "Официально-деловой стиль",
+  "imageName": "doc.text",
+  "intro": "Formal Russian (официально-деловой стиль) is used in business, legal, and administrative contexts. KEY FEATURES: Nominalized constructions (осуществление instead of делать), passive voice (было принято решение), formulaic phrases (настоящим сообщаем), impersonal constructions (предлагается рассмотреть). VOCABULARY: данный (this), вышеуказанный (aforementioned), нижеподписавшийся (undersigned). SYNTAX: Long sentences, participial phrases, standardized openings/closings. Avoid colloquialisms, contractions, and personal pronouns where possible.",
+  "rules": [
+    "Nominalization: осуществить проверку (not проверить), оказать помощь (not помочь)",
+    "Passive/impersonal: Было принято решение, Предлагается рассмотреть",
+    "Formal vocabulary: данный, указанный, вышеуказанный, настоящий (this document)",
+    "Formulaic phrases: В связи с..., На основании..., Настоящим сообщаем..."
+  ],
+  "examples": [
+    "Настоящим сообщаем о принятом решении. (We hereby inform you of the decision made.)",
+    "В связи с вышеизложенным просим рассмотреть... (In connection with the above, we ask you to consider...)",
+    "Было проведено совещание по данному вопросу. (A meeting was held on this matter.)",
+    "Прошу предоставить информацию в установленные сроки. (Please provide information within the established deadlines.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Formal for 'this': _____ документ (this document)",
+          "promptEnglish": "Formal word for 'this'",
+          "options": [
+            "Такой",
+            "Этот",
+            "Данный",
+            "Тот"
+          ],
+          "answer": "Данный",
+          "hint": "Formal = данный",
+          "explanation": "Formal: данный документ (this document)."
+        },
+        {
+          "prompt": "Nominalized: Formal for 'to check' → осуществить _____",
+          "promptEnglish": "To carry out a check",
+          "options": [
+            "проверить",
+            "проверяя",
+            "проверку",
+            "проверенный"
+          ],
+          "answer": "проверку",
+          "hint": "Noun form after осуществить",
+          "explanation": "Nominalized: осуществить проверку."
+        },
+        {
+          "prompt": "Opening formula: _____ сообщаем о... (We hereby inform)",
+          "promptEnglish": "Formal letter opening",
+          "options": [
+            "Здесь",
+            "Сейчас",
+            "Теперь",
+            "Настоящим"
+          ],
+          "answer": "Настоящим",
+          "hint": "'Hereby' = настоящим",
+          "explanation": "Formula: Настоящим сообщаем."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Passive: _____ принято решение. (A decision was made)",
+          "promptEnglish": "Impersonal passive construction",
+          "options": [
+            "Мы",
+            "Кто-то",
+            "Он",
+            "Было"
+          ],
+          "answer": "Было",
+          "hint": "Impersonal passive",
+          "explanation": "Passive: Было принято решение."
+        },
+        {
+          "prompt": "Reference: В связи с _____ просим... (aforementioned)",
+          "promptEnglish": "In connection with the aforementioned",
+          "options": [
+            "чем",
+            "вышеизложенным",
+            "тем",
+            "этим"
+          ],
+          "answer": "вышеизложенным",
+          "hint": "Formal = вышеизложенный",
+          "explanation": "Formal: вышеизложенным (aforementioned)."
+        },
+        {
+          "prompt": "Request: _____ рассмотреть данный вопрос. (It is proposed to)",
+          "promptEnglish": "Impersonal request",
+          "options": [
+            "Надо",
+            "Давайте",
+            "Предлагается",
+            "Мы хотим"
+          ],
+          "answer": "Предлагается",
+          "hint": "Impersonal = предлагается",
+          "explanation": "Impersonal: Предлагается рассмотреть."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Formal for 'help': оказать _____ (to provide assistance)",
+          "promptEnglish": "Nominalized 'help'",
+          "options": [
+            "помогая",
+            "помощь",
+            "помогающий",
+            "помочь"
+          ],
+          "answer": "помощь",
+          "hint": "оказать + noun",
+          "explanation": "Formal: оказать помощь (provide assistance)."
+        },
+        {
+          "prompt": "Closing: С _____ (With respect)",
+          "promptEnglish": "Formal letter closing",
+          "options": [
+            "радостью",
+            "приветом",
+            "уважением",
+            "любовью"
+          ],
+          "answer": "уважением",
+          "hint": "Standard formal closing",
+          "explanation": "Closing: С уважением (With respect)."
+        },
+        {
+          "prompt": "Which is TOO informal for a business letter?",
+          "promptEnglish": "Identify colloquial language",
+          "options": [
+            "В связи с...",
+            "Привет! Как дела?",
+            "Прошу рассмотреть...",
+            "Настоящим сообщаем..."
+          ],
+          "answer": "Привет! Как дела?",
+          "hint": "Colloquial greeting",
+          "explanation": "Too informal: Привет! (Hi!)"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "_____ с изменением графика работы доводим до вашего сведения... (в связи)",
+          "promptEnglish": "In connection with the change in the work schedule, we bring to your attention...",
+          "options": [
+            "Потому что",
+            "В связи",
+            "Из-за",
+            "Поэтому"
+          ],
+          "answer": "В связи",
+          "hint": "Standard formal phrase for stating a reason",
+          "explanation": "«В связи с» — стандартная формула официально-делового стиля для указания причины."
+        },
+        {
+          "prompt": "Просим _____ информацию в установленные сроки.",
+          "promptEnglish": "We ask you to provide information within the established deadlines.",
+          "options": [
+            "дать",
+            "показать",
+            "кинуть",
+            "предоставить"
+          ],
+          "answer": "предоставить",
+          "hint": "Formal register, not the colloquial synonym",
+          "explanation": "В деловом стиле используется «предоставить информацию», а не разговорное «дать»."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ основании изложенного просим принять меры. (On the basis of)"
+    ],
+    "choices": [
+      "На",
+      "В",
+      "По",
+      "С"
+    ],
+    "answers": [
+      "На"
+    ],
+    "grammarFocus": "Formula: На основании (on the basis of)",
+    "hints": [
+      "This is a fixed formal/legal preposition meaning 'on the basis of.' Which preposition combines with 'основании'?"
+    ],
+    "explanations": [
+      "'На основании' (on the basis of) is a fixed formal formula used in official documents and legal writing. It takes the genitive case: 'на основании изложенного' (on the basis of what was stated). This is distinct from 'в основе' (at the basis of) or 'по основанию' (which is not standard)."
+    ],
+    "options": [
+      [
+        "С",
+        "На",
+        "По",
+        "В"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Formal: _____ документ требует подписи. (this)",
+      "contextEnglish": "This document requires a signature.",
+      "options": [
+        "Данный",
+        "Этот"
+      ],
+      "answer": "Данный",
+      "explanation": "Formal: данный (this)."
+    },
+    {
+      "context": "Neutral: _____ документ на столе. (this)",
+      "contextEnglish": "This document is on the table.",
+      "options": [
+        "Этот",
+        "Данный"
+      ],
+      "answer": "Этот",
+      "explanation": "Neutral: этот (this)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: formal or neutral/colloquial?",
+    "categories": [
+      "Formal (деловой)",
+      "Neutral/Colloquial"
+    ],
+    "items": [
+      {
+        "word": "Настоящим сообщаем",
+        "category": "Formal (деловой)"
+      },
+      {
+        "word": "Хочу сказать",
+        "category": "Neutral/Colloquial"
+      },
+      {
+        "word": "В связи с вышеизложенным",
+        "category": "Formal (деловой)"
+      },
+      {
+        "word": "Поэтому",
+        "category": "Neutral/Colloquial"
+      },
+      {
+        "word": "Прошу рассмотреть",
+        "category": "Formal (деловой)"
+      },
+      {
+        "word": "Посмотри, пожалуйста",
+        "category": "Neutral/Colloquial"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "настоящим",
+      "definition": "hereby (formal opener)",
+      "example": "Настоящим сообщаем..."
+    },
+    {
+      "term": "данный / указанный",
+      "definition": "this / the indicated (formal)",
+      "example": "данный документ"
+    },
+    {
+      "term": "в связи с",
+      "definition": "in connection with",
+      "example": "В связи с вышеизложенным..."
+    },
+    {
+      "term": "осуществить + noun",
+      "definition": "to carry out (nominalized)",
+      "example": "осуществить проверку"
+    }
+  ]
+}

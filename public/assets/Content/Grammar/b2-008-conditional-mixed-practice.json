@@ -1,0 +1,518 @@
+{
+  "lessonId": "b2-008-conditional-mixed",
+  "sets": [
+    {
+      "id": "round-1-mixed-type-quiz",
+      "title": "Mixed Conditional Types",
+      "titleRussian": "Типы смешанных условий",
+      "description": "Identify the time frame mixing in conditional sentences",
+      "descriptionRussian": "Определите смешение временных рамок в условных предложениях",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Если бы я учился лучше, я бы _____ работал в хорошей компании. (past condition, present result)",
+              "promptEnglish": "If I had studied better, I would now be working at a good company.",
+              "options": [
+                "тогда",
+                "сейчас",
+                "вчера",
+                "раньше"
+              ],
+              "answer": "сейчас",
+              "hint": "The result is about the present, not the past.",
+              "explanation": "Past condition (учился) leads to a present result (сейчас работал бы). The time marker сейчас signals the mix."
+            },
+            {
+              "prompt": "Если бы он был умнее, он бы _____ давно это понял. (present condition, past result)",
+              "promptEnglish": "If he were smarter, he would have understood this long ago.",
+              "options": [
+                "сейчас",
+                "уже",
+                "завтра",
+                "скоро"
+              ],
+              "answer": "уже",
+              "hint": "The result already should have happened.",
+              "explanation": "Present condition (был умнее - if he were) leads to a past result (уже давно понял бы)."
+            },
+            {
+              "prompt": "Если бы ты не _____ тогда, мы бы сейчас были вместе.",
+              "promptEnglish": "If you hadn't left then, we would be together now.",
+              "options": [
+                "уезжаешь",
+                "уедешь",
+                "уехал",
+                "уезжал"
+              ],
+              "answer": "уехал",
+              "hint": "Past condition: если бы + past tense.",
+              "explanation": "Past action (уехал тогда) affecting present state (сейчас были бы вместе)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Если бы я был на твоём месте, я бы уже всё _____.",
+              "promptEnglish": "If I were in your place, I would have already done everything.",
+              "options": [
+                "делаю",
+                "делал",
+                "сделаю",
+                "сделал"
+              ],
+              "answer": "сделал",
+              "hint": "Present condition, past/completed result: бы + past.",
+              "explanation": "Present hypothetical (если бы я был) with completed result (уже всё сделал бы)."
+            },
+            {
+              "prompt": "Если бы она _____ языки в школе, она бы сейчас много путешествовала.",
+              "promptEnglish": "If she had studied languages in school, she would now travel a lot.",
+              "options": [
+                "учит",
+                "выучила",
+                "учила",
+                "выучит"
+              ],
+              "answer": "учила",
+              "hint": "Past condition (in school, back then).",
+              "explanation": "Past condition (учила в школе) produces present result (сейчас путешествовала бы)."
+            },
+            {
+              "prompt": "Which sentence is a mixed conditional?",
+              "promptEnglish": "Identify the mixed conditional.",
+              "options": [
+                "Если бы он пришёл, мы бы поговорили.",
+                "Если он придёт, мы поговорим.",
+                "Если бы я знал тогда, я бы сейчас не волновался.",
+                "Если будет дождь, я останусь дома."
+              ],
+              "answer": "Если бы я знал тогда, я бы сейчас не волновался.",
+              "hint": "Mixed = different time frames in condition and result.",
+              "explanation": "Тогда (past) in the condition, сейчас (present) in the result = mixed conditional."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Если бы я знал, я бы тебе _____. (same-time unreal: past-past)",
+          "contextEnglish": "If I had known, I would have told you. (both past)",
+          "options": [
+            "сказал",
+            "говорил сейчас"
+          ],
+          "answer": "сказал",
+          "explanation": "Standard unreal past: both condition and result in the same time frame."
+        },
+        {
+          "context": "Если бы я знал тогда, я бы сейчас не _____. (mixed: past condition, present result)",
+          "contextEnglish": "If I had known then, I wouldn't be worrying now.",
+          "options": [
+            "волновался",
+            "волновалась бы тогда"
+          ],
+          "answer": "волновался",
+          "explanation": "Mixed: past condition (знал тогда) affects present state (сейчас не волновался бы)."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Если бы я начал заниматься спортом раньше, я бы _____ был в лучшей форме. (If I had started...now...)",
+          "Если бы он был богаче, он бы _____ купил эту квартиру. (If he were richer...already...)",
+          "Если бы ты не _____ вчера так поздно, ты бы сейчас чувствовал себя лучше. (If you hadn't stayed up...)"
+        ],
+        "choices": [
+          "сейчас",
+          "уже",
+          "лёг"
+        ],
+        "answers": [
+          "сейчас",
+          "уже",
+          "лёг"
+        ],
+        "grammarFocus": "Time markers in mixed conditionals: сейчас, уже, past condition",
+        "hints": [
+          "The result is about the present state.",
+          "The result should have happened by now.",
+          "Past action: если бы + past of 'go to bed late.'"
+        ],
+        "explanations": [
+          "Сейчас signals the present result of a past condition (started sports earlier).",
+          "Уже signals a completed result that should have happened (already bought).",
+          "Лёг (past pf): если бы ты не лёг так поздно = past condition about last night."
+        ],
+        "options": [
+          [
+            "тогда",
+            "потом",
+            "сейчас",
+            "вчера"
+          ],
+          [
+            "тогда",
+            "потом",
+            "уже",
+            "ещё"
+          ],
+          [
+            "лёг",
+            "ложится",
+            "ложился",
+            "ляжет"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-3-error-translate",
+      "title": "Fix and Translate",
+      "titleRussian": "Исправьте и переведите",
+      "description": "Correct errors in mixed conditionals and translate",
+      "descriptionRussian": "Исправьте ошибки и переведите",
+      "icon": "pencil.and.outline",
+      "errorCorrection": [],
+      "translation": [
+        {
+          "english": "If I had saved money back then, I would now have a house.",
+          "answer": "Если бы я тогда копил деньги, я бы сейчас имел дом.",
+          "acceptableVariants": [
+            "Если бы я раньше копил деньги, у меня бы сейчас был дом.",
+            "Если бы я тогда откладывал деньги, у меня бы сейчас был дом."
+          ],
+          "hint": "Past condition (тогда) + present result (сейчас)",
+          "grammarFocus": "Mixed: past to present",
+          "keyWord": "сейчас",
+          "options": [
+            "сейчас",
+            "тогда",
+            "вчера",
+            "потом"
+          ]
+        },
+        {
+          "english": "If she were more organized, she would have already finished the project.",
+          "answer": "Если бы она была более организованной, она бы уже закончила проект.",
+          "acceptableVariants": [
+            "Если бы она была организованнее, она бы уже закончила проект."
+          ],
+          "hint": "Present condition + past result (уже)",
+          "grammarFocus": "Mixed: present to past",
+          "keyWord": "уже",
+          "options": [
+            "уже",
+            "ещё",
+            "сейчас",
+            "пока"
+          ]
+        },
+        {
+          "english": "If we hadn't moved to this city, we would still be living there.",
+          "answer": "Если бы мы не переехали в этот город, мы бы до сих пор жили там.",
+          "acceptableVariants": [
+            "Если бы мы не переехали, мы бы сейчас жили там."
+          ],
+          "hint": "Past condition + present result (до сих пор / сейчас)",
+          "grammarFocus": "Mixed: past to present",
+          "keyWord": "жили",
+          "options": [
+            "жили",
+            "живём",
+            "жил",
+            "жить"
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Если бы я знал _____, я бы сказал. (same time: past-past)",
+          "contextEnglish": "If I had known, I would have said. (standard unreal)",
+          "options": [
+            "тогда",
+            "сейчас"
+          ],
+          "answer": "тогда",
+          "explanation": "Standard unreal: both in the past. Тогда (then) keeps both frames in the past."
+        },
+        {
+          "context": "Если бы я знал тогда, я бы _____ не волновался. (mixed: past to present)",
+          "contextEnglish": "If I had known then, I wouldn't be worrying now.",
+          "options": [
+            "сейчас",
+            "тогда"
+          ],
+          "answer": "сейчас",
+          "explanation": "Mixed: past condition (тогда) produces present result (сейчас не волновался бы)."
+        }
+      ]
+    },
+    {
+      "id": "round-4-context-practice",
+      "title": "Context Practice",
+      "titleRussian": "Практика в контексте",
+      "description": "Use mixed conditionals in realistic situations",
+      "descriptionRussian": "Используйте смешанные условные в реальных ситуациях",
+      "icon": "text.bubble",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Если бы я _____ университет в 20 лет, я бы сейчас уже был профессором.",
+              "promptEnglish": "If I had finished university at 20, I would now already be a professor.",
+              "options": [
+                "заканчиваю",
+                "закончу",
+                "закончил",
+                "заканчивал"
+              ],
+              "answer": "закончил",
+              "hint": "Past condition: если бы + past perfective.",
+              "explanation": "Past condition: закончил (past pf). The result is about the present (сейчас)."
+            },
+            {
+              "prompt": "Если бы она была терпеливее, она бы уже давно _____ русский.",
+              "promptEnglish": "If she were more patient, she would have already learned Russian.",
+              "options": [
+                "учит",
+                "выучила",
+                "учила",
+                "выучит"
+              ],
+              "answer": "выучила",
+              "hint": "Present condition + past completed result.",
+              "explanation": "Present condition (если бы была) + past result (уже давно выучила бы)."
+            },
+            {
+              "prompt": "Если бы мы _____ за город тогда, мы бы сейчас дышали свежим воздухом.",
+              "promptEnglish": "If we had moved to the countryside then, we would now be breathing fresh air.",
+              "options": [
+                "переезжаем",
+                "переехали",
+                "переедем",
+                "переезжали"
+              ],
+              "answer": "переехали",
+              "hint": "Past condition about a decision made long ago.",
+              "explanation": "Past decision (переехали тогда) affecting present life (сейчас дышали бы)."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Если бы я учился... сейчас работал бы. / Если бы мы не уехали... сейчас жили бы. / Если бы он начал... сейчас уже закончил бы.",
+          "question": "What pattern do all three share?",
+          "options": [
+            "Standard unreal (same time)",
+            "Mixed: past condition, present result",
+            "Mixed: present condition, past result",
+            "Real conditionals"
+          ],
+          "answer": "Mixed: past condition, present result",
+          "explanation": "All three: past condition + сейчас + present result. A past choice affects the present."
+        },
+        {
+          "sentence": "Если бы он был умнее... уже бы понял. / Если бы она была терпеливее... уже бы выучила. / Если бы ты был быстрее... уже бы добежал.",
+          "question": "What pattern do all three share?",
+          "options": [
+            "Standard unreal",
+            "Mixed: past to present",
+            "Mixed: present condition, past result",
+            "Real future"
+          ],
+          "answer": "Mixed: present condition, past result",
+          "explanation": "All three: present trait (если бы был...) + уже + past completed result."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Если бы я _____ русский в детстве, я бы сейчас свободно говорил. (had learned)",
+          "Если бы он был внимательнее, он бы _____ заметил ошибку. (already)",
+          "Если бы мы не _____ тогда, всё было бы сейчас по-другому. (had argued)"
+        ],
+        "choices": [
+          "выучил",
+          "уже",
+          "поссорились"
+        ],
+        "answers": [
+          "выучил",
+          "уже",
+          "поссорились"
+        ],
+        "grammarFocus": "Mixed conditionals with time markers",
+        "hints": [
+          "Past condition about childhood.",
+          "Time marker showing the result should have happened by now.",
+          "Past event (argument) that affects the present."
+        ],
+        "explanations": [
+          "Выучил (past pf): past condition. Сейчас свободно говорил бы: present result.",
+          "Уже = already. Present condition leads to 'would have already' result.",
+          "Поссорились (past pf): past action. Сейчас по-другому: present consequence."
+        ],
+        "options": [
+          [
+            "учил",
+            "учит",
+            "выучил",
+            "выучит"
+          ],
+          [
+            "тогда",
+            "раньше",
+            "ещё",
+            "уже"
+          ],
+          [
+            "ссорится",
+            "ссорились",
+            "поссорились",
+            "поссорится"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All conditional types mixed in varied exercises",
+      "descriptionRussian": "Все типы условных предложений",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Если бы я _____ на другую специальность, я бы сейчас зарабатывал больше.",
+              "promptEnglish": "If I had switched to a different major, I would now earn more.",
+              "options": [
+                "перейду",
+                "перехожу",
+                "перешёл",
+                "перейти"
+              ],
+              "answer": "перешёл",
+              "hint": "Past condition (когда-то) + present result (сейчас).",
+              "explanation": "Past choice (перешёл бы) affecting present income (сейчас зарабатывал бы)."
+            },
+            {
+              "prompt": "Если бы она была организованнее, она бы _____ давно сдала проект.",
+              "promptEnglish": "If she were more organized, she would have submitted the project long ago.",
+              "options": [
+                "сейчас",
+                "тогда",
+                "уже",
+                "потом"
+              ],
+              "answer": "уже",
+              "hint": "Present trait + past result that should have happened = уже.",
+              "explanation": "Уже давно: 'would have already long ago.' Present condition, past result."
+            },
+            {
+              "prompt": "Identify the standard (non-mixed) unreal conditional:",
+              "promptEnglish": "Which one is NOT mixed?",
+              "options": [
+                "Если бы я знал тогда, я бы сейчас не волновался.",
+                "Если бы она пришла, мы бы поговорили.",
+                "Если бы он был умнее, он бы уже понял.",
+                "Если бы мы переехали раньше, мы бы сейчас жили лучше."
+              ],
+              "answer": "Если бы она пришла, мы бы поговорили.",
+              "hint": "Standard unreal = both clauses in the same time frame.",
+              "explanation": "Both in the past: if she had come, we would have talked. No time markers mixing frames."
+            }
+          ]
+        },
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What makes a conditional 'mixed'?",
+              "promptEnglish": "What defines a mixed conditional?",
+              "options": [
+                "It uses both бы and ли.",
+                "The condition and result are in different time frames.",
+                "It combines two conditions.",
+                "It uses perfective and imperfective together."
+              ],
+              "answer": "The condition and result are in different time frames.",
+              "hint": "Mixed = different times in condition vs result.",
+              "explanation": "A mixed conditional has the condition in one time frame (e.g. past) and the result in another (e.g. present)."
+            },
+            {
+              "prompt": "\"Если бы я тогда послушал, я бы сейчас не жалел.\" Which time frames?",
+              "promptEnglish": "Which time frames are mixed here?",
+              "options": [
+                "Past condition, future result",
+                "Present condition, past result",
+                "Past condition, present result",
+                "Future condition, past result"
+              ],
+              "answer": "Past condition, present result",
+              "hint": "Тогда = past. Сейчас = present.",
+              "explanation": "Тогда (then, past) in the condition. Сейчас (now, present) in the result."
+            },
+            {
+              "prompt": "\"Если бы она была смелее, она бы уже давно уехала.\" Which type?",
+              "promptEnglish": "Identify the mixed conditional type.",
+              "options": [
+                "Standard unreal",
+                "Past condition, present result",
+                "Present condition, past result",
+                "Real conditional"
+              ],
+              "answer": "Present condition, past result",
+              "hint": "Была смелее = if she were (present trait). Уже давно уехала = would have left long ago.",
+              "explanation": "Present condition (if she were braver) + past result (would have already left)."
+            }
+          ]
+        }
+      ],
+      "sentenceTransform": [],
+      "errorCorrection": [],
+      "translation": [],
+      "categorySorting": {
+        "instruction": "Sort by conditional type",
+        "categories": [
+          "Standard unreal (same time)",
+          "Mixed: past condition, present result",
+          "Mixed: present condition, past result"
+        ],
+        "items": [
+          {
+            "word": "Если бы он пришёл, мы бы поговорили.",
+            "category": "Standard unreal (same time)"
+          },
+          {
+            "word": "Если бы я учился лучше, я бы сейчас работал.",
+            "category": "Mixed: past condition, present result"
+          },
+          {
+            "word": "Если бы он был умнее, он бы уже всё понял.",
+            "category": "Mixed: present condition, past result"
+          },
+          {
+            "word": "Если бы она позвонила, я бы ответил.",
+            "category": "Standard unreal (same time)"
+          },
+          {
+            "word": "Если бы мы не переехали тогда, мы бы сейчас жили там.",
+            "category": "Mixed: past condition, present result"
+          },
+          {
+            "word": "Если бы я был быстрее, я бы уже давно добежал.",
+            "category": "Mixed: present condition, past result"
+          }
+        ]
+      }
+    }
+  ]
+}

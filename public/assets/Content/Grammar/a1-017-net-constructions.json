@@ -1,0 +1,231 @@
+{
+  "id": "a1-017-net-constructions",
+  "level": "A1",
+  "focusArea": "sentenceStructure",
+  "title": "Нет Constructions",
+  "titleRussian": "Конструкция с «нет»",
+  "description": "Expressing absence and 'don't have' with нет + genitive",
+  "descriptionRussian": "Выражение отсутствия с «нет» + родительный падеж",
+  "imageName": "xmark.circle",
+  "intro": "To say 'I don't have' or 'there is no', Russian uses нет followed by the genitive case. This is your first real introduction to the genitive - the case of absence, possession, and 'of'. For now, focus on the pattern: У меня нет + genitive. The genitive endings will become second nature with practice.",
+  "rules": [
+    "У + genitive + нет + genitive = no possession: У меня нет машины. (I don't have a car.)",
+    "Нет + genitive = there is no: Здесь нет магазина. (There is no store here.)",
+    "Genitive singular: masculine -а/-я (стол → стола), feminine -ы/-и (книга → книги), neuter -а/-я (окно → окна).",
+    "After нет, the noun is ALWAYS in genitive - this shows absence."
+  ],
+  "examples": [
+    "У меня нет времени. (I don't have time.), время → времени",
+    "У него нет брата. (He doesn't have a brother.), брат → брата",
+    "Здесь нет воды. (There's no water here.), вода → воды",
+    "У нас нет денег. (We don't have money.), деньги → денег"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "У меня нет _____. (I don't have a car.)",
+          "promptEnglish": "I don't have a car.",
+          "options": [
+            "машину",
+            "машины",
+            "машина",
+            "машине"
+          ],
+          "answer": "машины",
+          "hint": "Feminine -а → -ы in genitive",
+          "explanation": "After нет, use genitive. Машина (fem.) → машины."
+        },
+        {
+          "prompt": "У него нет _____. (He doesn't have a brother.)",
+          "promptEnglish": "He doesn't have a brother.",
+          "options": [
+            "брату",
+            "брате",
+            "брат",
+            "брата"
+          ],
+          "answer": "брата",
+          "hint": "Masculine: add -а in genitive",
+          "explanation": "After нет, use genitive. Брат (masc.) → брата."
+        },
+        {
+          "prompt": "Здесь нет _____. (There's no water here.)",
+          "promptEnglish": "There's no water here.",
+          "options": [
+            "воду",
+            "воде",
+            "воды",
+            "вода"
+          ],
+          "answer": "воды",
+          "hint": "Feminine -а → -ы in genitive",
+          "explanation": "After нет, use genitive. Вода (fem.) → воды."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "У меня нет _____. (I don't have time.)",
+          "promptEnglish": "I don't have time.",
+          "options": [
+            "времена",
+            "временем",
+            "время",
+            "времени"
+          ],
+          "answer": "времени",
+          "hint": "Время is irregular: → времени",
+          "explanation": "Время (neuter, -мя noun) has genitive времени."
+        },
+        {
+          "prompt": "У неё нет _____. (She doesn't have a sister.)",
+          "promptEnglish": "She doesn't have a sister.",
+          "options": [
+            "сестра",
+            "сестру",
+            "сестре",
+            "сестры"
+          ],
+          "answer": "сестры",
+          "hint": "Feminine -а → -ы in genitive",
+          "explanation": "Нет ALWAYS requires genitive case. Сестра is feminine (-а ending), so in genitive it becomes сестры (-а → -ы). Compare: У неё есть сестра (nominative) vs. У неё нет сестры (genitive)."
+        },
+        {
+          "prompt": "В комнате нет _____. (There's no window in the room.)",
+          "promptEnglish": "There's no window in the room.",
+          "options": [
+            "окне",
+            "окно",
+            "окна",
+            "окну"
+          ],
+          "answer": "окна",
+          "hint": "Neuter -о → -а in genitive",
+          "explanation": "After нет, use genitive. Окно (neuter) → окна."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "У меня нет _____. (I don't have a car.)",
+      "У него нет _____. (He doesn't have a brother.)",
+      "У неё нет _____. (She doesn't have a cat.)"
+    ],
+    "choices": [
+      "машины",
+      "брата",
+      "кошки",
+      "книга",
+      "дом",
+      "собака"
+    ],
+    "answers": [
+      "машины",
+      "брата",
+      "кошки"
+    ],
+    "grammarFocus": "У + genitive + нет + genitive noun (possession negation)",
+    "options": [
+      [
+        "машина",
+        "машине",
+        "машину",
+        "машины"
+      ],
+      [
+        "брата",
+        "брату",
+        "брат",
+        "братом"
+      ],
+      [
+        "кошкам",
+        "кошки",
+        "кошками",
+        "кошек"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "У меня есть _____. (I have a book.)",
+      "contextEnglish": "I have a book.",
+      "options": [
+        "книга",
+        "книги"
+      ],
+      "answer": "книга",
+      "explanation": "After есть, use nominative: книга."
+    },
+    {
+      "context": "У меня нет _____. (I don't have a book.)",
+      "contextEnglish": "I don't have a book.",
+      "options": [
+        "книги",
+        "книга"
+      ],
+      "answer": "книги",
+      "explanation": "After нет, use genitive: книги."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: nominative or genitive form?",
+    "categories": [
+      "Nominative (есть)",
+      "Genitive (нет)"
+    ],
+    "items": [
+      {
+        "word": "книга",
+        "category": "Nominative (есть)"
+      },
+      {
+        "word": "книги",
+        "category": "Genitive (нет)"
+      },
+      {
+        "word": "брат",
+        "category": "Nominative (есть)"
+      },
+      {
+        "word": "брата",
+        "category": "Genitive (нет)"
+      },
+      {
+        "word": "машина",
+        "category": "Nominative (есть)"
+      },
+      {
+        "word": "машины",
+        "category": "Genitive (нет)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "у меня нет",
+      "definition": "I don't have",
+      "example": "У меня нет машины."
+    },
+    {
+      "term": "родительный падеж",
+      "definition": "genitive case",
+      "example": "После «нет» — родительный падеж."
+    },
+    {
+      "term": "нет + род. падеж",
+      "definition": "there is no + genitive",
+      "example": "Здесь нет воды."
+    },
+    {
+      "term": "времени, денег",
+      "definition": "of time, of money (genitive)",
+      "example": "У меня нет времени."
+    }
+  ]
+}

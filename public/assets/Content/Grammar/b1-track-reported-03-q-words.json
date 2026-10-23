@@ -1,0 +1,375 @@
+{
+  "id": "b1-track-reported-03-q-words",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Reported Speech 3: Q-Word Links for Content Questions",
+  "titleRussian": "Косвенная речь 3: Вопросительное слово как союз",
+  "description": "Russian reports a content question by reusing the original Q-word (кто, что, где, когда, почему, как) as the link word. No ли is added; the main verb decides whether что opens a statement or a question. Pronouns shift; tense is preserved.",
+  "descriptionRussian": "Специальный вопрос в косвенной речи передаётся самим вопросительным словом (кто, что, где, когда, почему, как). «Ли» не нужно. Главный глагол показывает, открывает ли «что» утверждение или вопрос. Местоимения подстраиваются; время сохраняется.",
+  "imageName": "magnifyingglass",
+  "trackId": "b1-reported-speech-mastery",
+  "trackTitle": "Reported Speech Mastery",
+  "trackTitleRussian": "Косвенная речь",
+  "trackIndex": 3,
+  "trackTotal": 5,
+  "intro": "Content questions are the easiest of the four tools: you keep the original question word and use it as the link, adding nothing. Where, when, why and how all work the same way. The only thing to unlearn is the urge to insert an extra linking word, which English speakers do because English sometimes needs one.",
+  "rules": [
+    "To report a content question, reuse the original Q-word (кто, что, где, когда, почему, как) as the link word. Never add ли.",
+    "The Q-word goes right after the comma; the rest of the clause follows it in normal subject-verb order.",
+    "Pronouns shift to the narrator's point of view (ты → я or он/она); the original tense is kept unchanged.",
+    "The main verb decides что: сказать + что opens a statement (Lesson 1), спросить + что is the Q-word \"what\" (today).",
+    "The same frame works for every Q-word: identity, thing, place, time, reason, or manner all use one tool."
+  ],
+  "examples": [
+    "Direct: Маша спросила: «Кто это?» Reported: Маша спросила, кто это. (Masha asked who that was.)",
+    "Direct: Антон спросил: «Где Маша?» Reported: Антон спросил, где Маша. (Anton asked where Masha was.)",
+    "Direct: Маша спросила: «Когда ты придёшь?» Reported: Маша спросила, когда я приду. (Masha asked when I would come; future kept, ты → я.)",
+    "Direct: Я спросил: «Почему ты так думаешь?» Reported: Я спросил, почему он так думает. (I asked why he thought so; present kept, ты → он.)",
+    "Direct: Лена спросила: «Как это работает?» Reported: Лена спросила, как это работает. (Lena asked how it worked.)",
+    "Direct: Маша спросила: «Что Антон делает?» Reported: Маша спросила, что Антон делает. (Masha asked what Anton was doing; что as the Q-word, not the statement marker.)"
+  ],
+  "tables": [
+    {
+      "title": "Q-words as the reported-question link",
+      "headers": [
+        "Q-word",
+        "Asks about",
+        "Reported example"
+      ],
+      "rows": [
+        {
+          "label": "кто",
+          "cells": [
+            "identity (person)",
+            "Маша спросила, кто это."
+          ]
+        },
+        {
+          "label": "что",
+          "cells": [
+            "thing",
+            "Маша спросила, что Антон делает."
+          ]
+        },
+        {
+          "label": "где",
+          "cells": [
+            "place",
+            "Антон спросил, где Маша."
+          ]
+        },
+        {
+          "label": "когда",
+          "cells": [
+            "time",
+            "Маша спросила, когда я приду."
+          ]
+        },
+        {
+          "label": "почему",
+          "cells": [
+            "reason",
+            "Я спросил, почему он так думает."
+          ]
+        },
+        {
+          "label": "как",
+          "cells": [
+            "manner",
+            "Лена спросила, как это работает."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Антон спросил, дома _____ Маша.",
+          "promptEnglish": "Anton asked whether Masha was home.",
+          "options": [
+            "когда",
+            "ли",
+            "если",
+            "почему"
+          ],
+          "answer": "ли",
+          "hint": "Recap from Lesson 2: a yes/no question with the focus 'whether at home.'",
+          "explanation": "Ли is the Lesson 2 word for reported yes/no questions; it leans on the word before it (дома) and sits second. Когда and почему are Q-words for content questions (today), not yes/no. Если is only for real conditional clauses ('if it rains')."
+        },
+        {
+          "prompt": "Маша спросила, _____ Антон.",
+          "promptEnglish": "Masha asked where Anton was.",
+          "options": [
+            "что",
+            "когда",
+            "ли",
+            "где"
+          ],
+          "answer": "где",
+          "hint": "Q-word for place.",
+          "explanation": "Где is the Q-word for location. Что would ask about a thing; когда would ask about time; ли would mark a yes/no question. The English 'where Anton was' is exactly где."
+        },
+        {
+          "prompt": "Я спросил, _____ он так думает.",
+          "promptEnglish": "I asked why he thought so.",
+          "options": [
+            "почему",
+            "ли",
+            "что",
+            "кто"
+          ],
+          "answer": "почему",
+          "hint": "Q-word for reason.",
+          "explanation": "Почему is the Q-word for reason. Ли would mark a yes/no question. Что would ask 'what,' not 'why.' Кто would ask 'who.' The English 'why' is exactly почему."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маша спросила, когда я _____ .",
+          "promptEnglish": "Masha asked when I would come.",
+          "options": [
+            "пришёл",
+            "приду",
+            "приходил",
+            "приходить"
+          ],
+          "answer": "приду",
+          "hint": "The original spoken question was future tense. Russian keeps the original tense.",
+          "explanation": "The original question was 'Когда ты придёшь?' (future perfective). Russian keeps the original tense in reported speech; with the pronoun shift ты → я, the verb becomes first-person future приду. Пришёл is past; приходил is past imperfective; приходить is the infinitive."
+        },
+        {
+          "prompt": "Лена спросила, _____ это работает.",
+          "promptEnglish": "Lena asked how it worked.",
+          "options": [
+            "что",
+            "как",
+            "ли",
+            "когда"
+          ],
+          "answer": "как",
+          "hint": "Q-word for manner ('in what way').",
+          "explanation": "Как is the Q-word for manner. Что would ask 'what' (a thing); когда would ask about time; ли would mark a yes/no question. The English 'how it worked' uses the manner Q-word как."
+        },
+        {
+          "prompt": "Маша _____ , кто это сказал.",
+          "promptEnglish": "Masha asked who had said that.",
+          "options": [
+            "сказала",
+            "поинтересовалась",
+            "узнала",
+            "ответила"
+          ],
+          "answer": "поинтересовалась",
+          "hint": "A verb of asking, slightly formal.",
+          "explanation": "Поинтересовалась is a past-feminine verb of asking with a slightly formal flavour, so it fits the Q-word кто. Узнала means 'found out.' Сказала means 'said' (a statement frame; it would take что from Lesson 1, not кто). Ответила means 'answered.' A Q-word like кто needs a verb of asking, not of saying or answering."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Антон спросил, _____.",
+          "promptEnglish": "Anton asked who that was.",
+          "options": [
+            "кто это",
+            "кого это",
+            "кем это",
+            "чей это"
+          ],
+          "answer": "кто это",
+          "hint": "Reuse the question word as the link. No ли.",
+          "explanation": "Content questions reuse their Q-word as the connector: спросил, кто это. No ли is added when a question word is present; кого and кем are oblique forms the frame does not need."
+        },
+        {
+          "prompt": "Антон спросил, _____ я приду.",
+          "promptEnglish": "Anton asked when I would come.",
+          "options": [
+            "когда",
+            "где",
+            "куда",
+            "ли"
+          ],
+          "answer": "когда",
+          "hint": "A time question keeps its Q-word.",
+          "explanation": "The Q-word links the clause: спросил, когда я приду. The narrator was the addressee, so ты shifts to я; the future tense stays; ли only appears when there is NO question word."
+        },
+        {
+          "prompt": "Лена спросила, _____ мы едем летом.",
+          "promptEnglish": "Lena asked where we were going in the summer.",
+          "options": [
+            "куда",
+            "где",
+            "откуда",
+            "когда"
+          ],
+          "answer": "куда",
+          "hint": "Direction, not location.",
+          "explanation": "Едем names movement toward a destination, so the Q-word is куда: спросила, куда мы едем. Где asks about a static place; откуда about a source."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Лена спросила, _____ я делаю.",
+          "promptEnglish": "Lena asked what I was doing.",
+          "options": [
+            "что",
+            "кто",
+            "как",
+            "ли"
+          ],
+          "answer": "что",
+          "hint": "The thing being done: which Q-word?",
+          "explanation": "The Q-word что links the clause: спросила, что я делаю. The present tense stays (Russian does not backshift); ли never joins a content question."
+        },
+        {
+          "prompt": "Маша спросила, где я _____.",
+          "promptEnglish": "Masha asked where I lived.",
+          "options": [
+            "живу",
+            "живёт",
+            "жил",
+            "жить"
+          ],
+          "answer": "живу",
+          "hint": "Tense and person in the reported clause.",
+          "explanation": "The original present stays present, and ты shifts to я, so the verb is живу: спросила, где я живу. English backshifts to 'lived'; Russian does not - жил would claim the original was past."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Антон спросил, _____ я живу. (Anton asked where I live.)"
+    ],
+    "choices": [
+      "когда",
+      "ли",
+      "где",
+      "что"
+    ],
+    "answers": [
+      "где"
+    ],
+    "grammarFocus": "Где is the Q-word for place. Когда asks about time; ли would mark a yes/no question; что would ask 'what,' the wrong type of information. The English 'where' is exactly где. Note the pronoun shift from the original 'Где ты живёшь?' to 'где я живу' (ты → я, живёшь → живу)."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Маша спросила, куда приехал гость.",
+      "translationEnglish": "Masha asked where the guest had come from.",
+      "error": "куда",
+      "correction": "откуда",
+      "options": [
+        "откуда",
+        "где",
+        "когда"
+      ],
+      "explanation": "Arriving names a SOURCE, so the Q-word is откуда (where from), not куда (where to). Куда asks about movement toward a destination ('куда он идёт?'), где about a static location, когда about time. Each reported question keeps its own Q-word."
+    },
+    {
+      "sentence": "Я спросил, когда прилетел его самолёт завтра.",
+      "translationEnglish": "I asked when his plane would arrive tomorrow.",
+      "error": "прилетел",
+      "correction": "прилетит",
+      "options": [
+        "прилетит",
+        "прилетал",
+        "прилетает"
+      ],
+      "explanation": "Russian keeps the original tense in a reported content question. The original was 'когда прилетит твой самолёт?' (future), and 'завтра' confirms a future event, so прилетит stays. The past прилетел clashes with 'завтра.' Прилетал is past imperfective; прилетает is present. The Q-word когда carries the frame; the tense stays as it was."
+    },
+    {
+      "sentence": "Маша спросила, что ей звонил так поздно.",
+      "translationEnglish": "Masha asked who had called her so late.",
+      "error": "что",
+      "correction": "кто",
+      "options": [
+        "кто",
+        "кому",
+        "когда"
+      ],
+      "explanation": "A caller is a person, so the Q-word is кто (who), not что (what, a thing). Кому (dative 'to whom') would ask the recipient, not the caller; когда asks about time. Кто is the subject of звонил, and the masculine past звонил agrees with it."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша сказала, _____ Антон работает в офисе.",
+      "contextEnglish": "Masha said that Anton works in the office.",
+      "options": [
+        "что",
+        "когда"
+      ],
+      "answer": "что",
+      "explanation": "This is a reported statement, opened by a verb of saying (сказала), so что means 'that' (Lesson 1). Когда would be a Q-word for time in a reported question, which would need a verb of asking (спросила) in the main clause, not сказала. The main verb decides."
+    },
+    {
+      "context": "Маша спросила, _____ Антон работает.",
+      "contextEnglish": "Masha asked where Anton works.",
+      "options": [
+        "где",
+        "что"
+      ],
+      "answer": "где",
+      "explanation": "This is a reported content question about place. Где is the Q-word for location. Что would ask 'what,' a different question. The verb спросила forces a question reading; the English 'where' is exactly где."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each reported clause by whether что/где opens a STATEMENT (after a verb of saying) or a QUESTION (after a verb of asking). Watch the main verb.",
+    "categories": [
+      "Statement (verb of saying)",
+      "Question (verb of asking)"
+    ],
+    "items": [
+      {
+        "word": "Маша сказала, что Антон работает.",
+        "category": "Statement (verb of saying)"
+      },
+      {
+        "word": "Маша спросила, что Антон делает.",
+        "category": "Question (verb of asking)"
+      },
+      {
+        "word": "Антон ответил, что он устал.",
+        "category": "Statement (verb of saying)"
+      },
+      {
+        "word": "Лена спросила, где он живёт.",
+        "category": "Question (verb of asking)"
+      },
+      {
+        "word": "Он сказал, что всё готово.",
+        "category": "Statement (verb of saying)"
+      },
+      {
+        "word": "Я спросил, почему она ушла.",
+        "category": "Question (verb of asking)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "специальный вопрос",
+      "definition": "a content question (a question opening with a Q-word; reported by reusing the same Q-word as the link)",
+      "example": "В предложении «Маша спросила, где Антон» зависимая часть передаёт специальный вопрос."
+    },
+    {
+      "term": "вопросительное слово (кто, что, где, когда, почему, как)",
+      "definition": "a Q-word: it asks the question in direct speech and links the clause in reported speech (no ли is added)",
+      "example": "В предложении «Маша спросила, когда я приду» слово «когда» открывает косвенный вопрос."
+    },
+    {
+      "term": "сдвиг местоимений",
+      "definition": "the pronoun shift: the speaker's я/ты forms move to я or он/она from the narrator's point of view; the tense stays the same",
+      "example": "В предложении «Маша спросила, когда я приду» местоимение «я» заменяет исходное «ты» из вопроса «Когда ты придёшь?»."
+    }
+  ]
+}

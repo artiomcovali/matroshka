@@ -1,0 +1,364 @@
+{
+  "id": "a1-track-accusative-04-masc-animate",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Accusative 6: When the WHAT is a Person",
+  "titleRussian": "Винительный 6: Когда ЧТО — это человек",
+  "description": "Masculine animate nouns add -а in the accusative. New question word: Кого?",
+  "descriptionRussian": "Мужские одушевлённые существительные принимают окончание -а в винительном падеже. Новый вопрос: Кого?",
+  "imageName": "person.fill",
+  "trackId": "a1-accusative-mastery",
+  "trackTitle": "Accusative Mastery",
+  "trackTitleRussian": "Винительный падеж",
+  "trackIndex": 6,
+  "trackTotal": 8,
+  "intro": "Here is the strangest and most important idea in the book: Russian grammar cares whether a noun is alive. A table and a brother are different kinds of word to the language, and the accusative is where that difference first becomes visible. Masculine things have been sitting still for five lessons. Masculine people and animals will not. English has no equivalent instinct, so this is one to learn deliberately rather than absorb.",
+  "rules": [
+    "Use Кого? (Whom?) when the direct object is a person or animal. Use Что? (What?) when it is a thing.",
+    "Masculine animate nouns ADD -а in the accusative: студент → студента, брат → брата, кот → кота, сосед → соседа.",
+    "Masculine names follow the same rule: Антон → Антона, Иван → Ивана.",
+    "Masculine inanimate nouns (стол, дом, чай) still don't change. The animate vs inanimate distinction is what triggers the new ending."
+  ],
+  "examples": [
+    "Маша знает Антона. (Masha knows Anton.) Антон → Антона.",
+    "Кого ты видишь? — Я вижу брата. (Whom do you see? I see my brother.) брат → брата.",
+    "Я люблю кота. (I love the cat.) кот → кота.",
+    "Лена ждёт врача. (Lena is waiting for the doctor.) врач → врача.",
+    "Что ты видишь? — Я вижу стол. (What do you see? I see a table.) стол is a thing, no change."
+  ],
+  "tables": [
+    {
+      "title": "Masculine Animate: Add -а",
+      "headers": [
+        "Кто? (Nominative)",
+        "Кого? (Accusative)",
+        "Change"
+      ],
+      "rows": [
+        {
+          "label": "студент",
+          "cells": [
+            "студента",
+            "+ -а"
+          ]
+        },
+        {
+          "label": "брат",
+          "cells": [
+            "брата",
+            "+ -а"
+          ]
+        },
+        {
+          "label": "друг",
+          "cells": [
+            "друга",
+            "+ -а"
+          ]
+        },
+        {
+          "label": "кот",
+          "cells": [
+            "кота",
+            "+ -а"
+          ]
+        },
+        {
+          "label": "врач",
+          "cells": [
+            "врача",
+            "+ -а"
+          ]
+        },
+        {
+          "label": "Антон",
+          "cells": [
+            "Антона",
+            "+ -а"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Compare: Masc Inanimate (no change)",
+      "headers": [
+        "Что? (Nominative)",
+        "Что? (Accusative)",
+        "Change"
+      ],
+      "rows": [
+        {
+          "label": "стол",
+          "cells": [
+            "стол",
+            "no change"
+          ]
+        },
+        {
+          "label": "дом",
+          "cells": [
+            "дом",
+            "no change"
+          ]
+        },
+        {
+          "label": "телефон",
+          "cells": [
+            "телефон",
+            "no change"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Антон любит _____.",
+          "promptEnglish": "Anton loves me.",
+          "options": [
+            "я",
+            "мне",
+            "мной",
+            "меня"
+          ],
+          "answer": "меня",
+          "hint": "Recap from lesson 4: which form of я is the accusative pronoun?",
+          "explanation": "Recap from lesson 4: pronouns have their own memorized accusative forms. Я → меня. Today we move from pronouns to a new noun rule: masculine animate nouns and the question word Кого?"
+        },
+        {
+          "prompt": "Лена знает _____.",
+          "promptEnglish": "Lena knows the student.",
+          "options": [
+            "студента",
+            "студент",
+            "студенту",
+            "студентом"
+          ],
+          "answer": "студента",
+          "hint": "Is студент a thing or a person?",
+          "explanation": "Студент is masculine and animate (a person). Masculine animate nouns ADD -а in the accusative: студента. The question word for animate objects is Кого?"
+        },
+        {
+          "prompt": "Я вижу _____.",
+          "promptEnglish": "I see my brother.",
+          "options": [
+            "брату",
+            "брат",
+            "братом",
+            "брата"
+          ],
+          "answer": "брата",
+          "hint": "Брат is a person, not a thing. What does that mean for the ending?",
+          "explanation": "Брат refers to a person, so it is animate. The rule for masculine animate nouns: add -а. Брат → брата."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Что ты видишь? — Я вижу _____.",
+          "promptEnglish": "What do you see? I see a house.",
+          "options": [
+            "дома",
+            "дом",
+            "домом",
+            "дому"
+          ],
+          "answer": "дом",
+          "hint": "The question is Что? Дом is a thing, not a person. Does the form change?",
+          "explanation": "The question word here is Что?, not Кого?, because дом is inanimate. Masculine inanimate nouns don't change. Today's new rule (add -а) applies only when the noun is a person or animal."
+        },
+        {
+          "prompt": "Антон любит _____.",
+          "promptEnglish": "Anton loves his friend.",
+          "options": [
+            "другом",
+            "другу",
+            "друга",
+            "друг"
+          ],
+          "answer": "друга",
+          "hint": "Друг is a person. Apply the new rule.",
+          "explanation": "Друг is masculine animate. The accusative adds -а: друга. Notice the consonant ending: that is your signal it is masculine."
+        },
+        {
+          "prompt": "Кого ты знаешь? — Я знаю _____.",
+          "promptEnglish": "Whom do you know? I know Anton.",
+          "options": [
+            "Антона",
+            "Антону",
+            "Антоном",
+            "Антон"
+          ],
+          "answer": "Антона",
+          "hint": "The question is Кого?, so the answer is animate. Masculine names follow the same rule.",
+          "explanation": "Антон is a masculine name, treated like any masculine animate noun: add -а to get Антона. The Кого? question is the cue that the direct object is a person."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я вижу _____ во дворе.",
+          "promptEnglish": "I see the boy in the yard.",
+          "options": [
+            "мальчика",
+            "мальчик",
+            "мальчику",
+            "мальчиком"
+          ],
+          "answer": "мальчика",
+          "hint": "Мальчик is a person. What does the masculine animate ending look like?",
+          "explanation": "Мальчик is masculine animate, so the accusative adds -а: мальчика."
+        },
+        {
+          "prompt": "Маша хорошо знает _____.",
+          "promptEnglish": "Masha knows the neighbor well.",
+          "options": [
+            "сосед",
+            "соседа",
+            "соседу",
+            "соседом"
+          ],
+          "answer": "соседа",
+          "hint": "Сосед is a person. Which ending marks a masculine animate direct object?",
+          "explanation": "Сосед is masculine animate, so the direct object form adds -а: соседа."
+        },
+        {
+          "prompt": "Я давно знаю _____.",
+          "promptEnglish": "I have known Boris for a long time.",
+          "options": [
+            "Борису",
+            "Борис",
+            "Бориса",
+            "Борисом"
+          ],
+          "answer": "Бориса",
+          "hint": "Names take the same animate ending as other masculine animate nouns.",
+          "explanation": "Male names decline exactly like masculine animate nouns: the accusative adds -а, giving Бориса."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я люблю _____. (I love the cat.)"
+    ],
+    "choices": [
+      "кот",
+      "кота",
+      "коту",
+      "котом"
+    ],
+    "answers": [
+      "кота"
+    ],
+    "grammarFocus": "Animals count as animate. Кот is a masculine animate noun, so the accusative adds -а: кота."
+  },
+  "minimalPairs": [
+    {
+      "context": "Что ты видишь? — Я вижу _____.",
+      "contextEnglish": "What do you see? I see a table.",
+      "options": [
+        "стол",
+        "стола"
+      ],
+      "answer": "стол",
+      "explanation": "The question is Что?, so the WHAT is a thing. Стол is masculine inanimate, so the accusative is identical to the nominative: стол. Стола would be the genitive form (used in 'У меня нет стола')."
+    },
+    {
+      "context": "Кого ты знаешь? — Я знаю _____.",
+      "contextEnglish": "Whom do you know? I know the student.",
+      "options": [
+        "студент",
+        "студента"
+      ],
+      "answer": "студента",
+      "explanation": "The question is Кого?, so the WHAT is a person. Masculine animate nouns add -а: студента. Compare with the previous pair: same consonant ending, but the animate-vs-inanimate distinction changes the rule."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Маша утром везёт сын в школу.",
+      "translationEnglish": "In the morning Masha takes her son to school.",
+      "error": "сын",
+      "correction": "сына",
+      "options": [
+        "сына",
+        "сыну",
+        "сыном"
+      ],
+      "explanation": "Сын is masculine and animate (a person), so the accusative adds -а: сына. The form сын is the nominative, used only for subjects ('сын играет', 'the son is playing')."
+    },
+    {
+      "sentence": "Лена ждёт врач уже двадцать минут.",
+      "translationEnglish": "Lena has been waiting for the doctor for twenty minutes.",
+      "error": "врач",
+      "correction": "врача",
+      "options": [
+        "врача",
+        "врачу",
+        "врачом"
+      ],
+      "explanation": "Врач is masculine animate (a person), so the accusative takes -а: врача. The verb ждать (to wait for) takes its target in the accusative. Врач unchanged is the nominative, used only for subjects."
+    },
+    {
+      "sentence": "Дети очень любят кот и часто играют с ним.",
+      "translationEnglish": "The children really love the cat and often play with him.",
+      "error": "кот",
+      "correction": "кота",
+      "options": [
+        "кота",
+        "коту",
+        "котом"
+      ],
+      "explanation": "Кот is masculine and refers to an animal; Russian grammar treats animals as animate, exactly like people. So the accusative adds -а: кота. The animate rule covers both people and animals; the only test is alive vs not-alive."
+    },
+    {
+      "sentence": "Маша знает врач из её города.",
+      "translationEnglish": "Masha knows a doctor from her city.",
+      "error": "врач",
+      "correction": "врача",
+      "options": [
+        "врача",
+        "врачу",
+        "врачом"
+      ],
+      "explanation": "Врач is masculine animate (a person), so the accusative adds -а: врача. The question Кого Маша знает? signals the accusative for a person, and the answer must take the animate ending. Врач left unchanged is the nominative, only correct as a subject."
+    },
+    {
+      "sentence": "Я каждый день вижу Иван в метро.",
+      "translationEnglish": "I see Ivan in the metro every day.",
+      "error": "Иван",
+      "correction": "Ивана",
+      "options": [
+        "Ивана",
+        "Ивану",
+        "Иваном"
+      ],
+      "explanation": "Russian names follow the same animacy rule as common nouns: a masculine name referring to a person is animate. The accusative adds -а: Ивана. Иван as nominative only fits a subject ('Иван пришёл', 'Ivan came')."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "кого?",
+      "definition": "whom? (the accusative question word for people and animals)",
+      "example": "Кого ты знаешь? — Я знаю Антона."
+    },
+    {
+      "term": "одушевлённый",
+      "definition": "animate (a person or animal)",
+      "example": "Студент, брат, кот — одушевлённые."
+    },
+    {
+      "term": "винительный падеж",
+      "definition": "accusative case (the direct-object case)",
+      "example": "В предложении 'Я вижу брата' слово 'брата' стоит в винительном падеже."
+    }
+  ]
+}

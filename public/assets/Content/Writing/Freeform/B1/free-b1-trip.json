@@ -1,0 +1,65 @@
+{
+  "id": "free-b1-trip",
+  "level": "B1",
+  "type": "freeform",
+  "title": "A Memorable Trip",
+  "titleRussian": "Незабываемая поездка",
+  "theme": "memorable-trip",
+  "prompts": [
+    {
+      "id": "b1-trip-001",
+      "prompt": "Describe a memorable trip you took. Where did you go and what made it special?",
+      "promptRussian": "Опишите запоминающуюся поездку. Куда вы ездили и что сделало её особенной?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Несколько лет назад я ездил/ездила...", "Эта поездка была особенной, потому что...", "Мне больше всего запомнилось..."],
+      "targetGrammar": ["past tense narrative", "причина clauses", "superlatives"],
+      "gradingCriteria": ["destination mentioned", "what made it memorable explained", "past tense used correctly"],
+      "sampleResponse": "Несколько лет назад я ездила в Италию. Эта поездка была особенной, потому что я впервые путешествовала одна. Мне больше всего запомнилась красота Рима и вкусная итальянская кухня."
+    },
+    {
+      "id": "b1-trip-002",
+      "prompt": "Tell about a trip where something unexpected happened. How did you handle it?",
+      "promptRussian": "Расскажите о поездке, где произошло что-то неожиданное. Как вы справились с этим?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Однажды во время поездки...", "Неожиданно...", "Мне пришлось..."],
+      "targetGrammar": ["past tense", "пришлось construction", "неожиданно adverb"],
+      "gradingCriteria": ["unexpected event described", "reaction/solution explained", "narrative coherent"],
+      "sampleResponse": "Однажды во время поездки в горы я потерял рюкзак с документами. Это было очень страшно. Мне пришлось обратиться в полицию, и к счастью, рюкзак нашли через день."
+    },
+    {
+      "id": "b1-trip-003",
+      "prompt": "What is your dream destination? Describe why you want to go there.",
+      "promptRussian": "Какое место вы мечтаете посетить? Опишите, почему вы хотите туда поехать.",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Я мечтаю поехать в...", "Меня привлекает...", "Я хотел бы увидеть..."],
+      "targetGrammar": ["мечтать construction", "conditional", "привлекать vocabulary"],
+      "gradingCriteria": ["destination named", "reasons for wanting to visit", "specific attractions mentioned"],
+      "sampleResponse": "Я мечтаю поехать в Японию. Меня привлекает уникальная культура этой страны. Я хотела бы увидеть цветение сакуры и попробовать настоящую японскую кухню."
+    },
+    {
+      "id": "b1-trip-004",
+      "prompt": "Compare a trip you took as a child with a trip you took as an adult.",
+      "promptRussian": "Сравните поездку, которую вы совершили в детстве, с поездкой во взрослом возрасте.",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["В детстве я ездил/ездила...", "Когда я стал взрослым/стала взрослой...", "Разница в том, что..."],
+      "targetGrammar": ["comparison structures", "в детстве expression", "разница construction"],
+      "gradingCriteria": ["two trips described", "clear comparison made", "differences highlighted"],
+      "sampleResponse": "В детстве я ездил на море с родителями. Они всё организовывали, а я просто отдыхал. Когда я стал взрослым, я сам планировал поездку. Разница в том, что теперь больше свободы, но и больше ответственности."
+    },
+    {
+      "id": "b1-trip-005",
+      "prompt": "What advice would you give to someone visiting your hometown or country?",
+      "promptRussian": "Какой совет вы бы дали человеку, который посещает ваш родной город или страну?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Я бы посоветовал/посоветовала...", "Обязательно посетите...", "Не забудьте попробовать..."],
+      "targetGrammar": ["conditional советовать", "imperative forms", "обязательно adverb"],
+      "gradingCriteria": ["specific recommendations given", "local knowledge shared", "imperative or conditional used"],
+      "sampleResponse": "Я бы посоветовала обязательно посетить Красную площадь и Кремль. Попробуйте традиционные блюда: борщ и пельмени. Не забудьте взять тёплую одежду, если приезжаете зимой."
+    }
+  ]
+}

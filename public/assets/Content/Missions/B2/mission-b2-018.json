@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-018",
+  "title": "Startup Pitch",
+  "level": "B2",
+  "difficulty": "easy",
+  "description": "Pitch your startup idea to potential investors",
+  "imageName": "lightbulb.fill",
+  "initialPrompt": "Здравствуйте! У вас пять минут на презентацию. Что за проект и почему нам стоит инвестировать?",
+  "systemPrompt": "You are venture investor. Ask about market size, team, traction, funding needs. Skeptical but fair. Interested if pitch is compelling. Keep replies short.",
+  "completionCriteria": "User delivered compelling pitch addressing key investor questions.",
+  "responseLimit": 15,
+  "hints": [
+    "Наш продукт решает проблему... (Our product solves the problem of...)",
+    "Размер рынка... (Market size...)",
+    "Наша команда... (Our team...)",
+    "Мы ищем инвестиции в размере... (We're seeking investment of...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "стартап",
+      "definition": "startup"
+    },
+    {
+      "word": "инвестор",
+      "definition": "investor"
+    },
+    {
+      "word": "бизнес-план",
+      "definition": "business plan"
+    },
+    {
+      "word": "рынок",
+      "definition": "market"
+    },
+    {
+      "word": "выручка",
+      "definition": "revenue"
+    },
+    {
+      "word": "масштабирование",
+      "definition": "scaling"
+    }
+  ],
+  "objectives": [
+    "Present the problem and solution",
+    "Show market opportunity",
+    "Explain business model",
+    "Request specific investment"
+  ]
+}

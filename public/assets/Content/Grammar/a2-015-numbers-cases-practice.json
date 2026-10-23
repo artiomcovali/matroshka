@@ -1,0 +1,691 @@
+{
+  "lessonId": "a2-015-numbers-cases",
+  "sets": [
+    {
+      "id": "round-1-basic-rules",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Choose the correct noun form after each number",
+      "descriptionRussian": "Выберите правильную форму существительного после числа",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Три _____. (Three books.)",
+              "promptEnglish": "Three books.",
+              "options": [
+                "книг",
+                "книга",
+                "книги",
+                "книгу"
+              ],
+              "answer": "книги",
+              "hint": "2-4 = genitive singular.",
+              "explanation": "Numbers 2-4 take genitive singular: книга → книги."
+            },
+            {
+              "prompt": "Семь _____. (Seven chairs.)",
+              "promptEnglish": "Seven chairs.",
+              "options": [
+                "стул",
+                "стула",
+                "стулья",
+                "стульев"
+              ],
+              "answer": "стульев",
+              "hint": "5+ = genitive plural.",
+              "explanation": "Numbers 5+ take genitive plural: стул → стульев (irregular)."
+            },
+            {
+              "prompt": "Одна _____. (One cat.)",
+              "promptEnglish": "One cat.",
+              "options": [
+                "кошки",
+                "кошек",
+                "кошка",
+                "кошку"
+              ],
+              "answer": "кошка",
+              "hint": "1 = nominative singular.",
+              "explanation": "Number 1 takes nominative singular: одна кошка."
+            },
+            {
+              "prompt": "Десять _____. (Ten students.)",
+              "promptEnglish": "Ten students.",
+              "options": [
+                "студент",
+                "студента",
+                "студенты",
+                "студентов"
+              ],
+              "answer": "студентов",
+              "hint": "5-20 = genitive plural.",
+              "explanation": "Numbers 5-20 take genitive plural: студент → студентов."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Четыре _____. (Four windows.)",
+              "promptEnglish": "Four windows.",
+              "options": [
+                "окно",
+                "окна",
+                "окон",
+                "окну"
+              ],
+              "answer": "окна",
+              "hint": "2-4 = genitive singular.",
+              "explanation": "Numbers 2-4: genitive singular. Окно → окна."
+            },
+            {
+              "prompt": "Двенадцать _____. (Twelve months.)",
+              "promptEnglish": "Twelve months.",
+              "options": [
+                "месяц",
+                "месяца",
+                "месяцев",
+                "месяцы"
+              ],
+              "answer": "месяцев",
+              "hint": "5-20 = genitive plural.",
+              "explanation": "12 takes genitive plural: месяц → месяцев."
+            },
+            {
+              "prompt": "Два _____. (Two brothers.)",
+              "promptEnglish": "Two brothers.",
+              "options": [
+                "брат",
+                "братья",
+                "братьев",
+                "брата"
+              ],
+              "answer": "брата",
+              "hint": "2-4 = genitive singular (not plural!).",
+              "explanation": "Numbers 2-4: genitive singular. Брат → брата. Not братьев (that's genitive plural)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Два _____. (Two years.)",
+          "contextEnglish": "Two years.",
+          "options": [
+            "года",
+            "лет"
+          ],
+          "answer": "года",
+          "explanation": "2-4 = genitive singular: год → года."
+        },
+        {
+          "context": "Пять _____. (Five years.)",
+          "contextEnglish": "Five years.",
+          "options": [
+            "года",
+            "лет"
+          ],
+          "answer": "лет",
+          "explanation": "5+ = genitive plural: год → лет (irregular)."
+        },
+        {
+          "context": "Три _____. (Three students.)",
+          "contextEnglish": "Three students.",
+          "options": [
+            "студента",
+            "студентов"
+          ],
+          "answer": "студента",
+          "explanation": "2-4 = genitive singular: студент → студента."
+        },
+        {
+          "context": "Шесть _____. (Six students.)",
+          "contextEnglish": "Six students.",
+          "options": [
+            "студента",
+            "студентов"
+          ],
+          "answer": "студентов",
+          "explanation": "5+ = genitive plural: студент → студентов."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "В комнате восемь _____. (There are eight people in the room.)",
+          "На столе четыре _____. (There are four cups on the table.)",
+          "У меня один _____. (I have one brother.)"
+        ],
+        "choices": [
+          "человек",
+          "чашки",
+          "брат",
+          "людей",
+          "чашку"
+        ],
+        "answers": [
+          "человек",
+          "чашки",
+          "брат"
+        ],
+        "grammarFocus": "5+ = gen pl, 2-4 = gen sg, 1 = nom sg",
+        "hints": [
+          "8 = genitive plural. Человек → человек (zero ending in gen pl).",
+          "4 = genitive singular. Чашка → ?",
+          "1 = nominative singular."
+        ],
+        "explanations": [
+          "Genitive plural: человек → человек (irregular zero ending).",
+          "Genitive singular: чашка → чашки.",
+          "Nominative singular: один брат."
+        ],
+        "options": [
+          [
+            "человек",
+            "человеком",
+            "человеку",
+            "человека"
+          ],
+          [
+            "чашками",
+            "чашки",
+            "чашкам",
+            "чашек"
+          ],
+          [
+            "брата",
+            "брату",
+            "брат",
+            "братом"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-compound-numbers",
+      "title": "Compound Numbers",
+      "titleRussian": "Составные числительные",
+      "description": "The last digit rule: 21 like 1, 22 like 2, 25 like 5",
+      "descriptionRussian": "Правило последней цифры: 21 как 1, 22 как 2, 25 как 5",
+      "icon": "number",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Двадцать один _____. (Twenty-one students.)",
+              "promptEnglish": "Twenty-one students.",
+              "options": [
+                "студент",
+                "студента",
+                "студентов",
+                "студенты"
+              ],
+              "answer": "студент",
+              "hint": "Last digit is 1 = nominative singular.",
+              "explanation": "21: last digit 1 → nominative singular: студент."
+            },
+            {
+              "prompt": "Двадцать три _____. (Twenty-three days.)",
+              "promptEnglish": "Twenty-three days.",
+              "options": [
+                "день",
+                "дней",
+                "дня",
+                "дни"
+              ],
+              "answer": "дня",
+              "hint": "Last digit is 3 = genitive singular.",
+              "explanation": "23: last digit 3 → genitive singular: день → дня."
+            },
+            {
+              "prompt": "Тридцать пять _____. (Thirty-five minutes.)",
+              "promptEnglish": "Thirty-five minutes.",
+              "options": [
+                "минута",
+                "минуты",
+                "минут",
+                "минутой"
+              ],
+              "answer": "минут",
+              "hint": "Last digit is 5 = genitive plural.",
+              "explanation": "35: last digit 5 → genitive plural: минута → минут."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Сорок два _____. (Forty-two years.)",
+              "promptEnglish": "Forty-two years.",
+              "options": [
+                "год",
+                "года",
+                "лет",
+                "годов"
+              ],
+              "answer": "года",
+              "hint": "Last digit is 2 = genitive singular.",
+              "explanation": "42: last digit 2 → genitive singular: год → года."
+            },
+            {
+              "prompt": "Пятьдесят один _____. (Fifty-one rubles.)",
+              "promptEnglish": "Fifty-one rubles.",
+              "options": [
+                "рубль",
+                "рубля",
+                "рублей",
+                "рубли"
+              ],
+              "answer": "рубль",
+              "hint": "Last digit is 1 = nominative singular.",
+              "explanation": "51: last digit 1 → nominative singular: рубль."
+            },
+            {
+              "prompt": "Сто _____. (One hundred pages.)",
+              "promptEnglish": "One hundred pages.",
+              "options": [
+                "страница",
+                "страницы",
+                "страниц",
+                "страницу"
+              ],
+              "answer": "страниц",
+              "hint": "100 ends in zero = genitive plural.",
+              "explanation": "100: ending 0 → genitive plural: страница → страниц."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "21 студент, 31 студент, 41 студент, 51 студент",
+          "question": "What pattern do all these compound numbers follow?",
+          "options": [
+            "All end in 1 (один), so the noun takes nominative singular",
+            "All require genitive plural",
+            "All require genitive singular"
+          ],
+          "answer": "All end in 1 (один), so the noun takes nominative singular",
+          "explanation": "Compound numbers ending in 1: nominative singular. The tens digit doesn't matter, only the last digit."
+        },
+        {
+          "sentence": "11 студентов, 12 студентов, 13 студентов, 14 студентов",
+          "question": "Numbers 11-14 end in 1-4 but take genitive PLURAL. Why?",
+          "options": [
+            "11-19 are 'teen' numbers and always take genitive plural, overriding the last-digit rule",
+            "They follow the regular pattern",
+            "This is a mistake"
+          ],
+          "answer": "11-19 are 'teen' numbers and always take genitive plural, overriding the last-digit rule",
+          "explanation": "11-19 are special: they always take genitive plural regardless of the last digit. Одиннадцать студентов, двенадцать студентов."
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Двадцать один студентов пришли.",
+          "error": "студентов",
+          "correction": "студент",
+          "hint": "21 ends in 1 = nominative singular.",
+          "explanation": "21 = last digit 1 → nominative singular: двадцать один студент.",
+          "options": [
+            "студент",
+            "студента",
+            "студенты"
+          ]
+        },
+        {
+          "sentence": "Одиннадцать студента сдали экзамен.",
+          "error": "студента",
+          "correction": "студентов",
+          "hint": "11 is a 'teen' number = genitive plural.",
+          "explanation": "11-19 always take genitive plural: одиннадцать студентов.",
+          "options": [
+            "студентов",
+            "студент",
+            "студенты"
+          ]
+        },
+        {
+          "sentence": "Ей двадцать один лет.",
+          "error": "лет",
+          "correction": "год",
+          "hint": "21 ends in 1 = nominative singular of год.",
+          "explanation": "21: last digit 1 → год (nom sg). Лет is genitive plural (for 5+).",
+          "options": [
+            "год",
+            "года",
+            "годы"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-age-expressions",
+      "title": "How Old?",
+      "titleRussian": "Сколько лет?",
+      "description": "Practice number + год/года/лет in age expressions",
+      "descriptionRussian": "Потренируйте числа с год/года/лет в выражениях возраста",
+      "icon": "calendar",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Ему тридцать четыре _____. (He's 34 years old.)",
+              "promptEnglish": "He's 34 years old.",
+              "options": [
+                "год",
+                "года",
+                "лет",
+                "годов"
+              ],
+              "answer": "года",
+              "hint": "Last digit 4 = genitive singular.",
+              "explanation": "34: last digit 4 → genitive singular: года."
+            },
+            {
+              "prompt": "Ей восемнадцать _____. (She's 18 years old.)",
+              "promptEnglish": "She's 18 years old.",
+              "options": [
+                "год",
+                "года",
+                "лет",
+                "годов"
+              ],
+              "answer": "лет",
+              "hint": "18 is a teen number = genitive plural.",
+              "explanation": "18 (teen) → genitive plural: лет."
+            },
+            {
+              "prompt": "Мне двадцать один _____. (I'm 21 years old.)",
+              "promptEnglish": "I'm 21 years old.",
+              "options": [
+                "лет",
+                "года",
+                "год",
+                "годов"
+              ],
+              "answer": "год",
+              "hint": "Last digit 1 = nominative singular.",
+              "explanation": "21: last digit 1 → nominative singular: год."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these ages by which form of 'year' they use",
+        "categories": [
+          "год (1, 21, 31...)",
+          "года (2-4, 22-24...)",
+          "лет (5-20, 25-30...)"
+        ],
+        "items": [
+          {
+            "word": "31 (тридцать один)",
+            "category": "год (1, 21, 31...)"
+          },
+          {
+            "word": "15 (пятнадцать)",
+            "category": "лет (5-20, 25-30...)"
+          },
+          {
+            "word": "23 (двадцать три)",
+            "category": "года (2-4, 22-24...)"
+          },
+          {
+            "word": "48 (сорок восемь)",
+            "category": "лет (5-20, 25-30...)"
+          },
+          {
+            "word": "41 (сорок один)",
+            "category": "год (1, 21, 31...)"
+          },
+          {
+            "word": "52 (пятьдесят два)",
+            "category": "года (2-4, 22-24...)"
+          },
+          {
+            "word": "11 (одиннадцать)",
+            "category": "лет (5-20, 25-30...)"
+          },
+          {
+            "word": "4 (четыре)",
+            "category": "года (2-4, 22-24...)"
+          },
+          {
+            "word": "20 (двадцать)",
+            "category": "лет (5-20, 25-30...)"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Бабушке семьдесят три _____. (Grandma is 73 years old.)",
+          "Ребёнку пять _____. (The child is 5 years old.)",
+          "Ему сорок один _____. (He's 41 years old.)",
+          "Ей девятнадцать _____. (She's 19 years old.)"
+        ],
+        "choices": [
+          "года",
+          "лет",
+          "год",
+          "годов"
+        ],
+        "answers": [
+          "года",
+          "лет",
+          "год",
+          "лет"
+        ],
+        "grammarFocus": "год/года/лет after different numbers",
+        "hints": [
+          "73: last digit 3 → genitive singular.",
+          "5 → genitive plural.",
+          "41: last digit 1 → nominative singular.",
+          "19 is a teen number → genitive plural."
+        ],
+        "explanations": [
+          "73: last digit 3 → года.",
+          "5 → лет (gen pl).",
+          "41: last digit 1 → год (nom sg).",
+          "19 (teen) → лет (gen pl)."
+        ],
+        "options": [
+          [
+            "году",
+            "год",
+            "года",
+            "годом"
+          ],
+          [
+            "годам",
+            "годы",
+            "годами",
+            "лет"
+          ],
+          [
+            "годом",
+            "году",
+            "года",
+            "год"
+          ],
+          [
+            "годами",
+            "лет",
+            "годы",
+            "годам"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-quantity-words",
+      "title": "Counting Things",
+      "titleRussian": "Считаем предметы",
+      "description": "Practice number agreement with various nouns",
+      "descriptionRussian": "Потренируйте согласование числительных с разными существительными",
+      "icon": "list.number",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "В классе двадцать пять _____. (There are 25 desks in the classroom.)",
+              "promptEnglish": "There are 25 desks in the classroom.",
+              "options": [
+                "парта",
+                "парты",
+                "парт",
+                "партой"
+              ],
+              "answer": "парт",
+              "hint": "25: last digit 5 → genitive plural.",
+              "explanation": "25 → genitive plural: парта → парт."
+            },
+            {
+              "prompt": "Я прочитал двадцать одну _____. (I read 21 pages.)",
+              "promptEnglish": "I read 21 pages.",
+              "options": [
+                "страницу",
+                "страницы",
+                "страниц",
+                "страница"
+              ],
+              "answer": "страницу",
+              "hint": "21 ends in 1 = but одна + feminine noun = accusative singular in counting context.",
+              "explanation": "Двадцать одна страница (nominative) or двадцать одну страницу (accusative after прочитал). In direct count, одна + nom; after a verb, the whole phrase is the object."
+            },
+            {
+              "prompt": "На столе три _____. (There are three apples on the table.)",
+              "promptEnglish": "There are three apples on the table.",
+              "options": [
+                "яблок",
+                "яблоко",
+                "яблока",
+                "яблоки"
+              ],
+              "answer": "яблока",
+              "hint": "2-4 = genitive singular. Neuter: яблоко → ?",
+              "explanation": "3 → genitive singular: яблоко → яблока."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "I have three sisters.",
+          "answer": "У меня три сестры.",
+          "acceptableVariants": [],
+          "hint": "3 → genitive singular. Сестра → сестры",
+          "grammarFocus": "number + genitive singular",
+          "keyWord": "сестры",
+          "options": [
+            "сестры",
+            "сестра",
+            "сестру",
+            "сестёр"
+          ]
+        },
+        {
+          "english": "She is 22 years old.",
+          "answer": "Ей двадцать два года.",
+          "acceptableVariants": [],
+          "hint": "22: last digit 2 → genitive singular: года",
+          "grammarFocus": "age + compound number",
+          "keyWord": "года",
+          "options": [
+            "года",
+            "год",
+            "лет",
+            "годы"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All number patterns in one final round",
+      "descriptionRussian": "Все правила чисел в финальном раунде",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "В городе четырнадцать _____. (The city has 14 schools.)",
+              "promptEnglish": "The city has 14 schools.",
+              "options": [
+                "школа",
+                "школы",
+                "школ",
+                "школу"
+              ],
+              "answer": "школ",
+              "hint": "14 is a teen number → genitive plural.",
+              "explanation": "14 (teen) → genitive plural: школа → школ."
+            },
+            {
+              "prompt": "Двадцать два _____. (Twenty-two students.)",
+              "promptEnglish": "Twenty-two students.",
+              "options": [
+                "студент",
+                "студентов",
+                "студента",
+                "студенты"
+              ],
+              "answer": "студента",
+              "hint": "Last digit 2 → genitive singular.",
+              "explanation": "22: last digit 2 → genitive singular: студент → студента."
+            },
+            {
+              "prompt": "Мне нужно шесть _____. (I need six eggs.)",
+              "promptEnglish": "I need six eggs.",
+              "options": [
+                "яйцо",
+                "яйца",
+                "яиц",
+                "яйцу"
+              ],
+              "answer": "яиц",
+              "hint": "6 → genitive plural.",
+              "explanation": "6 → genitive plural: яйцо → яиц."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "У неё три кошек.",
+          "error": "кошек",
+          "correction": "кошки",
+          "hint": "3 takes genitive singular, not genitive plural.",
+          "explanation": "3 → genitive singular: кошка → кошки. Кошек is genitive plural (for 5+).",
+          "options": [
+            "кошки",
+            "кошка",
+            "кошку"
+          ]
+        },
+        {
+          "sentence": "Ему тридцать один лет.",
+          "error": "лет",
+          "correction": "год",
+          "hint": "31 ends in 1 → nominative singular.",
+          "explanation": "31: last digit 1 → год (nom sg), not лет (gen pl).",
+          "options": [
+            "год",
+            "года",
+            "годы"
+          ]
+        }
+      ]
+    }
+  ]
+}

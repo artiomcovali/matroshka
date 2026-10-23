@@ -1,0 +1,131 @@
+{
+  "lessonId": "c1-003-verbal-adverb-mastery",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Identify verbal adverb types and the same-subject rule, then pick between close pairs",
+      "descriptionRussian": "Определите типы деепричастий и правило одного субъекта, затем выберите из близких пар",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which verbal adverb expresses a SIMULTANEOUS action?",
+              "promptEnglish": "Imperfective or perfective for simultaneity?",
+              "options": ["Прочитав книгу", "Написав письмо", "Читая книгу", "Закончив работу"],
+              "answer": "Читая книгу",
+              "hint": "Simultaneous = imperfective (-я/-а).",
+              "explanation": "Читая (imperfective, -я) expresses an action happening at the same time as the main verb."
+            },
+            {
+              "prompt": "_____ письмо, она пошла на почту. (having written)",
+              "promptEnglish": "Having written the letter, she went to the post office.",
+              "options": ["Писая", "Написав", "Пиша", "Написая"],
+              "answer": "Написав",
+              "hint": "Preceding completed action = perfective (-в).",
+              "explanation": "Perfective verbal adverb: написать -> написав. The writing finished before the trip to the post office."
+            },
+            {
+              "prompt": "Why is this sentence WRONG? \"Читая книгу, зазвонил телефон.\"",
+              "promptEnglish": "What is the grammatical violation?",
+              "options": ["Wrong aspect", "Different subjects (book/phone)", "Wrong word order", "Missing comma"],
+              "answer": "Different subjects (book/phone)",
+              "hint": "Who is reading? Who rang?",
+              "explanation": "Подлежащее деепричастия должно совпадать с подлежащим главного предложения. Здесь «читая» подразумевает человека, но подлежащее - «телефон», а телефон читать не может."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Which sentence correctly uses the same-subject rule?",
+              "promptEnglish": "Which has matching subjects?",
+              "options": [
+                "Гуляя в парке, пошёл дождь.",
+                "Открыв дверь, кошка выбежала.",
+                "Вернувшись домой, он приготовил ужин.",
+                "Читая газету, упала чашка."
+              ],
+              "answer": "Вернувшись домой, он приготовил ужин.",
+              "hint": "The same person must do both actions.",
+              "explanation": "Only 'Вернувшись домой, он приготовил ужин' has the same subject: he returned, he cooked. In the others, rain/cat/cup are different subjects."
+            },
+            {
+              "prompt": "Which is an idiomatic verbal adverb phrase?",
+              "promptEnglish": "Which functions as a set expression?",
+              "options": ["быстро бегая", "грубо говоря", "тихо сидя", "медленно читая"],
+              "answer": "грубо говоря",
+              "hint": "Some verbal adverb phrases have become fixed expressions.",
+              "explanation": "Грубо говоря (roughly speaking) is an idiomatic set phrase. Others: мягко выражаясь, судя по, начиная с."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ задачу, она перешла к следующей. (completed it first)",
+          "contextEnglish": "Having solved the problem, she moved on to the next one.",
+          "options": ["Решив", "Решая"],
+          "answer": "Решив",
+          "explanation": "Preceding: perfective решив. She finished solving, then moved to the next one."
+        },
+        {
+          "context": "_____ задачу, она жевала карандаш. (simultaneously)",
+          "contextEnglish": "While solving the problem, she chewed on a pencil.",
+          "options": ["Решив", "Решая"],
+          "answer": "Решая",
+          "explanation": "Simultaneous: imperfective решая. Both actions happened at the same time."
+        },
+        {
+          "context": "_____ в комнату, Лена увидела кота на столе. (entered, then saw)",
+          "contextEnglish": "Having entered the room, Lena saw a cat on the table.",
+          "options": ["Входя", "Войдя"],
+          "answer": "Войдя",
+          "explanation": "Preceding: perfective войдя. She entered first, then noticed the cat."
+        }
+      ],
+      "translation": [
+        {
+          "english": "While reading a letter, she smiled.",
+          "answer": "Читая письмо, она улыбалась.",
+          "acceptableVariants": ["Читая письмо, она улыбнулась."],
+          "hint": "Simultaneous = imperfective verbal adverb (читая)",
+          "grammarFocus": "Imperfective verbal adverb for simultaneous action",
+          "keyWord": "Читая",
+          "options": ["Читая", "Прочитав", "Читав", "Прочитавши"]
+        },
+        {
+          "english": "Having finished the project, the team celebrated.",
+          "answer": "Закончив проект, команда отпраздновала.",
+          "acceptableVariants": ["Завершив проект, команда отпраздновала."],
+          "hint": "Preceding completed action = perfective verbal adverb",
+          "grammarFocus": "Perfective verbal adverb for preceding action",
+          "keyWord": "Закончив",
+          "options": ["Закончив", "Заканчивая", "Закончивши", "Оканчивая"]
+        },
+        {
+          "english": "Not understanding the question, the student asked again.",
+          "answer": "Не поняв вопроса, студент переспросил.",
+          "acceptableVariants": ["Не понимая вопроса, студент переспросил.", "Не поняв вопрос, студент переспросил."],
+          "hint": "Not + verbal adverb. Could be perfective (failed to understand) or imperfective (was not understanding).",
+          "grammarFocus": "Negated verbal adverb",
+          "keyWord": "поняв",
+          "options": ["поняв", "понимая", "понявши", "понимав"]
+        },
+        {
+          "english": "Roughly speaking, the plan is good.",
+          "answer": "Грубо говоря, план хороший.",
+          "acceptableVariants": [],
+          "hint": "Idiomatic verbal adverb phrase: грубо говоря",
+          "grammarFocus": "Idiomatic verbal adverb expressions",
+          "keyWord": "говоря",
+          "options": ["говоря", "сказав", "говорив", "проговорив"]
+        }
+      ]
+    }
+  ]
+}

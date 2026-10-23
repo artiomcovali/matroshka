@@ -1,0 +1,52 @@
+{
+  "id": "mission-a2-001",
+  "title": "Ask for Directions",
+  "level": "A2",
+  "description": "Ask a stranger for directions to the metro",
+  "imageName": "map.fill",
+  "initialPrompt": "Здравствуйте! Вы что-то ищете?",
+  "systemPrompt": "You give directions to the metro: прямо, налево at big building, then справа. Keep replies short. Use вы form.",
+  "completionCriteria": "User asked for metro directions and acknowledged your help.",
+  "responseLimit": 15,
+  "hints": [
+    "Где находится...? (Where is...?)",
+    "Как пройти к...? (How do I get to...?)",
+    "Метро, пожалуйста (Metro, please)",
+    "Спасибо за помощь (Thanks for your help)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "метро",
+      "definition": "metro/subway"
+    },
+    {
+      "word": "прямо",
+      "definition": "straight"
+    },
+    {
+      "word": "налево",
+      "definition": "to the left"
+    },
+    {
+      "word": "направо",
+      "definition": "to the right"
+    },
+    {
+      "word": "где",
+      "definition": "where"
+    },
+    {
+      "word": "пройти",
+      "definition": "to walk/get to"
+    },
+    {
+      "word": "рядом",
+      "definition": "nearby"
+    }
+  ],
+  "objectives": [
+    "Ask where the metro is (Где метро?)",
+    "Understand the directions (прямо, налево)",
+    "Thank them for help (Спасибо!)"
+  ]
+}

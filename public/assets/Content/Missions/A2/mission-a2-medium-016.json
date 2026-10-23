@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-016",
+  "title": "Car Wash Full",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "You need a car wash but all bays are occupied",
+  "imageName": "car.fill",
+  "initialPrompt": "Добрый день! Извините, все боксы сейчас заняты.",
+  "systemPrompt": "You work at car wash. All bays occupied - wait 20 minutes or book for 3pm. Interior wash also available by appointment. Keep replies short.",
+  "completionCriteria": "User decided to wait, book later, or chose alternative service.",
+  "responseLimit": 15,
+  "hints": [
+    "Сколько ждать? (How long to wait?)",
+    "Можно записаться на позже? (Can I book for later?)",
+    "Тогда подожду (Then I will wait)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "мойка",
+      "definition": "car wash"
+    },
+    {
+      "word": "занят",
+      "definition": "occupied"
+    },
+    {
+      "word": "ждать",
+      "definition": "to wait"
+    },
+    {
+      "word": "записаться",
+      "definition": "to book"
+    },
+    {
+      "word": "бокс",
+      "definition": "bay/booth"
+    },
+    {
+      "word": "внутри",
+      "definition": "inside"
+    }
+  ],
+  "objectives": [
+    "Ask about wait time (ждать)",
+    "Learn about alternatives (записаться)",
+    "Decide: wait, book, or leave",
+    "Confirm your choice"
+  ]
+}

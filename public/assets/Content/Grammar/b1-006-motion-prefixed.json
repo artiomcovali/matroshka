@@ -1,0 +1,293 @@
+{
+  "id": "b1-006-motion-prefixed",
+  "level": "B1",
+  "focusArea": "motionVerbs",
+  "title": "Prefixed Motion Verbs",
+  "titleRussian": "Приставочные глаголы движения",
+  "description": "Motion verbs with directional prefixes",
+  "descriptionRussian": "Глаголы движения с приставками",
+  "imageName": "arrow.up.right.and.arrow.down.left",
+  "intro": "Russian motion verbs gain precise directional meanings when prefixes are added. The unidirectional base (идти) becomes perfective with prefixes (войти, выйти, прийти), while the multidirectional base (ходить) becomes imperfective (входить, выходить, приходить). Key prefixes: в-/во- (into), вы- (out), при- (arrive), у- (leave/depart), под- (approach), от- (move away), за- (drop by), пере- (cross), про- (pass through). Each prefixed pair forms an aspect pair: выйти (pf) / выходить (impf) - to exit.",
+  "rules": [
+    "Unidirectional base + prefix = PERFECTIVE: идти → войти, выйти, прийти, уйти (single completed motion)",
+    "Multidirectional base + prefix = IMPERFECTIVE: ходить → входить, выходить, приходить, уходить (repeated or process)",
+    "в-/во- = into: войти (enter on foot), въехать (drive in), внести (bring in)",
+    "вы- = out: выйти (exit), выехать (drive out), вынести (take out)"
+  ],
+  "examples": [
+    "Он вошёл в комнату. (He entered the room., perfective), single action",
+    "Она часто выходит на балкон. (She often goes out to the balcony., imperfective), repeated",
+    "Автобус приехал вовремя. (The bus arrived on time., perfective), completed arrival",
+    "Мы уходим в пять часов. (We're leaving at five., imperfective), process"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Она _____ в магазин и купила хлеб. (She entered the store and bought bread.)",
+          "promptEnglish": "She entered the store and bought bread.",
+          "options": [
+            "вышла",
+            "выходила",
+            "вошла",
+            "входила"
+          ],
+          "answer": "вошла",
+          "hint": "в- = into. Single completed action of entering → perfective",
+          "explanation": "Completed entry uses perfective: вошла."
+        },
+        {
+          "prompt": "Поезд _____ со станции в 10 часов. (The train departs from the station at 10.)",
+          "promptEnglish": "The train departs at 10.",
+          "options": [
+            "отошёл",
+            "уходит",
+            "ушёл",
+            "отходит"
+          ],
+          "answer": "отходит",
+          "hint": "от- = away from. Scheduled departure (present for future) → imperfective",
+          "explanation": "Scheduled event uses imperfective: отходит."
+        },
+        {
+          "prompt": "Гости уже _____? (Have the guests already arrived?)",
+          "promptEnglish": "Have the guests already arrived?",
+          "options": [
+            "приходили",
+            "пришли",
+            "ушли",
+            "уходили"
+          ],
+          "answer": "пришли",
+          "hint": "при- = arrive. Asking about completed arrival → perfective",
+          "explanation": "Completed arrival uses perfective: пришли."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Каждое утро он _____ из дома в 8 часов. (Every morning he leaves home at 8.)",
+          "promptEnglish": "Every morning he leaves home at 8.",
+          "options": [
+            "вышел",
+            "входит",
+            "выходит",
+            "вошёл"
+          ],
+          "answer": "выходит",
+          "hint": "вы- = out. Repeated action (каждое утро) → imperfective",
+          "explanation": "Habitual action uses imperfective: выходит."
+        },
+        {
+          "prompt": "Я _____ к окну и посмотрел на улицу. (I went up to the window and looked at the street.)",
+          "promptEnglish": "I went up to the window and looked at the street.",
+          "options": [
+            "подходил",
+            "отходил",
+            "отошёл",
+            "подошёл"
+          ],
+          "answer": "подошёл",
+          "hint": "под- = approach. Single completed approach → perfective",
+          "explanation": "Completed approach uses perfective: подошёл."
+        },
+        {
+          "prompt": "Мама _____ на работу каждый день на автобусе. (Mom goes to work by bus every day.)",
+          "promptEnglish": "Mom goes to work by bus every day.",
+          "options": [
+            "уехала",
+            "приезжает",
+            "уезжает",
+            "приехала"
+          ],
+          "answer": "уезжает",
+          "hint": "у- = depart/leave. Daily routine → imperfective departure",
+          "explanation": "Habitual departure uses imperfective: уезжает."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Мы _____ через парк и вышли на главную улицу. (We crossed through the park and came out on the main street.)",
+          "promptEnglish": "We crossed through the park.",
+          "options": [
+            "вошли",
+            "прошли",
+            "проходили",
+            "входили"
+          ],
+          "answer": "прошли",
+          "hint": "про- = through/past. Completed passage through → perfective",
+          "explanation": "Completed passage uses perfective: прошли."
+        },
+        {
+          "prompt": "По дороге домой я _____ в аптеку. (On the way home I dropped by the pharmacy.)",
+          "promptEnglish": "I dropped by the pharmacy on the way home.",
+          "options": [
+            "вышел",
+            "выходил",
+            "заходил",
+            "зашёл"
+          ],
+          "answer": "зашёл",
+          "hint": "за- = drop by/stop in. Single brief visit → perfective",
+          "explanation": "Brief stop uses perfective: зашёл."
+        },
+        {
+          "prompt": "Они _____ в новую квартиру на прошлой неделе. (They moved to a new apartment last week.)",
+          "promptEnglish": "They moved to a new apartment last week.",
+          "options": [
+            "въезжали",
+            "въехали",
+            "переезжали",
+            "переехали"
+          ],
+          "answer": "переехали",
+          "hint": "пере- = across/move. Completed relocation → perfective",
+          "explanation": "Completed move uses perfective: переехали."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Когда ты _____? — Через час. (When are you leaving? — In an hour.)",
+      "Вчера он _____ из дома в семь утра. (Yesterday he left the house at seven.)",
+      "Машина часто _____ во двор. (The car often drives into the yard.)"
+    ],
+    "choices": [
+      "уходишь",
+      "вышел",
+      "въезжает",
+      "приходишь",
+      "ушёл",
+      "выезжает"
+    ],
+    "answers": [
+      "уходишь",
+      "вышел",
+      "въезжает"
+    ],
+    "grammarFocus": "Prefix у- = departure; вы- = exit; в- = entry",
+    "hints": [
+      "у- means departure. Near-future planned departure — which form?",
+      "вы- means exiting. Single completed exit yesterday. Which form?",
+      "в- means entering. Repeated habitual action — which form?"
+    ],
+    "explanations": [
+      "Planned departure uses imperfective present: уходишь (you are leaving).",
+      "Single completed past action uses perfective: вышел (he went out).",
+      "Repeated habitual action uses imperfective: въезжает (drives in regularly)."
+    ],
+    "options": [
+      [
+        "ухожу",
+        "уходишь",
+        "уходим",
+        "уходит"
+      ],
+      [
+        "выходит",
+        "выходил",
+        "вошёл",
+        "вышел"
+      ],
+      [
+        "въезжаю",
+        "въезжает",
+        "въезжаем",
+        "въезжаешь"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Он _____ в комнату. (entered once, completed)",
+      "contextEnglish": "He entered the room.",
+      "options": [
+        "вошёл",
+        "входил"
+      ],
+      "answer": "вошёл",
+      "explanation": "Single completed entry uses perfective: вошёл."
+    },
+    {
+      "context": "Пока она _____ в комнату, телефон зазвонил. (was entering)",
+      "contextEnglish": "While she was entering the room, the phone rang.",
+      "options": [
+        "входила",
+        "вошла"
+      ],
+      "answer": "входила",
+      "explanation": "Action in progress uses imperfective: входила."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: What direction does the prefix indicate?",
+    "categories": [
+      "Into/Arrival",
+      "Out/Departure"
+    ],
+    "items": [
+      {
+        "word": "войти",
+        "category": "Into/Arrival"
+      },
+      {
+        "word": "выйти",
+        "category": "Out/Departure"
+      },
+      {
+        "word": "прийти",
+        "category": "Into/Arrival"
+      },
+      {
+        "word": "уйти",
+        "category": "Out/Departure"
+      },
+      {
+        "word": "въехать",
+        "category": "Into/Arrival"
+      },
+      {
+        "word": "уехать",
+        "category": "Out/Departure"
+      },
+      {
+        "word": "внести",
+        "category": "Into/Arrival"
+      },
+      {
+        "word": "вынести",
+        "category": "Out/Departure"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "войти / входить",
+      "definition": "to enter (pf/impf)",
+      "example": "Он вошёл. Она входит каждый день."
+    },
+    {
+      "term": "выйти / выходить",
+      "definition": "to exit (pf/impf)",
+      "example": "Я вышел. Мы выходим в 5."
+    },
+    {
+      "term": "прийти / приходить",
+      "definition": "to arrive on foot (pf/impf)",
+      "example": "Гости пришли. Он приходит рано."
+    },
+    {
+      "term": "уйти / уходить",
+      "definition": "to leave on foot (pf/impf)",
+      "example": "Она ушла. Мы уходим скоро."
+    }
+  ]
+}

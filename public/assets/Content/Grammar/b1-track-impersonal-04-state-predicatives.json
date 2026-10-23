@@ -1,0 +1,410 @@
+{
+  "id": "b1-track-impersonal-04-state-predicatives",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Impersonal 5: State Predicatives (холодно, грустно, трудно, важно)",
+  "titleRussian": "Безличные 5: Категория состояния (холодно, грустно, трудно, важно)",
+  "description": "Russian reports a state with a short adverb-shaped predicative and no nominative subject. Personal feelings name the person who feels it in the dative (Мне холодно); weather and atmospheric states often go without a person.",
+  "descriptionRussian": "Русский язык сообщает о состоянии коротким предикативом без именительного подлежащего. Личные чувства называют того, кто чувствует, в дательном падеже (Мне холодно); погодные и атмосферные состояния часто обходятся без него.",
+  "imageName": "thermometer.sun",
+  "trackId": "b1-impersonal-mastery",
+  "trackTitle": "Impersonal Constructions Mastery",
+  "trackTitleRussian": "Безличные конструкции",
+  "trackIndex": 5,
+  "trackTotal": 7,
+  "intro": "Feelings and conditions, and the place where learners make the single most common mistake in this whole family. The person feeling something is never the subject in Russian. You are not cold; it is cold to you. Some of these words drop the person entirely, because a dark room is dark for everybody.",
+  "rules": [
+    "Structure: (dative person, optional) + short predicative + (optional infinitive). The predicative never changes form; it keeps its short adverb-shaped ending.",
+    "Personal feelings (холодно, грустно, скучно, страшно) keep the dative. Atmospheric states (тихо, темно, ветрено) often drop it. Evaluative predicatives (трудно, важно, интересно) keep it.",
+    "Past adds было; future adds будет. This tense word is always neuter, never gendered after a dative person.",
+    "Never put the person in the nominative. \"Я холодно\" is wrong; the correct form is \"Мне холодно.\" This is the most common B1 error here.",
+    "An optional infinitive follows the usual aspect rules: imperfective for an activity (трудно учить), perfective for one bounded act (трудно открыть окно)."
+  ],
+  "examples": [
+    "Мне холодно. (I am cold.) Personal feeling; the person who feels it (мне) is in the dative.",
+    "В комнате тихо. (It is quiet in the room.) Atmospheric state; no dative needed.",
+    "Антону трудно учить русский. (It is difficult for Anton to study Russian.) Evaluative predicative with a dative person and an imperfective infinitive.",
+    "Маше было грустно вчера. (Masha was sad yesterday.) Past form with было; dative person Маше; no infinitive.",
+    "Антону будет скучно одному. (Anton will be bored on his own.) Future form with будет; dative person Антону.",
+    "На улице холодно и ветрено. (It is cold and windy outside.) Two atmospheric predicatives describing the place."
+  ],
+  "tables": [
+    {
+      "title": "The three jobs of state predicatives",
+      "headers": [
+        "Job",
+        "Examples",
+        "Dative use"
+      ],
+      "rows": [
+        {
+          "label": "Personal feelings",
+          "cells": [
+            "холодно, грустно, скучно, страшно, плохо, хорошо",
+            "Required: Мне холодно."
+          ]
+        },
+        {
+          "label": "Atmospheric states",
+          "cells": [
+            "тихо, шумно, темно, светло, прохладно, ветрено",
+            "Optional: В комнате тихо. / Мне здесь тихо."
+          ]
+        },
+        {
+          "label": "Evaluative judgements",
+          "cells": [
+            "трудно, легко, интересно, важно, полезно, удобно",
+            "Required: Антону трудно учить русский."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ холодно, надень куртку.",
+          "promptEnglish": "I am cold, put on a jacket.",
+          "options": [
+            "Я",
+            "Меня",
+            "Мне",
+            "Мой"
+          ],
+          "answer": "Мне",
+          "hint": "Personal feeling; the person who feels it takes which case?",
+          "explanation": "Personal-feeling predicatives like холодно name the person who feels it in the dative: мне. The nominative я is ungrammatical here (\"Я холодно\" is the classic B1 error)."
+        },
+        {
+          "prompt": "Антону _____ учить русский язык, но он старается.",
+          "promptEnglish": "It is difficult for Anton to study Russian, but he is trying.",
+          "options": [
+            "трудно",
+            "тихо",
+            "пора",
+            "нельзя"
+          ],
+          "answer": "трудно",
+          "hint": "An evaluative judgement about how learning registers for Anton.",
+          "explanation": "Трудно is the evaluative predicative for difficulty; it pairs with a dative person (Антону) and an imperfective infinitive (учить). Тихо is an atmospheric state, the wrong job. Пора names timing (it is time), not difficulty. Нельзя means prohibition, which the sentence is not expressing."
+        },
+        {
+          "prompt": "На улице _____, возьми зонт.",
+          "promptEnglish": "It is windy outside, take an umbrella.",
+          "options": [
+            "грустно",
+            "ветрено",
+            "трудно",
+            "интересно"
+          ],
+          "answer": "ветрено",
+          "hint": "An atmospheric state describing the weather outside.",
+          "explanation": "Ветрено is the atmospheric predicative for windy weather; it describes the place (на улице) with no dative person. Грустно is a personal feeling, not a property of the weather. Трудно and интересно are evaluative judgements, the wrong job for describing wind."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "В комнате _____, дети уже спят.",
+          "promptEnglish": "It is quiet in the room; the children are already asleep.",
+          "options": [
+            "грустно",
+            "трудно",
+            "тихо",
+            "холодно"
+          ],
+          "answer": "тихо",
+          "hint": "An atmospheric state of a place, no dative person.",
+          "explanation": "Тихо is the atmospheric predicative for quietness. \"В комнате тихо\" describes the room itself, with no dative person. Грустно is a personal feeling, not a property of a room. Трудно is an evaluative judgement, the wrong job. Холодно names temperature, plausible but not what the prompt says."
+        },
+        {
+          "prompt": "Маше _____ грустно вчера, она получила плохие новости.",
+          "promptEnglish": "Masha was sad yesterday, she got bad news.",
+          "options": [
+            "будет",
+            "было",
+            "был",
+            "была"
+          ],
+          "answer": "было",
+          "hint": "Past tense in an impersonal sentence. Which form?",
+          "explanation": "Impersonal sentences take the neuter было in the past, regardless of the dative person's gender. Будет is the future, which contradicts вчера. Был (masc) and была (fem) are personal past forms needing a nominative subject (Маша была грустна), which this construction does not have."
+        },
+        {
+          "prompt": "Завтра Антону _____ трудно без карты.",
+          "promptEnglish": "Tomorrow it will be hard for Anton without a map.",
+          "options": [
+            "было",
+            "будет",
+            "был",
+            "была"
+          ],
+          "answer": "будет",
+          "hint": "Завтра places the state in the future. Which neuter tense word?",
+          "explanation": "Завтра places the state in the future, so the tense word is будет: будет трудно. Было is the past form, which contradicts завтра. Был (masc) and была (fem) are personal past forms needing a nominative; an impersonal predicative always takes the neuter будет or было."
+        },
+        {
+          "prompt": "Лене _____ интересно читать о космосе.",
+          "promptEnglish": "Lena finds it interesting to read about space.",
+          "options": [
+            "трудный",
+            "интересно",
+            "интересная",
+            "тихо"
+          ],
+          "answer": "интересно",
+          "hint": "An evaluative judgement with a dative person and an infinitive.",
+          "explanation": "Интересно is the short predicative for the evaluative judgement \"interesting\"; it takes the dative person (Лене) and an infinitive (читать). Интересная is a long feminine adjective that must modify a noun (интересная книга), so it cannot be the predicate here. Трудный is a long adjective too, and also the wrong meaning. Тихо is an atmospheric state, the wrong job."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "_____ холодно, дай ей куртку.",
+          "promptEnglish": "She is cold - give her a jacket.",
+          "options": [
+            "Ей",
+            "Она",
+            "Её",
+            "Ею"
+          ],
+          "answer": "Ей",
+          "hint": "The feeler of a state goes in which case?",
+          "explanation": "State predicatives name the feeler in the dative: ей холодно. Она would be a nominative subject, which the impersonal frame does not allow."
+        },
+        {
+          "prompt": "_____ скучно на этой лекции.",
+          "promptEnglish": "Anton is bored at this lecture.",
+          "options": [
+            "Антону",
+            "Антон",
+            "Антона",
+            "Антоном"
+          ],
+          "answer": "Антону",
+          "hint": "Same impersonal frame with a name.",
+          "explanation": "The person who feels the state stands in the dative: Антону скучно. Антон would be a nominative subject, which the impersonal frame does not allow."
+        },
+        {
+          "prompt": "Вчера Маше _____ на вечеринке.",
+          "promptEnglish": "Yesterday Masha felt sad at the party.",
+          "options": [
+            "было грустно",
+            "была грустно",
+            "была грустная",
+            "будет грустно"
+          ],
+          "answer": "было грустно",
+          "hint": "Past tense of a state predicative: which frozen combination?",
+          "explanation": "The past of a state predicative is frozen neuter было + the state word: Маше было грустно. Была would try to agree with Маша; была грустная would be a personal sentence about her character."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Антону _____ страшно один в лесу, поэтому он позвал друзей. (Anton was scared alone in the forest, so he called his friends.)",
+      "_____ важно отдыхать, а не только работать. (It is important for me to rest, not only to work.)"
+    ],
+    "choices": [
+      "был",
+      "была",
+      "было",
+      "Мне",
+      "Я",
+      "Меня"
+    ],
+    "answers": [
+      "было",
+      "Мне"
+    ],
+    "grammarFocus": "Past tense in an impersonal sentence takes the neuter было, regardless of the dative person's gender; был (masc) and была (fem) would need a nominative subject. The evaluative предикатив важно names the person who feels it in the dative (Мне важно), never the nominative (Я)."
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ холодно, надень шапку.",
+      "contextEnglish": "I am cold, put on a hat.",
+      "options": [
+        "Мне",
+        "Я"
+      ],
+      "answer": "Мне",
+      "explanation": "Personal-feeling predicatives name the person who feels it in the dative: мне. The nominative я is ungrammatical with холодно as a predicate; it would force a different sentence with a long adjective (\"Я холодный\" = I am a cold person)."
+    },
+    {
+      "context": "В комнате _____ темно.",
+      "contextEnglish": "It was dark in the room.",
+      "options": [
+        "была",
+        "было"
+      ],
+      "answer": "было",
+      "explanation": "Impersonal sentences take the neuter было in the past, regardless of the gender of any nearby noun. Была would require a feminine nominative subject (\"Комната была тёмной\"), a different construction."
+    }
+  ],
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Антону",
+        "трудно",
+        "учить",
+        "русский"
+      ],
+      "answer": "Антону трудно учить русский",
+      "translation": "It is hard for Anton to study Russian.",
+      "acceptableVariants": [
+        "Антону трудно учить русский."
+      ]
+    },
+    {
+      "words": [
+        "Маше",
+        "было",
+        "грустно",
+        "вчера"
+      ],
+      "answer": "Маше было грустно вчера",
+      "translation": "Masha was sad yesterday.",
+      "acceptableVariants": [
+        "Маше было грустно вчера.",
+        "Вчера Маше было грустно",
+        "Вчера Маше было грустно."
+      ]
+    },
+    {
+      "words": [
+        "в",
+        "комнате",
+        "тихо",
+        "и",
+        "темно"
+      ],
+      "answer": "В комнате тихо и темно",
+      "translation": "It is quiet and dark in the room.",
+      "acceptableVariants": [
+        "В комнате тихо и темно."
+      ]
+    },
+    {
+      "words": [
+        "Лене",
+        "будет",
+        "скучно",
+        "одной"
+      ],
+      "answer": "Лене будет скучно одной",
+      "translation": "Lena will be bored on her own.",
+      "acceptableVariants": [
+        "Лене будет скучно одной."
+      ]
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Он холодно, дай ему куртку.",
+      "translationEnglish": "He is cold; give him a jacket.",
+      "error": "Он",
+      "correction": "Ему",
+      "options": [
+        "Ему",
+        "Его",
+        "Им"
+      ],
+      "explanation": "Personal-feeling predicatives like холодно name the person who feels it in the dative (ему), not the nominative (он). The nominative would force a long adjective ('Он холодный' = he is a cold person), a different claim about character, not a state."
+    },
+    {
+      "sentence": "Маша было грустно вчера.",
+      "translationEnglish": "Masha was sad yesterday.",
+      "error": "Маша",
+      "correction": "Маше",
+      "options": [
+        "Маше",
+        "Машу",
+        "Машей"
+      ],
+      "explanation": "The impersonal predicative грустно names the person who feels it in the dative: Маше. Nominative Маша cannot be its subject; that would need a personal sentence with a short adjective (\"Маша была грустна\"). The neuter было confirms the impersonal frame."
+    },
+    {
+      "sentence": "Антону была трудно учить русский.",
+      "translationEnglish": "It was difficult for Anton to study Russian.",
+      "error": "была",
+      "correction": "было",
+      "options": [
+        "было",
+        "был",
+        "будет"
+      ],
+      "explanation": "Impersonal sentences take the neuter было in the past, never the feminine была. The dative person Антону does not trigger gender agreement, because the tense word has no nominative subject. Была and был are personal past forms needing a nominative; будет is the future, the wrong tense."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "Мне холодно",
+      "definition": "the person who feels it goes in the dative (мне), not the nominative; the short predicative holds the feeling",
+      "example": "Мне холодно. Маше грустно. Антону скучно."
+    },
+    {
+      "term": "Антону трудно учить",
+      "definition": "an evaluative predicative (трудно, важно, интересно) with the person in the dative and an optional infinitive",
+      "example": "Антону трудно учить русский. Лене интересно читать."
+    },
+    {
+      "term": "было / будет + предикатив",
+      "definition": "past adds было, future adds будет; this tense word is always neuter, never gendered",
+      "example": "Маше было грустно. Антону будет трудно."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each predicative by its job: a personal feeling, an atmospheric state, or an evaluative judgement.",
+    "categories": [
+      "Personal feeling",
+      "Atmospheric state",
+      "Evaluative judgement"
+    ],
+    "items": [
+      {
+        "word": "холодно",
+        "category": "Personal feeling"
+      },
+      {
+        "word": "грустно",
+        "category": "Personal feeling"
+      },
+      {
+        "word": "страшно",
+        "category": "Personal feeling"
+      },
+      {
+        "word": "тихо",
+        "category": "Atmospheric state"
+      },
+      {
+        "word": "темно",
+        "category": "Atmospheric state"
+      },
+      {
+        "word": "ветрено",
+        "category": "Atmospheric state"
+      },
+      {
+        "word": "трудно",
+        "category": "Evaluative judgement"
+      },
+      {
+        "word": "важно",
+        "category": "Evaluative judgement"
+      },
+      {
+        "word": "удобно",
+        "category": "Evaluative judgement"
+      }
+    ]
+  }
+}

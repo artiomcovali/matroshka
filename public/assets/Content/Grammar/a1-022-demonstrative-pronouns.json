@@ -1,0 +1,390 @@
+{
+  "id": "a1-022-demonstrative-pronouns",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Demonstrative Pronouns",
+  "titleRussian": "Указательные местоимения",
+  "description": "Demonstrative pronouns: this/these and that/those",
+  "descriptionRussian": "Указательные местоимения: этот/эти и тот/те",
+  "imageName": "hand.point.right.fill",
+  "intro": "Demonstrative pronouns point to specific things - 'this book' or 'that house.' Russian has two sets: этот/эта/это/эти (this/these - closer) and тот/та/то/те (that/those - farther). Like adjectives, they must agree in gender and number with the noun. There's also a special use: Это alone can mean 'this is' for any gender.",
+  "rules": [
+    "Этот (m), эта (f), это (n), эти (pl) = this/these - for things nearby or just mentioned.",
+    "Тот (m), та (f), то (n), те (pl) = that/those - for things farther away or previously mentioned.",
+    "Demonstratives agree in gender and number: этот дом (m), эта книга (f), это окно (n), эти люди (pl).",
+    "Это (standalone) = 'this is' for ANY gender: Это книга. Это дом. Это окно. (This is a book/house/window.)"
+  ],
+  "examples": [
+    "Этот дом большой. (This house is big.), этот for masculine",
+    "Эта книга интересная. (This book is interesting.), эта for feminine",
+    "Это письмо важное. (This letter is important.), это for neuter",
+    "Эти студенты умные. (These students are smart.), эти for plural",
+    "Тот человек — мой друг. (That person is my friend.), тот for distant masculine",
+    "Это моя мама. (This is my mom.), Это as 'this is'"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ дом очень красивый. (This)",
+          "promptEnglish": "This house is very beautiful.",
+          "options": [
+            "Эта",
+            "Это",
+            "Эти",
+            "Этот"
+          ],
+          "answer": "Этот",
+          "hint": "Дом is masculine",
+          "explanation": "Дом is masculine, so we use этот: Этот дом."
+        },
+        {
+          "prompt": "_____ книга интересная. (This)",
+          "promptEnglish": "This book is interesting.",
+          "options": [
+            "Эти",
+            "Эта",
+            "Этот",
+            "Это"
+          ],
+          "answer": "Эта",
+          "hint": "Книга is feminine",
+          "explanation": "Книга is feminine, so we use эта: Эта книга."
+        },
+        {
+          "prompt": "_____ письмо от мамы. (This)",
+          "promptEnglish": "This letter is from mom.",
+          "options": [
+            "Эти",
+            "Этот",
+            "Это",
+            "Эта"
+          ],
+          "answer": "Это",
+          "hint": "Письмо is neuter",
+          "explanation": "Письмо is neuter, so we use это: Это письмо."
+        },
+        {
+          "prompt": "_____ люди говорят по-русски. (These)",
+          "promptEnglish": "These people speak Russian.",
+          "options": [
+            "Это",
+            "Эти",
+            "Эта",
+            "Этот"
+          ],
+          "answer": "Эти",
+          "hint": "Люди is plural",
+          "explanation": "Люди is plural, so we use эти: Эти люди."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ человек — мой сосед. (That)",
+          "promptEnglish": "That person is my neighbor.",
+          "options": [
+            "То",
+            "Тот",
+            "Те",
+            "Та"
+          ],
+          "answer": "Тот",
+          "hint": "Человек is masculine",
+          "explanation": "Человек is masculine, so we use тот: Тот человек."
+        },
+        {
+          "prompt": "_____ машина красная. (That)",
+          "promptEnglish": "That car is red.",
+          "options": [
+            "Те",
+            "Та",
+            "Тот",
+            "То"
+          ],
+          "answer": "Та",
+          "hint": "Машина is feminine",
+          "explanation": "Машина is feminine, so we use та: Та машина."
+        },
+        {
+          "prompt": "_____ здание — музей. (That)",
+          "promptEnglish": "That building is a museum.",
+          "options": [
+            "Тот",
+            "Те",
+            "То",
+            "Та"
+          ],
+          "answer": "То",
+          "hint": "Здание is neuter",
+          "explanation": "Здание is neuter, so we use то: То здание."
+        },
+        {
+          "prompt": "_____ студенты из России. (Those)",
+          "promptEnglish": "Those students are from Russia.",
+          "options": [
+            "Тот",
+            "Та",
+            "То",
+            "Те"
+          ],
+          "answer": "Те",
+          "hint": "Студенты is plural",
+          "explanation": "Студенты is plural, so we use те: Те студенты."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "_____ мой брат. (This is)",
+          "promptEnglish": "This is my brother.",
+          "options": [
+            "Этот",
+            "Эта",
+            "Это",
+            "Эти"
+          ],
+          "answer": "Это",
+          "hint": "'This is' = Это (standalone)",
+          "explanation": "When meaning 'this is', we always use Это regardless of the noun's gender: Это мой брат."
+        },
+        {
+          "prompt": "_____ моя сестра. (This is)",
+          "promptEnglish": "This is my sister.",
+          "options": [
+            "Эта",
+            "Этот",
+            "Это",
+            "Эти"
+          ],
+          "answer": "Это",
+          "hint": "'This is' = Это (always!)",
+          "explanation": "Это as 'this is' never changes: Это моя сестра (not Эта моя сестра)."
+        },
+        {
+          "prompt": "_____ наш дом. (This is)",
+          "promptEnglish": "This is our house.",
+          "options": [
+            "Этот",
+            "Эта",
+            "Это",
+            "Эти"
+          ],
+          "answer": "Это",
+          "hint": "Introducing something = Это",
+          "explanation": "When introducing or identifying something, use Это: Это наш дом."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Мне нравится _____ песня. (this)",
+          "promptEnglish": "I like this song.",
+          "options": [
+            "это",
+            "этот",
+            "эта",
+            "эти"
+          ],
+          "answer": "эта",
+          "hint": "Песня is feminine",
+          "explanation": "Песня is feminine, so we use эта: эта песня."
+        },
+        {
+          "prompt": "Я не понимаю _____ слово. (this)",
+          "promptEnglish": "I don't understand this word.",
+          "options": [
+            "этот",
+            "это",
+            "эта",
+            "эти"
+          ],
+          "answer": "это",
+          "hint": "Слово is neuter",
+          "explanation": "Слово is neuter, so we use это: это слово."
+        },
+        {
+          "prompt": "Кто _____ девушки? (those)",
+          "promptEnglish": "Who are those girls?",
+          "options": [
+            "та",
+            "тот",
+            "то",
+            "те"
+          ],
+          "answer": "те",
+          "hint": "Девушки is plural",
+          "explanation": "Девушки is plural, so we use те: те девушки."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ словарь очень хороший. (This)",
+      "Change 'this is' to 'that is': _____ мой брат.",
+      "Change to plural: _____ книги интересные.",
+      "Change 'that' to 'this': _____ дом старый."
+    ],
+    "choices": [
+      "То",
+      "Эта",
+      "Это",
+      "Этот",
+      "Эти"
+    ],
+    "answers": [
+      "Этот",
+      "То",
+      "Эти",
+      "Этот"
+    ],
+    "grammarFocus": "demonstrative pronoun agreement with masculine noun",
+    "options": [
+      [
+        "этому",
+        "Этот",
+        "этим",
+        "этого"
+      ],
+      [
+        "Эта",
+        "Это",
+        "То",
+        "Этот"
+      ],
+      [
+        "Эти",
+        "этого",
+        "этими",
+        "этих"
+      ],
+      [
+        "этого",
+        "Этот",
+        "этому",
+        "этим"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ стол большой. (this table)",
+      "contextEnglish": "This table is big.",
+      "options": [
+        "Этот",
+        "Это"
+      ],
+      "answer": "Этот",
+      "explanation": "When describing a noun (this + noun), use the agreeing form: Этот стол (masculine)."
+    },
+    {
+      "context": "_____ стол. (this is a table)",
+      "contextEnglish": "This is a table.",
+      "options": [
+        "Это",
+        "Этот"
+      ],
+      "answer": "Это",
+      "explanation": "When introducing/identifying ('this is'), always use Это: Это стол."
+    },
+    {
+      "context": "_____ книга моя. (that book)",
+      "contextEnglish": "That book is mine.",
+      "options": [
+        "Та",
+        "То"
+      ],
+      "answer": "Та",
+      "explanation": "Книга is feminine, so use та: Та книга моя."
+    },
+    {
+      "context": "Мне нравятся _____ цветы. (these)",
+      "contextEnglish": "I like these flowers.",
+      "options": [
+        "эти",
+        "это"
+      ],
+      "answer": "эти",
+      "explanation": "Цветы is plural, so use эти: эти цветы."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by demonstrative: этот or эта?",
+    "categories": [
+      "этот (masculine)",
+      "эта (feminine)"
+    ],
+    "items": [
+      {
+        "word": "дом",
+        "category": "этот (masculine)"
+      },
+      {
+        "word": "книга",
+        "category": "эта (feminine)"
+      },
+      {
+        "word": "стол",
+        "category": "этот (masculine)"
+      },
+      {
+        "word": "машина",
+        "category": "эта (feminine)"
+      },
+      {
+        "word": "человек",
+        "category": "этот (masculine)"
+      },
+      {
+        "word": "песня",
+        "category": "эта (feminine)"
+      }
+    ]
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Эта дом большой.",
+      "error": "Эта",
+      "correction": "Этот",
+      "hint": "What gender is дом? Match the demonstrative pronoun to it.",
+      "explanation": "Дом is masculine, so use этот (not эта): Этот дом большой."
+    },
+    {
+      "sentence": "Этот моя сестра.",
+      "error": "Этот",
+      "correction": "Это",
+      "hint": "When saying 'this is [something]', which special form do you use?",
+      "explanation": "When meaning 'this is', use Это (not Этот): Это моя сестра."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "указательные местоимения",
+      "definition": "demonstrative pronouns",
+      "example": "этот, эта, это, тот, та, то"
+    },
+    {
+      "term": "этот, эта, это, эти",
+      "definition": "this/these (near)",
+      "example": "Этот дом, эта книга, это окно"
+    },
+    {
+      "term": "тот, та, то, те",
+      "definition": "that/those (far)",
+      "example": "Тот человек, та машина"
+    },
+    {
+      "term": "Это",
+      "definition": "this is (for any gender)",
+      "example": "Это мой друг. Это моя сестра."
+    }
+  ]
+}

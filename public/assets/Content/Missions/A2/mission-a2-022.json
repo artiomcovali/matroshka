@@ -1,0 +1,51 @@
+{
+  "id": "mission-a2-022",
+  "title": "At the Dry Cleaner",
+  "level": "A2",
+  "difficulty": "easy",
+  "description": "Drop off clothes at the dry cleaner",
+  "imageName": "tshirt.fill",
+  "initialPrompt": "Добрый день! Что хотите почистить? Костюмы, платья, пальто - всё принимаем.",
+  "systemPrompt": "You work at dry cleaners. Suit 500₽, dress 400₽, coat 600₽. Regular: 3 days. Express (same day): +50%. Ask when they need it. Keep replies short.",
+  "completionCriteria": "User dropped off item with pickup date confirmed.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужно почистить... (I need to clean...)",
+    "Когда будет готово? (When will it be ready?)",
+    "Есть срочная услуга? (Is there express service?)",
+    "Я заберу в пятницу (I'll pick up Friday)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "химчистка",
+      "definition": "dry cleaner"
+    },
+    {
+      "word": "почистить",
+      "definition": "to clean"
+    },
+    {
+      "word": "костюм",
+      "definition": "suit"
+    },
+    {
+      "word": "пальто",
+      "definition": "coat"
+    },
+    {
+      "word": "готово",
+      "definition": "ready"
+    },
+    {
+      "word": "забрать",
+      "definition": "to pick up"
+    }
+  ],
+  "objectives": [
+    "Say what you want to clean",
+    "Ask when it will be ready",
+    "Ask about express service if needed",
+    "Confirm pickup date",
+    "Pay or get receipt"
+  ]
+}

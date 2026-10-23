@@ -1,0 +1,190 @@
+{
+  "id": "a2-009",
+  "level": "A2",
+  "narrator": "Маша",
+  "title": "Письмо от Димы",
+  "titleEnglish": "A Letter from Dima",
+  "description": "Маша получает письмо от брата Димы.",
+  "imageName": "envelope.fill",
+  "fullText": "Сегодня я получила письмо от Димы. Мой брат написал: «Привет, Маша! У меня всё хорошо. Я учусь в университете. Сейчас у меня экзамены. Вчера я играл в футбол с друзьями. А как ты? Как Пряник?» Я люблю читать письма от Димы. Он всегда пишет весело и коротко. Я ответила ему: «Молодец, Дима! У меня тоже всё хорошо. Пряник передаёт привет!» Мы живём в разных городах, но мы всегда на связи.",
+  "reviewVocab": [
+    {
+      "word": "письмо",
+      "definition": "letter",
+      "partOfSpeech": "noun (n)",
+      "forms": [
+        "письмо",
+        "письма",
+        "письму",
+        "письме"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "получить",
+      "definition": "to receive (perfective)",
+      "partOfSpeech": "verb (pf.)",
+      "forms": [
+        "получу",
+        "получишь",
+        "получит",
+        "получила"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "ответить",
+      "definition": "to answer, to reply (perfective)",
+      "partOfSpeech": "verb (pf.)",
+      "forms": [
+        "отвечу",
+        "ответишь",
+        "ответит",
+        "ответила"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "связь",
+      "definition": "connection, contact",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "связь",
+        "связи"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "От кого Маша получила письмо?",
+      "options": [
+        "От Анны",
+        "От Ивана Петровича",
+        "От Димы"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша получила письмо от своего брата Димы."
+    },
+    {
+      "prompt": "Что делает Дима?",
+      "options": [
+        "Учится в университете",
+        "Работает в офисе",
+        "Путешествует"
+      ],
+      "correctIndex": 0,
+      "explanation": "Дима учится в университете."
+    },
+    {
+      "prompt": "Во что Дима играл вчера?",
+      "options": [
+        "В баскетбол",
+        "В футбол",
+        "В теннис"
+      ],
+      "correctIndex": 1,
+      "explanation": "Вчера Дима играл в футбол с друзьями."
+    },
+    {
+      "prompt": "Как Дима пишет?",
+      "options": [
+        "Весело и коротко",
+        "Длинно и скучно",
+        "Серьёзно и грустно"
+      ],
+      "correctIndex": 0,
+      "explanation": "Дима всегда пишет весело и коротко."
+    },
+    {
+      "prompt": "Что Маша написала Диме?",
+      "options": [
+        "Приезжай в гости!",
+        "Пряник болеет!",
+        "Молодец, Дима!"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша ответила: «Молодец, Дима! У меня тоже всё хорошо»."
+    },
+    {
+      "prompt": "Где живут Маша и Дима?",
+      "options": [
+        "В одном городе",
+        "В разных городах",
+        "В одном доме"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша и Дима живут в разных городах, но всегда на связи."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Маша получила _____ от Димы.",
+      "Дима _____ в университете.",
+      "Вчера Дима _____ в футбол с друзьями.",
+      "Маша _____ Диме: «Молодец!»",
+      "Маша и Дима живут в разных _____."
+    ],
+    "choices": [
+      "письмо",
+      "учится",
+      "играл",
+      "ответила",
+      "городах",
+      "написал",
+      "работает"
+    ],
+    "answers": [
+      "письмо",
+      "учится",
+      "играл",
+      "ответила",
+      "городах"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "In 'я получила письмо,' the verb ending '-а' in 'получила' tells us:",
+      "options": [
+        "The action happened today",
+        "The speaker is female",
+        "It was a long letter"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "tense",
+      "sentenceRef": "Сегодня я получила письмо от Димы.",
+      "explanation": "In Russian past tense, verbs ending in '-а' indicate a feminine subject. Получил = he received, получила = she received. Маша is female, so she says 'получила.'",
+      "focusArea": "conjugation"
+    },
+    {
+      "prompt": "'Дима написал' — 'написал' ends in a consonant (no '-а'). This means:",
+      "options": [
+        "The subject is male",
+        "The action is future",
+        "The action is still happening"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "tense",
+      "sentenceRef": "Мой брат написал: «Привет, Маша!»",
+      "explanation": "Past tense verbs without '-а' indicate a masculine subject: написал (he wrote), играл (he played). Compare: написала (she wrote), играла (she played).",
+      "focusArea": "conjugation"
+    },
+    {
+      "prompt": "'Вчера я играл в футбол' — 'вчера' means 'yesterday.' What tense is 'играл'?",
+      "options": [
+        "Present",
+        "Future",
+        "Past"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "tense",
+      "sentenceRef": "Вчера я играл в футбол с друзьями.",
+      "explanation": "'Играл' is past tense. Russian past tense verbs often end in '-л' (masculine), '-ла' (feminine), '-ло' (neuter), or '-ли' (plural).",
+      "focusArea": "conjugation"
+    }
+  ],
+  "audioFile": "a2-009.m4a",
+  "audioTimingFile": "a2-009-timing.json"
+}

@@ -1,0 +1,346 @@
+{
+  "id": "b1-001-aspect-past",
+  "level": "B1",
+  "focusArea": "aspect",
+  "title": "Verbal Aspect in Past Tense",
+  "titleRussian": "Вид глагола в прошедшем времени",
+  "description": "Aspect choice in past tense narratives",
+  "descriptionRussian": "Выбор вида в прошедшем времени",
+  "imageName": "clock.arrow.circlepath",
+  "intro": "Building on A2 aspect pairs and the B1 Aspect Deep Dive, this lesson focuses on aspect in past tense narratives. Aspect choice shapes how events are presented. Imperfective past sets the SCENE or BACKGROUND (Светило солнце - The sun was shining). Perfective past advances the PLOT with completed events (Он вошёл - He entered). When telling stories, use imperfective for ongoing situations and perfective for the sequence of events. This is like English 'was doing' (background) vs 'did' (event), but Russian aspect carries even more meaning about how you view the action.",
+  "rules": [
+    "Background/scene-setting uses imperfective: Шёл дождь. Люди спешили домой. (It was raining. People were hurrying home.)",
+    "Sequential plot events use perfective: Он встал, оделся и вышел. (He got up, dressed, and went out.)",
+    "Simultaneous background actions use imperfective: Пока она готовила, он читал. (While she cooked, he read.)",
+    "Interrupted action: imperfective (ongoing) + perfective (interruption): Я читал, когда он пришёл. (I was reading when he arrived.)"
+  ],
+  "examples": [
+    "Было тепло. Дети играли в парке. (It was warm. Children were playing in the park.), background",
+    "Вдруг раздался гром. Все побежали домой. (Suddenly thunder sounded. Everyone ran home.), plot events",
+    "Я смотрел телевизор, когда позвонил телефон. (I was watching TV when the phone rang.), interrupted",
+    "Он встал, умылся и позавтракал. (He got up, washed, and had breakfast.), sequence"
+  ],
+  "tables": [
+    {
+      "title": "Past Tense Aspect in Narratives",
+      "headers": [
+        "Function",
+        "Aspect",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "scene/background",
+          "cells": [
+            "Imperfective",
+            "Светило солнце. Дети играли."
+          ]
+        },
+        {
+          "label": "sequential events",
+          "cells": [
+            "Perfective",
+            "Он встал, оделся и вышел."
+          ]
+        },
+        {
+          "label": "simultaneous",
+          "cells": [
+            "Both Impf",
+            "Пока она готовила, он читал."
+          ]
+        },
+        {
+          "label": "interrupted action",
+          "cells": [
+            "Impf + Pf",
+            "Я читал, когда он при|шёл."
+          ]
+        },
+        {
+          "label": "repeated past",
+          "cells": [
+            "Imperfective",
+            "Каждый день он ходил на работу."
+          ]
+        },
+        {
+          "label": "sudden event",
+          "cells": [
+            "Perfective",
+            "Вдруг раздался гром."
+          ]
+        },
+        {
+          "label": "duration",
+          "cells": [
+            "Imperfective",
+            "Он писал письмо весь вечер."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ солнце. Птицы пели. (The sun was shining. Birds were singing.) - scene",
+          "promptEnglish": "The sun was shining. Birds were singing.",
+          "options": [
+            "Светит",
+            "Светило",
+            "Засветило",
+            "Засветит"
+          ],
+          "answer": "Светило",
+          "hint": "Scene-setting/background uses imperfective past",
+          "explanation": "Background description uses imperfective: светило."
+        },
+        {
+          "prompt": "Он _____, оделся и вышел из дома. (He got up, dressed, and left the house.)",
+          "promptEnglish": "He got up, dressed, and left the house.",
+          "options": [
+            "вставал",
+            "встанет",
+            "встаёт",
+            "встал"
+          ],
+          "answer": "встал",
+          "hint": "Sequential completed actions use perfective",
+          "explanation": "Sequence of plot events uses perfective: встал."
+        },
+        {
+          "prompt": "Дети _____ в саду, когда начался дождь. (Children were playing in the garden when the rain started.)",
+          "promptEnglish": "Children were playing when the rain started.",
+          "options": [
+            "поиграли",
+            "играли",
+            "поиграют",
+            "играют"
+          ],
+          "answer": "играли",
+          "hint": "Ongoing action interrupted by another event → imperfective",
+          "explanation": "Ongoing action (interrupted) uses imperfective: играли."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Пока мама _____, папа смотрел телевизор. (While mom was cooking, dad watched TV.)",
+          "promptEnglish": "While mom was cooking, dad watched TV.",
+          "options": [
+            "готовит",
+            "приготовила",
+            "приготовит",
+            "готовила"
+          ],
+          "answer": "готовила",
+          "hint": "Simultaneous ongoing actions (пока) use imperfective",
+          "explanation": "Simultaneous action with 'пока' uses imperfective: готовила."
+        },
+        {
+          "prompt": "Вдруг дверь _____ и вошёл незнакомец. (Suddenly the door opened and a stranger entered.)",
+          "promptEnglish": "Suddenly the door opened and a stranger entered.",
+          "options": [
+            "открывается",
+            "откроется",
+            "открылась",
+            "открывалась"
+          ],
+          "answer": "открылась",
+          "hint": "Sudden single event (вдруг) uses perfective",
+          "explanation": "Sudden event with 'вдруг' uses perfective: открылась."
+        },
+        {
+          "prompt": "Я _____ книгу, когда зазвонил телефон. (I was reading a book when the phone rang.)",
+          "promptEnglish": "I was reading when the phone rang.",
+          "options": [
+            "прочитал",
+            "читаю",
+            "прочитаю",
+            "читал"
+          ],
+          "answer": "читал",
+          "hint": "Background action being interrupted → imperfective",
+          "explanation": "Interrupted ongoing action uses imperfective: читал."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Она _____ письмо, _____ его в конверт и отправила. (She wrote the letter, put it in an envelope, and sent it.)",
+          "promptEnglish": "She wrote the letter, put it in an envelope, and sent it.",
+          "options": [
+            "пишет, кладёт",
+            "напишет, положит",
+            "писала, клала",
+            "написала, положила"
+          ],
+          "answer": "написала, положила",
+          "hint": "Chain of completed actions → all perfective",
+          "explanation": "Sequential completed actions all use perfective: написала, положила."
+        },
+        {
+          "prompt": "В детстве я часто _____ к бабушке. (In childhood I often went to grandma's.)",
+          "promptEnglish": "In childhood I often went to grandma's.",
+          "options": [
+            "пошёл",
+            "хожу",
+            "ходил",
+            "пойду"
+          ],
+          "answer": "ходил",
+          "hint": "Repeated past action (часто) → imperfective",
+          "explanation": "Repeated action with 'часто' uses imperfective: ходил."
+        },
+        {
+          "prompt": "Он _____ газету и вдруг увидел знакомое имя. (He was reading the newspaper and suddenly saw a familiar name.)",
+          "promptEnglish": "He was reading the newspaper and suddenly saw a familiar name.",
+          "options": [
+            "читает",
+            "прочитал",
+            "читал",
+            "прочитает"
+          ],
+          "answer": "читал",
+          "hint": "Background action before sudden event → imperfective",
+          "explanation": "Ongoing background before 'вдруг' event uses imperfective: читал."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Когда я _____ домой, начался дождь. (When I was walking home, the rain started. - female speaker)",
+      "Дети играли в парке, когда _____ мама. (The children were playing when mom arrived.)",
+      "Он _____ газету и лёг спать. (He read the newspaper and went to bed.)"
+    ],
+    "choices": [
+      "шла",
+      "пришла",
+      "прочитал",
+      "читал",
+      "приходила",
+      "ходила"
+    ],
+    "answers": [
+      "шла",
+      "пришла",
+      "прочитал"
+    ],
+    "grammarFocus": "Ongoing action interrupted → imperfective; completed actions → perfective",
+    "hints": [
+      "The 'когда' clause describes ongoing motion that was interrupted. Which verb shows ongoing walking?",
+      "Mom's arrival interrupted the playing: a single completed event. Which aspect?",
+      "He finished reading then went to bed: a completed sequence. Which aspect?"
+    ],
+    "explanations": [
+      "An ongoing background action uses imperfective past: шла (was walking).",
+      "A single interrupting event uses perfective: пришла (arrived, completed).",
+      "Sequential completed actions use perfective: прочитал (read and finished)."
+    ],
+    "options": [
+      [
+        "пришла",
+        "шла",
+        "ходила",
+        "пошла"
+      ],
+      [
+        "приходила",
+        "шла",
+        "пришла",
+        "ходила"
+      ],
+      [
+        "читал",
+        "дочитывал",
+        "перечитывал",
+        "прочитал"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Он _____ письмо весь вечер. (all evening - duration)",
+      "contextEnglish": "He wrote the letter all evening.",
+      "options": [
+        "писал",
+        "написал"
+      ],
+      "answer": "писал",
+      "explanation": "Duration (весь вечер) requires imperfective: писал."
+    },
+    {
+      "context": "Он _____ письмо и пошёл на почту. (wrote and then went - sequence)",
+      "contextEnglish": "He wrote the letter and went to the post office.",
+      "options": [
+        "написал",
+        "писал"
+      ],
+      "answer": "написал",
+      "explanation": "Completed action in sequence requires perfective: написал."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort these narrative functions by aspect",
+    "categories": [
+      "Imperfective (background)",
+      "Perfective (plot events)"
+    ],
+    "items": [
+      {
+        "word": "Scene-setting (Было тепло)",
+        "category": "Imperfective (background)"
+      },
+      {
+        "word": "Sudden event (Вдруг раздался гром)",
+        "category": "Perfective (plot events)"
+      },
+      {
+        "word": "Ongoing when interrupted (Я читал, когда позвонил телефон)",
+        "category": "Imperfective (background)"
+      },
+      {
+        "word": "Sequential actions (Встал, оделся и вышел)",
+        "category": "Perfective (plot events)"
+      },
+      {
+        "word": "Simultaneous actions (пока)",
+        "category": "Imperfective (background)"
+      },
+      {
+        "word": "Single completed event (Я прочитал книгу)",
+        "category": "Perfective (plot events)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "Background/scene (фон)",
+      "definition": "Ongoing situation → imperfective",
+      "example": "Светило солнце. Дети играли."
+    },
+    {
+      "term": "Plot events (сюжет)",
+      "definition": "Completed sequence → perfective",
+      "example": "Он встал, оделся и вышел."
+    },
+    {
+      "term": "Interruption pattern",
+      "definition": "Impf (ongoing) + когда + Pf (event)",
+      "example": "Я читал, когда он пришёл."
+    },
+    {
+      "term": "Simultaneous (пока)",
+      "definition": "Both actions imperfective",
+      "example": "Пока она готовила, он читал."
+    }
+  ]
+}

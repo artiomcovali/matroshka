@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-035",
+  "title": "Pet Sitter Concern",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "The pet sitter candidate seems inexperienced for your needs",
+  "imageName": "pawprint.fill",
+  "initialPrompt": "Привет! Я Настя, хочу работать с животными. У меня была кошка в детстве. Когда мне начинать?",
+  "systemPrompt": "You are young pet sitter candidate with limited experience. User has a dog needing medication and walks. Be eager but honest about experience gaps. Willing to learn. Keep replies short.",
+  "completionCriteria": "User assessed qualifications and decided to hire with training or look elsewhere.",
+  "responseLimit": 15,
+  "hints": [
+    "У вас есть опыт с собаками? (Do you have experience with dogs?)",
+    "Моей собаке нужны лекарства дважды в день (My dog needs medication twice a day)",
+    "Как часто вы будете гулять с ним? (How often will you walk him?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "опыт",
+      "definition": "experience"
+    },
+    {
+      "word": "уход",
+      "definition": "care"
+    },
+    {
+      "word": "прогулка",
+      "definition": "walk"
+    },
+    {
+      "word": "кормление",
+      "definition": "feeding"
+    },
+    {
+      "word": "лекарство",
+      "definition": "medication"
+    },
+    {
+      "word": "ответственность",
+      "definition": "responsibility"
+    }
+  ],
+  "objectives": [
+    "Ask about experience (опыт с животными)",
+    "Explain your pet needs (потребности)",
+    "Probe qualifications tactfully (квалификация)",
+    "Make hiring decision"
+  ]
+}

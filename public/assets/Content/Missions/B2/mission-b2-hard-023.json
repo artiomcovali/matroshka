@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-023",
+  "title": "Unfair Performance Review",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Manager giving unfairly negative performance review",
+  "imageName": "star.slash.fill",
+  "initialPrompt": "Ваши показатели ниже ожиданий. Рекомендую план улучшения. Подпишите здесь, что согласны с оценкой.",
+  "systemPrompt": "You are manager giving unfair review. Cite vague issues, ignore achievements. Only reconsider if employee presents documented accomplishments and refuses to sign unfair assessment.",
+  "completionCriteria": "User challenged unfair review effectively.",
+  "responseLimit": 15,
+  "hints": [
+    "Я не согласен с этой оценкой (I disagree with this assessment)",
+    "Мои достижения включают... (My achievements include...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "оценка",
+      "definition": "assessment"
+    },
+    {
+      "word": "показатели",
+      "definition": "performance metrics"
+    },
+    {
+      "word": "достижения",
+      "definition": "achievements"
+    },
+    {
+      "word": "несправедливый",
+      "definition": "unfair"
+    },
+    {
+      "word": "возражение",
+      "definition": "objection"
+    },
+    {
+      "word": "документация",
+      "definition": "documentation"
+    }
+  ],
+  "objectives": [
+    "Refuse to sign immediately",
+    "Present documented achievements",
+    "Challenge vague criticism",
+    "Request specific examples",
+    "Escalate if necessary"
+  ]
+}

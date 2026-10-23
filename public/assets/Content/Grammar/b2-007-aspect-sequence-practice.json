@@ -1,0 +1,588 @@
+{
+  "lessonId": "b2-007-aspect-sequence",
+  "sets": [
+    {
+      "id": "round-1-sequence-quiz",
+      "title": "Sequence Recognition",
+      "titleRussian": "Определение последовательности",
+      "description": "Identify the correct aspect for sequential, simultaneous, and repeated actions",
+      "descriptionRussian": "Определите правильный вид для последовательных, одновременных и повторяющихся действий",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Вчера, пока мама _____, дети _____. (While mom was cooking, the kids were playing.)",
+              "promptEnglish": "Yesterday, while mom was cooking, the kids were playing.",
+              "options": [
+                "приготовила, поиграли",
+                "готовила, играли",
+                "приготовит, поиграют",
+                "готовит, играют"
+              ],
+              "answer": "готовила, играли",
+              "hint": "Simultaneous background actions = both imperfective.",
+              "explanation": "Simultaneous actions: both imperfective. Neither action interrupts the other."
+            },
+            {
+              "prompt": "Раньше каждое утро он _____ рано и _____ зарядку. (repeated past routine)",
+              "promptEnglish": "He used to get up early every morning and do exercises.",
+              "options": [
+                "встал, сделал",
+                "вставал, делал",
+                "встанет, сделает",
+                "встаёт, делает"
+              ],
+              "answer": "вставал, делал",
+              "hint": "Repeated habitual sequence = imperfective.",
+              "explanation": "Repeated routine: imperfective. Каждое утро signals habitual repetition."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я _____ книгу, когда вдруг _____  телефон. (background + interruption)",
+              "promptEnglish": "I was reading a book when the phone suddenly rang.",
+              "options": [
+                "читал, зазвонил",
+                "прочитал, звонил",
+                "читал, звонил",
+                "прочитал, зазвонил"
+              ],
+              "answer": "читал, зазвонил",
+              "hint": "Background action (impf) + sudden interruption (pf).",
+              "explanation": "Background (impf) + interruption (pf): читал (ongoing) + зазвонил (sudden event)."
+            },
+            {
+              "prompt": "Она _____ в комнату, _____ пальто и _____ у окна. (one-time sequence)",
+              "promptEnglish": "She entered the room, took off her coat, and sat by the window.",
+              "options": [
+                "входила, снимала, садилась",
+                "вошла, сняла, села",
+                "входит, снимает, садится",
+                "войдёт, снимет, сядет"
+              ],
+              "answer": "вошла, сняла, села",
+              "hint": "Sequential completed actions = perfective chain.",
+              "explanation": "One-time narrative sequence: all perfective. Entered, then removed coat, then sat down."
+            },
+            {
+              "prompt": "Вчера, пока он _____ по телефону, я _____ ужин. (simultaneous)",
+              "promptEnglish": "Yesterday, while he was talking on the phone, I was making dinner.",
+              "options": [
+                "поговорил, приготовил",
+                "разговаривал, готовил",
+                "поговорит, приготовлю",
+                "разговаривает, готовлю"
+              ],
+              "answer": "разговаривал, готовил",
+              "hint": "Simultaneous background actions = both imperfective.",
+              "explanation": "Simultaneous: both imperfective. Two ongoing actions happening at the same time."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он _____ дверь. (He opened the door - one completed action)",
+          "contextEnglish": "He opened the door. (one specific time)",
+          "options": [
+            "открыл",
+            "открывал"
+          ],
+          "answer": "открыл",
+          "explanation": "Single completed action in a sequence: perfective открыл."
+        },
+        {
+          "context": "Каждый день она _____ и уходила на работу. (daily routine)",
+          "contextEnglish": "Every day she got dressed and left for work. (routine)",
+          "options": [
+            "одевалась",
+            "оделась"
+          ],
+          "answer": "одевалась",
+          "explanation": "Repeated routine: imperfective одевалась. Каждый день = habitual."
+        },
+        {
+          "context": "Она _____ и ушла на работу. (this morning's sequence)",
+          "contextEnglish": "She got dressed and left for work. (today, one time)",
+          "options": [
+            "оделась",
+            "одевалась"
+          ],
+          "answer": "оделась",
+          "explanation": "One-time completed sequence: perfective оделась, then ушла."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Он _____ чашку, налил чай и начал пить. (took the cup - sequence)",
+          "Он взял чашку, _____ чай и начал пить. (poured tea - sequence)",
+          "Он взял чашку, налил чай и _____ пить. (began to drink - sequence)",
+          "Пока она _____, он читал газету. (she was sleeping - background)",
+          "Пока она спала, он _____ газету. (he was reading - simultaneous)",
+          "Я _____ музыку, когда вдруг погас свет. (was listening - background)",
+          "Я слушал музыку, когда вдруг _____ свет. (went out - interruption)"
+        ],
+        "choices": [
+          "взял, налил, начал",
+          "спала, читал",
+          "слушал, погас"
+        ],
+        "answers": [
+          "взял",
+          "налил",
+          "начал",
+          "спала",
+          "читал",
+          "слушал",
+          "погас"
+        ],
+        "grammarFocus": "Perfective chain, simultaneous imperfective, background + interruption",
+        "hints": null,
+        "explanations": null,
+        "options": [
+          [
+            "возьмёт",
+            "берёт",
+            "взял",
+            "брал"
+          ],
+          [
+            "наливал",
+            "наливает",
+            "налил",
+            "нальёт"
+          ],
+          [
+            "начинал",
+            "начал",
+            "начинает",
+            "начнёт"
+          ],
+          [
+            "спала",
+            "поспала",
+            "спит",
+            "поспит"
+          ],
+          [
+            "прочитает",
+            "читал",
+            "читает",
+            "прочитал"
+          ],
+          [
+            "послушал",
+            "послушает",
+            "слушает",
+            "слушал"
+          ],
+          [
+            "гас",
+            "гаснет",
+            "погаснет",
+            "погас"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-3-error-translate",
+      "title": "Fix and Translate",
+      "titleRussian": "Исправьте и переведите",
+      "description": "Correct aspect errors in narrative sequences and translate",
+      "descriptionRussian": "Исправьте ошибки вида в повествовании и переведите",
+      "icon": "pencil.and.outline",
+      "errorCorrection": [
+        {
+          "sentence": "Она входила в комнату, садилась и начинала читать. (meant: one-time narrative)",
+          "error": "входила",
+          "correction": "вошла",
+          "hint": "One-time sequence = perfective, not imperfective.",
+          "explanation": "One-time narrative: вошла, села, начала (all pf). Imperfective would mean habitual.",
+          "options": [
+            "вошла",
+            "войдёт",
+            "входит"
+          ]
+        },
+        {
+          "sentence": "Каждый день он встал рано и сделал зарядку.",
+          "error": "встал",
+          "correction": "вставал",
+          "hint": "Каждый день = habitual routine = imperfective.",
+          "explanation": "Repeated routine: вставал и делал (impf). Каждый день demands imperfective.",
+          "options": [
+            "вставал",
+            "встанет",
+            "встаёт"
+          ]
+        },
+        {
+          "sentence": "Он открывал дверь, вошёл и сел. (meant: narrative sequence)",
+          "error": "открывал",
+          "correction": "открыл",
+          "hint": "Sequential narrative = all perfective. Mixing aspects breaks the chain.",
+          "explanation": "Sequential chain: открыл, вошёл, сел (all pf). Opening was completed before entering.",
+          "options": [
+            "открыл",
+            "откроет",
+            "открывает"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "She woke up, got dressed, and went to work.",
+          "answer": "Она проснулась, оделась и пошла на работу.",
+          "acceptableVariants": [
+            "Она проснулась, оделась и ушла на работу."
+          ],
+          "hint": "One-time sequential chain = all perfective",
+          "grammarFocus": "Perfective sequence",
+          "keyWord": "проснулась",
+          "options": [
+            "проснулась",
+            "просыпалась",
+            "проснётся",
+            "просыпается"
+          ]
+        },
+        {
+          "english": "While I was working, he was watching TV.",
+          "answer": "Пока я работал, он смотрел телевизор.",
+          "acceptableVariants": [
+            "Пока я работала, он смотрел телевизор."
+          ],
+          "hint": "Simultaneous = both imperfective",
+          "grammarFocus": "Simultaneous imperfective",
+          "keyWord": "работал",
+          "options": [
+            "работал",
+            "поработал",
+            "работаю",
+            "проработал"
+          ]
+        },
+        {
+          "english": "I was sleeping when someone knocked on the door.",
+          "answer": "Я спал, когда кто-то постучал в дверь.",
+          "acceptableVariants": [
+            "Я спала, когда кто-то постучал в дверь.",
+            "Я спал, когда раздался стук в дверь."
+          ],
+          "hint": "Background (impf) + interruption (pf)",
+          "grammarFocus": "Background + interruption",
+          "keyWord": "спал",
+          "options": [
+            "спал",
+            "поспал",
+            "сплю",
+            "заснул"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which sentence describes a one-time narrative sequence?",
+              "promptEnglish": "Identify the one-time perfective chain.",
+              "options": [
+                "Каждый день он приходил и садился.",
+                "Пока она спала, он читал.",
+                "Он пришёл, сел и начал говорить.",
+                "Она гуляла, когда пошёл дождь."
+              ],
+              "answer": "Он пришёл, сел и начал говорить.",
+              "hint": "A chain of completed actions = perfective sequence.",
+              "explanation": "Пришёл, сел, начал - all perfective, one after another. A narrative sequence."
+            },
+            {
+              "prompt": "Which pattern is: imperfective background + perfective interruption?",
+              "promptEnglish": "Which is the background + interruption pattern?",
+              "options": [
+                "Он встал и ушёл.",
+                "Каждый день она читала.",
+                "Я спал, когда зазвонил телефон.",
+                "Пока я работал, он отдыхал."
+              ],
+              "answer": "Я спал, когда зазвонил телефон.",
+              "hint": "Ongoing action (impf) interrupted by a sudden event (pf).",
+              "explanation": "Спал (impf, background) + зазвонил (pf, interruption). Classic background + interruption."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-narrative-building",
+      "title": "Narrative Building",
+      "titleRussian": "Построение нарратива",
+      "description": "Build short narratives using the correct sequence patterns",
+      "descriptionRussian": "Постройте короткие рассказы с правильными паттернами",
+      "icon": "book",
+      "patternRecognition": [
+        {
+          "sentence": "встал - позавтракал - вышел / пришла - села - начала / открыл - прочитал - закрыл",
+          "question": "What pattern do all three sequences share?",
+          "options": [
+            "Simultaneous actions",
+            "Repeated routines",
+            "One-time perfective chains",
+            "Background + interruption"
+          ],
+          "answer": "One-time perfective chains",
+          "explanation": "All three are sequential perfective chains: action 1 completed, then 2, then 3."
+        },
+        {
+          "sentence": "Пока я работал, он спал. / Пока она готовила, я убирал. / Пока дети играли, мы разговаривали.",
+          "question": "What pattern do these share?",
+          "options": [
+            "Sequential completed actions",
+            "Simultaneous imperfective actions",
+            "Background + interruption",
+            "Habitual routines"
+          ],
+          "answer": "Simultaneous imperfective actions",
+          "explanation": "All use пока + two imperfective verbs: parallel ongoing actions."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Она _____ дверь, вошла в комнату и включила свет. (opened - sequence)",
+          "Она открыла дверь, _____ в комнату и включила свет. (entered - sequence)",
+          "Она открыла дверь, вошла в комнату и _____ свет. (turned on - sequence)",
+          "Пока мы _____, начался дождь. (While we were walking...)",
+          "По воскресеньям они _____ в парк и гуляли. (went - routine)",
+          "По воскресеньям они ходили в парк и _____. (walked - routine)"
+        ],
+        "choices": [
+          "открыла, вошла, включила",
+          "гуляли",
+          "ходили, гуляли"
+        ],
+        "answers": [
+          "открыла",
+          "вошла",
+          "включила",
+          "гуляли",
+          "ходили",
+          "гуляли"
+        ],
+        "grammarFocus": "Perfective chain, background + interruption, repeated routine",
+        "hints": null,
+        "explanations": null,
+        "options": [
+          [
+            "откроет",
+            "открывала",
+            "открывает",
+            "открыла"
+          ],
+          [
+            "вошла",
+            "входила",
+            "войдёт",
+            "входит"
+          ],
+          [
+            "включала",
+            "включила",
+            "включает",
+            "включит"
+          ],
+          [
+            "погуляли",
+            "гуляли",
+            "погуляет",
+            "гуляет"
+          ],
+          [
+            "сходили",
+            "сходит",
+            "ходит",
+            "ходили"
+          ],
+          [
+            "гуляли",
+            "гуляет",
+            "погуляли",
+            "погуляет"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort by the type of action pattern",
+        "categories": [
+          "Sequential (pf chain)",
+          "Simultaneous (both impf)",
+          "Background + Interruption (impf + pf)",
+          "Repeated routine (impf)"
+        ],
+        "items": [
+          {
+            "word": "Он встал, оделся и вышел.",
+            "category": "Sequential (pf chain)"
+          },
+          {
+            "word": "Пока мы ужинали, дети играли.",
+            "category": "Simultaneous (both impf)"
+          },
+          {
+            "word": "Я читал, когда зазвонил телефон.",
+            "category": "Background + Interruption (impf + pf)"
+          },
+          {
+            "word": "Каждый день он приходил и садился.",
+            "category": "Repeated routine (impf)"
+          },
+          {
+            "word": "Она открыла дверь и вошла.",
+            "category": "Sequential (pf chain)"
+          },
+          {
+            "word": "Пока он спал, я работала.",
+            "category": "Simultaneous (both impf)"
+          },
+          {
+            "word": "Мы гуляли, когда начался дождь.",
+            "category": "Background + Interruption (impf + pf)"
+          },
+          {
+            "word": "По вечерам она читала и слушала музыку.",
+            "category": "Repeated routine (impf)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All sequence patterns mixed together",
+      "descriptionRussian": "Все паттерны последовательности",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Он _____ письмо, _____ конверт и _____ на почту. (wrote, sealed, went - one-time)",
+              "promptEnglish": "He wrote the letter, sealed the envelope, and went to the post office.",
+              "options": [
+                "написал, запечатал, пошёл",
+                "писал, запечатывал, ходил",
+                "пишет, запечатывает, идёт",
+                "напишет, запечатает, пойдёт"
+              ],
+              "answer": "написал, запечатал, пошёл",
+              "hint": "One-time sequence = perfective chain.",
+              "explanation": "Sequential: написал, запечатал, пошёл - all perfective, completed in order."
+            },
+            {
+              "prompt": "Мы _____ по парку, когда _____ гроза. (walking - storm hit)",
+              "promptEnglish": "We were walking in the park when a storm hit.",
+              "options": [
+                "погуляли, начиналась",
+                "гуляли, началась",
+                "гуляем, начинается",
+                "погуляем, начнётся"
+              ],
+              "answer": "гуляли, началась",
+              "hint": "Background (impf) + sudden event (pf).",
+              "explanation": "Background: гуляли (impf). Interruption: началась (pf, sudden storm)."
+            },
+            {
+              "prompt": "Раньше каждый вечер он _____ с работы, _____ и _____ спать. (past routine)",
+              "promptEnglish": "He used to come home from work every evening, have dinner, and go to bed.",
+              "options": [
+                "пришёл, поужинал, лёг",
+                "приходил, ужинал, ложился",
+                "придёт, поужинает, ляжет",
+                "приходит, ужинает, ложится"
+              ],
+              "answer": "приходил, ужинал, ложился",
+              "hint": "Каждый вечер = routine = all imperfective.",
+              "explanation": "Repeated routine: приходил, ужинал, ложился - all imperfective."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Вчера, пока бабушка _____ пирог, внуки _____ в саду. (simultaneous)",
+              "promptEnglish": "Yesterday, while grandma was baking a pie, the grandkids were playing in the garden.",
+              "options": [
+                "испекла, поиграли",
+                "пекла, играли",
+                "испечёт, поиграют",
+                "печёт, играют"
+              ],
+              "answer": "пекла, играли",
+              "hint": "Both simultaneous actions = imperfective.",
+              "explanation": "Simultaneous: пекла (impf) and играли (impf) happening at the same time."
+            },
+            {
+              "prompt": "Он _____ дверь и _____. (opened the door and went out - sequence)",
+              "promptEnglish": "He opened the door and went out.",
+              "options": [
+                "открывал, выходил",
+                "открыл, вышел",
+                "открывает, выходит",
+                "откроет, выйдет"
+              ],
+              "answer": "открыл, вышел",
+              "hint": "Two sequential completed actions = perfective.",
+              "explanation": "Sequential: открыл, вышел - both perfective, one after the other."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Каждое утро он проснулся и побежал в парк.",
+          "error": "проснулся",
+          "correction": "просыпался",
+          "hint": "Каждое утро = routine = imperfective.",
+          "explanation": "Routine: просыпался и бегал (impf). Каждое утро demands imperfective.",
+          "options": [
+            "просыпался",
+            "проснётся",
+            "просыпается"
+          ]
+        },
+        {
+          "sentence": "Я работал за компьютером, когда вдруг выключался свет.",
+          "error": "выключался",
+          "correction": "выключился",
+          "hint": "Sudden interruption = perfective.",
+          "explanation": "Sudden event: выключился (pf). Выключался (impf) would mean 'was gradually turning off.'",
+          "options": [
+            "выключился",
+            "выключится",
+            "выключается"
+          ]
+        },
+        {
+          "sentence": "Она вставала, одевалась и вышла из дома. (meant: one-time narrative)",
+          "error": "вставала",
+          "correction": "встала",
+          "hint": "One-time sequence needs all perfective.",
+          "explanation": "Consistent sequence: встала, оделась, вышла - all perfective.",
+          "options": [
+            "встала",
+            "встанет",
+            "встаёт"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-027",
+  "title": "Apartment Application",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Your rental application needs additional documents",
+  "imageName": "doc.text.fill",
+  "initialPrompt": "Здравствуйте! Я смотрел вашу заявку на квартиру...",
+  "systemPrompt": "You are landlord. Application incomplete - need proof of income and references. Can email or bring in person by Friday. Otherwise apartment goes to next applicant. Keep replies short.",
+  "completionCriteria": "User understood what documents are needed and how to submit them.",
+  "responseLimit": 15,
+  "hints": [
+    "Какие документы нужны? (What documents are needed?)",
+    "Когда нужно принести? (When do I need to bring them?)",
+    "Можно отправить по почте? (Can I send by email?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "заявка",
+      "definition": "application"
+    },
+    {
+      "word": "документ",
+      "definition": "document"
+    },
+    {
+      "word": "справка",
+      "definition": "certificate/proof"
+    },
+    {
+      "word": "доход",
+      "definition": "income"
+    },
+    {
+      "word": "рекомендация",
+      "definition": "reference"
+    },
+    {
+      "word": "срок",
+      "definition": "deadline"
+    }
+  ],
+  "objectives": [
+    "Learn what documents are missing",
+    "Ask how to submit them",
+    "Confirm the deadline (срок)",
+    "Agree to provide documents"
+  ]
+}

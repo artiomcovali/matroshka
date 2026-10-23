@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-013",
+  "title": "Character Assassination",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Counter coordinated attack on your reputation",
+  "imageName": "person.crop.circle.badge.xmark",
+  "initialPrompt": "В социальных сетях началась кампания против вас. Анонимные аккаунты распространяют ложь. Журналисты звонят за комментариями.",
+  "systemPrompt": "You are journalist investigating viral allegations. Present social media claims, ask for response. Only publish defense if given clear evidence countering specific claims.",
+  "completionCriteria": "User countered coordinated reputation attack.",
+  "responseLimit": 15,
+  "hints": [
+    "Это координированная атака (This is a coordinated attack)",
+    "Вот доказательства, опровергающие... (Here is evidence refuting...)"
+  ],
+  "targetVocabulary": [
+    {"word": "репутация", "definition": "reputation"},
+    {"word": "кампания", "definition": "campaign"},
+    {"word": "анонимный", "definition": "anonymous"},
+    {"word": "опровержение", "definition": "refutation"},
+    {"word": "координация", "definition": "coordination"},
+    {"word": "клевета", "definition": "slander"}
+  ],
+  "objectives": [
+    "Identify attack pattern",
+    "Refute specific claims",
+    "Provide counter-evidence",
+    "Control narrative",
+    "Protect reputation"
+  ]
+}

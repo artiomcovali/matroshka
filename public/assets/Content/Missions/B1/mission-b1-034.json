@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-034",
+  "title": "Interior Designer",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Consult an interior designer about home decoration",
+  "imageName": "sofa.fill",
+  "initialPrompt": "Здравствуйте! Я дизайнер интерьеров. Расскажите о вашем пространстве — какую комнату хотите обновить?",
+  "systemPrompt": "You are an interior designer. Ask about room, style preferences (modern, classic, minimalist), budget, and colors they like. Give suggestions for furniture and decor. Keep replies short.",
+  "completionCriteria": "User received design suggestions matching their preferences.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нравится современный стиль (I like modern style)",
+    "Какие цвета вы рекомендуете? (What colors do you recommend?)",
+    "Мой бюджет примерно... (My budget is around...)",
+    "Нужна новая мебель (I need new furniture)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "интерьер",
+      "definition": "interior"
+    },
+    {
+      "word": "стиль",
+      "definition": "style"
+    },
+    {
+      "word": "мебель",
+      "definition": "furniture"
+    },
+    {
+      "word": "бюджет",
+      "definition": "budget"
+    },
+    {
+      "word": "декор",
+      "definition": "decor"
+    },
+    {
+      "word": "освещение",
+      "definition": "lighting"
+    }
+  ],
+  "objectives": [
+    "Describe the room you want to decorate",
+    "Share your style preferences (стиль)",
+    "Discuss your budget (бюджет)",
+    "Get furniture recommendations (мебель)"
+  ]
+}

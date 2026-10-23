@@ -1,0 +1,730 @@
+{
+  "lessonId": "a2-029-superlatives",
+  "sets": [
+    {
+      "id": "round-1-compound-самый",
+      "title": "Compound: самый + Adjective",
+      "titleRussian": "Составная форма: самый + прилагательное",
+      "description": "Form superlatives with самый (both words decline)",
+      "descriptionRussian": "Превосходная степень с самый (оба слова склоняются)",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Это _____ большой город. (This is the biggest city.)",
+              "promptEnglish": "Masculine: самый.",
+              "options": [
+                "самый",
+                "самая",
+                "самое",
+                "самые"
+              ],
+              "answer": "самый",
+              "hint": "Город = masculine: самый.",
+              "explanation": "Masculine: самый большой город."
+            },
+            {
+              "prompt": "Она _____ умная студентка. (She is the smartest student.)",
+              "promptEnglish": "Feminine: самая.",
+              "options": [
+                "самая",
+                "самый",
+                "самое",
+                "самые"
+              ],
+              "answer": "самая",
+              "hint": "Студентка = feminine: самая.",
+              "explanation": "Feminine: самая умная студентка."
+            },
+            {
+              "prompt": "Это _____ важное решение. (This is the most important decision.)",
+              "promptEnglish": "Neuter: самое.",
+              "options": [
+                "самое",
+                "самый",
+                "самая",
+                "самые"
+              ],
+              "answer": "самое",
+              "hint": "Решение = neuter: самое.",
+              "explanation": "Neuter: самое важное решение."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Это _____ интересные книги. (These are the most interesting books.)",
+              "promptEnglish": "Plural: самые.",
+              "options": [
+                "самые",
+                "самый",
+                "самая",
+                "самое"
+              ],
+              "answer": "самые",
+              "hint": "Книги = plural: самые.",
+              "explanation": "Plural: самые интересные книги."
+            },
+            {
+              "prompt": "Мы были в _____ красивом городе. (We were in the most beautiful city.)",
+              "promptEnglish": "Prepositional masculine: самом.",
+              "options": [
+                "самом",
+                "самый",
+                "самому",
+                "самым"
+              ],
+              "answer": "самом",
+              "hint": "В + prepositional: самом.",
+              "explanation": "Prepositional: в самом красивом городе."
+            },
+            {
+              "prompt": "Я читаю _____ интересную книгу. (I'm reading the most interesting book.)",
+              "promptEnglish": "Accusative feminine: самую.",
+              "options": [
+                "самую",
+                "самая",
+                "самой",
+                "самым"
+              ],
+              "answer": "самую",
+              "hint": "Accusative feminine: самую.",
+              "explanation": "Accusative: самую интересную книгу."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Это _____ длинная река. (This is the longest river.)",
+          "Он живёт в _____ маленьком городе. (He lives in the smallest city.)",
+          "Я купил _____ дешёвый билет. (I bought the cheapest ticket.)"
+        ],
+        "choices": [
+          "самая",
+          "самом",
+          "самый",
+          "самое",
+          "самые"
+        ],
+        "answers": [
+          "самая",
+          "самом",
+          "самый"
+        ],
+        "grammarFocus": "Самый agrees in gender, number, and case with the noun",
+        "hints": [
+          "Река = feminine: самая.",
+          "В + prepositional masculine: самом.",
+          "Билет = masculine nominative: самый."
+        ],
+        "explanations": [
+          "Feminine: самая длинная река.",
+          "Prepositional: в самом маленьком городе.",
+          "Masculine: самый дешёвый билет."
+        ],
+        "options": [
+          [
+            "самого",
+            "самой",
+            "самая",
+            "самую"
+          ],
+          [
+            "самого",
+            "сам",
+            "самом",
+            "само"
+          ],
+          [
+            "самый",
+            "самому",
+            "самым",
+            "самого"
+          ]
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Это самый красивая девушка.",
+          "error": "самый",
+          "correction": "самая",
+          "explanation": "Девушка = feminine. Самая (not самый).",
+          "options": [
+            "самая",
+            "самое",
+            "самые"
+          ]
+        },
+        {
+          "sentence": "Мы живём в самый большом городе.",
+          "error": "самый",
+          "correction": "самом",
+          "explanation": "В + prepositional: самом (not самый).",
+          "options": [
+            "самом",
+            "самым",
+            "самого"
+          ]
+        },
+        {
+          "sentence": "Это самая важное решение.",
+          "error": "самая",
+          "correction": "самое",
+          "explanation": "Решение = neuter. Самое (not самая).",
+          "options": [
+            "самое",
+            "самый",
+            "самые"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-2-irregulars",
+      "title": "Irregular Superlatives",
+      "titleRussian": "Нестандартные формы",
+      "description": "Practice лучший, худший, and other irregular superlatives",
+      "descriptionRussian": "Лучший, худший и другие исключения",
+      "icon": "exclamationmark.triangle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Он мой _____ друг. (He is my best friend.)",
+              "promptEnglish": "Best = irregular.",
+              "options": [
+                "лучший",
+                "хороший",
+                "более хороший",
+                "хорошейший"
+              ],
+              "answer": "лучший",
+              "hint": "Хороший → лучший (best).",
+              "explanation": "Irregular superlative: лучший друг."
+            },
+            {
+              "prompt": "Это _____ результат. (This is the worst result.)",
+              "promptEnglish": "Worst = irregular.",
+              "options": [
+                "худший",
+                "плохой",
+                "более плохой",
+                "плохейший"
+              ],
+              "answer": "худший",
+              "hint": "Плохой → худший (worst).",
+              "explanation": "Irregular superlative: худший результат."
+            },
+            {
+              "prompt": "Она моя _____ подруга. (She is my best friend.)",
+              "promptEnglish": "Best, feminine.",
+              "options": [
+                "лучшая",
+                "лучший",
+                "лучшее",
+                "лучшие"
+              ],
+              "answer": "лучшая",
+              "hint": "Feminine: лучшая.",
+              "explanation": "Feminine: лучшая подруга."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Это были _____ дни. (These were the best days.)",
+              "promptEnglish": "Best, plural.",
+              "options": [
+                "лучшие",
+                "лучший",
+                "лучшая",
+                "лучшее"
+              ],
+              "answer": "лучшие",
+              "hint": "Plural: лучшие.",
+              "explanation": "Plural: лучшие дни."
+            },
+            {
+              "prompt": "Я живу в _____ районе. (I live in the best neighborhood.)",
+              "promptEnglish": "Best, prepositional masculine.",
+              "options": [
+                "лучшем",
+                "лучший",
+                "лучшему",
+                "лучшим"
+              ],
+              "answer": "лучшем",
+              "hint": "В + prepositional: лучшем.",
+              "explanation": "Prepositional: в лучшем районе."
+            },
+            {
+              "prompt": "Я видел _____ фильм. (I saw the best film.)",
+              "promptEnglish": "Best, accusative inanimate masculine.",
+              "options": [
+                "лучший",
+                "лучшего",
+                "лучшему",
+                "лучшим"
+              ],
+              "answer": "лучший",
+              "hint": "Inanimate accusative = nominative.",
+              "explanation": "Accusative inanimate: лучший фильм."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort: compound (самый) or irregular superlative?",
+        "categories": [
+          "Compound (самый + adj)",
+          "Irregular"
+        ],
+        "items": [
+          {
+            "word": "самый большой",
+            "category": "Compound (самый + adj)"
+          },
+          {
+            "word": "лучший",
+            "category": "Irregular"
+          },
+          {
+            "word": "самый интересный",
+            "category": "Compound (самый + adj)"
+          },
+          {
+            "word": "худший",
+            "category": "Irregular"
+          },
+          {
+            "word": "самый красивый",
+            "category": "Compound (самый + adj)"
+          },
+          {
+            "word": "лучшая",
+            "category": "Irregular"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "sourceText": "She is my best friend.",
+          "targetText": "Она моя лучшая подруга.",
+          "hint": "Best friend (fem) = лучшая подруга.",
+          "explanation": "Irregular feminine: лучшая.",
+          "keyWord": "лучшая",
+          "options": [
+            "лучшая",
+            "лучший",
+            "лучшее",
+            "лучшие"
+          ]
+        },
+        {
+          "sourceText": "This is the worst day.",
+          "targetText": "Это худший день.",
+          "hint": "Worst = худший.",
+          "explanation": "Irregular: худший день.",
+          "keyWord": "худший",
+          "options": [
+            "худший",
+            "худшая",
+            "худшее",
+            "худшие"
+          ]
+        },
+        {
+          "sourceText": "These are the best students.",
+          "targetText": "Это лучшие студенты.",
+          "hint": "Best (plural) = лучшие.",
+          "explanation": "Irregular plural: лучшие.",
+          "keyWord": "лучшие",
+          "options": [
+            "лучшие",
+            "лучший",
+            "лучшая",
+            "лучшее"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-simple-superlative",
+      "title": "Simple: -ейший/-айший",
+      "titleRussian": "Простая форма: -ейший/-айший",
+      "description": "Practice the formal/bookish simple superlative forms",
+      "descriptionRussian": "Книжные формы превосходной степени",
+      "icon": "book.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Это _____ технология. (This is the newest technology.)",
+              "promptEnglish": "Simple superlative of новый.",
+              "options": [
+                "новейшая",
+                "самая новая",
+                "новая",
+                "новее"
+              ],
+              "answer": "новейшая",
+              "hint": "Simple superlative: новый → новейший. Fem: новейшая.",
+              "explanation": "Simple superlative: новейшая (formal)."
+            },
+            {
+              "prompt": "Это _____ задача. (This is the most important task.)",
+              "promptEnglish": "Simple superlative of важный.",
+              "options": [
+                "важнейшая",
+                "самая важная",
+                "важная",
+                "важнее"
+              ],
+              "answer": "важнейшая",
+              "hint": "Simple: важный → важнейший. Fem: важнейшая.",
+              "explanation": "Simple superlative: важнейшая (formal)."
+            },
+            {
+              "prompt": "Это _____ гора. (This is the highest mountain.)",
+              "promptEnglish": "Simple superlative of высокий.",
+              "options": [
+                "высочайшая",
+                "самая высокая",
+                "высокая",
+                "выше"
+              ],
+              "answer": "высочайшая",
+              "hint": "After к: к → ч + -айший. Высокий → высочайший.",
+              "explanation": "Simple: высокий → высочайшая (к → ч)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Это _____ важная задача. (compound, everyday)",
+          "contextEnglish": "Everyday style: самая.",
+          "options": [
+            "самая",
+            "важнейшая"
+          ],
+          "answer": "самая",
+          "explanation": "Everyday: самая важная задача."
+        },
+        {
+          "context": "Это _____ задача. (simple, formal/bookish)",
+          "contextEnglish": "Formal style: -ейшая.",
+          "options": [
+            "важнейшая",
+            "самая важная"
+          ],
+          "answer": "важнейшая",
+          "explanation": "Formal: важнейшая задача."
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "новейший, важнейший, красивейший, сильнейший",
+          "question": "What pattern do these simple superlatives follow?",
+          "options": [
+            "Stem + -ейший (regular)",
+            "Stem + -айший (after г/к/х)",
+            "Самый + adjective"
+          ],
+          "answer": "Stem + -ейший (regular)",
+          "explanation": "Regular simple superlative: stem + -ейший."
+        },
+        {
+          "sentence": "высочайший (высокий), строжайший (строгий), тишайший (тихий)",
+          "question": "What happens with г, к, х before -айший?",
+          "options": [
+            "Consonant changes: г→ж, к→ч, х→ш",
+            "No change",
+            "The ending changes to -ейший"
+          ],
+          "answer": "Consonant changes: г→ж, к→ч, х→ш",
+          "explanation": "Before -айший: г→ж, к→ч, х→ш."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Это _____ открытие. (This is the newest discovery.) - simple form",
+          "Он _____ спортсмен. (He is the strongest athlete.) - simple form",
+          "Это _____ вопрос. (This is the most important question.) - simple form"
+        ],
+        "choices": [
+          "новейшее",
+          "сильнейший",
+          "важнейший",
+          "новый",
+          "сильный"
+        ],
+        "answers": [
+          "новейшее",
+          "сильнейший",
+          "важнейший"
+        ],
+        "grammarFocus": "Simple superlative: -ейший (regular), -айший (after г/к/х)",
+        "hints": [
+          "Neuter: новейшее (новый → новейший → новейшее).",
+          "Masculine: сильнейший.",
+          "Masculine: важнейший."
+        ],
+        "explanations": [
+          "Neuter: новейшее открытие.",
+          "Masculine: сильнейший спортсмен.",
+          "Masculine: важнейший вопрос."
+        ],
+        "options": [
+          [
+            "новому",
+            "нового",
+            "новейшее",
+            "новое"
+          ],
+          [
+            "сильному",
+            "сильнейший",
+            "сильным",
+            "сильного"
+          ],
+          [
+            "важным",
+            "важнейший",
+            "важному",
+            "важного"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-declining-самый",
+      "title": "Declining самый in Context",
+      "titleRussian": "Склонение самый в контексте",
+      "description": "Practice самый in different cases with its adjective",
+      "descriptionRussian": "Самый в разных падежах с прилагательным",
+      "icon": "tablecells",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы были в _____ _____ городе. (We were in the most beautiful city.)",
+              "promptEnglish": "В + prepositional masculine.",
+              "options": [
+                "самом красивом",
+                "самый красивый",
+                "самому красивому",
+                "самым красивым"
+              ],
+              "answer": "самом красивом",
+              "hint": "В + prepositional: самом красивом.",
+              "explanation": "Prepositional: в самом красивом городе."
+            },
+            {
+              "prompt": "Я видел _____ _____ фильм. (I saw the most interesting film.)",
+              "promptEnglish": "Accusative inanimate masculine.",
+              "options": [
+                "самый интересный",
+                "самого интересного",
+                "самому интересному",
+                "самым интересным"
+              ],
+              "answer": "самый интересный",
+              "hint": "Inanimate accusative = nominative: самый.",
+              "explanation": "Accusative inanimate: самый интересный фильм."
+            },
+            {
+              "prompt": "Она работает с _____ _____ людьми. (She works with the best people.)",
+              "promptEnglish": "С + instrumental plural.",
+              "options": [
+                "лучшими",
+                "лучшие",
+                "лучших",
+                "лучшим"
+              ],
+              "answer": "лучшими",
+              "hint": "С + instrumental plural: лучшими.",
+              "explanation": "Instrumental plural: с лучшими людьми."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я знаю _____ _____ студентку. (I know the smartest student.)",
+              "promptEnglish": "Accusative feminine.",
+              "options": [
+                "самую умную",
+                "самая умная",
+                "самой умной",
+                "самым умным"
+              ],
+              "answer": "самую умную",
+              "hint": "Accusative feminine: самую умную.",
+              "explanation": "Accusative: самую умную студентку."
+            },
+            {
+              "prompt": "Это книга _____ _____ автора. (This is the book of the most famous author.)",
+              "promptEnglish": "Genitive masculine.",
+              "options": [
+                "самого известного",
+                "самый известный",
+                "самому известному",
+                "самым известным"
+              ],
+              "answer": "самого известного",
+              "hint": "Genitive masculine: самого известного.",
+              "explanation": "Genitive: самого известного автора."
+            },
+            {
+              "prompt": "Я помогаю _____ _____ студентам. (I help the youngest students.)",
+              "promptEnglish": "Dative plural.",
+              "options": [
+                "самым младшим",
+                "самые младшие",
+                "самых младших",
+                "самыми младшими"
+              ],
+              "answer": "самым младшим",
+              "hint": "Dative plural: самым.",
+              "explanation": "Dative: самым младшим студентам."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All superlative forms: compound, simple, irregular, declining",
+      "descriptionRussian": "Все формы: составная, простая, исключения, склонение",
+      "icon": "bolt.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Это _____ высокая гора в мире. (This is the highest mountain in the world.)",
+              "promptEnglish": "Compound feminine.",
+              "options": [
+                "самая",
+                "самый",
+                "самое",
+                "самые"
+              ],
+              "answer": "самая",
+              "hint": "Гора = feminine: самая.",
+              "explanation": "Feminine: самая высокая гора."
+            },
+            {
+              "prompt": "Он _____ друг. (He is the best friend.)",
+              "promptEnglish": "Irregular.",
+              "options": [
+                "лучший",
+                "самый хороший",
+                "хороший",
+                "более хороший"
+              ],
+              "answer": "лучший",
+              "hint": "Irregular: лучший.",
+              "explanation": "Irregular superlative: лучший."
+            },
+            {
+              "prompt": "Это _____ проблема. (This is the most serious problem.)",
+              "promptEnglish": "Simple superlative (formal).",
+              "options": [
+                "серьёзнейшая",
+                "самая серьёзная",
+                "серьёзная",
+                "серьёзнее"
+              ],
+              "answer": "серьёзнейшая",
+              "hint": "Simple: серьёзный → серьёзнейший. Fem: -ая.",
+              "explanation": "Simple superlative: серьёзнейшая."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Мы живём в _____ городе. (We live in the best city.)",
+              "promptEnglish": "Irregular + prepositional.",
+              "options": [
+                "лучшем",
+                "лучший",
+                "лучшему",
+                "лучшим"
+              ],
+              "answer": "лучшем",
+              "hint": "В + prepositional: лучшем.",
+              "explanation": "Prepositional: в лучшем городе."
+            },
+            {
+              "prompt": "Я видел _____ _____ фильмы. (I saw the most interesting films.)",
+              "promptEnglish": "Accusative inanimate plural.",
+              "options": [
+                "самые интересные",
+                "самых интересных",
+                "самым интересным",
+                "самыми интересными"
+              ],
+              "answer": "самые интересные",
+              "hint": "Inanimate plural accusative = nominative: самые.",
+              "explanation": "Accusative inanimate plural: самые интересные."
+            },
+            {
+              "prompt": "Это был _____ день. (That was the worst day.)",
+              "promptEnglish": "Irregular.",
+              "options": [
+                "худший",
+                "плохой",
+                "самый плохой",
+                "хуже"
+              ],
+              "answer": "худший",
+              "hint": "Irregular: плохой → худший.",
+              "explanation": "Irregular superlative: худший день."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Это самый красивая картина.",
+          "error": "самый",
+          "correction": "самая",
+          "explanation": "Картина = feminine. Самая (not самый).",
+          "options": [
+            "самая",
+            "самое",
+            "самые"
+          ]
+        },
+        {
+          "sentence": "Он самый лучший врач.",
+          "error": "самый лучший",
+          "correction": "лучший",
+          "explanation": "Лучший is already superlative. Don't add самый.",
+          "options": [
+            "лучший",
+            "более лучший",
+            "лучшего"
+          ]
+        }
+      ]
+    }
+  ]
+}

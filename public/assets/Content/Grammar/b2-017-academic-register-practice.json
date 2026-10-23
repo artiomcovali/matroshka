@@ -1,0 +1,635 @@
+{
+  "lessonId": "b2-017-academic-register",
+  "sets": [
+    {
+      "id": "round-1-academic-recognition",
+      "title": "Academic Feature Recognition",
+      "titleRussian": "Распознавание научного стиля",
+      "description": "Identify hallmarks of academic Russian and sort features by category",
+      "descriptionRussian": "Определите признаки научного стиля и распределите их по категориям",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which phrase is most appropriate in an academic paper?",
+              "promptEnglish": "Choose the academic-register option.",
+              "options": [
+                "Мы думаем, что это правда.",
+                "Я уверен, что это так.",
+                "Считается, что данное явление обусловлено...",
+                "Все знают, что это правда."
+              ],
+              "answer": "Считается, что данное явление обусловлено...",
+              "hint": "Academic writing avoids personal pronouns and colloquial phrasing.",
+              "explanation": "Считается, что... is an impersonal construction typical of научный стиль. It removes the author's personal voice for objectivity."
+            },
+            {
+              "prompt": "\"Данное исследование посвящено анализу...\" belongs to which register?",
+              "promptEnglish": "Identify the register of this sentence.",
+              "options": [
+                "Colloquial (разговорный)",
+                "Journalistic (публицистический)",
+                "Literary (художественный)",
+                "Academic (научный)"
+              ],
+              "answer": "Academic (научный)",
+              "hint": "Данное, исследование, посвящено, анализ are all hallmarks of formal academic prose.",
+              "explanation": "The abstract noun исследование, the demonstrative данное, the passive посвящено, and the nominalization анализу all signal научный стиль."
+            },
+            {
+              "prompt": "Which hedging word would a Russian academic use to soften a claim?",
+              "promptEnglish": "Select the academic hedge.",
+              "options": [
+                "точно",
+                "по-видимому",
+                "конечно",
+                "просто"
+              ],
+              "answer": "по-видимому",
+              "hint": "Academic writers hedge rather than assert with certainty.",
+              "explanation": "По-видимому (apparently) hedges a claim. Точно and конечно express certainty, which academic prose typically avoids."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Which sentence uses an impersonal passive construction for objectivity?",
+              "promptEnglish": "Choose the impersonal academic construction.",
+              "options": [
+                "Эксперимент был проведён в лабораторных условиях.",
+                "Я провёл эксперимент.",
+                "Мы сделали эксперимент.",
+                "Они провели эксперимент вчера."
+              ],
+              "answer": "Эксперимент был проведён в лабораторных условиях.",
+              "hint": "Academic writing foregrounds the action, not the actor.",
+              "explanation": "Был проведён is a passive construction that removes the personal subject. Academic Russian prefers this impersonal framing."
+            },
+            {
+              "prompt": "What makes \"можно предположить, что...\" academic in tone?",
+              "promptEnglish": "Explain the academic function of this phrase.",
+              "options": [
+                "It uses past tense.",
+                "It uses a perfective verb.",
+                "It addresses the reader directly.",
+                "It hedges a hypothesis without personal attribution."
+              ],
+              "answer": "It hedges a hypothesis without personal attribution.",
+              "hint": "This phrase avoids я думаю or мы считаем.",
+              "explanation": "Можно предположить (one may assume) is an impersonal hedging construction. It introduces a hypothesis without naming who holds it."
+            },
+            {
+              "prompt": "\"Согласно данным последних исследований, ...\" is an example of:",
+              "promptEnglish": "Identify the function of this phrase.",
+              "options": [
+                "A personal opinion marker",
+                "A colloquial expression",
+                "A command form",
+                "A citation/reference phrase"
+              ],
+              "answer": "A citation/reference phrase",
+              "hint": "This phrase introduces evidence from external sources.",
+              "explanation": "Согласно данным (according to data) is a standard academic citation formula that references external research."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "In academic Russian, \"по мнению автора\" serves to:",
+              "promptEnglish": "What function does this phrase perform?",
+              "options": [
+                "Express certainty",
+                "Attribute a view to a specific source",
+                "Introduce a counterargument",
+                "Signal agreement with the reader"
+              ],
+              "answer": "Attribute a view to a specific source",
+              "hint": "По мнению + genitive names whose opinion is being reported.",
+              "explanation": "По мнению автора (in the author's opinion) attributes a claim to a named source, a key academic citation practice."
+            },
+            {
+              "prompt": "Which compound term is typical of academic register?",
+              "promptEnglish": "Select the academic compound.",
+              "options": [
+                "социально-экономическое развитие",
+                "очень сложная вещь",
+                "трудная проблема",
+                "большая работа"
+              ],
+              "answer": "социально-экономическое развитие",
+              "hint": "Academic Russian favors hyphenated compound adjectives with abstract nouns.",
+              "explanation": "Социально-экономическое развитие is a compound academic term. Colloquial speech would say something simpler."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these features into academic-register categories",
+        "categories": [
+          "Impersonal Constructions",
+          "Hedging Phrases",
+          "Citation Formulas"
+        ],
+        "items": [
+          {
+            "word": "Считается, что...",
+            "category": "Impersonal Constructions"
+          },
+          {
+            "word": "по-видимому",
+            "category": "Hedging Phrases"
+          },
+          {
+            "word": "согласно данным",
+            "category": "Citation Formulas"
+          },
+          {
+            "word": "Было установлено, что...",
+            "category": "Impersonal Constructions"
+          },
+          {
+            "word": "вероятно",
+            "category": "Hedging Phrases"
+          },
+          {
+            "word": "по мнению исследователей",
+            "category": "Citation Formulas"
+          },
+          {
+            "word": "Отмечается, что...",
+            "category": "Impersonal Constructions"
+          },
+          {
+            "word": "можно предположить",
+            "category": "Hedging Phrases"
+          },
+          {
+            "word": "как показывает анализ",
+            "category": "Citation Formulas"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-2-hedging-citation",
+      "title": "Hedging and Citation Phrases",
+      "titleRussian": "Хеджирование и ссылки на источники",
+      "description": "Practice hedging language and citation formulas in academic contexts",
+      "descriptionRussian": "Потренируйте язык хеджирования и формулы ссылок в научном контексте",
+      "icon": "text.quote",
+      "fillInBlank": {
+        "blanks": [
+          "_____, данный метод не является единственным решением. (Apparently, this method is not the only solution.)",
+          "_____ последних исследований, уровень загрязнения снизился. (According to recent research data, the pollution level decreased.)",
+          "_____, что данный фактор играет ключевую роль. (One may assume that this factor plays a key role.)",
+          "_____ автора, проблема требует комплексного подхода. (In the author's opinion, the problem requires an integrated approach.)",
+          "Результаты эксперимента _____ свидетельствуют о положительной динамике. (The experiment results probably indicate a positive trend.)"
+        ],
+        "choices": [
+          "По-видимому",
+          "Согласно данным",
+          "Можно предположить",
+          "По мнению",
+          "вероятно"
+        ],
+        "answers": [
+          "По-видимому",
+          "Согласно данным",
+          "Можно предположить",
+          "По мнению",
+          "вероятно"
+        ],
+        "grammarFocus": "Academic hedging and citation formulas",
+        "hints": [
+          "A hedge meaning 'apparently' or 'seemingly.'",
+          "A citation formula that references data from a specific source.",
+          "An impersonal hedging construction: 'it is possible to assume.'",
+          "An attribution phrase followed by a genitive noun.",
+          "An adverb meaning 'probably' that softens a claim."
+        ],
+        "explanations": [
+          "По-видимому softens the claim, avoiding definitive assertion.",
+          "Согласно данным + genitive is the standard way to cite research data.",
+          "Можно предположить introduces a hypothesis without personal attribution.",
+          "По мнению + genitive attributes a viewpoint to a named source.",
+          "Вероятно hedges by marking the conclusion as probable rather than certain."
+        ],
+        "options": [
+          [
+            "Безусловно",
+            "Очевидно",
+            "Несомненно",
+            "По-видимому"
+          ],
+          [
+            "По-видимому",
+            "Согласно данным",
+            "Можно предположить",
+            "Как показано"
+          ],
+          [
+            "Можно предположить",
+            "Известно",
+            "Согласно данным",
+            "Доказано"
+          ],
+          [
+            "Согласно данным",
+            "По мнению",
+            "Как считает",
+            "По-видимому"
+          ],
+          [
+            "несомненно",
+            "безусловно",
+            "очевидно",
+            "вероятно"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "_____, эта теория верна. (The speaker hedges, expressing uncertainty.)",
+          "contextEnglish": "Choose the hedge, not the certainty marker.",
+          "options": [
+            "Вероятно",
+            "Безусловно"
+          ],
+          "answer": "Вероятно",
+          "explanation": "Вероятно (probably) hedges the claim. Безусловно (undoubtedly) asserts certainty, which academic prose avoids."
+        },
+        {
+          "context": "_____, уровень безработицы вырос. (Citing external research data, not personal opinion.)",
+          "contextEnglish": "Choose the citation formula, not the personal opinion marker.",
+          "options": [
+            "Согласно данным исследования",
+            "Я думаю"
+          ],
+          "answer": "Согласно данным исследования",
+          "explanation": "Согласно данным исследования cites external evidence objectively. Я думаю is personal and colloquial."
+        },
+        {
+          "context": "_____, данный подход эффективен. (Hedging: it seems, apparently.)",
+          "contextEnglish": "Choose the academic hedge, not the casual filler.",
+          "options": [
+            "По-видимому",
+            "Ну типа"
+          ],
+          "answer": "По-видимому",
+          "explanation": "По-видимому is the academic hedge (apparently). Ну типа is slang and inappropriate in writing."
+        },
+        {
+          "context": "_____ профессора Иванова, результаты подтверждают гипотезу. (Attributing a view to a specific scholar.)",
+          "contextEnglish": "Choose the attribution formula.",
+          "options": [
+            "По мнению",
+            "Как сказал"
+          ],
+          "answer": "По мнению",
+          "explanation": "По мнению + genitive is the standard academic attribution. Как сказал is too colloquial for written academic prose."
+        },
+        {
+          "context": "_____, что эти факторы взаимосвязаны. (Introducing a hypothesis impersonally.)",
+          "contextEnglish": "Choose the impersonal hypothesis marker.",
+          "options": [
+            "Можно предположить",
+            "Я уверен"
+          ],
+          "answer": "Можно предположить",
+          "explanation": "Можно предположить hedges impersonally. Я уверен is personal and assertive, unsuitable for academic hedging."
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which phrase best introduces a hypothesis in an academic paper?",
+              "promptEnglish": "Select the academic hypothesis marker.",
+              "options": [
+                "Я точно знаю, что...",
+                "Можно предположить, что...",
+                "Все говорят, что...",
+                "Мне кажется, что..."
+              ],
+              "answer": "Можно предположить, что...",
+              "hint": "Academic hypotheses are introduced impersonally.",
+              "explanation": "Можно предположить is impersonal and tentative. Мне кажется is too informal; я точно знаю is too assertive."
+            },
+            {
+              "prompt": "\"Как показывает практика\" is used in academic writing to:",
+              "promptEnglish": "Identify the function.",
+              "options": [
+                "Express personal doubt",
+                "Give a direct command",
+                "Reference practical evidence or experience",
+                "Introduce a joke"
+              ],
+              "answer": "Reference practical evidence or experience",
+              "hint": "This phrase grounds a claim in observed practice.",
+              "explanation": "Как показывает практика (as practice shows) references empirical evidence, a standard academic move."
+            },
+            {
+              "prompt": "Which hedge best fits: \"_____, данные результаты требуют дополнительной проверки.\"",
+              "promptEnglish": "Fill in with the appropriate hedge.",
+              "options": [
+                "Очевидно",
+                "Точно",
+                "Ясно",
+                "По-видимому"
+              ],
+              "answer": "По-видимому",
+              "hint": "The sentence calls for caution, not certainty.",
+              "explanation": "По-видимому (apparently/seemingly) appropriately hedges the call for further verification. Очевидно and точно imply too much certainty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-transform-academic",
+      "title": "Casual to Academic Transform",
+      "titleRussian": "Из разговорного в научный",
+      "description": "Transform colloquial sentences into academic register",
+      "descriptionRussian": "Преобразуйте разговорные предложения в научный стиль",
+      "icon": "arrow.triangle.2.circlepath",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which is the academic equivalent of \"Учёные выяснили, что...\"?",
+              "promptEnglish": "Choose the academic rephrasing.",
+              "options": [
+                "Учёные узнали, что...",
+                "Было установлено, что...",
+                "Они поняли, что...",
+                "Все узнали, что..."
+              ],
+              "answer": "Было установлено, что...",
+              "hint": "Academic style removes the personal subject.",
+              "explanation": "Было установлено, что... is an impersonal passive that foregrounds the finding, not the researchers."
+            },
+            {
+              "prompt": "What is the nominalization of \"анализировать\"?",
+              "promptEnglish": "Choose the correct abstract noun.",
+              "options": [
+                "анализ",
+                "аналитика",
+                "аналитический",
+                "анализировка"
+              ],
+              "answer": "анализ",
+              "hint": "The standard academic nominalization, not the adjective form.",
+              "explanation": "Анализ is the standard nominalization used in academic writing (проведён анализ, в ходе анализа)."
+            },
+            {
+              "prompt": "Which sentence demonstrates academic nominalization?",
+              "promptEnglish": "Identify the nominalized construction.",
+              "options": [
+                "Мы быстро развиваем проект.",
+                "Развитие проекта идёт быстрыми темпами.",
+                "Проект развивается быстро.",
+                "Надо развивать проект быстрее."
+              ],
+              "answer": "Развитие проекта идёт быстрыми темпами.",
+              "hint": "Look for the sentence where the verb became a noun.",
+              "explanation": "Развитие (development) is the nominalization of развивать. The entire action is repackaged as a noun phrase."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Which transformation makes this sentence academic? \"Мы заметили, что температура выросла.\"",
+              "promptEnglish": "Select the best academic rewrite.",
+              "options": [
+                "Было отмечено повышение температуры.",
+                "Температура стала больше.",
+                "Мы увидели, что стало теплее.",
+                "Температура поднялась, мы это заметили."
+              ],
+              "answer": "Было отмечено повышение температуры.",
+              "hint": "Use an impersonal passive + nominalization.",
+              "explanation": "Было отмечено (impersonal passive) + повышение (nominalization of повысить/вырасти) is proper academic style."
+            },
+            {
+              "prompt": "What role does \"данный\" play in academic Russian?",
+              "promptEnglish": "Identify the function of данный.",
+              "options": [
+                "It means 'given as a gift.'",
+                "It replaces этот/эта/это in formal prose.",
+                "It is a verb meaning 'to give.'",
+                "It is only used in legal documents."
+              ],
+              "answer": "It replaces этот/эта/это in formal prose.",
+              "hint": "Данный is the formal equivalent of a common demonstrative.",
+              "explanation": "Данный replaces этот in academic and formal writing: данное исследование, данная проблема, данный метод."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Составьте и переведите",
+      "description": "Build academic sentences from parts and translate into academic Russian",
+      "descriptionRussian": "Составьте научные предложения из частей и переведите на научный русский",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "It has been established that this method is effective.",
+          "answer": "Было установлено, что данный метод является эффективным.",
+          "acceptableVariants": [
+            "Установлено, что данный метод эффективен.",
+            "Было установлено, что данный метод эффективен."
+          ],
+          "hint": "Use an impersonal passive (было установлено) + что clause",
+          "grammarFocus": "Impersonal passive construction",
+          "keyWord": "установлено",
+          "options": [
+            "установлено",
+            "установлен",
+            "установлена",
+            "установили"
+          ]
+        },
+        {
+          "english": "According to the author, the problem requires further study.",
+          "answer": "По мнению автора, проблема требует дальнейшего изучения.",
+          "acceptableVariants": [
+            "По мнению автора, данная проблема требует дальнейшего исследования.",
+            "По мнению автора, эта проблема нуждается в дальнейшем изучении."
+          ],
+          "hint": "Use по мнению + genitive for attribution, then nominalization for study",
+          "grammarFocus": "Citation formula + nominalization",
+          "keyWord": "мнению",
+          "options": [
+            "мнению",
+            "мнение",
+            "мнения",
+            "мнением"
+          ]
+        },
+        {
+          "english": "The development of this phenomenon has been studied insufficiently.",
+          "answer": "Развитие данного явления изучено недостаточно.",
+          "acceptableVariants": [
+            "Развитие этого явления недостаточно изучено.",
+            "Данное явление изучено недостаточно."
+          ],
+          "hint": "Use abstract noun развитие + passive participle изучено",
+          "grammarFocus": "Nominalization + passive",
+          "keyWord": "развитие",
+          "options": [
+            "развитие",
+            "развития",
+            "развитием",
+            "развивать"
+          ]
+        },
+        {
+          "english": "One may assume that these results are not accidental.",
+          "answer": "Можно предположить, что данные результаты не являются случайными.",
+          "acceptableVariants": [
+            "Можно предположить, что эти результаты не случайны.",
+            "Можно предположить, что полученные результаты не являются случайными."
+          ],
+          "hint": "Use the impersonal hedge можно предположить + являются for academic 'to be'",
+          "grammarFocus": "Impersonal hedging",
+          "keyWord": "предположить",
+          "options": [
+            "предположить",
+            "предположил",
+            "предположение",
+            "предполагать"
+          ]
+        },
+        {
+          "english": "As the analysis shows, these factors are interconnected.",
+          "answer": "Как показывает анализ, данные факторы взаимосвязаны.",
+          "acceptableVariants": [
+            "Как показывает проведённый анализ, эти факторы взаимосвязаны.",
+            "Анализ показывает, что данные факторы взаимосвязаны."
+          ],
+          "hint": "Use как показывает + noun for the citation frame",
+          "grammarFocus": "Citation formula",
+          "keyWord": "показывает",
+          "options": [
+            "показывает",
+            "показывают",
+            "показывал",
+            "показать"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Academic Challenge",
+      "titleRussian": "Смешанное академическое задание",
+      "description": "All academic register skills combined in varied exercises",
+      "descriptionRussian": "Все навыки научного стиля в разных упражнениях",
+      "icon": "star.fill",
+      "errorCorrection": [],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which sentence is written in proper academic register?",
+              "promptEnglish": "Select the fully academic sentence.",
+              "options": [
+                "Мы нашли, что это работает.",
+                "Было обнаружено, что данный метод эффективен.",
+                "Оказывается, это правда.",
+                "Мне кажется, всё нормально."
+              ],
+              "answer": "Было обнаружено, что данный метод эффективен.",
+              "hint": "Look for impersonal passive + formal vocabulary.",
+              "explanation": "Было обнаружено (impersonal passive) + данный метод (formal demonstrative) + эффективен (precise adjective) is proper academic style."
+            },
+            {
+              "prompt": "Which transformation is NOT a feature of academic register?",
+              "promptEnglish": "Identify what does not belong to academic style.",
+              "options": [
+                "Using passive voice for objectivity",
+                "Adding hedging phrases",
+                "Using first-person pronouns freely",
+                "Nominalizing verbs into abstract nouns"
+              ],
+              "answer": "Using first-person pronouns freely",
+              "hint": "Academic style deliberately minimizes personal voice.",
+              "explanation": "Academic Russian avoids first-person pronouns (я, мы) in favor of impersonal and passive constructions."
+            },
+            {
+              "prompt": "Choose the correct academic version: \"Мы поняли, что надо менять подход.\"",
+              "promptEnglish": "Select the academic rewrite.",
+              "options": [
+                "Стало понятно, что подход нуждается в изменении.",
+                "Мы поняли, что подход плохой.",
+                "Мне стало ясно, что подход не работает.",
+                "Все решили поменять подход."
+              ],
+              "answer": "Стало понятно, что подход нуждается в изменении.",
+              "hint": "Use an impersonal construction + nominalization.",
+              "explanation": "Стало понятно is impersonal. Нуждается в изменении nominalizes the idea. No personal pronouns."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "\"Следует отметить, что...\" in academic writing functions as:",
+              "promptEnglish": "Identify the function of this phrase.",
+              "options": [
+                "A hedge that softens a claim",
+                "A citation of another author",
+                "A command to the reader",
+                "A meta-discourse marker drawing attention to a key point"
+              ],
+              "answer": "A meta-discourse marker drawing attention to a key point",
+              "hint": "Следует отметить flags that what follows is noteworthy.",
+              "explanation": "Следует отметить (it should be noted) is a meta-discourse marker that highlights important information for the reader."
+            },
+            {
+              "prompt": "Which phrase correctly combines hedging with a citation?",
+              "promptEnglish": "Find the sentence that both hedges and cites.",
+              "options": [
+                "Точно известно, что это правда.",
+                "По данным исследования, вероятно, существует взаимосвязь.",
+                "Мы уверены в наших результатах.",
+                "Это просто факт."
+              ],
+              "answer": "По данным исследования, вероятно, существует взаимосвязь.",
+              "hint": "Look for a citation formula AND a hedging word in the same sentence.",
+              "explanation": "По данным исследования (citation) + вероятно (hedge) is a proper academic double move: citing evidence while maintaining caution."
+            },
+            {
+              "prompt": "What is the academic equivalent of \"получилось плохо\"?",
+              "promptEnglish": "Select the formal rephrasing.",
+              "options": [
+                "не вышло",
+                "всё провалилось",
+                "было ужасно",
+                "результаты оказались неудовлетворительными"
+              ],
+              "answer": "результаты оказались неудовлетворительными",
+              "hint": "Academic language is precise, formal, and avoids emotional evaluation.",
+              "explanation": "Результаты оказались неудовлетворительными is the academic way to report poor outcomes without colloquial tone."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

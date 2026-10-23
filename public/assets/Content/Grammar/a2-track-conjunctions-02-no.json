@@ -1,0 +1,273 @@
+{
+  "id": "a2-track-conjunctions-02-no",
+  "level": "A2",
+  "focusArea": "sentenceStructure",
+  "title": "Conjunctions 2: но (Real Contrast, Broken Expectation)",
+  "titleRussian": "Союзы 2: но (настоящее противопоставление, обманутое ожидание)",
+  "description": "Но is the strong but: it signals that the second half breaks the expectation set by the first. Я учился, но не сдал. If English however fits, Russian wants но - not а.",
+  "descriptionRussian": "Но — это сильное «но»: вторая половина ломает ожидание, заданное первой. Я учился, но не сдал. Если по-английски подходит however, по-русски нужно но, а не а.",
+  "imageName": "exclamationmark.triangle",
+  "trackId": "a2-conjunctions-mastery",
+  "trackTitle": "Conjunctions Mastery",
+  "trackTitleRussian": "Союзы",
+  "trackIndex": 2,
+  "trackTotal": 5,
+  "intro": "Now a third word, and this one is closer to what English speakers mean by 'but'. The difference from lesson 1 is direction: the previous word sets two things beside each other, while this one cancels what you just said. You studied, but you failed. If 'however' fits in English, this is the word.",
+  "rules": [
+    "Но is real, expectation-breaking 'but'. The first half sets up something; the second half cancels it: Я учился, но не сдал.",
+    "However test: if English 'but' can be replaced with 'however' and the meaning holds, the Russian word is но.",
+    "Direction: но usually pivots one thread (same situation, opposite result); а usually sets up a side-by-side parallel (different subjects in the same frame).",
+    "Common patterns for но: effort vs failed result; quality vs catch; want vs cannot; tried vs did not manage.",
+    "Comma rule: но always takes a comma in front of it when it joins two clauses. Однако is a more formal written synonym; in everyday A2 speech, stick to но."
+  ],
+  "examples": [
+    "Я учился, но не сдал. (I studied, but I did not pass.) Effort vs failed result.",
+    "Квартира красивая, но дорогая. (The apartment is beautiful, but expensive.) Quality vs catch, same subject.",
+    "Я хочу пойти, но у меня нет времени. (I want to go, but I have no time.) Want vs cannot.",
+    "Он искал ключи, но не нашёл. (He looked for the keys, but did not find them.) Tried vs did not manage.",
+    "Кофе вкусный, но холодный. (The coffee is tasty, but cold.) Positive trait vs negative trait, one drink.",
+    "Антон позвонил, но никто не ответил. (Anton called, but no one answered.) Action vs blocked outcome."
+  ],
+  "tables": [
+    {
+      "title": "а vs но: parallel contrast vs broken expectation",
+      "headers": [
+        "Type",
+        "Word",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Parallel: different subjects, same frame",
+          "cells": [
+            "а",
+            "Я учусь, а он работает."
+          ]
+        },
+        {
+          "label": "Parallel: different times",
+          "cells": [
+            "а",
+            "Сегодня тепло, а вчера было холодно."
+          ]
+        },
+        {
+          "label": "Broken expectation: effort vs failure",
+          "cells": [
+            "но",
+            "Я учился, но не сдал."
+          ]
+        },
+        {
+          "label": "Broken expectation: quality vs catch",
+          "cells": [
+            "но",
+            "Квартира красивая, но дорогая."
+          ]
+        },
+        {
+          "label": "Broken expectation: want vs cannot",
+          "cells": [
+            "но",
+            "Я хочу пойти, но не могу."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я учился, _____ не сдал экзамен.",
+          "promptEnglish": "I studied, but I did not pass the exam.",
+          "options": [
+            "а",
+            "и",
+            "но",
+            "поэтому"
+          ],
+          "answer": "но",
+          "hint": "Effort then a failed result - the expectation is broken.",
+          "explanation": "Studying should lead to passing; not passing breaks that expectation. That is the но context. The however test fits: 'I studied, however I did not pass.'"
+        },
+        {
+          "prompt": "Квартира красивая, _____ очень дорогая.",
+          "promptEnglish": "The apartment is beautiful, but very expensive.",
+          "options": [
+            "и",
+            "но",
+            "а",
+            "тоже"
+          ],
+          "answer": "но",
+          "hint": "Same apartment, attractive trait followed by a catch.",
+          "explanation": "One subject (the apartment), a positive trait followed by a negative one that pulls in the opposite direction - that is но. However test fits: 'beautiful, however expensive.'"
+        },
+        {
+          "prompt": "Я хочу пойти в кино, _____ у меня нет времени.",
+          "promptEnglish": "I want to go to the cinema, but I have no time.",
+          "options": [
+            "а",
+            "но",
+            "и",
+            "потому что"
+          ],
+          "answer": "но",
+          "hint": "Desire blocked by a limitation - classic broken expectation.",
+          "explanation": "Wanting to go sets up an expectation; 'I have no time' blocks it. That is но. The pattern 'I want to X, but I cannot' is one of the most common но frames in everyday speech."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я люблю чай, _____ Антон любит кофе.",
+          "promptEnglish": "I like tea, and Anton likes coffee.",
+          "options": [
+            "но",
+            "а",
+            "поэтому",
+            "также"
+          ],
+          "answer": "а",
+          "hint": "Different person, different drink, same frame - parallel contrast, not broken expectation.",
+          "explanation": "Two people, two different drinks, in parallel - that is а, the gentler contrast. There is no broken expectation here (my liking tea does not predict Anton's liking tea), so но would be wrong. The whereas test fits ('I like tea, whereas Anton likes coffee'), confirming а."
+        },
+        {
+          "prompt": "Он искал ключи, _____ не нашёл.",
+          "promptEnglish": "He looked for the keys, but did not find them.",
+          "options": [
+            "и",
+            "но",
+            "а",
+            "поэтому"
+          ],
+          "answer": "но",
+          "hint": "Same person, action then a blocked outcome.",
+          "explanation": "Looking for keys is supposed to lead to finding them; not finding them breaks the expectation. Classic но - the 'tried but did not manage' pattern. Same subject across both halves, with the second half cancelling the first."
+        },
+        {
+          "prompt": "Кофе вкусный, _____ уже холодный.",
+          "promptEnglish": "The coffee is tasty, but already cold.",
+          "options": [
+            "а",
+            "и",
+            "но",
+            "тоже"
+          ],
+          "answer": "но",
+          "hint": "One drink, one positive trait, one negative trait - quality vs catch.",
+          "explanation": "Same subject (the coffee), positive trait then a catch that goes against it. That is the но pattern."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Антон позвонил мне, _____ никто не ответил. (Anton called me, but no one answered.)"
+    ],
+    "choices": [
+      "и",
+      "а",
+      "но",
+      "поэтому"
+    ],
+    "answers": [
+      "но"
+    ],
+    "grammarFocus": "Calling someone is supposed to lead to a reply; 'no one answered' breaks that expectation. That is но. The same-subject reading and the 'tried but blocked' pattern both point to но, not the parallel-contrast а."
+  },
+  "minimalPairs": [
+    {
+      "context": "Я учился, _____ не сдал.",
+      "contextEnglish": "I studied, but did not pass.",
+      "options": [
+        "а",
+        "но"
+      ],
+      "answer": "но",
+      "explanation": "Same subject, effort followed by a failed result - the expectation set by 'I studied' is broken. That is но. А would mean a parallel contrast with a different subject ('I studied, whereas he did not'), which is not what is being said here."
+    },
+    {
+      "context": "Я люблю кофе, _____ Лена любит чай.",
+      "contextEnglish": "I like coffee, and Lena likes tea.",
+      "options": [
+        "а",
+        "но"
+      ],
+      "answer": "а",
+      "explanation": "Different people, different drinks, in parallel - that is а, the gentle contrast. The two halves are not at war with each other; they just sit side by side. Но would imply broken expectation, but liking coffee does not predict anything about Lena's tastes."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Урок интересный, а трудный.",
+      "translationEnglish": "The lesson is interesting, but difficult.",
+      "error": "а",
+      "correction": "но",
+      "options": [
+        "но",
+        "и",
+        "тоже"
+      ],
+      "explanation": "One subject (the lesson), one positive trait followed by a negative one that pulls against it: that is the quality-vs-catch но pattern: Урок интересный, но трудный. The however test fits ('interesting, however difficult'). А wants different subjects standing in parallel, but here the subject is the same single lesson.",
+      "hint": "Same lesson, two clashing traits - parallel contrast or broken expectation?"
+    },
+    {
+      "sentence": "Я звонил, а он не ответил.",
+      "translationEnglish": "I called, but he did not answer.",
+      "error": "а",
+      "correction": "но",
+      "options": [
+        "но",
+        "и",
+        "поэтому"
+      ],
+      "explanation": "Calling someone is supposed to lead to an answer; 'he did not answer' breaks that expectation, which takes но: Я звонил, но он не ответил. The however test fits ('I called, however he did not answer'). А would mean a flat parallel with no clash (two people simply doing different things), but here the second half cancels what the first half led you to expect."
+    },
+    {
+      "sentence": "Урок был интересный, и трудный.",
+      "translationEnglish": "The lesson was interesting, but difficult.",
+      "error": "и трудный",
+      "correction": "но трудный",
+      "options": [
+        "но трудный",
+        "а трудный",
+        "поэтому трудный"
+      ],
+      "explanation": "One subject (the lesson) carries a positive trait and then a trait that pulls the opposite way; clashing traits on one subject take но: Урок был интересный, но трудный. И simply adds in the same direction, which is wrong when the second trait works against the first (and it also wrongly drops the comma the contrast needs)."
+    },
+    {
+      "sentence": "Мы хотели пойти, поэтому пошёл дождь.",
+      "translationEnglish": "We wanted to go out, but it started raining.",
+      "error": "поэтому",
+      "correction": "но",
+      "options": [
+        "но",
+        "а",
+        "и"
+      ],
+      "explanation": "As written, поэтому makes the rain the result of our wanting to go out ('we wanted to go, therefore it rained'), which is backwards: wanting to go does not cause rain. The real relation is a broken expectation, so the word is но: Мы хотели пойти, но пошёл дождь. The plan is blocked by a new development, the classic но pattern."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "но",
+      "definition": "but (strong, expectation-breaking contrast). The first half sets up something; the second half cancels it. Always takes a comma in front when it joins two clauses.",
+      "example": "Я учился, но не сдал."
+    },
+    {
+      "term": "however test",
+      "definition": "if the English 'but' can be replaced with 'however' and the meaning holds, the Russian word is но; if not, you usually want а.",
+      "example": "'I studied, however I did not pass' → Я учился, но не сдал."
+    },
+    {
+      "term": "однако",
+      "definition": "however (a more formal, written synonym of но). Common in books and articles; in everyday A2 speech you use но.",
+      "example": "Урок был трудный. Однако мы всё поняли."
+    }
+  ]
+}

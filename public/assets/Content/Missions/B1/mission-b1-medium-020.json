@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-020",
+  "title": "Risky Investment",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "Investment advisor pushing risky products you're not comfortable with",
+  "imageName": "chart.line.uptrend.xyaxis",
+  "initialPrompt": "Рекомендую вложить всё в акции высокотехнологичных компаний. Доходность до 30% в год!",
+  "systemPrompt": "You are pushy investment advisor. Push high-risk stocks. Mention high returns but downplay risks. Offer safer options only if client firmly refuses. Keep replies short.",
+  "completionCriteria": "User got safer investment options despite advisor's pressure.",
+  "responseLimit": 15,
+  "hints": [
+    "Какие риски? (What are the risks?)",
+    "Я предпочитаю надёжные вложения (I prefer safe investments)",
+    "Есть ли облигации? (Are there bonds?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "риск",
+      "definition": "risk"
+    },
+    {
+      "word": "доходность",
+      "definition": "return"
+    },
+    {
+      "word": "акции",
+      "definition": "stocks"
+    },
+    {
+      "word": "облигации",
+      "definition": "bonds"
+    },
+    {
+      "word": "надёжный",
+      "definition": "reliable"
+    },
+    {
+      "word": "потерять",
+      "definition": "to lose"
+    }
+  ],
+  "objectives": [
+    "Ask about risks",
+    "Express your comfort level",
+    "Request safer options",
+    "Get appropriate investment"
+  ]
+}

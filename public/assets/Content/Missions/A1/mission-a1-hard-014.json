@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-014",
+  "title": "The Melted Ice Cream",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Your ice cream is melted but the seller denies it",
+  "imageName": "snowflake",
+  "initialPrompt": "Вот ваше мороженое. 120 рублей.",
+  "systemPrompt": "You sold melted ice cream. Deny at first: 'Нет, оно нормальное.' Agree to replace if user insists politely or shows it's liquid. Keep replies short.",
+  "completionCriteria": "User got replacement or refund through polite persistence.",
+  "responseLimit": 15,
+  "hints": [
+    "Оно растаяло! (It's melted!)",
+    "Посмотрите (Look at it)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "растаяло",
+      "definition": "melted"
+    },
+    {
+      "word": "жидкое",
+      "definition": "liquid"
+    },
+    {
+      "word": "новое",
+      "definition": "new one"
+    },
+    {
+      "word": "заменить",
+      "definition": "to replace"
+    },
+    {
+      "word": "деньги",
+      "definition": "money"
+    }
+  ],
+  "objectives": [
+    "Notice the problem (растаяло)",
+    "Show the seller (Посмотрите)",
+    "Insist politely (пожалуйста)",
+    "Ask for new one or money back",
+    "Get replacement or refund"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-018",
+  "title": "Groomer Booked",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "No grooming appointments available this week",
+  "imageName": "pawprint.fill",
+  "initialPrompt": "Здравствуйте! Салон для животных. Чем могу помочь?",
+  "systemPrompt": "You are pet groomer. This week fully booked. Can do next Monday at 10am, or partner salon has opening Thursday. Keep replies short.",
+  "completionCriteria": "User booked appointment for next week or at partner salon.",
+  "responseLimit": 15,
+  "hints": [
+    "Хочу записать собаку на стрижку (I want to book a haircut for my dog)",
+    "Когда есть свободное время? (When is there availability?)",
+    "Хорошо, запишите на понедельник (OK, book me for Monday)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "стрижка",
+      "definition": "haircut/grooming"
+    },
+    {
+      "word": "собака",
+      "definition": "dog"
+    },
+    {
+      "word": "записать",
+      "definition": "to book"
+    },
+    {
+      "word": "свободный",
+      "definition": "free/available"
+    },
+    {
+      "word": "понедельник",
+      "definition": "Monday"
+    },
+    {
+      "word": "четверг",
+      "definition": "Thursday"
+    }
+  ],
+  "objectives": [
+    "Ask to book grooming (стрижка)",
+    "Learn this week is full",
+    "Find available time slot",
+    "Book the appointment"
+  ]
+}

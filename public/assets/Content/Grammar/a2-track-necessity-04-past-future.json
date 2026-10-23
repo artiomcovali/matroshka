@@ -1,0 +1,296 @@
+{
+  "id": "a2-track-necessity-04-past-future",
+  "level": "A2",
+  "focusArea": "sentenceStructure",
+  "title": "Necessity 4: Past and Future (надо было, надо будет, должен был)",
+  "titleRussian": "Необходимость 4: Прошлое и будущее (надо было, надо будет, должен был)",
+  "description": "Add было for past necessity and будет for future. With надо/нужно the copula stays neuter (надо было). With должен it agrees with the subject (должен был / должна была).",
+  "descriptionRussian": "Для прошедшего добавляют было, для будущего — будет. С надо/нужно связка стоит в среднем роде (надо было). С должен она согласуется с подлежащим (должен был / должна была).",
+  "imageName": "clock.arrow.circlepath",
+  "trackId": "a2-necessity-mastery",
+  "trackTitle": "Necessity Mastery",
+  "trackTitleRussian": "Необходимость",
+  "trackIndex": 4,
+  "trackTotal": 6,
+  "intro": "Adding a tense splits the two constructions again. The impersonal one takes a fixed neuter word that never changes, no matter who needs what. The personal one takes a past tense that agrees with the subject, exactly as its present form did. Same distinction as lessons 1 and 2, one layer further out.",
+  "rules": [
+    "Past necessity adds было; future necessity adds будет (or the agreeing будут with должен).",
+    "With надо / нужно the copula is always NEUTER and never agrees: надо было, нужно было, надо будет. Мне надо было позвонить.",
+    "With должен the copula AGREES with the subject like a past-tense verb: должен был (masc), должна была (fem), должны были (plural).",
+    "Future with должен uses буду / будешь / будет / будут: Антон должен будет работать; они должны будут подождать.",
+    "Negative necessity: не надо было (didn't need to), не должен был (wasn't obliged to). Мне не надо было звонить."
+  ],
+  "examples": [
+    "Мне надо было позвонить. (I had to call.) надо + neuter было, dative person.",
+    "Нам нужно было встать рано. (We had to get up early.) нужно + было, frozen neuter.",
+    "Завтра мне надо будет работать. (Tomorrow I will have to work.) надо + будет for the future.",
+    "Антон должен был работать. (Anton had to work.) должен + был agree (masc).",
+    "Лена должна была позвонить. (Lena had to call.) должна + была agree (fem).",
+    "Они должны были подождать. (They had to wait.) должны + были agree (plural)."
+  ],
+  "tables": [
+    {
+      "title": "Past and future of the two machines",
+      "headers": [
+        "Tense",
+        "надо / нужно (frozen neuter)",
+        "должен (agrees)"
+      ],
+      "rows": [
+        {
+          "label": "Present",
+          "cells": [
+            "Мне надо работать.",
+            "Я должен / должна работать."
+          ]
+        },
+        {
+          "label": "Past",
+          "cells": [
+            "Мне надо было работать.",
+            "Я должен был / должна была работать."
+          ]
+        },
+        {
+          "label": "Future",
+          "cells": [
+            "Мне надо будет работать.",
+            "Я должен буду / должна буду работать."
+          ]
+        },
+        {
+          "label": "Plural past (должен)",
+          "cells": [
+            "Нам надо было подождать.",
+            "Они должны были подождать."
+          ]
+        },
+        {
+          "label": "Negative past",
+          "cells": [
+            "Мне не надо было звонить.",
+            "Ты не должен был ждать."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Вчера мне надо _____ позвонить врачу.",
+          "promptEnglish": "Yesterday I had to call the doctor.",
+          "options": [
+            "был",
+            "была",
+            "было",
+            "будет"
+          ],
+          "answer": "было",
+          "hint": "With надо the copula is always neuter and never agrees with the person.",
+          "explanation": "Надо is impersonal, so the past copula stays neuter: было. Мне надо было позвонить врачу. It never becomes был or была, because there is no subject to agree with."
+        },
+        {
+          "prompt": "Антон должен _____ работать в субботу.",
+          "promptEnglish": "Anton had to work on Saturday.",
+          "options": [
+            "было",
+            "был",
+            "была",
+            "были"
+          ],
+          "answer": "был",
+          "hint": "With должен the copula agrees with the subject. Антон is masculine.",
+          "explanation": "Должен is personal, so было agrees with the subject like a past-tense verb. Антон is masculine singular, so it is был: Антон должен был работать."
+        },
+        {
+          "prompt": "Лена должна _____ позвонить маме.",
+          "promptEnglish": "Lena had to call mom.",
+          "options": [
+            "был",
+            "было",
+            "была",
+            "были"
+          ],
+          "answer": "была",
+          "hint": "Лена is feminine, so the agreeing copula ends in -а.",
+          "explanation": "With должен the copula agrees. Лена is feminine, so должна takes была: Лена должна была позвонить маме."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Завтра нам надо _____ встать рано.",
+          "promptEnglish": "Tomorrow we will have to get up early.",
+          "options": [
+            "было",
+            "будет",
+            "был",
+            "были"
+          ],
+          "answer": "будет",
+          "hint": "'Завтра' (tomorrow) signals the future. With надо the future copula is frozen.",
+          "explanation": "Future necessity adds будет, which stays neuter with надо regardless of the dative person: Завтра нам надо будет встать рано."
+        },
+        {
+          "prompt": "Они должны _____ подождать час.",
+          "promptEnglish": "They had to wait an hour.",
+          "options": [
+            "был",
+            "была",
+            "было",
+            "были"
+          ],
+          "answer": "были",
+          "hint": "Они is plural, and должен agrees. What is the plural past copula?",
+          "explanation": "Должен agrees with the subject. Они is plural, so должны takes были: Они должны были подождать час."
+        },
+        {
+          "prompt": "Мне не надо _____ звонить, всё уже было готово.",
+          "promptEnglish": "I didn't need to call, everything was already ready.",
+          "options": [
+            "был",
+            "было",
+            "была",
+            "будет"
+          ],
+          "answer": "было",
+          "hint": "Negative past of надо: не надо + which frozen copula?",
+          "explanation": "The negative past of надо is не надо было ('there was no need to'). The copula stays neuter: Мне не надо было звонить."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Вчера Лене нужно _____ купить лекарство. (Yesterday Lena had to buy medicine.)"
+    ],
+    "choices": [
+      "был",
+      "была",
+      "было",
+      "будет"
+    ],
+    "answers": [
+      "было"
+    ],
+    "grammarFocus": "Нужно is impersonal, so its past copula is always neuter было, no matter who the dative person is. Even with feminine Лене it stays было: Лене нужно было купить лекарство."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Мне надо была позвонить.",
+      "translationEnglish": "I had to call.",
+      "error": "была",
+      "correction": "было",
+      "options": [
+        "было",
+        "был",
+        "будет"
+      ],
+      "explanation": "With надо the copula never agrees with the person; it is always neuter было. «Мне надо была» is wrong even when мне refers to a woman, because надо has no subject to agree with. Correct: Мне надо было позвонить."
+    },
+    {
+      "sentence": "Лена должна было работать.",
+      "translationEnglish": "Lena had to work.",
+      "error": "было",
+      "correction": "была",
+      "options": [
+        "была",
+        "был",
+        "были"
+      ],
+      "explanation": "With должен the copula agrees with the subject like a past-tense verb. Лена is feminine, so должна takes была, not the neuter было (which belongs to the impersonal надо machine). Correct: Лена должна была работать."
+    },
+    {
+      "sentence": "Они должны был подождать.",
+      "translationEnglish": "They had to wait.",
+      "error": "был",
+      "correction": "были",
+      "options": [
+        "были",
+        "была",
+        "было"
+      ],
+      "explanation": "Они is plural, so должен agrees in the plural: должны были. Correct: Они должны были подождать."
+    },
+    {
+      "sentence": "Завтра мне надо было встать рано.",
+      "translationEnglish": "Tomorrow I will have to get up early.",
+      "error": "было",
+      "correction": "будет",
+      "options": [
+        "будет",
+        "был",
+        "была"
+      ],
+      "explanation": "Завтра (tomorrow) signals the future, so the copula must be будет, not the past было. With надо the future будет stays frozen in the neuter regardless of the dative person. Correct: Завтра мне надо будет встать рано."
+    },
+    {
+      "sentence": "Антон должен будут работать завтра.",
+      "translationEnglish": "Anton will have to work tomorrow.",
+      "error": "будут",
+      "correction": "будет",
+      "options": [
+        "будет",
+        "было",
+        "был"
+      ],
+      "explanation": "With должен the future copula agrees with the subject. Антон is masculine singular, so it is должен будет (3sg будет), not the plural будут (which goes with должны будут for a plural subject). Correct: Антон должен будет работать завтра."
+    },
+    {
+      "sentence": "Вчера Маше нужно была купить хлеб.",
+      "translationEnglish": "Yesterday Masha had to buy bread.",
+      "error": "была",
+      "correction": "было",
+      "options": [
+        "было",
+        "был",
+        "будет"
+      ],
+      "explanation": "Нужно is impersonal, so its past copula is the frozen neuter было, no matter who the dative person is. Even with feminine Маше it stays было, not была: the dative person is not a subject. Correct: Вчера Маше нужно было купить хлеб."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Мне надо _____ позвонить вчера. (past)",
+      "contextEnglish": "I had to call yesterday.",
+      "options": [
+        "было",
+        "была"
+      ],
+      "answer": "было",
+      "explanation": "Надо is impersonal, so the past copula is the frozen neuter было, even when мне refers to a woman. «Надо была» never occurs."
+    },
+    {
+      "context": "Лена должна _____ позвонить вчера. (past)",
+      "contextEnglish": "Lena had to call yesterday.",
+      "options": [
+        "было",
+        "была"
+      ],
+      "answer": "была",
+      "explanation": "With должен the copula agrees with the subject. Лена is feminine, so должна takes была. The neuter было belongs to the impersonal надо machine, not to должен."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "надо было / нужно было",
+      "definition": "the past of надо/нужно ('had to'). The copula было is always neuter and never agrees with the dative person.",
+      "example": "Мне надо было позвонить. Нам нужно было встать рано."
+    },
+    {
+      "term": "надо будет",
+      "definition": "the future of надо ('will have to'). The copula будет stays neuter regardless of the dative person.",
+      "example": "Завтра мне надо будет работать."
+    },
+    {
+      "term": "должен был / должна была / должны были",
+      "definition": "the past of должен ('had to'). The copula agrees with the subject like a past-tense verb: masc был, fem была, plural были.",
+      "example": "Антон должен был работать. Лена должна была позвонить. Они должны были подождать."
+    }
+  ]
+}

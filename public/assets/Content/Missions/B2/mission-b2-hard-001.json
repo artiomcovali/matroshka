@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-001",
+  "title": "Hostile Interview",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Job interview with an aggressive interviewer",
+  "imageName": "person.fill.questionmark",
+  "initialPrompt": "Ваше резюме неубедительно. Почему мы должны тратить время на человека без опыта в нашей отрасли?",
+  "systemPrompt": "You are hostile interviewer. Dismiss qualifications, interrupt, find flaws. Only soften if candidate shows exceptional composure and strong arguments.",
+  "completionCriteria": "User handled hostile interview professionally.",
+  "responseLimit": 15,
+  "hints": [
+    "Мой опыт в других областях... (My experience in other areas...)",
+    "Позвольте объяснить... (Allow me to explain...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "квалификация",
+      "definition": "qualification"
+    },
+    {
+      "word": "опыт",
+      "definition": "experience"
+    },
+    {
+      "word": "кандидат",
+      "definition": "candidate"
+    },
+    {
+      "word": "собеседование",
+      "definition": "interview"
+    },
+    {
+      "word": "компетенция",
+      "definition": "competence"
+    },
+    {
+      "word": "достижение",
+      "definition": "achievement"
+    }
+  ],
+  "objectives": [
+    "Maintain composure under pressure",
+    "Counter dismissive comments",
+    "Highlight transferable skills",
+    "Turn criticism into opportunity",
+    "End on professional note"
+  ]
+}

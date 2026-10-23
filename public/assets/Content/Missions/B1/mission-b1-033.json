@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-033",
+  "title": "Moving Companies",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Get quotes from a moving company",
+  "imageName": "shippingbox.fill",
+  "initialPrompt": "Компания 'Быстрый переезд', здравствуйте! Вы планируете переезд? Расскажите, откуда и куда переезжаете.",
+  "systemPrompt": "You work for a moving company. Ask about: current/new address, apartment size, date, need for packing service. Give price estimate (based on distance and size). Offer insurance option. Keep replies short.",
+  "completionCriteria": "User received moving quote with details.",
+  "responseLimit": 15,
+  "hints": [
+    "Сколько стоит переезд? (How much does moving cost?)",
+    "Вы упаковываете вещи? (Do you pack things?)",
+    "Есть страховка? (Is there insurance?)",
+    "Когда можно переехать? (When can we move?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "переезд",
+      "definition": "move/relocation"
+    },
+    {
+      "word": "упаковка",
+      "definition": "packing"
+    },
+    {
+      "word": "страховка",
+      "definition": "insurance"
+    },
+    {
+      "word": "грузчик",
+      "definition": "mover"
+    },
+    {
+      "word": "квартира",
+      "definition": "apartment"
+    },
+    {
+      "word": "стоимость",
+      "definition": "cost"
+    }
+  ],
+  "objectives": [
+    "Explain where you're moving from and to",
+    "Describe apartment size",
+    "Ask about services (упаковка)",
+    "Get a price quote (стоимость)"
+  ]
+}

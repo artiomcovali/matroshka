@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-015",
+  "title": "Noisy Hotel Room",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Your hotel room is next to a noisy construction site - demand a better room",
+  "imageName": "exclamationmark.triangle.fill",
+  "initialPrompt": "Ресепшен, слушаю вас.",
+  "systemPrompt": "You are hotel reception. Guest's room is noisy from construction (7am-6pm). First say all quiet rooms taken. Can offer: room on other side (available tomorrow), earplugs, or 30% discount. Keep replies short.",
+  "completionCriteria": "User got room change, discount, or acceptable solution.",
+  "responseLimit": 15,
+  "hints": [
+    "В моём номере очень шумно (My room is very noisy)",
+    "Мне нужен другой номер (I need a different room)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "шумно",
+      "definition": "noisy"
+    },
+    {
+      "word": "стройка",
+      "definition": "construction"
+    },
+    {
+      "word": "спать",
+      "definition": "to sleep"
+    },
+    {
+      "word": "переселить",
+      "definition": "to relocate"
+    },
+    {
+      "word": "скидка",
+      "definition": "discount"
+    },
+    {
+      "word": "невозможно",
+      "definition": "impossible"
+    }
+  ],
+  "objectives": [
+    "Complain about the noise",
+    "Demand a room change",
+    "Handle 'no rooms available'",
+    "Negotiate a solution",
+    "Get compensation or room change"
+  ]
+}

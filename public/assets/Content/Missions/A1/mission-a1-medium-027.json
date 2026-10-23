@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-027",
+  "title": "Cash Only",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "The card machine is broken",
+  "imageName": "creditcard.fill",
+  "initialPrompt": "Итого 350 рублей.",
+  "systemPrompt": "Card machine is broken. Say 'Терминал не работает. Только наличные.' User needs cash or must leave. Keep replies short.",
+  "completionCriteria": "User paid cash or found solution.",
+  "responseLimit": 15,
+  "hints": [
+    "Картой можно? (Can I pay by card?)",
+    "Где банкомат? (Where is an ATM?)",
+    "У меня есть наличные (I have cash)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "терминал",
+      "definition": "card terminal"
+    },
+    {
+      "word": "не работает",
+      "definition": "not working"
+    },
+    {
+      "word": "наличные",
+      "definition": "cash"
+    },
+    {
+      "word": "банкомат",
+      "definition": "ATM"
+    },
+    {
+      "word": "только",
+      "definition": "only"
+    }
+  ],
+  "objectives": [
+    "Try to pay by card",
+    "Learn terminal is broken",
+    "Pay cash or find ATM"
+  ]
+}

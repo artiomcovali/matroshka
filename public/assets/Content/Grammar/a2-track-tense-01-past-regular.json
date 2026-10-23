@@ -1,0 +1,305 @@
+{
+  "id": "a2-track-tense-01-past-regular",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Past Tense 1: Regular Formation",
+  "titleRussian": "Прошедшее время 1: правильное образование",
+  "description": "The regular past tense in Russian. Drop the -ть of the infinitive and add -л / -ла / -ло / -ли. The form agrees with the SUBJECT in gender and number, not with the speaker.",
+  "descriptionRussian": "Правильное прошедшее время: убираем -ть инфинитива и добавляем -л / -ла / -ло / -ли. Форма согласуется с подлежащим по роду и числу.",
+  "imageName": "clock.arrow.circlepath",
+  "trackId": "a2-past-tense-mastery",
+  "trackTitle": "Past Tense Mastery",
+  "trackTitleRussian": "Прошедшее время",
+  "trackIndex": 1,
+  "trackTotal": 5,
+  "intro": "The Russian past tense is simpler than the present in one way and stranger in another. Simpler because there are no person endings at all: I, you and he take the same form. Stranger because the form does change for gender, so a woman and a man saying the same sentence about themselves say it differently. Four endings cover the whole tense.",
+  "rules": [
+    "Past tense regular formation: drop the -ть of the infinitive and add -л (masc sg), -ла (fem sg), -ло (neut sg), or -ли (plural).",
+    "The past tense agrees with the SUBJECT in gender (singular) and number, not with the speaker. 'Я читал' uses -л if the speaker is male; 'я читала' uses -ла if the speaker is female.",
+    "There are no person endings in the past tense. 'Я читал', 'ты читал', and 'он читал' all use the same form; the pronoun supplies the person.",
+    "The neuter -ло is used with neuter noun subjects (письмо лежало) and in impersonal phrases (было холодно). The plural -ли is one form regardless of subject gender.",
+    "Быть (to be) follows the same regular recipe: был / была / было / были. Антон был дома; Маша была дома."
+  ],
+  "examples": [
+    "Антон читал журнал. (Anton was reading a magazine.) Anton is masc, so the verb takes -л: читал.",
+    "Маша читала книгу. (Masha was reading a book.) Маша is fem, so the verb takes -ла: читала.",
+    "Письмо лежало на столе. (The letter was lying on the table.) Письмо is neut, so the verb takes -ло: лежало.",
+    "Студенты гуляли в парке. (The students were walking in the park.) Plural subject, so the verb takes -ли: гуляли.",
+    "Я работал в Москве. (I was working in Moscow; speaker is male.) Speaker is masc, so the verb takes -л: работал.",
+    "Я работала в Москве. (I was working in Moscow; speaker is female.) Speaker is fem, so the verb takes -ла: работала."
+  ],
+  "tables": [
+    {
+      "title": "Regular Past Tense (читать as model)",
+      "headers": [
+        "Subject",
+        "Form",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "masculine sg (я / ты / он + masc)",
+          "cells": [
+            "читал",
+            "Антон читал журнал."
+          ]
+        },
+        {
+          "label": "feminine sg (я / ты / она + fem)",
+          "cells": [
+            "читала",
+            "Маша читала книгу."
+          ]
+        },
+        {
+          "label": "neuter sg (письмо, утро, было)",
+          "cells": [
+            "читало (rare)",
+            "Утро прошло быстро."
+          ]
+        },
+        {
+          "label": "plural (мы, вы, они, plural noun)",
+          "cells": [
+            "читали",
+            "Студенты читали учебник."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Six Verbs in the Four Slots",
+      "headers": [
+        "Infinitive",
+        "Masc / Fem sg",
+        "Plural"
+      ],
+      "rows": [
+        {
+          "label": "читать",
+          "cells": [
+            "читал / читала",
+            "читали"
+          ]
+        },
+        {
+          "label": "делать",
+          "cells": [
+            "делал / делала",
+            "делали"
+          ]
+        },
+        {
+          "label": "говорить",
+          "cells": [
+            "говорил / говорила",
+            "говорили"
+          ]
+        },
+        {
+          "label": "работать",
+          "cells": [
+            "работал / работала",
+            "работали"
+          ]
+        },
+        {
+          "label": "гулять",
+          "cells": [
+            "гулял / гуляла",
+            "гуляли"
+          ]
+        },
+        {
+          "label": "знать",
+          "cells": [
+            "знал / знала",
+            "знали"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Антон _____ журнал.",
+          "promptEnglish": "Anton was reading a magazine.",
+          "options": [
+            "читал",
+            "читала",
+            "читало",
+            "читали"
+          ],
+          "answer": "читал",
+          "hint": "Anton is one person, masculine. Which slot is that?",
+          "explanation": "Антон is masculine singular, so the past tense takes -л: читал. Subject decides the form; the past tense has no separate person endings."
+        },
+        {
+          "prompt": "Маша _____ книгу.",
+          "promptEnglish": "Masha was reading a book.",
+          "options": [
+            "читало",
+            "читали",
+            "читала",
+            "читал"
+          ],
+          "answer": "читала",
+          "hint": "Маша is one person, feminine.",
+          "explanation": "Маша is feminine singular, so the past tense takes -ла: читала. The same -ла would appear with я if the speaker is female (я читала) or ты with a female listener."
+        },
+        {
+          "prompt": "Студенты _____ в парке.",
+          "promptEnglish": "The students were walking in the park.",
+          "options": [
+            "гулял",
+            "гуляла",
+            "гуляло",
+            "гуляли"
+          ],
+          "answer": "гуляли",
+          "hint": "Plural subject. The plural ending is one form across genders.",
+          "explanation": "Студенты is plural, so the past tense takes -ли: гуляли. The plural -ли is the same regardless of the subjects' gender."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Письмо _____ на столе.",
+          "promptEnglish": "The letter was lying on the table.",
+          "options": [
+            "лежал",
+            "лежала",
+            "лежало",
+            "лежали"
+          ],
+          "answer": "лежало",
+          "hint": "Письмо ends in -о. Which gender slot does that signal?",
+          "explanation": "Письмо is neuter singular, so the past tense takes -ло: лежало. The neuter -ло is the rarest of the four endings in personal speech but turns up regularly with neuter noun subjects (письмо, утро, окно, море)."
+        },
+        {
+          "prompt": "Я _____ в Москве. (speaker is female)",
+          "promptEnglish": "I was working in Moscow. (I am female.)",
+          "options": [
+            "работал",
+            "работала",
+            "работали",
+            "работало"
+          ],
+          "answer": "работала",
+          "hint": "Speaker is female. Which slot does the past tense use?",
+          "explanation": "The past tense agrees with the subject's gender. If the speaker is female, 'я' takes -ла: работала. If the speaker were male, 'я' would take -л: работал. Russian past tense reveals the speaker's gender every time you use it."
+        },
+        {
+          "prompt": "Лена _____ Антону вчера.",
+          "promptEnglish": "Lena called Anton yesterday.",
+          "options": [
+            "звонили",
+            "звонило",
+            "звонила",
+            "звонил"
+          ],
+          "answer": "звонила",
+          "hint": "Лена is feminine. Apply the feminine ending.",
+          "explanation": "Лена is feminine singular, so the past takes -ла: звонила. Звонить is a regular -ить verb; in the past it follows the standard pattern (drop -ть, add -л / -ла / -ло / -ли)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Дети _____ в парке. (The children were walking in the park.)"
+    ],
+    "choices": [
+      "гулял",
+      "гуляла",
+      "гуляло",
+      "гуляли"
+    ],
+    "answers": [
+      "гуляли"
+    ],
+    "grammarFocus": "Дети is plural, so the past tense takes -ли: гуляли. The plural -ли is the standard ending regardless of the children's gender mix."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Антон знала ответ.",
+      "translationEnglish": "Anton knew the answer.",
+      "error": "знала",
+      "correction": "знал",
+      "options": [
+        "знал",
+        "знало",
+        "знали"
+      ],
+      "explanation": "Антон is masculine singular, so the past of знать takes the masculine -л ending: знал. Знала is the feminine form and would fit only a feminine subject (Маша знала ответ). The Russian past tense agrees with the subject's gender in the singular, not with the speaker."
+    },
+    {
+      "sentence": "Маша делал уроки весь вечер.",
+      "translationEnglish": "Masha was doing her homework all evening.",
+      "error": "делал",
+      "correction": "делала",
+      "options": [
+        "делала",
+        "делало",
+        "делали"
+      ],
+      "explanation": "Маша is feminine singular, so the past of делать takes the feminine -ла ending: делала. Делал is the masculine form and would fit only a masculine subject. The four past-tense slots (-л / -ла / -ло / -ли) are picked by the subject, not by the speaker."
+    },
+    {
+      "sentence": "Мы говорил о Москве вчера.",
+      "translationEnglish": "We were talking about Moscow yesterday.",
+      "error": "говорил",
+      "correction": "говорили",
+      "options": [
+        "говорили",
+        "говорила",
+        "говорило"
+      ],
+      "explanation": "Мы is plural, so the past of говорить takes the plural -ли ending: говорили. Говорил is the masculine singular form and would need a single masculine speaker. The plural -ли is invariant across gender: мы говорили applies whether the speakers are male, female, or mixed."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша _____ дома вчера.",
+      "contextEnglish": "Masha was at home yesterday.",
+      "options": [
+        "был",
+        "была"
+      ],
+      "answer": "была",
+      "explanation": "Маша is feminine, so the past of быть takes -ла: была. Был would be required for a masculine subject (Антон был дома). Lesson 2 is all about быть; today we focus on agreement with the subject."
+    },
+    {
+      "context": "Дети _____ в парке.",
+      "contextEnglish": "The children were walking in the park.",
+      "options": [
+        "гулял",
+        "гуляли"
+      ],
+      "answer": "гуляли",
+      "explanation": "Дети is plural, so the past tense takes -ли: гуляли. Гулял would only be correct with a masculine singular subject like Anton or Иван."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "прошедшее время",
+      "definition": "past tense (the form for an action that happened before now; agrees with the subject in gender and number)",
+      "example": "В предложении 'Маша читала книгу' слово 'читала' стоит в прошедшем времени, женского рода единственного числа."
+    },
+    {
+      "term": "согласование с подлежащим",
+      "definition": "agreement with the subject (the past tense ending matches the subject's gender in the singular and is invariant in the plural)",
+      "example": "Видно согласование: Антон читал (мужской), Маша читала (женский), студенты читали (множественное)."
+    },
+    {
+      "term": "лицо",
+      "definition": "person (1st / 2nd / 3rd; in the past tense, person is signaled by the pronoun, not by the verb form)",
+      "example": "Я читал, ты читал, он читал — формы одинаковые, потому что лицо в прошедшем времени не выражено окончанием."
+    }
+  ]
+}

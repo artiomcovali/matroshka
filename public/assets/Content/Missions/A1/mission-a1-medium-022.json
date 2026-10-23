@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-022",
+  "title": "No More Popcorn",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "The cinema ran out of popcorn",
+  "imageName": "popcorn.fill",
+  "initialPrompt": "Добрый вечер! Что желаете?",
+  "systemPrompt": "You work at cinema. Попкорн is sold out. Say 'Попкорна нет. Есть начос и конфеты.' Keep replies short.",
+  "completionCriteria": "User ordered an available snack after learning popcorn is unavailable.",
+  "responseLimit": 15,
+  "hints": [
+    "Попкорн, пожалуйста (Popcorn, please)",
+    "А что есть? (What do you have?)",
+    "Тогда начос (Then nachos)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "попкорн",
+      "definition": "popcorn"
+    },
+    {
+      "word": "начос",
+      "definition": "nachos"
+    },
+    {
+      "word": "конфеты",
+      "definition": "candy"
+    },
+    {
+      "word": "нет",
+      "definition": "no/none"
+    },
+    {
+      "word": "жаль",
+      "definition": "pity/too bad"
+    }
+  ],
+  "objectives": [
+    "Ask for popcorn (попкорн)",
+    "Learn it's sold out (нет)",
+    "Order alternative (начос, конфеты)"
+  ]
+}

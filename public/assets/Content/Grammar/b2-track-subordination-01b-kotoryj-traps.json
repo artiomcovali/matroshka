@@ -1,0 +1,217 @@
+{
+  "id": "b2-track-subordination-01b-kotoryj-traps",
+  "level": "B2",
+  "focusArea": "cases",
+  "title": "Subordination 2: который - Tricky Cases",
+  "titleRussian": "Подчинение 2: который — сложные случаи",
+  "description": "The main clause's case does not transfer to который. Plus: dative after помочь, animate accusative = genitive, and other forms beyond the basics.",
+  "descriptionRussian": "Падеж в главной части не переходит на который. Также: дательный после помочь, одушевлённый винительный = родительный и другие формы.",
+  "imageName": "link",
+  "trackId": "b2-subordination-mastery",
+  "trackTitle": "Subordination Mastery",
+  "trackTitleRussian": "Сложноподчинённые предложения",
+  "trackIndex": 2,
+  "trackTotal": 8,
+  "intro": "The mistake this lesson exists to prevent is copying the case. If the noun outside is in the dative, learners reach for a dative который, and that is wrong: the outside case has no influence at all. Ask only what the word is doing inside its own clause. That single question is the whole rule, and it survives every complication here.",
+  "rules": [
+    "The noun's case in the main clause does NOT transfer to который. Only the role inside the который clause decides its case.",
+    "Dative verbs (помочь, звонить, доверять) need dative: которому (masc), которой (fem), которым (pl).",
+    "Animate masculine direct objects use genitive form: человек, которого все знают.",
+    "Always check: who or what is который doing inside its own clause? That single question gives the case."
+  ],
+  "examples": [
+    "друзья, которым я помог (the friends I helped) - plural + dative (помочь + dat) = которым.",
+    "Я вижу студента, который читает. - студента is accusative in main clause, but который is nominative (subject inside its clause).",
+    "человек, которого все уважают (the person everyone respects) - animate masc + accusative = которого.",
+    "Я встретил девушку, которая работает. - девушку is accusative in main clause, but которая is nominative (subject inside its clause)."
+  ],
+  "tables": [
+    {
+      "title": "Don't copy the main clause's case",
+      "headers": [
+        "Sentence",
+        "Main clause case",
+        "который case",
+        "Why"
+      ],
+      "rows": [
+        {
+          "label": "Я вижу студента, который читает.",
+          "cells": [
+            "acc (object of вижу)",
+            "nom (subject: he reads)",
+            "Separate case books"
+          ]
+        },
+        {
+          "label": "Я встретил девушку, которая работает.",
+          "cells": [
+            "acc (object of встретил)",
+            "nom (subject: she works)",
+            "Same rule"
+          ]
+        },
+        {
+          "label": "Вот друзья, которым я помог.",
+          "cells": [
+            "nom (subject)",
+            "dat (помочь + dat)",
+            "Verb decides"
+          ]
+        },
+        {
+          "label": "Это человек, которого все уважают.",
+          "cells": [
+            "nom (subject)",
+            "acc (animate = gen)",
+            "Animate masculine"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Вот друзья, _____ я помог с переездом.",
+          "promptEnglish": "Here are the friends whom I helped with the move.",
+          "options": [
+            "которых",
+            "которым",
+            "которые",
+            "которыми"
+          ],
+          "answer": "которым",
+          "hint": "друзья is plural. The verb помочь governs which case?",
+          "explanation": "Step 1: друзья is plural, so который is plural. Step 2: помочь governs the dative (помочь кому?), so the case is dative."
+        },
+        {
+          "prompt": "Я встретил девушку, _____ работает в нашем офисе.",
+          "promptEnglish": "I met the girl who works in our office.",
+          "options": [
+            "которую",
+            "которой",
+            "которая",
+            "которым"
+          ],
+          "answer": "которая",
+          "hint": "девушку is accusative in the main clause. Ignore it. What is который's role inside 'who works in our office'?",
+          "explanation": "девушку is accusative (object of встретил), but inside the clause 'who works in our office,' который is the SUBJECT. Feminine + nominative = которая."
+        },
+        {
+          "prompt": "Это человек, _____ все уважают.",
+          "promptEnglish": "This is a person whom everyone respects.",
+          "options": [
+            "который",
+            "которому",
+            "которого",
+            "которым"
+          ],
+          "answer": "которого",
+          "hint": "человек is masculine animate. Inside 'everyone respects ___,' it is the direct object. What is the accusative of an animate masculine?",
+          "explanation": "Step 1: человек is masculine singular, animate. Step 2: inside 'все уважают ___,' it is the direct object, accusative."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я встретил девушку, _____ в нашем офисе.",
+          "promptEnglish": "I met a girl who works in our office.",
+          "options": [
+            "которая работает",
+            "которую работает",
+            "которой работает",
+            "которая работать"
+          ],
+          "answer": "которая работает",
+          "hint": "Case from its own clause, gender from the head noun.",
+          "explanation": "Inside 'who works' the girl is the subject, so nominative feminine: которая работает, even though девушку is accusative in the main clause."
+        },
+        {
+          "prompt": "Вот письмо, _____ сегодня.",
+          "promptEnglish": "Here is the letter that I received today.",
+          "options": [
+            "которое я получил",
+            "который я получил",
+            "которого я получил",
+            "которое я получить"
+          ],
+          "answer": "которое я получил",
+          "hint": "Neuter head noun, object inside its clause.",
+          "explanation": "Письмо is neuter, and the relative is the object of получил: которое я получил (neuter accusative = nominative)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Вот человек, _____ мы все доверяем. (the person we all trust)"
+    ],
+    "choices": [
+      "которому",
+      "которого",
+      "который",
+      "которым"
+    ],
+    "answers": [
+      "которому"
+    ],
+    "grammarFocus": "доверять takes dative. Человек is masculine singular, so dative = которому."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Я знаю студента, которого живёт рядом.",
+      "translationEnglish": "I know the student who lives nearby.",
+      "error": "которого",
+      "correction": "который",
+      "options": [
+        "который",
+        "которому",
+        "которым"
+      ],
+      "explanation": "Inside the clause 'who lives nearby,' который is the SUBJECT of живёт, so it takes the nominative: который.",
+      "hint": "студента is the object of 'know,' but ignore that. Inside its own clause, который is doing the living."
+    },
+    {
+      "sentence": "Вот человек, которого можно доверять.",
+      "translationEnglish": "Here is a person whom one can trust.",
+      "error": "которого",
+      "correction": "которому",
+      "options": [
+        "которому",
+        "который",
+        "которым"
+      ],
+      "explanation": "The construction можно доверять takes the dative (доверять кому?), so который must be dative: masculine singular plus dative gives которому.",
+      "hint": "доверять governs the dative (доверять кому?). Which form of который is dative?"
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я знаю человека, _____ живёт здесь. (I know the man who lives here.)",
+      "contextEnglish": "I know the man who lives here.",
+      "options": [
+        "которого",
+        "который"
+      ],
+      "answer": "который",
+      "explanation": "человека is accusative in the main clause, but inside 'who lives here' the man is the SUBJECT, so nominative: который."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "ловушка антецедента",
+      "definition": "The trap: never copy the main clause's case onto который. Each clause keeps its own case system.",
+      "example": "Я вижу студента (acc), который (nom) читает. Different cases, same sentence."
+    },
+    {
+      "term": "правило двух шагов",
+      "definition": "the two-step rule for который: step 1, gender and number from the antecedent; step 2, case from the role inside the который clause.",
+      "example": "друзья (мн.) + помочь (дат.) = которым."
+    }
+  ]
+}

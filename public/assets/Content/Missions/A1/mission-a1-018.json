@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-018",
+  "title": "Order Pizza",
+  "level": "A1",
+  "description": "Order pizza delivery by phone",
+  "imageName": "phone.fill",
+  "initialPrompt": "Пиццерия «Италия», добрый день! Что вы хотите заказать?",
+  "systemPrompt": "You take pizza orders by phone. Menu: маргарита 400₽, пепперони 450₽, сырная 380₽. Ask for address. Keep replies short.",
+  "completionCriteria": "User ordered pizza and gave their address.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу пиццу (I want pizza)",
+    "Маргарита, пожалуйста (Margherita, please)",
+    "Мой адрес... (My address is...)",
+    "Сколько стоит? (How much?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "пицца",
+      "definition": "pizza"
+    },
+    {
+      "word": "заказать",
+      "definition": "to order"
+    },
+    {
+      "word": "адрес",
+      "definition": "address"
+    },
+    {
+      "word": "доставка",
+      "definition": "delivery"
+    },
+    {
+      "word": "телефон",
+      "definition": "phone"
+    }
+  ],
+  "objectives": [
+    "Choose a pizza (маргарита, пепперони, сырная)",
+    "Give your address (адрес)",
+    "Confirm the order"
+  ]
+}

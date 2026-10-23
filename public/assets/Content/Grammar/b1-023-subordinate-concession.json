@@ -1,0 +1,285 @@
+{
+  "id": "b1-023-subordinate-concession",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Concessive Clauses",
+  "titleRussian": "Придаточные уступки",
+  "description": "Хотя, несмотря на то что, всё равно",
+  "descriptionRussian": "Выражение уступки и противопоставления",
+  "imageName": "arrow.left.arrow.right.circle",
+  "intro": "Concessive clauses express 'although/despite' - an unexpected contrast. ХОТЯ (although) is most common: Хотя было холодно, мы пошли гулять (Although it was cold, we went for a walk). НЕСМОТРЯ НА ТО ЧТО (despite the fact that) is more formal/emphatic. НЕСМОТРЯ НА + accusative (despite + noun): Несмотря на дождь... ВСЁ РАВНО (anyway/still) often appears in the main clause for emphasis: Хотя он устал, он всё равно работал.",
+  "rules": [
+    "Хотя + clause = although: Хотя я устал, я продолжал работать.",
+    "Несмотря на то что + clause = despite the fact that (formal): Несмотря на то что шёл дождь...",
+    "Несмотря на + accusative noun = despite: Несмотря на дождь, мы пошли.",
+    "Всё равно = anyway/still (in main clause): Хотя дорого, я всё равно куплю."
+  ],
+  "examples": [
+    "Хотя он болен, он пришёл на работу. (Although he's sick, he came to work.)",
+    "Несмотря на то что было поздно, она продолжала работать. (Despite it being late, she kept working.)",
+    "Несмотря на трудности, они добились успеха. (Despite the difficulties, they achieved success.)",
+    "Мне не нравится, но я всё равно сделаю это. (I don't like it, but I'll do it anyway.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ было холодно, мы пошли гулять. (Although it was cold, we went for a walk.)",
+          "promptEnglish": "Although it was cold, we went for a walk.",
+          "options": [
+            "Если",
+            "Потому что",
+            "Когда",
+            "Хотя"
+          ],
+          "answer": "Хотя",
+          "hint": "Although = хотя",
+          "explanation": "Concession: хотя + unexpected result."
+        },
+        {
+          "prompt": "_____ на дождь, мы поехали на пикник. (Despite the rain, we went on a picnic.)",
+          "promptEnglish": "Despite the rain, we went on a picnic.",
+          "options": [
+            "Благодаря",
+            "Несмотря",
+            "Из-за",
+            "Хотя"
+          ],
+          "answer": "Несмотря",
+          "hint": "Despite + noun = несмотря на",
+          "explanation": "Despite + noun: несмотря на + accusative."
+        },
+        {
+          "prompt": "Хотя фильм длинный, он _____ интересный. (Although the film is long, it's still interesting.)",
+          "promptEnglish": "Although the film is long, it's still interesting.",
+          "options": [
+            "поэтому",
+            "также",
+            "потому что",
+            "всё равно"
+          ],
+          "answer": "всё равно",
+          "hint": "Still/anyway = всё равно",
+          "explanation": "Emphasis in main clause: всё равно."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ на то что он устал, он продолжал работать. (Despite the fact that he was tired, he kept working.)",
+          "promptEnglish": "Despite the fact that he was tired, he kept working.",
+          "options": [
+            "Хотя",
+            "Потому",
+            "Так как",
+            "Несмотря"
+          ],
+          "answer": "Несмотря",
+          "hint": "Despite the fact that = несмотря на то что",
+          "explanation": "Formal concession: несмотря на то что."
+        },
+        {
+          "prompt": "_____ она не говорит по-русски, она понимает всё. (Although she doesn't speak Russian, she understands everything.)",
+          "promptEnglish": "Although she doesn't speak Russian, she understands everything.",
+          "options": [
+            "Потому что",
+            "Пока",
+            "Хотя",
+            "Если"
+          ],
+          "answer": "Хотя",
+          "hint": "Although = хотя",
+          "explanation": "Concession: хотя."
+        },
+        {
+          "prompt": "Мне не хочется, но я _____ пойду. (I don't feel like it, but I'll go anyway.)",
+          "promptEnglish": "I don't feel like it, but I'll go anyway.",
+          "options": [
+            "всегда",
+            "тоже",
+            "никогда",
+            "всё равно"
+          ],
+          "answer": "всё равно",
+          "hint": "Anyway = всё равно",
+          "explanation": "Anyway/still: всё равно."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Несмотря на _____, они победили. (Despite the difficulties, they won.)",
+          "promptEnglish": "Despite the difficulties, they won.",
+          "options": [
+            "трудностей",
+            "трудностям",
+            "трудностями",
+            "трудности"
+          ],
+          "answer": "трудности",
+          "hint": "Несмотря на + accusative",
+          "explanation": "Несмотря на + accusative: трудности."
+        },
+        {
+          "prompt": "_____ он богат, он несчастлив. (Although he's rich, he's unhappy.)",
+          "promptEnglish": "Although he's rich, he's unhappy.",
+          "options": [
+            "Так как",
+            "Хотя",
+            "Потому что",
+            "Если"
+          ],
+          "answer": "Хотя",
+          "hint": "Although = хотя",
+          "explanation": "Unexpected contrast: хотя."
+        },
+        {
+          "prompt": "Несмотря на _____ погоду, мы хорошо провели время. (Despite the bad weather, we had a good time.)",
+          "promptEnglish": "Despite the bad weather, we had a good time.",
+          "options": [
+            "плохой",
+            "плохая",
+            "плохие",
+            "плохую"
+          ],
+          "answer": "плохую",
+          "hint": "Несмотря на + accusative (fem)",
+          "explanation": "Accusative feminine: плохую погоду."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ я очень устал, я не мог заснуть. (Although I was very tired, I couldn't fall asleep.)",
+      "_____ было холодно, мы пошли гулять. (Although it was cold, we went for a walk.)",
+      "Несмотря на _____, мы поехали. (Despite the rain, we drove.)"
+    ],
+    "choices": [
+      "Хотя",
+      "дождь",
+      "Когда",
+      "Если",
+      "снег"
+    ],
+    "answers": [
+      "Хотя",
+      "Хотя",
+      "дождь"
+    ],
+    "grammarFocus": "Хотя = although; несмотря на + accusative noun = despite",
+    "hints": [
+      "Unexpected contrast: 'although' — which conjunction?",
+      "Same conjunction for 'although'",
+      "Несмотря на + noun — what caused the problem?"
+    ],
+    "explanations": [
+      "Хотя (although) introduces a concessive clause with unexpected result.",
+      "Хотя is the main concessive conjunction in Russian.",
+      "Несмотря на + accusative noun: несмотря на дождь (despite the rain)."
+    ],
+    "options": [
+      [
+        "Хотя",
+        "дождь",
+        "Если",
+        "Когда"
+      ],
+      [
+        "Хотя",
+        "Когда",
+        "дождь",
+        "снег"
+      ],
+      [
+        "дождём",
+        "дождь",
+        "дождя",
+        "дождю"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ дождь, мы пошли. (despite, noun)",
+      "contextEnglish": "Despite the rain, we went.",
+      "options": [
+        "Несмотря на",
+        "Хотя"
+      ],
+      "answer": "Несмотря на",
+      "explanation": "Despite + noun: несмотря на + accusative."
+    },
+    {
+      "context": "_____ шёл дождь, мы пошли. (although, clause)",
+      "contextEnglish": "Although it was raining, we went.",
+      "options": [
+        "Хотя",
+        "Несмотря на"
+      ],
+      "answer": "Хотя",
+      "explanation": "Although + clause: хотя."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by construction type",
+    "categories": [
+      "Хотя + clause",
+      "Несмотря на + noun",
+      "Всё равно (main clause)"
+    ],
+    "items": [
+      {
+        "word": "Хотя было холодно...",
+        "category": "Хотя + clause"
+      },
+      {
+        "word": "Несмотря на дождь...",
+        "category": "Несмотря на + noun"
+      },
+      {
+        "word": "...я всё равно пойду",
+        "category": "Всё равно (main clause)"
+      },
+      {
+        "word": "Хотя он устал...",
+        "category": "Хотя + clause"
+      },
+      {
+        "word": "Несмотря на трудности...",
+        "category": "Несмотря на + noun"
+      },
+      {
+        "word": "...она всё равно согласилась",
+        "category": "Всё равно (main clause)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "хотя",
+      "definition": "although, though",
+      "example": "Хотя он устал, он работал."
+    },
+    {
+      "term": "несмотря на + acc",
+      "definition": "despite (+ noun)",
+      "example": "Несмотря на дождь..."
+    },
+    {
+      "term": "несмотря на то что",
+      "definition": "despite the fact that",
+      "example": "Несмотря на то что было поздно..."
+    },
+    {
+      "term": "всё равно",
+      "definition": "anyway, still",
+      "example": "Я всё равно пойду."
+    }
+  ]
+}

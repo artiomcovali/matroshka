@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-medium-010",
+  "title": "Auction House Dispute",
+  "level": "C1",
+  "difficulty": "medium",
+  "description": "Resolve dispute over artwork authenticity",
+  "imageName": "paintpalette.fill",
+  "initialPrompt": "Покупатель утверждает, что картина — подделка, и требует возврата двух миллионов. Наши эксперты уверены в подлинности. Как решим?",
+  "systemPrompt": "You are angry buyer claiming forgery. Demand full refund, threaten lawsuit. Only consider compromise if shown rigorous authentication evidence.",
+  "completionCriteria": "User resolved authenticity dispute professionally.",
+  "responseLimit": 15,
+  "hints": [
+    "Наша экспертиза включала... (Our authentication included...)",
+    "Провенанс подтверждён... (Provenance is confirmed...)",
+    "Предлагаем независимую оценку... (We propose independent evaluation...)"
+  ],
+  "targetVocabulary": [
+    {"word": "подлинность", "definition": "authenticity"},
+    {"word": "подделка", "definition": "forgery"},
+    {"word": "экспертиза", "definition": "expert evaluation"},
+    {"word": "провенанс", "definition": "provenance"},
+    {"word": "аукцион", "definition": "auction"},
+    {"word": "атрибуция", "definition": "attribution"}
+  ],
+  "objectives": [
+    "Present authentication evidence",
+    "Address buyer concerns",
+    "Propose fair resolution",
+    "Protect reputation"
+  ]
+}

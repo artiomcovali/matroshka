@@ -1,0 +1,65 @@
+{
+  "id": "free-b1-opinion",
+  "level": "B1",
+  "type": "freeform",
+  "title": "My Opinion On...",
+  "titleRussian": "Моё мнение о...",
+  "theme": "my-opinion",
+  "prompts": [
+    {
+      "id": "b1-opin-001",
+      "prompt": "What is your opinion about social media? Is it helpful or harmful?",
+      "promptRussian": "Какое ваше мнение о социальных сетях? Они полезны или вредны?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Я считаю, что...", "С одной стороны... с другой стороны...", "По моему мнению..."],
+      "targetGrammar": ["opinion expressions", "contrast conjunctions", "что clauses"],
+      "gradingCriteria": ["opinion clearly stated", "at least one reason given", "contrast or balance shown"],
+      "sampleResponse": "Я считаю, что социальные сети имеют как плюсы, так и минусы. С одной стороны, они помогают общаться с друзьями. С другой стороны, люди тратят на них слишком много времени."
+    },
+    {
+      "id": "b1-opin-002",
+      "prompt": "Do you think it's important to learn foreign languages? Explain your view.",
+      "promptRussian": "Как вы думаете, важно ли изучать иностранные языки? Объясните свою точку зрения.",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Я думаю, что...", "Это важно, потому что...", "Например..."],
+      "targetGrammar": ["opinion verbs", "потому что clauses", "example introduction"],
+      "gradingCriteria": ["clear stance on importance", "reasons provided", "examples if possible"],
+      "sampleResponse": "Я думаю, что изучение иностранных языков очень важно. Во-первых, это помогает в карьере. Во-вторых, можно путешествовать и общаться с людьми из разных стран."
+    },
+    {
+      "id": "b1-opin-003",
+      "prompt": "What do you think about working from home versus working in an office?",
+      "promptRussian": "Что вы думаете о работе из дома по сравнению с работой в офисе?",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["По-моему...", "Преимущество работы из дома в том, что...", "Однако..."],
+      "targetGrammar": ["comparison expressions", "преимущество/недостаток", "однако conjunction"],
+      "gradingCriteria": ["comparison made", "advantages and/or disadvantages listed", "preference stated"],
+      "sampleResponse": "По-моему, у обоих вариантов есть свои преимущества. Работа из дома экономит время на дорогу. Однако в офисе легче общаться с коллегами. Лично я предпочитаю гибридный формат."
+    },
+    {
+      "id": "b1-opin-004",
+      "prompt": "Should students wear school uniforms? Share your thoughts.",
+      "promptRussian": "Должны ли ученики носить школьную форму? Поделитесь своими мыслями.",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["Мне кажется, что...", "Это хорошо, потому что...", "С другой стороны..."],
+      "targetGrammar": ["должен constructions", "reason clauses", "contrast expressions"],
+      "gradingCriteria": ["clear position stated", "at least two arguments", "logical reasoning"],
+      "sampleResponse": "Мне кажется, что школьная форма имеет свои плюсы. Она создаёт равенство между учениками. Однако некоторые считают, что форма ограничивает самовыражение детей."
+    },
+    {
+      "id": "b1-opin-005",
+      "prompt": "Is it better to travel alone or with friends? Give your opinion.",
+      "promptRussian": "Лучше путешествовать одному или с друзьями? Выскажите своё мнение.",
+      "minWords": 15,
+      "maxWords": 80,
+      "hints": ["На мой взгляд...", "Когда путешествуешь один...", "С друзьями интереснее, потому что..."],
+      "targetGrammar": ["comparison", "когда clauses", "reason expressions"],
+      "gradingCriteria": ["preference stated", "comparison made", "reasons given"],
+      "sampleResponse": "На мой взгляд, это зависит от цели поездки. Когда путешествуешь один, можно лучше узнать себя. С друзьями веселее, но нужно учитывать чужие интересы."
+    }
+  ]
+}

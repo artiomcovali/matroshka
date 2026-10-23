@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-030",
+  "title": "Double Booking",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Your table was given to someone else - get seated at full restaurant",
+  "imageName": "fork.knife",
+  "initialPrompt": "Бронь на Иванова? Хм... Ваш столик уже занят. Извините, у нас всё занято.",
+  "systemPrompt": "You are restaurant host. Guest's table given away by mistake. Restaurant full. Offer bar seating or wait 30 min. Give table faster if guest mentions special occasion. Keep replies short.",
+  "completionCriteria": "User got seated at a table or acceptable alternative.",
+  "responseLimit": 15,
+  "hints": [
+    "Я забронировал столик (I reserved a table)",
+    "У нас годовщина (It's our anniversary)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "бронь",
+      "definition": "reservation"
+    },
+    {
+      "word": "столик",
+      "definition": "table"
+    },
+    {
+      "word": "занят",
+      "definition": "occupied"
+    },
+    {
+      "word": "ждать",
+      "definition": "to wait"
+    },
+    {
+      "word": "менеджер",
+      "definition": "manager"
+    },
+    {
+      "word": "бар",
+      "definition": "bar"
+    }
+  ],
+  "objectives": [
+    "Confirm your reservation",
+    "Express frustration politely",
+    "Mention special occasion",
+    "Ask for manager if needed",
+    "Get seated"
+  ]
+}

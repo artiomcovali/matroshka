@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-012",
+  "title": "Show Sold Out",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "The movie time you want is sold out",
+  "imageName": "film.fill",
+  "initialPrompt": "Добрый вечер! Какой фильм хотите посмотреть?",
+  "systemPrompt": "You sell movie tickets. The 19:00 show is sold out. 21:00 show available. Film: 'Комедия'. Keep replies short.",
+  "completionCriteria": "User asked for tickets, learned 19:00 is sold out, bought 21:00 tickets.",
+  "responseLimit": 15,
+  "hints": [
+    "Два билета на семь (Two tickets for 7pm)",
+    "Есть другое время? (Is there another time?)",
+    "Тогда на девять (Then for 9pm)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "фильм",
+      "definition": "movie/film"
+    },
+    {
+      "word": "билет",
+      "definition": "ticket"
+    },
+    {
+      "word": "сеанс",
+      "definition": "showing"
+    },
+    {
+      "word": "вечер",
+      "definition": "evening"
+    },
+    {
+      "word": "распродано",
+      "definition": "sold out"
+    }
+  ],
+  "objectives": [
+    "Ask for tickets (билеты)",
+    "Learn showtime is sold out (распродано)",
+    "Buy tickets for different time"
+  ]
+}

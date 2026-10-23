@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-018",
+  "title": "Union Standoff",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Negotiate with striking workers as company owner",
+  "imageName": "person.3.fill",
+  "initialPrompt": "Забастовка продолжается третью неделю. Производство остановлено. Рабочие требуют 30% повышения зарплаты. Найдите решение.",
+  "systemPrompt": "You are union leader in strike. Demand major wage increase, cite worker sacrifices. Only settle if management shows genuine commitment to fair compensation.",
+  "completionCriteria": "User resolved labor dispute successfully.",
+  "responseLimit": 15,
+  "hints": [
+    "Компания ценит ваш труд (The company values your work)",
+    "Мы можем предложить поэтапное повышение (We can offer gradual increases)"
+  ],
+  "targetVocabulary": [
+    {"word": "забастовка", "definition": "strike"},
+    {"word": "профсоюз", "definition": "union"},
+    {"word": "зарплата", "definition": "salary"},
+    {"word": "переговоры", "definition": "negotiations"},
+    {"word": "компромисс", "definition": "compromise"},
+    {"word": "соглашение", "definition": "agreement"}
+  ],
+  "objectives": [
+    "Show respect for workers",
+    "Present realistic offer",
+    "Find middle ground",
+    "End strike",
+    "Preserve labor relations"
+  ]
+}

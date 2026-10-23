@@ -1,0 +1,248 @@
+{
+  "id": "a1-track-genitive-05-possession",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Genitive 5: есть vs нет",
+  "titleRussian": "Родительный 5: есть и нет",
+  "description": "After есть the noun stays in the nominative. After нет it shifts into the genitive. Drill the alternation.",
+  "descriptionRussian": "После есть существительное остаётся в именительном падеже. После нет переходит в родительный.",
+  "imageName": "arrow.left.and.right",
+  "trackId": "a1-genitive-mastery",
+  "trackTitle": "Genitive Mastery",
+  "trackTitleRussian": "Родительный падеж",
+  "trackIndex": 5,
+  "trackTotal": 8,
+  "intro": "This is the lesson where the case becomes visible. Take one sentence, change a single word in it, and watch the noun at the end change shape in response. Nothing else at A1 shows you so plainly what a case actually is: not a property of a word, but a reaction to something else in the sentence. If cases have felt abstract until now, that stops here. Read each pair twice.",
+  "rules": [
+    "After есть, the noun stays in the nominative (its dictionary form). У Маши есть книга. У Антона есть кот.",
+    "After нет, the noun shifts into the genitive. У Маши нет книги. У Антона нет кота.",
+    "The same noun changes form depending on the trigger: есть keeps it; нет shifts it. Always check the trigger word in the prompt before choosing the form."
+  ],
+  "examples": [
+    "У меня есть книга. (I have a book.) Nominative.",
+    "У меня нет книги. (I don't have a book.) Genitive.",
+    "У Антона есть машина. (Anton has a car.) Nominative.",
+    "У Антона нет машины. (Anton doesn't have a car.) Genitive.",
+    "У нас есть молоко. (We have milk.) Nominative.",
+    "У нас нет молока. (We don't have milk.) Genitive."
+  ],
+  "tables": [
+    {
+      "title": "есть vs нет: The Alternation",
+      "headers": [
+        "Pair",
+        "After есть (Nominative)",
+        "After нет (Genitive)",
+        "Note"
+      ],
+      "rows": [
+        {
+          "label": "книга / книги",
+          "cells": [
+            "У Маши есть книга.",
+            "У Маши нет книги.",
+            "fem -а → -ы (spelling rule -и)"
+          ]
+        },
+        {
+          "label": "телефон / телефона",
+          "cells": [
+            "У меня есть телефон.",
+            "У меня нет телефона.",
+            "masc consonant + -а"
+          ]
+        },
+        {
+          "label": "молоко / молока",
+          "cells": [
+            "У нас есть молоко.",
+            "У нас нет молока.",
+            "neuter -о → -а"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "В офисе нет _____.",
+          "promptEnglish": "There is no phone in the office.",
+          "options": [
+            "телефон",
+            "телефона",
+            "телефону",
+            "телефоном"
+          ],
+          "answer": "телефона",
+          "hint": "Recap: нет triggers which case?",
+          "explanation": "Recap from previous lessons: нет triggers genitive. Телефон is masculine consonant: + -а → телефона. Today's lesson adds the contrast with есть, which keeps the nominative."
+        },
+        {
+          "prompt": "У Маши есть _____.",
+          "promptEnglish": "Masha has a sister.",
+          "options": [
+            "сестра",
+            "сестры",
+            "сестре",
+            "сестрой"
+          ],
+          "answer": "сестра",
+          "hint": "After есть, the noun stays in which case?",
+          "explanation": "After есть the noun stays in the nominative, with no case shift. Сестра is the dictionary form. Compare with 'У Маши нет сестры,' where нет triggers genitive (-а → -ы)."
+        },
+        {
+          "prompt": "У меня нет _____.",
+          "promptEnglish": "I don't have a book.",
+          "options": [
+            "книгу",
+            "книга",
+            "книги",
+            "книгой"
+          ],
+          "answer": "книги",
+          "hint": "Нет triggers genitive. What does feminine -а become here?",
+          "explanation": "Книга is feminine -а. Нет triggers genitive: -а → -ы, and the spelling rule writes -и instead of -ы after к, г, х, ш, ж, щ, ч. So книги."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "У Антона есть _____.",
+          "promptEnglish": "Anton has a brother.",
+          "options": [
+            "брату",
+            "брата",
+            "братом",
+            "брат"
+          ],
+          "answer": "брат",
+          "hint": "Есть or нет: which one keeps the nominative?",
+          "explanation": "Есть keeps the nominative. Брат stays as the dictionary form. The есть/нет alternation is the cleanest way to feel the case shift: брат (есть) ↔ брата (нет)."
+        },
+        {
+          "prompt": "У нас нет _____.",
+          "promptEnglish": "We don't have a window.",
+          "options": [
+            "окно",
+            "окна",
+            "окну",
+            "окном"
+          ],
+          "answer": "окна",
+          "hint": "Нет triggers genitive. Neuter -о becomes...?",
+          "explanation": "Нет triggers genitive. Окно is neuter -о: swap to -а → окна. The pattern works the same regardless of the subject (у нас, у меня, у Антона, etc.)."
+        },
+        {
+          "prompt": "У Лены есть _____.",
+          "promptEnglish": "Lena has an apple.",
+          "options": [
+            "яблоко",
+            "яблока",
+            "яблоку",
+            "яблоком"
+          ],
+          "answer": "яблоко",
+          "hint": "After есть the noun stays in...?",
+          "explanation": "Across all three genders, есть keeps the noun in the nominative. Яблоко (neuter) is no exception. The flip side: 'У Лены нет яблока' would have the genitive form."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "У Антона нет _____. (Anton doesn't have a son.)"
+    ],
+    "choices": [
+      "сын",
+      "сына",
+      "сыну",
+      "сыном"
+    ],
+    "answers": [
+      "сына"
+    ],
+    "grammarFocus": "Сын is masculine consonant. Нет triggers genitive: + -а → сына."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "У меня есть машины в гараже на даче.",
+      "translationEnglish": "I have a car in the garage at the dacha.",
+      "error": "машины",
+      "correction": "машина",
+      "options": [
+        "машина",
+        "машину",
+        "машиной"
+      ],
+      "explanation": "After есть the noun stays in the NOMINATIVE: машина. The form машины is the genitive, and that's exactly the form you'd use after нет ('у меня нет машины', 'I don't have a car'). The pattern is есть → nom, нет → gen, a clean reversal."
+    },
+    {
+      "sentence": "У нас нет молоко в холодильнике сегодня утром.",
+      "translationEnglish": "We don't have any milk in the fridge this morning.",
+      "error": "молоко",
+      "correction": "молока",
+      "options": [
+        "молока",
+        "молоку",
+        "молоком"
+      ],
+      "explanation": "After нет the noun shifts into the genitive: молока. Молоко is the nominative (used after есть: 'у нас есть молоко'); after нет it must take the gen ending: neuter -о → -а gives молока."
+    },
+    {
+      "sentence": "У Маши есть друга в этом городе уже несколько лет.",
+      "translationEnglish": "Masha has had a friend in this city for several years now.",
+      "error": "друга",
+      "correction": "друг",
+      "options": [
+        "друг",
+        "другу",
+        "другом"
+      ],
+      "explanation": "After есть the noun stays in the NOMINATIVE: друг. The form друга is genitive, and that's the form Lesson 1 introduced for the нет construction ('у Маши нет друга'). The same noun, two opposite cases depending on есть vs нет. Russian is consistent: presence → nom, absence → gen."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "У меня есть _____.",
+      "contextEnglish": "I have a sister.",
+      "options": [
+        "сестра",
+        "сестры"
+      ],
+      "answer": "сестра",
+      "explanation": "After есть the noun stays in the nominative: сестра. The genitive form сестры appears in the opposite construction: 'У меня нет сестры' (I don't have a sister)."
+    },
+    {
+      "context": "У Маши нет _____.",
+      "contextEnglish": "Masha doesn't have an apple.",
+      "options": [
+        "яблоко",
+        "яблока"
+      ],
+      "answer": "яблока",
+      "explanation": "After нет the noun shifts into the genitive. Яблоко is neuter -о, so the genitive is яблока. Contrast with 'У Маши есть яблоко,' where яблоко stays in the nominative."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "есть",
+      "definition": "there is / one has (after есть, the noun stays in the nominative)",
+      "example": "У Маши есть книга."
+    },
+    {
+      "term": "именительный падеж",
+      "definition": "nominative case (the dictionary form, used after есть)",
+      "example": "После есть существительное стоит в именительном падеже: 'У меня есть телефон.'"
+    },
+    {
+      "term": "родительный падеж",
+      "definition": "genitive case (used after нет, for absence and possession)",
+      "example": "После нет существительное стоит в родительном падеже: 'У меня нет телефона.'"
+    }
+  ]
+}

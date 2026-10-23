@@ -1,0 +1,307 @@
+{
+  "id": "a1-track-noun-01-three-genders",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Nouns 1: The Base Form and Three Genders",
+  "titleRussian": "Существительные 1: Начальная форма и три рода",
+  "description": "Every Russian noun has a fixed gender, and you can almost always read it straight off the last letter of the dictionary form (the nominative). Hard consonant signals masculine; -а or -я signals feminine; -о or -е signals neuter.",
+  "descriptionRussian": "У каждого русского существительного есть род, и обычно его видно по последней букве начальной (словарной) формы. Твёрдый согласный — мужской род; -а или -я — женский; -о или -е — средний.",
+  "imageName": "rectangle.3.group",
+  "trackId": "a1-noun-basics-mastery",
+  "trackTitle": "Meet the Russian Noun",
+  "trackTitleRussian": "Знакомство с существительными",
+  "trackIndex": 1,
+  "trackTotal": 6,
+  "intro": "Russian has no \"a\" or \"the\", but it kept something English dropped centuries ago: every noun carries a gender, and that gender decides the shape of almost every word standing next to it. The good news is that you rarely have to guess. For most nouns, the last letter of the dictionary form tells you outright. This lesson teaches you to read that letter. The five that follow build the rest of the noun on top of it.",
+  "rules": [
+    "The nominative case (именительный падеж) is the base, dictionary form of a noun. It is the form used for the subject of a sentence, and the form that answers кто? (who?) for people and animals or что? (what?) for things and ideas. Every other case is a change made on top of this form.",
+    "Russian sorts every noun into one of three genders: masculine (мужской род), feminine (женский род), or neuter (средний род). A noun's gender is fixed; it does not change with context.",
+    "Masculine: nouns whose nominative ends in a hard consonant. Examples: дом, журнал, телефон, брат, город, стол.",
+    "Feminine: nouns whose nominative ends in -а or -я. Examples: книга, школа, мама, машина, песня, неделя, кухня.",
+    "Neuter: nouns whose nominative ends in -о or -е. Examples: окно, письмо, молоко, утро, море, поле, солнце."
+  ],
+  "examples": [
+    "Это журнал. (This is a magazine.) Журнал ends in a hard consonant, so it is masculine.",
+    "Брат дома. (My brother is home.) Брат ends in a hard consonant, so it is masculine.",
+    "Книга на столе. (The book is on the table.) Книга ends in -а, so it is feminine.",
+    "Песня красивая. (The song is beautiful.) Песня ends in -я, so it is feminine.",
+    "Окно открыто. (The window is open.) Окно ends in -о, so it is neuter.",
+    "Море далеко. (The sea is far away.) Море ends in -е, so it is neuter."
+  ],
+  "tables": [
+    {
+      "title": "Reading Gender from the Nominative Ending",
+      "headers": [
+        "Ending",
+        "Gender",
+        "Examples"
+      ],
+      "rows": [
+        {
+          "label": "hard consonant",
+          "cells": [
+            "masculine (мужской)",
+            "журнал, стол, дом, телефон, брат"
+          ]
+        },
+        {
+          "label": "-а",
+          "cells": [
+            "feminine (женский)",
+            "книга, школа, мама, машина"
+          ]
+        },
+        {
+          "label": "-я",
+          "cells": [
+            "feminine (женский)",
+            "песня, неделя, кухня"
+          ]
+        },
+        {
+          "label": "-о",
+          "cells": [
+            "neuter (средний)",
+            "окно, письмо, молоко, утро"
+          ]
+        },
+        {
+          "label": "-е",
+          "cells": [
+            "neuter (средний)",
+            "море, поле, солнце"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "What gender is the word «дом» (house)?",
+          "promptEnglish": "What gender is the word «дом» (house)?",
+          "options": [
+            "masculine",
+            "feminine",
+            "neuter",
+            "plural"
+          ],
+          "answer": "masculine",
+          "hint": "Look at the last letter.",
+          "explanation": "Дом ends in the hard consonant -м. Hard consonant signals masculine."
+        },
+        {
+          "prompt": "What gender is the word «книга» (book)?",
+          "promptEnglish": "What gender is the word «книга» (book)?",
+          "options": [
+            "neuter",
+            "feminine",
+            "masculine",
+            "plural"
+          ],
+          "answer": "feminine",
+          "hint": "What vowel does the word end in?",
+          "explanation": "Книга ends in -а. Both -а and -я are feminine endings."
+        },
+        {
+          "prompt": "What gender is the word «окно» (window)?",
+          "promptEnglish": "What gender is the word «окно» (window)?",
+          "options": [
+            "masculine",
+            "feminine",
+            "neuter",
+            "plural"
+          ],
+          "answer": "neuter",
+          "hint": "Окно ends in which vowel?",
+          "explanation": "Окно ends in -о. Both -о and -е are neuter endings. Hard consonants are masculine; -а and -я are feminine; -о and -е are neuter."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ читает книгу.",
+          "promptEnglish": "_____ is reading a book.",
+          "options": [
+            "Мамы",
+            "Маму",
+            "Мамой",
+            "Мама"
+          ],
+          "answer": "Мама",
+          "hint": "Who is doing the reading? The subject of a Russian sentence is always in the nominative, the base form.",
+          "explanation": "The subject of a sentence stands in the nominative case. Мама is the nominative form."
+        },
+        {
+          "prompt": "Это _____.",
+          "promptEnglish": "This is a song.",
+          "options": [
+            "песне",
+            "песня",
+            "песни",
+            "песню"
+          ],
+          "answer": "песня",
+          "hint": "After «Это X», what form does X take?",
+          "explanation": "«Это X» is the textbook 'this is X' construction. The noun after Это stays in the nominative, its citation form. Песня is the nominative."
+        },
+        {
+          "prompt": "_____ открыто.",
+          "promptEnglish": "The window is open.",
+          "options": [
+            "Окну",
+            "Окном",
+            "Окно",
+            "Окна"
+          ],
+          "answer": "Окно",
+          "hint": "What is the subject of the sentence? The subject takes the nominative.",
+          "explanation": "Окно is the subject and therefore takes the nominative. The neuter short-form adjective открыто agrees with it ('the window is open'), which is a nice extra signal that the noun is neuter and in its base form."
+        }
+      ]
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Братом живёт в Москве.",
+      "translationEnglish": "My brother lives in Moscow.",
+      "error": "Братом",
+      "correction": "Брат",
+      "options": [
+        "Брат",
+        "Брата",
+        "Брату"
+      ],
+      "explanation": "The subject of a sentence stands in the nominative, the base dictionary form: Брат. Братом is a different case (instrumental) and cannot be the subject. Who lives in Moscow? Кто? — Брат."
+    },
+    {
+      "sentence": "Это школу, а не библиотека.",
+      "translationEnglish": "This is a school, not a library.",
+      "error": "школу",
+      "correction": "школа",
+      "options": [
+        "школа",
+        "школы",
+        "школе"
+      ],
+      "explanation": "After «Это» a noun is being named, so it stays in the nominative, its citation form: Это школа. Школу is the accusative form and does not fit here."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "журнал",
+      "question": "Which ending rule makes журнал masculine?",
+      "options": [
+        "It ends in a hard consonant",
+        "It ends in -а",
+        "It ends in -о",
+        "It ends in the soft sign -ь"
+      ],
+      "answer": "It ends in a hard consonant",
+      "explanation": "Журнал ends in the hard consonant -л. The rule is: hard consonant → masculine."
+    },
+    {
+      "sentence": "неделя",
+      "question": "Which ending rule makes неделя feminine?",
+      "options": [
+        "Hard consonant → masculine",
+        "-о → neuter",
+        "-а / -я → feminine",
+        "-е → neuter"
+      ],
+      "answer": "-а / -я → feminine",
+      "explanation": "Неделя ends in -я. Both -а and -я are the feminine endings; here it is -я. The two together make one of the three core rules."
+    },
+    {
+      "sentence": "поле",
+      "question": "Which ending rule makes поле neuter?",
+      "options": [
+        "Hard consonant → masculine",
+        "-а / -я → feminine",
+        "The soft sign -ь → feminine",
+        "-о / -е → neuter"
+      ],
+      "answer": "-о / -е → neuter",
+      "explanation": "Поле ends in -е. The neuter rule covers both -о and -е together. Окно (in -о) and поле (in -е) are both neuter for the same reason."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort these nouns by gender. Read the last letter and apply the rule.",
+    "categories": [
+      "Masculine",
+      "Feminine",
+      "Neuter"
+    ],
+    "items": [
+      {
+        "word": "журнал",
+        "category": "Masculine"
+      },
+      {
+        "word": "неделя",
+        "category": "Feminine"
+      },
+      {
+        "word": "море",
+        "category": "Neuter"
+      },
+      {
+        "word": "книга",
+        "category": "Feminine"
+      },
+      {
+        "word": "дом",
+        "category": "Masculine"
+      },
+      {
+        "word": "письмо",
+        "category": "Neuter"
+      },
+      {
+        "word": "стол",
+        "category": "Masculine"
+      },
+      {
+        "word": "песня",
+        "category": "Feminine"
+      },
+      {
+        "word": "окно",
+        "category": "Neuter"
+      },
+      {
+        "word": "брат",
+        "category": "Masculine"
+      },
+      {
+        "word": "школа",
+        "category": "Feminine"
+      },
+      {
+        "word": "поле",
+        "category": "Neuter"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "именительный падеж",
+      "definition": "nominative case: the dictionary form of a noun. Used for the subject of a sentence; answers кто? or что?.",
+      "example": "Это книга. (Книга is in the nominative.)"
+    },
+    {
+      "term": "род",
+      "definition": "grammatical gender. Every Russian noun is one of three: мужской, женский, or средний. Fixed and built into the word.",
+      "example": "Дом — мужской, книга — женский, окно — средний."
+    },
+    {
+      "term": "the three ending rules",
+      "definition": "Hard consonant → M; -а / -я → F; -о / -е → N. The soft sign -ь is covered in lesson 2.",
+      "example": "Стол → M. Школа → F. Море → N."
+    }
+  ]
+}

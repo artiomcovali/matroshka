@@ -1,0 +1,557 @@
+{
+  "lessonId": "b2-001-aspect-nuance",
+  "sets": [
+    {
+      "id": "round-1-nuance-quiz",
+      "title": "Nuance Recognition",
+      "titleRussian": "Определение нюансов",
+      "description": "Identify aspect nuances in context",
+      "descriptionRussian": "Определите нюансы вида в контексте",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я обязательно _____ этот проект к пятнице. (definite commitment to finish)",
+              "promptEnglish": "I will definitely finish this project by Friday.",
+              "options": [
+                "буду заканчивать",
+                "закончу",
+                "заканчиваю",
+                "заканчивал"
+              ],
+              "answer": "закончу",
+              "hint": "A definite commitment to a result uses perfective.",
+              "explanation": "Обязательно + deadline = definite commitment. Perfective закончу signals guaranteed completion."
+            },
+            {
+              "prompt": "Рыбы _____ в воде. (general biological fact)",
+              "promptEnglish": "Fish live in water.",
+              "options": [
+                "проживут",
+                "жили",
+                "живут",
+                "прожили"
+              ],
+              "answer": "живут",
+              "hint": "General truths about the natural world use imperfective.",
+              "explanation": "Universal biological facts take imperfective present: живут."
+            },
+            {
+              "prompt": "Ты вечно _____ свои вещи! (annoyance at a repeated habit)",
+              "promptEnglish": "You're always losing your things!",
+              "options": [
+                "потеряешь",
+                "потерял",
+                "теряешь",
+                "потеряла"
+              ],
+              "answer": "теряешь",
+              "hint": "Criticism of a repeated annoying action uses imperfective.",
+              "explanation": "Repeated irritating habit = imperfective теряешь. The adverb вечно reinforces the pattern."
+            },
+            {
+              "prompt": "Не волнуйся, я _____ тебе. (a definite, specific offer)",
+              "promptEnglish": "Don't worry, I'll help you. (firm offer)",
+              "options": [
+                "буду помогать",
+                "помогу",
+                "помогал",
+                "помогаю"
+              ],
+              "answer": "помогу",
+              "hint": "A firm, specific offer to help uses perfective.",
+              "explanation": "Definite offer = perfective помогу. Imperfective буду помогать would sound vaguer."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я _____ тебе завтра, обещаю. (a specific promise to call)",
+              "promptEnglish": "I'll call you tomorrow, I promise.",
+              "options": [
+                "звоню",
+                "буду звонить",
+                "позвоню",
+                "звонил"
+              ],
+              "answer": "позвоню",
+              "hint": "A concrete promise to perform a specific action uses perfective.",
+              "explanation": "Обещаю + perfective позвоню = committed promise. Буду звонить would imply repeated calling, not one firm action."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Завтра я _____ статью. (commitment to produce a result)",
+          "contextEnglish": "Tomorrow I will write the article. (will definitely complete it)",
+          "options": [
+            "напишу",
+            "буду писать"
+          ],
+          "answer": "напишу",
+          "explanation": "Perfective напишу = guaranteed completion. The speaker commits to having a finished article."
+        },
+        {
+          "context": "Завтра я _____ статью. (process, no guarantee of finishing)",
+          "contextEnglish": "Tomorrow I'll be writing an article. (working on it, might not finish)",
+          "options": [
+            "буду писать",
+            "напишу"
+          ],
+          "answer": "буду писать",
+          "explanation": "Imperfective буду писать = process. The speaker plans to work on it but makes no promise about completion."
+        },
+        {
+          "context": "Она всегда _____ двери! (criticism of a habit)",
+          "contextEnglish": "She always slams the doors! (annoyed)",
+          "options": [
+            "хлопает",
+            "хлопнет"
+          ],
+          "answer": "хлопает",
+          "explanation": "Imperfective хлопает + всегда = annoyance at a repeated habit."
+        },
+        {
+          "context": "Кошки _____ рыбу. (general fact about cats)",
+          "contextEnglish": "Cats love fish. (general truth)",
+          "options": [
+            "любят",
+            "полюбят"
+          ],
+          "answer": "любят",
+          "explanation": "General truths about species take imperfective present: любят."
+        }
+      ]
+    },
+    {
+      "id": "round-3-error-translate",
+      "title": "Fix and Translate",
+      "titleRussian": "Исправьте и переведите",
+      "description": "Correct aspect errors and translate sentences with the right nuance",
+      "descriptionRussian": "Исправьте ошибки и переведите предложения с правильным нюансом",
+      "icon": "pencil.and.outline",
+      "errorCorrection": [
+        {
+          "sentence": "Ты вечно потеряешь ключи!",
+          "error": "потеряешь",
+          "correction": "теряешь",
+          "hint": "Criticism of a repeated habit uses imperfective, not perfective.",
+          "explanation": "Repeated annoying habit = imperfective: теряешь. Потеряешь (pf future) would mean a single future event.",
+          "options": [
+            "теряешь",
+            "потерял",
+            "будешь терять"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "I will definitely send you the documents tomorrow.",
+          "answer": "Я обязательно отправлю тебе документы завтра.",
+          "acceptableVariants": [
+            "Завтра я обязательно отправлю тебе документы.",
+            "Я обязательно пришлю тебе документы завтра."
+          ],
+          "hint": "Definite commitment = обязательно + perfective",
+          "grammarFocus": "Certainty nuance with perfective",
+          "keyWord": "отправлю",
+          "options": [
+            "отправлю",
+            "буду отправлять",
+            "отправляю",
+            "отправил"
+          ]
+        },
+        {
+          "english": "Birds fly south in winter. (general fact)",
+          "answer": "Птицы летят на юг зимой.",
+          "acceptableVariants": [
+            "Зимой птицы летят на юг.",
+            "Птицы улетают на юг зимой."
+          ],
+          "hint": "General fact = imperfective present",
+          "grammarFocus": "General fact nuance",
+          "keyWord": "летят",
+          "options": [
+            "летят",
+            "полетят",
+            "летели",
+            "летают"
+          ]
+        },
+        {
+          "english": "She's always complaining about the weather!",
+          "answer": "Она вечно жалуется на погоду!",
+          "acceptableVariants": [
+            "Она всегда жалуется на погоду!",
+            "Она постоянно жалуется на погоду!"
+          ],
+          "hint": "Annoyance at repeated behavior = вечно/всегда + imperfective",
+          "grammarFocus": "Annoyance nuance",
+          "keyWord": "жалуется",
+          "options": [
+            "жалуется",
+            "пожалуется",
+            "пожаловалась",
+            "жаловаться"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which nuance does this sentence express? \"Он постоянно разговаривает по телефону!\"",
+              "promptEnglish": "He's constantly talking on the phone!",
+              "options": [
+                "Definite commitment",
+                "General fact",
+                "Annoyance at habit",
+                "Uncertain process"
+              ],
+              "answer": "Annoyance at habit",
+              "hint": "Постоянно + imperfective = what type of nuance?",
+              "explanation": "Постоянно + imperfective = frustration at a repeated habit. The speaker is annoyed."
+            },
+            {
+              "prompt": "Which nuance does this sentence express? \"Я решу этот вопрос сегодня.\"",
+              "promptEnglish": "I'll resolve this issue today.",
+              "options": [
+                "General fact",
+                "Annoyance",
+                "Definite commitment",
+                "Ongoing process"
+              ],
+              "answer": "Definite commitment",
+              "hint": "Perfective with a deadline suggests a firm commitment.",
+              "explanation": "Решу (perfective) + today = definite commitment to produce a result."
+            },
+            {
+              "prompt": "Which nuance does this sentence express? \"Снег тает весной.\"",
+              "promptEnglish": "Snow melts in spring.",
+              "options": [
+                "Definite commitment",
+                "General fact",
+                "Annoyance",
+                "Firm offer"
+              ],
+              "answer": "General fact",
+              "hint": "A statement about what happens every spring is a general truth.",
+              "explanation": "Imperfective present тает describing a natural phenomenon = general fact."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-pairs-sort",
+      "title": "Pairs and Patterns",
+      "titleRussian": "Пары и закономерности",
+      "description": "Compare aspect pairs and identify patterns in nuance usage",
+      "descriptionRussian": "Сравните видовые пары и определите закономерности",
+      "icon": "square.split.2x2",
+      "minimalPairs": [
+        {
+          "context": "Я _____ тебе ответ завтра. (firm promise to give a result)",
+          "contextEnglish": "I'll give you the answer tomorrow. (definite commitment)",
+          "options": [
+            "дам",
+            "буду давать"
+          ],
+          "answer": "дам",
+          "explanation": "Perfective дам = definite, one-time result. Буду давать would imply repeated giving."
+        },
+        {
+          "context": "Она _____ на совещаниях. (habitual behavior, speaker annoyed)",
+          "contextEnglish": "She always falls asleep at meetings! (annoying habit)",
+          "options": [
+            "засыпает",
+            "заснёт"
+          ],
+          "answer": "засыпает",
+          "explanation": "Imperfective засыпает = repeated annoying habit. Заснёт (pf) = single future event."
+        },
+        {
+          "context": "Металл _____ при нагревании. (scientific property)",
+          "contextEnglish": "Metal expands when heated. (physical law)",
+          "options": [
+            "расширяется",
+            "расширится"
+          ],
+          "answer": "расширяется",
+          "explanation": "General scientific fact = imperfective present расширяется."
+        },
+        {
+          "context": "Я _____ этот документ к обеду. (firm deadline commitment)",
+          "contextEnglish": "I'll prepare this document by lunch. (definite)",
+          "options": [
+            "подготовлю",
+            "буду готовить"
+          ],
+          "answer": "подготовлю",
+          "explanation": "Definite commitment with deadline к обеду = perfective подготовлю."
+        },
+        {
+          "context": "Он вечно _____ чужие секреты! (annoying behavior)",
+          "contextEnglish": "He's always telling other people's secrets! (annoyed)",
+          "options": [
+            "рассказывает",
+            "расскажет"
+          ],
+          "answer": "рассказывает",
+          "explanation": "Вечно + imperfective = annoyance at repeated behavior."
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Я обязательно сделаю. / Я тебе помогу. / Я всё объясню.",
+          "question": "What do all three sentences have in common?",
+          "options": [
+            "They describe ongoing processes",
+            "They express definite commitments (perfective)",
+            "They criticize repeated behavior",
+            "They state general facts"
+          ],
+          "answer": "They express definite commitments (perfective)",
+          "explanation": "All three use perfective future (сделаю, помогу, объясню) to express firm promises or commitments."
+        },
+        {
+          "sentence": "Ты опять опаздываешь! / Он вечно жалуется! / Она постоянно забывает!",
+          "question": "What unifies these three sentences?",
+          "options": [
+            "They express definite future plans",
+            "They state scientific facts",
+            "They express annoyance at repeated behavior (imperfective)",
+            "They describe one-time events"
+          ],
+          "answer": "They express annoyance at repeated behavior (imperfective)",
+          "explanation": "All use imperfective present + time adverbs (опять, вечно, постоянно) to express irritation at habits."
+        },
+        {
+          "sentence": "Земля вращается. / Вода кипит при 100°. / Снег тает весной.",
+          "question": "What aspect nuance do these sentences share?",
+          "options": [
+            "Annoyance at habits",
+            "General/scientific facts (imperfective present)",
+            "Firm commitments",
+            "Uncertain processes"
+          ],
+          "answer": "General/scientific facts (imperfective present)",
+          "explanation": "All describe universal truths using imperfective present tense."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Не беспокойся, я всё _____. (Don't worry, I'll take care of everything.)",
+          "Почему он постоянно _____?! (Why does he constantly interrupt?!)",
+          "Реки _____ в моря. (Rivers flow into seas.)"
+        ],
+        "choices": [
+          "сделаю",
+          "перебивает",
+          "впадают"
+        ],
+        "answers": [
+          "сделаю",
+          "перебивает",
+          "впадают"
+        ],
+        "grammarFocus": "Commitment (pf), annoyance (impf), general fact (impf)",
+        "hints": [
+          "A reassuring promise to handle everything = perfective.",
+          "Постоянно + annoying habit = imperfective.",
+          "A geographical fact = imperfective present."
+        ],
+        "explanations": [
+          "Firm commitment: perfective сделаю - 'I will get it done.'",
+          "Annoyance: imperfective перебивает with постоянно = frustration at interruptions.",
+          "General geographical fact: imperfective впадают - rivers flow into seas as a rule."
+        ],
+        "options": [
+          [
+            "делаю",
+            "сделал",
+            "делал",
+            "сделаю"
+          ],
+          [
+            "перебьёт",
+            "перебивает",
+            "перебивал",
+            "перебил"
+          ],
+          [
+            "впали",
+            "впадали",
+            "впадают",
+            "впадает"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All nuance types mixed together in varied exercises",
+      "descriptionRussian": "Все нюансы вместе в разных упражнениях",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я _____ этот вопрос на собрании. (firm intention to raise it)",
+              "promptEnglish": "I will raise this issue at the meeting. (definite plan)",
+              "options": [
+                "поднимаю",
+                "буду поднимать",
+                "подниму",
+                "поднимал"
+              ],
+              "answer": "подниму",
+              "hint": "A definite plan to perform a specific action = perfective.",
+              "explanation": "Committed plan = perfective подниму. Буду поднимать would imply repeatedly raising it."
+            },
+            {
+              "prompt": "Она вечно _____ на всё! (annoyance)",
+              "promptEnglish": "She's always complaining about everything!",
+              "options": [
+                "пожалуется",
+                "жалуется",
+                "пожаловалась",
+                "жаловаться"
+              ],
+              "answer": "жалуется",
+              "hint": "Вечно + repeated annoying behavior = imperfective.",
+              "explanation": "Вечно + imperfective жалуется = irritation at her constant complaining."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она опять _____ чужую еду из холодильника! (annoyed)",
+              "promptEnglish": "She's eating other people's food from the fridge again!",
+              "options": [
+                "съест",
+                "поест",
+                "съела",
+                "ест"
+              ],
+              "answer": "ест",
+              "hint": "Опять + habitual annoying behavior = imperfective.",
+              "explanation": "Repeated frustrating action: imperfective ест + опять."
+            },
+            {
+              "prompt": "Я обещаю, я _____ всё к сроку. (firm promise)",
+              "promptEnglish": "I promise, I'll finish everything on time.",
+              "options": [
+                "буду делать",
+                "сделаю",
+                "делаю",
+                "делал"
+              ],
+              "answer": "сделаю",
+              "hint": "Обещаю + deadline = perfective for firm commitment.",
+              "explanation": "Promise + deadline: perfective сделаю for guaranteed completion."
+            },
+            {
+              "prompt": "Зимой дни _____ короче. (seasonal pattern)",
+              "promptEnglish": "In winter, the days get shorter. (general pattern)",
+              "options": [
+                "становятся",
+                "станут",
+                "стали",
+                "стать"
+              ],
+              "answer": "становятся",
+              "hint": "A recurring natural pattern = imperfective present.",
+              "explanation": "Recurring seasonal fact: imperfective становятся - this happens every winter."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Ты всегда опоздаешь на работу!",
+          "error": "опоздаешь",
+          "correction": "опаздываешь",
+          "hint": "Criticism of a repeated habit requires imperfective, not perfective.",
+          "explanation": "Всегда + annoyance = imperfective опаздываешь. Опоздаешь (pf) would describe a single future event.",
+          "options": [
+            "опаздываешь",
+            "опоздал",
+            "опаздывал"
+          ]
+        },
+        {
+          "sentence": "Не переживай, я буду решать эту проблему. (meant as a firm reassurance)",
+          "error": "решать",
+          "correction": "решу",
+          "hint": "Firm reassurance uses perfective to show commitment.",
+          "explanation": "To reassure someone with a definite commitment: perfective решу. Буду решать sounds uncommitted.",
+          "options": [
+            "решу",
+            "буду решать",
+            "решаю",
+            "решал"
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these sentences by the aspect nuance they express",
+        "categories": [
+          "Definite Commitment",
+          "General Fact",
+          "Annoyance/Criticism"
+        ],
+        "items": [
+          {
+            "word": "Я обязательно сделаю!",
+            "category": "Definite Commitment"
+          },
+          {
+            "word": "Птицы летают.",
+            "category": "General Fact"
+          },
+          {
+            "word": "Ты опять опаздываешь!",
+            "category": "Annoyance/Criticism"
+          },
+          {
+            "word": "Я напишу тебе завтра.",
+            "category": "Definite Commitment"
+          },
+          {
+            "word": "Солнце встаёт на востоке.",
+            "category": "General Fact"
+          },
+          {
+            "word": "Он постоянно жалуется!",
+            "category": "Annoyance/Criticism"
+          },
+          {
+            "word": "Я тебе помогу.",
+            "category": "Definite Commitment"
+          },
+          {
+            "word": "Рыбы плавают.",
+            "category": "General Fact"
+          },
+          {
+            "word": "Они вечно спорят!",
+            "category": "Annoyance/Criticism"
+          }
+        ]
+      }
+    }
+  ]
+}

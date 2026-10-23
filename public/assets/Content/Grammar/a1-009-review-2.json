@@ -1,0 +1,318 @@
+{
+  "id": "a1-009-review-2",
+  "level": "A1",
+  "sortKey": "a1-013b-review-2",
+  "focusArea": "sentenceStructure",
+  "title": "Review 2",
+  "titleRussian": "Повторение 2",
+  "description": "Word order, present tense, negation, infinitives, and numbers",
+  "descriptionRussian": "Порядок слов, настоящее время, отрицание, инфинитив и числа",
+  "imageName": "star.fill",
+  "intro": "This review covers Russian word order (flexible but with common patterns), present tense conjugation for regular and irregular verbs, negation with не, verb infinitives, and numbers 1-100. These building blocks let you form statements, deny things, and count.",
+  "rules": [
+    "Russian word order is flexible, but the most common pattern is Subject-Verb-Object: Я читаю книгу.",
+    "Present tense verbs have two conjugation patterns: -е- (1st) and -и- (2nd). Я читаю, ты читаешь vs. я говорю, ты говоришь.",
+    "Negation uses не before the verb: Я не говорю по-русски. (I don't speak Russian.)",
+    "The infinitive is the base form ending in -ть: читать (to read), говорить (to speak), писать (to write).",
+    "Numbers: один (1), два (2), три (3), десять (10), двадцать (20), сто (100). After 2-4, use genitive singular."
+  ],
+  "examples": [
+    "Я читаю книгу. (I read a book.) — Subject + Verb + Object",
+    "Она не работает сегодня. (She doesn't work today.) — не before the verb",
+    "Я хочу читать. (I want to read.) — infinitive after хочу",
+    "У меня двадцать пять рублей. (I have twenty-five rubles.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Choose the correct form: Я _____ книгу. (read)",
+          "promptEnglish": "I read a book.",
+          "options": [
+            "читаю",
+            "читаешь",
+            "читает",
+            "читать"
+          ],
+          "answer": "читаю",
+          "hint": "First person singular (я)",
+          "explanation": "With я, the verb takes -ю/-у ending: я читаю."
+        },
+        {
+          "prompt": "Choose the correct form: Они _____ по-русски. (speak)",
+          "promptEnglish": "They speak Russian.",
+          "options": [
+            "говорю",
+            "говоришь",
+            "говорим",
+            "говорят"
+          ],
+          "answer": "говорят",
+          "hint": "Third person plural (они)",
+          "explanation": "With они, 2nd conjugation verbs take -ят: они говорят."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "How do you say 'I don't understand'?",
+          "promptEnglish": "I don't understand.",
+          "options": [
+            "Я понимаю",
+            "Я не понимаю",
+            "Я нет понимаю",
+            "Не я понимаю"
+          ],
+          "answer": "Я не понимаю",
+          "hint": "Не goes directly before the verb",
+          "explanation": "Negation in Russian uses не placed directly before the verb: Я не понимаю."
+        },
+        {
+          "prompt": "Which is the infinitive form?",
+          "promptEnglish": "Which is the infinitive (base) form of the verb?",
+          "options": [
+            "читаю",
+            "читаешь",
+            "читать",
+            "читает"
+          ],
+          "answer": "читать",
+          "hint": "Infinitives end in -ть",
+          "explanation": "The infinitive is the base form of the verb, ending in -ть: читать (to read)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "What is 15 in Russian?",
+          "promptEnglish": "What is 15 in Russian?",
+          "options": [
+            "двенадцать",
+            "тринадцать",
+            "пятнадцать",
+            "шестнадцать"
+          ],
+          "answer": "пятнадцать",
+          "hint": "Пять + надцать",
+          "explanation": "Пятнадцать (15) = пять (5) + надцать (teen suffix). Numbers 11-19 follow this pattern."
+        },
+        {
+          "prompt": "Choose the correct form: Ты _____ музыку. (listen to)",
+          "promptEnglish": "You listen to music.",
+          "options": [
+            "слушаю",
+            "слушает",
+            "слушаешь",
+            "слушать"
+          ],
+          "answer": "слушаешь",
+          "hint": "Second person singular (ты)",
+          "explanation": "With ты, 1st conjugation verbs take -ешь: ты слушаешь."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Which sentence has correct word order?",
+          "promptEnglish": "Which sentence correctly says 'Anna reads a book'?",
+          "options": [
+            "Книгу читает Анна.",
+            "Анна читает книгу.",
+            "Читает Анна книгу.",
+            "Анна книгу читает."
+          ],
+          "answer": "Анна читает книгу.",
+          "hint": "The most neutral order is Subject-Verb-Object",
+          "explanation": "While all options are technically grammatical, Анна читает книгу (SVO) is the most neutral, common word order."
+        },
+        {
+          "prompt": "What is 50 in Russian?",
+          "promptEnglish": "What is 50 in Russian?",
+          "options": [
+            "сорок",
+            "пятьдесят",
+            "шестьдесят",
+            "тридцать"
+          ],
+          "answer": "пятьдесят",
+          "hint": "Пять + десят (five tens)",
+          "explanation": "Пятьдесят (50) = пять (5) + десят (tens). Tens 50-80 follow this compound pattern."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Мы _____ в школе. (work)",
+      "Она _____ говорит по-английски. (doesn't)",
+      "Я хочу _____ кофе. (to drink)",
+      "Ты _____ музыку? (listen to)",
+      "В классе _____ студентов. (twelve)"
+    ],
+    "choices": [
+      "работаем",
+      "не",
+      "пить",
+      "слушаешь",
+      "двенадцать",
+      "говорят"
+    ],
+    "answers": [
+      "работаем",
+      "не",
+      "пить",
+      "слушаешь",
+      "двенадцать"
+    ],
+    "grammarFocus": "Present tense conjugation, negation, infinitives, and numbers",
+    "options": [
+      [
+        "работаете",
+        "работают",
+        "работает",
+        "работаем"
+      ],
+      [
+        "ни",
+        "нет",
+        "не",
+        "никогда"
+      ],
+      [
+        "есть",
+        "читать",
+        "пить",
+        "спать"
+      ],
+      [
+        "слушаешь",
+        "слушает",
+        "слушаем",
+        "слушают"
+      ],
+      [
+        "одиннадцать",
+        "пятнадцать",
+        "двенадцать",
+        "тринадцать"
+      ]
+    ]
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Я",
+        "не",
+        "говорю",
+        "по-русски"
+      ],
+      "answer": "Я не говорю по-русски.",
+      "translation": "I don't speak Russian.",
+      "hint": "Subject + не + verb + по-русски"
+    },
+    {
+      "words": [
+        "хочет",
+        "Она",
+        "книгу",
+        "читать"
+      ],
+      "answer": "Она хочет читать книгу.",
+      "translation": "She wants to read a book.",
+      "hint": "Subject + хочет + infinitive + object"
+    },
+    {
+      "words": [
+        "работаем",
+        "Мы",
+        "не",
+        "сегодня"
+      ],
+      "answer": "Мы не работаем сегодня.",
+      "translation": "We don't work today.",
+      "hint": "Subject + не + verb + time word"
+    },
+    {
+      "words": [
+        "в",
+        "живут",
+        "Они",
+        "Москве"
+      ],
+      "answer": "Они живут в Москве.",
+      "translation": "They live in Moscow.",
+      "hint": "Subject + verb + в + city"
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я _____ книгу. (read, present tense)",
+      "contextEnglish": "I read a book.",
+      "options": [
+        "читаю",
+        "читать"
+      ],
+      "answer": "читаю",
+      "explanation": "Читаю is the conjugated present tense (I read). Читать is the infinitive (to read)."
+    },
+    {
+      "context": "Я хочу _____ книгу. (read, infinitive)",
+      "contextEnglish": "I want to read a book.",
+      "options": [
+        "читать",
+        "читаю"
+      ],
+      "answer": "читать",
+      "explanation": "After хочу (want), use the infinitive: читать (to read)."
+    },
+    {
+      "context": "Он _____ работает сегодня.",
+      "contextEnglish": "He doesn't work today.",
+      "options": [
+        "не",
+        "нет"
+      ],
+      "answer": "не",
+      "explanation": "Не is used before verbs for negation. Нет means 'no' as a standalone answer."
+    },
+    {
+      "context": "Ты говоришь по-русски? — _____, я не говорю.",
+      "contextEnglish": "Do you speak Russian? No, I don't speak it.",
+      "options": [
+        "Нет",
+        "Не"
+      ],
+      "answer": "Нет",
+      "explanation": "Нет is used as a standalone 'no'. Не is used before verbs."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "глагол",
+      "definition": "verb",
+      "example": "Читать — это глагол."
+    },
+    {
+      "term": "инфинитив",
+      "definition": "infinitive (base verb form)",
+      "example": "Читать, писать, говорить — инфинитивы."
+    },
+    {
+      "term": "отрицание",
+      "definition": "negation",
+      "example": "Я не работаю. (не = negation)"
+    },
+    {
+      "term": "число",
+      "definition": "number",
+      "example": "Один, два, три — числа."
+    }
+  ]
+}

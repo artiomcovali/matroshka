@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-007",
+  "title": "Hardball Negotiation",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Other party is playing hardball in contract talks",
+  "imageName": "doc.text.fill",
+  "initialPrompt": "Наша позиция окончательная. Или принимаете эти условия, или уходите. Другие готовы подписать.",
+  "systemPrompt": "You are hardball negotiator. Make ultimatums, cite other options. Can soften if other party walks away or proposes creative solution. Keep replies short.",
+  "completionCriteria": "User found creative solution or called bluff successfully.",
+  "responseLimit": 15,
+  "hints": [
+    "Давайте обсудим альтернативы (Let's discuss alternatives)",
+    "Если это ваша позиция, нам нужно подумать (If that's your position, we need to think)",
+    "Предлагаю компромисс (I propose a compromise)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "ультиматум",
+      "definition": "ultimatum"
+    },
+    {
+      "word": "позиция",
+      "definition": "position"
+    },
+    {
+      "word": "уступка",
+      "definition": "concession"
+    },
+    {
+      "word": "давление",
+      "definition": "pressure"
+    },
+    {
+      "word": "альтернатива",
+      "definition": "alternative"
+    },
+    {
+      "word": "блеф",
+      "definition": "bluff"
+    }
+  ],
+  "objectives": [
+    "Don't accept under pressure",
+    "Test their position",
+    "Propose alternatives",
+    "Find middle ground"
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "a1-track-negation-01-ne-particle",
+  "level": "A1",
+  "focusArea": "sentenceStructure",
+  "title": "Negation 1: The Particle не",
+  "titleRussian": "Отрицание 1: Частица «не»",
+  "description": "Russian builds its everyday negation around one short word: не. Today we learn where to place it (right before the negated element) and the four kinds of element it can negate: verb, noun, adjective, and adverb.",
+  "descriptionRussian": "Русское отрицание строится на одной короткой частице «не». Сегодня мы научимся ставить её перед нужным словом (глаголом, существительным, прилагательным или наречием).",
+  "imageName": "xmark.circle",
+  "trackId": "a1-negation-mastery",
+  "trackTitle": "Negation and Existence",
+  "trackTitleRussian": "Отрицание и наличие",
+  "trackIndex": 1,
+  "trackTotal": 5,
+  "intro": "English needs an extra verb to say no. 'I know' becomes 'I do not know', and a word appears from nowhere to carry the negation. Russian does not do this. One short particle goes in front of whatever you are denying, and nothing else in the sentence moves. This book covers the four ways Russian says no, and the first is the simplest thing you will learn all level. Place the word. Done.",
+  "rules": [
+    "Place не directly before the word you want to negate. The word can be a verb, a noun, an adjective, or an adverb.",
+    "Не is written separately from the next word. Я не знаю, not Я незнаю.",
+    "Present-tense identity and description sentences have no Russian verb. Не attaches straight to the noun (Это не книга) or to the adjective (Дом не большой).",
+    "The verb is the default target. When you can negate either the verb or one of its arguments, native Russian places не on the verb (Я не читаю книгу) unless the speaker is specifically contrasting the noun.",
+    "Не is always unstressed. It leans on the next word for its rhythm."
+  ],
+  "examples": [
+    "Я не знаю. (I do not know.) Не before the verb знаю.",
+    "Антон не читает книгу. (Anton is not reading the book.) Не before the verb читает.",
+    "Это не книга. (This is not a book.) Present-tense identity, no verb; не attaches to the noun.",
+    "Дом не большой. (The house is not big.) Present-tense description, no verb; не attaches to the adjective.",
+    "Маша не быстро говорит. (Masha does not speak quickly.) Не before the adverb быстро.",
+    "Я читаю не книгу. (I am reading something, but not a book.) Non-default position: не contrasts the noun, not the verb."
+  ],
+  "tables": [
+    {
+      "title": "Where не goes (by target type)",
+      "headers": [
+        "Target type",
+        "Example",
+        "What is denied"
+      ],
+      "rows": [
+        {
+          "label": "Verb",
+          "cells": [
+            "Я не знаю.",
+            "the knowing"
+          ]
+        },
+        {
+          "label": "Noun (no verb)",
+          "cells": [
+            "Это не книга.",
+            "the identity"
+          ]
+        },
+        {
+          "label": "Adjective (no verb)",
+          "cells": [
+            "Дом не большой.",
+            "the quality"
+          ]
+        },
+        {
+          "label": "Adverb",
+          "cells": [
+            "Маша не быстро читает.",
+            "the manner"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я _____ знаю русский язык.",
+          "promptEnglish": "I do not know Russian.",
+          "options": [
+            "не",
+            "нет",
+            "ни",
+            "но"
+          ],
+          "answer": "не",
+          "hint": "The negation is on the verb. Which short particle goes directly before the verb?",
+          "explanation": "Не is the everyday negation particle and sits directly before the verb знаю."
+        },
+        {
+          "prompt": "Антон _____ читает книгу сейчас.",
+          "promptEnglish": "Anton is not reading the book right now.",
+          "options": [
+            "нет",
+            "не",
+            "ни",
+            "и"
+          ],
+          "answer": "не",
+          "hint": "The speaker is denying the action. Which particle attaches to the verb читает?",
+          "explanation": "Anton is doing something else, not reading. Не goes directly before the verb читает."
+        },
+        {
+          "prompt": "Это _____ моя сумка.",
+          "promptEnglish": "This is not my bag.",
+          "options": [
+            "не",
+            "нет",
+            "ни",
+            "ну"
+          ],
+          "answer": "не",
+          "hint": "Identity sentence in the present tense has no verb. Where does не attach?",
+          "explanation": "Russian identity sentences in the present tense have no verb (no Russian word for 'is'), so не attaches directly to the noun phrase моя сумка. The sentence denies the identity: it is some bag, but not mine."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Этот фильм _____ интересный.",
+          "promptEnglish": "This film is not interesting.",
+          "options": [
+            "нет",
+            "не",
+            "ни",
+            "ну"
+          ],
+          "answer": "не",
+          "hint": "The speaker is denying a quality. The sentence has no verb, so не attaches to what?",
+          "explanation": "Present-tense description sentences have no Russian verb. Не attaches directly to the adjective интересный, denying the quality. The film exists; it is just not interesting."
+        },
+        {
+          "prompt": "Маша говорит _____ быстро.",
+          "promptEnglish": "Masha does not speak quickly.",
+          "options": [
+            "нет",
+            "ни",
+            "не",
+            "но"
+          ],
+          "answer": "не",
+          "hint": "The denial targets the manner of speaking. Which particle goes before the adverb?",
+          "explanation": "The speaker is denying not the act of speaking but its speed. Не sits right before the adverb быстро. The verb говорит is still affirmative: Masha speaks, just not quickly."
+        },
+        {
+          "prompt": "Лена _____ работает в понедельник.",
+          "promptEnglish": "Lena does not work on Monday.",
+          "options": [
+            "ни",
+            "нет",
+            "ну",
+            "не"
+          ],
+          "answer": "не",
+          "hint": "Standard verb negation. The default position.",
+          "explanation": "This is the default verb-negation pattern: не directly before the verb работает. Lena exists, Monday exists, the verb 'work' exists in Russian; the speaker only denies that Lena is the one working on this Monday."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Антон _____ понимает по-китайски. (Anton does not understand Chinese.)"
+    ],
+    "choices": [
+      "не",
+      "нет",
+      "ни",
+      "но"
+    ],
+    "answers": [
+      "не"
+    ],
+    "grammarFocus": "The speaker denies the verb понимает. Не is the default negation particle and goes right before the verb."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Маша любит кофе, она предпочитает чай.",
+      "translationEnglish": "Masha doesn't like coffee; she prefers tea.",
+      "error": "любит",
+      "correction": "не любит",
+      "options": [
+        "не любит",
+        "не любить",
+        "нет любит"
+      ],
+      "explanation": "Russian negates a verb by placing не directly before it: не любит. The translation 'doesn't like' demands negation; the original sentence as written is affirmative."
+    },
+    {
+      "sentence": "Это мой дом, это дом моего соседа.",
+      "translationEnglish": "This is not my house; it's my neighbor's house.",
+      "error": "мой",
+      "correction": "не мой",
+      "options": [
+        "не мой",
+        "не моё",
+        "нет мой"
+      ],
+      "explanation": "In identity sentences (Это X) there is no verb to negate, so не attaches directly to the possessive: 'Это не мой дом'. Without не, the sentence is affirmative."
+    },
+    {
+      "sentence": "Антон знает русский язык, и поэтому ему трудно в Москве.",
+      "translationEnglish": "Anton doesn't know Russian, and that's why it's hard for him in Moscow.",
+      "error": "знает",
+      "correction": "не знает",
+      "options": [
+        "не знает",
+        "не знать",
+        "нет знает"
+      ],
+      "explanation": "The cause-effect 'X знает русский → ему трудно' is contradictory (knowing the language would make life EASIER); the meaning demands a negated verb. Russian places не directly before the verb: не знает. The omission of не leaves the affirmative reading, which fights the rest of the sentence, a clean diagnostic for when the negation has slipped."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я _____ читаю книгу. Я слушаю музыку.",
+      "contextEnglish": "I am not reading a book. I am listening to music.",
+      "options": [
+        "не",
+        "нет"
+      ],
+      "answer": "не",
+      "explanation": "The speaker is denying the activity of reading and naming a different activity in its place. Не goes before the verb читаю. Нет would mean 'there is no book,' an absence-of-existence reading, which is Lesson 2 territory."
+    },
+    {
+      "context": "Это _____ интересно.",
+      "contextEnglish": "This is not interesting.",
+      "options": [
+        "не",
+        "нет"
+      ],
+      "answer": "не",
+      "explanation": "Present-tense description with no verb. Не attaches directly to the adverb / short-form adjective интересно. Нет would answer a yes-no question with 'no,' a different role."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "отрицание",
+      "definition": "negation (the grammatical category of denying or disagreeing with a statement)",
+      "example": "Отрицание в русском языке чаще всего строится с помощью частицы «не»."
+    },
+    {
+      "term": "частица «не»",
+      "definition": "the particle не (the everyday Russian word for 'not'; always written separately from the next word and always unstressed)",
+      "example": "Частица «не» ставится прямо перед тем словом, которое мы отрицаем."
+    },
+    {
+      "term": "наречие",
+      "definition": "adverb (a word that modifies a verb, an adjective, or another adverb; common targets of negation in Russian)",
+      "example": "В предложении «Маша говорит не быстро» слово «быстро» — это наречие."
+    }
+  ]
+}

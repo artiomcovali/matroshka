@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-016",
+  "title": "Product Return",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "Return a defective electronic device and get a replacement",
+  "imageName": "arrow.uturn.backward.square.fill",
+  "initialPrompt": "Отдел возврата, здравствуйте. Что хотите вернуть?",
+  "systemPrompt": "You handle returns. Device is within warranty. Options: repair (1-2 weeks), exchange for same model, or refund. Need receipt and original packaging preferred. Ask about defect. Keep replies short.",
+  "completionCriteria": "User explained defect and chose return option.",
+  "responseLimit": 15,
+  "hints": [
+    "Телефон перестал работать (The phone stopped working)",
+    "Можно обменять на новый? (Can I exchange for a new one?)",
+    "Гарантия ещё действует (The warranty is still valid)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "возврат",
+      "definition": "return"
+    },
+    {
+      "word": "гарантия",
+      "definition": "warranty"
+    },
+    {
+      "word": "дефект",
+      "definition": "defect"
+    },
+    {
+      "word": "обмен",
+      "definition": "exchange"
+    },
+    {
+      "word": "ремонт",
+      "definition": "repair"
+    },
+    {
+      "word": "чек",
+      "definition": "receipt"
+    }
+  ],
+  "objectives": [
+    "Explain what you want to return",
+    "Describe the defect",
+    "Show receipt or proof of purchase",
+    "Choose: repair, exchange, or refund",
+    "Complete the return process"
+  ]
+}

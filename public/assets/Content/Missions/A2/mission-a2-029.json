@@ -1,0 +1,50 @@
+{
+  "id": "mission-a2-029",
+  "title": "Tailor Shop",
+  "level": "A2",
+  "difficulty": "easy",
+  "description": "Get pants hemmed at a tailor shop",
+  "imageName": "scissors",
+  "initialPrompt": "Здравствуйте! Что нужно сделать? Укоротить, ушить, починить?",
+  "systemPrompt": "You are a tailor. Services: укоротить брюки 400₽, ушить 500₽, починить 300₽. Ready in 2-3 days or express (same day) +200₽. Ask to see the item. Keep replies short.",
+  "completionCriteria": "User requested alteration with item, service, and pickup date confirmed.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужно укоротить брюки (I need to shorten my pants)",
+    "На сколько короче? (How much shorter?)",
+    "Когда будет готово? (When will it be ready?)",
+    "Есть срочная услуга? (Is there express service?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "брюки",
+      "definition": "pants/trousers"
+    },
+    {
+      "word": "укоротить",
+      "definition": "to shorten"
+    },
+    {
+      "word": "ушить",
+      "definition": "to take in"
+    },
+    {
+      "word": "починить",
+      "definition": "to repair"
+    },
+    {
+      "word": "портной",
+      "definition": "tailor"
+    },
+    {
+      "word": "срочно",
+      "definition": "urgent/express"
+    }
+  ],
+  "objectives": [
+    "Explain what you need (укоротить брюки)",
+    "Discuss how much to alter",
+    "Ask about timing and express service",
+    "Confirm price and pickup date"
+  ]
+}

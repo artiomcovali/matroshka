@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-016",
+  "title": "Investor Revolt",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Face angry investors after startup failure",
+  "imageName": "chart.line.downtrend.xyaxis",
+  "initialPrompt": "Вы потеряли наши деньги! Три года и ни одного результата. Мы требуем объяснений и возврата инвестиций.",
+  "systemPrompt": "You are furious investor who lost money. Demand accountability, threaten legal action. Only calm down if founder shows genuine accountability and realistic recovery plan.",
+  "completionCriteria": "User handled investor confrontation professionally.",
+  "responseLimit": 15,
+  "hints": [
+    "Рынок изменился непредвиденно (The market changed unexpectedly)",
+    "У нас есть план восстановления (We have a recovery plan)"
+  ],
+  "targetVocabulary": [
+    {"word": "инвестор", "definition": "investor"},
+    {"word": "убыток", "definition": "loss"},
+    {"word": "ответственность", "definition": "accountability"},
+    {"word": "возврат", "definition": "return"},
+    {"word": "восстановление", "definition": "recovery"},
+    {"word": "риск", "definition": "risk"}
+  ],
+  "objectives": [
+    "Acknowledge losses",
+    "Explain circumstances",
+    "Take responsibility",
+    "Propose recovery path",
+    "Maintain investor relationship"
+  ]
+}

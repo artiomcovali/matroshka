@@ -1,0 +1,277 @@
+{
+  "id": "a1-024-prepositional-case",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Prepositional Case",
+  "titleRussian": "Предложный падеж",
+  "description": "Prepositional case for location and 'about'",
+  "descriptionRussian": "Предложный падеж для обозначения места и темы разговора",
+  "imageName": "mappin.and.ellipse",
+  "intro": "The prepositional case (предложный падеж) is used for location ('where?') and the topic of conversation ('about'). It's called 'prepositional' because it ALWAYS follows a preposition - most commonly в (in), на (on/at), and о/об (about). You can never use this case without a preposition.",
+  "rules": [
+    "Prepositional case answers Где? (Where?) and О ком/чём? (About whom/what?).",
+    "ALWAYS used with prepositions: в (in), на (on/at), о/об (about).",
+    "Masculine and neuter nouns: add -е: дом → в доме, окно → в окне.",
+    "Feminine nouns in -а: change to -е: книга → о книге. Feminine in -ь: change to -и: тетрадь → в тетради."
+  ],
+  "examples": [
+    "Я живу в Москве. (I live in Moscow.), Москва → Москве",
+    "Книга на столе. (The book is on the table.), стол → столе",
+    "Мы говорим о фильме. (We are talking about the film.), фильм → фильме",
+    "Ручка в тетради. (The pen is in the notebook.), тетрадь → тетради"
+  ],
+  "tables": [
+    {
+      "title": "Prepositional Case Endings",
+      "headers": [
+        "Gender",
+        "Nominative",
+        "Prepositional",
+        "Ending"
+      ],
+      "rows": [
+        {
+          "label": "Masculine",
+          "cells": [
+            "стол",
+            "о стол|е",
+            "-е"
+          ]
+        },
+        {
+          "label": "Feminine -а",
+          "cells": [
+            "школа",
+            "в школ|е",
+            "-е"
+          ]
+        },
+        {
+          "label": "Feminine -ь",
+          "cells": [
+            "ночь",
+            "о ноч|и",
+            "-и"
+          ]
+        },
+        {
+          "label": "Neuter",
+          "cells": [
+            "окно",
+            "в окн|е",
+            "-е"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я живу в _____. (Москва)",
+          "promptEnglish": "I live in Moscow.",
+          "options": [
+            "Москвы",
+            "Москва",
+            "Москве",
+            "Москву"
+          ],
+          "answer": "Москве",
+          "hint": "Feminine -а → -е in prepositional",
+          "explanation": "After в (in), use prepositional. Москва → Москве."
+        },
+        {
+          "prompt": "Книга на _____. (стол)",
+          "promptEnglish": "The book is on the table.",
+          "options": [
+            "столу",
+            "столе",
+            "стола",
+            "стол"
+          ],
+          "answer": "столе",
+          "hint": "Masculine: add -е",
+          "explanation": "After на (on), use prepositional. Стол → столе."
+        },
+        {
+          "prompt": "Мы в _____. (школа)",
+          "promptEnglish": "We are at school.",
+          "options": [
+            "школу",
+            "школа",
+            "школы",
+            "школе"
+          ],
+          "answer": "школе",
+          "hint": "Feminine -а → -е",
+          "explanation": "After в (in/at), use prepositional. Школа → школе."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Фото в _____. (телефон)",
+          "promptEnglish": "The photo is in the phone.",
+          "options": [
+            "телефон",
+            "телефоне",
+            "телефону",
+            "телефона"
+          ],
+          "answer": "телефоне",
+          "hint": "Masculine: add -е",
+          "explanation": "After в, use prepositional. Телефон → телефоне."
+        },
+        {
+          "prompt": "Мы говорим о _____. (фильм)",
+          "promptEnglish": "We are talking about the film.",
+          "options": [
+            "фильму",
+            "фильме",
+            "фильм",
+            "фильма"
+          ],
+          "answer": "фильме",
+          "hint": "After о (about), use prepositional",
+          "explanation": "After о (about), use prepositional. Фильм → фильме."
+        },
+        {
+          "prompt": "Ключи в _____. (сумка)",
+          "promptEnglish": "The keys are in the bag.",
+          "options": [
+            "сумку",
+            "сумке",
+            "сумка",
+            "сумки"
+          ],
+          "answer": "сумке",
+          "hint": "Feminine -а → -е",
+          "explanation": "After в (in), use prepositional. Сумка → сумке."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Книга на _____. (The book is on the table.)",
+      "Я живу в _____. (I live in Moscow.)",
+      "Он работает в _____. (He works in the office.)"
+    ],
+    "choices": [
+      "столе",
+      "Москве",
+      "офисе",
+      "стол",
+      "Москва",
+      "офис"
+    ],
+    "answers": [
+      "столе",
+      "Москве",
+      "офисе"
+    ],
+    "grammarFocus": "Prepositional case after в/на for location: -е ending",
+    "options": [
+      [
+        "столу",
+        "стол",
+        "столе",
+        "стола"
+      ],
+      [
+        "москва",
+        "москву",
+        "москвы",
+        "Москве"
+      ],
+      [
+        "офису",
+        "офисе",
+        "офис",
+        "офиса"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Книга на _____.",
+      "contextEnglish": "The book is on the table.",
+      "options": [
+        "столе",
+        "стол"
+      ],
+      "answer": "столе",
+      "explanation": "After на (on), use prepositional case: стол → столе."
+    },
+    {
+      "context": "Мы говорим о _____.",
+      "contextEnglish": "We are talking about the book.",
+      "options": [
+        "книге",
+        "книгу"
+      ],
+      "answer": "книге",
+      "explanation": "After о (about), use prepositional case: книга → книге."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by preposition used",
+    "categories": [
+      "в (in)",
+      "на (on/at)",
+      "о (about)"
+    ],
+    "items": [
+      {
+        "word": "в доме",
+        "category": "в (in)"
+      },
+      {
+        "word": "на столе",
+        "category": "на (on/at)"
+      },
+      {
+        "word": "о книге",
+        "category": "о (about)"
+      },
+      {
+        "word": "в школе",
+        "category": "в (in)"
+      },
+      {
+        "word": "на работе",
+        "category": "на (on/at)"
+      },
+      {
+        "word": "о фильме",
+        "category": "о (about)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "предложный падеж",
+      "definition": "prepositional case",
+      "example": "Я в Москве."
+    },
+    {
+      "term": "где?",
+      "definition": "where?",
+      "example": "Где ты? — В школе."
+    },
+    {
+      "term": "в",
+      "definition": "in (+ prepositional for location)",
+      "example": "в доме, в школе"
+    },
+    {
+      "term": "на",
+      "definition": "on, at (+ prepositional for location)",
+      "example": "на столе, на работе"
+    }
+  ]
+}

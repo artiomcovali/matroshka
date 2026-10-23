@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-024",
+  "title": "Photo Declined",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "First person is too busy to take your photo",
+  "imageName": "camera.fill",
+  "initialPrompt": "Извините, я очень спешу!",
+  "systemPrompt": "First person refuses (спешу). After user asks someone else, agree to take photo. Keep replies short.",
+  "completionCriteria": "User found someone else to take their photo.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините... (Excuse me...)",
+    "Вы можете сделать фото? (Can you take a photo?)",
+    "Ничего, спасибо (It's okay, thanks)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "спешить",
+      "definition": "to hurry"
+    },
+    {
+      "word": "занят",
+      "definition": "busy"
+    },
+    {
+      "word": "другой",
+      "definition": "another"
+    },
+    {
+      "word": "ничего",
+      "definition": "it's okay"
+    },
+    {
+      "word": "конечно",
+      "definition": "of course"
+    }
+  ],
+  "objectives": [
+    "Ask first person for photo",
+    "Accept their refusal politely",
+    "Ask someone else"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-014",
+  "title": "Medical Malpractice",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Confronting doctor about medical error",
+  "imageName": "cross.case.fill",
+  "initialPrompt": "Осложнения бывают. Мы сделали всё правильно. Если вас что-то не устраивает, обращайтесь к администрации.",
+  "systemPrompt": "You are defensive doctor covering mistake. Dismiss concerns, cite statistics, redirect blame. Only engage seriously if patient shows medical knowledge and threatens formal action.",
+  "completionCriteria": "User addressed medical error effectively.",
+  "responseLimit": 15,
+  "hints": [
+    "Согласно медицинской документации... (According to medical records...)",
+    "Я подам официальную жалобу (I will file a formal complaint)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "ошибка",
+      "definition": "error"
+    },
+    {
+      "word": "халатность",
+      "definition": "negligence"
+    },
+    {
+      "word": "осложнение",
+      "definition": "complication"
+    },
+    {
+      "word": "документация",
+      "definition": "documentation"
+    },
+    {
+      "word": "жалоба",
+      "definition": "complaint"
+    },
+    {
+      "word": "ответственность",
+      "definition": "accountability"
+    }
+  ],
+  "objectives": [
+    "Present specific concerns",
+    "Reference medical records",
+    "Counter deflection",
+    "Demand accountability",
+    "Pursue formal channels"
+  ]
+}

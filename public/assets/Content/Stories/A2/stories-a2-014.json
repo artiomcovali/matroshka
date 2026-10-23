@@ -1,0 +1,189 @@
+{
+  "id": "a2-014",
+  "level": "A2",
+  "narrator": "Маша",
+  "title": "Вчера",
+  "titleEnglish": "Yesterday",
+  "description": "Маша рассказывает, что она делала вчера.",
+  "imageName": "clock.arrow.circlepath",
+  "fullText": "Вчера был хороший день. Утром я ходила в магазин. Я купила хлеб, молоко и фрукты. Потом я готовила обед дома. Я делала салат и варила суп. Пряник спал на диване и ждал еду. Днём я звонила Анне. Мы разговаривали долго. Анна рассказала про новый торт в кафе. Вечером я смотрела фильм. Фильм был интересный, но длинный. Пряник тоже смотрел — ну, он просто лежал рядом. Потом я читала книгу и пила чай. День был простой, но приятный.",
+  "reviewVocab": [
+    {
+      "word": "вчера",
+      "definition": "yesterday",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "difficulty": 1
+    },
+    {
+      "word": "ходить",
+      "definition": "to go, to walk (imperfective)",
+      "partOfSpeech": "verb (impf.)",
+      "forms": [
+        "хожу",
+        "ходишь",
+        "ходит",
+        "ходил",
+        "ходила"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "смотреть",
+      "definition": "to watch, to look at (imperfective)",
+      "partOfSpeech": "verb (impf.)",
+      "forms": [
+        "смотрю",
+        "смотришь",
+        "смотрит",
+        "смотрел",
+        "смотрела"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "приятный",
+      "definition": "pleasant, nice",
+      "partOfSpeech": "adjective",
+      "forms": [
+        "приятный",
+        "приятная",
+        "приятное",
+        "приятные"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Куда Маша ходила утром?",
+      "options": [
+        "В кафе",
+        "В парк",
+        "В магазин"
+      ],
+      "correctIndex": 2,
+      "explanation": "Утром Маша ходила в магазин."
+    },
+    {
+      "prompt": "Что Маша купила?",
+      "options": [
+        "Хлеб, молоко и фрукты",
+        "Торт и чай",
+        "Овощи и мясо"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша купила хлеб, молоко и фрукты."
+    },
+    {
+      "prompt": "Что делал Пряник, когда Маша готовила?",
+      "options": [
+        "Гулял на улице",
+        "Играл с мячом",
+        "Спал на диване"
+      ],
+      "correctIndex": 2,
+      "explanation": "Пряник спал на диване и ждал еду."
+    },
+    {
+      "prompt": "Кому Маша звонила днём?",
+      "options": [
+        "Диме",
+        "Анне",
+        "Ивану Петровичу"
+      ],
+      "correctIndex": 1,
+      "explanation": "Днём Маша звонила Анне."
+    },
+    {
+      "prompt": "Что Маша делала вечером?",
+      "options": [
+        "Готовила ужин",
+        "Смотрела фильм",
+        "Гуляла с Пряником"
+      ],
+      "correctIndex": 1,
+      "explanation": "Вечером Маша смотрела фильм."
+    },
+    {
+      "prompt": "Какой был фильм?",
+      "options": [
+        "Короткий и скучный",
+        "Интересный, но длинный",
+        "Грустный и тихий"
+      ],
+      "correctIndex": 1,
+      "explanation": "Фильм был интересный, но длинный."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Вчера Маша _____ в магазин.",
+      "Маша _____ хлеб, молоко и фрукты.",
+      "Пряник _____ на диване.",
+      "Вечером Маша _____ фильм.",
+      "Маша _____ книгу и пила чай."
+    ],
+    "choices": [
+      "ходила",
+      "купила",
+      "спал",
+      "смотрела",
+      "читала",
+      "варила",
+      "играл"
+    ],
+    "answers": [
+      "ходила",
+      "купила",
+      "спал",
+      "смотрела",
+      "читала"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "'Маша ходила' — the '-а' ending on 'ходила' tells us:",
+      "options": [
+        "The action is ongoing",
+        "The subject is female",
+        "The action is in the future"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "gender",
+      "sentenceRef": "Утром я ходила в магазин.",
+      "explanation": "Past tense verbs ending in '-а' indicate a feminine subject. Ходил = he went, ходила = she went. Маша is female, so she says 'ходила.'",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "'Пряник спал на диване' — 'спал' has no '-а' ending. This means:",
+      "options": [
+        "The action is future",
+        "The subject is male",
+        "The action is repeated"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "gender",
+      "sentenceRef": "Пряник спал на диване и ждал еду.",
+      "explanation": "Past tense verbs without '-а' indicate a masculine subject: спал (he slept), ждал (he waited). Пряник is masculine, so the verbs end in '-л' without '-а.'",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "If Дима watched a film, which form is correct?",
+      "options": [
+        "Дима смотрел фильм",
+        "Дима смотрела фильм",
+        "Дима смотрели фильм"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "gender",
+      "sentenceRef": "Вечером я смотрела фильм.",
+      "explanation": "Дима is male, so the past tense verb has no '-а': смотрел (he watched). Смотрела = she watched, смотрели = they watched.",
+      "focusArea": "cases"
+    }
+  ],
+  "audioFile": "a2-014.m4a",
+  "audioTimingFile": "a2-014-timing.json"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-medium-007",
+  "title": "Gym Expired",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Your gym membership expired - renew or get a day pass",
+  "imageName": "figure.run",
+  "initialPrompt": "Здравствуйте! Покажите, пожалуйста, вашу карту.",
+  "systemPrompt": "You work at gym reception. Member's pass expired yesterday. Can renew for 3000₽/month or get day pass 300₽. Keep replies short.",
+  "completionCriteria": "User learned membership expired and bought renewal or day pass.",
+  "responseLimit": 15,
+  "hints": [
+    "Что случилось? (What happened?)",
+    "Можно продлить? (Can I renew?)",
+    "Сколько стоит на месяц? (How much for a month?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "абонемент",
+      "definition": "membership/pass"
+    },
+    {
+      "word": "истёк",
+      "definition": "expired"
+    },
+    {
+      "word": "продлить",
+      "definition": "to renew/extend"
+    },
+    {
+      "word": "месяц",
+      "definition": "month"
+    },
+    {
+      "word": "тренажёрный зал",
+      "definition": "gym"
+    },
+    {
+      "word": "разовый",
+      "definition": "one-time/single"
+    }
+  ],
+  "objectives": [
+    "Learn membership expired (истёк)",
+    "Ask about renewal options (продлить)",
+    "Get a pass (renew or day pass)"
+  ]
+}

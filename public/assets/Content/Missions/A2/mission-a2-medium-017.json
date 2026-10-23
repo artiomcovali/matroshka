@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-017",
+  "title": "Concert Tickets Sold Out",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "The concert you want to see is sold out",
+  "imageName": "music.note",
+  "initialPrompt": "Добрый день! На какой концерт хотите билеты?",
+  "systemPrompt": "You sell concert tickets. Saturday show is sold out. Same band plays Sunday, or different venue on Saturday has tickets. Keep replies short.",
+  "completionCriteria": "User found alternative date or venue for concert.",
+  "responseLimit": 15,
+  "hints": [
+    "Билеты на субботу (Tickets for Saturday)",
+    "А на другой день есть? (Are there any for another day?)",
+    "Тогда возьму на воскресенье (Then I will take Sunday)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "концерт",
+      "definition": "concert"
+    },
+    {
+      "word": "билет",
+      "definition": "ticket"
+    },
+    {
+      "word": "распродано",
+      "definition": "sold out"
+    },
+    {
+      "word": "суббота",
+      "definition": "Saturday"
+    },
+    {
+      "word": "воскресенье",
+      "definition": "Sunday"
+    },
+    {
+      "word": "площадка",
+      "definition": "venue"
+    }
+  ],
+  "objectives": [
+    "Ask for Saturday tickets",
+    "Learn show is sold out (распродано)",
+    "Ask about alternatives",
+    "Buy tickets for different date or venue"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-002",
+  "title": "Art Curation",
+  "level": "C1",
+  "difficulty": "easy",
+  "description": "Propose artwork for gallery exhibition",
+  "imageName": "photo.artframe",
+  "initialPrompt": "Мы планируем выставку о русском авангарде. Какую концепцию вы бы предложили? Какие художники должны быть представлены?",
+  "systemPrompt": "You are gallery curator planning exhibition. Ask about artistic vision, thematic connections, and audience engagement. Supportive and collaborative.",
+  "completionCriteria": "User proposed coherent exhibition concept with artistic justification.",
+  "responseLimit": 15,
+  "hints": [
+    "Концепция выставки могла бы... (The exhibition concept could...)",
+    "Малевич и Кандинский представляют... (Malevich and Kandinsky represent...)",
+    "Тематическая связь между работами... (The thematic connection between works...)",
+    "Зритель должен почувствовать... (The viewer should feel...)"
+  ],
+  "targetVocabulary": [
+    {"word": "авангард", "definition": "avant-garde"},
+    {"word": "куратор", "definition": "curator"},
+    {"word": "экспозиция", "definition": "exhibition"},
+    {"word": "концепция", "definition": "concept"},
+    {"word": "художник", "definition": "artist"},
+    {"word": "эстетика", "definition": "aesthetics"}
+  ],
+  "objectives": [
+    "Propose exhibition concept",
+    "Justify artistic choices",
+    "Consider audience experience"
+  ]
+}

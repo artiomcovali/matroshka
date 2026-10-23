@@ -1,0 +1,329 @@
+{
+  "id": "a2-004-pronoun-declension",
+  "level": "A2",
+  "sortKey": "a2-011e-pronoun-declension",
+  "focusArea": "cases",
+  "title": "Pronoun Declension (Part 1)",
+  "titleRussian": "Склонение местоимений (часть 1)",
+  "description": "Part 1: Nominative, Accusative, Genitive, and Dative",
+  "descriptionRussian": "Часть 1: Именительный, винительный, родительный и дательный падежи",
+  "imageName": "person.2.circle.fill",
+  "intro": "Personal pronouns change dramatically across cases - much more than nouns! Меня and мне are different forms of 'me'. After prepositions, third-person pronouns add н-: его → у него, ей → к ней. In Part 1 we focus on four cases: Nominative, Accusative, Genitive, and Dative.",
+  "rules": [
+    "After prepositions, 3rd person pronouns add н-: его → у него, ей → к ней. Without a preposition, no н-: я вижу его.",
+    "Genitive and accusative share the same forms for all pronouns: меня, тебя, его, её, нас, вас, их.",
+    "The reflexive pronoun себя (oneself) declines like ты: себя, себе — but has no nominative form.",
+    "Мы and вы follow a neat parallel: нас/вас, нам/вам — the pattern makes both easy to learn together."
+  ],
+  "examples": [
+    "Он видит меня. (He sees me.), accusative",
+    "Дай мне книгу. (Give me the book.), dative",
+    "У него есть машина. (He has a car.), genitive with preposition",
+    "Позвони ему. (Call him.), dative without preposition"
+  ],
+  "tables": [
+    {
+      "title": "Personal Pronoun Declension (Part 1)",
+      "headers": [
+        "Case",
+        "я",
+        "ты",
+        "он/оно",
+        "она",
+        "мы",
+        "вы",
+        "они"
+      ],
+      "rows": [
+        {
+          "label": "Nom.",
+          "cells": [
+            "я",
+            "ты",
+            "он",
+            "она",
+            "мы",
+            "вы",
+            "они"
+          ]
+        },
+        {
+          "label": "Gen.",
+          "cells": [
+            "меня",
+            "тебя",
+            "его",
+            "её",
+            "нас",
+            "вас",
+            "их"
+          ]
+        },
+        {
+          "label": "Acc.",
+          "cells": [
+            "меня",
+            "тебя",
+            "его",
+            "её",
+            "нас",
+            "вас",
+            "их"
+          ]
+        },
+        {
+          "label": "Dat.",
+          "cells": [
+            "мне",
+            "тебе",
+            "ему",
+            "ей",
+            "нам",
+            "вам",
+            "им"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Он любит _____. (He loves me.)",
+          "promptEnglish": "He loves me.",
+          "options": [
+            "я",
+            "меня",
+            "мне",
+            "нас"
+          ],
+          "answer": "меня",
+          "hint": "Direct object = accusative",
+          "explanation": "Я → меня in accusative (direct object of любить)."
+        },
+        {
+          "prompt": "Дай _____ книгу. (Give me the book.)",
+          "promptEnglish": "Give me the book.",
+          "options": [
+            "меня",
+            "я",
+            "ему",
+            "мне"
+          ],
+          "answer": "мне",
+          "hint": "Recipient = dative",
+          "explanation": "Я → мне in dative (recipient of giving)."
+        },
+        {
+          "prompt": "Я жду _____. (I'm waiting for you.)",
+          "promptEnglish": "I'm waiting for you.",
+          "options": [
+            "ты",
+            "тебе",
+            "тебя",
+            "вас"
+          ],
+          "answer": "тебя",
+          "hint": "Ждать takes genitive/accusative",
+          "explanation": "Ты → тебя in accusative/genitive (direct object of ждать)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "У _____ есть машина. (He has a car.)",
+          "promptEnglish": "He has a car.",
+          "options": [
+            "им",
+            "него",
+            "ему",
+            "его"
+          ],
+          "answer": "него",
+          "hint": "У + genitive, н- after preposition",
+          "explanation": "After preposition у, use него (not его)."
+        },
+        {
+          "prompt": "Позвони _____. (Call him.)",
+          "promptEnglish": "Call him.",
+          "options": [
+            "него",
+            "ему",
+            "им",
+            "его"
+          ],
+          "answer": "ему",
+          "hint": "Звонить + dative (no preposition)",
+          "explanation": "Звонить takes dative. No preposition, so use ему (not нему)."
+        },
+        {
+          "prompt": "Она помогает _____. (She helps us.)",
+          "promptEnglish": "She helps us.",
+          "options": [
+            "мы",
+            "нас",
+            "нам",
+            "наш"
+          ],
+          "answer": "нам",
+          "hint": "Помогать + dative",
+          "explanation": "Помогать takes dative. Мы → нам in dative."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я вижу _____. (I see them.)",
+          "promptEnglish": "I see them.",
+          "options": [
+            "они",
+            "им",
+            "них",
+            "их"
+          ],
+          "answer": "их",
+          "hint": "Direct object = accusative",
+          "explanation": "Они → их in accusative."
+        },
+        {
+          "prompt": "Скажи _____! (Tell her!)",
+          "promptEnglish": "Tell her!",
+          "options": [
+            "она",
+            "ей",
+            "её",
+            "ней"
+          ],
+          "answer": "ей",
+          "hint": "Сказать + dative (no preposition)",
+          "explanation": "Она → ей in dative. No preposition, so no н-."
+        },
+        {
+          "prompt": "Без _____ скучно. (It's boring without you [plural].)",
+          "promptEnglish": "It's boring without you.",
+          "options": [
+            "вы",
+            "вам",
+            "вас",
+            "вами"
+          ],
+          "answer": "вас",
+          "hint": "Без + genitive",
+          "explanation": "Без requires genitive. Вы → вас in genitive."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Книга у _____. (The book is with her.)"
+    ],
+    "choices": [
+      "неё",
+      "её",
+      "ей",
+      "ней"
+    ],
+    "answers": [
+      "неё"
+    ],
+    "grammarFocus": "After prepositions, 3rd person pronouns add н-",
+    "hints": [
+      "The preposition у requires genitive. What happens to 3rd person pronouns after prepositions?"
+    ],
+    "explanations": [
+      "After prepositions, 3rd person pronouns add н-: её becomes неё. So у неё (with her)."
+    ],
+    "options": [
+      [
+        "неё",
+        "она",
+        "ею",
+        "ей"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я знаю _____. (I know him.) - no preposition",
+      "contextEnglish": "I know him.",
+      "options": [
+        "его",
+        "него"
+      ],
+      "answer": "его",
+      "explanation": "Without a preposition, use его."
+    },
+    {
+      "context": "Я иду к _____. (I'm going to him.) - with preposition",
+      "contextEnglish": "I'm going to him.",
+      "options": [
+        "нему",
+        "ему"
+      ],
+      "answer": "нему",
+      "explanation": "After preposition к, add н-: ему → нему."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort pronoun forms by case",
+    "categories": [
+      "Accusative/Genitive",
+      "Dative"
+    ],
+    "items": [
+      {
+        "word": "меня",
+        "category": "Accusative/Genitive"
+      },
+      {
+        "word": "мне",
+        "category": "Dative"
+      },
+      {
+        "word": "тебя",
+        "category": "Accusative/Genitive"
+      },
+      {
+        "word": "тебе",
+        "category": "Dative"
+      },
+      {
+        "word": "нас",
+        "category": "Accusative/Genitive"
+      },
+      {
+        "word": "нам",
+        "category": "Dative"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "я: меня, мне",
+      "definition": "I: me (acc/gen), to me (dat)",
+      "example": "Он видит меня. Дай мне книгу."
+    },
+    {
+      "term": "ты: тебя, тебе",
+      "definition": "you: you (acc/gen), to you (dat)",
+      "example": "Я люблю тебя. Скажи тебе."
+    },
+    {
+      "term": "он: его/него, ему",
+      "definition": "he: him (gen/acc, + н- after prep), to him (dat)",
+      "example": "У него есть. Позвони ему."
+    },
+    {
+      "term": "она: её/неё, ей",
+      "definition": "she: her (gen/acc, + н- after prep), to her (dat)",
+      "example": "У неё есть. Скажи ей."
+    }
+  ]
+}

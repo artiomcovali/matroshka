@@ -1,0 +1,189 @@
+{
+  "id": "a2-004",
+  "level": "A2",
+  "narrator": "Маша",
+  "title": "Завтрак с Пряником",
+  "titleEnglish": "Breakfast with Pryanik",
+  "description": "Маша готовит завтрак, а Пряник хочет есть.",
+  "imageName": "character-prianik",
+  "characterImage": "Пряник",
+  "fullText": "Каждое утро я готовлю завтрак. Сегодня на столе горячий чай, свежий хлеб и вкусная каша. Я очень люблю кашу с ягодами — это полезный и сытный завтрак. Пряник сидит рядом и смотрит на меня. Он тоже хочет есть! Я даю ему корм, но Пряник смотрит на мой хлеб. «Нет, Пряник, это мой завтрак!» — говорю я. Он ложится на пол и вздыхает. Через минуту Пряник опять сидит рядом и ждёт. Мой Пряник всегда голодный!",
+  "reviewVocab": [
+    {
+      "word": "завтрак",
+      "definition": "breakfast",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "завтрак",
+        "завтрака",
+        "завтраку"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "горячий",
+      "definition": "hot (temperature)",
+      "partOfSpeech": "adjective",
+      "forms": [
+        "горячий",
+        "горячая",
+        "горячее"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "вкусный",
+      "definition": "tasty, delicious",
+      "partOfSpeech": "adjective",
+      "forms": [
+        "вкусный",
+        "вкусная",
+        "вкусное"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "голодный",
+      "definition": "hungry",
+      "partOfSpeech": "adjective",
+      "forms": [
+        "голодный",
+        "голодная",
+        "голодное"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Что готовит Маша утром?",
+      "options": [
+        "Обед",
+        "Завтрак",
+        "Ужин"
+      ],
+      "correctIndex": 1,
+      "explanation": "Каждое утро Маша готовит завтрак."
+    },
+    {
+      "prompt": "Что стоит на столе?",
+      "options": [
+        "Чай, хлеб и каша",
+        "Кофе и торт",
+        "Суп и салат"
+      ],
+      "correctIndex": 0,
+      "explanation": "На столе горячий чай, свежий хлеб и вкусная каша."
+    },
+    {
+      "prompt": "С чем Маша любит кашу?",
+      "options": [
+        "С молоком",
+        "С сахаром",
+        "С ягодами"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша очень любит кашу с ягодами."
+    },
+    {
+      "prompt": "Что делает Пряник?",
+      "options": [
+        "Сидит рядом и смотрит",
+        "Спит на диване",
+        "Гуляет в парке"
+      ],
+      "correctIndex": 0,
+      "explanation": "Пряник сидит рядом и смотрит на Машу."
+    },
+    {
+      "prompt": "Что Маша даёт Прянику?",
+      "options": [
+        "Хлеб",
+        "Кашу",
+        "Корм"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша даёт Прянику корм, но он хочет хлеб."
+    },
+    {
+      "prompt": "Какой Пряник?",
+      "options": [
+        "Сытый и довольный",
+        "Всегда голодный",
+        "Спокойный и тихий"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша говорит: «Мой Пряник всегда голодный!»"
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Каждое утро Маша готовит _____.",
+      "На столе у Маши _____ чай и свежий хлеб.",
+      "Маша очень любит кашу с _____.",
+      "Маша даёт Прянику _____, но он хочет хлеб.",
+      "Пряник всегда _____!"
+    ],
+    "choices": [
+      "завтрак",
+      "горячий",
+      "ягодами",
+      "корм",
+      "голодный",
+      "вкусный",
+      "каша"
+    ],
+    "answers": [
+      "завтрак",
+      "горячий",
+      "ягодами",
+      "корм",
+      "голодный"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "In 'вкусная каша,' why does the adjective end in '-ая'?",
+      "options": [
+        "Каша is masculine",
+        "Каша is neuter",
+        "Каша is feminine"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "gender",
+      "sentenceRef": "...свежий хлеб и вкусная каша.",
+      "explanation": "Feminine nouns ending in '-а' or '-я' take adjectives ending in '-ая': вкусная каша, горячая вода, свежая рыба.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "In 'я люблю кашу,' the word 'кашу' is in which case?",
+      "options": [
+        "Nominative (the subject)",
+        "Prepositional (location)",
+        "Accusative (the object)"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "case",
+      "sentenceRef": "Я очень люблю кашу с ягодами.",
+      "explanation": "After verbs like 'любить' (to love) and 'готовить' (to cook), the object takes the accusative case. Каша → кашу.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "In 'горячий чай,' the adjective ending '-ий' tells us чай is:",
+      "options": [
+        "Feminine",
+        "Masculine",
+        "Neuter"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "gender",
+      "sentenceRef": "Сегодня на столе горячий чай...",
+      "explanation": "Masculine adjectives end in '-ый' or '-ий': горячий чай, свежий хлеб. Compare with feminine '-ая' (вкусная каша) and neuter '-ое' (каждое утро).",
+      "focusArea": "cases"
+    }
+  ],
+  "audioFile": "a2-004.m4a",
+  "audioTimingFile": "a2-004-timing.json"
+}

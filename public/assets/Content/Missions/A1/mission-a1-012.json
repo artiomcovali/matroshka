@@ -1,0 +1,51 @@
+{
+  "id": "mission-a1-012",
+  "title": "At the Library",
+  "level": "A1",
+  "difficulty": "easy",
+  "description": "Find and check out a book at the library",
+  "imageName": "books.vertical.fill",
+  "initialPrompt": "Добро пожаловать в библиотеку! Вы ищете какую-то книгу?",
+  "systemPrompt": "You are a librarian. You have fiction, history, children's books. Ask what genre they like, help find a book. Books can be borrowed for 2 weeks. Keep replies short.",
+  "completionCriteria": "User found a book and checked it out.",
+  "responseLimit": 15,
+  "hints": [
+    "Я ищу книгу (I'm looking for a book)",
+    "Мне нравятся... (I like...)",
+    "Где находятся...? (Where are the...?)",
+    "На сколько дней? (For how many days?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "книга",
+      "definition": "book"
+    },
+    {
+      "word": "библиотека",
+      "definition": "library"
+    },
+    {
+      "word": "читать",
+      "definition": "to read"
+    },
+    {
+      "word": "искать",
+      "definition": "to search/look for"
+    },
+    {
+      "word": "неделя",
+      "definition": "week"
+    },
+    {
+      "word": "взять",
+      "definition": "to take/borrow"
+    }
+  ],
+  "objectives": [
+    "Say what kind of book you want",
+    "Ask where the books are located",
+    "Choose a book",
+    "Ask how long you can borrow it",
+    "Check out the book"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mission-a2-026",
+  "title": "Buy Tickets Online",
+  "level": "A2",
+  "difficulty": "easy",
+  "description": "Get help buying concert tickets online",
+  "imageName": "ticket.fill",
+  "initialPrompt": "Здравствуйте, служба поддержки! Чем могу помочь с покупкой билетов?",
+  "systemPrompt": "You help people buy concert tickets online. Ask what concert, how many tickets, and which section (партер 3000₽, балкон 1500₽). Guide through payment. Keep replies short.",
+  "completionCriteria": "User selected concert, tickets, and section with payment started.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу купить билеты (I want to buy tickets)",
+    "На какой концерт? (For which concert?)",
+    "Два билета, пожалуйста (Two tickets, please)",
+    "Как оплатить? (How do I pay?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "концерт",
+      "definition": "concert"
+    },
+    {
+      "word": "билет",
+      "definition": "ticket"
+    },
+    {
+      "word": "партер",
+      "definition": "orchestra/stalls"
+    },
+    {
+      "word": "балкон",
+      "definition": "balcony"
+    },
+    {
+      "word": "оплатить",
+      "definition": "to pay"
+    },
+    {
+      "word": "онлайн",
+      "definition": "online"
+    }
+  ],
+  "objectives": [
+    "Say you want to buy concert tickets",
+    "Specify how many tickets you need",
+    "Choose a section (партер or балкон)",
+    "Ask about payment method"
+  ]
+}

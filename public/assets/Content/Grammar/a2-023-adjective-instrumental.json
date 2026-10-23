@@ -1,0 +1,358 @@
+{
+  "id": "a2-023-adjective-instrumental",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Adjectives (Instrumental Case)",
+  "titleRussian": "Прилагательные (тв. падеж)",
+  "description": "Adjective endings in the instrumental case",
+  "descriptionRussian": "Окончания прилагательных в творительном падеже",
+  "imageName": "wrench.and.screwdriver",
+  "intro": "The instrumental case (with, by means of) requires specific adjective endings. Masculine and neuter take -ым/-им (hard/soft). Feminine takes -ой/-ей (same as dative/genitive/prepositional!). Plural takes -ыми/-ими. The instrumental is used with prepositions like с (with), за (behind), над (above), под (below), and перед (in front of), as well as for professions and comparisons.",
+  "rules": [
+    "The instrumental is used with с (with), за (behind), над (above), под (under), между (between), and перед (in front of).",
+    "Professions and roles use instrumental without a preposition: Он работает врачом (He works as a doctor).",
+    "Adjectives expressing satisfaction or pride take instrumental: доволен результатом, горжусь дочерью.",
+    "Plural instrumental adjectives (-ыми/-ими) are the longest adjective forms in Russian — they stand out and are easy to recognize."
+  ],
+  "examples": [
+    "Я говорю с новым другом. (I am talking with my new friend.), masc",
+    "Она гуляет с младшей сестрой. (She walks with her younger sister.), fem",
+    "Мы работаем с хорошими людьми. (We work with good people.), plural",
+    "Он стал известным писателем. (He became a famous writer.), masc"
+  ],
+  "tables": [
+    {
+      "title": "Adjective Endings - Instrumental",
+      "headers": [
+        "",
+        "Masculine/Neuter",
+        "Feminine",
+        "Plural"
+      ],
+      "rows": [
+        {
+          "label": "Hard stem",
+          "cells": [
+            "нов|ым",
+            "нов|ой",
+            "нов|ыми"
+          ]
+        },
+        {
+          "label": "Soft stem",
+          "cells": [
+            "син|им",
+            "син|ей",
+            "син|ими"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я разговариваю с _____ коллегой. (I am talking with my new colleague.)",
+          "promptEnglish": "I am talking with my new colleague.",
+          "options": [
+            "нового",
+            "новым",
+            "новый",
+            "новому"
+          ],
+          "answer": "новым",
+          "hint": "Коллега + masculine agreement, instrumental = -ым",
+          "explanation": "Masculine instrumental: новый → новым."
+        },
+        {
+          "prompt": "Она пришла со _____ подругой. (She came with her old friend.)",
+          "promptEnglish": "She came with her old friend.",
+          "options": [
+            "старая",
+            "старым",
+            "старой",
+            "старую"
+          ],
+          "answer": "старой",
+          "hint": "Подруга = feminine, instrumental = -ой",
+          "explanation": "Feminine instrumental: старая → старой."
+        },
+        {
+          "prompt": "Мы довольны _____ результатами. (We are satisfied with the good results.)",
+          "promptEnglish": "We are satisfied with the good results.",
+          "options": [
+            "хорошим",
+            "хорошими",
+            "хорошие",
+            "хороших"
+          ],
+          "answer": "хорошими",
+          "hint": "Результатами = plural instrumental, adjective = -ими",
+          "explanation": "Plural instrumental: хорошие → хорошими."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Он работает _____ врачом. (He works as a good doctor.)",
+          "promptEnglish": "He works as a good doctor.",
+          "options": [
+            "хороший",
+            "хорошего",
+            "хорошим",
+            "хорошему"
+          ],
+          "answer": "хорошим",
+          "hint": "Врач = masculine, instrumental for profession",
+          "explanation": "Profession in instrumental: хорошим врачом."
+        },
+        {
+          "prompt": "Книга лежит под _____ столом. (The book is under the large table.)",
+          "promptEnglish": "The book is under the large table.",
+          "options": [
+            "большой",
+            "большому",
+            "большого",
+            "большим"
+          ],
+          "answer": "большим",
+          "hint": "Стол = masculine, под + instrumental",
+          "explanation": "Под + instrumental: большим столом."
+        },
+        {
+          "prompt": "Они стояли перед _____ зданием. (They stood in front of the beautiful building.)",
+          "promptEnglish": "They stood in front of the beautiful building.",
+          "options": [
+            "красивому",
+            "красивого",
+            "красивое",
+            "красивым"
+          ],
+          "answer": "красивым",
+          "hint": "Здание = neuter, перед + instrumental",
+          "explanation": "Neuter instrumental: красивое → красивым."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Она познакомилась с _____ человеком. (She met an interesting person.)",
+          "promptEnglish": "She met an interesting person.",
+          "options": [
+            "интересному",
+            "интересного",
+            "интересным",
+            "интересный"
+          ],
+          "answer": "интересным",
+          "hint": "Человек = masculine, с + instrumental",
+          "explanation": "С + instrumental: интересным человеком."
+        },
+        {
+          "prompt": "Мы гордимся _____ дочерью. (We are proud of our talented daughter.)",
+          "promptEnglish": "We are proud of our talented daughter.",
+          "options": [
+            "талантливая",
+            "талантливую",
+            "талантливой",
+            "талантливым"
+          ],
+          "answer": "талантливой",
+          "hint": "Дочь = feminine, гордиться + instrumental",
+          "explanation": "Гордиться + instrumental: талантливой дочерью."
+        },
+        {
+          "prompt": "Дети играют с _____ игрушками. (The children play with new toys.)",
+          "promptEnglish": "The children play with new toys.",
+          "options": [
+            "новые",
+            "новых",
+            "новыми",
+            "новым"
+          ],
+          "answer": "новыми",
+          "hint": "Игрушками = plural instrumental",
+          "explanation": "Plural instrumental: новые → новыми."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я пью чай с _____ мёдом. (I drink tea with tasty honey.)",
+      "Она гуляет с _____ подругой. (She walks with her old friend.)",
+      "Мы работаем с _____ людьми. (We work with good people.)",
+      "Он стал _____ врачом. (He became a good doctor.)",
+      "Кот спит под _____ столом. (The cat sleeps under the big table.)"
+    ],
+    "choices": [
+      "вкусным",
+      "старой",
+      "хорошими",
+      "хорошим",
+      "большим",
+      "вкусного",
+      "старую"
+    ],
+    "answers": [
+      "вкусным",
+      "старой",
+      "хорошими",
+      "хорошим",
+      "большим"
+    ],
+    "grammarFocus": "Instrumental adjective endings: masc -ым, fem -ой, pl -ыми",
+    "hints": [
+      "С (with) requires instrumental case. Мёд is masculine. What ending does a masculine adjective take in instrumental?",
+      "С (with) requires instrumental. Подруга is feminine. Feminine instrumental ending: -ой or -ым?",
+      "С (with) requires instrumental. Людьми is plural. Plural instrumental ending: -ыми or -ых?",
+      "Профессия (profession) uses instrumental without preposition. Врач is masculine.",
+      "Под (under) requires instrumental. Стол is masculine. Use the masculine instrumental ending."
+    ],
+    "explanations": [
+      "С requires instrumental. Masculine: вкусный → вкусным (ending -ым).",
+      "С requires instrumental. Feminine: старая → старой (ending -ой).",
+      "С requires instrumental. Plural: хорошие → хорошими (ending -ими).",
+      "Professions use instrumental: хороший → хорошим врачом.",
+      "Под requires instrumental. Masculine: большой → большим (ending -им)."
+    ],
+    "options": [
+      [
+        "вкусным",
+        "вкусное",
+        "вкусного",
+        "вкусный"
+      ],
+      [
+        "старый",
+        "старая",
+        "старой",
+        "старую"
+      ],
+      [
+        "хорошие",
+        "хороших",
+        "хороший",
+        "хорошими"
+      ],
+      [
+        "хорошего",
+        "хорошему",
+        "хороший",
+        "хорошим"
+      ],
+      [
+        "больший",
+        "большему",
+        "большим",
+        "большего"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я дал книгу _____ другу. (I gave the book to my new friend.) - dative",
+      "contextEnglish": "I gave the book to my new friend.",
+      "options": [
+        "новому",
+        "новым"
+      ],
+      "answer": "новому",
+      "explanation": "Dative masculine: новому."
+    },
+    {
+      "context": "Я говорю с _____ другом. (I am talking with my new friend.) - instrumental",
+      "contextEnglish": "I am talking with my new friend.",
+      "options": [
+        "новым",
+        "новому"
+      ],
+      "answer": "новым",
+      "explanation": "Instrumental masculine: новым."
+    }
+  ],
+  "declensionTable": {
+    "word": "новый",
+    "wordType": "adjective",
+    "gender": "masculine",
+    "paradigm": {
+      "nominative": "новый",
+      "genitive": "нового",
+      "dative": "новому",
+      "accusative": "нового",
+      "instrumental": "новым",
+      "prepositional": "новом"
+    },
+    "blanks": [
+      "instrumental"
+    ],
+    "hints": [
+      "Masc instrumental: -ый → -ым"
+    ],
+    "explanations": [
+      "Masculine adjective instrumental: -ый → -ым: новый → новым"
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort instrumental adjectives by gender",
+    "categories": [
+      "Masculine/Neuter (-ым/-им)",
+      "Feminine (-ой/-ей)",
+      "Plural (-ыми/-ими)"
+    ],
+    "items": [
+      {
+        "word": "с новым другом",
+        "category": "Masculine/Neuter (-ым/-им)"
+      },
+      {
+        "word": "со старой подругой",
+        "category": "Feminine (-ой/-ей)"
+      },
+      {
+        "word": "с хорошими друзьями",
+        "category": "Plural (-ыми/-ими)"
+      },
+      {
+        "word": "под большим столом",
+        "category": "Masculine/Neuter (-ым/-им)"
+      },
+      {
+        "word": "с младшей сестрой",
+        "category": "Feminine (-ой/-ей)"
+      },
+      {
+        "word": "с новыми книгами",
+        "category": "Plural (-ыми/-ими)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "-ым / -им (м/ср)",
+      "definition": "masc/neuter instrumental ending",
+      "example": "Новым, синим, хорошим."
+    },
+    {
+      "term": "-ой / -ей (ж)",
+      "definition": "feminine instrumental ending",
+      "example": "Новой, синей, хорошей."
+    },
+    {
+      "term": "-ыми / -ими (мн)",
+      "definition": "plural instrumental ending",
+      "example": "Новыми, синими, хорошими."
+    },
+    {
+      "term": "с + твор. падеж",
+      "definition": "with + instrumental",
+      "example": "С новым другом, с хорошей книгой."
+    }
+  ]
+}

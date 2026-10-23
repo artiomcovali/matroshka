@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-medium-002",
+  "title": "Academic Politics",
+  "level": "C1",
+  "difficulty": "medium",
+  "description": "Handle department power struggle",
+  "imageName": "person.3.sequence.fill",
+  "initialPrompt": "На факультете раскол. Две группы профессоров конфликтуют, и обе хотят вашей поддержки. Декан просит вас помочь примирить стороны.",
+  "systemPrompt": "You are faculty dean needing help with conflict. Present both sides' grievances. Only satisfied if mediator remains neutral and proposes fair solution.",
+  "completionCriteria": "User mediated academic conflict fairly.",
+  "responseLimit": 15,
+  "hints": [
+    "Обе стороны имеют обоснованные позиции (Both sides have valid positions)",
+    "Компромисс мог бы включать... (A compromise could include...)",
+    "Общая цель — благо факультета (The common goal is the faculty's benefit)"
+  ],
+  "targetVocabulary": [
+    {"word": "конфликт", "definition": "conflict"},
+    {"word": "посредничество", "definition": "mediation"},
+    {"word": "факультет", "definition": "faculty"},
+    {"word": "компромисс", "definition": "compromise"},
+    {"word": "нейтралитет", "definition": "neutrality"},
+    {"word": "примирение", "definition": "reconciliation"}
+  ],
+  "objectives": [
+    "Remain neutral",
+    "Understand both positions",
+    "Propose fair solution",
+    "Preserve relationships"
+  ]
+}

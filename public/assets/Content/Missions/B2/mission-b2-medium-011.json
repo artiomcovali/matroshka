@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-011",
+  "title": "Due Diligence Issues",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Merger due diligence reveals problems",
+  "imageName": "arrow.triangle.merge",
+  "initialPrompt": "Аудит выявил несоответствия в финансовой отчётности. Это меняет оценку сделки.",
+  "systemPrompt": "You are M&A advisor. Due diligence found issues. Discuss implications, renegotiation options. Professional and analytical. Keep replies short.",
+  "completionCriteria": "User addressed issues and adjusted deal terms.",
+  "responseLimit": 15,
+  "hints": [
+    "Какие именно несоответствия? (What discrepancies specifically?)",
+    "Это влияет на оценку (This affects the valuation)",
+    "Предлагаю пересмотреть условия (I propose we revise terms)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "аудит",
+      "definition": "audit"
+    },
+    {
+      "word": "несоответствие",
+      "definition": "discrepancy"
+    },
+    {
+      "word": "оценка",
+      "definition": "valuation"
+    },
+    {
+      "word": "пересмотр",
+      "definition": "revision"
+    },
+    {
+      "word": "сделка",
+      "definition": "deal"
+    },
+    {
+      "word": "риск",
+      "definition": "risk"
+    }
+  ],
+  "objectives": [
+    "Understand the issues",
+    "Assess impact on deal",
+    "Propose adjustments",
+    "Renegotiate terms"
+  ]
+}

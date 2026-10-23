@@ -1,0 +1,45 @@
+{
+  "id": "mission-a2-hard-003",
+  "title": "The Noisy Neighbors",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Complain to your neighbor about loud music at night",
+  "imageName": "speaker.wave.3.fill",
+  "initialPrompt": "Да? Что вы хотите?",
+  "systemPrompt": "You are a neighbor playing loud music at 11pm. Initially defensive: 'Это не громко' or 'Ещё не поздно'. Agree to turn it down only if neighbor: stays calm and polite, explains they have work tomorrow, or mentions calling police. Keep replies short.",
+  "completionCriteria": "User convinced you to turn down the music through calm negotiation.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините, но очень громко (Sorry, but it's very loud)",
+    "Мне нужно спать (I need to sleep)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "громко",
+      "definition": "loud"
+    },
+    {
+      "word": "музыка",
+      "definition": "music"
+    },
+    {
+      "word": "тихо",
+      "definition": "quiet"
+    },
+    {
+      "word": "ночь",
+      "definition": "night"
+    },
+    {
+      "word": "сосед",
+      "definition": "neighbor"
+    }
+  ],
+  "objectives": [
+    "Politely introduce the problem",
+    "Explain it's too loud (громко)",
+    "Stay calm when they're defensive",
+    "Give a reason (work, sleep)",
+    "Get them to turn it down"
+  ]
+}

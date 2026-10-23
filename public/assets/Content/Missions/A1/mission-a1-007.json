@@ -1,0 +1,46 @@
+{
+  "id": "mission-a1-007",
+  "title": "Where Is...?",
+  "level": "A1",
+  "description": "Ask for directions to a place",
+  "imageName": "map.fill",
+  "initialPrompt": "Здравствуйте! Вы местный? Мне нужна помощь.",
+  "systemPrompt": "You are a local giving directions. Use: прямо (straight), налево (left), направо (right). Keep replies short (1-2 sentences).",
+  "completionCriteria": "User asked for directions and acknowledged your help.",
+  "responseLimit": 15,
+  "hints": [
+    "Где...? (Where is...?)",
+    "Как пройти к...? (How do I get to...?)",
+    "Спасибо за помощь! (Thanks for the help!)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "где",
+      "definition": "where"
+    },
+    {
+      "word": "прямо",
+      "definition": "straight"
+    },
+    {
+      "word": "налево",
+      "definition": "left"
+    },
+    {
+      "word": "направо",
+      "definition": "right"
+    },
+    {
+      "word": "магазин",
+      "definition": "store"
+    },
+    {
+      "word": "помощь",
+      "definition": "help"
+    }
+  ],
+  "objectives": [
+    "Ask where a place is (Где магазин?)",
+    "Acknowledge the directions (Спасибо!)"
+  ]
+}

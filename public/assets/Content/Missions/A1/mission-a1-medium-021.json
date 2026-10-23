@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-021",
+  "title": "Ice Cream Flavor Gone",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "Your favorite flavor is sold out",
+  "imageName": "snowflake",
+  "initialPrompt": "Здравствуйте! Какое мороженое хотите?",
+  "systemPrompt": "You sell ice cream. Шоколад is sold out. Say 'Шоколада нет, извините. Есть ваниль и клубника.' Keep replies short.",
+  "completionCriteria": "User chose an available flavor after learning chocolate is unavailable.",
+  "responseLimit": 15,
+  "hints": [
+    "Шоколад, пожалуйста (Chocolate, please)",
+    "А что есть? (What do you have?)",
+    "Тогда ваниль (Then vanilla)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "мороженое",
+      "definition": "ice cream"
+    },
+    {
+      "word": "нет",
+      "definition": "no/none"
+    },
+    {
+      "word": "есть",
+      "definition": "there is"
+    },
+    {
+      "word": "тогда",
+      "definition": "then"
+    },
+    {
+      "word": "другой",
+      "definition": "other"
+    }
+  ],
+  "objectives": [
+    "Ask for chocolate (шоколад)",
+    "Learn it's unavailable (нет)",
+    "Choose alternative (ваниль, клубника)"
+  ]
+}

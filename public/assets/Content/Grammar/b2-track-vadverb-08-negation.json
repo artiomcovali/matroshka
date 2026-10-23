@@ -1,0 +1,309 @@
+{
+  "id": "b2-track-vadverb-08-negation",
+  "level": "B2",
+  "focusArea": "other",
+  "title": "Verbal Adverbs 7: Negating Gerunds with не",
+  "titleRussian": "Деепричастия 7: отрицание с «не»",
+  "description": "Negate a verbal adverb by placing не directly before it as a separate word (не зная, не понимая, не глядя), avoiding the незная fusion error, and choose the aspect of the negated gerund by timing.",
+  "descriptionRussian": "Отрицание деепричастия: частица «не» ставится прямо перед ним отдельным словом (не зная, не понимая, не глядя); нельзя писать слитно (незная); вид негативного деепричастия выбирается по времени действия.",
+  "imageName": "nosign",
+  "trackId": "b2-verbal-adverbs-mastery",
+  "trackTitle": "Verbal Adverbs Mastery",
+  "trackTitleRussian": "Деепричастия",
+  "trackIndex": 7,
+  "trackTotal": 8,
+  "intro": "Negating one of these is simple and carries two traps. The negative word stays separate, unlike participles and adjectives where it fuses on. And the preposition meaning 'without' is not a substitute: it takes a noun, not a verb form. Three negated verbal adverbs are near-fixed phrases you will meet constantly.",
+  "rules": [
+    "Negate a gerund by placing не directly before it as a SEPARATE word: не зная, не понимая, не глядя.",
+    "Never fuse не into the gerund: незная is wrong. Unlike participles and adjectives (незнающий), a gerund keeps не separate, like не знал, не смотрит.",
+    "Не зная, не понимая, and не глядя are everyday near-fixed B2 phrases.",
+    "Choose aspect by timing: a negated imperfective gerund is a state of not-doing during the main action (не понимая); a negated perfective is something not completed before it (rarer).",
+    "Do not swap in без: без takes a genitive noun (без знания), not a gerund. To negate the action, use не + gerund."
+  ],
+  "examples": [
+    "Не зная ответа, она молчала. (Not knowing the answer, she stayed silent.)",
+    "Не понимая инструкций, Иван попросил помощи. (Not understanding the instructions, Ivan asked for help.)",
+    "Не глядя на часы, Антон работал до утра. (Without looking at the clock, Anton worked until morning.)",
+    "Не дождавшись ответа, она ушла. (Not having waited for an answer, she left - negated perfective.)",
+    "Без знания языка трудно жить за границей. (Without knowledge of the language it is hard to live abroad - без + genitive noun, NOT a gerund.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "How is negation marked on a verbal adverb?",
+          "promptEnglish": "Where does the не particle go?",
+          "options": [
+            "After the gerund: знаяне",
+            "Fused into the gerund: незная",
+            "Directly before the gerund, separately: не зная",
+            "Negation is impossible; rewrite with когда"
+          ],
+          "answer": "Directly before the gerund, separately: не зная",
+          "hint": "Negation works the same way as on any verb form.",
+          "explanation": "The particle не sits directly before the gerund, as a separate word, just as with finite verbs and infinitives: не зная, не понимая, не глядя. The other options describe non-existent patterns; gerund negation is fully regular."
+        },
+        {
+          "prompt": "Why is незная wrong but незнающий acceptable?",
+          "promptEnglish": "Why can a participle fuse не but a gerund cannot?",
+          "options": [
+            "A gerund is a verb form and keeps не separate; a participle behaves like an adjective and can fuse",
+            "They are both wrong",
+            "They are both fine",
+            "Gerunds never take negation"
+          ],
+          "answer": "A gerund is a verb form and keeps не separate; a participle behaves like an adjective and can fuse",
+          "hint": "Think about whether each word patterns like a verb or like an adjective.",
+          "explanation": "A gerund is a verb form, so не stays separate, exactly as in не знал, не смотрит: не зная. A participle behaves like an adjective and can fuse не into one word (незнающий студент). The gerund never fuses; незная is an error."
+        },
+        {
+          "prompt": "_____ ответа, Маша молчала.",
+          "promptEnglish": "Not knowing the answer, Masha stayed silent.",
+          "options": [
+            "Не зная",
+            "Незная",
+            "Знав не",
+            "Без зная"
+          ],
+          "answer": "Не зная",
+          "hint": "Negation goes directly before the gerund, as a separate word.",
+          "explanation": "Не зная is the standard negated imperfective gerund of знать, with не a separate word. Незная fuses the particle, which Russian does not do with a verb form; 'Знав не' has the wrong word order; без takes a genitive noun (без знания), not a gerund."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ инструкций, Антон попросил помощи.",
+          "promptEnglish": "Not understanding the instructions, Anton asked for help.",
+          "options": [
+            "Не понимая",
+            "Не понимать",
+            "Не понимал",
+            "Не понять"
+          ],
+          "answer": "Не понимая",
+          "hint": "The slot needs a negated imperfective gerund (the not-understanding holds during the asking).",
+          "explanation": "Не понимая is the negated imperfective gerund of понимать. The not-understanding is a state simultaneous with the asking. Не понимать is the negated infinitive; не понимал is the negated finite past; не понять is the negated perfective infinitive."
+        },
+        {
+          "prompt": "_____ ответа, она ушла. (She didn't wait for an answer and left.)",
+          "promptEnglish": "Not having waited for an answer, she left.",
+          "options": [
+            "Не дождавшись",
+            "Не дожидаясь",
+            "Не дождаться",
+            "Не дождалась"
+          ],
+          "answer": "Не дождавшись",
+          "hint": "A completed non-action before the main verb: negated PERFECTIVE gerund (-вшись).",
+          "explanation": "Не дождавшись is the negated perfective gerund: the not-waiting is completed before она ушла (she left without having waited). Не дожидаясь (imperfective) would stress the ongoing not-waiting; не дождаться is the infinitive; не дождалась is a finite past verb."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ на часы, Антон работал до утра. (Without looking at the clock, Anton worked until morning.)",
+      "_____ языка, трудно жить за границей. (Without knowledge of the language, it is hard to live abroad.)"
+    ],
+    "choices": [
+      "Не глядя",
+      "Незная",
+      "Без знания",
+      "Без зная"
+    ],
+    "answers": [
+      "Не глядя",
+      "Без знания"
+    ],
+    "grammarFocus": "(1) Не глядя is a near-fixed negated imperfective gerund ('without looking'), with не separate. (2) 'Without knowledge' as a thing is без + genitive noun: без знания (not a gerund).",
+    "hints": [
+      "The not-looking holds during the working: negated imperfective gerund, не separate.",
+      "Here 'without X' is a noun, so use без + genitive."
+    ]
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Невидя дороги в темноте, мы шли медленно.",
+      "translationEnglish": "Not seeing the road in the dark, we walked slowly.",
+      "error": "Невидя",
+      "correction": "Не видя",
+      "options": [
+        "Не видя",
+        "Не видев",
+        "Без видя"
+      ],
+      "explanation": "Russian negates a gerund by placing не directly before it as a separate word: не видя. Невидя fuses the particle, which Russian orthography does not allow for a verb form (unlike adjectives, where невидимый is fine). Без видя is impossible: без takes nouns."
+    },
+    {
+      "sentence": "Неслушая советов, Антон сделал по-своему.",
+      "translationEnglish": "Not listening to the advice, Anton did it his own way.",
+      "error": "Неслушая",
+      "correction": "Не слушая",
+      "options": [
+        "Не слушая",
+        "Не слушав",
+        "Не слушать"
+      ],
+      "explanation": "Negation on a gerund is the separate particle не before the form: не слушая. Неслушая fuses не into the gerund, which Russian does not do with a verb form. Не слушать is a negated infinitive, which cannot serve as the backgrounded-action clause."
+    },
+    {
+      "sentence": "Без помня адреса, мы долго искали дом.",
+      "translationEnglish": "Not remembering the address, we searched for the house a long time.",
+      "error": "Без помня",
+      "correction": "Не помня",
+      "options": [
+        "Не помня",
+        "Без помнить",
+        "Непомня"
+      ],
+      "explanation": "To negate the ACTION with a gerund, use не + gerund: не помня адреса. Без cannot take a gerund: без помня and без помнить are both impossible. If you wanted the noun construction, it would be без адреса ('without the address')."
+    },
+    {
+      "sentence": "Не спрашивая разрешения, он взял ключи и ушёл навсегда.",
+      "translationEnglish": "Without having asked permission, he took the keys and left for good.",
+      "error": "Не спрашивая",
+      "correction": "Не спросив",
+      "options": [
+        "Не спросив",
+        "Не спросить",
+        "Не спросил"
+      ],
+      "explanation": "The taking and leaving form a single completed sequence after a permission that was never obtained, so the negated PERFECTIVE gerund fits: не спросив разрешения. Не спрашивая is the imperfective ('while not asking'), which frames a background instead of a completed non-event."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "_____ ответа, она молчала.",
+      "contextEnglish": "Not knowing the answer, she stayed silent.",
+      "options": [
+        "Не зная",
+        "Без зная"
+      ],
+      "answer": "Не зная",
+      "explanation": "Russian negates the gerund with the particle не placed directly before it: не зная. Без takes a genitive noun and would need a different construction (без знания), not a gerund."
+    },
+    {
+      "context": "Без _____ языка трудно работать здесь.",
+      "contextEnglish": "Without knowledge of the language, it is hard to work here.",
+      "options": [
+        "знания",
+        "зная"
+      ],
+      "answer": "знания",
+      "explanation": "Без governs a NOUN in the genitive, never a gerund: без знания языка. Зная is the gerund, and it can only be negated with не (не зная языка), never introduced by без."
+    }
+  ],
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Не",
+        "зная",
+        "адреса,",
+        "Антон",
+        "позвонил",
+        "другу"
+      ],
+      "answer": "Не зная адреса, Антон позвонил другу",
+      "translation": "Not knowing the address, Anton called his friend.",
+      "hint": "Keep не a separate word right before the imperfective gerund зная."
+    },
+    {
+      "words": [
+        "Не",
+        "глядя",
+        "по",
+        "сторонам,",
+        "она",
+        "перешла",
+        "дорогу"
+      ],
+      "answer": "Не глядя по сторонам, она перешла дорогу",
+      "translation": "Without looking around, she crossed the road.",
+      "hint": "Не глядя is a near-fixed negated imperfective gerund; не stays separate."
+    },
+    {
+      "words": [
+        "Не",
+        "понимая",
+        "вопроса,",
+        "Лена",
+        "промолчала"
+      ],
+      "answer": "Не понимая вопроса, Лена промолчала",
+      "translation": "Not understanding the question, Lena stayed quiet.",
+      "hint": "The not-understanding holds during the silence: negated imperfective gerund."
+    },
+    {
+      "words": [
+        "Не",
+        "дождавшись",
+        "автобуса,",
+        "мы",
+        "пошли",
+        "пешком"
+      ],
+      "answer": "Не дождавшись автобуса, мы пошли пешком",
+      "translation": "Not having waited for the bus, we walked.",
+      "hint": "A completed non-action before the main verb: negated perfective gerund не дождавшись."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Не зная ответа, она молчала.",
+      "question": "Why is не written separately from зная?",
+      "options": [
+        "A gerund is a verb form, so не stays a separate word",
+        "It is a typo; it should be незная",
+        "не always fuses with gerunds",
+        "зная is a noun"
+      ],
+      "answer": "A gerund is a verb form, so не stays a separate word",
+      "explanation": "A gerund is a verb form, and verb forms keep не separate (не знал, не смотрит, не зная). Only adjective-like words such as participles can fuse не (незнающий). So не зная, never незная."
+    },
+    {
+      "sentence": "Без знания языка трудно жить за границей.",
+      "question": "Why is this без + знания, not не зная?",
+      "options": [
+        "без takes a genitive noun (знания), not a gerund",
+        "без and не are interchangeable",
+        "знания is a gerund",
+        "не зная would also be spelled без зная"
+      ],
+      "answer": "без takes a genitive noun (знания), not a gerund",
+      "explanation": "Без governs a noun in the genitive: без знания языка. It can never take a gerund (без зная is impossible). To negate the action you would use the gerund не зная; to express 'without X' as a thing, use без + a genitive noun."
+    },
+    {
+      "sentence": "Не дождавшись ответа, она ушла.",
+      "question": "Why is the gerund perfective (дождавшись) here?",
+      "options": [
+        "The not-waiting is completed before she left",
+        "It is imperfective",
+        "Perfective gerunds cannot be negated",
+        "The main verb is present tense"
+      ],
+      "answer": "The not-waiting is completed before she left",
+      "explanation": "The negated perfective gerund Не дождавшись marks a completed non-event before the main verb: she did not wait, then left. A negated imperfective (не дожидаясь) would frame the not-waiting as ongoing instead."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "отрицание деепричастия (не + gerund)",
+      "definition": "negate a gerund by placing не directly before it as a separate word: не зная, не понимая, не глядя. A gerund is a verb form, so не never fuses (незная is wrong).",
+      "example": "Не зная ответа, она молчала. Не глядя на часы, он работал."
+    },
+    {
+      "term": "не + gerund vs незнающий",
+      "definition": "a gerund keeps не separate (verb form: не зная), while a participle/adjective can fuse it (незнающий студент). Do not write незная.",
+      "example": "Не зная (gerund) против незнающий (participle)."
+    },
+    {
+      "term": "без + родительный (not a gerund)",
+      "definition": "без takes a genitive noun (без знания, без помощи), a different construction from the negated gerund. To negate the action, use не + gerund.",
+      "example": "Без знания языка трудно; но: не зная языка, он растерялся."
+    }
+  ]
+}

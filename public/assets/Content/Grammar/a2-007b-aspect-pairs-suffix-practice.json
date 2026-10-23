@@ -1,0 +1,627 @@
+{
+  "lessonId": "a2-007b-aspect-pairs-suffix",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Choose the correct verb form based on suffix and stem-change pairs",
+      "descriptionRussian": "Выберите правильную форму глагола",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Он наконец _____ эту задачу. (He finally solved this problem.)",
+              "promptEnglish": "He finally solved this problem.",
+              "options": [
+                "решал",
+                "решать",
+                "решить",
+                "решил"
+              ],
+              "answer": "решил",
+              "hint": "Наконец = completed. Решать → решить (suffix pair).",
+              "explanation": "Наконец = completed result. Perfective: решил (решать → решить, suffix -ать → -ить)."
+            },
+            {
+              "prompt": "Она каждый день _____ письма. (She receives letters every day.)",
+              "promptEnglish": "She receives letters every day.",
+              "options": [
+                "получила",
+                "получит",
+                "получает",
+                "получить"
+              ],
+              "answer": "получает",
+              "hint": "Каждый день = habitual = imperfective present.",
+              "explanation": "Каждый день = habitual. Imperfective present: получает (from получать)."
+            },
+            {
+              "prompt": "Он _____ что-то интересное. (He said something interesting.)",
+              "promptEnglish": "He said something interesting. (single completed speech act)",
+              "options": [
+                "говорил",
+                "сказал",
+                "говорить",
+                "сказать"
+              ],
+              "answer": "сказал",
+              "hint": "Single completed speech act = perfective. Говорить → сказать.",
+              "explanation": "Single completed utterance = perfective: сказал (suppletive pair: говорить → сказать)."
+            },
+            {
+              "prompt": "Мы долго _____ ей вопросы. (We asked her questions for a long time.)",
+              "promptEnglish": "We asked her questions for a long time.",
+              "options": [
+                "задали",
+                "задаём",
+                "задавали",
+                "зададим"
+              ],
+              "answer": "задавали",
+              "hint": "Долго = duration = imperfective.",
+              "explanation": "Долго = process/duration. Imperfective: задавали (from задавать)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Ребёнок _____ игрушку со стола. (The child took a toy from the table.) - single action",
+          "contextEnglish": "The child took a toy. (single completed action)",
+          "options": [
+            "брал",
+            "взял"
+          ],
+          "answer": "взял",
+          "explanation": "Single completed action = perfective: взял (suppletive pair: брать → взять)."
+        },
+        {
+          "context": "Ребёнок часто _____ игрушки со стола. (The child often took toys from the table.) - repeated",
+          "contextEnglish": "The child often took toys. (repeated habit)",
+          "options": [
+            "брал",
+            "взял"
+          ],
+          "answer": "брал",
+          "explanation": "Часто (often) = repetition = imperfective: брал."
+        },
+        {
+          "context": "Она _____ ему правду. (She told him the truth.) - single speech act",
+          "contextEnglish": "She told him the truth. (one-time statement)",
+          "options": [
+            "говорила",
+            "сказала"
+          ],
+          "answer": "сказала",
+          "explanation": "Single completed speech act: сказала (perfective of говорить)."
+        },
+        {
+          "context": "Она долго _____ по телефону. (She talked on the phone for a long time.) - process",
+          "contextEnglish": "She talked on the phone for a long time.",
+          "options": [
+            "говорила",
+            "сказала"
+          ],
+          "answer": "говорила",
+          "explanation": "Долго = duration/process = imperfective: говорила."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Положи книгу на стол. Кто _____ её сюда? (Who put it here?)",
+          "Ученик правильно _____ на вопрос. (The student answered the question correctly.)",
+          "Я уже _____ посылку. (I already received the package.)"
+        ],
+        "choices": [
+          "положил",
+          "ответил",
+          "получил"
+        ],
+        "answers": [
+          "положил",
+          "ответил",
+          "получил"
+        ],
+        "grammarFocus": "Suffix and stem-change perfective pairs",
+        "hints": [
+          "Класть → положить (suppletive pair). Single completed action.",
+          "Отвечать → ответить (suffix pair). Completed response.",
+          "Получать → получить (suffix pair). Уже = completed."
+        ],
+        "explanations": [
+          "Класть → положить (different stems). Past: положил.",
+          "Отвечать → ответить (-ать → -ить, ч → т). Past: ответил.",
+          "Получать → получить (-ать → -ить). Past: получил."
+        ],
+        "options": [
+          [
+            "клал",
+            "кладёт",
+            "положил",
+            "положит"
+          ],
+          [
+            "отвечал",
+            "ответит",
+            "отвечает",
+            "ответил"
+          ],
+          [
+            "получает",
+            "получит",
+            "получал",
+            "получил"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-sort-pairs",
+      "title": "Sort and Pair",
+      "titleRussian": "Сортировка и пары",
+      "description": "Sort verbs and identify which formation pattern they follow",
+      "descriptionRussian": "Рассортируйте глаголы по типу образования пар",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort: how is the perfective formed?",
+        "categories": [
+          "Suffix change (-ать → -ить)",
+          "Different stems (suppletive)"
+        ],
+        "items": [
+          {
+            "word": "решать → решить",
+            "category": "Suffix change (-ать → -ить)"
+          },
+          {
+            "word": "брать → взять",
+            "category": "Different stems (suppletive)"
+          },
+          {
+            "word": "получать → получить",
+            "category": "Suffix change (-ать → -ить)"
+          },
+          {
+            "word": "говорить → сказать",
+            "category": "Different stems (suppletive)"
+          },
+          {
+            "word": "отвечать → ответить",
+            "category": "Suffix change (-ать → -ить)"
+          },
+          {
+            "word": "класть → положить",
+            "category": "Different stems (suppletive)"
+          },
+          {
+            "word": "встречать → встретить",
+            "category": "Suffix change (-ать → -ить)"
+          },
+          {
+            "word": "ловить → поймать",
+            "category": "Different stems (suppletive)"
+          }
+        ]
+      },
+      "patternRecognition": [
+        {
+          "sentence": "решать → решить, получать → получить, отвечать → ответить",
+          "question": "What pattern do all these aspect pairs follow?",
+          "options": [
+            "The suffix changes from -ать to -ить",
+            "A prefix is added",
+            "The entire stem changes"
+          ],
+          "answer": "The suffix changes from -ать to -ить",
+          "explanation": "These are suffix pairs: the imperfective ending -ать changes to perfective -ить."
+        },
+        {
+          "sentence": "брать → взять, говорить → сказать, класть → положить",
+          "question": "What pattern do all these pairs follow?",
+          "options": [
+            "The stems are completely different (suppletive)",
+            "The suffix changes",
+            "A prefix is added"
+          ],
+          "answer": "The stems are completely different (suppletive)",
+          "explanation": "These are suppletive (stem-change) pairs: the words are completely different and must be memorized."
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Каждый день она сказала ему 'доброе утро'.",
+          "error": "сказала",
+          "correction": "говорила",
+          "hint": "Каждый день = habitual = imperfective.",
+          "explanation": "Каждый день = habitual. Imperfective: говорила (not perfective сказала).",
+          "options": [
+            "говорила",
+            "говорит",
+            "сказанная"
+          ]
+        },
+        {
+          "sentence": "Он долго взял книгу.",
+          "error": "взял",
+          "correction": "брал",
+          "hint": "Долго = duration = imperfective. Взять → брать.",
+          "explanation": "Долго = process. Imperfective of взять is брать: он долго брал.",
+          "options": [
+            "брал",
+            "берёт",
+            "возьмёт"
+          ]
+        },
+        {
+          "sentence": "Она наконец отвечала на письмо.",
+          "error": "отвечала",
+          "correction": "ответила",
+          "hint": "Наконец = completed = perfective.",
+          "explanation": "Наконец = completion. Perfective: ответила (отвечать → ответить).",
+          "options": [
+            "ответила",
+            "ответит",
+            "отвечает"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Составьте и переведите",
+      "description": "Build sentences and translate using suffix and stem-change pairs",
+      "descriptionRussian": "Составьте предложения и переведите",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "She received a letter yesterday.",
+          "answer": "Она вчера получила письмо.",
+          "acceptableVariants": [
+            "Вчера она получила письмо."
+          ],
+          "hint": "received (completed) = получила, letter = письмо",
+          "grammarFocus": "получать → получить suffix pair",
+          "keyWord": "получила",
+          "options": [
+            "получила",
+            "получала",
+            "получит",
+            "получает"
+          ]
+        },
+        {
+          "english": "Put the bag on the floor.",
+          "answer": "Положи сумку на пол.",
+          "acceptableVariants": [
+            "Положите сумку на пол."
+          ],
+          "hint": "put (command) = положи, bag = сумку, floor = пол",
+          "grammarFocus": "класть → положить suppletive pair",
+          "keyWord": "Положи",
+          "options": [
+            "Положи",
+            "Клади",
+            "Положу",
+            "Кладёт"
+          ]
+        },
+        {
+          "english": "He took the keys and left.",
+          "answer": "Он взял ключи и ушёл.",
+          "acceptableVariants": [],
+          "hint": "took = взял (perfective of брать), keys = ключи",
+          "grammarFocus": "брать → взять suppletive pair",
+          "keyWord": "взял",
+          "options": [
+            "взял",
+            "брал",
+            "возьмёт",
+            "берёт"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What is the imperfective of сказать (to say)?",
+              "promptEnglish": "What is the imperfective pair of сказать?",
+              "options": [
+                "сказывать",
+                "говорить",
+                "рассказывать",
+                "высказывать"
+              ],
+              "answer": "говорить",
+              "hint": "This is a suppletive pair with completely different stems.",
+              "explanation": "Говорить / сказать is a suppletive pair: the stems are completely different."
+            },
+            {
+              "prompt": "What is the perfective of класть (to put)?",
+              "promptEnglish": "What is the perfective pair of класть?",
+              "options": [
+                "покласть",
+                "положить",
+                "кладить",
+                "поклать"
+              ],
+              "answer": "положить",
+              "hint": "Suppletive pair: completely different stems.",
+              "explanation": "Класть / положить is a suppletive pair. Покласть and кладить don't exist."
+            },
+            {
+              "prompt": "What is the perfective of брать (to take)?",
+              "promptEnglish": "What is the perfective pair of брать?",
+              "options": [
+                "побрать",
+                "забрать",
+                "взять",
+                "выбрать"
+              ],
+              "answer": "взять",
+              "hint": "Suppletive pair. Забрать and выбрать have different meanings.",
+              "explanation": "Брать / взять is a suppletive pair. Забрать (take away) and выбрать (choose) are different verbs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-consonant-changes",
+      "title": "Tricky Changes",
+      "titleRussian": "Хитрые чередования",
+      "description": "Notice consonant changes in suffix pairs and choose correctly",
+      "descriptionRussian": "Обратите внимание на чередование согласных",
+      "icon": "eye",
+      "patternRecognition": [
+        {
+          "sentence": "отвечать → ответить (ч → т), встречать → встретить (ч → т)",
+          "question": "What consonant change happens in these suffix pairs?",
+          "options": [
+            "ч changes to т",
+            "т changes to ч",
+            "с changes to з"
+          ],
+          "answer": "ч changes to т",
+          "explanation": "In these suffix pairs, ч in the imperfective changes to т in the perfective."
+        },
+        {
+          "sentence": "возвращать → возвратить, запрещать → запретить",
+          "question": "What consonant change happens here?",
+          "options": [
+            "щ changes to т",
+            "т changes to щ",
+            "ш changes to с"
+          ],
+          "answer": "щ changes to т",
+          "explanation": "Щ in the imperfective changes to т in the perfective. The same pattern as ч → т."
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы _____ старых друзей на вечеринке. (We met old friends at the party.)",
+              "promptEnglish": "We met old friends at the party. (single event)",
+              "options": [
+                "встречали",
+                "встретили",
+                "встречаем",
+                "встретим"
+              ],
+              "answer": "встретили",
+              "hint": "Single completed meeting = perfective. Встречать → встретить.",
+              "explanation": "Single event = perfective: встретили (встречать → встретить, ч → т)."
+            },
+            {
+              "prompt": "Мальчик всегда _____ на вопросы учителя. (The boy always answers the teacher's questions.)",
+              "promptEnglish": "The boy always answers the teacher's questions.",
+              "options": [
+                "ответит",
+                "ответил",
+                "отвечает",
+                "ответив"
+              ],
+              "answer": "отвечает",
+              "hint": "Всегда (always) = habitual = imperfective present.",
+              "explanation": "Всегда = habitual. Imperfective present: отвечает."
+            },
+            {
+              "prompt": "Она _____ посылку сегодня утром. (She received a package this morning.)",
+              "promptEnglish": "She received a package this morning.",
+              "options": [
+                "получала",
+                "получает",
+                "получила",
+                "получить"
+              ],
+              "answer": "получила",
+              "hint": "Received (single completed event this morning) = perfective.",
+              "explanation": "Single completed event: получила (получать → получить)."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Он уже _____ все задачи. (He already solved all the problems.)",
+          "Мы часто _____ друзей в кафе. (We often meet friends at the cafe.)",
+          "Она вчера _____ мне правду. (She told me the truth yesterday.)",
+          "Не _____ мои вещи! (Don't take my things!)"
+        ],
+        "choices": [
+          "решил",
+          "встречаем",
+          "сказала",
+          "бери"
+        ],
+        "answers": [
+          "решил",
+          "встречаем",
+          "сказала",
+          "бери"
+        ],
+        "grammarFocus": "Mixed suffix and stem-change pairs in context",
+        "hints": [
+          "Уже = completed = perfective of решать.",
+          "Часто = habitual = imperfective of встречать.",
+          "Single speech act yesterday = perfective of говорить.",
+          "Negative command for repeated action = imperfective imperative of брать."
+        ],
+        "explanations": [
+          "Уже + all = completed. Perfective: решил.",
+          "Часто = habitual. Imperfective present: встречаем.",
+          "Single completed speech act: сказала (говорить → сказать).",
+          "Negative commands for 'don't do this' generally use imperfective: не бери (not не возьми)."
+        ],
+        "options": [
+          [
+            "решает",
+            "решит",
+            "решил",
+            "решал"
+          ],
+          [
+            "встретила",
+            "встретили",
+            "встретил",
+            "встречаем"
+          ],
+          [
+            "сказала",
+            "говорила",
+            "говорит",
+            "скажет"
+          ],
+          [
+            "возьми",
+            "берёшь",
+            "бери",
+            "возьмёшь"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "Не _____ это! (Don't take this!) - prohibition",
+          "contextEnglish": "Don't take this! (negative command)",
+          "options": [
+            "бери",
+            "возьми"
+          ],
+          "answer": "бери",
+          "explanation": "Negative commands ('don't do X') typically use imperfective imperative: не бери."
+        },
+        {
+          "context": "_____ зонт, будет дождь. (Take an umbrella, it'll rain.) - positive advice",
+          "contextEnglish": "Take an umbrella. (single positive command)",
+          "options": [
+            "Бери",
+            "Возьми"
+          ],
+          "answer": "Возьми",
+          "explanation": "Positive single commands typically use perfective imperative: возьми."
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "A final round combining prefix, suffix, and stem-change pairs",
+      "descriptionRussian": "Финальный раунд: приставки, суффиксы и чередования основ",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ книгу на полку, пожалуйста. (Put the book on the shelf, please.)",
+              "promptEnglish": "Put the book on the shelf, please. (single command)",
+              "options": [
+                "Клади",
+                "Кладёт",
+                "Положи",
+                "Положит"
+              ],
+              "answer": "Положи",
+              "hint": "Single positive command = perfective imperative.",
+              "explanation": "Positive command: perfective imperative положи (from класть → положить)."
+            },
+            {
+              "prompt": "Что ты _____? (What did you say?) - asking about a single utterance",
+              "promptEnglish": "What did you say? (single speech act)",
+              "options": [
+                "говорила",
+                "сказала",
+                "говоришь",
+                "скажешь"
+              ],
+              "answer": "сказала",
+              "hint": "Asking about one specific thing said = perfective.",
+              "explanation": "Asking about a single utterance = perfective: сказала (говорить → сказать)."
+            },
+            {
+              "prompt": "Мы вчера _____ друзей в парке. (We met friends in the park yesterday.)",
+              "promptEnglish": "We met friends in the park yesterday. (single event)",
+              "options": [
+                "встречали",
+                "встречаем",
+                "встретим",
+                "встретили"
+              ],
+              "answer": "встретили",
+              "hint": "Single event yesterday = perfective.",
+              "explanation": "Single completed event: встретили (встречать → встретить)."
+            },
+            {
+              "prompt": "Раньше мы часто _____ по телефону. (We used to talk on the phone often.)",
+              "promptEnglish": "We used to talk on the phone often.",
+              "options": [
+                "сказали",
+                "говорили",
+                "скажем",
+                "говорим"
+              ],
+              "answer": "говорили",
+              "hint": "Часто (often) + раньше (before) = habitual in the past.",
+              "explanation": "Часто = habitual past = imperfective: говорили."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Каждый вечер он сказал 'спокойной ночи'.",
+          "error": "сказал",
+          "correction": "говорил",
+          "hint": "Каждый вечер = habitual = imperfective.",
+          "explanation": "Каждый вечер = habitual. Imperfective: говорил, not сказал.",
+          "options": [
+            "говорил",
+            "говорит",
+            "скажет"
+          ]
+        },
+        {
+          "sentence": "Она наконец получала ответ.",
+          "error": "получала",
+          "correction": "получила",
+          "hint": "Наконец = completed = perfective.",
+          "explanation": "Наконец = completion. Perfective: получила (получать → получить).",
+          "options": [
+            "получила",
+            "получит",
+            "получает"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "lessonId": "b1-035-complex-prepositions",
+  "sets": [
+    {
+      "id": "round-1-cause-prepositions",
+      "title": "Positive and Negative Cause",
+      "titleRussian": "Положительная и отрицательная причина",
+      "description": "Choose between из-за (negative) and благодаря (positive)",
+      "descriptionRussian": "Выберите между из-за (отрицательная) и благодаря (положительная)",
+      "icon": "plus.forwardslash.minus",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ пробок мы опоздали. (Because of traffic jams, we were late.)",
+              "promptEnglish": "Negative cause: traffic made us late.",
+              "options": [
+                "Благодаря",
+                "Из-за",
+                "В течение",
+                "Вследствие"
+              ],
+              "answer": "Из-за",
+              "hint": "Negative result (being late) = из-за + genitive.",
+              "explanation": "Из-за + genitive for negative cause: из-за пробок (because of traffic jams)."
+            },
+            {
+              "prompt": "_____ хорошей подготовке она сдала экзамен. (Thanks to good preparation, she passed the exam.)",
+              "promptEnglish": "Positive cause: preparation helped.",
+              "options": [
+                "Из-за",
+                "Вместо",
+                "Благодаря",
+                "Несмотря на"
+              ],
+              "answer": "Благодаря",
+              "hint": "Positive result (passing) = благодаря + dative.",
+              "explanation": "Благодаря + dative for positive cause: благодаря подготовке (thanks to preparation)."
+            },
+            {
+              "prompt": "_____ тебе я опоздал на поезд! (Because of you I missed the train!)",
+              "promptEnglish": "Blaming someone (negative cause).",
+              "options": [
+                "Благодаря",
+                "В связи с",
+                "Из-за",
+                "Вопреки"
+              ],
+              "answer": "Из-за",
+              "hint": "Blame = negative cause = из-за.",
+              "explanation": "Из-за + genitive for blame: из-за тебя (because of you)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ опыту он быстро нашёл решение. (Thanks to experience, he quickly found a solution.)",
+              "promptEnglish": "Positive cause: experience helped.",
+              "options": [
+                "Благодаря",
+                "Вместо",
+                "Несмотря на",
+                "Из-за"
+              ],
+              "answer": "Благодаря",
+              "hint": "Positive outcome = благодаря + dative.",
+              "explanation": "Благодаря + dative: благодаря опыту (thanks to experience)."
+            },
+            {
+              "prompt": "Матч отменили _____ плохой погоды. (The match was cancelled because of bad weather.)",
+              "promptEnglish": "Negative cause: bad weather cancelled the match.",
+              "options": [
+                "благодаря",
+                "вместо",
+                "в течение",
+                "из-за"
+              ],
+              "answer": "из-за",
+              "hint": "Cancellation = negative = из-за + genitive.",
+              "explanation": "Из-за + genitive: из-за плохой погоды (because of bad weather)."
+            },
+            {
+              "prompt": "Из-за requires which case?",
+              "promptEnglish": "What case follows из-за?",
+              "options": [
+                "Genitive",
+                "Dative",
+                "Accusative",
+                "Instrumental"
+              ],
+              "answer": "Genitive",
+              "hint": "Из-за кого/чего?",
+              "explanation": "Из-за always takes genitive case."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ друзьям я нашёл работу. (positive cause)",
+          "contextEnglish": "Thanks to friends, I found a job.",
+          "options": [
+            "Благодаря",
+            "Из-за"
+          ],
+          "answer": "Благодаря",
+          "explanation": "Positive outcome (found a job) = благодаря + dative."
+        },
+        {
+          "context": "_____ друзей я проспал. (negative cause)",
+          "contextEnglish": "Because of friends, I overslept.",
+          "options": [
+            "Из-за",
+            "Благодаря"
+          ],
+          "answer": "Из-за",
+          "explanation": "Negative outcome (overslept) = из-за + genitive."
+        },
+        {
+          "context": "_____ учителю я полюбил математику. (positive)",
+          "contextEnglish": "Thanks to the teacher, I came to love math.",
+          "options": [
+            "Благодаря",
+            "Из-за"
+          ],
+          "answer": "Благодаря",
+          "explanation": "Positive result = благодаря + dative: благодаря учителю."
+        },
+        {
+          "context": "_____ учителя я получил двойку. (negative)",
+          "contextEnglish": "Because of the teacher, I got an F.",
+          "options": [
+            "Из-за",
+            "Благодаря"
+          ],
+          "answer": "Из-за",
+          "explanation": "Negative result = из-за + genitive: из-за учителя."
+        }
+      ]
+    },
+    {
+      "id": "round-2-spatial-compound",
+      "title": "Spatial Compound Prepositions",
+      "titleRussian": "Пространственные составные предлоги",
+      "description": "Practice из-за (from behind) and из-под (from under)",
+      "descriptionRussian": "Тренировка из-за (из-за угла) и из-под (из-под стола)",
+      "icon": "arrow.up.and.down",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Машина выехала _____ угла. (The car pulled out from behind the corner.)",
+              "promptEnglish": "From behind the corner.",
+              "options": [
+                "из-за",
+                "за",
+                "из-под",
+                "из"
+              ],
+              "answer": "из-за",
+              "hint": "From behind = из-за (spatial) + genitive.",
+              "explanation": "Spatial из-за: from behind the corner. Из-за + genitive."
+            },
+            {
+              "prompt": "Котёнок вылез _____ кровати. (The kitten crawled out from under the bed.)",
+              "promptEnglish": "From under the bed.",
+              "options": [
+                "из",
+                "из-за",
+                "под",
+                "из-под"
+              ],
+              "answer": "из-под",
+              "hint": "From under = из-под + genitive.",
+              "explanation": "Из-под + genitive: from under the bed."
+            },
+            {
+              "prompt": "Солнце вышло _____ облаков. (The sun came out from behind the clouds.)",
+              "promptEnglish": "From behind the clouds.",
+              "options": [
+                "из",
+                "из-за",
+                "за",
+                "из-под"
+              ],
+              "answer": "из-за",
+              "hint": "From behind = из-за (spatial).",
+              "explanation": "Spatial из-за: the sun emerged from behind the clouds."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Он достал коробку _____ шкафа. (He got the box from under the wardrobe.)",
+              "promptEnglish": "From under the wardrobe.",
+              "options": [
+                "из",
+                "из-за",
+                "из-под",
+                "под"
+              ],
+              "answer": "из-под",
+              "hint": "From under = из-под + genitive.",
+              "explanation": "Из-под + genitive: from under the wardrobe."
+            },
+            {
+              "prompt": "_____ двери слышался шум. (Noise could be heard from behind the door.)",
+              "promptEnglish": "From behind the door.",
+              "options": [
+                "Из-под",
+                "Из",
+                "За",
+                "Из-за"
+              ],
+              "answer": "Из-за",
+              "hint": "From behind = из-за (spatial).",
+              "explanation": "Spatial из-за: noise from behind the door."
+            },
+            {
+              "prompt": "Из-под requires which case?",
+              "promptEnglish": "What case follows из-под?",
+              "options": [
+                "Dative",
+                "Genitive",
+                "Instrumental",
+                "Accusative"
+              ],
+              "answer": "Genitive",
+              "hint": "Из-под кого/чего?",
+              "explanation": "Из-под always takes genitive case."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Ребёнок спрятался под стол, а потом вылез _____. (The child hid under the table, then crawled out.)",
+          "Кто-то смотрел на нас _____ забора. (Someone was watching us from behind the fence.)",
+          "Она достала письмо _____ подушки. (She got the letter from under the pillow.)"
+        ],
+        "choices": [
+          "из-под стола",
+          "из-за забора",
+          "из-под подушки",
+          "из стола",
+          "за забором"
+        ],
+        "answers": [
+          "из-под стола",
+          "из-за забора",
+          "из-под подушки"
+        ],
+        "grammarFocus": "Spatial из-за (from behind) and из-под (from under) + genitive",
+        "hints": [
+          "Crawled out from UNDER the table = из-под + genitive.",
+          "Watching from BEHIND the fence = из-за + genitive.",
+          "Got from UNDER the pillow = из-под + genitive."
+        ],
+        "explanations": [
+          "Из-под стола: from under the table. Из-под + genitive (стола).",
+          "Из-за забора: from behind the fence. Из-за + genitive (забора).",
+          "Из-под подушки: from under the pillow. Из-под + genitive (подушки)."
+        ],
+        "options": [
+          [
+            "за забором",
+            "из-за забора",
+            "из-под подушки",
+            "из-под стола"
+          ],
+          [
+            "из-под подушки",
+            "из-за забора",
+            "за забором",
+            "из стола"
+          ],
+          [
+            "из-под подушки",
+            "из-за забора",
+            "из стола",
+            "за забором"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-3-derived-prepositions",
+      "title": "Derived Prepositions",
+      "titleRussian": "Производные предлоги",
+      "description": "Practice в течение, вследствие, несмотря на, в связи с",
+      "descriptionRussian": "Тренировка производных предлогов",
+      "icon": "text.book.closed",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ двух часов шёл дождь. (For two hours it rained.)",
+              "promptEnglish": "Duration: for two hours.",
+              "options": [
+                "Из-за",
+                "Несмотря на",
+                "В течение",
+                "Вследствие"
+              ],
+              "answer": "В течение",
+              "hint": "Duration = в течение + genitive.",
+              "explanation": "В течение + genitive for duration: в течение двух часов (for two hours)."
+            },
+            {
+              "prompt": "_____ плохую погоду мы пошли гулять. (Despite the bad weather, we went for a walk.)",
+              "promptEnglish": "Despite an obstacle.",
+              "options": [
+                "Благодаря",
+                "Из-за",
+                "В течение",
+                "Несмотря на"
+              ],
+              "answer": "Несмотря на",
+              "hint": "Despite = несмотря на + accusative.",
+              "explanation": "Несмотря на + accusative: despite the bad weather."
+            },
+            {
+              "prompt": "_____ ремонтом дорога закрыта. (In connection with repairs, the road is closed.)",
+              "promptEnglish": "Due to / in connection with.",
+              "options": [
+                "В связи с",
+                "Вместо",
+                "В течение",
+                "Благодаря"
+              ],
+              "answer": "В связи с",
+              "hint": "In connection with = в связи с + instrumental.",
+              "explanation": "В связи с + instrumental: в связи с ремонтом (in connection with repairs)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ года он жил за границей. (For a year he lived abroad.)",
+              "promptEnglish": "Duration of one year.",
+              "options": [
+                "Вследствие",
+                "Несмотря на",
+                "Из-за",
+                "В течение"
+              ],
+              "answer": "В течение",
+              "hint": "Duration = в течение + genitive.",
+              "explanation": "В течение + genitive: в течение года (for/during a year)."
+            },
+            {
+              "prompt": "_____ усталость она продолжала работать. (Despite fatigue, she continued working.)",
+              "promptEnglish": "Despite the obstacle of fatigue.",
+              "options": [
+                "Несмотря на",
+                "Из-за",
+                "Благодаря",
+                "В связи с"
+              ],
+              "answer": "Несмотря на",
+              "hint": "Despite = несмотря на + accusative.",
+              "explanation": "Несмотря на + accusative: несмотря на усталость (despite fatigue)."
+            },
+            {
+              "prompt": "Несмотря на requires which case?",
+              "promptEnglish": "What case follows несмотря на?",
+              "options": [
+                "Genitive",
+                "Instrumental",
+                "Accusative",
+                "Dative"
+              ],
+              "answer": "Accusative",
+              "hint": "Несмотря на кого/что?",
+              "explanation": "Несмотря на + accusative."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these prepositions by the case they require",
+        "categories": [
+          "+ Genitive",
+          "+ Dative",
+          "+ Accusative",
+          "+ Instrumental"
+        ],
+        "items": [
+          {
+            "word": "из-за (because of)",
+            "category": "+ Genitive"
+          },
+          {
+            "word": "благодаря (thanks to)",
+            "category": "+ Dative"
+          },
+          {
+            "word": "несмотря на (despite)",
+            "category": "+ Accusative"
+          },
+          {
+            "word": "в связи с (in connection with)",
+            "category": "+ Instrumental"
+          },
+          {
+            "word": "в течение (during)",
+            "category": "+ Genitive"
+          },
+          {
+            "word": "вопреки (contrary to)",
+            "category": "+ Dative"
+          },
+          {
+            "word": "из-под (from under)",
+            "category": "+ Genitive"
+          },
+          {
+            "word": "вследствие (as a result of)",
+            "category": "+ Genitive"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "Thanks to the internet, we can learn languages.",
+          "answer": "Благодаря интернету мы можем учить языки.",
+          "acceptableVariants": [
+            "Благодаря интернету мы можем изучать языки."
+          ],
+          "hint": "Thanks to = благодаря + dative (интернету)",
+          "grammarFocus": "Благодаря + dative",
+          "keyWord": "Благодаря",
+          "options": [
+            "Благодаря",
+            "Из-за",
+            "Несмотря",
+            "Вместо"
+          ]
+        },
+        {
+          "english": "Because of the noise, I could not sleep.",
+          "answer": "Из-за шума я не мог спать.",
+          "acceptableVariants": [
+            "Из-за шума я не мог заснуть.",
+            "Из-за шума я не могла спать."
+          ],
+          "hint": "Because of (negative) = из-за + genitive (шума)",
+          "grammarFocus": "Из-за + genitive",
+          "keyWord": "Из-за",
+          "options": [
+            "Из-за",
+            "Благодаря",
+            "В течение",
+            "Вопреки"
+          ]
+        },
+        {
+          "english": "Despite the rain, we went to the park.",
+          "answer": "Несмотря на дождь, мы пошли в парк.",
+          "acceptableVariants": [
+            "Несмотря на дождь, мы пошли гулять в парк."
+          ],
+          "hint": "Despite = несмотря на + accusative (дождь)",
+          "grammarFocus": "Несмотря на + accusative",
+          "keyWord": "Несмотря",
+          "options": [
+            "Несмотря",
+            "Из-за",
+            "Благодаря",
+            "Вопреки"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанные задания",
+      "description": "Comprehensive drill on all complex prepositions",
+      "descriptionRussian": "Комплексная тренировка всех сложных предлогов",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ сильному ветру деревья не сломались. (Despite the strong wind, the trees didn't break.)",
+              "promptEnglish": "Despite an obstacle, something survived.",
+              "options": [
+                "Из-за",
+                "Благодаря",
+                "Вопреки",
+                "В связи с"
+              ],
+              "answer": "Вопреки",
+              "hint": "Contrary to expectation = вопреки + dative.",
+              "explanation": "Вопреки + dative: contrary to the strong wind. Similar to 'несмотря на' but takes dative."
+            },
+            {
+              "prompt": "_____ аварии на дороге движение было перекрыто. (Due to an accident, traffic was blocked.)",
+              "promptEnglish": "Formal: as a result of.",
+              "options": [
+                "Благодаря",
+                "Из-за",
+                "Вследствие",
+                "В течение"
+              ],
+              "answer": "Вследствие",
+              "hint": "Formal cause = вследствие + genitive.",
+              "explanation": "Вследствие + genitive: formal/written way to express cause. Вследствие аварии."
+            },
+            {
+              "prompt": "Из-за has TWO meanings:",
+              "promptEnglish": "What are the two uses of из-за?",
+              "options": [
+                "Duration + location",
+                "Cause (negative) + spatial (from behind)",
+                "Direction + time",
+                "Positive cause + negative cause"
+              ],
+              "answer": "Cause (negative) + spatial (from behind)",
+              "hint": "Из-за дождя (because of) vs из-за угла (from behind).",
+              "explanation": "Из-за: 1) negative cause (из-за дождя = because of rain), 2) spatial (из-за угла = from behind the corner)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ трёх месяцев она изучала русский язык. (For three months she studied Russian.)",
+              "promptEnglish": "Duration of three months.",
+              "options": [
+                "Из-за",
+                "Несмотря на",
+                "Благодаря",
+                "В течение"
+              ],
+              "answer": "В течение",
+              "hint": "Duration = в течение + genitive.",
+              "explanation": "В течение + genitive: в течение трёх месяцев (for three months)."
+            },
+            {
+              "prompt": "_____ трудностям он не сдался. (Despite difficulties, he didn't give up.)",
+              "promptEnglish": "Contrary to difficulties.",
+              "options": [
+                "Из-за",
+                "Благодаря",
+                "Вопреки",
+                "В связи с"
+              ],
+              "answer": "Вопреки",
+              "hint": "Despite/contrary to = вопреки + dative.",
+              "explanation": "Вопреки + dative: вопреки трудностям (despite/contrary to difficulties)."
+            },
+            {
+              "prompt": "_____ эпидемией школы были закрыты. (In connection with the epidemic, schools were closed.)",
+              "promptEnglish": "Due to / in connection with.",
+              "options": [
+                "В течение",
+                "Из-за",
+                "В связи с",
+                "Благодаря"
+              ],
+              "answer": "В связи с",
+              "hint": "In connection with = в связи с + instrumental.",
+              "explanation": "В связи с + instrumental: в связи с эпидемией (in connection with the epidemic). Formal/official register."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Благодаря дождя мы остались дома.",
+          "error": "дождя",
+          "correction": "дождю",
+          "hint": "Благодаря takes dative, not genitive. Дождь → дождю.",
+          "explanation": "Благодаря + dative: дождю (not genitive дождя). Also note: rain causing staying home is negative, so из-за would be more natural.",
+          "options": [
+            "дождю",
+            "дождь",
+            "дождём"
+          ]
+        },
+        {
+          "sentence": "Из-за помощи мы справились.",
+          "error": "Из-за",
+          "correction": "Благодаря",
+          "hint": "Help leading to success is positive. Use благодаря, not из-за.",
+          "explanation": "Positive cause (help → success) = благодаря, not из-за. Благодаря помощи мы справились.",
+          "options": [
+            "Благодаря",
+            "Вопреки",
+            "Несмотря"
+          ]
+        },
+        {
+          "sentence": "Несмотря на дождю, мы гуляли.",
+          "error": "дождю",
+          "correction": "дождь",
+          "hint": "Несмотря на takes accusative, not dative. Дождь stays unchanged.",
+          "explanation": "Несмотря на + accusative: несмотря на дождь (not dative дождю).",
+          "options": [
+            "дождь",
+            "дождя",
+            "дождём"
+          ]
+        }
+      ]
+    }
+  ]
+}

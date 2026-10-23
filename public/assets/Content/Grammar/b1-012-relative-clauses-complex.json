@@ -1,0 +1,362 @@
+{
+  "id": "b1-012-relative-clauses-complex",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Complex Relative Clauses",
+  "titleRussian": "Сложные придаточные определительные",
+  "description": "Который in oblique cases and with prepositions",
+  "descriptionRussian": "Который в косвенных падежах и с предлогами",
+  "imageName": "link",
+  "intro": "At A2 you learned который agreeing in gender/number with its antecedent. At B1, master который in ALL cases and with prepositions. The case of который depends on its role in the relative clause: Человек, которого я видел (whom I saw - accusative). Друг, которому я звонил (whom I called - dative). Книга, о которой мы говорили (which we talked about - prepositional). The preposition goes BEFORE который.",
+  "rules": [
+    "Который agrees in GENDER/NUMBER with antecedent, but CASE depends on its role in the clause.",
+    "Accusative (direct object): Человек, которого я встретил. (The person whom I met.)",
+    "Dative (indirect object): Друг, которому я помог. (The friend whom I helped.)",
+    "With prepositions: preposition + который: Дом, в котором я живу. (The house in which I live.)"
+  ],
+  "examples": [
+    "Студент, которого я знаю, очень умный. (The student whom I know is very smart.), accusative",
+    "Девушка, которой я дал книгу, моя сестра. (The girl to whom I gave the book is my sister.), dative",
+    "Город, в котором я родился, небольшой. (The city in which I was born is small.), prepositional",
+    "Человек, с которым я работаю, из Москвы. (The person with whom I work is from Moscow.), instrumental"
+  ],
+  "tables": [
+    {
+      "title": "Declension of который",
+      "headers": [
+        "Case",
+        "Masculine",
+        "Feminine",
+        "Neuter",
+        "Plural"
+      ],
+      "rows": [
+        {
+          "label": "Nominative",
+          "cells": [
+            "который",
+            "которая",
+            "которое",
+            "которые"
+          ]
+        },
+        {
+          "label": "Genitive",
+          "cells": [
+            "которого",
+            "которой",
+            "которого",
+            "которых"
+          ]
+        },
+        {
+          "label": "Dative",
+          "cells": [
+            "которому",
+            "которой",
+            "которому",
+            "которым"
+          ]
+        },
+        {
+          "label": "Accusative (inan.)",
+          "cells": [
+            "который",
+            "которую",
+            "которое",
+            "которые"
+          ]
+        },
+        {
+          "label": "Accusative (anim.)",
+          "cells": [
+            "которого",
+            "которую",
+            "которое",
+            "которых"
+          ]
+        },
+        {
+          "label": "Instrumental",
+          "cells": [
+            "которым",
+            "которой",
+            "которым",
+            "которыми"
+          ]
+        },
+        {
+          "label": "Prepositional",
+          "cells": [
+            "котором",
+            "которой",
+            "котором",
+            "которых"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Это человек, _____ я вчера видел. (This is the person whom I saw yesterday.)",
+          "promptEnglish": "This is the person whom I saw yesterday.",
+          "options": [
+            "который",
+            "которым",
+            "которому",
+            "которого"
+          ],
+          "answer": "которого",
+          "hint": "Видел кого? → accusative (animate)",
+          "explanation": "Direct object (animate) uses accusative: которого."
+        },
+        {
+          "prompt": "Вот книга, _____ ты искал. (Here's the book you were looking for.)",
+          "promptEnglish": "Here's the book you were looking for.",
+          "options": [
+            "которая",
+            "которую",
+            "которой",
+            "которым"
+          ],
+          "answer": "которую",
+          "hint": "Искал что? → accusative (feminine)",
+          "explanation": "Direct object (feminine) uses accusative: которую."
+        },
+        {
+          "prompt": "Друг, _____ я позвонил, не ответил. (The friend whom I called didn't answer.)",
+          "promptEnglish": "The friend whom I called didn't answer.",
+          "options": [
+            "которого",
+            "который",
+            "которым",
+            "которому"
+          ],
+          "answer": "которому",
+          "hint": "Позвонил кому? → dative",
+          "explanation": "Indirect object uses dative: которому."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Дом, в _____ мы живём, старый. (The house in which we live is old.)",
+          "promptEnglish": "The house in which we live is old.",
+          "options": [
+            "которому",
+            "которого",
+            "который",
+            "котором"
+          ],
+          "answer": "котором",
+          "hint": "В + prepositional (location)",
+          "explanation": "В + prepositional: в котором."
+        },
+        {
+          "prompt": "Человек, с _____ я работаю, очень добрый. (The person with whom I work is very kind.)",
+          "promptEnglish": "The person with whom I work is very kind.",
+          "options": [
+            "которого",
+            "которым",
+            "котором",
+            "которому"
+          ],
+          "answer": "которым",
+          "hint": "С + instrumental",
+          "explanation": "С + instrumental: с которым."
+        },
+        {
+          "prompt": "Фильм, о _____ все говорят, очень интересный. (The film everyone is talking about is very interesting.)",
+          "promptEnglish": "The film everyone is talking about is very interesting.",
+          "options": [
+            "которому",
+            "которого",
+            "который",
+            "котором"
+          ],
+          "answer": "котором",
+          "hint": "О + prepositional",
+          "explanation": "О + prepositional: о котором."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Девушка, _____ я помог, поблагодарила меня. (The girl whom I helped thanked me.)",
+          "promptEnglish": "The girl whom I helped thanked me.",
+          "options": [
+            "которая",
+            "которой",
+            "которую",
+            "которым"
+          ],
+          "answer": "которой",
+          "hint": "Помог кому? → dative (feminine)",
+          "explanation": "Dative feminine: которой."
+        },
+        {
+          "prompt": "Страна, из _____ он приехал, далеко. (The country from which he came is far away.)",
+          "promptEnglish": "The country from which he came is far away.",
+          "options": [
+            "которая",
+            "которой",
+            "которую",
+            "котором"
+          ],
+          "answer": "которой",
+          "hint": "Из + genitive (feminine)",
+          "explanation": "Из + genitive feminine: из которой."
+        },
+        {
+          "prompt": "Проблема, над _____ мы работаем, сложная. (The problem we're working on is complex.)",
+          "promptEnglish": "The problem we're working on is complex.",
+          "options": [
+            "которая",
+            "которой",
+            "которую",
+            "котором"
+          ],
+          "answer": "которой",
+          "hint": "Над + instrumental (feminine)",
+          "explanation": "Над + instrumental feminine: над которой."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Учитель, у _____ я учился, уехал. (The teacher with whom I studied left.)",
+      "Человек, _____ я видел, работает здесь. (The person whom I saw works here.)",
+      "Дом, в _____ я живу, старый. (The house in which I live is old.)"
+    ],
+    "choices": [
+      "которого",
+      "котором",
+      "которому",
+      "который",
+      "которым"
+    ],
+    "answers": [
+      "которого",
+      "которого",
+      "котором"
+    ],
+    "grammarFocus": "Который in oblique cases with prepositions",
+    "hints": [
+      "У requires genitive case. What is the masculine genitive form of который?",
+      "Видел кого? — direct object of animate noun requires which case?",
+      "В + prepositional: what is the masculine prepositional form of который?"
+    ],
+    "explanations": [
+      "У governs genitive: у которого (masculine genitive of который).",
+      "Видеть requires accusative; animate masculine accusative = genitive form: которого.",
+      "В + prepositional case: в котором (masculine prepositional of который)."
+    ],
+    "options": [
+      [
+        "которое",
+        "которого",
+        "которому",
+        "который"
+      ],
+      [
+        "которому",
+        "которого",
+        "которое",
+        "который"
+      ],
+      [
+        "которого",
+        "котором",
+        "которому",
+        "который"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Человек, _____ пришёл... (who came - subject)",
+      "contextEnglish": "The person who came...",
+      "options": [
+        "который",
+        "которого"
+      ],
+      "answer": "который",
+      "explanation": "Subject uses nominative: который."
+    },
+    {
+      "context": "Человек, _____ я видел... (whom I saw - object)",
+      "contextEnglish": "The person whom I saw...",
+      "options": [
+        "которого",
+        "который"
+      ],
+      "answer": "которого",
+      "explanation": "Direct object (animate) uses accusative: которого."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by case of который",
+    "categories": [
+      "Nominative (subject)",
+      "Accusative (object)",
+      "Other cases"
+    ],
+    "items": [
+      {
+        "word": "человек, который пришёл",
+        "category": "Nominative (subject)"
+      },
+      {
+        "word": "книга, которую я читаю",
+        "category": "Accusative (object)"
+      },
+      {
+        "word": "друг, которому я звонил",
+        "category": "Other cases"
+      },
+      {
+        "word": "дом, в котором я живу",
+        "category": "Other cases"
+      },
+      {
+        "word": "девушка, которая поёт",
+        "category": "Nominative (subject)"
+      },
+      {
+        "word": "человек, которого я знаю",
+        "category": "Accusative (object)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "которого/которую",
+      "definition": "whom/which (accusative)",
+      "example": "Человек, которого я знаю."
+    },
+    {
+      "term": "которому/которой",
+      "definition": "to whom (dative)",
+      "example": "Друг, которому я помог."
+    },
+    {
+      "term": "в/о котором/которой",
+      "definition": "in/about which (prepositional)",
+      "example": "Дом, в котором я живу."
+    },
+    {
+      "term": "с которым/которой",
+      "definition": "with whom (instrumental)",
+      "example": "Человек, с которым я работаю."
+    }
+  ]
+}

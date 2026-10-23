@@ -1,0 +1,296 @@
+{
+  "id": "a2-track-necessity-05-spectrum",
+  "level": "A2",
+  "focusArea": "aspect",
+  "title": "Necessity 5: The Strength Spectrum (можно / стоит / нужно / придётся)",
+  "titleRussian": "Необходимость 5: Шкала силы (можно / стоит / нужно / придётся)",
+  "description": "Necessity comes in degrees. From soft to hard: можно (may) - стоит (worth doing) - нужно/надо (need to) - придётся (will have to, unavoidable). Придётся takes the dative and usually a perfective infinitive.",
+  "descriptionRussian": "Необходимость бывает разной силы. От мягкого к жёсткому: можно (разрешение) — стоит (мягкий совет) — нужно/надо (обычная необходимость) — придётся (неизбежно, выбора нет). Придётся требует дательного и обычно совершенного инфинитива.",
+  "imageName": "slider.horizontal.3",
+  "trackId": "a2-necessity-mastery",
+  "trackTitle": "Necessity Mastery",
+  "trackTitleRussian": "Необходимость",
+  "trackIndex": 5,
+  "trackTotal": 6,
+  "intro": "Necessity is not one thing in Russian; it is a scale. At one end you may do something, then it is worth doing, then you need to, and at the far end you have no choice and are not happy about it. Picking the right point on that scale is a tone decision as much as a grammar one, and Russians hear the difference.",
+  "rules": [
+    "Necessity has degrees, soft to hard: можно (may) < стоит (worth doing) < нужно/надо (need to) < придётся (will have to, no choice).",
+    "Стоит is a gentle recommendation ('it's worth it / you should'): impersonal, dative person, usually a perfective infinitive. Тебе стоит позвонить.",
+    "Придётся is strong, unavoidable necessity with a flavour of reluctance: impersonal, dative person. Мне придётся подождать.",
+    "Придётся almost always takes a PERFECTIVE infinitive (the single act you are stuck doing): Придётся купить новый билет. Its past is пришлось.",
+    "Dative is shared by стоит, надо/нужно, and придётся; only должен keeps the person in the nominative. Тебе стоит, мне надо, нам придётся, but я должен."
+  ],
+  "examples": [
+    "Можно отдохнуть немного. (You could rest a little.) можно = soft option.",
+    "Тебе стоит позвонить врачу. (You should call the doctor.) стоит = gentle advice, dative person.",
+    "Мне нужно купить хлеб. (I need to buy bread.) нужно = plain necessity.",
+    "Нам придётся подождать. (We'll have to wait.) придётся = strong, no choice, dative person.",
+    "Придётся купить новый билет. (We'll have to buy a new ticket.) придётся + perfective купить.",
+    "Вчера мне пришлось встать рано. (Yesterday I had to get up early.) пришлось = past of придётся."
+  ],
+  "tables": [
+    {
+      "title": "The necessity spectrum: soft to hard",
+      "headers": [
+        "Word",
+        "Strength / meaning",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "можно",
+          "cells": [
+            "softest: may / could (an option)",
+            "Можно отдохнуть."
+          ]
+        },
+        {
+          "label": "стоит + dative",
+          "cells": [
+            "gentle advice: it's worth / you should",
+            "Тебе стоит позвонить."
+          ]
+        },
+        {
+          "label": "нужно / надо + dative",
+          "cells": [
+            "plain necessity: need to",
+            "Мне нужно купить хлеб."
+          ]
+        },
+        {
+          "label": "придётся + dative",
+          "cells": [
+            "hardest: will have to, no choice",
+            "Нам придётся подождать."
+          ]
+        },
+        {
+          "label": "придётся (past)",
+          "cells": [
+            "пришлось (had to and did)",
+            "Мне пришлось встать рано."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Поезд опаздывает, нам _____ подождать.",
+          "promptEnglish": "The train is late, we'll have to wait.",
+          "options": [
+            "можно",
+            "стоит",
+            "придётся",
+            "должны"
+          ],
+          "answer": "придётся",
+          "hint": "Circumstances force it and there is no choice. Which is the strongest word?",
+          "explanation": "A delay forces an unavoidable wait, with a flavour of reluctance, so the strong word придётся fits: Нам придётся подождать. Можно (you could) and стоит (worth it) are too soft for a forced situation."
+        },
+        {
+          "prompt": "Ты устал. Тебе _____ отдохнуть.",
+          "promptEnglish": "You're tired. You should rest.",
+          "options": [
+            "придётся",
+            "стоит",
+            "нельзя",
+            "должен"
+          ],
+          "answer": "стоит",
+          "hint": "This is friendly advice, not a forced necessity. Which word gently recommends?",
+          "explanation": "Friendly advice ('you should, it's worth it') uses стоит with the dative person: Тебе стоит отдохнуть. Придётся would be too strong (no choice), and должен would take the nominative (Ты должен)."
+        },
+        {
+          "prompt": "Здесь тихо, _____ немного почитать.",
+          "promptEnglish": "It's quiet here, you could read a little.",
+          "options": [
+            "придётся",
+            "нельзя",
+            "можно",
+            "должен"
+          ],
+          "answer": "можно",
+          "hint": "This offers a pleasant option, not a need or an obligation.",
+          "explanation": "An easy, pleasant option uses the softest word, можно: Здесь тихо, можно немного почитать. Придётся and должен would wrongly imply pressure or obligation."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Билетов нет, придётся _____ новый.",
+          "promptEnglish": "There are no tickets, we'll have to buy a new one.",
+          "options": [
+            "покупать",
+            "купить",
+            "покупаю",
+            "купи"
+          ],
+          "answer": "купить",
+          "hint": "Придётся takes a single completed act. Which aspect is that?",
+          "explanation": "Придётся almost always pairs with a perfective infinitive for the single act you are stuck doing: купить. Придётся купить новый билет. The imperfective покупать would suit a repeated activity, not this one forced purchase."
+        },
+        {
+          "prompt": "Вчера автобус сломался, и мне _____ идти пешком.",
+          "promptEnglish": "Yesterday the bus broke down, and I had to walk.",
+          "options": [
+            "придётся",
+            "пришлось",
+            "стоит",
+            "надо"
+          ],
+          "answer": "пришлось",
+          "hint": "'Вчера' (yesterday) is past, and it actually happened. What is the past of придётся?",
+          "explanation": "The past of придётся is пришлось ('had to, and did'). Вчера мне пришлось идти пешком. Придётся would be the present-feel future ('I will have to')."
+        },
+        {
+          "prompt": "Тебе _____ позвонить врачу сегодня.",
+          "promptEnglish": "You should call the doctor today.",
+          "options": [
+            "стоит",
+            "стоить",
+            "стоишь",
+            "должен"
+          ],
+          "answer": "стоит",
+          "hint": "Gentle advice with a dative person. The 3rd-person impersonal form is...?",
+          "explanation": "Стоит as 'it's worth / you should' is impersonal and used in the 3rd-person singular form стоит with a dative person: Тебе стоит позвонить врачу. Должен would require the nominative ты, not the dative тебе."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Лифт не работает, нам _____ идти по лестнице. (The elevator is broken, we'll have to take the stairs.)"
+    ],
+    "choices": [
+      "можно",
+      "стоит",
+      "придётся",
+      "должны"
+    ],
+    "answers": [
+      "придётся"
+    ],
+    "grammarFocus": "A broken elevator forces the stairs with no choice, so the strong, dative-taking word придётся fits: Нам придётся идти по лестнице. Можно and стоит are too soft for a forced situation."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Я придётся подождать.",
+      "translationEnglish": "I'll have to wait.",
+      "error": "Я",
+      "correction": "Мне",
+      "options": [
+        "Мне",
+        "Меня",
+        "Мной"
+      ],
+      "explanation": "Придётся is impersonal, like надо, so the person goes into the dative, not the nominative: я becomes мне. Я is the nominative, which only должен allows. Correct: Мне придётся подождать."
+    },
+    {
+      "sentence": "Придётся звонить в кассу ещё раз, никто не ответил.",
+      "translationEnglish": "We'll have to call the ticket office one more time - nobody answered.",
+      "error": "звонить",
+      "correction": "позвонить",
+      "options": [
+        "позвонить",
+        "звоню",
+        "позвони"
+      ],
+      "explanation": "Придётся takes a perfective infinitive for the single act you are forced into, so the one repeat call needs позвонить, not the imperfective звонить (which would suggest repeated, habitual calling)."
+    },
+    {
+      "sentence": "Ты стоит отдохнуть.",
+      "translationEnglish": "You should rest.",
+      "error": "Ты",
+      "correction": "Тебе",
+      "options": [
+        "Тебе",
+        "Тебя",
+        "Тобой"
+      ],
+      "explanation": "Стоит as advice is impersonal and takes a dative person, like надо and придётся: ты becomes тебе. Ты is the nominative, which only должен keeps. Correct: Тебе стоит отдохнуть."
+    },
+    {
+      "sentence": "В библиотеке придётся громко разговаривать.",
+      "translationEnglish": "You may not talk loudly in the library.",
+      "error": "придётся",
+      "correction": "нельзя",
+      "options": [
+        "нельзя",
+        "можно",
+        "стоит"
+      ],
+      "explanation": "A library rule is a prohibition, which is нельзя: в библиотеке нельзя громко разговаривать. Придётся ('will be forced to') claims you will HAVE to talk loudly, the opposite of a quiet-please rule."
+    },
+    {
+      "sentence": "Вчера мне придётся долго ждать автобус.",
+      "translationEnglish": "Yesterday I had to wait a long time for the bus.",
+      "error": "придётся",
+      "correction": "пришлось",
+      "options": [
+        "пришлось",
+        "стоит",
+        "надо"
+      ],
+      "explanation": "Вчера (yesterday) is past and the wait actually happened, so the past of придётся is needed: пришлось. Придётся is the present-feel future ('will have to'), which clashes with вчера. Correct: Вчера мне пришлось долго ждать автобус."
+    },
+    {
+      "sentence": "Этот фильм скучный, тебе придётся его смотреть.",
+      "translationEnglish": "This film is boring; it's not worth watching.",
+      "error": "придётся",
+      "correction": "не стоит",
+      "options": [
+        "не стоит",
+        "надо",
+        "нельзя"
+      ],
+      "explanation": "A boring film calls for gentle negative advice, which is не стоит ('not worth it'): тебе не стоит его смотреть. Придётся ('you will be forced to') claims an obligation nobody has imposed."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Поезд отменили, нам _____ ждать. (no choice)",
+      "contextEnglish": "The train was cancelled, we have no choice but to wait.",
+      "options": [
+        "стоит",
+        "придётся"
+      ],
+      "answer": "придётся",
+      "explanation": "A cancelled train forces the wait with no choice, so the strong word придётся fits. Стоит would soften it to friendly advice ('it's worth waiting'), which does not match a forced situation."
+    },
+    {
+      "context": "Придётся _____ новый билет. (one forced purchase)",
+      "contextEnglish": "We'll have to buy a new ticket.",
+      "options": [
+        "покупать",
+        "купить"
+      ],
+      "answer": "купить",
+      "explanation": "Придётся takes a perfective infinitive for the single act you are forced into: купить. The imperfective покупать would suggest a repeated or habitual buying, not this one unavoidable purchase."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "стоит (+ dative)",
+      "definition": "it is worth doing / you should: gentle advice. Impersonal, dative person, usually a perfective infinitive. Softer than надо.",
+      "example": "Тебе стоит отдохнуть. Стоит позвонить врачу."
+    },
+    {
+      "term": "придётся (+ dative)",
+      "definition": "one will have to / there's no choice: the strong end of the spectrum, with a flavour of reluctance. Impersonal, dative person, usually a perfective infinitive. Past: пришлось.",
+      "example": "Нам придётся подождать. Мне пришлось встать рано."
+    },
+    {
+      "term": "the spectrum (soft → hard)",
+      "definition": "можно (may) → стоит (worth it) → нужно/надо (need to) → придётся (no choice). All but должен take the dative person; должен alone takes the nominative.",
+      "example": "Можно отдохнуть. Тебе стоит отдохнуть. Тебе надо отдохнуть. Тебе придётся отдохнуть."
+    }
+  ]
+}

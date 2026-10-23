@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-011",
+  "title": "Medical Board Hearing",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Defend medical license against malpractice complaint",
+  "imageName": "stethoscope",
+  "initialPrompt": "Пациент подал жалобу на халатность. Медицинская комиссия рассматривает отзыв вашей лицензии. Защитите свою практику.",
+  "systemPrompt": "You are medical board member reviewing complaint. Present patient's allegations, question judgment. Only clear doctor who shows standard of care was met.",
+  "completionCriteria": "User defended medical practice successfully.",
+  "responseLimit": 15,
+  "hints": [
+    "Мои действия соответствовали протоколу (My actions followed protocol)",
+    "Осложнение было непредвиденным (The complication was unforeseen)"
+  ],
+  "targetVocabulary": [
+    {"word": "халатность", "definition": "malpractice"},
+    {"word": "лицензия", "definition": "license"},
+    {"word": "протокол", "definition": "protocol"},
+    {"word": "стандарт лечения", "definition": "standard of care"},
+    {"word": "осложнение", "definition": "complication"},
+    {"word": "комиссия", "definition": "board"}
+  ],
+  "objectives": [
+    "Explain medical decisions",
+    "Show protocol compliance",
+    "Address patient complaint",
+    "Defend professional judgment",
+    "Preserve license"
+  ]
+}

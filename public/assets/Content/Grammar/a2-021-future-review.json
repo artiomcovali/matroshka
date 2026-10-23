@@ -1,0 +1,330 @@
+{
+  "id": "a2-021-future-review",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Future Tense (Review)",
+  "titleRussian": "Будущее время (обзор)",
+  "description": "Comprehensive review of both future tenses",
+  "descriptionRussian": "Полный обзор обоих будущих времён",
+  "imageName": "arrow.right.doc.on.clipboard",
+  "intro": "Russian has TWO ways to express the future, and choosing the right one depends on ASPECT. Imperfective future (буду + infinitive) describes ongoing, repeated, or in-progress future actions. Perfective future (conjugated perfective verb) describes single, completed future actions. The key is: What matters - the PROCESS or the RESULT? This lesson reviews both patterns and helps you choose correctly.",
+  "rules": [
+    "Imperfective future: буду/будешь/будет/будем/будете/будут + imperfective infinitive. Focus on PROCESS.",
+    "Perfective future: conjugate the perfective verb directly (NO буду). Focus on RESULT/COMPLETION.",
+    "Perfective future = completed/finished action: Я прочитаю книгу (I will finish reading the book), Я напишу письмо (I will have written the letter).",
+    "Process/duration/repetition → imperfective: Я буду работать весь день. (I will be working all day.)",
+    "Single completed action/result → perfective: Я сделаю работу к вечеру. (I will finish the work by evening.)"
+  ],
+  "examples": [
+    "Что ты будешь делать завтра? — Буду читать. (What will you be doing? — I'll be reading.), process",
+    "Ты прочитаешь эту книгу? — Да, прочитаю. (Will you read this book? — Yes, I'll read it.), completion",
+    "Мы будем ждать тебя. (We will wait for you.), duration",
+    "Мы подождём тебя пять минут. (We will wait for you five minutes.), limited/completed"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я _____ книгу весь вечер. (I will be reading a book all evening.)",
+          "promptEnglish": "I will be reading a book all evening.",
+          "options": [
+            "читаю",
+            "буду читать",
+            "читал",
+            "прочитаю"
+          ],
+          "answer": "буду читать",
+          "hint": "Duration (весь вечер) = imperfective",
+          "explanation": "'All evening' indicates duration → imperfective: буду читать."
+        },
+        {
+          "prompt": "Я _____ книгу к завтрашнему дню. (I will read the book by tomorrow.)",
+          "promptEnglish": "I will read the book by tomorrow.",
+          "options": [
+            "прочитал",
+            "читаю",
+            "прочитаю",
+            "буду читать"
+          ],
+          "answer": "прочитаю",
+          "hint": "Deadline (к завтрашнему дню) = completion = perfective",
+          "explanation": "'By tomorrow' implies completion → perfective: прочитаю."
+        },
+        {
+          "prompt": "Она _____ каждый день. (She will work every day.)",
+          "promptEnglish": "She will work every day.",
+          "options": [
+            "работала",
+            "будет работать",
+            "поработает",
+            "работает"
+          ],
+          "answer": "будет работать",
+          "hint": "Repeated action (каждый день) = imperfective",
+          "explanation": "'Every day' = repeated → imperfective: будет работать."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я обязательно тебе _____! (I will definitely help you!)",
+          "promptEnglish": "I will definitely help you!",
+          "options": [
+            "помогал",
+            "буду помогать",
+            "помогу",
+            "помогаю"
+          ],
+          "answer": "помогу",
+          "hint": "Promise/definite result = perfective",
+          "explanation": "Definite promise → perfective: помогу."
+        },
+        {
+          "prompt": "Мы _____ тебе с переездом. (We will help you with moving.) - ongoing help",
+          "promptEnglish": "We will help you with moving.",
+          "options": [
+            "помогаем",
+            "поможем",
+            "помогали",
+            "будем помогать"
+          ],
+          "answer": "будем помогать",
+          "hint": "Ongoing process of helping = imperfective",
+          "explanation": "Ongoing help (process) → imperfective: будем помогать."
+        },
+        {
+          "prompt": "Он _____ тебе завтра. (He will call you tomorrow.) - one call",
+          "promptEnglish": "He will call you tomorrow.",
+          "options": [
+            "звонит",
+            "звонил",
+            "будет звонить",
+            "позвонит"
+          ],
+          "answer": "позвонит",
+          "hint": "Single completed action = perfective",
+          "explanation": "One call → perfective: позвонит."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Дети _____ в парке. (The children will play in the park.) - general activity",
+          "promptEnglish": "The children will play in the park.",
+          "options": [
+            "играли",
+            "будут играть",
+            "поиграют",
+            "играют"
+          ],
+          "answer": "будут играть",
+          "hint": "General activity (process) = imperfective",
+          "explanation": "Playing in general → imperfective: будут играть."
+        },
+        {
+          "prompt": "Когда ты _____ работу? (When will you finish the work?)",
+          "promptEnglish": "When will you finish the work?",
+          "options": [
+            "будешь заканчивать",
+            "закончил",
+            "закончишь",
+            "заканчиваешь"
+          ],
+          "answer": "закончишь",
+          "hint": "Finishing = completion = perfective",
+          "explanation": "Completion → perfective: закончишь."
+        },
+        {
+          "prompt": "Студенты _____ к экзамену долго. (The students will study for the exam for a long time.)",
+          "promptEnglish": "The students will study for the exam for a long time.",
+          "options": [
+            "подготовятся",
+            "готовятся",
+            "будут готовиться",
+            "готовились"
+          ],
+          "answer": "будут готовиться",
+          "hint": "Duration (долго) = imperfective",
+          "explanation": "'For a long time' = duration → imperfective: будут готовиться."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Завтра я _____ весь день. (Tomorrow I will be working all day.)",
+      "Я _____ эту книгу завтра. (I will read this book tomorrow.) - perfective",
+      "Она _____ письмо весь вечер. (She will be writing a letter all evening.) - imperfective",
+      "Мы _____ домашнюю работу долго. (We will be doing homework for a long time.) - imperfective"
+    ],
+    "choices": [
+      "будем делать",
+      "напишет",
+      "читать",
+      "сделаем",
+      "будет писать",
+      "письмо",
+      "работаю",
+      "буду работать",
+      "работал",
+      "поработаю",
+      "прочитаю",
+      "работу"
+    ],
+    "answers": [
+      "буду работать",
+      "прочитаю",
+      "будет писать",
+      "будем делать"
+    ],
+    "grammarFocus": "Duration (весь день) = imperfective future",
+    "hints": [
+      "Весь день (all day) means duration. Which future construction expresses an ongoing process?",
+      "This book will be read and finished. Is this a result (perfective) or process (imperfective)?",
+      "Весь вечер (all evening) means duration. Which future form expresses an ongoing action?",
+      "Долго (for a long time) signals duration. Which future form expresses a prolonged process?"
+    ],
+    "explanations": [
+      "Duration (весь день) requires imperfective future: буду + infinitive → буду работать.",
+      "Reading the book to completion is a result → perfective future: прочитаю (no буду).",
+      "Duration (весь вечер) requires imperfective future: будет + infinitive → будет писать.",
+      "Duration (долго) requires imperfective future: будем + infinitive → будем делать."
+    ],
+    "options": [
+      [
+        "напишет",
+        "поработаю",
+        "буду работать",
+        "работаю"
+      ],
+      [
+        "прочитает",
+        "прочитаете",
+        "прочитаешь",
+        "прочитаю"
+      ],
+      [
+        "прочитаю",
+        "письмо",
+        "работу",
+        "будет писать"
+      ],
+      [
+        "поработаю",
+        "прочитаю",
+        "работал",
+        "будем делать"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я _____ письмо весь вечер. (I will be writing a letter all evening.)",
+      "contextEnglish": "I will be writing a letter all evening.",
+      "options": [
+        "буду писать",
+        "напишу"
+      ],
+      "answer": "буду писать",
+      "explanation": "Duration (весь вечер) = imperfective: буду писать."
+    },
+    {
+      "context": "Я _____ письмо до вечера. (I will write the letter by evening.)",
+      "contextEnglish": "I will write the letter by evening.",
+      "options": [
+        "напишу",
+        "буду писать"
+      ],
+      "answer": "напишу",
+      "explanation": "Deadline/completion (до вечера) = perfective: напишу."
+    },
+    {
+      "context": "Она _____ каждый день. (She will be calling every day.)",
+      "contextEnglish": "She will be calling every day.",
+      "options": [
+        "будет звонить",
+        "позвонит"
+      ],
+      "answer": "будет звонить",
+      "explanation": "Repeated action (каждый день) = imperfective: будет звонить."
+    },
+    {
+      "context": "Она _____ тебе завтра утром. (She will call you tomorrow morning.)",
+      "contextEnglish": "She will call you tomorrow morning.",
+      "options": [
+        "позвонит",
+        "будет звонить"
+      ],
+      "answer": "позвонит",
+      "explanation": "Single action = perfective: позвонит."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by future type: Imperfective (буду + inf) or Perfective?",
+    "categories": [
+      "Imperfective (process)",
+      "Perfective (result)"
+    ],
+    "items": [
+      {
+        "word": "Буду читать весь день",
+        "category": "Imperfective (process)"
+      },
+      {
+        "word": "Прочитаю книгу",
+        "category": "Perfective (result)"
+      },
+      {
+        "word": "Будет работать каждый день",
+        "category": "Imperfective (process)"
+      },
+      {
+        "word": "Сделаю задание",
+        "category": "Perfective (result)"
+      },
+      {
+        "word": "Будем ждать долго",
+        "category": "Imperfective (process)"
+      },
+      {
+        "word": "Напишу письмо",
+        "category": "Perfective (result)"
+      },
+      {
+        "word": "Будут играть в парке",
+        "category": "Imperfective (process)"
+      },
+      {
+        "word": "Позвоню тебе",
+        "category": "Perfective (result)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "буду + несов. вид",
+      "definition": "imperfective future (process/duration)",
+      "example": "Буду читать, будем работать."
+    },
+    {
+      "term": "совершенный вид = будущее",
+      "definition": "perfective conjugation = future (result)",
+      "example": "Прочитаю, напишу, сделаю."
+    },
+    {
+      "term": "весь день / долго",
+      "definition": "all day / for a long time (= impf)",
+      "example": "Буду работать весь день."
+    },
+    {
+      "term": "к вечеру / до + gen",
+      "definition": "by evening / by (deadline = pf)",
+      "example": "Сделаю до вечера."
+    }
+  ]
+}

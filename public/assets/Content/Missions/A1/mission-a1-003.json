@@ -1,0 +1,43 @@
+{
+  "id": "mission-a1-003",
+  "title": "At the Store",
+  "level": "A1",
+  "description": "Buy bread and milk at a small shop",
+  "imageName": "cart.fill",
+  "initialPrompt": "Здравствуйте! Вам помочь?",
+  "systemPrompt": "You are a Russian shopkeeper. Products: хлеб 50₽, молоко 80₽, сыр 200₽, яйца 100₽. Keep replies short (1-2 sentences).",
+  "completionCriteria": "User ordered 2+ items and you gave the total price.",
+  "responseLimit": 15,
+  "hints": [
+    "Дайте мне... (Give me...)",
+    "Сколько стоит? (How much does it cost?)",
+    "Хлеб и молоко (Bread and milk)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "хлеб",
+      "definition": "bread"
+    },
+    {
+      "word": "молоко",
+      "definition": "milk"
+    },
+    {
+      "word": "сколько",
+      "definition": "how much"
+    },
+    {
+      "word": "рубль",
+      "definition": "ruble"
+    },
+    {
+      "word": "дайте",
+      "definition": "give (me)"
+    }
+  ],
+  "objectives": [
+    "Order bread (хлеб)",
+    "Order milk (молоко)",
+    "Get the total price"
+  ]
+}

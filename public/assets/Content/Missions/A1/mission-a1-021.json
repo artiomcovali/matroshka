@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-021",
+  "title": "Buy a Souvenir",
+  "level": "A1",
+  "description": "Purchase a matryoshka doll as a gift",
+  "imageName": "gift.fill",
+  "initialPrompt": "Добро пожаловать! У нас красивые сувениры. Матрёшки, магниты, открытки. Что вам нужно?",
+  "systemPrompt": "You sell souvenirs. Prices: матрёшка 500₽, магнит 100₽, открытка 50₽. Keep replies short.",
+  "completionCriteria": "User bought a souvenir.",
+  "responseLimit": 15,
+  "hints": [
+    "Покажите матрёшку (Show me the matryoshka)",
+    "Это подарок (It's a gift)",
+    "Сколько стоит? (How much?)",
+    "Я возьму это (I'll take this)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "матрёшка",
+      "definition": "matryoshka doll"
+    },
+    {
+      "word": "сувенир",
+      "definition": "souvenir"
+    },
+    {
+      "word": "подарок",
+      "definition": "gift"
+    },
+    {
+      "word": "красивый",
+      "definition": "beautiful"
+    },
+    {
+      "word": "магнит",
+      "definition": "magnet"
+    }
+  ],
+  "objectives": [
+    "Ask to see souvenirs",
+    "Choose an item (матрёшка, магнит, открытка)",
+    "Complete the purchase"
+  ]
+}

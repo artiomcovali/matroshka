@@ -1,0 +1,365 @@
+{
+  "id": "b2-006-aspect-questions",
+  "level": "B2",
+  "focusArea": "aspect",
+  "title": "Aspect in Questions",
+  "titleRussian": "Вид в вопросах",
+  "description": "Aspect choice in questions",
+  "descriptionRussian": "Выбор вида в вопросительных предложениях",
+  "imageName": "questionmark.circle",
+  "intro": "Building on B1 aspect lessons and B2 aspect nuances, we now examine how aspect in questions reveals what information you're seeking. EXPERIENCE questions use imperfective: Ты читал эту книгу? (Have you read it - ever?). COMPLETION questions use perfective: Ты прочитал книгу? (Did you finish it?). REQUESTS differ too: Ты будешь есть? (Will you eat? - open question) vs Ты съешь это? (Will you eat THIS? - specific). INVITATIONS typically use imperfective for politeness. Understanding this helps you ask exactly what you mean.",
+  "rules": [
+    "Experience questions use impf - Ты смотрел этот фильм? (Have you ever seen?)",
+    "Completion questions use pf - Ты посмотрел фильм? (Did you finish watching?)",
+    "Open-ended questions use impf - Что ты будешь делать? (What will you be doing?)",
+    "Specific action questions use pf - Ты позвонишь ему? (Will you call him?)"
+  ],
+  "examples": [
+    "Ты читал Толстого? (Have you ever read Tolstoy?, experience)",
+    "Ты прочитал книгу, которую я дал? (Did you finish the book I gave you?)",
+    "Что ты будешь пить? (What will you have to drink?, open choice)",
+    "Ты выпьешь кофе? (Will you have coffee?, specific offer)"
+  ],
+  "tables": [
+    {
+      "title": "Aspect in Questions: Form Contrasts",
+      "headers": [
+        "Question Type",
+        "Imperfective",
+        "Perfective",
+        "Note"
+      ],
+      "rows": [
+        {
+          "label": "experience (ever?)",
+          "cells": [
+            "Ты чит|ал Чехова?",
+            "—",
+            "Have you ever read?"
+          ]
+        },
+        {
+          "label": "completion",
+          "cells": [
+            "—",
+            "Ты про|читал книгу?",
+            "Did you finish?"
+          ]
+        },
+        {
+          "label": "open future",
+          "cells": [
+            "Что будешь делать?",
+            "—",
+            "What will you do?"
+          ]
+        },
+        {
+          "label": "specific future",
+          "cells": [
+            "—",
+            "Ты по|звонишь ему?",
+            "Will you call?"
+          ]
+        },
+        {
+          "label": "general ability",
+          "cells": [
+            "Ты говор|ишь по-русски?",
+            "—",
+            "Do you speak?"
+          ]
+        },
+        {
+          "label": "offer (open)",
+          "cells": [
+            "Будете есть?",
+            "—",
+            "Will you eat?"
+          ]
+        },
+        {
+          "label": "offer (specific)",
+          "cells": [
+            "—",
+            "Вы|пьешь кофе?",
+            "Will you have coffee?"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Ты _____ Чехова? (Have you ever read?)",
+          "promptEnglish": "Have you ever read Chekhov?",
+          "options": [
+            "прочитал",
+            "читал",
+            "читаешь",
+            "прочитаешь"
+          ],
+          "answer": "читал",
+          "hint": "Experience (ever?) = impf past",
+          "explanation": "Experience question: impf читал."
+        },
+        {
+          "prompt": "Ты _____ домашнее задание? (Did you complete?)",
+          "promptEnglish": "Did you finish the homework?",
+          "options": [
+            "сделаешь",
+            "делаешь",
+            "сделал",
+            "делал"
+          ],
+          "answer": "сделал",
+          "hint": "Completion = pf past",
+          "explanation": "Completion question: pf сделал."
+        },
+        {
+          "prompt": "Что вы _____ на ужин? (What will you have? - open)",
+          "promptEnglish": "What will you have for dinner?",
+          "options": [
+            "съедите",
+            "будете есть",
+            "съели",
+            "ели"
+          ],
+          "answer": "будете есть",
+          "hint": "Open question = impf future",
+          "explanation": "Open-ended question: impf будете есть."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Ты _____ ему об этом? (Will you tell him? - specific)",
+          "promptEnglish": "Will you tell him about this?",
+          "options": [
+            "говоришь",
+            "скажешь",
+            "будешь говорить",
+            "сказал"
+          ],
+          "answer": "скажешь",
+          "hint": "Specific action = pf future",
+          "explanation": "Specific question: pf скажешь."
+        },
+        {
+          "prompt": "Вы _____ в России? (Have you ever been?)",
+          "promptEnglish": "Have you ever been to Russia?",
+          "options": [
+            "будете",
+            "побудете",
+            "побывали",
+            "были"
+          ],
+          "answer": "были",
+          "hint": "Experience questions use были (ever been?)",
+          "explanation": "Experience: были (Have you ever been?)."
+        },
+        {
+          "prompt": "Ты _____ письмо, которое я послал? (Did you receive?)",
+          "promptEnglish": "Did you receive the letter I sent?",
+          "options": [
+            "получишь",
+            "получал",
+            "получил",
+            "получаешь"
+          ],
+          "answer": "получил",
+          "hint": "Completed receipt = pf",
+          "explanation": "Completion (did receive): pf получил."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Ты _____ по-французски? (Do you speak? - general ability)",
+          "promptEnglish": "Do you speak French?",
+          "options": [
+            "говорил",
+            "говоришь",
+            "скажешь",
+            "сказал"
+          ],
+          "answer": "говоришь",
+          "hint": "General ability = impf present",
+          "explanation": "General ability: impf говоришь."
+        },
+        {
+          "prompt": "Ты _____ мне завтра? (Will you call - specific request)",
+          "promptEnglish": "Will you call me tomorrow?",
+          "options": [
+            "звонишь",
+            "позвонишь",
+            "будешь звонить",
+            "звонил"
+          ],
+          "answer": "позвонишь",
+          "hint": "Specific request = pf",
+          "explanation": "Specific action: pf позвонишь."
+        },
+        {
+          "prompt": "Ты когда-нибудь _____ в Японии? (Have you ever been?)",
+          "promptEnglish": "Have you ever been to Japan?",
+          "options": [
+            "побудешь",
+            "был",
+            "бываешь",
+            "побывал"
+          ],
+          "answer": "был",
+          "hint": "Experience (ever) = был",
+          "explanation": "Experience: был (ever been?)."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Ты _____ суши? (Have you ever tried?)",
+          "promptEnglish": "Have you ever tried sushi?",
+          "options": [
+            "попробуешь",
+            "попробовал",
+            "пробовал",
+            "пробуешь"
+          ],
+          "answer": "пробовал",
+          "hint": "Asking about life experience = imperfective past",
+          "explanation": "Experience question (ever tried?): impf пробовал."
+        },
+        {
+          "prompt": "Ты _____ отчёт, который просил начальник? (Did you finish?)",
+          "promptEnglish": "Did you finish the report the boss asked for?",
+          "options": [
+            "написал",
+            "пишешь",
+            "писал",
+            "будешь писать"
+          ],
+          "answer": "написал",
+          "hint": "Asking about completion of a specific task = perfective past",
+          "explanation": "Completion question (did you finish?): pf написал."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Ты _____ этот фильм? (Have you seen - experience)"
+    ],
+    "choices": [
+      "смотрел",
+      "посмотрел",
+      "смотришь",
+      "посмотришь"
+    ],
+    "answers": [
+      "смотрел"
+    ],
+    "grammarFocus": "Experience questions: imperfective past",
+    "hints": [
+      "When asking 'Have you ever seen this?' you're asking about general experience, not completion."
+    ],
+    "explanations": [
+      "Experience questions ('Have you ever...?') use the imperfective past (смотрел), because you're asking about the experience in general, not whether someone completed watching to the end."
+    ],
+    "options": [
+      [
+        "посмотрел",
+        "смотришь",
+        "смотрел",
+        "посмотришь"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Ты _____ книгу? (Have you read it? - ever)",
+      "contextEnglish": "Have you read this book? (experience)",
+      "options": [
+        "читал",
+        "прочитал"
+      ],
+      "answer": "читал",
+      "explanation": "Experience question: impf читал."
+    },
+    {
+      "context": "Ты _____ книгу? (Did you finish it?)",
+      "contextEnglish": "Did you finish the book?",
+      "options": [
+        "прочитал",
+        "читал"
+      ],
+      "answer": "прочитал",
+      "explanation": "Completion question: pf прочитал."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort questions by aspect meaning",
+    "categories": [
+      "Experience (impf)",
+      "Completion (pf)",
+      "Open-ended (impf)",
+      "Specific action (pf)"
+    ],
+    "items": [
+      {
+        "word": "Ты смотрел этот фильм?",
+        "category": "Experience (impf)"
+      },
+      {
+        "word": "Ты посмотрел фильм до конца?",
+        "category": "Completion (pf)"
+      },
+      {
+        "word": "Что ты будешь делать вечером?",
+        "category": "Open-ended (impf)"
+      },
+      {
+        "word": "Ты позвонишь маме?",
+        "category": "Specific action (pf)"
+      },
+      {
+        "word": "Ты читал Достоевского?",
+        "category": "Experience (impf)"
+      },
+      {
+        "word": "Ты написал отчёт?",
+        "category": "Completion (pf)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "experience question",
+      "definition": "impf past - ever done?",
+      "example": "Ты читал Пушкина?"
+    },
+    {
+      "term": "completion question",
+      "definition": "pf past - did you finish?",
+      "example": "Ты прочитал книгу?"
+    },
+    {
+      "term": "open-ended question",
+      "definition": "impf future - what will you do?",
+      "example": "Что ты будешь делать?"
+    },
+    {
+      "term": "specific request",
+      "definition": "pf future - will you do X?",
+      "example": "Ты позвонишь ему?"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-002",
+  "title": "Visa Denial Appeal",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Appealing a visa denial to a bureaucratic official",
+  "imageName": "doc.badge.ellipsis",
+  "initialPrompt": "Ваша виза отклонена. Решение окончательное. Следующий, пожалуйста.",
+  "systemPrompt": "You are bureaucratic visa official. Follow rules rigidly. Dismiss appeals. Only reconsider if applicant provides compelling documentation and stays calm despite frustration.",
+  "completionCriteria": "User navigated bureaucracy and made progress on appeal.",
+  "responseLimit": 15,
+  "hints": [
+    "Могу я узнать причину отказа? (May I know the reason for denial?)",
+    "У меня есть дополнительные документы (I have additional documents)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "виза",
+      "definition": "visa"
+    },
+    {
+      "word": "отказ",
+      "definition": "denial"
+    },
+    {
+      "word": "апелляция",
+      "definition": "appeal"
+    },
+    {
+      "word": "документы",
+      "definition": "documents"
+    },
+    {
+      "word": "бюрократия",
+      "definition": "bureaucracy"
+    },
+    {
+      "word": "процедура",
+      "definition": "procedure"
+    }
+  ],
+  "objectives": [
+    "Stay calm despite dismissal",
+    "Request specific information",
+    "Provide supporting evidence",
+    "Navigate bureaucratic procedures",
+    "Secure path forward"
+  ]
+}

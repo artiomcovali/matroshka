@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-010",
+  "title": "Investment Advice",
+  "level": "B2",
+  "difficulty": "easy",
+  "description": "Discuss investment options with a financial advisor",
+  "imageName": "chart.pie.fill",
+  "initialPrompt": "Добро пожаловать в инвестиционный отдел! Вы хотите начать инвестировать? Расскажите о ваших целях.",
+  "systemPrompt": "You are financial advisor. Options: deposits (5% safe), bonds (7% medium), stocks (variable high risk), mutual funds (managed). Ask about: amount, timeline, risk tolerance, goals. Recommend diversification. Keep replies short.",
+  "completionCriteria": "User understood options and made informed decision or asked right questions.",
+  "responseLimit": 15,
+  "hints": [
+    "Хочу вложить на пять лет (I want to invest for five years)",
+    "Какой уровень риска? (What's the risk level?)",
+    "Можно ли забрать деньги досрочно? (Can I withdraw money early?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "инвестиции",
+      "definition": "investments"
+    },
+    {
+      "word": "доходность",
+      "definition": "yield/return"
+    },
+    {
+      "word": "риск",
+      "definition": "risk"
+    },
+    {
+      "word": "портфель",
+      "definition": "portfolio"
+    },
+    {
+      "word": "диверсификация",
+      "definition": "diversification"
+    },
+    {
+      "word": "вклад",
+      "definition": "deposit"
+    }
+  ],
+  "objectives": [
+    "Explain your investment goals",
+    "State your budget and timeline",
+    "Discuss your risk tolerance",
+    "Ask about different options",
+    "Understand fees and conditions"
+  ]
+}

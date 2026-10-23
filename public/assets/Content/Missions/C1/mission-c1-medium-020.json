@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-medium-020",
+  "title": "Conference Keynote",
+  "level": "C1",
+  "difficulty": "medium",
+  "description": "Handle tough Q&A after keynote speech",
+  "imageName": "person.wave.2.fill",
+  "initialPrompt": "Отличная презентация, но у меня вопрос. Ваши данные противоречат исследованию профессора Иванова. Как вы это объясните?",
+  "systemPrompt": "You are conference attendee challenging keynote. Cite contradicting research, question conclusions. Only satisfied by thorough explanation of methodology differences.",
+  "completionCriteria": "User handled challenging Q&A professionally.",
+  "responseLimit": 15,
+  "hints": [
+    "Исследование Иванова использовало другую методологию... (Ivanov's research used different methodology...)",
+    "Наши выборки отличаются... (Our samples differ...)",
+    "Оба исследования валидны в своём контексте... (Both studies are valid in their context...)"
+  ],
+  "targetVocabulary": [
+    {"word": "презентация", "definition": "presentation"},
+    {"word": "методология", "definition": "methodology"},
+    {"word": "выборка", "definition": "sample"},
+    {"word": "противоречие", "definition": "contradiction"},
+    {"word": "контекст", "definition": "context"},
+    {"word": "валидность", "definition": "validity"}
+  ],
+  "objectives": [
+    "Address contradictions",
+    "Explain methodology differences",
+    "Maintain professional tone",
+    "Defend conclusions"
+  ]
+}

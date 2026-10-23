@@ -1,0 +1,352 @@
+{
+  "id": "b1-track-motion-07-vy-prefix",
+  "level": "B1",
+  "focusArea": "motionVerbs",
+  "title": "Motion Verbs 7: Prefix вы- (step out)",
+  "titleRussian": "Глаголы движения 7: Приставка вы- (выйти, выехать)",
+  "description": "The prefix вы- attaches to идти / ехать and turns the verb perfective. The new meaning is exiting a specific bounded space: a room, a building, a vehicle, a tunnel. Compare with у- from Lesson 6, which marks the broader 'gone away' reading.",
+  "descriptionRussian": "Приставка вы- присоединяется к «идти» и «ехать» и делает глагол совершенного вида. Новое значение — выход из конкретного пространства: комнаты, здания, машины, автобуса. Сравните с приставкой у- из шестого урока: «больше не здесь» в общем смысле.",
+  "imageName": "door.left.hand.open",
+  "trackId": "b1-motion-verbs-mastery",
+  "trackTitle": "Motion Verbs Mastery",
+  "trackTitleRussian": "Глаголы движения",
+  "trackIndex": 7,
+  "trackTotal": 11,
+  "intro": "The fourth prefix is about crossing out of a specific enclosed space, which makes it narrower than the one before it. Leaving the building and being away from work are different claims, and Russian marks them differently. The giveaway is usually the size of the place you left: a room and a country pull different prefixes.",
+  "rules": [
+    "Выйти = perfective of идти; выехать = perfective of ехать. Both mark the moment of exiting a specific bounded space (room, building, vehicle, tunnel).",
+    "Past forms are the focus today. On foot: вышел / вышла / вышло / вышли (irregular). On transport: выехал / выехала / выехало / выехали (regular).",
+    "У- vs вы-: у- = gone away from the speaker's general area (не здесь больше). Вы- = exited a specific bounded space at the moment described.",
+    "Cues that pull вы-: a small bounded source (из кабинета, из машины), an open-exit destination (на улицу, на балкон), or a short, returnable step-out (на минуту, позвонить). Cues that pull у-: a daily-life source (с работы, с лекции), a long absence (на неделю, на лето), or an absence frame ('не здесь больше').",
+    "The destination phrase в / на + acc and the source phrase из / с + gen from earlier lessons still apply. The prefix changes the verb, not the prepositions."
+  ],
+  "examples": [
+    "Маша вышла из кабинета на минуту, чтобы ответить на звонок. (Masha stepped out of the office for a minute to answer a call.) Short-duration exit + small bounded source.",
+    "Антон вышел на балкон позвонить маме. (Anton stepped out onto the balcony to call his mom.) Open-exit на + acc destination.",
+    "Поезд выехал из леса, и за окном открылись поля. (The train came out of the forest and fields opened up beyond the window.) Transport exit from a bounded space.",
+    "Дети вышли из автобуса у школы. (The kids got off the bus near the school.) Plural exit from a vehicle.",
+    "Соня вышла из дома, села в машину и уехала. (Sonya stepped out of the house, got in the car, and drove off.) Sequence: вы- = the threshold moment; у- = the gone-away reading.",
+    "Иван выехал из города рано утром. (Ivan drove out of the city early in the morning.) Transport exit through a city boundary."
+  ],
+  "tables": [
+    {
+      "title": "У- vs вы-: which prefix wins",
+      "headers": [
+        "Cue",
+        "Prefix",
+        "Why"
+      ],
+      "rows": [
+        {
+          "label": "small bounded source (из кабинета, из машины)",
+          "cells": [
+            "вы-",
+            "Crossing a specific threshold"
+          ]
+        },
+        {
+          "label": "daily-life source (с работы, с лекции)",
+          "cells": [
+            "у-",
+            "Gone away from the speaker's everyday location"
+          ]
+        },
+        {
+          "label": "open-exit destination (на улицу, на балкон)",
+          "cells": [
+            "вы-",
+            "Stepping into an open or transit space"
+          ]
+        },
+        {
+          "label": "long-absence duration (на неделю, на лето)",
+          "cells": [
+            "у-",
+            "Non-trivial absence ahead"
+          ]
+        },
+        {
+          "label": "short-duration exit (на минуту, позвонить)",
+          "cells": [
+            "вы-",
+            "Brief, returnable step-out"
+          ]
+        },
+        {
+          "label": "absence frame (никого нет, не здесь)",
+          "cells": [
+            "у-",
+            "Speaker reports the subject is gone"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Антон уже _____ с работы, в офисе никого нет.",
+          "promptEnglish": "Anton has already left work; there's no one in the office.",
+          "options": [
+            "шёл",
+            "пошёл",
+            "ушёл",
+            "пришёл"
+          ],
+          "answer": "ушёл",
+          "hint": "Recap from Lesson 6: 'с работы' source + 'никого нет' absence frame. Which prefix?",
+          "explanation": "Recap from Lesson 6: 'с работы' is a daily-life source phrase and 'в офисе никого нет' is the absence frame. У- carries that reading: ушёл (masc past). Вы- would be too concrete here (no specific threshold is in focus); пошёл marks the moment of setting off; шёл describes motion in progress."
+        },
+        {
+          "prompt": "Маша _____ из кабинета на минуту, чтобы ответить на звонок.",
+          "promptEnglish": "Masha stepped out of the office for a minute to answer a call.",
+          "options": [
+            "вышла",
+            "шла",
+            "пошла",
+            "ушла"
+          ],
+          "answer": "вышла",
+          "hint": "'На минуту' + a small bounded source + an implicit return. Which prefix marks the threshold moment?",
+          "explanation": "'На минуту' frames a brief, returnable exit; кабинет is a small bounded space; the call sequence implies she will step back in. All three cues point to вы-: вышла (fem past). Ушла would mean she is gone from the speaker's area, contradicting the brief-return frame; шла would describe motion in progress; пошла would mark the moment of setting off, neutral on the threshold reading."
+        },
+        {
+          "prompt": "Иван _____ из машины перед домом.",
+          "promptEnglish": "Ivan got out of the car in front of the house.",
+          "options": [
+            "шёл",
+            "вышел",
+            "пошёл",
+            "ушёл"
+          ],
+          "answer": "вышел",
+          "hint": "A vehicle is a small bounded space. Which prefix marks the moment of exit?",
+          "explanation": "Машина is the canonical small bounded source for вы-: 'вышел из машины' is the standard form for getting out of a vehicle. Ушёл из машины is awkward Russian; the 'не здесь' reading does not host vehicle exits. Пошёл would mark setting off; шёл motion in progress. Masc past of выйти → вышел."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маша _____ из города рано утром на машине.",
+          "promptEnglish": "Masha drove out of the city early in the morning.",
+          "options": [
+            "ехала",
+            "поехала",
+            "уехала",
+            "выехала"
+          ],
+          "answer": "выехала",
+          "hint": "City limits are a bounded threshold. Which transport prefix marks the moment of crossing?",
+          "explanation": "'Из города' on transport with the moment-of-exit reading hosts вы-: выехала (fem past, regular). Уехала would shift to the gone-away reading, but the focus here is the threshold moment, which вы- captures. Поехала would mark the moment of setting off; ехала would describe motion mid-trip."
+        },
+        {
+          "prompt": "Поезд _____ из леса, и за окном пошли поля.",
+          "promptEnglish": "The train came out of the forest, and fields began to roll past the window.",
+          "options": [
+            "выехал",
+            "ехал",
+            "поехал",
+            "уехал"
+          ],
+          "answer": "выехал",
+          "hint": "A forest is a bounded source. Trains crossing its edge use which prefix?",
+          "explanation": "Лес is a bounded space the train passes through and emerges from; 'выехал из леса' marks the threshold-crossing moment. Уехал из леса is wrong (trains do not 'go away' from a forest in the у- sense); ехал would describe the train mid-forest; поехал would mark the moment of setting off, on the wrong side of the trip."
+        },
+        {
+          "prompt": "Дети _____ из автобуса у школы.",
+          "promptEnglish": "The kids got off the bus near the school.",
+          "options": [
+            "шли",
+            "пошли",
+            "вышли",
+            "ушли"
+          ],
+          "answer": "вышли",
+          "hint": "A bus is a small bounded space. Which prefix marks the moment of exit?",
+          "explanation": "Автобус is a small bounded vehicle; 'вышли из автобуса' is the standard form for getting off a bus. Plural past of выйти → вышли. Ушли would mark the kids' general absence from the bus area, missing the threshold-crossing focus; пошли would mark setting off; шли would describe motion in progress."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Лена _____ на минуту.",
+          "promptEnglish": "Lena stepped out of the room for a minute.",
+          "options": [
+            "вышла из комнаты",
+            "ушла из комнаты",
+            "пошла из комнаты",
+            "шла из комнаты"
+          ],
+          "answer": "вышла из комнаты",
+          "hint": "Crossing a threshold out of a bounded space, briefly.",
+          "explanation": "The threshold-exit takes вы-: вышла из комнаты. Ушла would mean she is gone for good; the 'на минуту' cue marks a brief returnable step-out, вы-'s signature."
+        },
+        {
+          "prompt": "Антон _____ подышать воздухом.",
+          "promptEnglish": "Anton stepped outside to get some air.",
+          "options": [
+            "вышел на улицу",
+            "ушёл на улицу",
+            "пошёл в улицу",
+            "ходил на улице"
+          ],
+          "answer": "вышел на улицу",
+          "hint": "'На улицу' is the canonical open-air exit.",
+          "explanation": "Stepping out into the open takes вы-: вышел на улицу. Ушёл would mean he left the place altogether; в улицу is not Russian; ходил на улице would be strolling around outside."
+        },
+        {
+          "prompt": "Дети _____ на остановке.",
+          "promptEnglish": "The children got off the bus at the stop.",
+          "options": [
+            "вышли из автобуса",
+            "ушли из автобуса",
+            "пошли из автобуса",
+            "ехали в автобусе"
+          ],
+          "answer": "вышли из автобуса",
+          "hint": "Exiting a vehicle: which prefix?",
+          "explanation": "A vehicle is a bounded space, and exiting one takes вы-: вышли из автобуса. Ушли из автобуса is awkward Russian; ехали is mid-ride."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Соня _____ на улицу на пять минут. (Sonya stepped outside for five minutes.)"
+    ],
+    "choices": [
+      "шла",
+      "пошла",
+      "ушла",
+      "вышла"
+    ],
+    "answers": [
+      "вышла"
+    ],
+    "grammarFocus": "'На улицу' is the canonical open-exit destination, and 'на пять минут' frames a short-duration step-out with implicit return. Both cues point to вы-: вышла (fem past). Ушла would imply long-term absence, contradicting the five-minute reading; пошла would mark the moment of setting off without the threshold focus; шла would describe motion in progress."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Антон ушёл из машины и побежал к подъезду.",
+      "translationEnglish": "Anton got out of the car and ran to the entrance.",
+      "error": "ушёл",
+      "correction": "вышел",
+      "options": [
+        "вышел",
+        "пошёл",
+        "пришёл"
+      ],
+      "explanation": "A vehicle is a small bounded space, and the standard verb for exiting one is выйти: вышел из машины. Ушёл из машины is awkward Russian; у- marks gone-away from the speaker's general area, not a threshold crossing of a small container. Пошёл marks the moment of setting off toward a destination, пришёл arrival. The 'из + gen' source on a small bounded space selects вы-."
+    },
+    {
+      "sentence": "Маша пошла на улицу на минуту, чтобы подышать свежим воздухом.",
+      "translationEnglish": "Masha stepped outside for a minute to get some fresh air.",
+      "error": "пошла",
+      "correction": "вышла",
+      "options": [
+        "вышла",
+        "ушла",
+        "шла"
+      ],
+      "explanation": "'На улицу' is the canonical open-exit destination and 'на минуту' frames a brief, returnable step-out: both point to вы-: вышла. Пошла would mark the moment of setting off without the threshold-and-return focus. Ушла would imply a longer absence ('gone'), contradicting 'на минуту'. Шла would describe motion in progress."
+    },
+    {
+      "sentence": "Машины поехали из тоннеля, и стало светло.",
+      "translationEnglish": "The cars came out of the tunnel, and it got light.",
+      "error": "поехали",
+      "correction": "выехали",
+      "options": [
+        "выехали",
+        "уехали",
+        "приехали"
+      ],
+      "explanation": "Тоннель is a bounded space a vehicle passes through and emerges from; 'выехали из тоннеля' marks the threshold-crossing exit. Поехали would mark the moment of setting off, not emerging from a space; уехали would mean gone away for good."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Антон _____ на улицу позвонить и сразу вернулся.",
+      "contextEnglish": "Anton stepped outside to make a call and came right back.",
+      "options": [
+        "вышел",
+        "ушёл"
+      ],
+      "answer": "вышел",
+      "explanation": "'На улицу' is an open-exit destination, and 'сразу вернулся' anchors the brief-return frame: he stepped out for a moment. Both cues point to вы-: вышел. Ушёл would frame a longer absence with no immediate return, which the 'сразу вернулся' clause rules out."
+    },
+    {
+      "context": "Маша _____ из машины и пошла в магазин.",
+      "contextEnglish": "Masha got out of the car and went to the store.",
+      "options": [
+        "вышла",
+        "ушла"
+      ],
+      "answer": "вышла",
+      "explanation": "Машина is a small bounded space; the standard verb for exiting a vehicle is выйти, not уйти. Ушла из машины reads as awkward Russian: vehicles host вы-, not у-. The 'и пошла в магазин' sequence is a separate motion event after the threshold moment."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each phrase by which prefix the missing verb takes.",
+    "categories": [
+      "вы- (exited a specific bounded space)",
+      "у- (gone away from speaker's location)"
+    ],
+    "items": [
+      {
+        "word": "_____ из кабинета на минуту",
+        "category": "вы- (exited a specific bounded space)"
+      },
+      {
+        "word": "_____ с работы рано",
+        "category": "у- (gone away from speaker's location)"
+      },
+      {
+        "word": "_____ на улицу на пять минут",
+        "category": "вы- (exited a specific bounded space)"
+      },
+      {
+        "word": "_____ в Москву на неделю",
+        "category": "у- (gone away from speaker's location)"
+      },
+      {
+        "word": "_____ из машины перед домом",
+        "category": "вы- (exited a specific bounded space)"
+      },
+      {
+        "word": "_____ домой, в офисе никого нет",
+        "category": "у- (gone away from speaker's location)"
+      },
+      {
+        "word": "_____ из леса на поле",
+        "category": "вы- (exited a specific bounded space)"
+      },
+      {
+        "word": "_____ из дома на весь день",
+        "category": "у- (gone away from speaker's location)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "выйти / выехать",
+      "definition": "Perfective verbs formed with вы- + идти / ехать. They mark the moment the subject crossed a specific threshold and exited a bounded space (room, building, vehicle, tunnel). Past forms вышел / выехал are the workhorses at this stage.",
+      "example": "Маша вышла из кабинета на минуту."
+    },
+    {
+      "term": "приставка вы-",
+      "definition": "The 'step-out' prefix in the motion-verb system. Attached to идти / ехать it produces perfective verbs of crossing a specific exit threshold. It overlaps with у- (Lesson 6) but adds a concrete-space focus and pairs with small bounded sources and open-exit destinations.",
+      "example": "Поезд выехал из леса."
+    },
+    {
+      "term": "у- vs вы-",
+      "definition": "Both prefixes describe departure, but at different scales. У- = gone away from the speaker's general area (не здесь больше). Вы- = exited a specific bounded space at the moment described. Daily-life sources (с работы, из дома as 'gone for the day') host у-; small spaces (из кабинета, из машины) and open-exit destinations (на улицу, на балкон) host вы-.",
+      "example": "Антон ушёл с работы (gone). Антон вышел из кабинета (stepped out)."
+    }
+  ]
+}

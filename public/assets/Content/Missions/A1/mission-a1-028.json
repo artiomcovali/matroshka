@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-028",
+  "title": "Find a Bathroom",
+  "level": "A1",
+  "description": "Ask where the bathroom is",
+  "imageName": "figure.stand",
+  "initialPrompt": "Да? Вам помочь?",
+  "systemPrompt": "You work in a cafe. Bathroom is at the end of the hall, on the right. Keep replies short.",
+  "completionCriteria": "User asked where the bathroom is and understood directions.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините (Excuse me)",
+    "Где туалет? (Where is the bathroom?)",
+    "Спасибо (Thank you)",
+    "Направо? (To the right?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "туалет",
+      "definition": "bathroom/toilet"
+    },
+    {
+      "word": "где",
+      "definition": "where"
+    },
+    {
+      "word": "там",
+      "definition": "there"
+    },
+    {
+      "word": "направо",
+      "definition": "to the right"
+    },
+    {
+      "word": "в конце",
+      "definition": "at the end"
+    }
+  ],
+  "objectives": [
+    "Get attention (Извините)",
+    "Ask where bathroom is (Где туалет?)",
+    "Understand the directions"
+  ]
+}

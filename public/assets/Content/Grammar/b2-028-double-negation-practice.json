@@ -1,0 +1,571 @@
+{
+  "lessonId": "b2-028-double-negation",
+  "sets": [
+    {
+      "id": "round-1-negation-quiz",
+      "title": "Double Negation Rules",
+      "titleRussian": "Правила двойного отрицания",
+      "description": "Quiz on core double negation patterns and sort by type",
+      "descriptionRussian": "Тест по основным правилам двойного отрицания",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Choose the correct translation of 'I don't know anyone.'",
+              "promptEnglish": "I don't know anyone.",
+              "options": [
+                "Я кого-то не знаю.",
+                "Я никого не знаю.",
+                "Я не знаю кого-то.",
+                "Я никого знаю."
+              ],
+              "answer": "Я никого не знаю.",
+              "hint": "Russian requires both ни- and не together.",
+              "explanation": "Double negation is mandatory: никого (ни-word) + не (verb negation). Dropping не is ungrammatical in Russian."
+            },
+            {
+              "prompt": "Which sentence correctly says 'She never goes anywhere'?",
+              "promptEnglish": "She never goes anywhere.",
+              "options": [
+                "Она никуда не ходит.",
+                "Она никуда ходит.",
+                "Она не ходит куда-то.",
+                "Она нигде не ходит."
+              ],
+              "answer": "Она никуда не ходит.",
+              "hint": "Никуда (nowhere/to nowhere) + не + verb.",
+              "explanation": "Никуда не ходит: the ни-word никуда pairs with не before the verb. Нигде would mean 'nowhere (location)', not 'to nowhere (direction).'"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Никто никогда ничего не говорит. How many negatives are in this sentence?",
+              "promptEnglish": "Nobody ever says anything.",
+              "options": [
+                "One",
+                "Two",
+                "Three",
+                "Four"
+              ],
+              "answer": "Four",
+              "hint": "Count every ни- word and the не before the verb.",
+              "explanation": "Никто (nobody) + никогда (never) + ничего (nothing) + не (not) = four negatives, all reinforcing one negative meaning."
+            },
+            {
+              "prompt": "Which ни-word means 'nothing'?",
+              "promptEnglish": "Which word means 'nothing'?",
+              "options": [
+                "никто",
+                "ничего",
+                "никогда",
+                "нигде"
+              ],
+              "answer": "ничего",
+              "hint": "This word is the genitive form of ничто.",
+              "explanation": "Ничего (gen. of ничто) = nothing. Никто = nobody, никогда = never, нигде = nowhere."
+            },
+            {
+              "prompt": "Choose the correct Russian for 'We have nothing to talk about.'",
+              "promptEnglish": "We have nothing to talk about.",
+              "options": [
+                "Нам не о чем говорить.",
+                "Нам ничего говорить.",
+                "Нам не говорить о чём.",
+                "Нам о ничём не говорить."
+              ],
+              "answer": "Нам не о чем говорить.",
+              "hint": "The preposition о splits ни- from чем.",
+              "explanation": "Не о чем: the preposition о splits the ни-word. The construction is не + preposition + чем (not *о ничём)."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "Он нигде не работает. What does this mean?",
+              "promptEnglish": "He doesn't work anywhere.",
+              "options": [
+                "He works everywhere.",
+                "He doesn't work anywhere.",
+                "He works somewhere.",
+                "He stopped working."
+              ],
+              "answer": "He doesn't work anywhere.",
+              "hint": "Нигде не = nowhere + not = doesn't ... anywhere.",
+              "explanation": "Нигде не работает = he doesn't work anywhere. The double negative reinforces the negative meaning."
+            },
+            {
+              "prompt": "Which is correct: 'I'm not afraid of anything'?",
+              "promptEnglish": "I'm not afraid of anything.",
+              "options": [
+                "Я не боюсь ничего.",
+                "Я ничего не боюсь.",
+                "Я боюсь ничего.",
+                "Я не ничего боюсь."
+              ],
+              "answer": "Я ничего не боюсь.",
+              "hint": "The ни-word typically comes before не + verb.",
+              "explanation": "Standard word order: ничего (object) не боюсь (negated verb). The ни-word precedes не + verb."
+            },
+            {
+              "prompt": "Fill in: Мы _____ _____ не виделись. (We haven't seen each other for a long time.)",
+              "promptEnglish": "We haven't seen each other for a long time.",
+              "options": [
+                "ни с кем",
+                "никогда нигде",
+                "давно ни разу",
+                "ни разу ещё"
+              ],
+              "answer": "давно ни разу",
+              "hint": "Давно = for a long time; ни разу = not once.",
+              "explanation": "Давно ни разу не виделись = haven't seen each other for a long time (not once). Ни разу strengthens the negation."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort each ни-word by what it negates",
+        "categories": [
+          "Person (who)",
+          "Thing (what)",
+          "Place (where)",
+          "Time (when)"
+        ],
+        "items": [
+          {
+            "word": "никто",
+            "category": "Person (who)"
+          },
+          {
+            "word": "ничего",
+            "category": "Thing (what)"
+          },
+          {
+            "word": "нигде",
+            "category": "Place (where)"
+          },
+          {
+            "word": "никогда",
+            "category": "Time (when)"
+          },
+          {
+            "word": "никому",
+            "category": "Person (who)"
+          },
+          {
+            "word": "ничем",
+            "category": "Thing (what)"
+          },
+          {
+            "word": "никуда",
+            "category": "Place (where)"
+          },
+          {
+            "word": "ни разу",
+            "category": "Time (when)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-2-split-prepositions",
+      "title": "Split Prepositions",
+      "titleRussian": "Предлоги внутри ни-слов",
+      "description": "Master how prepositions split ни- words: ни с кем, ни о чём, ни к кому",
+      "descriptionRussian": "Как предлоги разделяют ни-слова: ни с кем, ни о чём, ни к кому",
+      "icon": "arrow.left.arrow.right",
+      "minimalPairs": [],
+      "fillInBlank": {
+        "blanks": [
+          "Она _____ не жалуется. (She doesn't complain about anything.)",
+          "Мы _____ не ездили летом. (We didn't go anywhere in the summer.)",
+          "Он _____ не зависит. (He doesn't depend on anyone.)",
+          "Я _____ не спорил. (I didn't argue with anyone.)",
+          "Они _____ не интересуются. (They're not interested in anything.)"
+        ],
+        "choices": [
+          "ни на что",
+          "никуда",
+          "ни от кого",
+          "ни с кем",
+          "ничем"
+        ],
+        "answers": [
+          "ни на что",
+          "никуда",
+          "ни от кого",
+          "ни с кем",
+          "ничем"
+        ],
+        "grammarFocus": "Prepositions splitting ни-words and accusative/instrumental ни-forms",
+        "hints": [
+          "Жаловаться на + что -> ни на что.",
+          "Direction 'to nowhere' = никуда.",
+          "Зависеть от + кого -> ни от кого.",
+          "Спорить с + кем -> ни с кем.",
+          "Интересоваться + чем (instrumental) -> ничем."
+        ],
+        "explanations": [
+          "Жаловаться на что -> ни на что не жалуется. The preposition на splits the ни-word.",
+          "Никуда не ездили = didn't go anywhere. Никуда is a direction word, no preposition needed.",
+          "Зависеть от кого -> ни от кого не зависит. The preposition от splits the ни-word.",
+          "Спорить с кем -> ни с кем не спорил. The preposition с splits the ни-word.",
+          "Интересоваться чем -> ничем не интересуются. No preposition, so ничем stays intact."
+        ],
+        "options": [
+          [
+            "ни за что",
+            "ни о чём",
+            "ни на что",
+            "ничего"
+          ],
+          [
+            "нигде",
+            "никуда",
+            "ни за чем",
+            "ниоткуда"
+          ],
+          [
+            "ни у кого",
+            "ни от кого",
+            "никого",
+            "ни с кем"
+          ],
+          [
+            "ни от кого",
+            "ни с кем",
+            "никого",
+            "ни о ком"
+          ],
+          [
+            "ничему",
+            "ничем",
+            "ничего",
+            "ничто"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-3-transform-correct",
+      "title": "Transform and Correct",
+      "titleRussian": "Трансформация и исправление",
+      "description": "Fix negation errors and transform English single negatives into Russian double negatives",
+      "descriptionRussian": "Исправьте ошибки и трансформируйте английские предложения в русские с двойным отрицанием",
+      "icon": "pencil.and.outline",
+      "errorCorrection": [
+        {
+          "sentence": "Я никого знаю в этом городе.",
+          "error": "никого знаю",
+          "correction": "никого не знаю",
+          "hint": "Every ни-word requires не before the verb.",
+          "explanation": "Russian requires double negation: никого НЕ знаю. Dropping не is ungrammatical.",
+          "options": [
+            "никого не знаю",
+            "никого знаю не",
+            "не никого знаю",
+            "никто не знаю"
+          ]
+        },
+        {
+          "sentence": "Она о ничём не думает.",
+          "error": "о ничём",
+          "correction": "ни о чём",
+          "hint": "Prepositions go between ни and the pronoun, not before ни.",
+          "explanation": "The preposition splits the ни-word: ни о чём, not *о ничём. The prefix ни- stays first.",
+          "options": [
+            "ни о чём",
+            "ни о чем-то",
+            "ничём о"
+          ]
+        },
+        {
+          "sentence": "Мы никуда ходили вчера.",
+          "error": "никуда ходили",
+          "correction": "никуда не ходили",
+          "hint": "Ни-words always need не before the verb.",
+          "explanation": "Никуда не ходили: the verb must be negated with не when a ни-word is present.",
+          "options": [
+            "никуда не ходили",
+            "никуда ходили не",
+            "нигде не ходили",
+            "не никуда ходили"
+          ]
+        },
+        {
+          "sentence": "Он с никем не дружит.",
+          "error": "с никем",
+          "correction": "ни с кем",
+          "hint": "The preposition goes inside: ни + preposition + pronoun.",
+          "explanation": "Prepositions split the ни-word: ни с кем, not *с никем. This is mandatory word order.",
+          "options": [
+            "ни с кем",
+            "ни с кому",
+            "с никого"
+          ]
+        },
+        {
+          "sentence": "Никто не видел ничего не слышал.",
+          "error": "ничего не слышал",
+          "correction": "ничего не слышал,",
+          "hint": "Two clauses need proper punctuation or a conjunction.",
+          "explanation": "This is two clauses: Никто не видел, никто ничего не слышал. Without a comma or и, the sentence is a run-on.",
+          "options": [
+            "ничего не слышал,",
+            "ничего слышал",
+            "ничего слышал не"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Составление и перевод",
+      "description": "Assemble double-negation sentences from words and translate into Russian",
+      "descriptionRussian": "Составьте предложения с двойным отрицанием и переведите на русский",
+      "icon": "hammer.fill",
+      "translation": [
+        {
+          "english": "I don't understand anything.",
+          "answer": "Я ничего не понимаю.",
+          "acceptableVariants": [
+            "Ничего не понимаю."
+          ],
+          "hint": "Anything = ничего + не before the verb",
+          "grammarFocus": "Basic double negation with ничего",
+          "keyWord": "ничего",
+          "options": [
+            "ничего",
+            "ничему",
+            "ничем",
+            "ничто"
+          ]
+        },
+        {
+          "english": "He has never been anywhere.",
+          "answer": "Он нигде никогда не был.",
+          "acceptableVariants": [
+            "Он никогда нигде не был.",
+            "Он нигде не был никогда."
+          ],
+          "hint": "Never = никогда, anywhere = нигде, plus не",
+          "grammarFocus": "Triple negation with time and place",
+          "keyWord": "нигде",
+          "options": [
+            "нигде",
+            "никуда",
+            "негде",
+            "ниоткуда"
+          ]
+        },
+        {
+          "english": "We are not arguing with anyone about anything.",
+          "answer": "Мы ни с кем ни о чём не спорим.",
+          "acceptableVariants": [
+            "Мы ни о чём ни с кем не спорим."
+          ],
+          "hint": "With anyone = ни с кем, about anything = ни о чём",
+          "grammarFocus": "Two split prepositions in one sentence",
+          "keyWord": "ни с кем",
+          "options": [
+            "ни с кем",
+            "с никем",
+            "ни с кого",
+            "ни о ком"
+          ]
+        },
+        {
+          "english": "Nobody ever helps anyone.",
+          "answer": "Никто никогда никому не помогает.",
+          "acceptableVariants": [
+            "Никогда никто никому не помогает."
+          ],
+          "hint": "Nobody = никто, ever = никогда, anyone (dat.) = никому",
+          "grammarFocus": "Quadruple negation",
+          "keyWord": "никому",
+          "options": [
+            "никому",
+            "никого",
+            "никем",
+            "ни к кому"
+          ]
+        },
+        {
+          "english": "She didn't tell anyone about it.",
+          "answer": "Она никому об этом не рассказала.",
+          "acceptableVariants": [
+            "Она никому не рассказала об этом.",
+            "Она об этом никому не рассказала."
+          ],
+          "hint": "Anyone (dative) = никому, plus не before the verb",
+          "grammarFocus": "Double negation with dative ни-word",
+          "keyWord": "никому",
+          "options": [
+            "никому",
+            "никого",
+            "никем",
+            "ни с кем"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All double negation patterns in varied exercises",
+      "descriptionRussian": "Все виды двойного отрицания в разных упражнениях",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я _____ _____ не рассказывал об этом.",
+              "promptEnglish": "I never told anyone about this.",
+              "options": [
+                "никогда никому",
+                "никто ничего",
+                "нигде никуда",
+                "никак ничем"
+              ],
+              "answer": "никогда никому",
+              "hint": "Never = никогда, to anyone = никому.",
+              "explanation": "Никогда никому не рассказывал: never (time) + to no one (person) + negated verb."
+            },
+            {
+              "prompt": "Which sentence has correct word order?",
+              "promptEnglish": "He didn't invite anyone.",
+              "options": [
+                "Он никого не пригласил.",
+                "Он не пригласил никого.",
+                "Он не никого пригласил.",
+                "Не он никого пригласил."
+              ],
+              "answer": "Он никого не пригласил.",
+              "hint": "Ни-word comes before не + verb.",
+              "explanation": "Standard order: subject + ни-word + не + verb. Он никого не пригласил."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Дети _____ _____ не боятся. (The children are not afraid of anything.)",
+              "promptEnglish": "The children are not afraid of anything.",
+              "options": [
+                "ни за что",
+                "никогда ничего",
+                "ничего совсем",
+                "ничего не"
+              ],
+              "answer": "ничего не",
+              "hint": "Бояться + genitive: ничего.",
+              "explanation": "Бояться чего -> ничего не боятся. The genitive ничего negates the object of fear."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "Мы _____ не виноваты.",
+              "promptEnglish": "We are not at fault in any way.",
+              "options": [
+                "ни в чём",
+                "ничего",
+                "никого",
+                "нигде"
+              ],
+              "answer": "ни в чём",
+              "hint": "Быть виноватым в чём -> ни в чём.",
+              "explanation": "Виноваты в чём -> ни в чём не виноваты. The preposition в splits the ни-word."
+            },
+            {
+              "prompt": "How would you say 'I see nothing nowhere never' in natural Russian?",
+              "promptEnglish": "I never see anything anywhere.",
+              "options": [
+                "Я никогда нигде ничего не вижу.",
+                "Я нигде никогда ничего вижу не.",
+                "Не вижу я ничего нигде никогда.",
+                "Я ничего не никогда нигде вижу."
+              ],
+              "answer": "Я никогда нигде ничего не вижу.",
+              "hint": "All ни-words stack before не + verb.",
+              "explanation": "Natural order: subject + time (никогда) + place (нигде) + object (ничего) + не + verb."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Он к никому не ходит в гости.",
+          "error": "к никому",
+          "correction": "ни к кому",
+          "hint": "Prepositions go between ни and the pronoun.",
+          "explanation": "Ни к кому не ходит: preposition к splits the ни-word. Not *к никому.",
+          "options": [
+            "ни к кому",
+            "ни к кого",
+            "к никого"
+          ]
+        },
+        {
+          "sentence": "Я ничего понимаю.",
+          "error": "ничего понимаю",
+          "correction": "ничего не понимаю",
+          "hint": "Ни-words require не before the verb.",
+          "explanation": "Double negation is mandatory: ничего НЕ понимаю. Without не, the sentence is ungrammatical.",
+          "options": [
+            "ничего не понимаю",
+            "ничего понимаю не",
+            "не ничего понимаю",
+            "ничему не понимаю"
+          ]
+        },
+        {
+          "sentence": "Мы за ничто не отвечаем.",
+          "error": "за ничто",
+          "correction": "ни за что",
+          "hint": "The prefix ни- comes first, then the preposition.",
+          "explanation": "Ни за что не отвечаем: ни + за + что. The preposition goes between ни and the pronoun.",
+          "options": [
+            "ни за что",
+            "за ничего",
+            "ни за чего"
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ не помогает мне. (Nobody helps me.)",
+          "contextEnglish": "Nobody helps me.",
+          "options": [
+            "Никто",
+            "Некто"
+          ],
+          "answer": "Никто",
+          "explanation": "Никто не помогает = nobody helps (double negation). Некто means 'someone/a certain person' and is unrelated."
+        },
+        {
+          "context": "Ей _____ рассказать. (She has no one to tell.)",
+          "contextEnglish": "She has no one to tell.",
+          "options": [
+            "некому",
+            "никому не"
+          ],
+          "answer": "некому",
+          "explanation": "Некому рассказать = there is no one to tell (impersonal не- construction). Никому не рассказать would mean 'impossible to tell anyone.'"
+        }
+      ]
+    }
+  ]
+}

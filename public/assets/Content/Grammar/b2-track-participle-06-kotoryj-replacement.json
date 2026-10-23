@@ -1,0 +1,347 @@
+{
+  "id": "b2-track-participle-06-kotoryj-replacement",
+  "level": "B2",
+  "focusArea": "other",
+  "title": "Participles 7: Replacing Который Clauses",
+  "titleRussian": "Причастия 7: замена конструкции с который",
+  "description": "Russian writing converts a 'который + finite verb' clause into a participle phrase, and speech does the reverse. Today: the four conversion patterns, the position rule, and the non-nominative который that blocks conversion.",
+  "descriptionRussian": "Русская письменная речь превращает конструкцию «который + личная форма глагола» в причастный оборот, а разговорная — наоборот. Сегодня: четыре модели замены, правило расположения оборота и формы которому / в котором / от которого / с которым, при которых замена невозможна.",
+  "imageName": "arrow.triangle.swap",
+  "trackId": "b2-participles-mastery",
+  "trackTitle": "Participles Mastery",
+  "trackTitleRussian": "Причастия",
+  "trackIndex": 7,
+  "trackTotal": 8,
+  "intro": "Here is what participles are for. Almost any который clause from the subordination book can be collapsed into a single participle, which is what makes written Russian read the way it does. Four conversion patterns cover it, chosen by whether the noun acts or is acted on and by when. One thing blocks the conversion entirely: который has to be the subject of its clause.",
+  "rules": [
+    "The four conversion patterns: который + impf present + actor → active present (читающий); который + past + actor → active past (читавший / прочитавший); которую + impf present + patient → passive present (читаемый); которую + perfective past + patient → passive past long (прочитанный).",
+    "The participle phrase can sit BEFORE the noun (читающий книгу студент) or AFTER it, set off by commas (студент, читающий книгу). Both positions are correct.",
+    "Conversion is blocked when который is in a non-nominative form - которому, от которого, в котором, с которым (dative, genitive, prepositional, instrumental). No participle can replace it; the который clause stays.",
+    "When you convert a passive который clause, the actor shifts from nominative to instrumental: 'Книга, которую прочитал студент' → 'прочитанная СТУДЕНТОМ книга'.",
+    "Voice tracks the actor: noun is actor → active; noun is patient → passive. Tense tracks timing: same time as the main verb → present; earlier → past."
+  ],
+  "examples": [
+    "Студент, который читает книгу → читающий книгу студент (active present)",
+    "Студент, который прочитал статью → прочитавший статью студент (active past pf)",
+    "Книга, которую читает студент → читаемая студентом книга (passive present)",
+    "Книга, которую прочитал студент → прочитанная студентом книга (passive past long)",
+    "Студент, которому я звонил, пришёл вчера. (которому, dative: cannot be replaced)",
+    "Дом, в котором я жил, давно снесли. (в котором, prepositional: cannot be replaced)"
+  ],
+  "tables": [
+    {
+      "title": "Four conversions from который to a participle",
+      "headers": [
+        "Который clause",
+        "Voice",
+        "Tense",
+        "Participle"
+      ],
+      "rows": [
+        {
+          "label": "который + impf present (actor)",
+          "cells": [
+            "active",
+            "present",
+            "читающий"
+          ]
+        },
+        {
+          "label": "который + impf past (actor)",
+          "cells": [
+            "active",
+            "past",
+            "читавший"
+          ]
+        },
+        {
+          "label": "который + pf past (actor)",
+          "cells": [
+            "active",
+            "past",
+            "прочитавший"
+          ]
+        },
+        {
+          "label": "которую + impf present (patient)",
+          "cells": [
+            "passive",
+            "present",
+            "читаемая"
+          ]
+        },
+        {
+          "label": "которую + pf past (patient)",
+          "cells": [
+            "passive",
+            "past",
+            "прочитанная"
+          ]
+        },
+        {
+          "label": "которому / от которого / в котором",
+          "cells": [
+            "n/a",
+            "n/a",
+            "no replacement (non-nominative form)"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Recap from L5: Книга _____. (The book has been read.)",
+          "promptEnglish": "Pick the short feminine form that fits the predicate slot.",
+          "options": [
+            "прочитанная",
+            "прочитана",
+            "прочитан",
+            "читаемая"
+          ],
+          "answer": "прочитана",
+          "hint": "Recap: the slot is a predicate, and the subject is feminine. Long forms cannot stand alone as a predicate.",
+          "explanation": "Recap from L5: прочитана is the short feminine form, agreeing with the feminine subject книга, in a predicate slot. Прочитанная is the long form (attributive only); прочитан is the short MASCULINE form; читаемая is the passive present (the book is being read RIGHT NOW, not the completed-prior-action reading the predicate calls for)."
+        },
+        {
+          "prompt": "Convert: Студент, который читает книгу, сидит у окна.",
+          "promptEnglish": "Pick the participle phrase that replaces the который clause.",
+          "options": [
+            "Прочитавший книгу студент",
+            "Читавший книгу студент",
+            "Читаемый книгу студент",
+            "Читающий книгу студент"
+          ],
+          "answer": "Читающий книгу студент",
+          "hint": "The verb is imperfective present (читает); the noun (студент) is the actor. Which voice and tense fit?",
+          "explanation": "Студент is the actor (he is doing the reading), so the voice is ACTIVE. Читает is imperfective present, so the tense is PRESENT. Active present → читающий, agreeing with студент. Прочитавший is active past perfective; читавший is active past imperfective; читаемый is passive present (and would mean the student is being read, which is impossible)."
+        },
+        {
+          "prompt": "Convert: Студент, который прочитал статью, закрыл журнал.",
+          "promptEnglish": "Pick the participle phrase that replaces the который clause.",
+          "options": [
+            "Прочитавший статью студент",
+            "Прочитанный статью студент",
+            "Читающий статью студент",
+            "Читаемый статью студент"
+          ],
+          "answer": "Прочитавший статью студент",
+          "hint": "The verb is perfective past (прочитал); the noun (студент) is the actor. Which voice and tense fit?",
+          "explanation": "Студент is the actor, so the voice is ACTIVE. Прочитал is past tense, so the tense is PAST. Active past pf → прочитавший, agreeing with студент. Прочитанный is the passive past (would mean 'the read student,' impossible); читающий is active PRESENT (wrong tense); читаемый is passive present (wrong voice and tense)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Convert: Книга, которую прочитал студент, лежала на столе.",
+          "promptEnglish": "Pick the participle phrase that replaces the который clause. Note the case shift on the actor.",
+          "options": [
+            "Читающая студентом книга",
+            "Прочитавшая студентом книга",
+            "Прочитанная студентом книга",
+            "Прочитана студентом книга"
+          ],
+          "answer": "Прочитанная студентом книга",
+          "hint": "The verb is perfective past (прочитал); the noun (книга) is the patient (the thing being acted upon). Which voice and tense fit, and what happens to the actor?",
+          "explanation": "Книга is the patient (the book is being read), so the voice is PASSIVE. Прочитал is perfective past, so the tense is PAST. Passive past long form → прочитанная, agreeing with книга. The actor (студент, originally nominative) shifts to the instrumental (студентом). Читающая is active present (book as actor, impossible); прочитавшая is active past (same problem); прочитана is the SHORT form (predicative only, lesson 5)."
+        },
+        {
+          "prompt": "Which sentence's который clause CANNOT be replaced by a participle?",
+          "promptEnglish": "Pick the который clause that cannot be converted because который sits in a non-nominative form.",
+          "options": [
+            "Студент, который читает книгу, сидит у окна.",
+            "Студент, которому я звонил, пришёл вчера.",
+            "Книга, которую написал Антон, лежит на столе.",
+            "Студент, который вернулся, снял пальто."
+          ],
+          "answer": "Студент, которому я звонил, пришёл вчера.",
+          "hint": "Look at the form of который in each clause. One is которому, от которого, or в котором - that is the one that cannot be converted.",
+          "explanation": "Которому is the dative form (the verb звонить + dat). When который is in a non-nominative form (которому, от которого, в котором, с которым), no participle can replace it; the который clause stays. The other three are convertible: который читает → читающий; которую написал → написанная; который вернулся → вернувшийся."
+        },
+        {
+          "prompt": "Маша заметила прочитанную Антоном книгу. Which который clause is the source?",
+          "promptEnglish": "Pick the который clause that corresponds to the participle phrase 'прочитанную Антоном.'",
+          "options": [
+            "которая прочитала Антона",
+            "которая написана Антоном",
+            "которую читает Антон",
+            "которую прочитал Антон"
+          ],
+          "answer": "которую прочитал Антон",
+          "hint": "Прочитанную is passive past long form, perfective. The book is the patient; Антон is the actor (instrumental in the participle phrase, nominative in the который clause).",
+          "explanation": "Прочитанную is the passive past long-form participle of прочитать, feminine accusative (modifying книгу). The source is 'которую прочитал Антон' (passive past pf with patient = книгу and actor = Антон). The other options have the wrong roles or the wrong tense / aspect: 'которая прочитала Антона' makes the book the actor; 'которая написана' uses a different verb; 'которую читает Антон' is imperfective present, the source of читаемую rather than прочитанную."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Студент, _____ книгу, сидит у окна.",
+          "promptEnglish": "The student reading a book is sitting by the window.",
+          "options": [
+            "читающий",
+            "читавший",
+            "прочитавший",
+            "читаемый"
+          ],
+          "answer": "читающий",
+          "hint": "Который читает (present, actor) becomes which participle?",
+          "explanation": "An active present который clause compresses into the active present participle: читающий. Читавший would push the reading into the past; прочитавший adds completion; читаемый is passive."
+        },
+        {
+          "prompt": "Маша знает студента, _____ статью.",
+          "promptEnglish": "Masha knows the student who read the article through.",
+          "options": [
+            "прочитавшего",
+            "прочитавший",
+            "прочитанного",
+            "читающего"
+          ],
+          "answer": "прочитавшего",
+          "hint": "The participle must agree with студента (animate accusative).",
+          "explanation": "Который прочитал becomes the active past participle, agreeing with its noun: студента прочитавшего (animate accusative). Прочитавший is the nominative shape; прочитанного is passive; читающего changes the tense."
+        },
+        {
+          "prompt": "Антон взял _____ книгу.",
+          "promptEnglish": "Anton took the book written by Lena.",
+          "options": [
+            "написанную Леной",
+            "написавшую Леной",
+            "написанная Леной",
+            "написанной Леной"
+          ],
+          "answer": "написанную Леной",
+          "hint": "Которую написала Лена: which passive form, which case?",
+          "explanation": "The passive past long form agrees with книгу (accusative feminine): написанную Леной книгу. Написавшую would make the book the writer; написанная is nominative; написанной the wrong case here."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Студент, _____ читает книгу, сидит у окна.",
+          "promptEnglish": "The student who is reading a book is sitting by the window (spoken register).",
+          "options": [
+            "который",
+            "которого",
+            "которую",
+            "которым"
+          ],
+          "answer": "который",
+          "hint": "Unpacking the participle back into a который clause.",
+          "explanation": "The spoken register replaces the participle with a который clause, and inside it the student is the SUBJECT: который читает. Которого would be an object form; которую is feminine; которым instrumental."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша знает _____ Антоном книгу."
+    ],
+    "choices": [
+      "прочитавшую",
+      "прочитанную",
+      "читающую",
+      "читаемую"
+    ],
+    "answers": [
+      "прочитанную"
+    ],
+    "grammarFocus": "Passive past long form, feminine accusative: the book has been read by Anton (perfective past), and the slot is an attribute inside the direct-object phrase.",
+    "hints": [
+      "Source: 'Маша знает книгу, которую прочитал Антон.' Книга is the patient; Антон is the actor; прочитал is perfective past."
+    ],
+    "explanations": [
+      "Прочитанную is the passive past long form, feminine accusative, agreeing with книгу. The source clause is 'которую прочитал Антон' (passive past pf). Прочитавшую is active past feminine acc ('the book that had read,' impossible); читающую is active present feminine acc; читаемую is passive present feminine acc (would mean the book is being read RIGHT NOW, not completed-prior-action)."
+    ]
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Антон слушает выступавшего на сцене певца.",
+      "translationEnglish": "Anton is listening to the singer performing on stage.",
+      "error": "выступавшего",
+      "correction": "выступающего",
+      "options": [
+        "выступающего",
+        "выступающий",
+        "выступавший"
+      ],
+      "explanation": "The singer is performing AT THE SAME TIME Anton is listening, and the main verb слушает is present, so the который clause 'который выступает' converts to the active PRESENT participle выступающий, here masculine accusative выступающего to agree with the object певца. The past выступавшего ('who had performed') clashes with the ongoing present listening, pushing the performance into a prior time.Выступающий and выступавший are nominative forms, the wrong case for the direct object of слушает."
+    },
+    {
+      "sentence": "Антон взял написавшую Леной статью.",
+      "translationEnglish": "Anton took the article written by Lena.",
+      "error": "написавшую",
+      "correction": "написанную",
+      "options": [
+        "написанную",
+        "написанная",
+        "пишущую"
+      ],
+      "explanation": "The article is the PATIENT (it was written, by Lena in the instrumental), so the который clause converts to the passive past long form: написанная, here feminine accusative написанную to agree with статью. Написавшую is the ACTIVE past ('the one who wrote'), the wrong voice, and would make статья the writer. Написанная is the nominative (wrong case for the object); пишущую is the active present ('currently writing')."
+    },
+    {
+      "sentence": "Лена встретила вернувшийся из Москвы брата.",
+      "translationEnglish": "Lena met her brother who had returned from Moscow.",
+      "error": "вернувшийся",
+      "correction": "вернувшегося",
+      "options": [
+        "вернувшегося",
+        "вернувшаяся",
+        "возвращающегося"
+      ],
+      "explanation": "The participle replaces 'который вернулся' and must agree with брата, which is masculine accusative (animate), so it takes the ending -вшегося: вернувшегося. Вернувшийся is the nominative ending, wrong for the direct object of встретила. Вернувшаяся is the feminine form, wrong gender for брат; возвращающегося is the active PRESENT ('who is currently returning'), the wrong tense for the completed return."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Студент, _____ книгу, сидит у окна.",
+      "contextEnglish": "The student reading the book sits by the window.",
+      "options": [
+        "читающий",
+        "читаемый"
+      ],
+      "answer": "читающий",
+      "explanation": "The student is the actor (the one doing the reading), so the active form fits. Читающий is the active present participle. Читаемый is the passive present (the noun is being read by someone), which would make the student the patient - impossible here, since the student is clearly reading, not being read."
+    },
+    {
+      "context": "Студент, _____ книгу до конца, закрыл её.",
+      "contextEnglish": "The student who had read the book through to the end closed it.",
+      "options": [
+        "читавший",
+        "прочитавший"
+      ],
+      "answer": "прочитавший",
+      "explanation": "'До конца' signals completion, which is the perfective reading. Прочитавший (active past pf) fits: the reading was finished before the closing. Читавший is the imperfective active past ('had been reading'), which describes ongoing past activity rather than completion. Both are active and past; aspect is what decides."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "конструкция с который",
+      "definition": "the который + finite verb construction (the relative clause that participle phrases replace in writing; in spoken Russian, который clauses are far more common)",
+      "example": "'Студент, который читает книгу' — конструкция с который; 'читающий книгу студент' — её причастная замена."
+    },
+    {
+      "term": "косвенный падеж",
+      "definition": "the non-nominative forms (которому, в котором, от которого, с которым: the dative, genitive, prepositional, or instrumental of который; in these cases no participle can replace the clause)",
+      "example": "Студент, которому я звонил — косвенный падеж, замены нет."
+    },
+    {
+      "term": "причастный оборот",
+      "definition": "participle phrase (the participle plus its dependents; sits before the noun or after it, set off by commas)",
+      "example": "Читающий книгу студент / Студент, читающий книгу — обе позиции причастного оборота допустимы."
+    },
+    {
+      "term": "согласование с определяемым словом",
+      "definition": "agreement with the head noun (the participle agrees in gender, number, and case with the noun the который clause was modifying)",
+      "example": "Прочитавший студент (м, им); прочитавшего студента (м, вин); прочитавшая студентка (ж, им)."
+    }
+  ]
+}

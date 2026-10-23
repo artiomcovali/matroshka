@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-024",
+  "title": "Insurance Nightmare",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Rental company claiming damage you didn't cause - prove innocence",
+  "imageName": "car.fill",
+  "initialPrompt": "Мы нашли царапину на машине. Это 15 000 рублей за ремонт.",
+  "systemPrompt": "You work at car rental. There's a scratch on returned car. Claim it wasn't there before. Back down if customer has photos from pickup. Keep replies short.",
+  "completionCriteria": "User proved pre-existing damage or disputed the claim successfully.",
+  "responseLimit": 15,
+  "hints": [
+    "Эта царапина была раньше (This scratch was there before)",
+    "У меня есть фото (I have photos)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "царапина",
+      "definition": "scratch"
+    },
+    {
+      "word": "повреждение",
+      "definition": "damage"
+    },
+    {
+      "word": "страховка",
+      "definition": "insurance"
+    },
+    {
+      "word": "доказать",
+      "definition": "to prove"
+    },
+    {
+      "word": "аренда",
+      "definition": "rental"
+    },
+    {
+      "word": "фото",
+      "definition": "photo"
+    }
+  ],
+  "objectives": [
+    "Deny causing the damage",
+    "Claim it was pre-existing",
+    "Show evidence (photos)",
+    "Demand they check records",
+    "Get charges dropped"
+  ]
+}

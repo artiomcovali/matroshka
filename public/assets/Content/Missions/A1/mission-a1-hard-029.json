@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-029",
+  "title": "The Warm Water",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "The 'cold' water from the fridge is actually warm",
+  "imageName": "drop.fill",
+  "initialPrompt": "Вот холодная вода. 60 рублей.",
+  "systemPrompt": "Water is warm, not cold. Deny at first: 'Она из холодильника.' Get actually cold water if user insists or asks to check. Keep replies short.",
+  "completionCriteria": "User got actually cold water.",
+  "responseLimit": 15,
+  "hints": [
+    "Она тёплая! (It's warm!)",
+    "Дайте действительно холодную (Give me actually cold one)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "холодная",
+      "definition": "cold"
+    },
+    {
+      "word": "тёплая",
+      "definition": "warm"
+    },
+    {
+      "word": "холодильник",
+      "definition": "refrigerator"
+    },
+    {
+      "word": "другая",
+      "definition": "another"
+    },
+    {
+      "word": "потрогать",
+      "definition": "to touch/feel"
+    }
+  ],
+  "objectives": [
+    "Notice water is warm (тёплая)",
+    "Tell the seller (Она тёплая!)",
+    "Say you want cold (холодная)",
+    "Ask for different bottle",
+    "Get actually cold water"
+  ]
+}

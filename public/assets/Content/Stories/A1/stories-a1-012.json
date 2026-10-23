@@ -1,0 +1,176 @@
+{
+  "id": "a1-012",
+  "level": "A1",
+  "narrator": "Пряник",
+  "title": "Мои вещи",
+  "titleEnglish": "My Things",
+  "description": "Маша ищет свои вещи утром.",
+  "imageName": "key.fill",
+  "fullText": "Я опаздываю на работу! Где мои вещи? Где мой телефон? Я смотрю на стол, но телефона там нет. Потом я смотрю в сумку, и вот он! А где мои ключи? Ключей нет в сумке, и на столе их тоже нет. Я ищу везде. Наконец я вижу ключи на диване. Пряник спит рядом с ними! Я беру свои вещи и говорю Прянику до свидания. Теперь я могу идти на работу.",
+  "reviewVocab": [
+    {
+      "word": "вещи",
+      "definition": "things, belongings",
+      "partOfSpeech": "noun (pl)",
+      "forms": [
+        "вещь",
+        "вещи",
+        "вещей"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "телефон",
+      "definition": "phone",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "телефон",
+        "телефона",
+        "телефону"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "ключи",
+      "definition": "keys",
+      "partOfSpeech": "noun (pl)",
+      "forms": [
+        "ключ",
+        "ключи",
+        "ключей"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "сумка",
+      "definition": "bag, purse",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "сумка",
+        "сумки",
+        "сумку",
+        "в сумке"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Почему Маша спешит?",
+      "options": [
+        "Она опаздывает",
+        "Она голодная",
+        "Она устала"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша опаздывает на работу."
+    },
+    {
+      "prompt": "Где Маша находит телефон?",
+      "options": [
+        "На столе",
+        "В сумке",
+        "На диване"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша находит телефон в сумке."
+    },
+    {
+      "prompt": "Где лежат ключи?",
+      "options": [
+        "В сумке",
+        "На столе",
+        "На диване"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ключи лежат на диване."
+    },
+    {
+      "prompt": "Кто рядом с ключами?",
+      "options": [
+        "Анна",
+        "Пряник",
+        "Никто"
+      ],
+      "correctIndex": 1,
+      "explanation": "Пряник спит рядом с ключами."
+    },
+    {
+      "prompt": "Что ищет Маша?",
+      "options": [
+        "Телефон и ключи",
+        "Только телефон",
+        "Только ключи"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша ищет телефон и ключи."
+    },
+    {
+      "prompt": "Маша находит свои вещи?",
+      "options": [
+        "Только телефон",
+        "Да",
+        "Нет"
+      ],
+      "correctIndex": 1,
+      "explanation": "Да, Маша находит телефон и ключи."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Где мой _____?",
+      "Я смотрю в _____.",
+      "А где мои _____?",
+      "Я ищу _____.",
+      "Ключи на _____!"
+    ],
+    "choices": [
+      "телефон",
+      "сумку",
+      "ключи",
+      "везде",
+      "диване",
+      "столе",
+      "кухне"
+    ],
+    "answers": [
+      "телефон",
+      "сумку",
+      "ключи",
+      "везде",
+      "диване"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "What is the difference between 'это' and 'этот'?",
+      "options": [
+        "'Это' is neutral, 'этот' is masculine",
+        "They are the same",
+        "'Это' is formal"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "demonstratives",
+      "sentenceRef": "Это моя сумка. Этот телефон.",
+      "explanation": "'Это' means 'this is' (neutral pointer), while 'этот/эта/это' are demonstrative adjectives that match noun gender. Example: Это мой дом (This is my house) vs. Этот дом большой (This house is big).",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "How do you say 'in the bag'?",
+      "options": [
+        "в сумке",
+        "на сумке",
+        "у сумки"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "prepositions",
+      "sentenceRef": "Телефон в сумке.",
+      "explanation": "'В сумке' means 'in the bag'. Use 'в' + prepositional case for location (in/inside). Compare: 'в сумку' (into the bag, accusative = direction) vs. 'в сумке' (in the bag, prepositional = location).",
+      "focusArea": "prepositions"
+    }
+  ],
+  "audioFile": "a1-012.m4a",
+  "audioTimingFile": "a1-012-timing.json"
+}

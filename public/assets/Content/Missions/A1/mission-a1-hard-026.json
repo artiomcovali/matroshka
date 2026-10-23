@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-026",
+  "title": "No International Stamps",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Post office claims they have no international stamps",
+  "imageName": "envelope.fill",
+  "initialPrompt": "Марки в Америку? Нет, кончились.",
+  "systemPrompt": "You claim no stamps for America. Actually have them but lazy to look. Find them if user asks politely to check again or suggests alternatives. Keep replies short.",
+  "completionCriteria": "User got stamps or found mailing solution.",
+  "responseLimit": 15,
+  "hints": [
+    "Посмотрите ещё раз, пожалуйста (Please look again)",
+    "Может, есть другие? (Maybe there are others?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "марки",
+      "definition": "stamps"
+    },
+    {
+      "word": "кончились",
+      "definition": "ran out"
+    },
+    {
+      "word": "проверить",
+      "definition": "to check"
+    },
+    {
+      "word": "найти",
+      "definition": "to find"
+    },
+    {
+      "word": "международный",
+      "definition": "international"
+    }
+  ],
+  "objectives": [
+    "Ask for international stamps (марки)",
+    "Learn they're 'unavailable' (кончились)",
+    "Ask to check again (Посмотрите ещё раз)",
+    "Be polite and persistent (пожалуйста)",
+    "Get the stamps"
+  ]
+}

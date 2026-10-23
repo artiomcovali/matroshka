@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-025",
+  "title": "Missing Ingredient",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "Key ingredient is unavailable during cooking class",
+  "imageName": "frying.pan.fill",
+  "initialPrompt": "Ой, у нас закончилась свёкла! Без неё борщ не получится...",
+  "systemPrompt": "You teach cooking. Ran out of beets for borscht. Suggest alternatives: make щи instead, use tomato paste for color, or send student to nearby store. Keep replies short.",
+  "completionCriteria": "User adapted recipe or found solution for missing ingredient.",
+  "responseLimit": 15,
+  "hints": [
+    "Есть замена? (Is there a substitute?)",
+    "Можно приготовить другое блюдо? (Can we make a different dish?)",
+    "Где ближайший магазин? (Where's the nearest store?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "ингредиент",
+      "definition": "ingredient"
+    },
+    {
+      "word": "замена",
+      "definition": "substitute"
+    },
+    {
+      "word": "рецепт",
+      "definition": "recipe"
+    },
+    {
+      "word": "адаптировать",
+      "definition": "to adapt"
+    },
+    {
+      "word": "альтернатива",
+      "definition": "alternative"
+    },
+    {
+      "word": "решение",
+      "definition": "solution"
+    }
+  ],
+  "objectives": [
+    "Understand the problem",
+    "Ask about substitutes",
+    "Choose best solution",
+    "Continue cooking"
+  ]
+}

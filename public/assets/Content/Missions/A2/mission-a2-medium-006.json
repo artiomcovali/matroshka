@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-medium-006",
+  "title": "ATM Problem",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "The ATM kept your card - get help at the bank",
+  "imageName": "creditcard.fill",
+  "initialPrompt": "Добрый день! Вам помочь?",
+  "systemPrompt": "You work at bank. Customer's card got stuck in ATM. Need passport to verify identity. Card will be returned in 2 days. Keep replies short.",
+  "completionCriteria": "User reported ATM problem and you arranged card return.",
+  "responseLimit": 15,
+  "hints": [
+    "Банкомат забрал мою карту (The ATM took my card)",
+    "Что мне делать? (What should I do?)",
+    "У меня есть паспорт (I have my passport)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "банкомат",
+      "definition": "ATM"
+    },
+    {
+      "word": "карта",
+      "definition": "card"
+    },
+    {
+      "word": "забрать",
+      "definition": "to take"
+    },
+    {
+      "word": "паспорт",
+      "definition": "passport"
+    },
+    {
+      "word": "вернуть",
+      "definition": "to return"
+    },
+    {
+      "word": "заявление",
+      "definition": "application/statement"
+    }
+  ],
+  "objectives": [
+    "Explain the ATM took your card (забрал карту)",
+    "Show ID when asked (паспорт)",
+    "Arrange card return"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-medium-019",
+  "title": "Heritage Renovation",
+  "level": "C1",
+  "difficulty": "medium",
+  "description": "Balance building modernization with preservation",
+  "imageName": "house.fill",
+  "initialPrompt": "Вы хотите модернизировать историческое здание. Комиссия по охране памятников имеет серьёзные возражения. Найдите компромисс.",
+  "systemPrompt": "You are heritage preservation officer. Object to modernization plans, cite historical value. Only approve changes that respect original architecture.",
+  "completionCriteria": "User found balance between modernization and preservation.",
+  "responseLimit": 15,
+  "hints": [
+    "Мы сохраним исторический фасад... (We will preserve the historic facade...)",
+    "Современные элементы будут скрыты... (Modern elements will be hidden...)",
+    "Это улучшит использование здания... (This will improve the building's use...)"
+  ],
+  "targetVocabulary": [
+    {"word": "реставрация", "definition": "restoration"},
+    {"word": "памятник", "definition": "monument"},
+    {"word": "фасад", "definition": "facade"},
+    {"word": "охрана", "definition": "protection"},
+    {"word": "модернизация", "definition": "modernization"},
+    {"word": "наследие", "definition": "heritage"}
+  ],
+  "objectives": [
+    "Respect historical value",
+    "Propose compatible changes",
+    "Address preservation concerns",
+    "Achieve functional goals"
+  ]
+}

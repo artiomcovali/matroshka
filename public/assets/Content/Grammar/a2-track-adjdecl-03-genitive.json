@@ -1,0 +1,331 @@
+{
+  "id": "a2-track-adjdecl-03-genitive",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Adjective Declension 3: Genitive Singular",
+  "titleRussian": "Склонение прилагательных 3: родительный падеж",
+  "description": "The genitive singular for hard-stem adjectives. The masculine and neuter share -ого. The feminine has -ой. The same endings cover possession (у меня нет ...), absence, and the prepositions из / у / без / для / от.",
+  "descriptionRussian": "Родительный падеж единственного числа: мужской и средний делят окончание -ого; женский -ой. Эти окончания работают для отрицания (у меня нет ...), отсутствия и предлогов из / у / без / для / от.",
+  "imageName": "minus.circle",
+  "trackId": "a2-adjective-declension-mastery",
+  "trackTitle": "Adjective Full Declension Mastery",
+  "trackTitleRussian": "Склонение прилагательных",
+  "trackIndex": 3,
+  "trackTotal": 9,
+  "intro": "This is where the merge starts. From here to the end of the singular, masculine and neuter take the same ending in every case. The feminine begins a run of its own at the same time: the form you learn today will still be the right one three lessons from now. Two columns, and one of them barely moves.",
+  "rules": [
+    "Masculine and neuter share one genitive singular ending: -ого. Hard-stem -ый and -ое both become -ого in the genitive. Spelled -ого, pronounced /-ovo/.",
+    "Feminine takes -ой in the genitive singular. Hard-stem -ая becomes -ой. The same -ой will return for the feminine dative, instrumental, and prepositional.",
+    "The genitive triggers that govern nouns also govern their adjectives: у меня нет ...; нет ...; без / для / из / от / у + gen; numbers 5+ + gen pl. Adjective and noun move together.",
+    "The masculine and neuter merge from the genitive onward through the prepositional. The feminine has its own pair (-ой across four cases). The plural collapses gender entirely (Lesson 7)."
+  ],
+  "examples": [
+    "У меня нет нового журнала. (I don't have a new magazine.) Журнал is masc; nominative нового → genitive нового, журнал → журнала.",
+    "У меня нет новой книги. (I don't have a new book.) Книга is fem; новая → новой, книга → книги.",
+    "У меня нет нового письма. (I don't have a new letter.) Письмо is neut; новое → нового. Same ending as masculine.",
+    "Маша выходит из старого парка. (Masha is leaving the old park.) 'Из + gen': старый → старого, парк → парка.",
+    "Антон не пьёт холодной воды. (Anton doesn't drink cold water.) 'Нет' takes gen: холодная → холодной, вода → воды.",
+    "Это подарок для умной сестры. (This is a present for the smart sister.) 'Для + gen': умная → умной, сестра → сестры."
+  ],
+  "tables": [
+    {
+      "title": "Genitive Singular Endings (новый as model)",
+      "headers": [
+        "Slot",
+        "Ending",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "masculine",
+          "cells": [
+            "-ого",
+            "у меня нет нового журнала"
+          ]
+        },
+        {
+          "label": "neuter",
+          "cells": [
+            "-ого (= masc)",
+            "у меня нет нового письма"
+          ]
+        },
+        {
+          "label": "feminine",
+          "cells": [
+            "-ой",
+            "у меня нет новой книги"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Genitive Triggers in Use",
+      "headers": [
+        "Trigger",
+        "Adjective + Noun",
+        "Meaning"
+      ],
+      "rows": [
+        {
+          "label": "у ... нет",
+          "cells": [
+            "нет интересного фильма",
+            "no interesting film"
+          ]
+        },
+        {
+          "label": "из + gen",
+          "cells": [
+            "из старого парка",
+            "out of the old park"
+          ]
+        },
+        {
+          "label": "без + gen",
+          "cells": [
+            "без холодной воды",
+            "without cold water"
+          ]
+        },
+        {
+          "label": "для + gen",
+          "cells": [
+            "для умной сестры",
+            "for the smart sister"
+          ]
+        },
+        {
+          "label": "у + gen",
+          "cells": [
+            "у нового друга",
+            "at the new friend's"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я знаю _____ брата.",
+          "promptEnglish": "I know the new brother.",
+          "options": [
+            "новые",
+            "нового",
+            "новый",
+            "новую"
+          ],
+          "answer": "нового",
+          "hint": "Recap from Lesson 2: брат is masculine animate. What does the accusative do?",
+          "explanation": "Recap from Lesson 2. Брат is masculine animate, so the accusative borrows the genitive form: нового. Today's lesson teaches the same -ого as the genitive proper: нового брата would also be 'нет нового брата.' Same ending, two roles."
+        },
+        {
+          "prompt": "У меня нет _____ журнала.",
+          "promptEnglish": "I don't have a new magazine.",
+          "options": [
+            "новый",
+            "новую",
+            "нового",
+            "новое"
+          ],
+          "answer": "нового",
+          "hint": "Журнал is masculine. The nominative -ый becomes which ending in the genitive?",
+          "explanation": "Журнал is masculine. The masculine genitive ending is -ого: нового. Notice the spelling-vs-pronunciation note: write нового, say /novovo/. The trigger 'у меня нет' is a textbook genitive cue; the adjective and the noun both move."
+        },
+        {
+          "prompt": "У меня нет _____ книги.",
+          "promptEnglish": "I don't have a new book.",
+          "options": [
+            "новые",
+            "новой",
+            "новая",
+            "новую"
+          ],
+          "answer": "новой",
+          "hint": "Книга is feminine. The feminine genitive ending is brand new today.",
+          "explanation": "Книга is feminine. The feminine genitive ending is -ой: новой. -ой will return as the feminine ending for the dative, instrumental, and prepositional too; locking it now pays off across the next three lessons."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Антон выходит из _____ парка.",
+          "promptEnglish": "Anton is leaving the old park.",
+          "options": [
+            "старого",
+            "старую",
+            "старая",
+            "старые"
+          ],
+          "answer": "старого",
+          "hint": "Парк is masculine. 'Из' triggers which case?",
+          "explanation": "'Из + gen' triggers the genitive. Парк is masculine, so старый → старого. The pattern of from-where motion (Russian Q: 'Откуда?') always wants the genitive."
+        },
+        {
+          "prompt": "Это подарок для _____ сестры.",
+          "promptEnglish": "This is a gift for the smart sister.",
+          "options": [
+            "умное",
+            "умные",
+            "умной",
+            "умного"
+          ],
+          "answer": "умной",
+          "hint": "Сестра is feminine. Apply the new -ой ending.",
+          "explanation": "'Для + gen' triggers the genitive. Сестра is feminine, so умная → умной. The phrase 'для умной сестры' recurs in Q2.3 of the FIB; you may already feel the pattern setting."
+        },
+        {
+          "prompt": "У меня нет _____ озера.",
+          "promptEnglish": "I don't have a new lake.",
+          "options": [
+            "новое",
+            "новые",
+            "новая",
+            "нового"
+          ],
+          "answer": "нового",
+          "hint": "Озеро is neuter. Does the neuter take its own ending or share with another slot?",
+          "explanation": "Озеро is neuter. From the genitive onward, neuter shares its ending with masculine. -ое becomes -ого: нового. The same form covers a masculine inanimate (нового парка), masculine animate (нового брата as direct object), and neuter (нового письма)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Антон не пьёт _____ воды. (Anton doesn't drink cold water.)"
+    ],
+    "choices": [
+      "холодная",
+      "холодную",
+      "холодной",
+      "холодного"
+    ],
+    "answers": [
+      "холодной"
+    ],
+    "grammarFocus": "'Не пить + gen' (the negated 'drink' verb takes a genitive object). Вода is feminine, so холодная → холодной. The same -ой also marks 'пить без холодной воды' or 'нет холодной воды'."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "У Маши нет интересный журнала.",
+      "translationEnglish": "Masha doesn't have an interesting magazine.",
+      "error": "интересный",
+      "correction": "интересного",
+      "options": [
+        "интересного",
+        "интересная",
+        "интересную"
+      ],
+      "explanation": "'У ... нет' is a genitive trigger, so both the noun and its adjective go into the genitive: журнала and интересного. The masculine -ый becomes -ого (spelled -ого, pronounced /-ovo/). Интересный is the nominative form."
+    },
+    {
+      "sentence": "Маша вышла из старую школы.",
+      "translationEnglish": "Masha came out of the old school.",
+      "error": "старую",
+      "correction": "старой",
+      "options": [
+        "старой",
+        "старая",
+        "старого"
+      ],
+      "explanation": "'Из + genitive' triggers the genitive, so школа becomes школы and the adjective takes the feminine genitive -ой: старой. Старую is the feminine ACCUSATIVE (Я вижу старую школу), an easy slip because both are oblique forms."
+    },
+    {
+      "sentence": "Рядом с городом нет красивое озера.",
+      "translationEnglish": "There is no beautiful lake near the city.",
+      "error": "красивое",
+      "correction": "красивого",
+      "options": [
+        "красивого",
+        "красивая",
+        "красивой"
+      ],
+      "explanation": "Нет is a genitive trigger, and from the genitive onward the neuter shares the masculine ending: -ое becomes -ого, giving красивого озера. Красивое is the nominative/accusative neuter form, correct when the lake is the subject (Красивое озеро далеко). Because the neuter -ое and the noun's -о look alike, learners often leave the adjective unchanged, but the genitive moves it to -ого."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "У меня нет _____ журнала.",
+      "contextEnglish": "I don't have an interesting magazine.",
+      "options": [
+        "интересный",
+        "интересного"
+      ],
+      "answer": "интересного",
+      "explanation": "'Нет + gen' triggers the genitive. Журнал is masculine, so интересный → интересного. Интересный would only be correct in the nominative (the subject of a sentence) or the masculine inanimate accusative."
+    },
+    {
+      "context": "Маша выходит из _____ комнаты.",
+      "contextEnglish": "Masha is leaving the small room.",
+      "options": [
+        "маленькая",
+        "маленькой"
+      ],
+      "answer": "маленькой",
+      "explanation": "'Из + gen' triggers the genitive. Комната is feminine, so маленькая → маленькой. Маленькая would be correct only in the nominative."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each adjective form by its genitive slot.",
+    "categories": [
+      "Masc / neut: -ого",
+      "Feminine: -ой"
+    ],
+    "items": [
+      {
+        "word": "нового (журнала)",
+        "category": "Masc / neut: -ого"
+      },
+      {
+        "word": "новой (книги)",
+        "category": "Feminine: -ой"
+      },
+      {
+        "word": "старого (парка)",
+        "category": "Masc / neut: -ого"
+      },
+      {
+        "word": "старой (улицы)",
+        "category": "Feminine: -ой"
+      },
+      {
+        "word": "красивого (озера)",
+        "category": "Masc / neut: -ого"
+      },
+      {
+        "word": "красивой (сестры)",
+        "category": "Feminine: -ой"
+      },
+      {
+        "word": "интересного (письма)",
+        "category": "Masc / neut: -ого"
+      },
+      {
+        "word": "холодной (воды)",
+        "category": "Feminine: -ой"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "родительный падеж",
+      "definition": "genitive case (marks absence, possession, source of motion, and the object of many prepositions; answers 'Кого? / Чего?')",
+      "example": "В предложении 'У меня нет нового журнала' слова 'нового' и 'журнала' стоят в родительном падеже."
+    },
+    {
+      "term": "отсутствие",
+      "definition": "absence (the meaning of 'у меня нет ...'; the noun and its adjective both go into the genitive)",
+      "example": "В предложении 'У Антона нет новой книги' конструкция 'у ... нет' выражает отсутствие."
+    },
+    {
+      "term": "из",
+      "definition": "out of, from (preposition + genitive; source of motion or origin)",
+      "example": "В фразе 'из старого парка' предлог 'из' требует родительного падежа: старый → старого, парк → парка."
+    }
+  ]
+}

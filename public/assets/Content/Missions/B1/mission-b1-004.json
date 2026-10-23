@@ -1,0 +1,53 @@
+{
+  "id": "mission-b1-004",
+  "title": "Apartment Viewing",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "View an apartment and ask about amenities",
+  "imageName": "house.fill",
+  "initialPrompt": "Добро пожаловать! Это квартира, о которой вы спрашивали. Проходите!",
+  "systemPrompt": "You show apartment. 2 rooms, kitchen, bathroom. 45000₽/month + utilities. Available from 1st. Pets allowed. Keep replies short.",
+  "completionCriteria": "User asked about apartment details and expressed interest or declined.",
+  "responseLimit": 15,
+  "hints": [
+    "Сколько комнат? (How many rooms?)",
+    "Коммунальные включены? (Are utilities included?)",
+    "Можно с животными? (Are pets allowed?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "квартира",
+      "definition": "apartment"
+    },
+    {
+      "word": "аренда",
+      "definition": "rent"
+    },
+    {
+      "word": "комната",
+      "definition": "room"
+    },
+    {
+      "word": "коммунальные",
+      "definition": "utilities"
+    },
+    {
+      "word": "мебель",
+      "definition": "furniture"
+    },
+    {
+      "word": "въезд",
+      "definition": "move-in"
+    },
+    {
+      "word": "договор",
+      "definition": "contract"
+    }
+  ],
+  "objectives": [
+    "Ask about the apartment (квартира)",
+    "Ask about rent and utilities (аренда, коммунальные)",
+    "Ask about move-in date or pets",
+    "Express interest or decision"
+  ]
+}

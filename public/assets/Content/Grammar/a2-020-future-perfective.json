@@ -1,0 +1,387 @@
+{
+  "id": "a2-020-future-perfective",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Future Tense (Perfective)",
+  "titleRussian": "Будущее совершенное",
+  "description": "Simple future with perfective verbs",
+  "descriptionRussian": "Простое будущее время с глаголами совершенного вида",
+  "imageName": "checkmark.circle",
+  "intro": "The perfective future describes actions that WILL BE completed. Unlike imperfective future (буду + infinitive), perfective future uses regular conjugation of the perfective verb - NO буду needed! Compare: Я буду читать (I will be reading) vs. Я прочитаю (I will read/finish reading). Use perfective future for single completed actions, definite results, and promises.",
+  "rules": [
+    "Perfective future looks like present tense conjugation but means FUTURE — this is confusing at first but becomes natural with practice.",
+    "Use perfective future for promises, definite plans, and completed results: Я сделаю это! (I will do it!)",
+    "Key difference: 'Я буду читать' (I will be reading — process) vs 'Я прочитаю' (I will read and finish — result).",
+    "Signal words for perfective future: обязательно (definitely), скоро (soon), завтра утром (tomorrow morning) — all imply a completed result."
+  ],
+  "examples": [
+    "Я прочитаю эту книгу завтра. (I will read this book tomorrow.), completed action",
+    "Она напишет письмо. (She will write a letter.), finished result",
+    "Мы сделаем это! (We will do it!), promise/definite result",
+    "Ты поймёшь позже. (You will understand later.), future realization"
+  ],
+  "tables": [
+    {
+      "title": "Future Perfective",
+      "headers": [
+        "",
+        "прочитать",
+        "написать"
+      ],
+      "rows": [
+        {
+          "label": "я",
+          "cells": [
+            "прочита|ю",
+            "напиш|у"
+          ]
+        },
+        {
+          "label": "ты",
+          "cells": [
+            "прочита|ешь",
+            "напиш|ешь"
+          ]
+        },
+        {
+          "label": "он/она",
+          "cells": [
+            "прочита|ет",
+            "напиш|ет"
+          ]
+        },
+        {
+          "label": "мы",
+          "cells": [
+            "прочита|ем",
+            "напиш|ем"
+          ]
+        },
+        {
+          "label": "вы",
+          "cells": [
+            "прочита|ете",
+            "напиш|ете"
+          ]
+        },
+        {
+          "label": "они",
+          "cells": [
+            "прочита|ют",
+            "напиш|ут"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я _____ эту книгу завтра. (I will read this book tomorrow.)",
+          "promptEnglish": "I will read this book tomorrow.",
+          "options": [
+            "буду читать",
+            "читаю",
+            "прочитаю",
+            "читал"
+          ],
+          "answer": "прочитаю",
+          "hint": "Completed action = perfective future",
+          "explanation": "Completing the book → perfective: прочитаю (no буду)."
+        },
+        {
+          "prompt": "Она _____ тебе завтра. (She will call you tomorrow.)",
+          "promptEnglish": "She will call you tomorrow.",
+          "options": [
+            "звонит",
+            "звонила",
+            "будет звонить",
+            "позвонит"
+          ],
+          "answer": "позвонит",
+          "hint": "Single completed call = perfective",
+          "explanation": "One call → perfective future: позвонит."
+        },
+        {
+          "prompt": "Мы _____ домашнее задание. (We will do the homework.)",
+          "promptEnglish": "We will do the homework.",
+          "options": [
+            "делали",
+            "сделаем",
+            "будем делать",
+            "делаем"
+          ],
+          "answer": "сделаем",
+          "hint": "Completing homework = perfective",
+          "explanation": "Finishing homework → perfective: сделаем."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Ты _____ это письмо? (Will you write this letter?)",
+          "promptEnglish": "Will you write this letter?",
+          "options": [
+            "будешь писать",
+            "писал",
+            "напишешь",
+            "пишешь"
+          ],
+          "answer": "напишешь",
+          "hint": "Completing the letter = perfective",
+          "explanation": "Finishing the letter → perfective: напишешь."
+        },
+        {
+          "prompt": "Они _____ нас в аэропорту. (They will meet us at the airport.)",
+          "promptEnglish": "They will meet us at the airport.",
+          "options": [
+            "встречали",
+            "встретят",
+            "встречают",
+            "будут встречать"
+          ],
+          "answer": "встретят",
+          "hint": "Single meeting = perfective",
+          "explanation": "One meeting → perfective: встретят."
+        },
+        {
+          "prompt": "Я _____ тебе всё! (I will tell you everything!)",
+          "promptEnglish": "I will tell you everything!",
+          "options": [
+            "рассказываю",
+            "расскажу",
+            "рассказывал",
+            "буду рассказывать"
+          ],
+          "answer": "расскажу",
+          "hint": "Complete telling = perfective",
+          "explanation": "Telling everything (completed) → perfective: расскажу."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Когда ты _____ работу? (When will you finish the work?)",
+          "promptEnglish": "When will you finish the work?",
+          "options": [
+            "заканчиваешь",
+            "закончишь",
+            "заканчивал",
+            "будешь заканчивать"
+          ],
+          "answer": "закончишь",
+          "hint": "Finishing = result = perfective",
+          "explanation": "Completing work → perfective: закончишь."
+        },
+        {
+          "prompt": "Он _____ новые слова. (He will learn the new words.)",
+          "promptEnglish": "He will learn the new words.",
+          "options": [
+            "учит",
+            "учил",
+            "выучит",
+            "будет учить"
+          ],
+          "answer": "выучит",
+          "hint": "Learning completely = perfective",
+          "explanation": "Memorizing fully → perfective: выучит."
+        },
+        {
+          "prompt": "Вы _____ ответ позже. (You will understand the answer later.)",
+          "promptEnglish": "You will understand the answer later.",
+          "options": [
+            "понимаете",
+            "поймёте",
+            "будете понимать",
+            "понимали"
+          ],
+          "answer": "поймёте",
+          "hint": "Moment of understanding = perfective",
+          "explanation": "Realization (point in time) → perfective: поймёте."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я обязательно _____ тебе. (I will definitely help you.)",
+      "Она _____ письмо завтра. (She will write a letter tomorrow.)",
+      "Мы _____ это задание. (We will do this task.)",
+      "Ты _____ эту книгу? (Will you read this book?)",
+      "Они _____ нас в аэропорту. (They will meet us at the airport.)"
+    ],
+    "choices": [
+      "помогу",
+      "напишет",
+      "сделаем",
+      "прочитаешь",
+      "встретят",
+      "помогаю",
+      "буду"
+    ],
+    "answers": [
+      "помогу",
+      "напишет",
+      "сделаем",
+      "прочитаешь",
+      "встретят"
+    ],
+    "grammarFocus": "Perfective future = conjugated verb (no буду)",
+    "hints": [
+      "Обязательно (definitely) signals a firm promise. Use perfective future (no буду). What is the я form of помочь?",
+      "She will finish writing the letter. Use perfective future of написать for она.",
+      "We will complete the task. Use perfective future of сделать for мы.",
+      "Will you finish reading the book? Use perfective future of прочитать for ты.",
+      "They will meet us (one completed meeting). Use perfective future of встретить for они."
+    ],
+    "explanations": [
+      "A firm promise uses perfective future: помочь → помогу (no буду needed).",
+      "Completing the letter uses perfective: написать → напишет (she will write and finish).",
+      "Finishing the task uses perfective: сделать → сделаем (we will complete it).",
+      "Reading the book to completion uses perfective: прочитать → прочитаешь.",
+      "A single completed meeting uses perfective: встретить → встретят."
+    ],
+    "options": [
+      [
+        "поможешь",
+        "поможете",
+        "помогу",
+        "поможет"
+      ],
+      [
+        "напишу",
+        "напишем",
+        "напишет",
+        "напишешь"
+      ],
+      [
+        "сделаете",
+        "сделают",
+        "сделаешь",
+        "сделаем"
+      ],
+      [
+        "прочитаем",
+        "прочитаю",
+        "прочитаешь",
+        "прочитает"
+      ],
+      [
+        "встретите",
+        "встретим",
+        "встречу",
+        "встретят"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я _____ книгу весь вечер. (I will be reading a book all evening.)",
+      "contextEnglish": "I will be reading a book all evening.",
+      "options": [
+        "буду читать",
+        "прочитаю"
+      ],
+      "answer": "буду читать",
+      "explanation": "Duration (весь вечер) = imperfective: буду читать."
+    },
+    {
+      "context": "Я _____ книгу до вечера. (I will read the book by evening.)",
+      "contextEnglish": "I will read the book by evening.",
+      "options": [
+        "прочитаю",
+        "буду читать"
+      ],
+      "answer": "прочитаю",
+      "explanation": "Completion by deadline = perfective: прочитаю."
+    }
+  ],
+  "conjugationTable": {
+    "verb": "прочитать",
+    "tense": "future perfective",
+    "paradigm": [
+      "прочитаю",
+      "прочитаешь",
+      "прочитает",
+      "прочитаем",
+      "прочитаете",
+      "прочитают"
+    ],
+    "blanks": [
+      1,
+      3,
+      5
+    ],
+    "hints": [
+      "2nd sg",
+      "1st pl",
+      "3rd pl"
+    ],
+    "explanations": [
+      "Perfective future conjugates like present: прочита- + -ешь for ты",
+      "Perfective future: прочита- + -ем for мы",
+      "Perfective future: прочита- + -ют for они"
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort: Imperfective future (буду +) or Perfective future?",
+    "categories": [
+      "Imperfective (буду + inf)",
+      "Perfective (conjugated)"
+    ],
+    "items": [
+      {
+        "word": "Я буду читать",
+        "category": "Imperfective (буду + inf)"
+      },
+      {
+        "word": "Я прочитаю",
+        "category": "Perfective (conjugated)"
+      },
+      {
+        "word": "Она будет писать",
+        "category": "Imperfective (буду + inf)"
+      },
+      {
+        "word": "Она напишет",
+        "category": "Perfective (conjugated)"
+      },
+      {
+        "word": "Мы будем работать",
+        "category": "Imperfective (буду + inf)"
+      },
+      {
+        "word": "Мы сделаем",
+        "category": "Perfective (conjugated)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "совершенный вид = будущее",
+      "definition": "perfective conjugation = future",
+      "example": "Прочитаю, напишу, сделаю = will do (completed)."
+    },
+    {
+      "term": "без буду!",
+      "definition": "no буду with perfective!",
+      "example": "Я прочитаю (NOT я буду прочитать)."
+    },
+    {
+      "term": "результат / обещание",
+      "definition": "result / promise (= perfective)",
+      "example": "Я сделаю это! (I will do it!)"
+    },
+    {
+      "term": "читать → прочитать",
+      "definition": "to read → to read (completed)",
+      "example": "Буду читать (process) vs прочитаю (done)."
+    }
+  ]
+}

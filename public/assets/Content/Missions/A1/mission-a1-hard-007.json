@@ -1,0 +1,49 @@
+{
+  "id": "mission-a1-hard-007",
+  "title": "The Broken Phone",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Return a broken phone to a skeptical shopkeeper",
+  "imageName": "iphone.gen3.slash",
+  "initialPrompt": "Да? Что вы хотите? Возврат? У вас есть чек?",
+  "systemPrompt": "You are a skeptical phone shop worker. Customer wants to return broken phone. Ask for receipt (чек), then say it's their fault, then offer only repair not refund. Give refund only if they insist politely three times. Keep replies short.",
+  "completionCriteria": "User convinced you to give a refund or accept a repair.",
+  "responseLimit": 15,
+  "hints": [
+    "Он не работает (It doesn't work)",
+    "Верните деньги, пожалуйста (Refund please)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "телефон",
+      "definition": "phone"
+    },
+    {
+      "word": "сломанный",
+      "definition": "broken"
+    },
+    {
+      "word": "чек",
+      "definition": "receipt"
+    },
+    {
+      "word": "деньги",
+      "definition": "money"
+    },
+    {
+      "word": "возврат",
+      "definition": "refund"
+    },
+    {
+      "word": "ремонт",
+      "definition": "repair"
+    }
+  ],
+  "objectives": [
+    "Explain the phone is broken (Телефон сломанный)",
+    "Show you have the receipt (Вот чек)",
+    "Disagree when blamed (Это не моя вина)",
+    "Insist on refund (Верните деньги)",
+    "Get refund or accept repair"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-a1-medium-016",
+  "title": "Bus Ticket Trouble",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "Buy a bus ticket, but your destination isn't on the direct route",
+  "imageName": "bus.fill",
+  "initialPrompt": "Добрый день! Куда вам билет?",
+  "systemPrompt": "You sell bus tickets. Direct buses to: Москва 500₽, Тула 300₽. If asked for Рязань, say no direct bus - they must go to Москва, then transfer. Keep replies short.",
+  "completionCriteria": "User bought appropriate ticket after understanding the route.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужен билет до... (I need a ticket to...)",
+    "Прямой автобус есть? (Is there a direct bus?)",
+    "А как доехать? (And how do I get there?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "автобус",
+      "definition": "bus"
+    },
+    {
+      "word": "билет",
+      "definition": "ticket"
+    },
+    {
+      "word": "прямой",
+      "definition": "direct"
+    },
+    {
+      "word": "пересадка",
+      "definition": "transfer"
+    },
+    {
+      "word": "доехать",
+      "definition": "to reach/get to"
+    },
+    {
+      "word": "остановка",
+      "definition": "stop/station"
+    }
+  ],
+  "objectives": [
+    "Ask for a ticket to your destination",
+    "Handle the no direct route situation",
+    "Understand the transfer option",
+    "Buy the appropriate ticket"
+  ]
+}

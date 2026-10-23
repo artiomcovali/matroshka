@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-012",
+  "title": "Theater Direction",
+  "level": "C1",
+  "difficulty": "easy",
+  "description": "Explain your vision for a play",
+  "imageName": "theatermasks.fill",
+  "initialPrompt": "Вы ставите 'Вишнёвый сад' Чехова. Какова ваша режиссёрская концепция? Как вы интерпретируете финальную сцену?",
+  "systemPrompt": "You are theater producer discussing staging. Ask about interpretation and artistic choices. Supportive creative dialogue.",
+  "completionCriteria": "User explained directorial vision with artistic reasoning.",
+  "responseLimit": 15,
+  "hints": [
+    "Моя интерпретация фокусируется на... (My interpretation focuses on...)",
+    "Финальная сцена символизирует... (The final scene symbolizes...)",
+    "Актёрам я бы предложил... (I would suggest to the actors...)",
+    "Сценография должна передать... (The set design should convey...)"
+  ],
+  "targetVocabulary": [
+    {"word": "режиссёр", "definition": "director"},
+    {"word": "постановка", "definition": "staging"},
+    {"word": "интерпретация", "definition": "interpretation"},
+    {"word": "сценография", "definition": "set design"},
+    {"word": "драматургия", "definition": "dramaturgy"},
+    {"word": "мизансцена", "definition": "mise-en-scène"}
+  ],
+  "objectives": [
+    "Present directorial vision",
+    "Interpret classic work",
+    "Discuss staging choices"
+  ]
+}

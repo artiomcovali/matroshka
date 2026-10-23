@@ -1,0 +1,65 @@
+{
+  "id": "free-a1-intro",
+  "level": "A1",
+  "type": "freeform",
+  "title": "Self-Introduction",
+  "titleRussian": "Представьтесь",
+  "theme": "self-introduction",
+  "prompts": [
+    {
+      "id": "a1-intro-001",
+      "prompt": "Write about yourself. Include your name and where you live.",
+      "promptRussian": "Напишите о себе. Укажите ваше имя и где вы живёте.",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Меня зовут...", "Я живу в..."],
+      "targetGrammar": ["present tense", "nominative case", "prepositional case for location"],
+      "gradingCriteria": ["name included", "location included", "correct case usage"],
+      "sampleResponse": "Меня зовут Анна. Я живу в Москве. Я студентка."
+    },
+    {
+      "id": "a1-intro-002",
+      "prompt": "Introduce yourself. Say your name, age, and nationality.",
+      "promptRussian": "Представьтесь. Скажите ваше имя, возраст и национальность.",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Мне ... лет", "Я русский/русская", "Я американец/американка"],
+      "targetGrammar": ["present tense", "dative case for age", "nationalities"],
+      "gradingCriteria": ["name included", "age included", "nationality included"],
+      "sampleResponse": "Меня зовут Иван. Мне двадцать пять лет. Я русский."
+    },
+    {
+      "id": "a1-intro-003",
+      "prompt": "Write 2-3 sentences about what you like to do.",
+      "promptRussian": "Напишите 2-3 предложения о том, что вам нравится делать.",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Я люблю...", "Мне нравится...", "Я часто..."],
+      "targetGrammar": ["present tense", "infinitive constructions", "нравится construction"],
+      "gradingCriteria": ["activity mentioned", "verb forms correct", "2+ sentences"],
+      "sampleResponse": "Я люблю читать книги. Мне нравится гулять в парке. Я часто слушаю музыку."
+    },
+    {
+      "id": "a1-intro-004",
+      "prompt": "Write about your work or studies. What do you do?",
+      "promptRussian": "Напишите о вашей работе или учёбе. Чем вы занимаетесь?",
+      "minWords": 10,
+      "maxWords": 30,
+      "hints": ["Я работаю...", "Я учусь...", "Я студент/студентка"],
+      "targetGrammar": ["present tense", "profession vocabulary", "nominative case"],
+      "gradingCriteria": ["occupation mentioned", "correct verb usage"],
+      "sampleResponse": "Я студент. Я учусь в университете. Я изучаю русский язык."
+    },
+    {
+      "id": "a1-intro-005",
+      "prompt": "Write a short greeting to a new friend. Say hello and ask how they are.",
+      "promptRussian": "Напишите короткое приветствие новому другу. Поздоровайтесь и спросите, как дела.",
+      "minWords": 8,
+      "maxWords": 25,
+      "hints": ["Привет!", "Как дела?", "Как тебя зовут?"],
+      "targetGrammar": ["informal address", "question formation", "greeting phrases"],
+      "gradingCriteria": ["greeting included", "question included", "appropriate informal register"],
+      "sampleResponse": "Привет! Как дела? Меня зовут Маша. А как тебя зовут?"
+    }
+  ]
+}

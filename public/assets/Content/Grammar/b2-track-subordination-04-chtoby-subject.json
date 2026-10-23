@@ -1,0 +1,433 @@
+{
+  "id": "b2-track-subordination-04-chtoby-subject",
+  "level": "B2",
+  "focusArea": "sentenceStructure",
+  "title": "Subordination 5: чтобы + Past for a Different Subject",
+  "titleRussian": "Подчинение 5: чтобы + прошедшее время при другом подлежащем",
+  "description": "The subject test for чтобы: same subject takes the bare infinitive (Я хочу прийти, I want to come), but a DIFFERENT subject takes чтобы + a past-tense verb (Я хочу, чтобы ты пришёл, I want you to come).",
+  "descriptionRussian": "Проверка по подлежащему для чтобы: то же подлежащее — инфинитив (Я хочу прийти), а ДРУГОЕ подлежащее — чтобы + глагол в прошедшем времени (Я хочу, чтобы ты пришёл).",
+  "imageName": "person.2.fill",
+  "trackId": "b2-subordination-mastery",
+  "trackTitle": "Subordination Mastery",
+  "trackTitleRussian": "Сложноподчинённые предложения",
+  "trackIndex": 5,
+  "trackTotal": 8,
+  "intro": "The rule from lesson 4 has a second half, and it turns on who does what. If the person wanting and the person acting are the same, you use a bare infinitive and no linking word at all. If they are different people, you need the linking word plus a past-tense verb, which is not past in meaning. An infinitive can never introduce a second subject.",
+  "rules": [
+    "The subject test for wanting / asking / demanding: SAME subject -> bare infinitive, no чтобы (Я хочу прийти). DIFFERENT subject -> чтобы + past-tense verb (Я хочу, чтобы ты пришёл).",
+    "After чтобы the verb has the form of the past tense but works as a subjunctive (a wished-for action, not literally past): чтобы он пришёл, чтобы она пришла, чтобы они пришли.",
+    "The чтобы verb agrees in gender and number with ITS OWN subject inside the clause, not with the main subject: Я хочу, чтобы она осталась (fem); ...чтобы они остались (pl).",
+    "An infinitive after хотеть / просить can ONLY mean the wanter does the action. A second subject is impossible with an infinitive; you MUST switch to чтобы + past. *Я хочу тебя прийти does not exist.",
+    "The rule covers хотеть, просить, требовать, советовать, настаивать, and нужно/надо with a different subject: Нужно, чтобы ты помог."
+  ],
+  "examples": [
+    "Я хочу прийти. (I want to come.) - same subject, infinitive.",
+    "Я хочу, чтобы ты пришёл. (I want you to come.) - different subject, чтобы + past.",
+    "Я хочу, чтобы она отдохнула. (I want her to rest.) - different subject; verb agrees with она (fem) -> отдохнула.",
+    "Я прошу подождать. (I ask to wait.) vs Я прошу, чтобы вы подождали. (I ask that you wait.) - same vs different subject.",
+    "Учитель требует, чтобы мы молчали. (The teacher demands that we be quiet.) - different subject, чтобы + past.",
+    "Нужно, чтобы ты помог. (I need you to help / It is necessary that you help.) - different subject after нужно."
+  ],
+  "tables": [
+    {
+      "title": "The subject test: infinitive vs чтобы + past",
+      "headers": [
+        "Subjects",
+        "Structure",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "same (I want / I do)",
+          "cells": [
+            "bare infinitive, no чтобы",
+            "Я хочу прийти."
+          ]
+        },
+        {
+          "label": "different (I want / YOU do)",
+          "cells": [
+            "чтобы + past verb",
+            "Я хочу, чтобы ты пришёл."
+          ]
+        },
+        {
+          "label": "different, feminine doer",
+          "cells": [
+            "чтобы + past (fem)",
+            "Я хочу, чтобы она пришла."
+          ]
+        },
+        {
+          "label": "different, plural doer",
+          "cells": [
+            "чтобы + past (pl)",
+            "Я хочу, чтобы они пришли."
+          ]
+        },
+        {
+          "label": "after нужно, different doer",
+          "cells": [
+            "чтобы + past",
+            "Нужно, чтобы ты помог."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Verb family that uses this rule",
+      "headers": [
+        "Verb",
+        "Meaning",
+        "Different-subject example"
+      ],
+      "rows": [
+        {
+          "label": "хотеть",
+          "cells": [
+            "want",
+            "Я хочу, чтобы ты позвонил."
+          ]
+        },
+        {
+          "label": "просить",
+          "cells": [
+            "ask / request",
+            "Я прошу, чтобы вы подождали."
+          ]
+        },
+        {
+          "label": "требовать",
+          "cells": [
+            "demand",
+            "Учитель требует, чтобы мы молчали."
+          ]
+        },
+        {
+          "label": "советовать",
+          "cells": [
+            "advise",
+            "Я советую, чтобы он отдохнул."
+          ]
+        },
+        {
+          "label": "настаивать",
+          "cells": [
+            "insist",
+            "Она настаивает, чтобы мы остались."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я хочу _____ в отпуск летом.",
+          "promptEnglish": "I want to go on holiday in the summer.",
+          "options": [
+            "чтобы поехал",
+            "чтобы я поехал",
+            "поехать",
+            "что поеду"
+          ],
+          "answer": "поехать",
+          "hint": "Who wants and who goes? Same person or different?",
+          "explanation": "The wanter and the traveller are the same person (Я), so this is the SAME-subject case: bare infinitive поехать, no чтобы. 'Я хочу чтобы я поехал' is wrong because Russian uses the infinitive when one subject does both."
+        },
+        {
+          "prompt": "Я хочу, _____ ты позвонил мне вечером.",
+          "promptEnglish": "I want you to call me in the evening.",
+          "options": [
+            "чтобы",
+            "что",
+            "позвонить",
+            "как"
+          ],
+          "answer": "чтобы",
+          "hint": "The wanter is я, but the caller is ты. Different subjects.",
+          "explanation": "The wanter (я) and the doer (ты) are DIFFERENT, so Russian requires чтобы + past: чтобы ты позвонил. An infinitive is impossible with a second subject. The form позвонил looks past but expresses a wished-for action."
+        },
+        {
+          "prompt": "Мама просит, чтобы мы _____ посуду.",
+          "promptEnglish": "Mum asks us to wash the dishes.",
+          "options": [
+            "помыть",
+            "помыли",
+            "помоем",
+            "моем"
+          ],
+          "answer": "помыли",
+          "hint": "After чтобы with a different subject, which verb form is required?",
+          "explanation": "After чтобы the verb takes the past-tense form: помыли (agreeing with мы, plural). Not the infinitive (помыть) and never a present or future (моем / помоем), because чтобы forbids finite present/future verbs."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я хочу, чтобы она _____ немного.",
+          "promptEnglish": "I want her to rest a little.",
+          "options": [
+            "отдохнул",
+            "отдохнула",
+            "отдохнуть",
+            "отдохнёт"
+          ],
+          "answer": "отдохнула",
+          "hint": "After чтобы the verb agrees with ITS OWN subject. Who rests here?",
+          "explanation": "The doer inside the clause is она (feminine), so the past-tense form agrees with her: отдохнула. The main subject (я) does not control the ending; the clause subject (она) does.Отдохнул would be masculine; отдохнуть and отдохнёт are the wrong forms after чтобы."
+        },
+        {
+          "prompt": "Он решил _____ дома и отдохнуть.",
+          "promptEnglish": "He decided to stay home and rest.",
+          "options": [
+            "чтобы остался",
+            "что остался",
+            "оставаться чтобы",
+            "остаться"
+          ],
+          "answer": "остаться",
+          "hint": "Who decided and who stays? Same person.",
+          "explanation": "He both decides and stays, so this is the SAME-subject case: bare infinitive остаться (and отдохнуть), no чтобы. When the decider is also the doer, Russian uses the infinitive."
+        },
+        {
+          "prompt": "Учитель требует, чтобы ученики _____ внимательно.",
+          "promptEnglish": "The teacher demands that the pupils listen attentively.",
+          "options": [
+            "слушать",
+            "слушают",
+            "слушали",
+            "будут слушать"
+          ],
+          "answer": "слушали",
+          "hint": "Different subjects (teacher / pupils) and the connector is чтобы. Which form?",
+          "explanation": "The demander (учитель) and the doers (ученики) differ, so чтобы + past: слушали (plural, agreeing with ученики).Требовать behaves like хотеть and просить. The present слушают and future будут слушать are both impossible after чтобы."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я хочу, _____ завтра.",
+          "promptEnglish": "I want you to come tomorrow.",
+          "options": [
+            "чтобы ты пришёл",
+            "чтобы ты придёшь",
+            "что ты пришёл",
+            "чтобы ты прийти"
+          ],
+          "answer": "чтобы ты пришёл",
+          "hint": "Different subjects: чтобы + which form?",
+          "explanation": "The wanter (я) and the comer (ты) differ, so чтобы + past: чтобы ты пришёл. Придёшь is future, blocked after чтобы; что would report a fact; the infinitive needs the same subject."
+        },
+        {
+          "prompt": "Я хочу _____ завтра.",
+          "promptEnglish": "I want to come tomorrow.",
+          "options": [
+            "прийти",
+            "чтобы я пришёл",
+            "что приду",
+            "пришёл"
+          ],
+          "answer": "прийти",
+          "hint": "Same subject: no чтобы at all.",
+          "explanation": "When the wanter and the doer are the same person, the bare infinitive follows: я хочу прийти. Чтобы я пришёл illegally doubles the subject; что приду reports rather than wants."
+        },
+        {
+          "prompt": "Учитель требует, _____ на уроке.",
+          "promptEnglish": "The teacher demands that we be quiet in class.",
+          "options": [
+            "чтобы мы молчали",
+            "чтобы мы молчим",
+            "что мы молчали",
+            "чтобы мы молчать"
+          ],
+          "answer": "чтобы мы молчали",
+          "hint": "Demands work like wishes: чтобы + past.",
+          "explanation": "Требовать takes чтобы + past for a different subject: чтобы мы молчали. Молчим is present, blocked after чтобы; что would report a fact; the infinitive needs a same-subject frame."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Родители хотят, чтобы их сын _____ врачом. (The parents want their son to become a doctor.)"
+    ],
+    "choices": [
+      "стал",
+      "стать",
+      "станет",
+      "стала"
+    ],
+    "answers": [
+      "стал"
+    ],
+    "grammarFocus": "Different subjects (родители want, сын becomes), so чтобы + past: стал. The form agrees with сын (masculine singular). The infinitive стать would need a same-subject reading, and станет (future) is forbidden after чтобы."
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Я",
+        "хочу",
+        "чтобы",
+        "ты",
+        "позвонил"
+      ],
+      "answer": "Я хочу, чтобы ты позвонил",
+      "translation": "I want you to call. (Different subjects: я want, ты call -> чтобы + past позвонил.)",
+      "acceptableVariants": [
+        "Я хочу, чтобы ты позвонил."
+      ]
+    },
+    {
+      "words": [
+        "Я",
+        "хочу",
+        "отдохнуть"
+      ],
+      "answer": "Я хочу отдохнуть",
+      "translation": "I want to rest. (Same subject: я want, я rest -> bare infinitive, no чтобы.)",
+      "acceptableVariants": [
+        "Я хочу отдохнуть."
+      ]
+    },
+    {
+      "words": [
+        "Мама",
+        "хочет",
+        "чтобы",
+        "дети",
+        "помогли"
+      ],
+      "answer": "Мама хочет, чтобы дети помогли",
+      "translation": "Mum wants the children to help. (Different subjects -> чтобы + past помогли, agreeing with дети, plural.)",
+      "acceptableVariants": [
+        "Мама хочет, чтобы дети помогли."
+      ]
+    },
+    {
+      "words": [
+        "Нужно",
+        "чтобы",
+        "она",
+        "пришла",
+        "вовремя"
+      ],
+      "answer": "Нужно, чтобы она пришла вовремя",
+      "translation": "She needs to come on time. (After нужно with a different subject -> чтобы + past пришла, feminine.)",
+      "acceptableVariants": [
+        "Нужно, чтобы она пришла вовремя."
+      ]
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Я хочу, чтобы ты придёшь завтра.",
+      "translationEnglish": "I want you to come tomorrow.",
+      "error": "придёшь",
+      "correction": "пришёл",
+      "options": [
+        "пришёл",
+        "прийти",
+        "придёт"
+      ],
+      "explanation": "After чтобы with a different subject the verb takes the past-tense form, which works as a subjunctive: пришёл, agreeing with ты as masculine.Придёшь is a finite future, and чтобы never allows a present or future finite verb.Прийти is an infinitive, used only when the subject is the same as the wanter, and придёт is the wrong person (he, not you).",
+      "hint": "After чтобы the verb is never future. Which form does чтобы demand?"
+    },
+    {
+      "sentence": "Я хочу, чтобы я купить новую машину.",
+      "translationEnglish": "I want to buy a new car.",
+      "error": "чтобы я купить",
+      "correction": "купить",
+      "options": [
+        "купить",
+        "чтобы я купил",
+        "чтобы купить"
+      ],
+      "explanation": "The wanter and the buyer are the same person (я), so this is the same-subject case: a bare infinitive купить with no чтобы at all. Чтобы plus a repeated я is impossible, because чтобы introduces a DIFFERENT subject with a past-tense verb."
+    },
+    {
+      "sentence": "Я хочу, чтобы выучить русский язык.",
+      "translationEnglish": "I want to learn Russian.",
+      "error": "чтобы выучить",
+      "correction": "выучить",
+      "options": [
+        "выучить",
+        "чтобы я выучил",
+        "чтобы выучил"
+      ],
+      "explanation": "The wanter and the learner are the same person, so Russian uses a bare infinitive after хотеть with no чтобы: Я хочу выучить.Чтобы выучить is wrong because чтобы signals a switch to a different subject and then requires a past-tense verb, not an infinitive.Чтобы я выучил wrongly puts the same subject under чтобы, and чтобы выучил drops the subject but still uses чтобы where the same-subject infinitive belongs.",
+      "hint": "One person both wants and learns. Same-subject means no чтобы."
+    },
+    {
+      "sentence": "Я хочу, чтобы ты выучить русский язык.",
+      "translationEnglish": "I want you to learn Russian.",
+      "error": "чтобы ты выучить",
+      "correction": "чтобы ты выучил",
+      "options": [
+        "чтобы ты выучил",
+        "чтобы ты выучишь",
+        "что ты выучил"
+      ],
+      "explanation": "The wanter (я) and the learner (ты) are different people, so Russian needs чтобы plus a past-tense verb agreeing with ты: чтобы ты выучил. An infinitive after хотеть can only mean the wanter does the action, so чтобы ты выучить is impossible with a second subject.Чтобы ты выучишь uses the forbidden future, and что ты выучил would report a fact rather than express the wish.",
+      "hint": "Two different people (I want, you learn). After чтобы the verb must be past, not infinitive."
+    },
+    {
+      "sentence": "Нужно, чтобы все придут вовремя.",
+      "translationEnglish": "It is necessary that everyone come on time.",
+      "error": "придут",
+      "correction": "пришли",
+      "options": [
+        "пришли",
+        "прийти",
+        "пришёл"
+      ],
+      "explanation": "After нужно with a different subject, Russian uses чтобы plus a past-tense verb: пришли, agreeing with все as plural.Придут is a finite future, which чтобы never permits, even though the meaning points to the future.Прийти is an infinitive, used only when there is no separate subject, and пришёл is masculine singular, wrong for the plural все.",
+      "hint": "Нужно, чтобы forces a past-form verb. Make it agree with все (plural)."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я хочу _____ домой. (I want to go home myself.)",
+      "contextEnglish": "I want to go home (myself).",
+      "options": [
+        "пойти",
+        "чтобы пошёл"
+      ],
+      "answer": "пойти",
+      "explanation": "Same subject (I want, I go), so the bare infinitive пойти, no чтобы. 'чтобы пошёл' would require a different doer. When one person both wants and does, Russian always uses the infinitive."
+    },
+    {
+      "context": "Я хочу, _____ ты пошёл домой. (I want you to go home.)",
+      "contextEnglish": "I want you to go home.",
+      "options": [
+        "пойти",
+        "чтобы"
+      ],
+      "answer": "чтобы",
+      "explanation": "Different subjects (I want, YOU go), so чтобы + past: чтобы ты пошёл. The infinitive пойти is impossible here because a second subject (ты) has appeared. The presence of a new subject is what forces чтобы."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "Я хочу прийти / Я хочу, чтобы ты пришёл",
+      "definition": "the subject test: same subject (wanter = doer) -> bare infinitive, no чтобы; different subjects -> чтобы + a past-tense verb.",
+      "example": "Я хочу прийти (same) vs Я хочу, чтобы ты пришёл (different)."
+    },
+    {
+      "term": "чтобы он пришёл / она пришла / они пришли",
+      "definition": "after чтобы the verb takes the past-tense form but functions as a subjunctive (a wished-for action). It agrees with its own clause subject in gender and number.",
+      "example": "чтобы он пришёл / чтобы она пришла / чтобы они пришли."
+    },
+    {
+      "term": "Нужно, чтобы ты помог",
+      "definition": "нужно / надо with a different subject also takes чтобы + past; an infinitive after хотеть can only mean the wanter acts, so a second subject forces чтобы + past.",
+      "example": "Нужно, чтобы ты помог. Не 'Я хочу тебя прийти', а 'Я хочу, чтобы ты пришёл'."
+    }
+  ]
+}

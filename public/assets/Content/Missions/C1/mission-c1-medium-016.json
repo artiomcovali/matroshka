@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-medium-016",
+  "title": "Publishing Deadline",
+  "level": "C1",
+  "difficulty": "medium",
+  "description": "Negotiate manuscript deadline extension",
+  "imageName": "book.closed.fill",
+  "initialPrompt": "Ваша рукопись должна была быть сдана месяц назад. Типография уже забронирована. Объясните задержку и предложите решение.",
+  "systemPrompt": "You are frustrated publisher. Deadline missed, costs mounting. Only accept extension if author shows concrete progress and realistic timeline.",
+  "completionCriteria": "User negotiated deadline extension successfully.",
+  "responseLimit": 15,
+  "hints": [
+    "Рукопись почти завершена... (The manuscript is almost complete...)",
+    "Мне нужно ещё две недели... (I need two more weeks...)",
+    "Качество книги стоит... (The book's quality is worth...)"
+  ],
+  "targetVocabulary": [
+    {"word": "рукопись", "definition": "manuscript"},
+    {"word": "дедлайн", "definition": "deadline"},
+    {"word": "издательство", "definition": "publishing house"},
+    {"word": "редактура", "definition": "editing"},
+    {"word": "тираж", "definition": "print run"},
+    {"word": "продление", "definition": "extension"}
+  ],
+  "objectives": [
+    "Explain delay reasons",
+    "Show concrete progress",
+    "Propose realistic timeline",
+    "Maintain publisher relationship"
+  ]
+}

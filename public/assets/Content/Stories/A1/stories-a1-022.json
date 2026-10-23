@@ -1,0 +1,173 @@
+{
+  "id": "a1-022",
+  "level": "A1",
+  "narrator": "Маша",
+  "title": "У врача",
+  "titleEnglish": "At the Doctor",
+  "description": "Маша плохо себя чувствует.",
+  "imageName": "stethoscope",
+  "fullText": "Я плохо себя чувствую. У меня болит голова и горло, поэтому я иду к врачу. Врач спрашивает, что у меня болит, и я говорю, что голова и горло. Врач смотрит моё горло и говорит, что у меня простуда. Мне нужно отдыхать и пить много воды. Врач даёт мне рецепт. Я благодарю доктора, иду в аптеку, покупаю лекарство и иду домой спать.",
+  "reviewVocab": [
+    {
+      "word": "врач",
+      "definition": "doctor",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "врач",
+        "врача",
+        "к врачу"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "болеть",
+      "definition": "to hurt, to be sick",
+      "partOfSpeech": "verb (impf)",
+      "forms": [
+        "болит",
+        "болят"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "голова",
+      "definition": "head",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "голова",
+        "головы",
+        "голову"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "лекарство",
+      "definition": "medicine",
+      "partOfSpeech": "noun (n)",
+      "forms": [
+        "лекарство",
+        "лекарства"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Как чувствует себя Маша?",
+      "options": [
+        "Хорошо",
+        "Плохо",
+        "Отлично"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша плохо себя чувствует."
+    },
+    {
+      "prompt": "Что болит у Маши?",
+      "options": [
+        "Живот",
+        "Голова и горло",
+        "Нога"
+      ],
+      "correctIndex": 1,
+      "explanation": "У неё болит голова и горло."
+    },
+    {
+      "prompt": "Куда идёт Маша?",
+      "options": [
+        "В больницу",
+        "В аптеку",
+        "К врачу"
+      ],
+      "correctIndex": 2,
+      "explanation": "Она идёт к врачу."
+    },
+    {
+      "prompt": "Что у Маши?",
+      "options": [
+        "Грипп",
+        "Простуда",
+        "Аллергия"
+      ],
+      "correctIndex": 1,
+      "explanation": "У Маши простуда."
+    },
+    {
+      "prompt": "Что нужно делать Маше?",
+      "options": [
+        "Работать",
+        "Гулять",
+        "Отдыхать и пить воду"
+      ],
+      "correctIndex": 2,
+      "explanation": "Вам нужно отдыхать и пить много воды."
+    },
+    {
+      "prompt": "Куда идёт Маша после врача?",
+      "options": [
+        "В аптеку",
+        "В кафе",
+        "На работу"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша идёт в аптеку, покупает лекарство."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Я плохо себя _____.",
+      "У меня болит _____ и горло.",
+      "Я иду к _____.",
+      "У меня _____.",
+      "Я покупаю _____ в аптеке."
+    ],
+    "choices": [
+      "чувствую",
+      "голова",
+      "врачу",
+      "простуда",
+      "лекарство",
+      "грипп",
+      "аптеку"
+    ],
+    "answers": [
+      "чувствую",
+      "голова",
+      "врачу",
+      "простуда",
+      "лекарство"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "What does 'у меня болит голова' mean?",
+      "options": [
+        "I need a head",
+        "I have a head",
+        "My head hurts"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "expressions",
+      "sentenceRef": "У неё болит голова.",
+      "explanation": "'У + genitive + болит + body part' = 'someone's body part hurts'. For plural parts, use 'болят'. Examples: У меня болит голова (My head hurts), У меня болят ноги (My legs hurt).",
+      "focusArea": "sentenceStructure"
+    },
+    {
+      "prompt": "What case is 'к врачу'?",
+      "options": [
+        "Dative",
+        "Prepositional",
+        "Genitive"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "cases",
+      "sentenceRef": "Она идёт к врачу.",
+      "explanation": "'К' + dative case means 'to (a person)'. Врач → к врачу (to the doctor), мама → к маме (to mom). Use 'к' when going to see someone. Example: Я иду к другу (I'm going to my friend's place).",
+      "focusArea": "cases"
+    }
+  ],
+  "audioFile": "a1-022.m4a",
+  "audioTimingFile": "a1-022-timing.json"
+}

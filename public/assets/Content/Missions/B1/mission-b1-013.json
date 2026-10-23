@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-013",
+  "title": "Tech Support Call",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "Call tech support to fix your internet connection",
+  "imageName": "wifi.exclamationmark",
+  "initialPrompt": "Техническая поддержка, здравствуйте. Назовите ваш номер договора, пожалуйста.",
+  "systemPrompt": "You are internet tech support. Ask for contract number, describe problem. Guide through: restart router, check lights, try different device. If still broken, schedule technician visit (tomorrow 10-14 or 14-18). Keep replies short.",
+  "completionCriteria": "User troubleshot with your help or scheduled technician visit.",
+  "responseLimit": 15,
+  "hints": [
+    "Интернет не работает (The internet doesn't work)",
+    "Я уже перезагрузил роутер (I already restarted the router)",
+    "Когда может прийти мастер? (When can a technician come?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "интернет",
+      "definition": "internet"
+    },
+    {
+      "word": "роутер",
+      "definition": "router"
+    },
+    {
+      "word": "перезагрузить",
+      "definition": "to restart"
+    },
+    {
+      "word": "подключение",
+      "definition": "connection"
+    },
+    {
+      "word": "мастер",
+      "definition": "technician"
+    },
+    {
+      "word": "проверить",
+      "definition": "to check"
+    }
+  ],
+  "objectives": [
+    "Provide your contract number",
+    "Describe the internet problem",
+    "Follow troubleshooting steps",
+    "Report results of troubleshooting",
+    "Schedule technician if needed"
+  ]
+}

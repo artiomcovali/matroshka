@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-004",
+  "title": "Table for Two",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "Get a table at a busy restaurant",
+  "imageName": "fork.knife.circle.fill",
+  "initialPrompt": "Добрый вечер! К сожалению, все столики заняты. Нужно подождать 15 минут.",
+  "systemPrompt": "You are a restaurant host. All tables are taken. Wait time is 15 minutes. Offer to take their name. When ready, seat them. Keep replies short.",
+  "completionCriteria": "User gave their name, waited, and got a table.",
+  "responseLimit": 15,
+  "hints": [
+    "Хорошо, я подожду (OK, I'll wait)",
+    "Меня зовут... (My name is...)",
+    "Сколько ждать? (How long to wait?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "столик",
+      "definition": "table"
+    },
+    {
+      "word": "занят",
+      "definition": "occupied/busy"
+    },
+    {
+      "word": "ждать",
+      "definition": "to wait"
+    },
+    {
+      "word": "минута",
+      "definition": "minute"
+    },
+    {
+      "word": "готово",
+      "definition": "ready"
+    }
+  ],
+  "objectives": [
+    "Learn tables are full (заняты)",
+    "Give your name (Меня зовут...)",
+    "Wait and get seated"
+  ]
+}

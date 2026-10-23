@@ -1,0 +1,312 @@
+{
+  "id": "b2-track-participle-07-mixed-review",
+  "level": "B2",
+  "focusArea": "other",
+  "title": "Participles 8: Mixed Review",
+  "titleRussian": "Причастия 8: повторение",
+  "description": "Synthesis of all participle types from this track through one five-step diagnostic, including the -ить-family (-енн / -ённ) split. No new material - just consolidation and production.",
+  "descriptionRussian": "Синтез всех типов причастий из этого блока через единый пятишаговый разбор, включая образование от глаголов на -ить (-енн / -ённ). Ничего нового — только закрепление и самостоятельное образование форм.",
+  "imageName": "graduationcap.fill",
+  "trackId": "b2-participles-mastery",
+  "trackTitle": "Participles Mastery",
+  "trackTitleRussian": "Причастия",
+  "trackIndex": 8,
+  "trackTotal": 8,
+  "intro": "Five questions produce any participle: active or passive, present or past, long or short, then the ending, then whether the verb was even allowed to form it. That last one matters more here than anywhere else, because each of the four carries aspect restrictions and two of them are quite narrow.",
+  "rules": [
+    "Five-step diagnostic for any participle phrase: (1) active or passive? (2) present or past? (3) long or short form (passive past only)? (4) agreement: gender, number, case for long forms; gender and number only for short forms. (5) который replaceability.",
+    "Aspect restrictions: active present is imperfective only; passive present is imperfective transitive only and rare; active past forms from both aspects; passive past long and short are perfective transitive only.",
+    "Voice and timing decide form, not the verb itself. Same root verb прочитать gives different participles depending on whether the noun is the actor or the patient and whether the action is simultaneous or prior.",
+    "Long form is attributive (sits with the noun: прочитанная книга); short form is predicative (sits as the predicate after the subject: книга прочитана). Putting either in the wrong slot produces an ungrammatical sentence."
+  ],
+  "examples": [
+    "Сидящий у окна студент читает книгу. (active present: the student is the actor, simultaneous with the main verb)",
+    "Прочитавший статью студент закрыл журнал. (active past pf: the student is the actor, action prior to the main verb)",
+    "Книга, читаемая студентом, лежит на столе. (passive present: the book is the patient, simultaneous; rare register)",
+    "Решённая Антоном задача лежала на столе. (passive past long from решить: -ённ because the suffix is stressed)",
+    "Книга прочитана. (passive past short: the book is the subject, the participle is the complete predicate)"
+  ],
+  "tables": [
+    {
+      "title": "Five participle types: formation, example, restriction",
+      "headers": [
+        "Type",
+        "Formation",
+        "Example",
+        "Aspect / restriction"
+      ],
+      "rows": [
+        {
+          "label": "Active present (-щий)",
+          "cells": [
+            "from 3pl present, drop ending, add -щ + adjective endings",
+            "читающий",
+            "imperfective only"
+          ]
+        },
+        {
+          "label": "Active past (-вший / -ший)",
+          "cells": [
+            "from past stem + -вш or -ш + adjective endings",
+            "читавший, прочитавший, нёсший",
+            "both aspects"
+          ]
+        },
+        {
+          "label": "Passive present (-мый)",
+          "cells": [
+            "from 1pl present + -ый",
+            "читаемый, любимый, уважаемый",
+            "imperfective transitive; rare in modern Russian"
+          ]
+        },
+        {
+          "label": "Passive past long (-нный / -тый / -енн / -ённ)",
+          "cells": [
+            "from perfective infinitive; -ить verbs take -енн / -ённ by stress",
+            "прочитанный, открытый, решённый, построенный",
+            "perfective transitive; attributive"
+          ]
+        },
+        {
+          "label": "Passive past short",
+          "cells": [
+            "drop final -ый and one of the two н from the long form",
+            "прочитан, прочитана, прочитано, прочитаны",
+            "perfective transitive; predicative; agrees in gender and number only"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Студент, который вернулся из Москвы, позвонил брату.",
+          "promptEnglish": "Pick the participle phrase that replaces the который clause.",
+          "options": [
+            "Возвращающийся из Москвы студент позвонил брату.",
+            "Возвращавшийся из Москвы студент позвонил брату.",
+            "Вернувшийся из Москвы студент позвонил брату.",
+            "Вернувшись из Москвы, студент позвонил брату."
+          ],
+          "answer": "Вернувшийся из Москвы студент позвонил брату.",
+          "hint": "который вернулся (perfective past, the student is the actor) - which participle type?",
+          "explanation": "Вернулся is perfective past and студент is the actor, so the participle is active past pf: вернувшийся. Возвращающийся is the active present participle of imperfective возвращаться ('who is returning right now'); возвращавшийся is active past imperfective ('who had been returning'); вернувшись is the perfective verbal adverb, not a participle."
+        },
+        {
+          "prompt": "Маша заметила сидящего у окна мужчину. Which participle type is сидящего?",
+          "promptEnglish": "Identify the participle type of сидящего.",
+          "options": [
+            "Active present participle",
+            "Active past participle (impf)",
+            "Passive present participle",
+            "Passive past long form"
+          ],
+          "answer": "Active present participle",
+          "hint": "Step 1: is the man performing the action or being acted upon? Step 2: is the sitting simultaneous with the main verb (заметила) or prior to it?",
+          "explanation": "Сидящий is the active present participle of сидеть. Step 1: the man is the actor (он сидит). Step 2: the sitting is simultaneous with the noticing (Masha noticed him while he was sitting). Active + present → -щий form. Сидящего is the masculine accusative (modifies мужчину, the direct object of заметила)."
+        },
+        {
+          "prompt": "Я знаю студентов, _____ статью.",
+          "promptEnglish": "Pick the form that agrees in gender, number, and case.",
+          "options": [
+            "прочитавший",
+            "прочитавшая",
+            "прочитавшие",
+            "прочитавших"
+          ],
+          "answer": "прочитавших",
+          "hint": "Step 4 (agreement): студентов is animate plural accusative (= genitive). The participle must match.",
+          "explanation": "Студентов is accusative plural (= genitive plural for animate nouns; знаю takes the accusative). The participle takes the same case: прочитавших. Прочитавший is masculine singular nominative; прочитавшая is feminine singular; прочитавшие is plural NOMINATIVE - the wrong case for the direct-object slot."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Дверь _____.",
+          "promptEnglish": "Pick the form that fits this slot. (The door is open.)",
+          "options": [
+            "Открытая",
+            "Открыта",
+            "Открыт",
+            "Открытое"
+          ],
+          "answer": "Открыта",
+          "hint": "Step 3 (long or short): is the participle attributive (with the noun) or predicative (after the subject)?",
+          "explanation": "The slot is a predicate (Дверь is the subject; the participle is the complete predicate), so the short form is required. Открыта is the short feminine, agreeing with дверь. Открытая is the long feminine (attributive only); Открыт is short MASCULINE (wrong gender); Открытое is long neuter."
+        },
+        {
+          "prompt": "Which sentence's который clause CANNOT be replaced by a participle?",
+          "promptEnglish": "Pick the который clause that cannot be converted because который sits in a case other than the nominative.",
+          "options": [
+            "Дом, в котором я жил, давно снесли.",
+            "Студент, который читает книгу, сидит у окна.",
+            "Книга, которую написал Антон, лежит на столе.",
+            "Студент, который вернулся, снял пальто."
+          ],
+          "answer": "Дом, в котором я жил, давно снесли.",
+          "hint": "Step 5: look at the case of который. The conversion works only when который is nominative (active) or accusative patient (passive).",
+          "explanation": "В котором is prepositional - a case other than the nominative. No Russian participle expresses 'in which I lived' as one word, so the который clause stays. The other three convert: который читает → читающий; которую написал → написанная; который вернулся → вернувшийся."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша получила _____ Антоном статью."
+    ],
+    "choices": [
+      "написавшую",
+      "написанную",
+      "пишущую",
+      "написана"
+    ],
+    "answers": [
+      "написанную"
+    ],
+    "grammarFocus": "Passive past long form, feminine accusative: the article was written by Anton (perfective past), modifying статью inside the direct-object slot.",
+    "hints": [
+      "Step 1: the article is the patient (it was written). Step 2: the writing is finished. Step 3: the slot is attributive. Step 4: feminine accusative."
+    ],
+    "explanations": [
+      "Написанную is the passive past long form, feminine accusative, agreeing with статью. Source: 'статью, которую написал Антон.' Написавшую is active past feminine acc ('the article that had written,' impossible); пишущую is active present feminine acc ('the article that is writing,' impossible); написана is the SHORT form, predicative only; wrong slot."
+    ]
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Антон видит игравших во дворе детей.",
+      "translationEnglish": "Anton sees the children playing in the yard.",
+      "error": "игравших",
+      "correction": "играющих",
+      "options": [
+        "играющих",
+        "играемых",
+        "играющие"
+      ],
+      "explanation": "Anton sees the children AS THEY PLAY, and видит is present, so 'которые играют' converts to the active PRESENT participle, here plural accusative играющих to agree with детей. The past игравших ('who had been playing') shifts the play into a prior time. Играемых is passive ('being played'), the wrong voice for children who act; играющие is nominative, the wrong case for the object of видит."
+    },
+    {
+      "sentence": "Лена нашла потерявший вчера кошелёк.",
+      "translationEnglish": "Lena found the wallet lost yesterday.",
+      "error": "потерявший",
+      "correction": "потерянный",
+      "options": [
+        "потерянный",
+        "теряемый",
+        "потерянная"
+      ],
+      "explanation": "The wallet is the PATIENT (it was lost), so the passive past long form is needed: потерянный, masculine to agree with кошелёк. Потерявший is ACTIVE past ('the one who lost something'), the wrong voice. Теряемый is passive PRESENT ('being lost'), wrong tense for a completed loss; потерянная is feminine, wrong gender for the masculine кошелёк."
+    },
+    {
+      "sentence": "Письмо было написанное вечером.",
+      "translationEnglish": "The letter was written in the evening.",
+      "error": "написанное",
+      "correction": "написано",
+      "options": [
+        "написано",
+        "написана",
+        "написавшее"
+      ],
+      "explanation": "With было the slot is a passive past PREDICATE, so it takes the short form: было написано. The long form написанное is attributive and cannot serve as the standalone predicate. Написано is short neuter, agreeing with the neuter subject письмо. Написана is short feminine (wrong gender); написавшее is active past ('a thing that had written'), wrong voice."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "_____ статью студент задал вопрос.",
+      "contextEnglish": "The student who had read the article asked a question.",
+      "options": [
+        "Прочитавший",
+        "Прочитанный"
+      ],
+      "answer": "Прочитавший",
+      "explanation": "Same root, same tense, different voice. Прочитавший is the active past participle (the student is the actor, the one who read). Прочитанный is the passive past long form (the noun is the patient) and would describe the article, not the student. Step 1 of the diagnostic decides."
+    },
+    {
+      "context": "Школа _____ в 1980 году.",
+      "contextEnglish": "The school was built in 1980.",
+      "options": [
+        "построена",
+        "построенная"
+      ],
+      "answer": "построена",
+      "explanation": "The slot is a predicate (Школа is the subject; the participle is the complete predicate), so the short form построена is required. The long form построенная would only fit an attribute slot ('the school built in 1980' as a noun phrase, not a complete sentence). Step 3 of the diagnostic decides."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Сидящий у окна студент читает книгу.",
+      "question": "Which participle type is сидящий?",
+      "options": [
+        "Active present",
+        "Active past",
+        "Passive present",
+        "Passive past long"
+      ],
+      "answer": "Active present",
+      "explanation": "Step 1: the student is the actor (он сидит) → active. Step 2: the sitting is simultaneous with читает → present. Active + present = -щий, from the 3pl present (сидят, drop -ят, add -ящ + ий = сидящий)."
+    },
+    {
+      "sentence": "Прочитавший статью студент закрыл журнал.",
+      "question": "Which participle type is прочитавший?",
+      "options": [
+        "Active present",
+        "Active past (perfective)",
+        "Passive past long",
+        "Passive past short"
+      ],
+      "answer": "Active past (perfective)",
+      "explanation": "Step 1: the student is the actor (he read) → active. Step 2: the reading is prior to closing the journal → past. The verb is perfective (прочитать). Active + past pf = -вший, from the past stem прочита- + -вш + ий = прочитавший."
+    },
+    {
+      "sentence": "Антон получил решённую задачу.",
+      "question": "Which participle type is решённую, and why the -ённ-?",
+      "options": [
+        "Active past pf",
+        "Passive past long",
+        "Passive past short",
+        "Passive present"
+      ],
+      "answer": "Passive past long",
+      "explanation": "Step 1: the problem is the patient → passive. Step 2: the solving is prior to receiving → past. Step 3: it modifies задачу as an attribute → long. Step 4: feminine accusative → решённую (from решённый). решить is a verb in -ить with the suffix stressed, so it takes stressed -ённ-, not unstressed -енн-."
+    },
+    {
+      "sentence": "Школа построена в 1980 году.",
+      "question": "Which form is построена, and why?",
+      "options": [
+        "Long form (attributive)",
+        "Short form (predicative)",
+        "Active past participle",
+        "Imperfective gerund"
+      ],
+      "answer": "Short form (predicative)",
+      "explanation": "Построена is the short feminine form of построенный, in a predicate slot (Школа is the subject; the participle is the complete predicate). Step 3 of the diagnostic: the slot is predicative, so the short form is required. The long form построенная would only fit an attribute slot. Short forms agree in gender and number only; no case marking applies."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "причастие",
+      "definition": "participle (a verb-derived adjective; agrees in gender, number, and case for long forms, in gender and number for short forms)",
+      "example": "Читающий, читавший, читаемый, прочитанный, прочитан — пять типов причастий русского языка."
+    },
+    {
+      "term": "действительное причастие",
+      "definition": "active participle (the noun performs the action; читающий, читавший, прочитавший)",
+      "example": "Сидящий у окна студент — действительное причастие настоящего времени."
+    },
+    {
+      "term": "страдательное причастие",
+      "definition": "passive participle (the noun is acted upon; читаемый, прочитанный, прочитан)",
+      "example": "Решённая задача — страдательное причастие прошедшего времени, полная форма."
+    },
+    {
+      "term": "краткая форма",
+      "definition": "short form (the predicative passive past participle; agrees in gender and number only, no case)",
+      "example": "Книга прочитана; письмо написано; задачи решены — все это краткие формы."
+    }
+  ]
+}

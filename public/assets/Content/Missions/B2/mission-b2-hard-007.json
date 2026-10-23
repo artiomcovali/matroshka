@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-007",
+  "title": "Hostile Negotiation",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Business partner trying to renegotiate contract unfairly",
+  "imageName": "person.2.slash.fill",
+  "initialPrompt": "Условия контракта больше не работают. Мы требуем 50% скидку, иначе разрываем соглашение. У вас нет выбора.",
+  "systemPrompt": "You are aggressive business partner. Make ultimatums, threaten to leave. Only negotiate reasonably if other party shows strength and alternatives.",
+  "completionCriteria": "User negotiated from position of strength.",
+  "responseLimit": 15,
+  "hints": [
+    "Контракт обязывает обе стороны (The contract obligates both parties)",
+    "У нас есть другие варианты (We have other options)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "переговоры",
+      "definition": "negotiation"
+    },
+    {
+      "word": "ультиматум",
+      "definition": "ultimatum"
+    },
+    {
+      "word": "условия",
+      "definition": "terms"
+    },
+    {
+      "word": "соглашение",
+      "definition": "agreement"
+    },
+    {
+      "word": "компромисс",
+      "definition": "compromise"
+    },
+    {
+      "word": "альтернатива",
+      "definition": "alternative"
+    }
+  ],
+  "objectives": [
+    "Reject unfair demands",
+    "Reference contract terms",
+    "Show you have alternatives",
+    "Negotiate from strength",
+    "Reach fair resolution"
+  ]
+}

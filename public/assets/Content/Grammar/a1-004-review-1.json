@@ -1,0 +1,318 @@
+{
+  "id": "a1-004-review-1",
+  "level": "A1",
+  "sortKey": "a1-005b-review-1",
+  "focusArea": "sentenceStructure",
+  "title": "Review 1",
+  "titleRussian": "Повторение 1",
+  "description": "Pronouns, noun gender, and the nominative case",
+  "descriptionRussian": "Местоимения, род существительных и именительный падеж",
+  "imageName": "star.fill",
+  "intro": "This review covers the foundations of Russian grammar: personal pronouns, noun gender, the nominative case, and basic question words. If you can use the right pronoun, determine a noun's gender, identify subjects in the nominative case, and form simple questions, you are ready to move forward.",
+  "rules": [
+    "Personal pronouns: я (I), ты (you), он/она/оно (he/she/it), мы (we), вы (you formal/plural), они (they).",
+    "Noun gender is determined by the ending: consonant = masculine, -а/-я = feminine, -о/-е = neuter.",
+    "The nominative case is the default form used for the subject of a sentence: Мама читает (Mom reads).",
+    "In 'Это + noun' sentences, the noun is always in the nominative case: Это студент (This is a student).",
+    "Question words: кто (who), что (what), где (where), когда (when), почему (why), как (how)."
+  ],
+  "examples": [
+    "Я студент. Ты врач. Она учительница. (I'm a student. You're a doctor. She's a teacher.)",
+    "стол (m), книга (f), окно (n) — endings tell you the gender",
+    "Мама читает книгу. — Мама is the subject (nominative case).",
+    "Кто это? — Это Анна. (Who is this? — This is Anna.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "In the sentence 'Мама читает', which word is in the nominative case?",
+          "promptEnglish": "In the sentence 'Мама читает' (Mom reads), which word is in the nominative case?",
+          "options": [
+            "читает",
+            "Мама",
+            "книгу",
+            "в"
+          ],
+          "answer": "Мама",
+          "hint": "The nominative case marks the subject",
+          "explanation": "Мама is the subject (the one performing the action), so it is in the nominative case."
+        },
+        {
+          "prompt": "What is the correct pronoun for 'we' in Russian?",
+          "promptEnglish": "What is the correct pronoun for 'we' in Russian?",
+          "options": [
+            "вы",
+            "они",
+            "мы",
+            "ты"
+          ],
+          "answer": "мы",
+          "hint": "It starts with М",
+          "explanation": "Мы means 'we'. Вы is 'you (formal/plural)', они is 'they', ты is 'you (informal)'."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "What gender is the noun 'книга'?",
+          "promptEnglish": "What gender is the noun 'книга' (book)?",
+          "options": [
+            "Masculine",
+            "Feminine",
+            "Neuter",
+            "Plural"
+          ],
+          "answer": "Feminine",
+          "hint": "Look at the ending: -а",
+          "explanation": "Nouns ending in -а or -я are typically feminine. Книга ends in -а, so it is feminine."
+        },
+        {
+          "prompt": "What gender is the noun 'окно'?",
+          "promptEnglish": "What gender is the noun 'окно' (window)?",
+          "options": [
+            "Neuter",
+            "Masculine",
+            "Feminine",
+            "Plural"
+          ],
+          "answer": "Neuter",
+          "hint": "Look at the ending: -о",
+          "explanation": "Nouns ending in -о or -е are neuter. Окно ends in -о, so it is neuter."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "_____ это? — Это мой брат.",
+          "promptEnglish": "Who is this? This is my brother.",
+          "options": [
+            "Что",
+            "Где",
+            "Когда",
+            "Кто"
+          ],
+          "answer": "Кто",
+          "hint": "Asking about a person",
+          "explanation": "Кто (who) is used when asking about people. Что (what) is for things."
+        },
+        {
+          "prompt": "Which word is the subject in 'Студент читает книгу'?",
+          "promptEnglish": "Which word is the subject in 'The student reads a book'?",
+          "options": [
+            "книгу",
+            "читает",
+            "Студент",
+            "в"
+          ],
+          "answer": "Студент",
+          "hint": "Who is performing the action?",
+          "explanation": "Студент is performing the action (reading), so it is the subject in the nominative case."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Which pronoun means 'they'?",
+          "promptEnglish": "Which pronoun means 'they'?",
+          "options": [
+            "мы",
+            "вы",
+            "он",
+            "они"
+          ],
+          "answer": "они",
+          "hint": "It starts with О",
+          "explanation": "Они means 'they'. It is used for any group of people or things regardless of gender."
+        },
+        {
+          "prompt": "What is the nominative case used for?",
+          "promptEnglish": "What is the nominative case used for?",
+          "options": [
+            "Direct object",
+            "Subject of a sentence",
+            "Possession",
+            "Location"
+          ],
+          "answer": "Subject of a sentence",
+          "hint": "The doer of the action",
+          "explanation": "The nominative case is the dictionary form and marks the subject, the person or thing performing the action."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ живёшь в Москве? (you, informal)",
+      "_____ это? — Это кошка. (what)",
+      "Мой брат — _____. (student, masculine)",
+      "_____ ты не пришёл? (why)",
+      "Это _____ дом. (new, masculine)"
+    ],
+    "choices": [
+      "Ты",
+      "Что",
+      "студент",
+      "Почему",
+      "новый",
+      "она"
+    ],
+    "answers": [
+      "Ты",
+      "Что",
+      "студент",
+      "Почему",
+      "новый"
+    ],
+    "grammarFocus": "Pronouns, question words, and nominative case agreement",
+    "options": [
+      [
+        "Он",
+        "Мы",
+        "Они",
+        "Ты"
+      ],
+      [
+        "Когда",
+        "Где",
+        "Что",
+        "Кто"
+      ],
+      [
+        "учитель",
+        "инженер",
+        "врач",
+        "студент"
+      ],
+      [
+        "Когда",
+        "Где",
+        "Почему",
+        "Как"
+      ],
+      [
+        "старый",
+        "большой",
+        "красивый",
+        "новый"
+      ]
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort these nouns by gender",
+    "categories": [
+      "Masculine",
+      "Feminine",
+      "Neuter"
+    ],
+    "items": [
+      {
+        "word": "стол",
+        "category": "Masculine"
+      },
+      {
+        "word": "книга",
+        "category": "Feminine"
+      },
+      {
+        "word": "окно",
+        "category": "Neuter"
+      },
+      {
+        "word": "друг",
+        "category": "Masculine"
+      },
+      {
+        "word": "школа",
+        "category": "Feminine"
+      },
+      {
+        "word": "молоко",
+        "category": "Neuter"
+      },
+      {
+        "word": "город",
+        "category": "Masculine"
+      },
+      {
+        "word": "улица",
+        "category": "Feminine"
+      },
+      {
+        "word": "письмо",
+        "category": "Neuter"
+      }
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ это? — Это книга.",
+      "contextEnglish": "What is this? This is a book.",
+      "options": [
+        "Что",
+        "Кто"
+      ],
+      "answer": "Что",
+      "explanation": "Что (what) is used for things. Кто (who) is for people."
+    },
+    {
+      "context": "_____ это? — Это Иван.",
+      "contextEnglish": "Who is this? This is Ivan.",
+      "options": [
+        "Кто",
+        "Что"
+      ],
+      "answer": "Кто",
+      "explanation": "Кто (who) is used for people. Что (what) is for things."
+    },
+    {
+      "context": "_____ живёт в Москве. (he)",
+      "contextEnglish": "He lives in Moscow.",
+      "options": [
+        "Он",
+        "Она"
+      ],
+      "answer": "Он",
+      "explanation": "Он means 'he'. Она means 'she'."
+    },
+    {
+      "context": "_____ работает в школе. (she)",
+      "contextEnglish": "She works at a school.",
+      "options": [
+        "Она",
+        "Он"
+      ],
+      "answer": "Она",
+      "explanation": "Она means 'she'. Он means 'he'."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "местоимение",
+      "definition": "pronoun",
+      "example": "Я, ты, он — местоимения."
+    },
+    {
+      "term": "именительный падеж",
+      "definition": "nominative case",
+      "example": "Мама читает. (Мама — именительный падеж)"
+    },
+    {
+      "term": "мужской род",
+      "definition": "masculine gender",
+      "example": "Стол — мужской род."
+    },
+    {
+      "term": "женский род",
+      "definition": "feminine gender",
+      "example": "Книга — женский род."
+    }
+  ]
+}

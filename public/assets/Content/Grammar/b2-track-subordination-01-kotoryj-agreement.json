@@ -1,0 +1,222 @@
+{
+  "id": "b2-track-subordination-01-kotoryj-agreement",
+  "level": "B2",
+  "focusArea": "cases",
+  "title": "Subordination 1: который Basics",
+  "titleRussian": "Подчинение 1: который — основы",
+  "description": "который ('who/which/that') connects a describing clause to a noun. Two steps: get gender and number from the noun, get case from the role inside the clause.",
+  "descriptionRussian": "который ('кто/который/что') соединяет описательную часть с существительным. Два шага: род и число от существительного, падеж от роли в придаточной части.",
+  "imageName": "link",
+  "trackId": "b2-subordination-mastery",
+  "trackTitle": "Subordination Mastery",
+  "trackTitleRussian": "Сложноподчинённые предложения",
+  "trackIndex": 1,
+  "trackTotal": 8,
+  "intro": "This book is about joining two clauses into one sentence, and it starts with the word Russian uses for 'which' or 'who'. That word is unusual in taking its information from two different places at once: gender and number come from the noun outside the clause, but case comes from what it is doing inside. Two questions, one ending, asked of different parts of the sentence.",
+  "rules": [
+    "который matches the noun it describes in gender and number: книга (fem) -> которая; студент (masc) -> который; письмо (neut) -> которое; друзья (pl) -> которые.",
+    "Case comes from the role inside the который clause: subject -> nominative; direct object -> accusative.",
+    "Combine both answers into one ending: feminine + accusative = которую; masculine + nominative = который.",
+    "который always starts its clause, set off by a comma: студент, который опоздал."
+  ],
+  "examples": [
+    "книга, которую я прочитал (the book that I read) - fem sg (книга) + accusative (direct object) = которую.",
+    "студент, который опоздал (the student who was late) - masc sg (студент) + nominative (subject) = который.",
+    "письмо, которое я получил (the letter that I received) - neut sg (письмо) + accusative = которое.",
+    "друзья, которым я помог (the friends whom I helped) - plural (друзья) + dative (помочь + dat) = которым."
+  ],
+  "tables": [
+    {
+      "title": "Two steps to the right form",
+      "headers": [
+        "Noun",
+        "Role in clause",
+        "Form"
+      ],
+      "rows": [
+        {
+          "label": "студент (masc)",
+          "cells": [
+            "subject (nominative)",
+            "который"
+          ]
+        },
+        {
+          "label": "книга (fem)",
+          "cells": [
+            "direct object (accusative)",
+            "которую"
+          ]
+        },
+        {
+          "label": "письмо (neut)",
+          "cells": [
+            "direct object (accusative)",
+            "которое"
+          ]
+        },
+        {
+          "label": "девушка (fem)",
+          "cells": [
+            "subject (nominative)",
+            "которая"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Это книга, _____ я прочитал вчера.",
+          "promptEnglish": "This is the book that I read yesterday.",
+          "options": [
+            "которую",
+            "который",
+            "которая",
+            "которой"
+          ],
+          "answer": "которую",
+          "hint": "Two steps: (1) книга is feminine singular. (2) Inside 'I read ___,' which case does the object take?",
+          "explanation": "Step 1: the antecedent книга is feminine singular, so который is feminine. Step 2: inside the clause 'я прочитал ___,' the book is the direct object, so accusative. Feminine + accusative = которую."
+        },
+        {
+          "prompt": "Я знаю студента, _____ хорошо говорит по-русски.",
+          "promptEnglish": "I know the student who speaks Russian well.",
+          "options": [
+            "которого",
+            "которому",
+            "который",
+            "которым"
+          ],
+          "answer": "который",
+          "hint": "студента is accusative in the MAIN clause, but ignore that. What is который doing inside its own clause?",
+          "explanation": "The trap: студента is accusative because it is the object of знаю, but который ignores the main clause. Inside 'who speaks Russian well,' который is the SUBJECT, so nominative. Masculine + nominative = который. The main clause and the который clause keep separate books."
+        },
+        {
+          "prompt": "Это письмо, _____ я получил утром.",
+          "promptEnglish": "This is the letter that I received in the morning.",
+          "options": [
+            "которого",
+            "которое",
+            "который",
+            "которым"
+          ],
+          "answer": "которое",
+          "hint": "письмо is neuter singular. Inside 'I received ___,' what is its role?",
+          "explanation": "Step 1: письмо is neuter singular, so который is neuter. Step 2: inside 'я получил ___,' it is the direct object, accusative. Neuter + accusative = которое (for an inanimate neuter noun, the accusative form equals the nominative form)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Это книга, _____ вчера.",
+          "promptEnglish": "This is the book that I read yesterday.",
+          "options": [
+            "которую я прочитал",
+            "который я прочитал",
+            "которая я прочитал",
+            "которую я прочитать"
+          ],
+          "answer": "которую я прочитал",
+          "hint": "Feminine head noun; the relative is the direct object.",
+          "explanation": "Книга is feminine and the relative is the object of прочитал, so feminine accusative: которую я прочитал."
+        },
+        {
+          "prompt": "Вот студент, _____ конкурс.",
+          "promptEnglish": "Here is the student who won the competition.",
+          "options": [
+            "который выиграл",
+            "которого выиграл",
+            "который выиграть",
+            "которую выиграл"
+          ],
+          "answer": "который выиграл",
+          "hint": "The relative is the subject of its own clause.",
+          "explanation": "Inside 'who won the competition' the student is the SUBJECT, so nominative masculine: который выиграл."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я нашёл ключи, _____ потерял утром. (the keys that I lost in the morning)"
+    ],
+    "choices": [
+      "которые",
+      "которых",
+      "которым",
+      "которыми"
+    ],
+    "answers": [
+      "которые"
+    ],
+    "grammarFocus": "Two steps: ключи is plural, so который is plural. Inside 'I lost ___,' the keys are the direct object; ключи is inanimate, so the accusative plural equals the nominative plural form: которые."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Я знаю девушку, которого поёт в хоре.",
+      "translationEnglish": "I know a girl who sings in the choir.",
+      "error": "которого",
+      "correction": "которая",
+      "options": [
+        "которая",
+        "которую",
+        "которой"
+      ],
+      "explanation": "Inside its own clause 'who sings in the choir,' который is the SUBJECT, so it takes the nominative, and it must agree with feminine девушка: которая. Которого was wrongly copied from the main clause; который takes its case from its OWN clause and its gender from the head noun."
+    },
+    {
+      "sentence": "Это книги, который я купил вчера.",
+      "translationEnglish": "These are the books that I bought yesterday.",
+      "error": "который",
+      "correction": "которые",
+      "options": [
+        "которые",
+        "которых",
+        "которым"
+      ],
+      "explanation": "Книги is plural, so который must be plural, and inside 'I bought ___' it is an inanimate direct object (accusative = nominative): которые. The masculine singular который agrees with nothing here."
+    },
+    {
+      "sentence": "Это друзья, который я пригласил на праздник.",
+      "translationEnglish": "These are the friends I invited to the party.",
+      "error": "который",
+      "correction": "которых",
+      "options": [
+        "которых",
+        "которые",
+        "которым"
+      ],
+      "explanation": "Друзья is plural and ANIMATE, and inside 'I invited ___' the relative is a direct object, so the animate accusative borrows the genitive: которых."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "девушка, _____ я встретил (the girl whom I met)",
+      "contextEnglish": "the girl whom I met",
+      "options": [
+        "которую",
+        "которая"
+      ],
+      "answer": "которую",
+      "explanation": "Inside 'I met ___,' the girl is the direct OBJECT, so accusative: которую. Которая would be right only if the girl were the one doing the action: same antecedent, opposite roles, opposite forms."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "который",
+      "definition": "the relative word 'which / who / that'; agrees with its antecedent in gender and number, but takes its case from the role it plays inside its own clause.",
+      "example": "книга, которую я прочитал (fem + accusative); студент, который опоздал (masc + nominative)."
+    },
+    {
+      "term": "антецедент",
+      "definition": "antecedent: the noun in the main clause that который refers back to. It fixes который's gender and number (but NOT its case).",
+      "example": "В 'книга, которую я читаю' антецедент — книга (он задаёт женский род слову который)."
+    }
+  ]
+}

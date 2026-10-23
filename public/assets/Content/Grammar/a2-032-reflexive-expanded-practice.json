@@ -1,0 +1,799 @@
+{
+  "lessonId": "a2-032-reflexive-expanded",
+  "sets": [
+    {
+      "id": "a2-032-reflexive-expanded-set1",
+      "title": "Reflexive Categories",
+      "titleRussian": "Категории возвратных глаголов",
+      "description": "Identify and use the four types of reflexive verbs",
+      "descriptionRussian": "Определите и используйте четыре типа возвратных глаголов",
+      "icon": "arrow.uturn.backward",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which type of reflexive verb is 'умываться' (to wash one's face)?",
+              "promptEnglish": "Which type of reflexive verb is 'умываться' (to wash one's face)?",
+              "options": [
+                "Reciprocal",
+                "True reflexive",
+                "Intransitive",
+                "Passive"
+              ],
+              "answer": "True reflexive",
+              "hint": "The action is performed on oneself",
+              "explanation": "Умываться is true reflexive: the subject washes their own face."
+            },
+            {
+              "prompt": "Which type of reflexive verb is 'встречаться' (to meet each other)?",
+              "promptEnglish": "Which type of reflexive verb is 'встречаться' (to meet each other)?",
+              "options": [
+                "Reciprocal",
+                "True reflexive",
+                "Passive",
+                "Intransitive"
+              ],
+              "answer": "Reciprocal",
+              "hint": "Two or more people doing something to one another",
+              "explanation": "Встречаться is reciprocal: the subjects meet each other."
+            },
+            {
+              "prompt": "Which type of reflexive verb is 'начинаться' (to begin)?",
+              "promptEnglish": "Which type of reflexive verb is 'начинаться' (to begin)?",
+              "options": [
+                "True reflexive",
+                "Passive",
+                "Intransitive",
+                "Reciprocal"
+              ],
+              "answer": "Intransitive",
+              "hint": "The subject doesn't act on itself or others",
+              "explanation": "Начинаться is intransitive: the lesson begins (no object, no self-action)."
+            },
+            {
+              "prompt": "Which type of reflexive verb is 'бояться' (to be afraid)?",
+              "promptEnglish": "Which type of reflexive verb is 'бояться' (to be afraid)?",
+              "options": [
+                "Reciprocal",
+                "Intransitive/emotional state",
+                "True reflexive",
+                "Passive"
+              ],
+              "answer": "Intransitive/emotional state",
+              "hint": "This describes a feeling, not a physical action",
+              "explanation": "Бояться expresses an emotional state: being afraid."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these reflexive verbs by their meaning type",
+        "categories": [
+          "True reflexive (self)",
+          "Reciprocal (each other)",
+          "Intransitive/State"
+        ],
+        "items": [
+          {
+            "word": "одеваться",
+            "category": "True reflexive (self)"
+          },
+          {
+            "word": "видеться",
+            "category": "Reciprocal (each other)"
+          },
+          {
+            "word": "кончаться",
+            "category": "Intransitive/State"
+          },
+          {
+            "word": "обниматься",
+            "category": "Reciprocal (each other)"
+          },
+          {
+            "word": "беспокоиться",
+            "category": "Intransitive/State"
+          },
+          {
+            "word": "мыться",
+            "category": "True reflexive (self)"
+          },
+          {
+            "word": "целоваться",
+            "category": "Reciprocal (each other)"
+          },
+          {
+            "word": "находиться",
+            "category": "Intransitive/State"
+          }
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "Она _____ перед зеркалом. (She is getting dressed in front of the mirror.)",
+          "contextEnglish": "She is getting dressed in front of the mirror.",
+          "options": [
+            "одевается",
+            "одевает"
+          ],
+          "answer": "одевается",
+          "explanation": "Reflexive: she dresses herself. Одевает would need a direct object."
+        },
+        {
+          "context": "Мама _____ дочку. (Mom is dressing her daughter.)",
+          "contextEnglish": "Mom is dressing her daughter.",
+          "options": [
+            "одевает",
+            "одевается"
+          ],
+          "answer": "одевает",
+          "explanation": "Transitive: mom dresses someone else (дочку). No -ся needed."
+        },
+        {
+          "context": "Они _____ каждую неделю. (They see each other every week.)",
+          "contextEnglish": "They see each other every week.",
+          "options": [
+            "видятся",
+            "видят"
+          ],
+          "answer": "видятся",
+          "explanation": "Reciprocal: they see each other. Видят would mean they see something."
+        },
+        {
+          "context": "Фильм _____ в восемь. (The film begins at eight.)",
+          "contextEnglish": "The film begins at eight.",
+          "options": [
+            "начинается",
+            "начинает"
+          ],
+          "answer": "начинается",
+          "explanation": "Intransitive: the film begins by itself. Начинает would need an object."
+        }
+      ]
+    },
+    {
+      "id": "a2-032-reflexive-expanded-set2",
+      "title": "Conjugating Reflexive Verbs",
+      "titleRussian": "Спряжение возвратных глаголов",
+      "description": "Practice -ся/-сь endings across all persons",
+      "descriptionRussian": "Практикуйте окончания -ся/-сь для всех лиц",
+      "icon": "textformat.abc",
+      "conjugationTable": {
+        "verb": "одеваться",
+        "tense": "present",
+        "paradigm": [
+          "одеваюсь",
+          "одеваешься",
+          "одевается",
+          "одеваемся",
+          "одеваетесь",
+          "одеваются"
+        ],
+        "blanks": [
+          0,
+          2,
+          5
+        ],
+        "hints": [
+          "-юсь after vowel stem",
+          "он/она form + -ся",
+          "они form + -ся"
+        ],
+        "explanations": [
+          "Я одева- + -юсь (after vowel, -ся becomes -сь)",
+          "Он/она одева- + -ет + -ся = одевается",
+          "Они одева- + -ют + -ся = одеваются"
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Я _____ каждое утро. (I wash my face every morning.)",
+          "Ты _____ слишком медленно. (You get dressed too slowly.)",
+          "Он _____ темноты. (He is afraid of the dark.)",
+          "Мы _____ в парке. (We meet each other in the park.)",
+          "Они _____ перед сном. (They wash up before bed.)"
+        ],
+        "choices": [
+          "умываюсь",
+          "одеваешься",
+          "боится",
+          "встречаемся",
+          "умываются",
+          "умывается",
+          "одеваюсь",
+          "встречаются"
+        ],
+        "answers": [
+          "умываюсь",
+          "одеваешься",
+          "боится",
+          "встречаемся",
+          "умываются"
+        ],
+        "grammarFocus": "Reflexive verb conjugation across all persons",
+        "hints": [
+          "Я + умываться. After vowel ending, use -сь",
+          "Ты + одеваться. Second person singular + -ся",
+          "Он + бояться. Third person singular + -ся",
+          "Мы + встречаться. First person plural + -ся",
+          "Они + умываться. Third person plural + -ся"
+        ],
+        "explanations": [
+          "Я умываюсь: -юсь after vowel.",
+          "Ты одеваешься: -ешь + -ся = -ешься.",
+          "Он боится: бо- + -ит + -ся = боится.",
+          "Мы встречаемся: встреча- + -ем + -ся = встречаемся.",
+          "Они умываются: умыва- + -ют + -ся = умываются."
+        ],
+        "options": [
+          [
+            "умываешься",
+            "умывается",
+            "умываюсь",
+            "умываетесь"
+          ],
+          [
+            "одеваешься",
+            "одеваюсь",
+            "одеваемся",
+            "одевается"
+          ],
+          [
+            "боюсь",
+            "боимся",
+            "боится",
+            "боишься"
+          ],
+          [
+            "встречаемся",
+            "встречаетесь",
+            "встречаются",
+            "встречаешься"
+          ],
+          [
+            "умываюсь",
+            "умываетесь",
+            "умываемся",
+            "умываются"
+          ]
+        ]
+      },
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "When does -ся become -сь?",
+              "promptEnglish": "When does -ся become -сь?",
+              "options": [
+                "After a consonant",
+                "After a vowel",
+                "In past tense only",
+                "After ь"
+              ],
+              "answer": "After a vowel",
+              "hint": "Compare: моюсь vs моется",
+              "explanation": "After vowel endings (я моюсь, мы моемся), -ся shortens to -сь. After consonants (он моется), it stays -ся."
+            },
+            {
+              "prompt": "Она _____ рано утром. (She gets up early in the morning.)",
+              "promptEnglish": "Она _____ рано утром. (She gets up early in the morning.)",
+              "options": [
+                "просыпается",
+                "просыпаюсь",
+                "просыпаться",
+                "просыпаемся"
+              ],
+              "answer": "просыпается",
+              "hint": "Она + просыпаться (to wake up)",
+              "explanation": "Она просыпается: third person singular of просыпаться."
+            },
+            {
+              "prompt": "Вы _____ в шесть? (Do you get up at six?)",
+              "promptEnglish": "Вы _____ в шесть? (Do you get up at six?)",
+              "options": [
+                "просыпаемся",
+                "просыпаетесь",
+                "просыпаюсь",
+                "просыпается"
+              ],
+              "answer": "просыпаетесь",
+              "hint": "Вы form of просыпаться",
+              "explanation": "Вы просыпаетесь: second person plural/formal of просыпаться."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-032-reflexive-expanded-set3",
+      "title": "Transitive vs Reflexive Pairs",
+      "titleRussian": "Переходные и возвратные пары",
+      "description": "Choose between transitive and reflexive verb forms",
+      "descriptionRussian": "Выберите между переходными и возвратными формами глаголов",
+      "icon": "arrow.left.arrow.right",
+      "minimalPairs": [
+        {
+          "context": "Мама _____ малыша. (Mom is washing the baby.)",
+          "contextEnglish": "Mom is washing the baby.",
+          "options": [
+            "моет",
+            "моется"
+          ],
+          "answer": "моет",
+          "explanation": "Transitive: mom washes someone else (малыша). No -ся."
+        },
+        {
+          "context": "Он _____ холодной водой. (He washes himself with cold water.)",
+          "contextEnglish": "He washes himself with cold water.",
+          "options": [
+            "моется",
+            "моет"
+          ],
+          "answer": "моется",
+          "explanation": "Reflexive: he washes himself. Use -ся."
+        },
+        {
+          "context": "Учитель _____ урок. (The teacher begins the lesson.)",
+          "contextEnglish": "The teacher begins the lesson.",
+          "options": [
+            "начинает",
+            "начинается"
+          ],
+          "answer": "начинает",
+          "explanation": "Transitive: the teacher begins something (урок). No -ся."
+        },
+        {
+          "context": "Концерт _____ в семь. (The concert starts at seven.)",
+          "contextEnglish": "The concert starts at seven.",
+          "options": [
+            "начинается",
+            "начинает"
+          ],
+          "answer": "начинается",
+          "explanation": "Intransitive: the concert starts by itself. Use -ся."
+        },
+        {
+          "context": "Она _____ ребёнка. (She is dressing the child.)",
+          "contextEnglish": "She is dressing the child.",
+          "options": [
+            "одевает",
+            "одевается"
+          ],
+          "answer": "одевает",
+          "explanation": "Transitive: she dresses someone else (ребёнка). No -ся."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Мальчик _____ сам. (The boy washes himself.)",
+          "Бабушка _____ внука. (Grandma is dressing her grandson.)",
+          "Фильм _____ поздно. (The film ends late.)",
+          "Директор _____ собрание. (The director is ending the meeting.)",
+          "Брат и сестра часто _____. (Brother and sister often argue.)"
+        ],
+        "choices": [
+          "моется",
+          "одевает",
+          "кончается",
+          "кончает",
+          "ссорятся",
+          "моет",
+          "одевается",
+          "ссорят"
+        ],
+        "answers": [
+          "моется",
+          "одевает",
+          "кончается",
+          "кончает",
+          "ссорятся"
+        ],
+        "grammarFocus": "Choosing between transitive and reflexive verb forms",
+        "hints": [
+          "The boy washes himself (no object) - reflexive",
+          "Grandma dresses someone else (внука) - transitive",
+          "The film ends by itself - intransitive reflexive",
+          "The director ends something (собрание) - transitive",
+          "They argue with each other - reciprocal reflexive"
+        ],
+        "explanations": [
+          "Мальчик моется: reflexive, he washes himself (сам confirms).",
+          "Бабушка одевает внука: transitive, she dresses the grandson (direct object).",
+          "Фильм кончается: intransitive, the film ends by itself.",
+          "Директор кончает собрание: transitive, he ends the meeting (direct object).",
+          "Ссорятся: reciprocal, they argue with each other."
+        ],
+        "options": [
+          [
+            "моешься",
+            "моемся",
+            "моется",
+            "моюсь"
+          ],
+          [
+            "одеваю",
+            "одеваешь",
+            "одевает",
+            "одеваем"
+          ],
+          [
+            "кончаемся",
+            "кончаешься",
+            "кончается",
+            "кончаюсь"
+          ],
+          [
+            "кончаю",
+            "кончаем",
+            "кончает",
+            "кончаешь"
+          ],
+          [
+            "ссоримся",
+            "ссорятся",
+            "ссорюсь",
+            "ссоритесь"
+          ]
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Ребёнок одевает сам.",
+          "error": "одевает",
+          "correction": "одевается",
+          "explanation": "When dressing oneself (сам), use the reflexive: одевается.",
+          "options": [
+            "одевается",
+            "оденется",
+            "одевают"
+          ]
+        },
+        {
+          "sentence": "Урок начинает в девять.",
+          "error": "начинает",
+          "correction": "начинается",
+          "explanation": "The lesson begins by itself (intransitive). Use начинается.",
+          "options": [
+            "начинается",
+            "начнётся",
+            "начинают"
+          ]
+        },
+        {
+          "sentence": "Они встречают каждый день.",
+          "error": "встречают",
+          "correction": "встречаются",
+          "explanation": "They meet each other (reciprocal). Use встречаются.",
+          "options": [
+            "встречаются",
+            "встретятся",
+            "встречается"
+          ]
+        },
+        {
+          "sentence": "Мама моется ребёнка.",
+          "error": "моется",
+          "correction": "моет",
+          "explanation": "Mom washes someone else (ребёнка is the object). Use transitive моет.",
+          "options": [
+            "моет",
+            "моют",
+            "помоет"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-032-reflexive-expanded-set4",
+      "title": "Emotional & State Verbs",
+      "titleRussian": "Глаголы чувств и состояния",
+      "description": "Practice reflexive verbs for emotions and states",
+      "descriptionRussian": "Практикуйте возвратные глаголы для эмоций и состояний",
+      "icon": "heart.text.square",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы _____ за тебя. (We worry about you.)",
+              "promptEnglish": "We worry about you.",
+              "options": [
+                "беспокоим",
+                "беспокоимся",
+                "беспокоиться",
+                "беспокоится"
+              ],
+              "answer": "беспокоимся",
+              "hint": "Мы + беспокоиться (to worry)",
+              "explanation": "Мы беспокоимся: first person plural of the emotional state verb."
+            },
+            {
+              "prompt": "Он _____ новой работы. (He is afraid of the new job.)",
+              "promptEnglish": "He is afraid of the new job.",
+              "options": [
+                "боюсь",
+                "бояться",
+                "боится",
+                "боятся"
+              ],
+              "answer": "боится",
+              "hint": "Он + бояться (to be afraid) + genitive",
+              "explanation": "Он боится: third person singular. Бояться takes genitive (работы)."
+            },
+            {
+              "prompt": "Дети _____ подарку. (The children are happy about the gift.)",
+              "promptEnglish": "The children are happy about the gift.",
+              "options": [
+                "радуются",
+                "радуемся",
+                "радуется",
+                "радоваться"
+              ],
+              "answer": "радуются",
+              "hint": "Дети + радоваться (to be happy) + dative",
+              "explanation": "Дети радуются: third person plural. Радоваться takes dative (подарку)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Ты _____ по дому? (Do you miss home?)",
+              "promptEnglish": "Do you miss home?",
+              "options": [
+                "скучаешь",
+                "скучаешься",
+                "скучаюсь",
+                "скучает"
+              ],
+              "answer": "скучаешь",
+              "hint": "Скучать is NOT reflexive (no -ся needed)",
+              "explanation": "Скучать (to miss) is not reflexive. Ты скучаешь по дому."
+            },
+            {
+              "prompt": "Она _____ на шум. (She complains about the noise.)",
+              "promptEnglish": "She complains about the noise.",
+              "options": [
+                "жалуется",
+                "жалует",
+                "жалуются",
+                "жаловаться"
+              ],
+              "answer": "жалуется",
+              "hint": "Жаловаться (to complain) + на + accusative",
+              "explanation": "Она жалуется: third person singular of жаловаться."
+            },
+            {
+              "prompt": "Я _____ спортом. (I do sports / am involved in sports.)",
+              "promptEnglish": "I do sports.",
+              "options": [
+                "занимаюсь",
+                "занимаю",
+                "занимается",
+                "заниматься"
+              ],
+              "answer": "занимаюсь",
+              "hint": "Заниматься (to do / engage in) + instrumental",
+              "explanation": "Я занимаюсь: first person singular. Заниматься takes instrumental (спортом)."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "russian": "Я боюсь собак.",
+          "english": "I am afraid of dogs.",
+          "hint": "Бояться + genitive (собак)",
+          "explanation": "Бояться (emotional state) takes genitive. Собак is genitive plural of собака.",
+          "keyWord": "боюсь",
+          "options": [
+            "боюсь",
+            "боится",
+            "боятся",
+            "боишься"
+          ]
+        },
+        {
+          "russian": "Мы радуемся каникулам.",
+          "english": "We are happy about the vacation.",
+          "hint": "Радоваться + dative (каникулам)",
+          "explanation": "Радоваться (to be glad) takes dative. Каникулам is dative plural of каникулы.",
+          "keyWord": "радуемся",
+          "options": [
+            "радуемся",
+            "радуются",
+            "радуется",
+            "радуюсь"
+          ]
+        },
+        {
+          "russian": "Она беспокоится о сыне.",
+          "english": "She worries about her son.",
+          "hint": "Беспокоиться + о + prepositional",
+          "explanation": "Беспокоиться о (to worry about) + prepositional. Сыне is prepositional of сын.",
+          "keyWord": "беспокоится",
+          "options": [
+            "беспокоится",
+            "беспокоюсь",
+            "беспокоимся",
+            "беспокоятся"
+          ]
+        },
+        {
+          "russian": "Он жалуется на погоду.",
+          "english": "He complains about the weather.",
+          "hint": "Жаловаться + на + accusative",
+          "explanation": "Жаловаться на (to complain about) + accusative. Погоду is accusative of погода.",
+          "keyWord": "жалуется",
+          "options": [
+            "жалуется",
+            "жалуюсь",
+            "жалуются",
+            "жалуемся"
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Дети _____ экзаменов. (The children are afraid of exams.)",
+          "Мы _____ за маму. (We worry about mom.)",
+          "Она _____ музыкой. (She does music.)",
+          "Они _____ подарку. (They are happy about the gift.)",
+          "Студент _____ на экзамен. (The student complains about the exam.)"
+        ],
+        "choices": [
+          "боятся",
+          "беспокоимся",
+          "занимается",
+          "радуются",
+          "жалуется",
+          "боится",
+          "занимаемся",
+          "радуемся"
+        ],
+        "answers": [
+          "боятся",
+          "беспокоимся",
+          "занимается",
+          "радуются",
+          "жалуется"
+        ],
+        "grammarFocus": "Emotional and state reflexive verbs with correct case government",
+        "hints": [
+          "Дети + бояться + genitive (экзаменов)",
+          "Мы + беспокоиться + за + accusative (маму)",
+          "Она + заниматься + instrumental (музыкой)",
+          "Они + радоваться + dative (подарку)",
+          "Студент + жаловаться + на + accusative (экзамен)"
+        ],
+        "explanations": [
+          "Дети боятся: они form. Бояться + genitive.",
+          "Мы беспокоимся: мы form. Беспокоиться за + accusative.",
+          "Она занимается: она form. Заниматься + instrumental.",
+          "Они радуются: они form. Радоваться + dative.",
+          "Студент жалуется: он form. Жаловаться на + accusative."
+        ],
+        "options": [
+          [
+            "боимся",
+            "боитесь",
+            "боятся",
+            "боюсь"
+          ],
+          [
+            "беспокоишься",
+            "беспокоимся",
+            "беспокоятся",
+            "беспокоитесь"
+          ],
+          [
+            "занимаешься",
+            "занимаюсь",
+            "занимается",
+            "занимаемся"
+          ],
+          [
+            "радуемся",
+            "радуются",
+            "радуюсь",
+            "радуетесь"
+          ],
+          [
+            "жалуется",
+            "жалуюсь",
+            "жалуешься",
+            "жалуемся"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a2-032-reflexive-expanded-set5",
+      "title": "Mixed Reflexive Challenge",
+      "titleRussian": "Смешанные задания по возвратным глаголам",
+      "description": "All reflexive verb types in context",
+      "descriptionRussian": "Все типы возвратных глаголов в контексте",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Библиотека _____ рядом с парком. (The library is located near the park.)",
+              "promptEnglish": "The library is located near the park.",
+              "options": [
+                "находит",
+                "находится",
+                "найти",
+                "нахожусь"
+              ],
+              "answer": "находится",
+              "hint": "Intransitive state: to be located",
+              "explanation": "Находится: intransitive reflexive meaning 'is located'. Находит means 'finds'."
+            },
+            {
+              "prompt": "Мальчик _____ сам. (The boy dresses himself.)",
+              "promptEnglish": "The boy dresses himself.",
+              "options": [
+                "одевает",
+                "одеться",
+                "одевается",
+                "одеваемся"
+              ],
+              "answer": "одевается",
+              "hint": "True reflexive: acting on oneself",
+              "explanation": "Одевается: reflexive, the boy dresses himself (сам confirms)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Они _____ каждые выходные. (They see each other every weekend.)",
+              "promptEnglish": "They see each other every weekend.",
+              "options": [
+                "видят",
+                "видеться",
+                "видятся",
+                "видимся"
+              ],
+              "answer": "видятся",
+              "hint": "Reciprocal: seeing each other; они form",
+              "explanation": "Они видятся: reciprocal reflexive, they see each other."
+            },
+            {
+              "prompt": "Музей _____ в десять. (The museum opens at ten.)",
+              "promptEnglish": "The museum opens at ten.",
+              "options": [
+                "открывается",
+                "открывает",
+                "открываюсь",
+                "открыть"
+              ],
+              "answer": "открывается",
+              "hint": "The museum opens by itself (intransitive)",
+              "explanation": "Открывается: intransitive reflexive. The museum opens (no one is opening it)."
+            },
+            {
+              "prompt": "Ты _____ экзамена? (Are you afraid of the exam?)",
+              "promptEnglish": "Are you afraid of the exam?",
+              "options": [
+                "боишься",
+                "боишь",
+                "бояться",
+                "боюсь"
+              ],
+              "answer": "боишься",
+              "hint": "Ты + бояться + genitive",
+              "explanation": "Ты боишься: second person singular of бояться."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

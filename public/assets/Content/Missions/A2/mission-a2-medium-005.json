@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-medium-005",
+  "title": "Lost Luggage",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Your luggage didn't arrive - report it at the airport",
+  "imageName": "suitcase.fill",
+  "initialPrompt": "Служба багажа, здравствуйте. Что случилось?",
+  "systemPrompt": "You work at airport lost luggage. Ask for flight number, bag description. Bag will be delivered to hotel tomorrow. Keep replies short.",
+  "completionCriteria": "User reported lost luggage and you arranged delivery.",
+  "responseLimit": 15,
+  "hints": [
+    "Мой багаж не прилетел (My luggage didn't arrive)",
+    "Чёрный чемодан (Black suitcase)",
+    "Доставьте в отель (Deliver to hotel)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "багаж",
+      "definition": "luggage"
+    },
+    {
+      "word": "чемодан",
+      "definition": "suitcase"
+    },
+    {
+      "word": "потерять",
+      "definition": "to lose"
+    },
+    {
+      "word": "рейс",
+      "definition": "flight"
+    },
+    {
+      "word": "доставить",
+      "definition": "to deliver"
+    },
+    {
+      "word": "описание",
+      "definition": "description"
+    }
+  ],
+  "objectives": [
+    "Report luggage is missing (нет багажа)",
+    "Give flight number and description",
+    "Arrange delivery to hotel"
+  ]
+}

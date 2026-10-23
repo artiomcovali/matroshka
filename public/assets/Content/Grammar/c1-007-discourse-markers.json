@@ -1,0 +1,296 @@
+{
+  "id": "c1-007-discourse-markers",
+  "level": "C1",
+  "focusArea": "sentenceStructure",
+  "title": "Discourse Markers",
+  "titleRussian": "Дискурсивные маркеры",
+  "description": "Words and phrases organizing discourse",
+  "descriptionRussian": "Слова и выражения для организации текста",
+  "imageName": "text.alignleft",
+  "intro": "Discourse markers organize text and signal relationships between ideas. ADDITION: кроме того, к тому же, также, более того (moreover, furthermore). CONTRAST: однако, тем не менее, впрочем, зато (however, nevertheless). CAUSE: ведь, дело в том что, поскольку (since, the thing is). RESULT: следовательно, таким образом, итак (therefore, thus). EXAMPLE: например, скажем, допустим (for example, let's say). SUMMARY: короче говоря, в общем, одним словом (in short, in general). Master these for coherent, sophisticated writing and speaking.",
+  "rules": [
+    "Addition: кроме того, более того, к тому же (moreover, furthermore)",
+    "Contrast: однако, тем не менее, впрочем (however, nevertheless)",
+    "Result: следовательно, таким образом, итак (therefore, thus)",
+    "Summary: короче говоря, одним словом, в общем (in short)"
+  ],
+  "examples": [
+    "Он умён. Кроме того, он трудолюбив. (He's smart. Moreover, he's hardworking.)",
+    "Было поздно. Тем не менее, мы продолжили работу. (It was late. Nevertheless, we continued working.)",
+    "Он не пришёл. Следовательно, мы начали без него. (He didn't come. Therefore, we started without him.)",
+    "Короче говоря, проект провалился. (In short, the project failed.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Addition: Он умён. _____, он трудолюбив. (moreover)",
+          "promptEnglish": "He's smart. Moreover, he's hardworking.",
+          "options": [
+            "Впрочем",
+            "Кроме того",
+            "Однако",
+            "Следовательно"
+          ],
+          "answer": "Кроме того",
+          "hint": "Adding another positive quality",
+          "explanation": "Addition: Кроме того (moreover)."
+        },
+        {
+          "prompt": "Contrast: Было поздно. _____, мы продолжили. (nevertheless)",
+          "promptEnglish": "It was late. Nevertheless, we continued.",
+          "options": [
+            "Также",
+            "Поэтому",
+            "Кроме того",
+            "Тем не менее"
+          ],
+          "answer": "Тем не менее",
+          "hint": "Unexpected continuation despite obstacle",
+          "explanation": "Contrast: Тем не менее (nevertheless)."
+        },
+        {
+          "prompt": "Result: Он опоздал. _____, мы начали без него. (therefore)",
+          "promptEnglish": "He was late. Therefore, we started without him.",
+          "options": [
+            "Однако",
+            "Впрочем",
+            "Следовательно",
+            "К тому же"
+          ],
+          "answer": "Следовательно",
+          "hint": "Logical consequence",
+          "explanation": "Result: Следовательно (therefore)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Summary: _____, проект не удался. (in short)",
+          "promptEnglish": "In short, the project failed.",
+          "options": [
+            "Более того",
+            "Короче говоря",
+            "Кроме того",
+            "Однако"
+          ],
+          "answer": "Короче говоря",
+          "hint": "Summarizing the situation",
+          "explanation": "Summary: Короче говоря (in short)."
+        },
+        {
+          "prompt": "Cause/explanation: Я не пришёл, _____ был болен. (because/since)",
+          "promptEnglish": "I didn't come because I was sick.",
+          "options": [
+            "впрочем",
+            "поскольку",
+            "однако",
+            "следовательно"
+          ],
+          "answer": "поскольку",
+          "hint": "Giving the reason",
+          "explanation": "Cause: поскольку (since/because)."
+        },
+        {
+          "prompt": "Emphasis addition: Он богат. _____, он знаменит. (what's more)",
+          "promptEnglish": "He's rich. What's more, he's famous.",
+          "options": [
+            "Впрочем",
+            "Однако",
+            "Зато",
+            "Более того"
+          ],
+          "answer": "Более того",
+          "hint": "Emphasizing even more",
+          "explanation": "Emphatic addition: Более того (what's more)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Concession: Он молод. _____, он опытен. (but then again)",
+          "promptEnglish": "He's young. But then again, he's experienced.",
+          "options": [
+            "Также",
+            "Итак",
+            "Впрочем",
+            "Поэтому"
+          ],
+          "answer": "Впрочем",
+          "hint": "Introducing a counterpoint/qualification",
+          "explanation": "Concession: Впрочем (but then again)."
+        },
+        {
+          "prompt": "Compensation: Квартира маленькая, _____ светлая. (but at least)",
+          "promptEnglish": "The apartment is small, but at least it's bright.",
+          "options": [
+            "поэтому",
+            "зато",
+            "кроме того",
+            "следовательно"
+          ],
+          "answer": "зато",
+          "hint": "Compensating positive",
+          "explanation": "Compensation: зато (but at least)."
+        },
+        {
+          "prompt": "Conclusion: _____, мы приняли решение. (thus/so)",
+          "promptEnglish": "Thus, we made a decision.",
+          "options": [
+            "Впрочем",
+            "Таким образом",
+            "Зато",
+            "Ведь"
+          ],
+          "answer": "Таким образом",
+          "hint": "Drawing a conclusion",
+          "explanation": "Conclusion: Таким образом (thus)."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Маршрут сложный. _____, виды потрясающие. (компенсация)",
+          "promptEnglish": "The route is difficult. But at least the views are stunning.",
+          "options": [
+            "Однако",
+            "Следовательно",
+            "Кроме того",
+            "Зато"
+          ],
+          "answer": "Зато",
+          "hint": "Компенсация: минус, но есть плюс",
+          "explanation": "Компенсация: зато (минус компенсируется плюсом)."
+        },
+        {
+          "prompt": "_____, нужно подвести итоги. (подведение итога)",
+          "promptEnglish": "So then, we need to sum up.",
+          "options": [
+            "Впрочем",
+            "Более того",
+            "Итак",
+            "Поскольку"
+          ],
+          "answer": "Итак",
+          "hint": "Переход к заключению/выводу",
+          "explanation": "Итог: итак = переход к заключительной мысли (thus, so then)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Он не позвонил. _____, он не написал. (moreover, adding negative)"
+    ],
+    "choices": [
+      "К тому же",
+      "Однако",
+      "Зато",
+      "Впрочем"
+    ],
+    "answers": [
+      "К тому же"
+    ],
+    "grammarFocus": "Addition marker: К тому же (moreover, on top of that)",
+    "hints": [
+      "This discourse marker adds another negative point to an already negative statement. It means 'moreover/on top of that.'"
+    ],
+    "explanations": [
+      "'К тому же' (moreover, on top of that) is an addition marker that piles on extra information. 'Однако' means 'however' (contrast), 'зато' means 'but at least' (compensation), and 'впрочем' means 'though/mind you' (afterthought)."
+    ],
+    "options": [
+      [
+        "К тому же",
+        "Однако",
+        "Впрочем",
+        "Зато"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Дорого. _____ качественно. (compensation)",
+      "contextEnglish": "Expensive. But at least high quality.",
+      "options": [
+        "Зато",
+        "Однако"
+      ],
+      "answer": "Зато",
+      "explanation": "Compensation: зато (but at least)."
+    },
+    {
+      "context": "Дорого. _____ я куплю. (contrast/unexpected)",
+      "contextEnglish": "Expensive. However, I'll buy it.",
+      "options": [
+        "Однако",
+        "Зато"
+      ],
+      "answer": "Однако",
+      "explanation": "Unexpected contrast: однако (however)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by discourse function",
+    "categories": [
+      "Addition",
+      "Contrast",
+      "Result/Conclusion",
+      "Summary"
+    ],
+    "items": [
+      {
+        "word": "Кроме того",
+        "category": "Addition"
+      },
+      {
+        "word": "Однако",
+        "category": "Contrast"
+      },
+      {
+        "word": "Следовательно",
+        "category": "Result/Conclusion"
+      },
+      {
+        "word": "Короче говоря",
+        "category": "Summary"
+      },
+      {
+        "word": "Более того",
+        "category": "Addition"
+      },
+      {
+        "word": "Тем не менее",
+        "category": "Contrast"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "кроме того / более того",
+      "definition": "moreover, furthermore, what's more",
+      "example": "Кроме того, он умён."
+    },
+    {
+      "term": "однако / тем не менее",
+      "definition": "however, nevertheless",
+      "example": "Однако он пришёл."
+    },
+    {
+      "term": "следовательно / таким образом",
+      "definition": "therefore, thus",
+      "example": "Следовательно, мы решили..."
+    },
+    {
+      "term": "зато",
+      "definition": "but at least, on the other hand (compensation)",
+      "example": "Дорого, зато качественно."
+    }
+  ]
+}

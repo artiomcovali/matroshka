@@ -1,0 +1,205 @@
+{
+  "lessonId": "c1-004-aspect-mastery",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Choose the right aspect for politeness, certainty, and experience, then pick between close pairs",
+      "descriptionRussian": "Выберите правильный вид для вежливости, определённости и опыта, затем выберите из близких пар",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "A teacher to students (softer command): _____, пожалуйста. (Sit down, please.)",
+              "promptEnglish": "Please sit down. (softer, polite tone)",
+              "options": [
+                "Сядьте",
+                "Сядете",
+                "Садитесь",
+                "Садились"
+              ],
+              "answer": "Садитесь",
+              "hint": "Imperfective imperative = invitation. Perfective imperative = sharp command.",
+              "explanation": "Imperfective imperative Садитесь is an invitation (please, take a seat). Perfective Сядьте! sounds like an order."
+            },
+            {
+              "prompt": "Definite promise: Не волнуйся, я обязательно _____. (Don't worry, I will definitely call.)",
+              "promptEnglish": "Don't worry, I will definitely call.",
+              "options": [
+                "звоню",
+                "звонил",
+                "буду звонить",
+                "позвоню"
+              ],
+              "answer": "позвоню",
+              "hint": "Certainty and commitment = perfective future.",
+              "explanation": "Definite commitment (обязательно) uses perfective future: позвоню. Буду звонить would be vaguer, less certain."
+            },
+            {
+              "prompt": "Experience: Ты _____ когда-нибудь в Сибири? (Have you ever been to Siberia?)",
+              "promptEnglish": "Have you ever been to Siberia?",
+              "options": [
+                "побывал",
+                "был",
+                "бываешь",
+                "будешь"
+              ],
+              "answer": "был",
+              "hint": "General experience question = imperfective past.",
+              "explanation": "Experience question: Ты был в Сибири? (imperfective past). Побывал would focus on a specific completed visit."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Firm deadline: Я _____ отчёт к пятнице. (I will complete the report by Friday.)",
+              "promptEnglish": "I will have the report done by Friday.",
+              "options": [
+                "буду писать",
+                "пишу",
+                "напишу",
+                "писал"
+              ],
+              "answer": "напишу",
+              "hint": "A deadline with к + dative signals a definite result.",
+              "explanation": "Deadline (к пятнице) + definite commitment = perfective: напишу. The speaker promises a finished product."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Ты _____ суши? - Да, много раз. (Have you tried sushi?)",
+          "contextEnglish": "Have you tried sushi? - Yes, many times.",
+          "options": [
+            "пробовал",
+            "попробовал"
+          ],
+          "answer": "пробовал",
+          "explanation": "General experience question: imperfective пробовал (Have you ever tried?). The answer 'many times' confirms this is about experience, not one event."
+        },
+        {
+          "context": "Ты _____ этот торт? Ну как, вкусно? (Did you try this cake? How is it?)",
+          "contextEnglish": "Did you try this specific cake? How is it?",
+          "options": [
+            "пробовал",
+            "попробовал"
+          ],
+          "answer": "попробовал",
+          "explanation": "Asking about a specific, completed tasting (this particular cake) uses perfective: попробовал."
+        },
+        {
+          "context": "Не волнуйся. Я _____ тебе. (Don't worry. I will help you. - definite promise)",
+          "contextEnglish": "Don't worry. I will (definitely) help you.",
+          "options": [
+            "буду помогать",
+            "помогу"
+          ],
+          "answer": "помогу",
+          "explanation": "Definite commitment: perfective помогу = 'I will help (for sure).' Imperfective буду помогать would be vague: 'I'll be helping (sometime).'"
+        }
+      ]
+    },
+    {
+      "id": "set-3-build-correct",
+      "title": "Build & Correct",
+      "titleRussian": "Построй и исправь",
+      "description": "Build sentences with correct aspect, then fix aspectual errors",
+      "descriptionRussian": "Постройте предложения с правильным видом, затем исправьте ошибки вида",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Ты попробовал когда-нибудь грузинскую кухню?",
+          "error": "попробовал",
+          "correction": "пробовал",
+          "hint": "Когда-нибудь (ever) signals a general experience question = imperfective.",
+          "explanation": "General experience (когда-нибудь) requires imperfective: пробовал. Попробовал would ask about a specific completed tasting.",
+          "options": [
+            "пробовал",
+            "пробуешь"
+          ]
+        },
+        {
+          "sentence": "Она всегда хорошо подготовилась к урокам.",
+          "error": "подготовилась",
+          "correction": "готовилась",
+          "hint": "Всегда (always) marks a habitual action. Habitual = imperfective.",
+          "explanation": "Habitual past (всегда) requires imperfective: готовилась. Perfective подготовилась would describe a single completed preparation.",
+          "options": [
+            "готовилась",
+            "готовится"
+          ]
+        },
+        {
+          "sentence": "Я обязательно буду помогать тебе завтра.",
+          "error": "буду помогать",
+          "correction": "помогу",
+          "hint": "Обязательно signals a firm commitment, which requires perfective future.",
+          "explanation": "Definite commitment (обязательно) requires perfective: помогу. Imperfective буду помогать sounds vague and uncommitted.",
+          "options": [
+            "помогу",
+            "помогал"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "Don't worry, I will definitely help.",
+          "answer": "Не волнуйтесь, я обязательно помогу.",
+          "acceptableVariants": [
+            "Не волнуйся, я обязательно помогу.",
+            "Не беспокойтесь, я обязательно помогу."
+          ],
+          "hint": "Не + impf imperative (don't worry), then perfective future for firm promise.",
+          "grammarFocus": "Firm commitment = perfective future",
+          "keyWord": "помогу",
+          "options": [
+            "помогу",
+            "буду помогать",
+            "помогаю",
+            "помогал"
+          ]
+        },
+        {
+          "english": "Have you ever tried Georgian wine?",
+          "answer": "Ты пробовал грузинское вино?",
+          "acceptableVariants": [
+            "Вы пробовали грузинское вино?",
+            "Ты когда-нибудь пробовал грузинское вино?"
+          ],
+          "hint": "General experience question: imperfective past пробовал. Georgian = грузинское.",
+          "grammarFocus": "Experience question = imperfective past",
+          "keyWord": "пробовал",
+          "options": [
+            "пробовал",
+            "попробовал",
+            "пробуешь",
+            "попробуешь"
+          ]
+        },
+        {
+          "english": "She finished the project in three months.",
+          "answer": "Она закончила проект за три месяца.",
+          "acceptableVariants": [
+            "Она завершила проект за три месяца.",
+            "Она сделала проект за три месяца."
+          ],
+          "hint": "Completed result with time frame (за + acc) = perfective past.",
+          "grammarFocus": "Completed action with time frame = perfective",
+          "keyWord": "закончила",
+          "options": [
+            "закончила",
+            "заканчивала",
+            "кончала",
+            "заканчивает"
+          ]
+        }
+      ]
+    }
+  ]
+}

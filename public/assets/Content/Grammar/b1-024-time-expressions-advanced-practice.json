@@ -1,0 +1,519 @@
+{
+  "lessonId": "b1-024-time-expressions-advanced",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Pick the Preposition",
+      "titleRussian": "Выберите предлог",
+      "description": "Choose через, назад, за, or на for each time context",
+      "descriptionRussian": "Выберите правильный временной предлог",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Самолёт вылетает _____ два часа. (The plane departs in two hours.)",
+              "promptEnglish": "The plane departs in two hours. (future time point)",
+              "options": [
+                "через",
+                "за",
+                "на",
+                "назад"
+              ],
+              "answer": "через",
+              "hint": "In (future) = через + accusative.",
+              "explanation": "Через два часа: in two hours (from now). Future time reference."
+            },
+            {
+              "prompt": "Она прочитала роман _____ три дня. (She read the novel in three days.)",
+              "promptEnglish": "She read the novel in three days. (completed within that time)",
+              "options": [
+                "на",
+                "назад",
+                "за",
+                "через"
+              ],
+              "answer": "за",
+              "hint": "Completed within a timeframe = за + accusative.",
+              "explanation": "За три дня: within/in three days (the reading was completed)."
+            },
+            {
+              "prompt": "Мы приехали сюда _____ неделю. (We came here for a week.)",
+              "promptEnglish": "We came here for a week. (planned duration of stay)",
+              "options": [
+                "через",
+                "на",
+                "за",
+                "назад"
+              ],
+              "answer": "на",
+              "hint": "For (intended duration) = на + accusative.",
+              "explanation": "На неделю: for a week (our planned stay)."
+            },
+            {
+              "prompt": "Это случилось пять лет _____. (This happened five years ago.)",
+              "promptEnglish": "This happened five years ago.",
+              "options": [
+                "через",
+                "за",
+                "на",
+                "назад"
+              ],
+              "answer": "назад",
+              "hint": "Ago = time period + назад.",
+              "explanation": "Пять лет назад: five years ago. Назад always follows the time phrase."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я вернусь _____ десять минут. (I'll be back in ten minutes.)",
+              "promptEnglish": "I'll be back in ten minutes. (future)",
+              "options": [
+                "за",
+                "через",
+                "на",
+                "назад"
+              ],
+              "answer": "через",
+              "hint": "In (future) = через.",
+              "explanation": "Через десять минут: in ten minutes from now."
+            },
+            {
+              "prompt": "Он сделал всю работу _____ час. (He did all the work in an hour.)",
+              "promptEnglish": "He did all the work in/within an hour. (completed)",
+              "options": [
+                "через",
+                "на",
+                "назад",
+                "за"
+              ],
+              "answer": "за",
+              "hint": "Completed within = за.",
+              "explanation": "За час: within an hour (the work was finished)."
+            },
+            {
+              "prompt": "Она уехала в командировку _____ две недели. (She went on a business trip for two weeks.)",
+              "promptEnglish": "She went on a business trip for two weeks. (duration)",
+              "options": [
+                "на",
+                "через",
+                "за",
+                "назад"
+              ],
+              "answer": "на",
+              "hint": "For (planned duration) = на.",
+              "explanation": "На две недели: for two weeks (planned length of trip)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я сделаю это _____ час. (I'll do it within one hour - I'll finish.)",
+          "contextEnglish": "I'll complete it within an hour.",
+          "options": [
+            "через час",
+            "за час"
+          ],
+          "answer": "за час",
+          "explanation": "За час = within/in the span of an hour (completed). Focus on finishing within the time."
+        },
+        {
+          "context": "Я позвоню _____ час. (I'll call in one hour - from now.)",
+          "contextEnglish": "I'll call in an hour (one hour from now).",
+          "options": [
+            "через час",
+            "за час"
+          ],
+          "answer": "через час",
+          "explanation": "Через час = in an hour (from now). A future time point, not a duration."
+        },
+        {
+          "context": "Он уехал _____ месяц. (He left for a month - planned stay.)",
+          "contextEnglish": "He left for a month (he plans to be away a month).",
+          "options": [
+            "на месяц",
+            "за месяц"
+          ],
+          "answer": "на месяц",
+          "explanation": "На месяц = for a month (intended duration of absence)."
+        },
+        {
+          "context": "Он выучил язык _____ месяц. (He learned the language in a month.)",
+          "contextEnglish": "He learned the language in a month (achieved it within a month).",
+          "options": [
+            "на месяц",
+            "за месяц"
+          ],
+          "answer": "за месяц",
+          "explanation": "За месяц = in/within a month (the learning was completed in that time)."
+        }
+      ]
+    },
+    {
+      "id": "round-3-transform-translate",
+      "title": "Transform and Translate",
+      "titleRussian": "Преобразование и перевод",
+      "description": "Rewrite with different time prepositions and translate",
+      "descriptionRussian": "Перестройте предложения и переведите с английского",
+      "icon": "arrow.left.arrow.right",
+      "translation": [
+        {
+          "prompt": "The exam is in three days.",
+          "answer": "Экзамен через три дня.",
+          "hint": "In (future) = через + accusative.",
+          "explanation": "Через три дня: in three days from now.",
+          "keyWord": "через",
+          "options": [
+            "через",
+            "за",
+            "на",
+            "назад"
+          ]
+        },
+        {
+          "prompt": "We met ten years ago.",
+          "answer": "Мы познакомились десять лет назад.",
+          "hint": "Ago = time period + назад.",
+          "explanation": "Десять лет назад: ten years ago. Назад follows the time phrase.",
+          "keyWord": "назад",
+          "options": [
+            "назад",
+            "через",
+            "за",
+            "на"
+          ]
+        },
+        {
+          "prompt": "She cooked dinner in 30 minutes.",
+          "answer": "Она приготовила ужин за тридцать минут.",
+          "hint": "Completed within = за + accusative.",
+          "explanation": "За тридцать минут: within 30 minutes (dinner was ready).",
+          "keyWord": "за",
+          "options": [
+            "за",
+            "через",
+            "на",
+            "назад"
+          ]
+        },
+        {
+          "prompt": "He went abroad for six months.",
+          "answer": "Он уехал за границу на шесть месяцев.",
+          "hint": "For (duration of stay) = на + accusative.",
+          "explanation": "На шесть месяцев: for six months (planned stay abroad).",
+          "keyWord": "на шесть",
+          "options": [
+            "на шесть",
+            "за шесть",
+            "через шесть",
+            "шесть назад"
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Магазин закроется _____ двадцать минут. (The store closes in twenty minutes.)",
+          "Они переехали _____ год. (They moved a year ago.)",
+          "Она выучила стихотворение _____ вечер. (She memorized the poem in one evening.)"
+        ],
+        "choices": [
+          "через",
+          "год назад",
+          "за"
+        ],
+        "answers": [
+          "через",
+          "год назад",
+          "за"
+        ],
+        "grammarFocus": "через (future), назад (ago), за (completed within)",
+        "hints": [
+          "Future time point = через + acc.",
+          "Ago = time period + назад.",
+          "Completed within = за + acc."
+        ],
+        "explanations": [
+          "Через двадцать минут: in twenty minutes (from now).",
+          "Год назад: a year ago. Назад follows the time phrase.",
+          "За вечер: in/within one evening (she finished memorizing)."
+        ],
+        "options": [
+          [
+            "через",
+            "в",
+            "на",
+            "за"
+          ],
+          [
+            "через год",
+            "на год",
+            "за год",
+            "год назад"
+          ],
+          [
+            "на",
+            "в",
+            "за",
+            "через"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "categories": [
+          "через (in, future)",
+          "назад (ago)",
+          "за (within, completed)",
+          "на (for, duration)"
+        ],
+        "items": [
+          {
+            "text": "Встреча через полчаса.",
+            "category": "через (in, future)"
+          },
+          {
+            "text": "Она уехала два года назад.",
+            "category": "назад (ago)"
+          },
+          {
+            "text": "Он написал письмо за пять минут.",
+            "category": "за (within, completed)"
+          },
+          {
+            "text": "Мы приехали на выходные.",
+            "category": "на (for, duration)"
+          },
+          {
+            "text": "Поезд прибудет через час.",
+            "category": "через (in, future)"
+          },
+          {
+            "text": "Он собрал вещи за десять минут.",
+            "category": "за (within, completed)"
+          },
+          {
+            "text": "Мы познакомились неделю назад.",
+            "category": "назад (ago)"
+          },
+          {
+            "text": "Я взял книгу на два дня.",
+            "category": "на (for, duration)"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Я приеду за два часа.",
+          "error": "за",
+          "correction": "через",
+          "hint": "Future time point = через, not за.",
+          "explanation": "Через два часа: in two hours (from now). За would mean 'within two hours' (completion).",
+          "options": [
+            "через",
+            "на",
+            "назад"
+          ]
+        },
+        {
+          "sentence": "Она уехала через неделю.",
+          "error": "через",
+          "correction": "неделю",
+          "hint": "Ago = time + назад. Without назад, через means 'in (future).'",
+          "explanation": "Она уехала неделю назад (a week ago). Через неделю means 'in a week' (future).",
+          "options": [
+            "неделю",
+            "за",
+            "на"
+          ]
+        },
+        {
+          "sentence": "Он выучил язык на год.",
+          "error": "на",
+          "correction": "за",
+          "hint": "Completed within = за. На = for (intended duration of stay).",
+          "explanation": "За год: within a year (he learned/completed). На год would mean 'for a year' (planned stay).",
+          "options": [
+            "за",
+            "через",
+            "назад"
+          ]
+        },
+        {
+          "sentence": "Мы приехали за две недели.",
+          "error": "за",
+          "correction": "на",
+          "hint": "For (planned duration) = на. За = completed within.",
+          "explanation": "На две недели: for two weeks (planned stay). За would mean 'within two weeks' (time to complete something).",
+          "options": [
+            "на",
+            "через",
+            "назад"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Финальное задание",
+      "description": "All four time prepositions in tricky contexts",
+      "descriptionRussian": "Все четыре временных предлога в сложных контекстах",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я прочитаю эту книгу _____ выходные. (I'll read this book over the weekend.)",
+              "promptEnglish": "I'll read this book over the weekend. (finish it within)",
+              "options": [
+                "за",
+                "через",
+                "на",
+                "назад"
+              ],
+              "answer": "за",
+              "hint": "Completed within = за. The goal is to finish.",
+              "explanation": "За выходные: within/over the weekend (I'll finish reading)."
+            },
+            {
+              "prompt": "Они встретились _____ и сразу подружились. (They met long ago and immediately became friends.)",
+              "promptEnglish": "They met long ago.",
+              "options": [
+                "за долго",
+                "через долго",
+                "давно",
+                "долго назад"
+              ],
+              "answer": "давно",
+              "hint": "Long ago = давно (not *долго назад). Давно is the standard word.",
+              "explanation": "Давно: long ago. Russian uses давно, not *долго назад (which is a common foreigner error)."
+            },
+            {
+              "prompt": "Мы остановились в гостинице _____ три ночи. (We checked into a hotel for three nights.)",
+              "promptEnglish": "We stayed at a hotel for three nights. (planned stay)",
+              "options": [
+                "через",
+                "на",
+                "за",
+                "назад"
+              ],
+              "answer": "на",
+              "hint": "For (intended duration) = на.",
+              "explanation": "На три ночи: for three nights (our planned stay)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Урок закончится _____ сорок минут. (The class ends in forty minutes.)",
+              "promptEnglish": "The class ends in forty minutes. (future time point)",
+              "options": [
+                "за",
+                "на",
+                "назад",
+                "через"
+              ],
+              "answer": "через",
+              "hint": "In (future) = через.",
+              "explanation": "Через сорок минут: in 40 minutes from now."
+            },
+            {
+              "prompt": "Она научилась водить машину _____ месяц. (She learned to drive in a month.)",
+              "promptEnglish": "She learned to drive in a month. (completed)",
+              "options": [
+                "на",
+                "через",
+                "за",
+                "назад"
+              ],
+              "answer": "за",
+              "hint": "Learned (completed) within a time period = за.",
+              "explanation": "За месяц: within a month (the learning was completed)."
+            },
+            {
+              "prompt": "Эти события произошли много веков _____. (These events happened many centuries ago.)",
+              "promptEnglish": "These events happened many centuries ago.",
+              "options": [
+                "через",
+                "за",
+                "на",
+                "назад"
+              ],
+              "answer": "назад",
+              "hint": "Ago = time + назад.",
+              "explanation": "Много веков назад: many centuries ago."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Я сделаю это через час. / Я сделаю это за час.",
+          "question": "What is the difference?",
+          "options": [
+            "Through = I'll start in an hour; за = I'll finish within an hour",
+            "They mean the same thing",
+            "Through is formal, за is informal"
+          ],
+          "answer": "Through = I'll start in an hour; за = I'll finish within an hour",
+          "explanation": "Через час: I'll do it in an hour (future starting point). За час: I'll do it within an hour (completion time)."
+        },
+        {
+          "sentence": "Она приехала на неделю. / Она приехала неделю назад.",
+          "question": "What is the difference?",
+          "options": [
+            "First = she arrived for a week (planned stay); second = she arrived a week ago (time reference)",
+            "No difference",
+            "First is future, second is past"
+          ],
+          "answer": "First = she arrived for a week (planned stay); second = she arrived a week ago (time reference)",
+          "explanation": "На неделю: for a week (how long she plans to stay). Неделю назад: a week ago (when she arrived)."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Автобус будет _____ пять минут. (The bus comes in five minutes.)",
+          "Он приехал в гости _____ пару дней. (He came to visit for a couple of days.)"
+        ],
+        "choices": [
+          "через",
+          "на"
+        ],
+        "answers": [
+          "через",
+          "на"
+        ],
+        "grammarFocus": "через (future time) vs на (intended duration)",
+        "hints": [
+          "Future arrival = через.",
+          "For (planned visit) = на."
+        ],
+        "explanations": [
+          "Через пять минут: in five minutes from now.",
+          "На пару дней: for a couple of days (visit duration)."
+        ],
+        "options": [
+          [
+            "на",
+            "через",
+            "за",
+            "в"
+          ],
+          [
+            "через",
+            "в",
+            "на",
+            "за"
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "id": "b1-track-impersonal-06-mixed-review",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Impersonal 7: Mixed Review (the family diagnostic)",
+  "titleRussian": "Безличные 7: Сводное повторение (определи тип конструкции)",
+  "description": "All seven families of impersonal constructions from this track brought together: permission, necessity, advice, timing, state, reflexive, and absence. A step-by-step diagnostic walks you through choosing and producing the right family for any context. Nothing new is taught.",
+  "descriptionRussian": "Все семь семей безличных конструкций трека собраны вместе: разрешение, необходимость, совет, время, состояние, возвратные безличные и отсутствие. Пошаговая диагностика помогает выбрать и построить нужную семью для любого контекста. Ничего нового не вводится.",
+  "imageName": "checklist",
+  "trackId": "b1-impersonal-mastery",
+  "trackTitle": "Impersonal Constructions Mastery",
+  "trackTitleRussian": "Безличные конструкции",
+  "trackIndex": 7,
+  "trackTotal": 7,
+  "intro": "Seven families, one shape. No subject anywhere, the person in the dative, and tense carried by a frozen neuter word that never agrees with anybody. Run down the list in order and stop at the first one that fits: allowed, required, advised, timely, felt, or one of the reflexive frames.",
+  "rules": [
+    "Run the diagnostic in order until the first 'yes': allowed/forbidden, required, advised, the moment has come, a feeling/state, a 'by-itself' wanting or success, or simply absent. The first match picks the family.",
+    "The seven families: permission (можно/нельзя), necessity (нужно/надо), advice (следует/стоит/лучше), timing (пора), state (холодно, грустно, трудно), reflexive (хочется, кажется, удаётся), absence (нет + genitive).",
+    "There is no nominative subject. The person who feels or needs sits in the dative (Маше нужно), and for absence in 'у меня' or in the genitive of the absent person (Маши нет дома).",
+    "Tense rides on a frozen neuter form: было for the past, будет for the future, never agreeing with the dative person (Маше было холодно, not была).",
+    "The reflexive family uses its own neuter past (хотелось, удалось), and absence uses не было / не будет."
+  ],
+  "examples": [
+    "Здесь нельзя курить. (Smoking is not allowed here.) Permission family: prohibition.",
+    "Мне нужно идти. (I need to go.) Necessity family.",
+    "Тебе следует отдохнуть. (You ought to rest.) Advice family.",
+    "Маше пора домой. (It is time for Masha to head home.) Timing family, dropped motion verb.",
+    "Маше было грустно вчера. (Masha was sad yesterday.) State family, past tense.",
+    "Мне хочется кофе. (I feel like some coffee.) Reflexive family.",
+    "У меня нет ручки. (I have no pen.) Absence family, genitive of the missing thing."
+  ],
+  "tables": [
+    {
+      "title": "The seven families at a glance",
+      "headers": [
+        "Family",
+        "Predicative",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "1: Permission",
+          "cells": [
+            "можно / нельзя",
+            "Здесь нельзя курить."
+          ]
+        },
+        {
+          "label": "2: Necessity",
+          "cells": [
+            "нужно / надо",
+            "Мне нужно идти."
+          ]
+        },
+        {
+          "label": "3: Advice",
+          "cells": [
+            "следует / стоит / лучше",
+            "Тебе следует отдохнуть."
+          ]
+        },
+        {
+          "label": "4: Timing",
+          "cells": [
+            "пора",
+            "Маше пора домой."
+          ]
+        },
+        {
+          "label": "5: State",
+          "cells": [
+            "холодно, грустно, трудно",
+            "Маше грустно."
+          ]
+        },
+        {
+          "label": "6: Reflexive",
+          "cells": [
+            "хочется, кажется, удаётся",
+            "Мне хочется кофе."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Мне _____ кофе, очень устал.",
+          "promptEnglish": "I feel like some coffee, I am very tired.",
+          "options": [
+            "хочу",
+            "нужно",
+            "хочется",
+            "пора"
+          ],
+          "answer": "хочется",
+          "hint": "A soft wanting-feeling that happens 'by itself'. Which family?",
+          "explanation": "Хочется names the soft wanting-feeling in the reflexive family. Хочу would require я in the nominative ('I want'), a personal subject, not an impersonal frame. Нужно names necessity, not a feeling. Пора names timing, not desire."
+        },
+        {
+          "prompt": "В библиотеке _____ громко разговаривать.",
+          "promptEnglish": "You may not talk loudly in the library.",
+          "options": [
+            "нельзя",
+            "трудно",
+            "хочется",
+            "стоит"
+          ],
+          "answer": "нельзя",
+          "hint": "A rule of conduct in a public place. Which family?",
+          "explanation": "The library context names a rule, the classic permission setting, and нельзя is the prohibition predicative. Трудно (state) would mean 'it is hard to', хочется (reflexive) a feeling, and стоит (advice) 'it is worth', none of which carry the prohibition."
+        },
+        {
+          "prompt": "У меня нет _____, давай завтра.",
+          "promptEnglish": "I have no time, let's do it tomorrow.",
+          "options": [
+            "время",
+            "времени",
+            "временем",
+            "времена"
+          ],
+          "answer": "времени",
+          "hint": "Absence family: нет always takes the genitive. Время is a tricky neuter noun.",
+          "explanation": "Нет governs the genitive, and the genitive of время is времени. Время is the nominative, used only when it exists (у меня есть время)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Тебе _____ поговорить с врачом, твой кашель не проходит.",
+          "promptEnglish": "You ought to talk to a doctor; your cough is not going away.",
+          "options": [
+            "пора",
+            "следует",
+            "нельзя",
+            "хочется"
+          ],
+          "answer": "следует",
+          "hint": "Formal advice from one person to another. Which family?",
+          "explanation": "Следует carries the formal 'ought to' reading of the advice family, fitting the medical context. Пора is timing (the moment has come), нельзя is prohibition, and хочется is the reflexive wanting-feeling. The recommendation reading is advice."
+        },
+        {
+          "prompt": "Антону _____ скучно одному дома.",
+          "promptEnglish": "Anton will be bored on his own at home.",
+          "options": [
+            "был",
+            "была",
+            "будет",
+            "было"
+          ],
+          "answer": "будет",
+          "hint": "Future state predicative; what gender and number does the tense word take?",
+          "explanation": "State family, future tense. The tense word stays neuter будет in the future, never agreeing with the dative person. Был (masc) and была (fem) would need a personal nominative subject, and было is past, the wrong tense for 'will be'."
+        },
+        {
+          "prompt": "Маше не _____ закончить работу вовремя.",
+          "promptEnglish": "Masha did not manage to finish her work on time.",
+          "options": [
+            "удалось",
+            "удался",
+            "удалась",
+            "удавалось"
+          ],
+          "answer": "удалось",
+          "hint": "Reflexive family: the past of удаться is fixed neuter singular.",
+          "explanation": "The reflexive past is always neuter singular: удалось. Удался and удалась would agree with a nominative subject ('эксперимент удался'), a different sentence. Удавалось is the imperfective past for a habitual or ongoing process, but the prompt names a single bounded event, which is perfective."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Уже поздно, Антону _____ домой.",
+          "promptEnglish": "It is late, it is time for Anton to head home.",
+          "options": [
+            "пора",
+            "нужно",
+            "удаётся",
+            "грустно"
+          ],
+          "answer": "пора",
+          "hint": "The moment has arrived, and the motion verb is dropped before домой.",
+          "explanation": "Пора is the timing family, and only пора can drop the motion verb when a destination is named: Антону пора домой. Нужно (necessity) would still need an infinitive (нужно идти), удаётся (reflexive) reports a success, and грустно (state) a feeling. The cue 'уже поздно' confirms timing."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Маше _____ сегодня, хотя всё в порядке.",
+          "promptEnglish": "Masha feels sad today although everything is fine.",
+          "options": [
+            "грустно",
+            "грустная",
+            "грустной",
+            "грустит"
+          ],
+          "answer": "грустно",
+          "hint": "Turn the long adjective into an impersonal state.",
+          "explanation": "The impersonal state uses the short predicative with a dative person: Маше грустно. Грустная is a long adjective needing a nominative subject (Маша грустная is a claim about her character)."
+        },
+        {
+          "prompt": "Вчера Маше _____ холодно на улице.",
+          "promptEnglish": "Yesterday Masha was cold outside.",
+          "options": [
+            "было",
+            "была",
+            "был",
+            "есть"
+          ],
+          "answer": "было",
+          "hint": "Past tense of the state frame.",
+          "explanation": "The past of a state predicative is the frozen neuter было: Маше было холодно. Была would wrongly agree with Маша; the dative person is not a subject."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Закрой окно, _____ холодно. (Close the window, the child is cold.)",
+      "Уже поздно, нам _____ домой. (It is late, it is time for us to head home.)"
+    ],
+    "choices": [
+      "ребёнку",
+      "нет",
+      "пора",
+      "хочется"
+    ],
+    "answers": [
+      "ребёнку",
+      "пора"
+    ],
+    "grammarFocus": "Three families in one set. The state predicative холодно takes a dative person (ребёнку, from ребёнок). The absence frame uses present-tense нет with the absent person in the genitive (Маши). The timing family пора drops the motion verb before домой. Хочется is the reflexive wanting-feeling and fits none of these slots."
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Здесь",
+        "нельзя",
+        "курить"
+      ],
+      "answer": "Здесь нельзя курить.",
+      "translation": "Smoking is not allowed here.",
+      "hint": "Permission family: нельзя + infinitive for a prohibition."
+    },
+    {
+      "words": [
+        "Маше",
+        "нужно",
+        "отдохнуть"
+      ],
+      "answer": "Маше нужно отдохнуть.",
+      "translation": "Masha needs to rest.",
+      "hint": "Necessity family: dative person + нужно + infinitive."
+    },
+    {
+      "words": [
+        "Антону",
+        "пора",
+        "на",
+        "работу"
+      ],
+      "answer": "Антону пора на работу.",
+      "translation": "It is time for Anton to head to work.",
+      "hint": "Timing family: destination на работу (accusative); the motion verb drops."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Закрой окно, ребёнок холодно.",
+      "translationEnglish": "Close the window; the child is cold.",
+      "error": "ребёнок",
+      "correction": "ребёнку",
+      "options": [
+        "ребёнку",
+        "ребёнка",
+        "ребёнком"
+      ],
+      "explanation": "The state family takes a dative person, not a nominative: ребёнку, the dative of ребёнок. The nominative ребёнок would need a long adjective ('ребёнок холодный' = a cold person). The feeling is wired through the dative."
+    },
+    {
+      "sentence": "Нам редко удаёт решать такие задачи быстро.",
+      "translationEnglish": "We rarely manage to solve such problems quickly.",
+      "error": "удаёт",
+      "correction": "удаётся",
+      "options": [
+        "удаётся",
+        "удаются",
+        "удалось"
+      ],
+      "explanation": "The impersonal reflexive удаваться keeps -ся in every form: нам удаётся. 'Удаёт' without the -ся is not a Russian word."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "_____ хочется кофе.",
+      "contextEnglish": "I feel like some coffee.",
+      "options": [
+        "Я",
+        "Мне"
+      ],
+      "answer": "Мне",
+      "explanation": "The reflexive family requires a dative person (мне), not a nominative subject. 'Я хочется' is ungrammatical because the impersonal frame does not take a nominative."
+    },
+    {
+      "context": "Маше _____ холодно вчера.",
+      "contextEnglish": "Masha was cold yesterday.",
+      "options": [
+        "было",
+        "была"
+      ],
+      "answer": "было",
+      "explanation": "The state family marks the past with the frozen neuter было, which never agrees with the dative person Маше. Была (feminine) would need a personal nominative subject (Маша была дома), a different construction."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Здесь нельзя курить.",
+      "patternOptions": [
+        "Permission (можно / нельзя)",
+        "Necessity (нужно / надо)",
+        "State (личное чувство)",
+        "Advice (следует / стоит)"
+      ],
+      "answer": "Permission (можно / нельзя)",
+      "explanation": "Нельзя is the prohibition predicative + infinitive: the permission family."
+    },
+    {
+      "sentence": "Мне нужно идти.",
+      "patternOptions": [
+        "Permission (можно / нельзя)",
+        "Necessity (нужно / надо)",
+        "Advice (следует / стоит)",
+        "Timing (пора)"
+      ],
+      "answer": "Necessity (нужно / надо)",
+      "explanation": "Нужно plus an infinitive reports that the action is required: the necessity family."
+    },
+    {
+      "sentence": "Тебе следует отдохнуть, ты устал.",
+      "patternOptions": [
+        "Necessity (нужно / надо)",
+        "Advice (следует / стоит)",
+        "State (личное чувство)",
+        "Permission (можно / нельзя)"
+      ],
+      "answer": "Advice (следует / стоит)",
+      "explanation": "Следует is the formal 'ought to' predicative: the advice family recommends without demanding."
+    },
+    {
+      "sentence": "Маше пора домой.",
+      "patternOptions": [
+        "Advice (следует / стоит)",
+        "Timing (пора)",
+        "Reflexive (хочется / кажется)",
+        "Permission (можно / нельзя)"
+      ],
+      "answer": "Timing (пора)",
+      "explanation": "Пора announces the moment has arrived, and the motion verb is dropped before the destination домой: the timing family."
+    },
+    {
+      "sentence": "Мне холодно, надень мне куртку.",
+      "patternOptions": [
+        "Permission (можно / нельзя)",
+        "State (личное чувство)",
+        "Reflexive (хочется / кажется)",
+        "Necessity (нужно / надо)"
+      ],
+      "answer": "State (личное чувство)",
+      "explanation": "Холодно is the short state predicative with a dative person (мне): the state family reporting a personal feeling."
+    },
+    {
+      "sentence": "Мне кажется, что он прав.",
+      "patternOptions": [
+        "Necessity (нужно / надо)",
+        "Advice (следует / стоит)",
+        "Reflexive (хочется / кажется)",
+        "Timing (пора)"
+      ],
+      "answer": "Reflexive (хочется / кажется)",
+      "explanation": "Кажется reports an opinion that arises 'by itself' for the dative person (мне): the reflexive family on -ся."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "безличная конструкция",
+      "definition": "an impersonal construction (a sentence with no nominative subject; the person who feels or needs, if named, appears in the dative or in 'у + gen')",
+      "example": "В предложении 'Маше было грустно' нет именительного подлежащего: это безличная конструкция."
+    },
+    {
+      "term": "категория состояния",
+      "definition": "the category of state (short predicatives that name feelings, ambient states, or evaluations in an impersonal construction: холодно, грустно, трудно)",
+      "example": "В предложении 'Маше было трудно' слово 'трудно' принадлежит к категории состояния."
+    },
+    {
+      "term": "было / будет",
+      "definition": "the было / будет tense word: in an impersonal construction it stays in the fixed neuter form (было for the past, будет for the future) and never changes for the gender of the dative person",
+      "example": "В предложении 'Маше было грустно' слово 'было' несёт прошедшее время и остаётся в среднем роде."
+    },
+    {
+      "term": "нет + родительный",
+      "definition": "the absence frame: нет plus the genitive of the missing thing or absent person; tense rides on нет / не было / не будет",
+      "example": "В предложении 'У меня нет времени' слово 'нет' требует родительного падежа: времени."
+    }
+  ]
+}

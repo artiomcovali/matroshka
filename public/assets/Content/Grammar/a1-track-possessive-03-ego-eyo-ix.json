@@ -1,0 +1,263 @@
+{
+  "id": "a1-track-possessive-03-ego-eyo-ix",
+  "level": "A1",
+  "focusArea": "other",
+  "title": "Possessives 3: His, Her, Their (Invariant)",
+  "titleRussian": "Притяжательные 3: его, её, их (неизменяемые)",
+  "description": "The trio его / её / их never change shape. Unlike мой and наш, these three forms ignore the gender and number of the noun completely. This is the highest-failure-rate possessive rule at A1.",
+  "descriptionRussian": "Местоимения 'его, её, их' не изменяются никогда. В отличие от 'мой' и 'наш', они полностью игнорируют род и число существительного.",
+  "imageName": "exclamationmark.triangle.fill",
+  "trackId": "a1-possessives-demonstratives-mastery",
+  "trackTitle": "Possessives & Demonstratives Mastery",
+  "trackTitleRussian": "Притяжательные и указательные",
+  "trackIndex": 3,
+  "trackTotal": 6,
+  "intro": "Three words that do not change at all. After two lessons of drilling four forms per word, that should feel like a gift and will probably feel like a trick. The danger is real but it runs the other way: learners who have just internalized agreement start inflecting these too, producing shapes that do not exist in Russian. Nothing here needs memorizing except the instruction to stop. Say them, and leave them alone.",
+  "rules": [
+    "Его ('his', or 'its' for masc/neuter owners) does not change form. Same word with masculine, feminine, neuter, and plural nouns: его дом, его книга, его окно, его родители.",
+    "Её ('her') does not change form. Same word in all four slots: её брат, её машина, её письмо, её дети.",
+    "Их ('their') does not change form. Same word with any gender or number: их дом, их собака, их окно, их книги.",
+    "Choose between его, её, and их by the gender or number of the OWNER, not of the owned noun. 'Her car' is её машина regardless of машина being feminine.",
+    "These three forms are the genitive case of он, она, они locked into a fixed shape. Native speakers do not inflect them further."
+  ],
+  "examples": [
+    "Это его книга. (This is his book.) Книга is feminine, but его does not change. Form stays его.",
+    "Это её брат. (This is her brother.) Брат is masculine, but её does not change. Form stays её.",
+    "Это его окно. (This is his window.) Окно is neuter; его is invariant.",
+    "Это её родители. (These are her parents.) Родители is plural; её does not bend to match.",
+    "Это их машина. (This is their car.) Их is fixed across all noun types.",
+    "Это их дети. (These are their children.) Same form whether the noun is singular or plural."
+  ],
+  "tables": [
+    {
+      "title": "The Invariant Trio across the Four Forms",
+      "headers": [
+        "Noun type",
+        "His",
+        "Her",
+        "Their"
+      ],
+      "rows": [
+        {
+          "label": "masculine singular",
+          "cells": [
+            "его дом",
+            "её дом",
+            "их дом"
+          ]
+        },
+        {
+          "label": "feminine singular",
+          "cells": [
+            "его книга",
+            "её книга",
+            "их книга"
+          ]
+        },
+        {
+          "label": "neuter singular",
+          "cells": [
+            "его окно",
+            "её окно",
+            "их окно"
+          ]
+        },
+        {
+          "label": "plural (any gender)",
+          "cells": [
+            "его родители",
+            "её родители",
+            "их родители"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Это _____ дом.",
+          "promptEnglish": "Recap from Lesson 2: this is our house.",
+          "options": [
+            "наш",
+            "наша",
+            "наше",
+            "наши"
+          ],
+          "answer": "наш",
+          "hint": "Дом is masculine singular. Pick the matching form of 'our' from yesterday.",
+          "explanation": "Recap from Lesson 2. Дом is masculine singular, so the 'our' series takes наш. Today's lesson introduces a different group of possessives that do NOT bend to match the noun this way."
+        },
+        {
+          "prompt": "Это Антон. Это _____ книга.",
+          "promptEnglish": "This is Anton. This is his book.",
+          "options": [
+            "мой",
+            "его",
+            "наша",
+            "её"
+          ],
+          "answer": "его",
+          "hint": "The owner is male ('his'). Книга is feminine, but the answer does not change to match.",
+          "explanation": "Книга is feminine, but его never changes form: it does not bend to match the noun's gender. Pick the form by the OWNER (male, 'his'), not by the noun. The form stays его."
+        },
+        {
+          "prompt": "Это Маша. Это _____ дом.",
+          "promptEnglish": "This is Masha. This is her house.",
+          "options": [
+            "наш",
+            "его",
+            "её",
+            "их"
+          ],
+          "answer": "её",
+          "hint": "The owner is female ('her'). Дом is masculine, but the form does not adjust.",
+          "explanation": "Дом is masculine, but её does not change to match. The OWNER is female ('her'), so the form stays её. Pick by the OWNER, not by the noun's gender."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Это Дима. Это _____ окно.",
+          "promptEnglish": "This is Dima. This is his window.",
+          "options": [
+            "его",
+            "её",
+            "их",
+            "наше"
+          ],
+          "answer": "его",
+          "hint": "The owner is male ('his'). Neuter окно does not affect the form.",
+          "explanation": "Окно is neuter singular, but его never changes form. The OWNER is male ('his'), so the form stays его."
+        },
+        {
+          "prompt": "Это Дима и Анна. Это _____ родители.",
+          "promptEnglish": "This is Dima and Anna. These are their parents.",
+          "options": [
+            "его",
+            "её",
+            "их",
+            "наши"
+          ],
+          "answer": "их",
+          "hint": "The owners are 'they'. The plural noun родители also does not change the form.",
+          "explanation": "Их never changes form; it stays the same with any noun. The plural родители is not what decides the form here: the OWNER is 'they', so the answer is их."
+        },
+        {
+          "prompt": "Это Анна. Это _____ дети.",
+          "promptEnglish": "This is Anna. These are her children.",
+          "options": [
+            "её",
+            "мои",
+            "его",
+            "их"
+          ],
+          "answer": "её",
+          "hint": "The owner is female ('her'). Дети is plural, but её does not change.",
+          "explanation": "Дети is plural, but её never changes form. The OWNER is 'her', so the form stays её."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ собака очень умная. (His dog is very smart.)"
+    ],
+    "choices": [
+      "его",
+      "его собаку",
+      "её",
+      "их"
+    ],
+    "answers": [
+      "его"
+    ],
+    "grammarFocus": "Собака is feminine, but the OWNER is male ('his'), so the form is его. Его does not change for feminine nouns."
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "это",
+        "её",
+        "телефон"
+      ],
+      "answer": "Это её телефон.",
+      "translation": "This is her phone.",
+      "hint": "Телефон is masculine, but её does not change. Just place it before the noun.",
+      "acceptableVariants": [
+        "это её телефон"
+      ]
+    },
+    {
+      "words": [
+        "это",
+        "их",
+        "квартира"
+      ],
+      "answer": "Это их квартира.",
+      "translation": "This is their apartment.",
+      "hint": "Квартира is feminine, but их never changes form.",
+      "acceptableVariants": [
+        "это их квартира"
+      ]
+    },
+    {
+      "words": [
+        "у",
+        "Маши",
+        "его",
+        "книга"
+      ],
+      "answer": "У Маши его книга.",
+      "translation": "Masha has his book.",
+      "hint": "The phrase 'у Маши' means 'Masha has'. Place его before the word for book without changing it.",
+      "acceptableVariants": [
+        "у маши его книга",
+        "у Маши его книга"
+      ]
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Это Антон. Это _____ машина.",
+      "contextEnglish": "This is Anton. This is his car.",
+      "options": [
+        "его",
+        "её"
+      ],
+      "answer": "его",
+      "explanation": "Машина is feminine, but the OWNER is male ('his'). The form is его, not её. Neither form ever bends to match the gender of the noun."
+    },
+    {
+      "context": "Это Борис и Вера. Это _____ дети.",
+      "contextEnglish": "This is Boris and Vera. These are their children.",
+      "options": [
+        "их",
+        "наши"
+      ],
+      "answer": "их",
+      "explanation": "Борис and Вера are the owners: 'they', so the answer is их. Наши would mean 'our'. Их never changes: same form whether the noun is singular or plural."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "неизменяемое местоимение",
+      "definition": "invariant pronoun (a pronoun that does not change form for gender or number, like его, её, их)",
+      "example": "Слова 'его, её, их' — неизменяемые местоимения: они не получают окончаний женского, среднего или множественного рода."
+    },
+    {
+      "term": "владелец",
+      "definition": "owner (the person or thing the noun belongs to; the owner's gender, not the noun's gender, decides whether to use его or её)",
+      "example": "В словосочетании 'её собака' владелец — женщина, поэтому форма 'её', хотя слово 'собака' тоже женского рода."
+    },
+    {
+      "term": "родительный падеж",
+      "definition": "genitive case (the historical source of его, её, их; in modern Russian these forms are frozen and act as possessives)",
+      "example": "Местоимения 'его, её, их' возникли из родительного падежа слов 'он, она, они' и по этой причине не изменяются."
+    }
+  ]
+}

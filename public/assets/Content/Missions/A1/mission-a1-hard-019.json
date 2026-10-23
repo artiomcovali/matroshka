@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-019",
+  "title": "The Busy Photographer",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Stranger keeps saying 'one moment' but never takes the photo",
+  "imageName": "camera.fill",
+  "initialPrompt": "Да-да, секунду... Ой, подождите...",
+  "systemPrompt": "You're distracted (phone, looking around). Keep saying 'секунду, секунду.' Take photo only if user firmly but politely insists or offers to find someone else. Keep replies short.",
+  "completionCriteria": "User got their photo taken through polite persistence.",
+  "responseLimit": 15,
+  "hints": [
+    "Пожалуйста, сейчас (Please, now)",
+    "Вы готовы? (Are you ready?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "секунду",
+      "definition": "one second"
+    },
+    {
+      "word": "готовы",
+      "definition": "ready"
+    },
+    {
+      "word": "сейчас",
+      "definition": "now"
+    },
+    {
+      "word": "ждать",
+      "definition": "to wait"
+    },
+    {
+      "word": "нажать",
+      "definition": "to press"
+    }
+  ],
+  "objectives": [
+    "Realize they're distracted",
+    "Politely get their attention",
+    "Ask if they're ready (Вы готовы?)",
+    "Insist nicely (пожалуйста, сейчас)",
+    "Get photo taken"
+  ]
+}

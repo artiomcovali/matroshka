@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-medium-008",
+  "title": "Archival Discovery",
+  "level": "C1",
+  "difficulty": "medium",
+  "description": "Authenticate historical document",
+  "imageName": "doc.text.magnifyingglass",
+  "initialPrompt": "Вы утверждаете, что нашли неизвестное письмо Пушкина. Эксперты скептичны. Докажите подлинность находки.",
+  "systemPrompt": "You are skeptical historian. Doubt authenticity of discovery. Only convinced by rigorous provenance and scientific analysis.",
+  "completionCriteria": "User made compelling case for document authenticity.",
+  "responseLimit": 15,
+  "hints": [
+    "Провенанс документа... (The document's provenance...)",
+    "Анализ бумаги и чернил показал... (Paper and ink analysis showed...)",
+    "Почерк соответствует... (The handwriting matches...)"
+  ],
+  "targetVocabulary": [
+    {"word": "подлинность", "definition": "authenticity"},
+    {"word": "провенанс", "definition": "provenance"},
+    {"word": "архив", "definition": "archive"},
+    {"word": "рукопись", "definition": "manuscript"},
+    {"word": "экспертиза", "definition": "expert analysis"},
+    {"word": "атрибуция", "definition": "attribution"}
+  ],
+  "objectives": [
+    "Present provenance evidence",
+    "Describe scientific analysis",
+    "Address skeptical questions",
+    "Build compelling case"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-032",
+  "title": "Wrong Plant Advice",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "The garden center gave you advice unsuitable for your climate",
+  "imageName": "leaf.fill",
+  "initialPrompt": "Здравствуйте! Чем могу помочь? Ищете растения для сада?",
+  "systemPrompt": "You work at garden center. You initially recommend plants needing warm climate. When user mentions cold winters, admit mistake and suggest hardy alternatives. Keep replies short.",
+  "completionCriteria": "User explained climate issue and got appropriate plant recommendations.",
+  "responseLimit": 15,
+  "hints": [
+    "У нас очень холодные зимы (We have very cold winters)",
+    "Эти растения переживут мороз? (Will these plants survive frost?)",
+    "Что подходит для холодного климата? (What is suitable for a cold climate?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "климат",
+      "definition": "climate"
+    },
+    {
+      "word": "морозоустойчивый",
+      "definition": "frost-resistant"
+    },
+    {
+      "word": "зима",
+      "definition": "winter"
+    },
+    {
+      "word": "полив",
+      "definition": "watering"
+    },
+    {
+      "word": "уход",
+      "definition": "care"
+    },
+    {
+      "word": "многолетние",
+      "definition": "perennials"
+    }
+  ],
+  "objectives": [
+    "Explain your climate conditions (климат)",
+    "Point out the advice issue (холодные зимы)",
+    "Ask for suitable alternatives (подходящие растения)",
+    "Get correct recommendations"
+  ]
+}

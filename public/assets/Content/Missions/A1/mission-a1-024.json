@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-024",
+  "title": "Order Tea",
+  "level": "A1",
+  "description": "Order tea with specific preparation",
+  "imageName": "cup.and.saucer.fill",
+  "initialPrompt": "Добрый день! Хотите чай? У нас чёрный и зелёный.",
+  "systemPrompt": "You serve tea. Types: чёрный, зелёный. Options: с лимоном, с сахаром, с молоком. Price: 100₽. Keep replies short.",
+  "completionCriteria": "User ordered tea with their preferences.",
+  "responseLimit": 15,
+  "hints": [
+    "Чёрный чай, пожалуйста (Black tea, please)",
+    "С лимоном (With lemon)",
+    "Без сахара (Without sugar)",
+    "Спасибо (Thank you)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "чай",
+      "definition": "tea"
+    },
+    {
+      "word": "лимон",
+      "definition": "lemon"
+    },
+    {
+      "word": "сахар",
+      "definition": "sugar"
+    },
+    {
+      "word": "без",
+      "definition": "without"
+    },
+    {
+      "word": "с",
+      "definition": "with"
+    }
+  ],
+  "objectives": [
+    "Choose tea type (чёрный/зелёный)",
+    "Add preferences (лимон, сахар, молоко)",
+    "Complete the order"
+  ]
+}

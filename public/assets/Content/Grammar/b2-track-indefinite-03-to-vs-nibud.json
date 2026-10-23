@@ -1,0 +1,337 @@
+{
+  "id": "b2-track-indefinite-03-to-vs-nibud",
+  "level": "B2",
+  "focusArea": "other",
+  "title": "Indefinite 3: -то vs -нибудь Head to Head",
+  "titleRussian": "Неопределённые 3: -то против -нибудь",
+  "description": "The core contrast of the track. -то marks a real, specific referent the speaker can't name (usually past, stated fact). -нибудь marks an open, not-yet-fixed one (questions, requests, future, conditions). Learn when each is required.",
+  "descriptionRussian": "Главное противопоставление трека. -то — реальный, конкретный предмет, который говорящий не может назвать (обычно прошлое, факт). -нибудь — открытый, ещё не закреплённый (вопросы, просьбы, будущее, условия).",
+  "imageName": "arrow.left.arrow.right",
+  "trackId": "b2-indefinite-pronouns-mastery",
+  "trackTitle": "Indefinite Pronouns Mastery",
+  "trackTitleRussian": "Неопределённые местоимения",
+  "trackIndex": 3,
+  "trackTotal": 7,
+  "intro": "The two side by side, in the same frames, so the difference has nowhere to hide. The deciding question is whether the person or thing already exists in the situation, settled even if unnamed, or whether it is still open. Past tense pulls one way and questions pull the other, but a past-tense question can still take the open one, which is where it gets interesting.",
+  "rules": [
+    "-то = a real, specific referent that exists or already happened; only its identity is unknown. -нибудь = an open, not-yet-fixed referent; any candidate will do and the choice is unsettled.",
+    "Fast filter for -нибудь: questions, requests / commands, the future, and hypothetical / conditional clauses. These keep the referent open.",
+    "Past tense usually pulls toward -то (a real thing happened), but a past-tense QUESTION can still take -нибудь (Он что-нибудь сказал?). The openness of the referent decides, not the tense by itself.",
+    "The deciding test: does this particular person or thing already exist in the situation, settled and definite (-то), or is it still up for grabs (-нибудь)?",
+    "Same frame, different particle, different world: Кто-то взял зонт (a real thief, -то) versus Возьми кто-нибудь зонт (any of you, -нибудь)."
+  ],
+  "examples": [
+    "Я что-то купил. (I bought something.) A particular item already bought → -то.",
+    "Купи что-нибудь к ужину. (Buy something for dinner.) Anything will do, a request → -нибудь.",
+    "Он кому-то звонил всё утро. (He was calling someone all morning.) A real person → -то.",
+    "Позвони кому-нибудь и спроси. (Call someone and ask.) Any person, a command → -нибудь.",
+    "Кто-то уже занял это место. (Someone already took this seat.) A real, settled fact → -то.",
+    "Если кто-нибудь займёт место, пересядем. (If anyone takes the seat, we'll move.) Hypothetical → -нибудь."
+  ],
+  "tables": [
+    {
+      "title": "Same frame, opposite meaning",
+      "headers": [
+        "-то (real, settled)",
+        "-нибудь (open, any)"
+      ],
+      "rows": [
+        {
+          "label": "Statement vs request",
+          "cells": [
+            "Я что-то купил.",
+            "Купи что-нибудь."
+          ]
+        },
+        {
+          "label": "Fact vs question",
+          "cells": [
+            "Он что-то сказал.",
+            "Он что-нибудь сказал?"
+          ]
+        },
+        {
+          "label": "Real doer vs any doer",
+          "cells": [
+            "Кто-то взял зонт.",
+            "Возьми кто-нибудь зонт."
+          ]
+        },
+        {
+          "label": "Past fact vs hypothetical",
+          "cells": [
+            "Кто-то занял место.",
+            "Если кто-нибудь займёт..."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Вчера _____ оставил тебе записку на столе.",
+          "promptEnglish": "Yesterday someone left you a note on the table.",
+          "options": [
+            "кто-то",
+            "кто-нибудь",
+            "никто",
+            "некому"
+          ],
+          "answer": "кто-то",
+          "hint": "The note exists, so a real person left it. Completed past fact.",
+          "explanation": "The note is physically there, so a particular person really left it: a settled, completed fact with an unknown doer. That is -то. Кто-нибудь ('anyone at all') cannot fit a thing that has already, definitely happened. Past-tense statement of fact pulls toward -то."
+        },
+        {
+          "prompt": "Тебе _____ звонил, пока ты спал?",
+          "promptEnglish": "Did anyone call you while you were asleep?",
+          "options": [
+            "кто-то",
+            "кто-нибудь",
+            "никто",
+            "некому"
+          ],
+          "answer": "кто-нибудь",
+          "hint": "This is a question. The asker assumes nothing about a particular caller, even though it's past tense.",
+          "explanation": "Even though the verb is past tense, this is a QUESTION with an open referent: the asker does not assume any particular caller exists. So -нибудь: кто-нибудь. The past tense alone does not force -то; the openness of a question wins. Compare the statement Тебе кто-то звонил (a definite caller did ring), which would take -то."
+        },
+        {
+          "prompt": "Дай мне _____ ручку, моя не пишет.",
+          "promptEnglish": "Give me some pen, mine isn't working.",
+          "options": [
+            "какую-то",
+            "никакую",
+            "нечего",
+            "какую-нибудь"
+          ],
+          "answer": "какую-нибудь",
+          "hint": "A request where any pen will do. The choice is open.",
+          "explanation": "A request where any pen at all would solve the problem keeps the referent open, so -нибудь: какую-нибудь. Какую-то would point to a specific pen the speaker already has in mind, which contradicts 'any pen will do.' Requests are a core home of -нибудь."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я уверен, что _____ нам поможет, надо только спросить.",
+          "promptEnglish": "I'm sure someone will help us, we just need to ask.",
+          "options": [
+            "кто-то",
+            "никто",
+            "кто-нибудь",
+            "некого"
+          ],
+          "answer": "кто-нибудь",
+          "hint": "Future, hypothetical helper. No particular person is meant yet.",
+          "explanation": "The helper is in the future and not yet identified: any willing person would do. Future + open referent = -нибудь: кто-нибудь. Кто-то would mean a specific person you already have in mind, but here the helper is still hypothetical. The future is a home of -нибудь."
+        },
+        {
+          "prompt": "Маша _____ шепнула подруге, и обе засмеялись.",
+          "promptEnglish": "Masha whispered something to her friend, and they both laughed.",
+          "options": [
+            "что-нибудь",
+            "что-то",
+            "ничего",
+            "нечего"
+          ],
+          "answer": "что-то",
+          "hint": "She really whispered a particular thing; we just don't know what. Past fact.",
+          "explanation": "Masha whispered a real, definite thing (the laughter proves it happened); we simply do not know the words. A completed action with a specific-but-unknown content takes -то: что-то. Что-нибудь would wrongly suggest nothing particular was said or that it is still open."
+        },
+        {
+          "prompt": "Если ты _____ заметишь, сразу скажи мне.",
+          "promptEnglish": "If you notice anything, tell me right away.",
+          "options": [
+            "что-то",
+            "ничего",
+            "нечего",
+            "что-нибудь"
+          ],
+          "answer": "что-нибудь",
+          "hint": "An 'if' clause: hypothetical, the thing isn't real yet.",
+          "explanation": "An 'если' (if) clause is hypothetical: nothing has been noticed yet, and any noticeable thing would trigger the request. Hypothetical + open referent = -нибудь: что-нибудь. Что-то would imply a specific thing already noticed, which the condition does not assume."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Он _____ у тебя вчера?",
+          "promptEnglish": "Did he ask you anything yesterday?",
+          "options": [
+            "что-нибудь спрашивал",
+            "что-то спрашивал",
+            "ничего спрашивал",
+            "кое-что спрашивал"
+          ],
+          "answer": "что-нибудь спрашивал",
+          "hint": "A question keeps the referent open, even in the past.",
+          "explanation": "Questions take -нибудь because any instance would satisfy them: он что-нибудь спрашивал? -то would presuppose a specific known question; ничего requires не on the verb."
+        },
+        {
+          "prompt": "Я _____ к чаю по дороге домой.",
+          "promptEnglish": "I bought something for tea on the way home.",
+          "options": [
+            "что-то купил",
+            "что-нибудь купил",
+            "ничего купил",
+            "кое-что куплю"
+          ],
+          "answer": "что-то купил",
+          "hint": "A completed purchase of a real, particular item.",
+          "explanation": "A completed action with a real item takes the specific-but-unknown -то: что-то купил. -нибудь clashes with a real purchase; ничего needs не; куплю is future."
+        },
+        {
+          "prompt": "Пусть _____ оставит ему сообщение.",
+          "promptEnglish": "Let one of you leave him a message - anyone will do.",
+          "options": [
+            "кто-нибудь из вас",
+            "кто-то из вас",
+            "никто из вас",
+            "кое-кто из вас"
+          ],
+          "answer": "кто-нибудь из вас",
+          "hint": "A request where any doer will do.",
+          "explanation": "An open request takes -нибудь: пусть кто-нибудь оставит. -то would name one specific (if unknown) person, which the any-will-do request does not; никто would need не."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Он принёс мне _____ книгу.",
+          "promptEnglish": "He brought me some book (a particular one).",
+          "options": [
+            "какую-то",
+            "какую-нибудь",
+            "никакую",
+            "кое-какая"
+          ],
+          "answer": "какую-то",
+          "hint": "A real book was actually brought.",
+          "explanation": "A real delivered object takes -то: принёс какую-то книгу. -нибудь would leave the book hypothetical; никакую needs не; кое-какая is the wrong case."
+        }
+      ]
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Кто-то разбил вазу, пока нас не было.",
+      "question": "Which side of the contrast does this sentence use, and why?",
+      "options": [
+        "-то: a real, specific doer; completed past fact",
+        "-нибудь: an open referent in a request",
+        "-нибудь: an open referent in a question",
+        "-нибудь: a hypothetical condition"
+      ],
+      "answer": "-то: a real, specific doer; completed past fact",
+      "explanation": "The vase is broken, so a particular person really did it. The action is a completed fact and only the identity is unknown. That is the -то zone: кто-то."
+    },
+    {
+      "sentence": "Спроси у кого-нибудь, который час.",
+      "question": "Which side of the contrast does this sentence use, and why?",
+      "options": [
+        "-то: a real, specific doer; completed past fact",
+        "-нибудь: an open referent in a request / command",
+        "-то: a definite but unknown time",
+        "-нибудь: a question expecting yes/no"
+      ],
+      "answer": "-нибудь: an open referent in a request / command",
+      "explanation": "This is a command (спроси = ask). Any passerby would do; nobody is chosen. A request with an open referent takes -нибудь: у кого-нибудь (genitive after у)."
+    },
+    {
+      "sentence": "Ты что-нибудь понял из лекции?",
+      "question": "Which side of the contrast does this sentence use, and why?",
+      "options": [
+        "-то: a real, specific thing understood",
+        "-нибудь: an open referent in a question",
+        "-нибудь: a future plan",
+        "-то: a hypothetical condition"
+      ],
+      "answer": "-нибудь: an open referent in a question",
+      "explanation": "It is a question, and the asker assumes nothing was understood in particular: any amount of understanding would count. A question with an open referent takes -нибудь, even though the verb is past tense. The statement Я что-то понял (I understood something specific) would use -то."
+    },
+    {
+      "sentence": "Он где-то спрятал ключ и забыл где.",
+      "question": "Which side of the contrast does this sentence use, and why?",
+      "options": [
+        "-нибудь: an open place in a request",
+        "-то: a real, definite place; completed past fact",
+        "-нибудь: a hypothetical place",
+        "-нибудь: a future plan"
+      ],
+      "answer": "-то: a real, definite place; completed past fact",
+      "explanation": "The key is in one real place; he hid it there and just cannot recall where. A definite-but-unknown location in a completed action takes -то: где-то."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Кто это сделал? _____ оставил окно открытым на ночь. (The window is open now; a real person did it.)",
+      "contextEnglish": "Who did this? Someone left the window open overnight (a real, settled fact).",
+      "options": [
+        "Кто-то",
+        "Кто-нибудь"
+      ],
+      "answer": "Кто-то",
+      "explanation": "The window is open, so a particular person really left it that way: a completed, settled fact with an unknown doer. That is -то: Кто-то. Кто-нибудь ('anyone at all') cannot describe a deed that has already, definitely happened."
+    },
+    {
+      "context": "Закройте _____ окно, дует. (A request; any of you, close a window.)",
+      "contextEnglish": "Somebody close a window, there's a draft (a request, anyone will do).",
+      "options": [
+        "кто-то",
+        "кто-нибудь"
+      ],
+      "answer": "кто-нибудь",
+      "explanation": "This is a request where any person present can act; nobody is singled out. A command with an open referent takes -нибудь: кто-нибудь. Кто-то would describe a specific person who already did something, not an open call to action."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Я где-нибудь видел этого человека раньше.",
+      "translationEnglish": "I have seen this person somewhere before.",
+      "error": "где-нибудь",
+      "correction": "где-то",
+      "options": [
+        "где-то",
+        "нигде",
+        "кое-где"
+      ],
+      "explanation": "The seeing really happened in one specific (if forgotten) place, so the specific-but-unknown -то is right: где-то. -нибудь marks any-will-do and lives in questions, commands, and hypotheticals, not in reports of real past events."
+    },
+    {
+      "sentence": "Если хочешь, поедем в выходные куда-то за город.",
+      "translationEnglish": "If you like, let's drive somewhere out of town at the weekend.",
+      "error": "куда-то",
+      "correction": "куда-нибудь",
+      "options": [
+        "куда-нибудь",
+        "никуда",
+        "кое-куда"
+      ],
+      "explanation": "This is a hypothetical plan (если хочешь) where any destination will do, so the non-specific -нибудь is correct: куда-нибудь. -то would imply one particular place the speaker already has in mind, which the open suggestion does not."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "решающий тест (the deciding test)",
+      "definition": "ask whether the referent already exists in the situation, settled and definite (-то), or is still open and any-will-do (-нибудь).",
+      "example": "Кто-то взял зонт (real thief) vs Возьми кто-нибудь зонт (any of you)."
+    },
+    {
+      "term": "past tense is a hint, not a rule",
+      "definition": "past usually means -то, but a past-tense question can still take -нибудь. Openness of the referent decides.",
+      "example": "Он что-то сказал (fact) vs Он что-нибудь сказал? (question)."
+    },
+    {
+      "term": "четыре дома -нибудь (four homes of -нибудь)",
+      "definition": "questions, requests / commands, the future, and hypotheticals / conditions. In these the referent stays open.",
+      "example": "Если кто-нибудь спросит, скажи правду."
+    }
+  ]
+}

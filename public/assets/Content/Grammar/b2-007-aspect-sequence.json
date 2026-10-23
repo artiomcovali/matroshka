@@ -1,0 +1,358 @@
+{
+  "id": "b2-007-aspect-sequence",
+  "level": "B2",
+  "focusArea": "aspect",
+  "title": "Aspect and Action Sequence",
+  "titleRussian": "Последовательность действий",
+  "description": "Aspect for sequential vs. simultaneous actions",
+  "descriptionRussian": "Вид глагола при последовательных и одновременных действиях",
+  "imageName": "arrow.forward.to.line",
+  "intro": "Building on B1 past tense aspect and B2 aspect nuances, we now explore how aspect controls sequences of actions. SEQUENTIAL actions (one after another) use PERFECTIVE: Он встал, оделся и вышел. (He got up, dressed, and left - completed sequence). SIMULTANEOUS/BACKGROUND actions use IMPERFECTIVE: Пока я читал, она готовила ужин. (While I was reading, she was cooking). REPEATED SEQUENCES use imperfective: Каждый день он вставал, одевался и выходил. Understanding this is crucial for natural storytelling in Russian.",
+  "rules": [
+    "Sequential completed actions = perfective chain: Он вошёл, сел и начал читать",
+    "Simultaneous/background = imperfective: Пока я работал, шёл дождь",
+    "Repeated sequences = imperfective: Каждый день он приходил и садился",
+    "Background + interrupting event = impf + pf: Я читал, когда он позвонил"
+  ],
+  "examples": [
+    "Она открыла дверь, вошла и села. (Sequential: opened, entered, sat, all pf)",
+    "Пока мы ужинали, дети играли. (Simultaneous: while we ate, kids played, impf)",
+    "Каждое утро он вставал рано и делал зарядку. (Repeated routine, impf)",
+    "Я смотрел телевизор, когда раздался звонок. (Background + interruption, impf + pf)"
+  ],
+  "tables": [
+    {
+      "title": "Aspect Patterns for Action Sequences",
+      "headers": [
+        "Pattern",
+        "Aspect",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "one-time sequence",
+          "cells": [
+            "Perfective chain",
+            "Он встал, оделся и вышел."
+          ]
+        },
+        {
+          "label": "simultaneous",
+          "cells": [
+            "Both Imperfective",
+            "Пока я читал, она готовила."
+          ]
+        },
+        {
+          "label": "repeated routine",
+          "cells": [
+            "Imperfective chain",
+            "Каждый день вставал и уходил."
+          ]
+        },
+        {
+          "label": "background + event",
+          "cells": [
+            "Impf + Pf",
+            "Я спал, когда он по|звонил."
+          ]
+        },
+        {
+          "label": "chain of results",
+          "cells": [
+            "Perfective chain",
+            "Открыла, вошла и села."
+          ]
+        },
+        {
+          "label": "habitual interruption",
+          "cells": [
+            "Both Imperfective",
+            "Когда я работал, он всегда мешал."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Он _____, _____ и _____. (got up, washed, left - sequential)",
+          "promptEnglish": "He got up, washed, and left.",
+          "options": [
+            "встаёт, умывается, выходит",
+            "вставать, умываться, выходить",
+            "встал, умылся, вышел",
+            "вставал, умывался, выходил"
+          ],
+          "answer": "встал, умылся, вышел",
+          "hint": "Sequential completed = perfective chain",
+          "explanation": "Sequential actions: all perfective."
+        },
+        {
+          "prompt": "Вчера вечером, пока я _____, она _____ ужин. (was reading / was cooking)",
+          "promptEnglish": "Yesterday evening, while I was reading, she was cooking dinner.",
+          "options": [
+            "читал, готовила",
+            "прочитаю, приготовит",
+            "прочитал, приготовила",
+            "читаю, готовит"
+          ],
+          "answer": "читал, готовила",
+          "hint": "Simultaneous = both imperfective",
+          "explanation": "Simultaneous actions: both imperfective."
+        },
+        {
+          "prompt": "Раньше каждый день он _____ на работу и _____ до вечера. (went / worked, repeated past)",
+          "promptEnglish": "He used to go to work every day and work until evening.",
+          "options": [
+            "пошёл, поработал",
+            "ходил, работал",
+            "пойдёт, поработает",
+            "ходит, работает"
+          ],
+          "answer": "ходил, работал",
+          "hint": "Repeated routine = imperfective",
+          "explanation": "Repeated sequence: imperfective."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я _____, когда он _____. (was sleeping / called - background + interruption)",
+          "promptEnglish": "I was sleeping when he called.",
+          "options": [
+            "поспал, звонил",
+            "спал, позвонил",
+            "сплю, позвонит",
+            "спал, звонил"
+          ],
+          "answer": "спал, позвонил",
+          "hint": "Background (impf) + interruption (pf)",
+          "explanation": "Background + interruption: impf + pf."
+        },
+        {
+          "prompt": "Она _____ дверь, _____ в комнату и _____ на диван. (opened, entered, sat)",
+          "promptEnglish": "She opened the door, entered the room, and sat on the sofa.",
+          "options": [
+            "открыла, вошла, села",
+            "открывала, входила, садилась",
+            "открывает, входит, садится",
+            "откроет, войдёт, сядет"
+          ],
+          "answer": "открыла, вошла, села",
+          "hint": "Sequential completed = pf chain",
+          "explanation": "Sequential: perfective chain."
+        },
+        {
+          "prompt": "В тот вечер, пока мы _____, дети _____. (were eating / were playing)",
+          "promptEnglish": "That evening, while we were eating, the kids were playing.",
+          "options": [
+            "едим, играют",
+            "поели, поиграли",
+            "съели, сыграли",
+            "ели, играли"
+          ],
+          "answer": "ели, играли",
+          "hint": "Simultaneous = both imperfective",
+          "explanation": "Simultaneous: both imperfective."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Раньше каждое утро она _____, _____ и _____. (got up, drank coffee, left - repeated past routine)",
+          "promptEnglish": "She used to get up every morning, drink coffee, and leave.",
+          "options": [
+            "встала, выпила кофе, ушла",
+            "встаёт, пьёт, уходит",
+            "вставала, пила кофе, уходила",
+            "встанет, выпьет, уйдёт"
+          ],
+          "answer": "вставала, пила кофе, уходила",
+          "hint": "Repeated routine = imperfective",
+          "explanation": "Repeated sequence: imperfective."
+        },
+        {
+          "prompt": "Мы _____ по парку, когда _____ дождь. (were walking / started)",
+          "promptEnglish": "We were walking in the park when it started to rain.",
+          "options": [
+            "гуляем, пойдёт",
+            "гуляли, шёл",
+            "погуляли, шёл",
+            "гуляли, пошёл"
+          ],
+          "answer": "гуляли, пошёл",
+          "hint": "Background (impf) + new event (pf)",
+          "explanation": "Background + new event: impf + pf."
+        },
+        {
+          "prompt": "Он _____ книгу, _____ её на полку и _____. (took, put, left)",
+          "promptEnglish": "He took the book, put it on the shelf, and left.",
+          "options": [
+            "берёт, кладёт, уходит",
+            "взял, положил, ушёл",
+            "брал, клал, уходил",
+            "возьмёт, положит, уйдёт"
+          ],
+          "answer": "взял, положил, ушёл",
+          "hint": "Sequential completed = pf chain",
+          "explanation": "Sequential: perfective chain."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Она _____ музыку, когда вдруг _____ телефон. (was listening / rang)",
+          "promptEnglish": "She was listening to music when the phone suddenly rang.",
+          "options": [
+            "послушала, звонил",
+            "слушала, зазвонил",
+            "слушает, зазвонит",
+            "послушала, зазвонил"
+          ],
+          "answer": "слушала, зазвонил",
+          "hint": "Background (impf) + sudden event (pf)",
+          "explanation": "Background process interrupted by a new event: imperfective + perfective."
+        },
+        {
+          "prompt": "В прошлом году каждый вечер мы _____ ужин, _____ посуду и _____ телевизор. (cooked, washed, watched - repeated past)",
+          "promptEnglish": "Last year, every evening we cooked dinner, washed the dishes, and watched TV.",
+          "options": [
+            "приготовили, помыли, посмотрели",
+            "готовим, моем, смотрим",
+            "готовили, мыли, смотрели",
+            "приготовим, помоем, посмотрим"
+          ],
+          "answer": "готовили, мыли, смотрели",
+          "hint": "Repeated routine = imperfective chain",
+          "explanation": "Каждый вечер signals a habitual routine, requiring imperfective throughout."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Пока она _____, он читал газету. (was cooking - background)",
+      "Пока она готовила, он _____ газету. (was reading - simultaneous)"
+    ],
+    "choices": [
+      "готовила, читал",
+      "приготовила, прочитал",
+      "готовит, читает",
+      "приготовит, прочитает"
+    ],
+    "answers": [
+      "готовила",
+      "читал"
+    ],
+    "grammarFocus": "Simultaneous actions: both imperfective",
+    "hints": [
+      "When two actions happen at the same time ('while X, Y'), both verbs describe ongoing processes."
+    ],
+    "explanations": [
+      "Simultaneous background actions both use the imperfective past (готовила, читал) because both are ongoing processes happening in parallel, not completed sequences."
+    ],
+    "options": [
+      [
+        "приготовила",
+        "готовила",
+        "приготовит",
+        "готовит"
+      ],
+      [
+        "прочитал",
+        "прочитает",
+        "читает",
+        "читал"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Он встал, оделся и вышел. (one-time sequence)",
+      "contextEnglish": "He got up, dressed, and left. (completed sequence)",
+      "options": [
+        "Perfective chain",
+        "Imperfective chain"
+      ],
+      "answer": "Perfective chain",
+      "explanation": "One-time sequential actions: perfective."
+    },
+    {
+      "context": "Каждый день он вставал, одевался и выходил. (repeated)",
+      "contextEnglish": "Every day he got up, dressed, and left.",
+      "options": [
+        "Imperfective chain",
+        "Perfective chain"
+      ],
+      "answer": "Imperfective chain",
+      "explanation": "Repeated sequence: imperfective."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by aspect pattern",
+    "categories": [
+      "Sequential (pf chain)",
+      "Simultaneous (impf)",
+      "Background + interruption (impf + pf)",
+      "Repeated routine (impf)"
+    ],
+    "items": [
+      {
+        "word": "Он вошёл, сел и начал.",
+        "category": "Sequential (pf chain)"
+      },
+      {
+        "word": "Пока я читал, она спала.",
+        "category": "Simultaneous (impf)"
+      },
+      {
+        "word": "Я работал, когда он пришёл.",
+        "category": "Background + interruption (impf + pf)"
+      },
+      {
+        "word": "Каждый день он приходил.",
+        "category": "Repeated routine (impf)"
+      },
+      {
+        "word": "Она открыла, вошла, села.",
+        "category": "Sequential (pf chain)"
+      },
+      {
+        "word": "Мы ели, когда позвонили.",
+        "category": "Background + interruption (impf + pf)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "sequential actions",
+      "definition": "one after another = pf chain",
+      "example": "Вошёл, сел, начал читать."
+    },
+    {
+      "term": "simultaneous actions",
+      "definition": "at the same time = both impf",
+      "example": "Пока я читал, она спала."
+    },
+    {
+      "term": "background + interruption",
+      "definition": "ongoing + new event = impf + pf",
+      "example": "Я спал, когда он позвонил."
+    },
+    {
+      "term": "repeated sequence",
+      "definition": "habitual chain = impf",
+      "example": "Каждый день вставал и уходил."
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "id": "a1-track-possessive-04-demonstratives",
+  "level": "A1",
+  "focusArea": "other",
+  "title": "Possessives 4: This and That (этот / тот)",
+  "titleRussian": "Притяжательные 4: указательные местоимения",
+  "description": "Demonstrative pronouns этот, эта, это, эти ('this / these') and тот, та, то, те ('that / those') agree with the noun, like мой and наш. Today we drill the four forms of each.",
+  "descriptionRussian": "Указательные местоимения 'этот / эта / это / эти' (this / these) и 'тот / та / то / те' (that / those) согласуются с существительным, как 'мой' и 'наш'. Сегодня — четыре формы каждого ряда.",
+  "imageName": "hand.point.right.fill",
+  "trackId": "a1-possessives-demonstratives-mastery",
+  "trackTitle": "Possessives & Demonstratives Mastery",
+  "trackTitleRussian": "Притяжательные и указательные",
+  "trackIndex": 4,
+  "trackTotal": 6,
+  "intro": "Third time through the same four slots, which by now you should be able to predict before you are told. That is worth pausing on: the endings in this lesson are less new information than confirmation that Russian is regular where it counts. What is genuinely new is what these words let you do. Pointing at something and naming it is how most beginners get through their first real conversation, and this is the lesson that makes it possible.",
+  "rules": [
+    "Этот / эта / это / эти ('this' / 'these') agrees with the noun: -∅ for masculine (just этот), -а for feminine, -о for neuter, -и for plural.",
+    "Тот / та / то / те ('that' / 'those') is the parallel set: same four-slot pattern with the consonant т-: тот, та, то, те.",
+    "Both demonstrative series collapse gender in the plural. Эти (этот series, ending -и) and те (тот series, ending -е) each cover all three genders, the same way adjectives and possessives collapse gender in the plural.",
+    "The neuter demonstrative это has the same shape as the existential это ('this is...'), but the existential does not agree with anything. Distinguish them by the role: demonstrative + noun + adjective vs existential + noun.",
+    "Demonstratives go before the noun in unmarked word order: эта книга, тот парк, эти дети."
+  ],
+  "examples": [
+    "Этот дом старый. (This house is old.) Дом is masculine singular, so the demonstrative is этот.",
+    "Эта книга интересная. (This book is interesting.) Книга is feminine singular, so the demonstrative takes -а: эта.",
+    "Это окно большое. (This window is big.) Окно is neuter singular, so the demonstrative takes -о: это.",
+    "Эти дома новые. (These houses are new.) Дома is plural, so the demonstrative takes -и: эти. The plural ending is the same regardless of gender.",
+    "Тот парк красивый. (That park is beautiful.) Парк is masculine singular, so the тот series gives тот.",
+    "Те дети маленькие. (Those children are small.) Дети is plural, so the тот series takes -е: те."
+  ],
+  "tables": [
+    {
+      "title": "Demonstratives across the Four Forms",
+      "headers": [
+        "Form",
+        "Этот series (this)",
+        "Тот series (that)"
+      ],
+      "rows": [
+        {
+          "label": "masculine singular",
+          "cells": [
+            "этот дом",
+            "тот дом"
+          ]
+        },
+        {
+          "label": "feminine singular",
+          "cells": [
+            "эта книга",
+            "та книга"
+          ]
+        },
+        {
+          "label": "neuter singular",
+          "cells": [
+            "это окно",
+            "то окно"
+          ]
+        },
+        {
+          "label": "plural (any gender)",
+          "cells": [
+            "эти дети",
+            "те дети"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Это Маша. Это _____ книга.",
+          "promptEnglish": "Recap from Lesson 3: this is Masha. This is her book.",
+          "options": [
+            "наша",
+            "её",
+            "наш",
+            "его"
+          ],
+          "answer": "её",
+          "hint": "The owner is female ('her'). The form does not agree with feminine книга.",
+          "explanation": "Recap from Lesson 3. Книга is feminine, but the OWNER is 'her', so the form is её. The trio его / её / их never changes form; today's lesson returns to demonstratives, which DO agree."
+        },
+        {
+          "prompt": "_____ дом старый.",
+          "promptEnglish": "This house is old.",
+          "options": [
+            "этот",
+            "эта",
+            "это",
+            "эти"
+          ],
+          "answer": "этот",
+          "hint": "Дом is masculine singular. Pick the masculine form of the этот series.",
+          "explanation": "Дом is masculine singular. The masculine form of the этот series is just этот. Note that the sentence has a separate predicate adjective (старый), which marks this as a demonstrative use, not an existential."
+        },
+        {
+          "prompt": "_____ улица красивая.",
+          "promptEnglish": "This street is beautiful.",
+          "options": [
+            "этот",
+            "эта",
+            "это",
+            "эти"
+          ],
+          "answer": "эта",
+          "hint": "Улица ends in -а. Which form takes -а on the demonstrative?",
+          "explanation": "Улица is feminine singular. The feminine form of the этот series is эта. Pair this with красивая (also feminine -ая) and notice that the agreement of the demonstrative and the adjective travels together."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ озеро большое.",
+          "promptEnglish": "This lake is big.",
+          "options": [
+            "этот",
+            "эта",
+            "это",
+            "эти"
+          ],
+          "answer": "это",
+          "hint": "Озеро ends in -о. Which form fits the neuter slot of the этот series?",
+          "explanation": "Озеро is neuter singular. The neuter form of the этот series is это. The same form also serves as the existential ('Это озеро' = 'This is a lake'); today's sentence is demonstrative because it carries a predicate adjective (большое)."
+        },
+        {
+          "prompt": "_____ дети умные.",
+          "promptEnglish": "These children are smart.",
+          "options": [
+            "этот",
+            "эта",
+            "это",
+            "эти"
+          ],
+          "answer": "эти",
+          "hint": "Дети is plural. Match the plural ending across all genders.",
+          "explanation": "Дети is plural. The plural form of the этот series is эти. The same -и ending sits on every plural noun: эти дома, эти книги, эти окна."
+        },
+        {
+          "prompt": "_____ парк красивый.",
+          "promptEnglish": "That park is beautiful.",
+          "options": [
+            "тот",
+            "та",
+            "то",
+            "те"
+          ],
+          "answer": "тот",
+          "hint": "Парк is masculine singular. Use today's second series, the 'that' series.",
+          "explanation": "Парк is masculine singular. The masculine form of the тот series is тот. Use the тот series when the thing is farther from the speaker or in contrast with a closer этот: 'Этот дом старый, а тот дом новый.'"
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ машина быстрая. (That car is fast.)"
+    ],
+    "choices": [
+      "тот",
+      "та",
+      "то",
+      "те"
+    ],
+    "answers": [
+      "та"
+    ],
+    "grammarFocus": "Машина is feminine singular. The feminine form of the тот series is та."
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "тот",
+        "учитель",
+        "молодой"
+      ],
+      "answer": "Тот учитель молодой.",
+      "translation": "That teacher is young.",
+      "hint": "Учитель is masculine singular (the soft -ь does not change the gender). Use the masculine form of the тот series.",
+      "acceptableVariants": [
+        "тот учитель молодой"
+      ]
+    },
+    {
+      "words": [
+        "эта",
+        "квартира",
+        "новая"
+      ],
+      "answer": "Эта квартира новая.",
+      "translation": "This apartment is new.",
+      "hint": "Квартира is feminine singular. The demonstrative and the adjective both take feminine endings.",
+      "acceptableVariants": [
+        "эта квартира новая"
+      ]
+    },
+    {
+      "words": [
+        "те",
+        "дети",
+        "маленькие"
+      ],
+      "answer": "Те дети маленькие.",
+      "translation": "Those children are small.",
+      "hint": "Дети is plural. Match the plural ending on both the demonstrative and the adjective.",
+      "acceptableVariants": [
+        "те дети маленькие"
+      ]
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "_____ дом красивый.",
+      "contextEnglish": "This house is beautiful.",
+      "options": [
+        "этот",
+        "эта"
+      ],
+      "answer": "этот",
+      "explanation": "Дом is masculine singular, so the demonstrative is этот. Эта would only fit a feminine noun like улица."
+    },
+    {
+      "context": "_____ окна большие.",
+      "contextEnglish": "These windows are big.",
+      "options": [
+        "это",
+        "эти"
+      ],
+      "answer": "эти",
+      "explanation": "Окна is plural (the plural of окно). The plural form of the этот series is эти. The neuter singular это would fit окно in the singular: 'Это окно большое.'"
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "указательное местоимение",
+      "definition": "demonstrative pronoun (a word like этот, эта, это, эти, тот, та, то, те that points to a specific thing)",
+      "example": "В предложении 'Этот дом старый' слово 'этот' — указательное местоимение в мужском роде."
+    },
+    {
+      "term": "ближний дейксис",
+      "definition": "near deixis (the этот series, used for things close to the speaker or recently mentioned)",
+      "example": "Когда вещь рядом со мной, я использую ближний дейксис: 'Эта книга на моём столе.'"
+    },
+    {
+      "term": "связка",
+      "definition": "copula (the implicit 'is' in Russian existential sentences like 'Это книга'; in present tense Russian leaves it unwritten)",
+      "example": "В предложении 'Это книга' связка не пишется, но подразумевается. Это отличает существование от указания."
+    }
+  ]
+}

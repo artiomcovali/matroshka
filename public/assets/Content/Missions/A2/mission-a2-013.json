@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-013",
+  "title": "Report Lost Luggage",
+  "level": "A2",
+  "description": "Report missing luggage at the airport",
+  "imageName": "suitcase.fill",
+  "initialPrompt": "Добрый день! Служба розыска багажа. Что случилось?",
+  "systemPrompt": "You are airport lost luggage staff. Get flight number, bag description, contact info. Say you'll call when found. Keep replies short.",
+  "completionCriteria": "User gave flight number and bag description, you took their contact info.",
+  "responseLimit": 15,
+  "hints": [
+    "Мой багаж не прилетел (My luggage didn't arrive)",
+    "Рейс номер... (Flight number...)",
+    "Чёрный чемодан (Black suitcase)",
+    "Мой телефон... (My phone number is...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "багаж",
+      "definition": "luggage"
+    },
+    {
+      "word": "чемодан",
+      "definition": "suitcase"
+    },
+    {
+      "word": "рейс",
+      "definition": "flight"
+    },
+    {
+      "word": "потерять",
+      "definition": "to lose"
+    },
+    {
+      "word": "розыск",
+      "definition": "search"
+    },
+    {
+      "word": "найти",
+      "definition": "to find"
+    }
+  ],
+  "objectives": [
+    "Report the missing luggage",
+    "Give your flight number (рейс)",
+    "Describe your bag (чемодан)"
+  ]
+}

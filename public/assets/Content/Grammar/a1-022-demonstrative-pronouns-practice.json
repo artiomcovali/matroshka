@@ -1,0 +1,478 @@
+{
+  "lessonId": "a1-022-demonstrative-pronouns",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Choose the right demonstrative for the noun",
+      "descriptionRussian": "Выберите правильное указательное местоимение",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ машина красная. (This, feminine)",
+              "promptEnglish": "This car is red.",
+              "options": [
+                "Этот",
+                "Эта",
+                "Это",
+                "Эти"
+              ],
+              "answer": "Эта",
+              "hint": "Машина is feminine.",
+              "explanation": "Машина is feminine: эта машина."
+            },
+            {
+              "prompt": "_____ стул сломан. (That, masculine)",
+              "promptEnglish": "That chair is broken.",
+              "options": [
+                "Та",
+                "Тот",
+                "Те",
+                "То"
+              ],
+              "answer": "Тот",
+              "hint": "Стул is masculine.",
+              "explanation": "Стул is masculine: тот стул."
+            },
+            {
+              "prompt": "_____ здание новое. (This, neuter)",
+              "promptEnglish": "This building is new.",
+              "options": [
+                "Это",
+                "Этот",
+                "Эта",
+                "Эти"
+              ],
+              "answer": "Это",
+              "hint": "Здание is neuter.",
+              "explanation": "Здание is neuter: это здание."
+            },
+            {
+              "prompt": "_____ студенты умные. (Those, plural)",
+              "promptEnglish": "Those students are smart.",
+              "options": [
+                "Тот",
+                "Та",
+                "Те",
+                "То"
+              ],
+              "answer": "Те",
+              "hint": "Студенты is plural.",
+              "explanation": "Студенты is plural: те студенты."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ стол. (This is a table. - identifying)",
+          "contextEnglish": "This IS a table.",
+          "options": [
+            "Это",
+            "Этот"
+          ],
+          "answer": "Это",
+          "explanation": "\"Это\" (standalone) = \"This is...\" for identifying. Это стол = This is a table."
+        },
+        {
+          "context": "_____ стол большой. (THIS table is big. - modifying)",
+          "contextEnglish": "THIS table is big.",
+          "options": [
+            "Это",
+            "Этот"
+          ],
+          "answer": "Этот",
+          "explanation": "\"Этот\" (modifying) agrees with masculine noun: Этот стол большой."
+        },
+        {
+          "context": "_____ кресло удобное. (This, neuter - modifying)",
+          "contextEnglish": "This armchair is comfortable.",
+          "options": [
+            "Этот",
+            "Это"
+          ],
+          "answer": "Это",
+          "explanation": "Кресло is neuter. The neuter demonstrative is это: это кресло удобное."
+        },
+        {
+          "context": "_____ книга. (That, feminine)",
+          "contextEnglish": "That book.",
+          "options": [
+            "Тот",
+            "Та"
+          ],
+          "answer": "Та",
+          "explanation": "Книга is feminine: та книга."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in demonstratives and sort by gender",
+      "descriptionRussian": "Вставьте указательные местоимения и рассортируйте по роду",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "_____ фильм интересный. (This, masculine)",
+          "_____ девочка моя сестра. (That, feminine)",
+          "_____ окно открыто. (This, neuter)",
+          "_____ люди работают здесь. (These, plural)"
+        ],
+        "choices": [
+          "Этот",
+          "Та",
+          "Это",
+          "Эти",
+          "Тот",
+          "Те"
+        ],
+        "answers": [
+          "Этот",
+          "Та",
+          "Это",
+          "Эти"
+        ],
+        "grammarFocus": "demonstrative pronoun agreement",
+        "hints": [
+          "Фильм is masculine: этот.",
+          "Девочка is feminine, 'that' = та.",
+          "Окно is neuter: это.",
+          "Люди is plural, 'these' = эти."
+        ],
+        "explanations": [
+          "Этот фильм (masculine: этот).",
+          "Та девочка (feminine: та).",
+          "Это окно (neuter: это).",
+          "Эти люди (plural: эти)."
+        ],
+        "options": [
+          [
+            "этого",
+            "этому",
+            "Этот",
+            "этим"
+          ],
+          [
+            "того",
+            "Та",
+            "той",
+            "ту"
+          ],
+          [
+            "Это",
+            "Тот",
+            "Те",
+            "Эти"
+          ],
+          [
+            "этих",
+            "этого",
+            "Эти",
+            "этими"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort nouns by which form of этот they take",
+        "categories": [
+          "этот (masculine)",
+          "эта (feminine)",
+          "это (neuter)",
+          "эти (plural)"
+        ],
+        "items": [
+          {
+            "word": "город",
+            "category": "этот (masculine)"
+          },
+          {
+            "word": "улица",
+            "category": "эта (feminine)"
+          },
+          {
+            "word": "место",
+            "category": "это (neuter)"
+          },
+          {
+            "word": "дома",
+            "category": "эти (plural)"
+          },
+          {
+            "word": "врач",
+            "category": "этот (masculine)"
+          },
+          {
+            "word": "песня",
+            "category": "эта (feminine)"
+          },
+          {
+            "word": "задание",
+            "category": "это (neuter)"
+          },
+          {
+            "word": "друзья",
+            "category": "эти (plural)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "This is a good restaurant.",
+          "answer": "Это хороший ресторан.",
+          "acceptableVariants": [],
+          "hint": "\"This is\" (identifying) = Это, not Этот",
+          "grammarFocus": "Это (standalone) vs этот (modifier)",
+          "keyWord": "Это",
+          "options": [
+            "Это",
+            "Этот",
+            "Эта",
+            "Эти"
+          ]
+        },
+        {
+          "english": "That girl is my friend.",
+          "answer": "Та девушка моя подруга.",
+          "acceptableVariants": [
+            "Та девушка - моя подруга."
+          ],
+          "hint": "that (feminine) = та",
+          "grammarFocus": "feminine demonstrative тот/та",
+          "keyWord": "Та",
+          "options": [
+            "Та",
+            "Тот",
+            "То",
+            "Те"
+          ]
+        },
+        {
+          "english": "These books are interesting.",
+          "answer": "Эти книги интересные.",
+          "acceptableVariants": [],
+          "hint": "these (plural) = эти",
+          "grammarFocus": "plural demonstrative",
+          "keyWord": "Эти",
+          "options": [
+            "Эти",
+            "Этот",
+            "Эта",
+            "Это"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Error",
+      "titleRussian": "Найди ошибку",
+      "description": "Fix demonstrative pronoun mistakes",
+      "descriptionRussian": "Исправьте ошибки в указательных местоимениях",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Этот книга новая.",
+          "error": "Этот",
+          "correction": "Эта",
+          "hint": "Книга is feminine.",
+          "explanation": "Книга is feminine: эта книга, not этот.",
+          "options": [
+            "Эта",
+            "Это",
+            "Эти"
+          ]
+        },
+        {
+          "sentence": "Тот девушка красивая.",
+          "error": "Тот",
+          "correction": "Та",
+          "hint": "Девушка is feminine.",
+          "explanation": "Девушка is feminine: та девушка, not тот.",
+          "options": [
+            "Та",
+            "То",
+            "Те"
+          ]
+        },
+        {
+          "sentence": "Эти задание трудное.",
+          "error": "Эти",
+          "correction": "Это",
+          "hint": "Задание is neuter singular, not plural.",
+          "explanation": "Задание is neuter singular: это задание, not эти.",
+          "options": [
+            "Это",
+            "Этот",
+            "Эта"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ молоко. (This is milk. - identifying)",
+              "promptEnglish": "This is milk.",
+              "options": [
+                "Этот",
+                "Эта",
+                "Это",
+                "Эти"
+              ],
+              "answer": "Это",
+              "hint": "\"This is\" = Это (standalone, for identifying anything).",
+              "explanation": "When identifying (\"This is...\"), always use Это regardless of gender."
+            },
+            {
+              "prompt": "_____ люди очень добрые. (Those, plural)",
+              "promptEnglish": "Those people are very kind.",
+              "options": [
+                "Тот",
+                "То",
+                "Те",
+                "Та"
+              ],
+              "answer": "Те",
+              "hint": "Люди is plural.",
+              "explanation": "Люди is plural: те люди."
+            },
+            {
+              "prompt": "_____ утро было тёплым. (That, neuter)",
+              "promptEnglish": "That morning was warm.",
+              "options": [
+                "То",
+                "Та",
+                "Тот",
+                "Те"
+              ],
+              "answer": "То",
+              "hint": "Утро is neuter.",
+              "explanation": "Утро is neuter: то утро."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All demonstrative pronoun topics mixed",
+      "descriptionRussian": "Все темы указательных местоимений вместе",
+      "icon": "shuffle",
+      "patternRecognition": [
+        {
+          "sentence": "Это стол. vs Этот стол большой.",
+          "question": "What is the difference between Это and Этот here?",
+          "options": [
+            "Это is neuter, Этот is masculine",
+            "Это identifies (\"this is\"), Этот modifies a masculine noun",
+            "They mean the same thing",
+            "Это is informal, Этот is formal"
+          ],
+          "answer": "Это identifies (\"this is\"), Этот modifies a masculine noun",
+          "explanation": "\"Это стол\" = This is a table (identifying). \"Этот стол\" = This table (modifying, masculine)."
+        },
+        {
+          "sentence": "этот, эта, это, эти / тот, та, то, те",
+          "question": "What determines whether to use этот or тот?",
+          "options": [
+            "The gender of the noun",
+            "Whether the object is near (этот) or far (тот)",
+            "The case of the noun",
+            "The formality of speech"
+          ],
+          "answer": "Whether the object is near (этот) or far (тот)",
+          "explanation": "Этот = this/these (near). Тот = that/those (far). Both agree with the noun's gender."
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ дорога длинная. (This, feminine)",
+          "contextEnglish": "This road is long.",
+          "options": [
+            "Этот",
+            "Эта"
+          ],
+          "answer": "Эта",
+          "explanation": "Дорога is feminine: эта дорога."
+        },
+        {
+          "context": "_____ письмо от мамы. (That, neuter)",
+          "contextEnglish": "That letter is from mom.",
+          "options": [
+            "Тот",
+            "То"
+          ],
+          "answer": "То",
+          "explanation": "Письмо is neuter: то письмо."
+        },
+        {
+          "context": "_____ парк. (This is a park. - identifying)",
+          "contextEnglish": "This is a park.",
+          "options": [
+            "Этот",
+            "Это"
+          ],
+          "answer": "Это",
+          "explanation": "When identifying (\"This is...\"), use Это: Это парк."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ пирог очень вкусный. (This, masculine)",
+          "_____ песня красивая. (That, feminine)",
+          "_____ мой друг. (This is - identifying)"
+        ],
+        "choices": [
+          "Этот",
+          "Та",
+          "Это"
+        ],
+        "answers": [
+          "Этот",
+          "Та",
+          "Это"
+        ],
+        "grammarFocus": "demonstratives as modifiers vs identifiers",
+        "hints": [
+          "Пирог is masculine: этот.",
+          "Песня is feminine, 'that' = та.",
+          "Identifying = Это (standalone)."
+        ],
+        "explanations": [
+          "Этот пирог (masculine modifier).",
+          "Та песня (feminine demonstrative 'that').",
+          "Это мой друг (identifying: 'This is my friend')."
+        ],
+        "options": [
+          [
+            "этим",
+            "этому",
+            "этого",
+            "Этот"
+          ],
+          [
+            "того",
+            "ту",
+            "Та",
+            "той"
+          ],
+          [
+            "Этот",
+            "Эта",
+            "Эти",
+            "Это"
+          ]
+        ]
+      }
+    }
+  ]
+}

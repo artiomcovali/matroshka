@@ -1,0 +1,346 @@
+{
+  "id": "a1-007-present-basics",
+  "level": "A1",
+  "focusArea": "conjugation",
+  "title": "Present Tense",
+  "titleRussian": "Настоящее время",
+  "description": "Present tense verb conjugation (1st and 2nd conjugation)",
+  "descriptionRussian": "Спряжение глаголов в настоящем времени (1-е и 2-е спряжение)",
+  "imageName": "clock.fill",
+  "intro": "Russian verbs change their endings based on who is doing the action. This is called conjugation. There are two main patterns: First conjugation (verbs ending in -ать/-ять) and Second conjugation (verbs ending in -ить). Learning these patterns lets you describe actions happening now.",
+  "rules": [
+    "First conjugation verbs (-ать/-ять): Remove ending, add -ю, -ешь, -ет, -ем, -ете, -ют.",
+    "Second conjugation verbs (-ить): Remove ending, add -ю/-у, -ишь, -ит, -им, -ите, -ят/-ат.",
+    "The pronoun determines which ending to use: я (-ю), ты (-ешь/-ишь), он/она (-ет/-ит), мы (-ем/-им), вы (-ете/-ите), они (-ют/-ят).",
+    "Spelling rule: after ж, ч, ш, щ you cannot write ю or я — use у and а instead. For example: слышать → я слышу (not *слышю), they слышат (not *слышят). Similarly: писать → я пишу (not *пишю), кричать → я кричу (not *кричю), they кричат (not *кричят)."
+  ],
+  "examples": [
+    "читать (1st conj.): я читаю, ты читаешь, он читает, мы читаем, вы читаете, они читают",
+    "говорить (2nd conj.): я говорю, ты говоришь, он говорит, мы говорим, вы говорите, они говорят",
+    "Я читаю книгу. (I am reading a book.)",
+    "Она говорит по-русски. (She speaks Russian.)",
+    "слышать (2nd conj., spelling rule): я слышу, ты слышишь, он слышит, они слышат (ш + у/а, not ю/я)",
+    "Я слышу музыку. (I hear music.) — слышу, not *слышю",
+    "Они кричат громко. (They shout loudly.) — кричат, not *кричят"
+  ],
+  "tables": [
+    {
+      "title": "1st Conjugation (-е-)",
+      "headers": [
+        "",
+        "читать"
+      ],
+      "rows": [
+        {
+          "label": "я",
+          "cells": [
+            "чита|ю"
+          ]
+        },
+        {
+          "label": "ты",
+          "cells": [
+            "чита|ешь"
+          ]
+        },
+        {
+          "label": "он/она",
+          "cells": [
+            "чита|ет"
+          ]
+        },
+        {
+          "label": "мы",
+          "cells": [
+            "чита|ем"
+          ]
+        },
+        {
+          "label": "вы",
+          "cells": [
+            "чита|ете"
+          ]
+        },
+        {
+          "label": "они",
+          "cells": [
+            "чита|ют"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2nd Conjugation (-и-)",
+      "headers": [
+        "",
+        "говорить"
+      ],
+      "rows": [
+        {
+          "label": "я",
+          "cells": [
+            "говор|ю"
+          ]
+        },
+        {
+          "label": "ты",
+          "cells": [
+            "говор|ишь"
+          ]
+        },
+        {
+          "label": "он/она",
+          "cells": [
+            "говор|ит"
+          ]
+        },
+        {
+          "label": "мы",
+          "cells": [
+            "говор|им"
+          ]
+        },
+        {
+          "label": "вы",
+          "cells": [
+            "говор|ите"
+          ]
+        },
+        {
+          "label": "они",
+          "cells": [
+            "говор|ят"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я _____ книгу. (читать)",
+          "promptEnglish": "I am reading a book.",
+          "options": [
+            "читают",
+            "читает",
+            "читаешь",
+            "читаю"
+          ],
+          "answer": "читаю",
+          "hint": "я → -ю (first conjugation)",
+          "explanation": "With я, first conjugation verbs use the ending -ю: читаю."
+        },
+        {
+          "prompt": "Ты _____ по-русски. (говорить)",
+          "promptEnglish": "You speak Russian.",
+          "options": [
+            "говорю",
+            "говоришь",
+            "говорят",
+            "говорит"
+          ],
+          "answer": "говоришь",
+          "hint": "ты → -ишь (second conjugation)",
+          "explanation": "With ты, second conjugation verbs use the ending -ишь: говоришь."
+        },
+        {
+          "prompt": "Он _____ музыку. (слушать)",
+          "promptEnglish": "He listens to music.",
+          "options": [
+            "слушаешь",
+            "слушаю",
+            "слушает",
+            "слушают"
+          ],
+          "answer": "слушает",
+          "hint": "он/она → -ет (first conjugation)",
+          "explanation": "With он/она, first conjugation verbs use -ет: слушает."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Мы _____ по-русски. (говорить)",
+          "promptEnglish": "We speak Russian.",
+          "options": [
+            "говорю",
+            "говорят",
+            "говорим",
+            "говоришь"
+          ],
+          "answer": "говорим",
+          "hint": "мы → -им (second conjugation)",
+          "explanation": "With мы, second conjugation verbs use -им: говорим."
+        },
+        {
+          "prompt": "Они _____ телевизор. (смотреть)",
+          "promptEnglish": "They watch TV.",
+          "options": [
+            "смотришь",
+            "смотрит",
+            "смотрю",
+            "смотрят"
+          ],
+          "answer": "смотрят",
+          "hint": "они → -ят (second conjugation)",
+          "explanation": "With они, second conjugation verbs use -ят: смотрят."
+        },
+        {
+          "prompt": "Вы _____ по-русски? (понимать)",
+          "promptEnglish": "Do you understand Russian?",
+          "options": [
+            "понимаю",
+            "понимают",
+            "понимаете",
+            "понимаешь"
+          ],
+          "answer": "понимаете",
+          "hint": "вы → -ете (first conjugation)",
+          "explanation": "With вы, first conjugation verbs use -ете: понимаете."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я _____ музыку. (слышать)",
+          "promptEnglish": "I hear music.",
+          "options": [
+            "слышю",
+            "слышу",
+            "слышаю",
+            "слышишь"
+          ],
+          "answer": "слышу",
+          "hint": "After ш: use -у, not -ю",
+          "explanation": "Spelling rule: after ш, write -у not -ю. Я слышу (not *слышю)."
+        },
+        {
+          "prompt": "Дети _____ на улице. (кричать)",
+          "promptEnglish": "The children are shouting outside.",
+          "options": [
+            "кричают",
+            "кричят",
+            "кричат",
+            "кричит"
+          ],
+          "answer": "кричат",
+          "hint": "After ч: use -ат, not -ят",
+          "explanation": "Spelling rule: after ч, write -ат not -ят. Они кричат (not *кричят)."
+        },
+        {
+          "prompt": "Я _____ письмо. (писать → пишу)",
+          "promptEnglish": "I am writing a letter.",
+          "options": [
+            "пишю",
+            "пишу",
+            "писаю",
+            "пишешь"
+          ],
+          "answer": "пишу",
+          "hint": "After ш: use -у, not -ю",
+          "explanation": "Spelling rule: after ш, write -у not -ю. Я пишу (not *пишю)."
+        }
+      ]
+    }
+  ],
+  "conjugationTable": {
+    "verb": "читать",
+    "paradigm": [
+      "читаю",
+      "читаешь",
+      "читает",
+      "читаем",
+      "читаете",
+      "читают"
+    ],
+    "blanks": [
+      1,
+      3,
+      5
+    ],
+    "hints": [
+      "ты",
+      "мы",
+      "они"
+    ],
+    "tense": "present",
+    "explanations": [
+      "Drop -ать, add -аешь for ты: читать → читаешь",
+      "Drop -ать, add -аем for мы: читать → читаем",
+      "Drop -ать, add -ают for они: читать → читают"
+    ]
+  },
+  "fillInBlank": {
+    "blanks": [
+      "Она _____ книгу. (читать)"
+    ],
+    "choices": [
+      "читает",
+      "читаю",
+      "читаешь",
+      "читают"
+    ],
+    "answers": [
+      "читает"
+    ],
+    "grammarFocus": "third person singular conjugation",
+    "options": [
+      [
+        "читаю",
+        "читаем",
+        "читаешь",
+        "читает"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я _____ по-русски. (говорить)",
+      "contextEnglish": "I speak Russian.",
+      "options": [
+        "говорю",
+        "говоришь"
+      ],
+      "answer": "говорю",
+      "explanation": "With я (I), use the first person ending -ю: говорю."
+    },
+    {
+      "context": "Они _____ книги. (читать)",
+      "contextEnglish": "They read books.",
+      "options": [
+        "читают",
+        "читает"
+      ],
+      "answer": "читают",
+      "explanation": "With они (they), use the third person plural ending -ют: читают."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "спряжение",
+      "definition": "conjugation",
+      "example": "Спряжение глагола 'читать'"
+    },
+    {
+      "term": "первое спряжение",
+      "definition": "first conjugation (-ать/-ять verbs)",
+      "example": "Читать — первое спряжение"
+    },
+    {
+      "term": "второе спряжение",
+      "definition": "second conjugation (-ить verbs)",
+      "example": "Говорить — второе спряжение"
+    },
+    {
+      "term": "глагол",
+      "definition": "verb",
+      "example": "Читать — это глагол"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "free-a2-shopping",
+  "level": "A2",
+  "type": "freeform",
+  "title": "Shopping Experience",
+  "titleRussian": "Опыт покупок",
+  "theme": "shopping-experience",
+  "prompts": [
+    {
+      "id": "a2-shop-001",
+      "prompt": "Describe your last shopping trip. What did you buy?",
+      "promptRussian": "Опишите вашу последнюю покупку. Что вы купили?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Недавно я ходил/ходила в магазин...", "Я купил/купила...", "Это стоило..."],
+      "targetGrammar": ["past tense", "accusative case", "price expressions"],
+      "gradingCriteria": ["items purchased listed", "past tense used", "shopping location mentioned"],
+      "sampleResponse": "Недавно я ходила в торговый центр. Я купила новую куртку и туфли. Это стоило три тысячи рублей."
+    },
+    {
+      "id": "a2-shop-002",
+      "prompt": "Do you prefer shopping online or in stores? Why?",
+      "promptRussian": "Вы предпочитаете покупать онлайн или в магазинах? Почему?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Я предпочитаю...", "потому что...", "Это удобнее/дешевле..."],
+      "targetGrammar": ["preference expressions", "comparatives", "потому что clause"],
+      "gradingCriteria": ["preference stated", "reason given", "comparison made"],
+      "sampleResponse": "Я предпочитаю покупать онлайн, потому что это удобнее. Не нужно ехать в магазин. Также цены часто ниже."
+    },
+    {
+      "id": "a2-shop-003",
+      "prompt": "What is your favorite store? What do you usually buy there?",
+      "promptRussian": "Какой ваш любимый магазин? Что вы обычно там покупаете?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Мой любимый магазин — это...", "Там я обычно покупаю...", "Мне нравится, потому что..."],
+      "targetGrammar": ["possessive pronouns", "habitual present", "там adverb"],
+      "gradingCriteria": ["store named", "typical purchases listed", "reason for preference"],
+      "sampleResponse": "Мой любимый магазин — это книжный магазин рядом с домом. Там я обычно покупаю книги и журналы. Мне нравится атмосфера."
+    },
+    {
+      "id": "a2-shop-004",
+      "prompt": "Describe a time when you bought something expensive. Was it worth it?",
+      "promptRussian": "Расскажите о случае, когда вы купили что-то дорогое. Стоило ли это того?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Однажды я купил/купила...", "Это было дорого, но...", "Я доволен/довольна..."],
+      "targetGrammar": ["past tense", "evaluation expressions", "стоить construction"],
+      "gradingCriteria": ["expensive item described", "evaluation given", "past tense correct"],
+      "sampleResponse": "Однажды я купила дорогой телефон. Это стоило много денег. Но я довольна, потому что он работает отлично."
+    },
+    {
+      "id": "a2-shop-005",
+      "prompt": "What do you need to buy this week? Make a shopping list and explain.",
+      "promptRussian": "Что вам нужно купить на этой неделе? Составьте список покупок и объясните.",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["На этой неделе мне нужно купить...", "Мне нужен/нужна/нужно...", "Это потому что..."],
+      "targetGrammar": ["нужно construction", "accusative case", "future plans"],
+      "gradingCriteria": ["items listed", "need expressed", "explanation given"],
+      "sampleResponse": "На этой неделе мне нужно купить продукты. Мне нужны молоко, хлеб и фрукты. У меня в холодильнике почти ничего нет."
+    }
+  ]
+}

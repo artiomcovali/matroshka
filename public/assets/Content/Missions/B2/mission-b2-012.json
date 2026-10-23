@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-012",
+  "title": "Thesis Defense",
+  "level": "B2",
+  "difficulty": "easy",
+  "description": "Defend your research thesis to an academic committee",
+  "imageName": "graduationcap.fill",
+  "initialPrompt": "Здравствуйте! Начнём защиту вашей диссертации. Пожалуйста, представьте основные тезисы вашего исследования.",
+  "systemPrompt": "You are thesis committee chair. Ask about methodology, conclusions, limitations. Probe weak points but be fair. Congratulate at end if defense is good. Keep replies short.",
+  "completionCriteria": "User defended thesis covering methodology and conclusions.",
+  "responseLimit": 15,
+  "hints": [
+    "Моя работа посвящена... (My work is dedicated to...)",
+    "Методология включает... (The methodology includes...)",
+    "Основной вывод... (The main conclusion...)",
+    "Ограничения исследования... (Research limitations...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "диссертация",
+      "definition": "thesis/dissertation"
+    },
+    {
+      "word": "методология",
+      "definition": "methodology"
+    },
+    {
+      "word": "исследование",
+      "definition": "research"
+    },
+    {
+      "word": "выводы",
+      "definition": "conclusions"
+    },
+    {
+      "word": "гипотеза",
+      "definition": "hypothesis"
+    },
+    {
+      "word": "защита",
+      "definition": "defense"
+    }
+  ],
+  "objectives": [
+    "Present your thesis summary",
+    "Explain methodology",
+    "Defend your conclusions",
+    "Address committee questions"
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "lessonId": "a1-018-noun-plural",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Plural forms across all genders",
+      "descriptionRussian": "Формы множественного числа всех родов",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What is the plural of лампа (lamp)?",
+              "promptEnglish": "лампа -> ?",
+              "options": [
+                "лампы",
+                "лампа",
+                "лампи",
+                "ламп"
+              ],
+              "answer": "лампы",
+              "hint": "Feminine -а -> -ы.",
+              "explanation": "Лампа -> лампы (feminine: -а becomes -ы)."
+            },
+            {
+              "prompt": "What is the plural of окно (window)?",
+              "promptEnglish": "окно -> ?",
+              "options": [
+                "окны",
+                "окне",
+                "окна",
+                "окнов"
+              ],
+              "answer": "окна",
+              "hint": "Neuter -о -> -а.",
+              "explanation": "Окно -> окна (neuter: -о becomes -а)."
+            },
+            {
+              "prompt": "What is the plural of книга (book)?",
+              "promptEnglish": "книга -> ?",
+              "options": [
+                "книгы",
+                "книга",
+                "книге",
+                "книги"
+              ],
+              "answer": "книги",
+              "hint": "After г, use -и not -ы (spelling rule).",
+              "explanation": "Книга -> книги. After к, г, х, ч, ш, щ, ж: use -и, not -ы."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "What is the plural of ручка (pen)?",
+          "contextEnglish": "ручка -> ?",
+          "options": [
+            "ручкы",
+            "ручки"
+          ],
+          "answer": "ручки",
+          "explanation": "After к: use -и, not -ы. Ручка -> ручки (spelling rule)."
+        },
+        {
+          "context": "What is the plural of стол (table)?",
+          "contextEnglish": "стол -> ?",
+          "options": [
+            "столы",
+            "столи"
+          ],
+          "answer": "столы",
+          "explanation": "Стол ends in a hard consonant (л), so add -ы: столы."
+        },
+        {
+          "context": "What is the plural of море (sea)?",
+          "contextEnglish": "море -> ?",
+          "options": [
+            "моря",
+            "морья"
+          ],
+          "answer": "моря",
+          "explanation": "Neuter -е becomes -я: море -> моря."
+        },
+        {
+          "context": "What is the plural of словарь (dictionary)?",
+          "contextEnglish": "словарь -> ?",
+          "options": [
+            "словари",
+            "словары"
+          ],
+          "answer": "словари",
+          "explanation": "Masculine -ь becomes -и: словарь -> словари."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in plurals and sort by ending type",
+      "descriptionRussian": "Впишите множественное число и рассортируйте по типу окончания",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "В парке много _____. (дерево, plural)",
+          "На полке стоят _____. (книга, plural)",
+          "В классе сидят _____. (ученик, plural)",
+          "На столе лежат _____. (письмо, plural)"
+        ],
+        "choices": [
+          "деревьев",
+          "книги",
+          "ученики",
+          "письма"
+        ],
+        "answers": [
+          "деревьев",
+          "книги",
+          "ученики",
+          "письма"
+        ],
+        "grammarFocus": "plural forms in context",
+        "hints": [
+          "Дерево is irregular: дерево -> деревья -> деревьев (gen pl after много).",
+          "Книга -> книги (spelling rule after г).",
+          "Ученик -> ученики (spelling rule after к).",
+          "Письмо -> письма (neuter -о -> -а)."
+        ],
+        "explanations": [
+          "Много + genitive plural: дерево -> деревьев.",
+          "Книга -> книги (after г, use -и).",
+          "Ученик -> ученики (after к, use -и).",
+          "Письмо -> письма (neuter: -о -> -а)."
+        ],
+        "options": [
+          [
+            "деревьям",
+            "деревьев",
+            "деревьями",
+            "деревья"
+          ],
+          [
+            "книги",
+            "книге",
+            "книга",
+            "книгу"
+          ],
+          [
+            "ученики",
+            "учениками",
+            "учеников",
+            "ученикам"
+          ],
+          [
+            "письму",
+            "письмом",
+            "письма",
+            "письмо"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort by plural ending rule",
+        "categories": [
+          "Add -ы (hard consonant/а)",
+          "Add -и (spelling rule or soft stem)",
+          "Change to -а/-я (neuter)"
+        ],
+        "items": [
+          {
+            "word": "стол -> столы",
+            "category": "Add -ы (hard consonant/а)"
+          },
+          {
+            "word": "книга -> книги",
+            "category": "Add -и (spelling rule or soft stem)"
+          },
+          {
+            "word": "окно -> окна",
+            "category": "Change to -а/-я (neuter)"
+          },
+          {
+            "word": "мама -> мамы",
+            "category": "Add -ы (hard consonant/а)"
+          },
+          {
+            "word": "ручка -> ручки",
+            "category": "Add -и (spelling rule or soft stem)"
+          },
+          {
+            "word": "место -> места",
+            "category": "Change to -а/-я (neuter)"
+          },
+          {
+            "word": "газета -> газеты",
+            "category": "Add -ы (hard consonant/а)"
+          },
+          {
+            "word": "тетрадь -> тетради",
+            "category": "Add -и (spelling rule or soft stem)"
+          },
+          {
+            "word": "море -> моря",
+            "category": "Change to -а/-я (neuter)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "I have new books.",
+          "answer": "У меня новые книги.",
+          "acceptableVariants": [
+            "У меня есть новые книги."
+          ],
+          "hint": "new (plural) = новые, books = книги",
+          "grammarFocus": "plural nouns in possession",
+          "keyWord": "книги",
+          "options": [
+            "книги",
+            "книга",
+            "книгы",
+            "книг"
+          ]
+        },
+        {
+          "english": "The windows are big.",
+          "answer": "Окна большие.",
+          "acceptableVariants": [],
+          "hint": "windows = окна (neuter plural), big (plural) = большие",
+          "grammarFocus": "neuter plural + adjective agreement",
+          "keyWord": "окна",
+          "options": [
+            "окна",
+            "окно",
+            "окны",
+            "окон"
+          ]
+        },
+        {
+          "english": "Where are the keys?",
+          "answer": "Где ключи?",
+          "acceptableVariants": [],
+          "hint": "keys = ключи (after ч, use -и)",
+          "grammarFocus": "spelling rule plurals",
+          "keyWord": "ключи",
+          "options": [
+            "ключи",
+            "ключ",
+            "ключы",
+            "ключей"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Error",
+      "titleRussian": "Найди ошибку",
+      "description": "Fix plural formation mistakes",
+      "descriptionRussian": "Исправьте ошибки в образовании множественного числа",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "На столе лежат книгы.",
+          "error": "книгы",
+          "correction": "книги",
+          "hint": "After г, к, х, ч, ш, щ, ж: use -и, not -ы.",
+          "explanation": "Spelling rule: книга -> книги (after г, use -и).",
+          "options": [
+            "книги",
+            "книга",
+            "книг"
+          ]
+        },
+        {
+          "sentence": "В комнате три окны.",
+          "error": "окны",
+          "correction": "окна",
+          "hint": "Neuter nouns ending in -о form plural with -а.",
+          "explanation": "Окно -> окна (not окны). Neuter -о becomes -а.",
+          "options": [
+            "окна",
+            "окно",
+            "окон"
+          ]
+        },
+        {
+          "sentence": "У меня два ручкы.",
+          "error": "ручкы",
+          "correction": "ручки",
+          "hint": "After к: use -и, not -ы.",
+          "explanation": "Spelling rule: ручка -> ручки (after к, use -и).",
+          "options": [
+            "ручки",
+            "ручка",
+            "ручек"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What is the plural of песня (song)?",
+              "promptEnglish": "песня -> ?",
+              "options": [
+                "песня",
+                "песнья",
+                "песни",
+                "песны"
+              ],
+              "answer": "песни",
+              "hint": "Feminine -я -> -и.",
+              "explanation": "Песня -> песни (feminine: -я becomes -и)."
+            },
+            {
+              "prompt": "What is the plural of яблоко (apple)?",
+              "promptEnglish": "яблоко -> ?",
+              "options": [
+                "яблока",
+                "яблоки",
+                "яблокы",
+                "яблоков"
+              ],
+              "answer": "яблоки",
+              "hint": "Яблоко is a common exception.",
+              "explanation": "Яблоко -> яблоки (irregular: neuter but takes -и, not -а)."
+            },
+            {
+              "prompt": "What is the plural of город (city)?",
+              "promptEnglish": "город -> ?",
+              "options": [
+                "городы",
+                "городи",
+                "города",
+                "городов"
+              ],
+              "answer": "города",
+              "hint": "Some masculine nouns take stressed -а in plural.",
+              "explanation": "Город -> города (stressed -а; an exception to the -ы rule)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All plural topics in one round",
+      "descriptionRussian": "Все темы множественного числа в одном раунде",
+      "icon": "shuffle",
+      "patternRecognition": [
+        {
+          "sentence": "книги, ручки, ученики, собаки",
+          "question": "Why do all these plurals end in -и instead of -ы?",
+          "options": [
+            "They are all neuter nouns",
+            "The letter before the ending is к or г (spelling rule)",
+            "They are all irregular",
+            "They are soft-stem nouns"
+          ],
+          "answer": "The letter before the ending is к or г (spelling rule)",
+          "explanation": "After к, г, х, ч, ш, щ, ж the plural ending is -и, not -ы."
+        },
+        {
+          "sentence": "окна, места, письма, слова",
+          "question": "What gender are all these nouns?",
+          "options": [
+            "Masculine",
+            "Feminine",
+            "Neuter",
+            "Mixed"
+          ],
+          "answer": "Neuter",
+          "explanation": "Neuter nouns ending in -о form plural with -а: окно -> окна, место -> места."
+        },
+        {
+          "sentence": "город → города, поезд → поезда, лес → леса",
+          "question": "By the same pattern, what is the plural of дом?",
+          "options": [
+            "домы",
+            "дома",
+            "доми",
+            "домов"
+          ],
+          "answer": "дома",
+          "explanation": "Дом -> дома (stressed -а; one of the masculine nouns with irregular plural)."
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "What is the plural of кошка?",
+          "contextEnglish": "кошка -> ?",
+          "options": [
+            "кошки",
+            "кошкы"
+          ],
+          "answer": "кошки",
+          "explanation": "After к: use -и, not -ы. Кошка -> кошки."
+        },
+        {
+          "context": "What is the plural of лампа?",
+          "contextEnglish": "лампа -> ?",
+          "options": [
+            "лампы",
+            "лампи"
+          ],
+          "answer": "лампы",
+          "explanation": "Лампа ends in -а after a hard consonant (п): add -ы. Лампы."
+        },
+        {
+          "context": "What is the plural of слово (word)?",
+          "contextEnglish": "слово -> ?",
+          "options": [
+            "словы",
+            "слова"
+          ],
+          "answer": "слова",
+          "explanation": "Neuter -о becomes -а: слово -> слова."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "В городе много _____. (улица, plural gen)",
+          "У нас новые _____. (сосед, plural)"
+        ],
+        "choices": [
+          "улиц",
+          "соседи"
+        ],
+        "answers": [
+          "улиц",
+          "соседи"
+        ],
+        "grammarFocus": "plurals in context",
+        "hints": [
+          "Много + genitive plural: улица -> улиц.",
+          "Сосед -> соседи."
+        ],
+        "explanations": [
+          "Много + genitive plural: улица -> улиц (zero ending).",
+          "Сосед -> соседи (masculine plural after д: -и)."
+        ],
+        "options": [
+          [
+            "улицах",
+            "улицами",
+            "улиц",
+            "улицам"
+          ],
+          [
+            "соседей",
+            "соседями",
+            "соседи",
+            "соседям"
+          ]
+        ]
+      }
+    }
+  ]
+}

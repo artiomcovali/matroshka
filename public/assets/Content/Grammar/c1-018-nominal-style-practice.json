@@ -1,0 +1,245 @@
+{
+  "lessonId": "c1-018-nominal-style",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Identify nominalizations and their suffixes, then distinguish nominal-style sentences from verbal ones",
+      "descriptionRussian": "Определите отглагольные существительные и их суффиксы, отличая именной стиль от глагольного",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which noun is formed from проверить using the suffix -ка?",
+              "promptEnglish": "The -ка suffix creates action nouns from perfective verbs.",
+              "options": [
+                "проверение",
+                "проверность",
+                "проверка",
+                "проверщик"
+              ],
+              "answer": "проверка",
+              "hint": "The -ка suffix attaches to the verb stem: провер- + -ка.",
+              "explanation": "Проверка (check, inspection) is formed with -ка from проверить. The -ка suffix is one of the most productive ways to create action nouns from perfective verbs."
+            },
+            {
+              "prompt": "What is the nominal form of решить?",
+              "promptEnglish": "The -ение suffix creates abstract nouns from -ить verbs.",
+              "options": [
+                "решка",
+                "решение",
+                "решимость",
+                "решёнка"
+              ],
+              "answer": "решение",
+              "hint": "The -ение suffix attaches to the stem реш-.",
+              "explanation": "Решение (decision, resolution) uses the -ение suffix. This is the standard nominalization for many -ить verbs: решить > решение, объяснить > объяснение, улучшить > улучшение."
+            },
+            {
+              "prompt": "Which sentence uses the nominal style?",
+              "promptEnglish": "One sentence replaces the verb with a noun construction.",
+              "options": [
+                "Мы обсудили этот вопрос.",
+                "Давайте обсудим этот вопрос.",
+                "Они обсуждали этот вопрос.",
+                "Обсуждение данного вопроса состоялось вчера."
+              ],
+              "answer": "Обсуждение данного вопроса состоялось вчера.",
+              "hint": "Look for a sentence where the action is expressed as a noun, not a verb.",
+              "explanation": "Обсуждение данного вопроса состоялось uses the abstract noun обсуждение instead of the verb обсудить. The genitive данного вопроса replaces the accusative object. This is classic nominal style."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Which noun is formed from развить using the suffix -тие?",
+              "promptEnglish": "The -тие suffix creates nouns from certain verbs.",
+              "options": [
+                "развитка",
+                "развитость",
+                "развиваемость",
+                "развитие"
+              ],
+              "answer": "развитие",
+              "hint": "Разви- + -тие. This suffix appears in many formal abstract nouns.",
+              "explanation": "Развитие (development) uses the -тие suffix. Other examples: открытие (discovery), событие (event), принятие (adoption/acceptance)."
+            },
+            {
+              "prompt": "Which pair correctly shows verb > nominal style?",
+              "promptEnglish": "Find the correct transformation of a verbal sentence into a nominal one.",
+              "options": [
+                "Студенты сдали экзамен > Экзамен сдавался студентами",
+                "Студенты сдали экзамен > Сдача экзамена студентами",
+                "Студенты сдали экзамен > Студенты сдавали экзамен",
+                "Студенты сдали экзамен > Экзамен студентов"
+              ],
+              "answer": "Студенты сдали экзамен > Сдача экзамена студентами",
+              "hint": "Nominal style: verb becomes noun, object becomes genitive, subject becomes instrumental.",
+              "explanation": "Сдача экзамена студентами: the verb сдали becomes the noun сдача, the object экзамен becomes genitive экзамена, and the subject студенты becomes instrumental студентами."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Choose the nominal-style sentence:",
+          "contextEnglish": "Reporting that documents were checked.",
+          "options": [
+            "Проверка документов была проведена комиссией.",
+            "Комиссия проверила документы."
+          ],
+          "answer": "Проверка документов была проведена комиссией.",
+          "explanation": "Проверка документов была проведена комиссией uses the noun проверка instead of the verb проверила. The agent (комиссией) moves to instrumental case. This is the defining pattern of nominal style."
+        },
+        {
+          "context": "Choose the nominal-style sentence:",
+          "contextEnglish": "Describing development of new technology.",
+          "options": [
+            "Учёные разработали новую технологию.",
+            "Разработка новой технологии осуществлена учёными."
+          ],
+          "answer": "Разработка новой технологии осуществлена учёными.",
+          "explanation": "Разработка новой технологии осуществлена учёными uses the noun разработка with the formal support verb осуществить. The genitive chain (новой технологии) replaces the accusative object."
+        },
+        {
+          "context": "Choose the nominal-style sentence:",
+          "contextEnglish": "Reporting that a building was inspected.",
+          "options": [
+            "Осмотр здания проведён специалистами.",
+            "Специалисты осмотрели здание."
+          ],
+          "answer": "Осмотр здания проведён специалистами.",
+          "explanation": "Осмотр здания (inspection of the building) uses the noun form. Проведён (was conducted) is the support verb, and специалистами is the instrumental agent."
+        }
+      ]
+    },
+    {
+      "id": "set-3-build-correct",
+      "title": "Build & Correct",
+      "titleRussian": "Построй и исправь",
+      "description": "Assemble nominal-style sentences from word blocks, then fix case errors in nominal constructions",
+      "descriptionRussian": "Составьте предложения в именном стиле из блоков, затем исправьте падежные ошибки в именных конструкциях",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Проведение проверку документов осуществлено. (The conducting of the document inspection was carried out.)",
+          "error": "проверку",
+          "correction": "проверки",
+          "hint": "After a nominalization, the dependent noun must be in genitive, not accusative.",
+          "explanation": "Проведение проверки документов: the noun проверка must be genitive (проверки) after another nominalization. Accusative проверку is only used with a verb (провести проверку).",
+          "options": [
+            "проверки",
+            "проверка"
+          ]
+        },
+        {
+          "sentence": "Решение проблемы было осуществлено рабочие. (The resolution of the problem was carried out by workers.)",
+          "error": "рабочие",
+          "correction": "рабочими",
+          "hint": "The agent in nominal-style passive must be in instrumental case.",
+          "explanation": "Рабочими (instrumental) marks the agent in a passive nominal construction. Nominative рабочие would make them the subject of an active verb, which contradicts the nominal-style structure.",
+          "options": [
+            "рабочими",
+            "рабочих"
+          ]
+        },
+        {
+          "sentence": "Доставка груз произведена в срок. (Delivery of cargo was completed on time.)",
+          "error": "груз",
+          "correction": "груза",
+          "hint": "The object of the nominalized verb must be in genitive case.",
+          "explanation": "Доставка груза: the noun that was the accusative object of the verb (доставить груз) becomes genitive (груза) when depending on the nominalization (доставка).",
+          "options": [
+            "груза",
+            "грузу"
+          ]
+        },
+        {
+          "sentence": "Улучшение условия труда запланировано на следующий год. (Improvement of working conditions is planned for next year.)",
+          "error": "условия",
+          "correction": "условий",
+          "hint": "After a nominalization, use genitive case; условия here needs genitive plural.",
+          "explanation": "Улучшение условий труда: условий is genitive plural of условия. After the nominalization улучшение, the dependent noun must be genitive (conditions of labor = условий труда).",
+          "options": [
+            "условий",
+            "условиям"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "An inspection of working conditions was conducted.",
+          "answer": "Была проведена проверка условий труда.",
+          "acceptableVariants": [
+            "Проверка условий труда была проведена.",
+            "Проведена проверка условий труда."
+          ],
+          "hint": "Use проверка (noun) + genitive chain + была проведена.",
+          "grammarFocus": "Basic nominal construction with support verb провести",
+          "keyWord": "проверка",
+          "options": [
+            "проверка",
+            "проверять",
+            "проверили",
+            "проверенный"
+          ]
+        },
+        {
+          "english": "Development of the new project has been completed.",
+          "answer": "Разработка нового проекта завершена.",
+          "acceptableVariants": [
+            "Разработка нового проекта была завершена.",
+            "Завершена разработка нового проекта."
+          ],
+          "hint": "Use разработка + genitive + завершена.",
+          "grammarFocus": "Nominalization with -ка suffix",
+          "keyWord": "разработка",
+          "options": [
+            "разработка",
+            "разработать",
+            "разработали",
+            "разработанный"
+          ]
+        },
+        {
+          "english": "Delivery of materials to the construction site was carried out on time.",
+          "answer": "Доставка материалов на строительную площадку осуществлена в срок.",
+          "acceptableVariants": [
+            "Доставка материалов на стройплощадку произведена в срок.",
+            "Была осуществлена доставка материалов на строительную площадку в срок."
+          ],
+          "hint": "Use доставка + genitive + location + осуществлена + time expression.",
+          "grammarFocus": "Nominal construction with support verb осуществить",
+          "keyWord": "доставка",
+          "options": [
+            "доставка",
+            "доставить",
+            "доставили",
+            "доставленный"
+          ]
+        },
+        {
+          "english": "The signing of the agreement between the countries took place in Moscow.",
+          "answer": "Подписание соглашения между странами состоялось в Москве.",
+          "acceptableVariants": [
+            "В Москве состоялось подписание соглашения между странами."
+          ],
+          "hint": "Use подписание + genitive + между + instrumental + состоялось + location.",
+          "grammarFocus": "Nominalization with -ание suffix and support verb состояться",
+          "keyWord": "подписание",
+          "options": [
+            "подписание",
+            "подписать",
+            "подписали",
+            "подписанный"
+          ]
+        }
+      ]
+    }
+  ]
+}

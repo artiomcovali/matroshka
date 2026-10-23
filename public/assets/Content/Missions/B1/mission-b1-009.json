@@ -1,0 +1,51 @@
+{
+  "id": "mission-b1-009",
+  "title": "Apartment Viewing",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "View an apartment for rent and negotiate terms",
+  "imageName": "building.2.fill",
+  "initialPrompt": "Здравствуйте! Вы по поводу квартиры? Проходите, покажу вам. Это двухкомнатная квартира, пятьдесят квадратных метров.",
+  "systemPrompt": "You are landlord showing apartment. 2 rooms, 50m², 40000₽/month + utilities. Deposit: 1 month. Pets negotiable. Available in 2 weeks. Answer questions about apartment. Keep replies short.",
+  "completionCriteria": "User asked about apartment details and expressed interest or decision.",
+  "responseLimit": 15,
+  "hints": [
+    "Сколько стоит аренда? (How much is the rent?)",
+    "Коммунальные услуги включены? (Are utilities included?)",
+    "Можно с домашними животными? (Are pets allowed?)",
+    "Когда можно въехать? (When can I move in?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "квартира",
+      "definition": "apartment"
+    },
+    {
+      "word": "аренда",
+      "definition": "rent"
+    },
+    {
+      "word": "залог",
+      "definition": "deposit"
+    },
+    {
+      "word": "коммунальные",
+      "definition": "utilities"
+    },
+    {
+      "word": "квадратный метр",
+      "definition": "square meter"
+    },
+    {
+      "word": "въехать",
+      "definition": "to move in"
+    }
+  ],
+  "objectives": [
+    "Ask about the rent price",
+    "Ask about utilities and deposit",
+    "Ask about pets or other rules",
+    "Ask when you can move in",
+    "Express your decision or interest"
+  ]
+}

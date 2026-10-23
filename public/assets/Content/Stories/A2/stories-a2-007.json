@@ -1,0 +1,189 @@
+{
+  "id": "a2-007",
+  "level": "A2",
+  "narrator": "Анна",
+  "title": "Друзья Анны",
+  "titleEnglish": "Anna's Friends",
+  "description": "Анна рассказывает о своих друзьях.",
+  "imageName": "person.2.fill",
+  "fullText": "У меня есть замечательные друзья. Моя лучшая подруга — Маша. Она добрая, весёлая и очень умная. Маша работает в офисе. А ещё у Маши есть собака — Пряник. Пряник большой, смешной пёс. Мы с Машей часто гуляем вместе — в парке или по улицам города. Дома у меня живёт серая кошка Мурка. Она тихая и спокойная. Мурка любит спать на моём диване. Каждый день у меня хорошее настроение — рядом добрые друзья, уютная квартира и любимая кошка!",
+  "reviewVocab": [
+    {
+      "word": "подруга",
+      "definition": "female friend",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "подруга",
+        "подруги",
+        "подруге",
+        "подругу"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "замечательный",
+      "definition": "wonderful, remarkable",
+      "partOfSpeech": "adjective",
+      "forms": [
+        "замечательный",
+        "замечательная",
+        "замечательное"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "смешной",
+      "definition": "funny",
+      "partOfSpeech": "adjective",
+      "forms": [
+        "смешной",
+        "смешная",
+        "смешное"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "спокойный",
+      "definition": "calm, peaceful",
+      "partOfSpeech": "adjective",
+      "forms": [
+        "спокойный",
+        "спокойная",
+        "спокойное"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Кто лучшая подруга Анны?",
+      "options": [
+        "Таня",
+        "Маша",
+        "Лена"
+      ],
+      "correctIndex": 1,
+      "explanation": "Лучшая подруга Анны — Маша."
+    },
+    {
+      "prompt": "Какая Маша?",
+      "options": [
+        "Добрая, весёлая и умная",
+        "Тихая и спокойная",
+        "Строгая и серьёзная"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша добрая, весёлая и очень умная."
+    },
+    {
+      "prompt": "Кто такой Пряник?",
+      "options": [
+        "Кошка Маши",
+        "Друг Анны",
+        "Собака Маши"
+      ],
+      "correctIndex": 2,
+      "explanation": "Пряник — это собака Маши. Он большой и смешной пёс."
+    },
+    {
+      "prompt": "Какая кошка у Анны?",
+      "options": [
+        "Серая и тихая",
+        "Рыжая и весёлая",
+        "Чёрная и большая"
+      ],
+      "correctIndex": 0,
+      "explanation": "У Анны серая и тихая кошка Мурка."
+    },
+    {
+      "prompt": "Как зовут кошку Анны?",
+      "options": [
+        "Маша",
+        "Пряник",
+        "Мурка"
+      ],
+      "correctIndex": 2,
+      "explanation": "Кошку Анны зовут Мурка."
+    },
+    {
+      "prompt": "Где гуляют Анна и Маша?",
+      "options": [
+        "В магазине",
+        "В парке или по улицам",
+        "Дома"
+      ],
+      "correctIndex": 1,
+      "explanation": "Анна и Маша часто гуляют в парке или по улицам города."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Лучшая подруга Анны — _____.",
+      "Пряник — большой и _____ пёс.",
+      "Анна и Маша часто гуляют _____ в парке.",
+      "У Анны дома живёт серая кошка _____.",
+      "У Анны _____ настроение каждый день."
+    ],
+    "choices": [
+      "Маша",
+      "смешной",
+      "вместе",
+      "Мурка",
+      "хорошее",
+      "добрый",
+      "тихая"
+    ],
+    "answers": [
+      "Маша",
+      "смешной",
+      "вместе",
+      "Мурка",
+      "хорошее"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "In 'у Маши есть собака,' what case is 'Маши' in?",
+      "options": [
+        "Nominative",
+        "Accusative",
+        "Genitive"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "case",
+      "sentenceRef": "А ещё у Маши есть собака — Пряник.",
+      "explanation": "After 'у,' nouns and names take the genitive case: Маша → у Маши, Анна → у Анны. This is how Russian expresses 'X has something.'",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "The adjective 'большой' describes 'пёс' (masculine). What form would it take with 'собака' (feminine)?",
+      "options": [
+        "Большая",
+        "Большое",
+        "Большие"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "gender",
+      "sentenceRef": "Пряник большой, смешной пёс.",
+      "explanation": "Adjectives change endings to match the noun's gender: большой пёс (m), большая собака (f), большое окно (n), большие деревья (pl).",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "In 'хорошее настроение,' the adjective ends in '-ее' because:",
+      "options": [
+        "It's plural",
+        "Настроение is neuter",
+        "Настроение is feminine"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "gender",
+      "sentenceRef": "Каждый день у меня хорошее настроение.",
+      "explanation": "Neuter adjectives end in '-ое' or '-ее': хорошее настроение, красивое место. Настроение (mood) is neuter — you can tell by its '-ие' ending.",
+      "focusArea": "cases"
+    }
+  ],
+  "audioFile": "a2-007.m4a",
+  "audioTimingFile": "a2-007-timing.json"
+}

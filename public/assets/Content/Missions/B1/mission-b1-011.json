@@ -1,0 +1,51 @@
+{
+  "id": "mission-b1-011",
+  "title": "Car Rental",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Rent a car and understand insurance options",
+  "imageName": "car.fill",
+  "initialPrompt": "Добро пожаловать в прокат автомобилей! На какой срок хотите взять машину?",
+  "systemPrompt": "You rent cars. Economy 2000₽/day, SUV 4000₽/day. Insurance: basic included, full coverage +500₽/day. Need license, passport, deposit 10000₽. Return with full tank. Keep replies short.",
+  "completionCriteria": "User rented car with dates, insurance choice, and requirements understood.",
+  "responseLimit": 15,
+  "hints": [
+    "На три дня (For three days)",
+    "Какие машины есть? (What cars do you have?)",
+    "Страховка включена? (Is insurance included?)",
+    "Какой залог? (What's the deposit?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "прокат",
+      "definition": "rental"
+    },
+    {
+      "word": "автомобиль",
+      "definition": "car"
+    },
+    {
+      "word": "страховка",
+      "definition": "insurance"
+    },
+    {
+      "word": "залог",
+      "definition": "deposit"
+    },
+    {
+      "word": "права",
+      "definition": "driver's license"
+    },
+    {
+      "word": "бензин",
+      "definition": "gasoline"
+    }
+  ],
+  "objectives": [
+    "Say how long you need the car",
+    "Choose a car type",
+    "Ask about insurance options",
+    "Understand deposit and requirements",
+    "Complete the rental"
+  ]
+}

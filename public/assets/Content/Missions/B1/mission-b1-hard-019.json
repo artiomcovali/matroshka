@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-019",
+  "title": "False Accusation",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "You're accused of property damage you didn't cause",
+  "imageName": "exclamationmark.triangle.fill",
+  "initialPrompt": "Вы сломали наш принтер! Коллеги видели, как вы его использовали последним. 10 000 рублей за ремонт.",
+  "systemPrompt": "You are an office manager. Accuse person of breaking printer. Back down only if they have alibi or suggest checking cameras. Keep replies short.",
+  "completionCriteria": "User cleared their name with evidence or alibi.",
+  "responseLimit": 15,
+  "hints": [
+    "Когда это случилось? (When did this happen?)",
+    "Давайте проверим камеры (Let's check the cameras)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "обвинение",
+      "definition": "accusation"
+    },
+    {
+      "word": "доказательство",
+      "definition": "evidence"
+    },
+    {
+      "word": "алиби",
+      "definition": "alibi"
+    },
+    {
+      "word": "камеры",
+      "definition": "cameras"
+    },
+    {
+      "word": "невиновен",
+      "definition": "innocent"
+    },
+    {
+      "word": "свидетель",
+      "definition": "witness"
+    }
+  ],
+  "objectives": [
+    "Deny the accusation",
+    "Ask for specifics",
+    "Provide your alibi",
+    "Suggest verification",
+    "Clear your name"
+  ]
+}

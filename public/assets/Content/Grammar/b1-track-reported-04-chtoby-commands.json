@@ -1,0 +1,336 @@
+{
+  "id": "b1-track-reported-04-chtoby-commands",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Reported Speech 4: Чтобы for Commands and Requests",
+  "titleRussian": "Косвенная речь 4: «Чтобы» для команд и просьб",
+  "description": "Russian reports a command, a request, or a wish-for-someone-else with чтобы followed by a past-form verb. When the speaker is also the doer, you use an infinitive instead. The choice depends on whether the two subjects match.",
+  "descriptionRussian": "Команды, просьбы и желания, направленные на другое лицо, передаются союзом «чтобы» с глаголом в форме прошедшего времени. Если действующее лицо — сам говорящий, используется инфинитив. Выбор зависит от того, совпадают ли два субъекта.",
+  "imageName": "person.wave.2",
+  "trackId": "b1-reported-speech-mastery",
+  "trackTitle": "Reported Speech Mastery",
+  "trackTitleRussian": "Косвенная речь",
+  "trackIndex": 4,
+  "trackTotal": 5,
+  "intro": "Reporting an order uses the same word you met in the conditional book, and it does the same strange thing: the verb after it takes a past-tense form regardless of when the action is meant to happen. Nothing about it is past. It is simply the shape the word requires. One detail to watch is that different commanding verbs put the person you are telling in different cases.",
+  "rules": [
+    "After чтобы the verb takes a PAST-tense form, whatever the timing. The past form is just the shape чтобы requires; it does not mean the action already happened.",
+    "Same person wants and does → infinitive, no чтобы (Я хочу пойти). Different people → чтобы + past (Я хочу, чтобы ты пошёл). The comma before чтобы is mandatory.",
+    "The past form after чтобы agrees in gender and number with its own subject: пошёл / пошла / пошли.",
+    "Commanding/requesting verbs: сказать, попросить, велеть, приказать, посоветовать, предложить, хотеть, требовать.",
+    "The person you tell takes the dative after сказать/велеть/приказать (сказал Маше) but the accusative after попросить (попросил Машу)."
+  ],
+  "examples": [
+    "Direct: Мама сказала: «Иди домой!» Reported: Мама сказала, чтобы я пошёл домой. (Mom told me to go home. Past form пошёл agrees with masculine subject я.)",
+    "Я хочу пойти домой. (I want to go home. Same person; infinitive, no чтобы needed.)",
+    "Я хочу, чтобы ты пошёл домой. (I want you to go home. Different people; чтобы + past form пошёл; comma mandatory.)",
+    "Антон попросил Машу, чтобы она купила хлеб. (Anton asked Masha to buy bread. After попросить the person asked is accusative: Машу; past form купила agrees feminine.)",
+    "Учитель велел студентам, чтобы они написали тест. (The teacher ordered the students to write the test. After велеть the person is dative: студентам; чтобы + past plural написали.)",
+    "Мама попросила, чтобы я звонил ей чаще. (Mom asked me to call her more often. Imperfective звонил for a repeated habit.)"
+  ],
+  "tables": [
+    {
+      "title": "Same person vs different people",
+      "headers": [
+        "Reading",
+        "Structure",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Same person",
+          "cells": [
+            "verb + infinitive (no чтобы)",
+            "Я хочу пойти домой."
+          ]
+        },
+        {
+          "label": "Different people",
+          "cells": [
+            "verb + чтобы + past form",
+            "Я хочу, чтобы ты пошёл домой."
+          ]
+        },
+        {
+          "label": "Reported command (dative)",
+          "cells": [
+            "сказать / велеть + dat + чтобы + past",
+            "Мама сказала мне, чтобы я пошёл домой."
+          ]
+        },
+        {
+          "label": "Reported request (accusative)",
+          "cells": [
+            "попросить + acc + чтобы + past",
+            "Антон попросил Машу, чтобы она купила хлеб."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Мама сказала, _____ я пошёл домой.",
+          "promptEnglish": "Mom told me to go home.",
+          "options": [
+            "что",
+            "чтобы",
+            "ли",
+            "если"
+          ],
+          "answer": "чтобы",
+          "hint": "Reported command. Which word introduces a command or request?",
+          "explanation": "Чтобы introduces reported commands and requests, with the past-form пошёл after it. Что would mark a plain statement, not a command. Ли would mark a yes/no question. Если is for real conditionals."
+        },
+        {
+          "prompt": "Я хочу, чтобы ты _____ домой.",
+          "promptEnglish": "I want you to go home.",
+          "options": [
+            "идёшь",
+            "идти",
+            "пойдёшь",
+            "пошёл"
+          ],
+          "answer": "пошёл",
+          "hint": "Different people (я wants, ты goes): чтобы needs which form?",
+          "explanation": "Different subjects (я vs ты) force чтобы + past form: пошёл. Идёшь is present and пойдёшь is future, neither of which can follow чтобы. Идти is the infinitive, which would only fit if the subjects matched (Я хочу идти домой)."
+        },
+        {
+          "prompt": "Я хочу _____ домой, я устал.",
+          "promptEnglish": "I want to go home, I am tired.",
+          "options": [
+            "чтобы пошёл",
+            "пошёл",
+            "иду",
+            "пойти"
+          ],
+          "answer": "пойти",
+          "hint": "Same person wants and goes. Which form pairs with хотеть?",
+          "explanation": "Same person (я wants, я goes) takes the infinitive after хотеть, no чтобы: пойти. 'Чтобы пошёл' would signal two different people, which is not the case here. Пошёл is a past form and иду is present; neither fits a same-person construction after хотеть."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Антон попросил _____, чтобы она купила хлеб.",
+          "promptEnglish": "Anton asked Masha to buy bread.",
+          "options": [
+            "Маша",
+            "Машу",
+            "Маше",
+            "Машей"
+          ],
+          "answer": "Машу",
+          "hint": "After попросить, the person asked takes which case?",
+          "explanation": "After попросить the person asked is accusative: Машу. Маша is nominative, Маше is dative (that is the case after сказать/велеть), and Машей is instrumental."
+        },
+        {
+          "prompt": "Учитель велел студентам, чтобы они _____ тест.",
+          "promptEnglish": "The teacher ordered the students to write the test.",
+          "options": [
+            "писать",
+            "пишут",
+            "написали",
+            "напишут"
+          ],
+          "answer": "написали",
+          "hint": "Чтобы + past form, plural subject, perfective (one bounded task).",
+          "explanation": "Чтобы requires the past form, and the subject is plural (они), so it is написали (perfective: one finished test). Писать is an infinitive, пишут is present, напишут is future - none is a past form."
+        },
+        {
+          "prompt": "Маша посоветовала Антону, чтобы он _____ перед экзаменом.",
+          "promptEnglish": "Masha advised Anton to rest before the exam.",
+          "options": [
+            "отдохнул",
+            "отдохнуть",
+            "отдыхает",
+            "отдохнёт"
+          ],
+          "answer": "отдохнул",
+          "hint": "Different people (Маша advises, Антон rests): чтобы + past, masculine subject.",
+          "explanation": "Different subjects force чтобы + past, agreeing with masculine он: отдохнул. Отдохнуть is the infinitive (English 'advised him to rest', which Russian blocks across two subjects). Отдыхает is present and отдохнёт is future; neither can follow чтобы."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Учитель сказал Маше, чтобы она _____ текст.",
+          "promptEnglish": "The teacher told Masha to read the text.",
+          "options": [
+            "прочитала",
+            "прочитает",
+            "читает",
+            "прочитать"
+          ],
+          "answer": "прочитала",
+          "hint": "After чтобы the verb takes which form?",
+          "explanation": "Reported commands take чтобы + PAST form: чтобы она прочитала. Прочитает and читает are non-past, impossible after чтобы; the infinitive would need the same subject in both halves."
+        },
+        {
+          "prompt": "Я попросила Антона, чтобы он _____ окно.",
+          "promptEnglish": "I asked Anton to close the window.",
+          "options": [
+            "закрыл",
+            "закроет",
+            "закрывает",
+            "закрыть"
+          ],
+          "answer": "закрыл",
+          "hint": "Same rule: чтобы + past, agreeing with он.",
+          "explanation": "The reported request is чтобы + past: чтобы он закрыл окно. Закроет is future and закрывает present, both blocked after чтобы; закрыть would require the asker and closer to be the same person."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Мама попросила, _____ я позвонил ей вечером. (Mom asked me to call her in the evening.)"
+    ],
+    "choices": [
+      "что",
+      "ли",
+      "чтобы",
+      "если"
+    ],
+    "answers": [
+      "чтобы"
+    ],
+    "grammarFocus": "Попросить opens a request, which takes чтобы + past form (позвонил). Что would mark a plain statement; ли a yes/no question; если a real conditional."
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "хочу",
+        "чтобы",
+        "ты",
+        "Я",
+        "пришёл",
+        "рано"
+      ],
+      "answer": "Я хочу, чтобы ты пришёл рано.",
+      "translation": "I want you to come early.",
+      "explanation": "Different people (я wants, ты comes), so чтобы + past form пришёл, agreeing with ты (masculine). The comma before чтобы is mandatory."
+    },
+    {
+      "words": [
+        "хочу",
+        "домой",
+        "Я",
+        "пойти"
+      ],
+      "answer": "Я хочу пойти домой.",
+      "translation": "I want to go home.",
+      "explanation": "Same person wants and goes, so the infinitive пойти follows хотеть directly, with no чтобы and no past form."
+    },
+    {
+      "words": [
+        "велел",
+        "студентам",
+        "Учитель",
+        "они",
+        "чтобы",
+        "написали",
+        "тест"
+      ],
+      "answer": "Учитель велел студентам, чтобы они написали тест.",
+      "translation": "The teacher ordered the students to write the test.",
+      "explanation": "After велеть the people ordered are dative: студентам. Different subjects force чтобы + past plural написали, agreeing with они."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я хочу, _____ ты пошёл домой.",
+      "contextEnglish": "I want you to go home.",
+      "options": [
+        "что",
+        "чтобы"
+      ],
+      "answer": "чтобы",
+      "explanation": "A wish aimed at someone else takes чтобы + past form, not что. Что would introduce a factual statement, which does not fit пошёл here or the meaning 'want you to go'."
+    },
+    {
+      "context": "Я хочу _____ домой.",
+      "contextEnglish": "I want to go home.",
+      "options": [
+        "пойти",
+        "пошёл"
+      ],
+      "answer": "пойти",
+      "explanation": "Same person wants and goes, so the infinitive пойти follows хотеть. Пошёл (past form) would require a different subject and a чтобы bridge, which is not the case here."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Папа сказал, чтобы Лена идёт домой.",
+      "translationEnglish": "Dad told Lena to go home.",
+      "error": "идёт",
+      "correction": "пошла",
+      "options": [
+        "пошла",
+        "пойдёт",
+        "идти"
+      ],
+      "explanation": "After чтобы the verb must be a past form, not a present: пошла (agreeing with Лена, feminine). Идёт is present, пойдёт is future, идти the infinitive. The past form here means 'should go', not 'went'."
+    },
+    {
+      "sentence": "Учитель хочет, чтобы ученики прочитать текст дома.",
+      "translationEnglish": "The teacher wants the students to read the text at home.",
+      "error": "прочитать",
+      "correction": "прочитали",
+      "options": [
+        "прочитали",
+        "читают",
+        "прочитают"
+      ],
+      "explanation": "Different people (учитель wants, ученики read), so чтобы takes a past form: прочитали. The infinitive прочитать is the English 'want X to do' pattern, which Russian blocks across two subjects. Читают is present and прочитают is future."
+    },
+    {
+      "sentence": "После работы Маша хочет немного отдохнула дома.",
+      "translationEnglish": "After work, Masha wants to rest a little at home.",
+      "error": "отдохнула",
+      "correction": "отдохнуть",
+      "options": [
+        "отдохнуть",
+        "отдохнёт",
+        "отдыхает"
+      ],
+      "explanation": "Same person (Маша wants, Маша rests), so хотеть takes an infinitive: отдохнуть. The past отдохнула would need a чтобы bridge and a different subject. Отдохнёт is future, отдыхает present."
+    },
+    {
+      "sentence": "Антон попросил Лене, чтобы она купила хлеб.",
+      "translationEnglish": "Anton asked Lena to buy bread.",
+      "error": "Лене",
+      "correction": "Лену",
+      "options": [
+        "Лену",
+        "Лена",
+        "Леной"
+      ],
+      "explanation": "After попросить the person asked is accusative: Лену. Лене is dative (used after сказать / велеть), Лена is nominative, Леной is instrumental. Each reporting verb keeps its own case frame for the addressee."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "чтобы + прошедшее время",
+      "definition": "чтобы + a past form: reports a command, request, or wish aimed at someone else when the two subjects differ.",
+      "example": "Мама сказала, чтобы я пошёл домой."
+    },
+    {
+      "term": "хотеть + инфинитив",
+      "definition": "хотеть + an infinitive: used when the wanter and the doer are the same person; no чтобы needed.",
+      "example": "Я хочу пойти домой."
+    },
+    {
+      "term": "попросить / сказать (кого-то / кому-то)",
+      "definition": "the person you ask is accusative after попросить (попросил Машу); the person you tell is dative after сказать/велеть (сказал Маше).",
+      "example": "Антон попросил Машу. Мама сказала Маше."
+    }
+  ]
+}

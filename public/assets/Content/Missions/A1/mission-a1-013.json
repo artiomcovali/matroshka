@@ -1,0 +1,50 @@
+{
+  "id": "mission-a1-013",
+  "title": "Exchange Money",
+  "level": "A1",
+  "difficulty": "easy",
+  "description": "Exchange dollars for rubles at a currency exchange",
+  "imageName": "dollarsign.circle.fill",
+  "initialPrompt": "Здравствуйте! Добро пожаловать в обмен валюты. Какую валюту хотите обменять?",
+  "systemPrompt": "You work at currency exchange. Rate: $1 = 90₽, €1 = 95₽. Ask how much they want to exchange, give the total in rubles. Keep replies short.",
+  "completionCriteria": "User exchanged money and received rubles.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу обменять доллары (I want to exchange dollars)",
+    "Какой курс? (What's the exchange rate?)",
+    "Сто долларов (One hundred dollars)",
+    "Дайте мне рубли (Give me rubles)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "деньги",
+      "definition": "money"
+    },
+    {
+      "word": "доллар",
+      "definition": "dollar"
+    },
+    {
+      "word": "рубль",
+      "definition": "ruble"
+    },
+    {
+      "word": "обменять",
+      "definition": "to exchange"
+    },
+    {
+      "word": "курс",
+      "definition": "exchange rate"
+    },
+    {
+      "word": "валюта",
+      "definition": "currency"
+    }
+  ],
+  "objectives": [
+    "Say what currency you want to exchange",
+    "Ask about the exchange rate",
+    "Say how much money to exchange",
+    "Complete the exchange"
+  ]
+}

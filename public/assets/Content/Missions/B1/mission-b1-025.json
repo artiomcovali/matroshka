@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-025",
+  "title": "Cooking Class",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Take a Russian cooking class to learn traditional dishes",
+  "imageName": "frying.pan.fill",
+  "initialPrompt": "Добро пожаловать на кулинарный мастер-класс! Сегодня готовим борщ. У всех есть ингредиенты?",
+  "systemPrompt": "You teach Russian cooking. Today making borscht. Guide through steps: chop vegetables, prepare broth, add beets last. Ask if they have questions. Taste and adjust seasoning. Keep replies short.",
+  "completionCriteria": "User completed cooking lesson and understood recipe.",
+  "responseLimit": 15,
+  "hints": [
+    "Какой следующий шаг? (What's the next step?)",
+    "Сколько варить? (How long to cook?)",
+    "Можно попробовать? (Can I taste it?)",
+    "Какие специи добавить? (What spices to add?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "рецепт",
+      "definition": "recipe"
+    },
+    {
+      "word": "ингредиенты",
+      "definition": "ingredients"
+    },
+    {
+      "word": "нарезать",
+      "definition": "to chop"
+    },
+    {
+      "word": "варить",
+      "definition": "to boil"
+    },
+    {
+      "word": "приправа",
+      "definition": "seasoning"
+    },
+    {
+      "word": "готовить",
+      "definition": "to cook"
+    }
+  ],
+  "objectives": [
+    "Follow cooking instructions",
+    "Ask clarifying questions",
+    "Complete the dish",
+    "Learn tips and tricks"
+  ]
+}

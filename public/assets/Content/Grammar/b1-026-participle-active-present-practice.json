@@ -1,0 +1,484 @@
+{
+  "lessonId": "b1-026-participle-active-present",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Form the Participle",
+      "titleRussian": "Образуйте причастие",
+      "description": "Choose the correct present active participle",
+      "descriptionRussian": "Выберите правильное действительное причастие настоящего времени",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Человек, _____ книгу, сидит у окна. (The person reading a book is sitting by the window.)",
+              "promptEnglish": "The person reading a book is sitting by the window.",
+              "options": [
+                "читающий",
+                "прочитавший",
+                "читавший",
+                "читаемый"
+              ],
+              "answer": "читающий",
+              "hint": "Reading NOW = present active participle. читают -> читающий.",
+              "explanation": "Читающий: present active (from читают, -ющий). Who is reading right now."
+            },
+            {
+              "prompt": "Девушка, _____ по телефону, улыбается. (The girl talking on the phone is smiling.)",
+              "promptEnglish": "The girl speaking on the phone is smiling.",
+              "options": [
+                "говоривший",
+                "говорящая",
+                "сказавшая",
+                "говорившая"
+              ],
+              "answer": "говорящая",
+              "hint": "Speaking NOW (fem) = present active. говорят -> говорящая.",
+              "explanation": "Говорящая: present active (fem). From говорят, remove -т, add -щая."
+            },
+            {
+              "prompt": "Студенты, _____ русский язык, работают много. (Students studying Russian work a lot.)",
+              "promptEnglish": "Students studying Russian work hard.",
+              "options": [
+                "изучившие",
+                "изучающие",
+                "изученные",
+                "изучавшие"
+              ],
+              "answer": "изучающие",
+              "hint": "Studying NOW (plural) = present active. изучают -> изучающие.",
+              "explanation": "Изучающие: present active (plural). Currently studying (ongoing)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Present active participle of РАБОТАТЬ (to work):",
+              "promptEnglish": "Form the present active participle of работать.",
+              "options": [
+                "работающий",
+                "работавший",
+                "работаемый",
+                "работанный"
+              ],
+              "answer": "работающий",
+              "hint": "работают -> remove -т -> работаю- -> + -щий = работающий.",
+              "explanation": "Работают (3rd pl) -> работающий. 1st conjugation: -ющий."
+            },
+            {
+              "prompt": "Present active participle of ЛЮБИТЬ (to love):",
+              "promptEnglish": "Form the present active participle of любить.",
+              "options": [
+                "любящий",
+                "любивший",
+                "любимый",
+                "любовший"
+              ],
+              "answer": "любящий",
+              "hint": "любят -> remove -т -> любя- -> + -щий = любящий.",
+              "explanation": "Любят (3rd pl) -> любящий. 2nd conjugation: -ящий."
+            },
+            {
+              "prompt": "Present active participle of ПИСАТЬ (to write):",
+              "promptEnglish": "Form the present active participle of писать.",
+              "options": [
+                "писавший",
+                "написавший",
+                "пишущий",
+                "писающий"
+              ],
+              "answer": "пишущий",
+              "hint": "пишут -> remove -т -> пишу- -> + -щий = пишущий.",
+              "explanation": "Пишут (3rd pl) -> пишущий. 1st conjugation: -ущий."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Человек, _____ газету... (present - right now)",
+          "contextEnglish": "The person reading a newspaper (right now).",
+          "options": [
+            "читающий",
+            "читавший"
+          ],
+          "answer": "читающий",
+          "explanation": "Читающий: present active (reading right now). Читавший would be past (who was reading)."
+        },
+        {
+          "context": "Человек, _____ газету... (past - he finished)",
+          "contextEnglish": "The person who was reading a newspaper (earlier).",
+          "options": [
+            "читающий",
+            "читавший"
+          ],
+          "answer": "читавший",
+          "explanation": "Читавший: past active (who was reading). The reading happened in the past."
+        },
+        {
+          "context": "Дети, _____ в парке... (currently playing)",
+          "contextEnglish": "Children playing in the park (right now).",
+          "options": [
+            "играющие",
+            "игравшие"
+          ],
+          "answer": "играющие",
+          "explanation": "Играющие: present active (plural). Playing right now."
+        },
+        {
+          "context": "Дети, _____ в парке... (they played earlier)",
+          "contextEnglish": "Children who were playing in the park (earlier).",
+          "options": [
+            "играющие",
+            "игравшие"
+          ],
+          "answer": "игравшие",
+          "explanation": "Игравшие: past active (plural). They played earlier, not now."
+        }
+      ]
+    },
+    {
+      "id": "round-3-transform-translate",
+      "title": "Transform and Translate",
+      "titleRussian": "Преобразование и перевод",
+      "description": "Convert который clauses to participles and back",
+      "descriptionRussian": "Преобразуйте «который» в причастие и наоборот",
+      "icon": "arrow.left.arrow.right",
+      "translation": [
+        {
+          "prompt": "A student studying Russian (masc, nominative)",
+          "answer": "Студент, изучающий русский язык",
+          "hint": "Studying = present active. изучают -> изучающий (masc nom).",
+          "explanation": "Изучающий: present active participle (masc nom). Currently studying.",
+          "keyWord": "изучающий",
+          "options": [
+            "изучающий",
+            "изучающая",
+            "изучающие",
+            "изучающего"
+          ]
+        },
+        {
+          "prompt": "Children playing in the yard (plural, nominative)",
+          "answer": "Дети, играющие во дворе",
+          "hint": "Playing = present active (plural). играют -> играющие.",
+          "explanation": "Играющие: present active (plural nom). Currently playing.",
+          "keyWord": "играющие",
+          "options": [
+            "играющие",
+            "играющий",
+            "играющая",
+            "играющих"
+          ]
+        },
+        {
+          "prompt": "A woman working at a hospital (fem, nominative)",
+          "answer": "Женщина, работающая в больнице",
+          "hint": "Working = present active (fem). работают -> работающая.",
+          "explanation": "Работающая: present active (fem nom). Currently employed there.",
+          "keyWord": "работающая",
+          "options": [
+            "работающая",
+            "работающий",
+            "работающие",
+            "работающую"
+          ]
+        },
+        {
+          "prompt": "A person who knows several languages (masc, nominative)",
+          "answer": "Человек, знающий несколько языков",
+          "hint": "Knowing = present active. знают -> знающий.",
+          "explanation": "Знающий: present active (masc nom). Who knows languages.",
+          "keyWord": "знающий",
+          "options": [
+            "знающий",
+            "знающая",
+            "знающие",
+            "знающего"
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Люди, _____ здесь, очень дружелюбные. (People living here are very friendly.)",
+          "Машина, _____ слишком быстро, опасна. (A car going too fast is dangerous.)",
+          "Человек, _____ эту песню, поёт красиво. (The person singing this song sings beautifully.)"
+        ],
+        "choices": [
+          "живущие",
+          "едущая",
+          "поющий"
+        ],
+        "answers": [
+          "живущие",
+          "едущая",
+          "поющий"
+        ],
+        "grammarFocus": "Present active participle agreement in gender/number/case",
+        "hints": [
+          "Люди (plural, nominative) = живущие.",
+          "Машина (fem, nominative) = едущая.",
+          "Человек (masc, nominative) = поющий."
+        ],
+        "explanations": [
+          "Живущие: present active (plural nom). People who live here.",
+          "Едущая: present active (fem nom). A car that is going.",
+          "Поющий: present active (masc nom). A person who is singing."
+        ],
+        "options": [
+          [
+            "живших",
+            "живущих",
+            "живущие",
+            "живущими"
+          ],
+          [
+            "едущею",
+            "едущую",
+            "едущей",
+            "едущая"
+          ],
+          [
+            "поющим",
+            "поющему",
+            "поющий",
+            "поющего"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "categories": [
+          "1st conjugation (-ущий/-ющий)",
+          "2nd conjugation (-ащий/-ящий)"
+        ],
+        "items": [
+          {
+            "text": "читающий (читать)",
+            "category": "1st conjugation (-ущий/-ющий)"
+          },
+          {
+            "text": "говорящий (говорить)",
+            "category": "2nd conjugation (-ащий/-ящий)"
+          },
+          {
+            "text": "пишущий (писать)",
+            "category": "1st conjugation (-ущий/-ющий)"
+          },
+          {
+            "text": "любящий (любить)",
+            "category": "2nd conjugation (-ащий/-ящий)"
+          },
+          {
+            "text": "работающий (работать)",
+            "category": "1st conjugation (-ущий/-ющий)"
+          },
+          {
+            "text": "смотрящий (смотреть)",
+            "category": "2nd conjugation (-ащий/-ящий)"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Девушка, читающий книгу, улыбается.",
+          "error": "читающий",
+          "correction": "читающая",
+          "hint": "Девушка is feminine. Participle must agree: читающая.",
+          "explanation": "Gender agreement: девушка (fem) -> читающая (fem), not читающий (masc).",
+          "options": [
+            "читающая",
+            "читающее",
+            "читающие"
+          ]
+        },
+        {
+          "sentence": "Человек, прочитающий книгу, сидит рядом.",
+          "error": "прочитающий",
+          "correction": "читающий",
+          "hint": "Present active participles can only be formed from imperfective verbs.",
+          "explanation": "Perfective verbs have no present tense, so no present participle. Use imperfective: читающий.",
+          "options": [
+            "читающий",
+            "прочитавший",
+            "читавший",
+            "читающие"
+          ]
+        },
+        {
+          "sentence": "Дети, играющий в парке, весёлые.",
+          "error": "играющий",
+          "correction": "играющие",
+          "hint": "Дети is plural. Participle must agree: играющие.",
+          "explanation": "Number agreement: дети (plural) -> играющие (plural), not играющий (singular).",
+          "options": [
+            "играющие",
+            "играющая",
+            "играющее"
+          ]
+        },
+        {
+          "sentence": "Я вижу мальчика, читающий книгу.",
+          "error": "читающий",
+          "correction": "читающего",
+          "hint": "Мальчика is accusative (animate masc = gen). Participle must match: читающего.",
+          "explanation": "Case agreement: вижу мальчика (acc=gen) -> читающего (acc=gen), not nominative.",
+          "options": [
+            "читающего",
+            "читающему",
+            "читающим"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Финальное задание",
+      "description": "Formation, agreement, and usage mixed together",
+      "descriptionRussian": "Образование, согласование и употребление вперемешку",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я разговаривал с женщиной, _____ в нашем офисе. (I spoke with a woman working in our office.)",
+              "promptEnglish": "I spoke with a woman working in our office.",
+              "options": [
+                "работающая",
+                "работающей",
+                "работающую",
+                "работающих"
+              ],
+              "answer": "работающей",
+              "hint": "С + instrumental -> с женщиной. Participle agrees: fem instrumental = работающей.",
+              "explanation": "С женщиной (fem instr) -> работающей (fem instr). Participle agrees in case."
+            },
+            {
+              "prompt": "In which style are present active participles most common?",
+              "promptEnglish": "Where are these participles typically found?",
+              "options": [
+                "Casual conversation",
+                "Children's speech",
+                "Written/formal language (news, literature, academic)",
+                "Text messages"
+              ],
+              "answer": "Written/formal language (news, literature, academic)",
+              "hint": "Participles are literary. In speech, Russians prefer который.",
+              "explanation": "Participles belong to written/formal style. In everyday speech, который clauses are preferred."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Present active participle of НЕСТИ (to carry): несут -> ?",
+              "promptEnglish": "Form from нести (3rd pl: несут).",
+              "options": [
+                "несущий",
+                "носящий",
+                "несённый",
+                "несший"
+              ],
+              "answer": "несущий",
+              "hint": "Несут -> remove -т -> несу- -> + -щий = несущий.",
+              "explanation": "Несущий: 1st conjugation, -ущий suffix. Who is carrying (right now)."
+            },
+            {
+              "prompt": "Present active participle of СЛЫШАТЬ (to hear): слышат -> ?",
+              "promptEnglish": "Form from слышать (3rd pl: слышат).",
+              "options": [
+                "слышащий",
+                "слышавший",
+                "слышимый",
+                "слухающий"
+              ],
+              "answer": "слышащий",
+              "hint": "Слышат -> remove -т -> слыша- -> + -щий = слышащий.",
+              "explanation": "Слышащий: 2nd conjugation, -ащий suffix. Who hears."
+            },
+            {
+              "prompt": "Мы помогли людям, _____ помощи. (We helped people asking for help.)",
+              "promptEnglish": "We helped people who were asking for help.",
+              "options": [
+                "просящие",
+                "просящим",
+                "просящих",
+                "просивших"
+              ],
+              "answer": "просящим",
+              "hint": "Помогли людям (dative plural) -> просящим (dative plural).",
+              "explanation": "Помогли людям (dat pl) -> просящим (dat pl). Participle agrees in case and number."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "читающий / пишущий / работающий (1st conj) vs говорящий / любящий / смотрящий (2nd conj)",
+          "question": "What determines whether the suffix is -ущий/-ющий or -ащий/-ящий?",
+          "options": [
+            "The verb conjugation: 1st conjugation = -ущий/-ющий, 2nd conjugation = -ащий/-ящий",
+            "The meaning of the verb",
+            "Whether the verb is transitive or intransitive"
+          ],
+          "answer": "The verb conjugation: 1st conjugation = -ущий/-ющий, 2nd conjugation = -ащий/-ящий",
+          "explanation": "The suffix mirrors the 3rd person plural ending: -ут/-ют -> -ущий/-ющий. -ат/-ят -> -ащий/-ящий."
+        },
+        {
+          "sentence": "Мальчик, читающий книгу. / Мальчика, читающего книгу. / Мальчику, читающему книгу.",
+          "question": "What changes in the participle across these three phrases?",
+          "options": [
+            "The tense changes",
+            "The case changes to agree with мальчик (nom, acc/gen, dat)",
+            "The meaning changes"
+          ],
+          "answer": "The case changes to agree with мальчик (nom, acc/gen, dat)",
+          "explanation": "Participles decline like adjectives: читающий (nom), читающего (acc=gen), читающему (dat)."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Кошка, _____ на диване, спит. (The cat lying on the couch is sleeping.)",
+          "Мы знаем людей, _____ в этом доме. (We know people living in this building.)"
+        ],
+        "choices": [
+          "лежащая",
+          "живущих"
+        ],
+        "answers": [
+          "лежащая",
+          "живущих"
+        ],
+        "grammarFocus": "Participle gender/case agreement",
+        "hints": [
+          "Кошка (fem nom) = лежащая (fem nom).",
+          "Людей (gen/acc plural) = живущих (gen/acc plural)."
+        ],
+        "explanations": [
+          "Лежащая: present active (fem nom). The cat lying down.",
+          "Живущих: present active (gen/acc pl). People who live there."
+        ],
+        "options": [
+          [
+            "лежащею",
+            "лежащую",
+            "лежащей",
+            "лежащая"
+          ],
+          [
+            "живущие",
+            "живущими",
+            "живущих",
+            "жившие"
+          ]
+        ]
+      }
+    }
+  ]
+}

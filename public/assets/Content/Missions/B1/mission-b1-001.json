@@ -1,0 +1,52 @@
+{
+  "id": "mission-b1-001",
+  "title": "Restaurant Complaint",
+  "level": "B1",
+  "description": "Politely complain about a problem with your order",
+  "imageName": "fork.knife",
+  "initialPrompt": "Добрый вечер! Вот ваш заказ. Приятного аппетита!",
+  "systemPrompt": "You are a waiter. The soup is cold. When customer complains, apologize and offer to replace it. Keep replies short. Use вы form.",
+  "completionCriteria": "User complained, you offered solution, situation resolved.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините, но... (Excuse me, but...)",
+    "Суп холодный (The soup is cold)",
+    "Можно заменить? (Can you replace it?)",
+    "Спасибо за понимание (Thanks for understanding)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "извините",
+      "definition": "excuse me/sorry"
+    },
+    {
+      "word": "холодный",
+      "definition": "cold"
+    },
+    {
+      "word": "заменить",
+      "definition": "to replace"
+    },
+    {
+      "word": "принести",
+      "definition": "to bring"
+    },
+    {
+      "word": "жаловаться",
+      "definition": "to complain"
+    },
+    {
+      "word": "проблема",
+      "definition": "problem"
+    },
+    {
+      "word": "недовольный",
+      "definition": "dissatisfied"
+    }
+  ],
+  "objectives": [
+    "Politely explain the problem (Извините, но...)",
+    "Request a solution (Можно заменить?)",
+    "Accept or resolve the situation"
+  ]
+}

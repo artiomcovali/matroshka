@@ -1,0 +1,592 @@
+{
+  "lessonId": "a1-003-nominative-case",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Quiz on subjects, это, and question words",
+      "descriptionRussian": "Викторина: подлежащее, это и вопросительные слова",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Это _____. (a cat)",
+              "promptEnglish": "This is a cat.",
+              "options": [
+                "кошка",
+                "кошку",
+                "кошке",
+                "кошкой"
+              ],
+              "answer": "кошка",
+              "hint": "After это, use the dictionary form.",
+              "explanation": "After это, the noun stays in nominative (dictionary form): кошка."
+            },
+            {
+              "prompt": "«Учитель читает книгу.» Which word is the subject?",
+              "promptEnglish": "The teacher is reading a book. Which word is the subject?",
+              "options": [
+                "книгу",
+                "читает",
+                "учитель"
+              ],
+              "answer": "учитель",
+              "hint": "Who is doing the reading?",
+              "explanation": "Учитель (teacher) is doing the reading, so it's the subject in nominative case."
+            },
+            {
+              "prompt": "_____ это? Это телефон.",
+              "promptEnglish": "_____ is this? This is a phone.",
+              "options": [
+                "Кто",
+                "Что",
+                "Где",
+                "Как"
+              ],
+              "answer": "Что",
+              "hint": "A phone is a thing, not a person.",
+              "explanation": "Телефон is an object, so use Что (What), not Кто (Who)."
+            },
+            {
+              "prompt": "Choose the correct form: _____ спит на диване.",
+              "promptEnglish": "_____ is sleeping on the sofa.",
+              "options": [
+                "Кошку",
+                "Кошке",
+                "Кошка",
+                "Кошкой"
+              ],
+              "answer": "Кошка",
+              "hint": "Who is sleeping? That word is the subject.",
+              "explanation": "Кошка is the subject (who is sleeping), so it stays in nominative."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ читает газету.",
+          "contextEnglish": "_____ is reading the newspaper.",
+          "options": [
+            "Студент",
+            "Студента"
+          ],
+          "answer": "Студент",
+          "explanation": "The student is the subject (doing the reading), so use nominative: Студент, not Студента."
+        },
+        {
+          "context": "_____ это? Это мой папа.",
+          "contextEnglish": "_____ is this? This is my dad.",
+          "options": [
+            "Кто",
+            "Что"
+          ],
+          "answer": "Кто",
+          "explanation": "Dad is a person. Use Кто (Who) for people."
+        },
+        {
+          "context": "Это _____. (a doctor)",
+          "contextEnglish": "This is a doctor.",
+          "options": [
+            "врач",
+            "врача"
+          ],
+          "answer": "врач",
+          "explanation": "After это, use nominative (dictionary form): врач."
+        },
+        {
+          "context": "_____ готовит обед.",
+          "contextEnglish": "_____ is cooking lunch.",
+          "options": [
+            "Мама",
+            "Маму"
+          ],
+          "answer": "Мама",
+          "explanation": "Мама is the subject (who cooks). Nominative: Мама. Маму would be accusative."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in кто/что and sort subjects from objects",
+      "descriptionRussian": "Вставьте кто/что и отличите подлежащее от дополнения",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "_____ это на столе? Это лампа.",
+          "_____ это? Это моя сестра.",
+          "_____ это в сумке? Это книга.",
+          "_____ это? Это наш сосед."
+        ],
+        "choices": [
+          "Кто",
+          "Что"
+        ],
+        "answers": [
+          "Что",
+          "Кто",
+          "Что",
+          "Кто"
+        ],
+        "grammarFocus": "кто vs что with nominative",
+        "hints": [
+          "A lamp is an object.",
+          "A sister is a person.",
+          "A book is an object.",
+          "A neighbor is a person."
+        ],
+        "explanations": [
+          "Лампа is a thing, so use Что (What).",
+          "Сестра is a person, so use Кто (Who).",
+          "Книга is a thing, so use Что (What).",
+          "Сосед is a person, so use Кто (Who)."
+        ],
+        "options": [
+          [
+            "Где",
+            "Какой",
+            "Что",
+            "Кто"
+          ],
+          [
+            "Где",
+            "Что",
+            "Какой",
+            "Кто"
+          ],
+          [
+            "Какой",
+            "Где",
+            "Кто",
+            "Что"
+          ],
+          [
+            "Какой",
+            "Что",
+            "Кто",
+            "Где"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Which words are in nominative case (subjects)?",
+        "categories": [
+          "Nominative (Subject)",
+          "Not Nominative"
+        ],
+        "items": [
+          {
+            "word": "Брат пишет",
+            "category": "Nominative (Subject)"
+          },
+          {
+            "word": "пишет письмо",
+            "category": "Not Nominative"
+          },
+          {
+            "word": "Врач работает",
+            "category": "Nominative (Subject)"
+          },
+          {
+            "word": "видит врача",
+            "category": "Not Nominative"
+          },
+          {
+            "word": "Машина едет",
+            "category": "Nominative (Subject)"
+          },
+          {
+            "word": "моет машину",
+            "category": "Not Nominative"
+          },
+          {
+            "word": "Собака бежит",
+            "category": "Nominative (Subject)"
+          },
+          {
+            "word": "кормит собаку",
+            "category": "Not Nominative"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-3-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Составь и переведи",
+      "description": "Build sentences and translate using nominative case",
+      "descriptionRussian": "Составляйте и переводите предложения с именительным падежом",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "This is a dog.",
+          "answer": "Это собака.",
+          "acceptableVariants": [
+            "Это — собака."
+          ],
+          "hint": "this is = это, dog = собака",
+          "grammarFocus": "это + nominative",
+          "keyWord": "Это",
+          "options": [
+            "Это",
+            "Эта",
+            "Этот",
+            "Эти"
+          ]
+        },
+        {
+          "english": "The cat is sleeping.",
+          "answer": "Кошка спит.",
+          "acceptableVariants": [
+            "Кот спит."
+          ],
+          "hint": "cat = кошка/кот, sleeps = спит",
+          "grammarFocus": "nominative subject",
+          "keyWord": "Кошка",
+          "options": [
+            "Кошка",
+            "Кошку",
+            "Кошке",
+            "Кошкой"
+          ]
+        },
+        {
+          "english": "Who is this? This is my brother.",
+          "answer": "Кто это? Это мой брат.",
+          "acceptableVariants": [
+            "Кто это? Это — мой брат."
+          ],
+          "hint": "who = кто, brother = брат",
+          "grammarFocus": "кто + это + nominative",
+          "keyWord": "Кто",
+          "options": [
+            "Кто",
+            "Что",
+            "Где",
+            "Как"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Это мой _____. (friend, m.)",
+              "promptEnglish": "This is my friend.",
+              "options": [
+                "другу",
+                "друга",
+                "друг",
+                "другом"
+              ],
+              "answer": "друг",
+              "hint": "After это, the noun is in nominative.",
+              "explanation": "Друг is nominative (dictionary form)."
+            },
+            {
+              "prompt": "«Дети играют в парке.» Which word is the subject?",
+              "promptEnglish": "The children are playing in the park. Which is the subject?",
+              "options": [
+                "в парке",
+                "дети",
+                "играют"
+              ],
+              "answer": "дети",
+              "hint": "Who is playing?",
+              "explanation": "Дети (children) is the subject in nominative case."
+            },
+            {
+              "prompt": "_____ работает в больнице? Врач.",
+              "promptEnglish": "_____ works at the hospital? A doctor.",
+              "options": [
+                "Что",
+                "Где",
+                "Когда",
+                "Кто"
+              ],
+              "answer": "Кто",
+              "hint": "A doctor is a person.",
+              "explanation": "Врач is a person, so use Кто (Who)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-spot-errors",
+      "title": "Find the Mistakes",
+      "titleRussian": "Найди ошибки",
+      "description": "Spot wrong case forms in subjects and это sentences",
+      "descriptionRussian": "Найдите неправильные формы падежей в подлежащих и предложениях с это",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Это студента.",
+          "error": "студента",
+          "correction": "студент",
+          "hint": "After это, the noun must be in nominative.",
+          "explanation": "After это, use the dictionary form (nominative): студент, not студента.",
+          "options": [
+            "студент",
+            "студенту",
+            "студентом"
+          ]
+        },
+        {
+          "sentence": "Книгу на столе.",
+          "error": "Книгу",
+          "correction": "Книга",
+          "hint": "The subject of the sentence should be in nominative.",
+          "explanation": "Книга is the subject (what is on the table), so it takes nominative: книга, not книгу.",
+          "options": [
+            "Книга",
+            "Книге",
+            "Книгой"
+          ]
+        },
+        {
+          "sentence": "Врача работает в больнице.",
+          "error": "Врача",
+          "correction": "Врач",
+          "hint": "Who is working? The subject needs nominative.",
+          "explanation": "Врач is the subject (who works). Nominative: врач, not врача.",
+          "options": [
+            "Врач",
+            "Врачу",
+            "Врачом"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which is the nominative form of 'book'?",
+              "promptEnglish": "Which is the dictionary form of 'book'?",
+              "options": [
+                "книгу",
+                "книге",
+                "книга",
+                "книгой"
+              ],
+              "answer": "книга",
+              "hint": "Nominative is how you would look it up in a dictionary.",
+              "explanation": "Книга is the nominative (dictionary) form. The others are declined forms."
+            },
+            {
+              "prompt": "Which is the nominative form of 'student' (m.)?",
+              "promptEnglish": "Which is the dictionary form of 'student'?",
+              "options": [
+                "студенту",
+                "студента",
+                "студентом",
+                "студент"
+              ],
+              "answer": "студент",
+              "hint": "The basic form with no added endings.",
+              "explanation": "Студент is the nominative form. The others are used in different grammatical roles."
+            },
+            {
+              "prompt": "_____ идёт в школу. (girl)",
+              "promptEnglish": "A girl is going to school.",
+              "options": [
+                "Девочку",
+                "Девочке",
+                "Девочка",
+                "Девочкой"
+              ],
+              "answer": "Девочка",
+              "hint": "The subject takes nominative.",
+              "explanation": "Девочка is the subject (who is going), so nominative: Девочка."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ играет с мячом.",
+          "contextEnglish": "_____ is playing with a ball.",
+          "options": [
+            "Мальчик",
+            "Мальчика"
+          ],
+          "answer": "Мальчик",
+          "explanation": "The boy is the subject (who is playing). Nominative: Мальчик."
+        },
+        {
+          "context": "_____ стоит у двери.",
+          "contextEnglish": "_____ is standing by the door.",
+          "options": [
+            "Девочка",
+            "Девочку"
+          ],
+          "answer": "Девочка",
+          "explanation": "Девочка is the subject (who is standing). Nominative form, not accusative."
+        },
+        {
+          "context": "_____ открыто. (a window)",
+          "contextEnglish": "The window is open.",
+          "options": [
+            "Окна",
+            "Окно"
+          ],
+          "answer": "Окно",
+          "explanation": "Окно is the subject in nominative. Окна could be genitive or plural."
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанная практика",
+      "description": "A fresh round mixing subjects, это, and questions",
+      "descriptionRussian": "Новый раунд: подлежащее, это и вопросы",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Это моя _____. (mom)",
+              "promptEnglish": "This is my mom.",
+              "options": [
+                "маму",
+                "маме",
+                "мама",
+                "мамой"
+              ],
+              "answer": "мама",
+              "hint": "After это, use nominative.",
+              "explanation": "After это, the noun stays in nominative: мама."
+            },
+            {
+              "prompt": "«Бабушка варит суп.» Which word is the subject?",
+              "promptEnglish": "Grandma is cooking soup. Which word is the subject?",
+              "options": [
+                "суп",
+                "варит",
+                "бабушка"
+              ],
+              "answer": "бабушка",
+              "hint": "Who is cooking?",
+              "explanation": "Бабушка (grandma) is doing the cooking. She is the subject in nominative."
+            },
+            {
+              "prompt": "_____ это? Это мой кот.",
+              "promptEnglish": "_____ is this? This is my cat.",
+              "options": [
+                "Что",
+                "Где",
+                "Как",
+                "Кто"
+              ],
+              "answer": "Кто",
+              "hint": "A cat is a living being.",
+              "explanation": "Кот is a living being. In Russian, animals are often treated as кто."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Это _____. (a school)",
+          "Это мой _____. (brother)",
+          "_____ это? Это машина.",
+          "_____ готовит ужин? Бабушка."
+        ],
+        "choices": [
+          "школа",
+          "брат",
+          "Что",
+          "Кто"
+        ],
+        "answers": [
+          "школа",
+          "брат",
+          "Что",
+          "Кто"
+        ],
+        "grammarFocus": "mixed nominative practice",
+        "hints": [
+          "After это, use dictionary form.",
+          "Brother is a masculine noun in nominative.",
+          "A car is a thing.",
+          "Grandma is a person."
+        ],
+        "explanations": [
+          "Это школа. Nominative keeps the dictionary form.",
+          "Это мой брат. Masculine nominative, no ending change.",
+          "Машина is an object, so use Что (What).",
+          "Бабушка is a person, so use Кто (Who)."
+        ],
+        "options": [
+          [
+            "школе",
+            "школы",
+            "школу",
+            "школа"
+          ],
+          [
+            "братом",
+            "брату",
+            "брат",
+            "брата"
+          ],
+          [
+            "Когда",
+            "Что",
+            "Где",
+            "Кто"
+          ],
+          [
+            "кого",
+            "кем",
+            "кому",
+            "Кто"
+          ]
+        ]
+      },
+      "translation": [
+        {
+          "english": "This is a school.",
+          "answer": "Это школа.",
+          "acceptableVariants": [
+            "Это — школа."
+          ],
+          "hint": "school = школа",
+          "grammarFocus": "это + nominative",
+          "keyWord": "школа",
+          "options": [
+            "школа",
+            "школу",
+            "школе",
+            "школой"
+          ]
+        },
+        {
+          "english": "What is this? This is tea.",
+          "answer": "Что это? Это чай.",
+          "acceptableVariants": [
+            "Что это? Это — чай."
+          ],
+          "hint": "what = что, tea = чай",
+          "grammarFocus": "question + это + nominative",
+          "keyWord": "Что",
+          "options": [
+            "Что",
+            "Кто",
+            "Где",
+            "Как"
+          ]
+        }
+      ]
+    }
+  ]
+}

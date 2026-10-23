@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-medium-008",
+  "title": "Moved Appointment",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Your doctor's appointment was moved - find the new time",
+  "imageName": "stethoscope",
+  "initialPrompt": "Регистратура, здравствуйте!",
+  "systemPrompt": "You work at clinic reception. Patient's 10:00 appointment moved to 14:00 due to emergency. Doctor is Петров. Keep replies short.",
+  "completionCriteria": "User confirmed the new appointment time.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня запись на десять (I have an appointment at 10)",
+    "Почему перенесли? (Why was it moved?)",
+    "Хорошо, в два подойду (OK, I'll come at 2)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "запись",
+      "definition": "appointment"
+    },
+    {
+      "word": "перенести",
+      "definition": "to reschedule/move"
+    },
+    {
+      "word": "врач",
+      "definition": "doctor"
+    },
+    {
+      "word": "приём",
+      "definition": "reception/appointment"
+    },
+    {
+      "word": "регистратура",
+      "definition": "reception desk"
+    },
+    {
+      "word": "срочный",
+      "definition": "urgent"
+    }
+  ],
+  "objectives": [
+    "Ask about your appointment (запись)",
+    "Learn it was moved (перенесли)",
+    "Confirm new time"
+  ]
+}

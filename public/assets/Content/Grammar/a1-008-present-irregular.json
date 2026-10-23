@@ -1,0 +1,286 @@
+{
+  "id": "a1-008-present-irregular",
+  "level": "A1",
+  "focusArea": "conjugation",
+  "title": "Irregular Verbs",
+  "titleRussian": "Неправильные глаголы",
+  "description": "Common irregular verbs in present tense",
+  "descriptionRussian": "Распространённые неправильные глаголы в настоящем времени",
+  "imageName": "exclamationmark.triangle.fill",
+  "intro": "Some common Russian verbs don't follow the regular conjugation patterns. These irregular verbs must be memorized. The good news is that the most common verbs (want, eat, give, go) are used so frequently that you'll learn them quickly through practice.",
+  "rules": [
+    "Хотеть (to want) mixes both conjugations: хочу, хочешь, хочет, хотим, хотите, хотят.",
+    "Есть (to eat) is fully irregular: ем, ешь, ест, едим, едите, едят.",
+    "Пить (to drink) has a consonant change: пью, пьёшь, пьёт, пьём, пьёте, пьют.",
+    "Быть (to be) has NO present tense forms in Russian - simply omit it: Я студент (I am a student)."
+  ],
+  "examples": [
+    "Я хочу кофе. (I want coffee.)",
+    "Он ест яблоко. (He is eating an apple.)",
+    "Она пьёт чай. (She is drinking tea.)",
+    "Я студент. (I am a student.), no verb 'to be'"
+  ],
+  "tables": [
+    {
+      "title": "Common Irregular Verbs",
+      "headers": [
+        "",
+        "хотеть",
+        "есть",
+        "дать"
+      ],
+      "rows": [
+        {
+          "label": "я",
+          "cells": [
+            "хочу",
+            "ем",
+            "дам"
+          ]
+        },
+        {
+          "label": "ты",
+          "cells": [
+            "хочешь",
+            "ешь",
+            "дашь"
+          ]
+        },
+        {
+          "label": "он/она",
+          "cells": [
+            "хочет",
+            "ест",
+            "даст"
+          ]
+        },
+        {
+          "label": "мы",
+          "cells": [
+            "хотим",
+            "едим",
+            "дадим"
+          ]
+        },
+        {
+          "label": "вы",
+          "cells": [
+            "хотите",
+            "едите",
+            "дадите"
+          ]
+        },
+        {
+          "label": "они",
+          "cells": [
+            "хотят",
+            "едят",
+            "дадут"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я _____ пить воду. (хотеть)",
+          "promptEnglish": "I want to drink water.",
+          "options": [
+            "хочешь",
+            "хочет",
+            "хочу",
+            "хотят"
+          ],
+          "answer": "хочу",
+          "hint": "я + хотеть",
+          "explanation": "Хотеть with я uses хочу (irregular first person form)."
+        },
+        {
+          "prompt": "Ты _____ яблоко. (есть)",
+          "promptEnglish": "You are eating an apple.",
+          "options": [
+            "ест",
+            "едят",
+            "ешь",
+            "ем"
+          ],
+          "answer": "ешь",
+          "hint": "ты + есть",
+          "explanation": "Есть with ты uses ешь (irregular second person form)."
+        },
+        {
+          "prompt": "Мы _____ пиццу. (есть)",
+          "promptEnglish": "We are eating pizza.",
+          "options": [
+            "едят",
+            "едим",
+            "ешь",
+            "ем"
+          ],
+          "answer": "едим",
+          "hint": "мы + есть",
+          "explanation": "Есть with мы uses едим."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Они _____ спать. (хотеть)",
+          "promptEnglish": "They want to sleep.",
+          "options": [
+            "хотим",
+            "хочет",
+            "хотят",
+            "хочу"
+          ],
+          "answer": "хотят",
+          "hint": "они + хотеть",
+          "explanation": "Хотеть with они uses хотят (like second conjugation in plural)."
+        },
+        {
+          "prompt": "Он _____ завтрак. (есть)",
+          "promptEnglish": "He is eating breakfast.",
+          "options": [
+            "едят",
+            "ест",
+            "ешь",
+            "ем"
+          ],
+          "answer": "ест",
+          "hint": "он + есть",
+          "explanation": "Есть with он uses ест (irregular third person form)."
+        },
+        {
+          "prompt": "Мы _____ помочь. (хотеть)",
+          "promptEnglish": "We want to help.",
+          "options": [
+            "хочет",
+            "хотим",
+            "хотят",
+            "хочу"
+          ],
+          "answer": "хотим",
+          "hint": "мы + хотеть",
+          "explanation": "Хотеть with мы uses хотим (like first conjugation)."
+        }
+      ]
+    }
+  ],
+  "conjugationTable": {
+    "verb": "хотеть",
+    "paradigm": [
+      "хочу",
+      "хочешь",
+      "хочет",
+      "хотим",
+      "хотите",
+      "хотят"
+    ],
+    "blanks": [
+      0,
+      2,
+      5
+    ],
+    "hints": [
+      "я",
+      "он/она",
+      "они"
+    ],
+    "tense": "present",
+    "explanations": [
+      "Irregular: хочу (not *хотю). 1st conjugation stem change for я.",
+      "Irregular: хочет. 1st conjugation ending for он/она despite -ить infinitive.",
+      "Irregular: хотят. 2nd conjugation ending for они (хот- + -ят)."
+    ]
+  },
+  "fillInBlank": {
+    "blanks": [
+      "Он _____ яблоко. (He is eating an apple.)",
+      "Они _____ молоко. (They drink milk.)",
+      "Мы _____ гулять. (We want to go for a walk.)"
+    ],
+    "choices": [
+      "ест",
+      "пьют",
+      "хотим",
+      "едят",
+      "хочет",
+      "пьёт"
+    ],
+    "answers": [
+      "ест",
+      "пьют",
+      "хотим"
+    ],
+    "grammarFocus": "Irregular verbs: есть (to eat), пить (to drink), хотеть (to want)",
+    "options": [
+      [
+        "ешь",
+        "ест",
+        "ем",
+        "едим"
+      ],
+      [
+        "пьём",
+        "пью",
+        "пьют",
+        "пьёте"
+      ],
+      [
+        "хочешь",
+        "хотят",
+        "хотите",
+        "хотим"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Он _____ обед. (есть)",
+      "contextEnglish": "He is eating lunch.",
+      "options": [
+        "ест",
+        "ешь"
+      ],
+      "answer": "ест",
+      "explanation": "With он (he), есть becomes ест."
+    },
+    {
+      "context": "Вы _____ чай? (хотеть)",
+      "contextEnglish": "Do you want tea?",
+      "options": [
+        "хотите",
+        "хочешь"
+      ],
+      "answer": "хотите",
+      "explanation": "With вы (formal you), хотеть becomes хотите."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "хотеть",
+      "definition": "to want (irregular)",
+      "example": "Я хочу кофе."
+    },
+    {
+      "term": "есть",
+      "definition": "to eat (irregular)",
+      "example": "Он ест яблоко."
+    },
+    {
+      "term": "неправильный глагол",
+      "definition": "irregular verb",
+      "example": "Хотеть — неправильный глагол."
+    },
+    {
+      "term": "пить",
+      "definition": "to drink (irregular)",
+      "example": "Я пью воду."
+    }
+  ]
+}

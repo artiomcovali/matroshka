@@ -1,0 +1,601 @@
+{
+  "lessonId": "a2-001-past-tense",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Choose the correct past tense form for each sentence",
+      "descriptionRussian": "Выберите правильную форму прошедшего времени",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мама _____ обед. (Mom cooked lunch.)",
+              "promptEnglish": "Mom cooked lunch.",
+              "options": [
+                "готовил",
+                "готовила",
+                "готовило",
+                "готовили"
+              ],
+              "answer": "готовила",
+              "hint": "Мама is feminine.",
+              "explanation": "Мама is feminine, so the past tense takes the -ла ending: готовила."
+            },
+            {
+              "prompt": "Дети _____ в школу. (The children walked to school.)",
+              "promptEnglish": "The children walked to school.",
+              "options": [
+                "шёл",
+                "шла",
+                "шло",
+                "шли"
+              ],
+              "answer": "шли",
+              "hint": "Дети is plural.",
+              "explanation": "Дети (children) is plural, so use the -ли form of идти: шли."
+            },
+            {
+              "prompt": "Письмо _____ на столе. (The letter was lying on the table.)",
+              "promptEnglish": "The letter was lying on the table.",
+              "options": [
+                "лежал",
+                "лежала",
+                "лежало",
+                "лежали"
+              ],
+              "answer": "лежало",
+              "hint": "Письмо is neuter.",
+              "explanation": "Письмо (letter) is neuter, so use the -ло ending: лежало."
+            },
+            {
+              "prompt": "Брат _____ музыку. (My brother listened to music.)",
+              "promptEnglish": "My brother listened to music.",
+              "options": [
+                "слушала",
+                "слушал",
+                "слушало",
+                "слушали"
+              ],
+              "answer": "слушал",
+              "hint": "Брат is masculine.",
+              "explanation": "Брат (brother) is masculine, so use the -л ending: слушал."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я _____ в парке. (I walked in the park. - male speaker)",
+          "contextEnglish": "I walked in the park. (male speaker)",
+          "options": [
+            "гулял",
+            "гуляла"
+          ],
+          "answer": "гулял",
+          "explanation": "A male speaker uses the masculine form: гулял (ending -л)."
+        },
+        {
+          "context": "Я _____ в парке. (I walked in the park. - female speaker)",
+          "contextEnglish": "I walked in the park. (female speaker)",
+          "options": [
+            "гулял",
+            "гуляла"
+          ],
+          "answer": "гуляла",
+          "explanation": "A female speaker uses the feminine form: гуляла (ending -ла)."
+        },
+        {
+          "context": "Вы _____ этот фильм? (Did you watch this movie? - to a group)",
+          "contextEnglish": "Did you watch this movie? (asking a group)",
+          "options": [
+            "смотрел",
+            "смотрели"
+          ],
+          "answer": "смотрели",
+          "explanation": "Вы (whether formal singular or plural) always takes the -ли form: смотрели."
+        },
+        {
+          "context": "Солнце _____ ярко. (The sun was shining brightly.)",
+          "contextEnglish": "The sun was shining brightly.",
+          "options": [
+            "светил",
+            "светило"
+          ],
+          "answer": "светило",
+          "explanation": "Солнце (sun) is neuter, so use the -ло ending: светило."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Сестра _____ письмо. (The sister wrote a letter.)",
+          "Мы _____ ужин. (We cooked dinner.)",
+          "Окно _____ открыто. (The window was open.)"
+        ],
+        "choices": [
+          "писала",
+          "готовили",
+          "было"
+        ],
+        "answers": [
+          "писала",
+          "готовили",
+          "было"
+        ],
+        "grammarFocus": "Matching past tense ending to subject gender/number",
+        "hints": [
+          "Сестра is feminine.",
+          "Мы is plural.",
+          "Окно is neuter."
+        ],
+        "explanations": [
+          "Сестра is feminine, so use -ла: писала.",
+          "Мы is plural, so use -ли: готовили.",
+          "Окно is neuter, so use -ло: было."
+        ],
+        "options": [
+          [
+            "писало",
+            "писали",
+            "писала",
+            "писал"
+          ],
+          [
+            "готовили",
+            "готовила",
+            "готовил",
+            "готовило"
+          ],
+          [
+            "был",
+            "была",
+            "было",
+            "были"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-sort-correct",
+      "title": "Sort and Correct",
+      "titleRussian": "Сортировка и исправление",
+      "description": "Sort past tense forms and fix errors in sentences",
+      "descriptionRussian": "Рассортируйте формы и исправьте ошибки в предложениях",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort these past tense forms by gender/number",
+        "categories": [
+          "Masculine (-л)",
+          "Feminine (-ла)",
+          "Neuter (-ло)",
+          "Plural (-ли)"
+        ],
+        "items": [
+          {
+            "word": "жил",
+            "category": "Masculine (-л)"
+          },
+          {
+            "word": "жила",
+            "category": "Feminine (-ла)"
+          },
+          {
+            "word": "жило",
+            "category": "Neuter (-ло)"
+          },
+          {
+            "word": "думал",
+            "category": "Masculine (-л)"
+          },
+          {
+            "word": "думала",
+            "category": "Feminine (-ла)"
+          },
+          {
+            "word": "думали",
+            "category": "Plural (-ли)"
+          },
+          {
+            "word": "учили",
+            "category": "Plural (-ли)"
+          },
+          {
+            "word": "учила",
+            "category": "Feminine (-ла)"
+          },
+          {
+            "word": "учил",
+            "category": "Masculine (-л)"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Мама готовил ужин.",
+          "error": "готовил",
+          "correction": "готовила",
+          "hint": "Мама is feminine, not masculine.",
+          "explanation": "Мама is feminine, so the past tense needs the -ла ending: готовила.",
+          "options": [
+            "готовила",
+            "готовило",
+            "готовили"
+          ]
+        },
+        {
+          "sentence": "Дети играла в парке.",
+          "error": "играла",
+          "correction": "играли",
+          "hint": "Дети is plural, not singular feminine.",
+          "explanation": "Дети (children) is plural, so use the -ли ending: играли.",
+          "options": [
+            "играли",
+            "играл",
+            "играло"
+          ]
+        },
+        {
+          "sentence": "Радио работали весь день.",
+          "error": "работали",
+          "correction": "работало",
+          "hint": "Радио is neuter, not plural.",
+          "explanation": "Радио is neuter, so use the -ло ending: работало.",
+          "options": [
+            "работало",
+            "работал",
+            "работала"
+          ]
+        },
+        {
+          "sentence": "Папа читала газету.",
+          "error": "читала",
+          "correction": "читал",
+          "hint": "Папа is a masculine noun despite ending in -а.",
+          "explanation": "Папа (dad) refers to a man, so use the masculine -л ending: читал.",
+          "options": [
+            "читал",
+            "читало",
+            "читали"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "She sang a song.",
+          "answer": "Она пела песню.",
+          "acceptableVariants": [
+            "Она спела песню."
+          ],
+          "hint": "She = она, sang = пела, song = песню",
+          "grammarFocus": "feminine past tense",
+          "keyWord": "пела",
+          "options": [
+            "пела",
+            "пел",
+            "пело",
+            "пели"
+          ]
+        },
+        {
+          "english": "We lived in Moscow.",
+          "answer": "Мы жили в Москве.",
+          "acceptableVariants": [],
+          "hint": "We = мы, lived = жили, in Moscow = в Москве",
+          "grammarFocus": "plural past tense",
+          "keyWord": "жили",
+          "options": [
+            "жили",
+            "жил",
+            "жила",
+            "жило"
+          ]
+        },
+        {
+          "english": "He helped his friend.",
+          "answer": "Он помогал другу.",
+          "acceptableVariants": [
+            "Он помог другу."
+          ],
+          "hint": "He = он, helped = помогал, friend (dative) = другу",
+          "grammarFocus": "masculine past tense",
+          "keyWord": "помогал",
+          "options": [
+            "помогал",
+            "помогала",
+            "помогало",
+            "помогали"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-patterns",
+      "title": "Spot the Pattern",
+      "titleRussian": "Найди закономерность",
+      "description": "Recognize past tense patterns and choose the right form",
+      "descriptionRussian": "Определите закономерности и выберите правильную форму",
+      "icon": "eye",
+      "patternRecognition": [
+        {
+          "sentence": "шёл, шла, шло, шли",
+          "question": "Which verb do these past tense forms come from?",
+          "options": [
+            "ходить",
+            "идти",
+            "ехать",
+            "бежать"
+          ],
+          "answer": "идти",
+          "explanation": "These are the irregular past tense forms of идти (to go on foot). The stem changes completely from ид- to ш-."
+        },
+        {
+          "sentence": "мог, могла, могло, могли",
+          "question": "Which verb do these past tense forms come from?",
+          "options": [
+            "мочь",
+            "можно",
+            "мыть",
+            "молчать"
+          ],
+          "answer": "мочь",
+          "explanation": "Мочь (to be able) has an irregular past: the -чь drops and -г appears. Мог/могла/могло/могли."
+        },
+        {
+          "sentence": "говорил, говорила, говорило, говорили",
+          "question": "What determines which ending to use?",
+          "options": [
+            "The gender and number of the subject",
+            "The tense of the verb",
+            "The person (I, you, he)",
+            "The ending of the infinitive"
+          ],
+          "answer": "The gender and number of the subject",
+          "explanation": "Russian past tense agrees with the gender (masculine/feminine/neuter) and number (singular/plural) of the subject, not the person."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Вчера он _____ прийти вовремя. (Yesterday he could come on time.)",
+          "Она _____ до магазина пешком. (She walked to the store on foot.)",
+          "Время _____ быстро. (Time went quickly.)",
+          "Они не _____ найти ключи. (They couldn't find the keys.)"
+        ],
+        "choices": [
+          "мог",
+          "шла",
+          "шло",
+          "могли"
+        ],
+        "answers": [
+          "мог",
+          "шла",
+          "шло",
+          "могли"
+        ],
+        "grammarFocus": "Irregular past tense forms of идти and мочь",
+        "hints": [
+          "Он is masculine. Мочь has an irregular past.",
+          "Она is feminine. Идти has an irregular past.",
+          "Время is neuter. Идти has an irregular past.",
+          "Они is plural. Мочь has an irregular past."
+        ],
+        "explanations": [
+          "Мочь → мог (masculine). The -чь drops and -г appears.",
+          "Идти → шла (feminine). The stem changes completely.",
+          "Идти → шло (neuter). Время is neuter, so use шло.",
+          "Мочь → могли (plural). Они takes the -ли form."
+        ],
+        "options": [
+          [
+            "могло",
+            "мог",
+            "могла",
+            "могли"
+          ],
+          [
+            "шло",
+            "шла",
+            "шёл",
+            "шли"
+          ],
+          [
+            "шло",
+            "шли",
+            "шёл",
+            "шла"
+          ],
+          [
+            "мог",
+            "могли",
+            "могла",
+            "могло"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "Я (male) _____ домой после работы. (I walked home after work.)",
+          "contextEnglish": "I (male) walked home after work.",
+          "options": [
+            "шёл",
+            "шла"
+          ],
+          "answer": "шёл",
+          "explanation": "A male speaker uses the masculine form of идти: шёл."
+        },
+        {
+          "context": "Молоко _____ в холодильнике. (The milk was in the fridge.)",
+          "contextEnglish": "The milk was in the fridge.",
+          "options": [
+            "был",
+            "было"
+          ],
+          "answer": "было",
+          "explanation": "Молоко (milk) is neuter, so use было, not был (masculine)."
+        },
+        {
+          "context": "Собака _____ весь день. (The dog slept all day.)",
+          "contextEnglish": "The dog slept all day.",
+          "options": [
+            "спал",
+            "спала"
+          ],
+          "answer": "спала",
+          "explanation": "Собака (dog) is grammatically feminine (ends in -а), so use спала."
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "Transform sentences and tackle a final challenge round",
+      "descriptionRussian": "Преобразуйте предложения и пройдите финальный раунд",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Дедушка _____ нам сказку. (Grandpa told us a fairy tale.)",
+              "promptEnglish": "Grandpa told us a fairy tale.",
+              "options": [
+                "рассказывала",
+                "рассказывал",
+                "рассказывали",
+                "рассказывало"
+              ],
+              "answer": "рассказывал",
+              "hint": "Дедушка is masculine despite ending in -а.",
+              "explanation": "Дедушка (grandpa) refers to a man, so use the masculine form: рассказывал."
+            },
+            {
+              "prompt": "Вчера _____ холодно. (Yesterday it was cold.)",
+              "promptEnglish": "Yesterday it was cold.",
+              "options": [
+                "был",
+                "была",
+                "было",
+                "были"
+              ],
+              "answer": "было",
+              "hint": "Impersonal constructions use neuter.",
+              "explanation": "Impersonal sentences about weather or conditions use the neuter form: было холодно."
+            },
+            {
+              "prompt": "Кто _____ тебе? (Who called you? - expecting a male caller)",
+              "promptEnglish": "Who called you? (expecting a male caller)",
+              "options": [
+                "звонил",
+                "звонила",
+                "звонило",
+                "звонили"
+              ],
+              "answer": "звонил",
+              "hint": "When the expected answer is masculine, use -л.",
+              "explanation": "When you expect the answer to be a man, кто takes masculine agreement: звонил."
+            },
+            {
+              "prompt": "Всё _____ хорошо. (Everything was good.)",
+              "promptEnglish": "Everything was good.",
+              "options": [
+                "был",
+                "была",
+                "было",
+                "были"
+              ],
+              "answer": "было",
+              "hint": "Всё is neuter.",
+              "explanation": "Всё (everything) is neuter, so use the neuter form: было."
+            }
+          ]
+        },
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она не _____ на работу вчера. (She didn't go to work yesterday.)",
+              "promptEnglish": "She didn't go to work yesterday.",
+              "options": [
+                "шёл",
+                "шла",
+                "шли",
+                "шло"
+              ],
+              "answer": "шла",
+              "hint": "Она is feminine. Идти has an irregular past tense.",
+              "explanation": "The past tense of идти is irregular: шёл/шла/шло/шли. Она is feminine, so use шла."
+            },
+            {
+              "prompt": "Студенты _____ экзамен. (The students passed the exam.)",
+              "promptEnglish": "The students passed the exam.",
+              "options": [
+                "сдали",
+                "сдал",
+                "сдала",
+                "сдало"
+              ],
+              "answer": "сдали",
+              "hint": "Студенты is plural.",
+              "explanation": "Студенты (students) is plural, so use the -ли form: сдали."
+            },
+            {
+              "prompt": "Море _____ спокойным. (The sea was calm.)",
+              "promptEnglish": "The sea was calm.",
+              "options": [
+                "был",
+                "была",
+                "было",
+                "были"
+              ],
+              "answer": "было",
+              "hint": "Море is neuter.",
+              "explanation": "Море (sea) is neuter, so use the -ло form of быть: было."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Мы вчера шёл в кино.",
+          "error": "шёл",
+          "correction": "шли",
+          "hint": "Мы is plural, not masculine singular.",
+          "explanation": "Мы is plural, so the past tense of идти is шли, not шёл (masculine singular).",
+          "options": [
+            "шли",
+            "шла",
+            "шло"
+          ]
+        },
+        {
+          "sentence": "Время шла быстро.",
+          "error": "шла",
+          "correction": "шло",
+          "hint": "Время is neuter, not feminine.",
+          "explanation": "Время (time) is neuter, so the past tense of идти is шло, not шла (feminine).",
+          "options": [
+            "шло",
+            "шёл",
+            "шли"
+          ]
+        },
+        {
+          "sentence": "Дядя готовила ужин.",
+          "error": "готовила",
+          "correction": "готовил",
+          "hint": "Дядя refers to a man despite ending in -я.",
+          "explanation": "Дядя (uncle) refers to a man. Use masculine past tense: готовил, not готовила.",
+          "options": [
+            "готовил",
+            "готовило",
+            "готовили"
+          ]
+        }
+      ]
+    }
+  ]
+}

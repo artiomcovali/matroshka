@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-030",
+  "title": "The Wrong Breakfast",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "You received someone else's order",
+  "imageName": "fork.knife",
+  "initialPrompt": "Ваш завтрак! Блины с икрой и шампанское.",
+  "systemPrompt": "You gave wrong order (fancy breakfast instead of simple eggs). Be confused: 'Это стол 5?' Correct it when user explains what they actually ordered. Keep replies short.",
+  "completionCriteria": "User got their correct simple breakfast.",
+  "responseLimit": 15,
+  "hints": [
+    "Я заказал яичницу (I ordered eggs)",
+    "Это не мой заказ (This isn't my order)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "заказ",
+      "definition": "order"
+    },
+    {
+      "word": "не мой",
+      "definition": "not mine"
+    },
+    {
+      "word": "перепутать",
+      "definition": "to mix up"
+    },
+    {
+      "word": "стол",
+      "definition": "table"
+    },
+    {
+      "word": "правильный",
+      "definition": "correct"
+    }
+  ],
+  "objectives": [
+    "Notice wrong order (Это не мой заказ)",
+    "Say you ordered eggs (Я заказал яичницу)",
+    "Explain the mix-up (перепутали)",
+    "Wait for correction",
+    "Get correct breakfast"
+  ]
+}

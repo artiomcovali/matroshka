@@ -1,0 +1,431 @@
+{
+  "id": "b1-033-aspect-pairs-systematic",
+  "level": "B1",
+  "focusArea": "aspect",
+  "title": "Aspect Pairs Systematic",
+  "titleRussian": "Видовые пары (систематически)",
+  "description": "Prefixation, suffixation, and suppletion patterns",
+  "descriptionRussian": "Приставки, суффиксы и супплетивные пары",
+  "imageName": "arrow.left.arrow.right",
+  "intro": "Building on the A2 aspect introduction and B1 aspect lessons, we now systematize the three main formation patterns. 1) PREFIXATION: add prefix to impf → pf: писать → написать, читать → прочитать. 2) SUFFIXATION: change suffix (usually pf → impf secondary): записать → записывать, открыть → открывать. 3) SUPPLETION: completely different stems: говорить/сказать, брать/взять, класть/положить. Understanding these patterns helps predict forms and choose correctly.",
+  "rules": [
+    "Prefixation (most common): impf + prefix → pf: писать → написать, делать → сделать",
+    "Suffixation: pf stem + -ыва-/-ива-/-ва- → impf: записать → записывать, дать → давать",
+    "Suppletion (memorize): говорить/сказать, брать/взять, класть/положить",
+    "Some prefixes change meaning (not just aspect): писать → написать (pf), переписать (rewrite)"
+  ],
+  "examples": [
+    "Prefixation: читать → прочитать, делать → сделать, писать → написать",
+    "Suffixation: открыть → открывать, решить → решать, изучить → изучать",
+    "Suppletion: брать/взять (take), говорить/сказать (say), ловить/поймать (catch)",
+    "Mixed: давать/дать (give), suppletive but also shows -ва- pattern"
+  ],
+  "tables": [
+    {
+      "title": "Aspect Pair Formation Patterns",
+      "headers": [
+        "Verb",
+        "Imperfective",
+        "Perfective",
+        "Pattern"
+      ],
+      "rows": [
+        {
+          "label": "read",
+          "cells": [
+            "читать",
+            "про|читать",
+            "prefix про-"
+          ]
+        },
+        {
+          "label": "write",
+          "cells": [
+            "писать",
+            "на|писать",
+            "prefix на-"
+          ]
+        },
+        {
+          "label": "do",
+          "cells": [
+            "делать",
+            "с|делать",
+            "prefix с-"
+          ]
+        },
+        {
+          "label": "cook",
+          "cells": [
+            "готовить",
+            "при|готовить",
+            "prefix при-"
+          ]
+        },
+        {
+          "label": "open",
+          "cells": [
+            "откр|ывать",
+            "открыть",
+            "suffix -ывать"
+          ]
+        },
+        {
+          "label": "solve",
+          "cells": [
+            "реш|ать",
+            "решить",
+            "suffix -ать → -ить"
+          ]
+        },
+        {
+          "label": "write down",
+          "cells": [
+            "запис|ывать",
+            "записать",
+            "suffix -ывать"
+          ]
+        },
+        {
+          "label": "give",
+          "cells": [
+            "да|вать",
+            "дать",
+            "suffix -вать"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Suppletive (Irregular) Pairs",
+      "headers": [
+        "Verb",
+        "Imperfective",
+        "Perfective",
+        "Meaning"
+      ],
+      "rows": [
+        {
+          "label": "say",
+          "cells": [
+            "говорить",
+            "сказать",
+            "to say/tell"
+          ]
+        },
+        {
+          "label": "take",
+          "cells": [
+            "брать",
+            "взять",
+            "to take"
+          ]
+        },
+        {
+          "label": "put",
+          "cells": [
+            "класть",
+            "положить",
+            "to put/place"
+          ]
+        },
+        {
+          "label": "catch",
+          "cells": [
+            "ловить",
+            "поймать",
+            "to catch"
+          ]
+        },
+        {
+          "label": "sit down",
+          "cells": [
+            "садиться",
+            "сесть",
+            "to sit down"
+          ]
+        },
+        {
+          "label": "lie down",
+          "cells": [
+            "ложиться",
+            "лечь",
+            "to lie down"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "писать (impf) → _____ (pf)",
+          "promptEnglish": "to write (impf) → to write (pf)",
+          "options": [
+            "переписать",
+            "записывать",
+            "писаться",
+            "написать"
+          ],
+          "answer": "написать",
+          "hint": "Prefixation: на- + писать",
+          "explanation": "Pure aspect pair: писать → написать."
+        },
+        {
+          "prompt": "открыть (pf) → _____ (impf)",
+          "promptEnglish": "to open (pf) → to open (impf)",
+          "options": [
+            "закрывать",
+            "приоткрыть",
+            "открыться",
+            "открывать"
+          ],
+          "answer": "открывать",
+          "hint": "Suffixation: -ыва- makes impf",
+          "explanation": "Suffixation: открыть → открывать."
+        },
+        {
+          "prompt": "говорить (impf) → _____ (pf)",
+          "promptEnglish": "to say (impf) → to say (pf)",
+          "options": [
+            "наговорить",
+            "сказать",
+            "договорить",
+            "заговорить"
+          ],
+          "answer": "сказать",
+          "hint": "Suppletion: different stems",
+          "explanation": "Suppletive pair: говорить/сказать."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "брать (impf) → _____ (pf)",
+          "promptEnglish": "to take (impf) → to take (pf)",
+          "options": [
+            "забрать",
+            "взять",
+            "набрать",
+            "выбрать"
+          ],
+          "answer": "взять",
+          "hint": "Suppletion: completely different",
+          "explanation": "Suppletive pair: брать/взять."
+        },
+        {
+          "prompt": "записать (pf) → _____ (impf)",
+          "promptEnglish": "to write down (pf) → to write down (impf)",
+          "options": [
+            "дописать",
+            "записывать",
+            "переписать",
+            "записаться"
+          ],
+          "answer": "записывать",
+          "hint": "Suffixation: -ыва-",
+          "explanation": "Suffixation: записать → записывать."
+        },
+        {
+          "prompt": "делать (impf) → _____ (pf)",
+          "promptEnglish": "to do (impf) → to do (pf)",
+          "options": [
+            "доделать",
+            "делаться",
+            "переделать",
+            "сделать"
+          ],
+          "answer": "сделать",
+          "hint": "Prefixation: с- + делать",
+          "explanation": "Prefixation: делать → сделать."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "класть (impf) → _____ (pf)",
+          "promptEnglish": "to put (impf) → to put (pf)",
+          "options": [
+            "уложить",
+            "сложить",
+            "выложить",
+            "положить"
+          ],
+          "answer": "положить",
+          "hint": "Suppletion: different stems",
+          "explanation": "Suppletive: класть/положить."
+        },
+        {
+          "prompt": "решить (pf) → _____ (impf)",
+          "promptEnglish": "to decide/solve (pf) → (impf)",
+          "options": [
+            "разрешить",
+            "решать",
+            "перерешить",
+            "решиться"
+          ],
+          "answer": "решать",
+          "hint": "Suffixation: drop -и-, add -а-",
+          "explanation": "Suffixation: решить → решать."
+        },
+        {
+          "prompt": "Which pattern: дать → давать?",
+          "promptEnglish": "What type of pair is дать/давать?",
+          "options": [
+            "Stress shift",
+            "Suppletion",
+            "Suffixation (-ва-)",
+            "Prefixation"
+          ],
+          "answer": "Suffixation (-ва-)",
+          "hint": "дать + -ва- → давать",
+          "explanation": "Suffixation with -ва-: дать → давать."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Give the perfective partner of читать.",
+          "promptEnglish": "Add про- prefix",
+          "options": [
+            "прочитать (prefixation: про-)",
+            "почитать (prefixation: по-)",
+            "читывать (suffixation)",
+            "читать (no change)"
+          ],
+          "answer": "прочитать (prefixation: про-)",
+          "hint": "Add про- prefix",
+          "explanation": "читать forms its perfective by prefixation: про- → прочитать."
+        },
+        {
+          "prompt": "Give the imperfective partner of взять.",
+          "promptEnglish": "Different stem entirely",
+          "options": [
+            "брать (suppletion)",
+            "взимать (prefixation)",
+            "взять (no change)",
+            "взявать (suffixation)"
+          ],
+          "answer": "брать (suppletion)",
+          "hint": "Different stem entirely",
+          "explanation": "взять has no morphological partner; its imperfective is the suppletive брать (a different stem)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "ловить (impf) → _____ (pf)"
+    ],
+    "choices": [
+      "поймать",
+      "наловить",
+      "выловить",
+      "ловиться"
+    ],
+    "answers": [
+      "поймать"
+    ],
+    "grammarFocus": "Suppletive pair: ловить/поймать (to catch)",
+    "hints": [
+      "The imperfective is ловить (to catch, process). What is its perfective partner? This pair uses completely different stems."
+    ],
+    "explanations": [
+      "Ловить/поймать is a suppletive aspect pair where the imperfective and perfective have entirely different stems (like брать/взять or говорить/сказать). The perfective поймать means 'to catch (successfully, once)' while ловить means 'to catch (attempt, process).'"
+    ],
+    "options": [
+      [
+        "поймала",
+        "поймавшую",
+        "поймать",
+        "поймавший"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "читать → прочитать (pattern?)",
+      "contextEnglish": "What pattern forms this pair?",
+      "options": [
+        "Prefixation",
+        "Suffixation"
+      ],
+      "answer": "Prefixation",
+      "explanation": "про- added to impf: prefixation."
+    },
+    {
+      "context": "изучить → изучать (pattern?)",
+      "contextEnglish": "What pattern forms this pair?",
+      "options": [
+        "Suffixation",
+        "Prefixation"
+      ],
+      "answer": "Suffixation",
+      "explanation": "-а- replaces -и-: suffixation."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by formation pattern",
+    "categories": [
+      "Prefixation",
+      "Suffixation",
+      "Suppletion"
+    ],
+    "items": [
+      {
+        "word": "писать/написать",
+        "category": "Prefixation"
+      },
+      {
+        "word": "открыть/открывать",
+        "category": "Suffixation"
+      },
+      {
+        "word": "говорить/сказать",
+        "category": "Suppletion"
+      },
+      {
+        "word": "делать/сделать",
+        "category": "Prefixation"
+      },
+      {
+        "word": "брать/взять",
+        "category": "Suppletion"
+      },
+      {
+        "word": "решить/решать",
+        "category": "Suffixation"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "prefixation",
+      "definition": "add prefix to impf → pf",
+      "example": "писать → написать"
+    },
+    {
+      "term": "suffixation",
+      "definition": "change suffix (pf ↔ impf)",
+      "example": "открыть → открывать"
+    },
+    {
+      "term": "suppletion",
+      "definition": "different stems",
+      "example": "брать/взять, класть/положить"
+    },
+    {
+      "term": "common suppletive pairs",
+      "definition": "memorize these",
+      "example": "говорить/сказать, ловить/поймать"
+    }
+  ]
+}

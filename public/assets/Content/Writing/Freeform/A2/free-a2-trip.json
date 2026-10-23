@@ -1,0 +1,65 @@
+{
+  "id": "free-a2-trip",
+  "level": "A2",
+  "type": "freeform",
+  "title": "A Recent Trip",
+  "titleRussian": "Недавняя поездка",
+  "theme": "recent-trip",
+  "prompts": [
+    {
+      "id": "a2-trip-001",
+      "prompt": "Write about a trip you took recently. Where did you go and how did you get there?",
+      "promptRussian": "Напишите о недавней поездке. Куда вы ездили и как туда добирались?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Недавно я ездил/ездила в...", "Я добирался/добиралась на...", "Дорога заняла..."],
+      "targetGrammar": ["past tense", "directional verbs", "instrumental for transport"],
+      "gradingCriteria": ["destination mentioned", "transport mentioned", "past tense used correctly"],
+      "sampleResponse": "Недавно я ездила в Санкт-Петербург. Я добиралась на поезде. Дорога заняла четыре часа."
+    },
+    {
+      "id": "a2-trip-002",
+      "prompt": "Describe a place you visited. What did it look like?",
+      "promptRussian": "Опишите место, которое вы посетили. Как оно выглядело?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Это место было...", "Там было много...", "Мне понравилось..."],
+      "targetGrammar": ["past tense", "adjectives", "там adverb"],
+      "gradingCriteria": ["place described", "visual details included", "adjectives used"],
+      "sampleResponse": "Я посетил старый замок. Он был очень большой и красивый. Там было много туристов."
+    },
+    {
+      "id": "a2-trip-003",
+      "prompt": "What did you do during your trip? Write about your activities.",
+      "promptRussian": "Что вы делали во время поездки? Напишите о ваших занятиях.",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Утром я...", "Потом мы...", "Вечером..."],
+      "targetGrammar": ["past tense", "sequence words", "perfective/imperfective"],
+      "gradingCriteria": ["activities listed", "time sequence clear", "verbs correct"],
+      "sampleResponse": "Утром я гуляла по городу. Потом мы посетили музей. Вечером мы ужинали в ресторане."
+    },
+    {
+      "id": "a2-trip-004",
+      "prompt": "What did you eat on your trip? Was the food good?",
+      "promptRussian": "Что вы ели во время поездки? Была ли еда вкусной?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Я попробовал/попробовала...", "Еда была...", "Мне особенно понравилось..."],
+      "targetGrammar": ["past tense", "food vocabulary", "adjectives"],
+      "gradingCriteria": ["food mentioned", "opinion expressed", "past tense used"],
+      "sampleResponse": "Я попробовала местную кухню. Еда была очень вкусной. Мне особенно понравился борщ."
+    },
+    {
+      "id": "a2-trip-005",
+      "prompt": "Would you like to go back to this place? Why or why not?",
+      "promptRussian": "Хотели бы вы вернуться в это место? Почему?",
+      "minWords": 10,
+      "maxWords": 50,
+      "hints": ["Да, я хотел бы...", "Нет, потому что...", "Мне там понравилось, потому что..."],
+      "targetGrammar": ["conditional mood", "потому что clause", "opinion expressions"],
+      "gradingCriteria": ["clear yes/no answer", "reason given", "opinion expressed"],
+      "sampleResponse": "Да, я хотел бы вернуться. Мне там очень понравилось, потому что было красиво и интересно."
+    }
+  ]
+}

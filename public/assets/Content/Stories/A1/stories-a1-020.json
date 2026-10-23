@@ -1,0 +1,170 @@
+{
+  "id": "a1-020",
+  "level": "A1",
+  "narrator": "Маша",
+  "title": "Транспорт",
+  "titleEnglish": "Transportation",
+  "description": "Как Маша и её друзья ездят по городу.",
+  "imageName": "bus.fill",
+  "fullText": "Как вы ездите на работу? Я езжу на метро, потому что это быстро и удобно. Мой брат Дима ездит на машине. У него красная машина. А моя подруга Анна ездит на автобусе. Иногда я хожу пешком, потому что это полезно для здоровья. Но сегодня метро не работает, поэтому я еду на такси. Такси дорого, но что делать?",
+  "reviewVocab": [
+    {
+      "word": "метро",
+      "definition": "metro, subway",
+      "partOfSpeech": "noun (n)",
+      "forms": [
+        "метро",
+        "на метро"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "машина",
+      "definition": "car",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "машина",
+        "машины",
+        "на машине"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "автобус",
+      "definition": "bus",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "автобус",
+        "автобуса",
+        "на автобусе"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "пешком",
+      "definition": "on foot",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Как Маша обычно ездит на работу?",
+      "options": [
+        "На автобусе",
+        "На машине",
+        "На метро"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша ездит на метро."
+    },
+    {
+      "prompt": "Как ездит Дима?",
+      "options": [
+        "На автобусе",
+        "На машине",
+        "На метро"
+      ],
+      "correctIndex": 1,
+      "explanation": "Дима ездит на машине."
+    },
+    {
+      "prompt": "Какого цвета машина Димы?",
+      "options": [
+        "Синяя",
+        "Красная",
+        "Белая"
+      ],
+      "correctIndex": 1,
+      "explanation": "У Димы красная машина."
+    },
+    {
+      "prompt": "Как ездит Анна?",
+      "options": [
+        "На автобусе",
+        "Пешком",
+        "На такси"
+      ],
+      "correctIndex": 0,
+      "explanation": "Анна ездит на автобусе."
+    },
+    {
+      "prompt": "Почему полезно ходить пешком?",
+      "options": [
+        "Это дёшево",
+        "Это быстро",
+        "Для здоровья"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ходить пешком полезно для здоровья."
+    },
+    {
+      "prompt": "Почему сегодня Маша едет на такси?",
+      "options": [
+        "У неё много вещей",
+        "Метро не работает",
+        "Она опаздывает"
+      ],
+      "correctIndex": 1,
+      "explanation": "Сегодня метро не работает."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Я езжу на _____.",
+      "Дима ездит на _____.",
+      "Иногда я хожу _____.",
+      "Такси _____.",
+      "Метро _____ и удобно."
+    ],
+    "choices": [
+      "метро",
+      "машине",
+      "пешком",
+      "дорого",
+      "быстро",
+      "автобусе",
+      "дёшево"
+    ],
+    "answers": [
+      "метро",
+      "машине",
+      "пешком",
+      "дорого",
+      "быстро"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "What preposition do we use with transport?",
+      "options": [
+        "на",
+        "с",
+        "в"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "prepositions",
+      "sentenceRef": "Маша ездит на метро.",
+      "explanation": "We use 'на' + prepositional case for transport: на метро, на машине, на автобусе, на такси. But we say 'пешком' (on foot) without 'на'. Example: Я езжу на работу на метро (I go to work by metro).",
+      "focusArea": "prepositions"
+    },
+    {
+      "prompt": "What is the difference between 'ездить' and 'ехать'?",
+      "options": [
+        "'Ездить' is repeated, 'ехать' is one trip",
+        "'Ехать' is past tense",
+        "They are the same"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "verbs of motion",
+      "sentenceRef": "Маша ездит на метро. Сегодня Маша едет на такси.",
+      "explanation": "'Ездить' = to go regularly by transport (habitual). 'Ехать' = to go right now (single trip). Example: Я езжу на работу на метро (I go to work by metro, regularly) vs. Я еду домой (I'm going home now).",
+      "focusArea": "motionVerbs"
+    }
+  ],
+  "audioFile": "a1-020.m4a",
+  "audioTimingFile": "a1-020-timing.json"
+}

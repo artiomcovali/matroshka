@@ -1,0 +1,488 @@
+{
+  "lessonId": "a1-015-review-3",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Mixed review of possessives, have/not have, plurals, adjectives",
+      "descriptionRussian": "Повторение: притяжательные, есть/нет, множественное число, прилагательные",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Это _____ кот. (our, masculine)",
+              "promptEnglish": "This is our cat.",
+              "options": [
+                "наша",
+                "наше",
+                "наш",
+                "наши"
+              ],
+              "answer": "наш",
+              "hint": "Кот is masculine.",
+              "explanation": "Кот is masculine, so use наш: наш кот."
+            },
+            {
+              "prompt": "У меня _____ брат. (I have a brother.)",
+              "promptEnglish": "I have a brother.",
+              "options": [
+                "нет",
+                "есть",
+                "был",
+                "это"
+              ],
+              "answer": "есть",
+              "hint": "Stating possession.",
+              "explanation": "У меня есть + nominative = I have: У меня есть брат."
+            },
+            {
+              "prompt": "What is the plural of стол?",
+              "promptEnglish": "What is the plural of стол (table)?",
+              "options": [
+                "стола",
+                "столе",
+                "столы",
+                "столов"
+              ],
+              "answer": "столы",
+              "hint": "Masculine nouns ending in a consonant add -ы.",
+              "explanation": "Стол → столы. Most masculine nouns add -ы for plural."
+            },
+            {
+              "prompt": "_____ дом (big, masculine)",
+              "promptEnglish": "A big house",
+              "options": [
+                "большая",
+                "большое",
+                "большой",
+                "большие"
+              ],
+              "answer": "большой",
+              "hint": "Дом is masculine.",
+              "explanation": "Дом is masculine, so the adjective takes -ой: большой дом."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "У меня _____ машины. (I don't have a car.)",
+          "contextEnglish": "I don't have a car.",
+          "options": [
+            "есть",
+            "нет"
+          ],
+          "answer": "нет",
+          "explanation": "Нет + genitive = don't have: У меня нет машины."
+        },
+        {
+          "context": "У меня _____ машина. (I have a car.)",
+          "contextEnglish": "I have a car.",
+          "options": [
+            "есть",
+            "нет"
+          ],
+          "answer": "есть",
+          "explanation": "Есть + nominative = have: У меня есть машина."
+        },
+        {
+          "context": "Это _____ собака. (her)",
+          "contextEnglish": "This is her dog.",
+          "options": [
+            "его",
+            "её"
+          ],
+          "answer": "её",
+          "explanation": "Её means 'her.' It never changes form."
+        },
+        {
+          "context": "Это _____ очки. (my, plural)",
+          "contextEnglish": "These are my glasses.",
+          "options": [
+            "мой",
+            "мои"
+          ],
+          "answer": "мои",
+          "explanation": "Очки is plural, so use мои."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in mixed grammar and sort nouns by plural type",
+      "descriptionRussian": "Вставьте пропущенные слова и рассортируйте по типу множественного числа",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Это _____ комната. (my, feminine)",
+          "У него нет _____. (sister, genitive)",
+          "_____ двери (new, plural)",
+          "Окно → _____ (plural)"
+        ],
+        "choices": [
+          "моя",
+          "сестры",
+          "новые",
+          "окна",
+          "мой",
+          "столы"
+        ],
+        "answers": [
+          "моя",
+          "сестры",
+          "новые",
+          "окна"
+        ],
+        "grammarFocus": "possessives, genitive after нет, adjective agreement, plurals",
+        "hints": [
+          "Комната is feminine.",
+          "After нет, use genitive: сестра → ?",
+          "Plural adjective ending.",
+          "Neuter -о → -а in plural."
+        ],
+        "explanations": [
+          "Комната is feminine, so 'my' = моя.",
+          "After нет, genitive: сестра → сестры.",
+          "Plural adjectives take -ые/-ие: новые двери.",
+          "Neuter nouns in -о form plural with -а: окно → окна."
+        ],
+        "options": [
+          [
+            "моей",
+            "моего",
+            "мою",
+            "моя"
+          ],
+          [
+            "сестры",
+            "сестру",
+            "сестре",
+            "сестра"
+          ],
+          [
+            "новые",
+            "новыми",
+            "нового",
+            "новых"
+          ],
+          [
+            "окном",
+            "окна",
+            "окну",
+            "окно"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort by plural ending type",
+        "categories": [
+          "-ы/-и (masculine/feminine)",
+          "-а/-я (neuter)"
+        ],
+        "items": [
+          {
+            "word": "стол → столы",
+            "category": "-ы/-и (masculine/feminine)"
+          },
+          {
+            "word": "книга → книги",
+            "category": "-ы/-и (masculine/feminine)"
+          },
+          {
+            "word": "окно → окна",
+            "category": "-а/-я (neuter)"
+          },
+          {
+            "word": "кот → коты",
+            "category": "-ы/-и (masculine/feminine)"
+          },
+          {
+            "word": "место → места",
+            "category": "-а/-я (neuter)"
+          },
+          {
+            "word": "слово → слова",
+            "category": "-а/-я (neuter)"
+          },
+          {
+            "word": "мама → мамы",
+            "category": "-ы/-и (masculine/feminine)"
+          },
+          {
+            "word": "письмо → письма",
+            "category": "-а/-я (neuter)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "This is my old phone.",
+          "answer": "Это мой старый телефон.",
+          "acceptableVariants": [],
+          "hint": "my (m) = мой, old (m) = старый",
+          "grammarFocus": "possessive + adjective agreement",
+          "keyWord": "мой",
+          "options": [
+            "мой",
+            "моя",
+            "моё",
+            "мои"
+          ]
+        },
+        {
+          "english": "He doesn't have brothers.",
+          "answer": "У него нет братьев.",
+          "acceptableVariants": [],
+          "hint": "he (genitive) = него, brothers (genitive plural) = братьев",
+          "grammarFocus": "нет + genitive plural",
+          "keyWord": "нет",
+          "options": [
+            "нет",
+            "есть",
+            "не",
+            "была"
+          ]
+        },
+        {
+          "english": "Where are your new books? (informal)",
+          "answer": "Где твои новые книги?",
+          "acceptableVariants": [],
+          "hint": "your (plural) = твои, new (plural) = новые",
+          "grammarFocus": "possessive + adjective + noun plural",
+          "keyWord": "твои",
+          "options": [
+            "твои",
+            "твой",
+            "твоя",
+            "твоё"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Error",
+      "titleRussian": "Найди ошибку",
+      "description": "Fix agreement mistakes across all topics",
+      "descriptionRussian": "Исправьте ошибки в согласовании",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Это наш школа.",
+          "error": "наш",
+          "correction": "наша",
+          "hint": "Школа is feminine.",
+          "explanation": "Школа is feminine, so use наша: наша школа.",
+          "options": [
+            "наша",
+            "наше",
+            "наши"
+          ]
+        },
+        {
+          "sentence": "У меня есть красивый машина.",
+          "error": "красивый",
+          "correction": "красивая",
+          "hint": "Машина is feminine, so the adjective must match.",
+          "explanation": "Машина is feminine: красивая машина, not красивый.",
+          "options": [
+            "красивая",
+            "красивое",
+            "красивые"
+          ]
+        },
+        {
+          "sentence": "У него нет брат.",
+          "error": "брат",
+          "correction": "брата",
+          "hint": "After нет, use genitive case.",
+          "explanation": "After нет, the noun takes genitive: брат → брата.",
+          "options": [
+            "брата",
+            "брату",
+            "братом"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "У него нет _____. (time)",
+              "promptEnglish": "He doesn't have time.",
+              "options": [
+                "время",
+                "времени",
+                "времена",
+                "временем"
+              ],
+              "answer": "времени",
+              "hint": "After нет, use genitive.",
+              "explanation": "After нет, genitive: время → времени."
+            },
+            {
+              "prompt": "What is the plural of друг (friend)?",
+              "promptEnglish": "What is the plural of друг?",
+              "options": [
+                "други",
+                "другы",
+                "друзья",
+                "друга"
+              ],
+              "answer": "друзья",
+              "hint": "This is an irregular plural.",
+              "explanation": "Друг → друзья is an irregular plural form."
+            },
+            {
+              "prompt": "_____ квартира (small, feminine)",
+              "promptEnglish": "A small apartment",
+              "options": [
+                "маленький",
+                "маленькое",
+                "маленькая",
+                "маленькие"
+              ],
+              "answer": "маленькая",
+              "hint": "Квартира is feminine.",
+              "explanation": "Квартира is feminine: маленькая квартира."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All review topics in one final round",
+      "descriptionRussian": "Все темы повторения в одном финальном раунде",
+      "icon": "shuffle",
+      "patternRecognition": [
+        {
+          "sentence": "У меня есть кошка. У меня нет собаки.",
+          "question": "What case does the noun take after нет?",
+          "options": [
+            "Nominative",
+            "Accusative",
+            "Genitive",
+            "Prepositional"
+          ],
+          "answer": "Genitive",
+          "explanation": "After нет, the noun takes genitive: собака → собаки."
+        },
+        {
+          "sentence": "новый дом, новая книга, новое окно, новые дома",
+          "question": "What determines the adjective ending?",
+          "options": [
+            "The verb tense",
+            "The noun's gender and number",
+            "The sentence position",
+            "The subject"
+          ],
+          "answer": "The noun's gender and number",
+          "explanation": "Adjectives agree with the gender and number of the noun: -ый (m), -ая (f), -ое (n), -ые (pl)."
+        },
+        {
+          "sentence": "его книга, её дом, их друзья",
+          "question": "These possessives share a special property. What is it?",
+          "options": [
+            "They only work with plural nouns",
+            "They never change form",
+            "They are formal",
+            "They change for case"
+          ],
+          "answer": "They never change form",
+          "explanation": "Его, её, and их are third-person possessives and never change form."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Это _____ новое кресло. (her)",
+          "У нас _____ большой дом. (we have)",
+          "Где _____ старые книги? (your, formal, plural)"
+        ],
+        "choices": [
+          "её",
+          "есть",
+          "ваши",
+          "наш",
+          "его"
+        ],
+        "answers": [
+          "её",
+          "есть",
+          "ваши"
+        ],
+        "grammarFocus": "mixed review: possessives, есть, adjective agreement",
+        "hints": [
+          "Her never changes.",
+          "Stating possession.",
+          "Книги is plural. Formal 'your.'"
+        ],
+        "explanations": [
+          "Её (her) never changes: её новое кресло.",
+          "У нас есть states possession: У нас есть большой дом.",
+          "Книги is plural, formal 'your' = ваши: ваши старые книги."
+        ],
+        "options": [
+          [
+            "её",
+            "моя",
+            "наша",
+            "его"
+          ],
+          [
+            "есть",
+            "наш",
+            "его",
+            "твой"
+          ],
+          [
+            "моё",
+            "твоё",
+            "ваше",
+            "ваши"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "У меня есть _____. (a cat, nominative)",
+          "contextEnglish": "I have a cat.",
+          "options": [
+            "кошка",
+            "кошки"
+          ],
+          "answer": "кошка",
+          "explanation": "After есть, use nominative: кошка (not genitive кошки)."
+        },
+        {
+          "context": "У меня нет _____. (a cat, genitive)",
+          "contextEnglish": "I don't have a cat.",
+          "options": [
+            "кошка",
+            "кошки"
+          ],
+          "answer": "кошки",
+          "explanation": "After нет, use genitive: кошки."
+        },
+        {
+          "context": "_____ подруги (good, plural)",
+          "contextEnglish": "Good (female) friends",
+          "options": [
+            "хорошие",
+            "хороший"
+          ],
+          "answer": "хорошие",
+          "explanation": "Подруги is plural, so the adjective is хорошие."
+        }
+      ]
+    }
+  ]
+}

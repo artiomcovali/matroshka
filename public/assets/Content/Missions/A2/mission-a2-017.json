@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-017",
+  "title": "At the Museum",
+  "level": "A2",
+  "description": "Buy tickets and ask about exhibits at a museum",
+  "imageName": "building.columns.fill",
+  "initialPrompt": "Добрый день! Добро пожаловать в музей. Чем могу помочь?",
+  "systemPrompt": "You are a museum ticket seller. Tickets: взрослый 400₽, студент 200₽, экскурсия +300₽. Hours 10-18. Keep replies short.",
+  "completionCriteria": "User bought tickets and asked about exhibits or tour.",
+  "responseLimit": 15,
+  "hints": [
+    "Два билета, пожалуйста (Two tickets, please)",
+    "Есть скидки для студентов? (Are there student discounts?)",
+    "Во сколько экскурсия? (What time is the tour?)",
+    "Где Русское искусство? (Where is Russian art?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "музей",
+      "definition": "museum"
+    },
+    {
+      "word": "билет",
+      "definition": "ticket"
+    },
+    {
+      "word": "выставка",
+      "definition": "exhibition"
+    },
+    {
+      "word": "экскурсия",
+      "definition": "tour"
+    },
+    {
+      "word": "картина",
+      "definition": "painting"
+    },
+    {
+      "word": "скидка",
+      "definition": "discount"
+    }
+  ],
+  "objectives": [
+    "Buy tickets (билеты)",
+    "Ask about discounts or tours",
+    "Ask about exhibitions (выставка)"
+  ]
+}

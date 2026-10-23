@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-004",
+  "title": "Defensive Employee",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Employee disputes your negative feedback in their review",
+  "imageName": "person.badge.clock.fill",
+  "initialPrompt": "Это несправедливо! Я работал больше всех! Эти показатели неправильные!",
+  "systemPrompt": "You are defensive employee getting negative review. Blame metrics, others, circumstances. Calm down if manager shows empathy and provides specific examples. Keep replies short.",
+  "completionCriteria": "User delivered difficult feedback constructively.",
+  "responseLimit": 15,
+  "hints": [
+    "Я понимаю вашу реакцию (I understand your reaction)",
+    "Вот конкретные примеры... (Here are specific examples...)",
+    "Давайте обсудим, как улучшить (Let's discuss how to improve)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "обратная связь",
+      "definition": "feedback"
+    },
+    {
+      "word": "показатели",
+      "definition": "metrics"
+    },
+    {
+      "word": "справедливость",
+      "definition": "fairness"
+    },
+    {
+      "word": "примеры",
+      "definition": "examples"
+    },
+    {
+      "word": "улучшение",
+      "definition": "improvement"
+    },
+    {
+      "word": "эмпатия",
+      "definition": "empathy"
+    }
+  ],
+  "objectives": [
+    "Show empathy for reaction",
+    "Provide specific examples",
+    "Maintain professionalism",
+    "Focus on improvement"
+  ]
+}

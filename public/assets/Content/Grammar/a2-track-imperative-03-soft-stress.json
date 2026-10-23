@@ -1,0 +1,400 @@
+{
+  "id": "a2-track-imperative-03-soft-stress",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Imperative 3: The -ь Command and the Stress Test (-и or -ь)",
+  "titleRussian": "Повелительное наклонение 3: форма на -ь и проверка ударением (-и или -ь)",
+  "description": "How to choose between -и and -ь on a consonant-stem command: stressed 1sg ending gives -и (говори), unstressed gives -ь (готовь, забудь, встань). A few cluster and irregular forms (помни, ешь, дай) are exceptions.",
+  "descriptionRussian": "Как выбрать между -и и -ь у глаголов с основой на согласный: ударное окончание 1 л. ед. ч. даёт -и (говори), безударное даёт -ь (готовь, забудь, встань). Несколько форм (помни, ешь, дай) — исключения.",
+  "imageName": "exclamationmark.bubble",
+  "trackId": "a2-imperative-mastery",
+  "trackTitle": "Imperative Mastery",
+  "trackTitleRussian": "Повелительное наклонение",
+  "trackIndex": 3,
+  "trackTotal": 9,
+  "intro": "The other half of the test. Stem stress in the я-form gives you a soft sign instead of the vowel you learned last lesson, so the two lessons together let you predict any consonant-stem command from how the verb sounds. There is one override worth memorizing: a stem ending in two consonants ignores the test. And two commands are simply irregular.",
+  "rules": [
+    "On a consonant stem, look at the я form: stress on the ending gives -и (говорю́ → говори), stress on the stem gives -ь (забу́ду → забудь).",
+    "Build the -ь form from the они form: drop the ending, then add the soft sign -ь, as in готовят → готовь, встанут → встань, забудут → забудь.",
+    "When the stem ends in two consonants together, use -и even with stem stress: помнить (я по́мню) → помни, not помнь.",
+    "Two commands are special and just memorised: есть → ешь, дать → дай."
+  ],
+  "examples": [
+    "Готовь ужин! (Make dinner!) я гото́влю is stem-stressed, so the command ends in -ь.",
+    "Забудь об этом! (Forget about it!) я забу́ду is stem-stressed → забудь.",
+    "Встань, пожалуйста. (Stand up, please.) я вста́ну is stem-stressed → встань.",
+    "Говори громче! (Speak louder!) я говорю́ is end-stressed → говори, with -и.",
+    "Помни о встрече. (Remember the meeting.) stem ends in -мн (two consonants), so -и: помни.",
+    "Ешь суп, пока горячий. (Eat the soup while it is hot.) есть has the special command ешь."
+  ],
+  "tables": [
+    {
+      "title": "Stress Test: -и or -ь on a Consonant Stem",
+      "headers": [
+        "я form",
+        "Stress is on",
+        "Command"
+      ],
+      "rows": [
+        {
+          "label": "говорю́",
+          "cells": [
+            "the ending",
+            "говори (-и)"
+          ]
+        },
+        {
+          "label": "пишу́",
+          "cells": [
+            "the ending",
+            "пиши (-и)"
+          ]
+        },
+        {
+          "label": "гото́влю",
+          "cells": [
+            "the stem",
+            "готовь (-ь)"
+          ]
+        },
+        {
+          "label": "забу́ду",
+          "cells": [
+            "the stem",
+            "забудь (-ь)"
+          ]
+        },
+        {
+          "label": "вста́ну",
+          "cells": [
+            "the stem",
+            "встань (-ь)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Three Forms to Memorise Separately",
+      "headers": [
+        "Verb",
+        "Why special",
+        "Command"
+      ],
+      "rows": [
+        {
+          "label": "помнить (я по́мню)",
+          "cells": [
+            "stem ends in two consonants -мн",
+            "помни"
+          ]
+        },
+        {
+          "label": "есть",
+          "cells": [
+            "special form",
+            "ешь"
+          ]
+        },
+        {
+          "label": "дать",
+          "cells": [
+            "special form",
+            "дай"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Recap from Lesson 1: _____ эту книгу!",
+          "promptEnglish": "Read this book!",
+          "options": [
+            "читай",
+            "читаь",
+            "читаи",
+            "читать"
+          ],
+          "answer": "читай",
+          "hint": "Читать has a vowel stem чита-. Which suffix goes after a vowel?",
+          "explanation": "Quick recap before today's new skill: читать has a vowel stem (чита-, from 3pl читают), and a vowel stem always takes -й: читай. The -и and -ь choice you drill today only applies to consonant stems. After a vowel there is no choice: it is always -й."
+        },
+        {
+          "prompt": "_____ ужин, гости скоро придут!",
+          "promptEnglish": "Make dinner, the guests will arrive soon!",
+          "options": [
+            "Готови",
+            "Готовь",
+            "Готовлю",
+            "Готовить"
+          ],
+          "answer": "Готовь",
+          "hint": "The я form is гото́влю. Is the stress on the ending or on the stem?",
+          "explanation": "The я form гото́влю is stressed on the stem (the о of готов-), so the command takes -ь: готовь. Готови with -и would be wrong because -и is only for end-stressed verbs like говори (говорю́)."
+        },
+        {
+          "prompt": "_____ об этом, всё уже хорошо.",
+          "promptEnglish": "Forget about it, everything is fine now.",
+          "options": [
+            "Забуди",
+            "Забудешь",
+            "Забудь",
+            "Забудить"
+          ],
+          "answer": "Забудь",
+          "hint": "The я form забу́ду is stressed on the stem. Stem stress gives which ending?",
+          "explanation": "The я form забу́ду is stem-stressed (stress on забу-), so the command takes -ь: забудь. Забуди with -и would only fit an end-stressed verb."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____, пожалуйста, когда учитель входит.",
+          "promptEnglish": "Stand up, please, when the teacher comes in.",
+          "options": [
+            "Встани",
+            "Встань",
+            "Встанешь",
+            "Встаешь"
+          ],
+          "answer": "Встань",
+          "hint": "The я form вста́ну is stem-stressed. Stem stress → -ь.",
+          "explanation": "The я form вста́ну is stressed on the stem (вста-), so the command takes -ь: встань. Встани with -и would be wrong, because that ending is reserved for end-stressed verbs like иди (иду́)."
+        },
+        {
+          "prompt": "_____ громче, я плохо слышу!",
+          "promptEnglish": "Speak louder, I can't hear well!",
+          "options": [
+            "Говорь",
+            "Говоришь",
+            "Говорить",
+            "Говори"
+          ],
+          "answer": "Говори",
+          "hint": "The я form говорю́ is stressed on the ending. End stress → -и.",
+          "explanation": "The я form говорю́ is stressed on the ending, so the command takes -и: говори. Говорь with -ь would be wrong because -ь is only for stem-stressed verbs like готовь. The stress of the я form is the test that separates the two."
+        },
+        {
+          "prompt": "_____ о нашей встрече в пятницу.",
+          "promptEnglish": "Remember about our meeting on Friday.",
+          "options": [
+            "Помнь",
+            "Помнишь",
+            "Помни",
+            "Помнить"
+          ],
+          "answer": "Помни",
+          "hint": "The я form по́мню is stem-stressed, but the stem ends in two consonants (-мн).",
+          "explanation": "По́мню is stem-stressed, so you might expect -ь. But the stem помн- ends in two consonants together, and -ь would be hard to say, so the command uses -и: помни (not помнь). This is the cluster exception."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ ужин, я очень голодный! (Make dinner, I'm very hungry!)",
+      "_____ суп, пока он горячий. (Eat the soup while it's hot.)"
+    ],
+    "choices": [
+      "готовь",
+      "готови",
+      "ешь",
+      "еши"
+    ],
+    "answers": [
+      "готовь",
+      "ешь"
+    ],
+    "grammarFocus": "Готовить: the я form гото́влю is stem-stressed, so the command takes -ь → готовь (not готови, which is for end-stressed verbs). Есть is a special verb with the memorised command ешь (not еши)."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Ответи на вопрос, пожалуйста.",
+      "translationEnglish": "Answer the question, please.",
+      "error": "Ответи",
+      "correction": "Ответь",
+      "options": [
+        "Ответь",
+        "Ответай",
+        "Ответишь"
+      ],
+      "explanation": "The я form отве́чу is stressed on the stem, so the command takes -ь: ответь. Ответи uses -и, which belongs to end-stressed verbs like говори (говорю́); the stress test is what separates them."
+    },
+    {
+      "sentence": "Остави книгу на столе, я возьму её позже.",
+      "translationEnglish": "Leave the book on the table; I'll take it later.",
+      "error": "Остави",
+      "correction": "Оставь",
+      "options": [
+        "Оставь",
+        "Оставай",
+        "Оставишь"
+      ],
+      "explanation": "The я form оста́влю is stem-stressed, so the command takes the soft sign -ь: оставь. Остави with -и would only fit a verb whose я form is end-stressed."
+    },
+    {
+      "sentence": "Вери мне, я говорю правду.",
+      "translationEnglish": "Believe me, I am telling the truth.",
+      "error": "Вери",
+      "correction": "Верь",
+      "options": [
+        "Верь",
+        "Верай",
+        "Веришь"
+      ],
+      "explanation": "The я form ве́рю is stem-stressed, so the command takes -ь: верь. Вери uses the end-stressed ending -и, which does not fit this verb."
+    },
+    {
+      "sentence": "Чисть зубы два раза в день.",
+      "translationEnglish": "Brush your teeth twice a day.",
+      "error": "Чисть",
+      "correction": "Чисти",
+      "options": [
+        "Чисти",
+        "Чистай",
+        "Чистишь"
+      ],
+      "explanation": "Чи́щу is stem-stressed, which usually points to -ь, but the stem чист- ends in two consonants together, so the command uses -и instead: чисти. The -ь would be too hard to pronounce after the cluster, the same escape hatch as помни."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "_____ ужин, я очень голодный!",
+      "contextEnglish": "Make dinner, I'm very hungry!",
+      "options": [
+        "готовь",
+        "готови"
+      ],
+      "answer": "готовь",
+      "explanation": "Готовить has the stem-stressed я form гото́влю, so the command takes -ь: готовь. Готови with -и would only fit an end-stressed verb like говори. Stem stress → -ь."
+    },
+    {
+      "context": "_____ громче, тебя не слышно!",
+      "contextEnglish": "Speak louder, you can't be heard!",
+      "options": [
+        "говори",
+        "говорь"
+      ],
+      "answer": "говори",
+      "explanation": "Говорить has the end-stressed я form говорю́, so the command takes -и: говори. Говорь with -ь would only fit a stem-stressed verb like готовь. End stress → -и."
+    },
+    {
+      "context": "_____ о встрече, она важная.",
+      "contextEnglish": "Remember about the meeting, it's important.",
+      "options": [
+        "помни",
+        "помнь"
+      ],
+      "answer": "помни",
+      "explanation": "По́мню is stem-stressed, but the stem помн- ends in two consonants, so the soft -ь is replaced by -и: помни. The cluster makes помнь hard to say, so the language uses -и instead."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each command by the ending it takes. Use the stress of the я form (and watch for the cluster exception помни).",
+    "categories": [
+      "Ends in -и",
+      "Ends in -ь"
+    ],
+    "items": [
+      {
+        "word": "говори",
+        "category": "Ends in -и"
+      },
+      {
+        "word": "готовь",
+        "category": "Ends in -ь"
+      },
+      {
+        "word": "забудь",
+        "category": "Ends in -ь"
+      },
+      {
+        "word": "пиши",
+        "category": "Ends in -и"
+      },
+      {
+        "word": "встань",
+        "category": "Ends in -ь"
+      },
+      {
+        "word": "помни",
+        "category": "Ends in -и"
+      },
+      {
+        "word": "иди",
+        "category": "Ends in -и"
+      },
+      {
+        "word": "ставь",
+        "category": "Ends in -ь"
+      }
+    ]
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Забудь",
+        "об",
+        "этом",
+        "споре"
+      ],
+      "answer": "Забудь об этом споре",
+      "translation": "Forget about this argument.",
+      "hint": "я form забу́ду is stem-stressed → command ends in -ь."
+    },
+    {
+      "words": [
+        "Готовь",
+        "обед",
+        "сейчас"
+      ],
+      "answer": "Готовь обед сейчас",
+      "translation": "Make lunch now.",
+      "hint": "я form гото́влю is stem-stressed → command ends in -ь."
+    },
+    {
+      "words": [
+        "Встань",
+        "и",
+        "открой",
+        "окно"
+      ],
+      "answer": "Встань и открой окно",
+      "translation": "Stand up and open the window.",
+      "hint": "встать: я form вста́ну is stem-stressed → -ь. открыть has a vowel stem → -й."
+    },
+    {
+      "words": [
+        "Помни",
+        "о",
+        "своём",
+        "обещании"
+      ],
+      "answer": "Помни о своём обещании",
+      "translation": "Remember your promise.",
+      "hint": "по́мню is stem-stressed, but the stem ends in two consonants → -и."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "форма на -ь",
+      "definition": "the -ь command: used when the я form is stressed on the stem (готовь, забудь, встань, ставь). The -ь is a soft sign that adds no sound.",
+      "example": "У глагола забыть форма я (забу́ду) ударная на основе, поэтому повеление — забудь."
+    },
+    {
+      "term": "проверка ударением (-и или -ь)",
+      "definition": "the stress test: a consonant-stem command takes -и if the я form is end-stressed (говорю́ → говори) and -ь if it is stem-stressed (гото́влю → готовь)",
+      "example": "Говорю́ ударно на окончании — значит говори; гото́влю ударно на основе — значит готовь."
+    },
+    {
+      "term": "помни / ешь / дай",
+      "definition": "three commands that break the simple pattern: помни (stem ends in two consonants, so -и not -ь), and the special forms ешь (from есть) and дай (from дать)",
+      "example": "Ешь суп, помни о встрече и дай мне ручку."
+    }
+  ]
+}

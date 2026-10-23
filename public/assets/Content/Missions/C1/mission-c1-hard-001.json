@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-001",
+  "title": "Defamation Defense",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Counter false public accusations damaging your reputation",
+  "imageName": "exclamationmark.shield.fill",
+  "initialPrompt": "В прессе появилась статья с ложными обвинениями против вас. Ваша репутация под ударом. Журналист требует комментарий.",
+  "systemPrompt": "You are journalist pushing damaging story. Cite anonymous sources, demand response to allegations. Only retract if given irrefutable evidence of falsehood.",
+  "completionCriteria": "User defended reputation with evidence and composure.",
+  "responseLimit": 15,
+  "hints": [
+    "Эти обвинения полностью ложны (These accusations are completely false)",
+    "У меня есть документальные доказательства (I have documentary evidence)"
+  ],
+  "targetVocabulary": [
+    {"word": "клевета", "definition": "defamation"},
+    {"word": "репутация", "definition": "reputation"},
+    {"word": "опровержение", "definition": "refutation"},
+    {"word": "источник", "definition": "source"},
+    {"word": "доказательства", "definition": "evidence"},
+    {"word": "иск", "definition": "lawsuit"}
+  ],
+  "objectives": [
+    "Deny false accusations clearly",
+    "Present counter-evidence",
+    "Demand correction",
+    "Threaten legal action if needed",
+    "Maintain composure"
+  ]
+}

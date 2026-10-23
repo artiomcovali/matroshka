@@ -1,0 +1,486 @@
+{
+  "lessonId": "a1-017-net-constructions",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Test genitive forms after нет",
+      "descriptionRussian": "Проверьте формы родительного падежа после «нет»",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "У меня нет _____. (brother)",
+              "promptEnglish": "I don't have a brother.",
+              "options": [
+                "брат",
+                "брату",
+                "брата",
+                "братом"
+              ],
+              "answer": "брата",
+              "hint": "After нет, use genitive case.",
+              "explanation": "Нет + genitive: брат (m) -> брата."
+            },
+            {
+              "prompt": "У неё нет _____. (car)",
+              "promptEnglish": "She doesn't have a car.",
+              "options": [
+                "машину",
+                "машина",
+                "машине",
+                "машины"
+              ],
+              "answer": "машины",
+              "hint": "After нет, feminine -а becomes -ы.",
+              "explanation": "Нет + genitive: машина (f) -> машины."
+            },
+            {
+              "prompt": "Здесь нет _____. (museum)",
+              "promptEnglish": "There is no museum here.",
+              "options": [
+                "музей",
+                "музея",
+                "музею",
+                "музеем"
+              ],
+              "answer": "музея",
+              "hint": "Masculine nouns ending in a soft sign or -й take -я.",
+              "explanation": "Нет + genitive: музей (m) -> музея."
+            },
+            {
+              "prompt": "У них нет _____. (time)",
+              "promptEnglish": "They don't have time.",
+              "options": [
+                "время",
+                "времени",
+                "временем",
+                "времена"
+              ],
+              "answer": "времени",
+              "hint": "Время is irregular in genitive.",
+              "explanation": "Нет + genitive: время -> времени (irregular)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "У меня _____ собака. (I have a dog.)",
+          "contextEnglish": "I have a dog.",
+          "options": [
+            "есть",
+            "нет"
+          ],
+          "answer": "есть",
+          "explanation": "Positive possession uses есть + nominative: У меня есть собака."
+        },
+        {
+          "context": "У меня _____ собаки. (I don't have a dog.)",
+          "contextEnglish": "I don't have a dog.",
+          "options": [
+            "есть",
+            "нет"
+          ],
+          "answer": "нет",
+          "explanation": "Negative possession uses нет + genitive: У меня нет собаки."
+        },
+        {
+          "context": "У него нет _____. (sister, genitive)",
+          "contextEnglish": "He doesn't have a sister.",
+          "options": [
+            "сестра",
+            "сестры"
+          ],
+          "answer": "сестры",
+          "explanation": "After нет, feminine -а becomes -ы in genitive: сестра -> сестры."
+        },
+        {
+          "context": "У нас нет _____. (milk, genitive)",
+          "contextEnglish": "We don't have milk.",
+          "options": [
+            "молоко",
+            "молока"
+          ],
+          "answer": "молока",
+          "explanation": "After нет, neuter -о becomes -а in genitive: молоко -> молока."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in genitive forms and sort by gender pattern",
+      "descriptionRussian": "Вставьте формы родительного падежа и рассортируйте",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "У меня нет _____. (book)",
+          "У тебя нет _____. (phone)",
+          "Здесь нет _____. (water)",
+          "У нас нет _____. (money)"
+        ],
+        "choices": [
+          "книги",
+          "телефона",
+          "воды",
+          "денег"
+        ],
+        "answers": [
+          "книги",
+          "телефона",
+          "воды",
+          "денег"
+        ],
+        "grammarFocus": "genitive after нет across genders",
+        "hints": [
+          "Книга (f): -а -> -и (spelling rule after г).",
+          "Телефон (m): add -а.",
+          "Вода (f): -а -> -ы.",
+          "Деньги (pl, irregular): genitive plural = денег."
+        ],
+        "explanations": [
+          "Книга -> книги (genitive; after г, use -и not -ы).",
+          "Телефон -> телефона (masculine genitive adds -а).",
+          "Вода -> воды (feminine genitive: -а -> -ы).",
+          "Деньги -> денег (irregular genitive plural)."
+        ],
+        "options": [
+          [
+            "книге",
+            "книга",
+            "книгу",
+            "книги"
+          ],
+          [
+            "телефон",
+            "телефоном",
+            "телефона",
+            "телефону"
+          ],
+          [
+            "воде",
+            "воду",
+            "воды",
+            "вода"
+          ],
+          [
+            "деньгам",
+            "денег",
+            "деньгами",
+            "деньги"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort by genitive ending pattern after нет",
+        "categories": [
+          "Add -а/-я (masculine/neuter)",
+          "Change to -ы/-и (feminine)"
+        ],
+        "items": [
+          {
+            "word": "дом -> дома",
+            "category": "Add -а/-я (masculine/neuter)"
+          },
+          {
+            "word": "книга -> книги",
+            "category": "Change to -ы/-и (feminine)"
+          },
+          {
+            "word": "окно -> окна",
+            "category": "Add -а/-я (masculine/neuter)"
+          },
+          {
+            "word": "школа -> школы",
+            "category": "Change to -ы/-и (feminine)"
+          },
+          {
+            "word": "стол -> стола",
+            "category": "Add -а/-я (masculine/neuter)"
+          },
+          {
+            "word": "сестра -> сестры",
+            "category": "Change to -ы/-и (feminine)"
+          },
+          {
+            "word": "молоко -> молока",
+            "category": "Add -а/-я (masculine/neuter)"
+          },
+          {
+            "word": "газета -> газеты",
+            "category": "Change to -ы/-и (feminine)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "She doesn't have a dog.",
+          "answer": "У неё нет собаки.",
+          "acceptableVariants": [],
+          "hint": "she (gen) = неё, dog (gen) = собаки",
+          "grammarFocus": "нет + feminine genitive",
+          "keyWord": "нет",
+          "options": [
+            "нет",
+            "не",
+            "ни",
+            "никогда"
+          ]
+        },
+        {
+          "english": "We don't have time.",
+          "answer": "У нас нет времени.",
+          "acceptableVariants": [],
+          "hint": "we (gen) = нас, time (gen) = времени (irregular)",
+          "grammarFocus": "нет + irregular genitive",
+          "keyWord": "времени",
+          "options": [
+            "времени",
+            "время",
+            "временем",
+            "времена"
+          ]
+        },
+        {
+          "english": "There is no park here.",
+          "answer": "Здесь нет парка.",
+          "acceptableVariants": [
+            "Тут нет парка."
+          ],
+          "hint": "park (gen) = парка",
+          "grammarFocus": "нет for absence of a place",
+          "keyWord": "парка",
+          "options": [
+            "парка",
+            "парк",
+            "парку",
+            "парком"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Error",
+      "titleRussian": "Найди ошибку",
+      "description": "Fix genitive case mistakes after нет",
+      "descriptionRussian": "Исправьте ошибки в родительном падеже после «нет»",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "У меня нет машина.",
+          "error": "машина",
+          "correction": "машины",
+          "hint": "After нет, use genitive, not nominative.",
+          "explanation": "Нет requires genitive: машина (nom) -> машины (gen).",
+          "options": [
+            "машины",
+            "машину",
+            "машиной"
+          ]
+        },
+        {
+          "sentence": "У него нет друг.",
+          "error": "друг",
+          "correction": "друга",
+          "hint": "Masculine nouns add -а in genitive.",
+          "explanation": "Нет requires genitive: друг (nom) -> друга (gen).",
+          "options": [
+            "друга",
+            "другу",
+            "другом"
+          ]
+        },
+        {
+          "sentence": "Здесь нет молоко.",
+          "error": "молоко",
+          "correction": "молока",
+          "hint": "Neuter nouns change -о to -а in genitive.",
+          "explanation": "Нет requires genitive: молоко (nom) -> молока (gen).",
+          "options": [
+            "молока",
+            "молоку",
+            "молоком"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "У меня нет _____. (key)",
+              "promptEnglish": "I don't have a key.",
+              "options": [
+                "ключ",
+                "ключа",
+                "ключу",
+                "ключом"
+              ],
+              "answer": "ключа",
+              "hint": "Masculine genitive: add -а.",
+              "explanation": "Нет + genitive: ключ -> ключа."
+            },
+            {
+              "prompt": "У неё нет _____. (notebook)",
+              "promptEnglish": "She doesn't have a notebook.",
+              "options": [
+                "тетради",
+                "тетрадь",
+                "тетрадью",
+                "тетраде"
+              ],
+              "answer": "тетради",
+              "hint": "Feminine -ь becomes -и in genitive.",
+              "explanation": "Нет + genitive: тетрадь -> тетради."
+            },
+            {
+              "prompt": "У нас нет _____. (apartment)",
+              "promptEnglish": "We don't have an apartment.",
+              "options": [
+                "квартира",
+                "квартире",
+                "квартиру",
+                "квартиры"
+              ],
+              "answer": "квартиры",
+              "hint": "Feminine -а becomes -ы in genitive.",
+              "explanation": "Нет + genitive: квартира -> квартиры."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All нет construction topics mixed together",
+      "descriptionRussian": "Все темы конструкций с «нет» вместе",
+      "icon": "shuffle",
+      "patternRecognition": [
+        {
+          "sentence": "У меня есть собака. -> У меня нет собаки.",
+          "question": "What changed when the sentence became negative?",
+          "options": [
+            "есть changed to нет, noun stayed the same",
+            "есть changed to нет, noun changed to genitive",
+            "Only the word order changed",
+            "The pronoun changed"
+          ],
+          "answer": "есть changed to нет, noun changed to genitive",
+          "explanation": "In negative possession, есть becomes нет and the noun shifts from nominative to genitive."
+        },
+        {
+          "sentence": "брата, стола, окна, молока",
+          "question": "These are all genitive forms. What ending do they share?",
+          "options": [
+            "-а",
+            "-ы",
+            "-е",
+            "-у"
+          ],
+          "answer": "-а",
+          "explanation": "Masculine and neuter nouns typically take -а/-я in the genitive singular."
+        },
+        {
+          "sentence": "школы, сестры, машины, газеты",
+          "question": "These are all genitive forms. What ending do they share?",
+          "options": [
+            "-а",
+            "-ы",
+            "-е",
+            "-у"
+          ],
+          "answer": "-ы",
+          "explanation": "Feminine nouns ending in -а take -ы in the genitive singular."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "У тебя нет _____. (umbrella, masculine)",
+          "У них нет _____. (daughter)",
+          "Здесь нет _____. (store)"
+        ],
+        "choices": [
+          "зонта",
+          "дочери",
+          "магазина"
+        ],
+        "answers": [
+          "зонта",
+          "дочери",
+          "магазина"
+        ],
+        "grammarFocus": "genitive forms across genders",
+        "hints": [
+          "Зонт (m): add -а.",
+          "Дочь (f, -ь): change to -и.",
+          "Магазин (m): add -а."
+        ],
+        "explanations": [
+          "Зонт -> зонта (masculine genitive).",
+          "Дочь -> дочери (irregular feminine genitive).",
+          "Магазин -> магазина (masculine genitive)."
+        ],
+        "options": [
+          [
+            "зонтом",
+            "зонта",
+            "зонт",
+            "зонту"
+          ],
+          [
+            "дочерью",
+            "дочерям",
+            "дочь",
+            "дочери"
+          ],
+          [
+            "магазин",
+            "магазином",
+            "магазину",
+            "магазина"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "У меня нет _____. (work, feminine)",
+          "contextEnglish": "I don't have a job.",
+          "options": [
+            "работа",
+            "работы"
+          ],
+          "answer": "работы",
+          "explanation": "Нет + genitive: работа -> работы."
+        },
+        {
+          "context": "У него нет _____. (letter, neuter)",
+          "contextEnglish": "He doesn't have a letter.",
+          "options": [
+            "письмо",
+            "письма"
+          ],
+          "answer": "письма",
+          "explanation": "Нет + genitive: письмо -> письма."
+        },
+        {
+          "context": "У нас нет _____. (teacher, masculine)",
+          "contextEnglish": "We don't have a teacher.",
+          "options": [
+            "учителя",
+            "учитель"
+          ],
+          "answer": "учителя",
+          "explanation": "Нет + genitive: учитель -> учителя (soft-stem masculine: -ь -> -я)."
+        }
+      ]
+    }
+  ]
+}

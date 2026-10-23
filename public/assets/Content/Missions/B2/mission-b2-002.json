@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-002",
+  "title": "Medical Emergency",
+  "level": "B2",
+  "difficulty": "easy",
+  "description": "Call emergency services and explain a medical situation",
+  "imageName": "cross.circle.fill",
+  "initialPrompt": "Скорая помощь, что случилось? Говорите адрес и что произошло.",
+  "systemPrompt": "You are emergency dispatcher. Need: exact address, what happened, patient condition (conscious? breathing?), age. Send ambulance, give first aid instructions if needed. Stay calm, professional. Keep replies short.",
+  "completionCriteria": "User provided all necessary information and ambulance is dispatched.",
+  "responseLimit": 15,
+  "hints": [
+    "Человеку плохо, нужна помощь (Someone is unwell, need help)",
+    "Адрес: улица... дом... (Address: street... building...)",
+    "Он в сознании, но дышит тяжело (He's conscious but breathing heavily)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "скорая помощь",
+      "definition": "ambulance"
+    },
+    {
+      "word": "сознание",
+      "definition": "consciousness"
+    },
+    {
+      "word": "дышать",
+      "definition": "to breathe"
+    },
+    {
+      "word": "симптомы",
+      "definition": "symptoms"
+    },
+    {
+      "word": "первая помощь",
+      "definition": "first aid"
+    },
+    {
+      "word": "диспетчер",
+      "definition": "dispatcher"
+    }
+  ],
+  "objectives": [
+    "Clearly state the emergency",
+    "Give the exact address",
+    "Describe the patient's condition",
+    "Answer dispatcher's questions",
+    "Follow any instructions given"
+  ]
+}

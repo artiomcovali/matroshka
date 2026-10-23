@@ -1,0 +1,803 @@
+{
+  "lessonId": "b2-032-temporal-clauses-advanced",
+  "sets": [
+    {
+      "id": "round-1-conjunction-recognition",
+      "title": "Temporal Conjunction Types",
+      "titleRussian": "Типы временных союзов",
+      "description": "Identify the correct temporal conjunction and sort clauses by type",
+      "descriptionRussian": "Определите правильный временной союз и распределите предложения по типу",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ он вернулся, мы сразу начали работать.",
+              "promptEnglish": "As soon as he returned, we immediately started working.",
+              "options": [
+                "Как только",
+                "Прежде чем",
+                "Пока не",
+                "До того как"
+              ],
+              "answer": "Как только",
+              "hint": "Immediate sequence: the moment he returned, we started.",
+              "explanation": "Как только = as soon as. The action in the main clause begins right after the subordinate event."
+            },
+            {
+              "prompt": "_____ уйти, он проверил все документы.",
+              "promptEnglish": "Before leaving, he checked all the documents.",
+              "options": [
+                "После того как",
+                "Пока не",
+                "Прежде чем",
+                "В то время как"
+              ],
+              "answer": "Прежде чем",
+              "hint": "Something done before the departure.",
+              "explanation": "Прежде чем + infinitive = before doing something. With same subject, the infinitive is preferred."
+            },
+            {
+              "prompt": "_____ она закончила учёбу, она переехала в другой город.",
+              "promptEnglish": "After she finished her studies, she moved to another city.",
+              "options": [
+                "До того как",
+                "В то время как",
+                "После того как",
+                "Прежде чем"
+              ],
+              "answer": "После того как",
+              "hint": "She finished first, then moved.",
+              "explanation": "После того как = after. The move happened after completing studies."
+            },
+            {
+              "prompt": "Жди здесь, _____ я не вернусь.",
+              "promptEnglish": "Wait here until I come back.",
+              "options": [
+                "как только",
+                "прежде чем",
+                "после того как",
+                "пока"
+              ],
+              "answer": "пока",
+              "hint": "Wait until a certain moment arrives.",
+              "explanation": "Пока не = until. The waiting continues up to the point of return. With не after пока for 'until.'"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ мы обедали, начался сильный дождь.",
+              "promptEnglish": "While we were having lunch, heavy rain started.",
+              "options": [
+                "Как только",
+                "В то время как",
+                "После того как",
+                "Пока не"
+              ],
+              "answer": "В то время как",
+              "hint": "Two simultaneous events, formal register.",
+              "explanation": "В то время как = while (formal). Emphasizes simultaneous events."
+            },
+            {
+              "prompt": "Я позвоню тебе, _____ доберусь до дома.",
+              "promptEnglish": "I'll call you as soon as I get home.",
+              "options": [
+                "прежде чем",
+                "пока не",
+                "как только",
+                "до того как"
+              ],
+              "answer": "как только",
+              "hint": "The call will happen immediately upon arrival.",
+              "explanation": "Как только = as soon as. The call follows immediately after arriving."
+            },
+            {
+              "prompt": "_____ подписать контракт, внимательно прочитайте все условия.",
+              "promptEnglish": "Before signing the contract, read all the terms carefully.",
+              "options": [
+                "После того как",
+                "До того как",
+                "Как только",
+                "Пока"
+              ],
+              "answer": "До того как",
+              "hint": "Reading should happen before the signing.",
+              "explanation": "До того как = before. An alternative to прежде чем, often used with a finite verb clause."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "Не начинай без меня, _____ я не приду.",
+              "promptEnglish": "Don't start without me until I arrive.",
+              "options": [
+                "как только",
+                "пока",
+                "после того как",
+                "в то время как"
+              ],
+              "answer": "пока",
+              "hint": "Do not act until the arrival happens.",
+              "explanation": "Пока не = until. The prohibition lasts until the speaker's arrival."
+            },
+            {
+              "prompt": "_____ он объяснял задачу, все внимательно слушали.",
+              "promptEnglish": "While he was explaining the problem, everyone listened carefully.",
+              "options": [
+                "Прежде чем",
+                "После того как",
+                "В то время как",
+                "Пока не"
+              ],
+              "answer": "В то время как",
+              "hint": "Simultaneous ongoing actions.",
+              "explanation": "В то время как = while. Both actions were happening at the same time."
+            },
+            {
+              "prompt": "_____ мы получили результаты, мы начали планировать следующий этап.",
+              "promptEnglish": "After we received the results, we started planning the next stage.",
+              "options": [
+                "Прежде чем",
+                "Пока не",
+                "До того как",
+                "После того как"
+              ],
+              "answer": "После того как",
+              "hint": "Planning started after the results arrived.",
+              "explanation": "После того как = after. The planning followed the receipt of results."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort each sentence by its temporal conjunction type",
+        "categories": [
+          "Before (прежде чем / до того как)",
+          "After (после того как)",
+          "Until (пока не)",
+          "While (в то время как)",
+          "As soon as (как только)"
+        ],
+        "items": [
+          {
+            "word": "Прежде чем ответить, он подумал.",
+            "category": "Before (прежде чем / до того как)"
+          },
+          {
+            "word": "После того как закончился фильм, мы обсудили его.",
+            "category": "After (после того как)"
+          },
+          {
+            "word": "Сиди тихо, пока урок не закончится.",
+            "category": "Until (пока не)"
+          },
+          {
+            "word": "В то время как она готовила, он убирал.",
+            "category": "While (в то время как)"
+          },
+          {
+            "word": "Как только зазвонил телефон, он ответил.",
+            "category": "As soon as (как только)"
+          },
+          {
+            "word": "До того как начать проект, нужно составить план.",
+            "category": "Before (прежде чем / до того как)"
+          },
+          {
+            "word": "Жди, пока не позвонят.",
+            "category": "Until (пока не)"
+          },
+          {
+            "word": "Как только выпал снег, дети выбежали на улицу.",
+            "category": "As soon as (как только)"
+          },
+          {
+            "word": "После того как он извинился, она простила его.",
+            "category": "After (после того как)"
+          },
+          {
+            "word": "В то время как одни отдыхали, другие работали.",
+            "category": "While (в то время как)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-2-nuance-drills",
+      "title": "Nuance Drills",
+      "titleRussian": "Упражнения на нюансы",
+      "description": "Distinguish similar temporal conjunctions and fill in the correct forms",
+      "descriptionRussian": "Различите похожие временные союзы и заполните правильные формы",
+      "icon": "eye",
+      "minimalPairs": [
+        {
+          "context": "_____ уехать, она попрощалась со всеми. (She said goodbye before leaving.)",
+          "contextEnglish": "Before leaving, she said goodbye to everyone.",
+          "options": [
+            "Прежде чем",
+            "После того как"
+          ],
+          "answer": "Прежде чем",
+          "explanation": "Прежде чем = before. The farewell happened before the departure."
+        },
+        {
+          "context": "_____ она уехала, все почувствовали грусть. (Everyone felt sad after she left.)",
+          "contextEnglish": "After she left, everyone felt sad.",
+          "options": [
+            "После того как",
+            "Прежде чем"
+          ],
+          "answer": "После того как",
+          "explanation": "После того как = after. The sadness came after her departure."
+        },
+        {
+          "context": "_____ он работал, она читала книгу. (While he was working, she was reading.)",
+          "contextEnglish": "While he was working, she was reading a book.",
+          "options": [
+            "В то время как",
+            "Как только"
+          ],
+          "answer": "В то время как",
+          "explanation": "В то время как = while. Two simultaneous ongoing actions."
+        },
+        {
+          "context": "_____ он пришёл, она сразу рассказала новость. (The moment he arrived, she told the news.)",
+          "contextEnglish": "As soon as he arrived, she immediately told the news.",
+          "options": [
+            "Как только",
+            "В то время как"
+          ],
+          "answer": "Как только",
+          "explanation": "Как только = as soon as. Immediate reaction upon arrival."
+        },
+        {
+          "context": "Не уходи, _____ мы не закончим. (Don't leave until we finish.)",
+          "contextEnglish": "Don't leave until we finish.",
+          "options": [
+            "пока",
+            "после того как"
+          ],
+          "answer": "пока",
+          "explanation": "Пока не = until. The prohibition remains in effect up to the completion point."
+        },
+        {
+          "context": "_____ мы закончили, все разошлись по домам. (After we finished, everyone went home.)",
+          "contextEnglish": "After we finished, everyone went home.",
+          "options": [
+            "После того как",
+            "Пока"
+          ],
+          "answer": "После того как",
+          "explanation": "После того как = after. Going home followed the completion."
+        },
+        {
+          "context": "_____ принять решение, посоветуйся с коллегами. (Before making a decision, consult with colleagues.)",
+          "contextEnglish": "Before making a decision, consult with colleagues.",
+          "options": [
+            "Прежде чем",
+            "Как только"
+          ],
+          "answer": "Прежде чем",
+          "explanation": "Прежде чем + infinitive = before doing something. Advice to consult first."
+        },
+        {
+          "context": "_____ решение было принято, все успокоились. (Once the decision was made, everyone calmed down.)",
+          "contextEnglish": "As soon as the decision was made, everyone calmed down.",
+          "options": [
+            "Как только",
+            "Прежде чем"
+          ],
+          "answer": "Как только",
+          "explanation": "Как только = as soon as. Calm followed immediately after the decision."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ мы поужинали, мы пошли гулять. (After we had dinner, we went for a walk.)",
+          "Подожди, _____ автобус не приедет. (Wait until the bus arrives.)",
+          "_____ он говорил по телефону, я ждал в коридоре. (While he was on the phone, I waited in the hallway.)",
+          "_____ начать урок, учитель проверил домашнее задание. (Before starting the lesson, the teacher checked homework.)",
+          "_____ прозвенел звонок, студенты встали. (As soon as the bell rang, the students stood up.)"
+        ],
+        "choices": [
+          "После того как",
+          "пока",
+          "В то время как",
+          "Прежде чем",
+          "Как только"
+        ],
+        "answers": [
+          "После того как",
+          "пока",
+          "В то время как",
+          "Прежде чем",
+          "Как только"
+        ],
+        "grammarFocus": "Matching temporal conjunctions to context: sequence, duration, simultaneity",
+        "hints": [
+          "Dinner happened first, then the walk.",
+          "Waiting continues up to the bus arrival.",
+          "Two actions happening at the same time.",
+          "Checking homework happened before the lesson.",
+          "Standing happened immediately when the bell rang."
+        ],
+        "explanations": [
+          "После того как = after. The walk followed dinner.",
+          "Пока не = until. The waiting lasts until the bus comes.",
+          "В то время как = while. Phone call and waiting were simultaneous.",
+          "Прежде чем + infinitive = before doing something.",
+          "Как только = as soon as. Immediate reaction to the bell."
+        ],
+        "options": [
+          [
+            "После того как",
+            "Прежде чем",
+            "В то время как",
+            "Как только"
+          ],
+          [
+            "после того как",
+            "когда",
+            "как только",
+            "пока"
+          ],
+          [
+            "В то время как",
+            "Как только",
+            "Пока",
+            "После того как"
+          ],
+          [
+            "Как только",
+            "После того как",
+            "Пока",
+            "Прежде чем"
+          ],
+          [
+            "Как только",
+            "После того как",
+            "Пока",
+            "Прежде чем"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-3-transform-correct",
+      "title": "Transform and Correct",
+      "titleRussian": "Трансформация и исправление",
+      "description": "Rewrite sentences with temporal clauses and find errors in their usage",
+      "descriptionRussian": "Перепишите предложения с временными союзами и найдите ошибки",
+      "icon": "pencil.and.outline",
+      "errorCorrection": [
+        {
+          "sentence": "Прежде чем она уехала, она позвонила маме.",
+          "error": "чем она",
+          "correction": "чем уехать",
+          "hint": "Same subject in both clauses allows the infinitive form.",
+          "explanation": "With the same subject, прежде чем + infinitive is preferred: Прежде чем уехать, она позвонила маме.",
+          "options": [
+            "чем уехать",
+            "чем уезжать",
+            "чем она уехала"
+          ]
+        },
+        {
+          "sentence": "Жди, пока я приду.",
+          "error": "пока я",
+          "correction": "пока я не",
+          "hint": "In the meaning 'until,' пока requires the expletive не.",
+          "explanation": "Пока не = until. Without не, пока means 'while.' Жди, пока я не приду = Wait until I come.",
+          "options": [
+            "пока я не",
+            "пока я бы",
+            "когда я"
+          ]
+        },
+        {
+          "sentence": "После того что он ушёл, стало тихо.",
+          "error": "того что",
+          "correction": "того как",
+          "hint": "The conjunction is после того как, not после того что.",
+          "explanation": "The correct compound conjunction is после того как (not что). После того как он ушёл.",
+          "options": [
+            "того как",
+            "того когда",
+            "того где"
+          ]
+        },
+        {
+          "sentence": "Как только он придёт, и мы начнём.",
+          "error": "придёт, и",
+          "correction": "придёт,",
+          "hint": "Как только already connects the clauses. Adding и creates a double connector.",
+          "explanation": "Remove и. Как только он придёт, мы начнём. The conjunction как только is sufficient.",
+          "options": [
+            "придёт,",
+            "придёт, а",
+            "придёт, но"
+          ]
+        },
+        {
+          "sentence": "В то время как он работал, но она отдыхала.",
+          "error": "работал, но",
+          "correction": "работал,",
+          "hint": "В то время как already introduces contrast. Adding но is redundant.",
+          "explanation": "Remove но. В то время как already contrasts the two clauses: В то время как он работал, она отдыхала.",
+          "options": [
+            "работал,",
+            "работал, а",
+            "работал, и"
+          ]
+        },
+        {
+          "sentence": "До того как подписать договор, прочитайте условия.",
+          "error": "как подписать",
+          "correction": "как вы подпишете",
+          "hint": "До того как typically requires a finite verb with an explicit subject, not an infinitive.",
+          "explanation": "До того как + finite clause: До того как вы подпишете договор. For infinitive, use прежде чем подписать.",
+          "options": [
+            "как вы подпишете",
+            "как подписали",
+            "как подписывать"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Построение и перевод",
+      "description": "Construct Russian sentences with temporal clauses and translate from English",
+      "descriptionRussian": "Постройте предложения с временными союзами и переведите с английского",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "Before answering, think carefully.",
+          "answer": "Прежде чем ответить, подумай хорошо.",
+          "acceptableVariants": [
+            "Прежде чем ответить, подумай внимательно.",
+            "Прежде чем отвечать, подумай хорошо."
+          ],
+          "hint": "Прежде чем + infinitive for same-subject 'before' clauses.",
+          "grammarFocus": "Прежде чем + infinitive",
+          "keyWord": "Прежде чем",
+          "options": [
+            "Прежде чем",
+            "После того как",
+            "Как только",
+            "В то время как"
+          ]
+        },
+        {
+          "english": "After the concert ended, we went to a cafe.",
+          "answer": "После того как концерт закончился, мы пошли в кафе.",
+          "acceptableVariants": [
+            "После того как закончился концерт, мы пошли в кафе."
+          ],
+          "hint": "После того как + past perfective for a completed event.",
+          "grammarFocus": "После того как + past perfective",
+          "keyWord": "После того как",
+          "options": [
+            "После того как",
+            "Прежде чем",
+            "Как только",
+            "До того как"
+          ]
+        },
+        {
+          "english": "Wait until the doctor calls you.",
+          "answer": "Подождите, пока врач вас не вызовет.",
+          "acceptableVariants": [
+            "Ждите, пока врач вас не вызовет.",
+            "Подождите, пока вас не вызовет врач."
+          ],
+          "hint": "Пока не + perfective = until.",
+          "grammarFocus": "Пока не + perfective verb",
+          "keyWord": "пока",
+          "options": [
+            "пока",
+            "как только",
+            "после того как",
+            "прежде чем"
+          ]
+        },
+        {
+          "english": "While he was reading, she was cooking dinner.",
+          "answer": "В то время как он читал, она готовила ужин.",
+          "acceptableVariants": [
+            "Пока он читал, она готовила ужин."
+          ],
+          "hint": "В то время как for formal 'while' with simultaneous actions.",
+          "grammarFocus": "В то время как + imperfective",
+          "keyWord": "В то время как",
+          "options": [
+            "В то время как",
+            "Как только",
+            "После того как",
+            "Прежде чем"
+          ]
+        },
+        {
+          "english": "As soon as I finish this project, I will take a vacation.",
+          "answer": "Как только я закончу этот проект, я возьму отпуск.",
+          "acceptableVariants": [
+            "Как только закончу этот проект, возьму отпуск."
+          ],
+          "hint": "Как только + perfective future for something not yet happened.",
+          "grammarFocus": "Как только + perfective future",
+          "keyWord": "Как только",
+          "options": [
+            "Как только",
+            "Прежде чем",
+            "После того как",
+            "В то время как"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All five temporal conjunctions in a comprehensive review",
+      "descriptionRussian": "Все пять временных союзов в комплексном повторении",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ она получила диплом, она начала искать работу.",
+              "promptEnglish": "After she received her diploma, she started looking for work.",
+              "options": [
+                "После того как",
+                "Прежде чем",
+                "Пока не",
+                "До того как"
+              ],
+              "answer": "После того как",
+              "hint": "The job search began after the diploma was received.",
+              "explanation": "После того как = after. Sequence: diploma first, then job search."
+            },
+            {
+              "prompt": "Не открывай подарок, _____ я не скажу.",
+              "promptEnglish": "Don't open the present until I say so.",
+              "options": [
+                "как только",
+                "после того как",
+                "пока",
+                "прежде чем"
+              ],
+              "answer": "пока",
+              "hint": "The prohibition lasts until a specific moment.",
+              "explanation": "Пока не = until. Don't open it until I give permission."
+            },
+            {
+              "prompt": "_____ выступать на конференции, она репетировала речь.",
+              "promptEnglish": "Before presenting at the conference, she rehearsed her speech.",
+              "options": [
+                "После того как",
+                "Как только",
+                "Прежде чем",
+                "В то время как"
+              ],
+              "answer": "Прежде чем",
+              "hint": "Rehearsal happened before the presentation.",
+              "explanation": "Прежде чем + infinitive = before doing something. Same subject allows the infinitive."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ он писал отчёт, коллеги обсуждали новый проект.",
+              "promptEnglish": "While he was writing the report, colleagues were discussing a new project.",
+              "options": [
+                "Как только",
+                "Пока не",
+                "В то время как",
+                "После того как"
+              ],
+              "answer": "В то время как",
+              "hint": "Two simultaneous actions happening in parallel.",
+              "explanation": "В то время как = while. Writing and discussing were happening at the same time."
+            },
+            {
+              "prompt": "_____ прозвучал сигнал, все побежали к выходу.",
+              "promptEnglish": "As soon as the alarm sounded, everyone ran to the exit.",
+              "options": [
+                "Прежде чем",
+                "До того как",
+                "Пока не",
+                "Как только"
+              ],
+              "answer": "Как только",
+              "hint": "Immediate reaction to the alarm.",
+              "explanation": "Как только = as soon as. Running was the immediate reaction to the signal."
+            },
+            {
+              "prompt": "_____ начать ремонт, нужно составить смету.",
+              "promptEnglish": "Before starting renovations, you need to create an estimate.",
+              "options": [
+                "Как только",
+                "После того как",
+                "До того как",
+                "Пока"
+              ],
+              "answer": "До того как",
+              "hint": "The estimate must be prepared before the renovations begin.",
+              "explanation": "До того как + infinitive = before. The estimate precedes the renovation."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "_____ мы переехали в новую квартиру, жизнь стала удобнее.",
+              "promptEnglish": "After we moved to a new apartment, life became more comfortable.",
+              "options": [
+                "До того как",
+                "Прежде чем",
+                "Пока не",
+                "После того как"
+              ],
+              "answer": "После того как",
+              "hint": "Life improved after the move.",
+              "explanation": "После того как = after. The improvement followed the move."
+            },
+            {
+              "prompt": "Я буду звонить, _____ ты не ответишь.",
+              "promptEnglish": "I will keep calling until you answer.",
+              "options": [
+                "в то время как",
+                "как только",
+                "пока",
+                "прежде чем"
+              ],
+              "answer": "пока",
+              "hint": "Calling continues up to the moment of an answer.",
+              "explanation": "Пока не = until. The calls continue until the person finally answers."
+            },
+            {
+              "prompt": "_____ директор вошёл в зал, все замолчали.",
+              "promptEnglish": "As soon as the director entered the hall, everyone went silent.",
+              "options": [
+                "В то время как",
+                "После того как",
+                "Как только",
+                "Прежде чем"
+              ],
+              "answer": "Как только",
+              "hint": "Silence was the immediate reaction to the entrance.",
+              "explanation": "Как только = as soon as. The silence was instantaneous upon the director's entry."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ поехать в отпуск, они оформили визы. (Before going on vacation, they got visas.)",
+          "_____ экзамен закончился, студенты выбежали из аудитории. (As soon as the exam ended, students ran out.)",
+          "Не выключай компьютер, _____ файл не сохранится. (Don't turn off the computer until the file saves.)",
+          "_____ он был на совещании, секретарь принимала звонки. (While he was in a meeting, the secretary took calls.)"
+        ],
+        "choices": [
+          "Прежде чем",
+          "Как только",
+          "пока",
+          "В то время как"
+        ],
+        "answers": [
+          "Прежде чем",
+          "Как только",
+          "пока",
+          "В то время как"
+        ],
+        "grammarFocus": "Selecting the right temporal conjunction based on the time relationship",
+        "hints": [
+          "Visas were obtained before the trip.",
+          "Students ran out immediately after the exam.",
+          "Keep the computer on up to the point of saving.",
+          "Two simultaneous events."
+        ],
+        "explanations": [
+          "Прежде чем + infinitive = before. Same subject allows infinitive.",
+          "Как только = as soon as. Immediate exodus after the exam ended.",
+          "Пока не = until. The computer must stay on until saving completes.",
+          "В то время как = while. Meeting and phone answering overlapped."
+        ],
+        "options": [
+          [
+            "После того как",
+            "Прежде чем",
+            "Как только",
+            "В то время как"
+          ],
+          [
+            "Прежде чем",
+            "Как только",
+            "Пока",
+            "В то время как"
+          ],
+          [
+            "после того как",
+            "когда",
+            "пока",
+            "как только"
+          ],
+          [
+            "Пока",
+            "Как только",
+            "После того как",
+            "В то время как"
+          ]
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Пока дождь не закончился, мы остались дома.",
+          "error": "мы остались",
+          "correction": "мы оставались",
+          "hint": "With пока не (until), the main clause describes a continuing state, so use imperfective.",
+          "explanation": "Пока не + perfective in the subordinate; imperfective in the main: Мы оставались дома, пока дождь не закончился.",
+          "options": [
+            "мы оставались",
+            "мы остаёмся",
+            "мы останемся"
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ она ушла, в офисе стало тихо. (After she left, it got quiet.)",
+          "contextEnglish": "After she left, it became quiet in the office.",
+          "options": [
+            "После того как",
+            "До того как"
+          ],
+          "answer": "После того как",
+          "explanation": "После того как = after. The quiet came after her departure."
+        },
+        {
+          "context": "_____ она пришла, в офисе было тихо. (Before she arrived, it was quiet.)",
+          "contextEnglish": "Before she arrived, it was quiet in the office.",
+          "options": [
+            "До того как",
+            "После того как"
+          ],
+          "answer": "До того как",
+          "explanation": "До того как = before. The quiet existed before her arrival."
+        },
+        {
+          "context": "Не выходи на улицу, _____ ты не оденешься. (Don't go outside until you get dressed.)",
+          "contextEnglish": "Don't go outside until you get dressed.",
+          "options": [
+            "пока",
+            "как только"
+          ],
+          "answer": "пока",
+          "explanation": "Пока не = until. The prohibition lasts until getting dressed."
+        },
+        {
+          "context": "_____ ты оденешься, мы выйдем. (As soon as you get dressed, we'll leave.)",
+          "contextEnglish": "As soon as you get dressed, we will leave.",
+          "options": [
+            "Как только",
+            "Пока"
+          ],
+          "answer": "Как только",
+          "explanation": "Как только = as soon as. Leaving happens immediately after dressing."
+        }
+      ]
+    }
+  ]
+}

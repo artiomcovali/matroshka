@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-014",
+  "title": "Bread Not Ready",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "The fresh bread isn't ready yet at the bakery",
+  "imageName": "birthday.cake.fill",
+  "initialPrompt": "Доброе утро! Что желаете?",
+  "systemPrompt": "You work at bakery. Fresh хлеб not ready, will be in 15 minutes. Have булочки and пирожки now. Keep replies short.",
+  "completionCriteria": "User asked for bread, learned it's not ready, decided to wait or buy something else.",
+  "responseLimit": 15,
+  "hints": [
+    "Свежий хлеб есть? (Is there fresh bread?)",
+    "Когда будет готов? (When will it be ready?)",
+    "Тогда булочку (Then a bun)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "хлеб",
+      "definition": "bread"
+    },
+    {
+      "word": "свежий",
+      "definition": "fresh"
+    },
+    {
+      "word": "готов",
+      "definition": "ready"
+    },
+    {
+      "word": "булочка",
+      "definition": "bun/roll"
+    },
+    {
+      "word": "подождать",
+      "definition": "to wait"
+    }
+  ],
+  "objectives": [
+    "Ask for fresh bread (свежий хлеб)",
+    "Learn it's not ready (не готов)",
+    "Wait or buy alternative"
+  ]
+}

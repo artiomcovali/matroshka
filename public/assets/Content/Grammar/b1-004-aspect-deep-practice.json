@@ -1,0 +1,593 @@
+{
+  "lessonId": "b1-004-aspect-deep",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Process vs Result",
+      "titleRussian": "Процесс или результат?",
+      "description": "Choose the right aspect based on what is being emphasized",
+      "descriptionRussian": "Выберите вид глагола в зависимости от акцента",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Что ты делал вчера вечером? - Я _____ книгу. (What were you doing? - I was reading.)",
+              "promptEnglish": "What were you doing last night? - I was reading a book.",
+              "options": [
+                "читал",
+                "прочитаю",
+                "прочитал",
+                "читаю"
+              ],
+              "answer": "читал",
+              "hint": "The question asks about the activity/process, not the result.",
+              "explanation": "When someone asks 'What were you doing?' they ask about the activity, so imperfective: читал."
+            },
+            {
+              "prompt": "Ты _____ мою книгу? Я хочу её забрать. (Have you finished my book? I want to take it back.)",
+              "promptEnglish": "Have you finished reading my book? I want to take it back.",
+              "options": [
+                "читал",
+                "читаешь",
+                "прочитал",
+                "прочитаешь"
+              ],
+              "answer": "прочитал",
+              "hint": "The speaker wants to know about the result: is the book finished?",
+              "explanation": "The focus is on the result (is it done?), so perfective: прочитал."
+            },
+            {
+              "prompt": "Ты когда-нибудь _____ Достоевского? (Have you ever read Dostoevsky?)",
+              "promptEnglish": "Have you ever read Dostoevsky?",
+              "options": [
+                "прочитаешь",
+                "читаешь",
+                "прочитал",
+                "читал"
+              ],
+              "answer": "читал",
+              "hint": "Asking about general life experience, not a specific completed book.",
+              "explanation": "General experience questions ('have you ever...?') use imperfective: читал."
+            },
+            {
+              "prompt": "Наконец я _____ эту задачу! (I finally solved this problem!)",
+              "promptEnglish": "I finally solved this problem!",
+              "options": [
+                "решил",
+                "решу",
+                "решал",
+                "решаю"
+              ],
+              "answer": "решил",
+              "hint": "Наконец signals an achieved result.",
+              "explanation": "Achieved result (наконец) requires perfective: решил."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я не _____ эту книгу. (I haven't read this book. - general denial)",
+              "promptEnglish": "I haven't read this book (general statement).",
+              "options": [
+                "прочитал",
+                "читал",
+                "прочитаю",
+                "читаю"
+              ],
+              "answer": "читал",
+              "hint": "General negation (I have no experience of reading it) prefers imperfective.",
+              "explanation": "General denial of experience uses imperfective: не читал = 'I haven't read it (at all).'"
+            },
+            {
+              "prompt": "Я уже _____ завтрак, спасибо. (I've already eaten breakfast, thanks.)",
+              "promptEnglish": "I've already eaten breakfast, thanks.",
+              "options": [
+                "завтракаю",
+                "завтракал",
+                "позавтракал",
+                "позавтракаю"
+              ],
+              "answer": "позавтракал",
+              "hint": "Уже (already) signals a completed result.",
+              "explanation": "Уже + result = perfective: позавтракал. The breakfast is done."
+            },
+            {
+              "prompt": "Кто _____ окно? Здесь холодно! (Who opened the window? It's cold!)",
+              "promptEnglish": "Who opened the window? It's cold here!",
+              "options": [
+                "открывает",
+                "открыл",
+                "открывал",
+                "откроет"
+              ],
+              "answer": "открыл",
+              "hint": "The speaker sees a result (cold air) and asks who caused it.",
+              "explanation": "Asking about who caused a visible result uses perfective: кто открыл?"
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Ты _____ этот фильм? (Have you ever seen this movie? - general experience)",
+          "contextEnglish": "Have you ever seen this movie?",
+          "options": [
+            "смотрел",
+            "посмотрел"
+          ],
+          "answer": "смотрел",
+          "explanation": "General experience question uses imperfective: Ты смотрел? = 'Have you ever seen?'"
+        },
+        {
+          "context": "Ты _____ этот фильм? Расскажи, чем закончился! (Did you watch/finish this movie? Tell me how it ended!)",
+          "contextEnglish": "Did you finish watching this movie? Tell me the ending!",
+          "options": [
+            "смотрел",
+            "посмотрел"
+          ],
+          "answer": "посмотрел",
+          "explanation": "Asking about completion (to discuss the ending) uses perfective: посмотрел."
+        },
+        {
+          "context": "Кто _____ суп? Тут кастрюля на плите. (Who was cooking soup? There's a pot on the stove.)",
+          "contextEnglish": "Who was cooking soup? (There's a pot on the stove.)",
+          "options": [
+            "варил",
+            "сварил"
+          ],
+          "answer": "варил",
+          "explanation": "Asking about the activity/process (who was doing it?) uses imperfective: варил."
+        },
+        {
+          "context": "Кто _____ суп? Он очень вкусный! (Who made this soup? It's delicious!)",
+          "contextEnglish": "Who made this soup? It's delicious!",
+          "options": [
+            "варил",
+            "сварил"
+          ],
+          "answer": "сварил",
+          "explanation": "Asking about who produced the result (delicious soup) uses perfective: сварил."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-correct",
+      "title": "Fill and Correct",
+      "titleRussian": "Заполни и исправь",
+      "description": "Fill in the correct aspect and fix mistakes",
+      "descriptionRussian": "Заполните правильный вид и исправьте ошибки",
+      "icon": "pencil.and.outline",
+      "fillInBlank": {
+        "blanks": [
+          "Ты когда-нибудь _____ в Японии? (Have you ever been to Japan? - general experience)",
+          "Я уже _____ домашнее задание. (I've already done my homework. - result)",
+          "Весь день мы _____ квартиру. (We were cleaning the apartment all day. - process)",
+          "Кто _____ мою чашку? Она разбита! (Who broke my cup? It's broken! - result)"
+        ],
+        "choices": [
+          "был",
+          "сделал",
+          "убирали",
+          "разбил"
+        ],
+        "answers": [
+          "был",
+          "сделал",
+          "убирали",
+          "разбил"
+        ],
+        "grammarFocus": "Experience = imperfective; result = perfective; process/duration = imperfective",
+        "hints": [
+          "General life experience (когда-нибудь) uses which aspect?",
+          "Completed result (уже) uses which aspect?",
+          "Duration (весь день) emphasizes the process. Which aspect?",
+          "Visible result (broken cup) and asking who caused it. Which aspect?"
+        ],
+        "explanations": [
+          "General experience uses imperfective: был (been). Ты был в Японии?",
+          "Completed result (уже) uses perfective: сделал.",
+          "Duration/process (весь день) uses imperfective: убирали.",
+          "Asking about who caused a result uses perfective: разбил."
+        ],
+        "options": [
+          [
+            "бывал",
+            "будет",
+            "был",
+            "бывает"
+          ],
+          [
+            "делает",
+            "делал",
+            "сделал",
+            "сделает"
+          ],
+          [
+            "убрали",
+            "убирает",
+            "убирали",
+            "уберёт"
+          ],
+          [
+            "разбивает",
+            "разобьёт",
+            "разбивал",
+            "разбил"
+          ]
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Ты когда-нибудь прочитал Толстого?",
+          "error": "прочитал",
+          "correction": "читал",
+          "hint": "General experience (когда-нибудь = ever) uses imperfective.",
+          "explanation": "General experience questions use imperfective: читал Толстого? (Have you ever read Tolstoy?)",
+          "options": [
+            "читал",
+            "прочитаю",
+            "читаю"
+          ]
+        },
+        {
+          "sentence": "Я долго решил эту задачу.",
+          "error": "решил",
+          "correction": "решал",
+          "hint": "Долго emphasizes the duration of the process, not the result.",
+          "explanation": "Duration (долго) requires imperfective: решал (worked on it for a long time), not perfective решил.",
+          "options": [
+            "решал",
+            "решаю",
+            "решу"
+          ]
+        },
+        {
+          "sentence": "Он не писал мне ответ. Я всё ещё жду.",
+          "error": "писал",
+          "correction": "написал",
+          "hint": "The speaker is waiting for a result (the reply). The negation is about a missing result.",
+          "explanation": "Negation of an expected result uses perfective: не написал (hasn't written/produced the reply).",
+          "options": [
+            "написал",
+            "напишу",
+            "пишу"
+          ]
+        },
+        {
+          "sentence": "Наконец она решала все проблемы.",
+          "error": "решала",
+          "correction": "решила",
+          "hint": "Наконец (finally) signals an achieved result.",
+          "explanation": "Achieved result (наконец) requires perfective: решила.",
+          "options": [
+            "решила",
+            "решит",
+            "решает"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which aspect is used for general denial of experience?",
+              "promptEnglish": "I didn't read / haven't read / never read this book.",
+              "options": [
+                "Imperfective (general denial)",
+                "Perfective (completed denial)",
+                "Either is equally correct"
+              ],
+              "answer": "Imperfective (general denial)",
+              "hint": "Не читал = I haven't read (general). Не прочитал = I didn't finish reading (specific).",
+              "explanation": "General negation of experience uses imperfective: не читал (I haven't read it). Perfective не прочитал means 'I didn't finish it.'"
+            },
+            {
+              "prompt": "Вчера весь вечер мы _____ старые фотографии. (All evening we were looking at old photos.)",
+              "promptEnglish": "All evening we were looking at old photos.",
+              "options": [
+                "посмотрим",
+                "посмотрели",
+                "смотрели",
+                "смотрим"
+              ],
+              "answer": "смотрели",
+              "hint": "Duration (весь вечер) = process = imperfective.",
+              "explanation": "Duration (весь вечер) emphasizes the process: смотрели (imperfective)."
+            },
+            {
+              "prompt": "Вы _____ эту задачу? Покажите мне ответ. (Have you solved this problem? Show me the answer.)",
+              "promptEnglish": "Have you solved this problem? Show me the answer.",
+              "options": [
+                "решили",
+                "решите",
+                "решали",
+                "решаете"
+              ],
+              "answer": "решили",
+              "hint": "The speaker wants to see the result (the answer).",
+              "explanation": "Asking about a result (show me the answer) uses perfective: решили."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-patterns-sort",
+      "title": "Patterns and Sort",
+      "titleRussian": "Паттерны и сортировка",
+      "description": "Recognize aspect patterns and sort by emphasis",
+      "descriptionRussian": "Распознайте паттерны и рассортируйте по акценту",
+      "icon": "lightbulb",
+      "patternRecognition": [
+        {
+          "sentence": "Ты читал эту книгу? / Ты был в Париже? / Ты пробовал суши?",
+          "question": "What type of question is this, and why is imperfective used?",
+          "options": [
+            "Result questions (Did you finish...?)",
+            "General experience questions (Have you ever...?)",
+            "Present tense questions (Are you doing...?)"
+          ],
+          "answer": "General experience questions (Have you ever...?)",
+          "explanation": "These ask about life experience, not specific results. Imperfective shows the focus is on whether the experience happened, not on completion."
+        },
+        {
+          "sentence": "Кто открыл окно? Кто разбил чашку? Кто написал это письмо?",
+          "question": "Why is perfective used in all these questions?",
+          "options": [
+            "The speaker asks about who caused a visible result",
+            "The speaker asks about habitual actions",
+            "The speaker asks about a process"
+          ],
+          "answer": "The speaker asks about who caused a visible result",
+          "explanation": "Each question points to a visible result (open window, broken cup, written letter) and asks who produced it. Result focus = perfective."
+        },
+        {
+          "sentence": "Я не читал / Я не смотрел / Я не слышал",
+          "question": "What does imperfective negation express?",
+          "options": [
+            "Refusal: 'I won't do it'",
+            "Specific non-completion: 'I didn't finish'",
+            "General denial: 'I haven't done it at all'"
+          ],
+          "answer": "General denial: 'I haven't done it at all'",
+          "explanation": "Imperfective negation = general denial of experience. Не читал = 'I haven't read it.' Perfective не прочитал would mean 'I didn't finish reading.'"
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort: Is the speaker focusing on PROCESS or RESULT?",
+        "categories": [
+          "Process/Experience (imperfective)",
+          "Result/Completion (perfective)"
+        ],
+        "items": [
+          {
+            "word": "Что ты делал вчера? - Я читал.",
+            "category": "Process/Experience (imperfective)"
+          },
+          {
+            "word": "Я уже написал письмо.",
+            "category": "Result/Completion (perfective)"
+          },
+          {
+            "word": "Ты когда-нибудь летал на самолёте?",
+            "category": "Process/Experience (imperfective)"
+          },
+          {
+            "word": "Наконец он нашёл ключи!",
+            "category": "Result/Completion (perfective)"
+          },
+          {
+            "word": "Весь день она убирала квартиру.",
+            "category": "Process/Experience (imperfective)"
+          },
+          {
+            "word": "Кто съел мой торт?",
+            "category": "Result/Completion (perfective)"
+          },
+          {
+            "word": "Я не пробовал этот сыр.",
+            "category": "Process/Experience (imperfective)"
+          },
+          {
+            "word": "Она приготовила вкусный ужин.",
+            "category": "Result/Completion (perfective)"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Что вы _____ на уроке? (What did you do in class? - asking about activity)",
+          "Кто _____ эту картину? Она прекрасна! (Who painted this picture? It's beautiful! - result)",
+          "Я никогда не _____ на лошади. (I've never ridden a horse. - general experience)"
+        ],
+        "choices": [
+          "делали",
+          "нарисовал",
+          "ездил"
+        ],
+        "answers": [
+          "делали",
+          "нарисовал",
+          "ездил"
+        ],
+        "grammarFocus": "Activity = imperfective; result = perfective; experience = imperfective",
+        "hints": [
+          "Asking about what activity was done (process focus).",
+          "Admiring a result and asking who produced it.",
+          "General life experience (никогда = never)."
+        ],
+        "explanations": [
+          "Asking about activity/process uses imperfective: делали.",
+          "Asking about who produced a result uses perfective: нарисовал.",
+          "General experience (никогда не) uses imperfective: ездил."
+        ],
+        "options": [
+          [
+            "сделает",
+            "делали",
+            "делает",
+            "сделали"
+          ],
+          [
+            "рисовал",
+            "нарисовал",
+            "рисует",
+            "нарисует"
+          ],
+          [
+            "поехал",
+            "ездил",
+            "поедет",
+            "ездит"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Финальное задание",
+      "description": "Advanced aspect choices in various contexts",
+      "descriptionRussian": "Сложные аспектные выборы в разных контекстах",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Ты _____ ей о встрече? (Did you tell her about the meeting? - did the information reach her?)",
+              "promptEnglish": "Did you tell her about the meeting? (Did the message get across?)",
+              "options": [
+                "говоришь",
+                "скажешь",
+                "говорил",
+                "сказал"
+              ],
+              "answer": "сказал",
+              "hint": "The question is about whether the result was achieved (she was informed).",
+              "explanation": "Focus on the result (information delivered): perfective сказал."
+            },
+            {
+              "prompt": "О чём вы _____? (What were you talking about? - activity)",
+              "promptEnglish": "What were you talking about?",
+              "options": [
+                "скажете",
+                "говорили",
+                "говорите",
+                "сказали"
+              ],
+              "answer": "говорили",
+              "hint": "Asking about the content of the conversation (activity/process).",
+              "explanation": "Asking about the activity of talking uses imperfective: говорили."
+            },
+            {
+              "prompt": "Она _____ нам торт. Вот он, на столе. (She baked us a cake. Here it is, on the table.)",
+              "promptEnglish": "She baked us a cake. Here it is, on the table.",
+              "options": [
+                "пекла",
+                "испекла",
+                "печёт",
+                "испечёт"
+              ],
+              "answer": "испекла",
+              "hint": "The cake exists as a result (it's on the table).",
+              "explanation": "Visible result (cake on the table) uses perfective: испекла."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Ты когда-нибудь решил кроссворд?",
+          "error": "решил",
+          "correction": "решал",
+          "hint": "General experience (когда-нибудь = ever) uses imperfective.",
+          "explanation": "Experience question: когда-нибудь + imperfective: решал (Have you ever done a crossword?).",
+          "options": [
+            "решал",
+            "решит",
+            "решаю"
+          ]
+        },
+        {
+          "sentence": "Кто открывал мою сумку? Вещи разбросаны!",
+          "error": "открывал",
+          "correction": "открыл",
+          "hint": "The speaker sees a result (things scattered) and asks who caused it.",
+          "explanation": "Visible result focus requires perfective: кто открыл? (Who opened it, producing this mess?)",
+          "options": [
+            "открыл",
+            "откроет",
+            "открывает"
+          ]
+        },
+        {
+          "sentence": "Она долго построила этот дом.",
+          "error": "построила",
+          "correction": "строила",
+          "hint": "Долго emphasizes duration/process, which needs imperfective.",
+          "explanation": "Duration (долго) requires imperfective: строила (built for a long time), not perfective построила.",
+          "options": [
+            "строила",
+            "строит",
+            "построит"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "Have you ever been to Moscow?",
+          "answer": "Ты был в Москве?",
+          "acceptableVariants": [
+            "Вы были в Москве?",
+            "Ты когда-нибудь был в Москве?"
+          ],
+          "hint": "General experience = imperfective: был. в Москве = in Moscow (prepositional)",
+          "grammarFocus": "General experience uses imperfective",
+          "keyWord": "был",
+          "options": [
+            "был",
+            "буду",
+            "бываю",
+            "быть"
+          ]
+        },
+        {
+          "english": "I already made dinner.",
+          "answer": "Я уже приготовил ужин.",
+          "acceptableVariants": [
+            "Я уже приготовила ужин."
+          ],
+          "hint": "Result with уже = perfective: приготовил",
+          "grammarFocus": "Completed result uses perfective",
+          "keyWord": "приготовил",
+          "options": [
+            "приготовил",
+            "готовил",
+            "приготовлю",
+            "готовлю"
+          ]
+        },
+        {
+          "english": "Who broke the vase? It's on the floor!",
+          "answer": "Кто разбил вазу? Она на полу!",
+          "acceptableVariants": [],
+          "hint": "Asking about who caused a visible result = perfective: разбил",
+          "grammarFocus": "Result-focused question uses perfective",
+          "keyWord": "разбил",
+          "options": [
+            "разбил",
+            "разбивал",
+            "разобью",
+            "бил"
+          ]
+        }
+      ]
+    }
+  ]
+}

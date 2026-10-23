@@ -1,0 +1,275 @@
+{
+  "id": "a2-track-aspect-06-future",
+  "level": "A2",
+  "focusArea": "aspect",
+  "title": "Aspect 6: Future Tense (Two Futures)",
+  "titleRussian": "Виды глагола 6: Будущее время",
+  "description": "Russian has two futures, one for each aspect. Imperfective: буду + infinitive. Perfective: present-tense conjugation of the perfective verb.",
+  "descriptionRussian": "В русском языке два будущих времени. НСВ: буду + инфинитив. СВ: личные формы перфективного глагола.",
+  "imageName": "arrow.right.to.line",
+  "trackId": "a2-aspect-intro-mastery",
+  "trackTitle": "Aspect Introduction",
+  "trackTitleRussian": "Виды глагола: введение",
+  "trackIndex": 6,
+  "trackTotal": 7,
+  "intro": "Aspect is not a past-tense thing. It reaches into the future too, and it is why Russian has two futures where English has one. The choice is exactly the one you have been making for three lessons, pointed forwards instead of backwards. What changes is only the machinery: one aspect builds its future with a helper verb, the other with plain endings.",
+  "rules": [
+    "Imperfective future: быть (in future) + imperfective infinitive. Я буду читать; ты будешь читать; etc.",
+    "Perfective future: present-tense conjugation FORMS of the perfective verb. The forms look like present tense but always have future meaning, because the perfective has no real present.",
+    "Aspect choice in the future follows the same rules as the past. Duration / habit → imperfective future. Completion / single event → perfective future."
+  ],
+  "examples": [
+    "Завтра я буду читать книгу. (Tomorrow I will be reading the book.) НСВ future.",
+    "Завтра я прочитаю книгу. (Tomorrow I will read the book through.) СВ future.",
+    "Маша будет готовить обед каждый день. (Masha will cook dinner every day.) Habit → НСВ future.",
+    "Маша приготовит обед к семи часам. (Masha will have dinner ready by seven.) Deadline → СВ future.",
+    "Они будут писать статьи всё лето. (They will be writing articles all summer.) Duration → НСВ future.",
+    "Они напишут статью за неделю. (They will write the article in a week.) За + acc → СВ future."
+  ],
+  "tables": [
+    {
+      "title": "The Two Futures",
+      "headers": [
+        "Aspect",
+        "Form",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Imperfective future",
+          "cells": [
+            "буду / будешь / будет / будем / будете / будут + impf infinitive",
+            "Я буду читать."
+          ]
+        },
+        {
+          "label": "Perfective future",
+          "cells": [
+            "present-tense conjugation of perfective verb",
+            "Я прочитаю."
+          ]
+        },
+        {
+          "label": "Choice rule",
+          "cells": [
+            "Duration / habit → impf future; completion → perf future",
+            "Same rules as past tense"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Завтра я _____ книгу.",
+          "promptEnglish": "Tomorrow I (m) will read the book through.",
+          "options": [
+            "читаю",
+            "прочитал",
+            "прочитаю",
+            "буду читать"
+          ],
+          "answer": "прочитаю",
+          "hint": "'Read it through' suggests a single completed event. Future tense, perfective.",
+          "explanation": "'Read the book through' marks completion: single completed event. Perfective future is the present-tense conjugation of the perfective verb: прочитаю (1sg)."
+        },
+        {
+          "prompt": "Завтра я _____ весь день.",
+          "promptEnglish": "Tomorrow I (m) will be reading all day.",
+          "options": [
+            "прочитаю",
+            "буду читать",
+            "читаю",
+            "читал"
+          ],
+          "answer": "буду читать",
+          "hint": "'All day' is a duration cue. Imperfective future form is...?",
+          "explanation": "'Весь день' is a duration cue, locking in the imperfective. Imperfective future = буду + impf infinitive → буду читать."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маша _____ обед сама.",
+          "promptEnglish": "Masha will cook dinner herself.",
+          "options": [
+            "готовит",
+            "готовила",
+            "приготовила",
+            "приготовит"
+          ],
+          "answer": "приготовит",
+          "hint": "Single completed cooking event in the future. Perfective future, 3sg form (same form across genders).",
+          "explanation": "A single completed cooking event in the future: perfective future. Perfective future uses present-tense forms of the perfective verb: приготовит (3sg)."
+        },
+        {
+          "prompt": "Они _____ статьи каждый день.",
+          "promptEnglish": "They will write articles every day.",
+          "options": [
+            "пишут",
+            "писали",
+            "будут писать",
+            "напишут"
+          ],
+          "answer": "будут писать",
+          "hint": "'Every day' is a habit cue. Imperfective future, plural.",
+          "explanation": "'Каждый день' is a habit cue, locking in the imperfective. Imperfective future = будут (plural) + impf infinitive писать."
+        },
+        {
+          "prompt": "Я _____ суп к обеду.",
+          "promptEnglish": "I (m) will have the soup ready by lunch.",
+          "options": [
+            "приготовлю",
+            "готовлю",
+            "готовил",
+            "буду готовить"
+          ],
+          "answer": "приготовлю",
+          "hint": "'К обеду' (by lunch) is a deadline cue. Perfective future, 1sg.",
+          "explanation": "'К обеду' is a deadline cue (Lesson 5), locking in the perfective. Perfective future: приготовлю (1sg, present-conjugation form of the perfective)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Завтра Лена _____ всё утро.",
+          "promptEnglish": "Tomorrow Lena will be writing all morning.",
+          "options": [
+            "напишет",
+            "будет писать",
+            "пишет",
+            "написала"
+          ],
+          "answer": "будет писать",
+          "hint": "'Всё утро' is a duration. Which future goes with a process?",
+          "explanation": "A duration phrase (всё утро) calls for the imperfective future: будет писать."
+        },
+        {
+          "prompt": "Завтра Антон _____ статью.",
+          "promptEnglish": "Tomorrow Anton will finish the article.",
+          "options": [
+            "будет писать",
+            "напишет",
+            "писал",
+            "пишет"
+          ],
+          "answer": "напишет",
+          "hint": "One finished result tomorrow. Which future signals completion?",
+          "explanation": "A single completed result takes the perfective future: напишет."
+        },
+        {
+          "prompt": "Я _____ подарок за час.",
+          "promptEnglish": "It will take me an hour to buy a gift.",
+          "options": [
+            "буду покупать",
+            "покупаю",
+            "куплю",
+            "купил"
+          ],
+          "answer": "куплю",
+          "hint": "'За час' frames a completed job. Which future fits?",
+          "explanation": "За + accusative ('within an hour') frames completion, so the perfective future куплю fits."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Завтра Маша _____ статью к утру. (Tomorrow Masha will write the article by morning.)"
+    ],
+    "choices": [
+      "пишет",
+      "напишет",
+      "будет писать",
+      "написала"
+    ],
+    "answers": [
+      "напишет"
+    ],
+    "grammarFocus": "'К утру' (by morning) is a deadline cue, locking in the perfective. Perfective future, 3sg = напишет."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Завтра я буду сделать всю работу за вечер.",
+      "translationEnglish": "Tomorrow I will do all the work in one evening.",
+      "error": "буду сделать",
+      "correction": "сделаю",
+      "options": [
+        "сделаю",
+        "буду делать",
+        "буду делаю"
+      ],
+      "explanation": "Буду plus an infinitive forms the imperfective future, so буду takes only an imperfective infinitive (буду делать). A perfective verb cannot use буду at all; its future is the one-word form сделаю, which the completion frame 'за вечер' calls for."
+    },
+    {
+      "sentence": "С завтрашнего дня я погуляю в парке каждое утро.",
+      "translationEnglish": "Starting tomorrow, I will walk in the park every morning.",
+      "error": "погуляю",
+      "correction": "буду гулять",
+      "options": [
+        "буду гулять",
+        "гуляю",
+        "буду погулять"
+      ],
+      "explanation": "A repeated future action ('every morning') is imperfective, and the imperfective future is the compound буду гулять. Perfective погуляю is the future of a single bounded stroll and cannot describe a daily routine."
+    },
+    {
+      "sentence": "Сейчас я напишу письмо, не мешай.",
+      "translationEnglish": "Right now I am writing a letter, do not disturb me.",
+      "error": "напишу",
+      "correction": "пишу",
+      "options": [
+        "пишу",
+        "буду писать",
+        "написал"
+      ],
+      "explanation": "The perfective has no present tense, so напишу is not 'I am writing' but the perfective future 'I will write (and finish).' For an action happening right now ('сейчас'), Russian uses the imperfective present пишу. Learners misread напишу as a present because its endings look present-tense, but a perfective conjugated form always points to the future."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я _____ книгу за час.",
+      "contextEnglish": "I (m) will read the book through in an hour.",
+      "options": [
+        "буду читать",
+        "прочитаю"
+      ],
+      "answer": "прочитаю",
+      "explanation": "'За час' (in an hour) is a 'за + acc time' phrase from Lesson 5: completion. Perfective future: прочитаю (1sg). The imperfective 'буду читать' describes a process and clashes with 'за час.'"
+    },
+    {
+      "context": "Маша _____ книги каждый день.",
+      "contextEnglish": "Masha will read books every day.",
+      "options": [
+        "будет читать",
+        "прочитает"
+      ],
+      "answer": "будет читать",
+      "explanation": "'Каждый день' (every day) is a habit cue from Lesson 4. Imperfective future: будет (3sg) + impf infinitive читать. The perfective прочитает would mark a single completed event, which 'каждый день' rules out."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "будущее время",
+      "definition": "future tense (Russian has two: imperfective буду + infinitive, and perfective conjugated forms of the perfective verb)",
+      "example": "В будущем времени два вида: я буду читать (НСВ) и я прочитаю (СВ)."
+    },
+    {
+      "term": "буду",
+      "definition": "1sg form of быть in the future; auxiliary for the imperfective future (буду + impf infinitive)",
+      "example": "Я буду читать книгу весь вечер."
+    },
+    {
+      "term": "напишу / прочитаю",
+      "definition": "1sg perfective future forms (present-conjugation forms of perfective verbs always have future meaning)",
+      "example": "Завтра я напишу письмо и прочитаю книгу."
+    }
+  ]
+}

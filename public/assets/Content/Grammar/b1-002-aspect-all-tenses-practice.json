@@ -1,0 +1,519 @@
+{
+  "lessonId": "b1-002-aspect-all-tenses",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Tense and Aspect Quiz",
+      "titleRussian": "Викторина: время и вид",
+      "description": "Choose the correct aspect and tense for each context",
+      "descriptionRussian": "Выберите правильное время и вид глагола",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Сейчас она _____ обед. (She is cooking dinner right now.)",
+              "promptEnglish": "She is cooking dinner right now.",
+              "options": [
+                "готовит",
+                "будет готовить",
+                "приготовила",
+                "приготовит"
+              ],
+              "answer": "готовит",
+              "hint": "Сейчас = right now. Only imperfective has a true present tense.",
+              "explanation": "Present tense can only be imperfective: готовит. Perfective has no present form."
+            },
+            {
+              "prompt": "Завтра он _____ этот отчёт. (Tomorrow he will finish this report.)",
+              "promptEnglish": "Tomorrow he will finish this report.",
+              "options": [
+                "пишет",
+                "писал",
+                "напишет",
+                "будет писать"
+              ],
+              "answer": "напишет",
+              "hint": "Completed result in the future uses perfective.",
+              "explanation": "Single completed result in future uses perfective: напишет."
+            },
+            {
+              "prompt": "Вчера мы долго _____ этот вопрос. (Yesterday we discussed this issue for a long time.)",
+              "promptEnglish": "Yesterday we discussed this issue for a long time.",
+              "options": [
+                "обсудили",
+                "обсуждали",
+                "обсуждаем",
+                "обсудим"
+              ],
+              "answer": "обсуждали",
+              "hint": "Долго emphasizes duration in the past.",
+              "explanation": "Duration (долго) in the past requires imperfective: обсуждали."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Каждую субботу мы _____ в кино. (Every Saturday we go to the movies.)",
+              "promptEnglish": "Every Saturday we go to the movies.",
+              "options": [
+                "ходим",
+                "сходили",
+                "пойдём",
+                "пошли"
+              ],
+              "answer": "ходим",
+              "hint": "Habitual present (каждую субботу) = imperfective present.",
+              "explanation": "Habitual present action uses imperfective: ходим."
+            },
+            {
+              "prompt": "Он уже _____ домашнее задание. (He has already done his homework.)",
+              "promptEnglish": "He has already done his homework.",
+              "options": [
+                "делал",
+                "делает",
+                "сделал",
+                "будет делать"
+              ],
+              "answer": "сделал",
+              "hint": "Уже (already) signals a completed result.",
+              "explanation": "Result marker 'уже' requires perfective past: сделал."
+            },
+            {
+              "prompt": "Завтра весь день я _____ для экзамена. (Tomorrow I'll be studying for the exam all day.)",
+              "promptEnglish": "Tomorrow I'll be studying for the exam all day.",
+              "options": [
+                "буду готовиться",
+                "готовлюсь",
+                "подготовился",
+                "подготовлюсь"
+              ],
+              "answer": "буду готовиться",
+              "hint": "Extended future activity (весь день) = imperfective future.",
+              "explanation": "Extended duration in the future (весь день) uses imperfective future: буду готовиться."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он _____ письмо два часа. (He wrote/was writing the letter for two hours - process.)",
+          "contextEnglish": "He was writing the letter for two hours (process).",
+          "options": [
+            "писал",
+            "написал"
+          ],
+          "answer": "писал",
+          "explanation": "Duration (два часа) emphasizes the process, requiring imperfective past: писал."
+        },
+        {
+          "context": "Он _____ письмо за два часа. (He wrote the letter in two hours - result within timeframe.)",
+          "contextEnglish": "He wrote the letter in two hours (completed within timeframe).",
+          "options": [
+            "писал",
+            "написал"
+          ],
+          "answer": "написал",
+          "explanation": "Completed within a timeframe (за два часа) requires perfective: написал."
+        },
+        {
+          "context": "Завтра я _____ эту книгу. (process, extended future activity)",
+          "contextEnglish": "Tomorrow I'll be reading this book (extended activity).",
+          "options": [
+            "буду читать",
+            "прочитаю"
+          ],
+          "answer": "буду читать",
+          "explanation": "Extended future activity without emphasis on completion uses imperfective future: буду читать."
+        },
+        {
+          "context": "Завтра я обязательно _____ эту книгу. (will definitely finish it)",
+          "contextEnglish": "Tomorrow I'll definitely finish this book.",
+          "options": [
+            "буду читать",
+            "прочитаю"
+          ],
+          "answer": "прочитаю",
+          "explanation": "Definite completion (обязательно + finish) uses perfective future: прочитаю."
+        }
+      ]
+    },
+    {
+      "id": "round-2-sort-correct",
+      "title": "Sort and Correct",
+      "titleRussian": "Сортируй и исправляй",
+      "description": "Sort verb forms by tense and fix aspect mistakes",
+      "descriptionRussian": "Рассортируйте глаголы по временам и исправьте ошибки",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort these verb forms: Past, Present, or Future?",
+        "categories": [
+          "Past",
+          "Present",
+          "Future"
+        ],
+        "items": [
+          {
+            "word": "решал",
+            "category": "Past"
+          },
+          {
+            "word": "решаю",
+            "category": "Present"
+          },
+          {
+            "word": "буду решать",
+            "category": "Future"
+          },
+          {
+            "word": "решил",
+            "category": "Past"
+          },
+          {
+            "word": "решу",
+            "category": "Future"
+          },
+          {
+            "word": "готовлю",
+            "category": "Present"
+          },
+          {
+            "word": "приготовил",
+            "category": "Past"
+          },
+          {
+            "word": "приготовлю",
+            "category": "Future"
+          },
+          {
+            "word": "делаю",
+            "category": "Present"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Сейчас он прочитает газету.",
+          "error": "прочитает",
+          "correction": "читает",
+          "hint": "Сейчас (right now) = present tense. Perfective verbs have no true present.",
+          "explanation": "Прочитает looks like present tense but is actually perfective future. For 'right now,' use imperfective present: читает.",
+          "options": [
+            "читает",
+            "прочитал",
+            "будет читать"
+          ]
+        },
+        {
+          "sentence": "Вчера она будет готовить ужин.",
+          "error": "будет",
+          "correction": "готовила",
+          "hint": "Вчера (yesterday) requires past tense, not future.",
+          "explanation": "Past tense is needed with 'вчера': готовила (imperfective past for process) or приготовила (perfective past for result).",
+          "options": [
+            "готовила",
+            "будет готовить",
+            "приготовит",
+            "готовит"
+          ]
+        },
+        {
+          "sentence": "Каждое утро он выпил кофе.",
+          "error": "выпил",
+          "correction": "пил",
+          "hint": "Каждое утро (every morning) = habitual action. Which aspect for habits?",
+          "explanation": "Habitual actions (каждое утро) require imperfective: пил, not perfective выпил.",
+          "options": [
+            "пил",
+            "выпьет",
+            "выпьют"
+          ]
+        },
+        {
+          "sentence": "Завтра я долго сделаю домашнее задание.",
+          "error": "сделаю",
+          "correction": "буду делать",
+          "hint": "Долго (for a long time) emphasizes process/duration, which needs imperfective.",
+          "explanation": "Duration marker 'долго' in future requires imperfective future: буду делать, not perfective сделаю.",
+          "options": [
+            "буду делать",
+            "сделал",
+            "делаю"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What tense does the perfective present form actually express?",
+              "promptEnglish": "Perfective 'present' form = ?",
+              "options": [
+                "Past tense",
+                "No tense",
+                "Present tense",
+                "Future tense"
+              ],
+              "answer": "Future tense",
+              "hint": "Perfective verbs have no true present. Their 'present' form means something else.",
+              "explanation": "The conjugated form of a perfective verb (прочитаю, напишу) is actually future tense, not present."
+            },
+            {
+              "prompt": "Наконец он _____ решение. (He finally made a decision.)",
+              "promptEnglish": "He finally made a decision.",
+              "options": [
+                "принимал",
+                "принял",
+                "принимает",
+                "примет"
+              ],
+              "answer": "принял",
+              "hint": "Наконец (finally) = achieved result in the past.",
+              "explanation": "Result marker 'наконец' + past context requires perfective past: принял."
+            },
+            {
+              "prompt": "Она часто _____ об этом. (She often thinks about this.)",
+              "promptEnglish": "She often thinks about this.",
+              "options": [
+                "подумает",
+                "думает",
+                "думала",
+                "подумала"
+              ],
+              "answer": "думает",
+              "hint": "Часто (often) + present context = habitual imperfective present.",
+              "explanation": "Habitual present action (часто) uses imperfective present: думает."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-patterns-build",
+      "title": "Patterns and Building",
+      "titleRussian": "Паттерны и построение",
+      "description": "Recognize signal words and build sentences",
+      "descriptionRussian": "Распознайте сигнальные слова и постройте предложения",
+      "icon": "lightbulb",
+      "patternRecognition": [
+        {
+          "sentence": "долго, часто, обычно, каждый день, всегда",
+          "question": "What aspect do these signal words typically require?",
+          "options": [
+            "Perfective",
+            "Either aspect",
+            "Imperfective"
+          ],
+          "answer": "Imperfective",
+          "explanation": "These words signal duration, repetition, or habit, all of which require imperfective aspect."
+        },
+        {
+          "sentence": "уже, вдруг, наконец, сразу, за час",
+          "question": "What aspect do these signal words typically require?",
+          "options": [
+            "Either aspect",
+            "Imperfective",
+            "Perfective"
+          ],
+          "answer": "Perfective",
+          "explanation": "These words signal completion, suddenness, or result within a timeframe, requiring perfective aspect."
+        },
+        {
+          "sentence": "прочитаю, напишу, сделаю, решу",
+          "question": "These look like present tense conjugations, but what tense do they actually express?",
+          "options": [
+            "Past tense",
+            "Present tense",
+            "Future tense"
+          ],
+          "answer": "Future tense",
+          "explanation": "These are perfective verbs. Perfective has no present tense. Their conjugated forms express future: прочитаю = I will read (and finish)."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Обычно она _____ на работу на метро. (She usually goes to work by metro.)",
+          "Вчера он наконец _____ новую работу. (Yesterday he finally found a new job.)"
+        ],
+        "choices": [
+          "ездит",
+          "нашёл",
+          "будем смотреть"
+        ],
+        "answers": [
+          "ездит",
+          "нашёл"
+        ],
+        "grammarFocus": "Signal words determine tense and aspect",
+        "hints": [
+          "Обычно (usually) = habitual present. Which form?",
+          "Наконец (finally) = completed result in past. Which form?"
+        ],
+        "explanations": [
+          "Habitual present (обычно) uses imperfective present: ездит.",
+          "Achieved result (наконец) uses perfective past: нашёл."
+        ],
+        "options": [
+          [
+            "ездил",
+            "поехал",
+            "ездит",
+            "поехала"
+          ],
+          [
+            "находил",
+            "искал",
+            "нашёл",
+            "найдёт"
+          ]
+        ]
+      },
+      "translation": [
+        {
+          "english": "She is writing a letter right now.",
+          "answer": "Сейчас она пишет письмо.",
+          "acceptableVariants": [
+            "Она сейчас пишет письмо."
+          ],
+          "hint": "right now = сейчас, present tense, only imperfective has present: пишет",
+          "grammarFocus": "Only imperfective has a true present tense",
+          "keyWord": "пишет",
+          "options": [
+            "пишет",
+            "пишут",
+            "писала",
+            "напишет"
+          ]
+        },
+        {
+          "english": "Tomorrow I will finish this project.",
+          "answer": "Завтра я закончу этот проект.",
+          "acceptableVariants": [
+            "Я завтра закончу этот проект."
+          ],
+          "hint": "finish = completed result in future = perfective future: закончу",
+          "grammarFocus": "Perfective future for completed result",
+          "keyWord": "закончу",
+          "options": [
+            "закончу",
+            "закончишь",
+            "закончил",
+            "заканчиваю"
+          ]
+        },
+        {
+          "english": "Every day he reads newspapers.",
+          "answer": "Каждый день он читает газеты.",
+          "acceptableVariants": [
+            "Он каждый день читает газеты."
+          ],
+          "hint": "every day = каждый день, habitual = imperfective present: читает",
+          "grammarFocus": "Habitual present = imperfective",
+          "keyWord": "читает",
+          "options": [
+            "читает",
+            "читают",
+            "читал",
+            "прочитает"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Финальное задание",
+      "description": "All tenses and aspects in one round",
+      "descriptionRussian": "Все времена и виды в одном раунде",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "How many tenses does imperfective aspect have?",
+              "promptEnglish": "Imperfective = how many tenses?",
+              "options": [
+                "2 (past and future)",
+                "3 (past, present, future)",
+                "1 (present only)",
+                "2 (past and present)"
+              ],
+              "answer": "3 (past, present, future)",
+              "hint": "Imperfective is the 'full' aspect with all tenses.",
+              "explanation": "Imperfective has all 3 tenses: past (читал), present (читаю), future (буду читать)."
+            },
+            {
+              "prompt": "Я _____ этот фильм, не мешай. (I'm watching this movie, don't bother me.)",
+              "promptEnglish": "I'm watching this movie, don't bother me.",
+              "options": [
+                "посмотрю",
+                "буду смотреть",
+                "смотрю",
+                "посмотрел"
+              ],
+              "answer": "смотрю",
+              "hint": "Action happening right now = present tense = imperfective only.",
+              "explanation": "Action in progress right now uses imperfective present: смотрю."
+            },
+            {
+              "prompt": "Она _____ ужин и сразу легла спать. (She ate dinner and immediately went to bed.)",
+              "promptEnglish": "She ate dinner and immediately went to bed.",
+              "options": [
+                "ужинает",
+                "ужинала",
+                "поужинала",
+                "поужинает"
+              ],
+              "answer": "поужинала",
+              "hint": "Completed action followed by the next (сразу) = perfective.",
+              "explanation": "Completed action with immediate next step (сразу) uses perfective: поужинала."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Каждый день она приготовит завтрак.",
+          "error": "приготовит",
+          "correction": "готовит",
+          "hint": "Каждый день = habitual present. Habitual actions need imperfective.",
+          "explanation": "Habitual present (каждый день) requires imperfective present: готовит, not perfective future приготовит.",
+          "options": [
+            "готовит",
+            "приготовила",
+            "будет готовить"
+          ]
+        },
+        {
+          "sentence": "Вдруг он понимал всё.",
+          "error": "понимал",
+          "correction": "понял",
+          "hint": "Вдруг (suddenly) signals a sudden realization, a single completed event.",
+          "explanation": "Sudden event (вдруг) requires perfective: понял, not imperfective понимал.",
+          "options": [
+            "понял",
+            "понимает",
+            "будет понимать"
+          ]
+        },
+        {
+          "sentence": "Сейчас студенты решат задачу.",
+          "error": "решат",
+          "correction": "решают",
+          "hint": "Сейчас = right now. Perfective has no present tense; решат is future.",
+          "explanation": "Сейчас requires present tense, which only exists for imperfective: решают. Решат is perfective future, not present.",
+          "options": [
+            "решают",
+            "решили",
+            "будут решать"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-003",
+  "title": "Fraud Investigation",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Clear your name in corporate fraud investigation",
+  "imageName": "magnifyingglass",
+  "initialPrompt": "Финансовые аудиторы обнаружили нарушения в вашем отделе. Вы главный подозреваемый. Докажите свою невиновность.",
+  "systemPrompt": "You are forensic auditor convinced of guilt. Present circumstantial evidence, pressure for confession. Only clear suspect who provides irrefutable alibis and alternative explanations.",
+  "completionCriteria": "User proved innocence in fraud investigation.",
+  "responseLimit": 15,
+  "hints": [
+    "Я не имел доступа к этим счетам (I didn't have access to those accounts)",
+    "Проверьте журнал входов (Check the access logs)"
+  ],
+  "targetVocabulary": [
+    {"word": "мошенничество", "definition": "fraud"},
+    {"word": "аудит", "definition": "audit"},
+    {"word": "подозреваемый", "definition": "suspect"},
+    {"word": "невиновность", "definition": "innocence"},
+    {"word": "алиби", "definition": "alibi"},
+    {"word": "расследование", "definition": "investigation"}
+  ],
+  "objectives": [
+    "Deny involvement clearly",
+    "Provide alibis",
+    "Suggest alternative suspects",
+    "Present exonerating evidence",
+    "Clear your name"
+  ]
+}

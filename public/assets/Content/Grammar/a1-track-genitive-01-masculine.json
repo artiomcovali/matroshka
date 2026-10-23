@@ -1,0 +1,273 @@
+{
+  "id": "a1-track-genitive-01-masculine",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Genitive 1: Saying What's Missing",
+  "titleRussian": "Родительный 1: Чего нет?",
+  "description": "Masculine nouns add -а in the genitive (-я for soft stems ending in -й or -ь). The genitive is used after нет to say something is absent.",
+  "descriptionRussian": "Мужские существительные на согласный получают окончание -а в родительном падеже (или -я для основ на -й или -ь). Родительный падеж используется после нет.",
+  "imageName": "minus.circle",
+  "trackId": "a1-genitive-mastery",
+  "trackTitle": "Genitive Mastery",
+  "trackTitleRussian": "Родительный падеж",
+  "trackIndex": 1,
+  "trackTotal": 8,
+  "intro": "This is the case you will meet more than any other, and it does a startling number of unrelated jobs. Rather than survey them, this book starts with the one you will use on your first day of speaking: saying that something is not there. 'I don't have' is a sentence beginners need constantly and phrasebooks teach badly. Later in this book the same endings will be doing several other jobs, and they will still be the same endings.",
+  "rules": [
+    "The genitive case (родительный падеж) is the case of absence and possession. After нет (meaning 'there is no X' or 'one doesn't have X'), the next noun moves into the genitive.",
+    "Masculine nouns ending in a hard consonant add -а in the genitive: журнал → журнала, сок → сока, телефон → телефона.",
+    "Masculine nouns ending in soft -й or soft -ь swap to -я in the genitive: чай → чая, музей → музея, учитель → учителя, словарь → словаря.",
+    "Genitive does not distinguish animate from inanimate. Both things and people get the same hard -а or soft -я ending: дом → дома, брат → брата, учитель → учителя."
+  ],
+  "examples": [
+    "У меня нет журнала. (I don't have a magazine.) журнал → журнала, hard consonant + -а.",
+    "На столе нет хлеба. (There is no bread on the table.) хлеб → хлеба, hard consonant + -а.",
+    "У Лены нет брата. (Lena doesn't have a brother.) брат → брата, hard consonant + -а.",
+    "В чашке нет чая. (There is no tea in the cup.) чай → чая, soft -й → -я.",
+    "В городе нет музея. (There is no museum in the city.) музей → музея, soft -й → -я.",
+    "В классе нет учителя. (There is no teacher in the class.) учитель → учителя, soft -ь → -я."
+  ],
+  "tables": [
+    {
+      "title": "Masculine Genitive: -а (hard) and -я (soft)",
+      "headers": [
+        "Что? (Nominative)",
+        "Чего нет? (Genitive)",
+        "Change"
+      ],
+      "rows": [
+        {
+          "label": "журнал",
+          "cells": [
+            "журнала",
+            "+ -а (hard cons)"
+          ]
+        },
+        {
+          "label": "сок",
+          "cells": [
+            "сока",
+            "+ -а (hard cons)"
+          ]
+        },
+        {
+          "label": "хлеб",
+          "cells": [
+            "хлеба",
+            "+ -а (hard cons)"
+          ]
+        },
+        {
+          "label": "брат",
+          "cells": [
+            "брата",
+            "+ -а (hard cons)"
+          ]
+        },
+        {
+          "label": "чай",
+          "cells": [
+            "чая",
+            "-й → -я (soft)"
+          ]
+        },
+        {
+          "label": "музей",
+          "cells": [
+            "музея",
+            "-й → -я (soft)"
+          ]
+        },
+        {
+          "label": "учитель",
+          "cells": [
+            "учителя",
+            "-ь → -я (soft)"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "У меня нет _____.",
+          "promptEnglish": "I don't have a magazine.",
+          "options": [
+            "журнала",
+            "журнал",
+            "журналу",
+            "журналом"
+          ],
+          "answer": "журнала",
+          "hint": "What does нет signal about the case?",
+          "explanation": "The word нет here means 'there is no X' or 'one doesn't have X.' It triggers the genitive case. Masculine consonant nouns add -а: журнал → журнала."
+        },
+        {
+          "prompt": "У Маши нет _____.",
+          "promptEnglish": "Masha doesn't have any juice.",
+          "options": [
+            "сок",
+            "соком",
+            "сока",
+            "соку"
+          ],
+          "answer": "сока",
+          "hint": "Сок is masculine. What ending appears on masculine nouns after нет?",
+          "explanation": "Сок is masculine inanimate. Genitive doesn't care about animacy: every masculine consonant noun adds -а. Сок → сока."
+        },
+        {
+          "prompt": "На столе нет _____.",
+          "promptEnglish": "There is no bread on the table.",
+          "options": [
+            "хлеб",
+            "хлебу",
+            "хлебом",
+            "хлеба"
+          ],
+          "answer": "хлеба",
+          "hint": "Same rule you used for журнал and сок.",
+          "explanation": "Notice the construction: нет + genitive = 'there is no X.' Хлеб follows the standard rule: add -а → хлеба."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "В офисе нет _____.",
+          "promptEnglish": "There is no phone in the office.",
+          "options": [
+            "телефон",
+            "телефона",
+            "телефоном",
+            "телефону"
+          ],
+          "answer": "телефона",
+          "hint": "What ending appeared on the first three nouns? Use it here.",
+          "explanation": "The pattern is consistent: журнал → журнала, сок → сока, хлеб → хлеба, телефон → телефона. Same -а ending across all four."
+        },
+        {
+          "prompt": "У Лены нет _____.",
+          "promptEnglish": "Lena doesn't have a brother.",
+          "options": [
+            "братом",
+            "брату",
+            "брат",
+            "брата"
+          ],
+          "answer": "брата",
+          "hint": "Брат is animate. Does that change the genitive form?",
+          "explanation": "Брат refers to a person, but the genitive form uses the same -а ending you'd add to any masculine consonant noun. Genitive does not distinguish animate from inanimate, unlike the accusative. A useful link: for masculine ANIMATE nouns the genitive form (брата) is identical to the accusative form, so 'брата' covers both 'У меня нет брата' (I have no brother, gen) and 'Я вижу брата' (I see brother, acc)."
+        },
+        {
+          "prompt": "В чашке нет _____.",
+          "promptEnglish": "There is no tea in the cup.",
+          "options": [
+            "чай",
+            "чаю",
+            "чая",
+            "чаем"
+          ],
+          "answer": "чая",
+          "hint": "Чай ends in soft -й. What does soft -й become in the genitive?",
+          "explanation": "Soft endings stay soft: -й becomes -я in the genitive. Чай → чая. Compare with hard masculines (журнал → журнала): the hard / soft signal in the dictionary form picks the vowel."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "В комнате нет _____. (There is no table in the room.)"
+    ],
+    "choices": [
+      "стол",
+      "стола",
+      "столу",
+      "столом"
+    ],
+    "answers": [
+      "стола"
+    ],
+    "grammarFocus": "Стол is masculine and ends in a hard consonant. Genitive after нет: add -а → стола."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "У Антона нет дом в Москве.",
+      "translationEnglish": "Anton doesn't have a house in Moscow.",
+      "error": "дом",
+      "correction": "дома",
+      "options": [
+        "дома",
+        "дому",
+        "домом"
+      ],
+      "explanation": "After нет the noun shifts into the genitive. Дом is masculine ending in a hard consonant, so the genitive adds -а: дома. Нет always demands the genitive; there is no version of нет that takes the nominative."
+    },
+    {
+      "sentence": "У меня нет кот дома уже год.",
+      "translationEnglish": "I haven't had a cat at home for a year.",
+      "error": "кот",
+      "correction": "кота",
+      "options": [
+        "кота",
+        "коту",
+        "котом"
+      ],
+      "explanation": "After нет the noun must be in the genitive. Кот is masculine animate; the genitive adds -а: кота. Without -а, кот stays in the nominative, which нет does not accept."
+    },
+    {
+      "sentence": "У Ивана нет друг в этом городе.",
+      "translationEnglish": "Ivan doesn't have a friend in this city.",
+      "error": "друг",
+      "correction": "друга",
+      "options": [
+        "друга",
+        "другу",
+        "другом"
+      ],
+      "explanation": "After нет the noun shifts into the genitive. Друг is masculine animate; the hard-consonant ending takes -а: друга. The pattern 'У Ивана нет + genitive' is the standard way to say someone doesn't have something."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "У меня есть _____.",
+      "contextEnglish": "I have a magazine.",
+      "options": [
+        "журнал",
+        "журнала"
+      ],
+      "answer": "журнал",
+      "explanation": "After есть ('there is X' / 'one has X') the noun stays in the nominative: журнал. The genitive form журнала appears in the opposite construction: 'У меня нет журнала' (I don't have a magazine). Есть keeps nominative, нет triggers genitive."
+    },
+    {
+      "context": "У Маши нет _____.",
+      "contextEnglish": "Masha doesn't have any juice.",
+      "options": [
+        "сок",
+        "сока"
+      ],
+      "answer": "сока",
+      "explanation": "After нет the noun shifts into the genitive: сока. Compare with 'У Маши есть сок' (Masha has juice), where сок stays in the nominative. The pair есть/нет is the cleanest way to feel the case shift."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "родительный падеж",
+      "definition": "genitive case (used after нет, for absence and possession, and after some prepositions)",
+      "example": "В предложении 'У меня нет журнала' слово 'журнала' стоит в родительном падеже."
+    },
+    {
+      "term": "чего?",
+      "definition": "what? (the genitive question word for things)",
+      "example": "Чего у тебя нет? — Сока."
+    },
+    {
+      "term": "soft-stem -й / -ь",
+      "definition": "soft masculine endings: nouns ending in -й or -ь take -я (not -а) in the genitive: чай → чая, музей → музея, учитель → учителя",
+      "example": "У меня нет чая."
+    }
+  ]
+}

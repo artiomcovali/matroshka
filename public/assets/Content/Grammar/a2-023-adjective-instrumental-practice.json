@@ -1,0 +1,787 @@
+{
+  "lessonId": "a2-023-adjective-instrumental",
+  "sets": [
+    {
+      "id": "round-1-masc-neuter",
+      "title": "Masculine & Neuter (-ым/-им)",
+      "titleRussian": "Мужской и средний род (-ым/-им)",
+      "description": "Instrumental adjective endings for masculine and neuter nouns",
+      "descriptionRussian": "Окончания прилагательных в творительном падеже (м. и ср. род)",
+      "icon": "wrench",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я говорю с _____ другом. (I'm talking with my new friend.)",
+              "promptEnglish": "С + instrumental masculine.",
+              "options": [
+                "новым",
+                "новому",
+                "нового",
+                "новый"
+              ],
+              "answer": "новым",
+              "hint": "Друг = masculine, instrumental: -ым.",
+              "explanation": "Masculine instrumental: новый → новым."
+            },
+            {
+              "prompt": "Книга лежит под _____ столом. (The book is under the big table.)",
+              "promptEnglish": "Под + instrumental masculine.",
+              "options": [
+                "большим",
+                "большому",
+                "большого",
+                "большой"
+              ],
+              "answer": "большим",
+              "hint": "Стол = masculine, под + instrumental: -им.",
+              "explanation": "Masculine instrumental: большой → большим."
+            },
+            {
+              "prompt": "Он стал _____ врачом. (He became a famous doctor.)",
+              "promptEnglish": "Profession in instrumental.",
+              "options": [
+                "известным",
+                "известного",
+                "известному",
+                "известный"
+              ],
+              "answer": "известным",
+              "hint": "Врач = masculine, profession = instrumental: -ым.",
+              "explanation": "Profession instrumental: известный → известным."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Мы любуемся _____ небом. (We admire the beautiful sky.)",
+              "promptEnglish": "Любоваться + instrumental neuter.",
+              "options": [
+                "красивым",
+                "красивое",
+                "красивого",
+                "красивому"
+              ],
+              "answer": "красивым",
+              "hint": "Небо = neuter, instrumental: -ым (same as masculine).",
+              "explanation": "Neuter instrumental: красивое → красивым."
+            },
+            {
+              "prompt": "Кот спит под _____ креслом. (The cat sleeps under the soft armchair.)",
+              "promptEnglish": "Под + instrumental neuter.",
+              "options": [
+                "мягким",
+                "мягкое",
+                "мягкого",
+                "мягкому"
+              ],
+              "answer": "мягким",
+              "hint": "Кресло = neuter, под + instrumental: -им.",
+              "explanation": "Neuter instrumental: мягкое → мягким."
+            },
+            {
+              "prompt": "Он познакомился с _____ человеком. (He met an interesting person.)",
+              "promptEnglish": "С + instrumental masculine.",
+              "options": [
+                "интересным",
+                "интересного",
+                "интересному",
+                "интересный"
+              ],
+              "answer": "интересным",
+              "hint": "Человек = masculine, с + instrumental: -ым.",
+              "explanation": "Masculine instrumental: интересный → интересным."
+            }
+          ]
+        }
+      ],
+      "declensionTable": {
+        "word": "старый",
+        "wordType": "adjective",
+        "gender": "masculine",
+        "paradigm": {
+          "nominative": "старый",
+          "genitive": "старого",
+          "dative": "старому",
+          "accusative": "старого",
+          "instrumental": "старым",
+          "prepositional": "старом"
+        },
+        "blanks": [
+          "instrumental"
+        ],
+        "hints": [
+          "Masc instrumental: -ый → -ым"
+        ],
+        "explanations": [
+          "Masculine instrumental: старый → старым."
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Мы стояли перед _____ зданием. (We stood before the old building.)",
+          "Она пьёт чай с _____ мёдом. (She drinks tea with fresh honey.)"
+        ],
+        "choices": [
+          "хорошим",
+          "старым",
+          "свежим",
+          "хороший",
+          "старого"
+        ],
+        "answers": [
+          "старым",
+          "свежим"
+        ],
+        "grammarFocus": "Masculine/neuter instrumental: hard -ым, soft -им",
+        "hints": [
+          "Перед + instrumental. Старый (hard stem): -ым.",
+          "С + instrumental. Свежий (soft stem): -им."
+        ],
+        "explanations": [
+          "Перед + instrumental: старый → старым.",
+          "С + instrumental: свежий → свежим."
+        ],
+        "options": [
+          [
+            "старые",
+            "старыми",
+            "старых",
+            "старым"
+          ],
+          [
+            "свежим",
+            "свежего",
+            "свежему",
+            "свежий"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-feminine",
+      "title": "Feminine (-ой/-ей)",
+      "titleRussian": "Женский род (-ой/-ей)",
+      "description": "Instrumental adjective endings for feminine nouns",
+      "descriptionRussian": "Окончания прилагательных в творительном падеже (ж. род)",
+      "icon": "person.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она гуляет с _____ подругой. (She walks with her best friend.)",
+              "promptEnglish": "С + instrumental feminine.",
+              "options": [
+                "лучшей",
+                "лучшую",
+                "лучшая",
+                "лучшим"
+              ],
+              "answer": "лучшей",
+              "hint": "Подруга = feminine, instrumental: -ей (soft stem).",
+              "explanation": "Feminine soft-stem instrumental: лучшая → лучшей."
+            },
+            {
+              "prompt": "Мы гордимся _____ дочерью. (We are proud of our talented daughter.)",
+              "promptEnglish": "Гордиться + instrumental feminine.",
+              "options": [
+                "талантливой",
+                "талантливую",
+                "талантливая",
+                "талантливым"
+              ],
+              "answer": "талантливой",
+              "hint": "Дочь = feminine, instrumental: -ой.",
+              "explanation": "Feminine instrumental: талантливая → талантливой."
+            },
+            {
+              "prompt": "Он восхищается _____ природой. (He admires the beautiful nature.)",
+              "promptEnglish": "Восхищаться + instrumental feminine.",
+              "options": [
+                "красивой",
+                "красивую",
+                "красивая",
+                "красивым"
+              ],
+              "answer": "красивой",
+              "hint": "Природа = feminine, instrumental: -ой.",
+              "explanation": "Feminine instrumental: красивая → красивой."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она стала _____ актрисой. (She became a famous actress.)",
+              "promptEnglish": "Profession in instrumental feminine.",
+              "options": [
+                "известной",
+                "известную",
+                "известная",
+                "известным"
+              ],
+              "answer": "известной",
+              "hint": "Profession = instrumental. Актриса = feminine: -ой.",
+              "explanation": "Feminine instrumental: известная → известной."
+            },
+            {
+              "prompt": "Я доволен _____ работой. (I am satisfied with the new work.)",
+              "promptEnglish": "Доволен + instrumental feminine.",
+              "options": [
+                "новой",
+                "новую",
+                "новая",
+                "новым"
+              ],
+              "answer": "новой",
+              "hint": "Работа = feminine, доволен + instrumental: -ой.",
+              "explanation": "Feminine instrumental: новая → новой."
+            },
+            {
+              "prompt": "Над _____ рекой летят птицы. (Birds fly over the wide river.)",
+              "promptEnglish": "Над + instrumental feminine.",
+              "options": [
+                "широкой",
+                "широкую",
+                "широкая",
+                "широким"
+              ],
+              "answer": "широкой",
+              "hint": "Река = feminine, над + instrumental: -ой.",
+              "explanation": "Feminine instrumental: широкая → широкой."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я вижу _____ подругу. (I see my old friend.) - accusative",
+          "contextEnglish": "Accusative feminine: -ую.",
+          "options": [
+            "старую",
+            "старой"
+          ],
+          "answer": "старую",
+          "explanation": "Accusative feminine: старая → старую."
+        },
+        {
+          "context": "Я гуляю со _____ подругой. (I walk with my old friend.) - instrumental",
+          "contextEnglish": "Instrumental feminine: -ой.",
+          "options": [
+            "старой",
+            "старую"
+          ],
+          "answer": "старой",
+          "explanation": "Instrumental feminine: старая → старой."
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Она гуляет с новую подругой.",
+          "error": "новую",
+          "correction": "новой",
+          "explanation": "С + instrumental, not accusative. Feminine instrumental: новая → новой.",
+          "options": [
+            "новой",
+            "новая",
+            "новым"
+          ]
+        },
+        {
+          "sentence": "Мы гордимся талантливая дочерью.",
+          "error": "талантливая",
+          "correction": "талантливой",
+          "explanation": "Гордиться + instrumental. Feminine instrumental: талантливая → талантливой.",
+          "options": [
+            "талантливой",
+            "талантливую",
+            "талантливым"
+          ]
+        },
+        {
+          "sentence": "Он доволен хорошую работой.",
+          "error": "хорошую",
+          "correction": "хорошей",
+          "explanation": "Доволен + instrumental. Feminine soft-stem instrumental: хорошая → хорошей.",
+          "options": [
+            "хорошей",
+            "хорошая",
+            "хорошим"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-plural",
+      "title": "Plural (-ыми/-ими)",
+      "titleRussian": "Множественное число (-ыми/-ими)",
+      "description": "Instrumental adjective endings for plural nouns",
+      "descriptionRussian": "Окончания прилагательных в творительном падеже (мн. число)",
+      "icon": "person.3.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы работаем с _____ коллегами. (We work with good colleagues.)",
+              "promptEnglish": "С + instrumental plural.",
+              "options": [
+                "хорошими",
+                "хороших",
+                "хорошим",
+                "хорошие"
+              ],
+              "answer": "хорошими",
+              "hint": "Коллеги (pl), instrumental: -ими.",
+              "explanation": "Plural soft-stem instrumental: хорошие → хорошими."
+            },
+            {
+              "prompt": "Дети играют с _____ игрушками. (The children play with new toys.)",
+              "promptEnglish": "С + instrumental plural.",
+              "options": [
+                "новыми",
+                "новых",
+                "новым",
+                "новые"
+              ],
+              "answer": "новыми",
+              "hint": "Игрушки (pl), instrumental: -ыми.",
+              "explanation": "Plural instrumental: новые → новыми."
+            },
+            {
+              "prompt": "Она гуляет с _____ собаками. (She walks with big dogs.)",
+              "promptEnglish": "С + instrumental plural.",
+              "options": [
+                "большими",
+                "больших",
+                "большим",
+                "большие"
+              ],
+              "answer": "большими",
+              "hint": "Собаки (pl), instrumental: -ими.",
+              "explanation": "Plural instrumental: большие → большими."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Мы довольны _____ результатами. (We are satisfied with the excellent results.)",
+              "promptEnglish": "Довольны + instrumental plural.",
+              "options": [
+                "отличными",
+                "отличных",
+                "отличным",
+                "отличные"
+              ],
+              "answer": "отличными",
+              "hint": "Результаты (pl), довольны + instrumental: -ыми.",
+              "explanation": "Plural instrumental: отличные → отличными."
+            },
+            {
+              "prompt": "Между _____ домами есть сад. (Between the old houses there is a garden.)",
+              "promptEnglish": "Между + instrumental plural.",
+              "options": [
+                "старыми",
+                "старых",
+                "старым",
+                "старые"
+              ],
+              "answer": "старыми",
+              "hint": "Дома (pl), между + instrumental: -ыми.",
+              "explanation": "Plural instrumental: старые → старыми."
+            },
+            {
+              "prompt": "Он занимается с _____ студентами. (He studies with young students.)",
+              "promptEnglish": "С + instrumental plural.",
+              "options": [
+                "молодыми",
+                "молодых",
+                "молодым",
+                "молодые"
+              ],
+              "answer": "молодыми",
+              "hint": "Студенты (pl), с + instrumental: -ыми.",
+              "explanation": "Plural instrumental: молодые → молодыми."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these instrumental phrases by gender/number.",
+        "categories": [
+          "Masculine/Neuter (-ым/-им)",
+          "Feminine (-ой/-ей)",
+          "Plural (-ыми/-ими)"
+        ],
+        "items": [
+          {
+            "word": "с новым другом",
+            "category": "Masculine/Neuter (-ым/-им)"
+          },
+          {
+            "word": "со старой подругой",
+            "category": "Feminine (-ой/-ей)"
+          },
+          {
+            "word": "с хорошими людьми",
+            "category": "Plural (-ыми/-ими)"
+          },
+          {
+            "word": "под большим столом",
+            "category": "Masculine/Neuter (-ым/-им)"
+          },
+          {
+            "word": "с младшей сестрой",
+            "category": "Feminine (-ой/-ей)"
+          },
+          {
+            "word": "с новыми книгами",
+            "category": "Plural (-ыми/-ими)"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Мы гордимся _____ детьми. (We are proud of our wonderful children.)",
+          "Перед _____ дверями стоит стол. (In front of the big doors stands a table.)",
+          "Он работает с _____ программами. (He works with new programs.)"
+        ],
+        "choices": [
+          "замечательными",
+          "большими",
+          "новыми",
+          "замечательных",
+          "большим"
+        ],
+        "answers": [
+          "замечательными",
+          "большими",
+          "новыми"
+        ],
+        "grammarFocus": "Plural instrumental: hard -ыми, soft -ими",
+        "hints": [
+          "Дети (pl), гордиться + instrumental: -ыми.",
+          "Двери (pl), перед + instrumental: -ими.",
+          "Программы (pl), с + instrumental: -ыми."
+        ],
+        "explanations": [
+          "Plural instrumental: замечательные → замечательными.",
+          "Plural instrumental: большие → большими.",
+          "Plural instrumental: новые → новыми."
+        ],
+        "options": [
+          [
+            "замечательными",
+            "замечательных",
+            "замечательный",
+            "замечательные"
+          ],
+          [
+            "большими",
+            "больших",
+            "большие",
+            "больший"
+          ],
+          [
+            "новый",
+            "новых",
+            "новые",
+            "новыми"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-prepositions-professions",
+      "title": "Prepositions & Professions",
+      "titleRussian": "Предлоги и профессии",
+      "description": "Practice instrumental with key prepositions and profession expressions",
+      "descriptionRussian": "Творительный падеж с предлогами и профессиями",
+      "icon": "briefcase",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Он стал _____ учителем. (He became a strict teacher.)",
+              "promptEnglish": "Profession: instrumental.",
+              "options": [
+                "строгим",
+                "строгого",
+                "строгому",
+                "строгий"
+              ],
+              "answer": "строгим",
+              "hint": "Profession = instrumental. Учитель = masculine: -им.",
+              "explanation": "Profession instrumental: строгий → строгим."
+            },
+            {
+              "prompt": "Лампа висит над _____ кроватью. (The lamp hangs over the wide bed.)",
+              "promptEnglish": "Над + instrumental feminine.",
+              "options": [
+                "широкой",
+                "широкую",
+                "широкая",
+                "широким"
+              ],
+              "answer": "широкой",
+              "hint": "Кровать = feminine, над + instrumental: -ой.",
+              "explanation": "Feminine instrumental: широкая → широкой."
+            },
+            {
+              "prompt": "За _____ домом есть сад. (Behind the big house there is a garden.)",
+              "promptEnglish": "За + instrumental masculine.",
+              "options": [
+                "большим",
+                "большого",
+                "большому",
+                "большой"
+              ],
+              "answer": "большим",
+              "hint": "Дом = masculine, за + instrumental: -им.",
+              "explanation": "Masculine instrumental: большой → большим."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она работает _____ медсестрой. (She works as an experienced nurse.)",
+              "promptEnglish": "Profession: instrumental feminine.",
+              "options": [
+                "опытной",
+                "опытную",
+                "опытная",
+                "опытным"
+              ],
+              "answer": "опытной",
+              "hint": "Profession = instrumental. Медсестра = feminine: -ой.",
+              "explanation": "Profession feminine instrumental: опытная → опытной."
+            },
+            {
+              "prompt": "Мы сидели под _____ деревом. (We sat under the old tree.)",
+              "promptEnglish": "Под + instrumental neuter.",
+              "options": [
+                "старым",
+                "старого",
+                "старому",
+                "старое"
+              ],
+              "answer": "старым",
+              "hint": "Дерево = neuter, под + instrumental: -ым.",
+              "explanation": "Neuter instrumental: старое → старым."
+            },
+            {
+              "prompt": "Между _____ зданиями есть парк. (Between the tall buildings there is a park.)",
+              "promptEnglish": "Между + instrumental plural.",
+              "options": [
+                "высокими",
+                "высоких",
+                "высокие",
+                "высоким"
+              ],
+              "answer": "высокими",
+              "hint": "Здания (pl), между + instrumental: -ими.",
+              "explanation": "Plural instrumental: высокие → высокими."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "sourceText": "She became a talented artist.",
+          "targetText": "Она стала талантливой художницей.",
+          "hint": "Profession = instrumental. Художница = feminine: -ой.",
+          "explanation": "Profession feminine instrumental: талантливая → талантливой.",
+          "keyWord": "талантливой",
+          "options": [
+            "талантливой",
+            "талантливая",
+            "талантливую",
+            "талантливым"
+          ]
+        },
+        {
+          "sourceText": "The cat is under the soft blanket.",
+          "targetText": "Кот под мягким одеялом.",
+          "hint": "Под + instrumental. Одеяло = neuter: -им.",
+          "explanation": "Neuter instrumental: мягкое → мягким.",
+          "keyWord": "мягким",
+          "options": [
+            "мягким",
+            "мягкое",
+            "мягкого",
+            "мягкому"
+          ]
+        },
+        {
+          "sourceText": "We are proud of our young team.",
+          "targetText": "Мы гордимся молодой командой.",
+          "hint": "Гордиться + instrumental. Команда = feminine: -ой.",
+          "explanation": "Feminine instrumental: молодая → молодой.",
+          "keyWord": "молодой",
+          "options": [
+            "молодой",
+            "молодая",
+            "молодую",
+            "молодым"
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "с другом, под столом, за домом, перед зданием, над рекой",
+          "question": "All these prepositions require which case?",
+          "options": [
+            "Instrumental",
+            "Dative",
+            "Prepositional"
+          ],
+          "answer": "Instrumental",
+          "explanation": "С, под, за, перед, над all require instrumental case."
+        },
+        {
+          "sentence": "Он стал врачом. Она работает учительницей. Он был студентом.",
+          "question": "Why is instrumental used here (no preposition)?",
+          "options": [
+            "Professions and roles after стать/работать/быть",
+            "After any verb",
+            "Only in past tense"
+          ],
+          "answer": "Professions and roles after стать/работать/быть",
+          "explanation": "Стать, работать, быть + profession = instrumental case."
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All instrumental adjective skills: endings, prepositions, professions, contrast",
+      "descriptionRussian": "Все навыки: окончания, предлоги, профессии",
+      "icon": "bolt.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы довольны _____ учителем. (We are satisfied with the new teacher.)",
+              "promptEnglish": "Довольны + instrumental masculine.",
+              "options": [
+                "новым",
+                "нового",
+                "новому",
+                "новый"
+              ],
+              "answer": "новым",
+              "hint": "Довольны + instrumental. Учитель = masculine: -ым.",
+              "explanation": "Masculine instrumental: новый → новым."
+            },
+            {
+              "prompt": "Она пришла с _____ сестрой. (She came with her younger sister.)",
+              "promptEnglish": "С + instrumental feminine.",
+              "options": [
+                "младшей",
+                "младшую",
+                "младшая",
+                "младшим"
+              ],
+              "answer": "младшей",
+              "hint": "Сестра = feminine, с + instrumental: -ей.",
+              "explanation": "Feminine soft-stem instrumental: младшая → младшей."
+            },
+            {
+              "prompt": "Дети играют с _____ мячами. (The children play with colorful balls.)",
+              "promptEnglish": "С + instrumental plural.",
+              "options": [
+                "разноцветными",
+                "разноцветных",
+                "разноцветным",
+                "разноцветные"
+              ],
+              "answer": "разноцветными",
+              "hint": "Мячи (pl), с + instrumental: -ыми.",
+              "explanation": "Plural instrumental: разноцветные → разноцветными."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Он стал _____ программистом. (He became a successful programmer.)",
+              "promptEnglish": "Profession in instrumental.",
+              "options": [
+                "успешным",
+                "успешного",
+                "успешному",
+                "успешный"
+              ],
+              "answer": "успешным",
+              "hint": "Profession = instrumental. Программист = masculine: -ым.",
+              "explanation": "Profession instrumental: успешный → успешным."
+            },
+            {
+              "prompt": "Мы любуемся _____ закатом. (We admire the beautiful sunset.)",
+              "promptEnglish": "Любоваться + instrumental masculine.",
+              "options": [
+                "красивым",
+                "красивого",
+                "красивому",
+                "красивый"
+              ],
+              "answer": "красивым",
+              "hint": "Закат = masculine, любоваться + instrumental: -ым.",
+              "explanation": "Masculine instrumental: красивый → красивым."
+            },
+            {
+              "prompt": "Она довольна _____ жизнью. (She is satisfied with her happy life.)",
+              "promptEnglish": "Довольна + instrumental feminine.",
+              "options": [
+                "счастливой",
+                "счастливую",
+                "счастливая",
+                "счастливым"
+              ],
+              "answer": "счастливой",
+              "hint": "Жизнь = feminine, довольна + instrumental: -ой.",
+              "explanation": "Feminine instrumental: счастливая → счастливой."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Мы довольны новые результатами.",
+          "error": "новые",
+          "correction": "новыми",
+          "explanation": "Довольны + instrumental. Plural instrumental: новые → новыми.",
+          "options": [
+            "новыми",
+            "новых",
+            "новым"
+          ]
+        },
+        {
+          "sentence": "Она гуляет с старую подругой.",
+          "error": "старую",
+          "correction": "старой",
+          "explanation": "С + instrumental (not accusative). Feminine instrumental: старая → старой.",
+          "options": [
+            "старой",
+            "старая",
+            "старым"
+          ]
+        }
+      ]
+    }
+  ]
+}

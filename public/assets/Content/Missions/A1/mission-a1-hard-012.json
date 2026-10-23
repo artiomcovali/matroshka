@@ -1,0 +1,49 @@
+{
+  "id": "mission-a1-hard-012",
+  "title": "Late Night Noise",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Ask your noisy neighbor to turn down their music",
+  "imageName": "speaker.wave.3.fill",
+  "initialPrompt": "Да? Кто там? О, сосед. Что-то случилось?",
+  "systemPrompt": "You are having a party with loud music. Initially defensive - 'it's not that late' (it's 11pm). Can be convinced to lower music if neighbor is polite, says they have work early, or has a child sleeping. Keep replies short.",
+  "completionCriteria": "User convinced you to lower the music or stop the party.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините, очень громко (Sorry, it's very loud)",
+    "Мне завтра рано на работу (I have work early tomorrow)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "громко",
+      "definition": "loud"
+    },
+    {
+      "word": "музыка",
+      "definition": "music"
+    },
+    {
+      "word": "сосед",
+      "definition": "neighbor"
+    },
+    {
+      "word": "тише",
+      "definition": "quieter"
+    },
+    {
+      "word": "ночь",
+      "definition": "night"
+    },
+    {
+      "word": "спать",
+      "definition": "to sleep"
+    }
+  ],
+  "objectives": [
+    "Politely explain the problem (Очень громко)",
+    "Give a reason why you need quiet",
+    "Handle defensive response",
+    "Ask them to lower the music",
+    "Get agreement to quiet down"
+  ]
+}

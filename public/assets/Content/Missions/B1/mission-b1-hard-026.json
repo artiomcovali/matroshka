@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-026",
+  "title": "Neighbor Boundary Dispute",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Neighbor claims part of your property is theirs",
+  "imageName": "house.fill",
+  "initialPrompt": "Этот забор на моей земле! Мой дед здесь жил 50 лет! Уберите или я сам уберу!",
+  "systemPrompt": "You are an aggressive neighbor claiming property. Cite family history. Calm down only if person suggests official survey or mentions lawyer. Keep replies short.",
+  "completionCriteria": "User de-escalated and proposed official resolution.",
+  "responseLimit": 15,
+  "hints": [
+    "Давайте посмотрим документы (Let's look at the documents)",
+    "Нужна официальная экспертиза (We need an official survey)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "граница",
+      "definition": "boundary"
+    },
+    {
+      "word": "участок",
+      "definition": "plot/property"
+    },
+    {
+      "word": "документы",
+      "definition": "documents"
+    },
+    {
+      "word": "кадастр",
+      "definition": "land registry"
+    },
+    {
+      "word": "экспертиза",
+      "definition": "survey/expertise"
+    },
+    {
+      "word": "спор",
+      "definition": "dispute"
+    }
+  ],
+  "objectives": [
+    "Stay calm under aggression",
+    "Suggest checking documents",
+    "Propose official survey",
+    "Avoid escalation",
+    "Agree on resolution process"
+  ]
+}

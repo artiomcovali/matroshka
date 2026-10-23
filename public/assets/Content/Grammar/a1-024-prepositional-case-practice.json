@@ -1,0 +1,481 @@
+{
+  "lessonId": "a1-024-prepositional-case",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Prepositional case forms with в, на, and о",
+      "descriptionRussian": "Формы предложного падежа с «в», «на» и «о»",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Он живёт в _____. (city)",
+              "promptEnglish": "He lives in the city.",
+              "options": [
+                "город",
+                "города",
+                "городу",
+                "городе"
+              ],
+              "answer": "городе",
+              "hint": "Masculine nouns add -е in prepositional.",
+              "explanation": "В + prepositional: город -> городе."
+            },
+            {
+              "prompt": "Книга лежит на _____. (table)",
+              "promptEnglish": "The book is on the table.",
+              "options": [
+                "стол",
+                "столе",
+                "стола",
+                "столу"
+              ],
+              "answer": "столе",
+              "hint": "На + prepositional: add -е.",
+              "explanation": "На + prepositional: стол -> столе."
+            },
+            {
+              "prompt": "Мы говорим о _____. (work, feminine)",
+              "promptEnglish": "We are talking about work.",
+              "options": [
+                "работа",
+                "работу",
+                "работы",
+                "работе"
+              ],
+              "answer": "работе",
+              "hint": "О + prepositional: feminine -а -> -е.",
+              "explanation": "О + prepositional: работа -> работе."
+            },
+            {
+              "prompt": "Она учится в _____. (school, feminine)",
+              "promptEnglish": "She studies at school.",
+              "options": [
+                "школа",
+                "школе",
+                "школы",
+                "школу"
+              ],
+              "answer": "школе",
+              "hint": "Feminine -а -> -е in prepositional.",
+              "explanation": "В + prepositional: школа -> школе."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Мы в _____. (park, prepositional)",
+          "contextEnglish": "We are in the park.",
+          "options": [
+            "парк",
+            "парке"
+          ],
+          "answer": "парке",
+          "explanation": "В + prepositional: парк -> парке (add -е)."
+        },
+        {
+          "context": "Она думает о _____. (brother, prepositional)",
+          "contextEnglish": "She is thinking about her brother.",
+          "options": [
+            "брат",
+            "брате"
+          ],
+          "answer": "брате",
+          "explanation": "О + prepositional: брат -> брате (add -е)."
+        },
+        {
+          "context": "Ключи в _____. (bag, feminine)",
+          "contextEnglish": "The keys are in the bag.",
+          "options": [
+            "сумка",
+            "сумке"
+          ],
+          "answer": "сумке",
+          "explanation": "В + prepositional: сумка -> сумке (-а -> -е)."
+        },
+        {
+          "context": "Тетрадь на _____. (shelf, feminine)",
+          "contextEnglish": "The notebook is on the shelf.",
+          "options": [
+            "полка",
+            "полке"
+          ],
+          "answer": "полке",
+          "explanation": "На + prepositional: полка -> полке (-а -> -е)."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in prepositional forms and sort by preposition used",
+      "descriptionRussian": "Вставьте формы предложного падежа и рассортируйте по предлогу",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Дети играют в _____. (garden, masculine)",
+          "Кошка спит на _____. (sofa, masculine)",
+          "Мы читаем о _____. (history, feminine)",
+          "Цветы стоят на _____. (windowsill, masculine)"
+        ],
+        "choices": [
+          "саду",
+          "диване",
+          "истории",
+          "подоконнике"
+        ],
+        "answers": [
+          "саду",
+          "диване",
+          "истории",
+          "подоконнике"
+        ],
+        "grammarFocus": "prepositional endings after в, на, о",
+        "hints": [
+          "Сад -> саду (irregular: в саду, not в саде).",
+          "Диван -> диване (add -е).",
+          "История -> истории (feminine -ия -> -ии).",
+          "Подоконник -> подоконнике (add -е)."
+        ],
+        "explanations": [
+          "Сад is irregular: в саду (not саде). Memorize this.",
+          "Диван -> диване (regular masculine: add -е).",
+          "История -> истории (nouns ending in -ия take -ии, not -ие).",
+          "Подоконник -> подоконнике (regular: add -е)."
+        ],
+        "options": [
+          [
+            "саду",
+            "сад",
+            "сада",
+            "садом"
+          ],
+          [
+            "дивана",
+            "диван",
+            "дивану",
+            "диване"
+          ],
+          [
+            "истории",
+            "историей",
+            "историю",
+            "история"
+          ],
+          [
+            "подоконника",
+            "подоконник",
+            "подоконнику",
+            "подоконнике"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort: which preposition is used?",
+        "categories": [
+          "в (in/inside)",
+          "на (on/at)",
+          "о (about)"
+        ],
+        "items": [
+          {
+            "word": "___ школе (at school)",
+            "category": "в (in/inside)"
+          },
+          {
+            "word": "___ столе (on the table)",
+            "category": "на (on/at)"
+          },
+          {
+            "word": "___ погоде (about the weather)",
+            "category": "о (about)"
+          },
+          {
+            "word": "___ магазине (in the store)",
+            "category": "в (in/inside)"
+          },
+          {
+            "word": "___ полке (on the shelf)",
+            "category": "на (on/at)"
+          },
+          {
+            "word": "___ фильме (about the movie)",
+            "category": "о (about)"
+          },
+          {
+            "word": "___ парке (in the park)",
+            "category": "в (in/inside)"
+          },
+          {
+            "word": "___ стене (on the wall)",
+            "category": "на (on/at)"
+          },
+          {
+            "word": "___ книге (about the book)",
+            "category": "о (about)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "She works in a hospital.",
+          "answer": "Она работает в больнице.",
+          "acceptableVariants": [],
+          "hint": "hospital (prep) = больнице",
+          "grammarFocus": "в + prepositional for location",
+          "keyWord": "больнице",
+          "options": [
+            "больнице",
+            "больница",
+            "больницу",
+            "больницы"
+          ]
+        },
+        {
+          "english": "The cat is on the chair.",
+          "answer": "Кошка на стуле.",
+          "acceptableVariants": [
+            "Кошка сидит на стуле."
+          ],
+          "hint": "chair (prep) = стуле",
+          "grammarFocus": "на + prepositional for surfaces",
+          "keyWord": "стуле",
+          "options": [
+            "стуле",
+            "стул",
+            "стула",
+            "стулу"
+          ]
+        },
+        {
+          "english": "I am thinking about the exam.",
+          "answer": "Я думаю об экзамене.",
+          "acceptableVariants": [
+            "Я думаю о экзамене."
+          ],
+          "hint": "about (before vowel) = об, exam (prep) = экзамене",
+          "grammarFocus": "о/об + prepositional",
+          "keyWord": "экзамене",
+          "options": [
+            "экзамене",
+            "экзамен",
+            "экзамена",
+            "экзамену"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Error",
+      "titleRussian": "Найди ошибку",
+      "description": "Fix prepositional case mistakes",
+      "descriptionRussian": "Исправьте ошибки в предложном падеже",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Он живёт в город.",
+          "error": "город",
+          "correction": "городе",
+          "hint": "В + prepositional: add -е.",
+          "explanation": "В + prepositional case: город -> городе.",
+          "options": [
+            "городе",
+            "городу",
+            "города"
+          ]
+        },
+        {
+          "sentence": "Книга лежит на стол.",
+          "error": "стол",
+          "correction": "столе",
+          "hint": "На + prepositional: add -е.",
+          "explanation": "На + prepositional case: стол -> столе.",
+          "options": [
+            "столе",
+            "столу",
+            "стола"
+          ]
+        },
+        {
+          "sentence": "Мы говорим о школа.",
+          "error": "школа",
+          "correction": "школе",
+          "hint": "О + prepositional: -а -> -е.",
+          "explanation": "О + prepositional case: школа -> школе.",
+          "options": [
+            "школе",
+            "школу",
+            "школы"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Цветы стоят в _____. (vase, feminine)",
+              "promptEnglish": "The flowers are in a vase.",
+              "options": [
+                "ваза",
+                "вазу",
+                "вазе",
+                "вазы"
+              ],
+              "answer": "вазе",
+              "hint": "Feminine -а -> -е in prepositional.",
+              "explanation": "В + prepositional: ваза -> вазе."
+            },
+            {
+              "prompt": "Он читает о _____. (space, neuter)",
+              "promptEnglish": "He is reading about space.",
+              "options": [
+                "космосе",
+                "космос",
+                "космосу",
+                "космоса"
+              ],
+              "answer": "космосе",
+              "hint": "Masculine: add -е.",
+              "explanation": "О + prepositional: космос -> космосе."
+            },
+            {
+              "prompt": "Мы сидим в _____. (room, feminine)",
+              "promptEnglish": "We are sitting in a room.",
+              "options": [
+                "комната",
+                "комнате",
+                "комнату",
+                "комнаты"
+              ],
+              "answer": "комнате",
+              "hint": "Feminine -а -> -е.",
+              "explanation": "В + prepositional: комната -> комнате."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All prepositional case topics mixed",
+      "descriptionRussian": "Все темы предложного падежа вместе",
+      "icon": "shuffle",
+      "patternRecognition": [
+        {
+          "sentence": "в городе, на столе, о брате, в школе",
+          "question": "What ending do all these prepositional forms share?",
+          "options": [
+            "-а",
+            "-у",
+            "-е",
+            "-и"
+          ],
+          "answer": "-е",
+          "explanation": "Most nouns take -е in prepositional case (the most common ending)."
+        },
+        {
+          "sentence": "в тетради, на площади, о любви",
+          "question": "Why do these nouns take -и instead of -е?",
+          "options": [
+            "They are masculine",
+            "They end in -ь (soft sign) in nominative",
+            "They are plural",
+            "They are irregular"
+          ],
+          "answer": "They end in -ь (soft sign) in nominative",
+          "explanation": "Feminine nouns ending in -ь take -и in prepositional: тетрадь -> тетради."
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Она в _____. (square, feminine -ь)",
+          "contextEnglish": "She is in the square.",
+          "options": [
+            "площаде",
+            "площади"
+          ],
+          "answer": "площади",
+          "explanation": "Площадь ends in -ь: prepositional = площади (-и, not -е)."
+        },
+        {
+          "context": "Он думает о _____. (life, feminine -ь)",
+          "contextEnglish": "He is thinking about life.",
+          "options": [
+            "жизне",
+            "жизни"
+          ],
+          "answer": "жизни",
+          "explanation": "Жизнь ends in -ь: prepositional = жизни (-и, not -е)."
+        },
+        {
+          "context": "Мы в _____. (library, feminine -а)",
+          "contextEnglish": "We are in the library.",
+          "options": [
+            "библиотеке",
+            "библиотеки"
+          ],
+          "answer": "библиотеке",
+          "explanation": "Библиотека ends in -а: prepositional = библиотеке (-е)."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Дети в _____. (school, feminine -а)",
+          "Мы думаем о _____. (future, neuter)",
+          "Картина на _____. (wall, feminine -а)"
+        ],
+        "choices": [
+          "школе",
+          "будущем",
+          "стене"
+        ],
+        "answers": [
+          "школе",
+          "будущем",
+          "стене"
+        ],
+        "grammarFocus": "prepositional endings across genders",
+        "hints": [
+          "Школа -> школе (-а -> -е).",
+          "Будущее -> будущем (neuter -ее -> -ем).",
+          "Стена -> стене (-а -> -е)."
+        ],
+        "explanations": [
+          "В школе (feminine -а -> -е).",
+          "О будущем (neuter adjective-noun: -ее -> -ем).",
+          "На стене (feminine -а -> -е)."
+        ],
+        "options": [
+          [
+            "школе",
+            "школа",
+            "школу",
+            "школы"
+          ],
+          [
+            "будущее",
+            "будущем",
+            "будущего",
+            "будущему"
+          ],
+          [
+            "стена",
+            "стене",
+            "стены",
+            "стену"
+          ]
+        ]
+      }
+    }
+  ]
+}

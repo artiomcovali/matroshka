@@ -1,0 +1,390 @@
+{
+  "id": "a2-track-imperative-01-vowel-stem",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Imperative 1: Vowel-Stem Commands (читай, делай, открой)",
+  "titleRussian": "Повелительное наклонение 1: команды от основы на гласную (читай, делай, открой)",
+  "description": "How to give a command to one person (ты) for verbs whose они-form ends in -ют: read the они-form, drop the ending, add -й. читать → читай, делать → делай, открыть → открой, играть → играй.",
+  "descriptionRussian": "Как дать команду одному человеку (ты) от глаголов, у которых форма они оканчивается на -ют: взять форму они, убрать окончание, прибавить -й. читать → читай, делать → делай, открыть → открой, играть → играй.",
+  "imageName": "exclamationmark.bubble",
+  "trackId": "a2-imperative-mastery",
+  "trackTitle": "Imperative Mastery",
+  "trackTitleRussian": "Повелительное наклонение",
+  "trackIndex": 1,
+  "trackTotal": 9,
+  "intro": "Commands in Russian are not built from the dictionary form of the verb, which is the first surprise. They are built from the они-form, the one you already conjugate every day. Strip its ending and what is left tells you which of three command endings you need. This lesson takes the easiest group, where the stem ends in a vowel and the answer is always the same letter.",
+  "rules": [
+    "To build a command to one person (ты): take the они-form, drop the -ют ending, and add -й.",
+    "This works when the stem ends in a vowel: чита-, дела-, откро-, игра-, гуля-, зна-.",
+    "Every answer in this lesson ends in -й: читай, делай, открой, играй, гуляй, знай.",
+    "The command stands alone, with no word for 'you' in front: Читай! already means 'Read!' (to one person)."
+  ],
+  "examples": [
+    "Читай эту книгу. (Read this book.) читают → drop -ют → чита- + й.",
+    "Делай уроки. (Do your homework.) делают → drop -ют → дела- + й.",
+    "Открой окно. (Open the window.) откроют → drop -ют → откро- + й.",
+    "Играй со мной. (Play with me.) играют → drop -ют → игра- + й.",
+    "Гуляй в парке. (Take a walk in the park.) гуляют → drop -ют → гуля- + й.",
+    "Знай это слово. (Know this word.) знают → drop -ют → зна- + й."
+  ],
+  "tables": [
+    {
+      "title": "Three Steps: они-Form → Command",
+      "headers": [
+        "Infinitive",
+        "они-form",
+        "Drop -ют → stem",
+        "Command (+ -й)"
+      ],
+      "rows": [
+        {
+          "label": "читать",
+          "cells": [
+            "читают",
+            "чита-",
+            "читай"
+          ]
+        },
+        {
+          "label": "делать",
+          "cells": [
+            "делают",
+            "дела-",
+            "делай"
+          ]
+        },
+        {
+          "label": "открыть",
+          "cells": [
+            "откроют",
+            "откро-",
+            "открой"
+          ]
+        },
+        {
+          "label": "играть",
+          "cells": [
+            "играют",
+            "игра-",
+            "играй"
+          ]
+        },
+        {
+          "label": "гулять",
+          "cells": [
+            "гуляют",
+            "гуля-",
+            "гуляй"
+          ]
+        },
+        {
+          "label": "знать",
+          "cells": [
+            "знают",
+            "зна-",
+            "знай"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ эту книгу!",
+          "promptEnglish": "Read this book!",
+          "options": [
+            "читай",
+            "читать",
+            "читает",
+            "читаю"
+          ],
+          "answer": "читай",
+          "hint": "они-form читают. Drop -ют, then add the vowel-stem ending.",
+          "explanation": "читают → drop -ют → stem чита- (ends in a vowel) → add -й → читай."
+        },
+        {
+          "prompt": "_____ уроки!",
+          "promptEnglish": "Do your homework!",
+          "options": [
+            "делает",
+            "делай",
+            "делать",
+            "делаю"
+          ],
+          "answer": "делай",
+          "hint": "они-form делают. Same three steps as читай.",
+          "explanation": "делают → drop -ют → stem дела- (ends in a vowel) → add -й → делай. A command ends in -й here, not in a present-tense ending."
+        },
+        {
+          "prompt": "_____ окно!",
+          "promptEnglish": "Open the window!",
+          "options": [
+            "открыл",
+            "открои",
+            "открой",
+            "открыть"
+          ],
+          "answer": "открой",
+          "hint": "они-form откроют. Drop -ют, add -й.",
+          "explanation": "откроют → drop -ют → stem откро- (ends in a vowel) → add -й → открой. The stem откро- ends in the vowel о, so it takes -й."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ со мной!",
+          "promptEnglish": "Play with me!",
+          "options": [
+            "играет",
+            "играть",
+            "играю",
+            "играй"
+          ],
+          "answer": "играй",
+          "hint": "они-form играют. The stem игра- ends in a vowel.",
+          "explanation": "играют → drop -ют → stem игра- (ends in a vowel) → add -й → играй. A vowel stem always takes -й."
+        },
+        {
+          "prompt": "_____ в парке!",
+          "promptEnglish": "Take a walk in the park!",
+          "options": [
+            "гуляй",
+            "гуляет",
+            "гулять",
+            "гуляю"
+          ],
+          "answer": "гуляй",
+          "hint": "они-form гуляют. Drop -ют, add -й.",
+          "explanation": "гуляют → drop -ют → stem гуля- (ends in a vowel) → add -й → гуляй. The command speaks straight to one person, with no 'you' in front."
+        },
+        {
+          "prompt": "_____ это слово!",
+          "promptEnglish": "Know this word!",
+          "options": [
+            "знаешь",
+            "знай",
+            "знать",
+            "знаю"
+          ],
+          "answer": "знай",
+          "hint": "они-form знают. The stem зна- ends in a vowel.",
+          "explanation": "знают → drop -ют → stem зна- (ends in a vowel) → add -й → знай."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ дверь, пожалуйста! (Open the door, please!)",
+      "_____ на улице! (Take a walk outside!)"
+    ],
+    "choices": [
+      "открой",
+      "открыть",
+      "гуляй",
+      "гуляет"
+    ],
+    "answers": [
+      "открой",
+      "гуляй"
+    ],
+    "grammarFocus": "Both verbs have a stem ending in a vowel after you drop -ют: откроют → откро-, гуляют → гуля-. Vowel stem takes -й: открой, гуляй."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Читать эту книгу, она очень интересная.",
+      "translationEnglish": "Read this book, it is very interesting.",
+      "error": "Читать",
+      "correction": "Читай",
+      "options": [
+        "Читай",
+        "Читаешь",
+        "Читаю"
+      ],
+      "explanation": "A command to one person is not the infinitive: читать is the dictionary form ('to read') and cannot give an order. Читают → drop -ют → stem чита- (vowel) → add -й → читай."
+    },
+    {
+      "sentence": "Открои окно, здесь очень жарко.",
+      "translationEnglish": "Open the window, it is very hot here.",
+      "error": "Открои",
+      "correction": "Открой",
+      "options": [
+        "Открой",
+        "Открыть",
+        "Открываешь"
+      ],
+      "explanation": "откроют → drop -ют → stem откро-, which ends in the vowel о, so the command takes -й → открой. Открои uses -и, the ending for stems that end in a consonant; this stem ends in a vowel, so -и does not fit."
+    },
+    {
+      "sentence": "Делает уроки сейчас, потом пойдём гулять.",
+      "translationEnglish": "Do your homework now, then we will go for a walk.",
+      "error": "Делает",
+      "correction": "Делай",
+      "options": [
+        "Делай",
+        "Делать",
+        "Делаю"
+      ],
+      "explanation": "Делает is the он/она present ('he/she does'), a statement about a third person, not a command to the listener. The command comes from делают → drop -ют → stem дела- (vowel) → add -й → делай."
+    },
+    {
+      "sentence": "Играть со мной, мне скучно одному.",
+      "translationEnglish": "Play with me, I am bored alone.",
+      "error": "Играть",
+      "correction": "Играй",
+      "options": [
+        "Играй",
+        "Играет",
+        "Играешь"
+      ],
+      "explanation": "The infinitive Играть ('to play') cannot give an order. Играют → drop -ют → stem игра- (vowel) → add -й → играй."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "_____ эту книгу!",
+      "contextEnglish": "Read this book!",
+      "options": [
+        "читай",
+        "читает"
+      ],
+      "answer": "читай",
+      "explanation": "читай is the command (читают → чита- + й). Читает is the он/она present ('he/she reads'), a statement about a third person, not an order to the listener."
+    },
+    {
+      "context": "_____ окно!",
+      "contextEnglish": "Open the window!",
+      "options": [
+        "открой",
+        "открои"
+      ],
+      "answer": "открой",
+      "explanation": "откроют → stem откро- ends in a vowel, so the command takes -й → открой. Открои uses -и, the ending for consonant stems; this stem already ends in the vowel о, so -й is correct."
+    },
+    {
+      "context": "_____ дома сегодня!",
+      "contextEnglish": "Play at home today!",
+      "options": [
+        "играй",
+        "играешь"
+      ],
+      "answer": "играй",
+      "explanation": "играй is the command (играют → игра- + й). Играешь is the ты present ('you play'), a statement, not an order. The command stands alone with no 'you' in front."
+    }
+  ],
+  "conjugationTable": {
+    "verb": "читать → читай (command pattern: drop -ют, add -й)",
+    "paradigm": [
+      "читай",
+      "делай",
+      "открой",
+      "играй",
+      "гуляй",
+      "знай"
+    ],
+    "blanks": [
+      1,
+      2,
+      4
+    ],
+    "hints": [
+      "делать → ? (делают → дела-)",
+      "открыть → ? (откроют → откро-)",
+      "гулять → ? (гуляют → гуля-)"
+    ],
+    "tense": "imperative"
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Делай",
+        "уроки",
+        "сейчас"
+      ],
+      "answer": "Делай уроки сейчас",
+      "translation": "Do your homework now.",
+      "hint": "Start with the command: делают → дела- + й."
+    },
+    {
+      "words": [
+        "Открой",
+        "окно",
+        "пожалуйста"
+      ],
+      "answer": "Открой окно пожалуйста",
+      "acceptableVariants": [
+        "Открой окно, пожалуйста"
+      ],
+      "translation": "Open the window, please.",
+      "hint": "откроют → откро- + й. The stem ends in a vowel."
+    },
+    {
+      "words": [
+        "Играй",
+        "со",
+        "мной"
+      ],
+      "answer": "Играй со мной",
+      "translation": "Play with me.",
+      "hint": "играют → игра- + й."
+    },
+    {
+      "words": [
+        "Читай",
+        "эту",
+        "книгу"
+      ],
+      "answer": "Читай эту книгу",
+      "translation": "Read this book.",
+      "hint": "читают → чита- + й."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Гуляй в парке каждый день.",
+      "question": "Why does the command гуляй end in -й?",
+      "options": [
+        "The stem гуля- ends in a vowel, so the command takes -й",
+        "The stem ends in a consonant, so it takes -й",
+        "It is the past tense",
+        "It is the infinitive"
+      ],
+      "answer": "The stem гуля- ends in a vowel, so the command takes -й",
+      "explanation": "гуляют → drop -ют → stem гуля-, which ends in the vowel я-sound. A stem ending in a vowel takes -й: гуляй. This is the only rule the lesson teaches."
+    },
+    {
+      "sentence": "Знай это правило хорошо.",
+      "question": "How was the command знай built?",
+      "options": [
+        "они-form знают, drop -ют, add -й",
+        "they took the infinitive знать and added -й",
+        "they took the past tense знал and changed it",
+        "they took the я-form знаю and added -й"
+      ],
+      "answer": "они-form знают, drop -ют, add -й",
+      "explanation": "Always start from the они-form. знают → drop -ют → stem зна- (vowel) → add -й → знай. The они-form, not the infinitive or past, gives the right stem."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "читай / делай / открой",
+      "definition": "command forms to one person (ты): read! / do! / open! Built from the они-form by dropping -ют and adding -й",
+      "example": "Читай эту книгу, делай уроки, открой окно."
+    },
+    {
+      "term": "играй / гуляй / знай",
+      "definition": "more vowel-stem commands: play! / take a walk! / know! Same step: они-form minus -ют, plus -й",
+      "example": "Играй со мной и гуляй в парке."
+    },
+    {
+      "term": "основа на гласную → -й",
+      "definition": "a stem ending in a vowel (чита-, дела-, откро-) takes the command ending -й",
+      "example": "У глагола читать основа чита- оканчивается на гласную, поэтому команда — читай."
+    }
+  ]
+}

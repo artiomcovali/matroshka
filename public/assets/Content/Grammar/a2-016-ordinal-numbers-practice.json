@@ -1,0 +1,812 @@
+{
+  "lessonId": "a2-016-ordinal-numbers",
+  "sets": [
+    {
+      "id": "round-1-irregular-trio",
+      "title": "The Irregular Trio",
+      "titleRussian": "Нестандартная тройка",
+      "description": "Drill первый, второй, третий with gender agreement",
+      "descriptionRussian": "Первый, второй, третий: согласование по роду",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ день недели. (The first day of the week.)",
+              "promptEnglish": "The first day of the week.",
+              "options": [
+                "Первый",
+                "Первая",
+                "Первое",
+                "Первые"
+              ],
+              "answer": "Первый",
+              "hint": "День is masculine.",
+              "explanation": "Masculine noun: первый день."
+            },
+            {
+              "prompt": "_____ ночь была холодной. (The first night was cold.)",
+              "promptEnglish": "The first night was cold.",
+              "options": [
+                "Первое",
+                "Первая",
+                "Первый",
+                "Первые"
+              ],
+              "answer": "Первая",
+              "hint": "Ночь is feminine.",
+              "explanation": "Feminine noun: первая ночь."
+            },
+            {
+              "prompt": "_____ задание было лёгким. (The first task was easy.)",
+              "promptEnglish": "The first task was easy.",
+              "options": [
+                "Первый",
+                "Первые",
+                "Первое",
+                "Первая"
+              ],
+              "answer": "Первое",
+              "hint": "Задание is neuter.",
+              "explanation": "Neuter noun: первое задание."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Мы живём на _____ этаже. (We live on the second floor.)",
+              "promptEnglish": "We live on the second floor.",
+              "options": [
+                "второй",
+                "втором",
+                "второе",
+                "вторым"
+              ],
+              "answer": "втором",
+              "hint": "На + prepositional case. Masculine: -ой → -ом.",
+              "explanation": "На + prepositional: второй → втором."
+            },
+            {
+              "prompt": "Я читаю _____ главу. (I'm reading the third chapter.)",
+              "promptEnglish": "I'm reading the third chapter.",
+              "options": [
+                "третья",
+                "третьей",
+                "третье",
+                "третью"
+              ],
+              "answer": "третью",
+              "hint": "Читать + accusative. Feminine: третья → третью.",
+              "explanation": "Accusative feminine: третья → третью."
+            },
+            {
+              "prompt": "_____ уроки были интересными. (The first lessons were interesting.)",
+              "promptEnglish": "The first lessons were interesting.",
+              "options": [
+                "Первые",
+                "Первый",
+                "Первая",
+                "Первое"
+              ],
+              "answer": "Первые",
+              "hint": "Уроки is plural.",
+              "explanation": "Plural: первые уроки."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ раз я был в Москве в 2020 году. (The first time I was in Moscow was in 2020.)",
+          "Он пришёл _____. (He arrived second.)",
+          "_____ место занял спортсмен из России. (Third place was taken by an athlete from Russia.)"
+        ],
+        "choices": [
+          "Первый",
+          "вторым",
+          "Третье",
+          "Первая",
+          "третий"
+        ],
+        "answers": [
+          "Первый",
+          "вторым",
+          "Третье"
+        ],
+        "grammarFocus": "Irregular ordinals (первый, второй, третий) with gender/case agreement",
+        "hints": [
+          "Раз is masculine, nominative case.",
+          "Пришёл + instrumental ('arrived as second'): второй → ?",
+          "Место is neuter, nominative case."
+        ],
+        "explanations": [
+          "Masculine nominative: первый раз.",
+          "Instrumental: он пришёл вторым ('he came in second').",
+          "Neuter nominative: третье место."
+        ],
+        "options": [
+          [
+            "первым",
+            "первого",
+            "первому",
+            "Первый"
+          ],
+          [
+            "второго",
+            "вторым",
+            "второму",
+            "второй"
+          ],
+          [
+            "Третье",
+            "третьему",
+            "третьим",
+            "третьего"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "_____ этаж. (The second floor.)",
+          "contextEnglish": "The second floor. (nominative)",
+          "options": [
+            "Второй",
+            "Втором"
+          ],
+          "answer": "Второй",
+          "explanation": "Nominative: второй этаж. Втором is prepositional (на втором этаже)."
+        },
+        {
+          "context": "На _____ этаже. (On the second floor.)",
+          "contextEnglish": "On the second floor. (prepositional)",
+          "options": [
+            "Втором",
+            "Второй"
+          ],
+          "answer": "Втором",
+          "explanation": "На + prepositional: втором. Второй is nominative."
+        }
+      ]
+    },
+    {
+      "id": "round-2-regular-ordinals",
+      "title": "Regular Ordinals 4th-10th",
+      "titleRussian": "Порядковые от 4 до 10",
+      "description": "Practice regular ordinal formation with gender agreement",
+      "descriptionRussian": "Образование и согласование порядковых числительных",
+      "icon": "number",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ страница. (The fifth page.)",
+              "promptEnglish": "The fifth page.",
+              "options": [
+                "Пятый",
+                "Пятая",
+                "Пятое",
+                "Пятые"
+              ],
+              "answer": "Пятая",
+              "hint": "Страница is feminine.",
+              "explanation": "Feminine: пятая страница."
+            },
+            {
+              "prompt": "_____ упражнение. (The seventh exercise.)",
+              "promptEnglish": "The seventh exercise.",
+              "options": [
+                "Седьмой",
+                "Седьмое",
+                "Седьмая",
+                "Седьмые"
+              ],
+              "answer": "Седьмое",
+              "hint": "Упражнение is neuter.",
+              "explanation": "Neuter: седьмое упражнение."
+            },
+            {
+              "prompt": "_____ номер. (The eighth number.)",
+              "promptEnglish": "The eighth number.",
+              "options": [
+                "Восьмая",
+                "Восьмое",
+                "Восьмой",
+                "Восьмые"
+              ],
+              "answer": "Восьмой",
+              "hint": "Номер is masculine.",
+              "explanation": "Masculine: восьмой номер."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Мы на _____ уроке. (We're at the sixth lesson.)",
+              "promptEnglish": "We're at the sixth lesson.",
+              "options": [
+                "шестом",
+                "шестой",
+                "шестое",
+                "шестая"
+              ],
+              "answer": "шестом",
+              "hint": "На + prepositional. Masculine: -ой → -ом.",
+              "explanation": "На + prepositional: шестой → шестом."
+            },
+            {
+              "prompt": "Она выиграла _____ медаль. (She won the fourth medal.)",
+              "promptEnglish": "She won the fourth medal.",
+              "options": [
+                "четвёртый",
+                "четвёртая",
+                "четвёртую",
+                "четвёртое"
+              ],
+              "answer": "четвёртую",
+              "hint": "Выиграть + accusative. Feminine: -ая → -ую.",
+              "explanation": "Accusative feminine: четвёртая → четвёртую."
+            },
+            {
+              "prompt": "После _____ попытки он устал. (After the ninth attempt he got tired.)",
+              "promptEnglish": "After the ninth attempt he got tired.",
+              "options": [
+                "девятой",
+                "девятый",
+                "девятая",
+                "девятое"
+              ],
+              "answer": "девятой",
+              "hint": "После + genitive. Feminine: -ая → -ой.",
+              "explanation": "После + genitive feminine: девятая → девятой."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these ordinal phrases by gender",
+        "categories": [
+          "Masculine",
+          "Feminine",
+          "Neuter"
+        ],
+        "items": [
+          {
+            "word": "четвёртый год",
+            "category": "Masculine"
+          },
+          {
+            "word": "пятая минута",
+            "category": "Feminine"
+          },
+          {
+            "word": "шестое место",
+            "category": "Neuter"
+          },
+          {
+            "word": "восьмой класс",
+            "category": "Masculine"
+          },
+          {
+            "word": "десятая попытка",
+            "category": "Feminine"
+          },
+          {
+            "word": "девятое окно",
+            "category": "Neuter"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Это пятый задание.",
+          "error": "пятый",
+          "correction": "пятое",
+          "explanation": "Задание is neuter: пятое задание, not пятый.",
+          "options": [
+            "пятое",
+            "пятая",
+            "пятые"
+          ]
+        },
+        {
+          "sentence": "Мы на восьмая этаже.",
+          "error": "восьмая",
+          "correction": "восьмом",
+          "explanation": "Этаж is masculine + на requires prepositional: восьмом этаже.",
+          "options": [
+            "восьмом",
+            "восьмой",
+            "восьмые"
+          ]
+        },
+        {
+          "sentence": "Она живёт на седьмой этаже.",
+          "error": "седьмой",
+          "correction": "седьмом",
+          "explanation": "На + prepositional masculine: седьмой → седьмом.",
+          "options": [
+            "седьмом",
+            "седьмая",
+            "седьмое"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-compounds-dates",
+      "title": "Compound Ordinals and Dates",
+      "titleRussian": "Составные числительные и даты",
+      "description": "Practice compound ordinals (21st, 32nd) and date expressions",
+      "descriptionRussian": "Составные порядковые и выражение дат",
+      "icon": "calendar",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Сегодня двадцать _____ мая. (Today is May 25th.)",
+              "promptEnglish": "Today is May 25th.",
+              "options": [
+                "пятое",
+                "пятый",
+                "пять",
+                "пятая"
+              ],
+              "answer": "пятое",
+              "hint": "Dates use neuter ordinals (implied число).",
+              "explanation": "Dates take neuter: двадцать пятое мая."
+            },
+            {
+              "prompt": "Это _____ первый урок. (This is the twenty-first lesson.)",
+              "promptEnglish": "This is the twenty-first lesson.",
+              "options": [
+                "двадцать",
+                "двадцать первая",
+                "двадцать первый",
+                "двадцатый первый"
+              ],
+              "answer": "двадцать первый",
+              "hint": "Only the last word is ordinal. Урок is masculine.",
+              "explanation": "Compounds: only the last word is ordinal. Masculine: двадцать первый урок."
+            },
+            {
+              "prompt": "Он родился _____ марта. (He was born March 1st.)",
+              "promptEnglish": "He was born March 1st.",
+              "options": [
+                "первый",
+                "первое",
+                "первого",
+                "первая"
+              ],
+              "answer": "первого",
+              "hint": "Birth dates use genitive case (on the Xth of).",
+              "explanation": "Birth/event dates: genitive. Первое → первого марта."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ февраля. (February 14th.)",
+              "promptEnglish": "February 14th.",
+              "options": [
+                "Четырнадцатое",
+                "Четырнадцатый",
+                "Четырнадцатая",
+                "Четырнадцать"
+              ],
+              "answer": "Четырнадцатое",
+              "hint": "Calendar dates are neuter (число is implied).",
+              "explanation": "Dates are neuter: четырнадцатое февраля."
+            },
+            {
+              "prompt": "Сейчас тридцать _____ год. (It's the thirty-second year now.)",
+              "promptEnglish": "It's the thirty-second year now.",
+              "options": [
+                "второе",
+                "второй",
+                "вторые",
+                "два"
+              ],
+              "answer": "второй",
+              "hint": "Год is masculine. Only the last word is ordinal.",
+              "explanation": "Masculine: тридцать второй год."
+            },
+            {
+              "prompt": "Мы встретились _____ сентября. (We met on September 3rd.)",
+              "promptEnglish": "We met on September 3rd.",
+              "options": [
+                "третье",
+                "третий",
+                "третьего",
+                "третья"
+              ],
+              "answer": "третьего",
+              "hint": "Event dates use genitive (on the Xth of).",
+              "explanation": "Event dates: genitive. Третье → третьего сентября."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Новый год - _____ января. (New Year is January 1st.)",
+          "Она родилась _____ июня. (She was born on June 10th.)",
+          "Завтра _____ ноября. (Tomorrow is November 22nd.)"
+        ],
+        "choices": [
+          "первое",
+          "десятого",
+          "двадцать второе",
+          "первого",
+          "двадцать второй"
+        ],
+        "answers": [
+          "первое",
+          "десятого",
+          "двадцать второе"
+        ],
+        "grammarFocus": "Date expressions: neuter ordinals for stating dates, genitive for event dates",
+        "hints": [
+          "Stating a date (nominative): neuter form.",
+          "Born on = event date: genitive case.",
+          "Stating tomorrow's date (nominative): neuter form. Compound: only last word is ordinal."
+        ],
+        "explanations": [
+          "Stating dates: neuter nominative. Первое января.",
+          "Event dates (born on): genitive. Десятое → десятого июня.",
+          "Compound date, nominative: двадцать второе ноября."
+        ],
+        "options": [
+          [
+            "первого",
+            "первое",
+            "первый",
+            "первому"
+          ],
+          [
+            "десятому",
+            "десятого",
+            "десятый",
+            "десятым"
+          ],
+          [
+            "десятого",
+            "двадцать второе",
+            "первое",
+            "первого"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-ordinals-in-cases",
+      "title": "Ordinals Across Cases",
+      "titleRussian": "Порядковые в разных падежах",
+      "description": "Practice ordinal numbers in prepositional, genitive, dative, and other cases",
+      "descriptionRussian": "Порядковые числительные в косвенных падежах",
+      "icon": "arrow.triangle.branch",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я живу на _____ этаже. (I live on the fifth floor.)",
+              "promptEnglish": "I live on the fifth floor.",
+              "options": [
+                "пятый",
+                "пятого",
+                "пятом",
+                "пятому"
+              ],
+              "answer": "пятом",
+              "hint": "На + prepositional. Masculine: -ый → -ом.",
+              "explanation": "На + prepositional: пятый → пятом."
+            },
+            {
+              "prompt": "Мы поднялись до _____ этажа. (We went up to the third floor.)",
+              "promptEnglish": "We went up to the third floor.",
+              "options": [
+                "третьего",
+                "третий",
+                "третьем",
+                "третьему"
+              ],
+              "answer": "третьего",
+              "hint": "До + genitive. Masculine: третий → третьего.",
+              "explanation": "До + genitive: третий → третьего."
+            },
+            {
+              "prompt": "К _____ уроку я уже устал. (By the fourth lesson I was already tired.)",
+              "promptEnglish": "By the fourth lesson I was already tired.",
+              "options": [
+                "четвёртому",
+                "четвёртый",
+                "четвёртого",
+                "четвёртом"
+              ],
+              "answer": "четвёртому",
+              "hint": "К + dative. Masculine: -ый → -ому.",
+              "explanation": "К + dative: четвёртый → четвёртому."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она вернулась после _____ попытки. (She came back after the second attempt.)",
+              "promptEnglish": "She came back after the second attempt.",
+              "options": [
+                "вторая",
+                "второй",
+                "вторую",
+                "втором"
+              ],
+              "answer": "второй",
+              "hint": "После + genitive. Feminine: -ая → -ой.",
+              "explanation": "После + genitive feminine: вторая → второй."
+            },
+            {
+              "prompt": "Между _____ и вторым уроком перерыв. (Between the first and second lesson is a break.)",
+              "promptEnglish": "Between the first and second lesson is a break.",
+              "options": [
+                "первый",
+                "первым",
+                "первом",
+                "первого"
+              ],
+              "answer": "первым",
+              "hint": "Между + instrumental. Masculine: -ый → -ым.",
+              "explanation": "Между + instrumental: первый → первым."
+            },
+            {
+              "prompt": "В _____ классе дети учат буквы. (In first grade children learn letters.)",
+              "promptEnglish": "In first grade children learn letters.",
+              "options": [
+                "первом",
+                "первый",
+                "первым",
+                "первого"
+              ],
+              "answer": "первом",
+              "hint": "В + prepositional. Masculine: -ый → -ом.",
+              "explanation": "В + prepositional: первый → первом."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Мы живём на третий этаже.",
+          "error": "третий",
+          "correction": "третьем",
+          "explanation": "На + prepositional: третий → третьем.",
+          "options": [
+            "третьем",
+            "третьего",
+            "третью"
+          ]
+        },
+        {
+          "sentence": "После первый урока мы отдыхали.",
+          "error": "первый",
+          "correction": "первого",
+          "explanation": "После + genitive: первый → первого.",
+          "options": [
+            "первого",
+            "первом",
+            "первому"
+          ]
+        },
+        {
+          "sentence": "К четвёртый уроку мы устали.",
+          "error": "четвёртый",
+          "correction": "четвёртому",
+          "explanation": "К + dative: четвёртый → четвёртому.",
+          "options": [
+            "четвёртому",
+            "четвёртого",
+            "четвёртом"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All ordinal number skills in one round",
+      "descriptionRussian": "Все навыки порядковых числительных в одном раунде",
+      "icon": "bolt.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Сегодня _____ октября. (Today is October 9th.)",
+              "promptEnglish": "Today is October 9th.",
+              "options": [
+                "девятое",
+                "девятый",
+                "девять",
+                "девятая"
+              ],
+              "answer": "девятое",
+              "hint": "Dates use neuter ordinals.",
+              "explanation": "Dates: neuter. Девятое октября."
+            },
+            {
+              "prompt": "Он приехал _____ января. (He arrived January 15th.)",
+              "promptEnglish": "He arrived January 15th.",
+              "options": [
+                "пятнадцатое",
+                "пятнадцатого",
+                "пятнадцатый",
+                "пятнадцатая"
+              ],
+              "answer": "пятнадцатого",
+              "hint": "Event date: genitive case.",
+              "explanation": "Event dates: genitive. Пятнадцатое → пятнадцатого."
+            },
+            {
+              "prompt": "Это была _____ неделя в школе. (It was the sixth week at school.)",
+              "promptEnglish": "It was the sixth week at school.",
+              "options": [
+                "шестой",
+                "шестое",
+                "шестая",
+                "шестые"
+              ],
+              "answer": "шестая",
+              "hint": "Неделя is feminine.",
+              "explanation": "Feminine: шестая неделя."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Кабинет на _____ этаже. (The office is on the fourth floor.)",
+              "promptEnglish": "The office is on the fourth floor.",
+              "options": [
+                "четвёртый",
+                "четвёртом",
+                "четвёртого",
+                "четвёртому"
+              ],
+              "answer": "четвёртом",
+              "hint": "На + prepositional case.",
+              "explanation": "На + prepositional: четвёртый → четвёртом."
+            },
+            {
+              "prompt": "Двадцать _____ марта. (March 21st.)",
+              "promptEnglish": "March 21st.",
+              "options": [
+                "первый",
+                "первое",
+                "один",
+                "первая"
+              ],
+              "answer": "первое",
+              "hint": "Date: neuter. Only the last word becomes ordinal.",
+              "explanation": "Compound date: двадцать первое (neuter for date)."
+            },
+            {
+              "prompt": "Они живут в _____ доме от угла. (They live in the second house from the corner.)",
+              "promptEnglish": "They live in the second house from the corner.",
+              "options": [
+                "второй",
+                "второго",
+                "вторым",
+                "втором"
+              ],
+              "answer": "втором",
+              "hint": "В + prepositional case. Masculine.",
+              "explanation": "В + prepositional: второй → втором."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "sourceText": "The third book",
+          "targetText": "Третья книга",
+          "hint": "Книга is feminine. 3rd feminine = третья.",
+          "explanation": "Feminine nominative: третья книга.",
+          "keyWord": "Третья",
+          "options": [
+            "Третья",
+            "Третий",
+            "Третье",
+            "Третью"
+          ]
+        },
+        {
+          "sourceText": "On the ninth floor",
+          "targetText": "На девятом этаже",
+          "hint": "На + prepositional. Masculine: -ый → -ом.",
+          "explanation": "На + prepositional masculine: девятый → девятом.",
+          "keyWord": "девятом",
+          "options": [
+            "девятом",
+            "девятый",
+            "девятого",
+            "девятому"
+          ]
+        },
+        {
+          "sourceText": "December 31st",
+          "targetText": "Тридцать первое декабря",
+          "hint": "Dates are neuter. Only the last word becomes ordinal.",
+          "explanation": "Compound date, neuter: тридцать первое декабря.",
+          "keyWord": "первое",
+          "options": [
+            "первое",
+            "первый",
+            "первого",
+            "первая"
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ класс - самый трудный. (The tenth grade is the hardest.)",
+          "Мы пришли к _____ часу. (We arrived by the eighth hour.)",
+          "Праздник _____ мая. (The holiday is May 1st.)"
+        ],
+        "choices": [
+          "Десятый",
+          "восьмому",
+          "первое",
+          "десятом",
+          "первого"
+        ],
+        "answers": [
+          "Десятый",
+          "восьмому",
+          "первое"
+        ],
+        "grammarFocus": "Mixed ordinal usage: nominative, dative with к, neuter dates",
+        "hints": [
+          "Класс is masculine, nominative case here.",
+          "К + dative. Masculine: -ой → -ому.",
+          "Stating a date: neuter nominative."
+        ],
+        "explanations": [
+          "Masculine nominative: десятый класс.",
+          "К + dative: восьмой → восьмому.",
+          "Date (nominative neuter): первое мая."
+        ],
+        "options": [
+          [
+            "десятым",
+            "десятому",
+            "десятого",
+            "Десятый"
+          ],
+          [
+            "восьмому",
+            "восьмой",
+            "восьмым",
+            "восьмого"
+          ],
+          [
+            "первое",
+            "первому",
+            "первый",
+            "первого"
+          ]
+        ]
+      }
+    }
+  ]
+}

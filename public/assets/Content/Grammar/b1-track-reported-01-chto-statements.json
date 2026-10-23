@@ -1,0 +1,380 @@
+{
+  "id": "b1-track-reported-01-chto-statements",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Reported Speech 1: Что for Statements (keep the original tense)",
+  "titleRussian": "Косвенная речь 1: «Что» для утверждений (время сохраняется)",
+  "description": "To report a statement, drop the quotation marks, link the clause with что after a comma, shift the pronoun to match the narrator, and keep the verb in the tense the speaker used.",
+  "descriptionRussian": "Чтобы передать чужое утверждение, убираем кавычки, ставим запятую и союз «что», меняем местоимение под точку зрения говорящего, а глагол оставляем в том же времени, что и в прямой речи.",
+  "imageName": "quote.bubble",
+  "trackId": "b1-reported-speech-mastery",
+  "trackTitle": "Reported Speech Mastery",
+  "trackTitleRussian": "Косвенная речь",
+  "trackIndex": 1,
+  "trackTotal": 5,
+  "intro": "English shifts tenses backwards when you report what someone said: 'I am tired' becomes 'she said she was tired'. Russian does not. The reported verb keeps whatever tense the speaker actually used, so you repeat it unchanged and only swap the pronouns. That makes this easier than the English equivalent, provided you can stop yourself doing the shift out of habit.",
+  "rules": [
+    "Direct speech uses quotation marks: Маша сказала: «Я устала». Reported speech drops them and links the clause with что after a mandatory comma: Маша сказала, что она устала.",
+    "Keep the original tense of the reported verb. It stays in whatever tense the speaker used; do not shift it back the way English does.",
+    "Shift the pronoun to the narrator's perspective: the speaker's я becomes third-person он or она when you report someone else's words.",
+    "Open the main clause with a verb of saying in the past tense: сказал, говорил, рассказал, написал, сообщил, ответил, объяснил, признался.",
+    "Put a comma before что every time. Skipping it is a writing error, not a style choice."
+  ],
+  "examples": [
+    "Direct: Антон сказал: «Я работаю». Reported: Антон сказал, что он работает. (Anton said that he works. Present kept; pronoun shifted to он.)",
+    "Direct: Маша сказала: «Я была занята». Reported: Маша сказала, что она была занята. (Masha said that she was busy. Past kept; pronoun shifted to она.)",
+    "Direct: Иван сказал: «Я приду завтра». Reported: Иван сказал, что он придёт завтра. (Ivan said that he will come tomorrow. Future kept; pronoun shifted.)",
+    "Direct: Лена сказала: «Я люблю классическую музыку». Reported: Лена сказала, что она любит классическую музыку. (Lena said that she loves classical music. Present state verb kept.)",
+    "Direct: Антон ответил: «Я не знаю». Reported: Антон ответил, что он не знает. (Anton answered that he did not know. Negated present kept; pronoun shifted.)",
+    "Direct: Маша рассказала: «Я была в Москве». Reported: Маша рассказала, что она была в Москве. (Masha said that she had been to Moscow. The English 'had been' shifts the tense, but Russian keeps была.)"
+  ],
+  "tables": [
+    {
+      "title": "Tense stays the same in reported speech",
+      "headers": [
+        "Original tense",
+        "Direct speech",
+        "Reported speech"
+      ],
+      "rows": [
+        {
+          "label": "Present",
+          "cells": [
+            "Антон сказал: «Я работаю».",
+            "Антон сказал, что он работает."
+          ]
+        },
+        {
+          "label": "Past",
+          "cells": [
+            "Маша сказала: «Я была занята».",
+            "Маша сказала, что она была занята."
+          ]
+        },
+        {
+          "label": "Future",
+          "cells": [
+            "Иван сказал: «Я приду».",
+            "Иван сказал, что он придёт."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Маша сказала, _____ она устала.",
+          "promptEnglish": "Masha said that she was tired.",
+          "options": [
+            "если",
+            "что",
+            "когда",
+            "чтобы"
+          ],
+          "answer": "что",
+          "hint": "Which linking word reports a plain statement?",
+          "explanation": "Что introduces a reported statement. Если introduces a real condition ('if'). Когда means 'when.' Чтобы introduces a wish or command (Lesson 4), not a factual statement."
+        },
+        {
+          "prompt": "Антон сказал, что он _____ в офисе.",
+          "promptEnglish": "Anton said that he works in the office.",
+          "options": [
+            "работал",
+            "будет работать",
+            "работает",
+            "поработал"
+          ],
+          "answer": "работает",
+          "hint": "Anton said it in the present tense. Russian keeps the original tense.",
+          "explanation": "His words were 'Я работаю' (present), and Russian keeps that tense, so работает stays. English would shift to 'was working,' but Russian does not. Работал is past, будет работать is future, поработал is past perfective ('did some work')."
+        },
+        {
+          "prompt": "Маша сказала, что _____ была занята вчера.",
+          "promptEnglish": "Masha said that she was busy yesterday.",
+          "options": [
+            "я",
+            "ты",
+            "мы",
+            "она"
+          ],
+          "answer": "она",
+          "hint": "Маша spoke about herself; the narrator reports it. Which third-person pronoun matches Маша?",
+          "explanation": "Pronoun shift: Masha's 'Я была занята' becomes 'она была занята' when reported. Я keeps the first-person view, which only fits if the narrator is Masha. Ты would address Masha directly. Мы is plural."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Иван сказал, что _____ завтра.",
+          "promptEnglish": "Ivan said that he will come tomorrow.",
+          "options": [
+            "он пришёл",
+            "он придёт",
+            "он приходил",
+            "он приходит"
+          ],
+          "answer": "он придёт",
+          "hint": "Ivan said it in the future tense. Russian keeps the original tense.",
+          "explanation": "His words were 'Я приду завтра' (perfective future), and Russian keeps the future: придёт. Пришёл is past, приходил is past imperfective, приходит is present; none match the original future."
+        },
+        {
+          "prompt": "Антон ответил, что он _____ свой телефон дома.",
+          "promptEnglish": "Anton answered that he had left his phone at home.",
+          "options": [
+            "оставил",
+            "оставит",
+            "оставляет",
+            "оставлял"
+          ],
+          "answer": "оставил",
+          "hint": "Anton spoke about a finished past event. Russian keeps the past form.",
+          "explanation": "His words were 'Я оставил телефон дома' (past perfective, one finished action), and Russian keeps the past: оставил. English shifts to 'had left,' but Russian uses the same past tense for both. Оставит is future, оставляет is present, оставлял is past imperfective ('used to leave')."
+        },
+        {
+          "prompt": "Маша _____ , что Антон уже дома.",
+          "promptEnglish": "Masha said that Anton was already home.",
+          "options": [
+            "хочет",
+            "сказала",
+            "может",
+            "слышит"
+          ],
+          "answer": "сказала",
+          "hint": "You need a past-tense verb of saying with a feminine subject.",
+          "explanation": "Сказала is the past feminine of the verb of saying сказать. Хочет (wants), может (can), and слышит (hears) are not verbs of saying, so they cannot open a reporting frame."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Антон сказал, что он _____ в Петербурге.",
+          "promptEnglish": "Anton said that he lives in Petersburg.",
+          "options": [
+            "живёт",
+            "жил",
+            "живу",
+            "будет жить"
+          ],
+          "answer": "живёт",
+          "hint": "Russian keeps the original tense in reported speech.",
+          "explanation": "The original words were 'Я живу', and Russian keeps the tense when reporting: он живёт. English backshifts to 'lived', but Russian does not; жил would wrongly claim the original was past. The pronoun я shifts to он."
+        },
+        {
+          "prompt": "Лена сказала, что она _____ дома.",
+          "promptEnglish": "Lena said that she had been at home.",
+          "options": [
+            "была",
+            "есть",
+            "будет",
+            "быть"
+          ],
+          "answer": "была",
+          "hint": "The original was past; what happens to the tense?",
+          "explanation": "The original 'Я была дома' keeps its past tense in the report: она была дома. The pronoun shifts (я → она), the tense does not; будет would turn it into a future claim."
+        },
+        {
+          "prompt": "Иван сказал, что он _____ вечером.",
+          "promptEnglish": "Ivan said that he would call in the evening.",
+          "options": [
+            "позвонит",
+            "позвонил",
+            "звоню",
+            "позвонить"
+          ],
+          "answer": "позвонит",
+          "hint": "The original was future; keep it.",
+          "explanation": "The original 'Я позвоню' keeps its future in the report: он позвонит. Russian does not shift to a conditional the way English does ('would call'); позвонил would make it a past event."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Маша ответила, что она не _____ задачу.",
+          "promptEnglish": "Masha replied that she didn't understand the problem.",
+          "options": [
+            "понимает",
+            "поняла",
+            "понимаю",
+            "поймёт"
+          ],
+          "answer": "понимает",
+          "hint": "Negated present stays present.",
+          "explanation": "The original 'Я не понимаю' keeps its present tense: она не понимает. Понимаю fails to shift the pronoun's person; поняла and поймёт change the tense, which Russian reporting does not do."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Антон сказал, что _____ был на работе вчера. (Anton said that he was at work yesterday.)",
+      "Лена рассказала, что она _____ в Москве. (Lena said that she lives in Moscow; present kept.)"
+    ],
+    "choices": [
+      "она",
+      "он",
+      "я",
+      "живёт",
+      "жила",
+      "будет жить"
+    ],
+    "answers": [
+      "он",
+      "живёт"
+    ],
+    "grammarFocus": "Blank 1 is a pronoun shift: Anton's 'Я был на работе' becomes 'он был' (masculine, matching был). Blank 2 keeps the tense: Lena's 'Я живу в Москве' (present) stays present as живёт. Жила would be past and будет жить future; neither matches her original present-tense words."
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Антон",
+        "сказал",
+        "что",
+        "он",
+        "работает"
+      ],
+      "answer": "Антон сказал, что он работает.",
+      "translation": "Anton said that he works.",
+      "hint": "Verb of saying, then comma + что, then the reported clause with the shifted pronoun.",
+      "acceptableVariants": [
+        "антон сказал что он работает"
+      ]
+    },
+    {
+      "words": [
+        "Лена",
+        "рассказала",
+        "что",
+        "она",
+        "была",
+        "в",
+        "театре"
+      ],
+      "answer": "Лена рассказала, что она была в театре.",
+      "translation": "Lena said that she had been to the theatre.",
+      "hint": "Past tense была is kept; the pronoun shifts to она.",
+      "acceptableVariants": [
+        "лена рассказала что она была в театре"
+      ]
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Антон позвонил и сказал, что он сейчас ехал домой.",
+      "translationEnglish": "Anton called and said that he is driving home right now.",
+      "error": "ехал",
+      "correction": "едет",
+      "options": [
+        "едет",
+        "поехал",
+        "поедет"
+      ],
+      "explanation": "Russian keeps the original tense. Anton's words were 'я сейчас еду домой' (present), and 'сейчас' confirms the action was ongoing as he spoke, so едет is kept. The past ехал wrongly copies the English shift ('said he was driving'). Поехал (past) and поедет (future) change the meaning. The cue 'сейчас' locks the present."
+    },
+    {
+      "sentence": "Антон рассказал, что я очень устал на работе.",
+      "translationEnglish": "Anton said that he was very tired at work.",
+      "error": "я",
+      "correction": "он",
+      "options": [
+        "он",
+        "ты",
+        "она"
+      ],
+      "explanation": "Reporting someone else's first-person words shifts the pronoun to the third person matching the speaker. Anton's 'я очень устал' becomes 'он очень устал.' Keeping я would mean the narrator is the tired one. Ты would address Anton directly; она is feminine, but Anton is masculine and 'устал' is the masculine form agreeing with он."
+    },
+    {
+      "sentence": "Иван написал, что он обязательно пришёл на встречу в следующую субботу.",
+      "translationEnglish": "Ivan wrote that he would definitely come to the meeting next Saturday.",
+      "error": "пришёл",
+      "correction": "придёт",
+      "options": [
+        "придёт",
+        "приходил",
+        "приходит"
+      ],
+      "explanation": "Russian keeps the original tense. Ivan's words were 'я приду в следующую субботу' (perfective future), so придёт is kept. English uses a conditional 'would come,' but Russian keeps the plain future. Пришёл (past) and приходил (past imperfective) clash with 'в следующую субботу' (a future reference); приходит is present."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Антон сказал, _____ он работает в офисе.",
+      "contextEnglish": "Anton said that he works in the office.",
+      "options": [
+        "что",
+        "если"
+      ],
+      "answer": "что",
+      "explanation": "Reported statements take что. Если would introduce a real condition ('if'), which does not fit the reporting frame. The English 'said that' is exactly the что reading."
+    },
+    {
+      "context": "Маша сказала, что Антон _____ в офисе.",
+      "contextEnglish": "Masha said that Anton was working in the office (at the moment of speaking).",
+      "options": [
+        "работает",
+        "работал"
+      ],
+      "answer": "работает",
+      "explanation": "Russian keeps the original tense. Маша observed Антон working as she spoke, so the present tense (работает) is used. The English 'was working' is an English-only shift; Russian leaves the present unchanged."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Each reported verb came from direct speech. Sort each one by the tense the speaker used (and that Russian keeps).",
+    "categories": [
+      "Present kept",
+      "Past kept",
+      "Future kept"
+    ],
+    "items": [
+      {
+        "word": "Антон сказал, что он работает.",
+        "category": "Present kept"
+      },
+      {
+        "word": "Маша сказала, что она была дома.",
+        "category": "Past kept"
+      },
+      {
+        "word": "Иван сказал, что он придёт завтра.",
+        "category": "Future kept"
+      },
+      {
+        "word": "Лена ответила, что она не знает.",
+        "category": "Present kept"
+      },
+      {
+        "word": "Антон написал, что он оставил телефон дома.",
+        "category": "Past kept"
+      },
+      {
+        "word": "Маша сказала, что она позвонит вечером.",
+        "category": "Future kept"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "косвенная речь",
+      "definition": "reported / indirect speech (a clause introduced by что reporting what someone said; tense kept, pronoun shifted)",
+      "example": "В предложении 'Маша сказала, что она устала' часть после 'что' — это косвенная речь."
+    },
+    {
+      "term": "союз «что»",
+      "definition": "the linking word что (introduces a reported statement; comma mandatory before it; the verb keeps its original tense)",
+      "example": "В предложении 'Антон сказал, что он работает' союз 'что' открывает косвенную речь."
+    },
+    {
+      "term": "сохранение времени",
+      "definition": "keeping the tense (in reported speech the Russian verb stays in the tense the speaker used; English's tense shift does not apply)",
+      "example": "В предложении 'Маша сказала, что Антон работает' глагол 'работает' стоит в настоящем времени — как в прямой речи."
+    }
+  ]
+}

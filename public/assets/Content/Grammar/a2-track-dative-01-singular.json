@@ -1,0 +1,281 @@
+{
+  "id": "a2-track-dative-01-singular",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Dative 1: To Whom? (All Three Genders)",
+  "titleRussian": "Дательный 1: Кому? (Все три рода)",
+  "description": "The dative case answers 'Кому?' (To whom?). Today: singular dative endings for masculine, feminine, and neuter nouns.",
+  "descriptionRussian": "Дательный падеж отвечает на вопрос 'Кому?'. Сегодня: окончания дательного падежа для мужского, женского и среднего рода в единственном числе.",
+  "imageName": "arrow.right.circle",
+  "trackId": "a2-dative-mastery",
+  "trackTitle": "Dative Mastery",
+  "trackTitleRussian": "Дательный падеж",
+  "trackIndex": 1,
+  "trackTotal": 8,
+  "intro": "The dative marks whoever is on the receiving end: the person you give something to, write to, or help. English handles that with a small word or with word order, and Russian handles it with an ending. What makes this case bigger than it looks is where else it turns up. By lesson 5 you will be using it to say your age and to say that you are cold.",
+  "rules": [
+    "The dative case (дательный падеж) marks the RECIPIENT or ADDRESSEE of an action. It answers the question 'Кому?' (To whom?).",
+    "Masculine consonant nouns add -у in the dative: брат → брату, друг → другу, Антон → Антону.",
+    "Feminine nouns ending in -а or -я swap the final vowel for -е: мама → маме, школа → школе, тётя → тёте.",
+    "Neuter nouns ending in -о swap -о for -у; nouns ending in -е swap -е for -ю: окно → окну, письмо → письму, море → морю.",
+    "Important: the feminine dative -е coincides with the feminine prepositional -е. Context (the verb and any preposition) tells you which case is in play."
+  ],
+  "examples": [
+    "Я помогаю брату. (I help brother.) брат → брату.",
+    "Маша звонит маме. (Masha is calling mom.) мама → маме.",
+    "Антон помогает тёте. (Anton helps aunt.) тётя → тёте.",
+    "Я звоню Антону. (I'm calling Anton.) Антон → Антону.",
+    "Маша рада письму. (Masha is glad about the letter.) письмо → письму.",
+    "Антон рад морю. (Anton is glad about the sea.) море → морю."
+  ],
+  "tables": [
+    {
+      "title": "Dative Singular: Three Patterns",
+      "headers": [
+        "Что? (Nominative)",
+        "Кому? (Dative)",
+        "Change"
+      ],
+      "rows": [
+        {
+          "label": "брат",
+          "cells": [
+            "брату",
+            "+ -у"
+          ]
+        },
+        {
+          "label": "друг",
+          "cells": [
+            "другу",
+            "+ -у"
+          ]
+        },
+        {
+          "label": "Антон",
+          "cells": [
+            "Антону",
+            "+ -у"
+          ]
+        },
+        {
+          "label": "мама",
+          "cells": [
+            "маме",
+            "-а → -е"
+          ]
+        },
+        {
+          "label": "сестра",
+          "cells": [
+            "сестре",
+            "-а → -е"
+          ]
+        },
+        {
+          "label": "тётя",
+          "cells": [
+            "тёте",
+            "-я → -е"
+          ]
+        },
+        {
+          "label": "письмо",
+          "cells": [
+            "письму",
+            "-о → -у"
+          ]
+        },
+        {
+          "label": "море",
+          "cells": [
+            "морю",
+            "-е → -ю"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я помогаю _____.",
+          "promptEnglish": "I help my brother.",
+          "options": [
+            "брата",
+            "брату",
+            "брате",
+            "братом"
+          ],
+          "answer": "брату",
+          "hint": "What ending does a masculine consonant noun take in the dative?",
+          "explanation": "Помогать takes a dative complement: помогать кому. Брат is masculine consonant, so it adds -у in the dative: брату."
+        },
+        {
+          "prompt": "Я звоню _____.",
+          "promptEnglish": "I'm calling mom.",
+          "options": [
+            "маму",
+            "мамы",
+            "маме",
+            "мамой"
+          ],
+          "answer": "маме",
+          "hint": "Feminine -а changes to which letter in the dative?",
+          "explanation": "Звонить takes a dative complement: звонить кому. Мама is feminine -а: -а → -е → маме. The form looks the same as the prepositional 'я думаю о маме,' but the trigger here is the verb звонить, not the preposition о."
+        },
+        {
+          "prompt": "Маша помогает _____.",
+          "promptEnglish": "Masha helps aunt.",
+          "options": [
+            "тётю",
+            "тёти",
+            "тётей",
+            "тёте"
+          ],
+          "answer": "тёте",
+          "hint": "Feminine -я follows the same dative pattern as feminine -а.",
+          "explanation": "Тётя ends in -я. Feminine -я swaps to -е, parallel to feminine -а → -е. Тётя → тёте. The soft -я ending stays soft as -е."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Лена звонит _____.",
+          "promptEnglish": "Lena is calling Anton.",
+          "options": [
+            "Антону",
+            "Антоном",
+            "Антона",
+            "Антоне"
+          ],
+          "answer": "Антону",
+          "hint": "Антон is a masculine consonant name. Apply the masculine rule.",
+          "explanation": "Names follow the same rules as common nouns. Антон is masculine consonant: + -у → Антону."
+        },
+        {
+          "prompt": "Антон помогает _____.",
+          "promptEnglish": "Anton helps his sister.",
+          "options": [
+            "сестру",
+            "сестры",
+            "сестре",
+            "сестрой"
+          ],
+          "answer": "сестре",
+          "hint": "Сестра is feminine -а. What replaces -а?",
+          "explanation": "Сестра is feminine -а: -а → -е → сестре. Feminine dative is identical in form to feminine prepositional, but the role is different: here сестре is the recipient of help, not the topic of conversation."
+        },
+        {
+          "prompt": "Я помогаю _____.",
+          "promptEnglish": "I help my friend.",
+          "options": [
+            "друга",
+            "другом",
+            "друге",
+            "другу"
+          ],
+          "answer": "другу",
+          "hint": "Друг is masculine consonant. Recall Q1.1's pattern.",
+          "explanation": "Друг → другу. Masculine consonant + -у. By the end of this lesson the masculine pattern should feel automatic: брату, другу, Антону, сыну."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша рада _____. (Masha is glad about the letter.)"
+    ],
+    "choices": [
+      "письмо",
+      "письма",
+      "письму",
+      "письмом"
+    ],
+    "answers": [
+      "письму"
+    ],
+    "grammarFocus": "Письмо is neuter -о. The construction 'рад/рада чему' (glad about something) takes the dative: -о → -у → письму."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Маша часто помогает дедушка с компьютером.",
+      "translationEnglish": "Masha often helps her grandpa with the computer.",
+      "error": "дедушка",
+      "correction": "дедушке",
+      "options": [
+        "дедушке",
+        "дедушку",
+        "дедушкой"
+      ],
+      "explanation": "Помогать governs the dative: the person you help goes in the dative. Дедушка ends in -а, so it declines like a feminine -а noun even though it is masculine: дедушке."
+    },
+    {
+      "sentence": "Каждый вечер я звоню бабушка.",
+      "translationEnglish": "Every evening I call grandma.",
+      "error": "бабушка",
+      "correction": "бабушке",
+      "options": [
+        "бабушке",
+        "бабушку",
+        "бабушкой"
+      ],
+      "explanation": "Звонить governs the dative: the person you call goes in the dative, so бабушка → бабушке (feminine -а swaps to -е). The bare nominative бабушка can only be a subject."
+    },
+    {
+      "sentence": "Антон очень рад письмо от друга.",
+      "translationEnglish": "Anton is very glad about the letter from his friend.",
+      "error": "письмо",
+      "correction": "письму",
+      "options": [
+        "письму",
+        "письма",
+        "письмом"
+      ],
+      "explanation": "The short adjective рад ('glad') governs the dative: рад чему. Письмо is neuter ending in -о, so the dative swaps -о for -у: письму."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я помогаю _____.",
+      "contextEnglish": "I help my brother.",
+      "options": [
+        "брат",
+        "брату"
+      ],
+      "answer": "брату",
+      "explanation": "After помогать (to help), the noun shifts into the dative: брату. The nominative брат would only appear as a subject: 'Брат работает' (Brother is working)."
+    },
+    {
+      "context": "Я звоню _____.",
+      "contextEnglish": "I'm calling mom.",
+      "options": [
+        "мама",
+        "маме"
+      ],
+      "answer": "маме",
+      "explanation": "After звонить (to call), the noun shifts into the dative: маме. The same form маме also appears in the prepositional 'я думаю о маме,' but the trigger differs: звонить takes the dative directly, while 'о' triggers the prepositional."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "дательный падеж",
+      "definition": "dative case (marks the recipient or addressee of an action; answers 'Кому?')",
+      "example": "В предложении 'Я помогаю брату' слово 'брату' стоит в дательном падеже."
+    },
+    {
+      "term": "кому?",
+      "definition": "to whom? (the dative question word)",
+      "example": "Кому ты звонишь? — Маме."
+    },
+    {
+      "term": "помогать",
+      "definition": "to help (the person being helped goes in the dative: помогать кому)",
+      "example": "Я помогаю сестре."
+    }
+  ]
+}

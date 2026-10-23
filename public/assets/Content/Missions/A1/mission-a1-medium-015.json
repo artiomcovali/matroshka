@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-015",
+  "title": "Wrong Charger",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "The charger you want is for a different phone model",
+  "imageName": "battery.100.bolt",
+  "initialPrompt": "Здравствуйте! Вам помочь?",
+  "systemPrompt": "You work in phone store. Customer wants iPhone charger but picks Android one. iPhone chargers are 500₽. Keep replies short.",
+  "completionCriteria": "User was told they picked wrong charger and bought the correct one.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужна зарядка (I need a charger)",
+    "Это для айфона? (Is this for iPhone?)",
+    "Дайте правильную (Give me the right one)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "зарядка",
+      "definition": "charger"
+    },
+    {
+      "word": "телефон",
+      "definition": "phone"
+    },
+    {
+      "word": "другой",
+      "definition": "different/other"
+    },
+    {
+      "word": "подходить",
+      "definition": "to fit/suit"
+    },
+    {
+      "word": "модель",
+      "definition": "model"
+    }
+  ],
+  "objectives": [
+    "Ask for charger (зарядка)",
+    "Learn you picked wrong one (другой)",
+    "Buy the correct charger"
+  ]
+}

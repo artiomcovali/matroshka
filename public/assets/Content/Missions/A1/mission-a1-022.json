@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-022",
+  "title": "At the Bakery",
+  "level": "A1",
+  "description": "Buy fresh pastries and bread",
+  "imageName": "birthday.cake.fill",
+  "initialPrompt": "Доброе утро! Свежий хлеб и булочки. Что желаете?",
+  "systemPrompt": "You work at a bakery. Items: хлеб 60₽, булочка 40₽, пирожок 50₽. Keep replies short.",
+  "completionCriteria": "User bought bread or pastries.",
+  "responseLimit": 15,
+  "hints": [
+    "Хлеб, пожалуйста (Bread, please)",
+    "Две булочки (Two rolls)",
+    "Это свежее? (Is this fresh?)",
+    "Сколько стоит? (How much?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "хлеб",
+      "definition": "bread"
+    },
+    {
+      "word": "булочка",
+      "definition": "roll/bun"
+    },
+    {
+      "word": "пирожок",
+      "definition": "pastry/pie"
+    },
+    {
+      "word": "свежий",
+      "definition": "fresh"
+    },
+    {
+      "word": "утро",
+      "definition": "morning"
+    }
+  ],
+  "objectives": [
+    "Greet the baker (Доброе утро)",
+    "Order bread or pastries (хлеб, булочка)",
+    "Complete the purchase"
+  ]
+}

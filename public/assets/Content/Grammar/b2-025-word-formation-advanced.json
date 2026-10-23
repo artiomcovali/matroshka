@@ -1,0 +1,295 @@
+{
+  "id": "b2-025-word-formation-advanced",
+  "level": "B2",
+  "focusArea": "vocabulary",
+  "title": "Advanced Word Formation",
+  "titleRussian": "Словообразование (углублённый)",
+  "description": "Complex derivational patterns",
+  "descriptionRussian": "Сложные способы образования слов",
+  "imageName": "textformat.abc",
+  "intro": "Russian word formation (словообразование) follows systematic patterns. PREFIXATION: Changes meaning (писать → написать, переписать, выписать). SUFFIXATION: Changes part of speech (читать → читатель, чтение). COMPOUNDING: Two roots (паровоз = steam-locomotive). BACK-FORMATION: Noun from verb (взлёт from взлетать). Understanding these patterns helps decode unfamiliar words. Key insight: Russian prefers derivation over borrowing - many 'new' words are built from existing roots.",
+  "rules": [
+    "Prefix changes meaning: писать → написать (complete), переписать (rewrite), выписать (write out)",
+    "Suffix changes word class: учить → учитель (noun), учебный (adj), учение (noun)",
+    "Compound words: two roots + linking vowel -о-/-е-: пар+о+воз (steamtrain)",
+    "Agent suffix -тель/-ник: читать → читатель, работать → работник"
+  ],
+  "examples": [
+    "писать → написать (write-complete), переписать (rewrite), выписать (copy out)",
+    "учить → учитель (teacher), ученик (student), учебник (textbook)",
+    "самолёт = сам + лёт (self + flight = airplane)",
+    "водопад = вода + падать (water + fall = waterfall)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "писать + пере- = _____",
+          "promptEnglish": "to write + re- = ?",
+          "options": [
+            "переписание",
+            "переписать",
+            "преписать",
+            "переписка"
+          ],
+          "answer": "переписать",
+          "hint": "пере- = re-/across",
+          "explanation": "пере- + писать = переписать (rewrite)."
+        },
+        {
+          "prompt": "читать → читатель. What does -тель mean?",
+          "promptEnglish": "reader. What suffix type?",
+          "options": [
+            "Place",
+            "Agent (person who does)",
+            "Action",
+            "Quality"
+          ],
+          "answer": "Agent (person who does)",
+          "hint": "-тель = person who...",
+          "explanation": "-тель = agent suffix: читатель (reader)."
+        },
+        {
+          "prompt": "самолёт = сам + лёт. Translation?",
+          "promptEnglish": "What does this compound mean?",
+          "options": [
+            "helicopter",
+            "parachute",
+            "airplane (self-flight)",
+            "rocket"
+          ],
+          "answer": "airplane (self-flight)",
+          "hint": "сам = self, лёт = flight",
+          "explanation": "Compound: сам + лёт = airplane."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "учить → учи_____ (textbook)",
+          "promptEnglish": "to teach → textbook",
+          "options": [
+            "-тель (учитель)",
+            "-ник (учебник)",
+            "-ница (ученица)",
+            "-ение (учение)"
+          ],
+          "answer": "-ник (учебник)",
+          "hint": "Textbook = учебник",
+          "explanation": "учебник = textbook (-ник suffix)."
+        },
+        {
+          "prompt": "вода + падать = _____",
+          "promptEnglish": "water + fall = ?",
+          "options": [
+            "водападь",
+            "падавода",
+            "водопадение",
+            "водопад"
+          ],
+          "answer": "водопад",
+          "hint": "Compound with -о- linking vowel",
+          "explanation": "вод + о + пад = водопад (waterfall)."
+        },
+        {
+          "prompt": "писать + вы- = выписать. Meaning?",
+          "promptEnglish": "What does вы- add?",
+          "options": [
+            "rewrite",
+            "underwrite",
+            "write in",
+            "write out, extract"
+          ],
+          "answer": "write out, extract",
+          "hint": "вы- = out",
+          "explanation": "вы- = out: выписать (write out, extract)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "работать → работ_____ (worker)",
+          "promptEnglish": "to work → worker",
+          "options": [
+            "-тель",
+            "-ец",
+            "-щик",
+            "-ник"
+          ],
+          "answer": "-ник",
+          "hint": "работник = worker",
+          "explanation": "работ + ник = работник (worker)."
+        },
+        {
+          "prompt": "пар (steam) + воз (carries) = _____",
+          "promptEnglish": "steam + carrier = ?",
+          "options": [
+            "паровик",
+            "паровоз",
+            "парование",
+            "возпар"
+          ],
+          "answer": "паровоз",
+          "hint": "Steam locomotive",
+          "explanation": "пар + о + воз = паровоз (steam locomotive)."
+        },
+        {
+          "prompt": "What does prefix при- often mean?",
+          "promptEnglish": "приходить, приезжать, прилетать",
+          "options": [
+            "completion",
+            "repetition",
+            "arrival, approach",
+            "departure"
+          ],
+          "answer": "arrival, approach",
+          "hint": "при- = to, toward",
+          "explanation": "при- = arrival: приходить, приезжать."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Дети _____ песню, когда вошёл учитель. (начало действия)",
+          "promptEnglish": "The children started singing a song when the teacher walked in.",
+          "options": [
+            "спели",
+            "запели",
+            "пели",
+            "перепели"
+          ],
+          "answer": "запели",
+          "hint": "Приставка за- обозначает начало действия",
+          "explanation": "за- + петь = запеть (начать петь). Приставка за- часто обозначает начало: заговорить, заплакать, запеть."
+        },
+        {
+          "prompt": "земля + трясти = _____. (natural disaster)",
+          "promptEnglish": "earth + to shake = ?",
+          "options": [
+            "землетряс",
+            "трясоземля",
+            "земляшатка",
+            "землетрясение"
+          ],
+          "answer": "землетрясение",
+          "hint": "Compound word + -ение suffix",
+          "explanation": "земл + е + тряс + ение = землетрясение (earthquake): compound with linking vowel -е- and verbal noun suffix -ение."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "лететь + само- = _____ (airplane)"
+    ],
+    "choices": [
+      "самолёт",
+      "самолетание",
+      "летосам",
+      "летатель"
+    ],
+    "answers": [
+      "самолёт"
+    ],
+    "grammarFocus": "Compound: само- (self) + лёт (flight)",
+    "hints": [
+      "Russian compound words combine two roots. The prefix само- means 'self.' What 'flies by itself'?"
+    ],
+    "explanations": [
+      "Compound word formation: само- (self) + лёт (flight) = самолёт (airplane, literally 'self-flyer'). Russian compounds often use a connecting vowel -о- between roots, as in паровоз, водопад, самолёт."
+    ],
+    "options": [
+      [
+        "самолёта",
+        "самолётом",
+        "самолёт",
+        "самолёту"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "читать → читатель. Type of word?",
+      "contextEnglish": "to read → reader",
+      "options": [
+        "Agent noun (-тель)",
+        "Action noun"
+      ],
+      "answer": "Agent noun (-тель)",
+      "explanation": "-тель = agent: читатель (one who reads)."
+    },
+    {
+      "context": "читать → чтение. Type of word?",
+      "contextEnglish": "to read → reading",
+      "options": [
+        "Action noun (-ние)",
+        "Agent noun"
+      ],
+      "answer": "Action noun (-ние)",
+      "explanation": "-ние = action: чтение (the act of reading)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by word formation type",
+    "categories": [
+      "Prefixation",
+      "Suffixation",
+      "Compounding"
+    ],
+    "items": [
+      {
+        "word": "переписать (rewrite)",
+        "category": "Prefixation"
+      },
+      {
+        "word": "читатель (reader)",
+        "category": "Suffixation"
+      },
+      {
+        "word": "самолёт (airplane)",
+        "category": "Compounding"
+      },
+      {
+        "word": "выходить (go out)",
+        "category": "Prefixation"
+      },
+      {
+        "word": "учебник (textbook)",
+        "category": "Suffixation"
+      },
+      {
+        "word": "водопад (waterfall)",
+        "category": "Compounding"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "-тель",
+      "definition": "agent suffix (person who...)",
+      "example": "читатель, учитель, писатель"
+    },
+    {
+      "term": "пере-",
+      "definition": "prefix: re-, across, over",
+      "example": "переписать, перечитать"
+    },
+    {
+      "term": "вы-",
+      "definition": "prefix: out",
+      "example": "выписать, выходить"
+    },
+    {
+      "term": "compound (-о-/-е-)",
+      "definition": "two roots joined",
+      "example": "самолёт, водопад, паровоз"
+    }
+  ]
+}

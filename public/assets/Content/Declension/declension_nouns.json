@@ -1,0 +1,2594 @@
+{
+  "nouns": [
+    {
+      "id": "dom",
+      "nominative": "дом",
+      "translation": "house",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "place",
+      "traits": [
+        "walkable"
+      ],
+      "singular": {
+        "nominative": "дом",
+        "genitive": "дома",
+        "dative": "дому",
+        "accusative": "дом",
+        "instrumental": "домом",
+        "prepositional": "доме"
+      },
+      "plural": {
+        "nominative": "дома",
+        "genitive": "домов",
+        "dative": "домам",
+        "accusative": "дома",
+        "instrumental": "домами",
+        "prepositional": "домах"
+      }
+    },
+    {
+      "id": "gorod",
+      "nominative": "город",
+      "translation": "city",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "region",
+      "singular": {
+        "nominative": "город",
+        "genitive": "города",
+        "dative": "городу",
+        "accusative": "город",
+        "instrumental": "городом",
+        "prepositional": "городе"
+      },
+      "plural": {
+        "nominative": "города",
+        "genitive": "городов",
+        "dative": "городам",
+        "accusative": "города",
+        "instrumental": "городами",
+        "prepositional": "городах"
+      }
+    },
+    {
+      "id": "chelovek",
+      "nominative": "человек",
+      "translation": "person",
+      "gender": "masculine",
+      "animate": true,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "человек",
+        "genitive": "человека",
+        "dative": "человеку",
+        "accusative": "человека",
+        "instrumental": "человеком",
+        "prepositional": "человеке"
+      },
+      "plural": {
+        "nominative": "люди",
+        "genitive": "людей",
+        "dative": "людям",
+        "accusative": "людей",
+        "instrumental": "людьми",
+        "prepositional": "людях"
+      }
+    },
+    {
+      "id": "den",
+      "nominative": "день",
+      "translation": "day",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "time",
+      "traits": [
+        "event"
+      ],
+      "singular": {
+        "nominative": "день",
+        "genitive": "дня",
+        "dative": "дню",
+        "accusative": "день",
+        "instrumental": "днём",
+        "prepositional": "дне"
+      },
+      "plural": {
+        "nominative": "дни",
+        "genitive": "дней",
+        "dative": "дням",
+        "accusative": "дни",
+        "instrumental": "днями",
+        "prepositional": "днях"
+      }
+    },
+    {
+      "id": "mir",
+      "nominative": "мир",
+      "translation": "world",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "abstract",
+      "traits": [
+        "event"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "мир",
+        "genitive": "мира",
+        "dative": "миру",
+        "accusative": "мир",
+        "instrumental": "миром",
+        "prepositional": "мире"
+      },
+      "plural": {
+        "nominative": "миры",
+        "genitive": "миров",
+        "dative": "мирам",
+        "accusative": "миры",
+        "instrumental": "мирами",
+        "prepositional": "мирах"
+      }
+    },
+    {
+      "id": "god",
+      "nominative": "год",
+      "translation": "year",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "time",
+      "traits": [
+        "event"
+      ],
+      "singular": {
+        "nominative": "год",
+        "genitive": "года",
+        "dative": "году",
+        "accusative": "год",
+        "instrumental": "годом",
+        "prepositional": "годе"
+      },
+      "plural": {
+        "nominative": "годы",
+        "genitive": "лет",
+        "dative": "годам",
+        "accusative": "годы",
+        "instrumental": "годами",
+        "prepositional": "годах"
+      }
+    },
+    {
+      "id": "drug",
+      "nominative": "друг",
+      "translation": "friend",
+      "gender": "masculine",
+      "animate": true,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "друг",
+        "genitive": "друга",
+        "dative": "другу",
+        "accusative": "друга",
+        "instrumental": "другом",
+        "prepositional": "друге"
+      },
+      "plural": {
+        "nominative": "друзья",
+        "genitive": "друзей",
+        "dative": "друзьям",
+        "accusative": "друзей",
+        "instrumental": "друзьями",
+        "prepositional": "друзьях"
+      }
+    },
+    {
+      "id": "stol",
+      "nominative": "стол",
+      "translation": "table",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "thing",
+      "singular": {
+        "nominative": "стол",
+        "genitive": "стола",
+        "dative": "столу",
+        "accusative": "стол",
+        "instrumental": "столом",
+        "prepositional": "столе"
+      },
+      "plural": {
+        "nominative": "столы",
+        "genitive": "столов",
+        "dative": "столам",
+        "accusative": "столы",
+        "instrumental": "столами",
+        "prepositional": "столах"
+      }
+    },
+    {
+      "id": "vopros",
+      "nominative": "вопрос",
+      "translation": "question",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "abstract",
+      "singular": {
+        "nominative": "вопрос",
+        "genitive": "вопроса",
+        "dative": "вопросу",
+        "accusative": "вопрос",
+        "instrumental": "вопросом",
+        "prepositional": "вопросе"
+      },
+      "plural": {
+        "nominative": "вопросы",
+        "genitive": "вопросов",
+        "dative": "вопросам",
+        "accusative": "вопросы",
+        "instrumental": "вопросами",
+        "prepositional": "вопросах"
+      }
+    },
+    {
+      "id": "rebyonok",
+      "nominative": "ребёнок",
+      "translation": "child",
+      "gender": "masculine",
+      "animate": true,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "ребёнок",
+        "genitive": "ребёнка",
+        "dative": "ребёнку",
+        "accusative": "ребёнка",
+        "instrumental": "ребёнком",
+        "prepositional": "ребёнке"
+      },
+      "plural": {
+        "nominative": "дети",
+        "genitive": "детей",
+        "dative": "детям",
+        "accusative": "детей",
+        "instrumental": "детьми",
+        "prepositional": "детях"
+      }
+    },
+    {
+      "id": "brat",
+      "nominative": "брат",
+      "translation": "brother",
+      "gender": "masculine",
+      "animate": true,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "брат",
+        "genitive": "брата",
+        "dative": "брату",
+        "accusative": "брата",
+        "instrumental": "братом",
+        "prepositional": "брате"
+      },
+      "plural": {
+        "nominative": "братья",
+        "genitive": "братьев",
+        "dative": "братьям",
+        "accusative": "братьев",
+        "instrumental": "братьями",
+        "prepositional": "братьях"
+      }
+    },
+    {
+      "id": "glaz",
+      "nominative": "глаз",
+      "translation": "eye",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "bodyPart",
+      "singular": {
+        "nominative": "глаз",
+        "genitive": "глаза",
+        "dative": "глазу",
+        "accusative": "глаз",
+        "instrumental": "глазом",
+        "prepositional": "глазе"
+      },
+      "plural": {
+        "nominative": "глаза",
+        "genitive": "глаз",
+        "dative": "глазам",
+        "accusative": "глаза",
+        "instrumental": "глазами",
+        "prepositional": "глазах"
+      }
+    },
+    {
+      "id": "uchitel",
+      "nominative": "учитель",
+      "translation": "teacher",
+      "gender": "masculine",
+      "animate": true,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "учитель",
+        "genitive": "учителя",
+        "dative": "учителю",
+        "accusative": "учителя",
+        "instrumental": "учителем",
+        "prepositional": "учителе"
+      },
+      "plural": {
+        "nominative": "учителя",
+        "genitive": "учителей",
+        "dative": "учителям",
+        "accusative": "учителей",
+        "instrumental": "учителями",
+        "prepositional": "учителях"
+      }
+    },
+    {
+      "id": "avtobus",
+      "nominative": "автобус",
+      "translation": "bus",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "thing",
+      "singular": {
+        "nominative": "автобус",
+        "genitive": "автобуса",
+        "dative": "автобусу",
+        "accusative": "автобус",
+        "instrumental": "автобусом",
+        "prepositional": "автобусе"
+      },
+      "plural": {
+        "nominative": "автобусы",
+        "genitive": "автобусов",
+        "dative": "автобусам",
+        "accusative": "автобусы",
+        "instrumental": "автобусами",
+        "prepositional": "автобусах"
+      }
+    },
+    {
+      "id": "telefon",
+      "nominative": "телефон",
+      "translation": "phone",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "thing",
+      "traits": [
+        "tool"
+      ],
+      "singular": {
+        "nominative": "телефон",
+        "genitive": "телефона",
+        "dative": "телефону",
+        "accusative": "телефон",
+        "instrumental": "телефоном",
+        "prepositional": "телефоне"
+      },
+      "plural": {
+        "nominative": "телефоны",
+        "genitive": "телефонов",
+        "dative": "телефонам",
+        "accusative": "телефоны",
+        "instrumental": "телефонами",
+        "prepositional": "телефонах"
+      }
+    },
+    {
+      "id": "student",
+      "nominative": "студент",
+      "translation": "student",
+      "gender": "masculine",
+      "animate": true,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "студент",
+        "genitive": "студента",
+        "dative": "студенту",
+        "accusative": "студента",
+        "instrumental": "студентом",
+        "prepositional": "студенте"
+      },
+      "plural": {
+        "nominative": "студенты",
+        "genitive": "студентов",
+        "dative": "студентам",
+        "accusative": "студентов",
+        "instrumental": "студентами",
+        "prepositional": "студентах"
+      }
+    },
+    {
+      "id": "magazin",
+      "nominative": "магазин",
+      "translation": "store",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "place",
+      "traits": [
+        "walkable"
+      ],
+      "singular": {
+        "nominative": "магазин",
+        "genitive": "магазина",
+        "dative": "магазину",
+        "accusative": "магазин",
+        "instrumental": "магазином",
+        "prepositional": "магазине"
+      },
+      "plural": {
+        "nominative": "магазины",
+        "genitive": "магазинов",
+        "dative": "магазинам",
+        "accusative": "магазины",
+        "instrumental": "магазинами",
+        "prepositional": "магазинах"
+      }
+    },
+    {
+      "id": "khleb",
+      "nominative": "хлеб",
+      "translation": "bread",
+      "gender": "masculine",
+      "animate": false,
+      "numberRestriction": "singularOnly",
+      "semanticClass": "food",
+      "traits": [
+        "mass"
+      ],
+      "singular": {
+        "nominative": "хлеб",
+        "genitive": "хлеба",
+        "dative": "хлебу",
+        "accusative": "хлеб",
+        "instrumental": "хлебом",
+        "prepositional": "хлебе"
+      },
+      "plural": {
+        "nominative": "хлебы",
+        "genitive": "хлебов",
+        "dative": "хлебам",
+        "accusative": "хлебы",
+        "instrumental": "хлебами",
+        "prepositional": "хлебах"
+      }
+    },
+    {
+      "id": "vrach",
+      "nominative": "врач",
+      "translation": "doctor",
+      "gender": "masculine",
+      "animate": true,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "врач",
+        "genitive": "врача",
+        "dative": "врачу",
+        "accusative": "врача",
+        "instrumental": "врачом",
+        "prepositional": "враче"
+      },
+      "plural": {
+        "nominative": "врачи",
+        "genitive": "врачей",
+        "dative": "врачам",
+        "accusative": "врачей",
+        "instrumental": "врачами",
+        "prepositional": "врачах"
+      }
+    },
+    {
+      "id": "muzey",
+      "nominative": "музей",
+      "translation": "museum",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "place",
+      "traits": [
+        "walkable"
+      ],
+      "singular": {
+        "nominative": "музей",
+        "genitive": "музея",
+        "dative": "музею",
+        "accusative": "музей",
+        "instrumental": "музеем",
+        "prepositional": "музее"
+      },
+      "plural": {
+        "nominative": "музеи",
+        "genitive": "музеев",
+        "dative": "музеям",
+        "accusative": "музеи",
+        "instrumental": "музеями",
+        "prepositional": "музеях"
+      }
+    },
+    {
+      "id": "yazyk",
+      "nominative": "язык",
+      "translation": "language",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "abstract",
+      "traits": [
+        "topic"
+      ],
+      "singular": {
+        "nominative": "язык",
+        "genitive": "языка",
+        "dative": "языку",
+        "accusative": "язык",
+        "instrumental": "языком",
+        "prepositional": "языке"
+      },
+      "plural": {
+        "nominative": "языки",
+        "genitive": "языков",
+        "dative": "языкам",
+        "accusative": "языки",
+        "instrumental": "языками",
+        "prepositional": "языках"
+      }
+    },
+    {
+      "id": "narod",
+      "nominative": "народ",
+      "translation": "people/nation",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "abstract",
+      "singular": {
+        "nominative": "народ",
+        "genitive": "народа",
+        "dative": "народу",
+        "accusative": "народ",
+        "instrumental": "народом",
+        "prepositional": "народе"
+      },
+      "plural": {
+        "nominative": "народы",
+        "genitive": "народов",
+        "dative": "народам",
+        "accusative": "народы",
+        "instrumental": "народами",
+        "prepositional": "народах"
+      }
+    },
+    {
+      "id": "urok",
+      "nominative": "урок",
+      "translation": "lesson",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "abstract",
+      "traits": [
+        "event"
+      ],
+      "singular": {
+        "nominative": "урок",
+        "genitive": "урока",
+        "dative": "уроку",
+        "accusative": "урок",
+        "instrumental": "уроком",
+        "prepositional": "уроке"
+      },
+      "plural": {
+        "nominative": "уроки",
+        "genitive": "уроков",
+        "dative": "урокам",
+        "accusative": "уроки",
+        "instrumental": "уроками",
+        "prepositional": "уроках"
+      }
+    },
+    {
+      "id": "syn",
+      "nominative": "сын",
+      "translation": "son",
+      "gender": "masculine",
+      "animate": true,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "сын",
+        "genitive": "сына",
+        "dative": "сыну",
+        "accusative": "сына",
+        "instrumental": "сыном",
+        "prepositional": "сыне"
+      },
+      "plural": {
+        "nominative": "сыновья",
+        "genitive": "сыновей",
+        "dative": "сыновьям",
+        "accusative": "сыновей",
+        "instrumental": "сыновьями",
+        "prepositional": "сыновьях"
+      }
+    },
+    {
+      "id": "otets",
+      "nominative": "отец",
+      "translation": "father",
+      "gender": "masculine",
+      "animate": true,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "отец",
+        "genitive": "отца",
+        "dative": "отцу",
+        "accusative": "отца",
+        "instrumental": "отцом",
+        "prepositional": "отце"
+      },
+      "plural": {
+        "nominative": "отцы",
+        "genitive": "отцов",
+        "dative": "отцам",
+        "accusative": "отцов",
+        "instrumental": "отцами",
+        "prepositional": "отцах"
+      }
+    },
+    {
+      "id": "nozh",
+      "nominative": "нож",
+      "translation": "knife",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "thing",
+      "traits": [
+        "tool"
+      ],
+      "singular": {
+        "nominative": "нож",
+        "genitive": "ножа",
+        "dative": "ножу",
+        "accusative": "нож",
+        "instrumental": "ножом",
+        "prepositional": "ноже"
+      },
+      "plural": {
+        "nominative": "ножи",
+        "genitive": "ножей",
+        "dative": "ножам",
+        "accusative": "ножи",
+        "instrumental": "ножами",
+        "prepositional": "ножах"
+      }
+    },
+    {
+      "id": "veter",
+      "nominative": "ветер",
+      "translation": "wind",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "nature",
+      "traits": [
+        "weather"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "ветер",
+        "genitive": "ветра",
+        "dative": "ветру",
+        "accusative": "ветер",
+        "instrumental": "ветром",
+        "prepositional": "ветре"
+      },
+      "plural": {
+        "nominative": "ветры",
+        "genitive": "ветров",
+        "dative": "ветрам",
+        "accusative": "ветры",
+        "instrumental": "ветрами",
+        "prepositional": "ветрах"
+      }
+    },
+    {
+      "id": "poyezd",
+      "nominative": "поезд",
+      "translation": "train",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "thing",
+      "singular": {
+        "nominative": "поезд",
+        "genitive": "поезда",
+        "dative": "поезду",
+        "accusative": "поезд",
+        "instrumental": "поездом",
+        "prepositional": "поезде"
+      },
+      "plural": {
+        "nominative": "поезда",
+        "genitive": "поездов",
+        "dative": "поездам",
+        "accusative": "поезда",
+        "instrumental": "поездами",
+        "prepositional": "поездах"
+      }
+    },
+    {
+      "id": "chay",
+      "nominative": "чай",
+      "translation": "tea",
+      "gender": "masculine",
+      "animate": false,
+      "numberRestriction": "singularOnly",
+      "semanticClass": "food",
+      "traits": [
+        "mass",
+        "drink"
+      ],
+      "singular": {
+        "nominative": "чай",
+        "genitive": "чая",
+        "dative": "чаю",
+        "accusative": "чай",
+        "instrumental": "чаем",
+        "prepositional": "чае"
+      },
+      "plural": {
+        "nominative": "чаи",
+        "genitive": "чаёв",
+        "dative": "чаям",
+        "accusative": "чаи",
+        "instrumental": "чаями",
+        "prepositional": "чаях"
+      }
+    },
+    {
+      "id": "podarok",
+      "nominative": "подарок",
+      "translation": "gift",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "thing",
+      "singular": {
+        "nominative": "подарок",
+        "genitive": "подарка",
+        "dative": "подарку",
+        "accusative": "подарок",
+        "instrumental": "подарком",
+        "prepositional": "подарке"
+      },
+      "plural": {
+        "nominative": "подарки",
+        "genitive": "подарков",
+        "dative": "подаркам",
+        "accusative": "подарки",
+        "instrumental": "подарками",
+        "prepositional": "подарках"
+      }
+    },
+    {
+      "id": "klyuch",
+      "nominative": "ключ",
+      "translation": "key",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "thing",
+      "traits": [
+        "tool"
+      ],
+      "singular": {
+        "nominative": "ключ",
+        "genitive": "ключа",
+        "dative": "ключу",
+        "accusative": "ключ",
+        "instrumental": "ключом",
+        "prepositional": "ключе"
+      },
+      "plural": {
+        "nominative": "ключи",
+        "genitive": "ключей",
+        "dative": "ключам",
+        "accusative": "ключи",
+        "instrumental": "ключами",
+        "prepositional": "ключах"
+      }
+    },
+    {
+      "id": "slovar",
+      "nominative": "словарь",
+      "translation": "dictionary",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "thing",
+      "traits": [
+        "tool"
+      ],
+      "singular": {
+        "nominative": "словарь",
+        "genitive": "словаря",
+        "dative": "словарю",
+        "accusative": "словарь",
+        "instrumental": "словарём",
+        "prepositional": "словаре"
+      },
+      "plural": {
+        "nominative": "словари",
+        "genitive": "словарей",
+        "dative": "словарям",
+        "accusative": "словари",
+        "instrumental": "словарями",
+        "prepositional": "словарях"
+      }
+    },
+    {
+      "id": "bilet",
+      "nominative": "билет",
+      "translation": "ticket",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "thing",
+      "singular": {
+        "nominative": "билет",
+        "genitive": "билета",
+        "dative": "билету",
+        "accusative": "билет",
+        "instrumental": "билетом",
+        "prepositional": "билете"
+      },
+      "plural": {
+        "nominative": "билеты",
+        "genitive": "билетов",
+        "dative": "билетам",
+        "accusative": "билеты",
+        "instrumental": "билетами",
+        "prepositional": "билетах"
+      }
+    },
+    {
+      "id": "obed",
+      "nominative": "обед",
+      "translation": "lunch",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "food",
+      "traits": [
+        "meal"
+      ],
+      "singular": {
+        "nominative": "обед",
+        "genitive": "обеда",
+        "dative": "обеду",
+        "accusative": "обед",
+        "instrumental": "обедом",
+        "prepositional": "обеде"
+      },
+      "plural": {
+        "nominative": "обеды",
+        "genitive": "обедов",
+        "dative": "обедам",
+        "accusative": "обеды",
+        "instrumental": "обедами",
+        "prepositional": "обедах"
+      }
+    },
+    {
+      "id": "vecher",
+      "nominative": "вечер",
+      "translation": "evening",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "time",
+      "traits": [
+        "event",
+        "daypart"
+      ],
+      "singular": {
+        "nominative": "вечер",
+        "genitive": "вечера",
+        "dative": "вечеру",
+        "accusative": "вечер",
+        "instrumental": "вечером",
+        "prepositional": "вечере"
+      },
+      "plural": {
+        "nominative": "вечера",
+        "genitive": "вечеров",
+        "dative": "вечерам",
+        "accusative": "вечера",
+        "instrumental": "вечерами",
+        "prepositional": "вечерах"
+      }
+    },
+    {
+      "id": "kot",
+      "nominative": "кот",
+      "translation": "cat",
+      "gender": "masculine",
+      "animate": true,
+      "semanticClass": "animal",
+      "singular": {
+        "nominative": "кот",
+        "genitive": "кота",
+        "dative": "коту",
+        "accusative": "кота",
+        "instrumental": "котом",
+        "prepositional": "коте"
+      },
+      "plural": {
+        "nominative": "коты",
+        "genitive": "котов",
+        "dative": "котам",
+        "accusative": "котов",
+        "instrumental": "котами",
+        "prepositional": "котах"
+      }
+    },
+    {
+      "id": "park",
+      "nominative": "парк",
+      "translation": "park",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "place",
+      "traits": [
+        "walkable",
+        "scenic"
+      ],
+      "singular": {
+        "nominative": "парк",
+        "genitive": "парка",
+        "dative": "парку",
+        "accusative": "парк",
+        "instrumental": "парком",
+        "prepositional": "парке"
+      },
+      "plural": {
+        "nominative": "парки",
+        "genitive": "парков",
+        "dative": "паркам",
+        "accusative": "парки",
+        "instrumental": "парками",
+        "prepositional": "парках"
+      }
+    },
+    {
+      "id": "rubl",
+      "nominative": "рубль",
+      "translation": "ruble",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "thing",
+      "singular": {
+        "nominative": "рубль",
+        "genitive": "рубля",
+        "dative": "рублю",
+        "accusative": "рубль",
+        "instrumental": "рублём",
+        "prepositional": "рубле"
+      },
+      "plural": {
+        "nominative": "рубли",
+        "genitive": "рублей",
+        "dative": "рублям",
+        "accusative": "рубли",
+        "instrumental": "рублями",
+        "prepositional": "рублях"
+      }
+    },
+    {
+      "id": "mesyats",
+      "nominative": "месяц",
+      "translation": "month",
+      "gender": "masculine",
+      "animate": false,
+      "semanticClass": "time",
+      "traits": [
+        "event"
+      ],
+      "singular": {
+        "nominative": "месяц",
+        "genitive": "месяца",
+        "dative": "месяцу",
+        "accusative": "месяц",
+        "instrumental": "месяцем",
+        "prepositional": "месяце"
+      },
+      "plural": {
+        "nominative": "месяцы",
+        "genitive": "месяцев",
+        "dative": "месяцам",
+        "accusative": "месяцы",
+        "instrumental": "месяцами",
+        "prepositional": "месяцах"
+      }
+    },
+    {
+      "id": "medved",
+      "nominative": "медведь",
+      "translation": "bear",
+      "gender": "masculine",
+      "animate": true,
+      "semanticClass": "animal",
+      "singular": {
+        "nominative": "медведь",
+        "genitive": "медведя",
+        "dative": "медведю",
+        "accusative": "медведя",
+        "instrumental": "медведем",
+        "prepositional": "медведе"
+      },
+      "plural": {
+        "nominative": "медведи",
+        "genitive": "медведей",
+        "dative": "медведям",
+        "accusative": "медведей",
+        "instrumental": "медведями",
+        "prepositional": "медведях"
+      }
+    },
+    {
+      "id": "voda",
+      "nominative": "вода",
+      "translation": "water",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "food",
+      "traits": [
+        "mass",
+        "drink"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "вода",
+        "genitive": "воды",
+        "dative": "воде",
+        "accusative": "воду",
+        "instrumental": "водой",
+        "prepositional": "воде"
+      },
+      "plural": {
+        "nominative": "воды",
+        "genitive": "вод",
+        "dative": "водам",
+        "accusative": "воды",
+        "instrumental": "водами",
+        "prepositional": "водах"
+      }
+    },
+    {
+      "id": "kniga",
+      "nominative": "книга",
+      "translation": "book",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "thing",
+      "singular": {
+        "nominative": "книга",
+        "genitive": "книги",
+        "dative": "книге",
+        "accusative": "книгу",
+        "instrumental": "книгой",
+        "prepositional": "книге"
+      },
+      "plural": {
+        "nominative": "книги",
+        "genitive": "книг",
+        "dative": "книгам",
+        "accusative": "книги",
+        "instrumental": "книгами",
+        "prepositional": "книгах"
+      }
+    },
+    {
+      "id": "strana",
+      "nominative": "страна",
+      "translation": "country",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "region",
+      "singular": {
+        "nominative": "страна",
+        "genitive": "страны",
+        "dative": "стране",
+        "accusative": "страну",
+        "instrumental": "страной",
+        "prepositional": "стране"
+      },
+      "plural": {
+        "nominative": "страны",
+        "genitive": "стран",
+        "dative": "странам",
+        "accusative": "страны",
+        "instrumental": "странами",
+        "prepositional": "странах"
+      }
+    },
+    {
+      "id": "mat",
+      "nominative": "мать",
+      "translation": "mother",
+      "gender": "feminine",
+      "animate": true,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "мать",
+        "genitive": "матери",
+        "dative": "матери",
+        "accusative": "мать",
+        "instrumental": "матерью",
+        "prepositional": "матери"
+      },
+      "plural": {
+        "nominative": "матери",
+        "genitive": "матерей",
+        "dative": "матерям",
+        "accusative": "матерей",
+        "instrumental": "матерями",
+        "prepositional": "матерях"
+      }
+    },
+    {
+      "id": "shkola",
+      "nominative": "школа",
+      "translation": "school",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "place",
+      "traits": [
+        "walkable"
+      ],
+      "singular": {
+        "nominative": "школа",
+        "genitive": "школы",
+        "dative": "школе",
+        "accusative": "школу",
+        "instrumental": "школой",
+        "prepositional": "школе"
+      },
+      "plural": {
+        "nominative": "школы",
+        "genitive": "школ",
+        "dative": "школам",
+        "accusative": "школы",
+        "instrumental": "школами",
+        "prepositional": "школах"
+      }
+    },
+    {
+      "id": "rabota",
+      "nominative": "работа",
+      "translation": "work",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "abstract",
+      "traits": [
+        "topic",
+        "event"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "работа",
+        "genitive": "работы",
+        "dative": "работе",
+        "accusative": "работу",
+        "instrumental": "работой",
+        "prepositional": "работе"
+      },
+      "plural": {
+        "nominative": "работы",
+        "genitive": "работ",
+        "dative": "работам",
+        "accusative": "работы",
+        "instrumental": "работами",
+        "prepositional": "работах"
+      }
+    },
+    {
+      "id": "ulitsa",
+      "nominative": "улица",
+      "translation": "street",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "place",
+      "traits": [
+        "walkable"
+      ],
+      "singular": {
+        "nominative": "улица",
+        "genitive": "улицы",
+        "dative": "улице",
+        "accusative": "улицу",
+        "instrumental": "улицей",
+        "prepositional": "улице"
+      },
+      "plural": {
+        "nominative": "улицы",
+        "genitive": "улиц",
+        "dative": "улицам",
+        "accusative": "улицы",
+        "instrumental": "улицами",
+        "prepositional": "улицах"
+      }
+    },
+    {
+      "id": "dver",
+      "nominative": "дверь",
+      "translation": "door",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "thing",
+      "singular": {
+        "nominative": "дверь",
+        "genitive": "двери",
+        "dative": "двери",
+        "accusative": "дверь",
+        "instrumental": "дверью",
+        "prepositional": "двери"
+      },
+      "plural": {
+        "nominative": "двери",
+        "genitive": "дверей",
+        "dative": "дверям",
+        "accusative": "двери",
+        "instrumental": "дверями",
+        "prepositional": "дверях"
+      }
+    },
+    {
+      "id": "ruka",
+      "nominative": "рука",
+      "translation": "hand",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "bodyPart",
+      "singular": {
+        "nominative": "рука",
+        "genitive": "руки",
+        "dative": "руке",
+        "accusative": "руку",
+        "instrumental": "рукой",
+        "prepositional": "руке"
+      },
+      "plural": {
+        "nominative": "руки",
+        "genitive": "рук",
+        "dative": "рукам",
+        "accusative": "руки",
+        "instrumental": "руками",
+        "prepositional": "руках"
+      }
+    },
+    {
+      "id": "zhizn",
+      "nominative": "жизнь",
+      "translation": "life",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "abstract",
+      "traits": [
+        "topic",
+        "event"
+      ],
+      "singular": {
+        "nominative": "жизнь",
+        "genitive": "жизни",
+        "dative": "жизни",
+        "accusative": "жизнь",
+        "instrumental": "жизнью",
+        "prepositional": "жизни"
+      },
+      "plural": {
+        "nominative": "жизни",
+        "genitive": "жизней",
+        "dative": "жизням",
+        "accusative": "жизни",
+        "instrumental": "жизнями",
+        "prepositional": "жизнях"
+      }
+    },
+    {
+      "id": "noch",
+      "nominative": "ночь",
+      "translation": "night",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "time",
+      "traits": [
+        "event",
+        "daypart"
+      ],
+      "singular": {
+        "nominative": "ночь",
+        "genitive": "ночи",
+        "dative": "ночи",
+        "accusative": "ночь",
+        "instrumental": "ночью",
+        "prepositional": "ночи"
+      },
+      "plural": {
+        "nominative": "ночи",
+        "genitive": "ночей",
+        "dative": "ночам",
+        "accusative": "ночи",
+        "instrumental": "ночами",
+        "prepositional": "ночах"
+      }
+    },
+    {
+      "id": "semya",
+      "nominative": "семья",
+      "translation": "family",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "семья",
+        "genitive": "семьи",
+        "dative": "семье",
+        "accusative": "семью",
+        "instrumental": "семьёй",
+        "prepositional": "семье"
+      },
+      "plural": {
+        "nominative": "семьи",
+        "genitive": "семей",
+        "dative": "семьям",
+        "accusative": "семьи",
+        "instrumental": "семьями",
+        "prepositional": "семьях"
+      }
+    },
+    {
+      "id": "devushka",
+      "nominative": "девушка",
+      "translation": "girl",
+      "gender": "feminine",
+      "animate": true,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "девушка",
+        "genitive": "девушки",
+        "dative": "девушке",
+        "accusative": "девушку",
+        "instrumental": "девушкой",
+        "prepositional": "девушке"
+      },
+      "plural": {
+        "nominative": "девушки",
+        "genitive": "девушек",
+        "dative": "девушкам",
+        "accusative": "девушек",
+        "instrumental": "девушками",
+        "prepositional": "девушках"
+      }
+    },
+    {
+      "id": "mashina",
+      "nominative": "машина",
+      "translation": "car",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "thing",
+      "traits": [
+        "tool"
+      ],
+      "singular": {
+        "nominative": "машина",
+        "genitive": "машины",
+        "dative": "машине",
+        "accusative": "машину",
+        "instrumental": "машиной",
+        "prepositional": "машине"
+      },
+      "plural": {
+        "nominative": "машины",
+        "genitive": "машин",
+        "dative": "машинам",
+        "accusative": "машины",
+        "instrumental": "машинами",
+        "prepositional": "машинах"
+      }
+    },
+    {
+      "id": "kukhnya",
+      "nominative": "кухня",
+      "translation": "kitchen",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "place",
+      "traits": [
+        "walkable"
+      ],
+      "singular": {
+        "nominative": "кухня",
+        "genitive": "кухни",
+        "dative": "кухне",
+        "accusative": "кухню",
+        "instrumental": "кухней",
+        "prepositional": "кухне"
+      },
+      "plural": {
+        "nominative": "кухни",
+        "genitive": "кухонь",
+        "dative": "кухням",
+        "accusative": "кухни",
+        "instrumental": "кухнями",
+        "prepositional": "кухнях"
+      }
+    },
+    {
+      "id": "sobaka",
+      "nominative": "собака",
+      "translation": "dog",
+      "gender": "feminine",
+      "animate": true,
+      "semanticClass": "animal",
+      "singular": {
+        "nominative": "собака",
+        "genitive": "собаки",
+        "dative": "собаке",
+        "accusative": "собаку",
+        "instrumental": "собакой",
+        "prepositional": "собаке"
+      },
+      "plural": {
+        "nominative": "собаки",
+        "genitive": "собак",
+        "dative": "собакам",
+        "accusative": "собак",
+        "instrumental": "собаками",
+        "prepositional": "собаках"
+      }
+    },
+    {
+      "id": "pesnya",
+      "nominative": "песня",
+      "translation": "song",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "abstract",
+      "traits": [
+        "event"
+      ],
+      "singular": {
+        "nominative": "песня",
+        "genitive": "песни",
+        "dative": "песне",
+        "accusative": "песню",
+        "instrumental": "песней",
+        "prepositional": "песне"
+      },
+      "plural": {
+        "nominative": "песни",
+        "genitive": "песен",
+        "dative": "песням",
+        "accusative": "песни",
+        "instrumental": "песнями",
+        "prepositional": "песнях"
+      }
+    },
+    {
+      "id": "ploshchad",
+      "nominative": "площадь",
+      "translation": "square",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "place",
+      "traits": [
+        "walkable",
+        "scenic"
+      ],
+      "singular": {
+        "nominative": "площадь",
+        "genitive": "площади",
+        "dative": "площади",
+        "accusative": "площадь",
+        "instrumental": "площадью",
+        "prepositional": "площади"
+      },
+      "plural": {
+        "nominative": "площади",
+        "genitive": "площадей",
+        "dative": "площадям",
+        "accusative": "площади",
+        "instrumental": "площадями",
+        "prepositional": "площадях"
+      }
+    },
+    {
+      "id": "zemlya",
+      "nominative": "земля",
+      "translation": "earth/land",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "nature",
+      "traits": [
+        "visible"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "земля",
+        "genitive": "земли",
+        "dative": "земле",
+        "accusative": "землю",
+        "instrumental": "землёй",
+        "prepositional": "земле"
+      },
+      "plural": {
+        "nominative": "земли",
+        "genitive": "земель",
+        "dative": "землям",
+        "accusative": "земли",
+        "instrumental": "землями",
+        "prepositional": "землях"
+      }
+    },
+    {
+      "id": "doch",
+      "nominative": "дочь",
+      "translation": "daughter",
+      "gender": "feminine",
+      "animate": true,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "дочь",
+        "genitive": "дочери",
+        "dative": "дочери",
+        "accusative": "дочь",
+        "instrumental": "дочерью",
+        "prepositional": "дочери"
+      },
+      "plural": {
+        "nominative": "дочери",
+        "genitive": "дочерей",
+        "dative": "дочерям",
+        "accusative": "дочерей",
+        "instrumental": "дочерьми",
+        "prepositional": "дочерях"
+      }
+    },
+    {
+      "id": "sestra",
+      "nominative": "сестра",
+      "translation": "sister",
+      "gender": "feminine",
+      "animate": true,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "сестра",
+        "genitive": "сестры",
+        "dative": "сестре",
+        "accusative": "сестру",
+        "instrumental": "сестрой",
+        "prepositional": "сестре"
+      },
+      "plural": {
+        "nominative": "сёстры",
+        "genitive": "сестёр",
+        "dative": "сёстрам",
+        "accusative": "сестёр",
+        "instrumental": "сёстрами",
+        "prepositional": "сёстрах"
+      }
+    },
+    {
+      "id": "nedelya",
+      "nominative": "неделя",
+      "translation": "week",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "time",
+      "traits": [
+        "event"
+      ],
+      "singular": {
+        "nominative": "неделя",
+        "genitive": "недели",
+        "dative": "неделе",
+        "accusative": "неделю",
+        "instrumental": "неделей",
+        "prepositional": "неделе"
+      },
+      "plural": {
+        "nominative": "недели",
+        "genitive": "недель",
+        "dative": "неделям",
+        "accusative": "недели",
+        "instrumental": "неделями",
+        "prepositional": "неделях"
+      }
+    },
+    {
+      "id": "pogoda",
+      "nominative": "погода",
+      "translation": "weather",
+      "gender": "feminine",
+      "animate": false,
+      "numberRestriction": "singularOnly",
+      "semanticClass": "nature",
+      "traits": [
+        "weather"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "погода",
+        "genitive": "погоды",
+        "dative": "погоде",
+        "accusative": "погоду",
+        "instrumental": "погодой",
+        "prepositional": "погоде"
+      },
+      "plural": {
+        "nominative": "погоды",
+        "genitive": "погод",
+        "dative": "погодам",
+        "accusative": "погоды",
+        "instrumental": "погодами",
+        "prepositional": "погодах"
+      }
+    },
+    {
+      "id": "komnata",
+      "nominative": "комната",
+      "translation": "room",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "place",
+      "traits": [
+        "walkable"
+      ],
+      "singular": {
+        "nominative": "комната",
+        "genitive": "комнаты",
+        "dative": "комнате",
+        "accusative": "комнату",
+        "instrumental": "комнатой",
+        "prepositional": "комнате"
+      },
+      "plural": {
+        "nominative": "комнаты",
+        "genitive": "комнат",
+        "dative": "комнатам",
+        "accusative": "комнаты",
+        "instrumental": "комнатами",
+        "prepositional": "комнатах"
+      }
+    },
+    {
+      "id": "istoriya",
+      "nominative": "история",
+      "translation": "history/story",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "abstract",
+      "traits": [
+        "topic",
+        "event"
+      ],
+      "singular": {
+        "nominative": "история",
+        "genitive": "истории",
+        "dative": "истории",
+        "accusative": "историю",
+        "instrumental": "историей",
+        "prepositional": "истории"
+      },
+      "plural": {
+        "nominative": "истории",
+        "genitive": "историй",
+        "dative": "историям",
+        "accusative": "истории",
+        "instrumental": "историями",
+        "prepositional": "историях"
+      }
+    },
+    {
+      "id": "minuta",
+      "nominative": "минута",
+      "translation": "minute",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "time",
+      "singular": {
+        "nominative": "минута",
+        "genitive": "минуты",
+        "dative": "минуте",
+        "accusative": "минуту",
+        "instrumental": "минутой",
+        "prepositional": "минуте"
+      },
+      "plural": {
+        "nominative": "минуты",
+        "genitive": "минут",
+        "dative": "минутам",
+        "accusative": "минуты",
+        "instrumental": "минутами",
+        "prepositional": "минутах"
+      }
+    },
+    {
+      "id": "derevnya",
+      "nominative": "деревня",
+      "translation": "village",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "region",
+      "singular": {
+        "nominative": "деревня",
+        "genitive": "деревни",
+        "dative": "деревне",
+        "accusative": "деревню",
+        "instrumental": "деревней",
+        "prepositional": "деревне"
+      },
+      "plural": {
+        "nominative": "деревни",
+        "genitive": "деревень",
+        "dative": "деревням",
+        "accusative": "деревни",
+        "instrumental": "деревнями",
+        "prepositional": "деревнях"
+      }
+    },
+    {
+      "id": "tetrad",
+      "nominative": "тетрадь",
+      "translation": "notebook",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "thing",
+      "singular": {
+        "nominative": "тетрадь",
+        "genitive": "тетради",
+        "dative": "тетради",
+        "accusative": "тетрадь",
+        "instrumental": "тетрадью",
+        "prepositional": "тетради"
+      },
+      "plural": {
+        "nominative": "тетради",
+        "genitive": "тетрадей",
+        "dative": "тетрадям",
+        "accusative": "тетради",
+        "instrumental": "тетрадями",
+        "prepositional": "тетрадях"
+      }
+    },
+    {
+      "id": "koshka",
+      "nominative": "кошка",
+      "translation": "cat (f.)",
+      "gender": "feminine",
+      "animate": true,
+      "semanticClass": "animal",
+      "singular": {
+        "nominative": "кошка",
+        "genitive": "кошки",
+        "dative": "кошке",
+        "accusative": "кошку",
+        "instrumental": "кошкой",
+        "prepositional": "кошке"
+      },
+      "plural": {
+        "nominative": "кошки",
+        "genitive": "кошек",
+        "dative": "кошкам",
+        "accusative": "кошек",
+        "instrumental": "кошками",
+        "prepositional": "кошках"
+      }
+    },
+    {
+      "id": "kartina",
+      "nominative": "картина",
+      "translation": "picture",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "thing",
+      "traits": [
+        "scenic"
+      ],
+      "singular": {
+        "nominative": "картина",
+        "genitive": "картины",
+        "dative": "картине",
+        "accusative": "картину",
+        "instrumental": "картиной",
+        "prepositional": "картине"
+      },
+      "plural": {
+        "nominative": "картины",
+        "genitive": "картин",
+        "dative": "картинам",
+        "accusative": "картины",
+        "instrumental": "картинами",
+        "prepositional": "картинах"
+      }
+    },
+    {
+      "id": "zadacha",
+      "nominative": "задача",
+      "translation": "task/problem",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "abstract",
+      "singular": {
+        "nominative": "задача",
+        "genitive": "задачи",
+        "dative": "задаче",
+        "accusative": "задачу",
+        "instrumental": "задачей",
+        "prepositional": "задаче"
+      },
+      "plural": {
+        "nominative": "задачи",
+        "genitive": "задач",
+        "dative": "задачам",
+        "accusative": "задачи",
+        "instrumental": "задачами",
+        "prepositional": "задачах"
+      }
+    },
+    {
+      "id": "babushka",
+      "nominative": "бабушка",
+      "translation": "grandmother",
+      "gender": "feminine",
+      "animate": true,
+      "semanticClass": "person",
+      "singular": {
+        "nominative": "бабушка",
+        "genitive": "бабушки",
+        "dative": "бабушке",
+        "accusative": "бабушку",
+        "instrumental": "бабушкой",
+        "prepositional": "бабушке"
+      },
+      "plural": {
+        "nominative": "бабушки",
+        "genitive": "бабушек",
+        "dative": "бабушкам",
+        "accusative": "бабушек",
+        "instrumental": "бабушками",
+        "prepositional": "бабушках"
+      }
+    },
+    {
+      "id": "reka",
+      "nominative": "река",
+      "translation": "river",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "place",
+      "traits": [
+        "scenic"
+      ],
+      "singular": {
+        "nominative": "река",
+        "genitive": "реки",
+        "dative": "реке",
+        "accusative": "реку",
+        "instrumental": "рекой",
+        "prepositional": "реке"
+      },
+      "plural": {
+        "nominative": "реки",
+        "genitive": "рек",
+        "dative": "рекам",
+        "accusative": "реки",
+        "instrumental": "реками",
+        "prepositional": "реках"
+      }
+    },
+    {
+      "id": "lozhka",
+      "nominative": "ложка",
+      "translation": "spoon",
+      "gender": "feminine",
+      "animate": false,
+      "semanticClass": "thing",
+      "traits": [
+        "tool"
+      ],
+      "singular": {
+        "nominative": "ложка",
+        "genitive": "ложки",
+        "dative": "ложке",
+        "accusative": "ложку",
+        "instrumental": "ложкой",
+        "prepositional": "ложке"
+      },
+      "plural": {
+        "nominative": "ложки",
+        "genitive": "ложек",
+        "dative": "ложкам",
+        "accusative": "ложки",
+        "instrumental": "ложками",
+        "prepositional": "ложках"
+      }
+    },
+    {
+      "id": "loshad",
+      "nominative": "лошадь",
+      "translation": "horse",
+      "gender": "feminine",
+      "animate": true,
+      "semanticClass": "animal",
+      "singular": {
+        "nominative": "лошадь",
+        "genitive": "лошади",
+        "dative": "лошади",
+        "accusative": "лошадь",
+        "instrumental": "лошадью",
+        "prepositional": "лошади"
+      },
+      "plural": {
+        "nominative": "лошади",
+        "genitive": "лошадей",
+        "dative": "лошадям",
+        "accusative": "лошадей",
+        "instrumental": "лошадьми",
+        "prepositional": "лошадях"
+      }
+    },
+    {
+      "id": "mesto",
+      "nominative": "место",
+      "translation": "place",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "abstract",
+      "singular": {
+        "nominative": "место",
+        "genitive": "места",
+        "dative": "месту",
+        "accusative": "место",
+        "instrumental": "местом",
+        "prepositional": "месте"
+      },
+      "plural": {
+        "nominative": "места",
+        "genitive": "мест",
+        "dative": "местам",
+        "accusative": "места",
+        "instrumental": "местами",
+        "prepositional": "местах"
+      }
+    },
+    {
+      "id": "vremya",
+      "nominative": "время",
+      "translation": "time",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "time",
+      "pluralOk": false,
+      "singular": {
+        "nominative": "время",
+        "genitive": "времени",
+        "dative": "времени",
+        "accusative": "время",
+        "instrumental": "временем",
+        "prepositional": "времени"
+      },
+      "plural": {
+        "nominative": "времена",
+        "genitive": "времён",
+        "dative": "временам",
+        "accusative": "времена",
+        "instrumental": "временами",
+        "prepositional": "временах"
+      }
+    },
+    {
+      "id": "slovo",
+      "nominative": "слово",
+      "translation": "word",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "abstract",
+      "singular": {
+        "nominative": "слово",
+        "genitive": "слова",
+        "dative": "слову",
+        "accusative": "слово",
+        "instrumental": "словом",
+        "prepositional": "слове"
+      },
+      "plural": {
+        "nominative": "слова",
+        "genitive": "слов",
+        "dative": "словам",
+        "accusative": "слова",
+        "instrumental": "словами",
+        "prepositional": "словах"
+      }
+    },
+    {
+      "id": "delo",
+      "nominative": "дело",
+      "translation": "matter/business",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "abstract",
+      "traits": [
+        "event"
+      ],
+      "singular": {
+        "nominative": "дело",
+        "genitive": "дела",
+        "dative": "делу",
+        "accusative": "дело",
+        "instrumental": "делом",
+        "prepositional": "деле"
+      },
+      "plural": {
+        "nominative": "дела",
+        "genitive": "дел",
+        "dative": "делам",
+        "accusative": "дела",
+        "instrumental": "делами",
+        "prepositional": "делах"
+      }
+    },
+    {
+      "id": "more",
+      "nominative": "море",
+      "translation": "sea",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "place",
+      "traits": [
+        "scenic"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "море",
+        "genitive": "моря",
+        "dative": "морю",
+        "accusative": "море",
+        "instrumental": "морем",
+        "prepositional": "море"
+      },
+      "plural": {
+        "nominative": "моря",
+        "genitive": "морей",
+        "dative": "морям",
+        "accusative": "моря",
+        "instrumental": "морями",
+        "prepositional": "морях"
+      }
+    },
+    {
+      "id": "utro",
+      "nominative": "утро",
+      "translation": "morning",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "time",
+      "traits": [
+        "event",
+        "daypart"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "утро",
+        "genitive": "утра",
+        "dative": "утру",
+        "accusative": "утро",
+        "instrumental": "утром",
+        "prepositional": "утре"
+      },
+      "plural": {
+        "nominative": "утра",
+        "genitive": "утр",
+        "dative": "утрам",
+        "accusative": "утра",
+        "instrumental": "утрами",
+        "prepositional": "утрах"
+      }
+    },
+    {
+      "id": "okno",
+      "nominative": "окно",
+      "translation": "window",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "thing",
+      "singular": {
+        "nominative": "окно",
+        "genitive": "окна",
+        "dative": "окну",
+        "accusative": "окно",
+        "instrumental": "окном",
+        "prepositional": "окне"
+      },
+      "plural": {
+        "nominative": "окна",
+        "genitive": "окон",
+        "dative": "окнам",
+        "accusative": "окна",
+        "instrumental": "окнами",
+        "prepositional": "окнах"
+      }
+    },
+    {
+      "id": "pismo",
+      "nominative": "письмо",
+      "translation": "letter",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "thing",
+      "singular": {
+        "nominative": "письмо",
+        "genitive": "письма",
+        "dative": "письму",
+        "accusative": "письмо",
+        "instrumental": "письмом",
+        "prepositional": "письме"
+      },
+      "plural": {
+        "nominative": "письма",
+        "genitive": "писем",
+        "dative": "письмам",
+        "accusative": "письма",
+        "instrumental": "письмами",
+        "prepositional": "письмах"
+      }
+    },
+    {
+      "id": "moloko",
+      "nominative": "молоко",
+      "translation": "milk",
+      "gender": "neuter",
+      "animate": false,
+      "numberRestriction": "singularOnly",
+      "semanticClass": "food",
+      "traits": [
+        "mass",
+        "drink"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "молоко",
+        "genitive": "молока",
+        "dative": "молоку",
+        "accusative": "молоко",
+        "instrumental": "молоком",
+        "prepositional": "молоке"
+      },
+      "plural": {
+        "nominative": "молока",
+        "genitive": "молок",
+        "dative": "молокам",
+        "accusative": "молока",
+        "instrumental": "молоками",
+        "prepositional": "молоках"
+      }
+    },
+    {
+      "id": "serdtse",
+      "nominative": "сердце",
+      "translation": "heart",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "bodyPart",
+      "pluralOk": false,
+      "singular": {
+        "nominative": "сердце",
+        "genitive": "сердца",
+        "dative": "сердцу",
+        "accusative": "сердце",
+        "instrumental": "сердцем",
+        "prepositional": "сердце"
+      },
+      "plural": {
+        "nominative": "сердца",
+        "genitive": "сердец",
+        "dative": "сердцам",
+        "accusative": "сердца",
+        "instrumental": "сердцами",
+        "prepositional": "сердцах"
+      }
+    },
+    {
+      "id": "solntse",
+      "nominative": "солнце",
+      "translation": "sun",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "nature",
+      "traits": [
+        "visible",
+        "weather"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "солнце",
+        "genitive": "солнца",
+        "dative": "солнцу",
+        "accusative": "солнце",
+        "instrumental": "солнцем",
+        "prepositional": "солнце"
+      },
+      "plural": {
+        "nominative": "солнца",
+        "genitive": "солнц",
+        "dative": "солнцам",
+        "accusative": "солнца",
+        "instrumental": "солнцами",
+        "prepositional": "солнцах"
+      }
+    },
+    {
+      "id": "nebo",
+      "nominative": "небо",
+      "translation": "sky",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "nature",
+      "traits": [
+        "visible"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "небо",
+        "genitive": "неба",
+        "dative": "небу",
+        "accusative": "небо",
+        "instrumental": "небом",
+        "prepositional": "небе"
+      },
+      "plural": {
+        "nominative": "небеса",
+        "genitive": "небес",
+        "dative": "небесам",
+        "accusative": "небеса",
+        "instrumental": "небесами",
+        "prepositional": "небесах"
+      }
+    },
+    {
+      "id": "ozero",
+      "nominative": "озеро",
+      "translation": "lake",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "place",
+      "traits": [
+        "scenic"
+      ],
+      "singular": {
+        "nominative": "озеро",
+        "genitive": "озера",
+        "dative": "озеру",
+        "accusative": "озеро",
+        "instrumental": "озером",
+        "prepositional": "озере"
+      },
+      "plural": {
+        "nominative": "озёра",
+        "genitive": "озёр",
+        "dative": "озёрам",
+        "accusative": "озёра",
+        "instrumental": "озёрами",
+        "prepositional": "озёрах"
+      }
+    },
+    {
+      "id": "yabloko",
+      "nominative": "яблоко",
+      "translation": "apple",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "food",
+      "singular": {
+        "nominative": "яблоко",
+        "genitive": "яблока",
+        "dative": "яблоку",
+        "accusative": "яблоко",
+        "instrumental": "яблоком",
+        "prepositional": "яблоке"
+      },
+      "plural": {
+        "nominative": "яблоки",
+        "genitive": "яблок",
+        "dative": "яблокам",
+        "accusative": "яблоки",
+        "instrumental": "яблоками",
+        "prepositional": "яблоках"
+      }
+    },
+    {
+      "id": "zdaniye",
+      "nominative": "здание",
+      "translation": "building",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "place",
+      "traits": [
+        "walkable"
+      ],
+      "singular": {
+        "nominative": "здание",
+        "genitive": "здания",
+        "dative": "зданию",
+        "accusative": "здание",
+        "instrumental": "зданием",
+        "prepositional": "здании"
+      },
+      "plural": {
+        "nominative": "здания",
+        "genitive": "зданий",
+        "dative": "зданиям",
+        "accusative": "здания",
+        "instrumental": "зданиями",
+        "prepositional": "зданиях"
+      }
+    },
+    {
+      "id": "imya",
+      "nominative": "имя",
+      "translation": "name",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "abstract",
+      "singular": {
+        "nominative": "имя",
+        "genitive": "имени",
+        "dative": "имени",
+        "accusative": "имя",
+        "instrumental": "именем",
+        "prepositional": "имени"
+      },
+      "plural": {
+        "nominative": "имена",
+        "genitive": "имён",
+        "dative": "именам",
+        "accusative": "имена",
+        "instrumental": "именами",
+        "prepositional": "именах"
+      }
+    },
+    {
+      "id": "pole",
+      "nominative": "поле",
+      "translation": "field",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "place",
+      "traits": [
+        "walkable",
+        "scenic"
+      ],
+      "singular": {
+        "nominative": "поле",
+        "genitive": "поля",
+        "dative": "полю",
+        "accusative": "поле",
+        "instrumental": "полем",
+        "prepositional": "поле"
+      },
+      "plural": {
+        "nominative": "поля",
+        "genitive": "полей",
+        "dative": "полям",
+        "accusative": "поля",
+        "instrumental": "полями",
+        "prepositional": "полях"
+      }
+    },
+    {
+      "id": "kreslo",
+      "nominative": "кресло",
+      "translation": "armchair",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "thing",
+      "singular": {
+        "nominative": "кресло",
+        "genitive": "кресла",
+        "dative": "креслу",
+        "accusative": "кресло",
+        "instrumental": "креслом",
+        "prepositional": "кресле"
+      },
+      "plural": {
+        "nominative": "кресла",
+        "genitive": "кресел",
+        "dative": "креслам",
+        "accusative": "кресла",
+        "instrumental": "креслами",
+        "prepositional": "креслах"
+      }
+    },
+    {
+      "id": "pivo",
+      "nominative": "пиво",
+      "translation": "beer",
+      "gender": "neuter",
+      "animate": false,
+      "numberRestriction": "singularOnly",
+      "semanticClass": "food",
+      "traits": [
+        "mass",
+        "drink"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "пиво",
+        "genitive": "пива",
+        "dative": "пиву",
+        "accusative": "пиво",
+        "instrumental": "пивом",
+        "prepositional": "пиве"
+      },
+      "plural": {
+        "nominative": "пива",
+        "genitive": "пив",
+        "dative": "пивам",
+        "accusative": "пива",
+        "instrumental": "пивами",
+        "prepositional": "пивах"
+      }
+    },
+    {
+      "id": "vino",
+      "nominative": "вино",
+      "translation": "wine",
+      "gender": "neuter",
+      "animate": false,
+      "numberRestriction": "singularOnly",
+      "semanticClass": "food",
+      "traits": [
+        "mass",
+        "drink"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "вино",
+        "genitive": "вина",
+        "dative": "вину",
+        "accusative": "вино",
+        "instrumental": "вином",
+        "prepositional": "вине"
+      },
+      "plural": {
+        "nominative": "вина",
+        "genitive": "вин",
+        "dative": "винам",
+        "accusative": "вина",
+        "instrumental": "винами",
+        "prepositional": "винах"
+      }
+    },
+    {
+      "id": "maslo",
+      "nominative": "масло",
+      "translation": "butter/oil",
+      "gender": "neuter",
+      "animate": false,
+      "numberRestriction": "singularOnly",
+      "semanticClass": "food",
+      "traits": [
+        "mass"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "масло",
+        "genitive": "масла",
+        "dative": "маслу",
+        "accusative": "масло",
+        "instrumental": "маслом",
+        "prepositional": "масле"
+      },
+      "plural": {
+        "nominative": "масла",
+        "genitive": "масел",
+        "dative": "маслам",
+        "accusative": "масла",
+        "instrumental": "маслами",
+        "prepositional": "маслах"
+      }
+    },
+    {
+      "id": "myaso",
+      "nominative": "мясо",
+      "translation": "meat",
+      "gender": "neuter",
+      "animate": false,
+      "numberRestriction": "singularOnly",
+      "semanticClass": "food",
+      "traits": [
+        "mass"
+      ],
+      "pluralOk": false,
+      "singular": {
+        "nominative": "мясо",
+        "genitive": "мяса",
+        "dative": "мясу",
+        "accusative": "мясо",
+        "instrumental": "мясом",
+        "prepositional": "мясе"
+      },
+      "plural": {
+        "nominative": "мяса",
+        "genitive": "мяс",
+        "dative": "мясам",
+        "accusative": "мяса",
+        "instrumental": "мясами",
+        "prepositional": "мясах"
+      }
+    },
+    {
+      "id": "litso",
+      "nominative": "лицо",
+      "translation": "face",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "bodyPart",
+      "singular": {
+        "nominative": "лицо",
+        "genitive": "лица",
+        "dative": "лицу",
+        "accusative": "лицо",
+        "instrumental": "лицом",
+        "prepositional": "лице"
+      },
+      "plural": {
+        "nominative": "лица",
+        "genitive": "лиц",
+        "dative": "лицам",
+        "accusative": "лица",
+        "instrumental": "лицами",
+        "prepositional": "лицах"
+      }
+    },
+    {
+      "id": "yaytso",
+      "nominative": "яйцо",
+      "translation": "egg",
+      "gender": "neuter",
+      "animate": false,
+      "semanticClass": "food",
+      "singular": {
+        "nominative": "яйцо",
+        "genitive": "яйца",
+        "dative": "яйцу",
+        "accusative": "яйцо",
+        "instrumental": "яйцом",
+        "prepositional": "яйце"
+      },
+      "plural": {
+        "nominative": "яйца",
+        "genitive": "яиц",
+        "dative": "яйцам",
+        "accusative": "яйца",
+        "instrumental": "яйцами",
+        "prepositional": "яйцах"
+      }
+    },
+    {
+      "id": "zhivotnoye",
+      "nominative": "животное",
+      "translation": "animal",
+      "gender": "neuter",
+      "animate": true,
+      "semanticClass": "animal",
+      "singular": {
+        "nominative": "животное",
+        "genitive": "животного",
+        "dative": "животному",
+        "accusative": "животное",
+        "instrumental": "животным",
+        "prepositional": "животном"
+      },
+      "plural": {
+        "nominative": "животные",
+        "genitive": "животных",
+        "dative": "животным",
+        "accusative": "животных",
+        "instrumental": "животными",
+        "prepositional": "животных"
+      }
+    }
+  ]
+}

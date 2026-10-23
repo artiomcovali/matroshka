@@ -1,0 +1,296 @@
+{
+  "id": "c1-025-connectors-advanced",
+  "level": "C1",
+  "focusArea": "sentenceStructure",
+  "title": "Advanced Text Connectors",
+  "titleRussian": "Связующие слова (углублённый)",
+  "description": "Advanced text connectors",
+  "descriptionRussian": "Продвинутые средства связи текста",
+  "imageName": "link",
+  "intro": "Advanced connectors create sophisticated, cohesive text. ADDITION: вдобавок (in addition), сверх того (moreover), не говоря уже о (not to mention). CONTRAST: между тем (meanwhile/yet), вместе с тем (at the same time), при всём том (for all that). CAUSE-EFFECT: в силу того что (by virtue of), ввиду того что (in view of), благодаря тому что (thanks to). CONCESSION: несмотря на то что (despite), как бы то ни было (be that as it may), при всём желании (much as one would like). These elevate writing from competent to sophisticated.",
+  "rules": [
+    "Addition: вдобавок, сверх того, не говоря уже о + prep (moreover, not to mention)",
+    "Contrast: между тем, вместе с тем, при всём том (meanwhile, yet, for all that)",
+    "Cause: в силу / ввиду / благодаря тому что (by virtue of, in view of, thanks to)",
+    "Concession: несмотря на то что, как бы то ни было (despite, be that as it may)"
+  ],
+  "examples": [
+    "Он умён, вдобавок трудолюбив. (He's smart, and hardworking in addition.)",
+    "Между тем ситуация изменилась. (Meanwhile, the situation changed.)",
+    "В силу того что он опоздал, мы начали без него. (By virtue of his being late, we started without him.)",
+    "Несмотря на то что шёл дождь, мы пошли гулять. (Despite the rain, we went for a walk.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Addition: Он богат, _____ знаменит. (in addition)",
+          "promptEnglish": "He's rich, and famous in addition.",
+          "options": [
+            "однако",
+            "вдобавок",
+            "между тем",
+            "поэтому"
+          ],
+          "answer": "вдобавок",
+          "hint": "Adding another quality = вдобавок",
+          "explanation": "Addition: вдобавок (in addition)."
+        },
+        {
+          "prompt": "Contrast: Он обещал прийти. _____, он не пришёл. (Meanwhile/Yet)",
+          "promptEnglish": "He promised to come. Yet he didn't come.",
+          "options": [
+            "Поэтому",
+            "Вдобавок",
+            "Между тем",
+            "Благодаря"
+          ],
+          "answer": "Между тем",
+          "hint": "Unexpected contrast = между тем",
+          "explanation": "Contrast: Между тем (yet/meanwhile)."
+        },
+        {
+          "prompt": "Cause: _____ того что он болен, он остался дома. (In view of)",
+          "promptEnglish": "In view of his illness, he stayed home.",
+          "options": [
+            "Вместе",
+            "Вдобавок",
+            "Вместо",
+            "Ввиду"
+          ],
+          "answer": "Ввиду",
+          "hint": "Cause = ввиду того что",
+          "explanation": "Cause: Ввиду того что (in view of)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Concession: _____ на то что было поздно, мы продолжили. (Despite)",
+          "promptEnglish": "Despite it being late, we continued.",
+          "options": [
+            "Глядя",
+            "Видя",
+            "Несмотря",
+            "Смотря"
+          ],
+          "answer": "Несмотря",
+          "hint": "Despite = несмотря на то что",
+          "explanation": "Concession: Несмотря на то что."
+        },
+        {
+          "prompt": "Moreover: _____ того, он ещё и талантлив. (On top of that)",
+          "promptEnglish": "On top of that, he's also talented.",
+          "options": [
+            "Вслед",
+            "Сверх",
+            "Ввиду",
+            "Вместо"
+          ],
+          "answer": "Сверх",
+          "hint": "Adding more = сверх того",
+          "explanation": "Addition: Сверх того (moreover)."
+        },
+        {
+          "prompt": "Thanks to: _____ тому что он помог, мы успели. (Thanks to)",
+          "promptEnglish": "Thanks to his help, we made it in time.",
+          "options": [
+            "Из-за",
+            "Вопреки",
+            "Благодаря",
+            "Вместо"
+          ],
+          "answer": "Благодаря",
+          "hint": "Positive cause = благодаря тому что",
+          "explanation": "Positive cause: Благодаря тому что."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Be that as it may: _____ то ни было, мы должны продолжать. (be that as it may)",
+          "promptEnglish": "Be that as it may, we must continue.",
+          "options": [
+            "Кто бы",
+            "Как бы",
+            "Что бы",
+            "Где бы"
+          ],
+          "answer": "Как бы",
+          "hint": "Concessive = как бы то ни было",
+          "explanation": "Concession: Как бы то ни было."
+        },
+        {
+          "prompt": "At the same time: Он строг, _____ с тем справедлив. (at the same time)",
+          "promptEnglish": "He's strict, yet fair at the same time.",
+          "options": [
+            "ввиду",
+            "сверх",
+            "вместе",
+            "между"
+          ],
+          "answer": "вместе",
+          "hint": "Simultaneous contrast = вместе с тем",
+          "explanation": "Contrast: вместе с тем (at the same time)."
+        },
+        {
+          "prompt": "Not to mention: Он знает русский, не _____ уже о немецком. (not to mention)",
+          "promptEnglish": "He knows Russian, not to mention German.",
+          "options": [
+            "думая",
+            "сказав",
+            "говоря",
+            "зная"
+          ],
+          "answer": "говоря",
+          "hint": "не говоря уже о",
+          "explanation": "Addition: не говоря уже о (not to mention)."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Concession: _____ всём том, он продолжал работать. (for all that)",
+          "promptEnglish": "For all that, he continued working.",
+          "options": [
+            "В",
+            "На",
+            "При",
+            "С"
+          ],
+          "answer": "При",
+          "hint": "Bookish concessive: which preposition?",
+          "explanation": "«При всём том» — книжный уступительный оборот, означающий «несмотря на всё это». Требует предлога «при» + предложный падеж."
+        },
+        {
+          "prompt": "Cause: _____ силу сложившихся обстоятельств мы отменили встречу. (by virtue of)",
+          "promptEnglish": "By virtue of the circumstances, we cancelled the meeting.",
+          "options": [
+            "В",
+            "По",
+            "На",
+            "От"
+          ],
+          "answer": "В",
+          "hint": "Formal causal expression: think of 'force/strength'",
+          "explanation": "«В силу» — книжный причинный оборот, означающий «вследствие, по причине». Используется в деловом и научном стиле."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ всём желании я не могу помочь. (Much as I would like)"
+    ],
+    "choices": [
+      "При",
+      "В",
+      "На",
+      "С"
+    ],
+    "answers": [
+      "При"
+    ],
+    "grammarFocus": "Concession: При всём желании (much as one would like)",
+    "hints": [
+      "This concessive expression means 'much as I would like to' or 'for all my desire.' Which preposition begins this fixed phrase?"
+    ],
+    "explanations": [
+      "'При всём желании' (much as one would like / for all one's desire) is a fixed concessive expression using 'при' + prepositional case. It acknowledges willingness while expressing inability. Other prepositions don't form this expression."
+    ],
+    "options": [
+      [
+        "При",
+        "На",
+        "В",
+        "С"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Positive cause: _____ тому что он помог... (thanks to)",
+      "contextEnglish": "Thanks to his help...",
+      "options": [
+        "Благодаря",
+        "Из-за"
+      ],
+      "answer": "Благодаря",
+      "explanation": "Positive: Благодаря (thanks to)."
+    },
+    {
+      "context": "Negative cause: _____ того что он опоздал... (because of)",
+      "contextEnglish": "Because of his being late...",
+      "options": [
+        "Из-за",
+        "Благодаря"
+      ],
+      "answer": "Из-за",
+      "explanation": "Negative: Из-за (because of)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by connector function",
+    "categories": [
+      "Addition",
+      "Contrast",
+      "Cause",
+      "Concession"
+    ],
+    "items": [
+      {
+        "word": "вдобавок",
+        "category": "Addition"
+      },
+      {
+        "word": "между тем",
+        "category": "Contrast"
+      },
+      {
+        "word": "ввиду того что",
+        "category": "Cause"
+      },
+      {
+        "word": "несмотря на то что",
+        "category": "Concession"
+      },
+      {
+        "word": "сверх того",
+        "category": "Addition"
+      },
+      {
+        "word": "вместе с тем",
+        "category": "Contrast"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "вдобавок / сверх того",
+      "definition": "in addition, moreover",
+      "example": "Он умён, вдобавок трудолюбив."
+    },
+    {
+      "term": "между тем / вместе с тем",
+      "definition": "meanwhile/yet, at the same time",
+      "example": "Между тем ситуация изменилась."
+    },
+    {
+      "term": "ввиду / в силу того что",
+      "definition": "in view of, by virtue of",
+      "example": "Ввиду того что он болен..."
+    },
+    {
+      "term": "несмотря на то что",
+      "definition": "despite the fact that",
+      "example": "Несмотря на то что шёл дождь..."
+    }
+  ]
+}

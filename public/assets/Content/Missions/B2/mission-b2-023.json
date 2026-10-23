@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-023",
+  "title": "Budget Presentation",
+  "level": "B2",
+  "difficulty": "easy",
+  "description": "Present a department budget proposal",
+  "imageName": "chart.bar.fill",
+  "initialPrompt": "Начнём презентацию бюджета вашего отдела на следующий год. Какие основные статьи расходов?",
+  "systemPrompt": "You are CFO reviewing budget. Ask about major expenses, increases, ROI of investments. Look for ways to cut. Supportive but fiscally responsible. Keep replies short.",
+  "completionCriteria": "User presented and defended budget effectively.",
+  "responseLimit": 15,
+  "hints": [
+    "Основные расходы... (Main expenses...)",
+    "Увеличение обосновано... (The increase is justified by...)",
+    "Возврат инвестиций... (Return on investment...)",
+    "Можем сократить... (We can cut...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "бюджет",
+      "definition": "budget"
+    },
+    {
+      "word": "расходы",
+      "definition": "expenses"
+    },
+    {
+      "word": "доходы",
+      "definition": "revenue"
+    },
+    {
+      "word": "обоснование",
+      "definition": "justification"
+    },
+    {
+      "word": "инвестиции",
+      "definition": "investments"
+    },
+    {
+      "word": "экономия",
+      "definition": "savings"
+    }
+  ],
+  "objectives": [
+    "Present budget overview",
+    "Justify major expenses",
+    "Show expected returns",
+    "Address questions"
+  ]
+}

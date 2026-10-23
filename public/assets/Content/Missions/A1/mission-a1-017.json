@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-017",
+  "title": "At the Market",
+  "level": "A1",
+  "description": "Buy fresh fruit at an outdoor market",
+  "imageName": "leaf.fill",
+  "initialPrompt": "Здравствуйте! Свежие фрукты! Яблоки, апельсины, бананы. Что хотите?",
+  "systemPrompt": "You sell fruit at a market. Prices per kg: яблоки 100₽, апельсины 150₽, бананы 120₽. Keep replies short.",
+  "completionCriteria": "User bought fruit specifying type and quantity.",
+  "responseLimit": 15,
+  "hints": [
+    "Яблоки, пожалуйста (Apples, please)",
+    "Один килограмм (One kilogram)",
+    "Сколько стоит? (How much?)",
+    "Это всё (That's all)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "яблоки",
+      "definition": "apples"
+    },
+    {
+      "word": "апельсины",
+      "definition": "oranges"
+    },
+    {
+      "word": "бананы",
+      "definition": "bananas"
+    },
+    {
+      "word": "килограмм",
+      "definition": "kilogram"
+    },
+    {
+      "word": "свежий",
+      "definition": "fresh"
+    }
+  ],
+  "objectives": [
+    "Choose fruit (яблоки, апельсины, бананы)",
+    "Say how much (килограмм)",
+    "Complete the purchase"
+  ]
+}

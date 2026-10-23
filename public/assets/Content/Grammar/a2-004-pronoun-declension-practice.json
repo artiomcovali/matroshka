@@ -1,0 +1,646 @@
+{
+  "lessonId": "a2-004-pronoun-declension",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Choose the correct pronoun form for each sentence",
+      "descriptionRussian": "Выберите правильную форму местоимения",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она ждёт _____. (She is waiting for me.)",
+              "promptEnglish": "She is waiting for me.",
+              "options": [
+                "я",
+                "мне",
+                "меня",
+                "мной"
+              ],
+              "answer": "меня",
+              "hint": "Ждать takes accusative/genitive.",
+              "explanation": "Я → меня in accusative. Ждать (to wait for) requires accusative."
+            },
+            {
+              "prompt": "Расскажи _____! (Tell us!)",
+              "promptEnglish": "Tell us!",
+              "options": [
+                "нас",
+                "нам",
+                "мы",
+                "нами"
+              ],
+              "answer": "нам",
+              "hint": "Рассказать (tell) takes dative for the recipient.",
+              "explanation": "Мы → нам in dative. The recipient of telling is in dative."
+            },
+            {
+              "prompt": "Я вижу _____. (I see her.)",
+              "promptEnglish": "I see her.",
+              "options": [
+                "она",
+                "ей",
+                "неё",
+                "её"
+              ],
+              "answer": "её",
+              "hint": "Direct object without a preposition.",
+              "explanation": "Она → её in accusative. No preposition, so no н-."
+            },
+            {
+              "prompt": "К _____ пришли гости. (Guests came to them.)",
+              "promptEnglish": "Guests came to them.",
+              "options": [
+                "им",
+                "их",
+                "них",
+                "ним"
+              ],
+              "answer": "ним",
+              "hint": "К (to) is a preposition. Third person adds н-.",
+              "explanation": "К requires dative. Они → им → ним (after preposition, add н-)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я думаю о _____. (I'm thinking about him.)",
+          "contextEnglish": "I'm thinking about him. (with preposition)",
+          "options": [
+            "нём",
+            "ём"
+          ],
+          "answer": "нём",
+          "explanation": "After preposition о, third-person pronouns add н-: о нём."
+        },
+        {
+          "context": "Я знаю _____. (I know her.) - no preposition",
+          "contextEnglish": "I know her.",
+          "options": [
+            "её",
+            "неё"
+          ],
+          "answer": "её",
+          "explanation": "Without a preposition, use её (no н-)."
+        },
+        {
+          "context": "У _____ нет времени. (She doesn't have time.)",
+          "contextEnglish": "She doesn't have time. (у = preposition)",
+          "options": [
+            "её",
+            "неё"
+          ],
+          "answer": "неё",
+          "explanation": "After preposition у, add н-: её → неё."
+        },
+        {
+          "context": "Учитель спросил _____. (The teacher asked them.)",
+          "contextEnglish": "The teacher asked them. (no preposition)",
+          "options": [
+            "их",
+            "них"
+          ],
+          "answer": "их",
+          "explanation": "No preposition, so use их (no н-)."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Помоги _____, пожалуйста! (Help me, please!)",
+          "Мы видим _____. (We see you. - informal)",
+          "Он написал _____. (He wrote to them.)"
+        ],
+        "choices": [
+          "мне",
+          "тебя",
+          "им"
+        ],
+        "answers": [
+          "мне",
+          "тебя",
+          "им"
+        ],
+        "grammarFocus": "Choosing between accusative and dative pronoun forms",
+        "hints": [
+          "Помогать (help) takes dative.",
+          "Видеть (see) takes accusative. No preposition.",
+          "Написать кому? (Write to whom?) takes dative. No preposition."
+        ],
+        "explanations": [
+          "Помогать + dative: я → мне.",
+          "Видеть + accusative: ты → тебя.",
+          "Написать + dative (recipient): они → им (no preposition, so no н-)."
+        ],
+        "options": [
+          [
+            "я",
+            "мной",
+            "мне",
+            "меня"
+          ],
+          [
+            "тебе",
+            "тебя",
+            "тобой",
+            "ты"
+          ],
+          [
+            "ими",
+            "их",
+            "они",
+            "им"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-sort-correct",
+      "title": "Sort and Correct",
+      "titleRussian": "Сортировка и исправление",
+      "description": "Sort pronoun forms and fix errors in pronoun usage",
+      "descriptionRussian": "Рассортируйте местоимения и исправьте ошибки",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort these pronoun forms by case",
+        "categories": [
+          "Accusative / Genitive",
+          "Dative"
+        ],
+        "items": [
+          {
+            "word": "его (him/his)",
+            "category": "Accusative / Genitive"
+          },
+          {
+            "word": "ему (to him)",
+            "category": "Dative"
+          },
+          {
+            "word": "её (her)",
+            "category": "Accusative / Genitive"
+          },
+          {
+            "word": "ей (to her)",
+            "category": "Dative"
+          },
+          {
+            "word": "их (them)",
+            "category": "Accusative / Genitive"
+          },
+          {
+            "word": "им (to them)",
+            "category": "Dative"
+          },
+          {
+            "word": "вас (you pl.)",
+            "category": "Accusative / Genitive"
+          },
+          {
+            "word": "вам (to you pl.)",
+            "category": "Dative"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "У его есть собака.",
+          "error": "его",
+          "correction": "него",
+          "hint": "У is a preposition. Third-person pronouns need н- after prepositions.",
+          "explanation": "After preposition у, add н-: его → него. Correct: у него.",
+          "options": [
+            "него",
+            "ему",
+            "нём"
+          ]
+        },
+        {
+          "sentence": "Она помогает мы.",
+          "error": "мы",
+          "correction": "нам",
+          "hint": "Помогать takes dative, and мы is nominative.",
+          "explanation": "Помогать takes dative: мы → нам.",
+          "options": [
+            "нам",
+            "нас",
+            "нами"
+          ]
+        },
+        {
+          "sentence": "Дай я книгу.",
+          "error": "я",
+          "correction": "мне",
+          "hint": "The recipient of giving is in dative.",
+          "explanation": "Дать кому? (Give to whom?) requires dative: я → мне.",
+          "options": [
+            "мне",
+            "меня",
+            "мной"
+          ]
+        },
+        {
+          "sentence": "Он позвонил они.",
+          "error": "они",
+          "correction": "им",
+          "hint": "Звонить takes dative, and они is nominative.",
+          "explanation": "Звонить + dative: они → им.",
+          "options": [
+            "им",
+            "их",
+            "ними"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мама купила _____ подарок. (Mom bought me a gift.)",
+              "promptEnglish": "Mom bought me a gift.",
+              "options": [
+                "я",
+                "меня",
+                "мне",
+                "мной"
+              ],
+              "answer": "мне",
+              "hint": "The recipient of buying is in dative.",
+              "explanation": "Купить кому? (Buy for whom?) uses dative: я → мне."
+            },
+            {
+              "prompt": "Без _____ нельзя начинать. (We can't start without you. - informal)",
+              "promptEnglish": "We can't start without you.",
+              "options": [
+                "ты",
+                "тебя",
+                "тебе",
+                "тобой"
+              ],
+              "answer": "тебя",
+              "hint": "Без (without) requires genitive.",
+              "explanation": "Без + genitive: ты → тебя."
+            },
+            {
+              "prompt": "Передай _____ привет. (Say hello to her for me.)",
+              "promptEnglish": "Say hello to her.",
+              "options": [
+                "её",
+                "неё",
+                "ей",
+                "ней"
+              ],
+              "answer": "ей",
+              "hint": "Передать кому? (Pass to whom?) uses dative. No preposition here.",
+              "explanation": "Передать + dative: она → ей. No preposition, so no н-."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-build",
+      "title": "Build Sentences",
+      "titleRussian": "Составьте предложения",
+      "description": "Build sentences and practice dative verbs with pronouns",
+      "descriptionRussian": "Составьте предложения и потренируйте глаголы с дательным падежом",
+      "icon": "hammer",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Для _____ это важно. (This is important for you. - formal)",
+              "promptEnglish": "This is important for you. (formal/plural)",
+              "options": [
+                "вам",
+                "вас",
+                "вы",
+                "вами"
+              ],
+              "answer": "вас",
+              "hint": "Для (for) requires genitive.",
+              "explanation": "Для + genitive: вы → вас."
+            },
+            {
+              "prompt": "Он думает о _____. (He's thinking about us.)",
+              "promptEnglish": "He's thinking about us.",
+              "options": [
+                "нас",
+                "нам",
+                "нами",
+                "мы"
+              ],
+              "answer": "нас",
+              "hint": "О + prepositional, but for мы the form is нас in this construction.",
+              "explanation": "Думать о ком? uses prepositional, but мы → нас for this form."
+            },
+            {
+              "prompt": "Письмо от _____. (A letter from her.)",
+              "promptEnglish": "A letter from her.",
+              "options": [
+                "её",
+                "ей",
+                "неё",
+                "ней"
+              ],
+              "answer": "неё",
+              "hint": "От is a preposition. Third person adds н-.",
+              "explanation": "От + genitive: она → её → неё (after preposition, add н-)."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "Help him!",
+          "answer": "Помоги ему!",
+          "acceptableVariants": [
+            "Помогите ему!"
+          ],
+          "hint": "Help = помоги, him (dative) = ему",
+          "grammarFocus": "dative with помогать",
+          "keyWord": "ему",
+          "options": [
+            "ему",
+            "его",
+            "ним",
+            "ей"
+          ]
+        },
+        {
+          "english": "I see them.",
+          "answer": "Я вижу их.",
+          "acceptableVariants": [],
+          "hint": "I = я, see = вижу, them (accusative, no preposition) = их",
+          "grammarFocus": "accusative without preposition",
+          "keyWord": "их",
+          "options": [
+            "их",
+            "им",
+            "них",
+            "ними"
+          ]
+        },
+        {
+          "english": "She came to us.",
+          "answer": "Она пришла к нам.",
+          "acceptableVariants": [],
+          "hint": "She = она, came = пришла, to us = к нам",
+          "grammarFocus": "к + dative",
+          "keyWord": "нам",
+          "options": [
+            "нам",
+            "нас",
+            "нами",
+            "ним"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-patterns",
+      "title": "Spot the Pattern",
+      "titleRussian": "Найди закономерность",
+      "description": "Recognize the н- rule and case patterns for pronouns",
+      "descriptionRussian": "Определите правило с н- и падежные формы местоимений",
+      "icon": "eye",
+      "patternRecognition": [
+        {
+          "sentence": "у него, к ней, для них, от него",
+          "question": "Why do these pronoun forms start with н-?",
+          "options": [
+            "They follow a preposition",
+            "They are in dative case",
+            "They are in genitive plural"
+          ],
+          "answer": "They follow a preposition",
+          "explanation": "Third-person pronouns (его, её, их, ему, ей, им) add н- when they follow a preposition."
+        },
+        {
+          "sentence": "меня = acc, меня = gen; тебя = acc, тебя = gen; его = acc, его = gen",
+          "question": "What pattern do you notice about accusative and genitive pronouns?",
+          "options": [
+            "They are always the same form",
+            "Accusative adds -а",
+            "Genitive is always longer"
+          ],
+          "answer": "They are always the same form",
+          "explanation": "For all personal pronouns, the accusative and genitive forms are identical."
+        },
+        {
+          "sentence": "мне, тебе, ему, ей, нам, вам, им",
+          "question": "These are all forms of which case?",
+          "options": [
+            "Dative",
+            "Accusative",
+            "Genitive"
+          ],
+          "answer": "Dative",
+          "explanation": "These are all dative forms: мне (to me), тебе (to you), ему (to him), etc."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Он подарил _____ цветы. (He gave her flowers.)",
+          "Без _____ мне грустно. (I'm sad without you. - informal)",
+          "Мы купили _____ билеты. (We bought them tickets.)",
+          "От _____ пришло письмо. (A letter came from him.)"
+        ],
+        "choices": [
+          "ей",
+          "тебя",
+          "им",
+          "него"
+        ],
+        "answers": [
+          "ей",
+          "тебя",
+          "им",
+          "него"
+        ],
+        "grammarFocus": "Dative for recipients, genitive after prepositions",
+        "hints": [
+          "Подарить кому? (Give to whom?) uses dative. No preposition.",
+          "Без (without) takes genitive. No н- needed for ты.",
+          "Купить кому? (Buy for whom?) uses dative. No preposition.",
+          "От (from) takes genitive. Third person adds н-."
+        ],
+        "explanations": [
+          "Подарить + dative: она → ей (no preposition, no н-).",
+          "Без + genitive: ты → тебя (н- rule only applies to 3rd person).",
+          "Купить + dative: они → им (no preposition, no н-).",
+          "От + genitive: он → его → него (preposition triggers н-)."
+        ],
+        "options": [
+          [
+            "она",
+            "ей",
+            "её",
+            "ею"
+          ],
+          [
+            "ты",
+            "тобой",
+            "тебе",
+            "тебя"
+          ],
+          [
+            "ими",
+            "они",
+            "их",
+            "им"
+          ],
+          [
+            "он",
+            "им",
+            "ему",
+            "него"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "Я люблю _____. (I love him.) - no preposition",
+          "contextEnglish": "I love him.",
+          "options": [
+            "его",
+            "него"
+          ],
+          "answer": "его",
+          "explanation": "No preposition before the pronoun: use его."
+        },
+        {
+          "context": "Без _____ скучно. (It's boring without them.)",
+          "contextEnglish": "It's boring without them. (без = preposition)",
+          "options": [
+            "их",
+            "них"
+          ],
+          "answer": "них",
+          "explanation": "After preposition без, third person adds н-: их → них."
+        },
+        {
+          "context": "Я _____ позвоню. (I'll call her.)",
+          "contextEnglish": "I'll call her. (звонить + dative, no preposition)",
+          "options": [
+            "ей",
+            "ней"
+          ],
+          "answer": "ей",
+          "explanation": "No preposition: use ей (dative of она). Н- only after prepositions."
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "A final round covering all pronoun declension skills",
+      "descriptionRussian": "Финальный раунд по всем формам местоимений",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я скучаю по _____. (I miss you. - informal)",
+              "promptEnglish": "I miss you.",
+              "options": [
+                "тебя",
+                "тебе",
+                "ты",
+                "тобой"
+              ],
+              "answer": "тебе",
+              "hint": "Скучать по + dative.",
+              "explanation": "Скучать по + dative: ты → тебе."
+            },
+            {
+              "prompt": "Это подарок для _____. (This is a gift for them.)",
+              "promptEnglish": "This is a gift for them.",
+              "options": [
+                "им",
+                "их",
+                "них",
+                "ними"
+              ],
+              "answer": "них",
+              "hint": "Для takes genitive. Preposition triggers н-.",
+              "explanation": "Для + genitive: они → их → них (preposition triggers н-)."
+            },
+            {
+              "prompt": "Напиши _____ письмо. (Write me a letter.)",
+              "promptEnglish": "Write me a letter.",
+              "options": [
+                "я",
+                "меня",
+                "мне",
+                "мной"
+              ],
+              "answer": "мне",
+              "hint": "The recipient of writing is in dative.",
+              "explanation": "Написать кому? uses dative: я → мне."
+            },
+            {
+              "prompt": "Между _____ и _____ нет разницы. (There's no difference between you and me.)",
+              "promptEnglish": "Between you and me.",
+              "options": [
+                "тебя ... мной",
+                "тобой ... меня",
+                "тобой ... мной",
+                "тебе ... мне"
+              ],
+              "answer": "тобой ... мной",
+              "hint": "Между (between) takes instrumental case.",
+              "explanation": "Между + instrumental: ты → тобой, я → мной."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Без них скучно, я люблю них.",
+          "error": "них",
+          "correction": "их",
+          "hint": "The second pronoun has no preposition before it.",
+          "explanation": "Без них is correct (preposition). But люблю их (no preposition, so no н-).",
+          "options": [
+            "их",
+            "им",
+            "ним"
+          ]
+        },
+        {
+          "sentence": "Она дала мы билеты.",
+          "error": "мы",
+          "correction": "нам",
+          "hint": "Дать кому? takes dative, not nominative.",
+          "explanation": "Дать + dative: мы → нам.",
+          "options": [
+            "нам",
+            "нас",
+            "нами"
+          ]
+        },
+        {
+          "sentence": "Он пришёл к её.",
+          "error": "её",
+          "correction": "ней",
+          "hint": "К is a preposition. Third person needs н-.",
+          "explanation": "К + dative: она → ей → ней (preposition triggers н-).",
+          "options": [
+            "ней",
+            "ей",
+            "неё"
+          ]
+        }
+      ]
+    }
+  ]
+}

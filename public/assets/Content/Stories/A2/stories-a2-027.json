@@ -1,0 +1,188 @@
+{
+  "id": "a2-027",
+  "level": "A2",
+  "narrator": "Анна",
+  "title": "Олег",
+  "titleEnglish": "Oleg",
+  "description": "Анна рассказывает, как она познакомилась с Олегом.",
+  "imageName": "person.2.fill",
+  "fullText": "Я хочу рассказать про Олега. Я познакомилась с ним в кафе, где я работаю. Олег приходил каждое утро и всегда брал капучино. Сидел за столиком с ноутбуком и работал. Он тихий и мало говорит. Однажды я спросила: «Вы программист?» Он улыбнулся и ответил: «Да». Мы начали разговаривать каждый день. Оказалось, что Олег очень добрый и умный. Теперь мы вместе. Я рассказала Маше про Олега. Она хочет с ним познакомиться! А Олег всё ещё берёт капучино каждое утро.",
+  "quiz": [
+    {
+      "prompt": "Где Анна познакомилась с Олегом?",
+      "options": [
+        "В парке",
+        "В кафе, где она работает",
+        "На улице"
+      ],
+      "correctIndex": 1,
+      "explanation": "Анна познакомилась с Олегом в кафе, где она работает."
+    },
+    {
+      "prompt": "Что Олег всегда брал в кафе?",
+      "options": [
+        "Капучино",
+        "Чай",
+        "Сок"
+      ],
+      "correctIndex": 0,
+      "explanation": "Олег всегда брал капучино."
+    },
+    {
+      "prompt": "Что делал Олег за столиком?",
+      "options": [
+        "Читал книгу",
+        "Ел торт",
+        "Работал на ноутбуке"
+      ],
+      "correctIndex": 2,
+      "explanation": "Олег сидел за столиком с ноутбуком и работал."
+    },
+    {
+      "prompt": "Кто Олег по профессии?",
+      "options": [
+        "Врач",
+        "Программист",
+        "Учитель"
+      ],
+      "correctIndex": 1,
+      "explanation": "Анна спросила: «Вы программист?» — и Олег ответил: «Да»."
+    },
+    {
+      "prompt": "Почему Маша хочет познакомиться с Олегом?",
+      "options": [
+        "Анна рассказала ей про него",
+        "Маша хочет купить ноутбук",
+        "Олег работает с Машей"
+      ],
+      "correctIndex": 0,
+      "explanation": "Анна рассказала Маше про Олега, и Маша хочет с ним познакомиться."
+    },
+    {
+      "prompt": "Что можно сказать про Олега?",
+      "options": [
+        "Он весёлый и громкий",
+        "Он не любит кафе",
+        "Он тихий, но добрый и умный"
+      ],
+      "correctIndex": 2,
+      "explanation": "Олег тихий и мало говорит, но он очень добрый и умный."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Анна _____ с Олегом в кафе.",
+      "Олег приходил каждое утро и всегда брал _____.",
+      "Олег _____ за столиком и работал.",
+      "Оказалось, что Олег очень _____ и умный.",
+      "Маша хочет с ним _____."
+    ],
+    "choices": [
+      "познакомилась",
+      "капучино",
+      "сидел",
+      "добрый",
+      "познакомиться",
+      "чай",
+      "работать"
+    ],
+    "answers": [
+      "познакомилась",
+      "капучино",
+      "сидел",
+      "добрый",
+      "познакомиться"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "In 'познакомилась с ним,' why does 'он' become 'ним'?",
+      "options": [
+        "It's the genitive case (of him)",
+        "It's the dative case (to him)",
+        "It's the instrumental case (after 'с')"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "instrumental",
+      "sentenceRef": "Я познакомилась с ним в кафе.",
+      "explanation": "After the preposition 'с' (with), pronouns take the instrumental case. Он → с ним, она → с ней, они → с ними.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "In 'сидел за столиком,' why does 'столик' become 'столиком'?",
+      "options": [
+        "The preposition 'за' requires the instrumental case for location",
+        "It's the genitive case",
+        "It's the accusative case"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "instrumental",
+      "sentenceRef": "Сидел за столиком с ноутбуком и работал.",
+      "explanation": "When 'за' means 'at' or 'behind' (location), it requires the instrumental case. Столик → за столиком. Other examples: за столом, за домом.",
+      "focusArea": "prepositions"
+    },
+    {
+      "prompt": "The verb 'познакомиться' has the '-ся' ending. What does this tell us?",
+      "options": [
+        "It happened in the past",
+        "The action is about oneself — getting acquainted",
+        "It's a question"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "reflexive",
+      "sentenceRef": "Я познакомилась с ним в кафе.",
+      "explanation": "The '-ся' (or '-сь') ending makes a verb reflexive — the action is about yourself. Познакомиться = to get acquainted (yourself). Compare: познакомить = to introduce someone else.",
+      "focusArea": "conjugation"
+    }
+  ],
+  "reviewVocab": [
+    {
+      "word": "познакомиться",
+      "definition": "to get acquainted, to meet",
+      "partOfSpeech": "verb (reflexive, pf.)",
+      "forms": [
+        "познакомлюсь",
+        "познакомишься",
+        "познакомится"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "программист",
+      "definition": "programmer",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "программист",
+        "программиста",
+        "программисту"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "тихий",
+      "definition": "quiet",
+      "partOfSpeech": "adjective",
+      "forms": [
+        "тихий",
+        "тихая",
+        "тихое"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "добрый",
+      "definition": "kind",
+      "partOfSpeech": "adjective",
+      "forms": [
+        "добрый",
+        "добрая",
+        "доброе"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "audioFile": "a2-027.m4a",
+  "audioTimingFile": "a2-027-timing.json"
+}

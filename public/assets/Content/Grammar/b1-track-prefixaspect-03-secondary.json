@@ -1,0 +1,296 @@
+{
+  "id": "b1-track-prefixaspect-03-secondary",
+  "level": "B1",
+  "focusArea": "conjugation",
+  "title": "Prefix and Aspect 3: Building the Secondary Imperfective",
+  "titleRussian": "Приставка и вид 3: Образование вторичного несовершенного вида",
+  "description": "When a prefix adds meaning, its perfective gets a new imperfective built with the suffix -ыва-/-ива- (or -а-). переписать → переписывать, рассказать → рассказывать, открыть → открывать. This re-imperfectivized form is the secondary imperfective.",
+  "descriptionRussian": "Когда приставка добавляет значение, у её совершенного глагола образуется новый несовершенный с суффиксом -ыва-/-ива- (или -а-). переписать → переписывать, рассказать → рассказывать, открыть → открывать. Эта форма называется вторичным несовершенным видом.",
+  "imageName": "arrow.uturn.backward.circle",
+  "trackId": "b1-prefix-aspect-mastery",
+  "trackTitle": "Prefixes and Aspect Mastery",
+  "trackTitleRussian": "Приставки и вид",
+  "trackIndex": 3,
+  "trackTotal": 6,
+  "intro": "Here is the consequence. When a prefix changes the meaning, the bare verb can no longer serve as its imperfective partner, so Russian builds a new one by adding a suffix. That gives you a verb carrying a prefix and a suffix at once, which looks intimidating and is completely regular. It even has a present tense, which the perfective did not.",
+  "rules": [
+    "A meaning-adding prefixed perfective forms its imperfective partner with a suffix, not by returning to the simplex. This rebuilt form is the secondary imperfective (вторичный несовершенный вид).",
+    "The main suffix is -ыва- / -ива-: переписать → переписывать, рассказать → рассказывать, показать → показывать, подписать → подписывать.",
+    "-ыва- and -ива- are one suffix with two spellings. Write -ива- after к, г, х and the hushers ж, ч, ш, щ (спросить → спрашивать), and in verbs built on -ить / -еть stems (рассмотреть → рассматривать, оплатить → оплачивать). Write -ыва- elsewhere: записывать, рассказывать, показывать.",
+    "A smaller group uses the suffix -а- / -я- instead, mostly from perfectives in -ить / -ыть: открыть → открывать, закрыть → закрывать, получить → получать, решить → решать.",
+    "The secondary imperfective is a regular imperfective: it conjugates with a present tense (я переписываю), unlike the perfective it came from."
+  ],
+  "examples": [
+    "переписать → переписывать (rewrite). я переписываю, ты переписываешь, они переписывают. Has a present tense.",
+    "рассказать → рассказывать (tell). Я каждый раз рассказываю эту историю по-новому. (habit, secondary impf)",
+    "показать → показывать (show). Музей сейчас показывает новую выставку. (process now, secondary impf)",
+    "подписать → подписывать (sign). Директор как раз подписывает документы. (in progress, secondary impf)",
+    "открыть → открывать (open). Магазин открывает двери в девять. (-а- suffix group, habit)",
+    "получить → получать (receive). Я получаю письмо от него каждую неделю. (-а- suffix group, habit)"
+  ],
+  "tables": [
+    {
+      "title": "Building the secondary imperfective",
+      "headers": [
+        "Prefixed perfective",
+        "Secondary imperfective",
+        "Suffix"
+      ],
+      "rows": [
+        {
+          "label": "переписать (rewrite)",
+          "cells": [
+            "переписывать",
+            "-ыва-"
+          ]
+        },
+        {
+          "label": "рассказать (tell)",
+          "cells": [
+            "рассказывать",
+            "-ыва-"
+          ]
+        },
+        {
+          "label": "показать (show)",
+          "cells": [
+            "показывать",
+            "-ыва-"
+          ]
+        },
+        {
+          "label": "рассмотреть (examine)",
+          "cells": [
+            "рассматривать",
+            "-ива-"
+          ]
+        },
+        {
+          "label": "открыть (open)",
+          "cells": [
+            "открывать",
+            "-а-"
+          ]
+        },
+        {
+          "label": "получить (receive)",
+          "cells": [
+            "получать",
+            "-а-"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Сейчас я как раз _____ это письмо начисто.",
+          "promptEnglish": "Right now I am rewriting this letter as a clean copy.",
+          "options": [
+            "перепишу",
+            "переписал",
+            "переписываю",
+            "написал"
+          ],
+          "answer": "переписываю",
+          "hint": "'Сейчас' + in progress. Perfectives have no present, so you need the secondary imperfective.",
+          "explanation": "'Сейчас… как раз' marks an action in progress, which needs a present tense. The perfective переписать has no present (перепишу is future, переписал is past). The secondary imperfective переписывать supplies the present: переписываю."
+        },
+        {
+          "prompt": "Как образуется вторичный несовершенный вид от переписать?",
+          "promptEnglish": "How is the secondary imperfective of переписать formed?",
+          "options": [
+            "возвращением к глаголу писать",
+            "суффиксом -ыва-: переписывать",
+            "приставкой по-",
+            "никак, его нет"
+          ],
+          "answer": "суффиксом -ыва-: переписывать",
+          "hint": "You add a suffix to the perfective stem, you do not go back to the simplex.",
+          "explanation": "Because пере- changed the meaning to 'rewrite,' you cannot use писать as the imperfective. You re-build the imperfective from the perfective stem with the suffix -ыва-: переписа- + -ыва-ть → переписывать."
+        },
+        {
+          "prompt": "Дедушка любит _____ нам старые истории по вечерам.",
+          "promptEnglish": "Grandpa loves to tell us old stories in the evenings.",
+          "options": [
+            "рассказывать",
+            "рассказать",
+            "рассказал",
+            "расскажет"
+          ],
+          "answer": "рассказывать",
+          "hint": "A repeated habit ('по вечерам') needs the imperfective. Which member tells repeatedly?",
+          "explanation": "'По вечерам' marks a habit, so you need the imperfective of 'tell.' The simplex does not exist with this meaning; the secondary imperfective of рассказать is рассказывать. After любит, an infinitive is needed: рассказывать."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Магазин обычно _____ двери в девять утра.",
+          "promptEnglish": "The shop usually opens its doors at nine in the morning.",
+          "options": [
+            "откроет",
+            "открыл",
+            "открывает",
+            "открыть"
+          ],
+          "answer": "открывает",
+          "hint": "'Обычно' = habit → imperfective. The secondary imperfective of открыть uses the -а- suffix.",
+          "explanation": "'Обычно' marks a habit and needs the imperfective. The perfective открыть has no present; its secondary imperfective is открывать (built with the -а- suffix, not -ыва-). Third person: открывает."
+        },
+        {
+          "prompt": "Выбери вторичный несовершенный вид глагола получить.",
+          "promptEnglish": "Choose the secondary imperfective of получить.",
+          "options": [
+            "получивать",
+            "получать",
+            "получить",
+            "получит"
+          ],
+          "answer": "получать",
+          "hint": "This verb belongs to the smaller -а- group, not the -ыва- group.",
+          "explanation": "Получить belongs to the -а- group: its secondary imperfective is получать (получ- + -а-ть), not получивать. Get used to recognising the -а- forms (открывать, закрывать, получать, решать) as the same re-imperfectivization, just with a different suffix."
+        },
+        {
+          "prompt": "Директор сейчас _____ важные документы.",
+          "promptEnglish": "The director is signing important documents right now.",
+          "options": [
+            "подпишет",
+            "подписал",
+            "подписать",
+            "подписывает"
+          ],
+          "answer": "подписывает",
+          "hint": "Action in progress now. You need the present, which only the imperfective has.",
+          "explanation": "An action in progress now needs the present tense. The perfective подписать has no present (подпишет is future). The secondary imperfective подписывать (подписа- + -ыва-) supplies it: подписывает."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Учитель каждый урок _____ нам, как решать такие задачи. (Every lesson the teacher shows us how to solve such problems.)"
+    ],
+    "choices": [
+      "покажет",
+      "показывает",
+      "показал",
+      "показать"
+    ],
+    "answers": [
+      "показывает"
+    ],
+    "grammarFocus": "'Каждый урок' marks a repeated habit and needs the imperfective. The perfective показать has no present; its secondary imperfective is показывать (показа- + -ыва-). Third person present: показывает."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Сейчас редактор внимательно перепишет всю статью.",
+      "translationEnglish": "Right now the editor is carefully rewriting the whole article.",
+      "error": "перепишет",
+      "correction": "переписывает",
+      "options": [
+        "переписывает",
+        "переписал",
+        "переписать"
+      ],
+      "explanation": "An action in progress right now needs a present tense, which only the imperfective has. The perfective переписать has no present (перепишет is the future, переписал the past). The secondary imperfective переписывать supplies the present: переписывает. Because пере- changed the meaning to 'rewrite', you cannot use писать here; the rebuilt переписывать carries both the 'rewrite' meaning and the present tense."
+    },
+    {
+      "sentence": "Каждую неделю я получиваю письмо от друга.",
+      "translationEnglish": "Every week I receive a letter from a friend.",
+      "error": "получиваю",
+      "correction": "получаю",
+      "options": [
+        "получаю",
+        "получу",
+        "получивать"
+      ],
+      "explanation": "Получить belongs to the smaller -а- group, so its secondary imperfective is получать (получ- + -а-): получаю. The form 'получиваю' wrongly applies the -ыва- suffix and is not a Russian word. Получу is the perfective future (no present). 'Каждую неделю' marks a habit, which needs the imperfective present получаю. Memorise the -а- group: открывать, закрывать, получать, решать."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я завтра _____ это письмо начисто.",
+      "contextEnglish": "Tomorrow I will rewrite this letter as a clean copy (once, completed).",
+      "options": [
+        "перепишу",
+        "переписываю"
+      ],
+      "answer": "перепишу",
+      "explanation": "'Завтра' plus one completed result is a single future event, which is the perfective: перепишу (future of переписать). The secondary imperfective переписываю is a present-tense process ('I am rewriting now') and cannot express a one-time future result."
+    },
+    {
+      "context": "Каждый вечер дедушка _____ нам сказку.",
+      "contextEnglish": "Every evening grandpa tells us a fairy tale.",
+      "options": [
+        "расскажет",
+        "рассказывает"
+      ],
+      "answer": "рассказывает",
+      "explanation": "'Каждый вечер' marks a repeated habit, which needs the imperfective. The secondary imperfective рассказывать gives the present habit: рассказывает. The perfective расскажет (future) would describe a single future telling, not a nightly habit."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each verb by aspect: prefixed perfective, or secondary imperfective (rebuilt with -ыва-/-ива- or -а-).",
+    "categories": [
+      "Prefixed perfective",
+      "Secondary imperfective"
+    ],
+    "items": [
+      {
+        "word": "переписать",
+        "category": "Prefixed perfective"
+      },
+      {
+        "word": "переписывать",
+        "category": "Secondary imperfective"
+      },
+      {
+        "word": "рассказать",
+        "category": "Prefixed perfective"
+      },
+      {
+        "word": "рассказывать",
+        "category": "Secondary imperfective"
+      },
+      {
+        "word": "открыть",
+        "category": "Prefixed perfective"
+      },
+      {
+        "word": "открывать",
+        "category": "Secondary imperfective"
+      },
+      {
+        "word": "показать",
+        "category": "Prefixed perfective"
+      },
+      {
+        "word": "показывать",
+        "category": "Secondary imperfective"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "вторичный несовершенный вид",
+      "definition": "secondary imperfective: an imperfective rebuilt from a prefixed perfective with a suffix (переписать → переписывать). It keeps the prefix's meaning and restores the process aspect.",
+      "example": "Переписывать — вторичный несовершенный вид от переписать; он сохраняет значение «переписывать» и имеет настоящее время."
+    },
+    {
+      "term": "суффикс -ыва- / -ива-",
+      "definition": "the main imperfectivizing suffix: -ыва- after hard consonants, -ива- after soft consonants and к/г/х/ж/ч/ш/щ (рассказать → рассказывать, рассмотреть → рассматривать)",
+      "example": "Показать + -ыва- → показывать; рассмотреть + -ива- → рассматривать."
+    },
+    {
+      "term": "суффикс -а- (открывать, получать)",
+      "definition": "a smaller imperfectivizing suffix, mostly from perfectives in -ить/-ыть: открыть → открывать, получить → получать, решить → решать",
+      "example": "Получить относится к группе на -а-: вторичный несовершенный — получать, а не получивать."
+    }
+  ]
+}

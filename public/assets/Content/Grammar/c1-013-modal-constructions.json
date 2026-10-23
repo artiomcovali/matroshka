@@ -1,0 +1,295 @@
+{
+  "id": "c1-013-modal-constructions",
+  "level": "C1",
+  "focusArea": "sentenceStructure",
+  "title": "Modal Constructions",
+  "titleRussian": "Модальные конструкции",
+  "description": "Complex modal expressions",
+  "descriptionRussian": "Сложные модальные выражения",
+  "imageName": "dial.medium",
+  "intro": "Beyond basic можно/нужно, Russian has nuanced modal expressions. NECESSITY: приходится (forced by circumstances), вынужден (compelled), следует (should, formal), надлежит (must, official). POSSIBILITY: удаётся (manage to), способен (capable), в состоянии (in a position to). PERMISSION: вправе (have the right), позволено (permitted). PROHIBITION: не положено (not supposed to), запрещено (forbidden). These modals convey attitude, register, and precise shades of meaning that mark advanced proficiency.",
+  "rules": [
+    "Necessity: приходится (circumstances force), вынужден (compelled), следует (should)",
+    "Possibility: удаётся (manage to), способен (capable of), в состоянии (able)",
+    "Permission: вправе (have right to), позволено (is permitted)",
+    "Prohibition: не положено (not supposed to), запрещено (forbidden)"
+  ],
+  "examples": [
+    "Мне приходится рано вставать. (I have to get up early, circumstances force me.)",
+    "Я вынужден отказаться. (I am compelled to refuse.)",
+    "Вам следует обратиться к врачу. (You should see a doctor, formal advice.)",
+    "Ему удалось решить проблему. (He managed to solve the problem.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Circumstances: Мне _____ работать по выходным. (I have to - forced)",
+          "promptEnglish": "I have to work on weekends (circumstances).",
+          "options": [
+            "кажется",
+            "хочется",
+            "нравится",
+            "приходится"
+          ],
+          "answer": "приходится",
+          "hint": "Forced by situation = приходится",
+          "explanation": "Circumstantial necessity: приходится."
+        },
+        {
+          "prompt": "Compelled: Я _____ согласиться. (was forced to)",
+          "promptEnglish": "I was forced to agree.",
+          "options": [
+            "хочу",
+            "вынужден",
+            "могу",
+            "должен"
+          ],
+          "answer": "вынужден",
+          "hint": "Compelled = вынужден",
+          "explanation": "Compulsion: вынужден (forced)."
+        },
+        {
+          "prompt": "Formal advice: Вам _____ отдохнуть. (you should)",
+          "promptEnglish": "You should rest. (formal)",
+          "options": [
+            "хочется",
+            "нужно",
+            "надо",
+            "следует"
+          ],
+          "answer": "следует",
+          "hint": "Formal 'should' = следует",
+          "explanation": "Formal advice: следует (should)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Success: Ему _____ найти работу. (managed to)",
+          "promptEnglish": "He managed to find a job.",
+          "options": [
+            "пришлось",
+            "удалось",
+            "хотелось",
+            "казалось"
+          ],
+          "answer": "удалось",
+          "hint": "Managed to = удалось",
+          "explanation": "Success: удалось (managed to)."
+        },
+        {
+          "prompt": "Capable: Она _____ решить эту задачу. (is capable of)",
+          "promptEnglish": "She is capable of solving this problem.",
+          "options": [
+            "готова",
+            "способна",
+            "вынуждена",
+            "должна"
+          ],
+          "answer": "способна",
+          "hint": "Capability = способен",
+          "explanation": "Capability: способна (capable)."
+        },
+        {
+          "prompt": "Right: Вы _____ требовать объяснений. (have the right to)",
+          "promptEnglish": "You have the right to demand explanations.",
+          "options": [
+            "хотите",
+            "вправе",
+            "должны",
+            "можете"
+          ],
+          "answer": "вправе",
+          "hint": "Legal/moral right = вправе",
+          "explanation": "Right: вправе (have the right)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Official: Здесь курить _____. (is forbidden)",
+          "promptEnglish": "Smoking is forbidden here.",
+          "options": [
+            "не хочется",
+            "запрещено",
+            "не надо",
+            "нельзя"
+          ],
+          "answer": "запрещено",
+          "hint": "Official prohibition = запрещено",
+          "explanation": "Official: запрещено (forbidden)."
+        },
+        {
+          "prompt": "Not supposed to: Так делать _____. (not proper/allowed)",
+          "promptEnglish": "One isn't supposed to do that.",
+          "options": [
+            "не хочется",
+            "не положено",
+            "не можно",
+            "не надо"
+          ],
+          "answer": "не положено",
+          "hint": "Social norm = не положено",
+          "explanation": "Norm: не положено (not supposed to)."
+        },
+        {
+          "prompt": "Able: Он не в _____ помочь. (not in a position to)",
+          "promptEnglish": "He is not in a position to help.",
+          "options": [
+            "месте",
+            "праве",
+            "силах",
+            "состоянии"
+          ],
+          "answer": "состоянии",
+          "hint": "A formal way to express ability/capacity",
+          "explanation": "Ability: в состоянии (in a position to)."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Ей _____ совмещать работу и учёбу. (удаётся — получается)",
+          "promptEnglish": "She manages to combine work and study.",
+          "options": [
+            "приходится",
+            "хочется",
+            "удаётся",
+            "кажется"
+          ],
+          "answer": "удаётся",
+          "hint": "Verb for successful achievement of a result",
+          "explanation": "«Удаётся» выражает успех: ей удаётся совмещать — она справляется, ей это получается."
+        },
+        {
+          "prompt": "Здесь фотографировать _____. (не положено — нарушение нормы)",
+          "promptEnglish": "Taking photos is not allowed here.",
+          "options": [
+            "нельзя",
+            "не положено",
+            "не надо",
+            "запрещено"
+          ],
+          "answer": "не положено",
+          "hint": "Социальная норма, а не официальный запрет",
+          "explanation": "«Не положено» выражает нарушение неписаной нормы — мягче, чем «запрещено», но строже, чем «не надо»."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Мне _____ извиниться за опоздание. (had to, circumstances)"
+    ],
+    "choices": [
+      "пришлось",
+      "хотелось",
+      "удалось",
+      "казалось"
+    ],
+    "answers": [
+      "пришлось"
+    ],
+    "grammarFocus": "Circumstantial necessity: приходится/пришлось",
+    "hints": [
+      "Which impersonal modal expression means 'had to' due to external circumstances (not personal desire or success)?"
+    ],
+    "explanations": [
+      "'Пришлось' (had to, was forced by circumstances) expresses necessity imposed by external factors. Compare: 'хотелось' (wanted to), 'удалось' (managed to), 'казалось' (seemed). The dative experiencer + пришлось is a key Russian modal construction."
+    ],
+    "options": [
+      [
+        "пришлось",
+        "пришёлся",
+        "пришлась",
+        "пришлись"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Forced by circumstances: Мне _____ уехать.",
+      "contextEnglish": "I had to leave (situation forced me).",
+      "options": [
+        "пришлось",
+        "захотелось"
+      ],
+      "answer": "пришлось",
+      "explanation": "Circumstances: пришлось."
+    },
+    {
+      "context": "Managed successfully: Мне _____ уехать.",
+      "contextEnglish": "I managed to leave.",
+      "options": [
+        "удалось",
+        "пришлось"
+      ],
+      "answer": "удалось",
+      "explanation": "Success: удалось."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by modal meaning",
+    "categories": [
+      "Necessity",
+      "Possibility/Success",
+      "Permission/Prohibition"
+    ],
+    "items": [
+      {
+        "word": "приходится",
+        "category": "Necessity"
+      },
+      {
+        "word": "удаётся",
+        "category": "Possibility/Success"
+      },
+      {
+        "word": "запрещено",
+        "category": "Permission/Prohibition"
+      },
+      {
+        "word": "вынужден",
+        "category": "Necessity"
+      },
+      {
+        "word": "способен",
+        "category": "Possibility/Success"
+      },
+      {
+        "word": "вправе",
+        "category": "Permission/Prohibition"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "приходится / пришлось",
+      "definition": "have to (circumstances force)",
+      "example": "Мне приходится рано вставать."
+    },
+    {
+      "term": "вынужден",
+      "definition": "compelled, forced",
+      "example": "Я вынужден отказаться."
+    },
+    {
+      "term": "удаётся / удалось",
+      "definition": "manage to, succeed in",
+      "example": "Ему удалось победить."
+    },
+    {
+      "term": "следует",
+      "definition": "should, ought to (formal)",
+      "example": "Вам следует отдохнуть."
+    }
+  ]
+}

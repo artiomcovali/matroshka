@@ -1,0 +1,202 @@
+{
+  "id": "a2-006",
+  "level": "A2",
+  "narrator": "Маша",
+  "title": "Что я люблю готовить",
+  "titleEnglish": "What I Love to Cook",
+  "description": "Маша готовит ужин, а Пряник хочет попробовать.",
+  "imageName": "flame.fill",
+  "fullText": "Сегодня вечером я готовлю ужин. Я очень люблю готовить! Сначала я режу овощи — помидоры, огурцы и лук. Потом варю суп. В суп я добавляю картошку и морковь. Пока суп варится, я делаю салат. Пряник сидит на кухне и смотрит. Он хочет попробовать! Я говорю: «Пряник, подожди!» Суп готов. Я ем вкусный горячий суп и свежий салат. А Пряник получает маленький кусочек моркови. Он доволен!",
+  "quiz": [
+    {
+      "prompt": "Что готовит Маша?",
+      "options": [
+        "Завтрак",
+        "Ужин",
+        "Обед"
+      ],
+      "correctIndex": 1,
+      "explanation": "Сегодня вечером Маша готовит ужин."
+    },
+    {
+      "prompt": "Какие овощи режет Маша?",
+      "options": [
+        "Помидоры, огурцы и лук",
+        "Картошку и морковь",
+        "Капусту и свёклу"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша режет помидоры, огурцы и лук."
+    },
+    {
+      "prompt": "Что Маша добавляет в суп?",
+      "options": [
+        "Лук и чеснок",
+        "Рис и мясо",
+        "Картошку и морковь"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша добавляет в суп картошку и морковь."
+    },
+    {
+      "prompt": "Что делает Пряник на кухне?",
+      "options": [
+        "Спит в углу",
+        "Сидит и смотрит",
+        "Ест свой корм"
+      ],
+      "correctIndex": 1,
+      "explanation": "Пряник сидит на кухне и смотрит на Машу."
+    },
+    {
+      "prompt": "Что ест Маша на ужин?",
+      "options": [
+        "Суп и салат",
+        "Кашу с ягодами",
+        "Пиццу"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша ест вкусный горячий суп и свежий салат."
+    },
+    {
+      "prompt": "Что получает Пряник?",
+      "options": [
+        "Большой кусок мяса",
+        "Ничего",
+        "Маленький кусочек моркови"
+      ],
+      "correctIndex": 2,
+      "explanation": "Пряник получает маленький кусочек моркови."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Маша очень любит _____.",
+      "Сначала Маша _____ овощи.",
+      "Потом Маша _____ суп.",
+      "Пряник сидит на кухне и _____.",
+      "Пряник получает маленький _____ моркови."
+    ],
+    "choices": [
+      "готовить",
+      "режет",
+      "варит",
+      "смотрит",
+      "кусочек",
+      "салат",
+      "ужин"
+    ],
+    "answers": [
+      "готовить",
+      "режет",
+      "варит",
+      "смотрит",
+      "кусочек"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "In 'Я режу овощи,' what case is 'овощи' in?",
+      "options": [
+        "Nominative (the subject)",
+        "Accusative (the object being cut)",
+        "Prepositional (location)"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "case",
+      "sentenceRef": "Сначала я режу овощи — помидоры, огурцы и лук.",
+      "explanation": "After action verbs like 'резать' (to cut), the object takes the accusative case. Овощи (nominative) → овощи (accusative — same form for masculine inanimate plurals).",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "The verb 'варить' means:",
+      "options": [
+        "To boil/cook (in liquid)",
+        "To cut",
+        "To mix"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "tense",
+      "sentenceRef": "Потом варю суп.",
+      "explanation": "'Варить' means to boil or cook in liquid. Варить суп = to cook soup, варить картошку = to boil potatoes. Compare with 'готовить' which means to cook/prepare in general.",
+      "focusArea": "conjugation"
+    },
+    {
+      "prompt": "In 'Я добавляю картошку,' the word 'картошку' ends in '-у' because:",
+      "options": [
+        "It's nominative plural",
+        "It's genitive singular",
+        "It's accusative singular (feminine)"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "case",
+      "sentenceRef": "В суп я добавляю картошку и морковь.",
+      "explanation": "Feminine nouns ending in '-а' change to '-у' in the accusative case: картошка → картошку, морковь stays the same (soft-sign feminine nouns don't change in accusative).",
+      "focusArea": "cases"
+    }
+  ],
+  "reviewVocab": [
+    {
+      "word": "овощи",
+      "definition": "vegetables",
+      "partOfSpeech": "noun (pl)",
+      "forms": [
+        "овощи",
+        "овощей",
+        "овощам"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "добавлять",
+      "definition": "to add",
+      "partOfSpeech": "verb",
+      "forms": [
+        "добавляю",
+        "добавляешь",
+        "добавляет"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "кусочек",
+      "definition": "a small piece",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "кусочек",
+        "кусочка",
+        "кусочки"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "доволен",
+      "definition": "satisfied, pleased",
+      "partOfSpeech": "adjective (short)",
+      "forms": [
+        "доволен",
+        "довольна",
+        "довольны"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "sentenceReorder": {
+    "sentences": [
+      "Суп готов, и Маша ест ужин.",
+      "Потом Маша варит суп.",
+      "Сначала Маша режет овощи.",
+      "Пока суп варится, Маша делает салат."
+    ],
+    "correctOrder": [
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  "audioFile": "a2-006.m4a",
+  "audioTimingFile": "a2-006-timing.json"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-003",
+  "title": "Closed Today",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "The museum is closed - find out when it opens",
+  "imageName": "building.columns.fill",
+  "initialPrompt": "Извините, музей сегодня закрыт.",
+  "systemPrompt": "You work at a museum. It's closed today (понедельник). Open Tuesday-Sunday, 10:00-18:00. Tickets cost 300₽. Keep replies short.",
+  "completionCriteria": "User learned when the museum opens and the ticket price.",
+  "responseLimit": 15,
+  "hints": [
+    "Когда открыто? (When is it open?)",
+    "А завтра? (And tomorrow?)",
+    "Сколько стоит билет? (How much is a ticket?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "закрыто",
+      "definition": "closed"
+    },
+    {
+      "word": "открыто",
+      "definition": "open"
+    },
+    {
+      "word": "музей",
+      "definition": "museum"
+    },
+    {
+      "word": "завтра",
+      "definition": "tomorrow"
+    },
+    {
+      "word": "билет",
+      "definition": "ticket"
+    }
+  ],
+  "objectives": [
+    "Learn it's closed today (закрыто)",
+    "Ask when it opens (когда открыто)",
+    "Find out the ticket price (сколько стоит)"
+  ]
+}

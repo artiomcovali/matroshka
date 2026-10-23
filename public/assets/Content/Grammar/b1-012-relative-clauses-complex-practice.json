@@ -1,0 +1,547 @@
+{
+  "lessonId": "b1-012-relative-clauses-complex",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Which Case for Который?",
+      "titleRussian": "Какой падеж у «который»?",
+      "description": "Choose the correct form of который for each relative clause",
+      "descriptionRussian": "Выберите правильную форму «который» для каждого предложения",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Это врач, _____ я звонил вчера. (This is the doctor whom I called yesterday.)",
+              "promptEnglish": "This is the doctor whom I called yesterday.",
+              "options": [
+                "которого",
+                "которому",
+                "который",
+                "которым"
+              ],
+              "answer": "которому",
+              "hint": "Звонить requires dative: звонить кому?",
+              "explanation": "Звонить takes dative: которому. Masculine singular dative of который."
+            },
+            {
+              "prompt": "Вот книга, _____ я тебе говорил. (Here's the book I told you about.)",
+              "promptEnglish": "Here's the book I told you about.",
+              "options": [
+                "которую",
+                "о которой",
+                "которая",
+                "которой"
+              ],
+              "answer": "о которой",
+              "hint": "Говорить О чём? Prepositional case with о.",
+              "explanation": "Говорить о + prepositional: о которой. Книга is feminine, prepositional = которой."
+            },
+            {
+              "prompt": "Человек, _____ я встретил на вечеринке, оказался писателем. (The person whom I met at the party turned out to be a writer.)",
+              "promptEnglish": "The person I met at the party turned out to be a writer.",
+              "options": [
+                "который",
+                "которому",
+                "которого",
+                "которым"
+              ],
+              "answer": "которого",
+              "hint": "Встретить кого? Accusative animate.",
+              "explanation": "Встретить takes accusative. Animate masculine accusative = genitive form: которого."
+            },
+            {
+              "prompt": "Коллега, _____ я работаю, очень опытный. (The colleague with whom I work is very experienced.)",
+              "promptEnglish": "The colleague with whom I work is very experienced.",
+              "options": [
+                "о котором",
+                "с которым",
+                "которого",
+                "которому"
+              ],
+              "answer": "с которым",
+              "hint": "Работать С кем? Instrumental with с.",
+              "explanation": "Работать с + instrumental: с которым. Masculine instrumental of который."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Девушка, _____ я дал цветы, моя сестра. (The girl to whom I gave flowers is my sister.)",
+              "promptEnglish": "The girl to whom I gave flowers is my sister.",
+              "options": [
+                "которой",
+                "которую",
+                "которая",
+                "о которой"
+              ],
+              "answer": "которой",
+              "hint": "Дать кому? Dative. Feminine dative = которой.",
+              "explanation": "Дать takes dative: которой. Feminine singular dative of который."
+            },
+            {
+              "prompt": "Дом, _____ мы живём, построен в прошлом веке. (The house in which we live was built last century.)",
+              "promptEnglish": "The house in which we live was built last century.",
+              "options": [
+                "в который",
+                "из которого",
+                "в котором",
+                "о котором"
+              ],
+              "answer": "в котором",
+              "hint": "Жить В чём? Prepositional with в (location).",
+              "explanation": "Жить в + prepositional: в котором. Location = prepositional case."
+            },
+            {
+              "prompt": "Друзья, _____ я давно не видел, приехали в гости. (Friends whom I haven't seen for a long time came to visit.)",
+              "promptEnglish": "Friends I haven't seen in a long time came to visit.",
+              "options": [
+                "которые",
+                "которых",
+                "которым",
+                "которыми"
+              ],
+              "answer": "которых",
+              "hint": "Видеть кого? Accusative animate plural.",
+              "explanation": "Видеть takes accusative. Animate plural accusative = genitive form: которых."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Город, _____ я родился, очень красивый. (The city in which I was born is beautiful.)",
+          "contextEnglish": "The city I was born in is very beautiful.",
+          "options": [
+            "в который",
+            "в котором"
+          ],
+          "answer": "в котором",
+          "explanation": "Location (where I was born) = prepositional: в котором. Accusative (в который) would mean direction."
+        },
+        {
+          "context": "Город, _____ мы едем, очень красивый. (The city we're going to is beautiful.)",
+          "contextEnglish": "The city we're heading to is beautiful.",
+          "options": [
+            "в который",
+            "в котором"
+          ],
+          "answer": "в который",
+          "explanation": "Direction (where we're going) = accusative: в который. Prepositional (в котором) would mean location."
+        },
+        {
+          "context": "Учитель, _____ мы уважаем, строгий, но справедливый. (The teacher we respect is strict but fair.)",
+          "contextEnglish": "The teacher we respect is strict but fair.",
+          "options": [
+            "которого",
+            "которому"
+          ],
+          "answer": "которого",
+          "explanation": "Уважать кого? Accusative animate: которого."
+        },
+        {
+          "context": "Учитель, _____ мы помогали, был очень благодарен. (The teacher we helped was very grateful.)",
+          "contextEnglish": "The teacher we helped was very grateful.",
+          "options": [
+            "которого",
+            "которому"
+          ],
+          "answer": "которому",
+          "explanation": "Помогать кому? Dative: которому."
+        }
+      ]
+    },
+    {
+      "id": "round-2-sort-fill",
+      "title": "Cases and Prepositions",
+      "titleRussian": "Падежи и предлоги",
+      "description": "Sort by case and fill in the correct form of который",
+      "descriptionRussian": "Определите падеж и заполните правильную форму «который»",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort: Which case does который take in each sentence?",
+        "categories": [
+          "Accusative (кого/что)",
+          "Dative (кому)",
+          "Instrumental (кем/чем)"
+        ],
+        "items": [
+          {
+            "word": "Фильм, ... я посмотрел (the film I watched)",
+            "category": "Accusative (кого/что)"
+          },
+          {
+            "word": "Друг, ... я позвонил (the friend I called)",
+            "category": "Dative (кому)"
+          },
+          {
+            "word": "Ручка, ... я пишу (the pen I write with)",
+            "category": "Instrumental (кем/чем)"
+          },
+          {
+            "word": "Студентка, ... я встретил (the student I met)",
+            "category": "Accusative (кого/что)"
+          },
+          {
+            "word": "Врач, ... я доверяю (the doctor I trust)",
+            "category": "Dative (кому)"
+          },
+          {
+            "word": "Человек, ... я горжусь (the person I'm proud of)",
+            "category": "Instrumental (кем/чем)"
+          },
+          {
+            "word": "Задача, ... я решил (the problem I solved)",
+            "category": "Accusative (кого/что)"
+          },
+          {
+            "word": "Сосед, ... я помог (the neighbor I helped)",
+            "category": "Dative (кому)"
+          },
+          {
+            "word": "Нож, ... он резал хлеб (the knife he cut bread with)",
+            "category": "Instrumental (кем/чем)"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Это ресторан, _____ мы часто ходим. (This is the restaurant we often go to.)",
+          "Вот женщина, _____ я купил цветы. (Here's the woman I bought flowers for.)",
+          "Парк, _____ мы гуляли вчера, очень большой. (The park where we walked yesterday is very big.)",
+          "Проблема, _____ мы столкнулись, была серьёзной. (The problem we faced was serious.)"
+        ],
+        "choices": [
+          "в который",
+          "для которой",
+          "по которому",
+          "с которой"
+        ],
+        "answers": [
+          "в который",
+          "для которой",
+          "по которому",
+          "с которой"
+        ],
+        "grammarFocus": "Preposition + который in the correct case",
+        "hints": [
+          "Ходить В + accusative (direction). Which form?",
+          "Купить ДЛЯ + genitive. Feminine: которой.",
+          "Гулять ПО + dative. Masculine: которому.",
+          "Столкнуться С + instrumental. Feminine: которой."
+        ],
+        "explanations": [
+          "Direction (в + accusative): в который (masc. inanimate acc. = nominative form).",
+          "Для + genitive: для которой (feminine genitive).",
+          "По + dative: по которому (masculine dative).",
+          "С + instrumental: с которой (feminine instrumental)."
+        ],
+        "options": [
+          [
+            "в котором",
+            "к которому",
+            "из которого",
+            "в который"
+          ],
+          [
+            "от которой",
+            "о которой",
+            "для которой",
+            "с которой"
+          ],
+          [
+            "из которого",
+            "по которому",
+            "о котором",
+            "в котором"
+          ],
+          [
+            "от которой",
+            "с которой",
+            "для которой",
+            "о которой"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-errors-build",
+      "title": "Fix and Build",
+      "titleRussian": "Исправь и построй",
+      "description": "Fix wrong forms of который and build complex sentences",
+      "descriptionRussian": "Исправьте неправильные формы «который» и постройте предложения",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Человек, которому я видел, был очень высоким.",
+          "error": "которому",
+          "correction": "которого",
+          "hint": "Видеть кого? Accusative, not dative.",
+          "explanation": "Видеть requires accusative. Animate masculine accusative = genitive: которого.",
+          "options": [
+            "которого",
+            "которым",
+            "которые"
+          ]
+        },
+        {
+          "sentence": "Город, в который я живу, очень старый.",
+          "error": "который",
+          "correction": "котором",
+          "hint": "Жить В чём? Prepositional (location), not accusative (direction).",
+          "explanation": "Living IN a city = prepositional: в котором. В + accusative would mean direction.",
+          "options": [
+            "котором",
+            "которым",
+            "которого"
+          ]
+        },
+        {
+          "sentence": "Подруга, которым я говорила по телефону, скоро приедет.",
+          "error": "которым",
+          "correction": "с которой",
+          "hint": "Говорить С кем? Instrumental with с. Подруга is feminine.",
+          "explanation": "Говорить с + instrumental. Feminine: с которой (not masculine которым).",
+          "options": [
+            "с которой",
+            "которой",
+            "с которым"
+          ]
+        },
+        {
+          "sentence": "Проект, которого мы работаем, почти готов.",
+          "error": "которого",
+          "correction": "над которым",
+          "hint": "Работать НАД чем? Instrumental with над.",
+          "explanation": "Работать над + instrumental: над которым. The preposition is missing and the case is wrong.",
+          "options": [
+            "над которым",
+            "над которого",
+            "которым"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "The woman who lives next door is a teacher.",
+          "answer": "Женщина, которая живёт по соседству, учительница.",
+          "acceptableVariants": [
+            "Женщина, которая живёт рядом, учительница."
+          ],
+          "hint": "Subject of the clause = nominative: которая (feminine). по соседству = next door",
+          "grammarFocus": "Nominative который as clause subject",
+          "keyWord": "которая",
+          "options": [
+            "которая",
+            "которой",
+            "которую",
+            "которые"
+          ]
+        },
+        {
+          "english": "The book I'm reading is very interesting.",
+          "answer": "Книга, которую я читаю, очень интересная.",
+          "acceptableVariants": [],
+          "hint": "Читать что? Accusative: которую (feminine)",
+          "grammarFocus": "Accusative которую for direct object",
+          "keyWord": "которую",
+          "options": [
+            "которую",
+            "которая",
+            "которой",
+            "которого"
+          ]
+        },
+        {
+          "english": "The city we're traveling to is on the coast.",
+          "answer": "Город, в который мы едем, находится на побережье.",
+          "acceptableVariants": [
+            "Город, в который мы едем, стоит на побережье."
+          ],
+          "hint": "Direction: в + accusative. Город is masc. inanimate: в который",
+          "grammarFocus": "Accusative vs prepositional with в",
+          "keyWord": "в который",
+          "options": [
+            "в который",
+            "в котором",
+            "из которого",
+            "о котором"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Финальное задание",
+      "description": "All cases of который in varied contexts",
+      "descriptionRussian": "Все падежи «который» в разных контекстах",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Магазин, _____ я хожу за продуктами, недалеко от дома. (The store I go to for groceries is near home.)",
+              "promptEnglish": "The store I shop at is close to home.",
+              "options": [
+                "в котором",
+                "в который",
+                "из которого",
+                "о котором"
+              ],
+              "answer": "в который",
+              "hint": "Ходить В + accusative (direction: I go TO the store).",
+              "explanation": "Direction (going TO the store) uses accusative: в который."
+            },
+            {
+              "prompt": "Ребёнок, _____ играет во дворе, мой сосед. (The child playing in the yard is my neighbor.)",
+              "promptEnglish": "The child playing in the yard is my neighbor.",
+              "options": [
+                "которого",
+                "которому",
+                "который",
+                "которым"
+              ],
+              "answer": "который",
+              "hint": "The child IS playing = subject of the clause = nominative.",
+              "explanation": "Который is the subject of 'plays,' so it stays nominative: который."
+            },
+            {
+              "prompt": "Учительница, _____ мы благодарны, уходит на пенсию. (The teacher we're grateful to is retiring.)",
+              "promptEnglish": "The teacher we're grateful to is retiring.",
+              "options": [
+                "которую",
+                "которой",
+                "которая",
+                "с которой"
+              ],
+              "answer": "которой",
+              "hint": "Благодарны кому? Dative. Feminine: которой.",
+              "explanation": "Благодарны + dative: которой (feminine dative of который)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Стол, _____ стоят цветы, купили на распродаже. (The table on which flowers stand was bought at a sale.)",
+              "promptEnglish": "The table the flowers are on was bought at a sale.",
+              "options": [
+                "на который",
+                "на котором",
+                "которым",
+                "под которым"
+              ],
+              "answer": "на котором",
+              "hint": "Стоять НА чём? Prepositional (location on surface).",
+              "explanation": "Location on a surface: на + prepositional: на котором."
+            },
+            {
+              "prompt": "Вопрос, _____ никто не мог ответить, был очень сложным. (The question nobody could answer was very difficult.)",
+              "promptEnglish": "The question nobody could answer was very difficult.",
+              "options": [
+                "на который",
+                "который",
+                "о котором",
+                "которому"
+              ],
+              "answer": "на который",
+              "hint": "Ответить НА что? Accusative with на.",
+              "explanation": "Ответить на + accusative: на который (masculine inanimate, accusative = nominative)."
+            },
+            {
+              "prompt": "Художник, _____ картинами украшен весь зал, знаменит. (The artist whose paintings decorate the hall is famous.)",
+              "promptEnglish": "The artist whose paintings decorate the whole hall is famous.",
+              "options": [
+                "которого",
+                "которому",
+                "которым",
+                "чьими"
+              ],
+              "answer": "чьими",
+              "hint": "Whose paintings = possessive. Чей declines like a possessive.",
+              "explanation": "Possessive relative: чьими (instrumental plural, agreeing with картинами). Чей/чья/чьё/чьи also forms relative clauses."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "в котором / на котором / о котором / при котором",
+          "question": "What case is который in all of these?",
+          "options": [
+            "Prepositional (after в/на/о/при for location)",
+            "Dative (indirect object)",
+            "Instrumental (with/by)"
+          ],
+          "answer": "Prepositional (after в/на/о/при for location)",
+          "explanation": "All use prepositions that take prepositional case for location: в, на, о, при + prepositional."
+        },
+        {
+          "sentence": "с которым / за которым / перед которым / над которым",
+          "question": "What case is который in all of these?",
+          "options": [
+            "Genitive (of/from)",
+            "Instrumental (after с/за/перед/над)",
+            "Accusative (direct object)"
+          ],
+          "answer": "Instrumental (after с/за/перед/над)",
+          "explanation": "These prepositions all take instrumental: с, за (behind), перед, над + instrumental."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Район, _____ мы переехали, очень тихий. (The neighborhood we moved to is very quiet.)",
+          "Это песня, _____ я никогда не забуду. (This is a song I will never forget.)",
+          "Друзья, _____ я учусь, помогают мне с русским. (The friends I study with help me with Russian.)"
+        ],
+        "choices": [
+          "в который",
+          "которую",
+          "с которыми"
+        ],
+        "answers": [
+          "в который",
+          "которую",
+          "с которыми"
+        ],
+        "grammarFocus": "Mixed cases and prepositions with который",
+        "hints": [
+          "Переехать В + accusative (direction).",
+          "Забыть что? Accusative. Песня is feminine.",
+          "Учиться С + instrumental. Plural."
+        ],
+        "explanations": [
+          "Direction: в который (moving TO the neighborhood).",
+          "Direct object: которую (feminine accusative of который).",
+          "Accompaniment: с которыми (plural instrumental of который)."
+        ],
+        "options": [
+          [
+            "о котором",
+            "из которого",
+            "в котором",
+            "в который"
+          ],
+          [
+            "который",
+            "которая",
+            "которой",
+            "которую"
+          ],
+          [
+            "с которыми",
+            "для которых",
+            "от которых",
+            "о которых"
+          ]
+        ]
+      }
+    }
+  ]
+}

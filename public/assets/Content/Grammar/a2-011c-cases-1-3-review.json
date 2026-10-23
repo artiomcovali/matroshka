@@ -1,0 +1,369 @@
+{
+  "id": "a2-011c-cases-1-3-review",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Cases Review: Nom, Acc, Gen",
+  "titleRussian": "Обзор падежей: Им., Вин., Род.",
+  "description": "Practice the first three cases",
+  "descriptionRussian": "Практика первых трёх падежей",
+  "imageName": "list.clipboard.fill",
+  "intro": "Let's review the first three Russian cases! Nominative (Кто? Что?) is used for the subject — the person or thing doing the action. Accusative (Кого? Что?) marks the direct object — what the action is done to, and also direction (в школу). Genitive (Кого? Чего?) shows possession (книга брата), absence (нет воды), and is used after numbers and certain prepositions (из, от, без, у). Knowing which case to use depends on the word's role in the sentence.",
+  "rules": [
+    "Nominative (Им.): The subject of the sentence — who or what does the action. Кто? Что? — Мама читает. Студент работает.",
+    "Accusative (Вин.): The direct object — what receives the action, and direction. Кого? Что? Куда? — Читаю книгу. Иду в школу. Animate masculine nouns look like genitive: вижу брата.",
+    "Genitive (Род.): Possession, absence, 'of', after numbers 2-4, and genitive prepositions. Кого? Чего? — Книга друга. Нет молока. Два стула. Из магазина.",
+    "Key test: Nominative = who is doing? Accusative = what is affected? Genitive = whose, or what is absent/counted?"
+  ],
+  "examples": [
+    "Студент читает книгу. — The student (nom.) reads a book (acc.).",
+    "Это машина брата. — This is the brother's (gen.) car (nom.).",
+    "Нет молока. — There is no milk (gen.).",
+    "Я вижу маму. — I see mom (acc.).",
+    "У друга есть собака. — A friend (gen.) has a dog (nom.)."
+  ],
+  "tables": [
+    {
+      "title": "First Three Cases — Nouns",
+      "headers": [
+        "Case",
+        "Question",
+        "Masc.",
+        "Fem. (-а)",
+        "Neuter"
+      ],
+      "rows": [
+        {
+          "label": "Nominative",
+          "cells": [
+            "кто? что?",
+            "студент",
+            "книг|а",
+            "окн|о"
+          ]
+        },
+        {
+          "label": "Accusative",
+          "cells": [
+            "кого? что?",
+            "студент|а (anim.)",
+            "книг|у",
+            "окн|о"
+          ]
+        },
+        {
+          "label": "Genitive",
+          "cells": [
+            "кого? чего?",
+            "студент|а",
+            "книг|и",
+            "окн|а"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Genitive Prepositions",
+      "headers": [
+        "Preposition",
+        "Meaning",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "из",
+          "cells": [
+            "from (out of)",
+            "из магазин|а"
+          ]
+        },
+        {
+          "label": "от",
+          "cells": [
+            "from (a person)",
+            "от друг|а"
+          ]
+        },
+        {
+          "label": "без",
+          "cells": [
+            "without",
+            "без сахар|а"
+          ]
+        },
+        {
+          "label": "у",
+          "cells": [
+            "at / possession",
+            "у мам|ы"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ работает в магазине. (The brother works in the store.)",
+          "promptEnglish": "The brother works in the store.",
+          "options": [
+            "Брата",
+            "Брат",
+            "Брату",
+            "Братом"
+          ],
+          "answer": "Брат",
+          "hint": "Who is doing the action? Subject = nominative",
+          "explanation": "The subject of the sentence uses nominative case: Брат."
+        },
+        {
+          "prompt": "Я покупаю _____. (I'm buying bread.)",
+          "promptEnglish": "I'm buying bread.",
+          "options": [
+            "хлеба",
+            "хлеб",
+            "хлебу",
+            "хлебом"
+          ],
+          "answer": "хлеб",
+          "hint": "What am I buying? Direct object, inanimate masculine",
+          "explanation": "Хлеб is inanimate masculine, so accusative = nominative: хлеб."
+        },
+        {
+          "prompt": "Это машина _____. (This is the father's car.)",
+          "promptEnglish": "This is the father's car.",
+          "options": [
+            "отец",
+            "отцу",
+            "отца",
+            "отцом"
+          ],
+          "answer": "отца",
+          "hint": "Whose car? Possession = genitive",
+          "explanation": "Possession uses genitive: отец → отца."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "У меня нет _____. (I don't have a pen.)",
+          "promptEnglish": "I don't have a pen.",
+          "options": [
+            "ручку",
+            "ручка",
+            "ручки",
+            "ручкой"
+          ],
+          "answer": "ручки",
+          "hint": "Нет + genitive (absence)",
+          "explanation": "Нет (don't have / there is no) takes genitive: ручка → ручки."
+        },
+        {
+          "prompt": "Она любит _____. (She loves her cat.)",
+          "promptEnglish": "She loves her cat.",
+          "options": [
+            "кошки",
+            "кошка",
+            "кошке",
+            "кошку"
+          ],
+          "answer": "кошку",
+          "hint": "Direct object, feminine noun",
+          "explanation": "Кошка is feminine, so accusative: кошка → кошку."
+        },
+        {
+          "prompt": "_____ лежит на столе. (The book is lying on the table.)",
+          "promptEnglish": "The book is lying on the table.",
+          "options": [
+            "Книги",
+            "Книгу",
+            "Книга",
+            "Книге"
+          ],
+          "answer": "Книга",
+          "hint": "What is lying on the table? Subject",
+          "explanation": "The subject of the sentence uses nominative: Книга."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я иду в _____. (I'm going to the store.)",
+          "promptEnglish": "I'm going to the store.",
+          "options": [
+            "магазина",
+            "магазине",
+            "магазин",
+            "магазину"
+          ],
+          "answer": "магазин",
+          "hint": "Direction = в + accusative",
+          "explanation": "Direction uses в + accusative. Магазин is inanimate masculine, so accusative = nominative: магазин."
+        },
+        {
+          "prompt": "Два _____ стоят на полке. (Two cups are standing on the shelf.)",
+          "promptEnglish": "Two cups are standing on the shelf.",
+          "options": [
+            "стаканы",
+            "стаканов",
+            "стакана",
+            "стаканам"
+          ],
+          "answer": "стакана",
+          "hint": "Number 2 + genitive singular",
+          "explanation": "After два/две the noun takes genitive singular: стакан → стакана."
+        },
+        {
+          "prompt": "Мы знаем этого _____. (We know this student.)",
+          "promptEnglish": "We know this student.",
+          "options": [
+            "студент",
+            "студента",
+            "студенту",
+            "студенте"
+          ],
+          "answer": "студента",
+          "hint": "Direct object, animate masculine = genitive form",
+          "explanation": "Студент is animate masculine. Accusative = genitive form: студента."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я пришёл из _____. (I came from the store.)"
+    ],
+    "choices": [
+      "магазин",
+      "магазина",
+      "магазину",
+      "магазине"
+    ],
+    "answers": [
+      "магазина"
+    ],
+    "grammarFocus": "Genitive after preposition из (from)",
+    "hints": [
+      "The preposition из (from) always takes genitive case. What is the genitive of магазин?"
+    ],
+    "explanations": [
+      "Из (from) requires genitive case. Masculine nouns ending in a consonant add -а: магазин → магазина."
+    ],
+    "options": [
+      [
+        "магазина",
+        "магазином",
+        "магазину",
+        "магазин"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я читаю _____. (I'm reading a book.)",
+      "contextEnglish": "I'm reading a book.",
+      "options": [
+        "книгу",
+        "книги"
+      ],
+      "answer": "книгу",
+      "explanation": "Direct object uses accusative: книга → книгу. Genitive книги would mean 'of the book' or 'no book'."
+    },
+    {
+      "context": "У меня нет _____. (I don't have a book.)",
+      "contextEnglish": "I don't have a book.",
+      "options": [
+        "книги",
+        "книгу"
+      ],
+      "answer": "книги",
+      "explanation": "Нет (absence) takes genitive: книга → книги. Accusative книгу would be for a direct object."
+    }
+  ],
+  "declensionTable": {
+    "word": "мама",
+    "wordType": "noun",
+    "gender": "feminine",
+    "paradigm": {
+      "nominative": "мама",
+      "genitive": "мамы",
+      "dative": "маме",
+      "accusative": "маму",
+      "instrumental": "мамой",
+      "prepositional": "маме"
+    },
+    "blanks": [
+      "accusative",
+      "genitive"
+    ],
+    "hints": [
+      "кого?",
+      "кого? чего?"
+    ],
+    "explanations": [
+      "Feminine -а nouns change to -у in accusative: мама → маму",
+      "Feminine -а nouns change to -ы in genitive: мама → мамы"
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort these phrases by case: Which case is the highlighted word in?",
+    "categories": [
+      "Nominative (Кто? Что?)",
+      "Accusative (Кого? Что?)",
+      "Genitive (Кого? Чего?)"
+    ],
+    "items": [
+      {
+        "word": "Мама готовит",
+        "category": "Nominative (Кто? Что?)"
+      },
+      {
+        "word": "Вижу брата",
+        "category": "Accusative (Кого? Что?)"
+      },
+      {
+        "word": "Нет сахара",
+        "category": "Genitive (Кого? Чего?)"
+      },
+      {
+        "word": "Читаю книгу",
+        "category": "Accusative (Кого? Что?)"
+      },
+      {
+        "word": "Собака спит",
+        "category": "Nominative (Кто? Что?)"
+      },
+      {
+        "word": "Книга друга",
+        "category": "Genitive (Кого? Чего?)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "именительный (Им.)",
+      "definition": "nominative — subject case",
+      "example": "Кто? Что? — Студент читает."
+    },
+    {
+      "term": "винительный (Вин.)",
+      "definition": "accusative — direct object, direction",
+      "example": "Кого? Что? — Читаю книгу. Иду в школу."
+    },
+    {
+      "term": "родительный (Род.)",
+      "definition": "genitive — possession, absence, after numbers",
+      "example": "Кого? Чего? — Нет молока. Книга друга."
+    },
+    {
+      "term": "одушевлённый / неодушевлённый",
+      "definition": "animate / inanimate (affects masc. accusative)",
+      "example": "Вижу студента (anim.) vs. Вижу стол (inanim.)."
+    }
+  ]
+}

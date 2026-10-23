@@ -1,0 +1,386 @@
+{
+  "id": "a2-011b-v-vs-na",
+  "level": "A2",
+  "focusArea": "prepositions",
+  "title": "В vs На: When to Use Which",
+  "titleRussian": "В или На: когда что использовать",
+  "description": "Choosing between в and на for location and direction",
+  "descriptionRussian": "Выбор между «в» и «на» для места и направления",
+  "imageName": "arrow.left.arrow.right",
+  "intro": "Both в and на can mean 'in/at' for location and 'to' for direction — but you cannot swap them freely! The general principle: в is used for enclosed spaces like buildings, rooms, and cities (в школе, в Москве, в комнате). На is used for surfaces (на столе), open areas (на улице), events and activities (на уроке, на концерте), and certain fixed expressions that must be memorized (на работе, на почте, на вокзале, на стадионе). When you learn a new place word, always learn which preposition it takes — в or на — as a pair!",
+  "rules": [
+    "В for enclosed spaces: buildings (в магазине, в банке, в театре), rooms (в комнате, в кухне), cities and countries (в Москве, в России).",
+    "На for surfaces, open areas, events, and activities: на столе (on the table), на улице (outside/on the street), на уроке (in a lesson), на концерте (at a concert), на стадионе (at the stadium).",
+    "The 'from' preposition must match: в pairs with из (в школу → из школы), на pairs with с (на работу → с работы). Never mix them!",
+    "Some common places use на even though they are buildings — these are fixed expressions you must memorize: на работе (at work), на почте (at the post office), на вокзале (at the train station), на заводе (at the factory), на станции (at the station)."
+  ],
+  "examples": [
+    "Я иду в школу. (I'm going to school.), в + accusative (enclosed building)",
+    "Я иду на работу. (I'm going to work.), на + accusative (fixed expression)",
+    "Он живёт в Москве. (He lives in Moscow.), в + prepositional (city)",
+    "Дети играют на улице. (The children are playing outside.), на + prepositional (open area)",
+    "Мы были на концерте. (We were at a concert.), на + prepositional (event)",
+    "Книга лежит на столе. (The book is on the table.), на + prepositional (surface)"
+  ],
+  "tables": [
+    {
+      "title": "В-destinations vs На-destinations",
+      "headers": [
+        "Category",
+        "В (enclosed)",
+        "На (open/event/fixed)"
+      ],
+      "rows": [
+        {
+          "label": "Buildings",
+          "cells": [
+            "в магазине, в банке, в театре, в школе",
+            "на почте, на вокзале, на заводе, на станции"
+          ]
+        },
+        {
+          "label": "Cities/Countries",
+          "cells": [
+            "в Москве, в России, в Лондоне",
+            "—"
+          ]
+        },
+        {
+          "label": "Rooms",
+          "cells": [
+            "в комнате, в кухне, в офисе",
+            "—"
+          ]
+        },
+        {
+          "label": "Surfaces",
+          "cells": [
+            "—",
+            "на столе, на полу, на стене"
+          ]
+        },
+        {
+          "label": "Open areas",
+          "cells": [
+            "—",
+            "на улице, на площади, на пляже"
+          ]
+        },
+        {
+          "label": "Events/Activities",
+          "cells": [
+            "—",
+            "на уроке, на концерте, на работе"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TO / FROM Pairs",
+      "headers": [
+        "Group",
+        "Direction (TO)",
+        "Location (AT)",
+        "Origin (FROM)"
+      ],
+      "rows": [
+        {
+          "label": "в-places",
+          "cells": [
+            "в школу",
+            "в школе",
+            "из школы"
+          ]
+        },
+        {
+          "label": "в-places",
+          "cells": [
+            "в магазин",
+            "в магазине",
+            "из магазина"
+          ]
+        },
+        {
+          "label": "на-places",
+          "cells": [
+            "на работу",
+            "на работе",
+            "с работы"
+          ]
+        },
+        {
+          "label": "на-places",
+          "cells": [
+            "на почту",
+            "на почте",
+            "с почты"
+          ]
+        },
+        {
+          "label": "на-places",
+          "cells": [
+            "на стадион",
+            "на стадионе",
+            "со стадиона"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я учусь _____ школе. (I study at school.)",
+          "promptEnglish": "I study at school.",
+          "options": [
+            "на",
+            "в",
+            "из",
+            "с"
+          ],
+          "answer": "в",
+          "hint": "School is an enclosed building",
+          "explanation": "В школе: school is a building (enclosed space), so we use в."
+        },
+        {
+          "prompt": "Мы были _____ концерте. (We were at a concert.)",
+          "promptEnglish": "We were at a concert.",
+          "options": [
+            "в",
+            "из",
+            "на",
+            "с"
+          ],
+          "answer": "на",
+          "hint": "A concert is an event",
+          "explanation": "На концерте: events and activities always use на."
+        },
+        {
+          "prompt": "Анна работает _____ кафе. (Anna works in a café.)",
+          "promptEnglish": "Anna works in a café.",
+          "options": [
+            "с",
+            "на",
+            "из",
+            "в"
+          ],
+          "answer": "в",
+          "hint": "A café is a building",
+          "explanation": "В кафе: a café is an enclosed building, so we use в."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Дети играют _____ улице. (The children play outside.)",
+          "promptEnglish": "The children play outside.",
+          "options": [
+            "в",
+            "на",
+            "из",
+            "с"
+          ],
+          "answer": "на",
+          "hint": "The street is an open area",
+          "explanation": "На улице: open areas always use на."
+        },
+        {
+          "prompt": "Мама идёт _____ почту. (Mom is going to the post office.)",
+          "promptEnglish": "Mom is going to the post office.",
+          "options": [
+            "в",
+            "из",
+            "на",
+            "с"
+          ],
+          "answer": "на",
+          "hint": "The post office is a на-word (fixed expression)",
+          "explanation": "На почту: почта is a fixed expression that always uses на."
+        },
+        {
+          "prompt": "Папа сидит _____ комнате. (Dad is sitting in the room.)",
+          "promptEnglish": "Dad is sitting in the room.",
+          "options": [
+            "на",
+            "с",
+            "из",
+            "в"
+          ],
+          "answer": "в",
+          "hint": "A room is an enclosed space",
+          "explanation": "В комнате: a room is an enclosed space, so we use в."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Он ждёт _____ вокзале. (He is waiting at the train station.)",
+          "promptEnglish": "He is waiting at the train station.",
+          "options": [
+            "в",
+            "с",
+            "на",
+            "из"
+          ],
+          "answer": "на",
+          "hint": "The train station is a на-word (fixed expression)",
+          "explanation": "На вокзале: вокзал is a fixed expression that always uses на."
+        },
+        {
+          "prompt": "Студенты сидят _____ библиотеке. (The students are sitting in the library.)",
+          "promptEnglish": "The students are sitting in the library.",
+          "options": [
+            "в",
+            "на",
+            "с",
+            "из"
+          ],
+          "answer": "в",
+          "hint": "The library is an enclosed building",
+          "explanation": "В библиотеке: the library is a building, so we use в."
+        },
+        {
+          "prompt": "Мы сейчас _____ уроке. (We are in a lesson right now.)",
+          "promptEnglish": "We are in a lesson right now.",
+          "options": [
+            "из",
+            "с",
+            "в",
+            "на"
+          ],
+          "answer": "на",
+          "hint": "A lesson is an activity/event",
+          "explanation": "На уроке: lessons and activities always use на."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я иду _____ школу. (I am going to school.)",
+      "Я иду _____ магазина. (I am coming from the store.)",
+      "Она идёт _____ работы. (She is coming from work.)"
+    ],
+    "choices": [
+      "в",
+      "из",
+      "с",
+      "на",
+      "к",
+      "от"
+    ],
+    "answers": [
+      "в",
+      "из",
+      "с"
+    ],
+    "grammarFocus": "Direction prepositions: в/на (to), из/с (from)",
+    "options": [
+      [
+        "на",
+        "из",
+        "в",
+        "с"
+      ],
+      [
+        "с",
+        "из",
+        "в",
+        "на"
+      ],
+      [
+        "от",
+        "с",
+        "в",
+        "на"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я сижу _____ театре. (I'm sitting in the theater.)",
+      "contextEnglish": "I'm sitting in the theater.",
+      "options": [
+        "в",
+        "на"
+      ],
+      "answer": "в",
+      "explanation": "В театре: the theater is a building (enclosed space), so we use в."
+    },
+    {
+      "context": "Я сижу _____ стадионе. (I'm sitting at the stadium.)",
+      "contextEnglish": "I'm sitting at the stadium.",
+      "options": [
+        "в",
+        "на"
+      ],
+      "answer": "на",
+      "explanation": "На стадионе: the stadium is a на-word (open area / fixed expression), so we use на."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort these destinations: does each one use В or На? Remember: В for buildings, rooms, cities. На for surfaces, open areas, events, and fixed expressions (работа, почта, вокзал).",
+    "categories": [
+      "В",
+      "На"
+    ],
+    "items": [
+      {
+        "word": "школа (school)",
+        "category": "В"
+      },
+      {
+        "word": "работа (work)",
+        "category": "На"
+      },
+      {
+        "word": "магазин (store)",
+        "category": "В"
+      },
+      {
+        "word": "улица (street)",
+        "category": "На"
+      },
+      {
+        "word": "банк (bank)",
+        "category": "В"
+      },
+      {
+        "word": "вокзал (station)",
+        "category": "На"
+      },
+      {
+        "word": "урок (lesson)",
+        "category": "На"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "в + здание/город",
+      "definition": "в for buildings and cities",
+      "example": "В школе, в магазине, в Москве."
+    },
+    {
+      "term": "на + событие/поверхность",
+      "definition": "на for events, surfaces, open areas",
+      "example": "На уроке, на столе, на улице."
+    },
+    {
+      "term": "в ↔ из",
+      "definition": "в (to/in) pairs with из (from)",
+      "example": "В школу → из школы."
+    },
+    {
+      "term": "на ↔ с",
+      "definition": "на (to/at) pairs with с (from)",
+      "example": "На работу → с работы."
+    }
+  ]
+}

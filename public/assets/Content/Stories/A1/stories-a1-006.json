@@ -1,0 +1,175 @@
+{
+  "id": "a1-006",
+  "level": "A1",
+  "narrator": "Маша",
+  "title": "Мой дом",
+  "titleEnglish": "My Home",
+  "description": "Маша рассказывает о своей квартире.",
+  "imageName": "house.fill",
+  "fullText": "У меня есть квартира. Она маленькая, но уютная. Это кухня. Здесь я готовлю еду. На кухне есть стол и стулья. Это моя спальня. Здесь есть кровать и шкаф. В спальне большое окно. А это гостиная. Там есть диван и телевизор. Я люблю читать книги на диване. Моя квартира — это мой дом!",
+  "reviewVocab": [
+    {
+      "word": "квартира",
+      "definition": "apartment, flat",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "квартира",
+        "квартиры",
+        "квартире"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "кухня",
+      "definition": "kitchen",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "кухня",
+        "кухни",
+        "кухне"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "спальня",
+      "definition": "bedroom",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "спальня",
+        "спальни",
+        "спальне"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "окно",
+      "definition": "window",
+      "partOfSpeech": "noun (n)",
+      "forms": [
+        "окно",
+        "окна",
+        "окну"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Какая квартира у Маши?",
+      "options": [
+        "Маленькая",
+        "Новая",
+        "Большая"
+      ],
+      "correctIndex": 0,
+      "explanation": "Квартира маленькая, но уютная."
+    },
+    {
+      "prompt": "Что есть на кухне?",
+      "options": [
+        "Диван",
+        "Кровать",
+        "Стол и стулья"
+      ],
+      "correctIndex": 2,
+      "explanation": "На кухне есть стол и стулья."
+    },
+    {
+      "prompt": "Где есть большое окно?",
+      "options": [
+        "В спальне",
+        "В гостиной",
+        "На кухне"
+      ],
+      "correctIndex": 0,
+      "explanation": "В спальне большое окно."
+    },
+    {
+      "prompt": "Что есть в гостиной?",
+      "options": [
+        "Кровать и шкаф",
+        "Диван и телевизор",
+        "Стол и стулья"
+      ],
+      "correctIndex": 1,
+      "explanation": "В гостиной есть диван и телевизор."
+    },
+    {
+      "prompt": "Что Маша любит делать на диване?",
+      "options": [
+        "Спать",
+        "Смотреть телевизор",
+        "Читать книги"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша любит читать книги на диване."
+    },
+    {
+      "prompt": "Где Маша готовит еду?",
+      "options": [
+        "На кухне",
+        "В гостиной",
+        "В спальне"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша готовит еду на кухне."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "У меня есть _____.",
+      "Это _____. Здесь я готовлю еду.",
+      "В спальне большое _____.",
+      "В гостиной есть _____ и телевизор.",
+      "Я люблю читать _____ на диване."
+    ],
+    "choices": [
+      "квартира",
+      "кухня",
+      "окно",
+      "диван",
+      "книги",
+      "стол",
+      "кровать"
+    ],
+    "answers": [
+      "квартира",
+      "кухня",
+      "окно",
+      "диван",
+      "книги"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "Which preposition is used to say 'in the kitchen'?",
+      "options": [
+        "на кухне",
+        "в кухне",
+        "у кухни"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "prepositions",
+      "sentenceRef": "На кухне есть стол.",
+      "explanation": "We say 'на кухне' (on/at the kitchen) in Russian, not 'в кухне'. Some places use 'на' instead of 'в': на кухне, на работе, на почте. Example: Я готовлю на кухне (I cook in the kitchen).",
+      "focusArea": "prepositions"
+    },
+    {
+      "prompt": "What gender is the word 'окно' (window)?",
+      "options": [
+        "Neuter",
+        "Masculine",
+        "Feminine"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "gender",
+      "sentenceRef": "В спальне большое окно.",
+      "explanation": "'Окно' ends in -о, so it's neuter. Adjectives must match: большое окно (neuter), большой дом (masculine), большая комната (feminine). The -ое ending marks neuter adjectives.",
+      "focusArea": "cases"
+    }
+  ],
+  "audioFile": "a1-006.m4a",
+  "audioTimingFile": "a1-006-timing.json"
+}

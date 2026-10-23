@@ -1,0 +1,295 @@
+{
+  "id": "b2-019-emphatic-constructions",
+  "level": "B2",
+  "focusArea": "sentenceStructure",
+  "title": "Emphatic Constructions",
+  "titleRussian": "Эмфатические конструкции",
+  "description": "Word order and particles for emphasis",
+  "descriptionRussian": "Порядок слов и частицы для выделения",
+  "imageName": "exclamationmark.circle",
+  "intro": "Russian uses several strategies for emphasis. WORD ORDER: Move emphasized element to end or beginning: Книгу я прочитал (I DID read the book). PARTICLES: же (emphasis), -то (contrast), именно (specifically), как раз (exactly). INTONATION: Stress shifts meaning. CLEFT CONSTRUCTIONS: Это он сделал (It was HE who did it). Unlike English 'do'-emphasis, Russian relies on position and particles. New/important information naturally goes last (rheme position).",
+  "rules": [
+    "End position = new/emphasized: Книгу я прочитал (the BOOK I read)",
+    "Particles: же (strong), -то (contrast), именно (specifically), как раз (exactly)",
+    "Cleft for focus: Это я виноват (It's I who am guilty)",
+    "Beginning position can emphasize topic: Эту книгу я уже читал (THIS book I've read)"
+  ],
+  "examples": [
+    "Вчера же я тебе сказал! (I told you YESTERDAY!)",
+    "Он-то знает правду. (HE knows the truth, unlike others.)",
+    "Именно это я имел в виду. (That's EXACTLY what I meant.)",
+    "Книгу он так и не прочитал. (The book he never DID read.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Strong emphasis particle: Я _____ тебе говорил!",
+          "promptEnglish": "I DID tell you! (emphatic)",
+          "options": [
+            "вот",
+            "же",
+            "то",
+            "ну"
+          ],
+          "answer": "же",
+          "hint": "Strong emphasis = же",
+          "explanation": "Strong emphasis: я же говорил!"
+        },
+        {
+          "prompt": "Contrast particle: Он-_____ знает, а ты нет.",
+          "promptEnglish": "HE knows, but you don't.",
+          "options": [
+            "ведь",
+            "то",
+            "ну",
+            "же"
+          ],
+          "answer": "то",
+          "hint": "Contrast = -то",
+          "explanation": "Contrast: он-то знает."
+        },
+        {
+          "prompt": "_____ это я имел в виду. (Exactly)",
+          "promptEnglish": "That's EXACTLY what I meant.",
+          "options": [
+            "Совсем",
+            "Именно",
+            "Только",
+            "Просто"
+          ],
+          "answer": "Именно",
+          "hint": "Exactly = именно",
+          "explanation": "Specifically: именно это."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Emphasize 'book': _____ я прочитал.",
+          "promptEnglish": "I read THE BOOK (emphasis on book).",
+          "options": [
+            "Книги",
+            "Книгу",
+            "Книга",
+            "Книгой"
+          ],
+          "answer": "Книгу",
+          "hint": "Object first = emphasized",
+          "explanation": "Front position emphasizes: Книгу я прочитал."
+        },
+        {
+          "prompt": "Cleft construction: _____ он это сделал.",
+          "promptEnglish": "It was HE who did this.",
+          "options": [
+            "Там",
+            "То",
+            "Это",
+            "Вот"
+          ],
+          "answer": "Это",
+          "hint": "Cleft = Это + subject + verb",
+          "explanation": "Cleft: Это он сделал."
+        },
+        {
+          "prompt": "_____ раз об этом я и говорю! (Exactly)",
+          "promptEnglish": "That's EXACTLY what I'm talking about!",
+          "options": [
+            "Вот",
+            "То",
+            "Как",
+            "Что"
+          ],
+          "answer": "Как",
+          "hint": "Exactly = как раз",
+          "explanation": "Exactly: как раз об этом."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Which emphasizes 'yesterday'?",
+          "promptEnglish": "Which sentence emphasizes when?",
+          "options": [
+            "Видел я его вчера.",
+            "Я его вчера видел.",
+            "Я вчера его видел.",
+            "Вчера я его видел."
+          ],
+          "answer": "Вчера я его видел.",
+          "hint": "Beginning = topic emphasis",
+          "explanation": "Front position: ВЧЕРА я его видел."
+        },
+        {
+          "prompt": "Emphasize 'never did': Книгу он _____ и не прочитал.",
+          "promptEnglish": "The book he never DID read.",
+          "options": [
+            "это",
+            "так",
+            "что",
+            "вот"
+          ],
+          "answer": "так",
+          "hint": "так и не = never did",
+          "explanation": "Emphatic negation: так и не прочитал."
+        },
+        {
+          "prompt": "Which particle shows 'after all / you know'?",
+          "promptEnglish": "Which appeals to shared knowledge?",
+          "options": [
+            "то",
+            "ну",
+            "же",
+            "ведь"
+          ],
+          "answer": "ведь",
+          "hint": "Appeal to knowledge = ведь",
+          "explanation": "After all: ты ведь знаешь."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Мы _____ об этом и спорим! (EXACTLY this is what we argue about)",
+          "promptEnglish": "That's EXACTLY what we're arguing about!",
+          "options": [
+            "только",
+            "как раз",
+            "просто",
+            "совсем"
+          ],
+          "answer": "как раз",
+          "hint": "Emphatic 'exactly' = как раз",
+          "explanation": "Как раз emphasizes exact match or coincidence: 'Мы как раз об этом и спорим!' (That's EXACTLY what we're arguing about!)."
+        },
+        {
+          "prompt": "Ты _____ обещал прийти! (emphatic: you DID promise)",
+          "promptEnglish": "You DID promise to come!",
+          "options": [
+            "ведь",
+            "то",
+            "ну",
+            "вот"
+          ],
+          "answer": "ведь",
+          "hint": "Appeals to shared knowledge: 'after all'",
+          "explanation": "Ведь emphasizes something the listener should know: 'Ты ведь обещал!' (You promised, after all! / You DID promise!). It appeals to shared knowledge."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я _____ тебе об этом говорил! (emphatic: I DID tell you)"
+    ],
+    "choices": [
+      "же",
+      "то",
+      "ну",
+      "вот"
+    ],
+    "answers": [
+      "же"
+    ],
+    "grammarFocus": "Emphatic particle же",
+    "hints": [
+      "Which particle emphasizes that something was already said or should be obvious to the listener?"
+    ],
+    "explanations": [
+      "The particle 'же' adds strong emphasis, often implying frustration that the listener forgot or ignored something: 'Я же тебе говорил!' (I DID tell you! / I told you, remember?!)."
+    ],
+    "options": [
+      [
+        "ну",
+        "вот",
+        "то",
+        "же"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я _____ знаю! (strong emphasis)",
+      "contextEnglish": "I DO know!",
+      "options": [
+        "же",
+        "-то"
+      ],
+      "answer": "же",
+      "explanation": "Strong emphasis: же."
+    },
+    {
+      "context": "Я-_____ знаю, а он нет. (contrast)",
+      "contextEnglish": "I know, but he doesn't.",
+      "options": [
+        "то",
+        "же"
+      ],
+      "answer": "то",
+      "explanation": "Contrast: -то."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by emphasis type",
+    "categories": [
+      "Particle же (strong)",
+      "Particle -то (contrast)",
+      "Word order"
+    ],
+    "items": [
+      {
+        "word": "Я же сказал!",
+        "category": "Particle же (strong)"
+      },
+      {
+        "word": "Он-то придёт.",
+        "category": "Particle -то (contrast)"
+      },
+      {
+        "word": "Книгу я прочитал.",
+        "category": "Word order"
+      },
+      {
+        "word": "Ты же знаешь!",
+        "category": "Particle же (strong)"
+      },
+      {
+        "word": "Она-то умная.",
+        "category": "Particle -то (contrast)"
+      },
+      {
+        "word": "Вчера я его видел.",
+        "category": "Word order"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "же",
+      "definition": "strong emphasis particle",
+      "example": "Я же сказал!"
+    },
+    {
+      "term": "-то",
+      "definition": "contrast particle",
+      "example": "Он-то знает."
+    },
+    {
+      "term": "именно",
+      "definition": "specifically, exactly",
+      "example": "Именно это!"
+    },
+    {
+      "term": "так и не",
+      "definition": "never did (emphatic)",
+      "example": "Он так и не пришёл."
+    }
+  ]
+}

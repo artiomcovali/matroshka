@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-017",
+  "title": "The Scalper",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Only scalped tickets available - negotiate the price down",
+  "imageName": "ticket.fill",
+  "initialPrompt": "Билеты на концерт? Есть! Два билета - 10 000 рублей.",
+  "systemPrompt": "You are scalping concert tickets. Original price 2000₽ each, you want 5000₽ each. Lower price if buyer walks away or finds flaw (bad seats). Keep replies short.",
+  "completionCriteria": "User bought tickets at reduced price or walked away.",
+  "responseLimit": 15,
+  "hints": [
+    "Это слишком дорого (That's too expensive)",
+    "Какие места? (What seats?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "билет",
+      "definition": "ticket"
+    },
+    {
+      "word": "концерт",
+      "definition": "concert"
+    },
+    {
+      "word": "дорого",
+      "definition": "expensive"
+    },
+    {
+      "word": "место",
+      "definition": "seat"
+    },
+    {
+      "word": "цена",
+      "definition": "price"
+    },
+    {
+      "word": "торговаться",
+      "definition": "to bargain"
+    }
+  ],
+  "objectives": [
+    "Ask about the tickets (Какие билеты?)",
+    "Question the high price",
+    "Find a flaw to negotiate",
+    "Counter-offer a lower price",
+    "Reach agreement or walk away"
+  ]
+}

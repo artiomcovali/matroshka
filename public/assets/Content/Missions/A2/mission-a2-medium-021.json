@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-021",
+  "title": "Key Won't Copy",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Your key is too worn to copy",
+  "imageName": "key.fill",
+  "initialPrompt": "Здравствуйте! Копия ключа? Давайте посмотрю... Хм.",
+  "systemPrompt": "You make key copies. This key too worn to copy - needs original from locksmith or landlord. Can call locksmith who makes new key from lock, costs 800 rubles. Keep replies short.",
+  "completionCriteria": "User understood the problem and chose a solution.",
+  "responseLimit": 15,
+  "hints": [
+    "Что не так с ключом? (What's wrong with the key?)",
+    "Что можно сделать? (What can be done?)",
+    "Позвоните слесарю (Call the locksmith)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "ключ",
+      "definition": "key"
+    },
+    {
+      "word": "копия",
+      "definition": "copy"
+    },
+    {
+      "word": "изношенный",
+      "definition": "worn"
+    },
+    {
+      "word": "слесарь",
+      "definition": "locksmith"
+    },
+    {
+      "word": "замок",
+      "definition": "lock"
+    },
+    {
+      "word": "оригинал",
+      "definition": "original"
+    }
+  ],
+  "objectives": [
+    "Ask what the problem is",
+    "Understand key is too worn (изношенный)",
+    "Learn about alternatives",
+    "Choose a solution"
+  ]
+}

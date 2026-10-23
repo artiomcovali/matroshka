@@ -1,0 +1,188 @@
+{
+  "id": "a1-track-possessive-05-chains",
+  "level": "A1",
+  "focusArea": "other",
+  "title": "Possessives 5: Chains (этот + мой + adjective + noun)",
+  "titleRussian": "Притяжательные 5: цепочки согласования",
+  "description": "Russian lets you stack a demonstrative, a possessive, and an adjective in front of one noun. Each layer agrees with the noun in gender and number. Today we drill the full chain.",
+  "descriptionRussian": "В русском языке можно поставить указательное и притяжательное местоимения и прилагательное перед одним существительным. Все согласуются в роде и числе. Сегодня — полные цепочки.",
+  "imageName": "link",
+  "trackId": "a1-possessives-demonstratives-mastery",
+  "trackTitle": "Possessives & Demonstratives Mastery",
+  "trackTitleRussian": "Притяжательные и указательные",
+  "trackIndex": 5,
+  "trackTotal": 6,
+  "intro": "Now the modifiers stack. When a demonstrative, a possessive and an adjective all sit in front of one noun, every one of them has to match that noun, so you read the noun first and work backwards. The three invariant words from lesson 3 are the exception: in a line where everything else is bending, they stay put.",
+  "rules": [
+    "Every modifier in a chain agrees with the noun in gender and number: demonstrative, possessive, and adjective all carry the same signal.",
+    "Read the noun first, decide its gender and number, then inflect everything in front of it. The chain moves as one unit.",
+    "The unmarked Russian word order is demonstrative, then possessive, then adjective, then noun: эта моя старая школа.",
+    "The invariant trio его, её, их does not change inside a chain any more than it changes on its own. The OTHER chain elements still agree; the trio stands apart.",
+    "The 'это X' identifying frame and the 'у меня X' possession frame both keep the noun in the nominative. The whole chain agrees with that nominative noun."
+  ],
+  "examples": [
+    "Это мой новый дом. (This is my new house.) Дом is masculine singular: мой and новый both take masculine forms.",
+    "Эта моя старая школа. (This is my old school.) Школа is feminine singular: эта, моя, and старая all take feminine forms.",
+    "Это наше большое окно. (This is our big window.) Окно is neuter singular: наше and большое both take neuter forms.",
+    "Эти наши хорошие друзья. (These are our good friends.) Друзья is plural: эти, наши, and хорошие all take plural forms.",
+    "Её новая машина быстрая. (Her new car is fast.) Машина is feminine: новая agrees, but её stays invariant.",
+    "У меня новая красивая комната. (I have a new beautiful room.) Two adjectives in a chain both agree with feminine комната."
+  ],
+  "tables": [
+    {
+      "title": "Full Chains across the Four Forms",
+      "headers": [
+        "Noun type",
+        "Demonstrative + Possessive + Adjective + Noun"
+      ],
+      "rows": [
+        {
+          "label": "masculine singular",
+          "cells": [
+            "этот мой новый дом"
+          ]
+        },
+        {
+          "label": "feminine singular",
+          "cells": [
+            "эта моя старая школа"
+          ]
+        },
+        {
+          "label": "neuter singular",
+          "cells": [
+            "это наше большое окно"
+          ]
+        },
+        {
+          "label": "plural (any gender)",
+          "cells": [
+            "эти наши хорошие друзья"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ книга интересная.",
+          "promptEnglish": "Recap from Lesson 4: this book is interesting.",
+          "options": [
+            "этот",
+            "эта",
+            "это",
+            "эти"
+          ],
+          "answer": "эта",
+          "hint": "Книга is feminine singular. The этот series takes -а for feminine.",
+          "explanation": "Recap from Lesson 4. Книга is feminine singular, so the demonstrative is эта. Today's lesson stacks more modifiers in front of nouns like this, but each one still agrees the same way."
+        },
+        {
+          "prompt": "Это _____ старый дом.",
+          "promptEnglish": "This is our old house.",
+          "options": [
+            "наш",
+            "наша",
+            "наше",
+            "наши"
+          ],
+          "answer": "наш",
+          "hint": "Дом is masculine singular. The adjective старый already signals masc sg in the chain; the possessive must match.",
+          "explanation": "Дом is masculine singular. The masculine form of the 'our' series is наш. Note how the adjective старый and the possessive наш travel together: both carry the masculine singular signal."
+        },
+        {
+          "prompt": "_____ новая машина быстрая.",
+          "promptEnglish": "My new car is fast.",
+          "options": [
+            "мой",
+            "моя",
+            "моё",
+            "мои"
+          ],
+          "answer": "моя",
+          "hint": "The chain in front of машина includes a possessive and the adjective новая. Match the gender of the chain.",
+          "explanation": "Машина is feminine singular. The chain has the adjective новая (feminine) already in place; the possessive must match. The feminine form of the 'my' series is моя."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ маленькие дети умные.",
+          "promptEnglish": "These little children are smart.",
+          "options": [
+            "этот",
+            "эта",
+            "это",
+            "эти"
+          ],
+          "answer": "эти",
+          "hint": "Дети is plural. The chain already shows маленькие as plural. Match.",
+          "explanation": "Дети is plural. The chain includes the plural adjective маленькие, and the demonstrative must match. The plural form of the этот series is эти."
+        },
+        {
+          "prompt": "Это _____ маленькое окно.",
+          "promptEnglish": "This is our small window.",
+          "options": [
+            "наш",
+            "наша",
+            "наше",
+            "наши"
+          ],
+          "answer": "наше",
+          "hint": "Окно is neuter singular, and маленькое already signals neuter in the chain.",
+          "explanation": "Окно is neuter singular. The chain shows маленькое (neuter -ое), and the possessive matches: наше. Both carry the neuter singular signal."
+        },
+        {
+          "prompt": "У Маши _____ маленький брат.",
+          "promptEnglish": "Masha has her little brother.",
+          "options": [
+            "её",
+            "его",
+            "их",
+            "наш"
+          ],
+          "answer": "её",
+          "hint": "The owner is Masha (female). The adjective маленький agrees with masc sg брат, but the possessive does not change for this group.",
+          "explanation": "Брат is masculine singular, and the adjective маленький agrees: masculine singular -ий is correct. But the possessive её does NOT bend to match. Even inside a chain of agreeing words, the trio его / её / их never changes form."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "У Маши _____ старая бабушка. (Masha has her old grandmother.)"
+    ],
+    "choices": [
+      "её",
+      "его",
+      "их",
+      "наша"
+    ],
+    "answers": [
+      "её"
+    ],
+    "grammarFocus": "Бабушка is feminine, and the adjective старая agrees: feminine -ая. The owner is Masha (female), so the possessive is её. Even though the chain otherwise agrees, её never changes: it does not become 'её-а' or any other new shape."
+  },
+  "reviewVocab": [
+    {
+      "term": "цепочка согласования",
+      "definition": "agreement chain (a sequence of modifiers in front of a noun, all carrying the same gender and number signal)",
+      "example": "В словосочетании 'эта моя старая школа' видна цепочка согласования: все слова стоят в женском роде единственного числа."
+    },
+    {
+      "term": "порядок слов",
+      "definition": "word order (the conventional sequence of modifiers in Russian: demonstrative, then possessive, then adjective, then noun)",
+      "example": "Стандартный порядок слов в цепочке: 'этот мой новый дом', а не 'мой этот новый дом'."
+    },
+    {
+      "term": "указательное местоимение",
+      "definition": "demonstrative pronoun (this lesson stacks them with possessives and adjectives in a single chain)",
+      "example": "В выражении 'эти наши хорошие друзья' указательное местоимение 'эти' открывает цепочку и задаёт число."
+    }
+  ]
+}

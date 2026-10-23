@@ -1,0 +1,194 @@
+{
+  "id": "a2-015",
+  "level": "A2",
+  "narrator": "Маша",
+  "title": "Плохая погода",
+  "titleEnglish": "Bad Weather",
+  "description": "Маша весь день дома — на улице дождь и холодно.",
+  "imageName": "cloud.rain.fill",
+  "fullText": "Сегодня была плохая погода. Утром шёл дождь, и на улице было холодно. Я осталась дома. Сначала я приготовила горячий чай и села на диван. Потом я читала книгу — интересный роман о путешествиях. Днём дождь шёл ещё сильнее. Пряник принёс мне свою игрушку, и мы играли вместе. Он бегал по комнате и вилял хвостом — смешной пёс! Вечером я посмотрела в окно. Дождь наконец закончился. Завтра, наверное, будет хорошая погода.",
+  "quiz": [
+    {
+      "prompt": "Какая была погода?",
+      "options": [
+        "Хорошая и тёплая",
+        "Плохая — шёл дождь",
+        "Шёл снег"
+      ],
+      "correctIndex": 1,
+      "explanation": "Сегодня была плохая погода — шёл дождь и было холодно."
+    },
+    {
+      "prompt": "Где была Маша весь день?",
+      "options": [
+        "На работе",
+        "В кафе",
+        "Дома"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша осталась дома, потому что шёл дождь."
+    },
+    {
+      "prompt": "Что Маша приготовила сначала?",
+      "options": [
+        "Суп",
+        "Горячий чай",
+        "Кашу"
+      ],
+      "correctIndex": 1,
+      "explanation": "Сначала Маша приготовила горячий чай."
+    },
+    {
+      "prompt": "Что Маша читала?",
+      "options": [
+        "Газету",
+        "Роман о путешествиях",
+        "Письмо от Димы"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша читала интересный роман о путешествиях."
+    },
+    {
+      "prompt": "Что принёс Пряник?",
+      "options": [
+        "Свою игрушку",
+        "Мяч",
+        "Тапочки"
+      ],
+      "correctIndex": 0,
+      "explanation": "Пряник принёс Маше свою игрушку, и они играли вместе."
+    },
+    {
+      "prompt": "Когда закончился дождь?",
+      "options": [
+        "Утром",
+        "Днём",
+        "Вечером"
+      ],
+      "correctIndex": 2,
+      "explanation": "Вечером Маша посмотрела в окно — дождь наконец закончился."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Сегодня была _____ погода.",
+      "Утром шёл _____, и было холодно.",
+      "Маша приготовила горячий _____ и села на диван.",
+      "Пряник принёс Маше свою _____.",
+      "Вечером дождь наконец _____."
+    ],
+    "choices": [
+      "плохая",
+      "дождь",
+      "чай",
+      "игрушку",
+      "закончился",
+      "книгу",
+      "снег"
+    ],
+    "answers": [
+      "плохая",
+      "дождь",
+      "чай",
+      "игрушку",
+      "закончился"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "In 'шёл дождь' (it was raining), the verb 'шёл' is in which form?",
+      "options": [
+        "Present tense",
+        "Past tense masculine",
+        "Future tense"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "tense",
+      "sentenceRef": "Утром шёл дождь, и на улице было холодно.",
+      "explanation": "'Шёл' is the past tense masculine form of 'идти' (to go). Rain in Russian 'goes' — 'дождь идёт' (present) / 'дождь шёл' (past). Since 'дождь' is masculine, we use 'шёл' (not 'шла').",
+      "focusArea": "conjugation"
+    },
+    {
+      "prompt": "'Было холодно' means 'it was cold.' Why is the verb 'было' neuter?",
+      "options": [
+        "Because 'холодно' is an adverb in an impersonal construction",
+        "Because 'холодно' is a neuter adjective",
+        "Because the subject is feminine"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "tense",
+      "sentenceRef": "Утром шёл дождь, и на улице было холодно.",
+      "explanation": "Weather expressions like 'было холодно' (it was cold), 'было тепло' (it was warm) are impersonal — there is no real subject. Russian uses the neuter 'было' for these impersonal past tense constructions.",
+      "focusArea": "conjugation"
+    },
+    {
+      "prompt": "'Я осталась дома' — why does the verb end in '-ась' instead of '-ся'?",
+      "options": [
+        "Because the action happened yesterday",
+        "Because the speaker (Маша) is female",
+        "Because it is future tense"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "gender",
+      "sentenceRef": "Я осталась дома.",
+      "explanation": "Past tense verbs agree with the subject's gender: остался (he stayed), осталась (she stayed). Since Маша is female, the verb takes the feminine ending '-ась'. Compare: Дима остался, Маша осталась.",
+      "focusArea": "cases"
+    }
+  ],
+  "reviewVocab": [
+    {
+      "word": "путешествие",
+      "definition": "journey, travel",
+      "partOfSpeech": "noun (n)",
+      "forms": [
+        "путешествие",
+        "путешествия",
+        "путешествий"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "наконец",
+      "definition": "finally, at last",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "difficulty": 2
+    },
+    {
+      "word": "сильнее",
+      "definition": "stronger, harder",
+      "partOfSpeech": "comparative adverb",
+      "forms": [
+        "сильнее",
+        "сильный",
+        "сильно"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "наверное",
+      "definition": "probably",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "sentenceReorder": {
+    "sentences": [
+      "Маша приготовила чай и читала книгу.",
+      "Утром шёл дождь, и было холодно.",
+      "Вечером дождь закончился.",
+      "Днём Маша играла с Пряником."
+    ],
+    "correctOrder": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  "audioFile": "a2-015.m4a",
+  "audioTimingFile": "a2-015-timing.json"
+}

@@ -1,0 +1,953 @@
+{
+  "lessonId": "b2-014-passive-constructions",
+  "sets": [
+    {
+      "id": "round-1-passive-type-quiz",
+      "title": "Passive Type Recognition",
+      "titleRussian": "Типы пассивных конструкций",
+      "description": "Distinguish reflexive -ся passives from short participle passives",
+      "descriptionRussian": "Различите пассивные конструкции с -ся и краткие причастия",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Письмо уже _____. (completed result)",
+              "promptEnglish": "The letter has already been written.",
+              "options": [
+                "пишется",
+                "писалось",
+                "написано",
+                "напишется"
+              ],
+              "answer": "написано",
+              "hint": "A completed result uses the short passive participle.",
+              "explanation": "Написано (short participle, pf) = has been written. The result is achieved."
+            },
+            {
+              "prompt": "Этот фильм _____ известным режиссёром. (completed result, agent named)",
+              "promptEnglish": "This film was directed by a famous director.",
+              "options": [
+                "снимается",
+                "снят",
+                "снимался",
+                "снимётся"
+              ],
+              "answer": "снят",
+              "hint": "A completed action with a named agent uses the short passive participle + instrumental.",
+              "explanation": "Снят (short participle) + режиссёром (instrumental) = was directed by. The result is final."
+            },
+            {
+              "prompt": "Здесь _____ свежий хлеб каждый день. (regular process)",
+              "promptEnglish": "Fresh bread is sold here every day.",
+              "options": [
+                "продан",
+                "продавался",
+                "продана",
+                "продаётся"
+              ],
+              "answer": "продаётся",
+              "hint": "A regular, recurring process uses the -ся passive.",
+              "explanation": "Продаётся (impf -ся) = is sold (regularly). Каждый день confirms the habitual nature."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Дверь _____. Можно входить. (result state right now)",
+              "promptEnglish": "The door is open. You may come in.",
+              "options": [
+                "открывается",
+                "открывалась",
+                "открыта",
+                "откроется"
+              ],
+              "answer": "открыта",
+              "hint": "The current state resulting from an action = short participle.",
+              "explanation": "Открыта (short participle) = is open (resulting state). The door was opened and remains so."
+            },
+            {
+              "prompt": "Газеты _____ по всему городу. (ongoing distribution)",
+              "promptEnglish": "Newspapers are distributed across the whole city.",
+              "options": [
+                "распространяются",
+                "распространены",
+                "распространились",
+                "распространятся"
+              ],
+              "answer": "распространяются",
+              "hint": "An ongoing distribution process = -ся passive.",
+              "explanation": "Распространяются (impf -ся) = are being distributed (ongoing process)."
+            },
+            {
+              "prompt": "Все билеты на концерт уже _____. (result: none left)",
+              "promptEnglish": "All tickets for the concert have already been sold.",
+              "options": [
+                "продаются",
+                "продавались",
+                "продались",
+                "проданы"
+              ],
+              "answer": "проданы",
+              "hint": "A completed result (all sold out) = short participle.",
+              "explanation": "Проданы (short participle, pf) = have been sold. The tickets are gone - a finished result."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "Решение _____ директором вчера. (completed action, agent stated)",
+              "promptEnglish": "The decision was made by the director yesterday.",
+              "options": [
+                "принимается",
+                "принималось",
+                "принято",
+                "примется"
+              ],
+              "answer": "принято",
+              "hint": "Past completed action with a named agent = short participle + instrumental.",
+              "explanation": "Принято (short participle) + директором (instrumental agent). The decision is final."
+            },
+            {
+              "prompt": "В этом ресторане _____ итальянские блюда. (what they regularly serve)",
+              "promptEnglish": "Italian dishes are served at this restaurant.",
+              "options": [
+                "подаются",
+                "поданы",
+                "подались",
+                "подадутся"
+              ],
+              "answer": "подаются",
+              "hint": "A regular feature of the restaurant = -ся passive.",
+              "explanation": "Подаются (impf -ся) = are served (regularly, as part of the menu)."
+            },
+            {
+              "prompt": "Задача _____. Можно переходить к следующей. (result: finished)",
+              "promptEnglish": "The task is completed. We can move on to the next one.",
+              "options": [
+                "решается",
+                "решится",
+                "решалась",
+                "решена"
+              ],
+              "answer": "решена",
+              "hint": "A completed task whose result we see now = short participle.",
+              "explanation": "Решена (short participle, pf) = has been solved. The result is achieved."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Эта проблема _____ уже давно. (ongoing, still being worked on)",
+          "contextEnglish": "This problem has been discussed for a long time. (process continues)",
+          "options": [
+            "обсуждается",
+            "обсуждена"
+          ],
+          "answer": "обсуждается",
+          "explanation": "Обсуждается (-ся, impf) = is being discussed (process, not finished yet)."
+        },
+        {
+          "context": "Эта проблема _____. Решение принято. (finished, result reached)",
+          "contextEnglish": "This problem has been discussed. A decision has been made.",
+          "options": [
+            "обсуждена",
+            "обсуждается"
+          ],
+          "answer": "обсуждена",
+          "explanation": "Обсуждена (short participle, pf) = has been discussed (completed, done)."
+        },
+        {
+          "context": "Мост _____ уже три года. (ongoing construction)",
+          "contextEnglish": "The bridge has been under construction for three years. (still building)",
+          "options": [
+            "строится",
+            "построен"
+          ],
+          "answer": "строится",
+          "explanation": "Строится (-ся, impf) = is being built (process continues, not finished)."
+        },
+        {
+          "context": "Мост _____. Движение открыто. (result: construction done)",
+          "contextEnglish": "The bridge has been built. Traffic is open.",
+          "options": [
+            "построен",
+            "строится"
+          ],
+          "answer": "построен",
+          "explanation": "Построен (short participle, pf) = has been built (finished, result state)."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Музей _____ каждый день с 10 до 18. (regular hours)",
+          "Дом _____ в прошлом году. (completed construction)",
+          "Молоко _____ на ферме. (regular production)",
+          "Документ _____ и подписан. (finished, ready)"
+        ],
+        "choices": [
+          "открывается",
+          "построен",
+          "производится",
+          "подготовлен"
+        ],
+        "answers": [
+          "открывается",
+          "построен",
+          "производится",
+          "подготовлен"
+        ],
+        "grammarFocus": "-ся passive (process) vs short participle (result)",
+        "hints": [
+          "Regular schedule = ongoing process = -ся.",
+          "Completed construction = result = short participle.",
+          "Regular farm operation = process = -ся.",
+          "Completed preparation = result = short participle."
+        ],
+        "explanations": [
+          "Открывается (-ся, impf): the museum opens regularly on schedule.",
+          "Построен (short participle, pf): the house was built - completed result.",
+          "Производится (-ся, impf): milk is produced as an ongoing process.",
+          "Подготовлен (short participle, pf): the document has been prepared - done."
+        ],
+        "options": [
+          [
+            "открывался",
+            "открывается",
+            "открывает",
+            "открывалась"
+          ],
+          [
+            "построил",
+            "построить",
+            "построивший",
+            "построен"
+          ],
+          [
+            "производит",
+            "производилась",
+            "производился",
+            "производится"
+          ],
+          [
+            "подготовить",
+            "подготовил",
+            "подготовлен",
+            "подготовивший"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-agent-instrumental",
+      "title": "Agent in Instrumental",
+      "titleRussian": "Агент в творительном падеже",
+      "description": "Practice expressing the agent of a passive action with instrumental case",
+      "descriptionRussian": "Практикуйте выражение агента пассивного действия в творительном падеже",
+      "icon": "person.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Роман написан _____. (Толстой)",
+              "promptEnglish": "The novel was written by Tolstoy.",
+              "options": [
+                "Толстой",
+                "Толстому",
+                "Толстым",
+                "Толстого"
+              ],
+              "answer": "Толстым",
+              "hint": "The agent in a passive construction takes instrumental case.",
+              "explanation": "Agent = instrumental: Толстым. Роман написан Толстым = written by Tolstoy."
+            },
+            {
+              "prompt": "Проект разработан _____. (команда инженеров)",
+              "promptEnglish": "The project was developed by a team of engineers.",
+              "options": [
+                "командой инженеров",
+                "команде инженеров",
+                "команда инженеров",
+                "команду инженеров"
+              ],
+              "answer": "командой инженеров",
+              "hint": "Agent = instrumental. Feminine noun команда becomes командой.",
+              "explanation": "Командой инженеров (instrumental) = by a team of engineers. Agent always takes instrumental."
+            },
+            {
+              "prompt": "Песня исполнена _____. (молодая певица)",
+              "promptEnglish": "The song was performed by a young singer.",
+              "options": [
+                "молодая певица",
+                "молодой певице",
+                "молодую певицу",
+                "молодой певицей"
+              ],
+              "answer": "молодой певицей",
+              "hint": "Agent = instrumental. Both adjective and noun change.",
+              "explanation": "Молодой певицей (instr.) = by a young singer. Adjective + noun both in instrumental."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Здание спроектировано _____. (известный архитектор)",
+              "promptEnglish": "The building was designed by a famous architect.",
+              "options": [
+                "известного архитектора",
+                "известный архитектор",
+                "известным архитектором",
+                "известному архитектору"
+              ],
+              "answer": "известным архитектором",
+              "hint": "Masculine animate agent in instrumental: -ым + -ом.",
+              "explanation": "Известным архитектором (instr.) = by a famous architect. Masc animate instrumental."
+            },
+            {
+              "prompt": "Картина нарисована _____. (талантливый художник)",
+              "promptEnglish": "The painting was created by a talented artist.",
+              "options": [
+                "талантливым художником",
+                "талантливого художника",
+                "талантливый художник",
+                "талантливому художнику"
+              ],
+              "answer": "талантливым художником",
+              "hint": "Agent = instrumental case.",
+              "explanation": "Талантливым художником (instr.) = by a talented artist."
+            },
+            {
+              "prompt": "Статья опубликована _____. (научный журнал)",
+              "promptEnglish": "The article was published by a scientific journal.",
+              "options": [
+                "научный журнал",
+                "научного журнала",
+                "научному журналу",
+                "научным журналом"
+              ],
+              "answer": "научным журналом",
+              "hint": "Even non-human agents take instrumental in passive constructions.",
+              "explanation": "Научным журналом (instr.) = by a scientific journal. Agent instrumental works for organizations too."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these sentences: does the underlined word express the AGENT (who did it) or the INSTRUMENT (tool used)?",
+        "categories": [
+          "Agent (who)",
+          "Instrument (tool/means)"
+        ],
+        "items": [
+          {
+            "word": "Письмо написано Ольгой.",
+            "category": "Agent (who)"
+          },
+          {
+            "word": "Дерево срублено топором.",
+            "category": "Instrument (tool/means)"
+          },
+          {
+            "word": "Картина нарисована художником.",
+            "category": "Agent (who)"
+          },
+          {
+            "word": "Дверь открыта ключом.",
+            "category": "Instrument (tool/means)"
+          },
+          {
+            "word": "Закон принят парламентом.",
+            "category": "Agent (who)"
+          },
+          {
+            "word": "Текст напечатан на принтере.",
+            "category": "Instrument (tool/means)"
+          },
+          {
+            "word": "Торт испечён бабушкой.",
+            "category": "Agent (who)"
+          },
+          {
+            "word": "Гвоздь забит молотком.",
+            "category": "Instrument (tool/means)"
+          },
+          {
+            "word": "Доклад подготовлен студентами.",
+            "category": "Agent (who)"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Роман написан Достоевского.",
+          "error": "Достоевского",
+          "correction": "Достоевским",
+          "hint": "The agent in a passive construction must be in instrumental case, not genitive.",
+          "explanation": "Agent = instrumental: Достоевским, not genitive Достоевского.",
+          "options": [
+            "Достоевским",
+            "Достоевскому",
+            "Достоевский"
+          ]
+        },
+        {
+          "sentence": "Здание построено рабочие.",
+          "error": "рабочие",
+          "correction": "рабочими",
+          "hint": "The agent must be in instrumental case (plural).",
+          "explanation": "Agent = instrumental plural: рабочими, not nominative рабочие.",
+          "options": [
+            "рабочими",
+            "рабочих",
+            "рабочим"
+          ]
+        },
+        {
+          "sentence": "Песня спета известной певицу.",
+          "error": "певицу",
+          "correction": "певицей",
+          "hint": "The agent must be in instrumental, not accusative.",
+          "explanation": "Agent = instrumental: певицей, not accusative певицу. Песня спета известной певицей.",
+          "options": [
+            "певицей",
+            "певица",
+            "певице"
+          ]
+        },
+        {
+          "sentence": "Картина куплена богатому коллекционеру.",
+          "error": "коллекционеру",
+          "correction": "коллекционером",
+          "hint": "The buyer is the agent. Agent = instrumental, not dative.",
+          "explanation": "Коллекционером (instr.) = by a collector. Dative коллекционеру would mean 'for a collector.'",
+          "options": [
+            "коллекционером",
+            "коллекционера",
+            "коллекционер"
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Стихотворение написано известным _____. (поэт)",
+          "Земля освещается _____. (солнце)",
+          "Город основан _____ Петром I. (no word needed - just the case)"
+        ],
+        "choices": [
+          "поэтом",
+          "солнцем",
+          "императором"
+        ],
+        "answers": [
+          "поэтом",
+          "солнцем",
+          "императором"
+        ],
+        "grammarFocus": "Instrumental case for agents in passive constructions",
+        "hints": [
+          "Masculine noun поэт in instrumental = поэтом.",
+          "Neuter noun солнце in instrumental = солнцем.",
+          "Choose the word that describes Peter I's role: he was an emperor."
+        ],
+        "explanations": [
+          "Поэтом (instr.) - agent of writing. Masculine -ом ending.",
+          "Солнцем (instr.) - the source of light. Neuter -ем ending.",
+          "Императором Петром I - 'by Emperor Peter I.' Both nouns in instrumental."
+        ],
+        "options": [
+          [
+            "поэту",
+            "поэта",
+            "поэт",
+            "поэтом"
+          ],
+          [
+            "солнце",
+            "солнцу",
+            "солнца",
+            "солнцем"
+          ],
+          [
+            "императора",
+            "император",
+            "императору",
+            "императором"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-translate-context",
+      "title": "Translate in Context",
+      "titleRussian": "Перевод в контексте",
+      "description": "Translate passive constructions and choose the right form in context",
+      "descriptionRussian": "Переведите пассивные конструкции и выберите правильную форму",
+      "icon": "globe",
+      "translation": [
+        {
+          "english": "The museum was built in 1905.",
+          "answer": "Музей был построен в 1905 году.",
+          "acceptableVariants": [
+            "Музей построен в 1905 году."
+          ],
+          "hint": "Use the short passive participle for a completed result.",
+          "grammarFocus": "Short participle passive (completed result)",
+          "keyWord": "построен",
+          "options": [
+            "построен",
+            "построена",
+            "построено",
+            "построены"
+          ]
+        },
+        {
+          "english": "The letter was written by my grandmother.",
+          "answer": "Письмо написано моей бабушкой.",
+          "acceptableVariants": [
+            "Письмо было написано моей бабушкой."
+          ],
+          "hint": "Completed action + named agent = short participle + instrumental.",
+          "grammarFocus": "Short participle + instrumental agent",
+          "keyWord": "написано",
+          "options": [
+            "написано",
+            "написан",
+            "написана",
+            "написаны"
+          ]
+        },
+        {
+          "english": "These products are sold in every store.",
+          "answer": "Эти продукты продаются в каждом магазине.",
+          "acceptableVariants": [
+            "Эти товары продаются в каждом магазине."
+          ],
+          "hint": "Regular process at stores = -ся passive.",
+          "grammarFocus": "-ся passive for habitual action",
+          "keyWord": "продаются",
+          "options": [
+            "продаются",
+            "проданы",
+            "продаётся",
+            "продают"
+          ]
+        },
+        {
+          "english": "The problem has been solved by the team.",
+          "answer": "Проблема решена командой.",
+          "acceptableVariants": [
+            "Проблема была решена командой."
+          ],
+          "hint": "Completed result + named agent = short participle + instrumental.",
+          "grammarFocus": "Short participle + instrumental agent",
+          "keyWord": "решена",
+          "options": [
+            "решена",
+            "решён",
+            "решено",
+            "решены"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Контракт _____ обеими сторонами. (signed, completed result)",
+              "promptEnglish": "The contract has been signed by both parties.",
+              "options": [
+                "подписывается",
+                "подписался",
+                "подписан",
+                "подпишется"
+              ],
+              "answer": "подписан",
+              "hint": "A completed legal action = short participle.",
+              "explanation": "Подписан (short participle, pf) + обеими сторонами (instr.) = signed by both parties. Done."
+            },
+            {
+              "prompt": "Журнал _____ раз в месяц. (regular publication)",
+              "promptEnglish": "The magazine is published once a month.",
+              "options": [
+                "издаётся",
+                "издан",
+                "издался",
+                "издаст"
+              ],
+              "answer": "издаётся",
+              "hint": "A regular recurring action = -ся passive.",
+              "explanation": "Издаётся (-ся, impf) = is published (regularly). Раз в месяц confirms the habitual nature."
+            },
+            {
+              "prompt": "Все ошибки _____. Текст готов. (result: all fixed)",
+              "promptEnglish": "All errors have been corrected. The text is ready.",
+              "options": [
+                "исправляются",
+                "исправились",
+                "исправляли",
+                "исправлены"
+              ],
+              "answer": "исправлены",
+              "hint": "All errors fixed = completed result = short participle.",
+              "explanation": "Исправлены (short participle, pf, plural) = have been corrected. Result is done, text is ready."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Работы _____ с 9 до 18. (regular daily schedule)",
+              "promptEnglish": "Construction work is carried out from 9 to 18.",
+              "options": [
+                "проведены",
+                "провелись",
+                "проводятся",
+                "проведутся"
+              ],
+              "answer": "проводятся",
+              "hint": "Regular daily schedule = ongoing/habitual = -ся passive.",
+              "explanation": "Проводятся (-ся, impf) = are carried out (regularly, on a schedule)."
+            },
+            {
+              "prompt": "Дом _____ и готов к заселению. (result: construction done)",
+              "promptEnglish": "The house has been built and is ready for occupancy.",
+              "options": [
+                "построен",
+                "строится",
+                "строился",
+                "построится"
+              ],
+              "answer": "построен",
+              "hint": "The house is finished and ready = result state = short participle.",
+              "explanation": "Построен (short participle, pf) = has been built. The result is complete."
+            },
+            {
+              "prompt": "Экзамены _____ два раза в год. (recurring schedule)",
+              "promptEnglish": "Exams are held twice a year.",
+              "options": [
+                "проведены",
+                "проводили",
+                "провелись",
+                "проводятся"
+              ],
+              "answer": "проводятся",
+              "hint": "A recurring scheduled event = habitual -ся passive.",
+              "explanation": "Проводятся (-ся, impf) = are held (regularly, twice a year)."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Этот мост _____ в XIX веке. (built, historical fact)",
+          "Товары _____ по всей стране. (ongoing distribution)",
+          "Все документы _____ и отправлены. (completed preparation)",
+          "Русский язык _____ в школах многих стран. (regular teaching)"
+        ],
+        "choices": [
+          "построен",
+          "доставляются",
+          "подготовлены",
+          "преподаётся"
+        ],
+        "answers": [
+          "построен",
+          "доставляются",
+          "подготовлены",
+          "преподаётся"
+        ],
+        "grammarFocus": "Choosing -ся vs short participle by context",
+        "hints": [
+          "Historical completed event = short participle.",
+          "Ongoing distribution = -ся passive.",
+          "Completed preparation = short participle (plural).",
+          "Regular teaching in schools = -ся passive."
+        ],
+        "explanations": [
+          "Построен (short participle, pf): a historical completed construction.",
+          "Доставляются (-ся, impf): ongoing, regular delivery across the country.",
+          "Подготовлены (short participle, pf, plural): all documents are ready.",
+          "Преподаётся (-ся, impf): Russian is taught regularly in schools."
+        ],
+        "options": [
+          [
+            "построивший",
+            "построен",
+            "построил",
+            "построить"
+          ],
+          [
+            "доставлялась",
+            "доставлялся",
+            "доставляются",
+            "доставляют"
+          ],
+          [
+            "подготовлены",
+            "подготовили",
+            "подготовят",
+            "готовят"
+          ],
+          [
+            "преподавался",
+            "преподаётся",
+            "преподавалась",
+            "преподаёт"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All passive construction types mixed in varied exercises",
+      "descriptionRussian": "Все типы пассивных конструкций в разных упражнениях",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Город _____ великим полководцем. (founded, historical result)",
+              "promptEnglish": "The city was founded by a great military commander.",
+              "options": [
+                "основывается",
+                "основался",
+                "основан",
+                "основывался"
+              ],
+              "answer": "основан",
+              "hint": "A historical completed action + named agent = short participle + instrumental.",
+              "explanation": "Основан (short participle) + великим полководцем (instr.) = was founded by. Historical result."
+            },
+            {
+              "prompt": "Новости _____ каждый час. (regular updates)",
+              "promptEnglish": "News is updated every hour.",
+              "options": [
+                "обновляются",
+                "обновлены",
+                "обновились",
+                "обновятся"
+              ],
+              "answer": "обновляются",
+              "hint": "Regular hourly updates = habitual process = -ся.",
+              "explanation": "Обновляются (-ся, impf) = are updated (every hour, habitually)."
+            },
+            {
+              "prompt": "Письма _____. Почтальон уже ушёл. (result: delivered)",
+              "promptEnglish": "The letters have been delivered. The postman has already left.",
+              "options": [
+                "доставляются",
+                "доставятся",
+                "доставляли",
+                "доставлены"
+              ],
+              "answer": "доставлены",
+              "hint": "The postman has left, so the action is complete = result = short participle.",
+              "explanation": "Доставлены (short participle, pf, plural) = have been delivered. The job is done."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Заявление _____ правительственной _____. (reviewed by a government commission)",
+              "promptEnglish": "The application was reviewed by a government commission.",
+              "options": [
+                "рассмотрено ... комиссией",
+                "рассматривается ... комиссией",
+                "рассмотрено ... комиссии",
+                "рассматривается ... комиссии"
+              ],
+              "answer": "рассмотрено ... комиссией",
+              "hint": "Completed review + agent in instrumental.",
+              "explanation": "Рассмотрено (short participle, completed) + комиссией (instr. agent). If genitive комиссии were used, the agent would be wrong."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Дом строится рабочих.",
+          "error": "рабочих",
+          "correction": "рабочими",
+          "hint": "The agent must be in instrumental, not genitive.",
+          "explanation": "Agent = instrumental: рабочими, not genitive рабочих.",
+          "options": [
+            "рабочими",
+            "рабочие",
+            "рабочим"
+          ]
+        },
+        {
+          "sentence": "Задача решена. Мы ещё работаем над ней.",
+          "error": "решена",
+          "correction": "решается",
+          "hint": "If work is still ongoing, the task is not yet solved. Use -ся for process.",
+          "explanation": "Still working on it = process, not result. Решается (-ся, impf) = is being solved.",
+          "options": [
+            "решается",
+            "решено",
+            "решены"
+          ]
+        },
+        {
+          "sentence": "Договор подписывается обеими сторонами вчера.",
+          "error": "подписывается",
+          "correction": "подписан",
+          "hint": "Вчера = past, completed action. Use short participle, not present -ся.",
+          "explanation": "Вчера (yesterday) + completed action = past result: подписан, not ongoing подписывается.",
+          "options": [
+            "подписан",
+            "подписана",
+            "подписаны"
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Книга прочитана. / Задача решена. / Письмо отправлено.",
+          "question": "What do all three sentences have in common?",
+          "options": [
+            "They describe ongoing processes",
+            "They express completed results (short participles)",
+            "They use reflexive -ся passives",
+            "They name the agent"
+          ],
+          "answer": "They express completed results (short participles)",
+          "explanation": "All three use short passive participles (прочитана, решена, отправлено) to show a completed result state."
+        },
+        {
+          "sentence": "Хлеб продаётся. / Газеты печатаются. / Уроки проводятся.",
+          "question": "What unifies these three sentences?",
+          "options": [
+            "They use short participles",
+            "They name the agent",
+            "They express ongoing habitual processes (-ся passives)",
+            "They describe completed results"
+          ],
+          "answer": "They express ongoing habitual processes (-ся passives)",
+          "explanation": "All three use -ся passives (продаётся, печатаются, проводятся) for regular, habitual processes."
+        },
+        {
+          "sentence": "Роман написан Толстым. / Картина создана художником. / Здание спроектировано архитектором.",
+          "question": "What structural pattern do these share?",
+          "options": [
+            "Subject + -ся verb + adverb",
+            "Subject + short participle + agent in instrumental",
+            "Subject + full participle + agent in genitive",
+            "Subject + active verb + object"
+          ],
+          "answer": "Subject + short participle + agent in instrumental",
+          "explanation": "All follow: Subject + short passive participle + agent in instrumental case (Толстым, художником, архитектором)."
+        }
+      ],
+      "translation": [
+        {
+          "english": "The window has been broken by the children.",
+          "answer": "Окно разбито детьми.",
+          "acceptableVariants": [
+            "Окно было разбито детьми."
+          ],
+          "hint": "Completed result + named agent = short participle + instrumental.",
+          "grammarFocus": "Short participle + instrumental agent",
+          "keyWord": "разбито",
+          "options": [
+            "разбито",
+            "разбит",
+            "разбита",
+            "разбиты"
+          ]
+        },
+        {
+          "english": "Newspapers are printed every morning.",
+          "answer": "Газеты печатаются каждое утро.",
+          "acceptableVariants": [
+            "Каждое утро печатаются газеты."
+          ],
+          "hint": "Regular daily process = -ся passive.",
+          "grammarFocus": "-ся passive for habitual action",
+          "keyWord": "печатаются",
+          "options": [
+            "печатаются",
+            "печатается",
+            "напечатаны",
+            "печатают"
+          ]
+        },
+        {
+          "english": "The report has been prepared and approved.",
+          "answer": "Доклад подготовлен и утверждён.",
+          "acceptableVariants": [
+            "Отчёт подготовлен и утверждён.",
+            "Доклад был подготовлен и утверждён."
+          ],
+          "hint": "Two completed results in sequence = two short participles.",
+          "grammarFocus": "Chained short participles",
+          "keyWord": "подготовлен",
+          "options": [
+            "подготовлен",
+            "подготовлена",
+            "подготовлено",
+            "подготовлены"
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Окно _____. (someone is opening it right now)",
+          "contextEnglish": "The window is being opened. (process happening now)",
+          "options": [
+            "открывается",
+            "открыто"
+          ],
+          "answer": "открывается",
+          "explanation": "Открывается (-ся) = is being opened (the process is happening right now)."
+        },
+        {
+          "context": "Окно _____. (it's already in the open state)",
+          "contextEnglish": "The window is open. (resulting state)",
+          "options": [
+            "открыто",
+            "открывается"
+          ],
+          "answer": "открыто",
+          "explanation": "Открыто (short participle) = is open (resulting state, the action is already done)."
+        },
+        {
+          "context": "Обед _____. (the cook is currently making it)",
+          "contextEnglish": "Lunch is being prepared. (in progress)",
+          "options": [
+            "готовится",
+            "приготовлен"
+          ],
+          "answer": "готовится",
+          "explanation": "Готовится (-ся) = is being prepared (ongoing process, not finished)."
+        },
+        {
+          "context": "Обед _____. Можно садиться за стол. (done, ready to eat)",
+          "contextEnglish": "Lunch is ready. Let's sit down to eat.",
+          "options": [
+            "приготовлен",
+            "готовится"
+          ],
+          "answer": "приготовлен",
+          "explanation": "Приготовлен (short participle) = has been prepared (result state, ready)."
+        }
+      ]
+    }
+  ]
+}

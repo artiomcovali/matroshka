@@ -1,0 +1,337 @@
+{
+  "id": "a1-018-noun-plural",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Noun Plurals",
+  "titleRussian": "Множественное число",
+  "description": "Basic plural formation rules for Russian nouns",
+  "descriptionRussian": "Основные правила образования множественного числа существительных",
+  "imageName": "square.stack.3d.up",
+  "intro": "Russian nouns change their endings to show plural. The plural ending depends on the gender of the noun and whether it follows spelling rules. Learning these patterns will help you talk about more than one of something.",
+  "rules": [
+    "Masculine nouns: consonant → add -ы (стол → столы), -й → change to -и (музей → музеи).",
+    "Feminine nouns: -а → change to -ы (комната → комнаты), -я → change to -и (неделя → недели).",
+    "Neuter nouns: -о → change to -а (окно → окна), -е → change to -я (море → моря).",
+    "Spelling rule: After к, г, х, ч, ш, щ, ж, use -и instead of -ы: рука → руки, книга → книги."
+  ],
+  "examples": [
+    "стол → столы (table → tables)",
+    "книга → книги (book → books)",
+    "окно → окна (window → windows)",
+    "рука → руки (hand → hands), spelling rule"
+  ],
+  "tables": [
+    {
+      "title": "Plural Formation",
+      "headers": [
+        "Singular Ending",
+        "Plural Ending",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "consonant",
+          "cells": [
+            "-ы",
+            "стол → стол|ы"
+          ]
+        },
+        {
+          "label": "-а",
+          "cells": [
+            "-ы",
+            "комнат|а → комнат|ы"
+          ]
+        },
+        {
+          "label": "-я",
+          "cells": [
+            "-и",
+            "недел|я → недел|и"
+          ]
+        },
+        {
+          "label": "-о",
+          "cells": [
+            "-а",
+            "окн|о → окн|а"
+          ]
+        },
+        {
+          "label": "-е",
+          "cells": [
+            "-я",
+            "мор|е → мор|я"
+          ]
+        },
+        {
+          "label": "-ь (fem.)",
+          "cells": [
+            "-и",
+            "ноч|ь → ноч|и"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "What is the plural of «стол» (table)?",
+          "promptEnglish": "What is the plural of 'стол'?",
+          "options": [
+            "стола",
+            "столе",
+            "столи",
+            "столы"
+          ],
+          "answer": "столы",
+          "hint": "Masculine nouns ending in a consonant add -ы",
+          "explanation": "Стол ends in a consonant, so add -ы → столы."
+        },
+        {
+          "prompt": "What is the plural of «книга» (book)?",
+          "promptEnglish": "What is the plural of 'книга'?",
+          "options": [
+            "книга",
+            "книги",
+            "книгы",
+            "книге"
+          ],
+          "answer": "книги",
+          "hint": "After г, use -и not -ы (spelling rule)",
+          "explanation": "Книга becomes книги. After г, we use -и (spelling rule)."
+        },
+        {
+          "prompt": "What is the plural of «окно» (window)?",
+          "promptEnglish": "What is the plural of 'окно'?",
+          "options": [
+            "окны",
+            "окни",
+            "окна",
+            "окне"
+          ],
+          "answer": "окна",
+          "hint": "Neuter nouns change -о to -а",
+          "explanation": "Окно is neuter (-о), so it changes to окна (-а)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "What is the plural of «музей» (museum)?",
+          "promptEnglish": "What is the plural of 'музей'?",
+          "options": [
+            "музеы",
+            "музеи",
+            "музей",
+            "музея"
+          ],
+          "answer": "музеи",
+          "hint": "Masculine nouns ending in -й change to -и",
+          "explanation": "Музей ends in -й, which changes to -и → музеи."
+        },
+        {
+          "prompt": "What is the plural of «неделя» (week)?",
+          "promptEnglish": "What is the plural of 'неделя'?",
+          "options": [
+            "неделы",
+            "неделе",
+            "неделя",
+            "недели"
+          ],
+          "answer": "недели",
+          "hint": "Feminine nouns ending in -я change to -и",
+          "explanation": "Неделя ends in -я, which changes to -и → недели."
+        },
+        {
+          "prompt": "What is the plural of «море» (sea)?",
+          "promptEnglish": "What is the plural of 'море'?",
+          "options": [
+            "море",
+            "мори",
+            "моря",
+            "моры"
+          ],
+          "answer": "моря",
+          "hint": "Neuter nouns ending in -е change to -я",
+          "explanation": "Море is neuter (-е), so it changes to моря (-я)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Change to plural: Это стол.",
+          "promptEnglish": "Change стол to its plural form",
+          "options": [
+            "Это столы.",
+            "Это стол.",
+            "Это стола.",
+            "Это столов."
+          ],
+          "answer": "Это столы.",
+          "hint": "Change стол to its plural form",
+          "explanation": "Masculine nouns ending in a hard consonant take -ы in the plural: стол → столы."
+        },
+        {
+          "prompt": "Change to plural: Это книга.",
+          "promptEnglish": "After г, use -и not -ы",
+          "options": [
+            "Это книги.",
+            "Это книга.",
+            "Это книгы.",
+            "Это книг."
+          ],
+          "answer": "Это книги.",
+          "hint": "After г, use -и not -ы",
+          "explanation": "After г the spelling rule requires -и not -ы: книга → книги."
+        },
+        {
+          "prompt": "Change to plural: Это окно.",
+          "promptEnglish": "Neuter -о becomes -а",
+          "options": [
+            "Это окна.",
+            "Это окно.",
+            "Это окны.",
+            "Это окон."
+          ],
+          "answer": "Это окна.",
+          "hint": "Neuter -о becomes -а",
+          "explanation": "Neuter nouns ending in -о take -а in the plural: окно → окна."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Это _____. (table - plural)"
+    ],
+    "choices": [
+      "столы",
+      "стола",
+      "столе",
+      "столов"
+    ],
+    "answers": [
+      "столы"
+    ],
+    "grammarFocus": "nominative plural formation",
+    "options": [
+      [
+        "столов",
+        "столы",
+        "столам",
+        "столами"
+      ]
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort these into singular and plural forms",
+    "categories": [
+      "Singular",
+      "Plural"
+    ],
+    "items": [
+      {
+        "word": "стол",
+        "category": "Singular"
+      },
+      {
+        "word": "столы",
+        "category": "Plural"
+      },
+      {
+        "word": "книга",
+        "category": "Singular"
+      },
+      {
+        "word": "книги",
+        "category": "Plural"
+      },
+      {
+        "word": "окно",
+        "category": "Singular"
+      },
+      {
+        "word": "окна",
+        "category": "Plural"
+      },
+      {
+        "word": "дом",
+        "category": "Singular"
+      },
+      {
+        "word": "дома",
+        "category": "Plural"
+      },
+      {
+        "word": "слово",
+        "category": "Singular"
+      },
+      {
+        "word": "слова",
+        "category": "Plural"
+      }
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я вижу _____. (I see windows - plural)",
+      "contextEnglish": "I see windows.",
+      "options": [
+        "окна",
+        "окно"
+      ],
+      "answer": "окна",
+      "explanation": "Окна is the plural of окно. Use -а for neuter plural."
+    },
+    {
+      "context": "На столе _____. (Books are on the table - plural)",
+      "contextEnglish": "Books are on the table.",
+      "options": [
+        "книги",
+        "книга"
+      ],
+      "answer": "книги",
+      "explanation": "Книги is the plural of книга. Use -и after г (spelling rule)."
+    },
+    {
+      "context": "Это _____. (tables - plural)",
+      "contextEnglish": "These are tables.",
+      "options": [
+        "столы",
+        "стол"
+      ],
+      "answer": "столы",
+      "explanation": "Столы is the nominative plural of стол. Masculine nouns ending in a consonant add -ы."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "множественное число",
+      "definition": "plural (number)",
+      "example": "Столы — множественное число"
+    },
+    {
+      "term": "единственное число",
+      "definition": "singular (number)",
+      "example": "Стол — единственное число"
+    },
+    {
+      "term": "правило орфографии",
+      "definition": "spelling rule",
+      "example": "После к, г, х пишем -и"
+    },
+    {
+      "term": "изменить",
+      "definition": "to change",
+      "example": "Изменить окончание"
+    }
+  ]
+}

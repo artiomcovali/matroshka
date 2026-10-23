@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-012",
+  "title": "Lost Luggage",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Your luggage didn't arrive - get help from the unhelpful lost baggage desk",
+  "imageName": "suitcase.fill",
+  "initialPrompt": "Багажная служба. Да, что случилось?",
+  "systemPrompt": "You work lost luggage. Initially unhelpful - say 'it happens', 'wait a day'. Can be convinced to file report if customer insists, describes bag, gives flight number. Offer delivery when found. Keep replies short.",
+  "completionCriteria": "User filed lost luggage report with details and got delivery promise.",
+  "responseLimit": 15,
+  "hints": [
+    "Мой багаж не прилетел (My luggage didn't arrive)",
+    "Номер рейса... (Flight number...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "багаж",
+      "definition": "luggage"
+    },
+    {
+      "word": "потерять",
+      "definition": "to lose"
+    },
+    {
+      "word": "чемодан",
+      "definition": "suitcase"
+    },
+    {
+      "word": "заявление",
+      "definition": "report/claim"
+    },
+    {
+      "word": "доставить",
+      "definition": "to deliver"
+    },
+    {
+      "word": "описание",
+      "definition": "description"
+    }
+  ],
+  "objectives": [
+    "Explain your luggage is missing",
+    "Handle dismissive response",
+    "Insist on filing a report",
+    "Describe your luggage",
+    "Get delivery confirmation"
+  ]
+}

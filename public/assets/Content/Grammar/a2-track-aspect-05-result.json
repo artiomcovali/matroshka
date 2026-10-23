@@ -1,0 +1,280 @@
+{
+  "id": "a2-track-aspect-05-result",
+  "level": "A2",
+  "focusArea": "aspect",
+  "title": "Aspect 5: Result and Completion Trigger Perfective",
+  "titleRussian": "Виды глагола 5: Результат и завершение — СВ",
+  "description": "Time markers that signal completion (уже, наконец, за час, к утру) trigger the perfective. Today: identifying these cues and choosing the perfective past.",
+  "descriptionRussian": "Слова и фразы, выражающие завершение (уже, наконец, за час, к утру), требуют совершенного вида.",
+  "imageName": "checkmark.circle",
+  "trackId": "a2-aspect-intro-mastery",
+  "trackTitle": "Aspect Introduction",
+  "trackTitleRussian": "Виды глагола: введение",
+  "trackIndex": 5,
+  "trackTotal": 7,
+  "intro": "The mirror image of lesson 4. Where duration and repetition pull one way, finishing pulls the other: words meaning already, finally, or at last, plus two time phrases that mean the action got done inside a span or by a deadline. Between the two lessons you now have most of the cues that turn up in real sentences.",
+  "rules": [
+    "Completion adverbs (уже, наконец, сразу, быстро) trigger the perfective: the action is finished or happened as a single event.",
+    "'За + accusative time' (за час, за день, за тридцать минут) trigger the perfective: the time after 'за' is how long the action took to be COMPLETED. Compare to bare accusative duration (час, два часа), which triggers the imperfective.",
+    "'К + dative time' (к утру, к понедельнику) trigger the perfective: the action got finished BY that point in time."
+  ],
+  "examples": [
+    "Я уже прочитал книгу. (I already finished the book.) Уже → СВ.",
+    "Маша наконец написала статью. (Masha finally finished the article.) Наконец → СВ.",
+    "Антон сделал работу за час. (Anton finished the work in an hour.) За + acc → СВ.",
+    "Лена выучила урок к утру. (Lena learned the lesson by morning.) К + dat → СВ.",
+    "Они быстро приготовили обед. (They quickly cooked dinner.) Быстро + completion → СВ.",
+    "Я сразу купил книгу. (I bought the book right away.) Сразу → СВ."
+  ],
+  "tables": [
+    {
+      "title": "Perfective Trigger Families",
+      "headers": [
+        "Family",
+        "Examples",
+        "Sample sentence"
+      ],
+      "rows": [
+        {
+          "label": "Completion adverbs",
+          "cells": [
+            "уже, наконец, сразу, быстро",
+            "Я уже прочитал книгу."
+          ]
+        },
+        {
+          "label": "За + acc time",
+          "cells": [
+            "за час, за день, за тридцать минут",
+            "Маша приготовила обед за час."
+          ]
+        },
+        {
+          "label": "К + dat time",
+          "cells": [
+            "к утру, к понедельнику, к концу дня",
+            "Они выучили урок к утру."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "В детстве Маша часто _____ книги.",
+          "promptEnglish": "As a child, Masha often read books.",
+          "options": [
+            "читала",
+            "прочитала",
+            "читает",
+            "прочитает"
+          ],
+          "answer": "читала",
+          "hint": "Recap from Lesson 4: 'часто' is which family of cue?",
+          "explanation": "Recap from Lesson 4: часто is a habit cue, locking the verb into the imperfective. Today's lesson covers the OPPOSITE cue family: completion / result, which forces the perfective."
+        },
+        {
+          "prompt": "Антон уже _____ работу.",
+          "promptEnglish": "Anton has already finished the work.",
+          "options": [
+            "делает",
+            "делал",
+            "сделал",
+            "сделает"
+          ],
+          "answer": "сделал",
+          "hint": "'Уже' marks completion. Subject Антон is masculine.",
+          "explanation": "Уже (already) signals the action is finished. Perfective сделал, masc -л. The pair is делать / сделать (prefix с-)."
+        },
+        {
+          "prompt": "Маша _____ книгу за час.",
+          "promptEnglish": "Masha read the book through in an hour.",
+          "options": [
+            "читала",
+            "читает",
+            "прочитает",
+            "прочитала"
+          ],
+          "answer": "прочитала",
+          "hint": "'За час' is a perfective time-frame cue. Subject Маша is feminine.",
+          "explanation": "'За час' (in an hour) measures the time the action took to be COMPLETED, locking in the perfective. Прочитала, fem -ла. Compare with the bare accusative 'час' (an hour) without 'за', which would be a duration cue and trigger the imperfective."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я наконец _____ статью.",
+          "promptEnglish": "I (m) finally finished the article.",
+          "options": [
+            "пишу",
+            "написал",
+            "напишу",
+            "писал"
+          ],
+          "answer": "написал",
+          "hint": "'Наконец' is a completion cue. Male speaker.",
+          "explanation": "Наконец (finally) marks the action as finished at last. Perfective написал, masc -л. The pair is писать / написать (prefix на-)."
+        },
+        {
+          "prompt": "Они _____ урок к утру.",
+          "promptEnglish": "They learned the lesson by morning.",
+          "options": [
+            "выучили",
+            "учат",
+            "учили",
+            "выучат"
+          ],
+          "answer": "выучили",
+          "hint": "'К утру' is a deadline cue. Plural subject.",
+          "explanation": "'К утру' (by morning) sets a deadline by which the action got completed. Perfective выучили, plural -ли. The pair is учить / выучить (prefix вы-)."
+        },
+        {
+          "prompt": "Лена быстро _____ обед.",
+          "promptEnglish": "Lena quickly cooked dinner.",
+          "options": [
+            "готовит",
+            "готовила",
+            "приготовила",
+            "приготовит"
+          ],
+          "answer": "приготовила",
+          "hint": "'Быстро' (quickly) often pairs with a single completed action. Feminine subject.",
+          "explanation": "Быстро (quickly) here describes the speed of a single completed cooking event. Perfective приготовила, fem -ла. The pair is готовить / приготовить (prefix при-)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Они _____ работу к понедельнику. (They finished the work by Monday.)"
+    ],
+    "choices": [
+      "делают",
+      "делали",
+      "сделают",
+      "сделали"
+    ],
+    "answers": [
+      "сделали"
+    ],
+    "grammarFocus": "'К понедельнику' (by Monday) is a perfective deadline cue. Plural subject takes -ли. Сделали marks completion by the deadline."
+  },
+  "minimalPairs": [
+    {
+      "context": "Я _____ статью за тридцать минут.",
+      "contextEnglish": "I (m) wrote the article in thirty minutes.",
+      "options": [
+        "писал",
+        "написал"
+      ],
+      "answer": "написал",
+      "explanation": "'За тридцать минут' is a 'за + acc time' phrase: it measures how long the action took to COMPLETE. Perfective написал. The bare accusative 'тридцать минут' without за would mark duration and select писал."
+    },
+    {
+      "context": "Маша _____ обед к семи часам.",
+      "contextEnglish": "Masha got dinner ready by seven o'clock.",
+      "options": [
+        "готовила",
+        "приготовила"
+      ],
+      "answer": "приготовила",
+      "explanation": "'К семи часам' (by seven o'clock) is a 'к + dat time' deadline phrase, locking in the perfective. Приготовила marks the completed result. Готовила would describe only the cooking process, with no claim of completion."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Антон уже пил кофе, когда я пришёл.",
+      "translationEnglish": "Anton had already drunk his coffee when I arrived.",
+      "error": "пил",
+      "correction": "выпил",
+      "options": [
+        "выпил",
+        "пьёт",
+        "выпьет"
+      ],
+      "explanation": "Уже plus a second past event ('when I arrived') frames the coffee as finished before that point, which takes the perfective: выпил ('had already drunk'). Imperfective пил would describe the drinking still in progress, contradicting уже."
+    },
+    {
+      "sentence": "Вчера Маша убирала квартиру за час.",
+      "translationEnglish": "Yesterday Masha cleaned the apartment in an hour.",
+      "error": "убирала",
+      "correction": "убрала",
+      "options": [
+        "убрала",
+        "убирает",
+        "уберёт"
+      ],
+      "explanation": "'За час' (in an hour) is a 'за + accusative time' phrase: it measures the time taken to reach completion, which locks in the perfective убрала. Imperfective убирала describes only the process and cannot combine with the completion frame."
+    },
+    {
+      "sentence": "Антон учил все слова к утру и лёг спать.",
+      "translationEnglish": "Anton had learned all the words by morning and went to bed.",
+      "error": "учил",
+      "correction": "выучил",
+      "options": [
+        "выучил",
+        "учит",
+        "выучит"
+      ],
+      "explanation": "'К утру' is a deadline phrase ('by morning'), and a deadline locks in the perfective: выучил marks the words fully learned by that point, matching the next completed event 'лёг спать.' Imperfective учил would leave the learning unfinished."
+    },
+    {
+      "sentence": "Он долго искал ключи и наконец находил их.",
+      "translationEnglish": "He looked for the keys a long time and finally found them.",
+      "error": "находил",
+      "correction": "нашёл",
+      "options": [
+        "нашёл",
+        "находит",
+        "найдёт"
+      ],
+      "explanation": "Наконец (finally) marks the achievement of a result after effort, which takes the perfective: нашёл. Imperfective находил would describe repeatedly or habitually finding ('used to find'), not the single moment of success that 'finally' names."
+    },
+    {
+      "sentence": "Когда зазвонил будильник, она сразу вставала.",
+      "translationEnglish": "When the alarm rang, she immediately got up.",
+      "error": "вставала",
+      "correction": "встала",
+      "options": [
+        "встала",
+        "встаёт",
+        "встанет"
+      ],
+      "explanation": "Сразу (right away) points to a single, instant completed reaction, which takes the perfective: встала. Imperfective вставала would describe a repeated or drawn-out getting-up ('used to get up'), not the one-time immediate response to the alarm."
+    },
+    {
+      "sentence": "Маша открывала окно, и в комнате стало свежо.",
+      "translationEnglish": "Masha opened the window, and the room became fresh.",
+      "error": "открывала",
+      "correction": "открыла",
+      "options": [
+        "открыла",
+        "открывает",
+        "откроет"
+      ],
+      "explanation": "A completed action that produces a result takes the perfective: открыла marks the window as actually opened, which is what makes the room fresh. Imperfective открывала describes only the process ('was opening'), without guaranteeing the window got open, so it clashes with the result clause."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "уже",
+      "definition": "already (completion adverb; locks the verb into the perfective)",
+      "example": "Я уже сделал работу."
+    },
+    {
+      "term": "наконец",
+      "definition": "finally, at last (completion adverb; locks the verb into the perfective)",
+      "example": "Маша наконец прочитала книгу."
+    },
+    {
+      "term": "за",
+      "definition": "in (a time; with accusative; measures the time it took to complete the action; locks in the perfective)",
+      "example": "Они сделали работу за час."
+    }
+  ]
+}

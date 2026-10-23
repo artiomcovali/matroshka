@@ -1,0 +1,354 @@
+{
+  "id": "a2-track-instrumental-05-transport",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Instrumental 5: Means of Transport",
+  "titleRussian": "Творительный 5: Средства передвижения",
+  "description": "Russian expresses 'by bus / by car' two ways: 'на + prepositional' (everyday speech) and the bare instrumental (more formal). Today drills the conversational form with the bare instrumental as the formal alternative.",
+  "descriptionRussian": "Средство передвижения в русском языке выражается двумя способами: 'на + предложный' (разговорный вариант) и творительный без предлога (более формальный).",
+  "imageName": "bus.fill",
+  "trackId": "a2-instrumental-mastery",
+  "trackTitle": "Instrumental Mastery",
+  "trackTitleRussian": "Творительный падеж",
+  "trackIndex": 5,
+  "trackTotal": 9,
+  "intro": "An odd lesson for this book, because the form Russians actually say in conversation does not use the instrumental at all. It uses a preposition and a different case. The bare instrumental version exists, is correct, and sounds formal or written. Both are worth recognizing, but if you take only one away, take the conversational one.",
+  "rules": [
+    "Conversational default: 'на + prepositional' for means of transport. На автобусе (by bus), на машине (by car), на поезде (by train). This is what you'll hear in everyday speech.",
+    "Formal alternative: bare instrumental, no preposition. Автобусом, машиной, поездом. More common in writing and in formal speech. Both forms are correct; the conversational на + prep is the default.",
+    "Prepositional endings (after 'на' for transport): masc + -е (автобусе, поезде), fem -а → -е (машине), soft -й → -е (трамвае), neuter -о → -е.",
+    "Indeclinable borrowings (такси, метро) do NOT decline: only 'на такси / на метро' works. The bare-instrumental construction does not apply here."
+  ],
+  "examples": [
+    "Я еду на автобусе. (I'm going by bus.) Conversational на + prep.",
+    "Маша едет на поезде. (Masha is going by train.) на + prep.",
+    "Антон летит на самолёте. (Anton is flying by plane.) на + prep.",
+    "Лена едет на машине. (Lena is going by car.) на + prep.",
+    "Соня едет на трамвае. (Sonya is going by tram.) на + prep, soft -й → -е.",
+    "Я еду автобусом. (I'm going by bus.) Bare instrumental, more formal, same meaning."
+  ],
+  "tables": [
+    {
+      "title": "Transport: на + Prepositional (conversational) and Bare Instrumental (formal)",
+      "headers": [
+        "Что? (Nominative)",
+        "На чём? (на + prep, default)",
+        "Чем? (instrumental, formal)"
+      ],
+      "rows": [
+        {
+          "label": "автобус",
+          "cells": [
+            "на автобусе",
+            "автобусом"
+          ]
+        },
+        {
+          "label": "поезд",
+          "cells": [
+            "на поезде",
+            "поездом"
+          ]
+        },
+        {
+          "label": "самолёт",
+          "cells": [
+            "на самолёте",
+            "самолётом"
+          ]
+        },
+        {
+          "label": "трамвай",
+          "cells": [
+            "на трамвае",
+            "трамваем"
+          ]
+        },
+        {
+          "label": "машина",
+          "cells": [
+            "на машине",
+            "машиной"
+          ]
+        },
+        {
+          "label": "такси / метро",
+          "cells": [
+            "на такси / на метро",
+            "Indeclinable: no instrumental form"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Антон работает _____.",
+          "promptEnglish": "Anton works as an engineer.",
+          "options": [
+            "инженером",
+            "инженера",
+            "инженеру",
+            "инженере"
+          ],
+          "answer": "инженером",
+          "hint": "Recall L4: работать + which case for the profession?",
+          "explanation": "Warm-up from Lesson 4. Работать + profession takes the instrumental: инженер → инженером. Today we move to transport, where conversational Russian uses 'на + prepositional' as the default, with bare instrumental as a formal alternative."
+        },
+        {
+          "prompt": "Я еду на _____.",
+          "promptEnglish": "I'm going by bus.",
+          "options": [
+            "автобуса",
+            "автобусом",
+            "автобусу",
+            "автобусе"
+          ],
+          "answer": "автобусе",
+          "hint": "After 'на' (location-style preposition), the noun is in the prepositional case. Masculine consonant takes which ending?",
+          "explanation": "The conversational way to say 'by bus' is 'на + prepositional': на автобусе. Masc consonant + -е → автобусе. The form автобусом (bare instrumental) is also correct but slightly more formal."
+        },
+        {
+          "prompt": "Маша едет на _____.",
+          "promptEnglish": "Masha is going by train.",
+          "options": [
+            "поезда",
+            "поездом",
+            "поезде",
+            "поезду"
+          ],
+          "answer": "поезде",
+          "hint": "Same construction as Q1.2. На + prepositional. Поезд is masculine consonant.",
+          "explanation": "Поезд + -е → на поезде. The conversational на + prepositional pattern works the same way for any hard masculine transport noun: автобус, поезд, самолёт all behave alike."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Антон летит на _____.",
+          "promptEnglish": "Anton is flying by plane.",
+          "options": [
+            "самолёта",
+            "самолётом",
+            "самолёте",
+            "самолёту"
+          ],
+          "answer": "самолёте",
+          "hint": "Лететь pairs with 'на + prepositional' just like ехать does.",
+          "explanation": "Самолёт + -е → на самолёте. The verb лететь (to fly) pairs with на + prep in the same way ехать pairs with на автобусе / на поезде. The aircraft goes in the prepositional case."
+        },
+        {
+          "prompt": "Лена едет на _____.",
+          "promptEnglish": "Lena is going by car.",
+          "options": [
+            "машины",
+            "машиной",
+            "машине",
+            "машину"
+          ],
+          "answer": "машине",
+          "hint": "Машина is feminine -а. After 'на', what's the prepositional ending?",
+          "explanation": "Машина → на машине. Feminine -а → -е in the prepositional. The bare-instrumental machine form (машиной) is also correct but slightly more formal; in everyday speech 'на машине' is what you'll hear."
+        },
+        {
+          "prompt": "Соня едет на _____.",
+          "promptEnglish": "Sonya is going by tram.",
+          "options": [
+            "трамвае",
+            "трамвая",
+            "трамваю",
+            "трамваем"
+          ],
+          "answer": "трамвае",
+          "hint": "Трамвай ends in soft -й. What's the prepositional ending after 'на'?",
+          "explanation": "Трамвай → на трамвае. Soft -й also takes -е in the prepositional. The pattern parallels чай → о чае (about tea) from the A1 Prepositional track."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Мы едем на _____.",
+          "promptEnglish": "We are going by bus.",
+          "options": [
+            "автобус",
+            "автобусе",
+            "автобусом",
+            "автобусу"
+          ],
+          "answer": "автобусе",
+          "hint": "После на for transport: which case?",
+          "explanation": "The everyday transport frame is на + prepositional: на автобусе. Bare instrumental автобусом is the formal variant WITHOUT на; mixing them (на автобусом) is wrong."
+        },
+        {
+          "prompt": "Маша летит на _____.",
+          "promptEnglish": "Masha is flying by plane.",
+          "options": [
+            "самолёте",
+            "самолёт",
+            "самолётом",
+            "самолёту"
+          ],
+          "answer": "самолёте",
+          "hint": "Лететь + на + which form?",
+          "explanation": "На + prepositional: на самолёте. The bare instrumental самолётом is correct only without на."
+        },
+        {
+          "prompt": "Антон едет на _____.",
+          "promptEnglish": "Anton is going by tram.",
+          "options": [
+            "трамвай",
+            "трамваем",
+            "трамвае",
+            "трамваю"
+          ],
+          "answer": "трамвае",
+          "hint": "Трамвай ends in soft -й. What does its prepositional look like?",
+          "explanation": "Soft -й nouns take -е in the prepositional: на трамвае."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Летом я еду на _____.",
+          "promptEnglish": "In summer I ride my bicycle.",
+          "options": [
+            "велосипеде",
+            "велосипед",
+            "велосипедом",
+            "велосипеду"
+          ],
+          "answer": "велосипеде",
+          "hint": "The conversational transport frame is на + which case?",
+          "explanation": "The everyday transport frame is на + prepositional: на велосипеде. The bare instrumental велосипедом is the formal variant WITHOUT на; mixing them (на велосипедом) is wrong."
+        },
+        {
+          "prompt": "Маша едет на _____ в центр.",
+          "promptEnglish": "Masha is taking the trolleybus downtown.",
+          "options": [
+            "троллейбусе",
+            "троллейбус",
+            "троллейбусом",
+            "троллейбусу"
+          ],
+          "answer": "троллейбусе",
+          "hint": "Same frame: на + prepositional.",
+          "explanation": "На + prepositional: на троллейбусе. The bare instrumental троллейбусом is correct only without на."
+        },
+        {
+          "prompt": "Мы плывём на _____.",
+          "promptEnglish": "We are sailing in a boat.",
+          "options": [
+            "лодке",
+            "лодка",
+            "лодкой",
+            "лодку"
+          ],
+          "answer": "лодке",
+          "hint": "Лодка is feminine -а. Its prepositional ending is?",
+          "explanation": "Feminine -а nouns take -е in the prepositional: на лодке. The на + prepositional frame covers boats too."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша едет на _____. (Masha is going by bicycle.)"
+    ],
+    "choices": [
+      "велосипед",
+      "велосипеде",
+      "велосипедом",
+      "велосипеду"
+    ],
+    "answers": [
+      "велосипеде"
+    ],
+    "grammarFocus": "Велосипед is hard masculine. After 'на' (transport), the prepositional ending is -е → на велосипеде. The bare-instrumental form велосипедом is also valid but more formal."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Каждое утро я езжу на работу на автобусом.",
+      "translationEnglish": "Every morning I go to work by bus.",
+      "error": "на автобусом",
+      "correction": "на автобусе",
+      "options": [
+        "на автобусе",
+        "на автобуса",
+        "на автобус"
+      ],
+      "explanation": "For transport, 'на' takes the PREPOSITIONAL case: на автобусе. The bare instrumental автобусом is also correct on its own (the formal alternative), but you cannot combine the two: 'на автобусом' mixes the preposition на with the instrumental ending, which is ungrammatical. Use either на автобусе (conversational) or автобусом (formal), never both."
+    },
+    {
+      "sentence": "Соня каждый день ездит на трамвай.",
+      "translationEnglish": "Sonya rides the tram every day.",
+      "error": "на трамвай",
+      "correction": "на трамвае",
+      "options": [
+        "на трамвае",
+        "на трамвая",
+        "на трамваем"
+      ],
+      "explanation": "For transport, на takes the prepositional case, and soft -й nouns take -е: на трамвае. На трамвай is the accusative (which after на means motion onto something, not the means of travel)."
+    },
+    {
+      "sentence": "Мы доехали до центра на метре.",
+      "translationEnglish": "We got to the center by metro.",
+      "error": "на метре",
+      "correction": "на метро",
+      "options": [
+        "на метро",
+        "на метром",
+        "на метра"
+      ],
+      "explanation": "Метро is an indeclinable borrowing: it keeps the same form in every case, so 'by metro' is на метро. На метре wrongly declines it as if it were a regular neuter -о noun (like окно → окне), but метро never changes. Indeclinable nouns (метро, такси, кафе) take only the unchanged form: на метро."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я еду на _____.",
+      "contextEnglish": "I'm going by bus.",
+      "options": [
+        "автобус",
+        "автобусе"
+      ],
+      "answer": "автобусе",
+      "explanation": "After 'на' the noun goes in the prepositional case: автобусе. The nominative автобус would only mark a subject ('Автобус здесь.' / 'The bus is here.'), not the means of travel."
+    },
+    {
+      "context": "Лена едет на _____.",
+      "contextEnglish": "Lena is going by car.",
+      "options": [
+        "машина",
+        "машине"
+      ],
+      "answer": "машине",
+      "explanation": "Same pattern: на + prepositional → машине. The nominative машина would mark a subject ('Машина новая.' / 'The car is new.'), not the means of travel."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "ехать",
+      "definition": "to go (by ground transport). Pairs with на + prepositional: ехать на автобусе / на поезде / на машине. Bare instrumental (автобусом, поездом, машиной) is the formal alternative.",
+      "example": "Маша едет на поезде."
+    },
+    {
+      "term": "лететь",
+      "definition": "to fly. Pairs with на + prepositional: лететь на самолёте. Bare-instrumental самолётом is the formal alternative.",
+      "example": "Антон летит на самолёте."
+    },
+    {
+      "term": "несклоняемые слова",
+      "definition": "indeclinable nouns (foreign borrowings like такси, метро that keep the same form in every case; only 'на такси / на метро' is used)",
+      "example": "Слова 'такси' и 'метро' — несклоняемые: формы творительного падежа у них нет, только 'на такси', 'на метро'."
+    }
+  ]
+}

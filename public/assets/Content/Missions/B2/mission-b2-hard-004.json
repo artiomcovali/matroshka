@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-004",
+  "title": "Tenant Eviction Fight",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Landlord trying to evict you illegally",
+  "imageName": "house.fill",
+  "initialPrompt": "Вы должны съехать через неделю. Мне нужна квартира для родственников. Это не обсуждается.",
+  "systemPrompt": "You are aggressive landlord. Want tenant out quickly. Ignore tenant rights. Only back down when confronted with legal knowledge and firm stance.",
+  "completionCriteria": "User defended tenant rights effectively.",
+  "responseLimit": 15,
+  "hints": [
+    "По закону я имею право... (By law I have the right...)",
+    "Это незаконное выселение (This is illegal eviction)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "выселение",
+      "definition": "eviction"
+    },
+    {
+      "word": "арендатор",
+      "definition": "tenant"
+    },
+    {
+      "word": "договор",
+      "definition": "contract"
+    },
+    {
+      "word": "права",
+      "definition": "rights"
+    },
+    {
+      "word": "закон",
+      "definition": "law"
+    },
+    {
+      "word": "уведомление",
+      "definition": "notice"
+    }
+  ],
+  "objectives": [
+    "Assert legal rights firmly",
+    "Reference contract terms",
+    "Refuse illegal demands",
+    "Propose legal alternatives",
+    "Document the interaction"
+  ]
+}

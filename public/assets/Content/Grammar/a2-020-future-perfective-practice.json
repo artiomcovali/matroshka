@@ -1,0 +1,818 @@
+{
+  "lessonId": "a2-020-future-perfective",
+  "sets": [
+    {
+      "id": "round-1-conjugation",
+      "title": "Perfective Future Conjugation",
+      "titleRussian": "Спряжение совершенного будущего",
+      "description": "Conjugate perfective verbs in future tense (same endings as present)",
+      "descriptionRussian": "Спряжение глаголов совершенного вида в будущем времени",
+      "icon": "checkmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я _____ эту работу завтра. (I will finish this work tomorrow.)",
+              "promptEnglish": "I will finish this work tomorrow.",
+              "options": [
+                "сделаю",
+                "сделаешь",
+                "сделает",
+                "сделают"
+              ],
+              "answer": "сделаю",
+              "hint": "Я = first person singular: -ю.",
+              "explanation": "Я сделаю (perfective future, 1st person)."
+            },
+            {
+              "prompt": "Она _____ тебе вечером. (She will call you in the evening.)",
+              "promptEnglish": "She will call you in the evening.",
+              "options": [
+                "позвоню",
+                "позвонит",
+                "позвонишь",
+                "позвонят"
+              ],
+              "answer": "позвонит",
+              "hint": "Она = third person singular: -ит.",
+              "explanation": "Она позвонит."
+            },
+            {
+              "prompt": "Мы _____ всё к пятнице. (We will finish everything by Friday.)",
+              "promptEnglish": "We will finish everything by Friday.",
+              "options": [
+                "закончим",
+                "закончу",
+                "закончишь",
+                "закончат"
+              ],
+              "answer": "закончим",
+              "hint": "Мы = first person plural: -им.",
+              "explanation": "Мы закончим."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Ты _____ это письмо сегодня? (Will you write this letter today?)",
+              "promptEnglish": "Will you write this letter today?",
+              "options": [
+                "напишу",
+                "напишешь",
+                "напишет",
+                "напишут"
+              ],
+              "answer": "напишешь",
+              "hint": "Ты = second person singular: -ешь.",
+              "explanation": "Ты напишешь."
+            },
+            {
+              "prompt": "Они _____ нас на вокзале. (They will meet us at the station.)",
+              "promptEnglish": "They will meet us at the station.",
+              "options": [
+                "встретим",
+                "встретит",
+                "встретят",
+                "встречу"
+              ],
+              "answer": "встретят",
+              "hint": "Они = third person plural: -ят.",
+              "explanation": "Они встретят."
+            },
+            {
+              "prompt": "Вы _____ это задание? (Will you complete this task?)",
+              "promptEnglish": "Will you complete this task?",
+              "options": [
+                "выполню",
+                "выполнит",
+                "выполните",
+                "выполнят"
+              ],
+              "answer": "выполните",
+              "hint": "Вы = second person plural/formal: -ите.",
+              "explanation": "Вы выполните."
+            }
+          ]
+        }
+      ],
+      "conjugationTable": {
+        "verb": "прочитать (to read and finish)",
+        "tense": "future perfective",
+        "paradigm": [
+          "прочитаю",
+          "прочитаешь",
+          "прочитает",
+          "прочитаем",
+          "прочитаете",
+          "прочитают"
+        ],
+        "blanks": [
+          1,
+          3,
+          5
+        ],
+        "hints": [
+          "2nd sg (ты)",
+          "1st pl (мы)",
+          "3rd pl (они)"
+        ],
+        "explanations": [
+          "Ты прочитаешь.",
+          "Мы прочитаем.",
+          "Они прочитают."
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Я _____ тебе всё. (I will tell you everything.)",
+          "Он _____ новые слова к экзамену. (He will learn the new words by the exam.)",
+          "Мы _____ обед через час. (We will cook lunch in an hour.)"
+        ],
+        "choices": [
+          "расскажу",
+          "выучит",
+          "приготовим",
+          "расскажет",
+          "выучу"
+        ],
+        "answers": [
+          "расскажу",
+          "выучит",
+          "приготовим"
+        ],
+        "grammarFocus": "Perfective future conjugation: match verb form to subject",
+        "hints": [
+          "Я = 1st person singular of рассказать.",
+          "Он = 3rd person singular of выучить.",
+          "Мы = 1st person plural of приготовить."
+        ],
+        "explanations": [
+          "Я расскажу (рассказать, 1st sg).",
+          "Он выучит (выучить, 3rd sg).",
+          "Мы приготовим (приготовить, 1st pl)."
+        ],
+        "options": [
+          [
+            "расскажешь",
+            "расскажете",
+            "расскажет",
+            "расскажу"
+          ],
+          [
+            "выучишь",
+            "выучу",
+            "выучим",
+            "выучит"
+          ],
+          [
+            "приготовишь",
+            "приготовят",
+            "приготовим",
+            "приготовите"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-aspect-choice",
+      "title": "Perfective vs Imperfective Future",
+      "titleRussian": "Совершенное или несовершенное будущее",
+      "description": "Choose the right aspect based on context: result vs process",
+      "descriptionRussian": "Выбор вида по контексту: результат или процесс",
+      "icon": "arrow.triangle.branch",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я _____ эту книгу к воскресенью. (I will read this book by Sunday.)",
+              "promptEnglish": "I will read (finish) this book by Sunday.",
+              "options": [
+                "прочитаю",
+                "буду читать",
+                "читаю",
+                "читал"
+              ],
+              "answer": "прочитаю",
+              "hint": "К воскресенью (by Sunday) = completed result.",
+              "explanation": "Completion by deadline: perfective. Прочитаю."
+            },
+            {
+              "prompt": "Он обязательно _____ тебе. (He will definitely help you.)",
+              "promptEnglish": "He will definitely help you.",
+              "options": [
+                "будет помогать",
+                "помогает",
+                "поможет",
+                "помогал"
+              ],
+              "answer": "поможет",
+              "hint": "Обязательно (definitely) = promise = perfective.",
+              "explanation": "Promise/certainty: perfective. Поможет."
+            },
+            {
+              "prompt": "Мы _____ в парке весь день. (We will be walking in the park all day.)",
+              "promptEnglish": "We will be walking in the park all day.",
+              "options": [
+                "погуляем",
+                "будем гулять",
+                "гуляем",
+                "гуляли"
+              ],
+              "answer": "будем гулять",
+              "hint": "Весь день (all day) = duration = imperfective.",
+              "explanation": "Duration: imperfective. Будем гулять."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я скоро _____ ужин. (I will cook dinner soon.)",
+              "promptEnglish": "I will cook dinner soon. (complete it)",
+              "options": [
+                "буду готовить",
+                "приготовлю",
+                "готовлю",
+                "готовил"
+              ],
+              "answer": "приготовлю",
+              "hint": "Скоро (soon) + single completed action = perfective.",
+              "explanation": "Скоро + completed result: perfective. Приготовлю."
+            },
+            {
+              "prompt": "Мы _____ долго обсуждать этот вопрос. (We will discuss this question for a long time.)",
+              "promptEnglish": "We will discuss this question for a long time.",
+              "options": [
+                "обсудим",
+                "будем обсуждать",
+                "обсуждаем",
+                "обсуждали"
+              ],
+              "answer": "будем обсуждать",
+              "hint": "Долго = duration = imperfective.",
+              "explanation": "Duration: imperfective. Будем обсуждать."
+            },
+            {
+              "prompt": "Ты _____ мне, когда приедешь? (Will you write to me when you arrive?)",
+              "promptEnglish": "Will you write to me when you arrive? (one message)",
+              "options": [
+                "будешь писать",
+                "напишешь",
+                "пишешь",
+                "писал"
+              ],
+              "answer": "напишешь",
+              "hint": "One message = single completed action = perfective.",
+              "explanation": "Single action: perfective. Напишешь."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я _____ письмо (весь вечер). (I will be writing a letter all evening.)",
+          "contextEnglish": "Process: writing all evening.",
+          "options": [
+            "буду писать",
+            "напишу"
+          ],
+          "answer": "буду писать",
+          "explanation": "Duration (весь вечер) = imperfective: буду писать."
+        },
+        {
+          "context": "Я _____ письмо (и отправлю его). (I will write a letter and send it.)",
+          "contextEnglish": "Result: finish writing then send.",
+          "options": [
+            "напишу",
+            "буду писать"
+          ],
+          "answer": "напишу",
+          "explanation": "Completion + next action = perfective: напишу."
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort: perfective future (result) or imperfective future (process)?",
+        "categories": [
+          "Perfective (result/completion)",
+          "Imperfective (process/duration)"
+        ],
+        "items": [
+          {
+            "word": "Я прочитаю книгу.",
+            "category": "Perfective (result/completion)"
+          },
+          {
+            "word": "Я буду читать весь день.",
+            "category": "Imperfective (process/duration)"
+          },
+          {
+            "word": "Она позвонит завтра.",
+            "category": "Perfective (result/completion)"
+          },
+          {
+            "word": "Мы будем ждать долго.",
+            "category": "Imperfective (process/duration)"
+          },
+          {
+            "word": "Он напишет письмо.",
+            "category": "Perfective (result/completion)"
+          },
+          {
+            "word": "Они будут работать каждый день.",
+            "category": "Imperfective (process/duration)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-3-common-pairs",
+      "title": "Common Aspect Pairs",
+      "titleRussian": "Частые видовые пары",
+      "description": "Practice the most common imperfective/perfective pairs in future",
+      "descriptionRussian": "Самые частые видовые пары в будущем времени",
+      "icon": "arrow.2.squarepath",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я _____ эту задачу. (I will solve this problem.)",
+              "promptEnglish": "I will solve this problem.",
+              "options": [
+                "решу",
+                "буду решать",
+                "решаю",
+                "решал"
+              ],
+              "answer": "решу",
+              "hint": "Solving = completing = perfective. Решать → решить.",
+              "explanation": "Perfective of решать: решить → я решу."
+            },
+            {
+              "prompt": "Мы _____ квартиру в субботу. (We will clean the apartment on Saturday.)",
+              "promptEnglish": "We will clean the apartment on Saturday.",
+              "options": [
+                "будем убирать",
+                "уберём",
+                "убираем",
+                "убирали"
+              ],
+              "answer": "уберём",
+              "hint": "Completing the cleaning = perfective. Убирать → убрать.",
+              "explanation": "Perfective: убрать → мы уберём."
+            },
+            {
+              "prompt": "Она _____ новый рецепт. (She will try a new recipe.)",
+              "promptEnglish": "She will try a new recipe.",
+              "options": [
+                "попробует",
+                "будет пробовать",
+                "пробует",
+                "пробовала"
+              ],
+              "answer": "попробует",
+              "hint": "Single attempt = perfective. Пробовать → попробовать.",
+              "explanation": "Perfective: попробовать → она попробует."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Ты _____ этот вопрос? (Will you ask this question?)",
+              "promptEnglish": "Will you ask this question?",
+              "options": [
+                "будешь спрашивать",
+                "спросишь",
+                "спрашиваешь",
+                "спрашивал"
+              ],
+              "answer": "спросишь",
+              "hint": "One question = perfective. Спрашивать → спросить.",
+              "explanation": "Perfective: спросить → ты спросишь."
+            },
+            {
+              "prompt": "Мы _____ подарок для мамы. (We will buy a gift for mom.)",
+              "promptEnglish": "We will buy a gift for mom.",
+              "options": [
+                "купим",
+                "будем покупать",
+                "покупаем",
+                "покупали"
+              ],
+              "answer": "купим",
+              "hint": "Completed purchase = perfective. Покупать → купить.",
+              "explanation": "Perfective: купить → мы купим."
+            },
+            {
+              "prompt": "Он _____ дверь. (He will open the door.)",
+              "promptEnglish": "He will open the door.",
+              "options": [
+                "будет открывать",
+                "откроет",
+                "открывает",
+                "открывал"
+              ],
+              "answer": "откроет",
+              "hint": "Single completed action = perfective. Открывать → открыть.",
+              "explanation": "Perfective: открыть → он откроет."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "sourceText": "I will finish the homework.",
+          "targetText": "Я сделаю домашнее задание.",
+          "hint": "Finish = completed = perfective of делать: сделать → сделаю.",
+          "explanation": "Perfective: сделать → я сделаю.",
+          "keyWord": "сделаю",
+          "options": [
+            "сделаю",
+            "сделаешь",
+            "сделал",
+            "делаю"
+          ]
+        },
+        {
+          "sourceText": "She will understand later.",
+          "targetText": "Она поймёт позже.",
+          "hint": "Understanding (realization) = perfective of понимать: понять → поймёт.",
+          "explanation": "Perfective: понять → она поймёт.",
+          "keyWord": "поймёт",
+          "options": [
+            "поймёт",
+            "поймёшь",
+            "понял",
+            "понимает"
+          ]
+        },
+        {
+          "sourceText": "They will find the answer.",
+          "targetText": "Они найдут ответ.",
+          "hint": "Finding = result = perfective of искать: найти → найдут.",
+          "explanation": "Perfective: найти → они найдут.",
+          "keyWord": "найдут",
+          "options": [
+            "найдут",
+            "найдёт",
+            "нашли",
+            "ищут"
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Я буду прочитать эту книгу.",
+          "error": "буду",
+          "correction": "прочитаю",
+          "explanation": "Never use буду + perfective. Perfective future = conjugate directly: прочитаю.",
+          "options": [
+            "прочитаю",
+            "прочитаешь",
+            "прочитал",
+            "прочитать"
+          ]
+        },
+        {
+          "sentence": "Она будет написать письмо.",
+          "error": "будет",
+          "correction": "напишет",
+          "explanation": "No буду with perfective. Perfective future: напишет.",
+          "options": [
+            "напишет",
+            "напишешь",
+            "написал",
+            "написать"
+          ]
+        },
+        {
+          "sentence": "Мы будем сделать это.",
+          "error": "будем",
+          "correction": "сделаем",
+          "explanation": "Never буду + perfective. Conjugate directly: сделаем.",
+          "options": [
+            "сделаем",
+            "сделаете",
+            "сделали",
+            "сделать"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-signal-words",
+      "title": "Signal Words",
+      "titleRussian": "Слова-подсказки",
+      "description": "Use context clues to pick perfective or imperfective future",
+      "descriptionRussian": "Подсказки контекста для выбора совершенного или несовершенного будущего",
+      "icon": "lightbulb",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я обязательно _____ тебе. (I will definitely write to you.)",
+              "promptEnglish": "I will definitely write to you.",
+              "options": [
+                "напишу",
+                "буду писать",
+                "пишу",
+                "писал"
+              ],
+              "answer": "напишу",
+              "hint": "Обязательно (definitely) = promise = perfective.",
+              "explanation": "Promise: perfective. Напишу."
+            },
+            {
+              "prompt": "Он _____ работать каждый день. (He will work every day.)",
+              "promptEnglish": "He will work every day.",
+              "options": [
+                "будет работать",
+                "поработает",
+                "работает",
+                "работал"
+              ],
+              "answer": "будет работать",
+              "hint": "Каждый день (every day) = repetition = imperfective.",
+              "explanation": "Repetition: imperfective. Будет работать."
+            },
+            {
+              "prompt": "Она скоро _____. (She will arrive soon.)",
+              "promptEnglish": "She will arrive soon.",
+              "options": [
+                "приедет",
+                "будет приезжать",
+                "приезжает",
+                "приезжала"
+              ],
+              "answer": "приедет",
+              "hint": "Скоро (soon) + single event = perfective.",
+              "explanation": "Soon + single arrival: perfective. Приедет."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Мы _____ уроки два часа. (We will be doing homework for two hours.)",
+              "promptEnglish": "We will be doing homework for two hours.",
+              "options": [
+                "сделаем",
+                "будем делать",
+                "делаем",
+                "делали"
+              ],
+              "answer": "будем делать",
+              "hint": "Два часа (two hours) = duration = imperfective.",
+              "explanation": "Duration: imperfective. Будем делать."
+            },
+            {
+              "prompt": "Ты _____ мне, когда закончишь? (Will you call me when you finish?)",
+              "promptEnglish": "Will you call me when you finish?",
+              "options": [
+                "позвонишь",
+                "будешь звонить",
+                "звонишь",
+                "звонил"
+              ],
+              "answer": "позвонишь",
+              "hint": "One call after finishing = perfective.",
+              "explanation": "Single completed action: perfective. Позвонишь."
+            },
+            {
+              "prompt": "Я _____ тебя весь вечер. (I will be waiting for you all evening.)",
+              "promptEnglish": "I will be waiting for you all evening.",
+              "options": [
+                "подожду",
+                "буду ждать",
+                "жду",
+                "ждал"
+              ],
+              "answer": "буду ждать",
+              "hint": "Весь вечер = duration = imperfective.",
+              "explanation": "Duration: imperfective. Буду ждать."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "обязательно, скоро, к пятнице, наконец",
+          "question": "These signal words point to which future tense?",
+          "options": [
+            "Perfective (completed result)",
+            "Imperfective (ongoing process)",
+            "Either aspect works"
+          ],
+          "answer": "Perfective (completed result)",
+          "explanation": "These words imply completion/definite result: perfective future."
+        },
+        {
+          "sentence": "долго, каждый день, весь вечер, обычно",
+          "question": "These signal words point to which future tense?",
+          "options": [
+            "Imperfective (duration/repetition)",
+            "Perfective (completed result)",
+            "Either aspect works"
+          ],
+          "answer": "Imperfective (duration/repetition)",
+          "explanation": "Duration and repetition markers: imperfective future."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Я обязательно _____ тебе завтра. (I will definitely call you tomorrow.)",
+          "Мы _____ работать до поздна. (We will be working until late.)",
+          "Он _____ весь торт! (He will eat the whole cake!)"
+        ],
+        "choices": [
+          "позвоню",
+          "будем",
+          "съест",
+          "буду",
+          "поест"
+        ],
+        "answers": [
+          "позвоню",
+          "будем",
+          "съест"
+        ],
+        "grammarFocus": "Signal words: обязательно/скоро = perfective; долго/каждый день = imperfective",
+        "hints": [
+          "Обязательно = definite promise = perfective.",
+          "До поздна (until late) = duration = imperfective.",
+          "Весь торт (whole cake) = completed result = perfective."
+        ],
+        "explanations": [
+          "Promise: perfective. Позвоню.",
+          "Duration: imperfective. Будем работать.",
+          "Complete consumption: perfective. Съест."
+        ],
+        "options": [
+          [
+            "позвоню",
+            "позвонил",
+            "звоню",
+            "звонил"
+          ],
+          [
+            "будем",
+            "был",
+            "есть",
+            "будет"
+          ],
+          [
+            "ел",
+            "съест",
+            "ест",
+            "съел"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All perfective future skills: conjugation, aspect choice, pairs, signals",
+      "descriptionRussian": "Все навыки: спряжение, выбор вида, пары, подсказки",
+      "icon": "bolt.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы _____ подарок для друга. (We will buy a gift for a friend.)",
+              "promptEnglish": "We will buy a gift for a friend.",
+              "options": [
+                "купим",
+                "будем покупать",
+                "покупаем",
+                "покупали"
+              ],
+              "answer": "купим",
+              "hint": "Single completed purchase = perfective.",
+              "explanation": "Perfective: купить → купим."
+            },
+            {
+              "prompt": "Я _____ музыку весь вечер. (I will be listening to music all evening.)",
+              "promptEnglish": "I will be listening to music all evening.",
+              "options": [
+                "послушаю",
+                "буду слушать",
+                "слушаю",
+                "слушал"
+              ],
+              "answer": "буду слушать",
+              "hint": "Весь вечер = duration = imperfective.",
+              "explanation": "Duration: imperfective. Буду слушать."
+            },
+            {
+              "prompt": "Когда он _____ работу? (When will he finish the work?)",
+              "promptEnglish": "When will he finish the work?",
+              "options": [
+                "закончит",
+                "будет заканчивать",
+                "заканчивает",
+                "заканчивал"
+              ],
+              "answer": "закончит",
+              "hint": "Finishing = result = perfective.",
+              "explanation": "Result: perfective. Закончить → закончит."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Ты _____ мне ответ завтра. (You will tell me the answer tomorrow.)",
+              "promptEnglish": "You will tell me the answer tomorrow.",
+              "options": [
+                "скажешь",
+                "будешь говорить",
+                "говоришь",
+                "говорил"
+              ],
+              "answer": "скажешь",
+              "hint": "One answer = single action = perfective.",
+              "explanation": "Single action: perfective. Сказать → скажешь."
+            },
+            {
+              "prompt": "Они _____ нам каждое лето. (They will write to us every summer.)",
+              "promptEnglish": "They will write to us every summer.",
+              "options": [
+                "напишут",
+                "будут писать",
+                "пишут",
+                "писали"
+              ],
+              "answer": "будут писать",
+              "hint": "Каждое лето = repetition = imperfective.",
+              "explanation": "Repetition: imperfective. Будут писать."
+            },
+            {
+              "prompt": "Я _____ ответ скоро. (I will find the answer soon.)",
+              "promptEnglish": "I will find the answer soon.",
+              "options": [
+                "найду",
+                "буду искать",
+                "ищу",
+                "искал"
+              ],
+              "answer": "найду",
+              "hint": "Скоро + finding = result = perfective.",
+              "explanation": "Result: perfective. Найти → найду."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Я буду купить молоко.",
+          "error": "буду",
+          "correction": "куплю",
+          "explanation": "No буду with perfective. Купить → я куплю.",
+          "options": [
+            "куплю",
+            "купишь",
+            "купил",
+            "купить"
+          ]
+        },
+        {
+          "sentence": "Мы будем решить задачу.",
+          "error": "будем",
+          "correction": "решим",
+          "explanation": "No буду with perfective. Решить → мы решим.",
+          "options": [
+            "решим",
+            "решите",
+            "решили",
+            "решить"
+          ]
+        },
+        {
+          "sentence": "Они будут сделать работу.",
+          "error": "будут",
+          "correction": "сделают",
+          "explanation": "No буду with perfective. Сделать → они сделают.",
+          "options": [
+            "сделают",
+            "сделаете",
+            "сделали",
+            "сделать"
+          ]
+        }
+      ]
+    }
+  ]
+}

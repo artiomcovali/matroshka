@@ -1,0 +1,63 @@
+{
+  "id": "mission-a2-008",
+  "title": "Rent an Apartment",
+  "level": "A2",
+  "description": "View an apartment and discuss rental terms with the landlord",
+  "imageName": "house.fill",
+  "initialPrompt": "Здравствуйте! Вы пришли посмотреть квартиру? Проходите, пожалуйста. Вот она - однокомнатная, сорок квадратных метров.",
+  "systemPrompt": "You are a landlord showing an apartment. Rent: 35000₽/month. Deposit: one month. Utilities: ~5000₽. Lease: 1 year minimum. Answer questions about rooms, appliances, neighbors. Keep replies short.",
+  "completionCriteria": "User asked about rent, utilities, and deposit, and expressed interest in renting.",
+  "responseLimit": 15,
+  "hints": [
+    "Сколько стоит аренда? (How much is the rent?)",
+    "А коммунальные услуги? (What about utilities?)",
+    "Какой залог? (What's the deposit?)",
+    "Когда можно въехать? (When can I move in?)",
+    "Мне нравится квартира (I like the apartment)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "квартира",
+      "definition": "apartment"
+    },
+    {
+      "word": "аренда",
+      "definition": "rent"
+    },
+    {
+      "word": "залог",
+      "definition": "deposit"
+    },
+    {
+      "word": "коммунальные услуги",
+      "definition": "utilities"
+    },
+    {
+      "word": "въехать",
+      "definition": "to move in"
+    },
+    {
+      "word": "договор",
+      "definition": "contract; lease"
+    },
+    {
+      "word": "хозяин",
+      "definition": "landlord; owner"
+    },
+    {
+      "word": "комната",
+      "definition": "room"
+    },
+    {
+      "word": "мебель",
+      "definition": "furniture"
+    }
+  ],
+  "objectives": [
+    "Ask about the monthly rent (Сколько стоит аренда?)",
+    "Ask about utilities (коммунальные услуги)",
+    "Ask about the deposit (залог)",
+    "Ask about move-in date or lease terms",
+    "Express interest in renting the apartment"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-002",
+  "title": "Tough Committee",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Thesis committee is skeptical of your methodology",
+  "imageName": "graduationcap.fill",
+  "initialPrompt": "Ваша методология вызывает сомнения. Почему вы выбрали именно этот подход? Есть ли альтернативы?",
+  "systemPrompt": "You are skeptical committee member. Question methodology, sample size, conclusions. Can be convinced with solid justification and acknowledgment of limitations. Keep replies short.",
+  "completionCriteria": "User defended methodology under pressure.",
+  "responseLimit": 15,
+  "hints": [
+    "Этот метод обоснован потому что... (This method is justified because...)",
+    "Я признаю ограничения... (I acknowledge the limitations...)",
+    "Альтернативные подходы не подходят потому что... (Alternative approaches don't work because...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "методология",
+      "definition": "methodology"
+    },
+    {
+      "word": "обоснование",
+      "definition": "justification"
+    },
+    {
+      "word": "ограничения",
+      "definition": "limitations"
+    },
+    {
+      "word": "выборка",
+      "definition": "sample"
+    },
+    {
+      "word": "валидность",
+      "definition": "validity"
+    },
+    {
+      "word": "критика",
+      "definition": "criticism"
+    }
+  ],
+  "objectives": [
+    "Justify methodology choice",
+    "Acknowledge limitations",
+    "Counter specific objections",
+    "Demonstrate expertise"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "lessonId": "c1-016-intensification",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Identify the correct intensifier for each register, then compare neutral vs. intensified versions",
+      "descriptionRussian": "Определите подходящий усилитель для каждого регистра и сравните нейтральные и усиленные версии",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Formal speech: Это _____ важный вопрос.",
+              "promptEnglish": "This is an extremely important question. (formal register)",
+              "options": ["крайне", "ужасно", "очень", "жутко"],
+              "answer": "крайне",
+              "hint": "A formal intensifier stronger than очень, appropriate for official speech.",
+              "explanation": "Крайне (extremely) is a formal intensifier. Очень is neutral, while ужасно and жутко are colloquial."
+            },
+            {
+              "prompt": "Academic writing: Результаты эксперимента оказались _____ значимыми.",
+              "promptEnglish": "The experiment results turned out to be extraordinarily significant.",
+              "options": ["страшно", "ужасно", "жутко", "чрезвычайно"],
+              "answer": "чрезвычайно",
+              "hint": "The most formal intensifier, suitable for academic and official texts.",
+              "explanation": "Чрезвычайно (extraordinarily) is the highest-register intensifier. Страшно, ужасно, and жутко are colloquial and inappropriate for academic writing."
+            },
+            {
+              "prompt": "Prefix пре-: Какой _____ котёнок!",
+              "promptEnglish": "What a darling/sweet little kitten! (intensified with пре-)",
+              "options": ["милый", "красивый", "премилый", "хороший"],
+              "answer": "премилый",
+              "hint": "The prefix пре- intensifies the adjective, meaning 'very sweet/darling.'",
+              "explanation": "Премилый = пре- + милый, meaning 'very sweet/darling.' The prefix пре- adds an intensifying, often slightly old-fashioned or affectionate overtone."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Formal 'quite': Он _____ образованный человек.",
+              "promptEnglish": "He is quite an educated person. (formal, slightly bookish)",
+              "options": ["ужасно", "страшно", "весьма", "жутко"],
+              "answer": "весьма",
+              "hint": "A formal, slightly bookish intensifier meaning 'quite/rather.'",
+              "explanation": "Весьма (quite, rather) is formal and slightly bookish. It conveys measured emphasis without the extremity of крайне or чрезвычайно."
+            },
+            {
+              "prompt": "Reduplication with time: Это случилось _____-давно.",
+              "promptEnglish": "That happened a very long time ago.",
+              "options": ["очень", "давным", "крайне", "совсем"],
+              "answer": "давным",
+              "hint": "The first part of this reduplication pair is a modified form of the root.",
+              "explanation": "Давным-давно (long, long ago) is a fixed reduplication pattern where the first element takes the instrumental-like suffix -ым."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "A narrator in a fairy tale describes a house:",
+          "contextEnglish": "Choose the version with expressive reduplication.",
+          "options": ["Дом был очень большой.", "Дом был большой-большой."],
+          "answer": "Дом был большой-большой.",
+          "explanation": "Большой-большой (very very big) uses reduplication, a pattern common in fairy tales and spoken narratives for vivid, emotional emphasis."
+        }
+      ],
+      "translation": [
+        {
+          "english": "This problem is extremely serious. (formal, for a report)",
+          "answer": "Эта проблема крайне серьёзная.",
+          "acceptableVariants": ["Эта проблема крайне серьёзна.", "Крайне серьёзная проблема."],
+          "hint": "Use крайне for formal 'extremely' before the adjective.",
+          "grammarFocus": "Formal intensification with крайне",
+          "keyWord": "крайне",
+          "options": ["крайне", "слегка", "чуть", "немного"]
+        },
+        {
+          "english": "She is terribly tired after work. (casual speech)",
+          "answer": "Она ужасно устала после работы.",
+          "acceptableVariants": ["Она страшно устала после работы.", "После работы она ужасно устала."],
+          "hint": "Use ужасно or страшно for colloquial 'terribly.'",
+          "grammarFocus": "Colloquial intensification",
+          "keyWord": "ужасно",
+          "options": ["ужасно", "слегка", "чуть", "немного"]
+        },
+        {
+          "english": "The road was very very long. (expressive, storytelling style)",
+          "answer": "Дорога была длинная-длинная.",
+          "acceptableVariants": ["Дорога была длинная-предлинная.", "Была дорога длинная-длинная."],
+          "hint": "Use reduplication of the adjective for expressive storytelling.",
+          "grammarFocus": "Reduplication intensification",
+          "keyWord": "длинная-длинная",
+          "options": ["длинная-длинная", "длинная", "очень длинная", "самая длинная"]
+        },
+        {
+          "english": "He is quite a talented musician. (formal, bookish)",
+          "answer": "Он весьма талантливый музыкант.",
+          "acceptableVariants": ["Весьма талантливый музыкант.", "Он весьма талантлив."],
+          "hint": "Use весьма for formal, slightly bookish 'quite.'",
+          "grammarFocus": "Formal intensification with весьма",
+          "keyWord": "весьма",
+          "options": ["весьма", "чуть", "слегка", "едва"]
+        }
+      ]
+    }
+  ]
+}

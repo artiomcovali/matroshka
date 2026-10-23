@@ -1,0 +1,276 @@
+{
+  "id": "b1-track-prefixaspect-06-mixed-review",
+  "level": "B1",
+  "focusArea": "aspect",
+  "title": "Prefix and Aspect 6: Mixed Review",
+  "titleRussian": "Приставка и вид 6: Итоговое повторение",
+  "description": "Put the whole track together: a prefix perfectivizes, may add meaning, and a meaning-adding perfective rebuilds its imperfective with -ыва-/-ива-/-а- (with stem and stress changes). Pick the right rung of the ladder in real sentences.",
+  "descriptionRussian": "Соберём весь трек воедино: приставка делает глагол совершенным, может добавить значение, а приставочный совершенный с новым значением заново образует несовершенный с -ыва-/-ива-/-а- (с изменениями основы и ударения). Выбирайте нужную ступень лестницы в живых предложениях.",
+  "imageName": "checkmark.seal",
+  "trackId": "b1-prefix-aspect-mastery",
+  "trackTitle": "Prefixes and Aspect Mastery",
+  "trackTitleRussian": "Приставки и вид",
+  "trackIndex": 6,
+  "trackTotal": 6,
+  "intro": "Two questions cover this whole book. Does the prefix change the meaning or only the aspect? And if it changes the meaning, what does the rebuilt imperfective look like? Answer the first by comparing with the bare verb, answer the second by expecting the suffix plus its usual three disturbances, and there is nothing else here.",
+  "rules": [
+    "Prefixation perfectivizes: a simplex imperfective plus a prefix is usually perfective (делать → сделать).",
+    "A pure prefix changes only aspect (писать / написать); a meaning-adding prefix changes aspect and meaning (писать → переписать, rewrite).",
+    "A meaning-adding perfective rebuilds its imperfective with -ыва-/-ива- or -а-: the secondary imperfective (переписать → переписывать, открыть → открывать).",
+    "Forming the secondary imperfective often shifts о to а, mutates a consonant, and moves stress to just before the suffix (спросить → спра́шивать, ответить → отвечать).",
+    "Three-step ladder: simplex impf → prefixed pf → secondary impf. Choose the perfective for a single result, the secondary imperfective for a process or habit."
+  ],
+  "examples": [
+    "делать → сделать (pure prefix, do). Я сделал работу. One completed result.",
+    "писать → переписать → переписывать (rewrite). Я переписываю письмо (process) / Я переписал письмо (result).",
+    "читать → перечитать → перечитывать (reread). Я перечитываю книгу каждое лето (habit).",
+    "спросить → спрашивать (ask, о → а). Ученик каждый день спрашивает учителя.",
+    "ответить → отвечать (answer, т → ч). Он редко отвечает на письма.",
+    "открыть → открывать (open, -а- suffix). Магазин открывает двери в девять."
+  ],
+  "tables": [
+    {
+      "title": "The whole system on one ladder",
+      "headers": [
+        "Simplex (impf)",
+        "Prefixed (pf)",
+        "Secondary (impf)"
+      ],
+      "rows": [
+        {
+          "label": "писать (write)",
+          "cells": [
+            "переписать (rewrite)",
+            "переписывать"
+          ]
+        },
+        {
+          "label": "читать (read)",
+          "cells": [
+            "перечитать (reread)",
+            "перечитывать"
+          ]
+        },
+        {
+          "label": "(no simplex)",
+          "cells": [
+            "спросить (ask, pf)",
+            "спрашивать (о → а)"
+          ]
+        },
+        {
+          "label": "(no simplex)",
+          "cells": [
+            "ответить (answer, pf)",
+            "отвечать (т → ч)"
+          ]
+        },
+        {
+          "label": "крыть (cover)",
+          "cells": [
+            "открыть (open)",
+            "открывать (-а-)"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Сейчас я _____ доклад, потому что в нём были ошибки.",
+          "promptEnglish": "Right now I am redoing the report because there were mistakes in it.",
+          "options": [
+            "переделаю",
+            "переделал",
+            "переделываю",
+            "делаю"
+          ],
+          "answer": "переделываю",
+          "hint": "Process now + 'redo' meaning → top rung (secondary imperfective).",
+          "explanation": "An action in progress now needs a present tense, and the 'redo' meaning needs the prefix пере-. That is the secondary imperfective переделывать: переделываю. Переделаю / переделал are perfective (no present); делаю is the base 'do,' not 'redo.'"
+        },
+        {
+          "prompt": "Ученик каждый урок _____ учителя о новой теме.",
+          "promptEnglish": "Every lesson the student asks the teacher about the new topic.",
+          "options": [
+            "спрашивает",
+            "спросит",
+            "спросил",
+            "спрошивает"
+          ],
+          "answer": "спрашивает",
+          "hint": "Habit → secondary imperfective. Remember the о → а change.",
+          "explanation": "'Каждый урок' marks a habit, so use the secondary imperfective of спросить, which shows о → а: спрашивать → спрашивает. The form спрошивает (keeping о) is not a word."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Завтра я обязательно _____ всю статью до конца.",
+          "promptEnglish": "Tomorrow I will definitely read the whole article through to the end.",
+          "options": [
+            "читаю",
+            "прочитываю",
+            "читал",
+            "прочитаю"
+          ],
+          "answer": "прочитаю",
+          "hint": "'Завтра… до конца' = one completed future result. Which rung and tense?",
+          "explanation": "'Завтра… до конца' is a single completed future result, so use the perfective future. The perfective of читать is прочитать (pure prefix про-), future прочитаю. Читаю is the imperfective present, which cannot express a one-time completed future action."
+        },
+        {
+          "prompt": "В пьесе один и тот же актёр каждый вечер _____ эту роль.",
+          "promptEnglish": "In the play the same actor performs (plays) this role every evening.",
+          "options": [
+            "сыграет",
+            "играет",
+            "сыграл",
+            "проиграл"
+          ],
+          "answer": "играет",
+          "hint": "'Каждый вечер' = habit. Here the plain base verb already carries the meaning.",
+          "explanation": "'Каждый вечер' marks a habit, so the imperfective is needed. Here the base verb играть already carries the meaning 'play a role,' so the simplex imperfective fits: играет. Сыграет / сыграл are perfective (single performance); this is a good reminder that the base imperfective is the right choice when the meaning has not shifted."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Журналист сейчас _____ интересную историю о городе. (The journalist is telling an interesting story about the city right now.)"
+    ],
+    "choices": [
+      "расскажет",
+      "рассказывает",
+      "рассказал",
+      "рассказать"
+    ],
+    "answers": [
+      "рассказывает"
+    ],
+    "grammarFocus": "'Сейчас' marks an action in progress, which needs a present tense. The perfective рассказать has no present; its secondary imperfective is рассказывать (note the stress on -ска-): рассказывает."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Сейчас врач внимательно рассмотрит результаты анализов.",
+      "translationEnglish": "Right now the doctor is carefully examining the test results.",
+      "error": "рассмотрит",
+      "correction": "рассматривает",
+      "options": [
+        "рассматривает",
+        "рассмотрел",
+        "рассмотривает"
+      ],
+      "explanation": "An action in progress now needs a present tense, which only the imperfective has. The perfective рассмотреть has no present (рассмотрит is the future). Its secondary imperfective is рассматривать, with the root о shifting to а: рассматривает. The form рассмотривает (keeping о) is not a word. Process now takes the secondary imperfective; the о → а change is obligatory."
+    },
+    {
+      "sentence": "Этот чиновник почти никогда не ответит на жалобы граждан.",
+      "translationEnglish": "This official almost never answers citizens' complaints.",
+      "error": "ответит",
+      "correction": "отвечает",
+      "options": [
+        "отвечает",
+        "ответил",
+        "отвечивает"
+      ],
+      "explanation": "'Почти никогда' marks a repeated (negative) habit, which needs the imperfective present. The perfective ответить has no present (ответит is the future). Its secondary imperfective is отвечать, with the т → ч mutation: отвечает. Отвечивает is not a word. Habit takes the secondary imperfective; the т → ч mutation is the same one seen in present-tense conjugation."
+    },
+    {
+      "sentence": "Вчера на уроке Антон спрашивал учителя только один раз.",
+      "translationEnglish": "Yesterday in class, Anton asked the teacher only once.",
+      "error": "спрашивал",
+      "correction": "спросил",
+      "options": [
+        "спросил",
+        "спрашивает",
+        "спросит"
+      ],
+      "explanation": "'Только один раз' (only once) marks a single completed act, the perfective middle rung: спросил. The secondary imperfective спрашивал describes repeated or ongoing asking, which 'один раз' contradicts. Спрашивает is the present; спросит the future. A single result takes the perfective (спросить); a repeated action or process takes the secondary imperfective (спрашивать, with о → а)."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я сейчас _____ это упражнение, подожди немного.",
+      "contextEnglish": "I am redoing this exercise right now, wait a little.",
+      "options": [
+        "переделываю",
+        "переделаю"
+      ],
+      "answer": "переделываю",
+      "explanation": "'Сейчас' plus an action in progress needs the secondary imperfective present переделываю. The perfective переделаю is a future ('I will redo'), which cannot describe what is happening right now."
+    },
+    {
+      "context": "Учитель завтра _____ нам новое правило.",
+      "contextEnglish": "Tomorrow the teacher will show us a new rule (once).",
+      "options": [
+        "покажет",
+        "показывает"
+      ],
+      "answer": "покажет",
+      "explanation": "'Завтра' plus a single act points to the perfective future покажет (from показать). The secondary imperfective показывает is a present-tense process or habit and cannot express a one-time future action."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each verb by its rung on the ladder: simplex imperfective, prefixed perfective, or secondary imperfective.",
+    "categories": [
+      "Simplex imperfective",
+      "Prefixed perfective",
+      "Secondary imperfective"
+    ],
+    "items": [
+      {
+        "word": "писать",
+        "category": "Simplex imperfective"
+      },
+      {
+        "word": "переписать",
+        "category": "Prefixed perfective"
+      },
+      {
+        "word": "переписывать",
+        "category": "Secondary imperfective"
+      },
+      {
+        "word": "спросить",
+        "category": "Prefixed perfective"
+      },
+      {
+        "word": "спрашивать",
+        "category": "Secondary imperfective"
+      },
+      {
+        "word": "читать",
+        "category": "Simplex imperfective"
+      },
+      {
+        "word": "открыть",
+        "category": "Prefixed perfective"
+      },
+      {
+        "word": "открывать",
+        "category": "Secondary imperfective"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "тройная лестница",
+      "definition": "the three-step ladder: simplex imperfective → prefixed perfective → secondary imperfective. The top and bottom are imperfective, the middle is perfective.",
+      "example": "писать → переписать → переписывать: середина — совершенный вид, низ и верх — несовершенный."
+    },
+    {
+      "term": "вторичный несовершенный вид",
+      "definition": "the imperfective rebuilt from a prefixed perfective with -ыва-/-ива- or -а-, often with stem and stress changes (переписать → переписывать, спросить → спрашивать)",
+      "example": "У приставочного совершенного есть свой несовершенный — вторичный: показать → показывать."
+    },
+    {
+      "term": "выбор вида на лестнице",
+      "definition": "choosing the rung is aspect choice within one meaning: single result → perfective; process or habit → secondary imperfective",
+      "example": "Я переписал письмо (результат) — я переписываю письмо каждый раз (привычка)."
+    }
+  ]
+}

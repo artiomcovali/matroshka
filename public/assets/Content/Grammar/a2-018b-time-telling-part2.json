@@ -1,0 +1,352 @@
+{
+  "id": "a2-018b-time-telling-part2",
+  "level": "A2",
+  "focusArea": "vocabulary",
+  "title": "Telling Time (Part 2)",
+  "titleRussian": "Время (часть 2)",
+  "description": "Precise minutes and the 24-hour clock",
+  "descriptionRussian": "Точные минуты и 24-часовой формат",
+  "imageName": "clock.fill",
+  "intro": "In Part 1 you learned hours, half past, and quarters. Now let's master precise minutes! For minutes PAST the hour, count minutes of the NEXT hour: 5:10 = десять минут шестого (10 minutes of the 6th). The word 'минут' changes by number: одна минута (1), две/три/четыре минуты (2-4), пять-двадцать минут (5-20). For minutes TO the hour, use без + genitive: 5:50 = без десяти шесть (without ten, six). In formal speech (trains, flights, news), Russia uses 24-hour format: 17:30 = семнадцать тридцать — just say the two numbers!",
+  "tables": [
+    {
+      "title": "Precise Minutes Past the Hour (5:XX)",
+      "headers": [
+        "Time",
+        "Colloquial Russian",
+        "24-hour Formal"
+      ],
+      "rows": [
+        {
+          "label": "5:05",
+          "cells": [
+            "пять минут шест|ого",
+            "семнадцать ноль пять"
+          ]
+        },
+        {
+          "label": "5:10",
+          "cells": [
+            "десять минут шест|ого",
+            "семнадцать десять"
+          ]
+        },
+        {
+          "label": "5:20",
+          "cells": [
+            "двадцать минут шест|ого",
+            "семнадцать двадцать"
+          ]
+        },
+        {
+          "label": "5:25",
+          "cells": [
+            "двадцать пять минут шест|ого",
+            "семнадцать двадцать пять"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Precise Minutes To the Hour (5:XX)",
+      "headers": [
+        "Time",
+        "Colloquial Russian",
+        "24-hour Formal"
+      ],
+      "rows": [
+        {
+          "label": "5:35",
+          "cells": [
+            "без двадцати пяти шесть",
+            "семнадцать тридцать пять"
+          ]
+        },
+        {
+          "label": "5:40",
+          "cells": [
+            "без двадцати шесть",
+            "семнадцать сорок"
+          ]
+        },
+        {
+          "label": "5:50",
+          "cells": [
+            "без десяти шесть",
+            "семнадцать пятьдесят"
+          ]
+        },
+        {
+          "label": "5:55",
+          "cells": [
+            "без пяти шесть",
+            "семнадцать пятьдесят пять"
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [
+    "Minutes PAST (1-30): number of minutes + минут(а/ы) + genitive ordinal of NEXT hour: 3:10 = десять минут четвёртого.",
+    "Minutes TO (31-59): без + genitive of minutes + cardinal NEXT hour: 3:50 = без десяти четыре.",
+    "Formal 24-hour clock: just say hours + minutes as cardinal numbers: 17:05 = семнадцать ноль пять, 21:40 = двадцать один сорок.",
+    "The word 'минут' agrees with the number: 1 минута, 2-4 минуты, 5-20 минут, 21 минута, 25 минут."
+  ],
+  "examples": [
+    "Сейчас пять минут десятого. (It's 9:05 — five minutes of the tenth.)",
+    "Без двадцати два. (It's 1:40 — without twenty, two.)",
+    "Поезд отправляется в девятнадцать сорок пять. (The train departs at 19:45.)",
+    "Самолёт в двадцать один ноль пять. (The plane is at 21:05.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Сейчас десять минут _____. (It's 7:10.)",
+          "promptEnglish": "It's 7:10.",
+          "options": [
+            "семь",
+            "седьмого",
+            "восьмого",
+            "восемь"
+          ],
+          "answer": "восьмого",
+          "hint": "Minutes past = ordinal genitive of the NEXT hour: 7:10 → 8th",
+          "explanation": "7:10 = десять минут восьмого (10 minutes of the 8th hour)."
+        },
+        {
+          "prompt": "Без пяти _____. (It's 2:55.)",
+          "promptEnglish": "It's 2:55.",
+          "options": [
+            "два",
+            "три",
+            "второго",
+            "третьего"
+          ],
+          "answer": "три",
+          "hint": "Без + minutes + cardinal NEXT hour",
+          "explanation": "2:55 = без пяти три (without five, three). Без uses cardinal next hour."
+        },
+        {
+          "prompt": "Рейс в двадцать три _____ пять. (The flight is at 23:05.)",
+          "promptEnglish": "The flight is at 23:05.",
+          "options": [
+            "и",
+            "ноль",
+            "часа",
+            "минут"
+          ],
+          "answer": "ноль",
+          "hint": "24-hour: for single-digit minutes, add ноль",
+          "explanation": "23:05 = двадцать три ноль пять. Use ноль for single-digit minutes."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Без двадцати _____. (It's 11:40.)",
+          "promptEnglish": "It's 11:40.",
+          "options": [
+            "одиннадцать",
+            "двенадцать",
+            "одиннадцатого",
+            "двенадцатого"
+          ],
+          "answer": "двенадцать",
+          "hint": "Без + minutes + cardinal next hour: 11:40 → twelve",
+          "explanation": "11:40 = без двадцати двенадцать (without twenty, twelve)."
+        },
+        {
+          "prompt": "Сейчас двадцать пять _____ второго. (It's 1:25.)",
+          "promptEnglish": "It's 1:25.",
+          "options": [
+            "минута",
+            "минуты",
+            "минут",
+            "минутой"
+          ],
+          "answer": "минут",
+          "hint": "25 requires genitive plural: минут",
+          "explanation": "Двадцать пять минут: numbers 5-20 use genitive plural: минут."
+        },
+        {
+          "prompt": "Автобус в шестнадцать _____. (The bus is at 16:10.)",
+          "promptEnglish": "The bus is at 16:10.",
+          "options": [
+            "десять",
+            "десятого",
+            "десяти",
+            "десятом"
+          ],
+          "answer": "десять",
+          "hint": "24-hour = cardinal numbers only",
+          "explanation": "Formal: шестнадцать десять (16:10). Just cardinal numbers."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Пять _____ третьего. (It's 2:05.)",
+          "promptEnglish": "It's 2:05.",
+          "options": [
+            "минута",
+            "минуты",
+            "минут",
+            "минутой"
+          ],
+          "answer": "минут",
+          "hint": "Пять requires genitive plural",
+          "explanation": "Пять минут: 5 takes genitive plural: минут."
+        },
+        {
+          "prompt": "Без _____ час. (It's 12:50.)",
+          "promptEnglish": "It's 12:50.",
+          "options": [
+            "десять",
+            "десяти",
+            "десятого",
+            "десятью"
+          ],
+          "answer": "десяти",
+          "hint": "Без requires genitive: десять → десяти",
+          "explanation": "Без takes genitive case: десять → без десяти (without ten)."
+        },
+        {
+          "prompt": "Рейс в девятнадцать _____. (The flight is at 19:45.)",
+          "promptEnglish": "The flight is at 19:45.",
+          "options": [
+            "сорок пять",
+            "без четверти",
+            "четверти",
+            "сорока пяти"
+          ],
+          "answer": "сорок пять",
+          "hint": "Formal 24-hour clock uses cardinal numbers only",
+          "explanation": "Formal: девятнадцать сорок пять (19:45). Just say the numbers, no без or четверти."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Сейчас пять _____ третьего. (It is now five minutes past two.)",
+      "Сейчас без десяти _____. (It is now ten to seven.)",
+      "Сейчас двадцать _____ пятого. (It is now twenty minutes past four.)"
+    ],
+    "choices": [
+      "минут",
+      "семь",
+      "минут",
+      "часов",
+      "шесть",
+      "часа"
+    ],
+    "answers": [
+      "минут",
+      "семь",
+      "минут"
+    ],
+    "grammarFocus": "Minutes past: минут + genitive ordinal; minutes to: без + genitive + cardinal",
+    "options": [
+      [
+        "минут",
+        "минутам",
+        "минутах",
+        "минутами"
+      ],
+      [
+        "семи",
+        "семь",
+        "семью"
+      ],
+      [
+        "минутам",
+        "минут",
+        "минутами",
+        "минутах"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Сейчас десять минут _____. (It's 4:10 — ten minutes past.)",
+      "contextEnglish": "It's 4:10.",
+      "options": [
+        "пятого",
+        "пять"
+      ],
+      "answer": "пятого",
+      "explanation": "Minutes PAST the hour: ordinal genitive of NEXT hour (пятого = of the 5th)."
+    },
+    {
+      "context": "Сейчас без десяти _____. (It's 4:50 — ten minutes to.)",
+      "contextEnglish": "It's 4:50.",
+      "options": [
+        "пятого",
+        "пять"
+      ],
+      "answer": "пять",
+      "explanation": "Minutes TO the hour: cardinal NEXT hour (пять = five). Без десяти пять = 4:50."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: minutes PAST (X минут Y-ого) or minutes TO (без X Y)?",
+    "categories": [
+      "Minutes past (X минут Y-ого)",
+      "Minutes to (без X Y)"
+    ],
+    "items": [
+      {
+        "word": "пять минут третьего (2:05)",
+        "category": "Minutes past (X минут Y-ого)"
+      },
+      {
+        "word": "без пяти три (2:55)",
+        "category": "Minutes to (без X Y)"
+      },
+      {
+        "word": "двадцать минут девятого (8:20)",
+        "category": "Minutes past (X минут Y-ого)"
+      },
+      {
+        "word": "без двадцати девять (8:40)",
+        "category": "Minutes to (без X Y)"
+      },
+      {
+        "word": "десять минут первого (12:10)",
+        "category": "Minutes past (X минут Y-ого)"
+      },
+      {
+        "word": "без десяти час (12:50)",
+        "category": "Minutes to (без X Y)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "без + genitive",
+      "definition": "without / to (minutes to the hour)",
+      "example": "Без десяти шесть = 5:50."
+    },
+    {
+      "term": "ноль",
+      "definition": "zero (in 24h time for single-digit minutes)",
+      "example": "Двадцать один ноль пять = 21:05."
+    },
+    {
+      "term": "минута / минуты / минут",
+      "definition": "minute(s) — form depends on number",
+      "example": "Одна минута, две минуты, пять минут."
+    },
+    {
+      "term": "Который час?",
+      "definition": "What time is it?",
+      "example": "Который час? — Без четверти три."
+    }
+  ]
+}

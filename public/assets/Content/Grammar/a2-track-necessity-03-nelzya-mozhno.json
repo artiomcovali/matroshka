@@ -1,0 +1,266 @@
+{
+  "id": "a2-track-necessity-03-nelzya-mozhno",
+  "level": "A2",
+  "focusArea": "aspect",
+  "title": "Necessity 3: нельзя and можно (forbidden, impossible, allowed)",
+  "titleRussian": "Необходимость 3: нельзя и можно (запрещено, невозможно, разрешено)",
+  "description": "Можно means 'one may.' Нельзя is its opposite, but its meaning depends on aspect: нельзя + imperfective = forbidden; нельзя + perfective = impossible.",
+  "descriptionRussian": "Можно значит «разрешено». Нельзя — его противоположность, но смысл зависит от вида: нельзя + несовершенный вид = запрещено; нельзя + совершенный вид = невозможно.",
+  "imageName": "hand.raised.fill",
+  "trackId": "a2-necessity-mastery",
+  "trackTitle": "Necessity Mastery",
+  "trackTitleRussian": "Необходимость",
+  "trackIndex": 3,
+  "trackTotal": 6,
+  "intro": "Permission and its refusal, plus one genuinely elegant piece of Russian. The word for 'not allowed' changes meaning depending on the aspect of the verb after it: with one aspect it means forbidden, with the other it means impossible. The door you may not open and the door that will not open are the same word with a different verb.",
+  "rules": [
+    "Можно and нельзя are impersonal: an optional dative person + можно/нельзя + infinitive. Можно = 'one may / it is allowed'; нельзя = its opposite.",
+    "Нельзя + IMPERFECTIVE infinitive = FORBIDDEN (a rule): Здесь нельзя курить. This is the most common use.",
+    "Нельзя + PERFECTIVE infinitive = IMPOSSIBLE (cannot be done): Дверь нельзя открыть.",
+    "The aspect chooses the meaning: imperfective names the activity (so forbidding it is a rule), perfective names a single result (so denying it means impossibility).",
+    "Можно asks for or grants permission: Можно войти? Здесь можно фотографировать. Its negative answer is нельзя."
+  ],
+  "examples": [
+    "Здесь можно курить? (May one smoke here?) можно asks permission.",
+    "Здесь нельзя курить. (Smoking is forbidden here.) нельзя + imperfective курить = a rule.",
+    "Здесь нельзя парковаться. (No parking here.) нельзя + imperfective = prohibition.",
+    "Эту дверь нельзя открыть. (This door can't be opened.) нельзя + perfective открыть = impossible.",
+    "Это слово нельзя перевести точно. (This word can't be translated exactly.) нельзя + perfective = impossibility.",
+    "Можно войти? (May I come in?) перфектив войти after можно asks 'is it possible / allowed to come in'."
+  ],
+  "tables": [
+    {
+      "title": "нельзя: meaning depends on aspect",
+      "headers": [
+        "Construction",
+        "Meaning",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "нельзя + imperfective",
+          "cells": [
+            "forbidden (a rule)",
+            "Здесь нельзя курить."
+          ]
+        },
+        {
+          "label": "нельзя + perfective",
+          "cells": [
+            "impossible (cannot be done)",
+            "Дверь нельзя открыть."
+          ]
+        },
+        {
+          "label": "можно + infinitive",
+          "cells": [
+            "allowed / possible",
+            "Здесь можно фотографировать."
+          ]
+        },
+        {
+          "label": "same root, two aspects",
+          "cells": [
+            "rule vs impossibility",
+            "нельзя открывать (rule) / нельзя открыть (impossible)"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Здесь нельзя _____. (It is forbidden to smoke here.)",
+          "promptEnglish": "Smoking is not allowed here.",
+          "options": [
+            "курить",
+            "покурить",
+            "куришь",
+            "курю"
+          ],
+          "answer": "курить",
+          "hint": "A rule about an activity in general uses the imperfective infinitive.",
+          "explanation": "A prohibition (a rule) uses нельзя + imperfective infinitive. Курить is the imperfective infinitive ('to smoke' in general), so Здесь нельзя курить = smoking is forbidden here."
+        },
+        {
+          "prompt": "_____ войти?",
+          "promptEnglish": "May I come in?",
+          "options": [
+            "Нельзя",
+            "Должен",
+            "Можно",
+            "Надо"
+          ],
+          "answer": "Можно",
+          "hint": "You are asking for permission, not stating a rule or a need.",
+          "explanation": "To ask permission you use можно + infinitive: Можно войти? (May I come in?) Нельзя would mean it is forbidden."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "В музее _____ фотографировать.",
+          "promptEnglish": "Photography is allowed in the museum.",
+          "options": [
+            "нельзя",
+            "можно",
+            "должен",
+            "должна"
+          ],
+          "answer": "можно",
+          "hint": "Photography is permitted here. Which word grants permission?",
+          "explanation": "Можно grants permission: В музее можно фотографировать (one may take photos in the museum). Нельзя would forbid it."
+        },
+        {
+          "prompt": "Это слово нельзя _____ точно. (This word can't be translated exactly.)",
+          "promptEnglish": "This word can't be translated exactly.",
+          "options": [
+            "переводить",
+            "перевести",
+            "перевожу",
+            "переведи"
+          ],
+          "answer": "перевести",
+          "hint": "Meaning: it is impossible to achieve an exact translation. Impossibility takes which aspect?",
+          "explanation": "The meaning is impossibility (an exact translation cannot be achieved), so нельзя takes the perfective infinitive перевести. Нельзя + perfective = impossible. The imperfective «нельзя переводить» would mean translating it is forbidden, which is not the idea here."
+        },
+        {
+          "prompt": "Здесь нельзя _____. (No parking here.)",
+          "promptEnglish": "No parking here.",
+          "options": [
+            "припарковаться",
+            "парковаться",
+            "паркуюсь",
+            "паркуй"
+          ],
+          "answer": "парковаться",
+          "hint": "A parking rule is a prohibition of an activity. Which aspect marks a rule?",
+          "explanation": "A parking ban is a rule about an activity, so it is нельзя + imperfective: парковаться. Здесь нельзя парковаться = no parking here. The perfective припарковаться would shift the meaning toward 'it is impossible to park (no space).'"
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "На уроке нельзя _____ по телефону. (You may not talk on the phone in class.)"
+    ],
+    "choices": [
+      "поговорить",
+      "разговаривать",
+      "разговариваю",
+      "поговори"
+    ],
+    "answers": [
+      "разговаривать"
+    ],
+    "grammarFocus": "A classroom rule is a prohibition of an activity, so нельзя takes the imperfective infinitive: разговаривать. На уроке нельзя разговаривать по телефону. The perfective поговорить would point toward impossibility, not a rule."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "В коридоре нельзя побегать.",
+      "translationEnglish": "No running in the corridor.",
+      "error": "побегать",
+      "correction": "бегать",
+      "options": [
+        "бегать",
+        "бегаешь",
+        "бегал"
+      ],
+      "explanation": "A 'no running' rule is a prohibition of an activity, so нельзя takes the imperfective infinitive: бегать. The perfective побегать with нельзя would shift the meaning to 'it is impossible to have a run', which is not what a corridor rule says."
+    },
+    {
+      "sentence": "Я можно войти?",
+      "translationEnglish": "May I come in?",
+      "error": "Я",
+      "correction": "Мне",
+      "options": [
+        "Мне",
+        "Меня",
+        "Мной"
+      ],
+      "explanation": "Можно is impersonal, like надо, so the person (if named) goes into the dative, not the nominative: Мне можно войти? Most often можно войти? is said with no pronoun at all. Never «я можно»."
+    },
+    {
+      "sentence": "Эту банку нельзя открывать, она просто застряла.",
+      "translationEnglish": "This jar can't be opened, it's just stuck.",
+      "error": "открывать",
+      "correction": "открыть",
+      "options": [
+        "открыть",
+        "открой",
+        "открываю"
+      ],
+      "explanation": "The sentence means the jar physically cannot be opened (it's stuck), which is impossibility, not a rule, so нельзя takes the perfective: открыть. With the imperfective открывать it would wrongly read as 'one is forbidden to open it,' a rule, which 'она просто застряла' rules out. Correct: Эту банку нельзя открыть."
+    },
+    {
+      "sentence": "Извините, нельзя войти?",
+      "translationEnglish": "Excuse me, may I come in?",
+      "error": "нельзя",
+      "correction": "можно",
+      "options": [
+        "можно",
+        "надо",
+        "должен"
+      ],
+      "explanation": "Asking for permission uses можно + infinitive: можно войти? ('may I come in?'). Нельзя would ask the opposite ('is it forbidden to enter?'), which contradicts the polite request for permission. Correct: Извините, можно войти?"
+    },
+    {
+      "sentence": "Эту задачу нельзя решать за минуту.",
+      "translationEnglish": "This problem can't be solved in a minute.",
+      "error": "решать",
+      "correction": "решить",
+      "options": [
+        "решить",
+        "решает",
+        "реши"
+      ],
+      "explanation": "The meaning is impossibility (an exact solution cannot be reached in a minute), and 'за минуту' is a completion timeframe, so нельзя takes the perfective: решить. The imperfective нельзя решать would read as 'one is forbidden to solve it,' a rule, which makes no sense with 'за минуту.' Correct: Эту задачу нельзя решить за минуту."
+    },
+    {
+      "sentence": "На работу нельзя опоздать.",
+      "translationEnglish": "You must not be late for work.",
+      "error": "опоздать",
+      "correction": "опаздывать",
+      "options": [
+        "опаздывать",
+        "опаздываешь",
+        "опоздай"
+      ],
+      "explanation": "A standing rule against an action takes нельзя + imperfective: опаздывать ('don't be late, as a rule'). The perfective нельзя опоздать would claim 'it is impossible to be late,' which is absurd as advice, since of course one can be late. Correct: На работу нельзя опаздывать."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Здесь нельзя _____. (a no-smoking rule)",
+      "contextEnglish": "Smoking is forbidden here (a rule).",
+      "options": [
+        "курить",
+        "покурить"
+      ],
+      "answer": "курить",
+      "explanation": "A rule forbidding an activity uses нельзя + imperfective: курить. The perfective покурить would push the meaning toward 'it is impossible to have a smoke,' not a prohibition."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "можно",
+      "definition": "one may / it is allowed / it is possible. Impersonal: optional dative person + можно + infinitive. Used to ask for or grant permission.",
+      "example": "Можно войти? В музее можно фотографировать."
+    },
+    {
+      "term": "нельзя + imperfective",
+      "definition": "it is FORBIDDEN (a rule). The most common use: нельзя + imperfective infinitive states a prohibition.",
+      "example": "Здесь нельзя курить. На уроке нельзя разговаривать."
+    },
+    {
+      "term": "нельзя + perfective",
+      "definition": "it is IMPOSSIBLE, it cannot be done. нельзя + perfective infinitive denies that a single result can be achieved.",
+      "example": "Эту дверь нельзя открыть. Это слово нельзя перевести точно."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-014",
+  "title": "Buy Ice Cream",
+  "level": "A1",
+  "description": "Choose a flavor and size at an ice cream stand",
+  "imageName": "snowflake",
+  "initialPrompt": "Здравствуйте! У нас есть мороженое: шоколад, ваниль, клубника. Какое вы хотите?",
+  "systemPrompt": "You sell ice cream. Flavors: шоколад, ваниль, клубника. Sizes: маленькое 80₽, большое 120₽. Keep replies short.",
+  "completionCriteria": "User ordered ice cream with flavor and size.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу... (I want...)",
+    "Шоколад, пожалуйста (Chocolate, please)",
+    "Большое или маленькое? (Big or small?)",
+    "Сколько стоит? (How much?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "мороженое",
+      "definition": "ice cream"
+    },
+    {
+      "word": "шоколад",
+      "definition": "chocolate"
+    },
+    {
+      "word": "ваниль",
+      "definition": "vanilla"
+    },
+    {
+      "word": "маленькое",
+      "definition": "small"
+    },
+    {
+      "word": "большое",
+      "definition": "big"
+    }
+  ],
+  "objectives": [
+    "Choose a flavor (шоколад, ваниль, клубника)",
+    "Choose a size (маленькое/большое)",
+    "Complete the purchase"
+  ]
+}

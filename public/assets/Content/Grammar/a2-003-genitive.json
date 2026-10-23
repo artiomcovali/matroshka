@@ -1,0 +1,332 @@
+{
+  "id": "a2-003-genitive",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Genitive Case",
+  "titleRussian": "Родительный падеж",
+  "description": "Genitive case forms and primary uses",
+  "descriptionRussian": "Формы и основные употребления родительного падежа",
+  "imageName": "arrow.down.left.circle.fill",
+  "intro": "The genitive case answers Кого? Чего? (Of whom? Of what?). It's used for possession (книга студента - the student's book), absence (нет времени - no time), quantities (много книг - many books), and after certain prepositions (из, от, до, без, для). Genitive is one of the most frequently used cases in Russian!",
+  "rules": [
+    "Genitive answers Кого? Чего? (Of whom? Of what?) - shows possession, absence, or 'of'.",
+    "Genitive answers 'of what?' or 'whose?': чашка чая (cup of tea).",
+    "After нет, use genitive: нет молока (no milk), нет времени (no time).",
+    "After numbers 2-4, use genitive singular: два стола, три книги.",
+    "Prepositions из, от, до, без, для, у, около take genitive: из магазина (from the store), без воды (without water), для друга (for a friend).",
+    "Endings: hard masculine/neuter take -а (студент → студента, окно → окна); soft masculine takes -я (учитель → учителя); feminine -а takes -ы (вода → воды), feminine -я takes -и (неделя → недели).",
+    "Spelling rule: after к, г, х, ч, ш, щ, ж write -и not -ы (книга → книги, not книгы)."
+  ],
+  "examples": [
+    "Это книга студента. (This is the student's book.), possession",
+    "У меня нет времени. (I don't have time.), absence with нет",
+    "Много студентов. (Many students.), quantity",
+    "Я иду из магазина. (I'm coming from the store.), preposition из"
+  ],
+  "tables": [
+    {
+      "title": "Genitive Case Endings",
+      "headers": [
+        "Gender",
+        "Nominative",
+        "Genitive",
+        "Ending"
+      ],
+      "rows": [
+        {
+          "label": "Masculine",
+          "cells": [
+            "студент",
+            "студент|а",
+            "-а"
+          ]
+        },
+        {
+          "label": "Masculine soft",
+          "cells": [
+            "учитель",
+            "учител|я",
+            "-я"
+          ]
+        },
+        {
+          "label": "Feminine -а",
+          "cells": [
+            "вода",
+            "вод|ы",
+            "-ы"
+          ]
+        },
+        {
+          "label": "Feminine -а (к,г,х...)",
+          "cells": [
+            "книга",
+            "книг|и",
+            "-и"
+          ]
+        },
+        {
+          "label": "Feminine -я",
+          "cells": [
+            "неделя",
+            "недел|и",
+            "-и"
+          ]
+        },
+        {
+          "label": "Neuter",
+          "cells": [
+            "окно",
+            "окн|а",
+            "-а"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Это книга _____. (This is the student's book.)",
+          "promptEnglish": "This is the student's book.",
+          "options": [
+            "студенте",
+            "студента",
+            "студент",
+            "студенту"
+          ],
+          "answer": "студента",
+          "hint": "Possession = genitive",
+          "explanation": "Possession uses genitive: студент → студента."
+        },
+        {
+          "prompt": "У меня нет _____. (I don't have a brother.)",
+          "promptEnglish": "I don't have a brother.",
+          "options": [
+            "брат",
+            "брата",
+            "брату",
+            "брате"
+          ],
+          "answer": "брата",
+          "hint": "Нет + genitive",
+          "explanation": "After нет, use genitive: брат → брата."
+        },
+        {
+          "prompt": "Много _____. (Many books.)",
+          "promptEnglish": "Many books.",
+          "options": [
+            "книга",
+            "книг",
+            "книгу",
+            "книги"
+          ],
+          "answer": "книг",
+          "hint": "Quantity = genitive plural",
+          "explanation": "After много, use genitive plural: книга → книг."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я иду из _____. (I'm coming from the store.)",
+          "promptEnglish": "I'm coming from the store.",
+          "options": [
+            "магазину",
+            "магазин",
+            "магазина",
+            "магазине"
+          ],
+          "answer": "магазина",
+          "hint": "Из + genitive",
+          "explanation": "The preposition из requires genitive: магазин → магазина."
+        },
+        {
+          "prompt": "Это машина _____. (This is my father's car.)",
+          "promptEnglish": "This is my father's car.",
+          "options": [
+            "отец",
+            "отца",
+            "отце",
+            "отцу"
+          ],
+          "answer": "отца",
+          "hint": "Possession = genitive",
+          "explanation": "Possession uses genitive: отец → отца."
+        },
+        {
+          "prompt": "Стакан _____. (A glass of water.)",
+          "promptEnglish": "A glass of water.",
+          "options": [
+            "воду",
+            "воде",
+            "воды",
+            "вода"
+          ],
+          "answer": "воды",
+          "hint": "'Of' = genitive",
+          "explanation": "Genitive shows 'of what': вода → воды."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Он пришёл без _____. (He came without a coat.)",
+          "promptEnglish": "He came without a coat.",
+          "options": [
+            "пальта",
+            "пальте",
+            "пальто",
+            "пальту"
+          ],
+          "answer": "пальто",
+          "hint": "Neuter nouns: genitive = -а, but пальто is indeclinable",
+          "explanation": "Пальто is indeclinable (foreign word) - it never changes form."
+        },
+        {
+          "prompt": "Дом _____. (The teacher's house.)",
+          "promptEnglish": "The teacher's house.",
+          "options": [
+            "учителе",
+            "учитель",
+            "учителю",
+            "учителя"
+          ],
+          "answer": "учителя",
+          "hint": "Soft sign masculine: -ь → -я",
+          "explanation": "Masculine -ь nouns: учитель → учителя in genitive."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Чашка _____. (A cup of tea.)"
+    ],
+    "choices": [
+      "чая",
+      "чай",
+      "чаю",
+      "чае"
+    ],
+    "answers": [
+      "чая"
+    ],
+    "grammarFocus": "Genitive for 'of' (container of something)",
+    "hints": [
+      "A cup 'of' something uses genitive case. What is the genitive of чай?"
+    ],
+    "explanations": [
+      "Чашка чего? (A cup of what?) requires genitive. Masculine чай takes the ending -я in genitive: чая."
+    ],
+    "options": [
+      [
+        "чая",
+        "чай",
+        "чаю",
+        "чаем"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "У меня есть _____. (I have a sister.)",
+      "contextEnglish": "I have a sister.",
+      "options": [
+        "сестра",
+        "сестры"
+      ],
+      "answer": "сестра",
+      "explanation": "After есть, use nominative: сестра."
+    },
+    {
+      "context": "У меня нет _____. (I don't have a sister.)",
+      "contextEnglish": "I don't have a sister.",
+      "options": [
+        "сестры",
+        "сестра"
+      ],
+      "answer": "сестры",
+      "explanation": "After нет, use genitive: сестра → сестры."
+    },
+    {
+      "context": "Это книга _____. (This is Anna's book.)",
+      "contextEnglish": "This is Anna's book.",
+      "options": [
+        "Анны",
+        "Анна"
+      ],
+      "answer": "Анны",
+      "explanation": "Possession requires genitive: Анна → Анны."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: Nominative or Genitive form?",
+    "categories": [
+      "Nominative",
+      "Genitive"
+    ],
+    "items": [
+      {
+        "word": "студент",
+        "category": "Nominative"
+      },
+      {
+        "word": "студента",
+        "category": "Genitive"
+      },
+      {
+        "word": "книга",
+        "category": "Nominative"
+      },
+      {
+        "word": "книги",
+        "category": "Genitive"
+      },
+      {
+        "word": "окно",
+        "category": "Nominative"
+      },
+      {
+        "word": "окна",
+        "category": "Genitive"
+      },
+      {
+        "word": "учитель",
+        "category": "Nominative"
+      },
+      {
+        "word": "учителя",
+        "category": "Genitive"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "родительный падеж",
+      "definition": "genitive case",
+      "example": "Кого? Чего? — родительный падеж."
+    },
+    {
+      "term": "нет + род. падеж",
+      "definition": "no / don't have + genitive",
+      "example": "У меня нет брата."
+    },
+    {
+      "term": "много + род. падеж",
+      "definition": "many/much + genitive",
+      "example": "Много студентов."
+    },
+    {
+      "term": "из, от, до, без, для",
+      "definition": "prepositions taking genitive",
+      "example": "Из магазина, без воды, для друга."
+    }
+  ]
+}

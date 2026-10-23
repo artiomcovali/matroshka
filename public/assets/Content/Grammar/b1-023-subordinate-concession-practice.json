@@ -1,0 +1,486 @@
+{
+  "lessonId": "b1-023-subordinate-concession",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Which Concessive?",
+      "titleRussian": "Какой уступительный союз?",
+      "description": "Choose the correct concessive conjunction",
+      "descriptionRussian": "Выберите правильный уступительный союз",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ было поздно, она продолжала работать. (Although it was late, she kept working.)",
+              "promptEnglish": "Although it was late, she kept working.",
+              "options": [
+                "Хотя",
+                "Потому что",
+                "Если",
+                "Когда"
+              ],
+              "answer": "Хотя",
+              "hint": "Although/despite = хотя.",
+              "explanation": "Concession: хотя было поздно (although). Unexpected result follows."
+            },
+            {
+              "prompt": "_____ дождь, мы пошли на прогулку. (Despite the rain, we went for a walk.)",
+              "promptEnglish": "Despite the rain, we went for a walk.",
+              "options": [
+                "Несмотря на то что",
+                "Из-за",
+                "Несмотря на",
+                "Благодаря"
+              ],
+              "answer": "Несмотря на",
+              "hint": "Despite + noun (no clause) = несмотря на + accusative.",
+              "explanation": "Несмотря на + accusative noun: несмотря на дождь (despite the rain)."
+            },
+            {
+              "prompt": "Хотя он устал, он _____ пошёл на тренировку. (Although tired, he still went to practice.)",
+              "promptEnglish": "Although he was tired, he went to practice anyway.",
+              "options": [
+                "всё равно",
+                "поэтому",
+                "потому что",
+                "тоже"
+              ],
+              "answer": "всё равно",
+              "hint": "Still/anyway (emphasizing the unexpected) = всё равно.",
+              "explanation": "Всё равно in the main clause emphasizes doing something despite the obstacle."
+            },
+            {
+              "prompt": "_____ шёл сильный дождь, матч не отменили. (Despite the fact that it was raining hard...)",
+              "promptEnglish": "Despite the fact that it was raining hard, the match wasn't canceled.",
+              "options": [
+                "Несмотря на",
+                "Хотя",
+                "Несмотря на то что",
+                "Потому что"
+              ],
+              "answer": "Несмотря на то что",
+              "hint": "Despite the fact that + full clause = несмотря на то что.",
+              "explanation": "Несмотря на то что + clause (formal): despite the fact that it rained."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ трудности, они добились успеха. (Despite the difficulties...)",
+              "promptEnglish": "Despite the difficulties, they achieved success.",
+              "options": [
+                "Хотя",
+                "Из-за",
+                "Благодаря",
+                "Несмотря на"
+              ],
+              "answer": "Несмотря на",
+              "hint": "Despite + noun = несмотря на + accusative.",
+              "explanation": "Несмотря на трудности (acc): despite the difficulties (noun, not clause)."
+            },
+            {
+              "prompt": "_____ он не любит рыбу, он съел всё. (Although he doesn't like fish...)",
+              "promptEnglish": "Although he doesn't like fish, he ate everything.",
+              "options": [
+                "Потому что",
+                "Хотя",
+                "Когда",
+                "Если"
+              ],
+              "answer": "Хотя",
+              "hint": "Although + clause = хотя.",
+              "explanation": "Хотя он не любит рыбу: although (concession with a full clause)."
+            },
+            {
+              "prompt": "Мне не нравится эта работа, но я _____ делаю её. (I don't like this work, but I do it anyway.)",
+              "promptEnglish": "I don't like this work, but I do it anyway.",
+              "options": [
+                "тоже",
+                "поэтому",
+                "всё равно",
+                "потому что"
+              ],
+              "answer": "всё равно",
+              "hint": "Anyway/still = всё равно.",
+              "explanation": "Всё равно: I do it anyway (despite not liking it)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ он болен, он пришёл на работу. (unexpected action despite illness)",
+          "contextEnglish": "He came to work even though he's sick.",
+          "options": [
+            "Хотя",
+            "Потому что"
+          ],
+          "answer": "Хотя",
+          "explanation": "Хотя = although (concession). He came DESPITE being sick. Потому что would mean he came BECAUSE of illness."
+        },
+        {
+          "context": "Он не пришёл на работу, _____ он болен. (reason for absence)",
+          "contextEnglish": "He didn't come to work because he's sick.",
+          "options": [
+            "хотя",
+            "потому что"
+          ],
+          "answer": "потому что",
+          "explanation": "Потому что = because (cause). His illness is the REASON he didn't come."
+        },
+        {
+          "context": "_____ опыт, она получила работу. (the experience was helpful)",
+          "contextEnglish": "Thanks to her experience, she got the job.",
+          "options": [
+            "Несмотря на",
+            "Благодаря"
+          ],
+          "answer": "Благодаря",
+          "explanation": "Благодаря = thanks to (positive cause). Her experience helped, not hindered."
+        },
+        {
+          "context": "_____ отсутствие опыта, она получила работу. (lack of experience didn't stop her)",
+          "contextEnglish": "Despite her lack of experience, she got the job.",
+          "options": [
+            "Несмотря на",
+            "Благодаря"
+          ],
+          "answer": "Несмотря на",
+          "explanation": "Несмотря на = despite (concession). She got the job even though she lacked experience."
+        }
+      ]
+    },
+    {
+      "id": "round-4-error-build",
+      "title": "Fix and Build",
+      "titleRussian": "Исправление и построение",
+      "description": "Fix errors in concessive sentences and build correct ones",
+      "descriptionRussian": "Исправьте ошибки и постройте уступительные предложения",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Несмотря на что было поздно, мы гуляли.",
+          "error": "на",
+          "correction": "на то",
+          "hint": "The full form is 'несмотря на ТО что' (despite THE FACT that).",
+          "explanation": "Несмотря на то что: the то is required before что in this construction.",
+          "options": [
+            "на то",
+            "на то что",
+            "о том",
+            "на это"
+          ]
+        },
+        {
+          "sentence": "Несмотря на он устал, он работал.",
+          "error": "на",
+          "correction": "на то что",
+          "hint": "Before a clause (он устал), use несмотря на то что.",
+          "explanation": "Несмотря на то что он устал: full clause needs 'на то что,' not just 'на.'",
+          "options": [
+            "на то что",
+            "на то",
+            "то что"
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ он не готовился, он сдал экзамен. (Although he didn't prepare...)",
+          "_____ плохую погоду, концерт состоялся. (Despite the bad weather...)",
+          "Она не согласна, но _____ поможет. (She disagrees but will help anyway.)"
+        ],
+        "choices": [
+          "Хотя",
+          "Несмотря на",
+          "всё равно"
+        ],
+        "answers": [
+          "Хотя",
+          "Несмотря на",
+          "всё равно"
+        ],
+        "grammarFocus": "Хотя (+ clause) vs несмотря на (+ acc noun) vs всё равно (in main clause)",
+        "hints": [
+          "Although + full clause = хотя.",
+          "Despite + noun (bad weather, acc) = несмотря на.",
+          "Anyway/still in the main clause = всё равно."
+        ],
+        "explanations": [
+          "Хотя он не готовился: although + clause (subject + verb).",
+          "Несмотря на плохую погоду: despite + accusative noun.",
+          "Всё равно поможет: she'll help anyway (emphasizes the unexpected action)."
+        ],
+        "options": [
+          [
+            "Несмотря на",
+            "Если",
+            "Потому что",
+            "Хотя"
+          ],
+          [
+            "Хотя",
+            "Благодаря",
+            "Несмотря на",
+            "Из-за"
+          ],
+          [
+            "зато",
+            "поэтому",
+            "тем не менее",
+            "всё равно"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "categories": [
+          "хотя + clause",
+          "несмотря на + noun",
+          "несмотря на то что + clause"
+        ],
+        "items": [
+          {
+            "text": "Хотя я устал, я работал.",
+            "category": "хотя + clause"
+          },
+          {
+            "text": "Несмотря на усталость, я работал.",
+            "category": "несмотря на + noun"
+          },
+          {
+            "text": "Несмотря на то что я устал, я работал.",
+            "category": "несмотря на то что + clause"
+          },
+          {
+            "text": "Хотя было холодно, мы гуляли.",
+            "category": "хотя + clause"
+          },
+          {
+            "text": "Несмотря на холод, мы гуляли.",
+            "category": "несмотря на + noun"
+          },
+          {
+            "text": "Несмотря на то что было холодно, мы гуляли.",
+            "category": "несмотря на то что + clause"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "prompt": "Although she is young, she is very smart.",
+          "answer": "Хотя она молодая, она очень умная.",
+          "hint": "Although + clause = хотя.",
+          "explanation": "Хотя она молодая, она очень умная. Simple concession with хотя.",
+          "keyWord": "Хотя",
+          "options": [
+            "Хотя",
+            "Несмотря на",
+            "Потому что",
+            "Если"
+          ]
+        },
+        {
+          "prompt": "Despite his age, he runs every morning.",
+          "answer": "Несмотря на возраст, он бегает каждое утро.",
+          "hint": "Despite + noun = несмотря на + accusative. Возраст (masc, acc = nom).",
+          "explanation": "Несмотря на возраст: despite his age (noun in accusative).",
+          "keyWord": "Несмотря",
+          "options": [
+            "Несмотря",
+            "Хотя",
+            "Благодаря",
+            "Из-за"
+          ]
+        },
+        {
+          "prompt": "I don't like it, but I'll do it anyway.",
+          "answer": "Мне это не нравится, но я всё равно это сделаю.",
+          "hint": "Anyway = всё равно in the main clause.",
+          "explanation": "Всё равно: I'll do it anyway. Used with но for 'but still.'",
+          "keyWord": "всё равно",
+          "options": [
+            "всё равно",
+            "поэтому",
+            "потому что",
+            "тоже"
+          ]
+        },
+        {
+          "prompt": "Although it was expensive, the restaurant was worth it.",
+          "answer": "Хотя было дорого, ресторан того стоил.",
+          "hint": "Хотя + clause (impersonal: было дорого).",
+          "explanation": "Хотя было дорого: concession. Того стоил = was worth it.",
+          "keyWord": "Хотя",
+          "options": [
+            "Хотя",
+            "Несмотря на",
+            "Когда",
+            "Потому что"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Финальное задание",
+      "description": "All concessive constructions mixed together",
+      "descriptionRussian": "Все уступительные конструкции вперемешку",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which is MORE formal?",
+              "promptEnglish": "Which construction is more formal/literary?",
+              "options": [
+                "Хотя было поздно, мы работали.",
+                "Несмотря на то что было поздно, мы работали.",
+                "Было поздно, но мы всё равно работали."
+              ],
+              "answer": "Несмотря на то что было поздно, мы работали.",
+              "hint": "Несмотря на то что is the most formal/bookish concessive.",
+              "explanation": "Несмотря на то что is formal/written style. Хотя is neutral. Всё равно is most conversational."
+            },
+            {
+              "prompt": "_____ плохие оценки, он поступил в университет. (Despite bad grades...)",
+              "promptEnglish": "Despite his bad grades, he got into university.",
+              "options": [
+                "Хотя",
+                "Несмотря на",
+                "Благодаря",
+                "Из-за"
+              ],
+              "answer": "Несмотря на",
+              "hint": "Despite + noun (bad grades) = несмотря на.",
+              "explanation": "Несмотря на плохие оценки (acc): despite + noun. Хотя would need a clause."
+            },
+            {
+              "prompt": "Она не хотела, но _____ согласилась. (She didn't want to, but agreed anyway.)",
+              "promptEnglish": "She didn't want to, but she agreed anyway.",
+              "options": [
+                "поэтому",
+                "потому что",
+                "тоже",
+                "всё равно"
+              ],
+              "answer": "всё равно",
+              "hint": "Anyway/still = всё равно (concessive emphasis).",
+              "explanation": "Всё равно: she agreed anyway, despite not wanting to."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ он всё объяснил, я не понял. (Although he explained everything...)",
+              "promptEnglish": "Although he explained everything, I still didn't understand.",
+              "options": [
+                "Когда",
+                "Потому что",
+                "Если",
+                "Хотя"
+              ],
+              "answer": "Хотя",
+              "hint": "Although + clause = хотя.",
+              "explanation": "Хотя он всё объяснил: although (unexpected - he explained but I still didn't get it)."
+            },
+            {
+              "prompt": "Какая разница между «благодаря» и «несмотря на»?",
+              "promptEnglish": "What is the difference between благодаря and несмотря на?",
+              "options": [
+                "No difference",
+                "Благодаря = thanks to (positive cause); несмотря на = despite (obstacle)",
+                "Благодаря = formal; несмотря на = informal",
+                "Благодаря + dative; несмотря на + genitive"
+              ],
+              "answer": "Благодаря = thanks to (positive cause); несмотря на = despite (obstacle)",
+              "hint": "One marks a positive cause, the other marks an obstacle that didn't prevent the result.",
+              "explanation": "Благодаря опыту = thanks to experience (helped). Несмотря на трудности = despite difficulties (didn't prevent)."
+            },
+            {
+              "prompt": "_____ на то что магазин был закрыт, мы нашли другой. (Despite the fact that the store was closed...)",
+              "promptEnglish": "Despite the fact that the store was closed, we found another one.",
+              "options": [
+                "Хотя",
+                "Потому",
+                "Несмотря",
+                "Из-за"
+              ],
+              "answer": "Несмотря",
+              "hint": "Несмотря на то что = despite the fact that.",
+              "explanation": "Несмотря на то что + clause: formal concession. The 'на то что' follows."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Хотя он устал, он работал. / Несмотря на усталость, он работал. / Несмотря на то что он устал, он работал.",
+          "question": "What is the difference between these three sentences?",
+          "options": [
+            "They have different meanings",
+            "Same meaning, different constructions: хотя + clause, несмотря на + noun, несмотря на то что + clause",
+            "First is correct, the others are wrong"
+          ],
+          "answer": "Same meaning, different constructions: хотя + clause, несмотря на + noun, несмотря на то что + clause",
+          "explanation": "All three express 'although he was tired.' Хотя (neutral), несмотря на + noun (concise), несмотря на то что + clause (formal)."
+        },
+        {
+          "sentence": "Хотя он болен, он пришёл. / Он болен, но всё равно пришёл.",
+          "question": "How do these differ stylistically?",
+          "options": [
+            "First = subordinate clause with хотя; second = two main clauses with но + всё равно (more conversational)",
+            "They are identical",
+            "First is formal, second is incorrect"
+          ],
+          "answer": "First = subordinate clause with хотя; second = two main clauses with но + всё равно (more conversational)",
+          "explanation": "Хотя creates subordination (literary). Но + всё равно uses coordination (conversational). Same meaning, different register."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ дождь, мы пошли гулять. (Despite the rain...)",
+          "_____ было темно, она не боялась. (Although it was dark...)"
+        ],
+        "choices": [
+          "Несмотря на",
+          "Хотя"
+        ],
+        "answers": [
+          "Несмотря на",
+          "Хотя"
+        ],
+        "grammarFocus": "Несмотря на + noun vs хотя + clause",
+        "hints": [
+          "Дождь is a noun = несмотря на + accusative.",
+          "Было темно is a clause = хотя."
+        ],
+        "explanations": [
+          "Несмотря на дождь: despite + noun (accusative).",
+          "Хотя было темно: although + clause."
+        ],
+        "options": [
+          [
+            "Несмотря на",
+            "Хотя",
+            "Из-за",
+            "Вопреки"
+          ],
+          [
+            "Хотя",
+            "Потому что",
+            "Если",
+            "Несмотря на то что"
+          ]
+        ]
+      }
+    }
+  ]
+}

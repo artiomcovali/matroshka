@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-018",
+  "title": "The Bad Grooming",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Your dog's haircut is terrible - get a refund from the defensive groomer",
+  "imageName": "pawprint.fill",
+  "initialPrompt": "Ваша собака готова! Красиво, правда? С вас 2000 рублей.",
+  "systemPrompt": "You are a dog groomer. The cut is uneven but you deny it. Offer to fix it for free only if customer is persistent. Refund only if they threaten to post bad review. Keep replies short.",
+  "completionCriteria": "User got free fix, partial refund, or firm apology.",
+  "responseLimit": 15,
+  "hints": [
+    "Посмотрите, здесь неровно (Look, it's uneven here)",
+    "Я хочу возврат денег (I want a refund)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "стрижка",
+      "definition": "haircut"
+    },
+    {
+      "word": "неровно",
+      "definition": "uneven"
+    },
+    {
+      "word": "возврат",
+      "definition": "refund"
+    },
+    {
+      "word": "исправить",
+      "definition": "to fix"
+    },
+    {
+      "word": "собака",
+      "definition": "dog"
+    },
+    {
+      "word": "жалоба",
+      "definition": "complaint"
+    }
+  ],
+  "objectives": [
+    "Point out the uneven cut",
+    "Reject their defense",
+    "Request a fix or refund",
+    "Escalate if needed",
+    "Get satisfactory resolution"
+  ]
+}

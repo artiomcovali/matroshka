@@ -1,0 +1,313 @@
+{
+  "id": "a1-track-accusative-03-mixed-inanimate",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Accusative 3: Two Kinds of WHAT",
+  "titleRussian": "Винительный 3: Два вида ЧТО",
+  "description": "Combine masculine inanimate (no change) and feminine (-а/-я → -у/-ю).",
+  "descriptionRussian": "Объединяем мужской неодушевлённый (без изменений) и женский (-а/-я → -у/-ю).",
+  "imageName": "arrow.triangle.merge",
+  "trackId": "a1-accusative-mastery",
+  "trackTitle": "Accusative Mastery",
+  "trackTitleRussian": "Винительный падеж",
+  "trackIndex": 3,
+  "trackTotal": 8,
+  "intro": "Knowing two rules separately is not the same as holding both at once. Until now each lesson told you which kind of noun you were looking at. Here nobody tells you. The work shifts from applying a rule to choosing between rules, which is the harder half and the one that actually shows up when you speak. Nothing new is taught today. What is being built is speed.",
+  "rules": [
+    "First, identify the gender of the noun. A consonant ending usually means masculine; an -а or -я ending usually means feminine.",
+    "If the noun is masculine inanimate, do nothing: журнал → журнал, дом → дом, телефон → телефон.",
+    "If the noun is feminine, swap the ending: -а → -у (книга → книгу) or -я → -ю (песня → песню)."
+  ],
+  "examples": [
+    "Маша читает журнал. (Masha is reading a magazine.) журнал → журнал, no change.",
+    "Маша читает книгу. (Masha is reading a book.) книга → книгу, -а → -у.",
+    "Антон смотрит фильм. (Anton is watching a film.) фильм → фильм, no change.",
+    "Соня смотрит телевизор. (Sonya is watching TV.) телевизор → телевизор, no change.",
+    "Лена ест пиццу. (Lena is eating pizza.) пицца → пиццу, -а → -у.",
+    "Я слушаю песню. (I am listening to a song.) песня → песню, -я → -ю."
+  ],
+  "tables": [
+    {
+      "title": "Two Rules at a Glance",
+      "headers": [
+        "Что? (Nominative)",
+        "Gender",
+        "Что? (Accusative)",
+        "Change"
+      ],
+      "rows": [
+        {
+          "label": "журнал",
+          "cells": [
+            "masculine",
+            "журнал",
+            "no change"
+          ]
+        },
+        {
+          "label": "книга",
+          "cells": [
+            "feminine",
+            "книгу",
+            "-а → -у"
+          ]
+        },
+        {
+          "label": "телефон",
+          "cells": [
+            "masculine",
+            "телефон",
+            "no change"
+          ]
+        },
+        {
+          "label": "газета",
+          "cells": [
+            "feminine",
+            "газету",
+            "-а → -у"
+          ]
+        },
+        {
+          "label": "фильм",
+          "cells": [
+            "masculine",
+            "фильм",
+            "no change"
+          ]
+        },
+        {
+          "label": "песня",
+          "cells": [
+            "feminine",
+            "песню",
+            "-я → -ю"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Маша читает _____.",
+          "promptEnglish": "Masha is reading a book.",
+          "options": [
+            "книгу",
+            "книга",
+            "книги",
+            "книге"
+          ],
+          "answer": "книгу",
+          "hint": "Книга ends in -а. What does -а become in the accusative?",
+          "explanation": "Книга is feminine. The -а ending swaps to -у in the accusative: книгу. This is the rule from Lesson 2."
+        },
+        {
+          "prompt": "Антон читает _____.",
+          "promptEnglish": "Anton is reading a magazine.",
+          "options": [
+            "журнала",
+            "журналу",
+            "журнал",
+            "журналом"
+          ],
+          "answer": "журнал",
+          "hint": "Журнал ends in a consonant. What gender is it, and what is the rule?",
+          "explanation": "Журнал ends in a consonant, a clue that it is masculine. Masculine inanimate nouns keep the same form in the accusative: журнал."
+        },
+        {
+          "prompt": "Я слушаю _____.",
+          "promptEnglish": "I am listening to a song.",
+          "options": [
+            "песня",
+            "песню",
+            "песне",
+            "песней"
+          ],
+          "answer": "песню",
+          "hint": "The -я ending tells you the gender. Which rule applies here?",
+          "explanation": "Песня ends in -я, which signals feminine. The accusative for feminine -я words swaps the ending to -ю: песню."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Лена ищет _____.",
+          "promptEnglish": "Lena is looking for the phone.",
+          "options": [
+            "телефона",
+            "телефону",
+            "телефоном",
+            "телефон"
+          ],
+          "answer": "телефон",
+          "hint": "Is телефон a thing or a person? Which rule applies to things ending in a consonant?",
+          "explanation": "Телефон is an object, and it ends in a consonant. The masculine inanimate rule applies, so the accusative form is identical to the dictionary form: телефон."
+        },
+        {
+          "prompt": "Папа покупает _____.",
+          "promptEnglish": "Dad is buying a newspaper.",
+          "options": [
+            "газету",
+            "газета",
+            "газеты",
+            "газетой"
+          ],
+          "answer": "газету",
+          "hint": "Spot the ending of газета. Then choose between the two rules.",
+          "explanation": "Газета ends in -а, so it is feminine. The contrast with masculine words like журнал is exactly what this lesson is about: feminine -а must change to -у, giving газету."
+        },
+        {
+          "prompt": "Соня смотрит _____.",
+          "promptEnglish": "Sonya is watching a film.",
+          "options": [
+            "фильма",
+            "фильму",
+            "фильм",
+            "фильмом"
+          ],
+          "answer": "фильм",
+          "hint": "If you replaced this noun with a feminine one, the ending would change. Does it change here?",
+          "explanation": "Фильм is masculine inanimate, so no change. Compare with a feminine direct object like книгу or песню, where the ending does change. Spotting which rule to apply is today's whole skill."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша водит _____. (Masha drives a car.)"
+    ],
+    "choices": [
+      "машина",
+      "машину",
+      "машины",
+      "машине"
+    ],
+    "answers": [
+      "машину"
+    ],
+    "grammarFocus": "Машина is feminine ending in -а, so the accusative is машину. Choose the form by gender, not by guesswork."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Маша часто слушает музыка перед сном.",
+      "translationEnglish": "Masha often listens to music before bed.",
+      "error": "музыка",
+      "correction": "музыку",
+      "options": [
+        "музыку",
+        "музыки",
+        "музыкой"
+      ],
+      "explanation": "Музыка is feminine ending in -а, so the accusative swaps -а → -у: музыку. Музыка in the sentence is the nominative form, which Russian uses for subjects, not direct objects. The feminine -а → -у rule is the same one from Lesson 2."
+    },
+    {
+      "sentence": "Антон утром читает рассказа за чашкой кофе.",
+      "translationEnglish": "In the morning Anton reads a story over a cup of coffee.",
+      "error": "рассказа",
+      "correction": "рассказ",
+      "options": [
+        "рассказ",
+        "рассказу",
+        "рассказе"
+      ],
+      "explanation": "Рассказ is masculine inanimate, so the accusative is identical to the nominative: рассказ. Рассказа is the genitive (у меня нет рассказа); the accusative would match it only for an animate noun, and a story is not alive."
+    },
+    {
+      "sentence": "Я очень люблю горячий чая с лимоном.",
+      "translationEnglish": "I really love hot tea with lemon.",
+      "error": "чая",
+      "correction": "чай",
+      "options": [
+        "чай",
+        "чаю",
+        "чаем"
+      ],
+      "explanation": "Чай is masculine inanimate; its accusative is just чай, identical to the nominative. Чая is the genitive ('у меня нет чая'), not the direct-object form."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Лена ест _____.",
+      "contextEnglish": "Lena is eating pizza.",
+      "options": [
+        "пицца",
+        "пиццу"
+      ],
+      "answer": "пиццу",
+      "explanation": "Пицца is feminine ending in -а, and it is the direct object of ест, so it must be in the accusative: пиццу. Пицца is the nominative form, used when the noun is the subject ('Пицца на столе')."
+    },
+    {
+      "context": "Соня смотрит _____.",
+      "contextEnglish": "Sonya is watching TV.",
+      "options": [
+        "телевизор",
+        "телевизора"
+      ],
+      "answer": "телевизор",
+      "explanation": "Телевизор is masculine inanimate, so the accusative is identical to the nominative: телевизор. Телевизора is the genitive form, used in sentences like 'У меня нет телевизора' (I don't have a TV)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort these nouns by what happens to them in the accusative.",
+    "categories": [
+      "Changes (feminine)",
+      "Doesn't change (masculine inanimate)"
+    ],
+    "items": [
+      {
+        "word": "книга",
+        "category": "Changes (feminine)"
+      },
+      {
+        "word": "дом",
+        "category": "Doesn't change (masculine inanimate)"
+      },
+      {
+        "word": "песня",
+        "category": "Changes (feminine)"
+      },
+      {
+        "word": "хлеб",
+        "category": "Doesn't change (masculine inanimate)"
+      },
+      {
+        "word": "школа",
+        "category": "Changes (feminine)"
+      },
+      {
+        "word": "компьютер",
+        "category": "Doesn't change (masculine inanimate)"
+      },
+      {
+        "word": "кухня",
+        "category": "Changes (feminine)"
+      },
+      {
+        "word": "сок",
+        "category": "Doesn't change (masculine inanimate)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "род",
+      "definition": "gender (of a noun)",
+      "example": "Журнал — мужской род. Книга — женский род."
+    },
+    {
+      "term": "мужской род",
+      "definition": "masculine gender",
+      "example": "Дом, телефон, фильм — это мужской род."
+    },
+    {
+      "term": "женский род",
+      "definition": "feminine gender",
+      "example": "Книга, школа, песня — это женский род."
+    }
+  ]
+}

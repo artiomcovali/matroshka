@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-022",
+  "title": "Illegal Lease Terms",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Landlord is using illegal terms in your lease",
+  "imageName": "building.2.fill",
+  "initialPrompt": "Вы должны платить за ремонт труб. Это в договоре. И депозит не возвращается.",
+  "systemPrompt": "You are a landlord with illegal lease terms. Insist terms are valid. Back down only if tenant cites specific housing laws or mentions lawyer/housing authority. Keep replies short.",
+  "completionCriteria": "User got illegal terms removed or reported violation.",
+  "responseLimit": 15,
+  "hints": [
+    "Это противоречит закону (This contradicts the law)",
+    "Я обращусь в жилищную инспекцию (I'll contact housing inspection)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "договор",
+      "definition": "contract/lease"
+    },
+    {
+      "word": "незаконный",
+      "definition": "illegal"
+    },
+    {
+      "word": "права",
+      "definition": "rights"
+    },
+    {
+      "word": "депозит",
+      "definition": "deposit"
+    },
+    {
+      "word": "инспекция",
+      "definition": "inspection"
+    },
+    {
+      "word": "закон",
+      "definition": "law"
+    }
+  ],
+  "objectives": [
+    "Identify illegal terms",
+    "Cite housing laws",
+    "Refuse illegal demands",
+    "Threaten authorities",
+    "Get terms corrected"
+  ]
+}

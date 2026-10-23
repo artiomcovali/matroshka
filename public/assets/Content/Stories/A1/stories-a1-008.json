@@ -1,0 +1,178 @@
+{
+  "id": "a1-008",
+  "level": "A1",
+  "narrator": "Пряник",
+  "title": "Мой друг Пряник",
+  "titleEnglish": "My Friend Pryanik",
+  "description": "Маша рассказывает о своей собаке.",
+  "imageName": "pawprint.fill",
+  "fullText": "У меня есть собака. Его зовут Пряник. Он коричневый и пушистый. Почему Пряник? Потому что он тёплого коричневого цвета, как пряник! Пряник много спит и много ест. Он очень любит гулять. Каждый день мы гуляем в парке. Пряник — это мой лучший друг. Я очень люблю его!",
+  "reviewVocab": [
+    {
+      "word": "собака",
+      "definition": "dog",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "собака",
+        "собаки",
+        "собаке",
+        "собаку"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "пушистый",
+      "definition": "fluffy",
+      "partOfSpeech": "adjective",
+      "forms": [
+        "пушистый",
+        "пушистая",
+        "пушистое"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "гулять",
+      "definition": "to walk, to take a walk",
+      "partOfSpeech": "verb (impf)",
+      "forms": [
+        "гуляю",
+        "гуляешь",
+        "гуляет",
+        "гуляем"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "друг",
+      "definition": "friend",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "друг",
+        "друга",
+        "другу",
+        "друзья"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Как зовут собаку Маши?",
+      "options": [
+        "Пряник",
+        "Шарик",
+        "Бобик"
+      ],
+      "correctIndex": 0,
+      "explanation": "Собаку Маши зовут Пряник."
+    },
+    {
+      "prompt": "Какого цвета Пряник?",
+      "options": [
+        "Коричневый",
+        "Чёрный",
+        "Белый"
+      ],
+      "correctIndex": 0,
+      "explanation": "Пряник коричневого цвета."
+    },
+    {
+      "prompt": "Почему собаку зовут Пряник?",
+      "options": [
+        "Он любит есть пряники",
+        "Он сладкий",
+        "Он тёплого коричневого цвета"
+      ],
+      "correctIndex": 2,
+      "explanation": "Его зовут Пряник, потому что он тёплого коричневого цвета."
+    },
+    {
+      "prompt": "Что любит делать Пряник?",
+      "options": [
+        "Гулять",
+        "Плавать",
+        "Бегать"
+      ],
+      "correctIndex": 0,
+      "explanation": "Пряник очень любит гулять."
+    },
+    {
+      "prompt": "Где Маша и Пряник гуляют?",
+      "options": [
+        "На улице",
+        "В парке",
+        "В лесу"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша и Пряник гуляют в парке."
+    },
+    {
+      "prompt": "Кто Пряник для Маши?",
+      "options": [
+        "Лучший друг",
+        "Проблема",
+        "Просто собака"
+      ],
+      "correctIndex": 0,
+      "explanation": "Пряник — это лучший друг Маши."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "У меня есть _____.",
+      "Он коричневый и _____.",
+      "Пряник много _____.",
+      "Он очень любит _____.",
+      "Пряник — это мой лучший _____."
+    ],
+    "choices": [
+      "собака",
+      "пушистый",
+      "спит",
+      "гулять",
+      "друг",
+      "ест",
+      "парк"
+    ],
+    "answers": [
+      "собака",
+      "пушистый",
+      "спит",
+      "гулять",
+      "друг"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "What gender is the word 'собака'?",
+      "options": [
+        "Masculine",
+        "Feminine",
+        "Neuter"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "gender",
+      "sentenceRef": "У Маши есть собака.",
+      "explanation": "'Собака' ends in -а, so it's grammatically feminine, even for a male dog. We say 'моя собака' (my dog) regardless of the dog's gender. Similarly, 'папа' (dad) ends in -а but means a male person.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "How do you say 'every day' in Russian?",
+      "options": [
+        "каждый день",
+        "всегда день",
+        "один день"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "phrases",
+      "sentenceRef": "Каждый день они гуляют в парке.",
+      "explanation": "'Каждый день' means 'every day'. 'Каждый' changes by gender: каждый день (m., every day), каждая неделя (f., every week), каждое утро (n., every morning).",
+      "focusArea": "sentenceStructure"
+    }
+  ],
+  "audioFile": "a1-008.m4a",
+  "audioTimingFile": "a1-008-timing.json"
+}

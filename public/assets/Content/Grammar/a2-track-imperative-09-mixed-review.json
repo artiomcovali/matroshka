@@ -1,0 +1,415 @@
+{
+  "id": "a2-track-imperative-09-mixed-review",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Imperative 9: Mixed Review (Name the Step)",
+  "titleRussian": "Повелительное наклонение 9: повторение — назови шаг",
+  "description": "The finisher for the Imperative track. Everything from formation and aspect to negation, давай / давайте, and softeners comes back together. The main skill today is naming which step decided each form.",
+  "descriptionRussian": "Завершающий урок трека «Повелительное наклонение». Здесь снова встречаются образование форм, вид, отрицание, давай / давайте и смягчители. Главное задание — назвать, какой шаг решил, какая форма нужна.",
+  "imageName": "exclamationmark.bubble",
+  "trackId": "a2-imperative-mastery",
+  "trackTitle": "Imperative Mastery",
+  "trackTitleRussian": "Повелительное наклонение",
+  "trackIndex": 9,
+  "trackTotal": 9,
+  "intro": "Four questions and you have the form. Positive or negative, because that flips the aspect default. Habit or one result, which the cue word usually settles. Ты or вы, which decides whether the ending takes its extra syllable. And whether this is a command at all or a suggestion, which changes the shape entirely.",
+  "rules": [
+    "First ask: positive or negative? Positive uses the perfective for one action and the imperfective for a habit; negative flips to the imperfective for a flat ban and the perfective only for a 'careful, you might...' warning.",
+    "Then read the aspect cue: a habit or process word picks the imperfective; a one-time word with a result picks the perfective.",
+    "For a 'let's' suggestion use давай (one friend) or давайте (group or polite) plus an imperfective infinitive (давай читать) or a 'we' perfective form (давай прочитаем).",
+    "Choose ты or вы: one friend gets the short form (читай); a group or a polite вы gets the -те form (читайте), and a softener like пожалуйста signals the polite -те form."
+  ],
+  "examples": [
+    "Читай каждый день! (Read every day!) Step 2: habit cue каждый день → imperfective читай.",
+    "Прочитай эту книгу до завтра! (Read this book by tomorrow!) Step 2: one book + deadline → perfective прочитай.",
+    "Не забудь зонт! (Don't forget the umbrella!) Steps 1 and 2: warning under не → perfective забудь.",
+    "Давайте сделаем перерыв! (Let's take a break!) Step 3: 'let's' + one action → давайте + перфектив сделаем.",
+    "Откройте окно, пожалуйста. (Open the window, please.) Step 4: пожалуйста signals polite вы → -те form откройте.",
+    "Говори громче! (Speak louder!) Step 5: consonant stem говор-, stressed я-form говорю́ → -и: говори."
+  ],
+  "tables": [
+    {
+      "title": "Five Steps to the Right Command",
+      "headers": [
+        "Step",
+        "Ask",
+        "Decides"
+      ],
+      "rows": [
+        {
+          "label": "1",
+          "cells": [
+            "Positive or negative?",
+            "Which way aspect leans"
+          ]
+        },
+        {
+          "label": "2",
+          "cells": [
+            "Habit / process, or one action?",
+            "Imperfective or perfective"
+          ]
+        },
+        {
+          "label": "3",
+          "cells": [
+            "A 'let's' suggestion?",
+            "Use давай / давайте"
+          ]
+        },
+        {
+          "label": "4",
+          "cells": [
+            "One friend (ты) or group / polite (вы)?",
+            "Short form or -те form"
+          ]
+        },
+        {
+          "label": "5",
+          "cells": [
+            "What does the stem end in?",
+            "Suffix -й / -и / -ь"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Aspect at a Glance (Positive vs Negative)",
+      "headers": [
+        "Situation",
+        "Aspect",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Positive, one action",
+          "cells": [
+            "Perfective",
+            "Купи молоко!"
+          ]
+        },
+        {
+          "label": "Positive, habit",
+          "cells": [
+            "Imperfective",
+            "Читай каждый день!"
+          ]
+        },
+        {
+          "label": "Negative, flat ban",
+          "cells": [
+            "Imperfective",
+            "Не кури здесь!"
+          ]
+        },
+        {
+          "label": "Negative, warning",
+          "cells": [
+            "Perfective",
+            "Не упади!"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ эту книгу до завтра!",
+          "promptEnglish": "Read this book by tomorrow!",
+          "options": [
+            "читай",
+            "прочитай",
+            "читать",
+            "читаешь"
+          ],
+          "answer": "прочитай",
+          "hint": "Step 2: one book plus a deadline. Which aspect?",
+          "explanation": "One specific book (эту) plus a deadline (до завтра) is a one-action-with-a-result cue, so the perfective прочитай fits."
+        },
+        {
+          "prompt": "_____ по-русски каждый день!",
+          "promptEnglish": "Speak Russian every day!",
+          "options": [
+            "говори",
+            "скажи",
+            "говорить",
+            "говорят"
+          ],
+          "answer": "говори",
+          "hint": "Step 2: каждый день is a habit cue. Which aspect?",
+          "explanation": "Каждый день is a habit cue, so the imperfective говори fits a repeated, every-day instruction."
+        },
+        {
+          "prompt": "Не _____ ключи дома!",
+          "promptEnglish": "Don't forget the keys at home!",
+          "options": [
+            "забывай",
+            "забыть",
+            "забудь",
+            "забуду"
+          ],
+          "answer": "забудь",
+          "hint": "Steps 1 and 2: under не, is this a flat ban or a 'careful, you might...' warning?",
+          "explanation": "Забыть is an accidental-result verb, and 'don't forget the keys' is a one-time warning ('careful, you might end up leaving them'), so it takes не + perfective забудь."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Не _____ громко в библиотеке!",
+          "promptEnglish": "Don't speak loudly in the library!",
+          "options": [
+            "скажи",
+            "сказать",
+            "говоришь",
+            "говори"
+          ],
+          "answer": "говори",
+          "hint": "Steps 1 and 2: a flat ban on how you speak. Under не, which aspect?",
+          "explanation": "A flat ban about manner (how loudly you speak, as a standing rule) takes не + imperfective говори."
+        },
+        {
+          "prompt": "Давайте _____ перерыв!",
+          "promptEnglish": "Let's take a break!",
+          "options": [
+            "делать",
+            "делаем",
+            "сделать",
+            "сделаем"
+          ],
+          "answer": "сделаем",
+          "hint": "Step 3: 'let's' + one bounded action. After давайте, use the infinitive or the 'we' perfective form?",
+          "explanation": "A break is one bounded action with a result, so the perfective fits. After давай / давайте the perfective is the 'we' form сделаем ('let's make / take one break'), not the infinitive."
+        },
+        {
+          "prompt": "_____ окно, пожалуйста.",
+          "promptEnglish": "Open the window, please. (to a stranger)",
+          "options": [
+            "откройте",
+            "открой",
+            "открывай",
+            "открываешь"
+          ],
+          "answer": "откройте",
+          "hint": "Step 4: пожалуйста to a stranger signals polite вы. Short form or -те form?",
+          "explanation": "Пожалуйста to a stranger signals the polite вы register, so the -те form откройте fits."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Дети, _____ домой сейчас! (Children, go home now!)",
+      "Давай _____ в парк! (Let's go to the park!)"
+    ],
+    "choices": [
+      "иди",
+      "идите",
+      "пойдём",
+      "идти"
+    ],
+    "answers": [
+      "идите",
+      "пойдём"
+    ],
+    "grammarFocus": "First blank, step 4: дети is a group, so the -те form идите fits. Second blank, step 3: a 'let's' suggestion for one specific trip takes давай plus the 'we' perfective form пойдём."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Прочитай по-русски каждый вечер, и ты быстро выучишь язык.",
+      "translationEnglish": "Read in Russian every evening, and you will learn the language quickly.",
+      "error": "Прочитай",
+      "correction": "Читай",
+      "options": [
+        "Читай",
+        "Прочитаешь",
+        "Читаешь"
+      ],
+      "explanation": "Каждый вечер is a habit cue (step 2), and a repeated, every-evening command takes the imperfective читай. The perfective прочитай asks for one bounded reading with a result, which directly clashes with an action repeated every evening."
+    },
+    {
+      "sentence": "Не выпей кофе вечером, иначе не уснёшь.",
+      "translationEnglish": "Don't drink coffee in the evening, or you won't fall asleep.",
+      "error": "выпей",
+      "correction": "пей",
+      "options": [
+        "пей",
+        "попей",
+        "пить"
+      ],
+      "explanation": "A flat standing ban (no coffee in the evening, as a rule) takes не + imperfective пей (steps 1 and 2). The perfective не выпей would mean 'don't accidentally finish the coffee', a one-shot warning, not a general rule. The positive 'Выпей кофе' (one cup) is perfective, but under не a prohibition flips to the imperfective."
+    },
+    {
+      "sentence": "Давай прочитать эту статью вместе сегодня.",
+      "translationEnglish": "Let's read this article together today.",
+      "error": "прочитать",
+      "correction": "прочитаем",
+      "options": [
+        "прочитаем",
+        "читаем",
+        "читаешь"
+      ],
+      "explanation": "A specific article (эту) signals the perfective, and with давай the perfective is the 'we' form прочитаем, not the infinitive (step 3). The perfective infinitive прочитать cannot follow давай: the construction takes either an imperfective infinitive (давай читать) or the 'we' perfective form (давай прочитаем)."
+    }
+  ],
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Купи",
+        "хлеб",
+        "в",
+        "магазине"
+      ],
+      "answer": "Купи хлеб в магазине",
+      "acceptableVariants": [
+        "Купи в магазине хлеб"
+      ],
+      "translation": "Buy bread at the store. (to one friend)",
+      "hint": "Step 2: one shopping action with a result → perfective. Step 4: one friend → short form."
+    },
+    {
+      "words": [
+        "Не",
+        "забудь",
+        "зонт",
+        "сегодня"
+      ],
+      "answer": "Не забудь зонт сегодня",
+      "acceptableVariants": [
+        "Сегодня не забудь зонт"
+      ],
+      "translation": "Don't forget the umbrella today. (warning)",
+      "hint": "Steps 1 and 2: a 'careful, you might...' warning under не → perfective забудь."
+    },
+    {
+      "words": [
+        "Давайте",
+        "сделаем",
+        "перерыв",
+        "сейчас"
+      ],
+      "answer": "Давайте сделаем перерыв сейчас",
+      "acceptableVariants": [
+        "Давайте сейчас сделаем перерыв"
+      ],
+      "translation": "Let's take a break now. (to a group)",
+      "hint": "Step 3: 'let's' + one bounded action → давайте + the 'we' perfective form."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Анна Ивановна, _____ окно, пожалуйста.",
+      "contextEnglish": "Anna Ivanovna, please open the window. (polite)",
+      "options": [
+        "откройте",
+        "открой"
+      ],
+      "answer": "откройте",
+      "explanation": "Step 4: a first name plus patronymic (Анна Ивановна) is the polite вы register, so the -те form откройте fits. Открой is the short ты form, used only with friends, family, or children."
+    },
+    {
+      "context": "_____ молоко в магазине по дороге домой!",
+      "contextEnglish": "Buy milk at the store on the way home! (one trip)",
+      "options": [
+        "купи",
+        "покупай"
+      ],
+      "answer": "купи",
+      "explanation": "Step 2: 'по дороге домой' names one errand with a result (the milk comes home), which is perfective: купи. Покупай (imperfective) would mean 'be in the habit of buying milk', a different meaning."
+    },
+    {
+      "context": "Осторожно, не _____ на лестнице!",
+      "contextEnglish": "Careful, don't fall on the stairs! (warning)",
+      "options": [
+        "упади",
+        "падай"
+      ],
+      "answer": "упади",
+      "explanation": "Steps 1 and 2: 'осторожно' marks this as a one-time warning, and a warning under не takes the perfective: упади. Не падай (imperfective) would be a standing rule ('don't go falling over'), which the warning cue rules out."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Откройте окно, пожалуйста.",
+      "question": "Which step decided откройте instead of открой?",
+      "options": [
+        "Step 2: perfective for one action",
+        "Step 4: пожалуйста signals the polite вы, so the -те form is used",
+        "Step 3: 'let's' suggestion with давайте",
+        "Step 5: the stem ends in a consonant"
+      ],
+      "answer": "Step 4: пожалуйста signals the polite вы, so the -те form is used",
+      "explanation": "Пожалуйста marks the polite register, addressing the listener as вы. Step 4 picks the -те form откройте. Открой is the short ты form, used with friends, family, or children."
+    },
+    {
+      "sentence": "Читай по-русски каждый день!",
+      "question": "Which step decided читай (imperfective) instead of прочитай (perfective)?",
+      "options": [
+        "Step 1: negative command",
+        "Step 2: каждый день is a habit cue, so the imperfective is used",
+        "Step 3: 'let's' suggestion",
+        "Step 4: polite вы form"
+      ],
+      "answer": "Step 2: каждый день is a habit cue, so the imperfective is used",
+      "explanation": "Каждый день is a habit cue. Step 2 picks the imperfective читай for a repeated, every-day instruction. Прочитай (perfective) would imply one specific reading, which the every-day repetition contradicts."
+    },
+    {
+      "sentence": "Не забудь ключи!",
+      "question": "Which step decided забудь (perfective) instead of забывай (imperfective)?",
+      "options": [
+        "Step 2: positive command for a habit",
+        "Steps 1 and 2: a warning under не takes the perfective",
+        "Step 3: давай + 'we' perfective form",
+        "Step 5: the stem ends in a vowel"
+      ],
+      "answer": "Steps 1 and 2: a warning under не takes the perfective",
+      "explanation": "Under не, a 'careful, you might...' warning takes the perfective: не забудь. Не забывай (imperfective) would be a habit-ban ('don't be a forgetful person'), not this single moment of caution. Забыть is a classic accidental-result verb."
+    },
+    {
+      "sentence": "Давайте прочитаем эту статью!",
+      "question": "Which step decided прочитаем instead of читать?",
+      "options": [
+        "Step 1: negative command",
+        "Step 5: the stem ends in a consonant",
+        "Step 3: 'let's' + one action (эту) → давайте + the 'we' perfective form",
+        "Step 4: short ты form"
+      ],
+      "answer": "Step 3: 'let's' + one action (эту) → давайте + the 'we' perfective form",
+      "explanation": "Эту marks one specific article (perfective), and the давай / давайте wrapper takes the 'we' perfective form прочитаем for one action. Давайте читать (imperfective infinitive) would mean 'let's read in general', which эту does not allow."
+    },
+    {
+      "sentence": "Говори громче!",
+      "question": "Which step decided the ending -и in говори?",
+      "options": [
+        "Step 5: consonant stem говор-, stressed я-form говорю́ → -и",
+        "Step 5: vowel stem → -й",
+        "Step 2: perfective for one action",
+        "Step 4: polite вы → -те form"
+      ],
+      "answer": "Step 5: consonant stem говор-, stressed я-form говорю́ → -и",
+      "explanation": "Step 5 reads the form: the stem говор- ends in a consonant, and the я-form говорю́ is stressed, so the ending is -и: говори. The -ь ending (говорь) is only for consonant stems whose я-form is not stressed, like готовь."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "пять шагов к форме",
+      "definition": "the five-step check for any command: positive or negative, aspect cue, 'let's' suggestion, ты or вы, then read the ending",
+      "example": "Пять шагов: вид, отрицание, давай / давайте, ты или вы, и наконец окончание -й / -и / -ь."
+    },
+    {
+      "term": "не + perfective (предупреждение)",
+      "definition": "the warning form: не plus a perfective imperative, used when the speaker is afraid of an accidental result (не забудь, не упади, не опоздай)",
+      "example": "В предложении 'Не забудь ключи!' форма 'не забудь' — это предупреждение о случайном результате."
+    },
+    {
+      "term": "давай / давайте + (the 'we' perfective form)",
+      "definition": "let's do one specific action: давай / давайте plus the 'we' perfective form (давай прочитаем, давайте сделаем перерыв)",
+      "example": "В предложении 'Давайте сделаем перерыв!' конструкция 'давайте + сделаем' приглашает к одному конкретному действию."
+    }
+  ]
+}

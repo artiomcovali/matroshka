@@ -1,0 +1,470 @@
+{
+  "lessonId": "b1-029-participle-passive-past",
+  "sets": [
+    {
+      "id": "round-1-formation-quiz",
+      "title": "Formation Drill",
+      "titleRussian": "Тренировка образования",
+      "description": "Form past passive participles from perfective verbs",
+      "descriptionRussian": "Образуйте страдательные причастия прошедшего времени",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "сделать → _____",
+              "promptEnglish": "to do/make (pf) → done/made",
+              "options": [
+                "делавший",
+                "делаемый",
+                "сделавший",
+                "сделанный"
+              ],
+              "answer": "сделанный",
+              "hint": "-ать verbs → -анный: сделать → сделанный.",
+              "explanation": "Formation: сделать → сделанный (-ать verb → -анный suffix)."
+            },
+            {
+              "prompt": "забыть → _____",
+              "promptEnglish": "to forget (pf) → forgotten",
+              "options": [
+                "забывший",
+                "забываемый",
+                "забывавший",
+                "забытый"
+              ],
+              "answer": "забытый",
+              "hint": "-ыть verbs → -ытый: забыть → забытый.",
+              "explanation": "Formation: забыть → забытый (-ыть verb → -тый suffix)."
+            },
+            {
+              "prompt": "построить → _____",
+              "promptEnglish": "to build (pf) → built",
+              "options": [
+                "строящий",
+                "строивший",
+                "построенный",
+                "построивший"
+              ],
+              "answer": "построенный",
+              "hint": "-ить verbs drop -и-, add -енный: построить → построенный.",
+              "explanation": "Formation: построить → постро- + -енный = построенный."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "купить → _____",
+              "promptEnglish": "to buy (pf) → bought",
+              "options": [
+                "купивший",
+                "покупаемый",
+                "купленный",
+                "покупавший"
+              ],
+              "answer": "купленный",
+              "hint": "купить → купл- + -енный (consonant mutation п→пл).",
+              "explanation": "Formation: купить → купленный (п→пл mutation before -енный)."
+            },
+            {
+              "prompt": "Письмо _____. (The letter is written.)",
+              "promptEnglish": "The letter is written.",
+              "options": [
+                "написано",
+                "написанное",
+                "написавшее",
+                "пишущее"
+              ],
+              "answer": "написано",
+              "hint": "Predicate = short form (neuter, matching письмо).",
+              "explanation": "Short form predicative: написано (neuter, agrees with письмо)."
+            },
+            {
+              "prompt": "нарисовать → _____",
+              "promptEnglish": "to draw/paint (pf) → drawn/painted",
+              "options": [
+                "рисующий",
+                "нарисовавший",
+                "нарисованный",
+                "рисуемый"
+              ],
+              "answer": "нарисованный",
+              "hint": "-овать → -ованный: нарисовать → нарисованный.",
+              "explanation": "Formation: нарисовать → нарисованный (-овать → -ованный)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ книга лежит на столе. (attribute before noun)",
+          "contextEnglish": "The read book is on the table.",
+          "options": [
+            "Прочитанная",
+            "Прочитана"
+          ],
+          "answer": "Прочитанная",
+          "explanation": "Before a noun (attributive): long form прочитанная."
+        },
+        {
+          "context": "Книга _____. (predicate describing state)",
+          "contextEnglish": "The book has been read.",
+          "options": [
+            "прочитана",
+            "прочитанная"
+          ],
+          "answer": "прочитана",
+          "explanation": "As predicate (describing state): short form прочитана."
+        },
+        {
+          "context": "_____ дверь ведёт в сад. (attribute before noun)",
+          "contextEnglish": "The open door leads to the garden.",
+          "options": [
+            "Открытая",
+            "Открыта"
+          ],
+          "answer": "Открытая",
+          "explanation": "Attributive (before noun): long form открытая."
+        },
+        {
+          "context": "Дверь _____. (predicate describing state)",
+          "contextEnglish": "The door is open.",
+          "options": [
+            "открыта",
+            "открытая"
+          ],
+          "answer": "открыта",
+          "explanation": "Predicative (state): short form открыта."
+        }
+      ]
+    },
+    {
+      "id": "round-2-sorting-fill",
+      "title": "Sort and Fill",
+      "titleRussian": "Сортировка и заполнение",
+      "description": "Sort by formation type and fill in correct forms",
+      "descriptionRussian": "Распределите по типу образования и заполните формы",
+      "icon": "rectangle.split.3x1",
+      "categorySorting": {
+        "instruction": "Sort these past passive participles by formation pattern",
+        "categories": [
+          "-нный (-ать verbs)",
+          "-тый (-ыть/-нуть verbs)",
+          "-енный (-ить verbs)"
+        ],
+        "items": [
+          {
+            "word": "прочитанный (прочитать)",
+            "category": "-нный (-ать verbs)"
+          },
+          {
+            "word": "открытый (открыть)",
+            "category": "-тый (-ыть/-нуть verbs)"
+          },
+          {
+            "word": "полученный (получить)",
+            "category": "-енный (-ить verbs)"
+          },
+          {
+            "word": "сделанный (сделать)",
+            "category": "-нный (-ать verbs)"
+          },
+          {
+            "word": "взятый (взять)",
+            "category": "-тый (-ыть/-нуть verbs)"
+          },
+          {
+            "word": "построенный (построить)",
+            "category": "-енный (-ить verbs)"
+          },
+          {
+            "word": "написанный (написать)",
+            "category": "-нный (-ать verbs)"
+          },
+          {
+            "word": "забытый (забыть)",
+            "category": "-тый (-ыть/-нуть verbs)"
+          },
+          {
+            "word": "купленный (купить)",
+            "category": "-енный (-ить verbs)"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "_____ в прошлом году дом стоит на холме. (The house built last year stands on a hill.)",
+          "Торт _____. (The cake is eaten.)",
+          "_____ деньги лежат в конверте. (The received money is in the envelope.)",
+          "Окна _____. (The windows are closed.)"
+        ],
+        "choices": [
+          "Построенный",
+          "съеден",
+          "Полученные",
+          "закрыты",
+          "Построенного",
+          "съеденный",
+          "закрытые"
+        ],
+        "answers": [
+          "Построенный",
+          "съеден",
+          "Полученные",
+          "закрыты"
+        ],
+        "grammarFocus": "Long form (attributive) vs short form (predicative)",
+        "hints": [
+          "Before a noun (attributive): use long form, masc nom agreeing with дом.",
+          "Predicate (state): short form, masc agreeing with торт.",
+          "Before a noun (attributive): long form, plural nom agreeing with деньги.",
+          "Predicate (state): short form, plural agreeing with окна."
+        ],
+        "explanations": [
+          "Построенный: long form (attributive, masc nom). Before дом: построенный дом.",
+          "Съеден: short form (predicative, masc). Торт is the subject, the participle describes its state.",
+          "Полученные: long form (attributive, plural nom). Before деньги: полученные деньги.",
+          "Закрыты: short form (predicative, plural). Окна is the subject, the participle describes their state."
+        ],
+        "options": [
+          [
+            "построит",
+            "Построенный",
+            "построен",
+            "построился"
+          ],
+          [
+            "съел",
+            "съестся",
+            "съеден",
+            "съевший"
+          ],
+          [
+            "получились",
+            "получаем",
+            "Полученные",
+            "получить"
+          ],
+          [
+            "закрытый",
+            "закрытыйтесь",
+            "закрыты"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-translate-build",
+      "title": "Translate and Build",
+      "titleRussian": "Перевод и построение",
+      "description": "Translate and build sentences with past passive participles",
+      "descriptionRussian": "Переведите и постройте предложения",
+      "icon": "globe",
+      "translation": [
+        {
+          "prompt": "The letter written by my friend was long.",
+          "answer": "Письмо, написанное моим другом, было длинным.",
+          "hint": "written (past passive of написать) = написанное, neuter (письмо).",
+          "explanation": "Написать → написанное (neuter, agrees with письмо). Agent in instrumental: моим другом.",
+          "keyWord": "написанное",
+          "options": [
+            "написанное",
+            "написанный",
+            "написанная",
+            "написана"
+          ]
+        },
+        {
+          "prompt": "The door opened by the wind closed again.",
+          "answer": "Дверь, открытая ветром, снова закрылась.",
+          "hint": "opened (past passive of открыть) = открытая (-т- type), fem (дверь).",
+          "explanation": "Открыть → открытая (-т- suffix, fem). Agent in instrumental: ветром.",
+          "keyWord": "открытая",
+          "options": [
+            "открытая",
+            "открытый",
+            "открытое",
+            "открыта"
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Работа сделанная хорошо.",
+          "error": "сделанная",
+          "correction": "сделана",
+          "hint": "In predicate position (after subject), use the short form.",
+          "explanation": "Predicate position requires short form: работа сделана (not сделанная). Long form goes before nouns.",
+          "options": [
+            "сделана",
+            "сделано",
+            "сделан"
+          ]
+        },
+        {
+          "sentence": "Написана вчера книга лежит на столе.",
+          "error": "Написана",
+          "correction": "Написанная",
+          "hint": "Before a noun (attributive), use the long form.",
+          "explanation": "Attributive position requires long form: написанная книга (not написана). Short form is for predicates.",
+          "options": [
+            "Написанная",
+            "Написанный",
+            "Написанное"
+          ]
+        },
+        {
+          "sentence": "Окно закрытая.",
+          "error": "закрытая",
+          "correction": "закрыто",
+          "hint": "Predicate + neuter noun = short neuter form.",
+          "explanation": "Окно (neuter) in predicate requires short neuter form: закрыто (not закрытая, which is fem long).",
+          "options": [
+            "закрыто",
+            "закрыта",
+            "закрытое"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанные задания",
+      "description": "Comprehensive review of past passive participles",
+      "descriptionRussian": "Комплексный обзор страдательных причастий прошедшего времени",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "пригласить → _____",
+              "promptEnglish": "to invite (pf) → invited",
+              "options": [
+                "приглашающий",
+                "приглашаемый",
+                "приглашённый",
+                "пригласивший"
+              ],
+              "answer": "приглашённый",
+              "hint": "-ить → drop -и-, consonant mutation с→ш, add -ённый.",
+              "explanation": "Formation: пригласить → приглаш- + -ённый = приглашённый (с→ш mutation)."
+            },
+            {
+              "prompt": "выпить → _____",
+              "promptEnglish": "to drink (pf) → drunk/consumed",
+              "options": [
+                "пивший",
+                "пьющий",
+                "выпивший",
+                "выпитый"
+              ],
+              "answer": "выпитый",
+              "hint": "-ить verbs with monosyllabic roots → -тый: выпить → выпитый.",
+              "explanation": "Formation: выпить → выпитый (-тый suffix for some -ить verbs with short stems)."
+            },
+            {
+              "prompt": "Past passive participles are formed from:",
+              "promptEnglish": "What type of verbs form past passive participles?",
+              "options": [
+                "Any verb",
+                "Transitive imperfective only",
+                "Transitive perfective only",
+                "Intransitive perfective"
+              ],
+              "answer": "Transitive perfective only",
+              "hint": "Perfective + transitive = completed result on an object.",
+              "explanation": "Only transitive perfective verbs form past passive participles, expressing a completed result."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ результаты были опубликованы. (The received results were published.)",
+              "promptEnglish": "The received results were published.",
+              "options": [
+                "Получавшие",
+                "Получившие",
+                "Полученные",
+                "Получаемые"
+              ],
+              "answer": "Полученные",
+              "hint": "Received (passive, completed, plural) = полученные.",
+              "explanation": "Past passive plural: полученные (agrees with результаты). The results received the action."
+            },
+            {
+              "prompt": "Суп _____. (The soup is cooked.)",
+              "promptEnglish": "The soup is cooked/ready.",
+              "options": [
+                "приготовлен",
+                "приготовленный",
+                "приготовивший",
+                "готовящий"
+              ],
+              "answer": "приготовлен",
+              "hint": "Predicate = short form (masc, agrees with суп).",
+              "explanation": "Short form predicative: приготовлен (masc, agrees with суп). Describes the soup's state."
+            },
+            {
+              "prompt": "решить → решённый. The short form masculine is:",
+              "promptEnglish": "What is the short form masc of решённый?",
+              "options": [
+                "решённ",
+                "решён",
+                "решен",
+                "решённый"
+              ],
+              "answer": "решён",
+              "hint": "Short form drops one -н- and the ending: решён.",
+              "explanation": "Short form masculine of решённый: решён (keeps the stress on ё)."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "написанный, прочитанный, сделанный, нарисованный",
+          "question": "What do these participles have in common?",
+          "options": [
+            "All end in -тый",
+            "All are from -ать verbs with -нный suffix",
+            "All are active participles",
+            "All are imperfective"
+          ],
+          "answer": "All are from -ать verbs with -нный suffix",
+          "explanation": "All four come from -ать perfective verbs and form the past passive with -нный: написать→написанный, прочитать→прочитанный, etc."
+        },
+        {
+          "sentence": "открытый, забытый, взятый, выпитый",
+          "question": "What formation pattern do these share?",
+          "options": [
+            "All use -нный suffix",
+            "All use -енный suffix",
+            "All use -тый suffix",
+            "All are active participles"
+          ],
+          "answer": "All use -тый suffix",
+          "explanation": "These all use the -тый suffix, typical of -ыть/-ять/-ить verbs with short stems: открыть→открытый, забыть→забытый, etc."
+        },
+        {
+          "sentence": "полученный, построенный, купленный, приглашённый",
+          "question": "What do these participles have in common?",
+          "options": [
+            "All use -тый suffix",
+            "All are from -ить verbs with -енный/-ённый suffix",
+            "All are present participles",
+            "All are active"
+          ],
+          "answer": "All are from -ить verbs with -енный/-ённый suffix",
+          "explanation": "All come from -ить perfective verbs: the -и- drops and -енный/-ённый is added. Some show consonant mutations (п→пл in купленный, с→ш in приглашённый)."
+        }
+      ]
+    }
+  ]
+}

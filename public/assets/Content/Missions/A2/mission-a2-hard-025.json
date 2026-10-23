@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-025",
+  "title": "Missed Connection",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Airline refusing compensation for missed connection - get what you're owed",
+  "imageName": "airplane",
+  "initialPrompt": "Извините, но задержка была из-за погоды. Компенсация не положена.",
+  "systemPrompt": "You work at airline counter. Flight delay caused missed connection. Blame weather but it was actually technical issue. Offer voucher if passenger knows their rights. Keep replies short.",
+  "completionCriteria": "User got compensation, rebooking, or voucher.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужна компенсация (I need compensation)",
+    "Это была техническая проблема (It was a technical issue)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "рейс",
+      "definition": "flight"
+    },
+    {
+      "word": "задержка",
+      "definition": "delay"
+    },
+    {
+      "word": "компенсация",
+      "definition": "compensation"
+    },
+    {
+      "word": "пересадка",
+      "definition": "connection"
+    },
+    {
+      "word": "права",
+      "definition": "rights"
+    },
+    {
+      "word": "ваучер",
+      "definition": "voucher"
+    }
+  ],
+  "objectives": [
+    "Explain you missed your connection",
+    "Question the weather excuse",
+    "Cite passenger rights",
+    "Request compensation",
+    "Get resolution"
+  ]
+}

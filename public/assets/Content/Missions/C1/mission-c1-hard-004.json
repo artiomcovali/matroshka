@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-004",
+  "title": "Academic Coup",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Survive department colleagues trying to force you out",
+  "imageName": "person.3.sequence.fill",
+  "initialPrompt": "Коллеги собрали подписи против вас. Они утверждают, что вы создаёте токсичную атмосферу. Декан требует объяснений.",
+  "systemPrompt": "You are dean investigating complaints. Multiple faculty signed petition. Only defend professor who shows pattern of misunderstanding and proposes reconciliation.",
+  "completionCriteria": "User defended position against coordinated attack.",
+  "responseLimit": 15,
+  "hints": [
+    "Это координированная кампания (This is a coordinated campaign)",
+    "Мои требования к качеству работы... (My standards for work quality...)"
+  ],
+  "targetVocabulary": [
+    {"word": "петиция", "definition": "petition"},
+    {"word": "обвинение", "definition": "accusation"},
+    {"word": "атмосфера", "definition": "atmosphere"},
+    {"word": "примирение", "definition": "reconciliation"},
+    {"word": "стандарты", "definition": "standards"},
+    {"word": "конфликт", "definition": "conflict"}
+  ],
+  "objectives": [
+    "Refute accusations",
+    "Explain context",
+    "Identify personal motives",
+    "Propose resolution",
+    "Maintain position"
+  ]
+}

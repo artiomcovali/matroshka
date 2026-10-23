@@ -1,0 +1,367 @@
+{
+  "id": "b1-track-impersonal-05-impersonal-reflexives",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Impersonal 6: Reflexive Impersonals (хочется, кажется, удаётся)",
+  "titleRussian": "Безличные 6: Безличные возвратные глаголы (хочется, кажется, удаётся)",
+  "description": "A small family of verbs ending in -ся build impersonal sentences with no nominative subject. Хочется reports a soft feeling of wanting (compare the deliberate хочу). Кажется reports a tentative opinion. Удаётся reports a success. The structure: dative person (optional) + the reflexive verb in the 3rd-singular neuter form, often with a complement.",
+  "descriptionRussian": "Небольшая семья возвратных глаголов на -ся образует безличные предложения без подлежащего в именительном падеже. «Хочется» сообщает о мягком желании (сравните намеренное «хочу»). «Кажется» сообщает осторожное мнение. «Удаётся» сообщает об успехе. Структура: дательный падеж лица (по желанию) + возвратный глагол в форме 3-го лица единственного числа среднего рода, обычно с дополнением.",
+  "imageName": "cloud.bolt",
+  "trackId": "b1-impersonal-mastery",
+  "trackTitle": "Impersonal Constructions Mastery",
+  "trackTitleRussian": "Безличные конструкции",
+  "trackIndex": 6,
+  "trackTotal": 7,
+  "intro": "These use a reflexive verb frozen in one form, and the most useful of them draws a distinction English cannot. There is a verb for wanting something deliberately and another for merely feeling like it, and the two never mix. There is also a complaint frame that exists almost only in the negative: not sleeping, not working, nothing going right.",
+  "rules": [
+    "Structure: (dative person) + reflexive verb in the 3rd-singular form + complement (genitive, infinitive, or что clause). The verb stays neuter singular whatever the person's gender.",
+    "Хочется carries a soft 'feels like' reading; хочу carries a deliberate 'wants' reading. They never mix: «Я хочется» is wrong, «Мне хочу» is wrong.",
+    "Кажется attributes a tentative opinion. It pairs with a что clause or a short stand-alone form ('Кажется, идёт дождь').",
+    "Удаётся takes a dative person plus an infinitive and reports a success. The past form удалось is neuter singular regardless of the person's gender.",
+    "The complaint frame (не спится, не работается) is almost always negative and takes only a dative person, with no other complement."
+  ],
+  "examples": [
+    "Мне хочется кофе. (I feel like some coffee.) Genitive object after хочется.",
+    "Антону хочется спать. (Anton feels like sleeping.) Infinitive complement after хочется.",
+    "Мне кажется, что Антон прав. (It seems to me that Anton is right.) Что clause after кажется.",
+    "Маше удаётся всё успевать. (Masha manages to get everything done.) Infinitive complement after удаётся.",
+    "Мне не спится. (I cannot fall asleep.) Complaint frame; no complement.",
+    "Мне не удалось купить билет. (I did not manage to buy a ticket.) Past form удалось is neuter singular regardless of the person's gender."
+  ],
+  "tables": [
+    {
+      "title": "The four reflexive impersonals at a glance",
+      "headers": [
+        "Verb",
+        "Reading",
+        "Complement"
+      ],
+      "rows": [
+        {
+          "label": "хочется",
+          "cells": [
+            "feels like (wanting)",
+            "genitive object or infinitive"
+          ]
+        },
+        {
+          "label": "кажется",
+          "cells": [
+            "seems (opinion)",
+            "что clause or stand-alone"
+          ]
+        },
+        {
+          "label": "удаётся",
+          "cells": [
+            "manages (succeeds)",
+            "infinitive"
+          ]
+        },
+        {
+          "label": "не спится / не работается",
+          "cells": [
+            "cannot sleep / work (complaint)",
+            "no complement"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Мне _____ кофе.",
+          "promptEnglish": "I feel like some coffee.",
+          "options": [
+            "хочу",
+            "хочется",
+            "хотеть",
+            "хотел"
+          ],
+          "answer": "хочется",
+          "hint": "Softer 'feels like'; impersonal frame with the dative person мне.",
+          "explanation": "Хочется is the impersonal reflexive verb that pairs with a dative person (мне) and reports a soft feeling of wanting. Хочу would require я in the nominative ('Я хочу кофе') as a personal sentence."
+        },
+        {
+          "prompt": "Маше _____ всё успевать на работе.",
+          "promptEnglish": "Masha manages to get everything done at work.",
+          "options": [
+            "может",
+            "хочется",
+            "трудно",
+            "удаётся"
+          ],
+          "answer": "удаётся",
+          "hint": "Reports a success; impersonal frame with a dative person and an infinitive.",
+          "explanation": "Удаётся reports a success in an impersonal construction (dative person Маше + infinitive успевать). Может would require Маша in the nominative ('Маша может'), a personal sentence. Хочется is the wanting reading. Трудно is the difficulty reading, the opposite of success."
+        },
+        {
+          "prompt": "Сегодня мне совсем не _____.",
+          "promptEnglish": "Today I cannot fall asleep at all.",
+          "options": [
+            "сплю",
+            "спать",
+            "спится",
+            "сон"
+          ],
+          "answer": "спится",
+          "hint": "Complaint frame: a process is not happening for the person. Which is the 3rd-sg reflexive form?",
+          "explanation": "Спится is the 3rd-singular reflexive form in the complaint frame, pairing with the dative person мне and almost always negative. Сплю would require я in the nominative ('я не сплю')."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Мне _____ , что Антон прав.",
+          "promptEnglish": "It seems to me that Anton is right.",
+          "options": [
+            "думаю",
+            "видит",
+            "кажется",
+            "знаю"
+          ],
+          "answer": "кажется",
+          "hint": "Tentative opinion in an impersonal frame with a что clause.",
+          "explanation": "Кажется attributes a tentative opinion in an impersonal construction; the dative мне names the person and the что clause carries the content. Думаю and знаю would build personal sentences with я in the nominative ('Я думаю, что'). Видит would need a nominative subject too and reads as 'X sees,' the wrong meaning."
+        },
+        {
+          "prompt": "Мне сегодня плохо _____ .",
+          "promptEnglish": "I cannot get any work done today.",
+          "options": [
+            "работа",
+            "работаю",
+            "работаться",
+            "работается"
+          ],
+          "answer": "работается",
+          "hint": "Complaint frame: a process is not happening for the person. Which is the 3rd-sg reflexive form?",
+          "explanation": "Работается is the 3rd-singular reflexive form in the complaint frame, pairing with a dative person. The negative reading reports an internal block. Работаю would require я in the nominative."
+        },
+        {
+          "prompt": "Мне не _____ купить билет на концерт.",
+          "promptEnglish": "I did not manage to buy a ticket to the concert.",
+          "options": [
+            "удался",
+            "удалась",
+            "удалось",
+            "удалась бы"
+          ],
+          "answer": "удалось",
+          "hint": "Past form of удаваться in an impersonal construction.",
+          "explanation": "The past form of the impersonal reflexive удаваться / удаться is удалось, always neuter singular regardless of the dative person's gender. Удался and удалась are past forms that would agree with a nominative subject ('билет удался' = 'the ticket was a success'), a different sentence."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Мне _____, хотя ещё рано.",
+          "promptEnglish": "I feel like sleeping although it is still early.",
+          "options": [
+            "хочется спать",
+            "хочу спать",
+            "хочется сплю",
+            "хотим спать"
+          ],
+          "answer": "хочется спать",
+          "hint": "A soft passing wish: dative + which verb + which form after it?",
+          "explanation": "The soft wish is хочется + infinitive with a dative person: мне хочется спать. Хочу would need the nominative я; a finite verb cannot follow хочется."
+        },
+        {
+          "prompt": "Мне _____ Антон прав.",
+          "promptEnglish": "It seems to me that Anton is right.",
+          "options": [
+            "кажется, что",
+            "кажусь, что",
+            "кажетесь, что",
+            "казаться, что"
+          ],
+          "answer": "кажется, что",
+          "hint": "The tentative-opinion frame: which frozen verb + connector?",
+          "explanation": "The frame is мне кажется, что...: the impersonal reflexive stays in the frozen 3sg form and a что clause follows. Кажусь means 'I seem (to someone)', a personal form the frame rejects."
+        },
+        {
+          "prompt": "Маше _____ новую работу за неделю.",
+          "promptEnglish": "Masha managed to find a new job in a week.",
+          "options": [
+            "удалось найти",
+            "удалась найти",
+            "удалось нашла",
+            "удаётся нашла"
+          ],
+          "answer": "удалось найти",
+          "hint": "Past success: the frozen neuter form + what after it?",
+          "explanation": "The past of удаться is always frozen neuter удалось plus a perfective infinitive: Маше удалось найти работу. Удалась wrongly agrees with Маша; a finite verb cannot follow удалось."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Антону сегодня _____.",
+          "promptEnglish": "Anton cannot fall asleep tonight.",
+          "options": [
+            "не спится",
+            "не спит",
+            "не спать",
+            "не спал"
+          ],
+          "answer": "не спится",
+          "hint": "The complaint frame: dative person + negative + which form?",
+          "explanation": "The sleep-complaint frame is dative + не спится: Антону не спится ('sleep will not come to him'). Спит would need Антон as a nominative subject; the impersonal reflexive carries the 'can't manage it' shade."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маше _____ спать, она устала. (Masha feels like sleeping, she is tired.)"
+    ],
+    "choices": [
+      "хочет",
+      "хочется",
+      "может",
+      "трудно"
+    ],
+    "answers": [
+      "хочется"
+    ],
+    "grammarFocus": "The English 'feels like' is the soft-wanting reading, which хочется carries in an impersonal construction with the dative person Маше. Хочет would need Маша in the nominative ('Маша хочет спать'), a personal sentence. Может is 'can,' the wrong modality. Трудно is the difficulty reading."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "В жару мне плохо спит.",
+      "translationEnglish": "I sleep badly in the heat.",
+      "error": "спит",
+      "correction": "спится",
+      "options": [
+        "спится",
+        "сплю",
+        "спать"
+      ],
+      "explanation": "With the dative person мне, the verb is the impersonal reflexive спится: мне плохо спится ('sleep does not come well to me'). The personal спит would need a nominative subject; сплю ('I sleep') would need я, not мне."
+    },
+    {
+      "sentence": "Маше обычно удаёт находить время для спорта.",
+      "translationEnglish": "Masha usually manages to find time for sport.",
+      "error": "удаёт",
+      "correction": "удаётся",
+      "options": [
+        "удаётся",
+        "удаются",
+        "удалась"
+      ],
+      "explanation": "The impersonal verb удаваться keeps its reflexive -ся in every form: Маше удаётся. 'Удаёт' without -ся is not a Russian word."
+    },
+    {
+      "sentence": "Мне хорошо работает по утрам.",
+      "translationEnglish": "My work goes well in the mornings.",
+      "error": "работает",
+      "correction": "работается",
+      "options": [
+        "работается",
+        "работаю",
+        "работать"
+      ],
+      "explanation": "With the dative person мне, the verb is the impersonal reflexive работается: мне хорошо работается ('work goes well for me'). Работает is a personal form needing a nominative subject, and работаю would need я, not мне."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "_____ хочется кофе, очень устал.",
+      "contextEnglish": "I feel like some coffee, I am very tired.",
+      "options": [
+        "Мне",
+        "Я"
+      ],
+      "answer": "Мне",
+      "explanation": "Хочется is impersonal and takes a dative person (мне), not a nominative subject. The nominative я would require the personal verb хочу ('Я хочу кофе')."
+    },
+    {
+      "context": "Маше не _____ купить билет на концерт.",
+      "contextEnglish": "Masha did not manage to buy a ticket to the concert.",
+      "options": [
+        "удалось",
+        "удалась"
+      ],
+      "answer": "удалось",
+      "explanation": "Impersonal reflexive past forms are always neuter singular: удалось. The feminine form удалась would require a feminine nominative subject; it does not agree with the dative person."
+    }
+  ],
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Мне",
+        "хочется",
+        "чая"
+      ],
+      "answer": "Мне хочется чая.",
+      "translation": "I feel like some tea.",
+      "acceptableVariants": [
+        "мне хочется чая"
+      ],
+      "hint": "Dative person + хочется + the genitive of the thing wanted.",
+      "grammarFocus": "Хочется takes the dative person (мне) plus the genitive of the thing wanted (чая). The personal я хочу would instead take the accusative чай."
+    },
+    {
+      "words": [
+        "Антону",
+        "удалось",
+        "сдать",
+        "экзамен"
+      ],
+      "answer": "Антону удалось сдать экзамен.",
+      "translation": "Anton managed to pass the exam.",
+      "acceptableVariants": [
+        "антону удалось сдать экзамен"
+      ],
+      "hint": "Dative person + neuter-singular past удалось + perfective infinitive.",
+      "grammarFocus": "Удалось is the neuter-singular past form regardless of the person's gender (Антон is masculine, but the verb does not change). It is followed by a perfective infinitive (сдать)."
+    },
+    {
+      "words": [
+        "Лене",
+        "сегодня",
+        "не",
+        "работается"
+      ],
+      "answer": "Лене сегодня не работается.",
+      "translation": "Lena can't get any work done today.",
+      "acceptableVariants": [
+        "лене сегодня не работается",
+        "сегодня лене не работается"
+      ],
+      "hint": "Complaint frame: dative person + не + the 3rd-singular reflexive verb, no other complement.",
+      "grammarFocus": "The complaint frame is dative person (Лене) + не + the 3rd-singular reflexive verb (работается), almost always negative and with no other complement."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "хочется",
+      "definition": "feels like (impersonal reflexive verb; dative person + genitive object or infinitive; softer than the personal хочу)",
+      "example": "В предложении 'Мне хочется кофе' слово 'хочется' выражает мягкое желание, а не намерение."
+    },
+    {
+      "term": "кажется",
+      "definition": "seems / it seems (impersonal reflexive verb; dative person + что clause; tentative or hedged opinion)",
+      "example": "В предложении 'Мне кажется, что Антон прав' слово 'кажется' выражает мнение говорящего."
+    },
+    {
+      "term": "удаётся / удалось",
+      "definition": "manages / succeeded (impersonal reflexive verb; dative person + infinitive; past form удалось is always neuter singular)",
+      "example": "В предложении 'Маше удалось закончить работу вовремя' форма 'удалось' стоит в среднем роде единственного числа."
+    },
+    {
+      "term": "не спится / не работается",
+      "definition": "cannot fall asleep / cannot get work done (complaint-frame impersonal reflexives; dative person only, almost always negative, no other complement)",
+      "example": "В предложении 'Мне не спится' глагол стоит в безличной форме и сообщает, что человек не может заснуть."
+    }
+  ]
+}

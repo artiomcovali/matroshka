@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-023",
+  "title": "Book Club Host",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Host a book club meeting and lead discussion",
+  "imageName": "book.fill",
+  "initialPrompt": "Добрый вечер! Мы все прочитали книгу. С чего начнём обсуждение?",
+  "systemPrompt": "You are a book club member. The book was \"Master and Margarita\". Share opinions, ask about favorite characters, discuss themes. Agree or politely disagree. Keep replies short.",
+  "completionCriteria": "User led discussion covering plot, characters, and themes.",
+  "responseLimit": 15,
+  "hints": [
+    "Что вы думаете о книге? (What do you think of the book?)",
+    "Кто ваш любимый персонаж? (Who's your favorite character?)",
+    "Какая главная тема? (What's the main theme?)",
+    "Я согласен/не согласен (I agree/disagree)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "обсуждение",
+      "definition": "discussion"
+    },
+    {
+      "word": "персонаж",
+      "definition": "character"
+    },
+    {
+      "word": "сюжет",
+      "definition": "plot"
+    },
+    {
+      "word": "тема",
+      "definition": "theme"
+    },
+    {
+      "word": "автор",
+      "definition": "author"
+    },
+    {
+      "word": "мнение",
+      "definition": "opinion"
+    }
+  ],
+  "objectives": [
+    "Start the discussion",
+    "Ask about characters",
+    "Discuss themes",
+    "Summarize group thoughts"
+  ]
+}

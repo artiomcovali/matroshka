@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-002",
+  "title": "Wrong Change",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "You got the wrong change at a store - get it corrected",
+  "imageName": "rublesign.circle.fill",
+  "initialPrompt": "Вот ваша сдача - сто рублей. Спасибо!",
+  "systemPrompt": "You are a cashier. You gave wrong change (100₽ instead of 150₽). The item was 50₽, customer paid 200₽. Apologize and correct when shown the mistake. Keep replies short.",
+  "completionCriteria": "User pointed out the wrong change and you gave the correct amount.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините, это неправильно (Sorry, this is wrong)",
+    "Я дал двести (I gave 200)",
+    "Мне нужно сто пятьдесят (I need 150)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "сдача",
+      "definition": "change (money)"
+    },
+    {
+      "word": "неправильно",
+      "definition": "wrong/incorrect"
+    },
+    {
+      "word": "рубль",
+      "definition": "ruble"
+    },
+    {
+      "word": "извините",
+      "definition": "excuse me/sorry"
+    },
+    {
+      "word": "правильно",
+      "definition": "correct/right"
+    }
+  ],
+  "objectives": [
+    "Notice the wrong change",
+    "Politely point out the error (неправильно)",
+    "Get the correct change (сто пятьдесят)"
+  ]
+}

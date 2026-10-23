@@ -1,0 +1,246 @@
+{
+  "lessonId": "c1-002-participle-mastery",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Choose the right participle by voice and tense, then pick between close pairs",
+      "descriptionRussian": "Выберите правильное причастие по залогу и времени, затем выберите из близких пар",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Статья, _____ известным учёным, вызвала дискуссию. (written by a famous scientist)",
+              "promptEnglish": "The article written by a famous scientist sparked a debate.",
+              "options": [
+                "писавшая",
+                "написанная",
+                "пишущая",
+                "написавшая"
+              ],
+              "answer": "написанная",
+              "hint": "The article was written (passive, completed action).",
+              "explanation": "Passive past participle написанная: the article was written by someone (completed action, passive voice). Написавшая would mean 'the article that wrote' (active, nonsensical)."
+            },
+            {
+              "prompt": "Текст, _____ редактором, будет опубликован завтра. (being reviewed right now)",
+              "promptEnglish": "The text being reviewed by the editor will be published tomorrow.",
+              "options": [
+                "проверенный",
+                "проверяемый",
+                "проверявший",
+                "проверяющий"
+              ],
+              "answer": "проверяемый",
+              "hint": "Ongoing passive action = passive present participle (-емый).",
+              "explanation": "Passive present проверяемый: the text is currently being reviewed (ongoing passive). Проверенный would mean already reviewed (completed)."
+            },
+            {
+              "prompt": "Which sentence is INCORRECT in formal written Russian?",
+              "promptEnglish": "Find the grammatical error.",
+              "options": [
+                "Вопрос, обсуждаемый на собрании, важен.",
+                "Студенты, сдавшие экзамен, могут уйти.",
+                "Мы видели девушку, которая поющая песню.",
+                "Построенный в прошлом веке дом стоит до сих пор."
+              ],
+              "answer": "Мы видели девушку, которая поющая песню.",
+              "hint": "You cannot combine который with a participle form.",
+              "explanation": "Который + participle is a common error. Use either: девушку, поющую песню (participle only) OR девушку, которая поёт песню (который + finite verb)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Мы подошли к зданию, _____ в XIX веке. (built in the 19th century)",
+              "promptEnglish": "We approached the building built in the 19th century.",
+              "options": [
+                "построенному",
+                "построенным",
+                "построившему",
+                "строящемуся"
+              ],
+              "answer": "построенному",
+              "hint": "К + dative. The building was built (passive past). Здание is neuter.",
+              "explanation": "Passive past построенный in dative neuter: построенному (agrees with зданию). Active построившему would mean 'the building that built something,' which is nonsensical."
+            },
+            {
+              "prompt": "Он рассказал о людях, _____ ему в трудное время. (who helped him)",
+              "promptEnglish": "He talked about people who helped him during a difficult time.",
+              "options": [
+                "помогающих",
+                "помогавших",
+                "помогших",
+                "помогаемых"
+              ],
+              "answer": "помогавших",
+              "hint": "О + prepositional plural. The action is in the past (imperfective). Who performed the action?",
+              "explanation": "Active past imperfective: помогавших (who were helping). Prepositional plural to agree with о людях. Помогающих would be present tense."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Мы нашли документы, _____ в архиве. (found in the archive - passive past)",
+          "contextEnglish": "The documents were found in the archive.",
+          "options": [
+            "обнаруженные",
+            "обнаружившие"
+          ],
+          "answer": "обнаруженные",
+          "explanation": "The documents were found (passive): обнаруженные. Active обнаружившие would mean 'documents that discovered' (nonsensical)."
+        },
+        {
+          "context": "Учёный, _____ новый метод, получил грант. (who developed - active past)",
+          "contextEnglish": "The scientist who developed the new method received a grant.",
+          "options": [
+            "разработавший",
+            "разработанный"
+          ],
+          "answer": "разработавший",
+          "explanation": "The scientist developed (active): разработавший. Passive разработанный would describe the method, not the scientist."
+        },
+        {
+          "context": "Письмо уже _____. (the letter has been written - predicate)",
+          "contextEnglish": "Choose the correct predicative form (stating a result).",
+          "options": [
+            "написано",
+            "написанное"
+          ],
+          "answer": "написано",
+          "explanation": "Predicative (stating result) uses the short form: Письмо написано. Long form написанное is for attributive use (написанное письмо)."
+        }
+      ]
+    },
+    {
+      "id": "set-3-build-correct",
+      "title": "Build & Correct",
+      "titleRussian": "Построй и исправь",
+      "description": "Construct sentences from words and find and fix participle errors",
+      "descriptionRussian": "Составьте предложения из слов и найдите и исправьте ошибки в причастиях",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Студент, читающий книгу вчера, сдал экзамен.",
+          "translationEnglish": "The student reading a book yesterday passed the exam. (tense mismatch)",
+          "error": "читающий",
+          "correction": "читавший",
+          "hint": "Present participle with вчера (yesterday) is a tense mismatch.",
+          "explanation": "Читающий is present tense but вчера is past. Use the past active participle читавший (who was reading yesterday).",
+          "options": [
+            "читавший",
+            "прочитавший"
+          ]
+        },
+        {
+          "sentence": "Контракт, подписавший директором, вступил в силу.",
+          "translationEnglish": "The contract that signed by the director took effect. (voice error)",
+          "error": "подписавший",
+          "correction": "подписанный",
+          "hint": "The contract was signed (passive), not signing (active).",
+          "explanation": "Подписавший is active (who signed). But the contract was signed by the director (passive). Use passive past: подписанный директором.",
+          "options": [
+            "подписанный",
+            "подписывающий"
+          ]
+        },
+        {
+          "sentence": "Люди, живущих в этом районе, жалуются на шум.",
+          "translationEnglish": "People living in this area complain about noise. (wrong case agreement)",
+          "error": "живущих",
+          "correction": "живущие",
+          "hint": "The participle must agree with люди in case. What case is люди here?",
+          "explanation": "Люди is nominative (subject). The participle must also be nominative: живущие (not genitive живущих). Participles agree in gender, number, and case.",
+          "options": [
+            "живущие",
+            "жившие"
+          ]
+        },
+        {
+          "sentence": "Вопрос, обсуждающий на совещании, очень важен.",
+          "translationEnglish": "The question discussing at the meeting is very important. (voice error)",
+          "error": "обсуждающий",
+          "correction": "обсуждаемый",
+          "hint": "The question is being discussed (passive), not discussing something (active).",
+          "explanation": "Обсуждающий is active (discussing). The question is the object of discussion, not the agent. Use passive present: обсуждаемый на совещании.",
+          "options": [
+            "обсуждаемый",
+            "обсудивший"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "The report prepared by analysts contains important data.",
+          "answer": "Отчёт, подготовленный аналитиками, содержит важные данные.",
+          "acceptableVariants": [
+            "Подготовленный аналитиками отчёт содержит важные данные."
+          ],
+          "hint": "Use passive past participle from подготовить. Choose attributive or detached position.",
+          "grammarFocus": "Passive past participle",
+          "keyWord": "подготовленный",
+          "options": [
+            "подготовленный",
+            "подготовивший",
+            "подготавливающий",
+            "подготовляемый"
+          ]
+        },
+        {
+          "english": "Students studying abroad often face difficulties.",
+          "answer": "Студенты, обучающиеся за рубежом, часто сталкиваются с трудностями.",
+          "acceptableVariants": [
+            "Обучающиеся за рубежом студенты часто сталкиваются с трудностями."
+          ],
+          "hint": "Active present participle from обучаться (reflexive). Nominative plural.",
+          "grammarFocus": "Active present participle with reflexive verb",
+          "keyWord": "обучающиеся",
+          "options": [
+            "обучающиеся",
+            "обучаемые",
+            "обученные",
+            "обучившие"
+          ]
+        },
+        {
+          "english": "The scientist who discovered this phenomenon received a prize.",
+          "answer": "Учёный, открывший это явление, получил премию.",
+          "acceptableVariants": [
+            "Открывший это явление учёный получил премию."
+          ],
+          "hint": "Active past participle from открыть. The scientist performed the action.",
+          "grammarFocus": "Active past participle replacing который",
+          "keyWord": "открывший",
+          "options": [
+            "открывший",
+            "открытый",
+            "открывающий",
+            "открываемый"
+          ]
+        },
+        {
+          "english": "The decision made by the committee will affect everyone.",
+          "answer": "Решение, принятое комитетом, затронет всех.",
+          "acceptableVariants": [
+            "Принятое комитетом решение затронет всех."
+          ],
+          "hint": "Passive past from принять. The decision was made by someone.",
+          "grammarFocus": "Passive past participle with agent (instrumental case)",
+          "keyWord": "принятое",
+          "options": [
+            "принятое",
+            "принявшее",
+            "принимающее",
+            "принимаемое"
+          ]
+        }
+      ]
+    }
+  ]
+}

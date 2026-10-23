@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-015",
+  "title": "Conference Registration",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Register for a professional conference",
+  "imageName": "person.3.fill",
+  "initialPrompt": "Добро пожаловать на регистрацию конференции 'Технологии будущего'! Вы заранее регистрировались онлайн?",
+  "systemPrompt": "You handle conference registration. Ask for name, company, email. Give badge, schedule, map. Mention: keynote 10am Hall A, lunch 13:00 included, networking event 18:00. Wi-Fi password: conf2024. Keep replies short.",
+  "completionCriteria": "User completed registration and received conference materials.",
+  "responseLimit": 15,
+  "hints": [
+    "Да, я регистрировался онлайн (Yes, I registered online)",
+    "Во сколько начинается? (What time does it start?)",
+    "Где будет обед? (Where will lunch be?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "конференция",
+      "definition": "conference"
+    },
+    {
+      "word": "регистрация",
+      "definition": "registration"
+    },
+    {
+      "word": "бейдж",
+      "definition": "badge"
+    },
+    {
+      "word": "расписание",
+      "definition": "schedule"
+    },
+    {
+      "word": "докладчик",
+      "definition": "speaker"
+    },
+    {
+      "word": "нетворкинг",
+      "definition": "networking"
+    }
+  ],
+  "objectives": [
+    "Confirm your registration",
+    "Provide your details (name, company)",
+    "Get your badge and materials",
+    "Ask about schedule or events",
+    "Get Wi-Fi or other practical info"
+  ]
+}

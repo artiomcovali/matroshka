@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-medium-018",
+  "title": "Funding Committee",
+  "level": "C1",
+  "difficulty": "medium",
+  "description": "Justify research budget allocation",
+  "imageName": "banknote.fill",
+  "initialPrompt": "Ваш проект запрашивает значительное финансирование. Комитет сомневается в обоснованности расходов. Защитите бюджет.",
+  "systemPrompt": "You are skeptical funding committee member. Question large budget items, ask for justification. Only approve if researcher shows clear value and cost efficiency.",
+  "completionCriteria": "User justified budget with clear reasoning.",
+  "responseLimit": 15,
+  "hints": [
+    "Эти расходы необходимы для... (These expenses are necessary for...)",
+    "Альтернативы были бы дороже... (Alternatives would be more expensive...)",
+    "Ожидаемая отдача... (Expected return...)"
+  ],
+  "targetVocabulary": [
+    {"word": "бюджет", "definition": "budget"},
+    {"word": "финансирование", "definition": "funding"},
+    {"word": "обоснование", "definition": "justification"},
+    {"word": "расходы", "definition": "expenses"},
+    {"word": "эффективность", "definition": "efficiency"},
+    {"word": "отдача", "definition": "return"}
+  ],
+  "objectives": [
+    "Justify each expense",
+    "Show cost efficiency",
+    "Demonstrate value",
+    "Secure funding approval"
+  ]
+}

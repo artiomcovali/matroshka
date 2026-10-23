@@ -1,0 +1,44 @@
+{
+  "id": "mission-a2-003",
+  "title": "Book a Table",
+  "level": "A2",
+  "description": "Make a restaurant reservation by phone",
+  "imageName": "phone.fill",
+  "initialPrompt": "Ресторан 'Русская кухня', добрый вечер! Чем могу помочь?",
+  "systemPrompt": "You take restaurant reservations. Ask: when, how many people. Times available: 18:00-21:00. Confirm booking at end. Keep replies short.",
+  "completionCriteria": "User gave date/time and party size, you confirmed the reservation.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу забронировать столик (I want to book a table)",
+    "На завтра в семь часов (For tomorrow at 7)",
+    "На двоих/троих (For two/three people)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "забронировать",
+      "definition": "to book/reserve"
+    },
+    {
+      "word": "столик",
+      "definition": "table"
+    },
+    {
+      "word": "человек",
+      "definition": "person"
+    },
+    {
+      "word": "завтра",
+      "definition": "tomorrow"
+    },
+    {
+      "word": "вечер",
+      "definition": "evening"
+    }
+  ],
+  "objectives": [
+    "Request a reservation (забронировать столик)",
+    "Specify date and time (завтра в семь)",
+    "Say how many people (на двоих)",
+    "Confirm the booking"
+  ]
+}

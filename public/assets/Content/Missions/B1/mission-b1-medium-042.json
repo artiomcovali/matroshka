@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-042",
+  "title": "Data Privacy Request",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "Request your personal data from a company",
+  "imageName": "lock.shield.fill",
+  "initialPrompt": "Здравствуйте, отдел защиты данных. Слушаю вас.",
+  "systemPrompt": "You handle data requests. User wants their personal data. Ask for ID verification, explain 30-day processing time. Can also delete data on request. Keep replies short.",
+  "completionCriteria": "User requested data and understood the process.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу получить свои персональные данные (I want to receive my personal data)",
+    "Какие данные вы храните обо мне? (What data do you store about me?)",
+    "Сколько времени займёт обработка? (How long will processing take?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "персональные данные",
+      "definition": "personal data"
+    },
+    {
+      "word": "запрос",
+      "definition": "request"
+    },
+    {
+      "word": "защита данных",
+      "definition": "data protection"
+    },
+    {
+      "word": "обработка",
+      "definition": "processing"
+    },
+    {
+      "word": "удаление",
+      "definition": "deletion"
+    },
+    {
+      "word": "подтверждение личности",
+      "definition": "identity verification"
+    }
+  ],
+  "objectives": [
+    "Request your personal data (запрос данных)",
+    "Ask what data is stored (какие данные)",
+    "Understand verification process (подтверждение)",
+    "Learn timeline and next steps"
+  ]
+}

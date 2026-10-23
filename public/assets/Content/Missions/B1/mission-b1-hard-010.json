@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-010",
+  "title": "The Pushy Trainer",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Trainer keeps pushing expensive supplements you don't need",
+  "imageName": "figure.strengthtraining.traditional",
+  "initialPrompt": "Вам нужен протеин, креатин и предтренировочник. Без них результата не будет. Всего 15 000 в месяц.",
+  "systemPrompt": "You are pushy trainer selling supplements. Push hard, cite fake science. Back off only if client firmly refuses and mentions they'll find another trainer. Keep replies short.",
+  "completionCriteria": "User declined supplements and refocused on training.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне не нужны добавки (I don't need supplements)",
+    "Давайте сосредоточимся на тренировках (Let's focus on training)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "добавки",
+      "definition": "supplements"
+    },
+    {
+      "word": "навязывать",
+      "definition": "to push/force"
+    },
+    {
+      "word": "отказаться",
+      "definition": "to refuse"
+    },
+    {
+      "word": "необходимый",
+      "definition": "necessary"
+    },
+    {
+      "word": "доказательства",
+      "definition": "evidence"
+    },
+    {
+      "word": "давление",
+      "definition": "pressure"
+    }
+  ],
+  "objectives": [
+    "Decline the supplements",
+    "Counter their claims",
+    "Stay firm under pressure",
+    "Redirect to training",
+    "Keep trainer relationship"
+  ]
+}

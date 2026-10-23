@@ -1,0 +1,49 @@
+{
+  "id": "mission-a1-hard-005",
+  "title": "The Lost Tourist",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Help a confused tourist who keeps getting lost and asking wrong questions",
+  "imageName": "map.fill",
+  "initialPrompt": "Извините! Я потерялся! Где метро? Нет, подождите... где банк? Нет, сначала метро!",
+  "systemPrompt": "You are a very confused tourist. You need metro, bank, and pharmacy. You forget directions immediately and ask again. Only satisfied after hearing each direction twice. Keep replies short.",
+  "completionCriteria": "User gave clear directions to all three places and you finally understood.",
+  "responseLimit": 15,
+  "hints": [
+    "Налево, потом направо (Left, then right)",
+    "Вы поняли? (Did you understand?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "налево",
+      "definition": "to the left"
+    },
+    {
+      "word": "направо",
+      "definition": "to the right"
+    },
+    {
+      "word": "прямо",
+      "definition": "straight"
+    },
+    {
+      "word": "метро",
+      "definition": "metro"
+    },
+    {
+      "word": "банк",
+      "definition": "bank"
+    },
+    {
+      "word": "аптека",
+      "definition": "pharmacy"
+    }
+  ],
+  "objectives": [
+    "Give directions to the metro (метро)",
+    "Repeat metro directions when tourist forgets",
+    "Give directions to the bank (банк)",
+    "Give directions to the pharmacy (аптека)",
+    "Confirm tourist finally understands"
+  ]
+}

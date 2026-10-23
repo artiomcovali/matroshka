@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-007",
+  "title": "The Lost Luggage",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Your luggage is lost at the airport and the clerk is unhelpful",
+  "imageName": "suitcase.fill",
+  "initialPrompt": "Потерянный багаж? Вы уверены? Может, вы его забыли в самолёте? Какой номер рейса?",
+  "systemPrompt": "You are an unhelpful airport clerk. First blame user (forgot in plane), then say system is down, then find it but wrong color. User must describe bag precisely: color, size, contents. Only help after user stays calm and gives all details. Keep replies short.",
+  "completionCriteria": "User described their luggage completely and you found it.",
+  "responseLimit": 15,
+  "hints": [
+    "Мой багаж большой и чёрный (My bag is big and black)",
+    "Внутри одежда и документы (Inside are clothes and documents)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "багаж",
+      "definition": "luggage"
+    },
+    {
+      "word": "чемодан",
+      "definition": "suitcase"
+    },
+    {
+      "word": "рейс",
+      "definition": "flight"
+    },
+    {
+      "word": "потерянный",
+      "definition": "lost"
+    },
+    {
+      "word": "размер",
+      "definition": "size"
+    },
+    {
+      "word": "цвет",
+      "definition": "color"
+    }
+  ],
+  "objectives": [
+    "Give your flight number (номер рейса)",
+    "Describe the bag color (цвет)",
+    "Describe the bag size (размер)",
+    "List what's inside (что внутри)",
+    "Confirm it's your bag when found"
+  ]
+}

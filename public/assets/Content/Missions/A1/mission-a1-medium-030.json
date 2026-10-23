@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-030",
+  "title": "Kitchen Not Open",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "The kitchen isn't serving breakfast yet",
+  "imageName": "fork.knife",
+  "initialPrompt": "Доброе утро! Кухня открывается в 9. Сейчас 8:30.",
+  "systemPrompt": "Kitchen opens at 9. Now 8:30. Can serve: кофе, чай, круассан (cold items only). Keep replies short.",
+  "completionCriteria": "User waited or ordered available items.",
+  "responseLimit": 15,
+  "hints": [
+    "Завтрак, пожалуйста (Breakfast, please)",
+    "А что есть сейчас? (What's available now?)",
+    "Я подожду (I'll wait)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "кухня",
+      "definition": "kitchen"
+    },
+    {
+      "word": "открывается",
+      "definition": "opens"
+    },
+    {
+      "word": "сейчас",
+      "definition": "now"
+    },
+    {
+      "word": "подождать",
+      "definition": "to wait"
+    },
+    {
+      "word": "пока",
+      "definition": "for now"
+    }
+  ],
+  "objectives": [
+    "Learn kitchen is closed",
+    "Ask what's available (что есть)",
+    "Order available item or wait"
+  ]
+}

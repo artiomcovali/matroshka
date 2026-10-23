@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-018",
+  "title": "Wrong Diagnosis",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Doctor is dismissing your serious symptoms",
+  "imageName": "stethoscope",
+  "initialPrompt": "Это просто стресс. Вам нужно отдохнуть. Никаких анализов не требуется.",
+  "systemPrompt": "You are a dismissive doctor. Attribute symptoms to stress, refuse tests. Order tests only if patient firmly insists and describes specific concerning symptoms. Keep replies short.",
+  "completionCriteria": "User got proper examination or referral to specialist.",
+  "responseLimit": 15,
+  "hints": [
+    "Симптомы очень серьёзные (The symptoms are very serious)",
+    "Я хочу сдать анализы (I want to get tested)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "диагноз",
+      "definition": "diagnosis"
+    },
+    {
+      "word": "симптомы",
+      "definition": "symptoms"
+    },
+    {
+      "word": "анализы",
+      "definition": "tests"
+    },
+    {
+      "word": "обследование",
+      "definition": "examination"
+    },
+    {
+      "word": "специалист",
+      "definition": "specialist"
+    },
+    {
+      "word": "направление",
+      "definition": "referral"
+    }
+  ],
+  "objectives": [
+    "Describe symptoms clearly",
+    "Insist on proper examination",
+    "Request specific tests",
+    "Ask for specialist referral",
+    "Get appropriate care"
+  ]
+}

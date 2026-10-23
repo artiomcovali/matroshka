@@ -1,0 +1,572 @@
+{
+  "lessonId": "a1-011-verb-infinitive",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Test infinitives and modal constructions",
+      "descriptionRussian": "Проверьте знание инфинитива и модальных конструкций",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я хочу _____ книгу. (to read)",
+              "promptEnglish": "I want to read a book.",
+              "options": [
+                "читаю",
+                "читает",
+                "читать",
+                "читаешь"
+              ],
+              "answer": "читать",
+              "hint": "After хотеть, use the infinitive.",
+              "explanation": "After хочу (want), use the infinitive: читать (to read)."
+            },
+            {
+              "prompt": "_____ войти? (May I come in?)",
+              "promptEnglish": "May I come in?",
+              "options": [
+                "Нужно",
+                "Нельзя",
+                "Можно",
+                "Надо"
+              ],
+              "answer": "Можно",
+              "hint": "Asking for permission.",
+              "explanation": "Можно + infinitive asks permission: Можно войти? (May I enter?)"
+            },
+            {
+              "prompt": "Здесь _____ курить. (No smoking.)",
+              "promptEnglish": "Smoking is not allowed here.",
+              "options": [
+                "можно",
+                "нужно",
+                "надо",
+                "нельзя"
+              ],
+              "answer": "нельзя",
+              "hint": "Prohibition.",
+              "explanation": "Нельзя + infinitive = prohibition: Нельзя курить."
+            },
+            {
+              "prompt": "What is the most common infinitive ending?",
+              "promptEnglish": "What do most Russian infinitives end in?",
+              "options": [
+                "-ет",
+                "-чь",
+                "-ть",
+                "-ти"
+              ],
+              "answer": "-ть",
+              "hint": "читать, говорить, работать.",
+              "explanation": "Most infinitives end in -ть: читать, говорить, работать."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ здесь фотографировать? (asking permission)",
+          "contextEnglish": "May I photograph here?",
+          "options": [
+            "Можно",
+            "Нельзя"
+          ],
+          "answer": "Можно",
+          "explanation": "Можно asks permission. Нельзя states prohibition."
+        },
+        {
+          "context": "Здесь _____ парковаться. (prohibition)",
+          "contextEnglish": "Parking is not allowed here.",
+          "options": [
+            "можно",
+            "нельзя"
+          ],
+          "answer": "нельзя",
+          "explanation": "Нельзя = prohibition. Можно = permission."
+        },
+        {
+          "context": "Мне _____ работать. (I need to work.)",
+          "contextEnglish": "I need to work.",
+          "options": [
+            "нужно",
+            "можно"
+          ],
+          "answer": "нужно",
+          "explanation": "Нужно = necessity (need to). Можно = permission (may)."
+        },
+        {
+          "context": "Я хочу _____. (to eat)",
+          "contextEnglish": "I want to eat.",
+          "options": [
+            "есть",
+            "ем"
+          ],
+          "answer": "есть",
+          "explanation": "After хочу, use the infinitive: есть (to eat). Ем is the conjugated я form."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in modals and infinitives, sort by meaning",
+      "descriptionRussian": "Вставьте модальные слова и инфинитивы, рассортируйте по значению",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Мне _____ идти. (I need to go.)",
+          "Она хочет _____ по-русски. (to speak)",
+          "_____ спросить? (May I ask?)",
+          "Ты можешь мне _____? (to help)"
+        ],
+        "choices": [
+          "нужно",
+          "говорить",
+          "Можно",
+          "помочь"
+        ],
+        "answers": [
+          "нужно",
+          "говорить",
+          "Можно",
+          "помочь"
+        ],
+        "grammarFocus": "modal words + infinitives",
+        "hints": [
+          "Necessity: need to.",
+          "Infinitive after хочет.",
+          "Asking for permission.",
+          "Infinitive after можешь."
+        ],
+        "explanations": [
+          "Мне нужно + infinitive = I need to: Мне нужно идти.",
+          "Хочет + infinitive: хочет говорить.",
+          "Можно + infinitive asks permission: Можно спросить?",
+          "Можешь + infinitive: можешь помочь. Note помочь ends in -чь."
+        ],
+        "options": [
+          [
+            "пора",
+            "нельзя",
+            "можно",
+            "нужно"
+          ],
+          [
+            "сказать",
+            "говорить",
+            "говорит",
+            "говорю"
+          ],
+          [
+            "Нужно",
+            "Нельзя",
+            "Надо",
+            "Можно"
+          ],
+          [
+            "помогать",
+            "помогает",
+            "помочь",
+            "помогу"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort: infinitive or conjugated form?",
+        "categories": [
+          "Infinitive",
+          "Conjugated"
+        ],
+        "items": [
+          {
+            "word": "читать",
+            "category": "Infinitive"
+          },
+          {
+            "word": "читаю",
+            "category": "Conjugated"
+          },
+          {
+            "word": "говорить",
+            "category": "Infinitive"
+          },
+          {
+            "word": "говорит",
+            "category": "Conjugated"
+          },
+          {
+            "word": "идти",
+            "category": "Infinitive"
+          },
+          {
+            "word": "идёт",
+            "category": "Conjugated"
+          },
+          {
+            "word": "мочь",
+            "category": "Infinitive"
+          },
+          {
+            "word": "может",
+            "category": "Conjugated"
+          },
+          {
+            "word": "помочь",
+            "category": "Infinitive"
+          },
+          {
+            "word": "работает",
+            "category": "Conjugated"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-3-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Составь и переведи",
+      "description": "Build modal sentences and translate",
+      "descriptionRussian": "Составьте модальные предложения и переведите",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "She wants to speak Russian.",
+          "answer": "Она хочет говорить по-русски.",
+          "hint": "she = она, wants = хочет, to speak = говорить",
+          "grammarFocus": "хотеть + infinitive",
+          "keyWord": "говорить",
+          "options": [
+            "говорить",
+            "говорю",
+            "говорит",
+            "говоришь"
+          ]
+        },
+        {
+          "english": "May I sit down?",
+          "answer": "Можно сесть?",
+          "acceptableVariants": [
+            "Можно мне сесть?"
+          ],
+          "hint": "may = можно, to sit down = сесть",
+          "grammarFocus": "можно + infinitive for permission",
+          "keyWord": "Можно",
+          "options": [
+            "Можно",
+            "Нельзя",
+            "Нужно",
+            "Надо"
+          ]
+        },
+        {
+          "english": "I need to go.",
+          "answer": "Мне нужно идти.",
+          "acceptableVariants": [
+            "Мне надо идти."
+          ],
+          "hint": "I need = мне нужно, to go = идти",
+          "grammarFocus": "нужно + infinitive for necessity",
+          "keyWord": "нужно",
+          "options": [
+            "нужно",
+            "нельзя",
+            "можно",
+            "хочу"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which verb ends in -чь?",
+              "promptEnglish": "Which infinitive ends in -чь?",
+              "options": [
+                "мочь",
+                "читать",
+                "идти",
+                "работать"
+              ],
+              "answer": "мочь",
+              "hint": "To be able / can.",
+              "explanation": "Мочь (to be able, can) ends in -чь. Others: печь (to bake), помочь (to help)."
+            },
+            {
+              "prompt": "Мне _____ купить хлеб. (I need to buy bread.)",
+              "promptEnglish": "I need to buy bread.",
+              "options": [
+                "можно",
+                "нельзя",
+                "надо",
+                "хочу"
+              ],
+              "answer": "надо",
+              "hint": "Necessity (colloquial variant of нужно).",
+              "explanation": "Надо + infinitive = need to (colloquial). Same meaning as нужно."
+            },
+            {
+              "prompt": "Они хотят _____ в парк. (to go)",
+              "promptEnglish": "They want to go to the park.",
+              "options": [
+                "идут",
+                "идти",
+                "идёт",
+                "идём"
+              ],
+              "answer": "идти",
+              "hint": "Infinitive after хотят.",
+              "explanation": "After хотят (want), use the infinitive: идти (to go). Note it ends in -ти, not -ть."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-spot-errors",
+      "title": "Find the Mistakes",
+      "titleRussian": "Найди ошибки",
+      "description": "Spot errors in infinitive and modal usage",
+      "descriptionRussian": "Найдите ошибки в инфинитиве и модальных конструкциях",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Я хочу читаю книгу.",
+          "error": "читаю",
+          "correction": "читать",
+          "hint": "After хочу, use the infinitive, not a conjugated form.",
+          "explanation": "After хочу (want), use the infinitive: читать, not the conjugated читаю.",
+          "options": [
+            "читать",
+            "читает",
+            "читаешь"
+          ]
+        },
+        {
+          "sentence": "Можно курить здесь? (at a hospital)",
+          "error": "Можно",
+          "correction": "Нельзя",
+          "hint": "Smoking is prohibited in a hospital.",
+          "explanation": "In a hospital, smoking is prohibited: Нельзя курить (not Можно).",
+          "options": [
+            "Нельзя",
+            "Нужно",
+            "Надо"
+          ]
+        },
+        {
+          "sentence": "Мне нужно работаю.",
+          "error": "работаю",
+          "correction": "работать",
+          "hint": "After нужно, use the infinitive.",
+          "explanation": "After нужно, use the infinitive: работать, not the conjugated работаю.",
+          "options": [
+            "работать",
+            "работает",
+            "работаешь"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Он может _____ по-русски. (to speak)",
+              "promptEnglish": "He can speak Russian.",
+              "options": [
+                "говорит",
+                "говоришь",
+                "говорить",
+                "говорю"
+              ],
+              "answer": "говорить",
+              "hint": "Infinitive after может.",
+              "explanation": "After может (can), use the infinitive: говорить."
+            },
+            {
+              "prompt": "Мне _____ спать. (I need to sleep.)",
+              "promptEnglish": "I need to sleep.",
+              "options": [
+                "можно",
+                "нельзя",
+                "хочу",
+                "нужно"
+              ],
+              "answer": "нужно",
+              "hint": "Expressing necessity.",
+              "explanation": "Мне нужно + infinitive = I need to: Мне нужно спать."
+            },
+            {
+              "prompt": "_____ здесь плавать? (Is it allowed to swim here?)",
+              "promptEnglish": "May I swim here?",
+              "options": [
+                "Нужно",
+                "Надо",
+                "Можно",
+                "Нельзя"
+              ],
+              "answer": "Можно",
+              "hint": "Asking for permission.",
+              "explanation": "Можно + infinitive asks permission: Можно плавать?"
+            },
+            {
+              "prompt": "Which is an infinitive ending in -ти?",
+              "promptEnglish": "Which infinitive ends in -ти?",
+              "options": [
+                "читать",
+                "мочь",
+                "идти",
+                "любить"
+              ],
+              "answer": "идти",
+              "hint": "To go (on foot).",
+              "explanation": "Идти (to go) ends in -ти. Most infinitives end in -ть, but идти and нести use -ти."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанная практика",
+      "description": "A fresh round mixing all infinitive and modal patterns",
+      "descriptionRussian": "Новый раунд по всем конструкциям с инфинитивом",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы хотим _____ в кино. (to go)",
+              "promptEnglish": "We want to go to the cinema.",
+              "options": [
+                "идём",
+                "идут",
+                "идти",
+                "идёт"
+              ],
+              "answer": "идти",
+              "hint": "Infinitive after хотим.",
+              "explanation": "After хотим, use the infinitive: идти."
+            },
+            {
+              "prompt": "Здесь _____ фотографировать. (Photography is prohibited.)",
+              "promptEnglish": "Photography is not allowed here.",
+              "options": [
+                "можно",
+                "надо",
+                "нужно",
+                "нельзя"
+              ],
+              "answer": "нельзя",
+              "hint": "Prohibition.",
+              "explanation": "Нельзя + infinitive = prohibition: Нельзя фотографировать."
+            },
+            {
+              "prompt": "Ты можешь _____ мне? (to help)",
+              "promptEnglish": "Can you help me?",
+              "options": [
+                "помогаешь",
+                "помогу",
+                "помочь",
+                "помогает"
+              ],
+              "answer": "помочь",
+              "hint": "Infinitive after можешь. This verb ends in -чь.",
+              "explanation": "After можешь, use the infinitive: помочь (ending in -чь)."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Мне _____ учить русский. (I need to study Russian.)",
+          "_____ открыть окно? (May I open the window?)",
+          "Он хочет _____ . (to sleep)"
+        ],
+        "choices": [
+          "надо",
+          "Можно",
+          "спать"
+        ],
+        "answers": [
+          "надо",
+          "Можно",
+          "спать"
+        ],
+        "grammarFocus": "mixed modal constructions",
+        "hints": [
+          "Necessity (colloquial).",
+          "Asking permission.",
+          "Infinitive after хочет."
+        ],
+        "explanations": [
+          "Мне надо + infinitive = I need to. Надо is colloquial for нужно.",
+          "Можно + infinitive asks permission: Можно открыть окно?",
+          "Хочет + infinitive: хочет спать (wants to sleep)."
+        ],
+        "options": [
+          [
+            "можно",
+            "нельзя",
+            "надо",
+            "пора"
+          ],
+          [
+            "Можно",
+            "Надо",
+            "Нужно",
+            "Нельзя"
+          ],
+          [
+            "уснуть",
+            "спать",
+            "спит",
+            "сплю"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort by meaning: permission, prohibition, or necessity?",
+        "categories": [
+          "Permission",
+          "Prohibition",
+          "Necessity"
+        ],
+        "items": [
+          {
+            "word": "Можно войти?",
+            "category": "Permission"
+          },
+          {
+            "word": "Нельзя курить.",
+            "category": "Prohibition"
+          },
+          {
+            "word": "Мне нужно работать.",
+            "category": "Necessity"
+          },
+          {
+            "word": "Можно спросить?",
+            "category": "Permission"
+          },
+          {
+            "word": "Здесь нельзя парковаться.",
+            "category": "Prohibition"
+          },
+          {
+            "word": "Мне надо идти.",
+            "category": "Necessity"
+          }
+        ]
+      }
+    }
+  ]
+}

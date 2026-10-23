@@ -1,0 +1,175 @@
+{
+  "id": "a1-004",
+  "level": "A1",
+  "narrator": "Маша",
+  "title": "Моя семья",
+  "titleEnglish": "My Family",
+  "description": "Маша рассказывает Анне о своей семье.",
+  "imageName": "person.3.fill",
+  "fullText": "Сегодня мы с Анной пьём кофе вместе. Я показываю ей фотографии на телефоне. На первой фотографии — моя мама. Её зовут Ирина, она работает врачом. Анна спрашивает, кто на второй фотографии. Это мой папа Сергей. Он работает учителем в школе. Потом я показываю фотографию моего брата Димы. Дима — студент, он учится в университете. Анна говорит, что у меня хорошая семья, и я благодарю её.",
+  "reviewVocab": [
+    {
+      "word": "семья",
+      "definition": "family",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "семья",
+        "семьи",
+        "семье"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "мама",
+      "definition": "mom, mother",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "мама",
+        "мамы",
+        "маме"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "папа",
+      "definition": "dad, father",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "папа",
+        "папы",
+        "папе"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "брат",
+      "definition": "brother",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "брат",
+        "брата",
+        "брату"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Как зовут маму Маши?",
+      "options": [
+        "Ирина",
+        "Мария",
+        "Анна"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маму Маши зовут Ирина."
+    },
+    {
+      "prompt": "Кто папа Маши по профессии?",
+      "options": [
+        "Учитель",
+        "Врач",
+        "Студент"
+      ],
+      "correctIndex": 0,
+      "explanation": "Папа Маши — учитель."
+    },
+    {
+      "prompt": "Кто Дима?",
+      "options": [
+        "Папа Маши",
+        "Брат Маши",
+        "Друг Маши"
+      ],
+      "correctIndex": 1,
+      "explanation": "Дима — это брат Маши."
+    },
+    {
+      "prompt": "Где учится Дима?",
+      "options": [
+        "В школе",
+        "В университете",
+        "В офисе"
+      ],
+      "correctIndex": 1,
+      "explanation": "Дима учится в университете."
+    },
+    {
+      "prompt": "Кто мама Маши по профессии?",
+      "options": [
+        "Учитель",
+        "Студент",
+        "Врач"
+      ],
+      "correctIndex": 2,
+      "explanation": "Мама Маши — врач."
+    },
+    {
+      "prompt": "Что делают Маша и Анна?",
+      "options": [
+        "Пьют кофе",
+        "Едят обед",
+        "Пьют чай"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша и Анна пьют кофе."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Это моя _____. Её зовут Ирина.",
+      "Это мой _____. Его зовут Сергей.",
+      "Дима — мой _____.",
+      "Он _____ в университете.",
+      "У меня хорошая _____!"
+    ],
+    "choices": [
+      "мама",
+      "папа",
+      "брат",
+      "учится",
+      "семья",
+      "врач",
+      "студент"
+    ],
+    "answers": [
+      "мама",
+      "папа",
+      "брат",
+      "учится",
+      "семья"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "Which possessive pronoun is used for masculine nouns?",
+      "options": [
+        "моя",
+        "мой",
+        "моё"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "gender",
+      "sentenceRef": "Это мой папа. Это мой брат.",
+      "explanation": "'Мой' is used with masculine nouns: мой папа, мой брат. Russian possessives change by gender: мой (m.), моя (f.), моё (n.). Example: мой дом (my house), моё окно (my window).",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "Which possessive pronoun is used for feminine nouns?",
+      "options": [
+        "мой",
+        "моё",
+        "моя"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "gender",
+      "sentenceRef": "Это моя мама. Это моя семья.",
+      "explanation": "'Моя' is used with feminine nouns: моя мама, моя семья. Most feminine nouns end in -а or -я. Example: моя книга (my book), моя кухня (my kitchen).",
+      "focusArea": "cases"
+    }
+  ],
+  "audioFile": "a1-004.m4a",
+  "audioTimingFile": "a1-004-timing.json"
+}

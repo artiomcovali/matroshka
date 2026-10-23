@@ -1,0 +1,277 @@
+{
+  "id": "a1-track-numbers-02-odin",
+  "level": "A1",
+  "focusArea": "other",
+  "title": "Numbers 2: One Agrees (один, одна, одно)",
+  "titleRussian": "Числа 2: 'один' согласуется (один, одна, одно)",
+  "description": "Russian's number one is the only cardinal that matches its noun. Today we lock the three main forms: один (m), одна (f), одно (n). The plural form одни waits for Lesson 3.",
+  "descriptionRussian": "Числительное 1 — единственное, которое согласуется с существительным. Сегодня — три главные формы: один (м), одна (ж), одно (с). Форма 'одни' будет на следующем уроке.",
+  "imageName": "1.square.fill",
+  "trackId": "a1-numbers-counting-mastery",
+  "trackTitle": "Numbers & Counting Mastery",
+  "trackTitleRussian": "Числа и счёт",
+  "trackIndex": 2,
+  "trackTotal": 10,
+  "intro": "The word for one is the only Russian number that changes to match its noun, the way an adjective does. Every other number does the opposite: it changes the noun instead. So this lesson is both the easiest in the book and the least like the rest of it. Learn it now, and expect the relationship to invert from lesson 4.",
+  "rules": [
+    "Один is the only Russian number that agrees like an adjective. Three main forms: один (masculine), одна (feminine), одно (neuter). Два has a smaller split of its own (два / две, Lesson 4), but nothing else in the number system changes for gender.",
+    "The form of один echoes the noun's ending: bare stem for masculine consonants, -а for feminine, -о for neuter.",
+    "The noun itself stays in its dictionary form. Today, no noun endings change.",
+    "Plural-only nouns (часы, джинсы, очки) take a fourth form, одни, which Lesson 3 covers.",
+    "From Lesson 4 onward, every other number works differently: it changes the noun's ending instead of agreeing with it. Today, only один agrees."
+  ],
+  "examples": [
+    "У меня один брат. (I have one brother.) Брат is masculine: один.",
+    "У меня одна сестра. (I have one sister.) Сестра is feminine: одна.",
+    "Это одно окно. (This is one window.) Окно is neuter: одно.",
+    "У Антона один кот. (Anton has one cat.) Кот is masculine: один.",
+    "У Лены одна машина. (Lena has one car.) Машина is feminine: одна.",
+    "Это одно письмо. (This is one letter.) Письмо is neuter: одно."
+  ],
+  "tables": [
+    {
+      "title": "The Three Main Forms of Один",
+      "headers": [
+        "Gender",
+        "Form",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "masculine",
+          "cells": [
+            "один",
+            "один брат, один кот, один дом"
+          ]
+        },
+        {
+          "label": "feminine",
+          "cells": [
+            "одна",
+            "одна сестра, одна книга, одна машина"
+          ]
+        },
+        {
+          "label": "neuter",
+          "cells": [
+            "одно",
+            "одно окно, одно письмо, одно море"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "How to Pick the Form",
+      "headers": [
+        "Noun ends in",
+        "Gender",
+        "Form of one"
+      ],
+      "rows": [
+        {
+          "label": "consonant (брат, кот, дом)",
+          "cells": [
+            "masculine",
+            "один"
+          ]
+        },
+        {
+          "label": "-а / -я (сестра, мама, машина)",
+          "cells": [
+            "feminine",
+            "одна"
+          ]
+        },
+        {
+          "label": "-о / -е (окно, письмо, море)",
+          "cells": [
+            "neuter",
+            "одно"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Recap: How many numbers did we learn in Lesson 1?",
+          "promptEnglish": "Recap: How many numbers did we learn in Lesson 1?",
+          "options": [
+            "пять",
+            "семь",
+            "восемь",
+            "десять"
+          ],
+          "answer": "десять",
+          "hint": "We learned the numbers from 1 to ___.",
+          "explanation": "In Lesson 1 we learned ten numbers, from один to десять. Today's lesson is about the first of them: один is the one number that agrees with its noun."
+        },
+        {
+          "prompt": "У меня _____ брат.",
+          "promptEnglish": "I have one brother.",
+          "options": [
+            "один",
+            "одна",
+            "одно",
+            "одни"
+          ],
+          "answer": "один",
+          "hint": "Брат is masculine. Pick the masculine form of one.",
+          "explanation": "Брат is masculine, so the form of one is 'один'. The same form sits before any other masculine singular noun: один кот, один дом, один телефон."
+        },
+        {
+          "prompt": "У меня _____ сестра.",
+          "promptEnglish": "I have one sister.",
+          "options": [
+            "один",
+            "одна",
+            "одно",
+            "одни"
+          ],
+          "answer": "одна",
+          "hint": "Сестра ends in -а. Which form fits the feminine slot?",
+          "explanation": "Сестра is feminine (it ends in -а), so the form is 'одна'. The -а ending of the noun is echoed in the -а ending of the numeral: одна сестра, одна книга, одна машина."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Это _____ окно.",
+          "promptEnglish": "This is one window.",
+          "options": [
+            "одна",
+            "одно",
+            "один",
+            "одни"
+          ],
+          "answer": "одно",
+          "hint": "Окно ends in -о. Which form takes the -о ending?",
+          "explanation": "Окно is neuter (it ends in -о), so the form is 'одно'. Matching is straightforward: -о on the noun, -о on the numeral."
+        },
+        {
+          "prompt": "У Антона _____ кот.",
+          "promptEnglish": "Anton has one cat.",
+          "options": [
+            "одна",
+            "одно",
+            "одни",
+            "один"
+          ],
+          "answer": "один",
+          "hint": "Кот is masculine. Match the form to the noun.",
+          "explanation": "Кот is masculine, so the form is 'один'. The masculine form is the bare stem, with nothing added."
+        },
+        {
+          "prompt": "У Лены _____ машина.",
+          "promptEnglish": "Lena has one car.",
+          "options": [
+            "одно",
+            "один",
+            "одна",
+            "одни"
+          ],
+          "answer": "одна",
+          "hint": "Машина ends in -а. Pick the feminine form.",
+          "explanation": "Машина is feminine, so the form is 'одна'. The -а ending appears on both: одна машина. Same pattern as одна сестра, одна книга."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Это _____ письмо. (This is one letter.)"
+    ],
+    "choices": [
+      "один",
+      "одна",
+      "одно",
+      "одни"
+    ],
+    "answers": [
+      "одно"
+    ],
+    "grammarFocus": "Письмо ends in -о, so it is neuter. The neuter form of one is 'одно'. The -о on the noun and the -о on the numeral match up: this is what agreement looks like."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "У меня один часы.",
+      "translationEnglish": "I have one watch.",
+      "error": "один",
+      "correction": "одни",
+      "options": [
+        "одни",
+        "одна",
+        "одно"
+      ],
+      "explanation": "Часы (a watch / clock) is a plural-only noun, and with plural-only nouns 'one' takes its plural form: одни часы. A singular form like один cannot combine with a word that has no singular."
+    },
+    {
+      "sentence": "У Антона один книга на столе.",
+      "translationEnglish": "Anton has one book on the table.",
+      "error": "один",
+      "correction": "одна",
+      "options": [
+        "одна",
+        "одно",
+        "одни"
+      ],
+      "explanation": "Книга is feminine (it ends in -а), so 'one' takes the feminine form: одна книга."
+    },
+    {
+      "sentence": "Это один море, очень глубокое.",
+      "translationEnglish": "This is one sea, very deep.",
+      "error": "один",
+      "correction": "одно",
+      "options": [
+        "одно",
+        "одна",
+        "одни"
+      ],
+      "explanation": "Море is neuter (-е ending, the soft counterpart of -о), so 'one' takes the neuter form: одно. The adjective 'глубокое' is also neuter, a handy visual cue that the number should be neuter too."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "У меня _____ собака.",
+      "contextEnglish": "I have one dog.",
+      "options": [
+        "один",
+        "одна"
+      ],
+      "answer": "одна",
+      "explanation": "Собака ends in -а, so it is feminine. The form of one is 'одна'. 'Один' would only fit a masculine noun like кот."
+    },
+    {
+      "context": "Это _____ окно.",
+      "contextEnglish": "This is one window.",
+      "options": [
+        "одно",
+        "одна"
+      ],
+      "answer": "одно",
+      "explanation": "Окно ends in -о, so it is neuter. The form is 'одно'. 'Одна' would only fit a feminine noun like дверь."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "согласование",
+      "definition": "agreement (the rule that один matches its noun in gender; only this cardinal does it)",
+      "example": "В словосочетании 'одна книга' видно согласование: и числительное, и существительное в женском роде."
+    },
+    {
+      "term": "мужской род",
+      "definition": "masculine gender (nouns whose dictionary form usually ends in a consonant; take один)",
+      "example": "Слово 'брат' — мужской род, поэтому говорим 'один брат', а не 'одна брат'."
+    },
+    {
+      "term": "средний род",
+      "definition": "neuter gender (nouns whose dictionary form usually ends in -о or -е; take одно)",
+      "example": "Слово 'окно' — средний род, поэтому говорим 'одно окно', а не 'один окно'."
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "lessonId": "c1-005-word-order-advanced",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Identify which element is emphasized by word order and pick between contrasting pairs",
+      "descriptionRussian": "Определите, какой элемент выделен порядком слов, и выберите между парами",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which sentence emphasizes WHO wrote the letter?",
+              "promptEnglish": "The rheme (new info) goes last.",
+              "options": [
+                "Андрей написал письмо.",
+                "Письмо написал Андрей.",
+                "Написал Андрей письмо.",
+                "Письмо Андрей написал."
+              ],
+              "answer": "Письмо написал Андрей.",
+              "hint": "New information (WHO) goes to the end position.",
+              "explanation": "Письмо написал Андрей - Андрей is in final (rheme) position, answering 'who wrote it?'"
+            },
+            {
+              "prompt": "Which is the neutral (unmarked) word order?",
+              "promptEnglish": "Standard SVO with no special emphasis.",
+              "options": [
+                "Суп варит мама.",
+                "Варит мама суп.",
+                "Мама суп варит.",
+                "Мама варит суп."
+              ],
+              "answer": "Мама варит суп.",
+              "hint": "Neutral Russian = Subject-Verb-Object.",
+              "explanation": "Мама варит суп - standard SVO, no element is specially emphasized."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "In subordinate clauses, where does the verb typically go?",
+              "promptEnglish": "Russian subordinate clause verb placement.",
+              "options": [
+                "Usually at the end of the clause",
+                "Always first",
+                "Always last",
+                "Before the subject always"
+              ],
+              "answer": "Usually at the end of the clause",
+              "hint": "Subordinate clauses in Russian tend to have the verb closer to the end.",
+              "explanation": "In Russian subordinate clauses, the verb often migrates toward the end: ...что Андрей написал (that Andrey wrote)."
+            },
+            {
+              "prompt": "Existential introduction: В комнате _____ (there was a cat)",
+              "promptEnglish": "Introducing a new entity into the scene.",
+              "options": [
+                "кошка сидела.",
+                "там сидела кошка.",
+                "кошка там сидела.",
+                "сидела кошка."
+              ],
+              "answer": "сидела кошка.",
+              "hint": "Existential sentences put the verb before the new noun.",
+              "explanation": "В комнате сидела кошка - verb-before-noun for introducing a new entity (existential construction)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Кто решил задачу? - _____",
+          "contextEnglish": "Who solved the problem? (answer emphasizes the person)",
+          "options": [
+            "Задачу решил Павел.",
+            "Павел решил задачу."
+          ],
+          "answer": "Задачу решил Павел.",
+          "explanation": "Павел is in final (rheme) position, directly answering 'who?' The alternative is neutral SVO."
+        },
+        {
+          "context": "Choose the dramatic announcement:",
+          "contextEnglish": "Spring has arrived (as exciting news).",
+          "options": [
+            "Весна наступила.",
+            "Наступила весна!"
+          ],
+          "answer": "Наступила весна!",
+          "explanation": "Глагол в начале фразы создаёт драматичное, «новостное» сообщение. Другой вариант - нейтральное высказывание."
+        },
+        {
+          "context": "Choose the existential introduction:",
+          "contextEnglish": "Introducing a new character: 'In the garden there sat an old man.'",
+          "options": [
+            "В саду сидел старик.",
+            "Старик сидел в саду."
+          ],
+          "answer": "В саду сидел старик.",
+          "explanation": "Глагол перед существительным после обстоятельства места вводит новый объект (бытийное значение). Другой вариант описывает уже известного старика."
+        }
+      ],
+      "translation": [
+        {
+          "english": "It was NATASHA who called.",
+          "answer": "Позвонила Наташа.",
+          "acceptableVariants": [
+            "Звонила Наташа."
+          ],
+          "hint": "Verb-first puts the subject in emphatic final position.",
+          "grammarFocus": "Subject as rheme (verb-initial)",
+          "options": [
+            "Позвонила Наташа.",
+            "Наташа позвонила."
+          ]
+        },
+        {
+          "english": "In the park there stood an old tree.",
+          "answer": "В парке стояло старое дерево.",
+          "acceptableVariants": [
+            "В парке росло старое дерево."
+          ],
+          "hint": "Locative + verb + new entity for existential introduction.",
+          "grammarFocus": "Existential construction",
+          "options": [
+            "В парке стояло старое дерево.",
+            "Старое дерево стояло в парке."
+          ]
+        },
+        {
+          "english": "What a cold winter! (emphatic inversion)",
+          "answer": "Холодная это зима!",
+          "acceptableVariants": [
+            "Холодная зима!"
+          ],
+          "hint": "Adjective fronted before the demonstrative for exclamation.",
+          "grammarFocus": "Emphatic inversion with adjective",
+          "options": [
+            "Холодная это зима!",
+            "Это холодная зима."
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Пришёл Павел вчера. (meant: Pavel came YESTERDAY - emphasis on when)",
+          "error": "Пришёл Павел вчера",
+          "correction": "Павел пришёл вчера",
+          "hint": "If 'when' is the new info, it should be in final position with SVO order.",
+          "explanation": "Павел пришёл вчера - вчера in final position answers 'when?' Verb-initial 'Пришёл Павел' would emphasize WHO came.",
+          "options": [
+            "Павел пришёл вчера",
+            "Вчера пришёл Павел"
+          ]
+        },
+        {
+          "sentence": "В парке старик сидел. (meant: existential introduction of the old man)",
+          "error": "старик сидел",
+          "correction": "сидел старик",
+          "hint": "Existential construction needs verb before the new noun.",
+          "explanation": "В парке сидел старик - the verb must precede the new entity in an existential introduction.",
+          "options": [
+            "сидел старик",
+            "старик сидит"
+          ]
+        },
+        {
+          "sentence": "Ли знаешь ты это? (meant: formal question with ли)",
+          "error": "Ли знаешь",
+          "correction": "Знаешь ли",
+          "hint": "The particle ли follows the verb, never precedes it.",
+          "explanation": "Знаешь ли ты это? - ли must follow the verb: verb + ли + subject.",
+          "options": [
+            "Знаешь ли",
+            "Знаешь же"
+          ]
+        },
+        {
+          "sentence": "Что Борис купил машину. (meant: subordinate clause - 'that Boris bought a car')",
+          "error": "Что Борис купил",
+          "correction": "...что Борис купил",
+          "hint": "This is a subordinate clause, not a question. The word order is fine, but it needs a main clause before it.",
+          "explanation": "Subordinate clauses with что need a main clause: Он сказал, что Борис купил машину. The clause itself has correct word order.",
+          "options": [
+            "...что Борис купил",
+            "Борис что купил"
+          ]
+        }
+      ]
+    }
+  ]
+}

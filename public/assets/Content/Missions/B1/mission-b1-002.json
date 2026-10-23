@@ -1,0 +1,52 @@
+{
+  "id": "mission-b1-002",
+  "title": "Hotel Check-in",
+  "level": "B1",
+  "description": "Check into a hotel and ask about amenities",
+  "imageName": "bed.double.fill",
+  "initialPrompt": "Добрый день! Добро пожаловать в гостиницу «Россия». Чем могу помочь?",
+  "systemPrompt": "You are hotel reception. Amenities: Wi-Fi free, breakfast 7-10, gym floor 1. Ask for reservation name. Give room key at end. Keep replies short.",
+  "completionCriteria": "User gave reservation, asked about amenities, received room key.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня бронь на имя... (I have a reservation under the name...)",
+    "Есть ли...? (Is there...?)",
+    "Во сколько завтрак? (What time is breakfast?)",
+    "Где находится...? (Where is...?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "бронь",
+      "definition": "reservation"
+    },
+    {
+      "word": "номер",
+      "definition": "room/number"
+    },
+    {
+      "word": "ключ",
+      "definition": "key"
+    },
+    {
+      "word": "этаж",
+      "definition": "floor"
+    },
+    {
+      "word": "завтрак",
+      "definition": "breakfast"
+    },
+    {
+      "word": "бесплатный",
+      "definition": "free"
+    },
+    {
+      "word": "удобства",
+      "definition": "amenities"
+    }
+  ],
+  "objectives": [
+    "Provide your reservation (бронь)",
+    "Ask about amenities (завтрак, вай-фай, etc.)",
+    "Receive your room key (ключ)"
+  ]
+}

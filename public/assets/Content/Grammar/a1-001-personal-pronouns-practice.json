@@ -1,0 +1,600 @@
+{
+  "lessonId": "a1-001-personal-pronouns",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Quiz and compare across all pronoun topics",
+      "descriptionRussian": "Викторина по всем личным местоимениям",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "You're meeting a professor at university. Which 'you' do you use?",
+              "promptEnglish": "You're meeting a professor at university. Which 'you' do you use?",
+              "options": [
+                "ты",
+                "вы",
+                "мы",
+                "они"
+              ],
+              "answer": "вы",
+              "hint": "Professors are addressed formally.",
+              "explanation": "Use вы with professors, teachers, and anyone in a position of authority."
+            },
+            {
+              "prompt": "Книга на столе. _____ интересная.",
+              "promptEnglish": "The book is on the table. _____ is interesting.",
+              "options": [
+                "Он",
+                "Она",
+                "Оно",
+                "Они"
+              ],
+              "answer": "Она",
+              "hint": "Книга ends in -а (feminine).",
+              "explanation": "Книга is feminine (ends in -а), so the pronoun is она."
+            },
+            {
+              "prompt": "Which pronoun means 'we'?",
+              "promptEnglish": "Which pronoun means 'we'?",
+              "options": [
+                "они",
+                "вы",
+                "мы",
+                "я"
+              ],
+              "answer": "мы",
+              "hint": "First person plural.",
+              "explanation": "Мы means 'we'. It includes yourself plus others."
+            },
+            {
+              "prompt": "Talking to your best friend about weekend plans. Which 'you'?",
+              "promptEnglish": "Which 'you' do you use with your best friend?",
+              "options": [
+                "вы",
+                "мы",
+                "они",
+                "ты"
+              ],
+              "answer": "ты",
+              "hint": "Best friends are as close as family.",
+              "explanation": "Use ты with close friends, family, and children."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "To your own grandma at home: Бабушка, _____ хорошо себя чувствуешь?",
+          "contextEnglish": "To your own grandma: Do _____ feel well?",
+          "options": [
+            "ты",
+            "вы"
+          ],
+          "answer": "ты",
+          "explanation": "Your own grandparents are close family. Use ты with them."
+        },
+        {
+          "context": "Извините, _____ не подскажете, где вокзал?",
+          "contextEnglish": "Excuse me, could _____ tell me where the station is?",
+          "options": [
+            "ты",
+            "вы"
+          ],
+          "answer": "вы",
+          "explanation": "Asking a stranger for directions requires the polite вы."
+        },
+        {
+          "context": "_____ студент. (talking about yourself)",
+          "contextEnglish": "_____ am a student.",
+          "options": [
+            "Я",
+            "Мы"
+          ],
+          "answer": "Я",
+          "explanation": "One person talking about themselves uses я (I), not мы (we)."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in the right pronoun and sort them by type",
+      "descriptionRussian": "Вставьте нужное местоимение и рассортируйте по типу",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Мама, _____ приготовила ужин?",
+          "Доктор, _____ можете выписать рецепт?",
+          "_____ люблю кофе.",
+          "_____ работает в больнице. (she)"
+        ],
+        "choices": [
+          "ты",
+          "вы",
+          "Я",
+          "Она"
+        ],
+        "answers": [
+          "ты",
+          "вы",
+          "Я",
+          "Она"
+        ],
+        "grammarFocus": "matching pronouns to context",
+        "hints": [
+          "Mom is close family.",
+          "A doctor should be addressed formally.",
+          "First person singular: I.",
+          "Third person singular feminine."
+        ],
+        "explanations": [
+          "Family members use ты with each other.",
+          "Doctors, like other professionals, are addressed with вы.",
+          "Люблю is the я form of любить (to love).",
+          "Работает is the он/она form. The sentence specifies 'she'."
+        ],
+        "options": [
+          [
+            "он",
+            "я",
+            "вы",
+            "ты"
+          ],
+          [
+            "они",
+            "мы",
+            "вы",
+            "ты"
+          ],
+          [
+            "Он",
+            "Ты",
+            "Мы",
+            "Я"
+          ],
+          [
+            "Он",
+            "Оно",
+            "Она",
+            "Они"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort these pronouns: singular or plural?",
+        "categories": [
+          "Singular",
+          "Plural"
+        ],
+        "items": [
+          {
+            "word": "я",
+            "category": "Singular"
+          },
+          {
+            "word": "мы",
+            "category": "Plural"
+          },
+          {
+            "word": "ты",
+            "category": "Singular"
+          },
+          {
+            "word": "вы",
+            "category": "Plural"
+          },
+          {
+            "word": "он",
+            "category": "Singular"
+          },
+          {
+            "word": "она",
+            "category": "Singular"
+          },
+          {
+            "word": "оно",
+            "category": "Singular"
+          },
+          {
+            "word": "они",
+            "category": "Plural"
+          }
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "Маленькому ребёнку на площадке: _____ хочешь играть?",
+          "contextEnglish": "To a small child at the playground: Do _____ want to play?",
+          "options": [
+            "ты",
+            "вы"
+          ],
+          "answer": "ты",
+          "explanation": "Children are always addressed with ты."
+        },
+        {
+          "context": "Новому коллеге в первый день: _____ можете показать офис?",
+          "contextEnglish": "To a new colleague on day one: Can _____ show me the office?",
+          "options": [
+            "ты",
+            "вы"
+          ],
+          "answer": "вы",
+          "explanation": "New colleagues should be addressed with вы until you agree to switch."
+        }
+      ]
+    },
+    {
+      "id": "round-3-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Составь и переведи",
+      "description": "Build sentences and translate using all pronouns",
+      "descriptionRussian": "Составляйте и переводите предложения с местоимениями",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "He reads a book.",
+          "answer": "Он читает книгу.",
+          "hint": "He = он, reads = читает",
+          "grammarFocus": "masculine pronoun",
+          "keyWord": "Он",
+          "options": [
+            "Он",
+            "Она",
+            "Оно",
+            "Они"
+          ]
+        },
+        {
+          "english": "She works at school.",
+          "answer": "Она работает в школе.",
+          "hint": "She = она, works = работает",
+          "grammarFocus": "feminine pronoun",
+          "keyWord": "Она",
+          "options": [
+            "Она",
+            "Он",
+            "Оно",
+            "Они"
+          ]
+        },
+        {
+          "english": "We are students.",
+          "answer": "Мы студенты.",
+          "hint": "we = мы, students = студенты",
+          "grammarFocus": "plural first person",
+          "keyWord": "Мы",
+          "options": [
+            "Мы",
+            "Вы",
+            "Они",
+            "Я"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Ребята уже здесь. _____ ждут автобус.",
+              "promptEnglish": "The guys are already here. _____ are waiting for the bus.",
+              "options": [
+                "Он",
+                "Мы",
+                "Они",
+                "Она"
+              ],
+              "answer": "Они",
+              "hint": "Ребята is a group of people.",
+              "explanation": "Ребята (guys/kids) is plural, so use они (they)."
+            },
+            {
+              "prompt": "You and your friends are going to the cinema. «_____ идём в кино.»",
+              "promptEnglish": "_____ are going to the cinema.",
+              "options": [
+                "Я",
+                "Они",
+                "Мы",
+                "Вы"
+              ],
+              "answer": "Мы",
+              "hint": "You plus your friends = we.",
+              "explanation": "Мы (we) is used when you include yourself in a group."
+            },
+            {
+              "prompt": "A teacher addresses the whole class: «_____ готовы к уроку?»",
+              "promptEnglish": "Are _____ ready for the lesson?",
+              "options": [
+                "ты",
+                "мы",
+                "он",
+                "вы"
+              ],
+              "answer": "вы",
+              "hint": "Addressing multiple people at once.",
+              "explanation": "Вы is used when addressing multiple people."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-spot-errors",
+      "title": "Find the Mistakes",
+      "titleRussian": "Найди ошибки",
+      "description": "Spot and fix wrong pronoun usage",
+      "descriptionRussian": "Найдите и исправьте неправильное употребление местоимений",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Книга на столе. Он интересный.",
+          "error": "Он",
+          "correction": "Она",
+          "hint": "Книга is feminine, not masculine.",
+          "explanation": "Книга is feminine, so the pronoun must be она (not он) and the adjective must be интересная (not интересный).",
+          "options": [
+            "Она",
+            "Оно",
+            "Они"
+          ]
+        },
+        {
+          "sentence": "Здравствуйте, профессор! Ты можешь помочь?",
+          "error": "Ты",
+          "correction": "Вы",
+          "hint": "A professor should be addressed formally.",
+          "explanation": "Professors are addressed with вы (formal). Ты is too informal for this situation.",
+          "options": [
+            "Вы",
+            "Мы",
+            "Они"
+          ]
+        },
+        {
+          "sentence": "Вот мой брат и сестра. Он живут в Москве.",
+          "error": "Он",
+          "correction": "Они",
+          "hint": "Two people need a plural pronoun.",
+          "explanation": "Брат и сестра are two people, so use они (they), not он (he).",
+          "options": [
+            "Они",
+            "Она",
+            "Оно"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which pronoun replaces a neuter noun like окно (window)?",
+              "promptEnglish": "Which pronoun replaces a neuter noun?",
+              "options": [
+                "он",
+                "она",
+                "оно",
+                "они"
+              ],
+              "answer": "оно",
+              "hint": "Neuter nouns use the neuter pronoun.",
+              "explanation": "Окно is neuter (ends in -о), so the pronoun is оно."
+            },
+            {
+              "prompt": "Собака (dog) is feminine. Which pronoun replaces it?",
+              "promptEnglish": "Which pronoun replaces собака (dog)?",
+              "options": [
+                "он",
+                "они",
+                "оно",
+                "она"
+              ],
+              "answer": "она",
+              "hint": "Grammatical gender determines the pronoun.",
+              "explanation": "Собака is grammatically feminine (ends in -а), so the pronoun is она, even if the dog is male."
+            },
+            {
+              "prompt": "Вот моя сестра. _____ учится в школе.",
+              "promptEnglish": "Here is my sister. _____ studies at school.",
+              "options": [
+                "Он",
+                "Они",
+                "Она",
+                "Оно"
+              ],
+              "answer": "Она",
+              "hint": "A sister is female.",
+              "explanation": "Сестра (sister) is feminine, so use она (she)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ читает книгу. (one boy)",
+          "contextEnglish": "_____ is reading a book.",
+          "options": [
+            "Он",
+            "Они"
+          ],
+          "answer": "Он",
+          "explanation": "One male person = он (he). Они (they) is for multiple people."
+        },
+        {
+          "context": "_____ читают книги. (several friends)",
+          "contextEnglish": "_____ are reading books.",
+          "options": [
+            "Он",
+            "Они"
+          ],
+          "answer": "Они",
+          "explanation": "Several people = они (they). The verb changes too: читает → читают."
+        },
+        {
+          "context": "_____ студенты. (talking about your group)",
+          "contextEnglish": "_____ are students.",
+          "options": [
+            "Я",
+            "Мы"
+          ],
+          "answer": "Мы",
+          "explanation": "A group including yourself = мы (we)."
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанная практика",
+      "description": "A fresh round mixing all pronoun skills",
+      "descriptionRussian": "Новый раунд практики по всем местоимениям",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Телефон зазвонил. _____ на столе.",
+              "promptEnglish": "The phone rang. _____ is on the table.",
+              "options": [
+                "Она",
+                "Оно",
+                "Он",
+                "Они"
+              ],
+              "answer": "Он",
+              "hint": "Телефон ends in a consonant (masculine).",
+              "explanation": "Телефон is masculine, so the pronoun is он."
+            },
+            {
+              "prompt": "Speaking to a police officer: _____ можете помочь?",
+              "promptEnglish": "Can _____ help me?",
+              "options": [
+                "ты",
+                "мы",
+                "вы",
+                "они"
+              ],
+              "answer": "вы",
+              "hint": "Police officers are strangers in authority.",
+              "explanation": "Use вы with strangers and authority figures."
+            },
+            {
+              "prompt": "Which pronoun means 'they'?",
+              "promptEnglish": "Which pronoun means 'they'?",
+              "options": [
+                "мы",
+                "вы",
+                "он",
+                "они"
+              ],
+              "answer": "они",
+              "hint": "Third person plural.",
+              "explanation": "Они means 'they'. It works for any group regardless of gender."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ хотите чай? (formal you)",
+          "_____ играют в парке. (they)",
+          "Саша, _____ идёшь гулять? (informal you)"
+        ],
+        "choices": [
+          "Вы",
+          "Они",
+          "ты"
+        ],
+        "answers": [
+          "Вы",
+          "Они",
+          "ты"
+        ],
+        "grammarFocus": "mixed pronoun practice",
+        "hints": [
+          "Formal address to one person or a group.",
+          "Third person plural.",
+          "Casual address to a friend."
+        ],
+        "explanations": [
+          "Хотите is the вы form of хотеть.",
+          "Играют is the они form of играть.",
+          "Идёшь is the ты form of идти."
+        ],
+        "options": [
+          [
+            "Ты",
+            "Мы",
+            "Они",
+            "Вы"
+          ],
+          [
+            "Мы",
+            "Она",
+            "Он",
+            "Они"
+          ],
+          [
+            "он",
+            "вы",
+            "ты",
+            "мы"
+          ]
+        ]
+      },
+      "translation": [
+        {
+          "english": "They live in Moscow.",
+          "answer": "Они живут в Москве.",
+          "hint": "they = они, live = живут",
+          "grammarFocus": "plural third person",
+          "keyWord": "Они",
+          "options": [
+            "Они",
+            "Он",
+            "Она",
+            "Оно"
+          ]
+        },
+        {
+          "english": "She reads a book.",
+          "answer": "Она читает книгу.",
+          "hint": "she = она, reads = читает",
+          "grammarFocus": "feminine third person",
+          "keyWord": "Она",
+          "options": [
+            "Она",
+            "Он",
+            "Оно",
+            "Они"
+          ]
+        },
+        {
+          "english": "It is on the table.",
+          "answer": "Оно на столе.",
+          "acceptableVariants": [
+            "Оно стоит на столе.",
+            "Оно лежит на столе."
+          ],
+          "hint": "It (neuter) = оно",
+          "grammarFocus": "neuter pronoun",
+          "keyWord": "Оно",
+          "options": [
+            "Оно",
+            "Он",
+            "Она",
+            "Они"
+          ]
+        }
+      ]
+    }
+  ]
+}

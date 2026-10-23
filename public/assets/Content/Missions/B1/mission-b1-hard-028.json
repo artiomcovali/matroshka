@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-028",
+  "title": "Credit Report Error",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Your credit report has errors damaging your score",
+  "imageName": "doc.text.magnifyingglass",
+  "initialPrompt": "Наши данные верны. Если вы не согласны, подайте официальную жалобу. Процесс занимает 45 дней.",
+  "systemPrompt": "You are credit bureau agent. Dismiss error claim, cite slow dispute process. Expedite only if person provides clear proof of error and mentions financial harm. Keep replies short.",
+  "completionCriteria": "User initiated expedited correction of credit report.",
+  "responseLimit": 15,
+  "hints": [
+    "Вот доказательство ошибки (Here's proof of the error)",
+    "Это вредит моей кредитной истории (This is damaging my credit history)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "кредитная история",
+      "definition": "credit history"
+    },
+    {
+      "word": "ошибка",
+      "definition": "error"
+    },
+    {
+      "word": "исправление",
+      "definition": "correction"
+    },
+    {
+      "word": "доказательство",
+      "definition": "proof"
+    },
+    {
+      "word": "ущерб",
+      "definition": "damage"
+    },
+    {
+      "word": "срочно",
+      "definition": "urgently"
+    }
+  ],
+  "objectives": [
+    "Identify the error",
+    "Provide documentation",
+    "Explain financial impact",
+    "Demand expedited fix",
+    "Get correction started"
+  ]
+}

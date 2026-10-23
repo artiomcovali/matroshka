@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-022",
+  "title": "The Missing Package",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Package marked delivered but missing - prove non-delivery",
+  "imageName": "shippingbox.fill",
+  "initialPrompt": "По нашим данным, посылка доставлена вчера в 14:00. Подпись есть.",
+  "systemPrompt": "You work at post office. System shows delivered with signature. Be skeptical. Accept claim only if customer proves they weren't home (work schedule, witnesses). Keep replies short.",
+  "completionCriteria": "User filed claim or got investigation started.",
+  "responseLimit": 15,
+  "hints": [
+    "Я не получал посылку (I didn't receive the package)",
+    "Я был на работе (I was at work)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "посылка",
+      "definition": "package"
+    },
+    {
+      "word": "доставка",
+      "definition": "delivery"
+    },
+    {
+      "word": "подпись",
+      "definition": "signature"
+    },
+    {
+      "word": "расследование",
+      "definition": "investigation"
+    },
+    {
+      "word": "претензия",
+      "definition": "claim"
+    },
+    {
+      "word": "доказательство",
+      "definition": "proof"
+    }
+  ],
+  "objectives": [
+    "Claim you never received it",
+    "Prove you weren't home",
+    "Dispute the signature",
+    "Request investigation",
+    "Get claim filed"
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "id": "a1-025-prepositions-location",
+  "level": "A1",
+  "focusArea": "prepositions",
+  "title": "Location Prepositions",
+  "titleRussian": "Предлоги места",
+  "description": "Prepositions в and на for location and direction",
+  "descriptionRussian": "Предлоги в и на для обозначения места и направления",
+  "imageName": "mappin.and.ellipse",
+  "intro": "Russian uses two main prepositions for location: в (in) and на (on/at). The tricky part is that the same preposition can mean different things depending on the case that follows. В/на + prepositional case = location (where?). В/на + accusative case = direction (where to?). Some places always use на even when в seems more logical - these must be memorized.",
+  "rules": [
+    "В + prepositional = inside a place: Я в доме. (I'm in the house.)",
+    "На + prepositional = on/at a place: Книга на столе. (The book is on the table.)",
+    "В + accusative = direction into: Я иду в магазин. (I'm going to the store.)",
+    "На + accusative = direction onto: Я иду на работу. (I'm going to work.)",
+    "Some places always use на: на работе (at work), на улице (outside), на вокзале (at the station), на почте (at the post office)."
+  ],
+  "examples": [
+    "Я живу в Москве. (I live in Moscow.), в + prepositional (location)",
+    "Я еду в Москву. (I'm going to Moscow.), в + accusative (direction)",
+    "Она на работе. (She's at work.), на + prepositional (location)",
+    "Она идёт на работу. (She's going to work.), на + accusative (direction)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я живу _____ Москве. (in)",
+          "promptEnglish": "I live in Moscow.",
+          "options": [
+            "на",
+            "из",
+            "в",
+            "с"
+          ],
+          "answer": "в",
+          "hint": "Inside a city = в",
+          "explanation": "Use в for being inside cities, buildings, countries: в Москве."
+        },
+        {
+          "prompt": "Книга лежит _____ столе. (on)",
+          "promptEnglish": "The book is on the table.",
+          "options": [
+            "в",
+            "на",
+            "из",
+            "с"
+          ],
+          "answer": "на",
+          "hint": "On a surface = на",
+          "explanation": "Use на for surfaces: на столе (on the table)."
+        },
+        {
+          "prompt": "Она _____ работе. (at)",
+          "promptEnglish": "She is at work.",
+          "options": [
+            "из",
+            "в",
+            "с",
+            "на"
+          ],
+          "answer": "на",
+          "hint": "Work always uses на",
+          "explanation": "Work (работа) always uses на: на работе, на работу."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я иду _____ магазин. (to the store)",
+          "promptEnglish": "I'm going to the store.",
+          "options": [
+            "с",
+            "в",
+            "на",
+            "из"
+          ],
+          "answer": "в",
+          "hint": "Direction into = в + accusative",
+          "explanation": "Use в + accusative for direction into a place: в магазин."
+        },
+        {
+          "prompt": "Дети играют _____ улице. (outside)",
+          "promptEnglish": "The children are playing outside.",
+          "options": [
+            "в",
+            "из",
+            "на",
+            "с"
+          ],
+          "answer": "на",
+          "hint": "Street/outside always uses на",
+          "explanation": "Улица (street/outside) always uses на: на улице."
+        },
+        {
+          "prompt": "Мы едем _____ вокзал. (to the station)",
+          "promptEnglish": "We're going to the station.",
+          "options": [
+            "из",
+            "с",
+            "в",
+            "на"
+          ],
+          "answer": "на",
+          "hint": "Station always uses на",
+          "explanation": "Вокзал (station) always uses на: на вокзал, на вокзале."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я иду _____ школу. (I am going to school.)",
+      "Она идёт _____ работу. (She is going to work.)",
+      "Мы идём _____ магазин. (We are going to the store.)"
+    ],
+    "choices": [
+      "в",
+      "на",
+      "в",
+      "из",
+      "с",
+      "к"
+    ],
+    "answers": [
+      "в",
+      "на",
+      "в"
+    ],
+    "grammarFocus": "В for enclosed spaces (school, store); на for open/activity places (work)",
+    "options": [
+      [
+        "к",
+        "на",
+        "с",
+        "в"
+      ],
+      [
+        "в",
+        "к",
+        "из",
+        "на"
+      ],
+      [
+        "в",
+        "из",
+        "с",
+        "к"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я _____ школе. (I'm at school)",
+      "contextEnglish": "I'm at school.",
+      "options": [
+        "в",
+        "на"
+      ],
+      "answer": "в",
+      "explanation": "School (школа) uses в: в школе."
+    },
+    {
+      "context": "Она _____ работе. (She's at work)",
+      "contextEnglish": "She's at work.",
+      "options": [
+        "на",
+        "в"
+      ],
+      "answer": "на",
+      "explanation": "Work (работа) always uses на: на работе."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: which preposition does each place use? Hint: buildings use в, open/surface places use на.",
+    "categories": [
+      "в (in)",
+      "на (on/at)"
+    ],
+    "items": [
+      {
+        "word": "дом (house)",
+        "category": "в (in)"
+      },
+      {
+        "word": "работа (work)",
+        "category": "на (on/at)"
+      },
+      {
+        "word": "школа (school)",
+        "category": "в (in)"
+      },
+      {
+        "word": "улица (street)",
+        "category": "на (on/at)"
+      },
+      {
+        "word": "магазин (store)",
+        "category": "в (in)"
+      },
+      {
+        "word": "вокзал (station)",
+        "category": "на (on/at)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "в + предложный",
+      "definition": "in (location)",
+      "example": "Я в доме."
+    },
+    {
+      "term": "в + винительный",
+      "definition": "into (direction)",
+      "example": "Я иду в дом."
+    },
+    {
+      "term": "на + предложный",
+      "definition": "on/at (location)",
+      "example": "Книга на столе."
+    },
+    {
+      "term": "на + винительный",
+      "definition": "onto/to (direction)",
+      "example": "Я иду на работу."
+    }
+  ]
+}

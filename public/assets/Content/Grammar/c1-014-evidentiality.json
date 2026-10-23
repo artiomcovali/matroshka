@@ -1,0 +1,294 @@
+{
+  "id": "c1-014-evidentiality",
+  "level": "C1",
+  "focusArea": "sentenceStructure",
+  "title": "Evidentiality",
+  "titleRussian": "Эвиденциальность",
+  "description": "Expressing source of information",
+  "descriptionRussian": "Выражение источника информации",
+  "imageName": "eye.circle",
+  "intro": "Evidentiality marks how you know something. DIRECT EVIDENCE: no marker needed (Он пришёл - I saw it). HEARSAY: говорят (they say), по словам + gen (according to), якобы (allegedly), мол (quote marker). INFERENCE: видимо/по-видимому (apparently), похоже (it seems), судя по (judging by), должно быть (must be). REPORTED THOUGHT: дескать (supposedly said). Russian speakers frequently mark information source, especially in formal contexts. Omitting evidentials can imply personal witness or certainty.",
+  "rules": [
+    "Hearsay: говорят (they say), по словам X (according to X), якобы (allegedly)",
+    "Inference: видимо (apparently), похоже (seems), должно быть (must be)",
+    "Quote marker: мол (he said that...), дескать (supposedly)",
+    "Judging: судя по + dat (judging by), насколько я знаю (as far as I know)"
+  ],
+  "examples": [
+    "Говорят, он уехал. (They say he left., hearsay)",
+    "По словам министра, реформы необходимы. (According to the minister, reforms are necessary.)",
+    "Видимо, он не придёт. (Apparently, he won't come., inference)",
+    "Он, мол, болен. (He's supposedly sick., reported speech marker)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Hearsay: _____, он женился. (They say)",
+          "promptEnglish": "They say he got married.",
+          "options": [
+            "Конечно",
+            "Видимо",
+            "Точно",
+            "Говорят"
+          ],
+          "answer": "Говорят",
+          "hint": "Hearsay = говорят",
+          "explanation": "Hearsay: Говорят (they say)."
+        },
+        {
+          "prompt": "Inference: _____, она устала. (Apparently)",
+          "promptEnglish": "Apparently, she's tired.",
+          "options": [
+            "Говорят",
+            "Видимо",
+            "Точно",
+            "Ясно"
+          ],
+          "answer": "Видимо",
+          "hint": "Inference from evidence = видимо",
+          "explanation": "Inference: Видимо (apparently)."
+        },
+        {
+          "prompt": "According to: По _____ врача, нужен отдых. (according to)",
+          "promptEnglish": "According to the doctor, rest is needed.",
+          "options": [
+            "словам",
+            "виду",
+            "мнению",
+            "делу"
+          ],
+          "answer": "словам",
+          "hint": "по словам + gen = according to",
+          "explanation": "Attribution: по словам (according to)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Allegedly: Он _____ богат. (allegedly/supposedly)",
+          "promptEnglish": "He is allegedly rich.",
+          "options": [
+            "правда",
+            "точно",
+            "якобы",
+            "конечно"
+          ],
+          "answer": "якобы",
+          "hint": "Doubt/allegation = якобы",
+          "explanation": "Allegedly: якобы (supposedly)."
+        },
+        {
+          "prompt": "Must be: Он _____ забыл. (must have)",
+          "promptEnglish": "He must have forgotten.",
+          "options": [
+            "должно быть",
+            "надо",
+            "может быть",
+            "нужно"
+          ],
+          "answer": "должно быть",
+          "hint": "Logical inference = должно быть",
+          "explanation": "Inference: должно быть (must be)."
+        },
+        {
+          "prompt": "Quote marker: Он, _____, не знал. (supposedly said)",
+          "promptEnglish": "He supposedly didn't know.",
+          "options": [
+            "ну",
+            "вот",
+            "же",
+            "мол"
+          ],
+          "answer": "мол",
+          "hint": "Reported speech marker",
+          "explanation": "Quote marker: мол (he said that)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Judging by: _____ всему, он прав. (Judging by)",
+          "promptEnglish": "Judging by everything, he's right.",
+          "options": [
+            "Глядя",
+            "Видя",
+            "Судя по",
+            "Смотря на"
+          ],
+          "answer": "Судя по",
+          "hint": "Inference = судя по",
+          "explanation": "Judging: Судя по (judging by)."
+        },
+        {
+          "prompt": "Seems: _____, дождь будет. (It seems)",
+          "promptEnglish": "It seems it will rain.",
+          "options": [
+            "Точно",
+            "Похоже",
+            "Ясно",
+            "Конечно"
+          ],
+          "answer": "Похоже",
+          "hint": "Appearance-based inference",
+          "explanation": "Seems: Похоже (it looks like)."
+        },
+        {
+          "prompt": "As far as I know: _____ я знаю, он уехал.",
+          "promptEnglish": "As far as I know, he left.",
+          "options": [
+            "Поскольку",
+            "Насколько",
+            "Потому что",
+            "Так как"
+          ],
+          "answer": "Насколько",
+          "hint": "Limiting knowledge claim",
+          "explanation": "Limitation: Насколько я знаю."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Он, _____, уже всё знал, но молчал. (дескать / мол — чужая речь)",
+          "promptEnglish": "He supposedly already knew everything but kept quiet.",
+          "options": [
+            "видимо",
+            "говорят",
+            "мол",
+            "конечно"
+          ],
+          "answer": "мол",
+          "hint": "Маркер пересказа чужих слов внутри предложения",
+          "explanation": "«Мол» — разговорный маркер чужой речи: говорящий передаёт слова другого человека, дистанцируясь от их достоверности."
+        },
+        {
+          "prompt": "_____ президента компании, прибыль выросла на двадцать процентов. (по словам)",
+          "promptEnglish": "According to the company president, profits increased by twenty percent.",
+          "options": [
+            "По словам",
+            "Судя по",
+            "Говорят",
+            "Похоже на"
+          ],
+          "answer": "По словам",
+          "hint": "Указание конкретного источника информации",
+          "explanation": "«По словам» + род.П. — формальный способ указать источник информации: «по словам президента» — ссылка на конкретного человека."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ по его виду, он не спал всю ночь. (Judging by)"
+    ],
+    "choices": [
+      "Судя",
+      "Видя",
+      "Смотря",
+      "Глядя"
+    ],
+    "answers": [
+      "Судя"
+    ],
+    "grammarFocus": "Inference: Судя по + dative",
+    "hints": [
+      "This expression marks that the speaker is making an inference based on evidence. It literally relates to the verb 'to judge' (судить)."
+    ],
+    "explanations": [
+      "'Судя по' (judging by) + dative is the standard evidential marker for inferences based on observable evidence: 'Судя по его виду' (judging by his appearance). It signals that the conclusion is the speaker's inference, not a confirmed fact."
+    ],
+    "options": [
+      [
+        "судив",
+        "Судя",
+        "судивши"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Hearsay (others say): _____, он уехал.",
+      "contextEnglish": "They say he left.",
+      "options": [
+        "Говорят",
+        "Видимо"
+      ],
+      "answer": "Говорят",
+      "explanation": "Hearsay: Говорят."
+    },
+    {
+      "context": "Inference (I deduce): _____, он уехал.",
+      "contextEnglish": "Apparently he left (I infer).",
+      "options": [
+        "Видимо",
+        "Говорят"
+      ],
+      "answer": "Видимо",
+      "explanation": "Inference: Видимо."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by evidential type",
+    "categories": [
+      "Hearsay (reported)",
+      "Inference (deduced)",
+      "Attribution (source)"
+    ],
+    "items": [
+      {
+        "word": "говорят",
+        "category": "Hearsay (reported)"
+      },
+      {
+        "word": "видимо",
+        "category": "Inference (deduced)"
+      },
+      {
+        "word": "по словам",
+        "category": "Attribution (source)"
+      },
+      {
+        "word": "якобы",
+        "category": "Hearsay (reported)"
+      },
+      {
+        "word": "должно быть",
+        "category": "Inference (deduced)"
+      },
+      {
+        "word": "судя по",
+        "category": "Inference (deduced)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "говорят",
+      "definition": "they say (hearsay marker)",
+      "example": "Говорят, он уехал."
+    },
+    {
+      "term": "якобы",
+      "definition": "allegedly, supposedly",
+      "example": "Он якобы богат."
+    },
+    {
+      "term": "видимо / по-видимому",
+      "definition": "apparently (inference)",
+      "example": "Видимо, он не придёт."
+    },
+    {
+      "term": "судя по + dat",
+      "definition": "judging by",
+      "example": "Судя по всему, он прав."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "mission-a1-011",
+  "title": "Buy Flowers",
+  "level": "A1",
+  "difficulty": "easy",
+  "description": "Buy a bouquet of flowers at a flower shop",
+  "imageName": "leaf.fill",
+  "initialPrompt": "Добрый день! Какие красивые цветы сегодня! Розы, тюльпаны, ромашки. Что вам нужно?",
+  "systemPrompt": "You sell flowers. Roses 200₽ each, tulips 100₽, daisies 80₽. Ask how many, what color, for what occasion. Keep replies short.",
+  "completionCriteria": "User chose flowers and completed purchase.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужны цветы (I need flowers)",
+    "Пять роз, пожалуйста (Five roses, please)",
+    "Какие цвета есть? (What colors do you have?)",
+    "Для мамы (For my mom)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "цветы",
+      "definition": "flowers"
+    },
+    {
+      "word": "розы",
+      "definition": "roses"
+    },
+    {
+      "word": "тюльпаны",
+      "definition": "tulips"
+    },
+    {
+      "word": "красный",
+      "definition": "red"
+    },
+    {
+      "word": "белый",
+      "definition": "white"
+    },
+    {
+      "word": "букет",
+      "definition": "bouquet"
+    }
+  ],
+  "objectives": [
+    "Say you want to buy flowers",
+    "Choose the type of flowers",
+    "Say how many you want",
+    "Ask about colors",
+    "Complete the purchase"
+  ]
+}

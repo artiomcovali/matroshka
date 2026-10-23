@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-028",
+  "title": "Medical Second Opinion",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Seeking a second medical opinion diplomatically",
+  "imageName": "stethoscope",
+  "initialPrompt": "Вы хотите второе мнение? Это ваше право, но мой диагноз основан на многолетнем опыте. Что вас беспокоит?",
+  "systemPrompt": "You are experienced doctor whose diagnosis is questioned. Not offended but want to understand concerns. Explain reasoning if asked. Keep replies short.",
+  "completionCriteria": "User navigated medical discussion respectfully while advocating for themselves.",
+  "responseLimit": 15,
+  "hints": [
+    "Я ценю ваш опыт, но... (I value your experience, but...)",
+    "Можете объяснить подробнее? (Can you explain in more detail?)",
+    "Я хотел бы понять все варианты (I would like to understand all options)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "диагноз",
+      "definition": "diagnosis"
+    },
+    {
+      "word": "симптомы",
+      "definition": "symptoms"
+    },
+    {
+      "word": "лечение",
+      "definition": "treatment"
+    },
+    {
+      "word": "консультация",
+      "definition": "consultation"
+    },
+    {
+      "word": "специалист",
+      "definition": "specialist"
+    },
+    {
+      "word": "анализы",
+      "definition": "tests"
+    }
+  ],
+  "objectives": [
+    "Express concerns respectfully",
+    "Ask clarifying questions",
+    "Understand diagnosis reasoning",
+    "Maintain good relationship"
+  ]
+}

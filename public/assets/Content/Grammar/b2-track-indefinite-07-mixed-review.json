@@ -1,0 +1,402 @@
+{
+  "id": "b2-track-indefinite-07-mixed-review",
+  "level": "B2",
+  "focusArea": "other",
+  "title": "Indefinite 7: Mixed Review",
+  "titleRussian": "Неопределённые 7: итоговое повторение",
+  "description": "The capstone of the track. Choose between -то, -нибудь, ни- + double negation, the correct case form, and the некого / нечего construction, all in one mixed set. This is where the whole indefinite-pronoun system comes together.",
+  "descriptionRussian": "Итог трека. Выбор между -то, -нибудь, ни- с двойным отрицанием, правильной падежной формой и конструкцией некого / нечего — всё в одном смешанном наборе.",
+  "imageName": "checkmark.seal",
+  "trackId": "b2-indefinite-pronouns-mastery",
+  "trackTitle": "Indefinite Pronouns Mastery",
+  "trackTitleRussian": "Неопределённые местоимения",
+  "trackIndex": 7,
+  "trackTotal": 7,
+  "intro": "Two questions settle any of these. Positive or negative first. If positive, does the referent already exist or is it still open. If negative, is there a subject doing the negating, or is the point that there is nobody to do it at all. Four families, and each is a different answer to those two.",
+  "rules": [
+    "-то marks a real, specific referent whose identity is unknown (past, facts); -нибудь marks an open, not-yet-fixed referent (questions, requests, future, hypotheticals).",
+    "Plain negatives use ни- + the obligatory second не on a finite verb, with a nominative subject and stress on the end: Никто не пришёл (никтО). Any number of ни- words share one не.",
+    "The 'no one / nothing to do X' construction uses не- with stress on the prefix (нЕкого), a DATIVE subject, an INFINITIVE, and NO second не: Мне нечего делать.",
+    "Decline the question-word core for case and keep the -то / -нибудь particle on the end; the negative ни- and не- split around a preposition: ни с кем, не о чем.",
+    "Decision tree: positive or negative? then specific (-то) or open (-нибудь), or plain negative (ни- + не) or the construction (не- + dative + infinitive)? then which case?"
+  ],
+  "examples": [
+    "Кто-то уже занял столик. (Someone already took the table.) real, past → -то.",
+    "Закажи нам что-нибудь поесть. (Order us something to eat.) request, open → -нибудь.",
+    "Никто ничего не заметил. (Nobody noticed anything.) plain negative, two ни- words, one не.",
+    "Мне не с кем оставить ребёнка. (I have no one to leave the child with.) construction: dative + infinitive, split, no second не.",
+    "Она с кем-то поссорилась вчера. (She quarrelled with someone yesterday.) instrumental, real → с кем-то.",
+    "Ему незачем туда идти. (He has no reason to go there.) construction: dative + infinitive, no second не."
+  ],
+  "tables": [
+    {
+      "title": "The whole system on one page",
+      "headers": [
+        "Form",
+        "Meaning",
+        "Frame"
+      ],
+      "rows": [
+        {
+          "label": "кто-то",
+          "cells": [
+            "someone (real, unknown)",
+            "past / fact"
+          ]
+        },
+        {
+          "label": "кто-нибудь",
+          "cells": [
+            "anyone (open)",
+            "question / request / future / if"
+          ]
+        },
+        {
+          "label": "никто ... не",
+          "cells": [
+            "nobody (plain negative)",
+            "nominative + finite verb + не"
+          ]
+        },
+        {
+          "label": "некого (стресс нЕ-)",
+          "cells": [
+            "no one to ...",
+            "dative + infinitive, no second не"
+          ]
+        },
+        {
+          "label": "ни с кем / не с кем",
+          "cells": [
+            "with nobody / no one to ... with",
+            "the negative splits around the preposition"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Тише! По-моему, _____ ходит по чердаку.",
+          "promptEnglish": "Quiet! I think someone is walking around in the attic.",
+          "options": [
+            "кто-нибудь",
+            "кто-то",
+            "никто",
+            "некому"
+          ],
+          "answer": "кто-то",
+          "hint": "A real, particular someone is making the sound right now. Specific but unknown.",
+          "explanation": "There is a real sound, so a particular person is up there; you just cannot see who. That is the -то slot: кто-то. Кто-нибудь would mean 'anyone at all,' which does not fit a real noise happening now. Никто would need a second не."
+        },
+        {
+          "prompt": "На этой работе я _____ не завишу от начальства.",
+          "promptEnglish": "In this job I depend on no one from management.",
+          "options": [
+            "ни от кого",
+            "ни у кого",
+            "не от кого",
+            "от кого-то"
+          ],
+          "answer": "ни от кого",
+          "hint": "Plain negative with a finite verb (завишу) and a second не. 'Depend ON' = зависеть от + genitive, so the negative splits around от.",
+          "explanation": "Зависеть от кого?Takes от + genitive, and this is a plain negative with the finite verb завишу and the second не, so the negative ни- splits around the preposition: ни от кого не завишу. Не от кого would be the 'no one to depend on' construction (dative + infinitive), which does not fit a finite present-tense verb here."
+        },
+        {
+          "prompt": "Мне так скучно, совершенно _____ заняться.",
+          "promptEnglish": "I'm so bored, there is absolutely nothing to keep myself busy with.",
+          "options": [
+            "ничем",
+            "нечем",
+            "чем-то",
+            "ничего"
+          ],
+          "answer": "нечем",
+          "hint": "Dative subject (Мне), infinitive (заняться), no second не. 'Occupy oneself WITH' = заняться + instrumental.",
+          "explanation": "Заняться чем?Takes the instrumental, and the frame is dative subject (Мне) + infinitive (заняться) with no second не: the construction, so нечем (stress нЕчем), 'there is nothing for me to do.' Ничем would need a finite verb and a second не (Я ничем не занимаюсь). The dative + infinitive shape is the giveaway."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ из вас может помочь мне донести коробки?",
+          "promptEnglish": "Can any of you help me carry the boxes?",
+          "options": [
+            "Кто-то",
+            "Кто-нибудь",
+            "Никто",
+            "Некому"
+          ],
+          "answer": "Кто-нибудь",
+          "hint": "A question / appeal: any of you will do, nobody is chosen yet.",
+          "explanation": "This is a question and an appeal where any willing person would do, so the open referent takes -нибудь: Кто-нибудь. Кто-то would point to a particular person already in mind, which an open appeal does not. Questions are a home of -нибудь."
+        },
+        {
+          "prompt": "Ты _____ говорил с директором о повышении?",
+          "promptEnglish": "Have you spoken with the director about a raise yet?",
+          "options": [
+            "когда-то",
+            "когда-нибудь",
+            "никогда",
+            "некогда"
+          ],
+          "answer": "когда-нибудь",
+          "hint": "A question about any time at all ('yet / ever'). Open referent.",
+          "explanation": "A question asking 'ever / yet?' has an open time referent and takes -нибудь: когда-нибудь. Когда-то ('once, at a definite past time') belongs in statements. Никогда means never and needs a second не. Некогда in the construction means 'no time to.'"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Тебе _____, но мы не знаем кто.",
+          "promptEnglish": "Someone helped you, but we don't know who.",
+          "options": [
+            "кто-то помог",
+            "кто-нибудь помог",
+            "никто помог",
+            "кое-кто поможет"
+          ],
+          "answer": "кто-то помог",
+          "hint": "A real helper, identity unknown.",
+          "explanation": "A real past helper takes -то: кто-то помог. -нибудь would leave the helper hypothetical, clashing with the fact of help; никто needs не; поможет is future."
+        },
+        {
+          "prompt": "Принеси _____, всё равно что.",
+          "promptEnglish": "Bring something to drink - anything at all.",
+          "options": [
+            "что-нибудь попить",
+            "что-то попить",
+            "ничего попить",
+            "кое-что попить"
+          ],
+          "answer": "что-нибудь попить",
+          "hint": "An open request: any drink will do.",
+          "explanation": "Requests where any example satisfies take -нибудь: принеси что-нибудь попить. -то would mean one specific drink; ничего needs не; кое-что hints at something known."
+        },
+        {
+          "prompt": "Я _____ об этом не говорил.",
+          "promptEnglish": "I told nobody about it.",
+          "options": [
+            "никому",
+            "некому",
+            "никого",
+            "кому-то"
+          ],
+          "answer": "никому",
+          "hint": "Plain negation with a finite verb: which system?",
+          "explanation": "With a finite negated verb the ни- system applies: никому не говорил (dative after говорить кому). Некому belongs to the 'nobody to do X' infinitive construction; кому-то would assert a real listener."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Мне _____ спросить об этом.",
+          "promptEnglish": "I have nobody to ask about this.",
+          "options": [
+            "некого",
+            "никого",
+            "некому",
+            "нечего"
+          ],
+          "answer": "некого",
+          "hint": "The 'nobody to do X' construction: dative + не-word + infinitive.",
+          "explanation": "The infinitive construction takes the stressed не- word with NO second не: мне некого спросить. Никого would demand a finite verb with не; некому would make the missing person the asker, not the asked."
+        }
+      ]
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each form into the family it belongs to.",
+    "categories": [
+      "-то (real, unknown)",
+      "-нибудь (open, any)",
+      "ни- negative (needs не)",
+      "не- construction (dative + infinitive)"
+    ],
+    "items": [
+      {
+        "word": "кто-то",
+        "category": "-то (real, unknown)"
+      },
+      {
+        "word": "когда-то",
+        "category": "-то (real, unknown)"
+      },
+      {
+        "word": "что-нибудь",
+        "category": "-нибудь (open, any)"
+      },
+      {
+        "word": "где-нибудь",
+        "category": "-нибудь (open, any)"
+      },
+      {
+        "word": "никто",
+        "category": "ни- negative (needs не)"
+      },
+      {
+        "word": "ничего",
+        "category": "ни- negative (needs не)"
+      },
+      {
+        "word": "некого",
+        "category": "не- construction (dative + infinitive)"
+      },
+      {
+        "word": "негде",
+        "category": "не- construction (dative + infinitive)"
+      }
+    ]
+  },
+  "patternRecognition": [
+    {
+      "sentence": "Мне некогда с тобой спорить.",
+      "question": "Which family is this, and how do you know?",
+      "options": [
+        "не- construction: dative subject + infinitive, no second не",
+        "ни- negative: needs a second не",
+        "-то: real but unknown time",
+        "-нибудь: open time in a question"
+      ],
+      "answer": "не- construction: dative subject + infinitive, no second не",
+      "explanation": "Dative subject (Мне) + infinitive (спорить) with no second не and stress on the prefix (нЕкогда) is the construction: 'I have no time to argue with you.' If it were the plain negative никогда, there would be a finite verb and a second не (Я никогда не спорю)."
+    },
+    {
+      "sentence": "Никто никому ничего не должен.",
+      "question": "Which family is this, and how do you know?",
+      "options": [
+        "не- construction: dative + infinitive",
+        "ни- negative: stacked ни- words sharing one не",
+        "-нибудь: open referents",
+        "-то: real but unknown referents"
+      ],
+      "answer": "ни- negative: stacked ни- words sharing one не",
+      "explanation": "Three ни- words (никто, никому, ничего) all lean on a single не: 'Nobody owes anybody anything.' This is the plain double-negation pattern, where stacked negatives cooperate around one не on the verb (должен here functions as the predicate with не)."
+    },
+    {
+      "sentence": "Принеси мне что-нибудь горячее с кухни.",
+      "question": "Which family is this, and how do you know?",
+      "options": [
+        "-то: a real, specific dish",
+        "-нибудь: an open referent in a request",
+        "ни- negative: needs не",
+        "не- construction: dative + infinitive"
+      ],
+      "answer": "-нибудь: an open referent in a request",
+      "explanation": "A request (принеси = bring) where any hot dish will do keeps the referent open, so -нибудь: что-нибудь горячее. Requests are one of the four homes of -нибудь."
+    },
+    {
+      "sentence": "Кто-то оставил здесь свой шарф.",
+      "question": "Which family is this, and how do you know?",
+      "options": [
+        "-нибудь: an open referent in a question",
+        "-то: a real, specific but unknown doer; completed past fact",
+        "ни- negative: needs не",
+        "не- construction: dative + infinitive"
+      ],
+      "answer": "-то: a real, specific but unknown doer; completed past fact",
+      "explanation": "The scarf is here, so a particular person really left it: a completed fact with an unknown doer. That is the -то zone: кто-то."
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Не волнуйся, тебе _____ бояться — здесь все свои. (Don't worry, you have nothing to fear - we're all friends here.)"
+    ],
+    "choices": [
+      "нечего",
+      "ничего",
+      "что-то",
+      "ничего не"
+    ],
+    "answers": [
+      "нечего"
+    ],
+    "grammarFocus": "Dative subject (тебе) + infinitive (бояться) with no second не is the construction: нечего (stress нЕчего), 'you have nothing to fear.' Ничего would need a finite verb and a second не (Ты ничего не боишься = you fear nothing)."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Утром на пороге что-нибудь лежало, завёрнутое в бумагу.",
+      "translationEnglish": "In the morning something lay on the doorstep, wrapped in paper.",
+      "error": "что-нибудь",
+      "correction": "что-то",
+      "options": [
+        "что-то",
+        "ничего",
+        "кое-что"
+      ],
+      "explanation": "The thing really lay there (a specific object, just unidentified), so the specific-but-unknown -то is correct: что-то. -нибудь marks any-will-do and belongs in questions, commands, and hypotheticals, not in descriptions of real scenes."
+    },
+    {
+      "sentence": "Никто помог нам с тяжёлым переездом.",
+      "translationEnglish": "Nobody helped us with the difficult move.",
+      "error": "помог",
+      "correction": "не помог",
+      "options": [
+        "не помог",
+        "не помогли",
+        "помогли"
+      ],
+      "explanation": "A ни-word requires DOUBLE negation: никто must be paired with не on the verb. Никто помог is ungrammatical; it has to be Никто не помог. Помог without не is the classic transfer error from English 'nobody helped'. Помогли and не помогли are plural, but никто is grammatically singular and takes a singular verb. The fix supplies the obligatory не: не помог."
+    },
+    {
+      "sentence": "Купи что-то вкусное к чаю, на твой вкус.",
+      "translationEnglish": "Buy something tasty for tea, whatever you like.",
+      "error": "что-то",
+      "correction": "что-нибудь",
+      "options": [
+        "что-нибудь",
+        "ничего",
+        "чего-нибудь"
+      ],
+      "explanation": "This is a command where any suitable item will do ('whatever you like', на твой вкус), so the non-specific -нибудь is correct: что-нибудь. -то would mean the speaker has one particular treat in mind, which 'whatever you like' rules out. Ничего would need a negated verb (ничего не купил), and чего-нибудь is the genitive, wrong because купить takes a direct object in the accusative. Commands with free choice are core -нибудь contexts."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я _____ не сказал об этом, как ты и просил. (Plain negative: finite verb + second не.)",
+      "contextEnglish": "I told nobody about it, just as you asked (plain negative).",
+      "options": [
+        "никому",
+        "некому"
+      ],
+      "answer": "никому",
+      "explanation": "The finite verb (не сказал) with a second не and a nominative subject (Я) is the plain negative: никому (stress на конце), 'I told nobody.' Некому would force a dative subject and an infinitive (Мне некому сказать = I have no one to tell), a different construction."
+    },
+    {
+      "context": "Мне _____ рассказать эту новость — все уже знают. (Construction: dative + infinitive, no second не.)",
+      "contextEnglish": "I have no one to tell this news to - everyone already knows.",
+      "options": [
+        "никому",
+        "некому"
+      ],
+      "answer": "некому",
+      "explanation": "The frame is dative subject (Мне) + infinitive (рассказать) with no second не, which is the construction: некому (stress нЕкому), 'I have no one to tell.' Никому would need a finite verb and a second не. The dative + infinitive shape, and the missing second не, mark the construction."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "дерево решений (the decision tree)",
+      "definition": "positive or negative? then specific (-то) vs open (-нибудь), or plain negative (ни- + не) vs the construction (не- + dative + infinitive)? then which case?",
+      "example": "Кто-то / кто-нибудь / никто не / некому — четыре разных ответа на «someone / anyone / nobody / no one to»."
+    },
+    {
+      "term": "ударение различает (stress distinguishes)",
+      "definition": "stress on the end (никтО, ничегО, никогдА) marks the plain negative; stress on the prefix (нЕкого, нЕчего, нЕкогда) marks the construction.",
+      "example": "никогО не вижу vs нЕкого спросить."
+    },
+    {
+      "term": "ядро склоняется, отрицание разрывается",
+      "definition": "the core declines for case while the particle stays on the end; the negative splits around a preposition (ни с кем, не о чем).",
+      "example": "с кем-то, у кого-нибудь, ни с кем, не о чем."
+    }
+  ]
+}

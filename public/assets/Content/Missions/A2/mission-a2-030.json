@@ -1,0 +1,50 @@
+{
+  "id": "mission-a2-030",
+  "title": "Key Copy",
+  "level": "A2",
+  "difficulty": "easy",
+  "description": "Get a duplicate key made at a key shop",
+  "imageName": "key.fill",
+  "initialPrompt": "Здравствуйте! Вам нужно сделать ключ? Какой ключ - от квартиры, машины, офиса?",
+  "systemPrompt": "You make key copies. Regular key 150₽, car key 500₽, security key 300₽. Takes 5-10 minutes. Ask to see the original key. Keep replies short.",
+  "completionCriteria": "User ordered key copy with type confirmed and wait time given.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужна копия ключа (I need a key copy)",
+    "От квартиры (For an apartment)",
+    "Сколько стоит? (How much does it cost?)",
+    "Сколько времени? (How long will it take?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "ключ",
+      "definition": "key"
+    },
+    {
+      "word": "копия",
+      "definition": "copy"
+    },
+    {
+      "word": "квартира",
+      "definition": "apartment"
+    },
+    {
+      "word": "сделать",
+      "definition": "to make"
+    },
+    {
+      "word": "оригинал",
+      "definition": "original"
+    },
+    {
+      "word": "минут",
+      "definition": "minutes"
+    }
+  ],
+  "objectives": [
+    "Say you need a key copy (копия ключа)",
+    "Specify what type of key",
+    "Ask about price and wait time",
+    "Confirm the order"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "lessonId": "c1-017-irony-sarcasm",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Identify concessive -то, sarcastic particles, distancing markers, and ironic diminutives, then tell sincere from ironic",
+      "descriptionRussian": "Определите уступительное -то, саркастические частицы, дистанцирующие маркеры и иронию, отличая искреннее от ироничного",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Умный-то он умный, но экзамен не сдал.\nWhat does the -то construction signal here?",
+              "promptEnglish": "The concessive -то repeats the adjective to set up a 'but...' twist.",
+              "options": [
+                "Concessive irony: 'He IS smart, BUT...'",
+                "Straightforward compliment",
+                "A question about intelligence",
+                "Formal emphasis on the adjective"
+              ],
+              "answer": "Concessive irony: 'He IS smart, BUT...'",
+              "hint": "The pattern ADJ-то он ADJ, но... concedes the quality while undercutting it.",
+              "explanation": "Умный-то он умный, но... is the concessive -то construction. It formally acknowledges a quality ('yes, he's smart') only to immediately undermine it with a contrasting fact."
+            },
+            {
+              "prompt": "Which particle expresses sarcastic dismissal, like English 'Yeah, right!'?",
+              "promptEnglish": "A short exclamation used to reject something as absurd.",
+              "options": [
+                "Конечно",
+                "Как же!",
+                "Пожалуй",
+                "Наверное"
+              ],
+              "answer": "Как же!",
+              "hint": "This two-word exclamation drips with sarcasm when used alone.",
+              "explanation": "Как же! (literally 'how so!') is a classic sarcastic dismissal. Unlike конечно (which can be sincere), как же! is almost always ironic, meaning 'as if!' or 'yeah, right!'"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Их так называемая реформа ничего не изменила.\nWhat effect does так называемый create?",
+              "promptEnglish": "Так называемый = 'so-called.'",
+              "options": [
+                "Neutral technical definition",
+                "Respectful reference to an official term",
+                "Ironic distancing: the speaker questions whether it deserves that name",
+                "Formal introduction of a new concept"
+              ],
+              "answer": "Ironic distancing: the speaker questions whether it deserves that name",
+              "hint": "'So-called' implies the label does not fit the reality.",
+              "explanation": "Так называемый (so-called) puts scare quotes around the noun. The speaker signals that 'reform' is what others call it, but it does not truly deserve that label."
+            },
+            {
+              "prompt": "Choose the sentence that uses a mocking diminutive:",
+              "promptEnglish": "One option uses a diminutive sarcastically rather than affectionately.",
+              "options": [
+                "Он умный человек.",
+                "Умненький наш! Опять всё перепутал.",
+                "Он очень умный.",
+                "Какой умный!"
+              ],
+              "answer": "Умненький наш! Опять всё перепутал.",
+              "hint": "The diminutive suffix -еньк- combined with наш creates a mocking tone.",
+              "explanation": "Умненький наш! (our clever little one!) uses the diminutive -еньк- not with affection but with irony. The follow-up ('mixed everything up again') confirms the sarcastic intent."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Choose the sentence where якобы creates ironic distancing:",
+          "contextEnglish": "One sentence casts doubt on the claim; the other states it neutrally.",
+          "options": [
+            "Он якобы эксперт в этой области.",
+            "Он действительно эксперт в этой области."
+          ],
+          "answer": "Он якобы эксперт в этой области.",
+          "explanation": "Якобы (supposedly) signals that the speaker doubts the 'expert' claim. Действительно (truly) sincerely endorses it."
+        },
+        {
+          "context": "Choose the concessive -то construction that sets up ironic contrast:",
+          "contextEnglish": "One concedes a quality while undercutting it; the other is a plain statement.",
+          "options": [
+            "Работать-то он работает, но результата нет.",
+            "Он хорошо работает и даёт результат."
+          ],
+          "answer": "Работать-то он работает, но результата нет.",
+          "explanation": "The -то construction (работать-то он работает) formally concedes that yes, he does work, then immediately undercuts it: but there are no results."
+        }
+      ]
+    },
+    {
+      "id": "set-3-build-correct",
+      "title": "Build & Correct",
+      "titleRussian": "Построй и исправь",
+      "description": "Build ironic sentences from word tiles, then fix errors in irony and sarcasm constructions",
+      "descriptionRussian": "Составьте ироничные предложения из слов, затем исправьте ошибки в конструкциях иронии и сарказма",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "После так называемый ремонт квартира стала хуже. (after the so-called renovation)",
+          "error": "так называемый ремонт",
+          "correction": "так называемого ремонта",
+          "hint": "После requires the genitive case.",
+          "explanation": "После governs the genitive case. Так называемый must decline to match: так называемого ремонта (genitive masculine singular).",
+          "options": [
+            "так называемого ремонта",
+            "так называемым ремонтом"
+          ]
+        },
+        {
+          "sentence": "Он вроде бы закончил проект. (intended as ironic doubt, not genuine uncertainty)",
+          "error": "вроде бы",
+          "correction": "якобы",
+          "hint": "Вроде бы is genuine uncertainty. For skeptical irony, use a different marker.",
+          "explanation": "Вроде бы (it seems) expresses honest uncertainty. To express ironic doubt or disbelief about a claim, use якобы (supposedly), which carries a skeptical tone.",
+          "options": [
+            "якобы",
+            "наверное"
+          ]
+        },
+        {
+          "sentence": "Красивый-то она красивая, но злая. (concessive about a woman)",
+          "error": "Красивый-то",
+          "correction": "Красивая-то",
+          "hint": "The adjective before -то must agree with the subject's gender.",
+          "explanation": "Since the subject is она (feminine), both adjective instances must be feminine: Красивая-то она красивая, но злая.",
+          "options": [
+            "Красивая-то",
+            "Красиво-то"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "He's supposedly a professional, but he can't do anything.",
+          "answer": "Он якобы профессионал, но ничего не умеет.",
+          "acceptableVariants": [
+            "Якобы он профессионал, а ничего не умеет.",
+            "Он якобы профессионал, а ничего не может."
+          ],
+          "hint": "Use якобы to cast doubt on the 'professional' claim.",
+          "grammarFocus": "Ironic distancing with якобы",
+          "keyWord": "якобы",
+          "options": [
+            "якобы",
+            "точно",
+            "явно",
+            "действительно"
+          ]
+        },
+        {
+          "english": "He IS talented, but lazy. (concessive irony)",
+          "answer": "Талантливый-то он талантливый, но ленивый.",
+          "acceptableVariants": [
+            "Талантлив-то он талантлив, но ленив."
+          ],
+          "hint": "Use the concessive -то pattern: ADJ-то он ADJ, но...",
+          "grammarFocus": "Concessive -то construction",
+          "keyWord": "талантливый-то",
+          "options": [
+            "талантливый-то",
+            "талантливый же",
+            "талантливый ли",
+            "талантливый бы"
+          ]
+        },
+        {
+          "english": "Their so-called help only made things worse.",
+          "answer": "Их так называемая помощь только всё ухудшила.",
+          "acceptableVariants": [
+            "Их так называемая помощь только ухудшила ситуацию.",
+            "Так называемая помощь только всё ухудшила."
+          ],
+          "hint": "Use так называемая (feminine, matching помощь) to question the label.",
+          "grammarFocus": "Ironic distancing with так называемый",
+          "keyWord": "называемая",
+          "options": [
+            "называемая",
+            "настоящая",
+            "истинная",
+            "подлинная"
+          ]
+        },
+        {
+          "english": "No way! As if I'd apologize to him! (indignant refusal)",
+          "answer": "Ещё чего! Чтобы я перед ним извинялся!",
+          "acceptableVariants": [
+            "Ещё чего! Я перед ним извиняться не буду!",
+            "Ещё чего! Чтобы я ему извинился!"
+          ],
+          "hint": "Use Ещё чего! for the indignant refusal.",
+          "grammarFocus": "Sarcastic refusal particles",
+          "keyWord": "чего",
+          "options": [
+            "чего",
+            "что",
+            "какого",
+            "чему"
+          ]
+        }
+      ]
+    }
+  ]
+}

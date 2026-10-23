@@ -1,0 +1,245 @@
+{
+  "lessonId": "c1-012-phraseology",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Choose the correct verb-noun collocation, then pick between easily confused pairings",
+      "descriptionRussian": "Выберите правильное сочетание глагола с существительным и различите похожие коллокации",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which is the correct collocation for 'to make a decision'?",
+              "promptEnglish": "Only one verb is natural with решение.",
+              "options": [
+                "брать решение",
+                "принимать решение",
+                "делать решение",
+                "ставить решение"
+              ],
+              "answer": "принимать решение",
+              "hint": "In Russian, decisions are 'accepted,' not 'made' or 'taken.'",
+              "explanation": "Принимать решение is the fixed collocation. Unlike English 'make a decision,' Russian uses принимать (to accept/receive)."
+            },
+            {
+              "prompt": "Его слова _____ большую роль в переговорах.",
+              "promptEnglish": "His words played a big role in the negotiations.",
+              "options": [
+                "делали",
+                "играли",
+                "имели",
+                "брали"
+              ],
+              "answer": "играли",
+              "hint": "Same verb as in English: 'to play a role.'",
+              "explanation": "Играть роль is the fixed collocation, just like English 'play a role.' Делать роль is never correct."
+            },
+            {
+              "prompt": "Этот факт не _____ значения.",
+              "promptEnglish": "This fact is of no importance / doesn't matter.",
+              "options": [
+                "делает",
+                "играет",
+                "имеет",
+                "берёт"
+              ],
+              "answer": "имеет",
+              "hint": "In Russian, significance is 'had,' not 'played.'",
+              "explanation": "Иметь значение (to have significance/to matter). Compare: играть роль (play a role) vs. иметь значение (have significance)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Врач _____ ей первую помощь.",
+              "promptEnglish": "The doctor gave her first aid.",
+              "options": [
+                "давал",
+                "оказал",
+                "делал",
+                "принимал"
+              ],
+              "answer": "оказал",
+              "hint": "Medical aid, like a favor, is 'rendered' in Russian.",
+              "explanation": "Оказывать помощь (to render assistance/give aid). Давать помощь is non-standard; the correct collocation requires оказывать."
+            },
+            {
+              "prompt": "Which sentence is INCORRECT?",
+              "promptEnglish": "Find the broken collocation.",
+              "options": [
+                "Он принял решение уехать.",
+                "Она оказала ему помощь.",
+                "Они делали большую роль в проекте.",
+                "Это не имеет значения."
+              ],
+              "answer": "Они делали большую роль в проекте.",
+              "hint": "One of these uses the wrong verb with роль.",
+              "explanation": "Делать роль is incorrect. The correct collocation is играть роль (to play a role)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Директор _____ решение о реорганизации. (to make a decision)",
+          "contextEnglish": "The director made a decision about reorganization.",
+          "options": [
+            "принял решение",
+            "взял решение"
+          ],
+          "answer": "принял решение",
+          "explanation": "Принять решение is the correct collocation. Взять решение is a calque from English 'take a decision' and is not natural in Russian."
+        },
+        {
+          "context": "Образование _____ важную роль в жизни. (plays an important role)",
+          "contextEnglish": "Education plays an important role in life.",
+          "options": [
+            "играет важную роль",
+            "имеет важную роль"
+          ],
+          "answer": "играет важную роль",
+          "explanation": "Играть роль is the fixed collocation (like English 'play a role'). Иметь роль is not standard; иметь pairs with значение, not роль."
+        },
+        {
+          "context": "Студенты активно _____ участие в дискуссии. (took part)",
+          "contextEnglish": "Students actively took part in the discussion.",
+          "options": [
+            "принимали участие",
+            "брали участие"
+          ],
+          "answer": "принимали участие",
+          "explanation": "Принимать участие is the correct Russian collocation. Брать участие is non-standard in literary Russian."
+        }
+      ]
+    },
+    {
+      "id": "set-3-build-correct",
+      "title": "Build & Correct",
+      "titleRussian": "Построй и исправь",
+      "description": "Assemble sentences with correct collocations and fix wrong verb choices",
+      "descriptionRussian": "Составьте предложения с правильными коллокациями и исправьте неправильный выбор глагола",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Комиссия делала решение о закрытии завода.",
+          "error": "делала решение",
+          "correction": "принимала решение",
+          "hint": "Decisions are 'accepted,' not 'made.'",
+          "explanation": "Принимать решение is the correct collocation. Делать решение is a direct translation from English 'make a decision' and is non-standard in Russian.",
+          "options": [
+            "принимала решение",
+            "брала решение"
+          ]
+        },
+        {
+          "sentence": "Реклама делает большое влияние на потребителей.",
+          "error": "делает",
+          "correction": "оказывает",
+          "hint": "Influence is 'exerted/rendered,' not 'made/done.'",
+          "explanation": "Оказывать влияние is the standard collocation. Делать влияние is a common error by non-native speakers.",
+          "options": [
+            "оказывает",
+            "даёт",
+            "производит"
+          ]
+        },
+        {
+          "sentence": "Его мнение играет большое значение для коллег.",
+          "error": "играет",
+          "correction": "имеет",
+          "hint": "Significance is 'had,' not 'played.' Don't confuse with играть роль.",
+          "explanation": "Иметь значение (to have significance) vs. играть роль (to play a role). Mixing these two collocations is one of the most common mistakes.",
+          "options": [
+            "имеет",
+            "несёт",
+            "составляет"
+          ]
+        },
+        {
+          "sentence": "Он взял активное участие в дискуссии.",
+          "error": "взял",
+          "correction": "принял",
+          "hint": "Participation is 'accepted,' not 'taken.'",
+          "explanation": "Принимать участие is the correct Russian collocation. Брать/взять участие is non-standard and not accepted in literary Russian.",
+          "options": [
+            "принял",
+            "сделал",
+            "провёл"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "The company made a decision to expand into new markets.",
+          "answer": "Компания приняла решение о выходе на новые рынки.",
+          "acceptableVariants": [
+            "Компания приняла решение выйти на новые рынки."
+          ],
+          "hint": "Decisions are 'accepted' with принять, not 'made.'",
+          "grammarFocus": "принимать решение",
+          "keyWord": "решение",
+          "options": [
+            "решение",
+            "вывод",
+            "выбор",
+            "мысль"
+          ]
+        },
+        {
+          "english": "Social media has a strong influence on teenagers.",
+          "answer": "Социальные сети оказывают сильное влияние на подростков.",
+          "acceptableVariants": [
+            "Соцсети оказывают сильное влияние на подростков."
+          ],
+          "hint": "Influence is 'exerted/rendered' with оказывать.",
+          "grammarFocus": "оказывать влияние",
+          "keyWord": "влияние",
+          "options": [
+            "влияние",
+            "действие",
+            "давление",
+            "силу"
+          ]
+        },
+        {
+          "english": "Luck played a big role in his success.",
+          "answer": "Удача играла большую роль в его успехе.",
+          "acceptableVariants": [
+            "Удача сыграла большую роль в его успехе."
+          ],
+          "hint": "Roles are 'played' with играть, same as English.",
+          "grammarFocus": "играть роль",
+          "keyWord": "роль",
+          "options": [
+            "роль",
+            "значение",
+            "место",
+            "часть"
+          ]
+        },
+        {
+          "english": "All citizens should take part in the elections.",
+          "answer": "Все граждане должны принимать участие в выборах.",
+          "acceptableVariants": [
+            "Все граждане должны принять участие в выборах."
+          ],
+          "hint": "Participation is 'accepted' with принимать.",
+          "grammarFocus": "принимать участие",
+          "keyWord": "участие",
+          "options": [
+            "участие",
+            "долю",
+            "часть",
+            "место"
+          ]
+        }
+      ]
+    }
+  ]
+}

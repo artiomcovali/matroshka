@@ -1,0 +1,307 @@
+{
+  "id": "b2-001-aspect-nuance",
+  "level": "B2",
+  "focusArea": "aspect",
+  "title": "Aspect Nuances",
+  "titleRussian": "Нюансы вида",
+  "description": "Subtle aspect distinctions for advanced communication",
+  "descriptionRussian": "Тонкие различия в употреблении вида глагола",
+  "imageName": "slider.horizontal.3",
+  "intro": "Building on B1 aspect lessons (deep dive, past tense, future, imperatives), we now explore the subtle nuances that make aspect choice truly advanced. CERTAINTY: Perfective implies definiteness: Я это сделаю (I will definitely do it) vs Я буду делать (process, no guarantee). GENERAL FACTS: Imperfective for general truths: Кошки любят молоко. ANNOYANCE: Imperfective can express irritation at repeated actions: Он всё время опаздывает! Master these nuances to sound truly fluent.",
+  "rules": [
+    "Certainty: perfective implies commitment - Я сделаю (definitely) vs Я буду делать (ongoing/uncertain)",
+    "General facts use imperfective - Земля вращается вокруг Солнца",
+    "Annoyance/criticism uses imperfective for repeated actions - Ты опять опаздываешь!"
+  ],
+  "examples": [
+    "Я прочитаю эту книгу. (commitment) vs Я буду читать. (process, maybe not finish)",
+    "Он хорошо говорит по-русски. (general ability, impf)",
+    "Почему ты всегда забываешь ключи?! (annoyance, impf)"
+  ],
+  "tables": [
+    {
+      "title": "Aspect Nuance: Verb Form Contrasts",
+      "headers": [
+        "Nuance",
+        "Imperfective",
+        "Perfective",
+        "Note"
+      ],
+      "rows": [
+        {
+          "label": "certainty",
+          "cells": [
+            "Я буду делать (process)",
+            "Я с|делаю (definite)",
+            "commitment level"
+          ]
+        },
+        {
+          "label": "general fact",
+          "cells": [
+            "Кошки люб|ят молоко.",
+            "—",
+            "only imperfective"
+          ]
+        },
+        {
+          "label": "annoyance",
+          "cells": [
+            "Ты всегда забыва|ешь!",
+            "—",
+            "only imperfective"
+          ]
+        },
+        {
+          "label": "offer",
+          "cells": [
+            "Я буду помогать (ongoing)",
+            "Я помог|у (definite)",
+            "willingness level"
+          ]
+        },
+        {
+          "label": "promise",
+          "cells": [
+            "Буду звонить (general)",
+            "По|звоню (specific)",
+            "vague vs. committed"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я обязательно _____ тебе завтра. (definite promise)",
+          "promptEnglish": "I will definitely call you tomorrow.",
+          "options": [
+            "звонил",
+            "буду звонить",
+            "позвоню",
+            "звоню"
+          ],
+          "answer": "позвоню",
+          "hint": "Definite commitment = perfective",
+          "explanation": "Обязательно + perfective: definite promise."
+        },
+        {
+          "prompt": "Собаки _____ мясо. (general fact)",
+          "promptEnglish": "Dogs eat meat. (general truth)",
+          "options": [
+            "съедят",
+            "поедят",
+            "съели",
+            "едят"
+          ],
+          "answer": "едят",
+          "hint": "General truths = imperfective",
+          "explanation": "General facts: imperfective present."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Почему ты всегда _____?! (annoyance)",
+          "promptEnglish": "Why do you always forget?! (irritation)",
+          "options": [
+            "забудешь",
+            "забываешь",
+            "забыл",
+            "забыть"
+          ],
+          "answer": "забываешь",
+          "hint": "Annoyance at repeated action = impf",
+          "explanation": "Repeated annoying action: imperfective."
+        },
+        {
+          "prompt": "Завтра я _____ этот отчёт. (commitment to complete)",
+          "promptEnglish": "Tomorrow I will finish this report.",
+          "options": [
+            "буду заканчивать",
+            "заканчивал",
+            "закончу",
+            "заканчиваю"
+          ],
+          "answer": "закончу",
+          "hint": "Commitment to result = perfective",
+          "explanation": "Definite completion: perfective."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Вода _____ при 100 градусах. (scientific fact)",
+          "promptEnglish": "Water boils at 100 degrees.",
+          "options": [
+            "вскипела",
+            "кипела",
+            "кипит",
+            "вскипит"
+          ],
+          "answer": "кипит",
+          "hint": "Scientific facts = imperfective",
+          "explanation": "General/scientific facts: imperfective."
+        },
+        {
+          "prompt": "Он опять _____! (criticism of repeated behavior)",
+          "promptEnglish": "He's late again! (criticism)",
+          "options": [
+            "опаздывал",
+            "опоздает",
+            "опоздал",
+            "опаздывает"
+          ],
+          "answer": "опаздывает",
+          "hint": "Criticism of habit = imperfective",
+          "explanation": "Repeated annoying behavior: imperfective."
+        },
+        {
+          "prompt": "Я _____ вам. (a definite offer to help)",
+          "promptEnglish": "I will help you. (definite offer)",
+          "options": [
+            "помогал",
+            "помогаю",
+            "помогу",
+            "буду помогать"
+          ],
+          "answer": "помогу",
+          "hint": "Definite offer = perfective",
+          "explanation": "Definite willingness: perfective."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Земля _____ вокруг Солнца. (scientific fact)",
+          "promptEnglish": "The Earth revolves around the Sun.",
+          "options": [
+            "обернётся",
+            "вращается",
+            "повернулась",
+            "обернулась"
+          ],
+          "answer": "вращается",
+          "hint": "Scientific facts = imperfective present",
+          "explanation": "Universal truths use imperfective: вращается."
+        },
+        {
+          "prompt": "Я _____ эту статью к вечеру. (definite commitment)",
+          "promptEnglish": "I will write this article by evening.",
+          "options": [
+            "напишу",
+            "буду писать",
+            "писал",
+            "пишу"
+          ],
+          "answer": "напишу",
+          "hint": "Commitment to a definite result = perfective",
+          "explanation": "Definite commitment with deadline: perfective напишу."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я обязательно _____ тебе завтра. (definite promise)"
+    ],
+    "choices": [
+      "позвоню",
+      "буду звонить",
+      "звонил",
+      "звонить"
+    ],
+    "answers": [
+      "позвоню"
+    ],
+    "grammarFocus": "Perfective aspect for definite commitments",
+    "hints": [
+      "Definite commitment uses perfective: I WILL call (not just 'I'll be calling')."
+    ],
+    "explanations": [
+      "Обязательно + perfective (позвоню) expresses a firm promise. Imperfective (буду звонить) would imply ongoing action without guaranteed result."
+    ],
+    "options": [
+      [
+        "позвонишь",
+        "позвоню",
+        "позвоните",
+        "позвонит"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я _____ эту книгу. (commitment to finish)",
+      "contextEnglish": "I will read this book. (will definitely finish)",
+      "options": [
+        "прочитаю",
+        "буду читать"
+      ],
+      "answer": "прочитаю",
+      "explanation": "Commitment to completion: perfective прочитаю."
+    },
+    {
+      "context": "Я _____ эту книгу. (process, no guarantee of finishing)",
+      "contextEnglish": "I will be reading this book. (ongoing process)",
+      "options": [
+        "буду читать",
+        "прочитаю"
+      ],
+      "answer": "буду читать",
+      "explanation": "Process without guaranteed result: impf буду читать."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by aspect nuance type",
+    "categories": [
+      "Certainty/Commitment",
+      "General Facts",
+      "Annoyance"
+    ],
+    "items": [
+      {
+        "word": "Я обязательно сделаю!",
+        "category": "Certainty/Commitment"
+      },
+      {
+        "word": "Земля вращается.",
+        "category": "General Facts"
+      },
+      {
+        "word": "Ты всегда опаздываешь!",
+        "category": "Annoyance"
+      },
+      {
+        "word": "Кошки любят молоко.",
+        "category": "General Facts"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "certainty nuance",
+      "definition": "perfective = definite commitment",
+      "example": "Я сделаю! (I will definitely do it)"
+    },
+    {
+      "term": "general fact nuance",
+      "definition": "imperfective for universal truths",
+      "example": "Солнце встаёт на востоке."
+    },
+    {
+      "term": "annoyance nuance",
+      "definition": "imperfective for repeated irritating actions",
+      "example": "Ты всегда забываешь!"
+    }
+  ]
+}

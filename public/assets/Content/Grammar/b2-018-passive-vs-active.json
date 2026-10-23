@@ -1,0 +1,295 @@
+{
+  "id": "b2-018-passive-vs-active",
+  "level": "B2",
+  "focusArea": "conjugation",
+  "title": "Passive vs Active Voice",
+  "titleRussian": "Активный vs пассивный залог",
+  "description": "Choosing voice for different styles",
+  "descriptionRussian": "Выбор залога в зависимости от стиля",
+  "imageName": "arrow.left.arrow.right",
+  "intro": "Russian uses voice strategically for style and emphasis. ACTIVE preferred in: colloquial speech, direct narratives, when agent is important. PASSIVE preferred in: formal/official texts, scientific writing, when agent is unknown or unimportant. IMPERSONAL as alternative: Здесь не курят (general rule). KEY: Active feels personal and direct; passive feels objective and formal. Russian has more options than English: reflexive passive (строится), short participle (построен), impersonal (говорят).",
+  "rules": [
+    "Active for colloquial/personal: Мы решили эту проблему (We solved this problem)",
+    "Passive for formal/objective: Проблема была решена (The problem was solved)",
+    "Impersonal for general rules: Здесь не курят (No smoking here)",
+    "Agent often omitted in passive: Статья написана (by whom = unimportant)"
+  ],
+  "examples": [
+    "Active (direct): Комиссия рассмотрела заявку. (The committee reviewed the application.)",
+    "Passive (formal): Заявка была рассмотрена. (The application was reviewed.)",
+    "Reflexive passive: Документы рассматриваются. (Documents are being reviewed.)",
+    "Impersonal: В институте изучают русский. (Russian is studied at the institute.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Colloquial style: Мы _____ эту проблему. (solved)",
+          "promptEnglish": "We solved this problem. (direct)",
+          "options": [
+            "решается",
+            "решена",
+            "решили",
+            "была решена"
+          ],
+          "answer": "решили",
+          "hint": "Colloquial = active voice",
+          "explanation": "Colloquial/direct: мы решили."
+        },
+        {
+          "prompt": "Formal style: Проблема _____. (was solved)",
+          "promptEnglish": "The problem was solved. (formal)",
+          "options": [
+            "решает",
+            "решается",
+            "решили",
+            "была решена"
+          ],
+          "answer": "была решена",
+          "hint": "Formal = passive",
+          "explanation": "Formal passive: была решена."
+        },
+        {
+          "prompt": "Ongoing process: Документы _____. (are being reviewed)",
+          "promptEnglish": "Documents are being reviewed.",
+          "options": [
+            "рассмотрены",
+            "рассмотрели",
+            "рассматриваются",
+            "рассматривают"
+          ],
+          "answer": "рассматриваются",
+          "hint": "Process = reflexive passive -ся",
+          "explanation": "Process: рассматриваются."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Which is more personal/direct?",
+          "promptEnglish": "Which sounds more personal?",
+          "options": [
+            "Письмо пишется.",
+            "Письмо написано.",
+            "Письмо было написано.",
+            "Я написал письмо."
+          ],
+          "answer": "Я написал письмо.",
+          "hint": "Active with subject = personal",
+          "explanation": "Active: most personal and direct."
+        },
+        {
+          "prompt": "Scientific text: Результаты _____ в таблице.",
+          "promptEnglish": "Results are presented in the table.",
+          "options": [
+            "представили",
+            "представляем",
+            "представлены",
+            "представить"
+          ],
+          "answer": "представлены",
+          "hint": "Scientific = passive",
+          "explanation": "Scientific passive: представлены."
+        },
+        {
+          "prompt": "General rule: Здесь не _____. (no smoking)",
+          "promptEnglish": "No smoking here.",
+          "options": [
+            "курить",
+            "курится",
+            "курят",
+            "покурено"
+          ],
+          "answer": "курят",
+          "hint": "Impersonal = 3rd person plural",
+          "explanation": "Impersonal: здесь не курят."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "When is agent usually omitted?",
+          "promptEnglish": "When do we not mention who did the action?",
+          "options": [
+            "With reflexive verbs",
+            "In questions",
+            "When unimportant or unknown",
+            "In colloquial speech"
+          ],
+          "answer": "When unimportant or unknown",
+          "hint": "Passive hides agent",
+          "explanation": "Agent omitted when unimportant/unknown."
+        },
+        {
+          "prompt": "News headline style: _____ новый закон.",
+          "promptEnglish": "A new law was passed. (headline)",
+          "options": [
+            "Приняли",
+            "Принят",
+            "Принимают",
+            "Принимается"
+          ],
+          "answer": "Принят",
+          "hint": "Headlines use short passive",
+          "explanation": "Headline: Принят закон."
+        },
+        {
+          "prompt": "Which voice for: 'The report was written by experts'?",
+          "promptEnglish": "Which construction shows agent?",
+          "options": [
+            "Отчёт пишется.",
+            "Отчёт написан экспертами.",
+            "Эксперты написали отчёт.",
+            "Отчёт написали."
+          ],
+          "answer": "Отчёт написан экспертами.",
+          "hint": "Passive + instrumental agent",
+          "explanation": "Passive with agent: написан экспертами."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Official document: Договор _____ директором. (was signed)",
+          "promptEnglish": "The contract was signed by the director.",
+          "options": [
+            "подписал",
+            "подписали",
+            "подписан",
+            "подписывает"
+          ],
+          "answer": "подписан",
+          "hint": "Formal documents use short passive participle",
+          "explanation": "Official/legal style uses short passive participles: 'Договор подписан директором.' The agent (директором) is in the instrumental case."
+        },
+        {
+          "prompt": "В России много _____ чаю. (general impersonal: people drink)",
+          "promptEnglish": "In Russia, people drink a lot of tea.",
+          "options": [
+            "пьют",
+            "пьётся",
+            "выпили",
+            "выпито"
+          ],
+          "answer": "пьют",
+          "hint": "3rd person plural without subject = impersonal",
+          "explanation": "Impersonal constructions use 3rd person plural without a subject: 'В России много пьют чаю.' This expresses a general truth about what people do."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Formal: Вопрос _____ на заседании. (was discussed)"
+    ],
+    "choices": [
+      "был рассмотрен",
+      "рассмотрели",
+      "рассматривают",
+      "рассматривается"
+    ],
+    "answers": [
+      "был рассмотрен"
+    ],
+    "grammarFocus": "Formal passive: был + short participle",
+    "hints": [
+      "Formal Russian (documents, meetings) prefers passive constructions. What is the formal passive past form?"
+    ],
+    "explanations": [
+      "Formal passive uses 'был + short participle': 'был рассмотрен' (was discussed/examined). This is more formal than the active 'рассмотрели' or the ongoing passive 'рассматривается.' Formal documents almost always use this construction."
+    ],
+    "options": [
+      [
+        "рассматривают",
+        "рассмотрели",
+        "был рассмотрен",
+        "рассматривается"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Colloquial: Мы _____ проблему.",
+      "contextEnglish": "We solved the problem. (informal)",
+      "options": [
+        "решили",
+        "была решена"
+      ],
+      "answer": "решили",
+      "explanation": "Colloquial = active: решили."
+    },
+    {
+      "context": "Formal: Проблема _____.",
+      "contextEnglish": "The problem was solved. (formal)",
+      "options": [
+        "была решена",
+        "решили"
+      ],
+      "answer": "была решена",
+      "explanation": "Formal = passive: была решена."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by preferred style",
+    "categories": [
+      "Active (colloquial)",
+      "Passive (formal)",
+      "Impersonal (general)"
+    ],
+    "items": [
+      {
+        "word": "Мы написали отчёт.",
+        "category": "Active (colloquial)"
+      },
+      {
+        "word": "Отчёт был написан.",
+        "category": "Passive (formal)"
+      },
+      {
+        "word": "Здесь говорят по-русски.",
+        "category": "Impersonal (general)"
+      },
+      {
+        "word": "Комиссия решила вопрос.",
+        "category": "Active (colloquial)"
+      },
+      {
+        "word": "Вопрос решён.",
+        "category": "Passive (formal)"
+      },
+      {
+        "word": "Так не делают.",
+        "category": "Impersonal (general)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "active voice",
+      "definition": "subject does action (colloquial)",
+      "example": "Мы решили проблему."
+    },
+    {
+      "term": "passive voice",
+      "definition": "action done to subject (formal)",
+      "example": "Проблема была решена."
+    },
+    {
+      "term": "impersonal",
+      "definition": "no subject, general rule",
+      "example": "Здесь не курят."
+    },
+    {
+      "term": "agent in instrumental",
+      "definition": "who did it (optional)",
+      "example": "написано автором"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-001",
+  "title": "The Stubborn Baker",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Convince a stubborn baker to sell you the last loaf of bread",
+  "imageName": "birthday.cake.fill",
+  "initialPrompt": "Здравствуйте. Этот хлеб? Нет, он для другого клиента.",
+  "systemPrompt": "You are a stubborn baker. The last bread (хлеб) is 'reserved'. You can sell it if user: says пожалуйста multiple times, explains they really need it (мне очень нужно), or offers to pay more (дороже). Keep replies short.",
+  "completionCriteria": "User convinced you to sell the bread through politeness or persuasion.",
+  "responseLimit": 15,
+  "hints": [
+    "Пожалуйста! (Please!)",
+    "Мне очень нужно (I really need it)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "хлеб",
+      "definition": "bread"
+    },
+    {
+      "word": "пожалуйста",
+      "definition": "please"
+    },
+    {
+      "word": "нужно",
+      "definition": "need"
+    },
+    {
+      "word": "очень",
+      "definition": "very/really"
+    },
+    {
+      "word": "последний",
+      "definition": "last"
+    }
+  ],
+  "objectives": [
+    "Ask to buy bread (хлеб)",
+    "Learn it's reserved",
+    "Ask politely (пожалуйста)",
+    "Explain why you need it (мне нужно)",
+    "Successfully buy the bread"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-010",
+  "title": "At the Hairdresser",
+  "level": "A2",
+  "description": "Get a haircut at a Russian salon",
+  "imageName": "scissors",
+  "initialPrompt": "Добрый день! Присаживайтесь. Что будем делать сегодня?",
+  "systemPrompt": "You are a Russian hairdresser. Services: стрижка 500₽, окрашивание 2000₽, укладка 400₽. Ask preferences. Keep replies short.",
+  "completionCriteria": "User chose a service and you confirmed what you'll do.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу постричься (I want a haircut)",
+    "Покороче, пожалуйста (Shorter, please)",
+    "Не слишком коротко (Not too short)",
+    "Сколько это стоит? (How much does it cost?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "стрижка",
+      "definition": "haircut"
+    },
+    {
+      "word": "постричься",
+      "definition": "to get a haircut"
+    },
+    {
+      "word": "короче",
+      "definition": "shorter"
+    },
+    {
+      "word": "длиннее",
+      "definition": "longer"
+    },
+    {
+      "word": "чёлка",
+      "definition": "bangs"
+    },
+    {
+      "word": "волосы",
+      "definition": "hair"
+    }
+  ],
+  "objectives": [
+    "Explain what you want (постричься)",
+    "Specify how short or long",
+    "Confirm the price (Сколько?)"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-023",
+  "title": "Hotel WiFi Broken",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Internet is down during your work trip",
+  "imageName": "wifi.exclamationmark",
+  "initialPrompt": "Ресепшен, слушаю вас.",
+  "systemPrompt": "You are hotel reception. WiFi is down hotel-wide, technician coming in 2 hours. Can offer business center with wired internet, or mobile hotspot device. Keep replies short.",
+  "completionCriteria": "User got a working solution for internet access.",
+  "responseLimit": 15,
+  "hints": [
+    "Интернет не работает в номере (Internet is not working in the room)",
+    "Мне нужен интернет для работы (I need internet for work)",
+    "Есть другой вариант? (Is there another option?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "интернет",
+      "definition": "internet"
+    },
+    {
+      "word": "вайфай",
+      "definition": "WiFi"
+    },
+    {
+      "word": "работать",
+      "definition": "to work"
+    },
+    {
+      "word": "бизнес-центр",
+      "definition": "business center"
+    },
+    {
+      "word": "проблема",
+      "definition": "problem"
+    },
+    {
+      "word": "решение",
+      "definition": "solution"
+    }
+  ],
+  "objectives": [
+    "Report that WiFi is down",
+    "Explain you need it for work",
+    "Learn about alternatives",
+    "Accept a working solution"
+  ]
+}

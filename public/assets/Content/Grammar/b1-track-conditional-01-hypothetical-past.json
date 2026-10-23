@@ -1,0 +1,404 @@
+{
+  "id": "b1-track-conditional-01-hypothetical-past",
+  "level": "B1",
+  "focusArea": "conjugation",
+  "title": "Conditional 1: The Hypothetical (если бы + past, past + бы)",
+  "titleRussian": "Условное 1: Гипотетическое условие (если бы + прошедшее)",
+  "description": "Russian builds the conditional out of past-tense forms plus the particle бы. One structure covers past, present, and future hypotheticals. The if-clause uses если бы; the result-clause uses бы after the verb.",
+  "descriptionRussian": "Условное наклонение строится из прошедшего времени и частицы бы. Одна структура покрывает прошлое, настоящее и будущее в гипотетическом смысле. Если-предложение использует «если бы», главное — «бы» после глагола.",
+  "imageName": "questionmark.diamond",
+  "trackId": "b1-conditional-mastery",
+  "trackTitle": "Conditional & Subjunctive",
+  "trackTitleRussian": "Условное и сослагательное наклонение",
+  "trackIndex": 1,
+  "trackTotal": 6,
+  "intro": "The Russian conditional is startlingly economical. English has a different shape for every time frame: if I know, if I knew, if I had known. Russian has one, built from past-tense forms plus a small particle, and context supplies the rest. That particle is the whole hypothetical marker, and without it the same sentence reports something that really happened.",
+  "rules": [
+    "Structure: 'Если бы + past, [subject] бы + past.' Both verbs are past-tense forms; бы is the hypothetical marker and appears in both clauses.",
+    "One past + бы construction covers past, present, and future hypotheticals. The form does not change; context picks the English reading.",
+    "Position of бы: in the if-clause it attaches to если ('если бы'); in the result-clause it sits right after the subject or right after the verb.",
+    "Use past-tense forms only, never present or future. Если бы я знал (correct), not если бы я знаю / буду знать.",
+    "Без бы the same past forms describe real events (Я знал = I knew); с бы they become hypothetical (Я бы знал = I would know / would have known)."
+  ],
+  "examples": [
+    "Если бы я знал её адрес, я бы написал ей. (If I knew / had known her address, I would write / would have written to her.) Impf state verb знал + pf single-event написал.",
+    "Если бы ты прочитал статью, ты бы согласился со мной. (If you had read the article through, you would have agreed with me.) Two perfectives: completed reading, completed agreement.",
+    "Если бы у нас был свободный вечер, мы бы пошли в кино. (If we had a free evening, we would go to the cinema.) Impf state быть + pf single-event пойти.",
+    "Если бы Лена услышала звонок, она бы открыла дверь. (If Lena had heard the bell, she would have opened the door.) Two perfectives: a single hearing event + a single opening event.",
+    "Если бы Антон спал лучше, он бы чувствовал себя бодрее. (If Anton slept better, he would feel more rested.) Two imperfectives: ongoing sleep, ongoing feeling.",
+    "Если бы я мог тебе помочь, я бы помог. (If I could help you, I would.) Impf modal мочь + pf single-event помочь."
+  ],
+  "tables": [
+    {
+      "title": "Real conditional vs hypothetical conditional",
+      "headers": [
+        "Frame",
+        "Structure",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Real (genuine possibility)",
+          "cells": [
+            "Если + present / future, future",
+            "Если завтра будет дождь, я останусь дома."
+          ]
+        },
+        {
+          "label": "Hypothetical past",
+          "cells": [
+            "Если бы + past, past + бы",
+            "Если бы я знал, я бы сказал."
+          ]
+        },
+        {
+          "label": "Hypothetical present",
+          "cells": [
+            "Если бы + past, past + бы",
+            "Если бы я знал её адрес сейчас, я бы написал."
+          ]
+        },
+        {
+          "label": "Hypothetical future",
+          "cells": [
+            "Если бы + past, past + бы",
+            "Если бы у нас был свободный вечер, мы бы пошли в кино."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Если бы я _____ её адрес, я бы написал ей.",
+          "promptEnglish": "If I had known her address, I would have written to her.",
+          "options": [
+            "узнал",
+            "знаю",
+            "знал",
+            "знает"
+          ],
+          "answer": "знал",
+          "hint": "Знать is an impf-only state verb. Past masc form with бы?",
+          "explanation": "Знать is an impf-only state verb (recap from A2 Aspect Intro Lesson 6) and stays imperfective in the conditional. Past masc form: знал. The result-clause supplies бы before написал. The distractor узнал means 'found out, recognised' and is a different lexical event."
+        },
+        {
+          "prompt": "Если бы ты _____ книгу, ты бы понял мою точку зрения.",
+          "promptEnglish": "If you had read the book through, you would have understood my point of view.",
+          "options": [
+            "читал",
+            "прочитал",
+            "читает",
+            "прочитает"
+          ],
+          "answer": "прочитал",
+          "hint": "One specific book + an implied completion. Past form, which aspect?",
+          "explanation": "The if-clause hypothesises a single completed event (reading the book through), so the perfective past прочитал. Читал would describe an ongoing process of reading, which the result-clause ('would have understood') does not depend on."
+        },
+        {
+          "prompt": "Если бы у нас _____ свободный вечер, мы бы пошли в кино.",
+          "promptEnglish": "If we had a free evening, we would go to the cinema.",
+          "options": [
+            "был",
+            "есть",
+            "будет",
+            "будут"
+          ],
+          "answer": "был",
+          "hint": "У + gen + nom subject. Past form of быть, masculine to agree with 'вечер.'",
+          "explanation": "The if-clause says 'we had a free evening' with the possession frame 'у нас + был.' In a hypothetical conditional, the past-tense form of быть is required: был (masc, agreeing with 'свободный вечер'). The real-conditional будет or the present есть would describe a genuine possibility, not a hypothetical."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Если бы Лена _____ звонок, она бы открыла дверь.",
+          "promptEnglish": "If Lena had heard the bell, she would have opened the door.",
+          "options": [
+            "слышит",
+            "слышала",
+            "услышит",
+            "услышала"
+          ],
+          "answer": "услышала",
+          "hint": "A single moment of hearing the bell. Past fem form, perfective.",
+          "explanation": "The if-clause hypothesises a single moment of hearing the bell, which would have triggered the opening. Perfective past fem of услышать: услышала. Слышала (impf) would describe ongoing hearing, which the result 'would have opened' does not require."
+        },
+        {
+          "prompt": "Если бы Антон _____ лучше, он бы чувствовал себя бодрее.",
+          "promptEnglish": "If Anton slept better, he would feel more rested.",
+          "options": [
+            "спал",
+            "поспит",
+            "поспал",
+            "спит"
+          ],
+          "answer": "спал",
+          "hint": "Ongoing sleep is the cue. Past masc impf form.",
+          "explanation": "The if-clause describes a hypothetical ongoing state ('slept better, generally'). Imperfective past masc спал. The result-clause's чувствовал is also impf (ongoing state). Поспал would frame a single bounded nap, which the 'feeling rested in general' result does not require."
+        },
+        {
+          "prompt": "Если бы я _____ тебе помочь, я бы помог.",
+          "promptEnglish": "If I could help you, I would.",
+          "options": [
+            "могу",
+            "смог",
+            "мог",
+            "смогу"
+          ],
+          "answer": "мог",
+          "hint": "Мочь is impf and ongoing here. Past masc form.",
+          "explanation": "The if-clause hypothesises an ongoing capacity to help, expressed by the impf modal мочь. Past masc impf: мог. The result-clause supplies a single helping event with the perfective помог. Смог (pf) would frame a single moment of managing to help, which the speaker is not framing here."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Если бы у меня было время, _____.",
+          "promptEnglish": "If I had time, I would walk in the park.",
+          "options": [
+            "я бы гулял в парке",
+            "я гулял в парке",
+            "я бы гуляю в парке",
+            "я буду гулять в парке"
+          ],
+          "answer": "я бы гулял в парке",
+          "hint": "The result clause: past + бы.",
+          "explanation": "The hypothetical result is past + бы: я бы гулял. Without бы it reports a real habit; гуляю and буду гулять are non-past forms, which бы never combines with."
+        },
+        {
+          "prompt": "Если бы Антон знал ответ, _____.",
+          "promptEnglish": "If Anton knew the answer, he would help us.",
+          "options": [
+            "он бы помог нам",
+            "он помог нам",
+            "он бы поможет нам",
+            "он поможет нам"
+          ],
+          "answer": "он бы помог нам",
+          "hint": "State verb in the if-clause, single event in the result.",
+          "explanation": "The result clause takes past + бы: он бы помог нам. Without бы it becomes a real past report; поможет is future, which cannot carry бы."
+        },
+        {
+          "prompt": "Если бы погода была хорошая, _____.",
+          "promptEnglish": "If the weather were nice, we would drive out of town.",
+          "options": [
+            "мы бы поехали за город",
+            "мы поехали за город",
+            "мы бы поедем за город",
+            "мы бы поехать за город"
+          ],
+          "answer": "мы бы поехали за город",
+          "hint": "The result clause with a plural subject.",
+          "explanation": "Past + бы: мы бы поехали за город. Bare поехали reports a real trip; поедем is future; the infinitive поехать cannot serve as the clause's verb."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "_____ твой номер, я бы позвонил тебе.",
+          "promptEnglish": "If I had your phone number, I would call you.",
+          "options": [
+            "Если бы у меня был",
+            "Если у меня был",
+            "Если бы у меня будет",
+            "Если бы у меня было"
+          ],
+          "answer": "Если бы у меня был",
+          "hint": "Possession frame in the if-clause: agree with номер.",
+          "explanation": "The if-clause is если бы + past, and был agrees with masculine номер: Если бы у меня был твой номер. Было would be neuter; будет is future; bare если makes it a real condition."
+        },
+        {
+          "prompt": "Если бы ты прочитал письмо, _____.",
+          "promptEnglish": "If you had read the letter, you would have understood everything.",
+          "options": [
+            "ты бы понял всё",
+            "ты понял всё",
+            "ты бы поймёшь всё",
+            "ты бы понимаешь всё"
+          ],
+          "answer": "ты бы понял всё",
+          "hint": "Two completed events, each with its бы.",
+          "explanation": "Both clauses are hypothetical, so the result also takes past + бы: ты бы понял всё. Without бы it turns into a real report; поймёшь and понимаешь are non-past forms."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Если бы я _____ её, я бы поздоровался. (If I had seen her, I would have said hello.)"
+    ],
+    "choices": [
+      "видеть",
+      "видел",
+      "увидел",
+      "вижу"
+    ],
+    "answers": [
+      "увидел"
+    ],
+    "grammarFocus": "The if-clause hypothesises a single moment of seeing her (which would have triggered the greeting). Perfective past masc увидел. Видел (impf) would describe ongoing seeing-her, which the bounded result 'would have said hello' does not require."
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Если",
+        "бы",
+        "я",
+        "знал",
+        "правду,",
+        "я",
+        "бы",
+        "сказал",
+        "тебе"
+      ],
+      "answer": "Если бы я знал правду, я бы сказал тебе",
+      "translation": "If I had known the truth, I would have told you.",
+      "acceptableVariants": [
+        "Если бы я знал правду, я сказал бы тебе"
+      ],
+      "hint": "If-clause: 'если бы' + past. Result-clause: subject + 'бы' + past."
+    },
+    {
+      "words": [
+        "Если",
+        "бы",
+        "у",
+        "нас",
+        "было",
+        "время,",
+        "мы",
+        "бы",
+        "погуляли"
+      ],
+      "answer": "Если бы у нас было время, мы бы погуляли",
+      "translation": "If we had time, we would take a walk.",
+      "acceptableVariants": [
+        "Если бы у нас было время, мы погуляли бы"
+      ],
+      "hint": "Possession frame 'у нас + было'; both clauses carry бы."
+    },
+    {
+      "words": [
+        "Если",
+        "бы",
+        "Лена",
+        "увидела",
+        "сообщение,",
+        "она",
+        "бы",
+        "ответила"
+      ],
+      "answer": "Если бы Лена увидела сообщение, она бы ответила",
+      "translation": "If Lena had seen the message, she would have answered.",
+      "acceptableVariants": [
+        "Если бы Лена увидела сообщение, она ответила бы"
+      ],
+      "hint": "Two single events: a perfective seeing + a perfective answering. Past fem forms."
+    },
+    {
+      "words": [
+        "Если",
+        "бы",
+        "ты",
+        "спросил",
+        "раньше,",
+        "я",
+        "бы",
+        "помог"
+      ],
+      "answer": "Если бы ты спросил раньше, я бы помог",
+      "translation": "If you had asked earlier, I would have helped.",
+      "acceptableVariants": [
+        "Если бы ты спросил раньше, я помог бы"
+      ],
+      "hint": "If-clause perfective спросил; result-clause subject 'я' + 'бы' + помог."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Если бы мы знаем дорогу, мы бы не заблудились.",
+      "translationEnglish": "If we had known the way, we wouldn't have gotten lost.",
+      "error": "знаем",
+      "correction": "знали",
+      "options": [
+        "знали",
+        "знаете",
+        "знают"
+      ],
+      "explanation": "The conditional 'если бы ...' is built from a PAST-tense form, never the present: знали. Знаем, знаете, and знают are all present-tense forms, which belong to real statements ('Мы знаем дорогу' = we know the way), not to a hypothetical frame. The бы attached to 'если' already marks the clause as non-actual; the verb must be past to match. One past + бы construction covers past, present, and future hypotheticals alike."
+    },
+    {
+      "sentence": "Если бы завтра будет хорошая погода, мы бы поехали за город.",
+      "translationEnglish": "If the weather were good tomorrow, we would go out of town.",
+      "error": "будет",
+      "correction": "была",
+      "options": [
+        "была",
+        "есть",
+        "будут"
+      ],
+      "explanation": "Even for a FUTURE hypothetical, Russian uses the past-tense form with бы, not the future: была (fem, agreeing with погода). Будет is the future form used in REAL conditionals ('Если завтра будет хорошая погода' = if it actually is nice, a genuine possibility), which clashes with the hypothetical 'мы бы поехали'. Есть (present) and будут (future plural) likewise do not fit the past + бы frame. One past + бы construction serves past, present, and future hypotheticals."
+    },
+    {
+      "sentence": "Если бы Антон закрывал окно, в комнате было бы теплее.",
+      "translationEnglish": "If Anton had closed the window, it would be warmer in the room.",
+      "error": "закрывал",
+      "correction": "закрыл",
+      "options": [
+        "закрыл",
+        "закрывает",
+        "закроет"
+      ],
+      "explanation": "Aspect in the conditional follows the past-tense rules. The if-clause hypothesises a single completed action (closing the window once), which would have made the room warmer, so the perfective past: закрыл. The imperfective закрывал would describe a repeated or ongoing closing, which the one-result frame does not need."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "_____ я знал, я бы сказал.",
+      "contextEnglish": "If I knew / had known, I would say / would have said.",
+      "options": [
+        "Если бы",
+        "Если"
+      ],
+      "answer": "Если бы",
+      "explanation": "The result-clause 'я бы сказал' carries бы, so the whole sentence is in the hypothetical frame. The if-clause must match: если бы (with бы attached to если). Если alone introduces a real conditional, which would clash with the hypothetical 'я бы сказал.'"
+    },
+    {
+      "context": "Я _____ помог, если бы мог.",
+      "contextEnglish": "I would help if I could.",
+      "options": [
+        "бы",
+        "уже"
+      ],
+      "answer": "бы",
+      "explanation": "The result-clause needs the hypothetical particle бы to match the conditional if-clause 'если бы мог.' Уже is a completion adverb that would clash with the hypothetical frame (the helping has not actually happened, by hypothesis)."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "условное наклонение",
+      "definition": "the conditional mood (built from past-tense forms plus the particle бы; one form covers past, present, and future hypotheticals)",
+      "example": "В предложении 'Если бы я знал, я бы сказал' оба глагола стоят в условном наклонении."
+    },
+    {
+      "term": "если бы",
+      "definition": "if (only) (introduces a hypothetical if-clause; followed by a past-tense verb; бы attaches to если and stays there)",
+      "example": "В предложении 'Если бы Лена услышала звонок, она бы открыла дверь' конструкция 'если бы' открывает гипотетическое условие."
+    },
+    {
+      "term": "частица бы",
+      "definition": "the hypothetical particle (unstressed; converts a past-tense verb to its hypothetical reading; appears in both clauses of a conditional)",
+      "example": "В предложении 'Я бы помог' частица бы делает форму помог гипотетической, а не реальной."
+    }
+  ]
+}

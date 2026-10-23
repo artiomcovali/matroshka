@@ -1,0 +1,431 @@
+{
+  "id": "b1-track-prefix-01-concept",
+  "level": "B1",
+  "focusArea": "aspect",
+  "title": "Verbal Prefixes 1: The Concept (perfectivization plus a meaning shade)",
+  "titleRussian": "Глагольные приставки 1: Концепция (вид плюс оттенок значения)",
+  "description": "Russian builds new verbs by attaching prefixes to existing roots. The prefix typically perfectivizes the verb AND adds a meaning shade (across, until, out, completely, slightly, in). One root supports several prefixed verbs, each with its own meaning.",
+  "descriptionRussian": "Русский язык создаёт новые глаголы, присоединяя приставки к корню. Приставка обычно делает глагол совершенного вида И добавляет смысловой оттенок («через», «до», «вне», «полностью», «слегка», «внутрь»). У одного корня бывает несколько приставочных глаголов, и у каждого своё значение.",
+  "imageName": "puzzlepiece",
+  "trackId": "b1-verbal-prefix-mastery",
+  "trackTitle": "Verbal Prefix Mastery",
+  "trackTitleRussian": "Глагольные приставки",
+  "trackIndex": 1,
+  "trackTotal": 8,
+  "intro": "The motion book taught you prefixes on one narrow set of verbs. This one generalizes: prefixes attach to almost anything, and they do two jobs at once. They make a verb perfective, and they add a shade of meaning on top. That is why one English verb can correspond to five Russian ones. Which prefix a given verb takes for its plain perfective is not predictable and has to be learned per verb.",
+  "rules": [
+    "A prefix attached to an imperfective verb usually creates a perfective verb. Читать → прочитать; писать → написать; делать → сделать.",
+    "A prefix typically adds a meaning shade. Прочитать = 'read through.' Перечитать = 'read again.' Дочитать = 'finish reading.' Same root, different shades.",
+    "A single English verb often maps to several prefixed Russian perfectives. The choice depends on the speaker's exact meaning.",
+    "The plain perfective prefix differs by verb: читать takes про-, писать takes на-, делать takes с-. Пере- and до- attach on top of the same roots for the 'redo' and 'finish' shades.",
+    "When reading, identify the root first, then the prefix; the prefix's typical meaning narrows the new verb's reading."
+  ],
+  "examples": [
+    "Антон прочитал эту книгу за два дня. (Anton read this book through in two days.) Про- + читать → perfective, 'through to the end.'",
+    "Я перечитал письмо несколько раз. (I (m) reread the letter several times.) Пере- + читать → perfective, 'again, over.'",
+    "Маша дочитала статью к утру. (Masha finished reading the article by morning.) До- + читать → perfective, 'finish, reach the end.'",
+    "Я сделал всё домашнее задание. (I (m) did all my homework.) С- + делать → perfective, completion.",
+    "Лена переделала свой проект. (Lena redid her project.) Пере- + делать → perfective, 'redo.'",
+    "Антон написал длинное письмо. (Anton wrote a long letter.) На- + писать → perfective, completion."
+  ],
+  "tables": [
+    {
+      "title": "Three roots, three prefixes each",
+      "headers": [
+        "Root",
+        "plain perfective",
+        "+пере- (redo / over)",
+        "+до- (finish)"
+      ],
+      "rows": [
+        {
+          "label": "читать (to read)",
+          "cells": [
+            "прочитать (про-)",
+            "перечитать",
+            "дочитать"
+          ]
+        },
+        {
+          "label": "писать (to write)",
+          "cells": [
+            "написать (на-)",
+            "переписать",
+            "дописать"
+          ]
+        },
+        {
+          "label": "делать (to do)",
+          "cells": [
+            "сделать (с-)",
+            "переделать",
+            "доделать"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The six prefixes this track covers",
+      "headers": [
+        "Prefix",
+        "Typical shade",
+        "Lesson"
+      ],
+      "rows": [
+        {
+          "label": "пере-",
+          "cells": [
+            "across, redo, over",
+            "Lesson 2"
+          ]
+        },
+        {
+          "label": "до-",
+          "cells": [
+            "until, up to, finish",
+            "Lesson 3"
+          ]
+        },
+        {
+          "label": "вы-",
+          "cells": [
+            "out, exhaust, complete",
+            "Lesson 4"
+          ]
+        },
+        {
+          "label": "раз- / разо-",
+          "cells": [
+            "apart, completely, intensify",
+            "Lesson 5"
+          ]
+        },
+        {
+          "label": "при-",
+          "cells": [
+            "attach, slightly, add to",
+            "Lesson 6"
+          ]
+        },
+        {
+          "label": "за-",
+          "cells": [
+            "start, beyond, achieve a state",
+            "Lesson 7"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Антон _____ эту книгу за два дня.",
+          "promptEnglish": "Anton read this book through in two days.",
+          "options": [
+            "читал",
+            "прочитал",
+            "перечитал",
+            "дочитал"
+          ],
+          "answer": "прочитал",
+          "hint": "'Read through to the end in a bounded time.' Which prefix tilts to 'through to the end'?",
+          "explanation": "The bounded time 'за два дня' plus the meaning 'read it cover to cover' signals про- + читать → прочитал. Читал (impf) describes an ongoing process; перечитал means 'read again'; дочитал means 'finished a reading that was already in progress.' Only прочитал fits the read-through-to-the-end framing."
+        },
+        {
+          "prompt": "Я _____ письмо несколько раз, потому что не понял с первого раза.",
+          "promptEnglish": "I (m) reread the letter several times because I didn't understand it the first time.",
+          "options": [
+            "прочитал",
+            "написал",
+            "перечитал",
+            "дочитал"
+          ],
+          "answer": "перечитал",
+          "hint": "'Несколько раз' = repeated reading of the same letter. Which prefix tilts to 'again, over'?",
+          "explanation": "'Несколько раз' plus 'did not understand the first time' signals a repeated reading: пере- + читать → перечитал. The pf пере- form is the canonical 'reread.' Прочитал would be a single read-through; дочитал would be finishing an in-progress reading; написал would be a different lexical event entirely."
+        },
+        {
+          "prompt": "Маша _____ статью к утру и легла спать.",
+          "promptEnglish": "Masha finished reading the article by morning and went to bed.",
+          "options": [
+            "читала",
+            "прочитала",
+            "перечитала",
+            "дочитала"
+          ],
+          "answer": "дочитала",
+          "hint": "She was already reading and reached the end. Which prefix marks 'finish what you started'?",
+          "explanation": "The implied reading-in-progress plus the explicit 'reaching the end by morning' signals до- + читать → дочитала. The до- prefix marks 'finish what you have started.' Прочитала would frame the entire read-through (start and finish in one event); читала is the ongoing process; перечитала would mean she read the article again."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Лена _____ свой проект, потому что начальник нашёл ошибки.",
+          "promptEnglish": "Lena redid her project because the boss found mistakes.",
+          "options": [
+            "делала",
+            "сделала",
+            "переделала",
+            "доделала"
+          ],
+          "answer": "переделала",
+          "hint": "Boss found mistakes → Lena did the project a second time. Which prefix?",
+          "explanation": "The 'found mistakes' framing signals that Lena redid the project from scratch: пере- + делать → переделала. The pf пере- marks 'redo.' Сделала would be 'did it completely' (one-time completion, not a redo); доделала would be 'finished what was unfinished'; делала is the ongoing process."
+        },
+        {
+          "prompt": "Антон _____ длинное письмо своему другу.",
+          "promptEnglish": "Anton wrote a long letter to his friend.",
+          "options": [
+            "переписал",
+            "написал",
+            "дописал",
+            "писал"
+          ],
+          "answer": "написал",
+          "hint": "One specific letter, completed. Standard pf of писать?",
+          "explanation": "The standard perfective of писать takes the prefix на-: написать → написал. The completed-letter framing signals one-shot completion, not a rewrite. Писал is the ongoing process; переписал is 'rewrite, copy out'; дописал is 'finish writing something already in progress.'"
+        },
+        {
+          "prompt": "Я _____ домашнее задание и сел смотреть фильм.",
+          "promptEnglish": "I (m) did my homework and sat down to watch a film.",
+          "options": [
+            "делал",
+            "переделал",
+            "доделал",
+            "сделал"
+          ],
+          "answer": "сделал",
+          "hint": "Standard pf of делать; the homework is completed as a one-shot event.",
+          "explanation": "The standard perfective of делать takes the prefix с-: сделать → сделал. The completed-homework framing signals one-shot completion. Делал is the ongoing process; переделал would mean 'redid'; доделал would mean 'finished homework that was already in progress' (also valid but less direct here)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Лена _____ эту книгу до конца.",
+          "promptEnglish": "Lena read this book through to the end.",
+          "options": [
+            "прочитала",
+            "перечитала",
+            "дочитала",
+            "зачитала"
+          ],
+          "answer": "прочитала",
+          "hint": "The plain 'read it through' perfective uses which prefix?",
+          "explanation": "Про- gives the plain read-through perfective: прочитала. Перечитала would mean 'reread'; дочитала 'finished off a reading already under way'; зачитала is a different, bookish verb."
+        },
+        {
+          "prompt": "Антон _____ упражнение, потому что в нём были ошибки.",
+          "promptEnglish": "Anton redid the exercise because it had mistakes in it.",
+          "options": [
+            "переделал",
+            "доделал",
+            "заделал",
+            "разделал"
+          ],
+          "answer": "переделал",
+          "hint": "Mistakes force a second attempt: which shade?",
+          "explanation": "The redo shade is пере-: переделал. Доделал means 'finished off'; заделал means 'sealed up (a hole)'; разделал 'cut up'."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Игорь _____: оставалась одна страница.",
+          "promptEnglish": "Igor finished reading the article - one page had remained.",
+          "options": [
+            "дочитал статью",
+            "прочитал статью",
+            "перечитал статью",
+            "недочитал статью"
+          ],
+          "answer": "дочитал статью",
+          "hint": "Only the tail of the reading was left.",
+          "explanation": "Finishing something already in progress takes до-: дочитал. Прочитал would frame the whole read-through; перечитал a reread; недочитал means he did NOT finish."
+        },
+        {
+          "prompt": "Я _____ это письмо ещё раз.",
+          "promptEnglish": "I (f) reread this letter.",
+          "options": [
+            "перечитала",
+            "прочитала",
+            "дочитала",
+            "зачитала"
+          ],
+          "answer": "перечитала",
+          "hint": "'Ещё раз' = again. Which prefix carries redo?",
+          "explanation": "The redo shade is пере-: перечитала ('read again'). Прочитала is a first read-through, which 'ещё раз' contradicts; дочитала means finishing a read in progress."
+        },
+        {
+          "prompt": "Лена _____ письмо: оставался последний абзац.",
+          "promptEnglish": "Lena finished writing the letter - only the last paragraph had remained.",
+          "options": [
+            "дописала",
+            "написала",
+            "переписала",
+            "записала"
+          ],
+          "answer": "дописала",
+          "hint": "Completing a writing already under way.",
+          "explanation": "До- marks carrying an unfinished action to its end: дописала. Написала would frame the whole letter as one act; переписала a rewrite; записала a quick note."
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "items": [
+        {
+          "prompt": "Лена _____ всё домашнее задание за час.",
+          "promptEnglish": "Lena did all the homework in an hour.",
+          "options": [
+            "сделала",
+            "переделала",
+            "доделала",
+            "заделала"
+          ],
+          "answer": "сделала",
+          "hint": "The plain one-shot completion of делать.",
+          "explanation": "С- gives the plain perfective of делать: сделала. Переделала would mean she redid it; доделала that she finished a leftover part; the 'за час' frame fits one complete act."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша _____ всю книгу за выходные. (Masha read the whole book through over the weekend.)"
+    ],
+    "choices": [
+      "читала",
+      "прочитала",
+      "перечитала",
+      "дочитала"
+    ],
+    "answers": [
+      "прочитала"
+    ],
+    "grammarFocus": "The 'whole book in a bounded weekend' framing signals one complete read-through: про- + читать → прочитала (fem). Читала is the ongoing process (no bound); перечитала would mean 'read again' (no first-reading framing here); дочитала would imply a reading already in progress (the sentence does not set that up)."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Антон читал роман весь месяц и вчера наконец перечитал его до конца.",
+      "translationEnglish": "Anton read the novel all month and yesterday finally finished it.",
+      "error": "перечитал",
+      "correction": "дочитал",
+      "options": [
+        "дочитал",
+        "прочитает",
+        "читал"
+      ],
+      "explanation": "'Наконец ... до конца' (finally ... to the end) signals finishing something already in progress, so the prefix is до-: дочитал. Перечитал means 'reread', which wrongly implies a second pass; the context describes reaching the end of the first one."
+    },
+    {
+      "sentence": "Антон долго писал письмо и наконец написал последний абзац.",
+      "translationEnglish": "Anton wrote the letter for a long time and finally finished the last paragraph.",
+      "error": "написал",
+      "correction": "дописал",
+      "options": [
+        "дописал",
+        "переписал",
+        "записал"
+      ],
+      "explanation": "The letter was already in progress ('долго писал') and 'наконец' marks reaching its end, so the prefix is до- (finish what you started): дописал. Написал frames writing the whole thing as one fresh event, which double-counts the long writing already described. Переписал means 'rewrote', записал 'wrote down'. The до- prefix marks completion of an action already under way."
+    },
+    {
+      "sentence": "В сочинении были ошибки, поэтому Антон написал его заново.",
+      "translationEnglish": "There were mistakes in the essay, so Anton rewrote it from scratch.",
+      "error": "написал",
+      "correction": "переписал",
+      "options": [
+        "переписал",
+        "дописал",
+        "записал"
+      ],
+      "explanation": "'Были ошибки ... заново' (mistakes ... from scratch) signals doing the text a second time, so the prefix is пере- (redo): переписал. Написал means 'wrote (the first time)', which заново contradicts. Дописал would mean finished writing."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша _____ свою работу, потому что в ней были ошибки.",
+      "contextEnglish": "Masha redid her work because there were mistakes in it.",
+      "options": [
+        "переделала",
+        "сделала"
+      ],
+      "answer": "переделала",
+      "explanation": "'Were mistakes' signals a redo from scratch: пере- + делать → переделала. Сделала would be 'did it completely' (one-time completion), which the mistakes-trigger contradicts (there must be a first attempt and a redo)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each perfective by the shade its prefix adds to the root.",
+    "categories": [
+      "plain perfective (про- / на- / с-)",
+      "пере- (redo / again)",
+      "до- (finish what was started)"
+    ],
+    "items": [
+      {
+        "word": "прочитать",
+        "category": "plain perfective (про- / на- / с-)"
+      },
+      {
+        "word": "перечитать",
+        "category": "пере- (redo / again)"
+      },
+      {
+        "word": "дочитать",
+        "category": "до- (finish what was started)"
+      },
+      {
+        "word": "написать",
+        "category": "plain perfective (про- / на- / с-)"
+      },
+      {
+        "word": "переписать",
+        "category": "пере- (redo / again)"
+      },
+      {
+        "word": "дописать",
+        "category": "до- (finish what was started)"
+      },
+      {
+        "word": "сделать",
+        "category": "plain perfective (про- / на- / с-)"
+      },
+      {
+        "word": "переделать",
+        "category": "пере- (redo / again)"
+      },
+      {
+        "word": "доделать",
+        "category": "до- (finish what was started)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "прочитать / написать / сделать",
+      "definition": "the plain perfectives of читать / писать / делать; read through, write, do (one-shot completion). The perfectivizing prefix differs: про- / на- / с-.",
+      "example": "Антон прочитал книгу, написал письмо и сделал задание."
+    },
+    {
+      "term": "перечитать / переписать / переделать",
+      "definition": "the пере- perfectives: reread, rewrite, redo. Пере- adds the 'do it again' shade onto the same root.",
+      "example": "Лена перечитала статью и переделала отчёт."
+    },
+    {
+      "term": "дочитать / дописать / доделать",
+      "definition": "the до- perfectives: finish reading, finish writing, finish doing something already in progress. До- adds the 'reach the end' shade.",
+      "example": "Маша дочитала книгу и дописала письмо к утру."
+    }
+  ]
+}

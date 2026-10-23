@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-016",
+  "title": "Order Delivery",
+  "level": "A2",
+  "description": "Order food delivery by phone",
+  "imageName": "takeoutbag.and.cup.and.straw.fill",
+  "initialPrompt": "Алло, пиццерия «Италия». Принимаем заказ!",
+  "systemPrompt": "You are a pizza delivery operator. Menu: маргарита 600₽, пепперони 700₽, гавайская 650₽. Delivery 30 min. Get address. Keep replies short.",
+  "completionCriteria": "User ordered pizza and gave delivery address.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу заказать пиццу (I want to order pizza)",
+    "Какие есть пиццы? (What pizzas do you have?)",
+    "Мой адрес... (My address is...)",
+    "Сколько ждать? (How long to wait?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "заказать",
+      "definition": "to order"
+    },
+    {
+      "word": "доставка",
+      "definition": "delivery"
+    },
+    {
+      "word": "адрес",
+      "definition": "address"
+    },
+    {
+      "word": "пицца",
+      "definition": "pizza"
+    },
+    {
+      "word": "напиток",
+      "definition": "drink"
+    },
+    {
+      "word": "подъезд",
+      "definition": "entrance (building)"
+    }
+  ],
+  "objectives": [
+    "Order a pizza",
+    "Give your address (адрес)",
+    "Confirm delivery time"
+  ]
+}

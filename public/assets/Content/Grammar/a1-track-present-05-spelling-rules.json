@@ -1,0 +1,276 @@
+{
+  "id": "a1-track-present-05-spelling-rules",
+  "level": "A1",
+  "focusArea": "conjugation",
+  "title": "Present Tense 5: Husher Spelling Rule",
+  "titleRussian": "Настоящее время 5: правописание после шипящих",
+  "description": "After the hushers ж, ш, ч, щ, Russian writes -у and -а instead of -ю and -я. So учить → учу (not 'учю') and учат (not 'учят'). Today we lock that.",
+  "descriptionRussian": "После шипящих (ж, ш, ч, щ) пишется -у и -а вместо -ю и -я: учу́ (не 'учю'), у́чат (не 'учят'). Это орфографическое правило, не звуковое.",
+  "imageName": "textformat.abc",
+  "trackId": "a1-present-tense-mastery",
+  "trackTitle": "Present Tense Verb Mastery",
+  "trackTitleRussian": "Настоящее время",
+  "trackIndex": 5,
+  "trackTotal": 8,
+  "intro": "Russian grammar is full of tendencies and mostly-rules. This is not one of them. It is absolute, it has no exceptions, and it costs you one sentence to memorize. What it governs is narrow: two slots in the present-tense paradigm where the letter you expect is not the letter you write. Nothing about the verb itself changes. But get it wrong and the form is simply misspelled, in the flat way a native reader notices instantly and cannot unsee.",
+  "rules": [
+    "After ж, ш, ч, щ, Russian never writes -ю or -я. The 1sg ending becomes -у (учу́, держу́, кричу́). The 3pl ending becomes -ат in 2nd-conj (у́чат, де́ржат, крича́т) and -ут in 1st-conj (пи́шут, where the stem also ends in a husher).",
+    "The rule is purely orthographic. It tells you which letter to write; the pronunciation is the same as the soft variant would be.",
+    "The husher rule applies whenever the stem ends in ж, ш, ч, щ, regardless of whether the stem mutated to land there (писать → пиш-, lesson 3) or whether it was a husher all along (учить → уч-, today's lesson).",
+    "The same rule explains why -ка/ -га / -ха words have plurals in -и not -ы (книга → книги). For verbs, the practical effect is on the 1sg (-у) and 3pl (-ат / -ут)."
+  ],
+  "examples": [
+    "Я учу́ русский язык. Они у́чат английский. (I am studying Russian. They are studying English.) Stem уч-: 1sg -у́, 3pl -ат, husher rule applied.",
+    "Я держу́ ручку правильно. Дети де́ржат карандаши. (I am holding the pen correctly. The children are holding pencils.) Stem держ-: same -у in 1sg, -ат in 3pl.",
+    "Я лежу́ на диване. Книги лежа́т на столе. (I am lying on the couch. The books are lying on the table.) Stem леж-: -у́ and -ат.",
+    "Я слы́шу музыку. Они слы́шат шум с улицы. (I hear music. They hear noise from the street.) Stem слыш-: -у in 1sg, -ат in 3pl.",
+    "Я не кричу́. Дети крича́т во дворе. (I am not shouting. The children are shouting in the yard.) Stem крич-: -у́ and -ат.",
+    "Я пишу́ статью. Они пи́шут сочинение. (I am writing an article. They are writing an essay.) Lesson 3's writer-verb: stem пиш- ends in a husher, so 1sg is -у́ and 3pl is -ут (1st-conj 3pl after husher)."
+  ],
+  "tables": [
+    {
+      "title": "Husher Rule in 2nd-Conjugation Verbs",
+      "headers": [
+        "Infinitive",
+        "1sg (-у)",
+        "3pl (-ат)"
+      ],
+      "rows": [
+        {
+          "label": "учить",
+          "cells": [
+            "учу́",
+            "у́чат"
+          ]
+        },
+        {
+          "label": "держать",
+          "cells": [
+            "держу́",
+            "де́ржат"
+          ]
+        },
+        {
+          "label": "лежать",
+          "cells": [
+            "лежу́",
+            "лежа́т"
+          ]
+        },
+        {
+          "label": "слышать",
+          "cells": [
+            "слы́шу",
+            "слы́шат"
+          ]
+        },
+        {
+          "label": "кричать",
+          "cells": [
+            "кричу́",
+            "крича́т"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Husher Rule in 1st-Conjugation (writer-stem from Lesson 3)",
+      "headers": [
+        "Infinitive",
+        "1sg (-у)",
+        "3pl (-ут)"
+      ],
+      "rows": [
+        {
+          "label": "писать",
+          "cells": [
+            "пишу́",
+            "пи́шут"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я очень _____ итальянскую кухню.",
+          "promptEnglish": "I really love Italian cuisine.",
+          "options": [
+            "люблю",
+            "любишь",
+            "любит",
+            "любят"
+          ],
+          "answer": "люблю",
+          "hint": "Warm-up from Lesson 4. Я + любить triggers which mutation?",
+          "explanation": "Recall from Lesson 4: любить has labial+л in 1sg. Stem люб- + -л- + -ю = люблю. Today's husher rule does not apply (stem ends in -б-, a labial, not a husher)."
+        },
+        {
+          "prompt": "Я _____ русский язык в университете.",
+          "promptEnglish": "I am studying Russian at the university.",
+          "options": [
+            "учат",
+            "учу",
+            "учит",
+            "учим"
+          ],
+          "answer": "учу",
+          "hint": "Я + учить. Stem уч- ends in a husher. Which letter must follow the husher in the 1sg?",
+          "explanation": "Stem уч- ends in the husher -ч-. The husher rule says: never write -ю after a husher. So the 1sg is учу (not 'учю'). The pronunciation is the same as it would be with -ю; only the letter differs."
+        },
+        {
+          "prompt": "Студенты _____ грамматику с утра до вечера.",
+          "promptEnglish": "The students are studying grammar from morning to evening.",
+          "options": [
+            "учу",
+            "учим",
+            "учат",
+            "учишь"
+          ],
+          "answer": "учат",
+          "hint": "Студенты is 3pl. The husher rule applies to 3pl too. Which letter must follow -ч-?",
+          "explanation": "Students = 3pl. The 2nd-conj 3pl ending is normally -ят, but after the husher -ч- the husher rule forces -а: учат, not 'учят'. Same rule as 1sg учу."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я _____ музыку из соседней комнаты.",
+          "promptEnglish": "I hear music from the next room.",
+          "options": [
+            "слышишь",
+            "слышит",
+            "слышим",
+            "слышу"
+          ],
+          "answer": "слышу",
+          "hint": "Я + слышать. Stem слыш- ends in -ш-, a husher. 1sg ending after husher is...?",
+          "explanation": "Stem слыш- ends in the husher -ш-. The 1sg ending is -у (не -ю): слышу. The husher rule applies the same way it did for учу. Note слышать looks like a 1st-conj -ать verb but actually belongs to the 2nd-conj exception group; the standard 2nd-conj endings apply."
+        },
+        {
+          "prompt": "Дети _____ воздушные шары крепко.",
+          "promptEnglish": "The children are holding the balloons tightly.",
+          "options": [
+            "держат",
+            "держу",
+            "держишь",
+            "держим"
+          ],
+          "answer": "держат",
+          "hint": "Дети is 3pl. Держать has stem держ-. After the husher, the 3pl ending is...?",
+          "explanation": "Дети = 3pl. The 2nd-conj 3pl ending is -ат after the husher -ж-: держат, not 'держят'. The same rule explains the 1sg держу́, which would otherwise have been written 'держю'."
+        },
+        {
+          "prompt": "Я тихо _____ на диване и читаю.",
+          "promptEnglish": "I am lying quietly on the couch and reading.",
+          "options": [
+            "лежим",
+            "лежите",
+            "лежу",
+            "лежат"
+          ],
+          "answer": "лежу",
+          "hint": "Я + лежать. Stem леж- ends in -ж-. The 1sg ending must be...?",
+          "explanation": "Stem леж- ends in the husher -ж-. The 1sg ending after a husher is -у, never -ю: лежу. The rule is the same as in учу, держу, слышу: husher plus -у́."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маленькие дети громко _____ во дворе. (The little kids are shouting loudly in the yard.)"
+    ],
+    "choices": [
+      "кричу",
+      "кричишь",
+      "кричит",
+      "кричат"
+    ],
+    "answers": [
+      "кричат"
+    ],
+    "grammarFocus": "Дети = 3pl. Кричать has stem крич- ending in -ч-, a husher. The 3pl ending after a husher is -ат: кричат, not 'кричят'."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Я молчю на уроке, когда говорит учитель.",
+      "translationEnglish": "I keep quiet in class when the teacher is speaking.",
+      "error": "молчю",
+      "correction": "молчу",
+      "options": [
+        "молчу",
+        "молчит",
+        "молчат"
+      ],
+      "explanation": "The stem молч- ends in the husher -ч-, and Russian's spelling rule forbids -ю after ж, ш, ч, щ: the 1sg ending is written -у, giving молчу. Молчю breaks that rule and is never written, even though the sound is nearly identical."
+    },
+    {
+      "sentence": "Дети громко кричят на детской площадке.",
+      "translationEnglish": "The children are shouting loudly at the playground.",
+      "error": "кричят",
+      "correction": "кричат",
+      "options": [
+        "кричат",
+        "кричит",
+        "кричу"
+      ],
+      "explanation": "The stem крич- ends in the husher -ч-. The second-conjugation 3pl ending is normally -ят, but the husher spelling rule replaces -я with -а after ж, ш, ч, щ: the form is кричат, not кричят. The rule is purely a spelling rule; the pronunciation is unchanged."
+    },
+    {
+      "sentence": "Они пишют сочинение на уроке.",
+      "translationEnglish": "They are writing an essay in class.",
+      "error": "пишют",
+      "correction": "пишут",
+      "options": [
+        "пишут",
+        "пишет",
+        "пишу"
+      ],
+      "explanation": "Писать's present stem is пиш-, ending in the husher -ш- (the с → ш change from the stress-shift lesson). Even though писать is first-conjugation (3pl ending -ют), the husher rule blocks -ю after ш and writes -у: the form is пишут, not пишют. The same rule gives the 1sg пишу (not пишю)."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я хорошо _____ его голос на этой записи.",
+      "contextEnglish": "I hear his voice clearly on this recording.",
+      "options": [
+        "слышу",
+        "слышит"
+      ],
+      "answer": "слышу",
+      "explanation": "Subject is я: 1sg, husher rule applies, ending -у: слышу. Слышит is 3sg and would need a singular non-я subject."
+    },
+    {
+      "context": "Молодые мамы _____ детей за руки на улице.",
+      "contextEnglish": "Young mothers hold their children's hands on the street.",
+      "options": [
+        "держит",
+        "держат"
+      ],
+      "answer": "держат",
+      "explanation": "Subject мамы is 3pl. The 3pl ending after the husher -ж- is -ат: держат, not 'держят'. Держит is 3sg and would need a singular subject."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "правило правописания",
+      "definition": "spelling rule (an orthographic convention that overrides the default spelling, independent of how the form is pronounced)",
+      "example": "Правило правописания после шипящих требует писать -у вместо -ю в форме 'я учу́'."
+    },
+    {
+      "term": "шипящие",
+      "definition": "hushers (the four loud sibilants ж, ш, ч, щ; treated as a group by several Russian spelling rules)",
+      "example": "В русском языке шипящие — это ж, ш, ч и щ."
+    },
+    {
+      "term": "правило после шипящих",
+      "definition": "husher spelling rule (after ж, ш, ч, щ, write -у and -а instead of -ю and -я; affects 1sg and 3pl in present-tense verbs whose stem ends in a husher)",
+      "example": "По правилу после шипящих 'учить' даёт форму 'учу́', а не 'учю'."
+    }
+  ]
+}

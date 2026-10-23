@@ -1,0 +1,364 @@
+{
+  "id": "a2-track-reflexive-02-self",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Reflexive 2: Wash Yourself vs Wash Something",
+  "titleRussian": "Возвратные 2: Мыться или мыть что-то",
+  "description": "Use the reflexive verb (мыться, одеваться, бриться, причёсываться) when the action goes back to the subject. Use the plain twin (мыть, одевать) when there is a separate object being acted on.",
+  "descriptionRussian": "Возвратный глагол (мыться, одеваться, бриться, причёсываться) употребляется, когда действие обращено на самого субъекта. Невозвратный двойник (мыть, одевать) употребляется, когда есть отдельный объект действия.",
+  "imageName": "arrow.triangle.2.circlepath",
+  "trackId": "a2-reflexive-mastery",
+  "trackTitle": "Reflexive Verbs Deep",
+  "trackTitleRussian": "Возвратные глаголы — глубокая проработка",
+  "trackIndex": 2,
+  "trackTotal": 12,
+  "intro": "Here is the oldest job the ending does: it turns the action back on whoever is doing it. Anton washes and Anton washes the car are two different verbs in Russian, and the only difference is the ending. The rule is simple to state and easy to forget mid-sentence: if there is a separate thing being acted on, you do not want the reflexive.",
+  "rules": [
+    "When the action goes back to the subject and there is no separate object, use the -ся verb: Антон моется (Anton washes himself).",
+    "When the verb acts on a separate person or thing (the object, in the accusative), use the plain verb without -ся: Антон моет машину (Anton washes the car).",
+    "The four pairs today: мыть / мыться (wash), одевать / одеваться (dress), брить / бриться (shave), причёсывать / причёсываться (comb hair).",
+    "The ending and stress stay the same; you only add or drop the -ся / -сь: мою → моюсь, одевает → одевается."
+  ],
+  "examples": [
+    "Антон моется холодной водой. (Anton washes with cold water.) No object - the action is on Anton, so мыться.",
+    "Антон моет машину каждую субботу. (Anton washes the car every Saturday.) Object машину - use the plain мыть.",
+    "Лена одевается медленно. (Lena gets dressed slowly.) No object - Lena dresses herself, so одеваться.",
+    "Лена одевает дочку. (Lena dresses her daughter.) Object дочку - use the plain одевать.",
+    "Я бреюсь каждое утро. (I shave every morning.) No object - the action is on me, so бриться.",
+    "Маша причёсывается перед зеркалом. (Masha combs her hair in front of the mirror.) No object - she does her own hair, so причёсываться."
+  ],
+  "tables": [
+    {
+      "title": "Pairs: plain verb (has object) vs -ся verb (no object)",
+      "headers": [
+        "Plain verb + object",
+        "-ся verb (action on subject)",
+        "Meaning"
+      ],
+      "rows": [
+        {
+          "label": "мыть (машину)",
+          "cells": [
+            "мыться",
+            "wash something vs wash oneself"
+          ]
+        },
+        {
+          "label": "одевать (ребёнка)",
+          "cells": [
+            "одеваться",
+            "dress someone vs get dressed"
+          ]
+        },
+        {
+          "label": "брить (клиента)",
+          "cells": [
+            "бриться",
+            "shave someone vs shave oneself"
+          ]
+        },
+        {
+          "label": "причёсывать (сестру)",
+          "cells": [
+            "причёсываться",
+            "comb someone's hair vs comb one's own hair"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Антон _____ в ванной.",
+          "promptEnglish": "Anton is washing (himself) in the bathroom.",
+          "options": [
+            "моется",
+            "моет",
+            "моюсь",
+            "моют"
+          ],
+          "answer": "моется",
+          "hint": "Is there a separate object after the verb? If not, the action goes back to Anton.",
+          "explanation": "There is no object after the verb, so the action is on Anton himself: моется (-ся verb). Моет is the plain verb and needs an object (моет машину)."
+        },
+        {
+          "prompt": "Антон _____ машину каждую субботу.",
+          "promptEnglish": "Anton washes the car every Saturday.",
+          "options": [
+            "моется",
+            "моет",
+            "моюсь",
+            "моются"
+          ],
+          "answer": "моет",
+          "hint": "Машину is the object. Object present means you drop the -ся.",
+          "explanation": "Машину (the car) is a separate object in the accusative, so use the plain verb without -ся: моет. Моется would mean 'washes himself,' which leaves the car with no verb."
+        },
+        {
+          "prompt": "Лена _____ перед школой.",
+          "promptEnglish": "Lena gets dressed before school.",
+          "options": [
+            "одевает",
+            "одевается",
+            "одеваюсь",
+            "одевают"
+          ],
+          "answer": "одевается",
+          "hint": "No object after the verb - Lena dresses herself.",
+          "explanation": "No separate object follows the verb, so the action is on Lena: одевается (-ся verb). Одевает is the plain verb and needs an object (одевает ребёнка)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Лена _____ дочку перед сном.",
+          "promptEnglish": "Lena dresses her daughter before bed.",
+          "options": [
+            "одевается",
+            "одевают",
+            "одевает",
+            "одеваюсь"
+          ],
+          "answer": "одевает",
+          "hint": "Trap: дочку is the object. Who gets dressed - Lena or her daughter?",
+          "explanation": "Дочку (her daughter) is a separate object, so the daughter is being dressed, not Lena. Use the plain verb: одевает. Одевается would mean Lena dresses herself, which leaves дочку with no verb."
+        },
+        {
+          "prompt": "Я _____ каждое утро перед работой.",
+          "promptEnglish": "I shave every morning before work.",
+          "options": [
+            "брею",
+            "бреюсь",
+            "бреется",
+            "бреют"
+          ],
+          "answer": "бреюсь",
+          "hint": "No object - the action is on me. And the subject is 'I' (1sg).",
+          "explanation": "No object follows, so the action is on me: the -ся verb бриться. The 1sg form is бреюсь (vowel + -сь). Брею is the plain verb and needs an object (брею клиента)."
+        },
+        {
+          "prompt": "Парикмахер _____ клиента.",
+          "promptEnglish": "The barber shaves the client.",
+          "options": [
+            "бреется",
+            "брею",
+            "бреют",
+            "бреет"
+          ],
+          "answer": "бреет",
+          "hint": "Клиента is the object. The barber acts on someone else.",
+          "explanation": "Клиента (the client) is a separate object, so the barber shaves someone else: the plain verb бреет. Бреется would mean the barber shaves himself, which leaves клиента with no verb."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша _____ перед зеркалом. (Masha combs her hair in front of the mirror.)",
+      "Маша _____ сестру перед праздником. (Masha combs her sister's hair before the holiday.)"
+    ],
+    "choices": [
+      "причёсывается",
+      "причёсывает",
+      "причёсываюсь",
+      "причёсывают"
+    ],
+    "answers": [
+      "причёсывается",
+      "причёсывает"
+    ],
+    "grammarFocus": "First blank: no object, so the action is on Masha - причёсывается (-ся verb). Second blank: сестру (her sister) is the object, so use the plain verb причёсывает. The choice depends only on whether there is a separate object."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Антон каждое утро умывает холодной водой.",
+      "translationEnglish": "Anton washes his face with cold water every morning.",
+      "error": "умывает",
+      "correction": "умывается",
+      "options": [
+        "умывается",
+        "умоет",
+        "умывал"
+      ],
+      "explanation": "There is no object after the verb, so the action goes back to Anton: use the -ся verb умывается. The plain умывает needs a separate object (умывает сына), which is missing here."
+    },
+    {
+      "sentence": "Мама умывается сына перед сном.",
+      "translationEnglish": "Mom washes her son's face before bed.",
+      "error": "умывается",
+      "correction": "умывает",
+      "options": [
+        "умывает",
+        "умоется",
+        "умывалась"
+      ],
+      "explanation": "Сына (her son) is a separate object, so Mom acts on someone else: use the plain verb умывает. Умывается would mean she washes her own face, which leaves сына with no verb."
+    },
+    {
+      "sentence": "Я одевает тепло зимой.",
+      "translationEnglish": "I dress warmly in winter.",
+      "error": "одевает",
+      "correction": "одеваюсь",
+      "options": [
+        "одеваюсь",
+        "одеваю",
+        "одевался"
+      ],
+      "explanation": "There is no object, so the action is on me, and the subject is 'I' (1sg): the -ся form одеваюсь. Одевает is 3sg of the plain verb and needs an object. Одеваю is the right person but has no -ся, so it would need someone else to dress."
+    },
+    {
+      "sentence": "Маша причёсывает перед зеркалом по утрам.",
+      "translationEnglish": "Masha combs her hair in front of the mirror in the mornings.",
+      "error": "причёсывает",
+      "correction": "причёсывается",
+      "options": [
+        "причёсывается",
+        "причешет",
+        "причёсывают"
+      ],
+      "explanation": "There is no object after the verb, so Masha does her own hair: the -ся verb причёсывается. The plain причёсывает needs a separate object (причёсывает сестру)."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Антон _____ свою машину каждую субботу.",
+      "contextEnglish": "Anton washes his car every Saturday.",
+      "options": [
+        "моет",
+        "моется"
+      ],
+      "answer": "моет",
+      "explanation": "The object свою машину (his car) means the verb acts on a separate thing, so use the plain verb without -ся: моет. Моется would mean 'washes himself,' which contradicts having the car as an object."
+    },
+    {
+      "context": "Лена _____ быстро и идёт на работу.",
+      "contextEnglish": "Lena gets dressed quickly and goes to work.",
+      "options": [
+        "одевает",
+        "одевается"
+      ],
+      "answer": "одевается",
+      "explanation": "There is no separate object, so the action is on Lena herself: the -ся verb одевается. Одевает would need an object ('dresses someone'), which is missing here."
+    },
+    {
+      "context": "Маша _____ маленького брата.",
+      "contextEnglish": "Masha combs her little brother's hair.",
+      "options": [
+        "причёсывает",
+        "причёсывается"
+      ],
+      "answer": "причёсывает",
+      "explanation": "The object брата (her brother) means Masha does someone else's hair, so use the plain verb причёсывает. Причёсывается would mean she does her own hair, which contradicts having брата as an object."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each verb form by what it does: action on the subject (-ся verb) or action on a separate object (plain verb).",
+    "categories": [
+      "Action on the subject (-ся)",
+      "Action on an object (plain verb)"
+    ],
+    "items": [
+      {
+        "word": "моется",
+        "category": "Action on the subject (-ся)"
+      },
+      {
+        "word": "моет машину",
+        "category": "Action on an object (plain verb)"
+      },
+      {
+        "word": "одевается",
+        "category": "Action on the subject (-ся)"
+      },
+      {
+        "word": "одевает ребёнка",
+        "category": "Action on an object (plain verb)"
+      },
+      {
+        "word": "бреется",
+        "category": "Action on the subject (-ся)"
+      },
+      {
+        "word": "бреет клиента",
+        "category": "Action on an object (plain verb)"
+      },
+      {
+        "word": "причёсывается",
+        "category": "Action on the subject (-ся)"
+      },
+      {
+        "word": "причёсывает сестру",
+        "category": "Action on an object (plain verb)"
+      }
+    ]
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Антон",
+        "моется",
+        "утром"
+      ],
+      "answer": "Антон моется утром.",
+      "acceptableVariants": [
+        "Утром Антон моется."
+      ],
+      "translation": "Anton washes (himself) in the morning.",
+      "hint": "No object - the action is on Anton, so use the -ся verb."
+    },
+    {
+      "words": [
+        "Лена",
+        "одевает",
+        "дочку"
+      ],
+      "answer": "Лена одевает дочку.",
+      "acceptableVariants": [
+        "Дочку Лена одевает."
+      ],
+      "translation": "Lena dresses her daughter.",
+      "hint": "Дочку is the object, so use the plain verb without -ся."
+    },
+    {
+      "words": [
+        "Я",
+        "бреюсь",
+        "каждое",
+        "утро"
+      ],
+      "answer": "Я бреюсь каждое утро.",
+      "acceptableVariants": [
+        "Каждое утро я бреюсь."
+      ],
+      "translation": "I shave every morning.",
+      "hint": "No object, and the subject is 'I' - use the 1sg -ся form."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "мыться / мыть",
+      "definition": "мыться = wash (oneself), no object; мыть = wash (something), takes an object - мыть машину",
+      "example": "Антон моется. Антон моет машину."
+    },
+    {
+      "term": "одеваться / одевать",
+      "definition": "одеваться = get dressed (dress oneself), no object; одевать = dress (someone), takes an object - одевать ребёнка",
+      "example": "Лена одевается. Лена одевает дочку."
+    },
+    {
+      "term": "бриться / брить",
+      "definition": "бриться = shave (oneself), no object; брить = shave (someone), takes an object - брить клиента",
+      "example": "Я бреюсь. Парикмахер бреет клиента."
+    },
+    {
+      "term": "причёсываться / причёсывать",
+      "definition": "причёсываться = comb one's own hair, no object; причёсывать = comb someone's hair, takes an object - причёсывать сестру",
+      "example": "Маша причёсывается. Маша причёсывает сестру."
+    }
+  ]
+}

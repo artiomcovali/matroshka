@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-018",
+  "title": "Book a Hotel",
+  "level": "A2",
+  "description": "Reserve a hotel room by phone",
+  "imageName": "bed.double.fill",
+  "initialPrompt": "Добрый день, гостиница «Москва». Слушаю вас.",
+  "systemPrompt": "You are hotel reception. Rooms: стандарт 5000₽/ночь, люкс 9000₽. Ask dates, guests. Breakfast included. Keep replies short.",
+  "completionCriteria": "User booked a room with dates and number of guests.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу забронировать номер (I want to book a room)",
+    "На две ночи (For two nights)",
+    "Двухместный номер (Double room)",
+    "Завтрак включён? (Is breakfast included?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "гостиница",
+      "definition": "hotel"
+    },
+    {
+      "word": "номер",
+      "definition": "room"
+    },
+    {
+      "word": "забронировать",
+      "definition": "to book/reserve"
+    },
+    {
+      "word": "ночь",
+      "definition": "night"
+    },
+    {
+      "word": "завтрак",
+      "definition": "breakfast"
+    },
+    {
+      "word": "включён",
+      "definition": "included"
+    }
+  ],
+  "objectives": [
+    "Ask about room availability",
+    "Give dates (даты)",
+    "Confirm booking (забронировать)"
+  ]
+}

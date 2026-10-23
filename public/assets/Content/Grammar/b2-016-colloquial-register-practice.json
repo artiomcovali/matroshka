@@ -1,0 +1,739 @@
+{
+  "lessonId": "b2-016-colloquial-register",
+  "sets": [
+    {
+      "id": "round-1-colloquial-quiz",
+      "title": "Colloquial Recognition",
+      "titleRussian": "Узнайте разговорную речь",
+      "description": "Identify reduced forms, particles, and colloquial register features",
+      "descriptionRussian": "Определите разговорные формы, частицы и особенности устной речи",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What is the colloquial reduction of сейчас?",
+              "promptEnglish": "This is one of the most common casual reductions in spoken Russian.",
+              "options": [
+                "сейч",
+                "щас",
+                "сяс",
+                "час"
+              ],
+              "answer": "щас",
+              "hint": "The vowels collapse and the consonants shift to щ.",
+              "explanation": "Сейчас → щас is the standard colloquial reduction. You hear it constantly in casual speech."
+            },
+            {
+              "prompt": "Чё ты делаешь? - What does чё replace?",
+              "promptEnglish": "This is informal and would sound rude in formal settings.",
+              "options": [
+                "чего",
+                "что",
+                "зачем",
+                "почему"
+              ],
+              "answer": "что",
+              "hint": "The standard neutral question word gets shortened to one syllable.",
+              "explanation": "Что → чё (or чо) is extremely common in casual speech. It sounds blunt or rude in formal contexts."
+            },
+            {
+              "prompt": "Which sentence uses a typical colloquial ellipsis (omitted words)?",
+              "promptEnglish": "Incomplete sentences are normal in spoken Russian.",
+              "options": [
+                "Дайте мне, пожалуйста, кофе.",
+                "Мне кофе.",
+                "Я хочу выпить кофе.",
+                "Принесите мне кофе, будьте добры."
+              ],
+              "answer": "Мне кофе.",
+              "hint": "In casual speech, you drop the verb entirely when the meaning is obvious.",
+              "explanation": "Мне кофе. (= Дайте мне кофе / Мне, пожалуйста, кофе.) The verb is implied. This is standard at cafes and restaurants."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Ну, я не знаю... - What function does ну serve here?",
+              "promptEnglish": "Ну is one of the most versatile Russian particles.",
+              "options": [
+                "Agreement",
+                "Hesitation / filler",
+                "Anger",
+                "Formal politeness"
+              ],
+              "answer": "Hesitation / filler",
+              "hint": "Like 'well...' or 'um...' in English when you're not sure what to say.",
+              "explanation": "Ну as a hesitation marker: 'Well, I don't know...' It softens the uncertainty, like English 'well' or 'um.'"
+            },
+            {
+              "prompt": "Ты же знаешь! - What does же add?",
+              "promptEnglish": "Же is a particle that modifies the emotional weight of the sentence.",
+              "options": [
+                "A question",
+                "A condition",
+                "Emphasis / reminder",
+                "Politeness"
+              ],
+              "answer": "Emphasis / reminder",
+              "hint": "The speaker is reminding the listener of something they should already know.",
+              "explanation": "Же adds emphatic force: 'You DO know!' or 'You know this already!' It reminds the listener of a known fact."
+            },
+            {
+              "prompt": "Вот этот, справа. - What does вот do here?",
+              "promptEnglish": "A particle used when pointing something out.",
+              "options": [
+                "Hesitation",
+                "Contrast",
+                "Pointing / presenting",
+                "Doubt"
+              ],
+              "answer": "Pointing / presenting",
+              "hint": "Like pointing with your finger: 'This one right here.'",
+              "explanation": "Вот = 'here,' 'this one,' 'right here.' It draws attention to something specific, like pointing."
+            },
+            {
+              "prompt": "Я-то знаю, а ты? - What does -то express?",
+              "promptEnglish": "A suffix particle that highlights contrast.",
+              "options": [
+                "Uncertainty",
+                "Contrast with others",
+                "Past tense",
+                "Formality"
+              ],
+              "answer": "Contrast with others",
+              "hint": "The speaker separates themselves from someone else: 'I, for one...'",
+              "explanation": "The particle -то highlights contrast: 'I (for my part) know, but what about you?' It sets the speaker apart."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "Which is a colloquial diminutive form of минута?",
+              "promptEnglish": "Diminutives soften the tone in casual speech.",
+              "options": [
+                "минутка",
+                "минутина",
+                "минутища",
+                "минутик"
+              ],
+              "answer": "минутка",
+              "hint": "The -ка suffix is one of the most common diminutive endings for feminine nouns.",
+              "explanation": "Минутка (a little minute) sounds softer and more friendly. Подождите минутку! sounds much warmer than Подождите минуту!"
+            },
+            {
+              "prompt": "Тебе чаёк налить? - What does чаёк convey compared to чай?",
+              "promptEnglish": "Notice the suffix on the word for tea.",
+              "options": [
+                "Cold tea",
+                "A large amount",
+                "Warmth and friendliness",
+                "Formal offer"
+              ],
+              "answer": "Warmth and friendliness",
+              "hint": "The -ёк diminutive suffix makes the offer sound cozy and informal.",
+              "explanation": "Чаёк is the affectionate diminutive of чай. It makes the offer warmer: 'Shall I pour you some nice tea?' Very homey and casual."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these into Standard (neutral/formal) vs Colloquial (informal/spoken)",
+        "categories": [
+          "Standard",
+          "Colloquial"
+        ],
+        "items": [
+          {
+            "word": "сейчас",
+            "category": "Standard"
+          },
+          {
+            "word": "щас",
+            "category": "Colloquial"
+          },
+          {
+            "word": "говорит",
+            "category": "Standard"
+          },
+          {
+            "word": "грит",
+            "category": "Colloquial"
+          },
+          {
+            "word": "что",
+            "category": "Standard"
+          },
+          {
+            "word": "чё",
+            "category": "Colloquial"
+          },
+          {
+            "word": "Подождите минуту.",
+            "category": "Standard"
+          },
+          {
+            "word": "Подожди минутку.",
+            "category": "Colloquial"
+          },
+          {
+            "word": "Мне кофе.",
+            "category": "Colloquial"
+          },
+          {
+            "word": "Дайте мне кофе, пожалуйста.",
+            "category": "Standard"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-2-particle-practice",
+      "title": "Particle Practice",
+      "titleRussian": "Практика частиц",
+      "description": "Master the colloquial particles: ну, же, вот, -то",
+      "descriptionRussian": "Отработайте разговорные частицы: ну, же, вот, -то",
+      "icon": "textformat",
+      "minimalPairs": [
+        {
+          "context": "_____, я не уверен... (hesitating before answering)",
+          "contextEnglish": "Well, I'm not sure... (speaker is hesitating)",
+          "options": [
+            "Ну",
+            "Вот"
+          ],
+          "answer": "Ну",
+          "explanation": "Ну as a hesitation filler: 'Well, I'm not sure...' Like English 'well' or 'um' at the start of a thought."
+        },
+        {
+          "context": "_____ он, смотри! (pointing someone out in a crowd)",
+          "contextEnglish": "There he is, look! (pointing at someone)",
+          "options": [
+            "Вот",
+            "Ну"
+          ],
+          "answer": "Вот",
+          "explanation": "Вот for pointing: 'There he is!' Drawing attention to something you can see or identify."
+        },
+        {
+          "context": "Я-_____ всё сделал, а Коля ничего. (contrast: I did it, but Kolya didn't)",
+          "contextEnglish": "I, for one, did everything, but Kolya did nothing.",
+          "options": [
+            "то",
+            "же"
+          ],
+          "answer": "то",
+          "explanation": "The particle -то highlights contrast: 'I (for my part) did everything.' It separates the speaker's action from Kolya's inaction."
+        },
+        {
+          "context": "Мы _____ договорились вчера! Ты забыл? (emphatic reminder)",
+          "contextEnglish": "We DID agree yesterday! Did you forget?",
+          "options": [
+            "же",
+            "то"
+          ],
+          "answer": "же",
+          "explanation": "Же for emphatic reminder: 'We DID agree!' The speaker is frustrated the listener forgot."
+        },
+        {
+          "context": "_____, давай уже начнём! (impatient urging)",
+          "contextEnglish": "Come on, let's start already!",
+          "options": [
+            "Ну",
+            "Вот"
+          ],
+          "answer": "Ну",
+          "explanation": "Ну for impatient urging: 'Come on!' Here ну pushes the listener to act, similar to English 'come on' or 'well, let's go.'"
+        },
+        {
+          "context": "_____ так и живём. (summing up a situation: 'that's how it is')",
+          "contextEnglish": "So that's how we live. (a resigned summary)",
+          "options": [
+            "Вот",
+            "Ну"
+          ],
+          "answer": "Вот",
+          "explanation": "Вот for summing up or concluding: 'So that's how it is.' Вот так = 'like that, that's how.'"
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Ты _____ обещал помочь! Почему не пришёл? (You DID promise!)",
+          "_____, я даже не знаю, что сказать... (Well, I don't even know what to say...)",
+          "Деньги-_____ есть, а времени нет. (Money I have, but time I don't.)",
+          "_____ мой новый телефон, смотри! (Here's my new phone, look!)",
+          "_____ ладно, я согласен. (Well, okay, I agree.)"
+        ],
+        "choices": [
+          "же",
+          "Ну",
+          "то",
+          "Вот",
+          "ведь"
+        ],
+        "answers": [
+          "же",
+          "Ну",
+          "то",
+          "Вот",
+          "Ну"
+        ],
+        "grammarFocus": "Colloquial particles: же (emphasis), ну (hesitation/urging), -то (contrast), вот (pointing)",
+        "hints": [
+          "Emphatic reminder of a promise.",
+          "Hesitation before a difficult thought.",
+          "Contrasting one thing (money) with another (time).",
+          "Presenting or showing something.",
+          "Casual agreement after hesitation."
+        ],
+        "explanations": [
+          "Же emphasizes the reminder: 'You DID promise!' The speaker is holding the listener accountable.",
+          "Ну as a hesitation filler: 'Well...' The speaker is gathering their thoughts.",
+          "-То highlights contrast: 'Money, for its part, I have, but...' Setting up a contrast.",
+          "Вот for presenting: 'Here it is!' Drawing attention to the phone.",
+          "Ну for casual transition into agreement: 'Well, okay then.'"
+        ],
+        "options": [
+          [
+            "вот",
+            "ну",
+            "то",
+            "же"
+          ],
+          [
+            "Вот",
+            "Так",
+            "Ну",
+            "Же"
+          ],
+          [
+            "вот",
+            "же",
+            "то",
+            "ну"
+          ],
+          [
+            "Вот",
+            "Ну",
+            "Так",
+            "Же"
+          ],
+          [
+            "Так",
+            "Ну",
+            "Ну что",
+            "Вот"
+          ]
+        ]
+      },
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Ну ты даёшь! - This expression means:",
+              "promptEnglish": "A common colloquial reaction expression.",
+              "options": [
+                "You're giving me something",
+                "Wow, you're something else!",
+                "Please give it to me",
+                "You're being generous"
+              ],
+              "answer": "Wow, you're something else!",
+              "hint": "This is an idiomatic expression of surprise or amazement at someone's actions.",
+              "explanation": "Ну ты даёшь! = 'Wow!' or 'You're really something!' An expression of amazement (positive or negative) at what someone did."
+            },
+            {
+              "prompt": "Which particle would you add: 'Книга-_____ интересная, но длинная.' (The book IS interesting, but long.)",
+              "promptEnglish": "Conceding a point before introducing a 'but.'",
+              "options": [
+                "-же",
+                "-вот",
+                "-то",
+                "-ну"
+              ],
+              "answer": "-то",
+              "hint": "Concessive contrast: 'The book, for its part, IS interesting, but...'",
+              "explanation": "Книга-то интересная = 'The book IS interesting (I'll give you that), but...' The -то concedes one point before contrasting."
+            },
+            {
+              "prompt": "А вот и нет! - This expression is used to:",
+              "promptEnglish": "A common colloquial contradiction.",
+              "options": [
+                "Agree enthusiastically",
+                "Contradict or disagree",
+                "Ask a question",
+                "Express sadness"
+              ],
+              "answer": "Contradict or disagree",
+              "hint": "Like saying 'No way!' or 'That's not true!' in response to someone.",
+              "explanation": "А вот и нет! = 'No, that's not so!' or 'Nuh-uh!' A casual, often playful contradiction. The opposite: А вот и да! = 'Yes it is!'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Постройте и переведите",
+      "description": "Build colloquial sentences and translate casual expressions",
+      "descriptionRussian": "Постройте разговорные предложения и переведите выражения",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "Well, I don't know, maybe.",
+          "answer": "Ну, я не знаю, может.",
+          "acceptableVariants": [
+            "Ну, не знаю, может.",
+            "Ну, не знаю, может быть."
+          ],
+          "hint": "Start with the hesitation particle ну, then может (casual form of может быть)",
+          "grammarFocus": "Hesitation particle ну + casual может",
+          "keyWord": "Ну",
+          "options": [
+            "Ну",
+            "Вот",
+            "Же",
+            "Что"
+          ]
+        },
+        {
+          "english": "You DO remember, right?! (emphatic reminder)",
+          "answer": "Ты же помнишь?!",
+          "acceptableVariants": [
+            "Ты же помнишь!",
+            "Вы же помните?!"
+          ],
+          "hint": "Use же after the subject for emphatic force",
+          "grammarFocus": "Emphatic particle же",
+          "keyWord": "же",
+          "options": [
+            "же",
+            "ли",
+            "бы",
+            "то"
+          ]
+        },
+        {
+          "english": "Two coffees, please. (casual cafe order, no verb)",
+          "answer": "Два кофе, пожалуйста.",
+          "acceptableVariants": [
+            "Мне два кофе, пожалуйста.",
+            "Нам два кофе, пожалуйста."
+          ],
+          "hint": "Drop the verb entirely; just the quantity + noun + please",
+          "grammarFocus": "Colloquial ellipsis (verb omission)",
+          "keyWord": "кофе",
+          "options": [
+            "кофе",
+            "чай",
+            "сок",
+            "молоко"
+          ]
+        },
+        {
+          "english": "I'll be right there! (casual, using reduced form)",
+          "answer": "Щас приду!",
+          "acceptableVariants": [
+            "Щас буду!",
+            "Сейчас приду!"
+          ],
+          "hint": "Use the colloquial reduction of сейчас + perfective verb",
+          "grammarFocus": "Colloquial reduction щас",
+          "keyWord": "Щас",
+          "options": [
+            "Щас",
+            "Потом",
+            "Скоро",
+            "Завтра"
+          ]
+        },
+        {
+          "english": "The weather IS nice, but it's cold. (concessive contrast)",
+          "answer": "Погода-то хорошая, но холодно.",
+          "acceptableVariants": [
+            "Погода-то хорошая, а холодно.",
+            "Погода-то ничего, но холодно."
+          ],
+          "hint": "Use -то on the topic noun to concede the point before contrasting",
+          "grammarFocus": "Contrast particle -то",
+          "keyWord": "-то",
+          "options": [
+            "-то",
+            "-ка",
+            "-нибудь",
+            "-либо"
+          ]
+        },
+        {
+          "english": "So basically, she's not coming. (casual summary)",
+          "answer": "Короче, она не придёт.",
+          "acceptableVariants": [
+            "Короче, она не приедет.",
+            "В общем, она не придёт."
+          ],
+          "hint": "Start with the discourse marker that means 'long story short'",
+          "grammarFocus": "Discourse marker короче",
+          "keyWord": "Короче",
+          "options": [
+            "Короче",
+            "Наконец",
+            "Кстати",
+            "Однако"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Короче, я опоздал. - What does короче function as?",
+              "promptEnglish": "One of the most common casual discourse markers.",
+              "options": [
+                "A formal transition",
+                "An apology",
+                "Literally 'shorter'",
+                "A filler meaning 'basically' or 'long story short'"
+              ],
+              "answer": "A filler meaning 'basically' or 'long story short'",
+              "hint": "It signals the speaker is cutting to the main point.",
+              "explanation": "Короче = 'in short, basically, long story short.' Extremely common filler/discourse marker. Короче, я опоздал = 'So basically, I was late.'"
+            },
+            {
+              "prompt": "Типа он не знал. - Типа here means:",
+              "promptEnglish": "A casual filler word younger speakers use heavily.",
+              "options": [
+                "Type or kind",
+                "'Like' or 'supposedly'",
+                "Typically",
+                "Therefore"
+              ],
+              "answer": "'Like' or 'supposedly'",
+              "hint": "Similar to how English speakers overuse 'like' in casual speech.",
+              "explanation": "Типа = 'like, supposedly, sort of.' Типа он не знал = 'Like, he supposedly didn't know.' Very common in casual youth speech."
+            },
+            {
+              "prompt": "Ничё себе! expresses:",
+              "promptEnglish": "A colloquial exclamation (ничё = reduced form of ничего).",
+              "options": [
+                "Disappointment",
+                "Anger",
+                "Surprise or amazement",
+                "Boredom"
+              ],
+              "answer": "Surprise or amazement",
+              "hint": "It literally means 'not bad for oneself' but is used as an exclamation.",
+              "explanation": "Ничё себе! (from ничего себе!) = 'Wow!' or 'No way!' An exclamation of surprise. Ничё is the casual reduction of ничего."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All colloquial register features in varied formats",
+      "descriptionRussian": "Все особенности разговорной речи в разных форматах",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Ну вот, опять двадцать пять! - This colloquial expression means:",
+              "promptEnglish": "A common idiom with two particles at the start.",
+              "options": [
+                "Counting to 25",
+                "Here we go again! (frustration at repetition)",
+                "That's great news!",
+                "Let me think about it"
+              ],
+              "answer": "Here we go again! (frustration at repetition)",
+              "hint": "The speaker is annoyed that the same thing is happening yet again.",
+              "explanation": "Ну вот, опять двадцать пять! = 'Here we go again!' Expresses frustration at a recurring problem. Двадцать пять (25) is just part of the idiom."
+            },
+            {
+              "prompt": "Which is the most natural casual response to 'Пойдём в кино?'",
+              "promptEnglish": "Someone suggests going to the movies.",
+              "options": [
+                "Я согласен с вашим предложением.",
+                "Да, пойдём.",
+                "Ну давай!",
+                "Конечно, я с удовольствием приму ваше приглашение."
+              ],
+              "answer": "Ну давай!",
+              "hint": "The most casual and natural response among friends.",
+              "explanation": "Ну давай! = 'Sure, let's do it!' Very natural, casual agreement. Да, пойдём is also fine but slightly less colloquial."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Ой, забыл совсем! - What does ой express?",
+              "promptEnglish": "A very common interjection.",
+              "options": [
+                "Pain",
+                "Mild alarm or sudden realization",
+                "Happiness",
+                "Formal apology"
+              ],
+              "answer": "Mild alarm or sudden realization",
+              "hint": "Like 'Oh!' or 'Oops!' when you suddenly remember something.",
+              "explanation": "Ой = 'Oh! Oops!' Mild surprise or alarm. Ой, забыл! = 'Oh, I forgot!' It can also express mild pain (stubbing a toe) or surprise."
+            },
+            {
+              "prompt": "Ему-то хорошо, а мне? - The -то here signals:",
+              "promptEnglish": "Notice who -то is attached to and what follows.",
+              "options": [
+                "A question",
+                "Emphasis on a verb",
+                "Contrast between two people",
+                "Uncertainty"
+              ],
+              "answer": "Contrast between two people",
+              "hint": "The speaker contrasts his situation with the other person's.",
+              "explanation": "Ему-то хорошо, а мне? = 'HE's fine, but what about ME?' The -то marks ему as the contrasted element."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Сейчас приду! (in a very casual text message to a close friend)",
+          "error": "Сейчас",
+          "correction": "Щас",
+          "hint": "In a casual text to a friend, the full form sounds overly formal.",
+          "explanation": "In casual texting, щас is the natural choice. Сейчас is correct but sounds more neutral/formal.",
+          "options": [
+            "Щас",
+            "Сечас",
+            "Щяс"
+          ]
+        },
+        {
+          "sentence": "Она сказала: «Я приду позже.» (retelling the conversation very casually)",
+          "error": "сказала",
+          "correction": "такая",
+          "hint": "In casual retelling, young speakers replace speech verbs with такой/такая.",
+          "explanation": "Она такая: «Я приду позже.» Using такая to introduce speech is very colloquial storytelling style.",
+          "options": [
+            "такая",
+            "такой",
+            "говорит"
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____, ладно, я пойду. (reluctant agreement, hesitation)",
+          "contextEnglish": "Well, okay, I'll go. (giving in reluctantly)",
+          "options": [
+            "Ну",
+            "Вот"
+          ],
+          "answer": "Ну",
+          "explanation": "Ну for reluctant concession: 'Well, fine, I'll go.' The speaker is giving in after hesitation."
+        },
+        {
+          "context": "_____ так всегда бывает. (summing up a situation: 'that's how it always is')",
+          "contextEnglish": "That's how it always goes. (a resigned conclusion)",
+          "options": [
+            "Вот",
+            "Ну"
+          ],
+          "answer": "Вот",
+          "explanation": "Вот так = 'that's how.' Summing up or concluding: 'That's how it always goes.' A resigned or philosophical observation."
+        },
+        {
+          "context": "Работа-_____ есть, но скучная. (The work exists, I'll grant you that, but...)",
+          "contextEnglish": "There IS work, I admit, but it's boring.",
+          "options": [
+            "то",
+            "же"
+          ],
+          "answer": "то",
+          "explanation": "-То for concessive contrast: 'Work, there IS, but it's boring.' Conceding one point before the contrast."
+        },
+        {
+          "context": "Он _____ сам всё знает! Зачем ему помогать? (He DOES know everything himself!)",
+          "contextEnglish": "He knows it all himself! Why help him?",
+          "options": [
+            "же",
+            "то"
+          ],
+          "answer": "же",
+          "explanation": "Же for emphatic assertion: 'He DOES know it all!' Emphasizing a known fact to support the argument."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____, я опоздал, извини. (Long story short, I was late.)",
+          "Она _____: «Не хочу!» (She goes: 'I don't want to!' - casual retelling)",
+          "_____ приду, подожди! (I'll be right there! - casual reduction)",
+          "Погода-_____ ничего, но ветер сильный. (The weather IS okay, but the wind is strong.)"
+        ],
+        "choices": [
+          "Короче",
+          "такая",
+          "Щас",
+          "то"
+        ],
+        "answers": [
+          "Короче",
+          "такая",
+          "Щас",
+          "то"
+        ],
+        "grammarFocus": "Mixed colloquial features: discourse markers, speech verbs, reductions, contrast particles",
+        "hints": [
+          "The discourse marker that means 'basically' or 'in short.'",
+          "Casual storytelling verb for 'she goes / she's like.'",
+          "Reduced form of сейчас.",
+          "Contrast particle conceding a point before 'but.'"
+        ],
+        "explanations": [
+          "Короче = 'long story short, basically.' Sets up a casual summary.",
+          "Такая replaces сказала in casual retelling: 'She's like: I don't want to!'",
+          "Щас = сейчас in casual speech. Щас приду! = 'Be right there!'",
+          "-То concedes the point: 'The weather IS okay (I'll give you that), but...'"
+        ],
+        "options": [
+          [
+            "Короче",
+            "Значит",
+            "Ладно",
+            "Типа"
+          ],
+          [
+            "такая",
+            "такому",
+            "такого",
+            "такую"
+          ],
+          [
+            "Скоро",
+            "Давай",
+            "Щас",
+            "Сейчас"
+          ],
+          [
+            "же",
+            "вот",
+            "то",
+            "ну"
+          ]
+        ]
+      }
+    }
+  ]
+}

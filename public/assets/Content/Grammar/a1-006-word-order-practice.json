@@ -1,0 +1,540 @@
+{
+  "lessonId": "a1-006-word-order",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Test your understanding of Russian word order and emphasis",
+      "descriptionRussian": "Проверьте понимание порядка слов и выделения в русском языке",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which sentence uses neutral (SVO) word order?",
+              "promptEnglish": "Which sentence uses neutral (SVO) word order?",
+              "options": [
+                "Мама читает книгу.",
+                "Книгу читает мама.",
+                "Читает книгу мама.",
+                "Читает мама книгу."
+              ],
+              "answer": "Мама читает книгу.",
+              "hint": "Subject first, then verb, then object.",
+              "explanation": "SVO = Subject (Мама) + Verb (читает) + Object (книгу). This is the neutral, unmarked order."
+            },
+            {
+              "prompt": "How do you ask a yes/no question in Russian?",
+              "promptEnglish": "How do you ask a yes/no question in Russian?",
+              "options": [
+                "Use rising intonation",
+                "Add a helper word like 'do'",
+                "Always put the verb first",
+                "Add ли after every word"
+              ],
+              "answer": "Use rising intonation",
+              "hint": "No word rearrangement is needed.",
+              "explanation": "Russian forms yes/no questions with rising intonation alone: Ты студент? The word order stays the same."
+            },
+            {
+              "prompt": "In the answer to «Кто читает?», where does the new information go?",
+              "promptEnglish": "In the answer to 'Who is reading?', where does the new information go?",
+              "options": [
+                "At the beginning",
+                "At the end",
+                "Before the verb",
+                "It doesn't matter"
+              ],
+              "answer": "At the end",
+              "hint": "New or emphasized information has a special position.",
+              "explanation": "New information goes at the END: Книгу читает МАМА. (It's Mom who's reading.)"
+            },
+            {
+              "prompt": "«Музыку я люблю.» What is emphasized here?",
+              "promptEnglish": "'Music I love.' What is emphasized?",
+              "options": [
+                "я",
+                "люблю",
+                "Музыку",
+                "Nothing special"
+              ],
+              "answer": "Музыку",
+              "hint": "The word moved to the front gets emphasis.",
+              "explanation": "Moving the object (Музыку) to the front emphasizes it: It's MUSIC that I love."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Which is the neutral order?",
+          "contextEnglish": "Which sentence is in neutral SVO order?",
+          "options": [
+            "Папа пишет письмо.",
+            "Письмо пишет папа."
+          ],
+          "answer": "Папа пишет письмо.",
+          "explanation": "SVO (Subject-Verb-Object) is the neutral order. Папа (S) пишет (V) письмо (O)."
+        },
+        {
+          "context": "Which answer emphasizes WHO did it? — Кто готовит ужин?",
+          "contextEnglish": "Who is cooking dinner?",
+          "options": [
+            "Мама готовит ужин.",
+            "Ужин готовит мама."
+          ],
+          "answer": "Ужин готовит мама.",
+          "explanation": "New information (мама) goes at the end to answer 'Who?': Ужин готовит МАМА."
+        },
+        {
+          "context": "Ты говоришь по-русски? - How is this a question?",
+          "contextEnglish": "Do you speak Russian?",
+          "options": [
+            "Word order changed",
+            "Rising intonation"
+          ],
+          "answer": "Rising intonation",
+          "explanation": "The word order is the same as a statement. Only the intonation rises to make it a question."
+        },
+        {
+          "context": "Which emphasizes WHAT she reads? — Что она читает?",
+          "contextEnglish": "What does she read?",
+          "options": [
+            "Она читает газету.",
+            "Газету она читает."
+          ],
+          "answer": "Газету она читает.",
+          "explanation": "Moving газету to the front emphasizes it: It's the NEWSPAPER she reads."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in the emphasized word and sort sentences by order type",
+      "descriptionRussian": "Вставьте выделенное слово и рассортируйте предложения по типу",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "— Кто готовит ужин? — Ужин готовит _____.",
+          "— Что ты читаешь? — _____ я читаю.",
+          "— Где живёт Саша? — Саша живёт в _____.",
+          "— Кто играет на гитаре? — На гитаре играет _____."
+        ],
+        "choices": [
+          "мама",
+          "Газету",
+          "Москве",
+          "брат"
+        ],
+        "answers": [
+          "мама",
+          "Газету",
+          "Москве",
+          "брат"
+        ],
+        "grammarFocus": "new information at the end of answers",
+        "hints": [
+          "The answer to 'Who?' goes at the end.",
+          "The answer to 'What?' goes at the front for emphasis.",
+          "The answer to 'Where?' goes at the end.",
+          "The answer to 'Who?' goes at the end."
+        ],
+        "explanations": [
+          "Ужин готовит мама. The new info (мама) answers 'who?' at the end.",
+          "Газету я читаю. The object is fronted to emphasize what is being read.",
+          "Саша живёт в Москве. The location answers 'where?' at the end.",
+          "На гитаре играет брат. The new info (брат) answers 'who?' at the end."
+        ],
+        "options": [
+          [
+            "мамы",
+            "маму",
+            "мама",
+            "маме"
+          ],
+          [
+            "Газету",
+            "газеты",
+            "газета",
+            "газете"
+          ],
+          [
+            "москвы",
+            "москву",
+            "Москве",
+            "москва"
+          ],
+          [
+            "брату",
+            "брата",
+            "братом",
+            "брат"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort: neutral SVO or changed for emphasis?",
+        "categories": [
+          "Neutral SVO",
+          "Changed for Emphasis"
+        ],
+        "items": [
+          {
+            "word": "Папа читает газету",
+            "category": "Neutral SVO"
+          },
+          {
+            "word": "Газету читает папа",
+            "category": "Changed for Emphasis"
+          },
+          {
+            "word": "Брат играет в футбол",
+            "category": "Neutral SVO"
+          },
+          {
+            "word": "В футбол играет брат",
+            "category": "Changed for Emphasis"
+          },
+          {
+            "word": "Она любит кофе",
+            "category": "Neutral SVO"
+          },
+          {
+            "word": "Кофе она любит",
+            "category": "Changed for Emphasis"
+          },
+          {
+            "word": "Мы учим русский",
+            "category": "Neutral SVO"
+          },
+          {
+            "word": "Русский мы учим",
+            "category": "Changed for Emphasis"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-3-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Составь и переведи",
+      "description": "Build sentences in the right order and translate emphasis patterns",
+      "descriptionRussian": "Составьте предложения в правильном порядке и переведите",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "Dad reads a newspaper.",
+          "answer": "Папа читает газету.",
+          "acceptableVariants": [
+            "Газету читает папа."
+          ],
+          "hint": "dad = папа, reads = читает, newspaper = газету",
+          "grammarFocus": "neutral SVO",
+          "keyWord": "Папа",
+          "options": [
+            "Папа",
+            "Папу",
+            "Папе",
+            "Папы"
+          ]
+        },
+        {
+          "english": "Do you like coffee?",
+          "answer": "Ты любишь кофе?",
+          "acceptableVariants": [
+            "Вы любите кофе?"
+          ],
+          "hint": "Question by intonation, no word order change",
+          "grammarFocus": "intonation questions",
+          "keyWord": "любишь",
+          "options": [
+            "любишь",
+            "люблю",
+            "любит",
+            "любите"
+          ]
+        },
+        {
+          "english": "She speaks Russian.",
+          "answer": "Она говорит по-русски.",
+          "acceptableVariants": [
+            "По-русски говорит она."
+          ],
+          "hint": "she = она, speaks = говорит, Russian = по-русски",
+          "grammarFocus": "neutral SVO",
+          "keyWord": "Она",
+          "options": [
+            "Она",
+            "Он",
+            "Они",
+            "Оно"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "— Что любит Саша? — Саша любит _____.",
+              "promptEnglish": "What does Sasha like? Sasha likes _____.",
+              "options": [
+                "Саша",
+                "любит",
+                "музыку",
+                "что"
+              ],
+              "answer": "музыку",
+              "hint": "The answer to 'what?' is the new information.",
+              "explanation": "Музыку answers 'what does Sasha like?' and goes at the end in neutral order."
+            },
+            {
+              "prompt": "Which sentence is a question formed only by intonation?",
+              "promptEnglish": "Which is a question formed only by intonation?",
+              "options": [
+                "Кто это?",
+                "Ты студент?",
+                "Где ты живёшь?",
+                "Что это?"
+              ],
+              "answer": "Ты студент?",
+              "hint": "Which has no question word?",
+              "explanation": "Ты студент? has no question word. It's a yes/no question made by rising intonation alone."
+            },
+            {
+              "prompt": "— Кто пишет письмо? — Письмо пишет _____.",
+              "promptEnglish": "Who writes the letter? _____ writes it.",
+              "options": [
+                "письмо",
+                "пишет",
+                "брат",
+                "кто"
+              ],
+              "answer": "брат",
+              "hint": "The answer to 'who?' goes at the end.",
+              "explanation": "Брат is the new information answering 'who?' It goes at the end for emphasis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-spot-errors",
+      "title": "Find the Mistakes",
+      "titleRussian": "Найди ошибки",
+      "description": "Spot word order and emphasis mistakes",
+      "descriptionRussian": "Найдите ошибки в порядке слов и выделении",
+      "icon": "exclamationmark.triangle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "— Кто читает книгу? Which answer emphasizes WHO?",
+              "promptEnglish": "Who reads the book? Which answer emphasizes who?",
+              "options": [
+                "Мама читает книгу.",
+                "Книгу читает мама.",
+                "Читает книгу мама.",
+                "Книгу мама читает."
+              ],
+              "answer": "Книгу читает мама.",
+              "hint": "New information (who) goes at the end.",
+              "explanation": "To emphasize мама (answering 'who?'), put it at the end: Книгу читает мама."
+            },
+            {
+              "prompt": "How does Russian form yes/no questions?",
+              "promptEnglish": "How does Russian form yes/no questions?",
+              "options": [
+                "Add a word like 'do'",
+                "Always change word order",
+                "Use rising intonation",
+                "Add a question particle"
+              ],
+              "answer": "Use rising intonation",
+              "hint": "No helper words needed.",
+              "explanation": "Russian uses rising intonation alone for yes/no questions. No 'do' or word-order change."
+            },
+            {
+              "prompt": "— Что ты пьёшь? Which answer emphasizes TEA?",
+              "promptEnglish": "What are you drinking? Which emphasizes tea?",
+              "options": [
+                "Я пью чай.",
+                "Чай я пью.",
+                "Пью я чай.",
+                "Я чай пью."
+              ],
+              "answer": "Чай я пью.",
+              "hint": "Move the emphasized word to the front.",
+              "explanation": "Fronting the object emphasizes it: Чай я пью. (It's TEA I'm drinking.)"
+            },
+            {
+              "prompt": "Which word order answers «Что делает мама?» most naturally?",
+              "promptEnglish": "Which answers 'What is mom doing?' most naturally?",
+              "options": [
+                "Готовит мама ужин.",
+                "Мама готовит ужин.",
+                "Ужин мама готовит.",
+                "Мама ужин готовит."
+              ],
+              "answer": "Мама готовит ужин.",
+              "hint": "The answer to 'what is she doing?' keeps neutral order.",
+              "explanation": "The question asks about the action, so neutral SVO works: Мама готовит ужин."
+            },
+            {
+              "prompt": "«Он живёт в Москве.» Is this a statement or a question?",
+              "promptEnglish": "Is this a statement or a question?",
+              "options": [
+                "Statement",
+                "Question",
+                "Both are possible"
+              ],
+              "answer": "Both are possible",
+              "hint": "Think about intonation.",
+              "explanation": "With falling intonation it's a statement. With rising intonation (Он живёт в Москве?) it's a question. Word order stays the same."
+            },
+            {
+              "prompt": "— Кто любит музыку? — Музыку любит _____.",
+              "promptEnglish": "Who loves music? _____ loves it.",
+              "options": [
+                "музыку",
+                "любит",
+                "сестра",
+                "кто"
+              ],
+              "answer": "сестра",
+              "hint": "The answer to 'who?' goes at the end.",
+              "explanation": "Сестра answers 'who?' The new information is placed at the end for emphasis."
+            },
+            {
+              "prompt": "Which emphasizes that it's COFFEE (not tea) she drinks?",
+              "promptEnglish": "Which sentence emphasizes COFFEE?",
+              "options": [
+                "Она пьёт кофе.",
+                "Кофе она пьёт.",
+                "Она кофе пьёт.",
+                "Пьёт она кофе."
+              ],
+              "answer": "Кофе она пьёт.",
+              "hint": "Move the emphasized word to the front.",
+              "explanation": "Fronting the object emphasizes it: Кофе она пьёт. (It's COFFEE she drinks.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанная практика",
+      "description": "A fresh round mixing all word order skills",
+      "descriptionRussian": "Новый раунд по всем темам порядка слов",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which is the neutral order for 'Sister writes a letter'?",
+              "promptEnglish": "Which is the neutral SVO order?",
+              "options": [
+                "Сестра пишет письмо.",
+                "Письмо сестра пишет.",
+                "Пишет сестра письмо.",
+                "Письмо пишет сестра."
+              ],
+              "answer": "Сестра пишет письмо.",
+              "hint": "Subject first, verb second, object third.",
+              "explanation": "Neutral SVO: Сестра (S) пишет (V) письмо (O)."
+            },
+            {
+              "prompt": "«Ты любишь кофе?» How is this question formed?",
+              "promptEnglish": "How is this question formed?",
+              "options": [
+                "By rising intonation",
+                "With a question word",
+                "By changing word order",
+                "By adding 'do'"
+              ],
+              "answer": "By rising intonation",
+              "hint": "No question word, no word order change.",
+              "explanation": "This is a yes/no question formed by intonation alone. The word order is identical to a statement."
+            },
+            {
+              "prompt": "— Кто варит суп? — Суп варит _____.",
+              "promptEnglish": "Who is making soup? _____ is making it.",
+              "options": [
+                "суп",
+                "варит",
+                "бабушка",
+                "кто"
+              ],
+              "answer": "бабушка",
+              "hint": "New information answering 'who?' goes at the end.",
+              "explanation": "Бабушка answers 'who?' and is placed at the end: Суп варит бабушка."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort: neutral SVO or changed for emphasis?",
+        "categories": [
+          "Neutral SVO",
+          "Changed for Emphasis"
+        ],
+        "items": [
+          {
+            "word": "Сестра любит кошек",
+            "category": "Neutral SVO"
+          },
+          {
+            "word": "Кошек любит сестра",
+            "category": "Changed for Emphasis"
+          },
+          {
+            "word": "Мы учим русский",
+            "category": "Neutral SVO"
+          },
+          {
+            "word": "Торт печёт мама",
+            "category": "Changed for Emphasis"
+          },
+          {
+            "word": "Он играет на гитаре",
+            "category": "Neutral SVO"
+          },
+          {
+            "word": "На гитаре играет он",
+            "category": "Changed for Emphasis"
+          }
+        ]
+      },
+      "patternRecognition": [
+        {
+          "prompt": "What do «Книгу читает мама», «Суп готовит папа», and «Письмо пишет брат» have in common?",
+          "options": [
+            "They are all neutral SVO",
+            "The object is first and the subject is last for emphasis",
+            "They are all questions"
+          ],
+          "answer": "The object is first and the subject is last for emphasis",
+          "explanation": "All three move the object to the front and place the subject (new info) at the end for emphasis."
+        },
+        {
+          "prompt": "What do «Ты студент?», «Он работает?», and «Она говорит по-русски?» have in common?",
+          "options": [
+            "They use question words",
+            "They change word order to form questions",
+            "They are yes/no questions formed by intonation"
+          ],
+          "answer": "They are yes/no questions formed by intonation",
+          "explanation": "None of these have question words. They are all yes/no questions made by raising the intonation."
+        }
+      ]
+    }
+  ]
+}

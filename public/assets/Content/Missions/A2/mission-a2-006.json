@@ -1,0 +1,47 @@
+{
+  "id": "mission-a2-006",
+  "title": "Lost Item",
+  "level": "A2",
+  "description": "Report a lost item to hotel reception",
+  "imageName": "questionmark.folder.fill",
+  "initialPrompt": "Добрый день! Ресепшн отеля. Чем могу помочь?",
+  "systemPrompt": "You are hotel reception helping with a lost item. Ask: what they lost, where, room number. Say you'll check. Keep replies short.",
+  "completionCriteria": "User described lost item and location, gave room number.",
+  "responseLimit": 15,
+  "hints": [
+    "Я потерял/потеряла... (I lost...)",
+    "Это было в ресторане (It was in the restaurant)",
+    "Мой номер комнаты... (My room number is...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "потерять",
+      "definition": "to lose"
+    },
+    {
+      "word": "найти",
+      "definition": "to find"
+    },
+    {
+      "word": "вещь",
+      "definition": "thing/item"
+    },
+    {
+      "word": "сумка",
+      "definition": "bag"
+    },
+    {
+      "word": "кошелёк",
+      "definition": "wallet"
+    },
+    {
+      "word": "комната",
+      "definition": "room"
+    }
+  ],
+  "objectives": [
+    "Describe what you lost (Я потерял...)",
+    "Say where you last had it",
+    "Provide your room number (номер комнаты)"
+  ]
+}

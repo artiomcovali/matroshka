@@ -1,0 +1,506 @@
+{
+  "lessonId": "a1-014-possessive-pronouns",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Choose the right possessive pronoun",
+      "descriptionRussian": "Выберите правильное притяжательное местоимение",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Это _____ дом. (our, masculine)",
+              "promptEnglish": "This is our house.",
+              "options": [
+                "наша",
+                "наше",
+                "наш",
+                "наши"
+              ],
+              "answer": "наш",
+              "hint": "Дом is masculine.",
+              "explanation": "Дом is masculine, so use наш: наш дом."
+            },
+            {
+              "prompt": "Это _____ машина. (your, formal, feminine)",
+              "promptEnglish": "This is your car. (formal)",
+              "options": [
+                "ваши",
+                "ваш",
+                "ваша",
+                "ваше"
+              ],
+              "answer": "ваша",
+              "hint": "Машина is feminine.",
+              "explanation": "Машина is feminine, so use ваша: ваша машина."
+            },
+            {
+              "prompt": "Это _____ кошка. (his)",
+              "promptEnglish": "This is his cat.",
+              "options": [
+                "его",
+                "её",
+                "их",
+                "мой"
+              ],
+              "answer": "его",
+              "hint": "His never changes form.",
+              "explanation": "Его (his) never changes, regardless of the noun's gender."
+            },
+            {
+              "prompt": "Где _____ ключи? (my, plural)",
+              "promptEnglish": "Where are my keys?",
+              "options": [
+                "мой",
+                "моя",
+                "моё",
+                "мои"
+              ],
+              "answer": "мои",
+              "hint": "Ключи is plural.",
+              "explanation": "Ключи is plural, so use мои: мои ключи."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Это _____ телефон. (my, masculine)",
+          "contextEnglish": "This is my phone.",
+          "options": [
+            "мой",
+            "моя"
+          ],
+          "answer": "мой",
+          "explanation": "Телефон is masculine, so use мой."
+        },
+        {
+          "context": "Это _____ комната. (my, feminine)",
+          "contextEnglish": "This is my room.",
+          "options": [
+            "мой",
+            "моя"
+          ],
+          "answer": "моя",
+          "explanation": "Комната is feminine, so use моя."
+        },
+        {
+          "context": "Это _____ собака. (their)",
+          "contextEnglish": "This is their dog.",
+          "options": [
+            "его",
+            "их"
+          ],
+          "answer": "их",
+          "explanation": "Их means 'their.' It never changes form."
+        },
+        {
+          "context": "Это _____ дочь. (her)",
+          "contextEnglish": "This is her daughter.",
+          "options": [
+            "его",
+            "её"
+          ],
+          "answer": "её",
+          "explanation": "Её means 'her.' It never changes form."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in possessives and sort by type",
+      "descriptionRussian": "Вставьте притяжательные местоимения и рассортируйте",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Это _____ сумка. (your, informal, feminine)",
+          "Где _____ паспорт? (our, masculine)",
+          "Это _____ дети. (his)",
+          "_____ школа большая. (our, feminine)"
+        ],
+        "choices": [
+          "твоя",
+          "наш",
+          "его",
+          "наша",
+          "ваш",
+          "их"
+        ],
+        "answers": [
+          "твоя",
+          "наш",
+          "его",
+          "наша"
+        ],
+        "grammarFocus": "possessive pronoun agreement",
+        "hints": [
+          "Сумка is feminine. Informal 'your.'",
+          "Паспорт is masculine. 'Our.'",
+          "His never changes.",
+          "Школа is feminine. 'Our.'"
+        ],
+        "explanations": [
+          "Сумка is feminine, informal 'your' = твоя.",
+          "Паспорт is masculine, 'our' = наш.",
+          "Его (his) never changes form: его дети.",
+          "Школа is feminine, 'our' = наша."
+        ],
+        "options": [
+          [
+            "твоего",
+            "твоей",
+            "твоя",
+            "твою"
+          ],
+          [
+            "нашему",
+            "нашего",
+            "наш",
+            "нашим"
+          ],
+          [
+            "ему",
+            "он",
+            "него",
+            "его"
+          ],
+          [
+            "нашего",
+            "наша",
+            "нашу",
+            "нашей"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort: changes for gender or always the same?",
+        "categories": [
+          "Changes (agrees with noun)",
+          "Never changes"
+        ],
+        "items": [
+          {
+            "word": "мой/моя/моё",
+            "category": "Changes (agrees with noun)"
+          },
+          {
+            "word": "его",
+            "category": "Never changes"
+          },
+          {
+            "word": "твой/твоя/твоё",
+            "category": "Changes (agrees with noun)"
+          },
+          {
+            "word": "её",
+            "category": "Never changes"
+          },
+          {
+            "word": "наш/наша/наше",
+            "category": "Changes (agrees with noun)"
+          },
+          {
+            "word": "их",
+            "category": "Never changes"
+          },
+          {
+            "word": "ваш/ваша/ваше",
+            "category": "Changes (agrees with noun)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "This is my new book.",
+          "answer": "Это моя новая книга.",
+          "acceptableVariants": [],
+          "hint": "my (feminine) = моя, new (feminine) = новая",
+          "grammarFocus": "possessive + adjective agreement",
+          "keyWord": "моя",
+          "options": [
+            "моя",
+            "мой",
+            "моё",
+            "мои"
+          ]
+        },
+        {
+          "english": "Where is his phone?",
+          "answer": "Где его телефон?",
+          "acceptableVariants": [],
+          "hint": "his = его (never changes)",
+          "grammarFocus": "unchanging possessives",
+          "keyWord": "его",
+          "options": [
+            "его",
+            "её",
+            "их",
+            "мой"
+          ]
+        },
+        {
+          "english": "Our children are at school.",
+          "answer": "Наши дети в школе.",
+          "acceptableVariants": [],
+          "hint": "our (plural) = наши",
+          "grammarFocus": "plural possessive agreement",
+          "keyWord": "наши",
+          "options": [
+            "наши",
+            "наш",
+            "наша",
+            "наше"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Error",
+      "titleRussian": "Найди ошибку",
+      "description": "Fix possessive pronoun gender mistakes",
+      "descriptionRussian": "Исправьте ошибки в согласовании притяжательных местоимений",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Это мой сестра.",
+          "error": "мой",
+          "correction": "моя",
+          "hint": "Сестра is feminine.",
+          "explanation": "Сестра is feminine, so use моя: моя сестра.",
+          "options": [
+            "моя",
+            "моё",
+            "мои"
+          ]
+        },
+        {
+          "sentence": "Где наше машина?",
+          "error": "наше",
+          "correction": "наша",
+          "hint": "Машина is feminine.",
+          "explanation": "Машина is feminine, so use наша: наша машина.",
+          "options": [
+            "наша",
+            "наш",
+            "наши"
+          ]
+        },
+        {
+          "sentence": "Это твой письмо.",
+          "error": "твой",
+          "correction": "твоё",
+          "hint": "Письмо is neuter.",
+          "explanation": "Письмо is neuter, so use твоё: твоё письмо.",
+          "options": [
+            "твоё",
+            "твоя",
+            "твои"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Это _____ место. (your, formal, neuter)",
+              "promptEnglish": "This is your seat. (formal)",
+              "options": [
+                "ваше",
+                "ваш",
+                "ваша",
+                "ваши"
+              ],
+              "answer": "ваше",
+              "hint": "Место is neuter.",
+              "explanation": "Место is neuter, so use ваше: ваше место."
+            },
+            {
+              "prompt": "Это _____ друзья. (our, plural)",
+              "promptEnglish": "These are our friends.",
+              "options": [
+                "наш",
+                "наша",
+                "наши",
+                "наше"
+              ],
+              "answer": "наши",
+              "hint": "Друзья is plural.",
+              "explanation": "Друзья is plural, so use наши: наши друзья."
+            },
+            {
+              "prompt": "Это _____ учитель. (their)",
+              "promptEnglish": "This is their teacher.",
+              "options": [
+                "наш",
+                "его",
+                "их",
+                "её"
+              ],
+              "answer": "их",
+              "hint": "Their is always the same form.",
+              "explanation": "Их (their) never changes form: их учитель."
+            },
+            {
+              "prompt": "_____ утро начинается рано. (my, neuter)",
+              "promptEnglish": "My morning starts early.",
+              "options": [
+                "моя",
+                "мой",
+                "мои",
+                "моё"
+              ],
+              "answer": "моё",
+              "hint": "Утро is neuter.",
+              "explanation": "Утро is neuter, so use моё: моё утро."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All possessive pronoun topics in one round",
+      "descriptionRussian": "Все темы притяжательных местоимений в одном раунде",
+      "icon": "shuffle",
+      "patternRecognition": [
+        {
+          "sentence": "мой дом, моя книга, моё окно, мои друзья",
+          "question": "Why does мой change form?",
+          "options": [
+            "It agrees with the verb",
+            "It agrees with the noun's gender and number",
+            "It changes randomly",
+            "It depends on the sentence length"
+          ],
+          "answer": "It agrees with the noun's gender and number",
+          "explanation": "Мой/моя/моё/мои agrees with the gender and number of the noun it describes."
+        },
+        {
+          "sentence": "его дом, его книга, его окно, его друзья",
+          "question": "Why does его stay the same in all four phrases?",
+          "options": [
+            "It's a special exception",
+            "Third-person possessives (его, её, их) never change",
+            "Masculine possessives don't change",
+            "It only changes in questions"
+          ],
+          "answer": "Third-person possessives (его, её, их) never change",
+          "explanation": "Его, её, and их never change form. They stay the same with all nouns."
+        },
+        {
+          "sentence": "наш, ваш, мой, твой",
+          "question": "What do these possessives have in common?",
+          "options": [
+            "They never change",
+            "They all mean 'my'",
+            "They all change to agree with the noun",
+            "They are all third-person"
+          ],
+          "answer": "They all change to agree with the noun",
+          "explanation": "Мой, твой, наш, and ваш all change form (m/f/n/pl) to match the noun."
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Это _____ кресло. (our, neuter)",
+          "contextEnglish": "This is our armchair.",
+          "options": [
+            "наш",
+            "наше"
+          ],
+          "answer": "наше",
+          "explanation": "Кресло is neuter, so use наше: наше кресло."
+        },
+        {
+          "context": "Это _____ работа. (your, informal, feminine)",
+          "contextEnglish": "This is your job.",
+          "options": [
+            "твой",
+            "твоя"
+          ],
+          "answer": "твоя",
+          "explanation": "Работа is feminine, so use твоя: твоя работа."
+        },
+        {
+          "context": "Это _____ квартира. (his)",
+          "contextEnglish": "This is his apartment.",
+          "options": [
+            "его",
+            "её"
+          ],
+          "answer": "его",
+          "explanation": "Его means 'his.' Even though квартира is feminine, его never changes."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ город очень красивый. (our, masculine)",
+          "Я люблю _____ маму. (my, feminine, accusative)",
+          "Где _____ ключи? (your, formal, plural)",
+          "Это _____ дом? (their)"
+        ],
+        "choices": [
+          "наш",
+          "мою",
+          "ваши",
+          "их"
+        ],
+        "answers": [
+          "наш",
+          "мою",
+          "ваши",
+          "их"
+        ],
+        "grammarFocus": "possessives in various sentence positions",
+        "hints": [
+          "Город is masculine. 'Our.'",
+          "After люблю, feminine possessive takes accusative.",
+          "Ключи is plural. Formal 'your.'",
+          "Their never changes."
+        ],
+        "explanations": [
+          "Город is masculine, 'our' = наш.",
+          "Мою is the accusative form of моя: люблю мою маму.",
+          "Ключи is plural, formal 'your' = ваши.",
+          "Их (their) never changes: их дом."
+        ],
+        "options": [
+          [
+            "нашего",
+            "наш",
+            "нашим",
+            "нашему"
+          ],
+          [
+            "моей",
+            "мою",
+            "мой",
+            "моя"
+          ],
+          [
+            "вашего",
+            "ваших",
+            "вашими",
+            "ваши"
+          ],
+          [
+            "они",
+            "них",
+            "их",
+            "им"
+          ]
+        ]
+      }
+    }
+  ]
+}

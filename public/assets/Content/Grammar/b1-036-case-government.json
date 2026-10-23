@@ -1,0 +1,286 @@
+{
+  "id": "b1-036-case-government",
+  "level": "B1",
+  "focusArea": "cases",
+  "title": "Verb Case Government",
+  "titleRussian": "Управление глаголов",
+  "description": "Verbs requiring specific cases",
+  "descriptionRussian": "Глаголы с определённым падежным управлением",
+  "imageName": "arrow.right.doc.on.clipboard",
+  "intro": "Russian verbs 'govern' specific cases for their objects. While most transitive verbs take accusative, many require other cases. GENITIVE: бояться (fear), избегать (avoid), достигать (achieve). DATIVE: помогать (help), мешать (hinder), звонить (call). INSTRUMENTAL: заниматься (be occupied with), интересоваться (be interested in), пользоваться (use). Learning verb government is essential for correct Russian.",
+  "rules": [
+    "Genitive verbs: бояться, избегать, достигать, касаться (кого/чего — whom/what gen)",
+    "Dative verbs: помогать, мешать, звонить, верить, советовать (кому — to whom)",
+    "Instrumental verbs: заниматься, интересоваться, пользоваться, владеть (чем — with what)",
+    "Some verbs take two objects in different cases: дать книгу (acc) другу (dat)"
+  ],
+  "examples": [
+    "Я боюсь собак. (I'm afraid of dogs.), genitive",
+    "Она помогает брату. (She helps her brother.), dative",
+    "Он интересуется музыкой. (He's interested in music.), instrumental",
+    "Мама дала книгу сыну. (Mom gave a book to her son.), acc + dat"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я боюсь _____. (I'm afraid of spiders.)",
+          "promptEnglish": "I'm afraid of spiders.",
+          "options": [
+            "паукам",
+            "пауками",
+            "пауки",
+            "пауков"
+          ],
+          "answer": "пауков",
+          "hint": "Бояться + genitive",
+          "explanation": "Бояться governs genitive: пауков."
+        },
+        {
+          "prompt": "Она помогает _____. (She helps her mother.)",
+          "promptEnglish": "She helps her mother.",
+          "options": [
+            "мамы",
+            "маму",
+            "маме",
+            "мамой"
+          ],
+          "answer": "маме",
+          "hint": "Помогать + dative",
+          "explanation": "Помогать governs dative: маме."
+        },
+        {
+          "prompt": "Он интересуется _____. (He's interested in history.)",
+          "promptEnglish": "He's interested in history.",
+          "options": [
+            "история",
+            "историей",
+            "истории",
+            "историю"
+          ],
+          "answer": "историей",
+          "hint": "Интересоваться + instrumental",
+          "explanation": "Интересоваться governs instrumental: историей."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я звоню _____. (I'm calling my friend.)",
+          "promptEnglish": "I'm calling my friend.",
+          "options": [
+            "другом",
+            "друга",
+            "друг",
+            "другу"
+          ],
+          "answer": "другу",
+          "hint": "Звонить + dative",
+          "explanation": "Звонить governs dative: другу."
+        },
+        {
+          "prompt": "Мы пользуемся _____. (We use the internet.)",
+          "promptEnglish": "We use the internet.",
+          "options": [
+            "интернета",
+            "интернету",
+            "интернет",
+            "интернетом"
+          ],
+          "answer": "интернетом",
+          "hint": "Пользоваться + instrumental",
+          "explanation": "Пользоваться governs instrumental: интернетом."
+        },
+        {
+          "prompt": "Она избегает _____. (She avoids conflicts.)",
+          "promptEnglish": "She avoids conflicts.",
+          "options": [
+            "конфликтами",
+            "конфликтов",
+            "конфликтам",
+            "конфликты"
+          ],
+          "answer": "конфликтов",
+          "hint": "Избегать + genitive",
+          "explanation": "Избегать governs genitive: конфликтов."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Он занимается _____. (He does sports.)",
+          "promptEnglish": "He does sports.",
+          "options": [
+            "спорту",
+            "спортом",
+            "спорта",
+            "спорт"
+          ],
+          "answer": "спортом",
+          "hint": "Заниматься + instrumental",
+          "explanation": "Заниматься governs instrumental: спортом."
+        },
+        {
+          "prompt": "Я верю _____. (I believe you.)",
+          "promptEnglish": "I believe you.",
+          "options": [
+            "тебя",
+            "ты",
+            "тобой",
+            "тебе"
+          ],
+          "answer": "тебе",
+          "hint": "Верить + dative",
+          "explanation": "Верить governs dative: тебе."
+        },
+        {
+          "prompt": "Мы достигли _____. (We achieved success.)",
+          "promptEnglish": "We achieved success.",
+          "options": [
+            "успеху",
+            "успех",
+            "успеха",
+            "успехом"
+          ],
+          "answer": "успеха",
+          "hint": "Достигать/достичь + genitive",
+          "explanation": "Достигать governs genitive: успеха."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Студенты слушают _____. (The students are listening to the professor.)",
+      "Он боится _____. (He is afraid of the dark.)",
+      "Она интересуется _____. (She is interested in art.)"
+    ],
+    "choices": [
+      "профессора",
+      "темноты",
+      "искусством",
+      "профессору",
+      "профессором",
+      "темноту"
+    ],
+    "answers": [
+      "профессора",
+      "темноты",
+      "искусством"
+    ],
+    "grammarFocus": "Verb case government: accusative, genitive, instrumental",
+    "hints": [
+      "Слушать governs accusative. For animate masculine nouns, accusative = genitive form.",
+      "Бояться governs genitive case. What is the genitive of темнота?",
+      "Интересоваться governs instrumental case. What is the instrumental of искусство?"
+    ],
+    "explanations": [
+      "Слушать + accusative: профессора (animate masculine acc = gen form).",
+      "Бояться + genitive: темноты (genitive of темнота).",
+      "Интересоваться + instrumental: искусством (instrumental of искусство)."
+    ],
+    "options": [
+      [
+        "профессору",
+        "профессором",
+        "профессора",
+        "профессор"
+      ],
+      [
+        "темноту",
+        "темноты",
+        "темнота",
+        "темноте"
+      ],
+      [
+        "искусство",
+        "искусством",
+        "искусства",
+        "искусству"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я люблю _____. (I love mom - accusative)",
+      "contextEnglish": "I love mom.",
+      "options": [
+        "маму",
+        "маме"
+      ],
+      "answer": "маму",
+      "explanation": "Любить + accusative: маму."
+    },
+    {
+      "context": "Я помогаю _____. (I help mom - dative)",
+      "contextEnglish": "I help mom.",
+      "options": [
+        "маме",
+        "маму"
+      ],
+      "answer": "маме",
+      "explanation": "Помогать + dative: маме."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort verbs by case they govern",
+    "categories": [
+      "+ Genitive",
+      "+ Dative",
+      "+ Instrumental"
+    ],
+    "items": [
+      {
+        "word": "бояться (fear)",
+        "category": "+ Genitive"
+      },
+      {
+        "word": "помогать (help)",
+        "category": "+ Dative"
+      },
+      {
+        "word": "интересоваться (be interested)",
+        "category": "+ Instrumental"
+      },
+      {
+        "word": "избегать (avoid)",
+        "category": "+ Genitive"
+      },
+      {
+        "word": "звонить (call)",
+        "category": "+ Dative"
+      },
+      {
+        "word": "заниматься (do/practice)",
+        "category": "+ Instrumental"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "genitive verbs",
+      "definition": "бояться, избегать, достигать",
+      "example": "Боюсь собак."
+    },
+    {
+      "term": "dative verbs",
+      "definition": "помогать, звонить, верить",
+      "example": "Помогаю другу."
+    },
+    {
+      "term": "instrumental verbs",
+      "definition": "заниматься, интересоваться, пользоваться",
+      "example": "Занимаюсь спортом."
+    },
+    {
+      "term": "two-object verbs",
+      "definition": "дать, показать, объяснить",
+      "example": "Дал книгу (acc) брату (dat)."
+    }
+  ]
+}

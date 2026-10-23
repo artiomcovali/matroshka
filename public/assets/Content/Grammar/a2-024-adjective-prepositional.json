@@ -1,0 +1,358 @@
+{
+  "id": "a2-024-adjective-prepositional",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Adjectives (Prepositional Case)",
+  "titleRussian": "Прилагательные (предл. падеж)",
+  "description": "Adjective endings in the prepositional case",
+  "descriptionRussian": "Окончания прилагательных в предложном падеже",
+  "imageName": "map",
+  "intro": "The prepositional case is used after в/на (location), о/об (about), and при (in the presence of). Adjective endings in prepositional are straightforward: masculine and neuter take -ом/-ем, feminine takes -ой/-ей (same as genitive/dative/instrumental!), and plural takes -ых/-их. Notice that masculine/neuter prepositional (-ом) differs from dative (-ому) by just one letter!",
+  "rules": [
+    "The prepositional case is triggered by в/на (location), о/об (about), and при — it NEVER appears without a preposition.",
+    "Masculine/neuter prepositional -ом looks very similar to dative -ому — the missing -у is the key difference.",
+    "Feminine prepositional (-ой/-ей) is identical to genitive, dative, and instrumental — context determines the case.",
+    "Plural prepositional (-ых/-их) is identical to genitive plural — again, prepositions and context clarify which case is meant."
+  ],
+  "examples": [
+    "Я живу в большом городе. (I live in a big city.), masc",
+    "Мы говорим о русской литературе. (We are talking about Russian literature.), fem",
+    "Дети играют в новом парке. (The children play in the new park.), masc",
+    "Она думает о старых друзьях. (She thinks about old friends.), plural"
+  ],
+  "tables": [
+    {
+      "title": "Adjective Endings - Prepositional",
+      "headers": [
+        "",
+        "Masculine/Neuter",
+        "Feminine",
+        "Plural"
+      ],
+      "rows": [
+        {
+          "label": "Hard stem",
+          "cells": [
+            "нов|ом",
+            "нов|ой",
+            "нов|ых"
+          ]
+        },
+        {
+          "label": "Soft stem",
+          "cells": [
+            "син|ем",
+            "син|ей",
+            "син|их"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я живу в _____ доме. (I live in a new house.)",
+          "promptEnglish": "I live in a new house.",
+          "options": [
+            "новому",
+            "новый",
+            "новом",
+            "нового"
+          ],
+          "answer": "новом",
+          "hint": "Дом = masculine, в + prepositional = -ом",
+          "explanation": "Masculine prepositional: новый → новом."
+        },
+        {
+          "prompt": "Мы говорим о _____ книге. (We are talking about an interesting book.)",
+          "promptEnglish": "We are talking about an interesting book.",
+          "options": [
+            "интересным",
+            "интересной",
+            "интересную",
+            "интересная"
+          ],
+          "answer": "интересной",
+          "hint": "Книга = feminine, о + prepositional = -ой",
+          "explanation": "Feminine prepositional: интересная → интересной."
+        },
+        {
+          "prompt": "Студенты учатся в _____ университете. (The students study at a famous university.)",
+          "promptEnglish": "The students study at a famous university.",
+          "options": [
+            "известный",
+            "известного",
+            "известном",
+            "известному"
+          ],
+          "answer": "известном",
+          "hint": "Университет = masculine, в + prepositional = -ом",
+          "explanation": "Masculine prepositional: известный → известном."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Она работает в _____ здании. (She works in a large building.)",
+          "promptEnglish": "She works in a large building.",
+          "options": [
+            "большого",
+            "большому",
+            "большом",
+            "большое"
+          ],
+          "answer": "большом",
+          "hint": "Здание = neuter, в + prepositional = -ом",
+          "explanation": "Neuter prepositional: большое → большом."
+        },
+        {
+          "prompt": "Мы думаем о _____ проблемах. (We are thinking about difficult problems.)",
+          "promptEnglish": "We are thinking about difficult problems.",
+          "options": [
+            "сложным",
+            "сложные",
+            "сложной",
+            "сложных"
+          ],
+          "answer": "сложных",
+          "hint": "Проблемах = plural prepositional, adjective = -ых",
+          "explanation": "Plural prepositional: сложные → сложных."
+        },
+        {
+          "prompt": "Он живёт в _____ квартире. (He lives in a small apartment.)",
+          "promptEnglish": "He lives in a small apartment.",
+          "options": [
+            "маленькая",
+            "маленькую",
+            "маленькой",
+            "маленьким"
+          ],
+          "answer": "маленькой",
+          "hint": "Квартира = feminine, в + prepositional = -ой",
+          "explanation": "Feminine prepositional: маленькая → маленькой."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Дети играют на _____ площадке. (The children play on the new playground.)",
+          "promptEnglish": "The children play on the new playground.",
+          "options": [
+            "новая",
+            "новым",
+            "новой",
+            "новую"
+          ],
+          "answer": "новой",
+          "hint": "Площадка = feminine, на + prepositional = -ой",
+          "explanation": "Feminine prepositional: новая → новой."
+        },
+        {
+          "prompt": "Я читал о _____ писателе. (I read about the famous writer.)",
+          "promptEnglish": "I read about the famous writer.",
+          "options": [
+            "известный",
+            "известному",
+            "известного",
+            "известном"
+          ],
+          "answer": "известном",
+          "hint": "Писатель = masculine, о + prepositional = -ом",
+          "explanation": "Masculine prepositional: известный → известном."
+        },
+        {
+          "prompt": "Мы встретились в _____ кафе. (We met in a cozy café.)",
+          "promptEnglish": "We met in a cozy café.",
+          "options": [
+            "уютного",
+            "уютное",
+            "уютном",
+            "уютному"
+          ],
+          "answer": "уютном",
+          "hint": "Кафе = neuter (indeclinable), в + prepositional",
+          "explanation": "Neuter prepositional: уютное → уютном."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Фильм о _____ жизни. (A film about Russian life.)",
+      "Я живу в _____ доме. (I live in a new house.)",
+      "Она думает о _____ друзьях. (She thinks about old friends.)",
+      "Дети играют в _____ парке. (The children play in a big park.)",
+      "Мы говорим о _____ книге. (We are talking about an interesting book.)"
+    ],
+    "choices": [
+      "русской",
+      "новом",
+      "старых",
+      "большом",
+      "интересной",
+      "русскую",
+      "новому"
+    ],
+    "answers": [
+      "русской",
+      "новом",
+      "старых",
+      "большом",
+      "интересной"
+    ],
+    "grammarFocus": "Prepositional adjective endings: masc/neut -ом, fem -ой, pl -ых",
+    "hints": [
+      "О (about) requires prepositional case. Жизнь is feminine. Feminine prepositional ending: -ой or -ом?",
+      "В (in) requires prepositional for location. Дом is masculine. Masculine prepositional ending: -ом or -ому?",
+      "О (about) requires prepositional. Друзья is plural. Plural prepositional ending: -ых or -ыми?",
+      "В (in) requires prepositional for location. Парк is masculine. Masculine prepositional ending?",
+      "О (about) requires prepositional. Книга is feminine. Feminine prepositional ending?"
+    ],
+    "explanations": [
+      "О requires prepositional. Feminine: русская → русской (ending -ой).",
+      "В requires prepositional for location. Masculine: новый → новом (ending -ом).",
+      "О requires prepositional. Plural: старые → старых (ending -ых).",
+      "В requires prepositional. Masculine: большой → большом (ending -ом).",
+      "О requires prepositional. Feminine: интересная → интересной (ending -ой)."
+    ],
+    "options": [
+      [
+        "русский",
+        "русская",
+        "русской",
+        "русскую"
+      ],
+      [
+        "нового",
+        "новом",
+        "новому",
+        "новый"
+      ],
+      [
+        "старые",
+        "старый",
+        "старых",
+        "старыми"
+      ],
+      [
+        "большом",
+        "большой",
+        "большому",
+        "большого"
+      ],
+      [
+        "интересный",
+        "интересной",
+        "интересная",
+        "интересную"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я дал книгу _____ студенту. (I gave the book to the new student.) - dative",
+      "contextEnglish": "I gave the book to the new student.",
+      "options": [
+        "новому",
+        "новом"
+      ],
+      "answer": "новому",
+      "explanation": "Dative masculine: новому (-ому)."
+    },
+    {
+      "context": "Я читал о _____ студенте. (I read about the new student.) - prepositional",
+      "contextEnglish": "I read about the new student.",
+      "options": [
+        "новом",
+        "новому"
+      ],
+      "answer": "новом",
+      "explanation": "Prepositional masculine: новом (-ом)."
+    }
+  ],
+  "declensionTable": {
+    "word": "новый",
+    "wordType": "adjective",
+    "gender": "masculine",
+    "paradigm": {
+      "nominative": "новый",
+      "genitive": "нового",
+      "dative": "новому",
+      "accusative": "нового",
+      "instrumental": "новым",
+      "prepositional": "новом"
+    },
+    "blanks": [
+      "prepositional"
+    ],
+    "hints": [
+      "Masc prepositional: -ый → -ом"
+    ],
+    "explanations": [
+      "Masculine adjective prepositional: -ый → -ом: новый → новом"
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort prepositional adjectives by gender",
+    "categories": [
+      "Masculine/Neuter (-ом/-ем)",
+      "Feminine (-ой/-ей)",
+      "Plural (-ых/-их)"
+    ],
+    "items": [
+      {
+        "word": "в новом доме",
+        "category": "Masculine/Neuter (-ом/-ем)"
+      },
+      {
+        "word": "о русской культуре",
+        "category": "Feminine (-ой/-ей)"
+      },
+      {
+        "word": "о старых друзьях",
+        "category": "Plural (-ых/-их)"
+      },
+      {
+        "word": "в большом городе",
+        "category": "Masculine/Neuter (-ом/-ем)"
+      },
+      {
+        "word": "в маленькой квартире",
+        "category": "Feminine (-ой/-ей)"
+      },
+      {
+        "word": "о хороших книгах",
+        "category": "Plural (-ых/-их)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "-ом / -ем (м/ср)",
+      "definition": "masc/neuter prepositional ending",
+      "example": "В новом, в синем, в хорошем."
+    },
+    {
+      "term": "-ой / -ей (ж)",
+      "definition": "feminine prepositional ending",
+      "example": "О новой, о синей, о хорошей."
+    },
+    {
+      "term": "-ых / -их (мн)",
+      "definition": "plural prepositional ending",
+      "example": "О новых, о синих, о хороших."
+    },
+    {
+      "term": "в/на/о + предл.",
+      "definition": "in/on/about + prepositional",
+      "example": "В большом городе, о русской музыке."
+    }
+  ]
+}

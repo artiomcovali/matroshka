@@ -1,0 +1,553 @@
+{
+  "lessonId": "b2-009-indirect-speech-advanced",
+  "sets": [
+    {
+      "id": "round-1-pronoun-shift-quiz",
+      "title": "Pronoun Shifts",
+      "titleRussian": "Сдвиг местоимений",
+      "description": "Transform direct speech pronouns into indirect speech",
+      "descriptionRussian": "Замените местоимения прямой речи на косвенную",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Он сказал: \"Я приду завтра.\" → Он сказал, что _____ придёт завтра.",
+              "promptEnglish": "He said: 'I will come tomorrow.' → He said that ___ would come tomorrow.",
+              "options": [
+                "я",
+                "он",
+                "ты",
+                "мы"
+              ],
+              "answer": "он",
+              "hint": "я in direct speech becomes он/она in indirect.",
+              "explanation": "Pronoun shift: я → он. He said that HE would come."
+            },
+            {
+              "prompt": "Она сказала мне: \"Ты должен позвонить.\" → Она сказала, что _____ должен позвонить.",
+              "promptEnglish": "She told me: 'You must call.' → She said that ___ must call.",
+              "options": [
+                "ты",
+                "он",
+                "я",
+                "она"
+              ],
+              "answer": "я",
+              "hint": "ты (addressed to me) becomes я in indirect.",
+              "explanation": "Pronoun shift: ты → я (the reporter). She said that I must call."
+            },
+            {
+              "prompt": "Они сказали: \"Мы уезжаем.\" → Они сказали, что _____ уезжают.",
+              "promptEnglish": "They said: 'We are leaving.' → They said that ___ are leaving.",
+              "options": [
+                "мы",
+                "я",
+                "они",
+                "вы"
+              ],
+              "answer": "они",
+              "hint": "мы in direct speech becomes они in indirect.",
+              "explanation": "Pronoun shift: мы → они. They said that THEY are leaving."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она сказала: \"Мой брат здесь.\" → Она сказала, что _____ брат там.",
+              "promptEnglish": "She said: 'My brother is here.' → She said that ___ brother was there.",
+              "options": [
+                "её",
+                "его",
+                "мой",
+                "их"
+              ],
+              "answer": "её",
+              "hint": "мой (her speaking) → её in indirect.",
+              "explanation": "Possessive shift: мой → её. She said that HER brother was there."
+            },
+            {
+              "prompt": "Он сказал: \"Я живу здесь.\" → Он сказал, что он живёт _____.",
+              "promptEnglish": "He said: 'I live here.' → He said that he lives ___.",
+              "options": [
+                "здесь",
+                "тут",
+                "там",
+                "тогда"
+              ],
+              "answer": "там",
+              "hint": "здесь in direct → там in indirect speech.",
+              "explanation": "Place shift: здесь → там. 'Here' (from his perspective) becomes 'there' (from the reporter's)."
+            },
+            {
+              "prompt": "Он сказал: \"Я сделаю это сейчас.\" → Он сказал, что сделает это _____.",
+              "promptEnglish": "He said: 'I'll do it now.' → He said he would do it ___.",
+              "options": [
+                "сейчас",
+                "потом",
+                "тогда",
+                "здесь"
+              ],
+              "answer": "тогда",
+              "hint": "сейчас in direct → тогда in indirect speech.",
+              "explanation": "Time shift: сейчас → тогда. 'Now' (when he said it) becomes 'then.'"
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "\"Ты придёшь?\" → Он спросил, _____ ли я. (yes/no question)",
+          "contextEnglish": "Will you come? → He asked whether I would come.",
+          "options": [
+            "приду",
+            "придёшь"
+          ],
+          "answer": "приду",
+          "explanation": "Ты придёшь → приду ли я. Pronoun shift (ты→я) and verb adjustment."
+        },
+        {
+          "context": "\"Где ты живёшь?\" → Он спросил, _____ я живу. (wh-question)",
+          "contextEnglish": "Where do you live? → He asked where I live.",
+          "options": [
+            "где",
+            "приду ли"
+          ],
+          "answer": "где",
+          "explanation": "Wh-questions keep the question word: где я живу. No ли needed."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Она сказала: \"Я устала.\" → Она сказала, что _____ устала. (she)",
+          "Он спросил: \"Ты был там?\" → Он спросил, _____ ли я там. (whether I was)",
+          "Мама сказала: \"Позвони мне!\" → Мама сказала, _____ я ей позвонил. (so that)"
+        ],
+        "choices": [
+          "она",
+          "был",
+          "чтобы"
+        ],
+        "answers": [
+          "она",
+          "был",
+          "чтобы"
+        ],
+        "grammarFocus": "Pronoun shift (я→она), yes/no question (ли), command (чтобы + past)",
+        "hints": [
+          "я becomes она when she's the one speaking.",
+          "Yes/no question uses verb + ли.",
+          "Commands become чтобы + past tense."
+        ],
+        "explanations": [
+          "Pronoun shift: я → она. She said that SHE was tired.",
+          "Yes/no question: был ли я там. 'Whether I had been there.'",
+          "Command: чтобы я позвонил. 'So that I would call.' Past tense after чтобы."
+        ],
+        "options": [
+          [
+            "она",
+            "её",
+            "ею",
+            "ей"
+          ],
+          [
+            "буду",
+            "есть",
+            "был",
+            "бываю"
+          ],
+          [
+            "если",
+            "чтобы",
+            "когда",
+            "что"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-3-tense-no-shift",
+      "title": "No Tense Shift",
+      "titleRussian": "Без сдвига времён",
+      "description": "Practice the key Russian rule: tense does NOT shift in indirect speech",
+      "descriptionRussian": "Ключевое правило: время НЕ меняется в косвенной речи",
+      "icon": "clock.arrow.circlepath",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Он сказал: \"Я приду завтра.\" → Он сказал, что _____ завтра.",
+              "promptEnglish": "He said he would come tomorrow. (tense stays!)",
+              "options": [
+                "пришёл",
+                "придёт",
+                "приходил",
+                "приходит"
+              ],
+              "answer": "придёт",
+              "hint": "Russian doesn't shift tense. Future stays future.",
+              "explanation": "No tense shift: приду → придёт (still future). Only the pronoun changes (я → он)."
+            },
+            {
+              "prompt": "Она сказала: \"Я была в Москве.\" → Она сказала, что _____ в Москве.",
+              "promptEnglish": "She said she had been to Moscow. (tense stays!)",
+              "options": [
+                "будет",
+                "бывает",
+                "была",
+                "бывала"
+              ],
+              "answer": "была",
+              "hint": "Past stays past. No 'had been' shift needed.",
+              "explanation": "No tense shift: была stays была. Russian doesn't do 'backshift.'"
+            },
+            {
+              "prompt": "Unlike English, Russian indirect speech _____ the original tense.",
+              "promptEnglish": "What does Russian do with tense in indirect speech?",
+              "options": [
+                "shifts back",
+                "shifts forward",
+                "keeps",
+                "removes"
+              ],
+              "answer": "keeps",
+              "hint": "Russian doesn't backshift tenses.",
+              "explanation": "Russian keeps the original tense: сказал, что придёт (said he will come, not 'would come')."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [],
+      "translation": [
+        {
+          "english": "She said that she would help us tomorrow.",
+          "answer": "Она сказала, что поможет нам завтра.",
+          "acceptableVariants": [
+            "Она сказала, что завтра поможет нам.",
+            "Она сказала, что она поможет нам завтра."
+          ],
+          "hint": "No tense shift: 'would help' stays future in Russian",
+          "grammarFocus": "No tense backshift",
+          "keyWord": "поможет",
+          "options": [
+            "поможет",
+            "помогла",
+            "помогает",
+            "помогу"
+          ]
+        },
+        {
+          "english": "He asked whether she had read the book.",
+          "answer": "Он спросил, читала ли она книгу.",
+          "acceptableVariants": [
+            "Он спросил, прочитала ли она книгу."
+          ],
+          "hint": "Yes/no → verb + ли. No tense shift.",
+          "grammarFocus": "Yes/no indirect question",
+          "keyWord": "ли",
+          "options": [
+            "ли",
+            "что",
+            "чтобы",
+            "если"
+          ]
+        },
+        {
+          "english": "The teacher told us to open our textbooks.",
+          "answer": "Учитель сказал, чтобы мы открыли учебники.",
+          "acceptableVariants": [
+            "Учитель сказал нам, чтобы мы открыли учебники."
+          ],
+          "hint": "Command → чтобы + past",
+          "grammarFocus": "Command in indirect speech",
+          "keyWord": "чтобы",
+          "options": [
+            "чтобы",
+            "что",
+            "ли",
+            "когда"
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "\"Ты придёшь?\" → Он спросил, _____ ли я. (yes/no → ли)",
+          "contextEnglish": "Will you come? → He asked whether I would come.",
+          "options": [
+            "приду",
+            "пришёл"
+          ],
+          "answer": "приду",
+          "explanation": "No tense shift: future stays future. Приду ли я (whether I will come)."
+        },
+        {
+          "context": "\"Приходи!\" → Он сказал, _____ я пришёл. (command → чтобы + past)",
+          "contextEnglish": "Come! → He said (for me) to come.",
+          "options": [
+            "чтобы",
+            "что"
+          ],
+          "answer": "чтобы",
+          "explanation": "Commands use чтобы + past tense: чтобы я пришёл."
+        }
+      ]
+    },
+    {
+      "id": "round-4-complex-transforms",
+      "title": "Complex Transformations",
+      "titleRussian": "Сложные преобразования",
+      "description": "Transform longer and more complex direct speech into indirect",
+      "descriptionRussian": "Преобразуйте более сложную прямую речь в косвенную",
+      "icon": "text.alignleft",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "\"Не забудь купить хлеб!\" → Она напомнила, _____ я купил хлеб.",
+              "promptEnglish": "She reminded me to buy bread.",
+              "options": [
+                "что",
+                "ли",
+                "чтобы",
+                "когда"
+              ],
+              "answer": "чтобы",
+              "hint": "Reminder/command → чтобы + past.",
+              "explanation": "Commands/reminders: чтобы я купил хлеб."
+            },
+            {
+              "prompt": "\"Сколько это стоит?\" → Он спросил, сколько это _____.",
+              "promptEnglish": "He asked how much it costs.",
+              "options": [
+                "стоит",
+                "стоило",
+                "будет стоить",
+                "стоит ли"
+              ],
+              "answer": "стоит",
+              "hint": "No tense shift. Present stays present.",
+              "explanation": "Сколько это стоит: present stays. No backshift to стоило."
+            },
+            {
+              "prompt": "\"Я не могу прийти, потому что я болен.\" → Он сказал, что не может прийти, _____ он болен.",
+              "promptEnglish": "He said he can't come because he's sick.",
+              "options": [
+                "что",
+                "потому что",
+                "чтобы",
+                "ли"
+              ],
+              "answer": "потому что",
+              "hint": "The reason clause (потому что) stays in indirect speech.",
+              "explanation": "Потому что keeps its function: 'because he is sick.' Subordinate conjunctions stay."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Она попросила, _____ я ей позвонил. (indirect command: so that)",
+          "Она попросила, чтобы я позвонил _____. (pronoun shift: мне → ...)",
+          "Он сказал: \"Я живу здесь.\" → Он сказал, что живёт _____. (there)",
+          "Он спросил: \"Ты был там?\" → Он спросил, _____ ли я там. (whether I had been)"
+        ],
+        "choices": [
+          "чтобы, ей",
+          "там",
+          "был"
+        ],
+        "answers": [
+          "чтобы",
+          "ей",
+          "там",
+          "был"
+        ],
+        "grammarFocus": "Command (чтобы), place shift (здесь→там), yes/no (ли)",
+        "hints": [
+          "Command: which conjunction? And мне becomes...",
+          "здесь in direct speech becomes what in indirect?",
+          "Yes/no question in indirect: verb + ли."
+        ],
+        "explanations": [
+          "Command: чтобы я позвонил ей. Мне → ей (her, not me).",
+          "Place shift: здесь → там.",
+          "Yes/no question: был ли я. No tense shift."
+        ],
+        "options": [
+          [
+            "чтобы",
+            "что",
+            "когда",
+            "если"
+          ],
+          [
+            "её",
+            "ей",
+            "она",
+            "ею"
+          ],
+          [
+            "там",
+            "тут",
+            "здесь",
+            "туда"
+          ],
+          [
+            "был",
+            "будет",
+            "бывает",
+            "есть"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All indirect speech patterns mixed together",
+      "descriptionRussian": "Все паттерны косвенной речи",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "\"Когда ты приедешь?\" → Она спросила, когда я _____.",
+              "promptEnglish": "She asked when I would arrive.",
+              "options": [
+                "приеду",
+                "приехал",
+                "приезжаю",
+                "приехала"
+              ],
+              "answer": "приеду",
+              "hint": "No tense shift. Future stays future.",
+              "explanation": "No backshift: приедешь → приеду (future stays). Only pronoun shifts."
+            },
+            {
+              "prompt": "\"Не опаздывай!\" → Он сказал, _____ я не опаздывал.",
+              "promptEnglish": "He told me not to be late.",
+              "options": [
+                "что",
+                "чтобы",
+                "ли",
+                "когда"
+              ],
+              "answer": "чтобы",
+              "hint": "Prohibition in indirect speech → чтобы + не + past.",
+              "explanation": "Negative command: чтобы я не опаздывал."
+            },
+            {
+              "prompt": "\"Я живу здесь уже три года.\" → Она сказала, что живёт _____ уже три года.",
+              "promptEnglish": "She said she has been living there for three years.",
+              "options": [
+                "здесь",
+                "тут",
+                "там",
+                "тогда"
+              ],
+              "answer": "там",
+              "hint": "здесь → там in indirect speech.",
+              "explanation": "Place shift: здесь → там. She said she lives THERE."
+            }
+          ]
+        },
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "\"Когда ты вернёшься?\" → Она спросила, _____ я вернусь.",
+              "promptEnglish": "She asked when I would return.",
+              "options": [
+                "ли",
+                "когда",
+                "что",
+                "чтобы"
+              ],
+              "answer": "когда",
+              "hint": "Wh-question word stays in indirect speech.",
+              "explanation": "Когда keeps its function: Она спросила, когда я вернусь."
+            },
+            {
+              "prompt": "\"Ты сделал домашнее задание?\" → Учитель спросил, _____ ли я задание.",
+              "promptEnglish": "The teacher asked whether I had done the homework.",
+              "options": [
+                "делал",
+                "сделаю",
+                "сделал",
+                "делаю"
+              ],
+              "answer": "сделал",
+              "hint": "Yes/no question: verb + ли. Tense doesn't shift in Russian.",
+              "explanation": "Сделал ли я: 'whether I had done.' Russian keeps the original tense."
+            },
+            {
+              "prompt": "\"Приходи завтра!\" → Он сказал, _____ я пришёл завтра.",
+              "promptEnglish": "He told me to come tomorrow.",
+              "options": [
+                "что",
+                "ли",
+                "если",
+                "чтобы"
+              ],
+              "answer": "чтобы",
+              "hint": "Commands in indirect speech → чтобы + past.",
+              "explanation": "Imperative becomes: чтобы я пришёл. Past tense after чтобы."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [],
+      "categorySorting": {
+        "instruction": "Sort by the type of indirect speech transformation",
+        "categories": [
+          "Statement (что)",
+          "Yes/No question (ли)",
+          "Wh-question (word kept)",
+          "Command (чтобы + past)"
+        ],
+        "items": [
+          {
+            "word": "Он сказал, что придёт.",
+            "category": "Statement (что)"
+          },
+          {
+            "word": "Она спросила, приду ли я.",
+            "category": "Yes/No question (ли)"
+          },
+          {
+            "word": "Он спросил, где я живу.",
+            "category": "Wh-question (word kept)"
+          },
+          {
+            "word": "Она попросила, чтобы я помог.",
+            "category": "Command (чтобы + past)"
+          },
+          {
+            "word": "Он сказал, что устал.",
+            "category": "Statement (что)"
+          },
+          {
+            "word": "Она спросила, видел ли я фильм.",
+            "category": "Yes/No question (ли)"
+          },
+          {
+            "word": "Он спросил, почему я опоздал.",
+            "category": "Wh-question (word kept)"
+          },
+          {
+            "word": "Мама сказала, чтобы я убрал комнату.",
+            "category": "Command (чтобы + past)"
+          }
+        ]
+      }
+    }
+  ]
+}

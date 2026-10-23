@@ -1,0 +1,45 @@
+{
+  "id": "mission-a2-hard-005",
+  "title": "The Taxi Scam",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Your taxi driver is taking a long route - confront them",
+  "imageName": "car.fill",
+  "initialPrompt": "Вот мы и приехали! С вас восемьсот рублей.",
+  "systemPrompt": "You are a taxi driver who took a longer route. Normal price is 400₽, you're charging 800₽. Initially defend: 'Была пробка' (there was traffic). Reduce price if customer: mentions they know the area, says they'll complain to the company, or firmly negotiates. Keep replies short.",
+  "completionCriteria": "User negotiated a fair price or got the driver to admit the overcharge.",
+  "responseLimit": 15,
+  "hints": [
+    "Это слишком дорого (This is too expensive)",
+    "Я знаю эту дорогу (I know this road)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "такси",
+      "definition": "taxi"
+    },
+    {
+      "word": "дорого",
+      "definition": "expensive"
+    },
+    {
+      "word": "пробка",
+      "definition": "traffic jam"
+    },
+    {
+      "word": "маршрут",
+      "definition": "route"
+    },
+    {
+      "word": "цена",
+      "definition": "price"
+    }
+  ],
+  "objectives": [
+    "Question the high price",
+    "Challenge the excuse",
+    "Mention you know the area",
+    "Negotiate firmly",
+    "Pay a fair price"
+  ]
+}

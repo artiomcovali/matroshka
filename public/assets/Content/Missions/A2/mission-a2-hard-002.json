@@ -1,0 +1,45 @@
+{
+  "id": "mission-a2-hard-002",
+  "title": "The Broken Phone",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Return a broken phone without a receipt",
+  "imageName": "iphone.gen3.slash",
+  "initialPrompt": "Здравствуйте. Чем могу помочь?",
+  "systemPrompt": "You work at electronics store. Customer wants to return broken phone but has no receipt. Policy says no returns without receipt. But you can: offer store credit, accept bank statement as proof, or call manager if customer insists politely. Keep replies short.",
+  "completionCriteria": "User got a refund, store credit, or manager approval through negotiation.",
+  "responseLimit": 15,
+  "hints": [
+    "Телефон не работает (The phone doesn't work)",
+    "Можно позвать менеджера? (Can you call the manager?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "телефон",
+      "definition": "phone"
+    },
+    {
+      "word": "сломанный",
+      "definition": "broken"
+    },
+    {
+      "word": "чек",
+      "definition": "receipt"
+    },
+    {
+      "word": "возврат",
+      "definition": "return/refund"
+    },
+    {
+      "word": "менеджер",
+      "definition": "manager"
+    }
+  ],
+  "objectives": [
+    "Explain the phone is broken",
+    "Handle the no-receipt issue",
+    "Ask for alternatives",
+    "Request manager if needed",
+    "Get resolution"
+  ]
+}

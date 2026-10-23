@@ -1,0 +1,311 @@
+{
+  "id": "a2-track-pronoun-01-personal-acc-gen",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Pronoun Declension 1: Personal Pronouns in the Accusative and Genitive",
+  "titleRussian": "Склонение местоимений 1: личные местоимения в винительном и родительном",
+  "description": "The seven personal pronouns (я, ты, он, она, мы, вы, они) and their accusative / genitive forms (меня, тебя, его, её, нас, вас, их). For personal pronouns the accusative and genitive are identical, because every speaker and listener is animate.",
+  "descriptionRussian": "Семь личных местоимений (я, ты, он, она, мы, вы, они) и их формы винительного / родительного падежа (меня, тебя, его, её, нас, вас, их). У личных местоимений эти два падежа совпадают.",
+  "imageName": "person.text.rectangle",
+  "trackId": "a2-pronoun-declension-mastery",
+  "trackTitle": "Pronoun Declension Mastery",
+  "trackTitleRussian": "Склонение местоимений",
+  "trackIndex": 1,
+  "trackTotal": 6,
+  "intro": "Pronouns do not follow the noun rules, which sounds like bad news and mostly is not. The first thing to notice is a saving: for every personal pronoun the accusative and genitive are the same form, so learning one gets you both. That happens because pronouns always refer to something animate, and the animacy rule you know from A1 makes those two cases coincide.",
+  "rules": [
+    "The seven personal pronouns are: я, ты, он, она, мы, вы, они. Their accusative and genitive forms are identical: меня, тебя, его, её, нас, вас, их.",
+    "Acc = gen for every personal pronoun, because pronouns are inherently animate. The same identity holds for animate masculine nouns (Я знаю брата = Я не знаю брата).",
+    "Его / её / их do double duty: they are both the acc / gen of он / она / они and the invariant possessive forms (his / her / their) you saw in the A1 Possessives track. The form is one; the role is two.",
+    "After most prepositions (у, в, на, без, для, от, из), the 3rd-person forms gain an н-prefix: у него, у неё, у них. Lesson 3 covers this rule; today's drill avoids the contexts that trigger it."
+  ],
+  "examples": [
+    "Маша знает меня. (Masha knows me.) The verb знать takes the accusative; the acc of я is меня.",
+    "Антон видит тебя. (Anton sees you.) The acc of ты is тебя.",
+    "Я знаю его. (I know him.) The acc of он is его. Note: bare его, not него, because there is no preposition.",
+    "Лена любит её. (Lena loves her.) The acc of она is её.",
+    "У меня нет брата. (I do not have a brother.) The 'у + gen' construction; the gen of я is меня. (No н-prefix because 1st person.)",
+    "У нас нет молока. (We do not have any milk.) The gen of мы is нас. (No н-prefix because 1st person plural.)"
+  ],
+  "tables": [
+    {
+      "title": "Personal Pronouns: Nominative, Accusative, Genitive",
+      "headers": [
+        "Person",
+        "Nom",
+        "Acc / Gen"
+      ],
+      "rows": [
+        {
+          "label": "1sg",
+          "cells": [
+            "я",
+            "меня"
+          ]
+        },
+        {
+          "label": "2sg",
+          "cells": [
+            "ты",
+            "тебя"
+          ]
+        },
+        {
+          "label": "3sg masc",
+          "cells": [
+            "он",
+            "его"
+          ]
+        },
+        {
+          "label": "3sg fem",
+          "cells": [
+            "она",
+            "её"
+          ]
+        },
+        {
+          "label": "1pl",
+          "cells": [
+            "мы",
+            "нас"
+          ]
+        },
+        {
+          "label": "2pl / formal",
+          "cells": [
+            "вы",
+            "вас"
+          ]
+        },
+        {
+          "label": "3pl",
+          "cells": [
+            "они",
+            "их"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Acc and Gen: Same Form, Different Role",
+      "headers": [
+        "Form",
+        "Accusative example",
+        "Genitive example"
+      ],
+      "rows": [
+        {
+          "label": "меня",
+          "cells": [
+            "Маша знает меня.",
+            "У меня нет брата."
+          ]
+        },
+        {
+          "label": "тебя",
+          "cells": [
+            "Я вижу тебя.",
+            "У тебя нет ручки."
+          ]
+        },
+        {
+          "label": "нас",
+          "cells": [
+            "Антон видит нас.",
+            "У нас нет молока."
+          ]
+        },
+        {
+          "label": "вас",
+          "cells": [
+            "Лена любит вас.",
+            "У вас нет времени."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Маша знает _____.",
+          "promptEnglish": "Masha knows me.",
+          "options": [
+            "меня",
+            "мне",
+            "мной",
+            "я"
+          ],
+          "answer": "меня",
+          "hint": "Знать takes the accusative. Which form is the acc of я?",
+          "explanation": "The accusative of я is меня. Знать selects an accusative direct object (Маша знает + acc). The same form меня is also the genitive (у меня нет ...)."
+        },
+        {
+          "prompt": "Антон видит _____.",
+          "promptEnglish": "Anton sees you.",
+          "options": [
+            "тебе",
+            "ты",
+            "тобой",
+            "тебя"
+          ],
+          "answer": "тебя",
+          "hint": "Видеть takes the accusative. Which form is the acc of ты?",
+          "explanation": "The accusative of ты is тебя. The same form тебя is also the genitive (у тебя нет ...). Pronouns do not distinguish acc and gen by form; the verb or preposition supplies the role."
+        },
+        {
+          "prompt": "Я знаю _____.",
+          "promptEnglish": "I know him.",
+          "options": [
+            "него",
+            "его",
+            "ему",
+            "он"
+          ],
+          "answer": "его",
+          "hint": "Знать takes the accusative. The acc of он is the bare form; the н-prefix rule (Lesson 3) does not apply without a preposition.",
+          "explanation": "The accusative of он is его (bare, no н-prefix). Lesson 3 will introduce the rule that after a preposition (у, в, на, без, ...) the form becomes него. Without a preposition, the form stays его."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "У _____ нет брата.",
+          "promptEnglish": "I do not have a brother.",
+          "options": [
+            "я",
+            "мне",
+            "меня",
+            "мной"
+          ],
+          "answer": "меня",
+          "hint": "У + genitive expresses possession; нет + genitive expresses absence. The gen of я is the same as the acc.",
+          "explanation": "The 'у меня нет ...' construction takes the genitive. The gen of я is меня, the same form as the accusative. The combination у + gen + нет + gen means 'X does not have Y'."
+        },
+        {
+          "prompt": "Лена любит _____.",
+          "promptEnglish": "Lena loves her.",
+          "options": [
+            "неё",
+            "её",
+            "ей",
+            "она"
+          ],
+          "answer": "её",
+          "hint": "Любить takes the accusative. The acc of она is the bare form; no preposition, so no н-prefix.",
+          "explanation": "The accusative of она is её (bare). Любить selects an accusative direct object. Lesson 3 will turn её into неё after a preposition (без неё, у неё), but not here."
+        },
+        {
+          "prompt": "У _____ нет молока.",
+          "promptEnglish": "We do not have any milk.",
+          "options": [
+            "мы",
+            "нам",
+            "нас",
+            "нами"
+          ],
+          "answer": "нас",
+          "hint": "У + genitive. The gen of мы is the same as the acc.",
+          "explanation": "The genitive of мы is нас. The same form is the accusative (Антон видит нас). 1st-person plural pronouns never trigger the н-prefix, so у нас stays as is."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Антон любит _____. (Anton loves them.)"
+    ],
+    "choices": [
+      "они",
+      "их",
+      "ним",
+      "ими"
+    ],
+    "answers": [
+      "их"
+    ],
+    "grammarFocus": "The accusative of они is их (bare form). Любить takes the accusative; no preposition, so no н-prefix. Их is also the genitive (у них нет ..., but only with the prefix because of the preposition; that's Lesson 3 territory)."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Маша давно знает вам.",
+      "translationEnglish": "Masha has known you for a long time.",
+      "error": "вам",
+      "correction": "вас",
+      "options": [
+        "вас",
+        "вами",
+        "вы"
+      ],
+      "explanation": "Знать takes the accusative, and the accusative of вы is вас, not the dative вам. Вам is the dative, used after verbs like помогать or звонить ('Маша помогает вам'). Correct: Маша давно знает вас."
+    },
+    {
+      "sentence": "У ты нет времени на отдых.",
+      "translationEnglish": "You do not have time to rest.",
+      "error": "ты",
+      "correction": "тебя",
+      "options": [
+        "тебя",
+        "тебе",
+        "тобой"
+      ],
+      "explanation": "The у + genitive construction means 'to have', and the genitive of ты is тебя, not the nominative ты. Ты is the subject form, which cannot follow a preposition. For pronouns the genitive equals the accusative (Антон видит тебя), so the form here is тебя: 'у тебя нет времени'."
+    },
+    {
+      "sentence": "Учитель хорошо знает они.",
+      "translationEnglish": "The teacher knows them well.",
+      "error": "они",
+      "correction": "их",
+      "options": [
+        "их",
+        "им",
+        "ими"
+      ],
+      "explanation": "Знать takes the accusative, and the accusative of они is их, not the nominative они. Они is the subject form ('Они учатся'), not a direct object. Их is also the genitive and the invariant possessive 'their'; one word covers all three. The object of знать is их."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша знает _____.",
+      "contextEnglish": "Masha knows me.",
+      "options": [
+        "меня",
+        "мне"
+      ],
+      "answer": "меня",
+      "explanation": "Знать takes the accusative; the acc of я is меня. Мне is the dative form (Маша помогает мне), which Lesson 2 will cover."
+    },
+    {
+      "context": "Я помню _____.",
+      "contextEnglish": "I remember you.",
+      "options": [
+        "тебя",
+        "тебе"
+      ],
+      "answer": "тебя",
+      "explanation": "Помнить takes the accusative; the acc of ты is тебя. There is no preposition, so the bare form is correct. Тебе is the dative form (Я звоню тебе), which Lesson 2 will cover."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "личное местоимение",
+      "definition": "personal pronoun (я, ты, он, она, оно, мы, вы, они: a small closed class with its own irregular declension)",
+      "example": "В предложении 'Маша знает меня' слово 'меня' — личное местоимение в винительном падеже."
+    },
+    {
+      "term": "одушевлённость",
+      "definition": "animacy (a noun is animate if it refers to a living being; personal pronouns are inherently animate, so acc = gen)",
+      "example": "Личные местоимения всегда одушевлённые: их винительный совпадает с родительным (меня, тебя, его, её, нас, вас, их)."
+    },
+    {
+      "term": "родительный падеж",
+      "definition": "genitive case (the form after у, нет, без, для, из, от; expresses absence, possession, and source)",
+      "example": "В предложении 'У меня нет брата' оба слова 'меня' и 'брата' стоят в родительном падеже."
+    }
+  ]
+}

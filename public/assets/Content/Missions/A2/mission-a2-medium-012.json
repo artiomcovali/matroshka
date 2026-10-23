@@ -1,0 +1,50 @@
+{
+  "id": "mission-a2-medium-012",
+  "title": "Restaurant Reservation",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Make a dinner reservation but your preferred time is taken",
+  "imageName": "fork.knife.circle.fill",
+  "initialPrompt": "Ресторан 'Москва', добрый день. Хотите забронировать столик?",
+  "systemPrompt": "You take reservations. Saturday 7pm is full. Available: 6pm, 8:30pm, or Sunday 7pm. Ask for party size, name, phone. Keep replies short.",
+  "completionCriteria": "User made reservation for available time with all details.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу забронировать столик (I want to reserve a table)",
+    "На субботу в семь (For Saturday at 7)",
+    "А в восемь есть места? (Is 8 o'clock available?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "забронировать",
+      "definition": "to reserve"
+    },
+    {
+      "word": "столик",
+      "definition": "table"
+    },
+    {
+      "word": "занято",
+      "definition": "taken/busy"
+    },
+    {
+      "word": "свободно",
+      "definition": "available"
+    },
+    {
+      "word": "персона",
+      "definition": "person"
+    },
+    {
+      "word": "подтвердить",
+      "definition": "to confirm"
+    }
+  ],
+  "objectives": [
+    "Say you want to reserve a table",
+    "Give your preferred date and time",
+    "Handle unavailable time",
+    "Choose alternative time",
+    "Give name and party size"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "mission-b1-007",
+  "title": "Plan a Trip",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Ask a travel agent about tours and activities",
+  "imageName": "airplane",
+  "initialPrompt": "Добрый день! Добро пожаловать в наше турагентство. Куда хотите поехать?",
+  "systemPrompt": "You are travel agent. Offer tours to Санкт-Петербург (3 days, 25000₽) or Казань (4 days, 30000₽). Includes hotel, excursions. Keep replies short.",
+  "completionCriteria": "User asked about tours and chose one or expressed preferences.",
+  "responseLimit": 15,
+  "hints": [
+    "Хочу поехать на выходные (I want to go for the weekend)",
+    "Что входит в стоимость? (What's included in the price?)",
+    "Какие экскурсии есть? (What excursions are there?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "тур",
+      "definition": "tour"
+    },
+    {
+      "word": "путешествие",
+      "definition": "trip/travel"
+    },
+    {
+      "word": "экскурсия",
+      "definition": "excursion"
+    },
+    {
+      "word": "стоимость",
+      "definition": "cost/price"
+    },
+    {
+      "word": "включать",
+      "definition": "to include"
+    },
+    {
+      "word": "достопримечательности",
+      "definition": "attractions"
+    },
+    {
+      "word": "бронировать",
+      "definition": "to book"
+    }
+  ],
+  "objectives": [
+    "Say where you want to go",
+    "Ask about what's included (входит в стоимость)",
+    "Ask about activities or excursions",
+    "Make a decision or ask more questions"
+  ]
+}

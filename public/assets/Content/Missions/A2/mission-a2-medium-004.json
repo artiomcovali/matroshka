@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-medium-004",
+  "title": "Wrong Size",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "The clothes you bought are the wrong size - exchange them",
+  "imageName": "tshirt.fill",
+  "initialPrompt": "Здравствуйте! Вам помочь?",
+  "systemPrompt": "You work in clothing store. Customer wants to exchange размер M for L. L is in stock. Need receipt. Keep replies short.",
+  "completionCriteria": "User explained the size problem and exchanged the item.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу поменять (I want to exchange)",
+    "Размер не подходит (The size doesn't fit)",
+    "У меня есть чек (I have the receipt)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "размер",
+      "definition": "size"
+    },
+    {
+      "word": "обменять",
+      "definition": "to exchange"
+    },
+    {
+      "word": "чек",
+      "definition": "receipt"
+    },
+    {
+      "word": "подходить",
+      "definition": "to fit"
+    },
+    {
+      "word": "большой",
+      "definition": "big/large"
+    },
+    {
+      "word": "маленький",
+      "definition": "small"
+    }
+  ],
+  "objectives": [
+    "Explain you need to exchange (обменять)",
+    "Say size doesn't fit (не подходит)",
+    "Show receipt and get correct size"
+  ]
+}

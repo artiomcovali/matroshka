@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-001",
+  "title": "The Speeding Ticket",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Try to talk your way out of a speeding ticket",
+  "imageName": "car.fill",
+  "initialPrompt": "Остановитесь! Вы ехали 80 в зоне 60. Ваши документы, пожалуйста.",
+  "systemPrompt": "You are a traffic police officer. The driver was speeding (80 in 60 zone). Fine is 500₽. You can reduce to 250₽ or give warning if they: apologize sincerely, have a good excuse (emergency, didn't see sign), or are very polite. Don't accept bribes. Keep replies short.",
+  "completionCriteria": "User got reduced fine, warning, or paid full fine through conversation.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините, я не заметил знак (Sorry, I didn't notice the sign)",
+    "Это больше не повторится (It won't happen again)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "документы",
+      "definition": "documents"
+    },
+    {
+      "word": "скорость",
+      "definition": "speed"
+    },
+    {
+      "word": "штраф",
+      "definition": "fine"
+    },
+    {
+      "word": "извините",
+      "definition": "sorry/excuse me"
+    },
+    {
+      "word": "знак",
+      "definition": "sign"
+    },
+    {
+      "word": "полиция",
+      "definition": "police"
+    }
+  ],
+  "objectives": [
+    "Show documents (документы)",
+    "Apologize (извините)",
+    "Explain the situation",
+    "Ask for reduced fine or warning",
+    "Resolve the situation"
+  ]
+}

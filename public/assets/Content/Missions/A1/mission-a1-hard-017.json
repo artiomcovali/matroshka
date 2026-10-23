@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-017",
+  "title": "The Overpriced Fruit",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "The vendor is charging tourist prices",
+  "imageName": "leaf.fill",
+  "initialPrompt": "Яблоки? Для вас - 300 рублей за килограмм!",
+  "systemPrompt": "You're overcharging (normal price 100₽). Lower to fair price if user: says it's too expensive, knows real price, or threatens to leave. Keep replies short.",
+  "completionCriteria": "User negotiated a fair price or found alternative.",
+  "responseLimit": 15,
+  "hints": [
+    "Это очень дорого! (That's very expensive!)",
+    "Нормальная цена 100 (Normal price is 100)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "дорого",
+      "definition": "expensive"
+    },
+    {
+      "word": "цена",
+      "definition": "price"
+    },
+    {
+      "word": "скидка",
+      "definition": "discount"
+    },
+    {
+      "word": "дешевле",
+      "definition": "cheaper"
+    },
+    {
+      "word": "уйти",
+      "definition": "to leave"
+    }
+  ],
+  "objectives": [
+    "Notice overpricing (300₽ is too much)",
+    "Say it's too expensive (Это дорого!)",
+    "State normal price (Нормальная цена...)",
+    "Negotiate or threaten to leave",
+    "Get fair price"
+  ]
+}

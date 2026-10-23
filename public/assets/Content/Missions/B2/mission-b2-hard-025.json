@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-025",
+  "title": "Workplace Harassment Report",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "HR dismissing your harassment complaint",
+  "imageName": "exclamationmark.bubble.fill",
+  "initialPrompt": "Мы рассмотрели вашу жалобу. Нет достаточных доказательств. Рекомендуем забыть этот инцидент и двигаться дальше.",
+  "systemPrompt": "You are dismissive HR representative. Minimize complaint, protect company. Only take action if complainant shows documentation and threatens external authorities.",
+  "completionCriteria": "User insisted on proper harassment investigation.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня есть свидетели (I have witnesses)",
+    "Я обращусь в инспекцию труда (I will contact labor inspection)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "преследование",
+      "definition": "harassment"
+    },
+    {
+      "word": "жалоба",
+      "definition": "complaint"
+    },
+    {
+      "word": "расследование",
+      "definition": "investigation"
+    },
+    {
+      "word": "свидетели",
+      "definition": "witnesses"
+    },
+    {
+      "word": "инспекция",
+      "definition": "inspection"
+    },
+    {
+      "word": "защита",
+      "definition": "protection"
+    }
+  ],
+  "objectives": [
+    "Refuse dismissal",
+    "Present evidence",
+    "Demand proper investigation",
+    "Threaten external action",
+    "Protect your rights"
+  ]
+}

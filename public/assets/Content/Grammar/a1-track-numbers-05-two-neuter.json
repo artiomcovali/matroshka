@@ -1,0 +1,272 @@
+{
+  "id": "a1-track-numbers-05-two-neuter",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Numbers 5: Two of These, Two of Those (два with neuter nouns)",
+  "titleRussian": "Числа 5: два с существительными среднего рода",
+  "description": "We extend yesterday's two rule to neuter nouns. Два окна, два письма, два моря. Same rule as masculine: the noun gains an -а in the genitive singular. A short, focused lesson that fills the last gender slot for two.",
+  "descriptionRussian": "Продолжаем правило 'два' и распространяем его на средний род. Два окна, два письма, два моря. Та же логика, что и у мужского рода: окончание -а в родительном падеже единственного числа.",
+  "imageName": "rectangle.split.2x1",
+  "trackId": "a1-numbers-counting-mastery",
+  "trackTitle": "Numbers & Counting Mastery",
+  "trackTitleRussian": "Числа и счёт",
+  "trackIndex": 5,
+  "trackTotal": 10,
+  "intro": "Neuter nouns finish the job lesson 4 started, and they side with the masculines rather than forming a third category. That is worth noticing, because it simplifies the decision you actually have to make: the gender question for two is not three-way at all. It collapses into a single yes or no, asked once, before you speak. A short lesson that exists to close a gap, and closing it now costs less than tripping over it later.",
+  "rules": [
+    "Neuter nouns after 'два' take the genitive singular ending: -о switches to -а (окно → окна), -е switches to -я (море → моря).",
+    "Two with neuter nouns uses the form 'два' (same as masculine). Feminine remains the only gender that takes the separate form 'две'.",
+    "When deciding the form of two, ask only one question: is the noun feminine? Yes → две. No (masculine or neuter) → два.",
+    "The form окна (and other neuter forms in -а / -я) can look identical to the nominative plural. The number in front of it tells you which role is operating.",
+    "Three and four (Lesson 6) follow the same rule as two, with no gender forms to remember."
+  ],
+  "examples": [
+    "У меня два окна. (I have two windows.) Neuter -о → -а: окно → окна.",
+    "Это два письма. (These are two letters.) Neuter -о → -а: письмо → письма.",
+    "На карте два моря. (There are two seas on the map.) Neuter -е → -я: море → моря.",
+    "У Антона два яблока. (Anton has two apples.) Neuter -о → -а: яблоко → яблока.",
+    "У меня два брата. (I have two brothers.) Yesterday's pattern: masculine -а still works.",
+    "У Лены две сестры. (Lena has two sisters.) Yesterday's pattern: feminine takes две."
+  ],
+  "tables": [
+    {
+      "title": "Two + Neuter Nouns",
+      "headers": [
+        "Noun",
+        "Ending change",
+        "After 'два'"
+      ],
+      "rows": [
+        {
+          "label": "окно (window)",
+          "cells": [
+            "-о → -а",
+            "два окна"
+          ]
+        },
+        {
+          "label": "письмо (letter)",
+          "cells": [
+            "-о → -а",
+            "два письма"
+          ]
+        },
+        {
+          "label": "яблоко (apple)",
+          "cells": [
+            "-о → -а",
+            "два яблока"
+          ]
+        },
+        {
+          "label": "море (sea)",
+          "cells": [
+            "-е → -я",
+            "два моря"
+          ]
+        },
+        {
+          "label": "имя (name, irreg)",
+          "cells": [
+            "soft -я → -ени",
+            "два имени (mention only)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Form of Two by Gender",
+      "headers": [
+        "Gender",
+        "Form of two",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "masculine",
+          "cells": [
+            "два",
+            "два брата"
+          ]
+        },
+        {
+          "label": "feminine",
+          "cells": [
+            "две",
+            "две сестры"
+          ]
+        },
+        {
+          "label": "neuter",
+          "cells": [
+            "два",
+            "два окна"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "У меня _____ брата.",
+          "promptEnglish": "Recap from Lesson 4: I have two brothers.",
+          "options": [
+            "два",
+            "две"
+          ],
+          "answer": "два",
+          "hint": "Брат is masculine.",
+          "explanation": "Recap from Lesson 4. Брат is masculine, so the form is 'два'. Today we extend the same form to neuter nouns: два окна, два письма."
+        },
+        {
+          "prompt": "У меня два _____.",
+          "promptEnglish": "I have two windows.",
+          "options": [
+            "окно",
+            "окна",
+            "окне",
+            "окон"
+          ],
+          "answer": "окна",
+          "hint": "Switch the neuter -о of окно to -а.",
+          "explanation": "Окно is neuter. Neuter -о switches to -а after 'два': окно → окна."
+        },
+        {
+          "prompt": "Это два _____.",
+          "promptEnglish": "These are two letters.",
+          "options": [
+            "письмо",
+            "письма",
+            "письме",
+            "писем"
+          ],
+          "answer": "письма",
+          "hint": "Письмо is neuter; switch -о to -а.",
+          "explanation": "Письмо is neuter. Same pattern as окно: -о → -а. Письмо → письма. The form 'два письма' lines up neuter with masculine: both use два and both gain an -а."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "На карте два _____.",
+          "promptEnglish": "There are two seas on the map.",
+          "options": [
+            "море",
+            "моря",
+            "морем",
+            "морей"
+          ],
+          "answer": "моря",
+          "hint": "Море ends in -е (soft neuter). Switch -е to its soft partner -я.",
+          "explanation": "Море is neuter with a soft -е ending. The soft sibling of -а is -я, so -е switches to -я: море → моря. Same idea as окно → окна, just on the soft side of the sound system."
+        },
+        {
+          "prompt": "Which form of two fits the word «яблоко» (apple)?",
+          "promptEnglish": "Which form of two fits the word «яблоко» (apple)?",
+          "options": [
+            "два",
+            "две"
+          ],
+          "answer": "два",
+          "hint": "Яблоко is neuter. What form does two take with neuter nouns?",
+          "explanation": "Яблоко is neuter, and neuter takes the same form as masculine: 'два'. The full phrase: два яблока. Two is feminine ('две') only when the noun itself is feminine."
+        },
+        {
+          "prompt": "У Антона два _____.",
+          "promptEnglish": "Anton has two apples.",
+          "options": [
+            "яблока",
+            "яблоко",
+            "яблоки",
+            "яблок"
+          ],
+          "answer": "яблока",
+          "hint": "Яблоко is neuter. Switch -о to -а.",
+          "explanation": "Яблоко is neuter. Neuter -о switches to -а after 'два': яблоко → яблока. The two-step check is now reflex: pick the form of two (masc/neut = два, fem = две), then change the noun's ending."
+        }
+      ]
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "У меня два книги на столе.",
+      "translationEnglish": "I have two books on the table.",
+      "error": "два",
+      "correction": "две",
+      "options": [
+        "две",
+        "двух",
+        "двое"
+      ],
+      "explanation": "Книга is feminine, and feminine nouns take the form две: две книги. Два is used with masculine and neuter nouns ('два окна', 'два стола')."
+    },
+    {
+      "sentence": "В этом предложении два слово.",
+      "translationEnglish": "There are two words in this sentence.",
+      "error": "слово",
+      "correction": "слова",
+      "options": [
+        "слова",
+        "слов",
+        "словам"
+      ],
+      "explanation": "After два (or две / три / четыре), the noun goes into the GENITIVE SINGULAR: слова (gen sg of слово, -о → -а)."
+    },
+    {
+      "sentence": "У Антона два место в театре.",
+      "translationEnglish": "Anton has two seats at the theatre.",
+      "error": "место",
+      "correction": "места",
+      "options": [
+        "места",
+        "мест",
+        "местам"
+      ],
+      "explanation": "After два, the noun goes into the genitive singular: места (gen sg of место, -о → -а)."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "У меня два _____.",
+      "contextEnglish": "I have two windows.",
+      "options": [
+        "окно",
+        "окна"
+      ],
+      "answer": "окна",
+      "explanation": "After 'два' the neuter noun takes the genitive singular: окно → окна. The dictionary form окно cannot follow a number; the ending must shift."
+    },
+    {
+      "context": "Это два _____.",
+      "contextEnglish": "These are two seas.",
+      "options": [
+        "моря",
+        "море"
+      ],
+      "answer": "моря",
+      "explanation": "Море is neuter with soft -е; the gen sg replaces -е with -я: море → моря. The form море on its own would only fit the nominative ('this is a sea')."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "средний род",
+      "definition": "neuter gender (nouns ending in -о or -е; after 'два' they take -а or -я)",
+      "example": "Слово 'окно' — средний род. После 'два' окончание -о меняется на -а: 'два окна'."
+    },
+    {
+      "term": "мягкое окончание",
+      "definition": "soft ending (the soft sibling of a vowel ending; -е is the soft -о, -я is the soft -а)",
+      "example": "Слово 'море' имеет мягкое окончание -е, поэтому в родительном падеже единственного числа стоит мягкое -я: 'два моря'."
+    },
+    {
+      "term": "омонимия форм",
+      "definition": "form homonymy (when two grammatical forms look the same; here, gen sg окна and nom pl окна)",
+      "example": "Форма 'окна' может быть и родительным падежом единственного числа после 'два' ('два окна'), и именительным падежом множественного числа ('окна стоят в ряд'). Контекст всегда подскажет роль."
+    }
+  ]
+}

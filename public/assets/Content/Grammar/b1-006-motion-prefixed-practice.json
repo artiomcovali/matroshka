@@ -1,0 +1,527 @@
+{
+  "lessonId": "b1-006-motion-prefixed",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Prefix Meanings",
+      "titleRussian": "Значения приставок",
+      "description": "Choose the correct prefixed motion verb",
+      "descriptionRussian": "Выберите правильный приставочный глагол движения",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она _____ в комнату и закрыла дверь. (She entered the room and closed the door.)",
+              "promptEnglish": "She entered the room and closed the door.",
+              "options": [
+                "вошла",
+                "ушла",
+                "пришла",
+                "вышла"
+              ],
+              "answer": "вошла",
+              "hint": "в- = into. Entered the room = movement INTO.",
+              "explanation": "В- means 'into': вошла = entered (went into the room). Perfective, completed action."
+            },
+            {
+              "prompt": "Он _____ из офиса в шесть часов. (He left the office at six.)",
+              "promptEnglish": "He left the office at six.",
+              "options": [
+                "пришёл",
+                "вошёл",
+                "вышел",
+                "подошёл"
+              ],
+              "answer": "вышел",
+              "hint": "вы- = out of. Left the office = movement OUT.",
+              "explanation": "Вы- means 'out of': вышел = exited (went out of the office)."
+            },
+            {
+              "prompt": "Автобус _____ вовремя. (The bus arrived on time.)",
+              "promptEnglish": "The bus arrived on time.",
+              "options": [
+                "уехал",
+                "заехал",
+                "переехал",
+                "приехал"
+              ],
+              "answer": "приехал",
+              "hint": "при- = arrival. The bus reached its destination.",
+              "explanation": "При- means 'arrive': приехал = arrived (by transport)."
+            },
+            {
+              "prompt": "Она _____ из города навсегда. (She left the city forever.)",
+              "promptEnglish": "She left the city forever.",
+              "options": [
+                "уехала",
+                "въехала",
+                "приехала",
+                "заехала"
+              ],
+              "answer": "уехала",
+              "hint": "у- = departure/leaving. Left for good.",
+              "explanation": "У- means 'depart/leave': уехала = left (departed from the city)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Он _____ к окну и посмотрел на улицу. (He walked up to the window and looked outside.)",
+              "promptEnglish": "He walked up to the window and looked outside.",
+              "options": [
+                "прошёл",
+                "вышел",
+                "подошёл",
+                "отошёл"
+              ],
+              "answer": "подошёл",
+              "hint": "под- = approach, move closer.",
+              "explanation": "Под- means 'approach': подошёл = walked up to (approached the window)."
+            },
+            {
+              "prompt": "Мы _____ реку по мосту. (We crossed the river on the bridge.)",
+              "promptEnglish": "We crossed the river on the bridge.",
+              "options": [
+                "зашли",
+                "перешли",
+                "обошли",
+                "прошли"
+              ],
+              "answer": "перешли",
+              "hint": "пере- = across/cross.",
+              "explanation": "Пере- means 'across': перешли = crossed (walked across the river)."
+            },
+            {
+              "prompt": "Можно я _____ к тебе после работы? (Can I drop by your place after work?)",
+              "promptEnglish": "Can I drop by your place after work?",
+              "options": [
+                "выйду",
+                "зайду",
+                "войду",
+                "уйду"
+              ],
+              "answer": "зайду",
+              "hint": "за- = drop by, stop in briefly.",
+              "explanation": "За- means 'drop by': зайду = will stop by/drop in briefly."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он _____ в здание. (He entered the building.)",
+          "contextEnglish": "He entered the building (went INTO).",
+          "options": [
+            "вошёл",
+            "вышел"
+          ],
+          "answer": "вошёл",
+          "explanation": "В- = into: вошёл (entered). Вы- = out of: вышел (exited)."
+        },
+        {
+          "context": "Он _____ из здания. (He exited the building.)",
+          "contextEnglish": "He exited the building (went OUT OF).",
+          "options": [
+            "вошёл",
+            "вышел"
+          ],
+          "answer": "вышел",
+          "explanation": "Вы- = out of: вышел (exited). В- = into: вошёл (entered)."
+        },
+        {
+          "context": "Она _____ домой в семь. (She arrived home at seven.)",
+          "contextEnglish": "She arrived home at seven.",
+          "options": [
+            "пришла",
+            "ушла"
+          ],
+          "answer": "пришла",
+          "explanation": "При- = arrive: пришла (came/arrived). У- = depart: ушла (left)."
+        },
+        {
+          "context": "Она _____ из дома в семь. (She left the house at seven.)",
+          "contextEnglish": "She left the house at seven.",
+          "options": [
+            "пришла",
+            "ушла"
+          ],
+          "answer": "ушла",
+          "explanation": "У- = depart: ушла (left/departed). При- = arrive: пришла (came/arrived)."
+        }
+      ]
+    },
+    {
+      "id": "round-2-sort-fill",
+      "title": "Sort and Fill",
+      "titleRussian": "Сортировка и заполнение",
+      "description": "Sort by prefix meaning and fill in motion verbs",
+      "descriptionRussian": "Рассортируйте по значению приставки и заполните",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort by prefix meaning: Into/Enter or Out/Exit?",
+        "categories": [
+          "Into/Enter (в-)",
+          "Out/Exit (вы-)"
+        ],
+        "items": [
+          {
+            "word": "войти в дом",
+            "category": "Into/Enter (в-)"
+          },
+          {
+            "word": "выйти из дома",
+            "category": "Out/Exit (вы-)"
+          },
+          {
+            "word": "въехать в гараж",
+            "category": "Into/Enter (в-)"
+          },
+          {
+            "word": "выехать из города",
+            "category": "Out/Exit (вы-)"
+          },
+          {
+            "word": "внести чемодан в дом",
+            "category": "Into/Enter (в-)"
+          },
+          {
+            "word": "вынести мусор",
+            "category": "Out/Exit (вы-)"
+          },
+          {
+            "word": "влететь в окно",
+            "category": "Into/Enter (в-)"
+          },
+          {
+            "word": "вылететь из аэропорта",
+            "category": "Out/Exit (вы-)"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Он _____ к дому и остановился. (He drove up to the house and stopped.)",
+          "Мы _____ мимо парка. (We walked past the park.)",
+          "Она _____ ко мне в гости вчера. (She dropped by to visit me yesterday.)",
+          "Дети _____ через дорогу по пешеходному переходу. (The children crossed the road at the crosswalk.)"
+        ],
+        "choices": [
+          "подъехал",
+          "прошли",
+          "заходила",
+          "перешли"
+        ],
+        "answers": [
+          "подъехал",
+          "прошли",
+          "заходила",
+          "перешли"
+        ],
+        "grammarFocus": "под- = approach; про- = pass by; за- = drop by; пере- = cross",
+        "hints": [
+          "Drove up to and stopped = approached by transport. Which prefix?",
+          "Walked past without stopping. Which prefix?",
+          "Visited briefly (dropped by). Which prefix? She came and left = imperfective.",
+          "Went from one side to the other. Which prefix?"
+        ],
+        "explanations": [
+          "Под- = approach: подъехал (drove up to).",
+          "Про- = pass by: прошли (walked past).",
+          "За- = drop by: заходила (dropped by, imperfective for round-trip visit).",
+          "Пере- = cross: перешли (crossed over)."
+        ],
+        "options": [
+          [
+            "выехал",
+            "подъехал",
+            "приехал",
+            "уехал"
+          ],
+          [
+            "ушли",
+            "прошли",
+            "вошли",
+            "вышли"
+          ],
+          [
+            "уходила",
+            "выходила",
+            "входила",
+            "заходила"
+          ],
+          [
+            "перешли",
+            "прошли",
+            "вышли",
+            "ушли"
+          ]
+        ]
+      },
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "When a prefix is added to идти (unidirectional), the result is:",
+              "promptEnglish": "идти + prefix = ?",
+              "options": [
+                "Perfective",
+                "Imperfective",
+                "Either aspect"
+              ],
+              "answer": "Perfective",
+              "hint": "Unidirectional base + prefix = perfective (single completed motion).",
+              "explanation": "Unidirectional идти + prefix = perfective: войти, выйти, прийти, уйти. Single completed action."
+            },
+            {
+              "prompt": "When a prefix is added to ходить (multidirectional), the result is:",
+              "promptEnglish": "ходить + prefix = ?",
+              "options": [
+                "Perfective",
+                "Imperfective",
+                "Either aspect"
+              ],
+              "answer": "Imperfective",
+              "hint": "Multidirectional base + prefix = imperfective (repeated or process).",
+              "explanation": "Multidirectional ходить + prefix = imperfective: входить, выходить, приходить. Repeated or ongoing."
+            },
+            {
+              "prompt": "Каждое утро он _____ из дома в восемь часов. (Every morning he leaves the house at eight.)",
+              "promptEnglish": "Every morning he leaves the house at eight.",
+              "options": [
+                "выйдет",
+                "выходил",
+                "вышел",
+                "выходит"
+              ],
+              "answer": "выходит",
+              "hint": "Habitual action (каждое утро) uses imperfective: multidirectional base + prefix.",
+              "explanation": "Habitual (каждое утро) requires imperfective: выходит (from выходить = ходить + вы-)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors-build",
+      "title": "Fix and Build",
+      "titleRussian": "Исправь и построй",
+      "description": "Fix prefix errors and build sentences with motion verbs",
+      "descriptionRussian": "Исправьте ошибки приставок и постройте предложения",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Она пришла из комнаты.",
+          "error": "пришла",
+          "correction": "вышла",
+          "hint": "При- = arrived. But she's leaving the room, not arriving. Which prefix means 'out of'?",
+          "explanation": "Leaving a room = вышла (вы- = out of), not пришла (при- = arrived).",
+          "options": [
+            "вышла",
+            "ушла",
+            "вошла"
+          ]
+        },
+        {
+          "sentence": "Он каждый день выходил на работу в восемь.",
+          "error": "выходил",
+          "correction": "выходит",
+          "hint": "Каждый день + present context = habitual present, not past.",
+          "explanation": "Habitual present: выходит (not past выходил). Каждый день = still happening.",
+          "options": [
+            "выходит",
+            "вышел",
+            "выйдет"
+          ]
+        },
+        {
+          "sentence": "Мы вошли дорогу.",
+          "error": "вошли",
+          "correction": "перешли",
+          "hint": "Crossing a road = movement ACROSS, not INTO.",
+          "explanation": "Crossing uses пере- (across): перешли дорогу. В- (вошли) means entering, not crossing.",
+          "options": [
+            "перешли",
+            "вышли",
+            "пришли"
+          ]
+        },
+        {
+          "sentence": "Она уехала в город. (intended: She arrived in the city.)",
+          "error": "уехала",
+          "correction": "приехала",
+          "hint": "У- = departed/left. The intended meaning is 'arrived.' Which prefix?",
+          "explanation": "Arrived = при- (приехала). У- (уехала) means left/departed, the opposite.",
+          "options": [
+            "приехала",
+            "въехала",
+            "заехала"
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "войти / вошёл / входить / входит",
+          "question": "Which two are perfective and which two are imperfective?",
+          "options": [
+            "войти/вошёл = perfective; входить/входит = imperfective",
+            "All are perfective",
+            "входить/входит = perfective; войти/вошёл = imperfective"
+          ],
+          "answer": "войти/вошёл = perfective; входить/входит = imperfective",
+          "explanation": "Unidirectional base (идти) + prefix = perfective (войти/вошёл). Multidirectional base (ходить) + prefix = imperfective (входить/входит)."
+        }
+      ],
+      "translation": [
+        {
+          "english": "She entered the store and bought bread.",
+          "answer": "Она вошла в магазин и купила хлеб.",
+          "acceptableVariants": [
+            "Она зашла в магазин и купила хлеб."
+          ],
+          "hint": "entered = вошла (в- = into, perfective single action), в магазин (into the store)",
+          "grammarFocus": "в- prefix for movement into",
+          "keyWord": "вошла",
+          "options": [
+            "вошла",
+            "вышла",
+            "ушла",
+            "пришла"
+          ]
+        },
+        {
+          "english": "He left the house and went to work.",
+          "answer": "Он вышел из дома и пошёл на работу.",
+          "acceptableVariants": [
+            "Он ушёл из дома и пошёл на работу."
+          ],
+          "hint": "left the house = вышел из дома (вы- = out of). Went = пошёл (по- + идти = set off)",
+          "grammarFocus": "вы- prefix for movement out of",
+          "keyWord": "вышел",
+          "options": [
+            "вышел",
+            "вошёл",
+            "пришёл",
+            "ушёл"
+          ]
+        },
+        {
+          "english": "The bus arrives at three o'clock every day.",
+          "answer": "Автобус приезжает в три часа каждый день.",
+          "acceptableVariants": [
+            "Каждый день автобус приезжает в три часа."
+          ],
+          "hint": "arrives (habitual) = приезжает (imperfective, при- = arrive, -ездить base)",
+          "grammarFocus": "при- prefix for arrival, imperfective for habitual",
+          "keyWord": "приезжает",
+          "options": [
+            "приезжает",
+            "приехал",
+            "уезжает",
+            "приедет"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All prefixed motion verbs in various contexts",
+      "descriptionRussian": "Все приставочные глаголы в разных контекстах",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Можно к вам _____? (May I come in?)",
+              "promptEnglish": "May I come in?",
+              "options": [
+                "войти",
+                "уйти",
+                "выйти",
+                "прийти"
+              ],
+              "answer": "войти",
+              "hint": "Asking to enter = в- (into).",
+              "explanation": "Asking permission to enter: войти (в- = into)."
+            },
+            {
+              "prompt": "Мы _____ мимо его дома, но не зашли. (We walked past his house but didn't drop in.)",
+              "promptEnglish": "We walked past his house but didn't stop in.",
+              "options": [
+                "подошли",
+                "обошли",
+                "перешли",
+                "прошли"
+              ],
+              "answer": "прошли",
+              "hint": "Про- = pass by/through.",
+              "explanation": "Passing by without stopping: прошли (про- = past/through). Не зашли = didn't drop in (за-)."
+            },
+            {
+              "prompt": "Она _____ от стола и подошла к окну. (She stepped away from the table and walked to the window.)",
+              "promptEnglish": "She stepped away from the table and walked to the window.",
+              "options": [
+                "подошла",
+                "отошла",
+                "зашла",
+                "перешла"
+              ],
+              "answer": "отошла",
+              "hint": "от- = away from.",
+              "explanation": "Moving away from something: отошла (от- = away from). Then подошла (под- = approach) to the window."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он _____ к нам в гости. (He dropped by for a visit.)",
+          "contextEnglish": "He dropped by for a visit.",
+          "options": [
+            "зашёл",
+            "прошёл"
+          ],
+          "answer": "зашёл",
+          "explanation": "За- = drop by briefly: зашёл (stopped in for a visit)."
+        },
+        {
+          "context": "Он _____ мимо нас и не заметил. (He walked past us and didn't notice.)",
+          "contextEnglish": "He walked past us without noticing.",
+          "options": [
+            "зашёл",
+            "прошёл"
+          ],
+          "answer": "прошёл",
+          "explanation": "Про- = pass by: прошёл мимо (walked past without stopping)."
+        },
+        {
+          "context": "Она _____ от двери. (She stepped away from the door.)",
+          "contextEnglish": "She stepped away from the door.",
+          "options": [
+            "отошла",
+            "подошла"
+          ],
+          "answer": "отошла",
+          "explanation": "От- = away: отошла (moved away from the door)."
+        },
+        {
+          "context": "Она _____ к двери. (She walked up to the door.)",
+          "contextEnglish": "She walked up to the door.",
+          "options": [
+            "отошла",
+            "подошла"
+          ],
+          "answer": "подошла",
+          "explanation": "Под- = approach: подошла (walked up to the door)."
+        }
+      ]
+    }
+  ]
+}

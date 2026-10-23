@@ -1,0 +1,277 @@
+{
+  "id": "a2-track-conjunctions-03-potomu-vs-poetomu",
+  "level": "A2",
+  "focusArea": "sentenceStructure",
+  "title": "Conjunctions 3: потому что vs поэтому (Why vs So)",
+  "titleRussian": "Союзы 3: потому что vs поэтому (почему и поэтому)",
+  "description": "Потому что answers why (the reason follows). Поэтому states the result (the consequence follows). They point in opposite directions: Он остался дома, потому что был болен. Он был болен, поэтому остался дома.",
+  "descriptionRussian": "Потому что отвечает на вопрос почему (после него идёт причина). Поэтому называет следствие (после него идёт результат). Эти союзы указывают в противоположные стороны: Он остался дома, потому что был болен. Он был болен, поэтому остался дома.",
+  "imageName": "arrow.left.arrow.right",
+  "trackId": "a2-conjunctions-mastery",
+  "trackTitle": "Conjunctions Mastery",
+  "trackTitleRussian": "Союзы",
+  "trackIndex": 3,
+  "trackTotal": 5,
+  "intro": "Two connectors that describe the same relationship from opposite ends. One introduces the reason and the other introduces the result, so the same two facts can be joined either way around depending on which half you put first. Getting them backwards produces a sentence that is perfectly grammatical and says the opposite of what you meant.",
+  "rules": [
+    "Потому что = because. What follows is the REASON. Structure: RESULT, потому что REASON. Example: Он остался дома, потому что был болен.",
+    "Поэтому = so / therefore. What follows is the RESULT. Structure: REASON, поэтому RESULT. Example: Он был болен, поэтому остался дома.",
+    "Translation test: if the English connector is 'because', use потому что; if it is 'so' or 'therefore', use поэтому.",
+    "The same two facts can be expressed either way; the conjunction chosen tells the listener which half to read as the reason and which as the consequence.",
+    "Both connectors take a comma in front of them when they join two clauses: ..., потому что ...; ..., поэтому ...."
+  ],
+  "examples": [
+    "Он остался дома, потому что был болен. (He stayed home because he was ill.) Result first, reason after потому что.",
+    "Он был болен, поэтому остался дома. (He was ill, so he stayed home.) Reason first, result after поэтому.",
+    "Я не пришёл, потому что забыл. (I did not come because I forgot.) Result, then reason.",
+    "Я забыл, поэтому не пришёл. (I forgot, so I did not come.) Reason, then result.",
+    "Магазин закрыт, потому что воскресенье. (The shop is closed because it is Sunday.) Result, then reason.",
+    "Сегодня воскресенье, поэтому магазин закрыт. (Today is Sunday, so the shop is closed.) Reason, then result."
+  ],
+  "tables": [
+    {
+      "title": "потому что vs поэтому: which half follows?",
+      "headers": [
+        "Connector",
+        "What follows",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "потому что (because)",
+          "cells": [
+            "the REASON",
+            "Он остался дома, потому что был болен."
+          ]
+        },
+        {
+          "label": "поэтому (so, therefore)",
+          "cells": [
+            "the RESULT",
+            "Он был болен, поэтому остался дома."
+          ]
+        },
+        {
+          "label": "потому что (because)",
+          "cells": [
+            "the REASON",
+            "Я не пришёл, потому что забыл."
+          ]
+        },
+        {
+          "label": "поэтому (so, therefore)",
+          "cells": [
+            "the RESULT",
+            "Я забыл, поэтому не пришёл."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Он остался дома, _____ был болен.",
+          "promptEnglish": "He stayed home because he was ill.",
+          "options": [
+            "поэтому",
+            "потому что",
+            "но",
+            "а"
+          ],
+          "answer": "потому что",
+          "hint": "Which half is the reason - the first or the second?",
+          "explanation": "The first half ('he stayed home') is the result; the second half ('he was ill') is the reason. The reason follows the connector, so the right word is потому что (because). Поэтому would put the result after it, which is the opposite of what is happening here."
+        },
+        {
+          "prompt": "Он был болен, _____ остался дома.",
+          "promptEnglish": "He was ill, so he stayed home.",
+          "options": [
+            "потому что",
+            "и",
+            "поэтому",
+            "но"
+          ],
+          "answer": "поэтому",
+          "hint": "Now the reason comes first. Which connector puts the result after it?",
+          "explanation": "Now the reason ('he was ill') comes first, and the result ('he stayed home') comes after. Поэтому (so / therefore) introduces the result, so it fits. The same two facts can use either потому что or поэтому, depending on which order you put them in."
+        },
+        {
+          "prompt": "Я не пришёл, _____ забыл.",
+          "promptEnglish": "I did not come because I forgot.",
+          "options": [
+            "потому что",
+            "поэтому",
+            "и",
+            "а"
+          ],
+          "answer": "потому что",
+          "hint": "What follows is the explanation, not the consequence.",
+          "explanation": "The first half ('I did not come') is what happened; the second half ('I forgot') explains why. The reason follows the connector, so the right word is потому что. The English 'because' is the cleanest translation cue."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я забыл, _____ не пришёл.",
+          "promptEnglish": "I forgot, so I did not come.",
+          "options": [
+            "потому что",
+            "и",
+            "поэтому",
+            "хотя"
+          ],
+          "answer": "поэтому",
+          "hint": "The reason comes first; what follows is the consequence.",
+          "explanation": "The reason ('I forgot') comes first, and the consequence ('I did not come') follows. Поэтому introduces the consequence, so it fits. English 'so' or 'therefore' is the translation cue for поэтому."
+        },
+        {
+          "prompt": "Магазин закрыт, _____ сегодня воскресенье.",
+          "promptEnglish": "The shop is closed because today is Sunday.",
+          "options": [
+            "поэтому",
+            "но",
+            "и",
+            "потому что"
+          ],
+          "answer": "потому что",
+          "hint": "Why is the shop closed? The answer comes after the blank.",
+          "explanation": "The fact ('the shop is closed') comes first; the reason ('today is Sunday') follows. That is the потому что pattern. The English 'because' is the translation cue."
+        },
+        {
+          "prompt": "Сегодня воскресенье, _____ магазин закрыт.",
+          "promptEnglish": "Today is Sunday, so the shop is closed.",
+          "options": [
+            "потому что",
+            "поэтому",
+            "но",
+            "тоже"
+          ],
+          "answer": "поэтому",
+          "hint": "Reason first, then the consequence.",
+          "explanation": "The reason ('today is Sunday') comes first; the consequence ('the shop is closed') follows. Поэтому introduces the consequence, so it fits. Note how the same two facts make a different sentence depending on which conjunction you pick."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я не купил молоко, _____ магазин был закрыт. (I did not buy milk because the shop was closed.)"
+    ],
+    "choices": [
+      "поэтому",
+      "потому что",
+      "и",
+      "но"
+    ],
+    "answers": [
+      "потому что"
+    ],
+    "grammarFocus": "The first half is the result ('I did not buy milk'); the second half is the reason ('the shop was closed'). The reason follows the connector, so the right word is потому что. The English 'because' is the cue."
+  },
+  "minimalPairs": [
+    {
+      "context": "Антон не пришёл, _____ заболел.",
+      "contextEnglish": "Anton did not come because he got sick.",
+      "options": [
+        "потому что",
+        "поэтому"
+      ],
+      "answer": "потому что",
+      "explanation": "The first half ('Anton did not come') is the result; the second half ('he got sick') is the reason. The reason follows the connector, so the word is потому что. Поэтому would put the result after it, which would mean 'Anton did not come, therefore he got sick' - the cause-result is reversed."
+    },
+    {
+      "context": "Антон заболел, _____ не пришёл.",
+      "contextEnglish": "Anton got sick, so he did not come.",
+      "options": [
+        "потому что",
+        "поэтому"
+      ],
+      "answer": "поэтому",
+      "explanation": "Now the reason ('Anton got sick') comes first; the consequence ('he did not come') follows. Поэтому introduces the consequence. Потому что here would mean 'Anton got sick because he did not come', which is nonsense - the consequence cannot be the cause."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "На улице дождь, потому что я взял зонт.",
+      "translationEnglish": "It is raining, so I took an umbrella.",
+      "error": "потому что",
+      "correction": "поэтому",
+      "options": [
+        "поэтому",
+        "но",
+        "и"
+      ],
+      "explanation": "Потому что puts the reason after it, so this literally says 'it is raining because I took an umbrella', which makes the umbrella the cause of the rain: backwards. The rain is the reason and taking the umbrella is the result, so the connector that puts the result after it is поэтому: На улице дождь, поэтому я взял зонт. Потому что would be right only if the second half really were the cause (На улице дождь, потому что осень - it is raining because it is autumn)."
+    },
+    {
+      "sentence": "Я устал, потому что лёг спать рано.",
+      "translationEnglish": "I am tired, so I went to bed early.",
+      "error": "потому что",
+      "correction": "поэтому",
+      "options": [
+        "поэтому",
+        "и",
+        "но"
+      ],
+      "explanation": "With потому что the second half is read as the cause, giving 'I am tired because I went to bed early', which reverses the logic: going to bed early should cure tiredness, not cause it. Tiredness is the reason and going to bed early is the result, so поэтому fits: Я устал, поэтому лёг спать рано. Потому что would be correct if the order were flipped to put the genuine cause second (Я лёг спать рано, потому что устал - I went to bed early because I was tired)."
+    },
+    {
+      "sentence": "Я опоздал, поэтому была пробка.",
+      "translationEnglish": "I was late because there was a traffic jam.",
+      "error": "поэтому",
+      "correction": "потому что",
+      "options": [
+        "потому что",
+        "но",
+        "и"
+      ],
+      "explanation": "Поэтому puts the result after it, so this says 'I was late, therefore there was a traffic jam', making my lateness cause the jam: backwards. The traffic jam is the reason and being late is the result, so the connector that introduces the reason is потому что: Я опоздал, потому что была пробка. Поэтому would be right only with the order reversed (Была пробка, поэтому я опоздал - There was a jam, so I was late)."
+    },
+    {
+      "sentence": "Была пробка, потому что я опоздал.",
+      "translationEnglish": "There was a traffic jam, so I was late.",
+      "error": "потому что",
+      "correction": "поэтому",
+      "options": [
+        "поэтому",
+        "и",
+        "но"
+      ],
+      "explanation": "Потому что makes the second half the cause, giving 'there was a jam because I was late', which puts the effect before the cause: nonsense, since my being late cannot create the jam. The jam is the reason and being late is the result, so поэтому fits: Была пробка, поэтому я опоздал. Потому что would only be correct if the half after it really were the cause (Я опоздал, потому что была пробка - I was late because there was a jam)."
+    },
+    {
+      "sentence": "Сегодня холодно, потому что я надел куртку.",
+      "translationEnglish": "Today it is cold, so I put on a jacket.",
+      "error": "потому что",
+      "correction": "поэтому",
+      "options": [
+        "поэтому",
+        "но",
+        "и"
+      ],
+      "explanation": "Потому что reads the second half as the cause, giving 'it is cold because I put on a jacket', which makes the jacket cause the cold weather: backwards. The cold is the reason and putting on the jacket is the result, so поэтому is correct: Сегодня холодно, поэтому я надел куртку. Потому что would fit only if a true cause came after it (Я надел куртку, потому что холодно - I put on a jacket because it is cold)."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "потому что",
+      "definition": "because. What follows is the reason. Structure: RESULT, потому что REASON. Always takes a comma in front.",
+      "example": "Он остался дома, потому что был болен."
+    },
+    {
+      "term": "поэтому",
+      "definition": "so / therefore. What follows is the result. Structure: REASON, поэтому RESULT. Takes a comma in front when joining two clauses.",
+      "example": "Он был болен, поэтому остался дома."
+    },
+    {
+      "term": "translation test",
+      "definition": "if the English connector is 'because', use потому что; if it is 'so' or 'therefore', use поэтому. Same two facts, different connector, same logical relationship.",
+      "example": "I forgot, so I did not come. → Я забыл, поэтому не пришёл. / I did not come because I forgot. → Я не пришёл, потому что забыл."
+    }
+  ]
+}

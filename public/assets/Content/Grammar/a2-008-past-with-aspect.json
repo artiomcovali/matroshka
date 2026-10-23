@@ -1,0 +1,414 @@
+{
+  "id": "a2-008-past-with-aspect",
+  "level": "A2",
+  "focusArea": "aspect",
+  "title": "Past Tense and Aspect",
+  "titleRussian": "Прошедшее время и вид",
+  "description": "Aspect distinctions in past tense",
+  "descriptionRussian": "Различия вида в прошедшем времени",
+  "imageName": "clock.arrow.2.circlepath",
+  "intro": "In past tense, aspect choice becomes crucial. Both 'Я читал книгу' and 'Я прочитал книгу' are past tense, but they mean different things! Imperfective past describes WHAT you were doing (process, duration). Perfective past describes WHAT you accomplished (result, completion). Context clues like 'долго' (long time) or 'наконец' (finally) often signal which aspect to use.",
+  "rules": [
+    "Imperfective past = was doing, used to do, did repeatedly: Я читал книгу (I was reading).",
+    "Perfective past = did and finished, accomplished: Я прочитал книгу (I finished reading).",
+    "Duration/frequency words → imperfective: долго, часто, весь день, каждый день.",
+    "Result/completion words → perfective: уже, наконец, за час (in an hour), вдруг (suddenly)."
+  ],
+  "examples": [
+    "Что ты делал вчера? — Я читал книгу. (What did you do? — I was reading a book.), process",
+    "Ты прочитал книгу? — Да, прочитал. (Did you finish the book? — Yes, I did.), result",
+    "Я долго писал письмо. (I wrote the letter for a long time.), duration = imperfective",
+    "Я написал письмо за час. (I wrote the letter in an hour.), completion time = perfective"
+  ],
+  "tables": [
+    {
+      "title": "Past Tense: Imperfective vs. Perfective",
+      "headers": [
+        "",
+        "Imperfective (НСВ)",
+        "Perfective (СВ)"
+      ],
+      "rows": [
+        {
+          "label": "он (read)",
+          "cells": [
+            "читал",
+            "про|читал"
+          ]
+        },
+        {
+          "label": "она (read)",
+          "cells": [
+            "читала",
+            "про|читала"
+          ]
+        },
+        {
+          "label": "он (write)",
+          "cells": [
+            "писал",
+            "на|писал"
+          ]
+        },
+        {
+          "label": "она (write)",
+          "cells": [
+            "писала",
+            "на|писала"
+          ]
+        },
+        {
+          "label": "он (do)",
+          "cells": [
+            "делал",
+            "с|делал"
+          ]
+        },
+        {
+          "label": "она (do)",
+          "cells": [
+            "делала",
+            "с|делала"
+          ]
+        },
+        {
+          "label": "они (read)",
+          "cells": [
+            "читали",
+            "про|читали"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Aspect Signal Words",
+      "headers": [
+        "",
+        "Imperfective signals",
+        "Perfective signals"
+      ],
+      "rows": [
+        {
+          "label": "time",
+          "cells": [
+            "долго (a long time)",
+            "за час (in an hour)"
+          ]
+        },
+        {
+          "label": "frequency",
+          "cells": [
+            "каждый день (every day)",
+            "вдруг (suddenly)"
+          ]
+        },
+        {
+          "label": "duration",
+          "cells": [
+            "весь день (all day)",
+            "уже (already)"
+          ]
+        },
+        {
+          "label": "habit",
+          "cells": [
+            "часто (often)",
+            "наконец (finally)"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Что ты _____ вчера вечером? (What were you doing yesterday evening?)",
+          "promptEnglish": "What were you doing yesterday evening?",
+          "options": [
+            "делал",
+            "делаешь",
+            "сделал",
+            "сделаешь"
+          ],
+          "answer": "делал",
+          "hint": "Asking about activity/process",
+          "explanation": "'What were you doing?' asks about process → imperfective."
+        },
+        {
+          "prompt": "Я уже _____ домашнее задание. (I already finished my homework.)",
+          "promptEnglish": "I already finished my homework.",
+          "options": [
+            "делал",
+            "сделал",
+            "делаю",
+            "сделаю"
+          ],
+          "answer": "сделал",
+          "hint": "Уже (already) = completed = perfective",
+          "explanation": "'Already' signals completion → perfective."
+        },
+        {
+          "prompt": "Она весь день _____ на работе. (She worked all day.)",
+          "promptEnglish": "She worked all day.",
+          "options": [
+            "работает",
+            "поработала",
+            "работала",
+            "поработает"
+          ],
+          "answer": "работала",
+          "hint": "Duration (весь день) = imperfective",
+          "explanation": "'All day' is duration → imperfective."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Он наконец _____ эту задачу! (He finally solved this problem!)",
+          "promptEnglish": "He finally solved this problem!",
+          "options": [
+            "решит",
+            "решал",
+            "решает",
+            "решил"
+          ],
+          "answer": "решил",
+          "hint": "Наконец (finally) = achieved result = perfective",
+          "explanation": "'Finally' signals achieved result → perfective."
+        },
+        {
+          "prompt": "Мы часто _____ в этом ресторане. (We often ate at this restaurant.)",
+          "promptEnglish": "We often ate at this restaurant.",
+          "options": [
+            "обедали",
+            "пообедаем",
+            "пообедали",
+            "обедаем"
+          ],
+          "answer": "обедали",
+          "hint": "Repetition (часто) = imperfective",
+          "explanation": "'Often' indicates repetition → imperfective."
+        },
+        {
+          "prompt": "Я _____ письмо за пять минут. (I wrote the letter in five minutes.)",
+          "promptEnglish": "I wrote the letter in five minutes.",
+          "options": [
+            "писал",
+            "написал",
+            "пишу",
+            "напишу"
+          ],
+          "answer": "написал",
+          "hint": "За + time = how long it took to complete = perfective",
+          "explanation": "'За пять минут' = completion time → perfective."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Когда я _____, вдруг зазвонил телефон. (While I was reading, suddenly the phone rang.)",
+          "promptEnglish": "While I was reading, suddenly the phone rang.",
+          "options": [
+            "прочитал",
+            "читаю",
+            "читал",
+            "прочитаю"
+          ],
+          "answer": "читал",
+          "hint": "Background action (when something else happened) = imperfective",
+          "explanation": "Background ongoing action uses imperfective."
+        },
+        {
+          "prompt": "Он _____ и ушёл. (He ate and left.)",
+          "promptEnglish": "He ate and left.",
+          "options": [
+            "ест",
+            "ел",
+            "поест",
+            "поел"
+          ],
+          "answer": "поел",
+          "hint": "Sequential completed actions = perfective",
+          "explanation": "Both actions completed in sequence → perfective."
+        },
+        {
+          "prompt": "Раньше я каждый день _____ газету. (I used to read the newspaper every day.)",
+          "promptEnglish": "I used to read the newspaper every day.",
+          "options": [
+            "читал",
+            "прочитал",
+            "читаю",
+            "прочитаю"
+          ],
+          "answer": "читал",
+          "hint": "Habitual past action = imperfective",
+          "explanation": "'Used to' + repeated action → imperfective."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Change to past tense (male speaker), emphasizing the process of reading: Я читаю книгу.",
+          "promptEnglish": "Process = imperfective past",
+          "options": [
+            "Я читал книгу.",
+            "Я прочитал книгу.",
+            "Я читаю книгу.",
+            "Я читала книгу."
+          ],
+          "answer": "Я читал книгу.",
+          "hint": "Process = imperfective past",
+          "explanation": "An ongoing process uses the imperfective past: читаю → читал."
+        },
+        {
+          "prompt": "Change to past tense (male speaker), emphasizing you finished reading: Я читаю книгу.",
+          "promptEnglish": "Completed = perfective past",
+          "options": [
+            "Я прочитал книгу.",
+            "Я читал книгу.",
+            "Я читаю книгу.",
+            "Я прочитала книгу."
+          ],
+          "answer": "Я прочитал книгу.",
+          "hint": "Completed = perfective past",
+          "explanation": "A completed action uses the perfective past: читаю → прочитал."
+        },
+        {
+          "prompt": "Change to past tense, emphasizing she finished: Она делает уроки.",
+          "promptEnglish": "Finished = perfective past",
+          "options": [
+            "Она сделала уроки.",
+            "Она делала уроки.",
+            "Она делает уроки.",
+            "Она сделал уроки."
+          ],
+          "answer": "Она сделала уроки.",
+          "hint": "Finished = perfective past",
+          "explanation": "A completed action uses the perfective past: делает → сделала."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Вчера мы _____ новый фильм, а потом пошли в кафе. (Yesterday we watched a new movie and then went to a café.)"
+    ],
+    "choices": [
+      "посмотрели",
+      "смотрели",
+      "смотрим",
+      "посмотрим"
+    ],
+    "answers": [
+      "посмотрели"
+    ],
+    "grammarFocus": "Watching a movie to completion = perfective",
+    "hints": [
+      "Watching a movie from start to finish implies a completed action. Which aspect signals completion in the past?"
+    ],
+    "explanations": [
+      "Watching a movie to the end is a completed, one-time action, so use perfective past: посмотрели (watched fully), not смотрели (were watching)."
+    ],
+    "options": [
+      [
+        "посмотрели",
+        "смотрели",
+        "смотрим",
+        "посмотрим"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я два часа _____ письмо. (I wrote/was writing the letter for two hours.)",
+      "contextEnglish": "I was writing the letter for two hours.",
+      "options": [
+        "писал",
+        "написал"
+      ],
+      "answer": "писал",
+      "explanation": "Duration (два часа) = imperfective: писал."
+    },
+    {
+      "context": "Я _____ письмо и отправил его. (I wrote the letter and sent it.)",
+      "contextEnglish": "I wrote the letter and sent it.",
+      "options": [
+        "написал",
+        "писал"
+      ],
+      "answer": "написал",
+      "explanation": "Completed action, then next action → perfective: написал."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort signal words: imperfective or perfective?",
+    "categories": [
+      "Imperfective signals",
+      "Perfective signals"
+    ],
+    "items": [
+      {
+        "word": "долго (long time)",
+        "category": "Imperfective signals"
+      },
+      {
+        "word": "уже (already)",
+        "category": "Perfective signals"
+      },
+      {
+        "word": "каждый день (every day)",
+        "category": "Imperfective signals"
+      },
+      {
+        "word": "наконец (finally)",
+        "category": "Perfective signals"
+      },
+      {
+        "word": "весь день (all day)",
+        "category": "Imperfective signals"
+      },
+      {
+        "word": "за час (in an hour)",
+        "category": "Perfective signals"
+      },
+      {
+        "word": "часто (often)",
+        "category": "Imperfective signals"
+      },
+      {
+        "word": "вдруг (suddenly)",
+        "category": "Perfective signals"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "долго / за + время",
+      "definition": "for a long time / in (amount of) time",
+      "example": "Долго писал (was writing). Написал за час (wrote in an hour)."
+    },
+    {
+      "term": "уже / наконец",
+      "definition": "already / finally (signal perfective)",
+      "example": "Я уже прочитал книгу."
+    },
+    {
+      "term": "каждый день / часто",
+      "definition": "every day / often (signal imperfective)",
+      "example": "Он часто читал эту газету."
+    },
+    {
+      "term": "весь день",
+      "definition": "all day (duration = imperfective)",
+      "example": "Мы весь день работали."
+    }
+  ]
+}

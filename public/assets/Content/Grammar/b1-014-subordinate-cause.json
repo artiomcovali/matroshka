@@ -1,0 +1,286 @@
+{
+  "id": "b1-014-subordinate-cause",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Cause Clauses",
+  "titleRussian": "Придаточные причины",
+  "description": "Потому что, так как, поскольку, ведь",
+  "descriptionRussian": "Союзы причины и их употребление",
+  "imageName": "arrow.right.arrow.left",
+  "intro": "Russian has several ways to express cause and reason. ПОТОМУ ЧТО (because) is most common and neutral. ТАК КАК (since/as) is slightly more formal and often begins sentences. ПОСКОЛЬКУ (since/inasmuch as) is formal/written. ВЕДЬ (after all/you see) adds emotional emphasis or reminds of known information. ИЗ-ЗА ТОГО ЧТО (because of the fact that) emphasizes negative causes. Choose based on formality and emphasis.",
+  "rules": [
+    "Потому что = because (neutral, most common): Я опоздал, потому что был дождь.",
+    "Так как = since/as (formal, often sentence-initial): Так как было поздно, мы ушли.",
+    "Поскольку = since/inasmuch as (formal/written): Поскольку он болен, он не придёт.",
+    "Ведь = after all/you see (emotional, reminds): Помоги мне, ведь ты мой друг!"
+  ],
+  "examples": [
+    "Я не пришёл, потому что заболел. (I didn't come because I got sick.)",
+    "Так как магазин был закрыт, мы пошли домой. (Since the store was closed, we went home.)",
+    "Поскольку результаты известны, можно начинать. (Since the results are known, we can begin.)",
+    "Не волнуйся, ведь всё будет хорошо! (Don't worry, after all everything will be fine!)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я не смог прийти, _____ был занят. (I couldn't come because I was busy.)",
+          "promptEnglish": "I couldn't come because I was busy.",
+          "options": [
+            "поэтому",
+            "потому что",
+            "хотя",
+            "чтобы"
+          ],
+          "answer": "потому что",
+          "hint": "Neutral 'because' = потому что",
+          "explanation": "Neutral cause uses потому что."
+        },
+        {
+          "prompt": "_____ было уже поздно, мы решили остаться. (Since it was already late, we decided to stay.)",
+          "promptEnglish": "Since it was already late, we decided to stay.",
+          "options": [
+            "Поэтому",
+            "Потому что",
+            "Так как",
+            "Чтобы"
+          ],
+          "answer": "Так как",
+          "hint": "Sentence-initial 'since' = так как",
+          "explanation": "Formal sentence-initial cause uses так как."
+        },
+        {
+          "prompt": "Помоги мне, _____ ты мой друг! (Help me, after all you're my friend!)",
+          "promptEnglish": "Help me, after all you're my friend!",
+          "options": [
+            "поскольку",
+            "так как",
+            "потому что",
+            "ведь"
+          ],
+          "answer": "ведь",
+          "hint": "Emotional reminder = ведь",
+          "explanation": "Emotional appeal/reminder uses ведь."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ все документы готовы, можно подписать договор. (Since all documents are ready, we can sign the contract.)",
+          "promptEnglish": "Since all documents are ready, we can sign the contract.",
+          "options": [
+            "Потому",
+            "Ведь",
+            "Хотя",
+            "Поскольку"
+          ],
+          "answer": "Поскольку",
+          "hint": "Formal/written 'since' = поскольку",
+          "explanation": "Formal written style uses поскольку."
+        },
+        {
+          "prompt": "Он не пришёл на работу, _____ заболел. (He didn't come to work because he got sick.)",
+          "promptEnglish": "He didn't come to work because he got sick.",
+          "options": [
+            "ведь",
+            "чтобы",
+            "потому что",
+            "поэтому"
+          ],
+          "answer": "потому что",
+          "hint": "Neutral 'because' = потому что",
+          "explanation": "Neutral explanation uses потому что."
+        },
+        {
+          "prompt": "Не беспокойся, _____ я всё сделаю! (Don't worry, I'll do everything, you know!)",
+          "promptEnglish": "Don't worry, I'll do everything!",
+          "options": [
+            "если",
+            "потому что",
+            "ведь",
+            "так как"
+          ],
+          "answer": "ведь",
+          "hint": "Reassurance/reminder = ведь",
+          "explanation": "Reassurance uses ведь."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "_____ у меня не было денег, я не купил билет. (Since I didn't have money, I didn't buy a ticket.)",
+          "promptEnglish": "Since I didn't have money, I didn't buy a ticket.",
+          "options": [
+            "Поэтому",
+            "Так как",
+            "Ведь",
+            "Чтобы"
+          ],
+          "answer": "Так как",
+          "hint": "Sentence-initial cause = так как",
+          "explanation": "Sentence-initial 'since' uses так как."
+        },
+        {
+          "prompt": "Мы опоздали, _____ автобус сломался. (We were late because the bus broke down.)",
+          "promptEnglish": "We were late because the bus broke down.",
+          "options": [
+            "поэтому",
+            "ведь",
+            "так как",
+            "потому что"
+          ],
+          "answer": "потому что",
+          "hint": "Explaining reason after result = потому что",
+          "explanation": "Cause after result uses потому что."
+        },
+        {
+          "prompt": "Ты должен понять, _____ это важно! (You must understand, after all this is important!)",
+          "promptEnglish": "You must understand, this is important!",
+          "options": [
+            "если",
+            "ведь",
+            "потому что",
+            "поскольку"
+          ],
+          "answer": "ведь",
+          "hint": "Emotional emphasis = ведь",
+          "explanation": "Emotional emphasis uses ведь."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Мы не пошли гулять, _____ шёл дождь. (We didn't go for a walk because it was raining.)",
+      "_____ было поздно, магазины закрылись. (Since it was late, the stores closed.)",
+      "Я остался дома, _____ плохо себя чувствовал. (I stayed home because I felt unwell.)"
+    ],
+    "choices": [
+      "потому что",
+      "Так как",
+      "потому что",
+      "хотя",
+      "когда",
+      "чтобы"
+    ],
+    "answers": [
+      "потому что",
+      "Так как",
+      "потому что"
+    ],
+    "grammarFocus": "Cause conjunctions: потому что (because, after main clause), так как (since, before main clause)",
+    "hints": [
+      "Cause after the main clause — which conjunction?",
+      "Cause at the beginning of the sentence — which conjunction?",
+      "Cause after the main clause — which conjunction?"
+    ],
+    "explanations": [
+      "Потому что (because) gives the reason after the main clause.",
+      "Так как (since) introduces the reason at the beginning of the sentence.",
+      "Потому что is the most common cause conjunction after the main clause."
+    ],
+    "options": [
+      [
+        "Так как",
+        "потому что",
+        "чтобы",
+        "когда"
+      ],
+      [
+        "потому что",
+        "поэтому",
+        "чтобы",
+        "Так как"
+      ],
+      [
+        "хотя",
+        "Так как",
+        "когда",
+        "потому что"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я не пришёл, _____ был болен. (neutral explanation)",
+      "contextEnglish": "I didn't come because I was sick.",
+      "options": [
+        "потому что",
+        "ведь"
+      ],
+      "answer": "потому что",
+      "explanation": "Neutral cause uses потому что."
+    },
+    {
+      "context": "Помоги, _____ ты обещал! (emotional reminder)",
+      "contextEnglish": "Help, after all you promised!",
+      "options": [
+        "ведь",
+        "потому что"
+      ],
+      "answer": "ведь",
+      "explanation": "Emotional reminder uses ведь."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by register/style",
+    "categories": [
+      "Neutral/Common",
+      "Formal/Written",
+      "Emotional/Spoken"
+    ],
+    "items": [
+      {
+        "word": "потому что",
+        "category": "Neutral/Common"
+      },
+      {
+        "word": "так как",
+        "category": "Formal/Written"
+      },
+      {
+        "word": "поскольку",
+        "category": "Formal/Written"
+      },
+      {
+        "word": "ведь",
+        "category": "Emotional/Spoken"
+      },
+      {
+        "word": "из-за того что",
+        "category": "Neutral/Common"
+      },
+      {
+        "word": "раз",
+        "category": "Emotional/Spoken"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "потому что",
+      "definition": "because (neutral)",
+      "example": "Я устал, потому что много работал."
+    },
+    {
+      "term": "так как",
+      "definition": "since/as (formal, often first)",
+      "example": "Так как было поздно, мы ушли."
+    },
+    {
+      "term": "поскольку",
+      "definition": "since (formal/written)",
+      "example": "Поскольку он болен, он не придёт."
+    },
+    {
+      "term": "ведь",
+      "definition": "after all (emotional)",
+      "example": "Помоги, ведь ты мой друг!"
+    }
+  ]
+}

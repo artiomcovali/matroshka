@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-027",
+  "title": "Rejected Application",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Your application was rejected unfairly - appeal the decision",
+  "imageName": "doc.text.fill",
+  "initialPrompt": "Ваша заявка отклонена. Недостаточно документов.",
+  "systemPrompt": "You work at government office. Application rejected for missing document that wasn't on the list. Be bureaucratic. Accept appeal only if applicant cites specific regulation or asks for supervisor. Keep replies short.",
+  "completionCriteria": "User got application reconsidered or spoke to supervisor.",
+  "responseLimit": 15,
+  "hints": [
+    "Какой документ отсутствует? (Which document is missing?)",
+    "Я хочу поговорить с начальником (I want to speak to the supervisor)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "заявка",
+      "definition": "application"
+    },
+    {
+      "word": "отклонить",
+      "definition": "to reject"
+    },
+    {
+      "word": "документ",
+      "definition": "document"
+    },
+    {
+      "word": "апелляция",
+      "definition": "appeal"
+    },
+    {
+      "word": "начальник",
+      "definition": "supervisor"
+    },
+    {
+      "word": "правило",
+      "definition": "rule"
+    }
+  ],
+  "objectives": [
+    "Ask why application was rejected",
+    "Question the missing document requirement",
+    "Request reconsideration",
+    "Escalate to supervisor",
+    "Get fair review"
+  ]
+}

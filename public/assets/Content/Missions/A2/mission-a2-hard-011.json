@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-011",
+  "title": "The Job Interview Disaster",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "The interviewer thinks you're someone else and asks strange questions",
+  "imageName": "person.badge.clock.fill",
+  "initialPrompt": "А, вы программист из Новосибирска! Отлично! Сколько лет опыта работы с роботами?",
+  "systemPrompt": "You are a confused interviewer. You think this is a different candidate (programmer from Novosibirsk). Ask about robots, then space tech, then cooking robots. User must politely correct you multiple times about who they are and their actual profession. Only realize mistake when user clearly states their name and job twice. Keep replies short.",
+  "completionCriteria": "User corrected all misunderstandings and interview started properly.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините, я не программист (Sorry, I'm not a programmer)",
+    "Меня зовут... Я работаю... (My name is... I work as...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "собеседование",
+      "definition": "interview"
+    },
+    {
+      "word": "профессия",
+      "definition": "profession"
+    },
+    {
+      "word": "опыт",
+      "definition": "experience"
+    },
+    {
+      "word": "ошибка",
+      "definition": "mistake"
+    },
+    {
+      "word": "кандидат",
+      "definition": "candidate"
+    },
+    {
+      "word": "резюме",
+      "definition": "resume"
+    }
+  ],
+  "objectives": [
+    "Correct that you're not from Novosibirsk",
+    "Explain you're not a programmer",
+    "State your actual name clearly",
+    "Explain your real profession",
+    "Get the interview back on track"
+  ]
+}

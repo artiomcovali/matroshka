@@ -1,0 +1,262 @@
+{
+  "id": "b2-010-subordination-deep",
+  "level": "B2",
+  "focusArea": "sentenceStructure",
+  "title": "Deep Subordination",
+  "titleRussian": "Подчинение (углублённый)",
+  "description": "Multi-level subordination structures",
+  "descriptionRussian": "Многоуровневое подчинение в сложных предложениях",
+  "imageName": "list.bullet.indent",
+  "intro": "Advanced Russian uses multiple levels of subordination - clauses within clauses. NESTED CLAUSES: Я думаю, что он знает, где она живёт. (I think that he knows where she lives - 3 levels). PARALLEL SUBORDINATES: Когда он пришёл и когда увидел это, он понял всё. EMBEDDED RELATIVES: Книга, которую написал человек, который жил здесь, интересна. Understanding nested structures is essential for reading literature and formal texts. Key skill: identify the main clause and trace each subordinate relationship.",
+  "rules": [
+    "Nested subordinates: main → sub1 → sub2: Я знаю, что он думает, что это правда",
+    "Each subordinate clause needs its own conjunction (что, который, когда, etc.)",
+    "Parallel subordinates share the main clause: Когда пришёл и когда увидел...",
+    "Comma before EVERY subordinate conjunction, even nested ones"
+  ],
+  "examples": [
+    "Я думаю, что он знает, что она уехала. (I think that he knows that she left.)",
+    "Она сказала, что книга, которую я дал, очень интересная. (She said the book I gave was interesting.)",
+    "Когда он понял, что опоздал, он расстроился. (When he understood he was late, he got upset.)",
+    "Я не знаю, почему он думает, что я это сделал. (I don't know why he thinks I did it.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я думаю, _____ он знает, _____ она живёт. (that / where)",
+          "promptEnglish": "I think that he knows where she lives.",
+          "options": [
+            "который, где",
+            "что, что",
+            "что, где",
+            "где, что"
+          ],
+          "answer": "что, где",
+          "hint": "Think that... knows where...",
+          "explanation": "Nested: что (statement) + где (place)."
+        },
+        {
+          "prompt": "Она сказала, _____ человек, _____ это сделал, ушёл. (that / who)",
+          "promptEnglish": "She said that the person who did this left.",
+          "options": [
+            "где, который",
+            "что, который",
+            "который, что",
+            "что, что"
+          ],
+          "answer": "что, который",
+          "hint": "Said that... person who...",
+          "explanation": "Nested: что + который (relative)."
+        },
+        {
+          "prompt": "_____ он пришёл и _____ увидел это, он всё понял. (When / when)",
+          "promptEnglish": "When he arrived and when he saw this, he understood everything.",
+          "options": [
+            "Когда, что",
+            "Если, когда",
+            "Когда, когда",
+            "Что, что"
+          ],
+          "answer": "Когда, когда",
+          "hint": "Parallel time clauses",
+          "explanation": "Parallel subordinates: когда...И когда..."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я не понимаю, _____ он думает, _____ это возможно. (why / that)",
+          "promptEnglish": "I don't understand why he thinks that this is possible.",
+          "options": [
+            "что, что",
+            "почему, что",
+            "почему, почему",
+            "что, почему"
+          ],
+          "answer": "почему, что",
+          "hint": "Don't understand why... thinks that...",
+          "explanation": "Nested: почему + что."
+        },
+        {
+          "prompt": "Книга, _____ написал автор, _____ жил в Москве, популярна. (which / who)",
+          "promptEnglish": "The book written by the author who lived in Moscow is popular.",
+          "options": [
+            "который, которую",
+            "что, который",
+            "которую, что",
+            "которую, который"
+          ],
+          "answer": "которую, который",
+          "hint": "Book which... author who...",
+          "explanation": "Nested relatives: которую + который."
+        },
+        {
+          "prompt": "Он спросил, знаю _____ я, _____ она вернётся. (if / when)",
+          "promptEnglish": "He asked if I know when she will return.",
+          "options": [
+            "ли, что",
+            "когда, ли",
+            "что, когда",
+            "ли, когда"
+          ],
+          "answer": "ли, когда",
+          "hint": "Asked if (ли) I know... when...",
+          "explanation": "Nested: знаю ли я (yes/no indirect) + когда."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Мы узнали, _____ случилось, _____ мы уехали. (what / after)",
+          "promptEnglish": "We found out what happened after we left.",
+          "options": [
+            "когда, что",
+            "после того как, что",
+            "что, после того как",
+            "что, что"
+          ],
+          "answer": "что, после того как",
+          "hint": "Found out what... after...",
+          "explanation": "Nested: что + после того как."
+        },
+        {
+          "prompt": "Я рад, _____ ты понял, _____ я имел в виду. (that / what)",
+          "promptEnglish": "I'm glad that you understood what I meant.",
+          "options": [
+            "где, что",
+            "что, который",
+            "что, что",
+            "который, что"
+          ],
+          "answer": "что, что",
+          "hint": "Glad that... understood what...",
+          "explanation": "Both что: statement + content."
+        },
+        {
+          "prompt": "How many subordinate levels? Я знаю, что он думает, что она права.",
+          "promptEnglish": "I know that he thinks that she is right.",
+          "options": [
+            "1 level",
+            "2 levels",
+            "3 levels",
+            "4 levels"
+          ],
+          "answer": "3 levels",
+          "hint": "Main + sub1 + sub2",
+          "explanation": "Я знаю (main) → что он думает (sub1) → что она права (sub2)."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Он сказал, _____ не помнит, _____ она положила ключи. (that / where)",
+          "promptEnglish": "He said that he doesn't remember where she put the keys.",
+          "options": [
+            "где, что",
+            "что, куда",
+            "который, где",
+            "что, что"
+          ],
+          "answer": "что, куда",
+          "hint": "Said that... doesn't remember where to...",
+          "explanation": "Nested subordination: что introduces the reported statement, куда introduces the location clause (direction: where she put them)."
+        },
+        {
+          "prompt": "Учитель объяснил, _____ задача, _____ мы решали вчера, была на экзамене. (that / which)",
+          "promptEnglish": "The teacher explained that the problem we were solving yesterday was on the exam.",
+          "options": [
+            "что, которую",
+            "который, что",
+            "что, что",
+            "которую, что"
+          ],
+          "answer": "что, которую",
+          "hint": "Explained that... the problem which...",
+          "explanation": "Nested: что introduces the main reported fact, которую introduces an embedded relative clause describing the task."
+        }
+      ]
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я знаю, что он сказал. (single level)",
+      "contextEnglish": "I know what he said.",
+      "options": [
+        "1 subordinate",
+        "2 subordinates"
+      ],
+      "answer": "1 subordinate",
+      "explanation": "Single что clause."
+    },
+    {
+      "context": "Я знаю, что он сказал, что придёт. (nested)",
+      "contextEnglish": "I know that he said that he would come.",
+      "options": [
+        "2 subordinates",
+        "1 subordinate"
+      ],
+      "answer": "2 subordinates",
+      "explanation": "Nested: что...Что..."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by subordination structure",
+    "categories": [
+      "Single subordinate",
+      "Nested (2+ levels)",
+      "Parallel subordinates"
+    ],
+    "items": [
+      {
+        "word": "Я знаю, что он придёт.",
+        "category": "Single subordinate"
+      },
+      {
+        "word": "Я думаю, что он знает, где это.",
+        "category": "Nested (2+ levels)"
+      },
+      {
+        "word": "Когда пришёл и когда увидел...",
+        "category": "Parallel subordinates"
+      },
+      {
+        "word": "Я рад, что ты здесь.",
+        "category": "Single subordinate"
+      },
+      {
+        "word": "Если хочешь и если можешь...",
+        "category": "Parallel subordinates"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "nested subordinates",
+      "definition": "clause within clause",
+      "example": "Знаю, что думает, что..."
+    },
+    {
+      "term": "parallel subordinates",
+      "definition": "multiple subs sharing main clause",
+      "example": "Когда пришёл и когда увидел..."
+    },
+    {
+      "term": "embedded relative",
+      "definition": "который clause inside another",
+      "example": "Книга, которую... который..."
+    },
+    {
+      "term": "subordination levels",
+      "definition": "count main + each nested clause",
+      "example": "3 levels = main + sub1 + sub2"
+    }
+  ]
+}

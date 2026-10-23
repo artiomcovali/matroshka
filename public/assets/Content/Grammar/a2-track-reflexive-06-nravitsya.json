@@ -1,0 +1,401 @@
+{
+  "id": "a2-track-reflexive-06-nravitsya",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Reflexive 6: Liking (нравиться + dative)",
+  "titleRussian": "Возвратные 6: «Нравиться» — кому нравится что",
+  "description": "To say someone likes something, Russian uses нравиться. The person who likes goes in the dative, and the thing they like is the nominative subject. The verb agrees with that thing.",
+  "descriptionRussian": "Чтобы сказать, что кто-то что-то любит, по-русски используют глагол «нравиться». Человек, которому нравится, стоит в дательном падеже, а то, что нравится, — подлежащее в именительном падеже. Глагол согласуется с подлежащим.",
+  "imageName": "arrow.triangle.2.circlepath",
+  "trackId": "a2-reflexive-mastery",
+  "trackTitle": "Reflexive Verbs Deep",
+  "trackTitleRussian": "Возвратные глаголы — глубокая проработка",
+  "trackIndex": 6,
+  "trackTotal": 12,
+  "intro": "You have met this verb already, in the dative book, where what mattered was who did the liking. Here what matters is that the verb is reflexive at all. It belongs to a group that exists only with the ending attached: there is no plain version to fall back on, so the ending is not doing a job you can undo. It is part of the word.",
+  "rules": [
+    "The person who likes goes in the dative: Маша → Маше, Антон → Антону, я → мне, ты → тебе.",
+    "The thing that is liked is the nominative subject and keeps its plain form: кофе, школа, фильм.",
+    "The verb agrees with the thing, not the person: one thing → нравится, more than one thing → нравятся.",
+    "Do not copy English. «Маша нравится кофе» is wrong; the person must be dative: Маше нравится кофе."
+  ],
+  "examples": [
+    "Маше нравится кофе. (Masha likes coffee.) Person Маше is dative; кофе is the nominative subject; one thing → нравится.",
+    "Антону нравится этот город. (Anton likes this city.) Person Антону is dative; город is the subject; one thing → нравится.",
+    "Мне нравится новая школа. (I like the new school.) Person мне is dative; школа is the subject; one thing → нравится.",
+    "Маше нравятся собаки. (Masha likes dogs.) Person Маше is dative; собаки is the plural subject; more than one → нравятся.",
+    "Лене нравятся эти песни. (Lena likes these songs.) Person Лене is dative; песни is plural → нравятся.",
+    "Тебе нравится чай? (Do you like tea?) Person тебе is dative; чай is the subject; one thing → нравится."
+  ],
+  "tables": [
+    {
+      "title": "Building нравиться: person (dative) + verb + thing (nominative subject)",
+      "headers": [
+        "Person (dative)",
+        "Verb",
+        "Thing (nominative subject)"
+      ],
+      "rows": [
+        {
+          "label": "Маше",
+          "cells": [
+            "нравится",
+            "кофе (one thing)"
+          ]
+        },
+        {
+          "label": "Антону",
+          "cells": [
+            "нравится",
+            "этот город (one thing)"
+          ]
+        },
+        {
+          "label": "Мне",
+          "cells": [
+            "нравится",
+            "новая школа (one thing)"
+          ]
+        },
+        {
+          "label": "Маше",
+          "cells": [
+            "нравятся",
+            "собаки (more than one)"
+          ]
+        },
+        {
+          "label": "Тебе",
+          "cells": [
+            "нравятся",
+            "эти песни (more than one)"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ нравится кофе.",
+          "promptEnglish": "Masha likes coffee.",
+          "options": [
+            "Маша",
+            "Маше",
+            "Машу",
+            "Машей"
+          ],
+          "answer": "Маше",
+          "hint": "Who likes? That person goes in the dative.",
+          "explanation": "The person who likes goes in the dative: Маша → Маше. English makes 'Masha' the subject, but Russian says 'coffee is pleasing to Masha,' so Masha is the dative person."
+        },
+        {
+          "prompt": "Маше нравится _____.",
+          "promptEnglish": "Masha likes coffee.",
+          "options": [
+            "кофе",
+            "кофей",
+            "кофю",
+            "кофем"
+          ],
+          "answer": "кофе",
+          "hint": "The liked thing is the subject. What form does a subject take?",
+          "explanation": "The liked thing is the nominative subject, so it keeps its plain dictionary form: кофе. (Кофе does not change its ending here.)"
+        },
+        {
+          "prompt": "Антону _____ этот город.",
+          "promptEnglish": "Anton likes this city.",
+          "options": [
+            "нравятся",
+            "нравится",
+            "нравлюсь",
+            "нравишься"
+          ],
+          "answer": "нравится",
+          "hint": "Is the liked thing one item or more than one?",
+          "explanation": "The verb agrees with the liked thing, not the person. Город is one thing, so the verb is нравится (singular). Нравятся is plural (wrong, only one city)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маше _____ собаки.",
+          "promptEnglish": "Masha likes dogs.",
+          "options": [
+            "нравится",
+            "нравятся",
+            "нравлюсь",
+            "нравимся"
+          ],
+          "answer": "нравятся",
+          "hint": "Собаки is plural. The verb follows the thing.",
+          "explanation": "The liked thing is собаки (more than one), so the verb is plural: нравятся. Нравится would be right for one thing only. The verb watches the thing (собаки), not the person (Маше)."
+        },
+        {
+          "prompt": "_____ нравится новая школа.",
+          "promptEnglish": "I like the new school.",
+          "options": [
+            "Я",
+            "Мне",
+            "Меня",
+            "Мной"
+          ],
+          "answer": "Мне",
+          "hint": "'I' as the one who likes becomes which dative form?",
+          "explanation": "The person who likes goes in the dative: я → мне. So 'I like' is Мне нравится. Я is the nominative, the English-style subject, wrong here."
+        },
+        {
+          "prompt": "Тебе нравятся _____?",
+          "promptEnglish": "Do you like these songs?",
+          "options": [
+            "эта песня",
+            "эту песню",
+            "эти песни",
+            "этой песне"
+          ],
+          "answer": "эти песни",
+          "hint": "The verb is plural (нравятся), so the liked thing must be plural too.",
+          "explanation": "The verb нравятся is plural, so the liked thing is the plural nominative subject: эти песни."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ нравится этот фильм. (Anton likes this film.)",
+      "Лене нравятся _____. (Lena likes these books.)"
+    ],
+    "choices": [
+      "Антону",
+      "Антон",
+      "эти книги",
+      "эту книгу"
+    ],
+    "answers": [
+      "Антону",
+      "эти книги"
+    ],
+    "grammarFocus": "The person who likes goes in the dative (Антон → Антону), and the liked thing is the nominative subject. With the plural verb нравятся, the thing must be the plural subject эти книги (not the accusative эту книгу)."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Лена нравится этот город.",
+      "translationEnglish": "Lena likes this city.",
+      "error": "Лена",
+      "correction": "Лене",
+      "options": [
+        "Лене",
+        "Лену",
+        "Леной"
+      ],
+      "explanation": "This copies English, where 'Lena' is the subject. In Russian the person who likes goes in the dative: Лена → Лене. The liked thing (город) is the nominative subject, and the verb нравится agrees with it."
+    },
+    {
+      "sentence": "Антону нравятся кофе.",
+      "translationEnglish": "Anton likes coffee.",
+      "error": "нравятся",
+      "correction": "нравится",
+      "options": [
+        "нравится",
+        "нравлюсь",
+        "нравишься"
+      ],
+      "explanation": "The verb agrees with the liked thing, not the person. Кофе is one thing, so the verb must be singular: нравится. Нравятся is plural and would need more than one thing."
+    },
+    {
+      "sentence": "Мне нравится эти песни.",
+      "translationEnglish": "I like these songs.",
+      "error": "нравится",
+      "correction": "нравятся",
+      "options": [
+        "нравятся",
+        "нравлюсь",
+        "нравимся"
+      ],
+      "explanation": "Песни is plural (more than one song), so the verb must be plural: нравятся. The singular нравится fits only one thing. The person мне (dative) is correct; the verb still follows the thing, and the thing here is plural."
+    },
+    {
+      "sentence": "Антона нравится новая школа.",
+      "translationEnglish": "Anton likes the new school.",
+      "error": "Антона",
+      "correction": "Антону",
+      "options": [
+        "Антону",
+        "Антон",
+        "Антоном"
+      ],
+      "explanation": "The person who likes goes in the dative: Антон → Антону. Антона is the accusative or genitive, not the dative. Only Антону names the liker correctly."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "_____ нравится кофе.",
+      "contextEnglish": "Masha likes coffee.",
+      "options": [
+        "Маша",
+        "Маше"
+      ],
+      "answer": "Маше",
+      "explanation": "The person who likes goes in the dative: Маше. The nominative Маша copies the English subject, but Russian says 'coffee is pleasing to Masha,' so the person is the dative Маше and кофе is the nominative subject."
+    },
+    {
+      "context": "Маше _____ кофе.",
+      "contextEnglish": "Masha likes coffee.",
+      "options": [
+        "нравится",
+        "нравятся"
+      ],
+      "answer": "нравится",
+      "explanation": "The verb agrees with the liked thing. Кофе is one thing, so the singular нравится is correct. Нравятся would need more than one thing."
+    },
+    {
+      "context": "Маше _____ собаки.",
+      "contextEnglish": "Masha likes dogs.",
+      "options": [
+        "нравится",
+        "нравятся"
+      ],
+      "answer": "нравятся",
+      "explanation": "The liked thing is собаки (more than one), so the verb is the plural нравятся. The verb watches the thing, not the person Маше. With one thing it would be нравится."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Антону нравится этот город.",
+      "question": "Which word is the subject the verb agrees with?",
+      "options": [
+        "город (the liked thing)",
+        "Антону (the person who likes)",
+        "нравится (the verb)",
+        "этот (the pointing word)"
+      ],
+      "answer": "город (the liked thing)",
+      "explanation": "The liked thing is the nominative subject, and the verb agrees with it. Город is one thing, so the verb is нравится. Антону is the dative person who likes, not the subject."
+    },
+    {
+      "sentence": "Маше нравятся эти книги.",
+      "question": "Why is the verb plural (нравятся)?",
+      "options": [
+        "Because the liked thing книги is plural",
+        "Because the person Маше is the subject",
+        "Because нравиться is always plural",
+        "Because эти comes before книги"
+      ],
+      "answer": "Because the liked thing книги is plural",
+      "explanation": "The verb agrees with the liked thing, which is the nominative subject. Книги is plural (more than one book), so the verb is plural нравятся. The person Маше is in the dative and never controls the verb."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each sentence by whether the liked thing is one item (нравится) or more than one (нравятся).",
+    "categories": [
+      "нравится (one thing)",
+      "нравятся (more than one)"
+    ],
+    "items": [
+      {
+        "word": "Маше нравится кофе.",
+        "category": "нравится (one thing)"
+      },
+      {
+        "word": "Антону нравятся собаки.",
+        "category": "нравятся (more than one)"
+      },
+      {
+        "word": "Мне нравится новая школа.",
+        "category": "нравится (one thing)"
+      },
+      {
+        "word": "Лене нравятся эти песни.",
+        "category": "нравятся (more than one)"
+      },
+      {
+        "word": "Тебе нравится этот фильм.",
+        "category": "нравится (one thing)"
+      },
+      {
+        "word": "Антону нравятся книги.",
+        "category": "нравятся (more than one)"
+      }
+    ]
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Маше",
+        "кофе",
+        "нравится"
+      ],
+      "answer": "Маше нравится кофе.",
+      "acceptableVariants": [
+        "маше нравится кофе",
+        "Маше нравится кофе",
+        "Кофе нравится Маше."
+      ],
+      "translation": "Masha likes coffee.",
+      "hint": "Person in the dative (Маше) + verb + the liked thing as the subject (кофе). One thing → нравится."
+    },
+    {
+      "words": [
+        "Антону",
+        "город",
+        "нравится",
+        "этот"
+      ],
+      "answer": "Антону нравится этот город.",
+      "acceptableVariants": [
+        "антону нравится этот город"
+      ],
+      "translation": "Anton likes this city.",
+      "hint": "Dative person (Антону) first, then нравится, then the subject этот город. One city → нравится."
+    },
+    {
+      "words": [
+        "Маше",
+        "собаки",
+        "нравятся"
+      ],
+      "answer": "Маше нравятся собаки.",
+      "acceptableVariants": [
+        "маше нравятся собаки",
+        "Собаки нравятся Маше."
+      ],
+      "translation": "Masha likes dogs.",
+      "hint": "Dative person (Маше) + verb + the plural subject собаки. More than one thing → нравятся."
+    },
+    {
+      "words": [
+        "Мне",
+        "школа",
+        "нравится",
+        "новая"
+      ],
+      "answer": "Мне нравится новая школа.",
+      "acceptableVariants": [
+        "мне нравится новая школа"
+      ],
+      "translation": "I like the new school.",
+      "hint": "The liker 'I' becomes the dative мне; the liked thing новая школа is the subject. One thing → нравится."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "нравиться + dative",
+      "definition": "to like = to be pleasing to; the person who likes is in the dative, and the liked thing is the nominative subject the verb agrees with",
+      "example": "Маше нравится кофе. (Masha likes coffee, literally 'coffee is pleasing to Masha.')"
+    },
+    {
+      "term": "нравится / нравятся",
+      "definition": "the verb agrees with the liked thing: нравится for one thing, нравятся for more than one",
+      "example": "Маше нравится кофе. Маше нравятся собаки."
+    },
+    {
+      "term": "кому? (dative person)",
+      "definition": "to whom? - the dative form of the person who likes: Маша → Маше, Антон → Антону, я → мне, ты → тебе",
+      "example": "Кому нравится этот город? — Антону."
+    }
+  ]
+}

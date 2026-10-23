@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-013",
+  "title": "Package Too Heavy",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "Your package exceeds the weight limit at the post office",
+  "imageName": "shippingbox.fill",
+  "initialPrompt": "Здравствуйте! Положите посылку на весы, пожалуйста.",
+  "systemPrompt": "You work at post office. Package is 6kg but limit is 5kg. Options: remove items or pay extra 200₽. Keep replies short.",
+  "completionCriteria": "User learned about weight limit and chose to pay extra or remove items.",
+  "responseLimit": 15,
+  "hints": [
+    "Сколько стоит отправить? (How much to send?)",
+    "Это слишком тяжело? (Is it too heavy?)",
+    "Хорошо, я заплачу больше (OK, I'll pay more)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "посылка",
+      "definition": "package"
+    },
+    {
+      "word": "почта",
+      "definition": "post office"
+    },
+    {
+      "word": "тяжёлый",
+      "definition": "heavy"
+    },
+    {
+      "word": "весы",
+      "definition": "scale"
+    },
+    {
+      "word": "лимит",
+      "definition": "limit"
+    }
+  ],
+  "objectives": [
+    "Try to send package (посылка)",
+    "Learn it's too heavy (тяжёлый)",
+    "Resolve the problem"
+  ]
+}

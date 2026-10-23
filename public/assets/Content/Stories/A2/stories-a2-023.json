@@ -1,0 +1,188 @@
+{
+  "id": "a2-023",
+  "level": "A2",
+  "narrator": "Маша",
+  "title": "На рынке",
+  "titleEnglish": "At the Market",
+  "description": "Маша идёт на рынок и покупает фрукты, овощи и сыр.",
+  "imageName": "cart.fill",
+  "fullText": "Сегодня суббота. Я пошла на рынок. Там много людей! Сначала я купила два килограмма яблок. Яблоки красные и вкусные. Потом я взяла три помидора и один огурец. Продавец спросил: «Что ещё?» Я ответила: «Дайте, пожалуйста, полкило сыра». Сыр стоил двести рублей. Потом я купила пять бананов. Пряник любит бананы! Дома я посчитала покупки. Четыре пакета! Рынок — это хорошо. Там всё свежее и вкусное.",
+  "reviewVocab": [
+    {
+      "word": "рынок",
+      "definition": "market",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "рынок",
+        "рынка",
+        "рынке"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "килограмм",
+      "definition": "kilogram",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "килограмм",
+        "килограмма",
+        "килограммов"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "продавец",
+      "definition": "seller, vendor",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "продавец",
+        "продавца",
+        "продавцу"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "покупка",
+      "definition": "purchase",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "покупка",
+        "покупки",
+        "покупок"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Куда пошла Маша?",
+      "options": [
+        "На рынок",
+        "В магазин",
+        "В кафе"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша пошла на рынок."
+    },
+    {
+      "prompt": "Сколько килограммов яблок купила Маша?",
+      "options": [
+        "Один килограмм",
+        "Три килограмма",
+        "Два килограмма"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша купила два килограмма яблок."
+    },
+    {
+      "prompt": "Какие были яблоки?",
+      "options": [
+        "Зелёные и кислые",
+        "Красные и вкусные",
+        "Жёлтые и большие"
+      ],
+      "correctIndex": 1,
+      "explanation": "Яблоки были красные и вкусные."
+    },
+    {
+      "prompt": "Что спросил продавец?",
+      "options": [
+        "Как вас зовут?",
+        "Сколько вам лет?",
+        "Что ещё?"
+      ],
+      "correctIndex": 2,
+      "explanation": "Продавец спросил: «Что ещё?»"
+    },
+    {
+      "prompt": "Сколько стоил сыр?",
+      "options": [
+        "Двести рублей",
+        "Триста рублей",
+        "Сто рублей"
+      ],
+      "correctIndex": 0,
+      "explanation": "Сыр стоил двести рублей."
+    },
+    {
+      "prompt": "Кто любит бананы?",
+      "options": [
+        "Маша",
+        "Пряник",
+        "Продавец"
+      ],
+      "correctIndex": 1,
+      "explanation": "Пряник любит бананы."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Маша купила два _____ яблок.",
+      "Потом Маша взяла три _____ и один огурец.",
+      "Продавец _____: «Что ещё?»",
+      "Маша купила пять _____.",
+      "На рынке всё свежее и _____."
+    ],
+    "choices": [
+      "килограмма",
+      "помидора",
+      "спросил",
+      "бананов",
+      "вкусное",
+      "сахара",
+      "дорогое"
+    ],
+    "answers": [
+      "килограмма",
+      "помидора",
+      "спросил",
+      "бананов",
+      "вкусное"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "After the number 'два' (two), what form does the noun take?",
+      "options": [
+        "Nominative plural (яблоки)",
+        "Genitive singular (яблока)",
+        "Genitive plural (яблок)"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "number",
+      "sentenceRef": "Я купила два килограмма яблок.",
+      "explanation": "After два, три, четыре, the noun takes the genitive singular form: два килограмма, три помидора, четыре пакета.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "After the number 'пять' (five), what form does the noun take?",
+      "options": [
+        "Genitive plural (бананов)",
+        "Genitive singular (банана)",
+        "Nominative plural (бананы)"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "number",
+      "sentenceRef": "Потом я купила пять бананов.",
+      "explanation": "After пять and higher numbers (5, 6, 7...), the noun takes the genitive plural form: пять бананов, шесть яблок, десять рублей.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "Which is correct: 'три помидора' or 'три помидоров'?",
+      "options": [
+        "Три помидоров (genitive plural)",
+        "Три помидора (genitive singular)",
+        "Три помидоры (nominative plural)"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "number",
+      "sentenceRef": "Потом я взяла три помидора и один огурец.",
+      "explanation": "After три (three), use genitive singular: три помидора. Genitive plural (помидоров) is used after пять and above: пять помидоров.",
+      "focusArea": "cases"
+    }
+  ],
+  "audioFile": "a2-023.m4a",
+  "audioTimingFile": "a2-023-timing.json"
+}

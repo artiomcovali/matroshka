@@ -1,0 +1,568 @@
+{
+  "lessonId": "a1-005-questions-basic",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Pick the right question word for each situation",
+      "descriptionRussian": "Выберите правильное вопросительное слово",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ это? — Это мой друг. (asking about a person)",
+              "promptEnglish": "_____ is this? This is my friend.",
+              "options": [
+                "Где",
+                "Кто",
+                "Когда",
+                "Что"
+              ],
+              "answer": "Кто",
+              "hint": "Asking about a person.",
+              "explanation": "Кто (Who) is used when asking about people."
+            },
+            {
+              "prompt": "_____ ты живёшь? — В Москве.",
+              "promptEnglish": "_____ do you live? In Moscow.",
+              "options": [
+                "Когда",
+                "Куда",
+                "Где",
+                "Откуда"
+              ],
+              "answer": "Где",
+              "hint": "Asking about location, not direction.",
+              "explanation": "Где (Where) asks about current location. The answer uses в + prepositional."
+            },
+            {
+              "prompt": "_____ ты идёшь? — В магазин.",
+              "promptEnglish": "_____ are you going? To the store.",
+              "options": [
+                "Что",
+                "Откуда",
+                "Где",
+                "Куда"
+              ],
+              "answer": "Куда",
+              "hint": "Asking about destination.",
+              "explanation": "Куда (Where to) asks about direction or destination."
+            },
+            {
+              "prompt": "_____ ты не пришёл? — Я был болен.",
+              "promptEnglish": "_____ didn't you come? I was sick.",
+              "options": [
+                "Где",
+                "Когда",
+                "Как",
+                "Почему"
+              ],
+              "answer": "Почему",
+              "hint": "Asking for a reason.",
+              "explanation": "Почему (Why) asks about the reason for something."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ ты? — В школе.",
+          "contextEnglish": "_____ are you? At school.",
+          "options": [
+            "Где",
+            "Куда"
+          ],
+          "answer": "Где",
+          "explanation": "Где asks about current location. Куда asks about direction/destination."
+        },
+        {
+          "context": "_____ ты идёшь? — В школу.",
+          "contextEnglish": "_____ are you going? To school.",
+          "options": [
+            "Куда",
+            "Где"
+          ],
+          "answer": "Куда",
+          "explanation": "Куда asks about direction/destination. Где asks about location."
+        },
+        {
+          "context": "_____ это на столе? — Это книга.",
+          "contextEnglish": "_____ is this on the table? It's a book.",
+          "options": [
+            "Кто",
+            "Что"
+          ],
+          "answer": "Что",
+          "explanation": "Книга is a thing. Use Что (What) for objects."
+        },
+        {
+          "context": "_____ ты приехал? — Из Петербурга.",
+          "contextEnglish": "_____ did you come? From Petersburg.",
+          "options": [
+            "Где",
+            "Откуда"
+          ],
+          "answer": "Откуда",
+          "explanation": "Откуда (Where from) asks about origin. Из + genitive in the answer."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in question words and sort them by category",
+      "descriptionRussian": "Вставьте вопросительные слова и рассортируйте их по группам",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "_____ тебя зовут? — Меня зовут Лена.",
+          "_____ это? — Это мой папа.",
+          "_____ ты работаешь? — В больнице.",
+          "_____ ты придёшь? — Завтра."
+        ],
+        "choices": [
+          "Как",
+          "Кто",
+          "Где",
+          "Когда"
+        ],
+        "answers": [
+          "Как",
+          "Кто",
+          "Где",
+          "Когда"
+        ],
+        "grammarFocus": "matching question words to contexts",
+        "hints": [
+          "Asking someone's name uses 'how' in Russian.",
+          "Asking about a person.",
+          "Asking about a place of work.",
+          "Asking about time."
+        ],
+        "explanations": [
+          "Как тебя зовут? (How are you called?) is how Russian asks 'What is your name?'",
+          "Папа is a person, so use Кто (Who).",
+          "Где (Where) asks about location: Где ты работаешь? (Where do you work?)",
+          "Когда (When) asks about time."
+        ],
+        "options": [
+          [
+            "Что",
+            "Кто",
+            "Как",
+            "Где"
+          ],
+          [
+            "Когда",
+            "Где",
+            "Что",
+            "Кто"
+          ],
+          [
+            "Куда",
+            "Как",
+            "Где",
+            "Когда"
+          ],
+          [
+            "Куда",
+            "Где",
+            "Когда",
+            "Как"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort these question words by what they ask about",
+        "categories": [
+          "People/Things",
+          "Place/Direction",
+          "Time/Reason/Manner"
+        ],
+        "items": [
+          {
+            "word": "кто",
+            "category": "People/Things"
+          },
+          {
+            "word": "что",
+            "category": "People/Things"
+          },
+          {
+            "word": "где",
+            "category": "Place/Direction"
+          },
+          {
+            "word": "куда",
+            "category": "Place/Direction"
+          },
+          {
+            "word": "откуда",
+            "category": "Place/Direction"
+          },
+          {
+            "word": "когда",
+            "category": "Time/Reason/Manner"
+          },
+          {
+            "word": "почему",
+            "category": "Time/Reason/Manner"
+          },
+          {
+            "word": "как",
+            "category": "Time/Reason/Manner"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-3-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Составь и переведи",
+      "description": "Build questions from words and translate question-answer pairs",
+      "descriptionRussian": "Составьте вопросы из слов и переведите пары вопрос-ответ",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "What is this? This is tea.",
+          "answer": "Что это? Это чай.",
+          "acceptableVariants": [
+            "Что это? Это — чай."
+          ],
+          "hint": "what = что, tea = чай",
+          "grammarFocus": "что + это",
+          "keyWord": "Что",
+          "options": [
+            "Что",
+            "Кто",
+            "Где",
+            "Как"
+          ]
+        },
+        {
+          "english": "Where are you going?",
+          "answer": "Куда ты идёшь?",
+          "acceptableVariants": [
+            "Ты куда идёшь?",
+            "Куда идёшь?"
+          ],
+          "hint": "where to = куда, going = идёшь",
+          "grammarFocus": "куда for direction",
+          "keyWord": "Куда",
+          "options": [
+            "Куда",
+            "Где",
+            "Откуда",
+            "Когда"
+          ]
+        },
+        {
+          "english": "When will you come?",
+          "answer": "Когда ты придёшь?",
+          "acceptableVariants": [
+            "Ты когда придёшь?",
+            "Когда придёшь?"
+          ],
+          "hint": "when = когда, will come = придёшь",
+          "grammarFocus": "когда for time",
+          "keyWord": "Когда",
+          "options": [
+            "Когда",
+            "Где",
+            "Куда",
+            "Откуда"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ это стоит? — Сто рублей.",
+              "promptEnglish": "How much does this cost? A hundred rubles.",
+              "options": [
+                "Что",
+                "Сколько",
+                "Где",
+                "Кто"
+              ],
+              "answer": "Сколько",
+              "hint": "Asking about price or quantity.",
+              "explanation": "Сколько (How much/many) asks about quantity or price."
+            },
+            {
+              "prompt": "_____ ты приехал? — Из Казани.",
+              "promptEnglish": "Where did you come from? From Kazan.",
+              "options": [
+                "Где",
+                "Куда",
+                "Откуда",
+                "Когда"
+              ],
+              "answer": "Откуда",
+              "hint": "Asking about origin.",
+              "explanation": "Откуда (Where from) asks about origin. The answer uses из + genitive."
+            },
+            {
+              "prompt": "_____ дела?",
+              "promptEnglish": "How are things?",
+              "options": [
+                "Что",
+                "Где",
+                "Как",
+                "Когда"
+              ],
+              "answer": "Как",
+              "hint": "A common greeting asking about manner/state.",
+              "explanation": "Как дела? (How are things?) uses Как (How). It's one of the most common Russian greetings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-spot-errors",
+      "title": "Find the Mistakes",
+      "titleRussian": "Найди ошибки",
+      "description": "Spot the wrong question word and pick harder distinctions",
+      "descriptionRussian": "Найдите неправильное вопросительное слово",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Куда ты живёшь? — В Москве.",
+          "error": "Куда",
+          "correction": "Где",
+          "hint": "Living somewhere is a location, not a direction.",
+          "explanation": "Где asks about location (where you are/live). Куда asks about direction (where you're going). Since living is a state, use Где.",
+          "options": [
+            "Где",
+            "Откуда",
+            "Когда"
+          ]
+        },
+        {
+          "sentence": "Что это? — Это мой брат.",
+          "error": "Что",
+          "correction": "Кто",
+          "hint": "A brother is a person, not a thing.",
+          "explanation": "Брат is a person, so use Кто (Who), not Что (What).",
+          "options": [
+            "Кто",
+            "Где",
+            "Чей"
+          ]
+        },
+        {
+          "sentence": "Где ты идёшь? — В магазин.",
+          "error": "Где",
+          "correction": "Куда",
+          "hint": "Going somewhere implies direction, not location.",
+          "explanation": "Идти (to go) implies movement toward a destination. Use Куда (Where to), not Где (Where).",
+          "options": [
+            "Куда",
+            "Откуда",
+            "Когда"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ ты учишься? — В университете.",
+              "promptEnglish": "_____ do you study? At university.",
+              "options": [
+                "Куда",
+                "Когда",
+                "Где",
+                "Откуда"
+              ],
+              "answer": "Где",
+              "hint": "The answer says 'at university' (location).",
+              "explanation": "Studying somewhere is location, so use Где (Where)."
+            },
+            {
+              "prompt": "_____ ты едешь? — В Петербург.",
+              "promptEnglish": "_____ are you going? To Petersburg.",
+              "options": [
+                "Где",
+                "Откуда",
+                "Куда",
+                "Когда"
+              ],
+              "answer": "Куда",
+              "hint": "The answer says 'to Petersburg' (direction).",
+              "explanation": "Ехать (to go/drive) implies direction. The answer uses в + accusative. Use Куда."
+            },
+            {
+              "prompt": "_____ ты звонишь? — Маме.",
+              "promptEnglish": "_____ are you calling? Mom.",
+              "options": [
+                "Что",
+                "Где",
+                "Кому",
+                "Как"
+              ],
+              "answer": "Кому",
+              "hint": "Asking about the person receiving the call (dative).",
+              "explanation": "Кому (To whom) asks about the recipient. Маме is dative of мама."
+            },
+            {
+              "prompt": "_____ это? — Это словарь.",
+              "promptEnglish": "_____ is this? This is a dictionary.",
+              "options": [
+                "Кто",
+                "Когда",
+                "Где",
+                "Что"
+              ],
+              "answer": "Что",
+              "hint": "A dictionary is a thing.",
+              "explanation": "Словарь is a thing, so use Что (What)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанная практика",
+      "description": "A fresh round mixing all question words",
+      "descriptionRussian": "Новый раунд практики по всем вопросительным словам",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ работает твой папа? — В офисе.",
+              "promptEnglish": "_____ does your dad work? In an office.",
+              "options": [
+                "Куда",
+                "Когда",
+                "Где",
+                "Как"
+              ],
+              "answer": "Где",
+              "hint": "The answer gives a location.",
+              "explanation": "Где (Where) asks about location. В офисе answers 'where'."
+            },
+            {
+              "prompt": "_____ ты не ел? — Не было времени.",
+              "promptEnglish": "_____ didn't you eat? There was no time.",
+              "options": [
+                "Как",
+                "Где",
+                "Когда",
+                "Почему"
+              ],
+              "answer": "Почему",
+              "hint": "The answer gives a reason.",
+              "explanation": "Почему (Why) asks for a reason. 'There was no time' is a reason."
+            },
+            {
+              "prompt": "_____ тебя зовут? — Саша.",
+              "promptEnglish": "What is your name? Sasha.",
+              "options": [
+                "Что",
+                "Кто",
+                "Как",
+                "Где"
+              ],
+              "answer": "Как",
+              "hint": "Russian uses 'how' to ask names.",
+              "explanation": "Как тебя зовут? literally means 'How are you called?' This is how Russian asks 'What is your name?'"
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ ты едешь? — На работу.",
+          "_____ ты приехал? — Из Новосибирска.",
+          "_____ ты был вчера? — В кино."
+        ],
+        "choices": [
+          "Куда",
+          "Откуда",
+          "Где"
+        ],
+        "answers": [
+          "Куда",
+          "Откуда",
+          "Где"
+        ],
+        "grammarFocus": "где vs куда vs откуда",
+        "hints": [
+          "Going TO work (direction).",
+          "Coming FROM a city (origin).",
+          "Being AT a place (location)."
+        ],
+        "explanations": [
+          "Куда (Where to) asks about destination. На работу = to work.",
+          "Откуда (Where from) asks about origin. Из Новосибирска = from Novosibirsk.",
+          "Где (Where) asks about location. В кино = at the cinema."
+        ],
+        "options": [
+          [
+            "Куда",
+            "Где",
+            "Откуда",
+            "Когда"
+          ],
+          [
+            "Где",
+            "Откуда",
+            "Когда",
+            "Куда"
+          ],
+          [
+            "Где",
+            "Когда",
+            "Откуда",
+            "Куда"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "_____ ты был вчера? — В парке.",
+          "contextEnglish": "_____ were you yesterday? In the park.",
+          "options": [
+            "Где",
+            "Куда"
+          ],
+          "answer": "Где",
+          "explanation": "Being somewhere = location. Use Где. В парке is prepositional (location)."
+        },
+        {
+          "context": "_____ ты ходил вчера? — В парк.",
+          "contextEnglish": "_____ did you go yesterday? To the park.",
+          "options": [
+            "Где",
+            "Куда"
+          ],
+          "answer": "Куда",
+          "explanation": "Going somewhere = direction. Use Куда. В парк is accusative (direction)."
+        },
+        {
+          "context": "_____ готовит ужин? — Мама.",
+          "contextEnglish": "_____ is cooking dinner? Mom.",
+          "options": [
+            "Кто",
+            "Что"
+          ],
+          "answer": "Кто",
+          "explanation": "Мама is a person. Use Кто (Who)."
+        }
+      ]
+    }
+  ]
+}

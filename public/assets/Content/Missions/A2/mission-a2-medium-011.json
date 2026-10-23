@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-011",
+  "title": "Hotel Room Problem",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Your hotel room has issues - get a solution from reception",
+  "imageName": "bed.double.fill",
+  "initialPrompt": "Ресепшен, добрый вечер. Чем могу помочь?",
+  "systemPrompt": "You are hotel reception. Guest's room has broken AC. No other rooms available tonight. Can offer: fan, move tomorrow, discount on stay. Keep replies short.",
+  "completionCriteria": "User explained problem and accepted a solution.",
+  "responseLimit": 15,
+  "hints": [
+    "В моём номере проблема (There's a problem in my room)",
+    "Кондиционер не работает (The AC doesn't work)",
+    "Можно другой номер? (Can I have another room?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "номер",
+      "definition": "room"
+    },
+    {
+      "word": "кондиционер",
+      "definition": "air conditioner"
+    },
+    {
+      "word": "жарко",
+      "definition": "hot"
+    },
+    {
+      "word": "починить",
+      "definition": "to fix"
+    },
+    {
+      "word": "переселить",
+      "definition": "to move (to another room)"
+    },
+    {
+      "word": "скидка",
+      "definition": "discount"
+    }
+  ],
+  "objectives": [
+    "Explain the problem in your room",
+    "Ask for a solution",
+    "Handle that rooms aren't available",
+    "Choose an alternative solution"
+  ]
+}

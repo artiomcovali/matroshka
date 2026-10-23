@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-hard-019",
+  "title": "Scam Confrontation",
+  "level": "B2",
+  "difficulty": "hard",
+  "description": "Confronting someone running an obvious scam",
+  "imageName": "exclamationmark.octagon.fill",
+  "initialPrompt": "Это уникальная инвестиционная возможность! 300% прибыли! Нужно только внести 50 000 сегодня. Завтра будет поздно!",
+  "systemPrompt": "You are persistent scammer. Use urgency, fake testimonials, emotional manipulation. Only give up if target shows complete skepticism and threatens authorities.",
+  "completionCriteria": "User identified and rejected scam confidently.",
+  "responseLimit": 15,
+  "hints": [
+    "Это признаки мошенничества (These are signs of fraud)",
+    "Я сообщу в полицию (I will report to police)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "мошенничество",
+      "definition": "fraud"
+    },
+    {
+      "word": "схема",
+      "definition": "scheme"
+    },
+    {
+      "word": "жертва",
+      "definition": "victim"
+    },
+    {
+      "word": "манипуляция",
+      "definition": "manipulation"
+    },
+    {
+      "word": "доверие",
+      "definition": "trust"
+    },
+    {
+      "word": "предупреждение",
+      "definition": "warning"
+    }
+  ],
+  "objectives": [
+    "Identify scam tactics",
+    "Resist pressure tactics",
+    "Ask exposing questions",
+    "Refuse firmly",
+    "Threaten authorities"
+  ]
+}

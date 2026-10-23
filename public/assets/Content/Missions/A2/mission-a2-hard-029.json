@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-029",
+  "title": "Gym Contract Trap",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Can't cancel gym membership - navigate the cancellation maze",
+  "imageName": "figure.run",
+  "initialPrompt": "Отменить подписку? Нужно письменное заявление за 30 дней. И штраф 5000 рублей.",
+  "systemPrompt": "You work at gym front desk. Make cancellation difficult - require forms, notice period, mention penalty. Waive penalty only if customer cites that they're moving or has medical reason. Keep replies short.",
+  "completionCriteria": "User successfully initiated cancellation process.",
+  "responseLimit": 15,
+  "hints": [
+    "Я переезжаю в другой город (I'm moving to another city)",
+    "Где написано про штраф? (Where is the penalty mentioned?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "отменить",
+      "definition": "to cancel"
+    },
+    {
+      "word": "подписка",
+      "definition": "subscription"
+    },
+    {
+      "word": "штраф",
+      "definition": "penalty"
+    },
+    {
+      "word": "заявление",
+      "definition": "statement/form"
+    },
+    {
+      "word": "договор",
+      "definition": "contract"
+    },
+    {
+      "word": "срок",
+      "definition": "term/period"
+    }
+  ],
+  "objectives": [
+    "Request to cancel membership",
+    "Question the penalty fee",
+    "Provide valid reason (moving)",
+    "Get cancellation form",
+    "Complete cancellation"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-023",
+  "title": "Wrong Debt Collection",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Debt collectors are pursuing you for someone else's debt",
+  "imageName": "exclamationmark.triangle.fill",
+  "initialPrompt": "Иванов Иван? У вас долг 50 000 рублей. Если не заплатите, подадим в суд.",
+  "systemPrompt": "You are aggressive debt collector. Have wrong person. Insist records are correct. Stop only if person provides clear identity proof and demands written confirmation. Keep replies short.",
+  "completionCriteria": "User proved wrong identity and got collection stopped.",
+  "responseLimit": 15,
+  "hints": [
+    "Вы ошиблись человеком (You have the wrong person)",
+    "Пришлите мне письменное подтверждение (Send me written confirmation)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "долг",
+      "definition": "debt"
+    },
+    {
+      "word": "коллектор",
+      "definition": "collector"
+    },
+    {
+      "word": "ошибка",
+      "definition": "mistake"
+    },
+    {
+      "word": "подтверждение",
+      "definition": "confirmation"
+    },
+    {
+      "word": "личность",
+      "definition": "identity"
+    },
+    {
+      "word": "прекратить",
+      "definition": "to stop"
+    }
+  ],
+  "objectives": [
+    "Deny being that person",
+    "Demand verification",
+    "Provide identity proof",
+    "Get written confirmation",
+    "Stop the collection"
+  ]
+}

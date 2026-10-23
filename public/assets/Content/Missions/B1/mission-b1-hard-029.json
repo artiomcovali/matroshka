@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-029",
+  "title": "HOA Power Trip",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Building management is enforcing non-existent rules",
+  "imageName": "building.2.fill",
+  "initialPrompt": "Ваш балкон неправильный! Уберите все растения! Это правила дома!",
+  "systemPrompt": "You are an aggressive building manager. Cite non-existent rule about balcony plants. Back down if resident asks for written rule or mentions lawyer. Keep replies short.",
+  "completionCriteria": "User proved rule doesn't exist and stopped enforcement.",
+  "responseLimit": 15,
+  "hints": [
+    "Покажите мне это правило (Show me this rule)",
+    "Это не в нашем уставе (This isn't in our charter)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "правила",
+      "definition": "rules"
+    },
+    {
+      "word": "устав",
+      "definition": "charter"
+    },
+    {
+      "word": "управляющий",
+      "definition": "manager"
+    },
+    {
+      "word": "нарушение",
+      "definition": "violation"
+    },
+    {
+      "word": "штраф",
+      "definition": "fine"
+    },
+    {
+      "word": "права",
+      "definition": "rights"
+    }
+  ],
+  "objectives": [
+    "Question the rule",
+    "Request written documentation",
+    "Challenge their authority",
+    "Cite actual rules",
+    "Stop the harassment"
+  ]
+}

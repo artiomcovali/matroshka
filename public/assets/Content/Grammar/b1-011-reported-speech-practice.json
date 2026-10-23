@@ -1,0 +1,527 @@
+{
+  "lessonId": "b1-011-reported-speech",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Direct to Indirect",
+      "titleRussian": "Из прямой в косвенную",
+      "description": "Choose the correct conjunction for reported speech",
+      "descriptionRussian": "Выберите правильный союз для косвенной речи",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "«Я люблю музыку.» - Он сказал, _____ он любит музыку.",
+              "promptEnglish": "\"I love music.\" - He said that he loves music.",
+              "options": [
+                "чтобы",
+                "что",
+                "ли",
+                "если"
+              ],
+              "answer": "что",
+              "hint": "Reported statement = что.",
+              "explanation": "Statements use что: Он сказал, что он любит музыку."
+            },
+            {
+              "prompt": "«Ты придёшь завтра?» - Она спросила, приду _____ я завтра.",
+              "promptEnglish": "\"Will you come tomorrow?\" - She asked if I would come tomorrow.",
+              "options": [
+                "что",
+                "ли",
+                "если",
+                "чтобы"
+              ],
+              "answer": "ли",
+              "hint": "Reported yes/no question = verb + ли.",
+              "explanation": "Yes/no questions use ли after the key verb: приду ли я."
+            },
+            {
+              "prompt": "«Закрой окно!» - Она попросила, _____ я закрыл окно.",
+              "promptEnglish": "\"Close the window!\" - She asked me to close the window.",
+              "options": [
+                "что",
+                "ли",
+                "когда",
+                "чтобы"
+              ],
+              "answer": "чтобы",
+              "hint": "Reported command/request = чтобы + past tense.",
+              "explanation": "Commands use чтобы + past: попросила, чтобы я закрыл."
+            },
+            {
+              "prompt": "«Где ты работаешь?» - Он спросил, _____ я работаю.",
+              "promptEnglish": "\"Where do you work?\" - He asked where I work.",
+              "options": [
+                "что",
+                "ли",
+                "где",
+                "чтобы"
+              ],
+              "answer": "где",
+              "hint": "Reported wh-question keeps the question word.",
+              "explanation": "Wh-questions keep the original question word: где я работаю."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "«Сколько это стоит?» - Она спросила, _____ это стоит.",
+              "promptEnglish": "\"How much does this cost?\" - She asked how much it costs.",
+              "options": [
+                "сколько",
+                "что",
+                "ли",
+                "чтобы"
+              ],
+              "answer": "сколько",
+              "hint": "Reported wh-question keeps the question word.",
+              "explanation": "Wh-questions retain the original word: сколько это стоит."
+            },
+            {
+              "prompt": "«Не опаздывай!» - Мама сказала, _____ я не опаздывал.",
+              "promptEnglish": "\"Don't be late!\" - Mom told me not to be late.",
+              "options": [
+                "что",
+                "чтобы",
+                "ли",
+                "когда"
+              ],
+              "answer": "чтобы",
+              "hint": "Reported command uses чтобы + past.",
+              "explanation": "Commands/prohibitions use чтобы + past: чтобы я не опаздывал."
+            },
+            {
+              "prompt": "«Мне холодно.» - Она сказала, _____ ей холодно.",
+              "promptEnglish": "\"I'm cold.\" - She said she was cold.",
+              "options": [
+                "чтобы",
+                "если",
+                "что",
+                "ли"
+              ],
+              "answer": "что",
+              "hint": "Reported statement = что.",
+              "explanation": "Statements use что: сказала, что ей холодно. Note pronoun shift: мне becomes ей."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "«Я приду.» - Он сказал, _____ придёт.",
+          "contextEnglish": "\"I'll come.\" - He said he would come. (statement)",
+          "options": [
+            "что он",
+            "чтобы он"
+          ],
+          "answer": "что он",
+          "explanation": "Statement (he's reporting what he will do) uses что: сказал, что он придёт."
+        },
+        {
+          "context": "«Приди!» - Он попросил, _____ я пришёл.",
+          "contextEnglish": "\"Come!\" - He asked me to come. (command)",
+          "options": [
+            "что",
+            "чтобы"
+          ],
+          "answer": "чтобы",
+          "explanation": "Command/request uses чтобы + past: попросил, чтобы я пришёл."
+        },
+        {
+          "context": "«Ты знаешь?» - Она спросила, _____.",
+          "contextEnglish": "\"Do you know?\" - She asked whether I know.",
+          "options": [
+            "что я знаю",
+            "знаю ли я"
+          ],
+          "answer": "знаю ли я",
+          "explanation": "Yes/no questions use verb + ли: спросила, знаю ли я."
+        },
+        {
+          "context": "«Что ты знаешь?» - Она спросила, _____.",
+          "contextEnglish": "\"What do you know?\" - She asked what I know.",
+          "options": [
+            "что я знаю",
+            "знаю ли я"
+          ],
+          "answer": "что я знаю",
+          "explanation": "Wh-question keeps the question word: что я знаю. Here что means 'what', not 'that'."
+        }
+      ]
+    },
+    {
+      "id": "round-2-sort-fill",
+      "title": "Sort and Fill",
+      "titleRussian": "Сортировка и заполнение",
+      "description": "Sort reported speech types and fill in the missing conjunctions",
+      "descriptionRussian": "Рассортируйте типы косвенной речи и заполните союзы",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort: Which conjunction does each reported sentence use?",
+        "categories": [
+          "что (statement)",
+          "ли (yes/no question)",
+          "чтобы (command)"
+        ],
+        "items": [
+          {
+            "word": "Он сказал, ... он устал.",
+            "category": "что (statement)"
+          },
+          {
+            "word": "Она спросила, приду ... я.",
+            "category": "ли (yes/no question)"
+          },
+          {
+            "word": "Мама попросила, ... я купил молоко.",
+            "category": "чтобы (command)"
+          },
+          {
+            "word": "Он сказал, ... завтра будет дождь.",
+            "category": "что (statement)"
+          },
+          {
+            "word": "Учитель сказал, ... мы сделали домашнее задание.",
+            "category": "чтобы (command)"
+          },
+          {
+            "word": "Она спросила, хочу ... я чаю.",
+            "category": "ли (yes/no question)"
+          },
+          {
+            "word": "Они сказали, ... уже уходят.",
+            "category": "что (statement)"
+          },
+          {
+            "word": "Врач спросил, болит ... голова.",
+            "category": "ли (yes/no question)"
+          },
+          {
+            "word": "Папа сказал, ... я убрал комнату.",
+            "category": "чтобы (command)"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Друг сказал, _____ он переехал в новую квартиру. (My friend said that he moved to a new apartment.)",
+          "Врач попросил, _____ я открыл рот. (The doctor asked me to open my mouth.)",
+          "Она спросила, говорю _____ я по-русски. (She asked whether I speak Russian.)",
+          "Мама спросила, _____ я приду на ужин. (Mom asked when I would come for dinner.)"
+        ],
+        "choices": [
+          "что",
+          "чтобы",
+          "ли",
+          "когда"
+        ],
+        "answers": [
+          "что",
+          "чтобы",
+          "ли",
+          "когда"
+        ],
+        "grammarFocus": "что for statements, чтобы for commands, ли for yes/no, question word for wh-questions",
+        "hints": [
+          "A reported statement about a fact.",
+          "A reported request/command.",
+          "A reported yes/no question.",
+          "A reported question with a time word."
+        ],
+        "explanations": [
+          "Statement: что он переехал.",
+          "Request: чтобы я открыл (command reported with чтобы + past).",
+          "Yes/no question: говорю ли я (verb + ли).",
+          "Wh-question: когда я приду (question word retained)."
+        ],
+        "options": [
+          [
+            "ли",
+            "что",
+            "когда",
+            "чтобы"
+          ],
+          [
+            "чтобы",
+            "ли",
+            "что",
+            "когда"
+          ],
+          [
+            "ли",
+            "как",
+            "что",
+            "чтобы"
+          ],
+          [
+            "чтобы",
+            "ли",
+            "когда",
+            "что"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-errors-build",
+      "title": "Fix and Build",
+      "titleRussian": "Исправь и построй",
+      "description": "Fix reported speech errors and build indirect sentences",
+      "descriptionRussian": "Исправьте ошибки в косвенной речи и постройте предложения",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Он спросил, что я знаю его.",
+          "error": "что",
+          "correction": "знаю ли",
+          "hint": "This was a yes/no question ('Do you know him?'), not a statement.",
+          "explanation": "Yes/no questions use verb + ли, not что: спросил, знаю ли я его.",
+          "options": [
+            "знаю ли",
+            "если",
+            "чтобы"
+          ]
+        },
+        {
+          "sentence": "Она сказала, чтобы она устала.",
+          "error": "чтобы",
+          "correction": "что",
+          "hint": "This is a statement about being tired, not a command.",
+          "explanation": "Statements use что: сказала, что она устала. Чтобы is for commands/requests.",
+          "options": [
+            "что",
+            "если",
+            "ли"
+          ]
+        },
+        {
+          "sentence": "Мама попросила, что я помыл посуду.",
+          "error": "что",
+          "correction": "чтобы",
+          "hint": "This is a request (wash the dishes!), not a statement.",
+          "explanation": "Requests use чтобы + past: попросила, чтобы я помыл посуду.",
+          "options": [
+            "чтобы",
+            "если",
+            "ли"
+          ]
+        },
+        {
+          "sentence": "Он спросил, где ли музей.",
+          "error": "ли",
+          "correction": "находится",
+          "hint": "Wh-questions use the question word alone, not question word + ли.",
+          "explanation": "With wh-question words (где, когда, почему), ли is not used: спросил, где находится музей.",
+          "options": [
+            "находится",
+            "что",
+            "если"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "She said that she doesn't like coffee.",
+          "answer": "Она сказала, что она не любит кофе.",
+          "acceptableVariants": [
+            "Она сказала, что не любит кофе."
+          ],
+          "hint": "Statement: сказала, что... не любит = doesn't like",
+          "grammarFocus": "Reported statement with что",
+          "keyWord": "что",
+          "options": [
+            "что",
+            "чтобы",
+            "ли",
+            "если"
+          ]
+        },
+        {
+          "english": "He asked me to help him.",
+          "answer": "Он попросил, чтобы я помог ему.",
+          "acceptableVariants": [
+            "Он попросил, чтобы я ему помог.",
+            "Он попросил меня помочь."
+          ],
+          "hint": "Request: попросил, чтобы + past. помог = helped (past of помочь)",
+          "grammarFocus": "Reported command with чтобы + past",
+          "keyWord": "чтобы",
+          "options": [
+            "чтобы",
+            "что",
+            "ли",
+            "если"
+          ]
+        },
+        {
+          "english": "Mom asked whether I had eaten breakfast.",
+          "answer": "Мама спросила, завтракал ли я.",
+          "acceptableVariants": [
+            "Мама спросила, позавтракал ли я.",
+            "Мама спросила, ел ли я завтрак."
+          ],
+          "hint": "Yes/no question: спросила + verb + ли. завтракал = had breakfast",
+          "grammarFocus": "Reported yes/no question with verb + ли",
+          "keyWord": "ли",
+          "options": [
+            "ли",
+            "что",
+            "чтобы",
+            "если"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Финальное задание",
+      "description": "All reported speech types with pronoun shifts",
+      "descriptionRussian": "Все типы косвенной речи со сменой местоимений",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "«Мой брат живёт в Петербурге.» - Она сказала, что _____ брат живёт в Петербурге.",
+              "promptEnglish": "\"My brother lives in Petersburg.\" - She said her brother lives in Petersburg.",
+              "options": [
+                "мой",
+                "его",
+                "её",
+                "наш"
+              ],
+              "answer": "её",
+              "hint": "She is speaking about HER brother. мой becomes её.",
+              "explanation": "Pronoun shift: мой (my) becomes её (her) because the speaker is female: её брат."
+            },
+            {
+              "prompt": "«Мы приедем в субботу.» - Они сказали, что _____ приедут в субботу.",
+              "promptEnglish": "\"We'll arrive on Saturday.\" - They said they would arrive on Saturday.",
+              "options": [
+                "мы",
+                "вы",
+                "они",
+                "он"
+              ],
+              "answer": "они",
+              "hint": "We (мы) becomes they (они) when reported by a third party.",
+              "explanation": "Pronoun shift: мы (we) becomes они (they) in reported speech."
+            },
+            {
+              "prompt": "Which of these correctly reports «Купи хлеб!»?",
+              "promptEnglish": "Which correctly reports the command 'Buy bread!'?",
+              "options": [
+                "Она сказала, что купила хлеб.",
+                "Она сказала, чтобы я купил хлеб.",
+                "Она спросила, купил ли я хлеб.",
+                "Она сказала, что я куплю хлеб."
+              ],
+              "answer": "Она сказала, чтобы я купил хлеб.",
+              "hint": "A command uses чтобы + past tense.",
+              "explanation": "Commands: сказала, чтобы я купил. Not что (statement) or ли (question)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "«Тебе нравится эта книга?» - Он спросил, нравится _____ мне эта книга.",
+              "promptEnglish": "\"Do you like this book?\" - He asked if I liked this book.",
+              "options": [
+                "что",
+                "чтобы",
+                "если",
+                "ли"
+              ],
+              "answer": "ли",
+              "hint": "Reported yes/no question uses verb + ли.",
+              "explanation": "Yes/no question: нравится ли мне. The particle ли follows the key verb."
+            },
+            {
+              "prompt": "Unlike English, Russian reported speech usually does NOT change the _____.",
+              "promptEnglish": "What stays the same in Russian reported speech (unlike English)?",
+              "options": [
+                "verb tense",
+                "pronouns",
+                "word order",
+                "conjunctions"
+              ],
+              "answer": "verb tense",
+              "hint": "English: 'He said he WAS tired.' Russian: Он сказал, что он устал (same tense as original).",
+              "explanation": "Russian keeps the original tense: «Я устал» becomes Он сказал, что он устал. No 'backshift' like in English."
+            },
+            {
+              "prompt": "«Кто это сделал?» - Учитель спросил, _____ это сделал.",
+              "promptEnglish": "\"Who did this?\" - The teacher asked who did it.",
+              "options": [
+                "что",
+                "кто",
+                "чтобы",
+                "ли"
+              ],
+              "answer": "кто",
+              "hint": "Wh-question retains the question word.",
+              "explanation": "Wh-questions keep the question word: кто это сделал."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Она спросила, умею _____ я готовить. (She asked if I can cook.)",
+          "Он сказал, _____ у него нет времени. (He said he has no time.)",
+          "Тренер сказал, _____ мы больше тренировались. (The coach told us to practice more.)"
+        ],
+        "choices": [
+          "ли",
+          "что",
+          "чтобы"
+        ],
+        "answers": [
+          "ли",
+          "что",
+          "чтобы"
+        ],
+        "grammarFocus": "All three reported speech types in one round",
+        "hints": [
+          "Reported yes/no question.",
+          "Reported statement.",
+          "Reported command."
+        ],
+        "explanations": [
+          "Yes/no: умею ли я (verb + ли).",
+          "Statement: что у него нет времени.",
+          "Command: чтобы мы больше тренировались (чтобы + past)."
+        ],
+        "options": [
+          [
+            "как",
+            "чтобы",
+            "ли",
+            "что"
+          ],
+          [
+            "чтобы",
+            "когда",
+            "что",
+            "ли"
+          ],
+          [
+            "что",
+            "чтобы",
+            "ли",
+            "когда"
+          ]
+        ]
+      }
+    }
+  ]
+}

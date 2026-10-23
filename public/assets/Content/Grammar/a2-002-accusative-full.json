@@ -1,0 +1,336 @@
+{
+  "id": "a2-002-accusative-full",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Accusative Case",
+  "titleRussian": "Винительный падеж",
+  "description": "Accusative case with animate and inanimate nouns",
+  "descriptionRussian": "Винительный падеж с одушевлёнными и неодушевлёнными существительными",
+  "imageName": "arrow.right.to.line",
+  "intro": "You learned basic accusative in A1 for direct objects. Now we add the crucial distinction: ANIMATE vs. INANIMATE. For masculine nouns, this matters! Animate masculine nouns (people, animals) take genitive-like endings in accusative: Я вижу студента (not студент). Inanimate masculine and all neuter nouns stay the same as nominative. Feminine rules remain unchanged.",
+  "rules": [
+    "Accusative marks the direct object - what receives the action: Я читаю книгу.",
+    "The key question: is the noun alive (animate) or not? This determines masculine accusative.",
+    "Feminine nouns always change in accusative: -а → -у, -я → -ю.",
+    "Neuter nouns NEVER change in accusative.",
+    "Personal names follow the same rules: вижу Ивана (animate), вижу Москву (feminine)."
+  ],
+  "examples": [
+    "Я вижу студента. (I see the student.), animate masculine",
+    "Я вижу стол. (I see the table.), inanimate masculine",
+    "Она любит брата. (She loves her brother.), animate masculine",
+    "Он читает книгу. (He reads a book.), feminine",
+    "Мы видим окно. (We see the window.), neuter"
+  ],
+  "tables": [
+    {
+      "title": "Accusative Case - All Genders",
+      "headers": [
+        "",
+        "Nominative",
+        "Accusative"
+      ],
+      "rows": [
+        {
+          "label": "Masc. animate",
+          "cells": [
+            "студент",
+            "студент|а"
+          ]
+        },
+        {
+          "label": "Masc. inanimate",
+          "cells": [
+            "стол",
+            "стол"
+          ]
+        },
+        {
+          "label": "Fem. -а",
+          "cells": [
+            "книг|а",
+            "книг|у"
+          ]
+        },
+        {
+          "label": "Fem. -я",
+          "cells": [
+            "недел|я",
+            "недел|ю"
+          ]
+        },
+        {
+          "label": "Neuter",
+          "cells": [
+            "окно",
+            "окно"
+          ]
+        },
+        {
+          "label": "Plural animate",
+          "cells": [
+            "студенты",
+            "студент|ов"
+          ]
+        },
+        {
+          "label": "Plural inanimate",
+          "cells": [
+            "столы",
+            "столы"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я вижу _____. (I see the student.)",
+          "promptEnglish": "I see the student.",
+          "options": [
+            "студенте",
+            "студенту",
+            "студента",
+            "студент"
+          ],
+          "answer": "студента",
+          "hint": "Animate masculine → genitive-like",
+          "explanation": "Студент is animate masculine, so accusative = genitive: студента."
+        },
+        {
+          "prompt": "Она читает _____. (She reads a book.)",
+          "promptEnglish": "She reads a book.",
+          "options": [
+            "книга",
+            "книге",
+            "книги",
+            "книгу"
+          ],
+          "answer": "книгу",
+          "hint": "Feminine -а → -у",
+          "explanation": "Книга (feminine -а) → книгу in accusative."
+        },
+        {
+          "prompt": "Мы видим _____. (We see the table.)",
+          "promptEnglish": "We see the table.",
+          "options": [
+            "столе",
+            "стола",
+            "стол",
+            "столу"
+          ],
+          "answer": "стол",
+          "hint": "Inanimate masculine = nominative",
+          "explanation": "Стол is inanimate masculine, so accusative = nominative: стол."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Он любит _____. (He loves his brother.)",
+          "promptEnglish": "He loves his brother.",
+          "options": [
+            "брате",
+            "брат",
+            "брата",
+            "брату"
+          ],
+          "answer": "брата",
+          "hint": "Animate masculine",
+          "explanation": "Брат (brother) is animate masculine → брата in accusative."
+        },
+        {
+          "prompt": "Я вижу _____. (I see the window.)",
+          "promptEnglish": "I see the window.",
+          "options": [
+            "окна",
+            "окну",
+            "окне",
+            "окно"
+          ],
+          "answer": "окно",
+          "hint": "Neuter = nominative",
+          "explanation": "Окно (neuter) stays the same in accusative: окно."
+        },
+        {
+          "prompt": "Она знает _____. (She knows the teacher.)",
+          "promptEnglish": "She knows the teacher.",
+          "options": [
+            "учителе",
+            "учитель",
+            "учителю",
+            "учителя"
+          ],
+          "answer": "учителя",
+          "hint": "Animate masculine -ь → -я",
+          "explanation": "Учитель is animate masculine, so accusative follows genitive: учителя."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Дети любят _____. (The children love their dog.)",
+          "promptEnglish": "The children love their dog.",
+          "options": [
+            "собака",
+            "собаки",
+            "собаку",
+            "собаке"
+          ],
+          "answer": "собаку",
+          "hint": "Feminine -а → -у",
+          "explanation": "Собака (feminine -а) → собаку in accusative."
+        },
+        {
+          "prompt": "Я знаю _____. (I know this man.)",
+          "promptEnglish": "I know this man.",
+          "options": [
+            "этот человек",
+            "этого человека",
+            "этому человеку",
+            "этим человеком"
+          ],
+          "answer": "этого человека",
+          "hint": "Animate masculine (both adj + noun)",
+          "explanation": "Человек is animate masculine. Both adjective and noun take accusative = genitive forms."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Мы видим _____. (We see the doctor.)"
+    ],
+    "choices": [
+      "врача",
+      "врач",
+      "врачу",
+      "враче"
+    ],
+    "answers": [
+      "врача"
+    ],
+    "grammarFocus": "Animate masculine accusative = genitive",
+    "hints": [
+      "Is врач (doctor) animate or inanimate? What happens to animate masculine nouns in accusative?"
+    ],
+    "explanations": [
+      "Врач (doctor) is animate masculine, so accusative follows genitive: врач becomes врача."
+    ],
+    "options": [
+      [
+        "врачу",
+        "врачом",
+        "врач",
+        "врача"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я вижу _____. (I see the cat - animate)",
+      "contextEnglish": "I see the cat.",
+      "options": [
+        "кота",
+        "кот"
+      ],
+      "answer": "кота",
+      "explanation": "Кот (cat) is animate masculine. Accusative = genitive: кота."
+    },
+    {
+      "context": "Я вижу _____. (I see the house - inanimate)",
+      "contextEnglish": "I see the house.",
+      "options": [
+        "дом",
+        "дома"
+      ],
+      "answer": "дом",
+      "explanation": "Дом (house) is inanimate masculine. Accusative = nominative: дом."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Я вижу студент.",
+      "error": "студент",
+      "correction": "студента",
+      "hint": "Студент is animate masculine. Accusative matches which other case?",
+      "explanation": "Студент is animate masculine. Accusative requires genitive form: студента."
+    },
+    {
+      "sentence": "Она любит брат.",
+      "error": "брат",
+      "correction": "брата",
+      "hint": "Animate masculine nouns change in accusative. What ending do you add?",
+      "explanation": "Брат is animate masculine. Accusative requires genitive form: брата."
+    },
+    {
+      "sentence": "Мы видим учитель.",
+      "error": "учитель",
+      "correction": "учителя",
+      "hint": "Animate masculine soft-stem nouns take -я in accusative.",
+      "explanation": "Учитель is animate masculine. Accusative requires genitive form: учителя."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: Does accusative change or stay the same?",
+    "categories": [
+      "Changes (animate masc.)",
+      "Stays same (inanimate/neuter)"
+    ],
+    "items": [
+      {
+        "word": "студент → студента",
+        "category": "Changes (animate masc.)"
+      },
+      {
+        "word": "стол → стол",
+        "category": "Stays same (inanimate/neuter)"
+      },
+      {
+        "word": "брат → брата",
+        "category": "Changes (animate masc.)"
+      },
+      {
+        "word": "окно → окно",
+        "category": "Stays same (inanimate/neuter)"
+      },
+      {
+        "word": "врач → врача",
+        "category": "Changes (animate masc.)"
+      },
+      {
+        "word": "дом → дом",
+        "category": "Stays same (inanimate/neuter)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "одушевлённый / неодушевлённый",
+      "definition": "animate / inanimate",
+      "example": "Студент — одушевлённый. Стол — неодушевлённый."
+    },
+    {
+      "term": "вин. падеж = род. падеж",
+      "definition": "accusative = genitive (for animate masc.)",
+      "example": "Я вижу студента (не студент)."
+    },
+    {
+      "term": "Кого? Что?",
+      "definition": "Whom? What? (accusative questions)",
+      "example": "Кого ты видишь? — Студента."
+    },
+    {
+      "term": "прямое дополнение",
+      "definition": "direct object",
+      "example": "Я читаю книгу. (книгу = прямое дополнение)"
+    }
+  ]
+}

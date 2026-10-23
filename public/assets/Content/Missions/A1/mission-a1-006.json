@@ -1,0 +1,46 @@
+{
+  "id": "mission-a1-006",
+  "title": "My Family",
+  "level": "A1",
+  "description": "Tell someone about your family",
+  "imageName": "person.3.fill",
+  "initialPrompt": "У тебя есть семья? Расскажи о ней!",
+  "systemPrompt": "You are curious about the user's family. Ask about their family members. Keep replies short (1-2 sentences).",
+  "completionCriteria": "User named 2 family members and shared a detail about one.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня есть... (I have...)",
+    "Мою маму зовут... (My mom's name is...)",
+    "Мой брат студент (My brother is a student)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "семья",
+      "definition": "family"
+    },
+    {
+      "word": "мама",
+      "definition": "mom"
+    },
+    {
+      "word": "папа",
+      "definition": "dad"
+    },
+    {
+      "word": "брат",
+      "definition": "brother"
+    },
+    {
+      "word": "сестра",
+      "definition": "sister"
+    },
+    {
+      "word": "есть",
+      "definition": "have/there is"
+    }
+  ],
+  "objectives": [
+    "Name two family members (мама, папа, брат...)",
+    "Share a detail about one (name, age, job)"
+  ]
+}

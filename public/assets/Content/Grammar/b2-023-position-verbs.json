@@ -1,0 +1,294 @@
+{
+  "id": "b2-023-position-verbs",
+  "level": "B2",
+  "focusArea": "cases",
+  "title": "Position Verbs",
+  "titleRussian": "Глаголы положения",
+  "description": "стоять/ставить, лежать/класть, сидеть/сажать",
+  "descriptionRussian": "Глаголы положения и размещения",
+  "imageName": "arrow.up.and.down",
+  "intro": "Russian distinguishes position (state) from positioning (action). POSITION (intransitive, where something IS): стоять (stand), лежать (lie), сидеть (sit), висеть (hang). POSITIONING (transitive, putting something): ставить/поставить (put standing), класть/положить (put lying), сажать/посадить (seat), вешать/повесить (hang). Choice depends on object's final position: books лежат (lie flat), bottles стоят (stand upright), pictures висят (hang). This system has no English equivalent.",
+  "rules": [
+    "стоять (state) vs ставить/поставить (action): Ваза стоит. Я поставил вазу.",
+    "лежать (state) vs класть/положить (action): Книга лежит. Я положил книгу.",
+    "сидеть (state) vs сажать/посадить (action): Гость сидит. Я посадил гостя.",
+    "Choose by object's position: upright=стоять, flat=лежать, seated=сидеть"
+  ],
+  "examples": [
+    "Книга лежит на столе. (The book is lying on the table., flat)",
+    "Положи книгу на стол. (Put the book on the table., action)",
+    "Бутылка стоит в холодильнике. (The bottle is standing in the fridge., upright)",
+    "Поставь бутылку в холодильник. (Put the bottle in the fridge., action)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "State: Книга _____ на столе. (is lying)",
+          "promptEnglish": "The book is lying on the table.",
+          "options": [
+            "кладёт",
+            "лежит",
+            "положила",
+            "лежать"
+          ],
+          "answer": "лежит",
+          "hint": "State = лежать (book is flat)",
+          "explanation": "State (flat): книга лежит."
+        },
+        {
+          "prompt": "Action: _____ книгу на стол. (Put)",
+          "promptEnglish": "Put the book on the table.",
+          "options": [
+            "Посади",
+            "Положи",
+            "Лежи",
+            "Поставь"
+          ],
+          "answer": "Положи",
+          "hint": "Put flat = положить",
+          "explanation": "Action (flat): положи книгу."
+        },
+        {
+          "prompt": "State: Бутылка _____ на полке. (is standing)",
+          "promptEnglish": "The bottle is standing on the shelf.",
+          "options": [
+            "ставит",
+            "лежит",
+            "кладёт",
+            "стоит"
+          ],
+          "answer": "стоит",
+          "hint": "State upright = стоять",
+          "explanation": "State (upright): бутылка стоит."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Action: _____ вазу на стол. (Put - upright)",
+          "promptEnglish": "Put the vase on the table.",
+          "options": [
+            "Повесь",
+            "Посади",
+            "Поставь",
+            "Положи"
+          ],
+          "answer": "Поставь",
+          "hint": "Put upright = поставить",
+          "explanation": "Action (upright): поставь вазу."
+        },
+        {
+          "prompt": "State: Картина _____ на стене. (is hanging)",
+          "promptEnglish": "The picture is hanging on the wall.",
+          "options": [
+            "стоит",
+            "висит",
+            "вешает",
+            "лежит"
+          ],
+          "answer": "висит",
+          "hint": "Hanging state = висеть",
+          "explanation": "State (hanging): картина висит."
+        },
+        {
+          "prompt": "Action: _____ картину на стену. (Hang)",
+          "promptEnglish": "Hang the picture on the wall.",
+          "options": [
+            "Положи",
+            "Поставь",
+            "Повесь",
+            "Виси"
+          ],
+          "answer": "Повесь",
+          "hint": "Hang action = повесить",
+          "explanation": "Action (hang): повесь картину."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Гость _____ за столом. (is sitting)",
+          "promptEnglish": "The guest is sitting at the table.",
+          "options": [
+            "сажает",
+            "лежит",
+            "стоит",
+            "сидит"
+          ],
+          "answer": "сидит",
+          "hint": "Seated state = сидеть",
+          "explanation": "State (seated): гость сидит."
+        },
+        {
+          "prompt": "_____ гостя за стол. (Seat, action)",
+          "promptEnglish": "Seat the guest at the table.",
+          "options": [
+            "Сиди",
+            "Положи",
+            "Посади",
+            "Поставь"
+          ],
+          "answer": "Посади",
+          "hint": "Seat action = посадить",
+          "explanation": "Action (seat): посади гостя."
+        },
+        {
+          "prompt": "Тарелки _____ в шкафу. (are standing - stacked upright)",
+          "promptEnglish": "The plates are standing in the cupboard.",
+          "options": [
+            "сидят",
+            "стоят",
+            "лежат",
+            "висят"
+          ],
+          "answer": "стоят",
+          "hint": "Plates upright = стоять",
+          "explanation": "Plates upright: тарелки стоят."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Полотенце _____ на верёвке. (is hanging)",
+          "promptEnglish": "The towel is hanging on the line.",
+          "options": [
+            "лежит",
+            "стоит",
+            "висит",
+            "сидит"
+          ],
+          "answer": "висит",
+          "hint": "Suspended from a line = висеть",
+          "explanation": "Hanging state: полотенце висит. Objects suspended from above use висеть."
+        },
+        {
+          "prompt": "_____ ребёнка в кресло. (Seat, action)",
+          "promptEnglish": "Seat the child in the chair.",
+          "options": [
+            "Положи",
+            "Поставь",
+            "Повесь",
+            "Посади"
+          ],
+          "answer": "Посади",
+          "hint": "Placing someone in a seated position = посадить",
+          "explanation": "Seating action: посади. Putting a person into a seated position uses посадить."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Где мой телефон? — Он _____ на столе. (is lying)"
+    ],
+    "choices": [
+      "лежит",
+      "стоит",
+      "кладёт",
+      "ставит"
+    ],
+    "answers": [
+      "лежит"
+    ],
+    "grammarFocus": "Position state: phone lies flat = лежит",
+    "hints": [
+      "A phone on a table is in a flat/horizontal position. Which position verb describes a flat object's state?"
+    ],
+    "explanations": [
+      "Objects in a flat/horizontal position use 'лежит' (lies): a phone, book, or paper on a table. 'Стоит' (stands) is for upright objects. 'Кладёт/ставит' are action verbs (to place), not state verbs."
+    ],
+    "options": [
+      [
+        "лежит",
+        "лежу",
+        "лежишь",
+        "лежим"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Книга _____ на столе. (state)",
+      "contextEnglish": "The book is on the table.",
+      "options": [
+        "лежит",
+        "положи"
+      ],
+      "answer": "лежит",
+      "explanation": "State: лежит (is lying)."
+    },
+    {
+      "context": "_____ книгу на стол. (action)",
+      "contextEnglish": "Put the book on the table.",
+      "options": [
+        "Положи",
+        "Лежит"
+      ],
+      "answer": "Положи",
+      "explanation": "Action: положи (put lying)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: State (where it is) or Action (putting it)?",
+    "categories": [
+      "State (position)",
+      "Action (positioning)"
+    ],
+    "items": [
+      {
+        "word": "Книга лежит.",
+        "category": "State (position)"
+      },
+      {
+        "word": "Положи книгу.",
+        "category": "Action (positioning)"
+      },
+      {
+        "word": "Ваза стоит.",
+        "category": "State (position)"
+      },
+      {
+        "word": "Поставь вазу.",
+        "category": "Action (positioning)"
+      },
+      {
+        "word": "Картина висит.",
+        "category": "State (position)"
+      },
+      {
+        "word": "Повесь картину.",
+        "category": "Action (positioning)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "стоять / ставить",
+      "definition": "stand (state) / put standing (action)",
+      "example": "Ваза стоит. Поставь вазу."
+    },
+    {
+      "term": "лежать / класть",
+      "definition": "lie (state) / put lying (action)",
+      "example": "Книга лежит. Положи книгу."
+    },
+    {
+      "term": "сидеть / сажать",
+      "definition": "sit (state) / seat (action)",
+      "example": "Гость сидит. Посади гостя."
+    },
+    {
+      "term": "висеть / вешать",
+      "definition": "hang (state) / hang up (action)",
+      "example": "Картина висит. Повесь картину."
+    }
+  ]
+}

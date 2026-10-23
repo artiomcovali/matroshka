@@ -1,0 +1,293 @@
+{
+  "id": "b2-013-verbal-adverbs-advanced",
+  "level": "B2",
+  "focusArea": "other",
+  "title": "Advanced Verbal Adverbs",
+  "titleRussian": "Деепричастия (углублённый)",
+  "description": "Complex verbal adverb usage and style",
+  "descriptionRussian": "Сложное употребление деепричастий",
+  "imageName": "arrow.triangle.branch",
+  "intro": "Advanced verbal adverb (деепричастие) usage involves nuanced choices. IMPERFECTIVE (-я/-а): simultaneous action: Читая книгу, он пил чай. PERFECTIVE (-в/-вши): prior completed action: Прочитав книгу, он лёг спать. SAME SUBJECT RULE: Both actions must have the same subject - violation is a common error! STYLE: Verbal adverbs are formal/written; colloquial Russian uses когда/после того как instead. POSITION: Usually before main clause, but can follow for variety.",
+  "rules": [
+    "Imperfective (-я/-а) = simultaneous: Работая, он слушал музыку",
+    "Perfective (-в/-вши) = prior action: Закончив работу, он ушёл",
+    "SAME SUBJECT required: *Читая книгу, зазвонил телефон (ERROR!)",
+    "Formal style — colloquial prefers: когда читал, после того как прочитал"
+  ],
+  "examples": [
+    "Гуляя по парку, мы встретили друзей. (While walking in the park, we met friends.)",
+    "Узнав новость, она обрадовалась. (Having learned the news, she was happy.)",
+    "ERROR: *Подходя к дому, начался дождь. (Different subjects!)",
+    "CORRECT: Когда я подходил к дому, начался дождь."
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ книгу, он пил кофе. (While reading - simultaneous)",
+          "promptEnglish": "While reading a book, he drank coffee.",
+          "options": [
+            "Прочитав",
+            "Прочитать",
+            "Читая",
+            "Читать"
+          ],
+          "answer": "Читая",
+          "hint": "Simultaneous = imperfective (-я)",
+          "explanation": "Simultaneous: читая (impf)."
+        },
+        {
+          "prompt": "_____ работу, она пошла домой. (Having finished, prior)",
+          "promptEnglish": "Having finished work, she went home.",
+          "options": [
+            "Закончить",
+            "Заканчивая",
+            "Заканчивать",
+            "Закончив"
+          ],
+          "answer": "Закончив",
+          "hint": "Prior completed = perfective (-в)",
+          "explanation": "Prior action: закончив (pf)."
+        },
+        {
+          "prompt": "Which is CORRECT?",
+          "promptEnglish": "Which sentence follows the same-subject rule?",
+          "options": [
+            "Читая, зазвонил телефон.",
+            "Гуляя, мы встретили друзей.",
+            "Работая, пришло письмо.",
+            "Гуляя, начался дождь."
+          ],
+          "answer": "Гуляя, мы встретили друзей.",
+          "hint": "Same subject: мы гуляли, мы встретили",
+          "explanation": "Same subject: мы гуляли и встретили."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ в Москву, он сразу позвонил. (Having arrived)",
+          "promptEnglish": "Having arrived in Moscow, he immediately called.",
+          "options": [
+            "Приезжая",
+            "Приехать",
+            "Приезжать",
+            "Приехав"
+          ],
+          "answer": "Приехав",
+          "hint": "Prior action = pf (-в)",
+          "explanation": "Prior: приехав (pf)."
+        },
+        {
+          "prompt": "_____ музыку, она танцевала. (While listening)",
+          "promptEnglish": "While listening to music, she danced.",
+          "options": [
+            "Слушать",
+            "Послушав",
+            "Послушать",
+            "Слушая"
+          ],
+          "answer": "Слушая",
+          "hint": "Simultaneous = impf (-я)",
+          "explanation": "Simultaneous: слушая (impf)."
+        },
+        {
+          "prompt": "Fix the error: *Читая газету, зазвонил телефон.",
+          "promptEnglish": "Fix: While reading the newspaper, the phone rang.",
+          "options": [
+            "Читая газету, я услышал звонок.",
+            "Прочитав газету, телефон зазвонил.",
+            "Читать газету, телефон звонит.",
+            "Когда я читал газету, зазвонил телефон."
+          ],
+          "answer": "Когда я читал газету, зазвонил телефон.",
+          "hint": "Different subjects = use когда",
+          "explanation": "Different subjects: use когда clause."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Formal: _____ документы, подпишите здесь.",
+          "promptEnglish": "Having checked the documents, sign here.",
+          "options": [
+            "Проверяя",
+            "Проверить",
+            "Проверив",
+            "Проверял"
+          ],
+          "answer": "Проверив",
+          "hint": "Prior action = pf",
+          "explanation": "Prior (formal): проверив."
+        },
+        {
+          "prompt": "Colloquial alternative to 'Прочитав книгу, он понял':",
+          "promptEnglish": "After reading the book, he understood.",
+          "options": [
+            "Прочитать книгу, понять.",
+            "Читая книгу, он понял.",
+            "Книга прочитана, он понял.",
+            "После того как он прочитал книгу, он понял."
+          ],
+          "answer": "После того как он прочитал книгу, он понял.",
+          "hint": "Colloquial = после того как",
+          "explanation": "Colloquial: после того как прочитал."
+        },
+        {
+          "prompt": "_____ о проблеме, мы нашли решение. (Having thought)",
+          "promptEnglish": "Having thought about the problem, we found a solution.",
+          "options": [
+            "Подумать",
+            "Думая",
+            "Думать",
+            "Подумав"
+          ],
+          "answer": "Подумав",
+          "hint": "Prior completed = pf (-в)",
+          "explanation": "Prior: подумав."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "_____ на вопрос, он улыбнулся. (Having answered — prior completed action)",
+          "promptEnglish": "Having answered the question, he smiled.",
+          "options": [
+            "Отвечая",
+            "Ответить",
+            "Ответив",
+            "Отвечать"
+          ],
+          "answer": "Ответив",
+          "hint": "Prior completed action = perfective (-в)",
+          "explanation": "He answered first, then smiled: perfective ответив."
+        },
+        {
+          "prompt": "_____ по телефону, она записывала адрес. (While talking — simultaneous)",
+          "promptEnglish": "While talking on the phone, she was writing down the address.",
+          "options": [
+            "Поговорив",
+            "Разговаривая",
+            "Поговорить",
+            "Разговаривать"
+          ],
+          "answer": "Разговаривая",
+          "hint": "Simultaneous actions = imperfective (-я)",
+          "explanation": "Both actions happened at the same time: imperfective разговаривая."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ новость, она заплакала. (Having heard)"
+    ],
+    "choices": [
+      "Услышав",
+      "Слыша",
+      "Услышать",
+      "Слушая"
+    ],
+    "answers": [
+      "Услышав"
+    ],
+    "grammarFocus": "Prior completed action: perfective verbal adverb",
+    "hints": [
+      "The action of hearing happened first and was completed before she started crying. Which verbal adverb form expresses a completed prior action?"
+    ],
+    "explanations": [
+      "Perfective verbal adverbs (ending in -в/-вши) express completed actions that happened before the main verb: 'Услышав новость' (Having heard the news) happened before 'заплакала' (she cried)."
+    ],
+    "options": [
+      [
+        "услыша",
+        "услышавши",
+        "Услышав"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ книгу, он делал заметки. (while reading)",
+      "contextEnglish": "While reading, he took notes.",
+      "options": [
+        "Читая",
+        "Прочитав"
+      ],
+      "answer": "Читая",
+      "explanation": "Simultaneous = impf читая."
+    },
+    {
+      "context": "_____ книгу, он написал рецензию. (after reading)",
+      "contextEnglish": "After reading, he wrote a review.",
+      "options": [
+        "Прочитав",
+        "Читая"
+      ],
+      "answer": "Прочитав",
+      "explanation": "Prior completed = pf прочитав."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: Correct or Error (same-subject rule)?",
+    "categories": [
+      "Correct",
+      "Error (different subjects)"
+    ],
+    "items": [
+      {
+        "word": "Гуляя, мы разговаривали.",
+        "category": "Correct"
+      },
+      {
+        "word": "Читая, зазвонил телефон.",
+        "category": "Error (different subjects)"
+      },
+      {
+        "word": "Закончив работу, он ушёл.",
+        "category": "Correct"
+      },
+      {
+        "word": "Подходя к дому, начался дождь.",
+        "category": "Error (different subjects)"
+      },
+      {
+        "word": "Услышав новость, она обрадовалась.",
+        "category": "Correct"
+      },
+      {
+        "word": "Открывая дверь, упала ваза.",
+        "category": "Error (different subjects)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "impf verbal adverb (-я/-а)",
+      "definition": "simultaneous action",
+      "example": "Читая, он пил чай."
+    },
+    {
+      "term": "pf verbal adverb (-в/-вши)",
+      "definition": "prior completed action",
+      "example": "Прочитав, он лёг спать."
+    },
+    {
+      "term": "same-subject rule",
+      "definition": "both verbs must share subject",
+      "example": "*Читая, зазвонил телефон (ERROR)"
+    },
+    {
+      "term": "colloquial alternative",
+      "definition": "когда / после того как",
+      "example": "Когда прочитал... (instead of прочитав)"
+    }
+  ]
+}

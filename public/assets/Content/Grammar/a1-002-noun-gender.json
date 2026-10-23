@@ -1,0 +1,273 @@
+{
+  "id": "a1-002-noun-gender",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Noun Gender",
+  "titleRussian": "Род существительных",
+  "description": "Determining noun gender by endings",
+  "descriptionRussian": "Определение рода существительных по окончаниям",
+  "imageName": "textformat.abc",
+  "intro": "In Russian, every noun has a grammatical gender: masculine (мужской род), feminine (женский род), or neuter (средний род). Unlike English, the gender of a noun affects how adjectives, pronouns, and verbs agree with it. Learning to identify gender by word endings is essential for building correct Russian sentences.",
+  "rules": [
+    "Masculine nouns typically end in a consonant or -й: стол (table), музей (museum), словарь (dictionary).",
+    "Feminine nouns typically end in -а or -я: книга (book), неделя (week), or soft sign -ь: ночь (night).",
+    "Neuter nouns end in -о or -е: окно (window), море (sea), or -мя: время (time).",
+    "Some nouns ending in -ь are masculine (словарь, день) - these must be memorized as exceptions."
+  ],
+  "examples": [
+    "стол (table), masculine (ends in consonant)",
+    "книга (book), feminine (ends in -а)",
+    "окно (window), neuter (ends in -о)",
+    "словарь (dictionary), masculine (exception: -ь ending)"
+  ],
+  "tables": [
+    {
+      "title": "Noun Gender by Ending",
+      "headers": [
+        "Gender",
+        "Common Endings",
+        "Examples"
+      ],
+      "rows": [
+        {
+          "label": "Masculine",
+          "cells": [
+            "consonant, -й, -ь",
+            "стол, музей, словарь"
+          ]
+        },
+        {
+          "label": "Feminine",
+          "cells": [
+            "-а, -я, -ь",
+            "книга, неделя, ночь"
+          ]
+        },
+        {
+          "label": "Neuter",
+          "cells": [
+            "-о, -е, -мя",
+            "окно, море, время"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "What is the gender of «стол» (table)?",
+          "promptEnglish": "What is the gender of the word 'стол'?",
+          "options": [
+            "feminine",
+            "masculine",
+            "neuter"
+          ],
+          "answer": "masculine",
+          "hint": "Look at the ending - what letter does it end with?",
+          "explanation": "Стол ends in a consonant (л), so it is masculine."
+        },
+        {
+          "prompt": "What is the gender of «книга» (book)?",
+          "promptEnglish": "What is the gender of the word 'книга'?",
+          "options": [
+            "masculine",
+            "feminine",
+            "neuter"
+          ],
+          "answer": "feminine",
+          "hint": "Words ending in -а are usually feminine",
+          "explanation": "Книга ends in -а, so it is feminine."
+        },
+        {
+          "prompt": "What is the gender of «окно» (window)?",
+          "promptEnglish": "What is the gender of the word 'окно'?",
+          "options": [
+            "masculine",
+            "feminine",
+            "neuter"
+          ],
+          "answer": "neuter",
+          "hint": "Words ending in -о are neuter",
+          "explanation": "Окно ends in -о, so it is neuter."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "What is the gender of «музей» (museum)?",
+          "promptEnglish": "What is the gender of the word 'музей'?",
+          "options": [
+            "neuter",
+            "feminine",
+            "masculine"
+          ],
+          "answer": "masculine",
+          "hint": "Words ending in -й are usually masculine",
+          "explanation": "Музей ends in -й, so it is masculine."
+        },
+        {
+          "prompt": "What is the gender of «неделя» (week)?",
+          "promptEnglish": "What is the gender of the word 'неделя'?",
+          "options": [
+            "neuter",
+            "feminine",
+            "masculine"
+          ],
+          "answer": "feminine",
+          "hint": "Words ending in -я are usually feminine",
+          "explanation": "Неделя ends in -я, so it is feminine."
+        },
+        {
+          "prompt": "What is the gender of «море» (sea)?",
+          "promptEnglish": "What is the gender of the word 'море'?",
+          "options": [
+            "feminine",
+            "neuter",
+            "masculine"
+          ],
+          "answer": "neuter",
+          "hint": "Words ending in -е are neuter",
+          "explanation": "Море ends in -е, so it is neuter."
+        }
+      ]
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort these nouns by gender",
+    "categories": [
+      "Masculine",
+      "Feminine",
+      "Neuter"
+    ],
+    "items": [
+      {
+        "word": "дом",
+        "category": "Masculine"
+      },
+      {
+        "word": "школа",
+        "category": "Feminine"
+      },
+      {
+        "word": "письмо",
+        "category": "Neuter"
+      },
+      {
+        "word": "словарь",
+        "category": "Masculine"
+      },
+      {
+        "word": "ночь",
+        "category": "Feminine"
+      },
+      {
+        "word": "время",
+        "category": "Neuter"
+      },
+      {
+        "word": "музей",
+        "category": "Masculine"
+      },
+      {
+        "word": "песня",
+        "category": "Feminine"
+      },
+      {
+        "word": "город",
+        "category": "Masculine"
+      },
+      {
+        "word": "машина",
+        "category": "Feminine"
+      },
+      {
+        "word": "поле",
+        "category": "Neuter"
+      },
+      {
+        "word": "друг",
+        "category": "Masculine"
+      }
+    ]
+  },
+  "fillInBlank": {
+    "blanks": [
+      "Стол (table) is _____."
+    ],
+    "choices": [
+      "masculine",
+      "feminine",
+      "neuter"
+    ],
+    "answers": [
+      "masculine"
+    ],
+    "grammarFocus": "noun gender identification",
+    "options": [
+      [
+        "neuter",
+        "feminine",
+        "masculine"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ ends in -а, so it is feminine.",
+      "contextEnglish": "Which word ends in -а?",
+      "options": [
+        "книга",
+        "стол"
+      ],
+      "answer": "книга",
+      "explanation": "Книга ends in -а (feminine ending). Стол ends in a consonant (masculine ending)."
+    },
+    {
+      "context": "_____ ends in a consonant, so it is masculine.",
+      "contextEnglish": "Which word ends in a consonant?",
+      "options": [
+        "дом",
+        "школа"
+      ],
+      "answer": "дом",
+      "explanation": "Дом ends in a consonant м (masculine). Школа ends in -а (feminine)."
+    },
+    {
+      "context": "_____ ends in -о, so it is neuter.",
+      "contextEnglish": "Which word ends in -о?",
+      "options": [
+        "молоко",
+        "музей"
+      ],
+      "answer": "молоко",
+      "explanation": "Молоко ends in -о (neuter ending). Музей ends in -й (masculine)."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "мужской род",
+      "definition": "masculine gender",
+      "example": "Стол — мужской род"
+    },
+    {
+      "term": "женский род",
+      "definition": "feminine gender",
+      "example": "Книга — женский род"
+    },
+    {
+      "term": "средний род",
+      "definition": "neuter gender",
+      "example": "Окно — средний род"
+    },
+    {
+      "term": "окончание",
+      "definition": "ending",
+      "example": "Окончание -а — женский род"
+    }
+  ]
+}

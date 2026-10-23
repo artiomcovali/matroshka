@@ -1,0 +1,279 @@
+{
+  "id": "a2-track-past-03-agreement",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Past Tense 3: Tricky Agreement",
+  "titleRussian": "Прошедшее время 3: трудное согласование",
+  "description": "Agreement practice on the tricky subjects: polite вы, masculine -а nouns like папа and дедушка, the question word кто, and compound subjects like Антон и Лена.",
+  "descriptionRussian": "Согласование с трудными подлежащими: вежливое вы, существительные мужского рода на -а (папа, дедушка), вопросительное кто и составные подлежащие (Антон и Лена).",
+  "imageName": "person.2.fill",
+  "trackId": "a2-past-tense-mastery",
+  "trackTitle": "Past Tense Mastery",
+  "trackTitleRussian": "Прошедшее время",
+  "trackIndex": 3,
+  "trackTotal": 5,
+  "intro": "You already know the four endings. This lesson is about the subjects that make you get them wrong anyway. Polite вы looks singular and behaves as plural. Папа and дедушка look feminine and are masculine. Кто takes a masculine verb whoever the answer turns out to be. None of this is new grammar. It is the same rule applied to subjects that disguise themselves.",
+  "rules": [
+    "Polite вы always takes the plural past form, even when addressing one person: Вы были в Москве? Never 'вы был' or 'вы была'.",
+    "Nouns like папа, дедушка, дядя, мужчина end in -а but name male people, so they are masculine: Папа был на работе.",
+    "Кто (and никто) takes masculine singular: Кто был дома? Никто не был готов.",
+    "Compound subjects joined by и are plural: Антон и Лена были в кино.",
+    "Informal ты agrees with the listener's real gender: ты был (to a man), ты была (to a woman)."
+  ],
+  "examples": [
+    "Вы были в театре вчера? (Were you at the theater yesterday? - polite, to one person.) Вы → plural были, always.",
+    "Папа был на работе. (Dad was at work.) Папа ends in -а but names a man → masculine был.",
+    "Дедушка читал газету. (Grandpa was reading the paper.) Дедушка → masculine читал.",
+    "Кто был дома? (Who was at home?) Кто → masculine singular был, whoever the answer is.",
+    "Антон и Лена были в кино. (Anton and Lena were at the cinema.) Two people joined by и → plural были.",
+    "Ты была в школе? (Were you at school? - to a female friend.) Informal ты follows the listener's gender."
+  ],
+  "tables": [
+    {
+      "title": "The Four Troublemakers",
+      "headers": [
+        "Subject",
+        "Verb form",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "вы (polite, 1 person)",
+          "cells": [
+            "plural",
+            "Вы были дома?"
+          ]
+        },
+        {
+          "label": "папа, дедушка, дядя",
+          "cells": [
+            "masculine",
+            "Папа был на работе."
+          ]
+        },
+        {
+          "label": "кто / никто",
+          "cells": [
+            "masc singular",
+            "Кто был дома?"
+          ]
+        },
+        {
+          "label": "X и Y",
+          "cells": [
+            "plural",
+            "Антон и Лена были в кино."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Вы _____ в Москве в июне? (asking one teacher politely)",
+          "promptEnglish": "Were you in Moscow in June? (politely, to one teacher)",
+          "options": [
+            "был",
+            "была",
+            "были",
+            "было"
+          ],
+          "answer": "были",
+          "hint": "Polite вы is grammatically plural, whatever the person count.",
+          "explanation": "Polite вы always takes the plural form: Вы были. Even when you address exactly one person, the verb follows the pronoun's plural grammar."
+        },
+        {
+          "prompt": "Папа _____ на работе весь день.",
+          "promptEnglish": "Dad was at work all day.",
+          "options": [
+            "была",
+            "был",
+            "были",
+            "было"
+          ],
+          "answer": "был",
+          "hint": "Папа ends in -а, but who does the word name?",
+          "explanation": "Папа names a man, so it is masculine despite the -а ending: папа был. The same goes for дедушка, дядя, and мужчина. Agreement follows the person, not the letter."
+        },
+        {
+          "prompt": "Кто _____ дома вчера вечером?",
+          "promptEnglish": "Who was at home yesterday evening?",
+          "options": [
+            "были",
+            "была",
+            "было",
+            "был"
+          ],
+          "answer": "был",
+          "hint": "Кто has one fixed grammatical gender and number.",
+          "explanation": "Кто is grammatically masculine singular: Кто был дома? It stays был even if the answer turns out to be Маша, or three sisters. The question word's own grammar decides."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Антон и Лена _____ в кино в субботу.",
+          "promptEnglish": "Anton and Lena were at the cinema on Saturday.",
+          "options": [
+            "был",
+            "была",
+            "были",
+            "было"
+          ],
+          "answer": "были",
+          "hint": "Count the whole subject, not each name.",
+          "explanation": "Антон и Лена form a compound subject - two people joined by и - and compound subjects are plural: были. The verb agrees with the group, not with the nearest name."
+        },
+        {
+          "prompt": "Дедушка _____ чай с мёдом.",
+          "promptEnglish": "Grandpa was drinking tea with honey.",
+          "options": [
+            "пила",
+            "пил",
+            "пили",
+            "пило"
+          ],
+          "answer": "пил",
+          "hint": "Same trap as папа: the -а ending does not decide.",
+          "explanation": "Дедушка names a man, so it is masculine: пил. The -а ending makes it decline like a feminine noun in the cases, but verb agreement follows the man it names."
+        },
+        {
+          "prompt": "Никто не _____ готов к экзамену.",
+          "promptEnglish": "Nobody was ready for the exam.",
+          "options": [
+            "были",
+            "был",
+            "была",
+            "было"
+          ],
+          "answer": "был",
+          "hint": "Никто behaves exactly like кто.",
+          "explanation": "Никто, like кто, is grammatically masculine singular: никто не был готов. Even when 'nobody' refers to a whole class of students, the word itself stays masc singular."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша и её сестра _____ в парке утром. (Masha and her sister were walking in the park in the morning.)"
+    ],
+    "choices": [
+      "гуляла",
+      "гулял",
+      "гуляли",
+      "гуляло"
+    ],
+    "answers": [
+      "гуляли"
+    ],
+    "grammarFocus": "Маша и её сестра is a compound subject (two people joined by и), so the verb is plural: гуляли. Both members are feminine, but plural -ли has no gender anyway."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Вы был на концерте, Иван Сергеевич?",
+      "translationEnglish": "Were you at the concert, Ivan Sergeevich?",
+      "error": "был",
+      "correction": "были",
+      "options": [
+        "были",
+        "была",
+        "было"
+      ],
+      "explanation": "Polite вы always takes the plural verb: Вы были. The fact that Иван Сергеевич is one man does not matter - the pronoun вы is grammatically plural."
+    },
+    {
+      "sentence": "Папа читала газету утром.",
+      "translationEnglish": "Dad was reading the paper in the morning.",
+      "error": "читала",
+      "correction": "читал",
+      "options": [
+        "читал",
+        "читали",
+        "читало"
+      ],
+      "explanation": "Папа is masculine - it names a man - so the verb takes -л: читал. The -а ending of папа is a declension pattern, not a gender signal."
+    },
+    {
+      "sentence": "Антон и Маша гулял в парке.",
+      "translationEnglish": "Anton and Masha were walking in the park.",
+      "error": "гулял",
+      "correction": "гуляли",
+      "options": [
+        "гуляли",
+        "гуляла",
+        "гуляло"
+      ],
+      "explanation": "Антон и Маша is a compound subject, so the verb is plural: гуляли. Гулял would fit Антон alone."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Ты _____ вчера в школе, Лена?",
+      "contextEnglish": "Were you at school yesterday, Lena?",
+      "options": [
+        "был",
+        "была"
+      ],
+      "answer": "была",
+      "explanation": "Informal ты agrees with the listener's real gender. The listener is Лена, so: ты была. To a male friend it would be ты был."
+    },
+    {
+      "context": "Мужчина _____ у двери.",
+      "contextEnglish": "A man was standing by the door.",
+      "options": [
+        "стояла",
+        "стоял"
+      ],
+      "answer": "стоял",
+      "explanation": "Мужчина ends in -а but names a man, so it is masculine: стоял. Same family as папа, дедушка, дядя."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Вы были в театре, Анна Петровна?",
+      "question": "Why is the verb были plural when Анна Петровна is one person?",
+      "options": [
+        "Polite вы is grammatically plural, so its verb is always plural",
+        "Women always take the plural in the past tense",
+        "Театр requires a plural verb",
+        "It is a mistake; вы была would be correct"
+      ],
+      "answer": "Polite вы is grammatically plural, so its verb is always plural",
+      "explanation": "The pronoun вы carries plural grammar even when politely addressing one person. The verb follows the pronoun: Вы были."
+    },
+    {
+      "sentence": "Кто оставил окно открытым?",
+      "question": "The speaker is asking about a group of girls. Why is the verb оставил masculine singular?",
+      "options": [
+        "Кто is grammatically masculine singular regardless of the expected answer",
+        "Окно is masculine",
+        "The speaker assumes a man did it",
+        "Past-tense questions always use the masculine"
+      ],
+      "answer": "Кто is grammatically masculine singular regardless of the expected answer",
+      "explanation": "Кто carries its own grammar: masculine singular. The verb agrees with кто itself, not with whoever the speaker suspects. The same holds for никто: никто не оставил."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "вежливое вы + были",
+      "definition": "polite вы always pairs with the plural past form, even for one person",
+      "example": "Вы были на собрании, Иван Сергеевич?"
+    },
+    {
+      "term": "папа, дедушка, дядя, мужчина",
+      "definition": "masculine nouns ending in -а; verb agreement follows the man they name",
+      "example": "Папа был на работе, а дедушка читал дома."
+    },
+    {
+      "term": "кто / никто + был",
+      "definition": "кто and никто are grammatically masculine singular",
+      "example": "Кто был дома? Никто не был готов."
+    }
+  ]
+}

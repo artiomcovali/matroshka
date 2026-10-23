@@ -1,0 +1,202 @@
+{
+  "id": "a2-019",
+  "level": "A2",
+  "narrator": "Маша",
+  "title": "Любимые фильмы",
+  "titleEnglish": "Favorite Movies",
+  "description": "Маша и Анна говорят о фильмах.",
+  "imageName": "film.fill",
+  "fullText": "Вчера мы с Анной сидели в кафе и говорили о фильмах. Я люблю комедии. Они весёлые и добрые. Анна больше любит драмы. Она говорит, что драмы интереснее. Я думаю, что комедии лучше! А Анна думает, что драмы лучше. Мы тоже любим фильмы-приключения. Это хорошие фильмы! Мы долго говорили, но не решили — кто прав? В субботу мы хотим посмотреть фильм вместе. Может быть, комедию. Или драму. Посмотрим!",
+  "quiz": [
+    {
+      "prompt": "Где сидели Маша и Анна?",
+      "options": [
+        "Дома",
+        "В кафе",
+        "В кино"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша и Анна сидели в кафе."
+    },
+    {
+      "prompt": "Какие фильмы любит Маша?",
+      "options": [
+        "Комедии",
+        "Драмы",
+        "Приключения"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша любит комедии — весёлые и добрые."
+    },
+    {
+      "prompt": "Какие фильмы больше любит Анна?",
+      "options": [
+        "Комедии",
+        "Приключения",
+        "Драмы"
+      ],
+      "correctIndex": 2,
+      "explanation": "Анна больше любит драмы."
+    },
+    {
+      "prompt": "Что Анна думает о драмах?",
+      "options": [
+        "Они скучные",
+        "Они интереснее",
+        "Они короткие"
+      ],
+      "correctIndex": 1,
+      "explanation": "Анна говорит, что драмы интереснее."
+    },
+    {
+      "prompt": "Кто прав — Маша или Анна?",
+      "options": [
+        "Маша",
+        "Анна",
+        "Они не решили"
+      ],
+      "correctIndex": 2,
+      "explanation": "Они долго говорили, но не решили — кто прав."
+    },
+    {
+      "prompt": "Что Маша и Анна хотят делать в субботу?",
+      "options": [
+        "Пойти в кафе",
+        "Посмотреть фильм вместе",
+        "Пойти в магазин"
+      ],
+      "correctIndex": 1,
+      "explanation": "В субботу они хотят посмотреть фильм вместе."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Маша и Анна сидели в _____ и говорили о фильмах.",
+      "Маша любит _____.",
+      "Анна говорит, что драмы _____.",
+      "Маша и Анна тоже любят фильмы-_____.",
+      "В субботу Маша и Анна хотят _____ фильм вместе."
+    ],
+    "choices": [
+      "кафе",
+      "комедии",
+      "интереснее",
+      "приключения",
+      "посмотреть",
+      "драмы",
+      "веселее"
+    ],
+    "answers": [
+      "кафе",
+      "комедии",
+      "интереснее",
+      "приключения",
+      "посмотреть"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "'Комедии лучше' — 'лучше' means 'better.' It comes from which word?",
+      "options": [
+        "Плохой (bad)",
+        "Хороший (good)",
+        "Большой (big)"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "comparison",
+      "sentenceRef": "Я думаю, что комедии лучше!",
+      "explanation": "'Лучше' means 'better' and comes from 'хороший' (good). It is irregular — you just have to remember it. Хороший → лучше.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "'Драмы интереснее' — 'интереснее' means 'more interesting.' How is it formed?",
+      "options": [
+        "By adding -ее to the word",
+        "By adding более before the word",
+        "By changing the first letter"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "comparison",
+      "sentenceRef": "Она говорит, что драмы интереснее.",
+      "explanation": "To say 'more...' in Russian, add '-ее' (or '-ей'): интересный → интереснее, весёлый → веселее. This means 'more interesting,' 'more fun,' etc.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "'Анна больше любит драмы' — what does 'больше' mean here?",
+      "options": [
+        "Bigger",
+        "More",
+        "The best"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "comparison",
+      "sentenceRef": "Анна больше любит драмы.",
+      "explanation": "'Больше' means 'more' (from 'много' = many/much). 'Больше любит' means 'likes more' or 'prefers.'",
+      "focusArea": "cases"
+    }
+  ],
+  "reviewVocab": [
+    {
+      "word": "комедия",
+      "definition": "comedy",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "комедия",
+        "комедии",
+        "комедий"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "приключение",
+      "definition": "adventure",
+      "partOfSpeech": "noun (n)",
+      "forms": [
+        "приключение",
+        "приключения",
+        "приключений"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "интереснее",
+      "definition": "more interesting",
+      "partOfSpeech": "comparative adjective",
+      "forms": [
+        "интереснее",
+        "интересный",
+        "интересно"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "решить",
+      "definition": "to decide",
+      "partOfSpeech": "verb",
+      "forms": [
+        "решу",
+        "решишь",
+        "решит"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "sentenceReorder": {
+    "sentences": [
+      "Они не решили — кто прав.",
+      "В субботу они хотят посмотреть фильм.",
+      "Маша и Анна говорили о фильмах в кафе.",
+      "Маша любит комедии, а Анна — драмы."
+    ],
+    "correctOrder": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  "audioFile": "a2-019.m4a",
+  "audioTimingFile": "a2-019-timing.json"
+}

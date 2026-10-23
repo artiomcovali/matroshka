@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-019",
+  "title": "Mentor Confrontation",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Confront mentor who sabotaged your career",
+  "imageName": "person.fill.xmark",
+  "initialPrompt": "Я не понимаю, о чём ты. Я всегда поддерживал тебя. Если твоя карьера не сложилась — это твоя ответственность.",
+  "systemPrompt": "You are mentor denying sabotage. Gaslight, reframe events. Only acknowledge if confronted with specific evidence and witnesses to undermining behavior.",
+  "completionCriteria": "User confronted mentor sabotage effectively.",
+  "responseLimit": 15,
+  "hints": [
+    "Вы дали негативную рекомендацию (You gave a negative reference)",
+    "Коллеги слышали ваши комментарии (Colleagues heard your comments)"
+  ],
+  "targetVocabulary": [
+    {"word": "наставник", "definition": "mentor"},
+    {"word": "саботаж", "definition": "sabotage"},
+    {"word": "рекомендация", "definition": "reference"},
+    {"word": "предательство", "definition": "betrayal"},
+    {"word": "доказательства", "definition": "evidence"},
+    {"word": "ответственность", "definition": "accountability"}
+  ],
+  "objectives": [
+    "Present specific evidence",
+    "Counter denial",
+    "Cite witnesses",
+    "Demand acknowledgment",
+    "Achieve closure"
+  ]
+}

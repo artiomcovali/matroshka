@@ -1,0 +1,749 @@
+{
+  "lessonId": "b2-004-complex-sentences",
+  "sets": [
+    {
+      "id": "round-1-conjunction-quiz",
+      "title": "Conjunction Recognition",
+      "titleRussian": "Определение союзов",
+      "description": "Choose the correct conjunction for each sentence type",
+      "descriptionRussian": "Выберите правильный союз для каждого типа предложения",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она сказала, _____ придёт позже.",
+              "promptEnglish": "She said that she would come later.",
+              "options": [
+                "когда",
+                "что",
+                "если",
+                "который"
+              ],
+              "answer": "что",
+              "hint": "Content clause after a verb of saying = что.",
+              "explanation": "After сказать, думать, знать - the conjunction что introduces the content."
+            },
+            {
+              "prompt": "Фильм, _____ мы смотрели вчера, был очень интересный.",
+              "promptEnglish": "The film that we watched yesterday was very interesting.",
+              "options": [
+                "что",
+                "когда",
+                "который",
+                "потому что"
+              ],
+              "answer": "который",
+              "hint": "Relative clause modifying a noun = который (matching case).",
+              "explanation": "Который introduces a relative clause. Accusative masculine: который (inanimate)."
+            },
+            {
+              "prompt": "Он не пришёл, _____ у него болела голова.",
+              "promptEnglish": "He didn't come because he had a headache.",
+              "options": [
+                "что",
+                "хотя",
+                "потому что",
+                "если"
+              ],
+              "answer": "потому что",
+              "hint": "Cause/reason = потому что.",
+              "explanation": "Потому что introduces a cause clause: 'because he had a headache.'"
+            },
+            {
+              "prompt": "_____ закончится дождь, мы пойдём гулять.",
+              "promptEnglish": "When the rain stops, we'll go for a walk.",
+              "options": [
+                "Что",
+                "Который",
+                "Потому что",
+                "Когда"
+              ],
+              "answer": "Когда",
+              "hint": "Time clause = когда.",
+              "explanation": "Когда introduces a time clause: 'When the rain stops...'"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я позвоню тебе, _____ приеду домой.",
+              "promptEnglish": "I'll call you when I get home.",
+              "options": [
+                "когда",
+                "хотя",
+                "что",
+                "который"
+              ],
+              "answer": "когда",
+              "hint": "Time clause.",
+              "explanation": "Когда приеду: 'when I arrive.' Time subordination."
+            },
+            {
+              "prompt": "Она устала, _____ продолжала работать.",
+              "promptEnglish": "She was tired but continued working.",
+              "options": [
+                "и",
+                "потому что",
+                "но",
+                "что"
+              ],
+              "answer": "но",
+              "hint": "Contrast between two independent clauses = но.",
+              "explanation": "Compound sentence with contrast: но joins two independent clauses."
+            },
+            {
+              "prompt": "Он пришёл, _____ она уже ушла.",
+              "promptEnglish": "He came, but she had already left.",
+              "options": [
+                "что",
+                "и",
+                "а",
+                "потому что"
+              ],
+              "answer": "а",
+              "hint": "Contrast/juxtaposition = а.",
+              "explanation": "А contrasts two facts: he came vs. she had left. More about juxtaposition than opposition."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я знаю, _____ он сказал. (the content of what he said)",
+          "contextEnglish": "I know what he said.",
+          "options": [
+            "что",
+            "который"
+          ],
+          "answer": "что",
+          "explanation": "Что = 'what' (content clause). I know the content of his words."
+        },
+        {
+          "context": "Человек, _____ это сказал, уже ушёл. (the person who said it)",
+          "contextEnglish": "The person who said this has already left.",
+          "options": [
+            "который",
+            "что"
+          ],
+          "answer": "который",
+          "explanation": "Который = relative pronoun: 'the person who said it.' Describes the noun."
+        },
+        {
+          "context": "Она не пришла, _____ была занята. (reason)",
+          "contextEnglish": "She didn't come because she was busy.",
+          "options": [
+            "потому что",
+            "хотя"
+          ],
+          "answer": "потому что",
+          "explanation": "Потому что = because. The second clause explains the reason."
+        },
+        {
+          "context": "_____ она была занята, она всё равно пришла. (despite)",
+          "contextEnglish": "Although she was busy, she came anyway.",
+          "options": [
+            "Хотя",
+            "Потому что"
+          ],
+          "answer": "Хотя",
+          "explanation": "Хотя = although. The result contradicts the expectation."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Я думаю, _____ он прав. (I think that he's right.)",
+          "Книга, _____ ты мне дал, очень интересная. (The book you gave me...)",
+          "Мы не пойдём, _____ идёт дождь. (We won't go because...)"
+        ],
+        "choices": [
+          "что",
+          "которую",
+          "потому что"
+        ],
+        "answers": [
+          "что",
+          "которую",
+          "потому что"
+        ],
+        "grammarFocus": "Что (content), который (relative, acc fem), потому что (cause)",
+        "hints": [
+          "Content clause after думать = which conjunction?",
+          "Relative clause: the book is feminine and a direct object (accusative).",
+          "Reason clause = which conjunction?"
+        ],
+        "explanations": [
+          "Что introduces the content of the thought: 'I think that...'",
+          "Которую: feminine accusative form of который. The book (fem) is the object of дал.",
+          "Потому что introduces the reason: 'because it's raining.'"
+        ],
+        "options": [
+          [
+            "что",
+            "как",
+            "будто",
+            "чтобы"
+          ],
+          [
+            "которую",
+            "которой",
+            "которая",
+            "который"
+          ],
+          [
+            "потому что",
+            "хотя",
+            "поэтому",
+            "чтобы"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-3-который-deep",
+      "title": "Relative Clauses Deep Dive",
+      "titleRussian": "Придаточные определительные",
+      "description": "Practice который in all its case forms within complex sentences",
+      "descriptionRussian": "Практика слова который во всех падежах",
+      "icon": "link",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Студент, _____ сдал экзамен, очень рад. (The student WHO passed...)",
+              "promptEnglish": "The student who passed the exam is very happy.",
+              "options": [
+                "которому",
+                "которого",
+                "который",
+                "которым"
+              ],
+              "answer": "который",
+              "hint": "Who = nominative masculine: который.",
+              "explanation": "Который is the subject of the relative clause (он сдал) = nominative."
+            },
+            {
+              "prompt": "Девушка, _____ я видел вчера, работает здесь. (The girl WHOM I saw...)",
+              "promptEnglish": "The girl whom I saw yesterday works here.",
+              "options": [
+                "которая",
+                "которой",
+                "которую",
+                "которым"
+              ],
+              "answer": "которую",
+              "hint": "Whom = accusative feminine: которую.",
+              "explanation": "Которую = accusative feminine. The girl is the object of видел."
+            },
+            {
+              "prompt": "Учитель, _____ мы подарили цветы, был тронут. (The teacher TO WHOM we gave...)",
+              "promptEnglish": "The teacher to whom we gave flowers was touched.",
+              "options": [
+                "который",
+                "которого",
+                "которому",
+                "которым"
+              ],
+              "answer": "которому",
+              "hint": "To whom = dative masculine: которому.",
+              "explanation": "Которому = dative masculine. We gave flowers TO the teacher."
+            },
+            {
+              "prompt": "Друг, с _____ я разговаривал, живёт далеко. (The friend WITH WHOM I spoke...)",
+              "promptEnglish": "The friend with whom I spoke lives far away.",
+              "options": [
+                "который",
+                "которого",
+                "которому",
+                "которым"
+              ],
+              "answer": "которым",
+              "hint": "С + instrumental masculine: которым.",
+              "explanation": "С которым = with whom. Instrumental masculine after с."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Город, в _____ мы жили, очень красивый. (The city IN WHICH we lived...)",
+              "promptEnglish": "The city in which we lived is very beautiful.",
+              "options": [
+                "который",
+                "которого",
+                "котором",
+                "которому"
+              ],
+              "answer": "котором",
+              "hint": "В + prepositional masculine: котором.",
+              "explanation": "В котором = in which. Prepositional masculine after в."
+            },
+            {
+              "prompt": "Проблема, о _____ мы говорили, уже решена. (The problem ABOUT WHICH we spoke...)",
+              "promptEnglish": "The problem we talked about has already been solved.",
+              "options": [
+                "которой",
+                "которую",
+                "которая",
+                "которым"
+              ],
+              "answer": "которой",
+              "hint": "О + prepositional feminine: которой.",
+              "explanation": "О которой = about which. Prepositional feminine after о."
+            },
+            {
+              "prompt": "Человек, _____ нет дома, позвонит позже. (The person WHO is not home...)",
+              "promptEnglish": "The person who is not home will call later.",
+              "options": [
+                "которому",
+                "которого",
+                "который",
+                "которым"
+              ],
+              "answer": "которого",
+              "hint": "Нет + genitive masculine: которого.",
+              "explanation": "Которого нет дома = who is not home. Genitive after нет."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Книга, которая я читаю, интересная.",
+          "error": "которая",
+          "correction": "которую",
+          "hint": "The book is the object of reading (accusative), not the subject.",
+          "explanation": "Я читаю книгу - the book is the direct object = accusative которую, not nominative которая.",
+          "options": [
+            "которую",
+            "которой",
+            "которым"
+          ]
+        },
+        {
+          "sentence": "Друг, который я помогаю, живёт рядом.",
+          "error": "который",
+          "correction": "которому",
+          "hint": "Помогать takes dative, not nominative.",
+          "explanation": "Помогать + dative: которому я помогаю (to whom I help).",
+          "options": [
+            "которому",
+            "которого",
+            "которым"
+          ]
+        },
+        {
+          "sentence": "Город, в который мы жили, красивый.",
+          "error": "который",
+          "correction": "котором",
+          "hint": "Жить в + prepositional, not accusative.",
+          "explanation": "Жить в + prepositional: в котором мы жили. Accusative (в который) = direction.",
+          "options": [
+            "котором",
+            "которого",
+            "которому"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "The woman who works here speaks three languages.",
+          "answer": "Женщина, которая здесь работает, говорит на трёх языках.",
+          "acceptableVariants": [
+            "Женщина, которая работает здесь, говорит на трёх языках."
+          ],
+          "hint": "Who = nominative feminine: которая",
+          "grammarFocus": "Relative clause with nominative который",
+          "keyWord": "которая",
+          "options": [
+            "которая",
+            "которую",
+            "которой",
+            "которым"
+          ]
+        },
+        {
+          "english": "I know the person about whom you're talking.",
+          "answer": "Я знаю человека, о котором ты говоришь.",
+          "acceptableVariants": [
+            "Я знаю человека, о котором вы говорите."
+          ],
+          "hint": "About whom = о + prepositional masculine: о котором",
+          "grammarFocus": "Relative clause with prepositional который",
+          "keyWord": "котором",
+          "options": [
+            "котором",
+            "который",
+            "которого",
+            "которому"
+          ]
+        },
+        {
+          "english": "The house in which we live is old.",
+          "answer": "Дом, в котором мы живём, старый.",
+          "acceptableVariants": [],
+          "hint": "In which = в + prepositional masculine: в котором",
+          "grammarFocus": "Relative clause with в + который",
+          "keyWord": "котором",
+          "options": [
+            "котором",
+            "который",
+            "которого",
+            "которому"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-punctuation-multi",
+      "title": "Punctuation and Multiple Clauses",
+      "titleRussian": "Пунктуация и несколько придаточных",
+      "description": "Master comma rules and sentences with multiple subordinate clauses",
+      "descriptionRussian": "Правила запятых и предложения с несколькими придаточными",
+      "icon": "textformat",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Where does the comma go? \"Я думаю что он прав.\"",
+              "promptEnglish": "I think that he's right.",
+              "options": [
+                "Я, думаю что он прав.",
+                "Я думаю, что он прав.",
+                "Я думаю что, он прав.",
+                "No comma needed."
+              ],
+              "answer": "Я думаю, что он прав.",
+              "hint": "Comma before the subordinate conjunction.",
+              "explanation": "Comma before что: Я думаю, что он прав. Always a comma before subordinate conjunctions."
+            },
+            {
+              "prompt": "He said that he would come if he had time. Choose the correct punctuation:",
+              "promptEnglish": "Choose the correctly punctuated version.",
+              "options": [
+                "Он сказал, что придёт, если будет время.",
+                "Он сказал что придёт если будет время.",
+                "Он сказал, что придёт если будет время.",
+                "Он сказал что, придёт, если будет время."
+              ],
+              "answer": "Он сказал, что придёт, если будет время.",
+              "hint": "Comma before each subordinate conjunction.",
+              "explanation": "Two subordinate clauses = two commas: before что and before если."
+            },
+            {
+              "prompt": "Он пришёл _____ она уже ушла. (contrast: but)",
+              "promptEnglish": "He came, but she had already left.",
+              "options": [
+                "а",
+                "и",
+                "что",
+                "потому что"
+              ],
+              "answer": "а",
+              "hint": "Juxtaposing two contrasting facts = а.",
+              "explanation": "А contrasts: 'He came, while/whereas she had already left.'"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я слышал, _____ он сказал, _____ она ответила.",
+              "promptEnglish": "I heard what he said and what she answered.",
+              "options": [
+                "что / и что",
+                "когда / а когда",
+                "если / и если",
+                "потому что / и потому что"
+              ],
+              "answer": "что / и что",
+              "hint": "Two content clauses connected by и.",
+              "explanation": "Parallel subordinate clauses: что он сказал и что она ответила."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Я знаю, что он придёт. / Она думает, что это правда. / Мы слышали, что магазин закрылся.",
+          "question": "What type of subordinate clause do all three contain?",
+          "options": [
+            "Time clause (когда)",
+            "Content/fact clause (что)",
+            "Relative clause (который)",
+            "Cause clause (потому что)"
+          ],
+          "answer": "Content/fact clause (что)",
+          "explanation": "All use что after verbs of knowing/thinking/hearing to introduce content."
+        },
+        {
+          "sentence": "Хотя шёл дождь, мы гуляли. / Хотя он устал, он работал. / Хотя было поздно, она не ушла.",
+          "question": "What type of subordinate clause?",
+          "options": [
+            "Cause (потому что)",
+            "Time (когда)",
+            "Concessive (хотя)",
+            "Condition (если)"
+          ],
+          "answer": "Concessive (хотя)",
+          "explanation": "Хотя = although. The result contradicts the expected outcome of the condition."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Она не знала, _____ он уехал. (She didn't know when he had left.)",
+          "Дом, в _____ мы жили, был старый. (The house in which we lived...)",
+          "Он пришёл, _____ она позвонила. (He came after she called.)"
+        ],
+        "choices": [
+          "когда",
+          "котором",
+          "после того как"
+        ],
+        "answers": [
+          "когда",
+          "котором",
+          "после того как"
+        ],
+        "grammarFocus": "Когда (time), который (relative prepositional), после того как (after)",
+        "hints": [
+          "Time question in indirect speech.",
+          "В + prepositional masculine of который.",
+          "Time conjunction meaning 'after.'"
+        ],
+        "explanations": [
+          "Когда introduces an indirect time question: 'when he left.'",
+          "В котором: prepositional masculine. Жить в + prepositional.",
+          "После того как = 'after.' A compound time conjunction."
+        ],
+        "options": [
+          [
+            "когда",
+            "что",
+            "как",
+            "где"
+          ],
+          [
+            "который",
+            "которому",
+            "которого",
+            "котором"
+          ],
+          [
+            "потому что",
+            "до того как",
+            "перед тем как",
+            "после того как"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All sentence types and conjunctions mixed together",
+      "descriptionRussian": "Все типы предложений и союзов",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я не пойду на вечеринку, _____ у меня много работы.",
+              "promptEnglish": "I won't go to the party because I have a lot of work.",
+              "options": [
+                "хотя",
+                "потому что",
+                "если",
+                "когда"
+              ],
+              "answer": "потому что",
+              "hint": "Reason = потому что.",
+              "explanation": "Cause clause: потому что у меня много работы."
+            },
+            {
+              "prompt": "_____ он был занят, он нашёл время помочь.",
+              "promptEnglish": "Although he was busy, he found time to help.",
+              "options": [
+                "Потому что",
+                "Когда",
+                "Хотя",
+                "Если"
+              ],
+              "answer": "Хотя",
+              "hint": "Despite/although = хотя.",
+              "explanation": "Хотя = although. The result (helped) contradicts the condition (busy)."
+            },
+            {
+              "prompt": "Студентка, _____ получила пятёрку, очень рада.",
+              "promptEnglish": "The student (f) who got an A is very happy.",
+              "options": [
+                "которую",
+                "которой",
+                "которая",
+                "которым"
+              ],
+              "answer": "которая",
+              "hint": "Who = nominative feminine: которая.",
+              "explanation": "Которая = nominative feminine. She is the subject of получила."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она работает в компании, _____ он работал раньше.",
+              "promptEnglish": "She works at the company where he used to work.",
+              "options": [
+                "что",
+                "которая",
+                "где",
+                "когда"
+              ],
+              "answer": "где",
+              "hint": "Where (in which) = где.",
+              "explanation": "Где = where. Can replace в которой for location."
+            }
+          ]
+        },
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "\"Мы пошли в парк, и погода была прекрасная.\" What type of sentence is this?",
+              "promptEnglish": "We went to the park, and the weather was wonderful.",
+              "options": [
+                "Simple",
+                "Compound",
+                "Complex",
+                "Compound-Complex"
+              ],
+              "answer": "Compound",
+              "hint": "Two independent clauses joined by и.",
+              "explanation": "Two independent clauses connected by и = compound sentence."
+            },
+            {
+              "prompt": "\"Я не знаю, почему он ушёл.\" What type?",
+              "promptEnglish": "I don't know why he left.",
+              "options": [
+                "Simple",
+                "Compound",
+                "Complex",
+                "Compound-Complex"
+              ],
+              "answer": "Complex",
+              "hint": "Main clause + subordinate clause with почему.",
+              "explanation": "Main clause (я не знаю) + subordinate (почему он ушёл) = complex sentence."
+            },
+            {
+              "prompt": "\"Хотя он болел, он пришёл на работу, и все удивились.\" What type?",
+              "promptEnglish": "Although he was sick, he came to work, and everyone was surprised.",
+              "options": [
+                "Simple",
+                "Compound",
+                "Complex",
+                "Compound-Complex"
+              ],
+              "answer": "Compound-Complex",
+              "hint": "Has both a subordinate clause (хотя) and a compound element (и).",
+              "explanation": "Subordinate (хотя он болел) + compound (и все удивились) = compound-complex."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Я знаю почему он ушёл.",
+          "error": "знаю почему",
+          "correction": "знаю, почему",
+          "hint": "Always place a comma before a subordinate conjunction.",
+          "explanation": "Russian requires a comma before subordinate conjunctions: Я знаю, почему он ушёл.",
+          "options": [
+            "знаю, почему",
+            "знаю почему,",
+            ", знаю почему"
+          ]
+        },
+        {
+          "sentence": "Книга которую я читаю интересная.",
+          "error": "Книга которую",
+          "correction": "Книга, которую",
+          "hint": "The relative clause must be set off by commas.",
+          "explanation": "Relative clauses are comma-bounded: Книга, которую я читаю, интересная.",
+          "options": [
+            "Книга, которую",
+            "Книга которую,",
+            "Книга, которая"
+          ]
+        },
+        {
+          "sentence": "Он пришёл, но а она ушла.",
+          "error": "но а",
+          "correction": "а",
+          "hint": "Но and а are both contrast conjunctions. Use only one.",
+          "explanation": "Choose one: а (mild contrast/juxtaposition) or но (stronger opposition). Not both.",
+          "options": [
+            "а",
+            "а но",
+            "и а"
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort by sentence type",
+        "categories": [
+          "Compound (и/а/но/или)",
+          "Complex (subordinate clause)",
+          "Compound-Complex (both)"
+        ],
+        "items": [
+          {
+            "word": "Он работал, а она отдыхала.",
+            "category": "Compound (и/а/но/или)"
+          },
+          {
+            "word": "Я знаю, что он придёт.",
+            "category": "Complex (subordinate clause)"
+          },
+          {
+            "word": "Хотя шёл дождь, мы гуляли, и нам понравилось.",
+            "category": "Compound-Complex (both)"
+          },
+          {
+            "word": "Она устала, но не ушла.",
+            "category": "Compound (и/а/но/или)"
+          },
+          {
+            "word": "Когда он вернулся, все обрадовались.",
+            "category": "Complex (subordinate clause)"
+          },
+          {
+            "word": "Если хочешь, я помогу, но это займёт время.",
+            "category": "Compound-Complex (both)"
+          },
+          {
+            "word": "Книга, которую я читаю, интересная.",
+            "category": "Complex (subordinate clause)"
+          },
+          {
+            "word": "Мы пошли в кино, и фильм нам понравился.",
+            "category": "Compound (и/а/но/или)"
+          },
+          {
+            "word": "Хотя он опоздал, его встретили, и все остались довольны.",
+            "category": "Compound-Complex (both)"
+          }
+        ]
+      }
+    }
+  ]
+}

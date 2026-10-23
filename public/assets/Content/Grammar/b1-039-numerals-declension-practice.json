@@ -1,0 +1,632 @@
+{
+  "lessonId": "b1-039-numerals-declension",
+  "sets": [
+    {
+      "id": "round-1-odin-declension",
+      "title": "Declining один/одна/одно",
+      "titleRussian": "Склонение один/одна/одно",
+      "description": "Practice declining один like an adjective across cases",
+      "descriptionRussian": "Склоняйте один как прилагательное",
+      "icon": "1.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я живу в _____ комнате. (I live in one room.)",
+              "promptEnglish": "одна комната in prepositional case.",
+              "options": [
+                "одна (nom)",
+                "одной (prep)",
+                "одну (acc)",
+                "одним (instr)"
+              ],
+              "answer": "одной (prep)",
+              "hint": "В + prepositional: одна → одной.",
+              "explanation": "Один declines like an adjective. Feminine prepositional: в одной комнате."
+            },
+            {
+              "prompt": "Он пришёл с _____ другом. (He came with one friend.)",
+              "promptEnglish": "один друг in instrumental case.",
+              "options": [
+                "одним (instr)",
+                "одного (gen)",
+                "одному (dat)",
+                "одном (prep)"
+              ],
+              "answer": "одним (instr)",
+              "hint": "С + instrumental: один → одним.",
+              "explanation": "Masculine instrumental: с одним другом."
+            },
+            {
+              "prompt": "У меня нет ни _____ ошибки. (I don't have a single mistake.)",
+              "promptEnglish": "одна ошибка in genitive.",
+              "options": [
+                "одна (nom)",
+                "одну (acc)",
+                "одной (gen)",
+                "одним (instr)"
+              ],
+              "answer": "одной (gen)",
+              "hint": "Нет + genitive: одна → одной.",
+              "explanation": "Feminine genitive: ни одной ошибки. Один declines like an adjective."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она рассказала _____ человеку. (She told one person.)",
+              "promptEnglish": "один человек in dative case.",
+              "options": [
+                "одним (instr)",
+                "одного (gen)",
+                "одному (dat)",
+                "одном (prep)"
+              ],
+              "answer": "одному (dat)",
+              "hint": "Dative: один → одному.",
+              "explanation": "Masculine dative: одному человеку."
+            },
+            {
+              "prompt": "Я знаю только _____ песню. (I know only one song.)",
+              "promptEnglish": "одна песня in accusative.",
+              "options": [
+                "одна (nom)",
+                "одной (gen)",
+                "одну (acc)",
+                "одним (instr)"
+              ],
+              "answer": "одну (acc)",
+              "hint": "Accusative feminine: одна → одну.",
+              "explanation": "Feminine accusative: одну песню."
+            },
+            {
+              "prompt": "Один declines like:",
+              "promptEnglish": "What pattern does один follow?",
+              "options": [
+                "A noun",
+                "An adjective",
+                "A pronoun этот",
+                "It doesn't decline"
+              ],
+              "answer": "An adjective",
+              "hint": "Один agrees in gender, number, and case.",
+              "explanation": "Один declines like an adjective, agreeing with its noun in gender, number, and case."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "В одн___ доме живут три семьи. (In one house, three families live.)",
+          "Мы говорили об одн___ проблеме. (We talked about one problem.)",
+          "Он помог одн___ старушке. (He helped one old lady.)"
+        ],
+        "choices": [
+          "-ом",
+          "-ой",
+          "-ой",
+          "-ого",
+          "-ому"
+        ],
+        "answers": [
+          "-ом",
+          "-ой",
+          "-ой"
+        ],
+        "grammarFocus": "Declension of один across cases and genders",
+        "hints": [
+          "В + prepositional: masculine один → одном.",
+          "Об + prepositional: feminine одна → одной.",
+          "Dative: feminine одна → одной."
+        ],
+        "explanations": [
+          "Masculine prepositional: в одном доме.",
+          "Feminine prepositional: об одной проблеме.",
+          "Feminine dative: одной старушке."
+        ],
+        "options": [
+          [
+            "-ого",
+            "-ой",
+            "-ых",
+            "-ом"
+          ],
+          [
+            "-ом",
+            "-ой",
+            "-ому",
+            "-ого"
+          ],
+          [
+            "-ой",
+            "-ого",
+            "-ому",
+            "-ом"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-2-dva-tri-chetyre",
+      "title": "Declining два/три/четыре",
+      "titleRussian": "Склонение два/три/четыре",
+      "description": "Practice the special declension of 2, 3, 4",
+      "descriptionRussian": "Тренировка особого склонения 2, 3, 4",
+      "icon": "number",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я разговаривал с _____ студентами. (I talked with two students.)",
+              "promptEnglish": "два in instrumental case.",
+              "options": [
+                "двумя (instr)",
+                "двух (gen)",
+                "два (nom)",
+                "двум (dat)"
+              ],
+              "answer": "двумя (instr)",
+              "hint": "С + instrumental: два → двумя.",
+              "explanation": "Instrumental of два: двумя. С двумя студентами."
+            },
+            {
+              "prompt": "Книга стоит около _____ тысяч рублей. (The book costs about three thousand rubles.)",
+              "promptEnglish": "три in genitive case.",
+              "options": [
+                "три (nom)",
+                "трёх (gen)",
+                "трём (dat)",
+                "тремя (instr)"
+              ],
+              "answer": "трёх (gen)",
+              "hint": "Около + genitive: три → трёх.",
+              "explanation": "Genitive of три: трёх. Около трёх тысяч рублей."
+            },
+            {
+              "prompt": "Она позвонила _____ подругам. (She called four friends.)",
+              "promptEnglish": "четыре in dative case.",
+              "options": [
+                "четыре (nom)",
+                "четырёх (gen)",
+                "четырём (dat)",
+                "четырьмя (instr)"
+              ],
+              "answer": "четырём (dat)",
+              "hint": "Dative: четыре → четырём.",
+              "explanation": "Dative of четыре: четырём. Четырём подругам."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Мы не видели этих _____ человек. (We didn't see those two people.)",
+              "promptEnglish": "два in genitive (animate accusative).",
+              "options": [
+                "двух (gen/acc)",
+                "двум (dat)",
+                "два (nom)",
+                "двумя (instr)"
+              ],
+              "answer": "двух (gen/acc)",
+              "hint": "Animate accusative = genitive form: двух.",
+              "explanation": "Animate accusative of два = genitive: двух человек."
+            },
+            {
+              "prompt": "Между _____ окнами стоит шкаф. (Between two windows stands a wardrobe.)",
+              "promptEnglish": "два in instrumental case.",
+              "options": [
+                "двух (gen)",
+                "два (nom)",
+                "двумя (instr)",
+                "двум (dat)"
+              ],
+              "answer": "двумя (instr)",
+              "hint": "Между + instrumental: два → двумя.",
+              "explanation": "Instrumental of два: двумя. Между двумя окнами."
+            },
+            {
+              "prompt": "The genitive/accusative form of четыре is:",
+              "promptEnglish": "What is четыре in gen/acc?",
+              "options": [
+                "четырём",
+                "четырёх",
+                "четырьмя",
+                "четыре"
+              ],
+              "answer": "четырёх",
+              "hint": "Gen/acc animate: четыре → четырёх.",
+              "explanation": "Genitive and animate accusative of четыре: четырёх."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-pyat-dvadtsat",
+      "title": "Declining 5-20 and 30",
+      "titleRussian": "Склонение 5-20 и 30",
+      "description": "Practice declining 5-20 like soft-sign feminine nouns",
+      "descriptionRussian": "Склоняйте 5-20 как существительные на -ь",
+      "icon": "textformat.123",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я прочитал около _____ книг. (I read about ten books.)",
+              "promptEnglish": "десять in genitive case.",
+              "options": [
+                "десять (nom)",
+                "десяти (gen)",
+                "десятью (instr)",
+                "десяти (dat)"
+              ],
+              "answer": "десяти (gen)",
+              "hint": "Около + genitive: десять → десяти.",
+              "explanation": "Genitive/dative/prepositional of десять: десяти. Like soft-sign nouns (ночь → ночи)."
+            },
+            {
+              "prompt": "Мы позвонили _____ людям. (We called fifteen people.)",
+              "promptEnglish": "пятнадцать in dative case.",
+              "options": [
+                "пятнадцать (nom)",
+                "пятнадцати (dat)",
+                "пятнадцатью (instr)",
+                "пятнадцати (gen)"
+              ],
+              "answer": "пятнадцати (dat)",
+              "hint": "Dative: пятнадцать → пятнадцати.",
+              "explanation": "Dative of пятнадцать: пятнадцати. Same ending for gen/dat/prep."
+            },
+            {
+              "prompt": "Numbers 5-20 decline like:",
+              "promptEnglish": "What pattern do they follow?",
+              "options": [
+                "Adjectives",
+                "Masculine nouns",
+                "Feminine soft-sign nouns (-ь)",
+                "They don't decline"
+              ],
+              "answer": "Feminine soft-sign nouns (-ь)",
+              "hint": "Like ночь: ночь, ночи, ночи, ночь, ночью, ночи.",
+              "explanation": "Numbers 5-20 decline like feminine nouns ending in -ь (e.g., ночь). Gen/dat/prep all end in -и."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Он управляет _____ сотрудниками. (He manages twenty employees.)",
+              "promptEnglish": "двадцать in instrumental case.",
+              "options": [
+                "двадцатью (instr)",
+                "двадцать (nom)",
+                "двадцати (gen)",
+                "двадцати (dat)"
+              ],
+              "answer": "двадцатью (instr)",
+              "hint": "Instrumental: двадцать → двадцатью (like ночью).",
+              "explanation": "Instrumental of двадцать: двадцатью. Like ночь → ночью."
+            },
+            {
+              "prompt": "В классе меньше _____ учеников. (There are fewer than seven students in the class.)",
+              "promptEnglish": "семь in genitive case.",
+              "options": [
+                "семь (nom)",
+                "семью (instr)",
+                "семи (gen)",
+                "семи (dat)"
+              ],
+              "answer": "семи (gen)",
+              "hint": "Меньше + genitive: семь → семи.",
+              "explanation": "Genitive of семь: семи. Меньше семи учеников."
+            },
+            {
+              "prompt": "The instrumental of восемь is:",
+              "promptEnglish": "What is восемь in instrumental case?",
+              "options": [
+                "восеми",
+                "восьмью",
+                "восемью",
+                "восьми"
+              ],
+              "answer": "восьмью",
+              "hint": "Восемь drops the second е: восьмью.",
+              "explanation": "Instrumental of восемь: восьмью (note the е drops). Special form."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these numerals by their declension pattern",
+        "categories": [
+          "Like adjective",
+          "Special (2/3/4)",
+          "Like -ь noun"
+        ],
+        "items": [
+          {
+            "word": "один (one)",
+            "category": "Like adjective"
+          },
+          {
+            "word": "два (two)",
+            "category": "Special (2/3/4)"
+          },
+          {
+            "word": "пять (five)",
+            "category": "Like -ь noun"
+          },
+          {
+            "word": "три (three)",
+            "category": "Special (2/3/4)"
+          },
+          {
+            "word": "двенадцать (twelve)",
+            "category": "Like -ь noun"
+          },
+          {
+            "word": "четыре (four)",
+            "category": "Special (2/3/4)"
+          },
+          {
+            "word": "одна (one, fem)",
+            "category": "Like adjective"
+          },
+          {
+            "word": "двадцать (twenty)",
+            "category": "Like -ь noun"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-4-in-context",
+      "title": "Numerals in Context",
+      "titleRussian": "Числительные в контексте",
+      "description": "Choose the correct numeral form in sentences",
+      "descriptionRussian": "Выберите правильную форму числительного",
+      "icon": "text.badge.checkmark",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Автобус приходит через _____ минут. (The bus comes in five minutes.)",
+              "promptEnglish": "через + accusative.",
+              "options": [
+                "пять",
+                "пятью",
+                "пяти"
+              ],
+              "answer": "пять",
+              "hint": "Через + accusative: пять stays unchanged (nom = acc for inanimates).",
+              "explanation": "Через + accusative: through пять минут. Inanimate acc = nominative."
+            },
+            {
+              "prompt": "Она старше меня на _____ лет. (She is older than me by three years.)",
+              "promptEnglish": "на + accusative.",
+              "options": [
+                "трёх",
+                "тремя",
+                "три",
+                "трём"
+              ],
+              "answer": "три",
+              "hint": "На + accusative for 'by (a number)': три stays unchanged.",
+              "explanation": "На + accusative: на три года. Inanimate acc = nominative form."
+            },
+            {
+              "prompt": "К _____ часам он закончит работу. (By four o'clock he will finish work.)",
+              "promptEnglish": "к + dative.",
+              "options": [
+                "четырём",
+                "четырёх",
+                "четыре",
+                "четырьмя"
+              ],
+              "answer": "четырём",
+              "hint": "К + dative: четыре → четырём.",
+              "explanation": "К + dative: к четырём часам (by four o'clock)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Она дружит с _____ девушками. (She is friends with two girls.)",
+              "promptEnglish": "с + instrumental.",
+              "options": [
+                "двух",
+                "двум",
+                "две",
+                "двумя"
+              ],
+              "answer": "двумя",
+              "hint": "С + instrumental: две → двумя.",
+              "explanation": "Instrumental of две: двумя. С двумя девушками."
+            },
+            {
+              "prompt": "До города _____ километров. (It is six kilometers to the city.)",
+              "promptEnglish": "Numeral in nominative (stating quantity).",
+              "options": [
+                "шести",
+                "шестью",
+                "шесть"
+              ],
+              "answer": "шесть",
+              "hint": "Stating a quantity in nominative: шесть.",
+              "explanation": "Nominative for stating quantity: шесть километров."
+            },
+            {
+              "prompt": "Мы знакомы больше _____ лет. (We've known each other more than ten years.)",
+              "promptEnglish": "больше + genitive.",
+              "options": [
+                "десять",
+                "десятью",
+                "десяти"
+              ],
+              "answer": "десяти",
+              "hint": "Больше + genitive: десять → десяти.",
+              "explanation": "Больше + genitive: больше десяти лет."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "He talked with three colleagues.",
+          "answer": "Он разговаривал с тремя коллегами.",
+          "acceptableVariants": [
+            "Он поговорил с тремя коллегами."
+          ],
+          "hint": "С + instrumental: три → тремя",
+          "grammarFocus": "Instrumental of три",
+          "keyWord": "тремя",
+          "options": [
+            "тремя",
+            "три",
+            "трёх",
+            "трём"
+          ]
+        },
+        {
+          "english": "We arrived at about two o'clock.",
+          "answer": "Мы приехали около двух часов.",
+          "acceptableVariants": [
+            "Мы пришли около двух часов."
+          ],
+          "hint": "Около + genitive: два → двух",
+          "grammarFocus": "Genitive of два",
+          "keyWord": "двух",
+          "options": [
+            "двух",
+            "два",
+            "двумя",
+            "двум"
+          ]
+        },
+        {
+          "english": "She gave presents to four children.",
+          "answer": "Она подарила подарки четырём детям.",
+          "acceptableVariants": [
+            "Она дала подарки четырём детям."
+          ],
+          "hint": "Dative: четыре → четырём",
+          "grammarFocus": "Dative of четыре",
+          "keyWord": "четырём",
+          "options": [
+            "четырём",
+            "четыре",
+            "четырёх",
+            "четырьмя"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-numeral-drill",
+      "title": "Mixed Numeral Declension",
+      "titleRussian": "Смешанная тренировка",
+      "description": "Comprehensive practice across all numeral types",
+      "descriptionRussian": "Комплексная тренировка склонения числительных",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "В комнате стояло _____ стульев. (There were eight chairs in the room.)",
+              "promptEnglish": "восемь in nominative (subject).",
+              "options": [
+                "восьми",
+                "восьмью",
+                "восемь",
+                "восьмерых"
+              ],
+              "answer": "восемь",
+              "hint": "Nominative: восемь.",
+              "explanation": "Nominative for the subject: восемь стульев (eight chairs)."
+            },
+            {
+              "prompt": "Экскурсия длится около _____ часов. (The tour lasts about two hours.)",
+              "promptEnglish": "два in genitive case.",
+              "options": [
+                "двух (gen)",
+                "два (nom)",
+                "двумя (instr)",
+                "двум (dat)"
+              ],
+              "answer": "двух (gen)",
+              "hint": "Около + genitive: два → двух.",
+              "explanation": "Genitive of два: двух. Около двух часов."
+            },
+            {
+              "prompt": "Я купил подарок _____ сестре. (I bought a present for one sister.)",
+              "promptEnglish": "одна in dative.",
+              "options": [
+                "одной (gen/dat)",
+                "одну (acc)",
+                "одна (nom)",
+                "одним (instr)"
+              ],
+              "answer": "одной (gen/dat)",
+              "hint": "Dative feminine: одна → одной.",
+              "explanation": "Feminine dative: одной сестре."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Он работает с _____ утра до _____ вечера. (He works from eight in the morning to six in the evening.)",
+              "promptEnglish": "Both numerals in genitive.",
+              "options": [
+                "восьми...шести",
+                "восемь...шесть",
+                "восьмью...шестью",
+                "восьми...шесть"
+              ],
+              "answer": "восьми...шести",
+              "hint": "С + genitive and до + genitive.",
+              "explanation": "С восьми до шести: both genitive. С/до + genitive for time ranges."
+            },
+            {
+              "prompt": "На собрании присутствовали _____ человек. (Fifteen people attended the meeting.)",
+              "promptEnglish": "пятнадцать in nominative.",
+              "options": [
+                "пятнадцати",
+                "пятнадцатью",
+                "пятнадцать"
+              ],
+              "answer": "пятнадцать",
+              "hint": "Nominative: пятнадцать.",
+              "explanation": "Nominative (subject): пятнадцать человек."
+            },
+            {
+              "prompt": "Мы пригласили _____ гостей. (We invited twelve guests.)",
+              "promptEnglish": "двенадцать in accusative.",
+              "options": [
+                "двенадцати",
+                "двенадцатью",
+                "двенадцать"
+              ],
+              "answer": "двенадцать",
+              "hint": "Accusative (inanimate) = nominative: двенадцать.",
+              "explanation": "Inanimate accusative = nominative: двенадцать гостей. Wait, гости are animate, but the numeral itself takes nominative/accusative form for 5+."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

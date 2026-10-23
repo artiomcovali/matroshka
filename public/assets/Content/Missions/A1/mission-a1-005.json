@@ -1,0 +1,46 @@
+{
+  "id": "mission-a1-005",
+  "title": "Weather Chat",
+  "level": "A1",
+  "description": "Talk about today's weather",
+  "imageName": "sun.max.fill",
+  "initialPrompt": "Привет! Какая сегодня погода?",
+  "systemPrompt": "You are a neighbor chatting about weather. Ask what the weather is like and what they prefer. Keep replies short (1-2 sentences).",
+  "completionCriteria": "User described weather and shared their preference.",
+  "responseLimit": 15,
+  "hints": [
+    "Сегодня холодно (Today it's cold)",
+    "Я люблю солнце (I like sun)",
+    "Идёт дождь (It's raining)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "погода",
+      "definition": "weather"
+    },
+    {
+      "word": "холодно",
+      "definition": "cold"
+    },
+    {
+      "word": "тепло",
+      "definition": "warm"
+    },
+    {
+      "word": "дождь",
+      "definition": "rain"
+    },
+    {
+      "word": "солнце",
+      "definition": "sun"
+    },
+    {
+      "word": "люблю",
+      "definition": "I love/like"
+    }
+  ],
+  "objectives": [
+    "Describe today's weather (холодно, тепло, дождь)",
+    "Share your weather preference (Я люблю...)"
+  ]
+}

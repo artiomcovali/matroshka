@@ -1,0 +1,45 @@
+{
+  "id": "mission-a2-hard-004",
+  "title": "The Overcharge",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Your hotel bill is wrong - dispute the extra charges",
+  "imageName": "creditcard.trianglebadge.exclamationmark",
+  "initialPrompt": "Вот ваш счёт. Две тысячи пятьсот рублей. Оплата картой или наличными?",
+  "systemPrompt": "You are hotel reception. Bill has minibar charge (500₽) the guest didn't use. Initially insist the charge is correct. Accept to remove it only if guest clearly denies using minibar and asks you to check. Keep replies short.",
+  "completionCriteria": "User successfully disputed the charge and got the correct bill.",
+  "responseLimit": 15,
+  "hints": [
+    "Это неправильно (This is wrong)",
+    "Я не пользовался минибаром (I didn't use the minibar)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "счёт",
+      "definition": "bill"
+    },
+    {
+      "word": "оплата",
+      "definition": "payment"
+    },
+    {
+      "word": "минибар",
+      "definition": "minibar"
+    },
+    {
+      "word": "ошибка",
+      "definition": "mistake"
+    },
+    {
+      "word": "проверить",
+      "definition": "to check"
+    }
+  ],
+  "objectives": [
+    "Review the bill",
+    "Find the wrong charge",
+    "Explain you didn't use minibar",
+    "Ask them to check (проверить)",
+    "Get corrected bill"
+  ]
+}

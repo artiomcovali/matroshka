@@ -1,0 +1,381 @@
+{
+  "id": "b1-track-prefix-02-pere",
+  "level": "B1",
+  "focusArea": "aspect",
+  "title": "Verbal Prefixes 2: пере- (across, redo, over)",
+  "titleRussian": "Глагольные приставки 2: пере- (через, заново, сверх)",
+  "description": "The prefix пере- covers three closely related shades: crossing across (перейти, переехать), redoing an action (перечитать, переделать, переписать), and exceeding a limit (переработать, перестараться). The shade is always recoverable from the verb root.",
+  "descriptionRussian": "Приставка пере- объединяет три близких оттенка: пересечение («перейти, переехать»), повторное выполнение действия («перечитать, переделать, переписать») и превышение нормы («переработать, перестараться»). Оттенок всегда вытекает из корня глагола.",
+  "imageName": "arrow.uturn.forward",
+  "trackId": "b1-verbal-prefix-mastery",
+  "trackTitle": "Verbal Prefix Mastery",
+  "trackTitleRussian": "Глагольные приставки",
+  "trackIndex": 2,
+  "trackTotal": 8,
+  "intro": "The first prefix, and it has three quite different meanings depending on what you attach it to. On a motion root it means crossing. On an action root it means doing the thing again properly. On an effort root it means overdoing it. Nothing about the prefix tells you which; the root does. That is the pattern for every prefix here.",
+  "rules": [
+    "Shade 1 (across): пере- on motion roots means 'cross' (перейти, переехать) or carry / lead / translate (перенести, перевести).",
+    "Shade 2 (redo): пере- on action roots means 'do again, from scratch, correctly this time' (перечитать, переделать, переписать, пересмотреть). The most common modern shade.",
+    "Shade 3 (exceed): пере- on work / sleep / effort roots means 'do beyond the normal' (переработать, переспать, перестараться).",
+    "Пере- on a simplex verb gives a perfective (читать → перечитать), which then builds its own imperfective with a suffix (перечитывать). The exception is the round-trip motion stems: пере- on ходить, ездить, носить, водить gives an imperfective directly, so the pair is переходить / перейти, переезжать / переехать, переводить / перевести.",
+    "Choose the shade by the root: motion root means across, action root means redo, effort root means exceed."
+  ],
+  "examples": [
+    "Антон перешёл дорогу у светофора. (Anton crossed the road at the traffic light.) Shade 1: across, motion verb.",
+    "Лена переехала в новый город ради работы. (Lena moved to a new city for work.) Shade 1: across, transport verb.",
+    "Игорь перечитал твоё письмо три раза. (Igor reread your letter three times.) Shade 2: redo, the 'three times' cue confirms.",
+    "Лена переделала всю презентацию за один вечер. (Lena redid the whole presentation in one evening.) Shade 2: redo, with bounded time.",
+    "Антон переписал отчёт начисто и отправил его шефу. (Anton rewrote the report on a clean copy and sent it to the boss.) Shade 2: redo, 'начисто' confirms.",
+    "Игорь переработал на этой неделе и очень устал. (Igor worked overtime this week and is very tired.) Shade 3: exceed."
+  ],
+  "tables": [
+    {
+      "title": "The three shades of пере- with example verbs",
+      "headers": [
+        "Shade",
+        "Root type",
+        "Examples"
+      ],
+      "rows": [
+        {
+          "label": "Across",
+          "cells": [
+            "motion verbs",
+            "перейти (cross), переехать (move house), перевести (translate / lead across)"
+          ]
+        },
+        {
+          "label": "Redo",
+          "cells": [
+            "action verbs",
+            "перечитать (reread), переделать (redo), переписать (rewrite), пересмотреть (review)"
+          ]
+        },
+        {
+          "label": "Exceed",
+          "cells": [
+            "effort / state verbs",
+            "переработать (work overtime), переспать (oversleep), перестараться (overdo)"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Антон _____ дорогу у светофора и пошёл в магазин.",
+          "promptEnglish": "Anton crossed the road at the traffic light and went into the store.",
+          "options": [
+            "пошёл",
+            "прошёл",
+            "перешёл",
+            "переехал"
+          ],
+          "answer": "перешёл",
+          "hint": "Shade 1: across, motion verb on foot. Which prefixed past form?",
+          "explanation": "The spatial crossing 'across the road' signals shade 1 of пере-: пере- + идти gives перейти, past masculine перешёл. Пошёл (onset of motion) and прошёл (pass through) would frame different motion moments. Переехал uses ехать (transport), not foot."
+        },
+        {
+          "prompt": "Игорь _____ статью три раза, чтобы найти все ошибки.",
+          "promptEnglish": "Igor reread the article three times to find all the mistakes.",
+          "options": [
+            "прочитал",
+            "читал",
+            "дочитал",
+            "перечитал"
+          ],
+          "answer": "перечитал",
+          "hint": "'Three times' = repeated reading. Which prefix?",
+          "explanation": "'Три раза' (three times) plus 'to find all mistakes' signals shade 2 of пере-: пере- + читать gives перечитал. The repeated, careful re-reading is the canonical 'redo' use. Прочитал is a single read-through; читал is ongoing; дочитал is finishing a reading already in progress, none of which fit the 'three times' framing."
+        },
+        {
+          "prompt": "Я _____ на прошлой неделе и сейчас очень устал.",
+          "promptEnglish": "I (m) worked overtime last week and am now very tired.",
+          "options": [
+            "переработал",
+            "работал",
+            "поработал",
+            "сработал"
+          ],
+          "answer": "переработал",
+          "hint": "Worked beyond normal hours, hence the tiredness. Which shade of пере-?",
+          "explanation": "'Очень устал' from last week's work signals shade 3: пере- + работать gives переработал (worked overtime / beyond the normal amount). Работал is the ongoing process; поработал is 'worked for a while' (one bounded session, not overtime); сработал means 'worked / went off' (a device firing) and does not fit the tiredness framing."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Лена _____ проект, потому что нашла серьёзную ошибку.",
+          "promptEnglish": "Lena redid the project because she found a serious mistake.",
+          "options": [
+            "переделала",
+            "сделала",
+            "делала",
+            "доделала"
+          ],
+          "answer": "переделала",
+          "hint": "Found a serious mistake means she did it from scratch a second time. Which prefix?",
+          "explanation": "'Found a serious mistake' triggers the redo reading: пере- + делать gives переделала. The пере- form is the canonical 'redo from scratch.' Сделала would be 'completed for the first time'; доделала would be 'finished what was started'; делала is the ongoing process."
+        },
+        {
+          "prompt": "Антон _____ отчёт начисто перед сдачей.",
+          "promptEnglish": "Anton rewrote the report on a clean copy before submitting it.",
+          "options": [
+            "написал",
+            "переписал",
+            "писал",
+            "дописал"
+          ],
+          "answer": "переписал",
+          "hint": "'Начисто' = on a clean copy means rewrote from a draft. Which prefix?",
+          "explanation": "'Начисто' (on a clean copy) signals copying / rewriting from a draft, the canonical use of пере- + писать gives переписал. Написал would be the original draft; писал is the ongoing process; дописал would be 'finished what was in progress.'"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я что-то не понял в фильме, поэтому _____ его снова.",
+          "promptEnglish": "I (m) didn't understand something in the film, so I rewatched it.",
+          "options": [
+            "посмотрел",
+            "пересмотрел",
+            "досмотрел",
+            "увидел"
+          ],
+          "answer": "пересмотрел",
+          "hint": "'Снова' = again. Which prefix marks watching it over?",
+          "explanation": "'Снова' (again) signals rewatching, the redo shade of пере-: пере- + смотреть gives пересмотрел. Посмотрел is 'watched (once)', which 'снова' contradicts; досмотрел is 'finished watching what was left'; увидел is 'caught sight of'."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Лена _____ статью, чтобы лучше её понять.",
+          "promptEnglish": "Lena reread the article to understand it better.",
+          "options": [
+            "перечитала",
+            "прочитала",
+            "дочитала",
+            "зачитала"
+          ],
+          "answer": "перечитала",
+          "hint": "Shade 2 of пере-: the redo.",
+          "explanation": "Пере- + читать gives the reread: перечитала. Прочитала is the plain first read-through; дочитала finishes an interrupted read."
+        },
+        {
+          "prompt": "Антон _____ проект с самого начала.",
+          "promptEnglish": "Anton redid the project from scratch.",
+          "options": [
+            "переделал",
+            "сделал",
+            "доделал",
+            "разделал"
+          ],
+          "answer": "переделал",
+          "hint": "'From scratch' after a failed first version.",
+          "explanation": "The redo shade is пере-: переделал. Сделал is the plain first completion; доделал finishes a leftover part; разделал means 'cut up'."
+        },
+        {
+          "prompt": "Лена _____ улицу на зелёный свет.",
+          "promptEnglish": "Lena crossed the street on the green light.",
+          "options": [
+            "перешла",
+            "пошла",
+            "прошла",
+            "подошла"
+          ],
+          "answer": "перешла",
+          "hint": "Shade 1 of пере-: across.",
+          "explanation": "Пере- + идти gives the crossing: перешла улицу. Пошла marks setting off; прошла passing along or through; подошла approaching."
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "items": [
+        {
+          "prompt": "Лена _____ письмо начисто.",
+          "promptEnglish": "Lena rewrote the letter on a clean copy.",
+          "options": [
+            "переписала",
+            "написала",
+            "дописала",
+            "записала"
+          ],
+          "answer": "переписала",
+          "hint": "'Начисто' signals a second, clean version.",
+          "explanation": "The rewrite is пере- + писать: переписала начисто. Написала frames the first writing; дописала the finishing of one; записала a jotted note."
+        },
+        {
+          "prompt": "Антон _____ в другой город прошлым летом.",
+          "promptEnglish": "Anton moved to another city last summer.",
+          "options": [
+            "переехал",
+            "приехал",
+            "уехал",
+            "заехал"
+          ],
+          "answer": "переехал",
+          "hint": "Moving house is the across shade.",
+          "explanation": "Пере- + ехать gives 'move house': переехал в другой город. Приехал is a plain arrival; уехал a departure; заехал a drop-in on the way."
+        },
+        {
+          "prompt": "Лена _____ и очень устала.",
+          "promptEnglish": "Lena worked overtime and got very tired.",
+          "options": [
+            "переработала",
+            "поработала",
+            "доработала",
+            "заработала"
+          ],
+          "answer": "переработала",
+          "hint": "Shade 3 of пере-: exceeding the norm.",
+          "explanation": "Пере- + работать gives 'overwork': переработала. Поработала means 'worked for a while'; доработала 'finished up'; заработала 'earned'."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Лена _____ в новый город ради работы. (Lena moved to a new city for the sake of work.)"
+    ],
+    "choices": [
+      "ехала",
+      "поехала",
+      "переехала",
+      "доехала"
+    ],
+    "answers": [
+      "переехала"
+    ],
+    "grammarFocus": "'Moved to a new city' signals shade 1 of пере-: пере- + ехать gives переехала (moved house, crossed over). Past feminine of переехать. Ехала is the ongoing process (no relocation framing); поехала is onset of motion (set off, not necessarily settled); доехала is 'reached the destination by transport,' not 'relocated.'"
+  },
+  "errorCorrection": [
+    {
+      "sentence": "После свадьбы Лена поехала в другой город и теперь живёт там.",
+      "translationEnglish": "After the wedding, Lena moved to another city and now lives there.",
+      "error": "поехала",
+      "correction": "переехала",
+      "options": [
+        "переехала",
+        "приехала",
+        "уехала"
+      ],
+      "explanation": "'Теперь живёт там' (now lives there) signals relocation, the across / move-house shade of пере-: переехала. Поехала means 'set off' (a single trip, no relocation), приехала 'arrived', and уехала 'went away'. Only переехала conveys moving house to settle in the new city."
+    },
+    {
+      "sentence": "Никто не взял трубку, и Лена позвонила ещё раз через час.",
+      "translationEnglish": "Nobody picked up, so Lena called again an hour later.",
+      "error": "позвонила",
+      "correction": "перезвонила",
+      "options": [
+        "перезвонила",
+        "дозвонилась",
+        "зазвонила"
+      ],
+      "explanation": "'Ещё раз' (again) after a failed first attempt signals a redo, the core shade of пере-: перезвонила (called back). Позвонила means 'made the (first) call', which ещё раз contradicts. Дозвонилась would mean she finally got through; зазвонила is what a phone does."
+    },
+    {
+      "sentence": "Игорь так хотел всё успеть, что постарался и испортил работу.",
+      "translationEnglish": "Igor wanted to get everything done so badly that he overdid it and ruined the work.",
+      "error": "постарался",
+      "correction": "перестарался",
+      "options": [
+        "перестарался",
+        "старался",
+        "достарался"
+      ],
+      "explanation": "'Испортил работу' (ruined the work) from too much effort signals shade 3 of пере-: перестарался (tried too hard, overdid it). Постарался means 'made an effort' (a normal, positive try), which does not explain the ruined result; старался is the ongoing process; достарался is not a standard verb."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Антон _____ статью ещё раз, чтобы лучше её понять.",
+      "contextEnglish": "Anton reread the article again to understand it better.",
+      "options": [
+        "перечитал",
+        "прочитал"
+      ],
+      "answer": "перечитал",
+      "explanation": "'Ещё раз' (one more time) signals repeated reading: пере- + читать gives перечитал (shade 2, redo). Прочитал would be a single read-through, which 'ещё раз' contradicts."
+    },
+    {
+      "context": "Лена _____ в Москву ради новой работы.",
+      "contextEnglish": "Lena moved to Moscow for a new job.",
+      "options": [
+        "переехала",
+        "поехала"
+      ],
+      "answer": "переехала",
+      "explanation": "'Ради новой работы' (for a new job) signals relocation, not just travel: пере- + ехать gives переехала (shade 1, across / move house). Поехала would be onset of motion (set off for Moscow), without the move-house meaning."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each пере- verb by its shade: across, redo, or exceed.",
+    "categories": [
+      "Across (spatial)",
+      "Redo (do again)",
+      "Exceed (too much)"
+    ],
+    "items": [
+      {
+        "word": "переехать (move house)",
+        "category": "Across (spatial)"
+      },
+      {
+        "word": "перейти (cross the road)",
+        "category": "Across (spatial)"
+      },
+      {
+        "word": "перечитать (reread)",
+        "category": "Redo (do again)"
+      },
+      {
+        "word": "переписать (rewrite)",
+        "category": "Redo (do again)"
+      },
+      {
+        "word": "пересмотреть (rewatch)",
+        "category": "Redo (do again)"
+      },
+      {
+        "word": "переработать (work overtime)",
+        "category": "Exceed (too much)"
+      },
+      {
+        "word": "переспать (oversleep)",
+        "category": "Exceed (too much)"
+      },
+      {
+        "word": "перестараться (overdo it)",
+        "category": "Exceed (too much)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "приставка пере-",
+      "definition": "the prefix пере- (turns the verb perfective and adds one of three shades: across, redo, or exceed; the choice depends on the root)",
+      "example": "В предложениях 'Антон перешёл дорогу' и 'Игорь перечитал книгу' одна и та же приставка пере- даёт два разных оттенка."
+    },
+    {
+      "term": "повторное действие",
+      "definition": "repeated action (the redo shade of пере-; the most common modern use; 'do X again, from scratch, or correctly this time')",
+      "example": "В предложении 'Игорь перечитал статью три раза' приставка пере- работает как маркер повторного действия."
+    },
+    {
+      "term": "превышение нормы",
+      "definition": "exceeding the norm (the third shade of пере-; 'do beyond the normal amount'; less common but worth recognising in переработать, переспать, перестараться)",
+      "example": "В предложении 'Антон переработал на этой неделе' приставка пере- даёт смысл превышения нормы."
+    }
+  ]
+}

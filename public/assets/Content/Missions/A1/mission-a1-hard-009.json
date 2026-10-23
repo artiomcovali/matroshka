@@ -1,0 +1,49 @@
+{
+  "id": "mission-a1-hard-009",
+  "title": "The Full Bus",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Find a seat on a crowded bus where everyone has excuses",
+  "imageName": "bus.fill",
+  "initialPrompt": "Автобус полный! Это место? Нет, тут моя сумка. А это место — для моего друга. Он скоро придёт!",
+  "systemPrompt": "You are passengers on a crowded bus. Make excuses for each seat: bag, friend coming, leg hurts. Only give seat if user says they're tired (устал) or pregnant (беременна) or elderly (пожилой). Keep replies short.",
+  "completionCriteria": "User found a seat by giving a valid reason.",
+  "responseLimit": 15,
+  "hints": [
+    "Можно сесть? (May I sit?)",
+    "Я очень устал (I'm very tired)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "место",
+      "definition": "seat/place"
+    },
+    {
+      "word": "сесть",
+      "definition": "to sit"
+    },
+    {
+      "word": "устал",
+      "definition": "tired"
+    },
+    {
+      "word": "полный",
+      "definition": "full"
+    },
+    {
+      "word": "сумка",
+      "definition": "bag"
+    },
+    {
+      "word": "свободно",
+      "definition": "free/available"
+    }
+  ],
+  "objectives": [
+    "Ask if a seat is free (Это место свободно?)",
+    "Counter the bag excuse",
+    "Counter the friend excuse",
+    "Give a reason why you need to sit",
+    "Finally get a seat"
+  ]
+}

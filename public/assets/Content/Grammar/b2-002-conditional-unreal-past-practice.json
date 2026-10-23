@@ -1,0 +1,607 @@
+{
+  "lessonId": "b2-002-conditional-unreal-past",
+  "sets": [
+    {
+      "id": "round-1-structure-quiz",
+      "title": "Structure Recognition",
+      "titleRussian": "Определение структуры",
+      "description": "Identify the correct forms in unreal past conditionals",
+      "descriptionRussian": "Определите правильные формы в нереальных условиях прошлого",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы бы _____ раньше, если бы не было пробок.",
+              "promptEnglish": "We would have arrived earlier if there hadn't been traffic.",
+              "options": [
+                "приехали",
+                "приедем",
+                "приезжаем",
+                "приезжали"
+              ],
+              "answer": "приехали",
+              "hint": "Result clause: бы + past tense.",
+              "explanation": "Would have arrived: бы + past perfective приехали."
+            },
+            {
+              "prompt": "_____, что я не сказал ей правду.",
+              "promptEnglish": "It's a pity that I didn't tell her the truth.",
+              "options": [
+                "Если бы",
+                "Хотя",
+                "Жаль",
+                "Потому что"
+              ],
+              "answer": "Жаль",
+              "hint": "Expressing regret about the past = Жаль.",
+              "explanation": "Жаль, что... expresses regret about something that happened (or didn't)."
+            },
+            {
+              "prompt": "Если бы он _____ на другую работу, его жизнь была бы другой.",
+              "promptEnglish": "If he had switched to a different job, his life would be different.",
+              "options": [
+                "перейдёт",
+                "перешёл",
+                "переходит",
+                "перейти"
+              ],
+              "answer": "перешёл",
+              "hint": "Если бы + past tense (perfective for a specific hypothetical action).",
+              "explanation": "Unreal past condition: если бы перешёл (past perfective)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Если бы только мы _____ об этом раньше!",
+              "promptEnglish": "If only we had known about this earlier!",
+              "options": [
+                "узнаём",
+                "узнали",
+                "узнаем",
+                "узнавать"
+              ],
+              "answer": "узнали",
+              "hint": "Если бы только + past for an 'if only' regret.",
+              "explanation": "Если бы только + past = regretful wish. Узнали is past perfective."
+            },
+            {
+              "prompt": "Она бы не _____, если бы знала правду.",
+              "promptEnglish": "She would not have agreed if she had known the truth.",
+              "options": [
+                "согласится",
+                "соглашается",
+                "согласилась",
+                "соглашалась"
+              ],
+              "answer": "согласилась",
+              "hint": "Бы + past for 'would have.'",
+              "explanation": "Would not have agreed: не согласилась бы (past perfective)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Если он придёт, я _____. (real future possibility)",
+          "contextEnglish": "If he comes, I will tell him.",
+          "options": [
+            "скажу",
+            "сказал бы"
+          ],
+          "answer": "скажу",
+          "explanation": "No бы: real conditional. Future perfective скажу - this might actually happen."
+        },
+        {
+          "context": "Если бы он пришёл, я бы _____. (unreal, he didn't come)",
+          "contextEnglish": "If he had come, I would have told him.",
+          "options": [
+            "сказал",
+            "скажу"
+          ],
+          "answer": "сказал",
+          "explanation": "Бы + past = unreal past conditional. He didn't come, so I didn't tell him."
+        },
+        {
+          "context": "Если она позвонит, мы _____. (real possibility)",
+          "contextEnglish": "If she calls, we will meet.",
+          "options": [
+            "встретимся",
+            "встретились бы"
+          ],
+          "answer": "встретимся",
+          "explanation": "Real conditional: future perfective встретимся. She might still call."
+        },
+        {
+          "context": "Если бы она позвонила, мы бы _____. (she didn't call)",
+          "contextEnglish": "If she had called, we would have met.",
+          "options": [
+            "встретились",
+            "встретимся"
+          ],
+          "answer": "встретились",
+          "explanation": "Unreal past: бы + past. She didn't call, so we didn't meet."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Если бы я _____ раньше, я бы не опоздал. (If I had left earlier...)",
+          "_____, что ты не пришёл на вечеринку. (It's a pity you didn't come...)"
+        ],
+        "choices": [
+          "вышел",
+          "Жаль",
+          "смогла"
+        ],
+        "answers": [
+          "вышел",
+          "Жаль"
+        ],
+        "grammarFocus": "Unreal past: если бы + past, бы + past, жаль expressions",
+        "hints": [
+          "Если бы + past tense of 'leave.'",
+          "A word expressing regret about the past."
+        ],
+        "explanations": [
+          "Если бы вышел (past perfective): 'If I had left.' The condition didn't happen.",
+          "Жаль, что... = 'It's a pity that...' A standard regret expression."
+        ],
+        "options": [
+          [
+            "выходит",
+            "выходил",
+            "вышел",
+            "выйдет"
+          ],
+          [
+            "Плохо",
+            "Жаль",
+            "Ясно",
+            "Хорошо"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-3-error-translate",
+      "title": "Fix and Translate",
+      "titleRussian": "Исправьте и переведите",
+      "description": "Correct errors in conditional sentences and translate from English",
+      "descriptionRussian": "Исправьте ошибки в условных предложениях и переведите с английского",
+      "icon": "pencil.and.outline",
+      "errorCorrection": [
+        {
+          "sentence": "Если бы я знаю, я бы сказал.",
+          "error": "знаю",
+          "correction": "знал",
+          "hint": "After если бы, the verb must be in past tense.",
+          "explanation": "Если бы requires past tense: знал, not present знаю.",
+          "options": [
+            "знал",
+            "буду знать",
+            "знать"
+          ]
+        },
+        {
+          "sentence": "Если бы она придёт, мы бы обсудили.",
+          "error": "придёт",
+          "correction": "пришла",
+          "hint": "Если бы + past, not future.",
+          "explanation": "Unreal condition: если бы пришла (past fem), not придёт (future).",
+          "options": [
+            "пришла",
+            "приходит",
+            "прийти"
+          ]
+        },
+        {
+          "sentence": "Если бы ты предупредил, я бы не приду.",
+          "error": "приду",
+          "correction": "пришёл",
+          "hint": "The result clause also needs бы + past, not future.",
+          "explanation": "Both clauses use past tense with бы: я бы не пришёл.",
+          "options": [
+            "пришёл",
+            "прихожу",
+            "прийти"
+          ]
+        },
+        {
+          "sentence": "Если бы мы поехали на море, было весело.",
+          "error": "было",
+          "correction": "было бы",
+          "hint": "The result clause needs the particle бы.",
+          "explanation": "Missing бы in the result clause: было бы весело (it would have been fun).",
+          "options": [
+            "было бы",
+            "будет",
+            "бывало бы"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "If I had studied Russian earlier, I would speak it fluently now.",
+          "answer": "Если бы я начал учить русский раньше, я бы говорил свободно.",
+          "acceptableVariants": [
+            "Если бы я раньше начал учить русский, я бы говорил свободно.",
+            "Если бы я учил русский раньше, я бы говорил свободно сейчас."
+          ],
+          "hint": "Если бы + past, бы + past",
+          "grammarFocus": "Past unreal conditional",
+          "keyWord": "бы",
+          "options": [
+            "бы",
+            "не",
+            "ли",
+            "же"
+          ]
+        },
+        {
+          "english": "It's a pity that we didn't see each other.",
+          "answer": "Жаль, что мы не увиделись.",
+          "acceptableVariants": [
+            "Жаль, что мы не встретились."
+          ],
+          "hint": "Жаль, что + negative past",
+          "grammarFocus": "Regret expression",
+          "keyWord": "Жаль",
+          "options": [
+            "Жаль",
+            "Если бы",
+            "Хотя",
+            "Потому что"
+          ]
+        },
+        {
+          "english": "If only she had told us!",
+          "answer": "Если бы только она нам сказала!",
+          "acceptableVariants": [
+            "Если бы только она сказала нам!",
+            "Если бы только она нам рассказала!"
+          ],
+          "hint": "Если бы только + past",
+          "grammarFocus": "If only expression",
+          "keyWord": "только",
+          "options": [
+            "только",
+            "же",
+            "и",
+            "не"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which sentence expresses an unreal past condition?",
+              "promptEnglish": "Identify the unreal past conditional.",
+              "options": [
+                "Если бы он пришёл, мы бы поговорили.",
+                "Если она позвонит, я отвечу.",
+                "Когда он пришёл, мы поговорили.",
+                "Он пришёл и мы поговорили."
+              ],
+              "answer": "Если бы он пришёл, мы бы поговорили.",
+              "hint": "Look for если бы + past tense + бы.",
+              "explanation": "Если бы + past tense in both clauses = unreal past conditional. He didn't come."
+            },
+            {
+              "prompt": "Если бы у нас _____ машина, мы бы поехали за город.",
+              "promptEnglish": "If we had had a car, we would have driven to the countryside.",
+              "options": [
+                "будет",
+                "есть",
+                "была",
+                "быть"
+              ],
+              "answer": "была",
+              "hint": "Если бы + past of 'to be.'",
+              "explanation": "Если бы была (past fem) - unreal condition about not having a car."
+            },
+            {
+              "prompt": "Они _____ бы нас, если бы мы попросили.",
+              "promptEnglish": "They would have invited us if we had asked.",
+              "options": [
+                "пригласят",
+                "пригласили",
+                "приглашают",
+                "приглашали"
+              ],
+              "answer": "пригласили",
+              "hint": "Бы + past perfective for the result.",
+              "explanation": "Would have invited: пригласили бы (past pf). They didn't invite because we didn't ask."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-nuance-pairs",
+      "title": "Nuance Comparison",
+      "titleRussian": "Сравнение нюансов",
+      "description": "Distinguish real vs unreal conditions and different regret forms",
+      "descriptionRussian": "Различайте реальные и нереальные условия",
+      "icon": "square.split.2x2",
+      "minimalPairs": [
+        {
+          "context": "Если она _____, мы поедем. (real, she might agree)",
+          "contextEnglish": "If she agrees, we'll go.",
+          "options": [
+            "согласится",
+            "согласилась бы"
+          ],
+          "answer": "согласится",
+          "explanation": "Real conditional: future perfective согласится. She might still agree."
+        },
+        {
+          "context": "Если бы она _____, мы бы поехали. (unreal, she didn't agree)",
+          "contextEnglish": "If she had agreed, we would have gone.",
+          "options": [
+            "согласилась",
+            "согласится"
+          ],
+          "answer": "согласилась",
+          "explanation": "Unreal past: если бы согласилась. She didn't agree, so we didn't go."
+        },
+        {
+          "context": "_____, что ты не пришёл вчера. (expressing regret)",
+          "contextEnglish": "It's a pity you didn't come yesterday.",
+          "options": [
+            "Жаль",
+            "Если бы"
+          ],
+          "answer": "Жаль",
+          "explanation": "Жаль, что... = 'It's a pity that...' Direct regret expression."
+        },
+        {
+          "context": "_____ ты пришёл вчера! (wistful wish about the past)",
+          "contextEnglish": "If only you had come yesterday!",
+          "options": [
+            "Если бы только",
+            "Жаль что"
+          ],
+          "answer": "Если бы только",
+          "explanation": "Если бы только + past = 'If only...!' A stronger, more emotional regret."
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Если бы я знал... / Если бы мы поехали... / Если бы он пришёл...",
+          "question": "What is the common grammatical structure?",
+          "options": [
+            "Если + future tense (real)",
+            "Если бы + past tense (unreal)",
+            "Если бы + present tense",
+            "Когда + past tense (time clause)"
+          ],
+          "answer": "Если бы + past tense (unreal)",
+          "explanation": "All three follow the если бы + past tense pattern for unreal conditions."
+        },
+        {
+          "sentence": "Жаль, что не пришёл. / Жаль, что не сказал. / Жаль, что не успели.",
+          "question": "What do all three express?",
+          "options": [
+            "Real conditions",
+            "Future plans",
+            "Regret about past events",
+            "Annoyance at habits"
+          ],
+          "answer": "Regret about past events",
+          "explanation": "Жаль, что не + past = regretting something that didn't happen."
+        },
+        {
+          "sentence": "Если бы только я знал! / Если бы только мы успели! / Если бы только он сказал!",
+          "question": "What makes these different from standard unreal conditionals?",
+          "options": [
+            "They are real conditions",
+            "They express wishes/regrets without a result clause",
+            "They use present tense",
+            "They are questions"
+          ],
+          "answer": "They express wishes/regrets without a result clause",
+          "explanation": "Если бы только... stands alone as a wistful exclamation. No result clause needed."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Если бы мы _____ больше, мы бы победили. (practiced)",
+          "_____ бы лучше, если бы ты согласился. (It would have been)",
+          "Если бы только я _____ раньше! (had found out)"
+        ],
+        "choices": [
+          "тренировались",
+          "Было",
+          "узнал"
+        ],
+        "answers": [
+          "тренировались",
+          "Было",
+          "узнал"
+        ],
+        "grammarFocus": "Past unreal: condition clause, result clause, if-only exclamation",
+        "hints": [
+          "Если бы + past of 'to practice.'",
+          "Result clause with бы needs a neuter past form of 'to be.'",
+          "Если бы только + past of 'to find out.'"
+        ],
+        "explanations": [
+          "Если бы тренировались (past impf): 'If we had practiced more.' Imperfective for prolonged activity.",
+          "Было бы лучше: 'It would have been better.' Neuter past + бы for the result.",
+          "Если бы только узнал: 'If only I had found out!' Past perfective for a specific discovery."
+        ],
+        "options": [
+          [
+            "тренировались",
+            "потренировались",
+            "потренируется",
+            "тренируется"
+          ],
+          [
+            "Будет",
+            "Было",
+            "Бывает",
+            "Бывало"
+          ],
+          [
+            "узнает",
+            "узнавал",
+            "узнал",
+            "узнаёт"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All conditional and regret patterns mixed together",
+      "descriptionRussian": "Все типы условных предложений и сожалений",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Если бы ты _____ мне раньше, я бы не волновался.",
+              "promptEnglish": "If you had written to me earlier, I wouldn't have worried.",
+              "options": [
+                "напишешь",
+                "пишешь",
+                "написал",
+                "пишу"
+              ],
+              "answer": "написал",
+              "hint": "Если бы + past.",
+              "explanation": "Unreal past: если бы написал. You didn't write, so I worried."
+            },
+            {
+              "prompt": "Всё _____ бы иначе, если бы мы не переехали.",
+              "promptEnglish": "Everything would have been different if we hadn't moved.",
+              "options": [
+                "будет",
+                "было",
+                "бывает",
+                "станет"
+              ],
+              "answer": "было",
+              "hint": "Бы + past neuter for 'would have been.'",
+              "explanation": "Всё было бы иначе: 'Everything would have been different.' Neuter past + бы."
+            },
+            {
+              "prompt": "_____ мы тогда послушали его совет!",
+              "promptEnglish": "If only we had listened to his advice then!",
+              "options": [
+                "Если бы только",
+                "Жаль что",
+                "Потому что",
+                "Хотя"
+              ],
+              "answer": "Если бы только",
+              "hint": "'If only' as a wistful exclamation.",
+              "explanation": "Если бы только + past = 'If only...!' Expressing deep regret."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я бы _____ это место, если бы знал о нём раньше.",
+              "promptEnglish": "I would have visited this place if I had known about it earlier.",
+              "options": [
+                "посещу",
+                "посещаю",
+                "посетил",
+                "посещал"
+              ],
+              "answer": "посетил",
+              "hint": "Бы + past perfective for a specific unrealized action.",
+              "explanation": "Would have visited: посетил бы. Perfective for a one-time event that didn't happen."
+            },
+            {
+              "prompt": "Если бы не дождь, мы бы _____ на пикник.",
+              "promptEnglish": "If it hadn't been for the rain, we would have gone on a picnic.",
+              "options": [
+                "пойдём",
+                "идём",
+                "пошли",
+                "ходим"
+              ],
+              "answer": "пошли",
+              "hint": "Бы + past for the result that didn't happen.",
+              "explanation": "Пошли бы на пикник: 'would have gone.' Past perfective for a specific event."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Жаль, если он не пришёл.",
+          "error": "если",
+          "correction": "что",
+          "hint": "Regret about a known past event uses что, not если.",
+          "explanation": "Жаль, что он не пришёл: 'It's a pity that...' Что introduces a known fact, если introduces a condition.",
+          "options": [
+            "что",
+            "как",
+            "когда"
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these sentences by type",
+        "categories": [
+          "Real conditional",
+          "Unreal past conditional",
+          "Regret expression"
+        ],
+        "items": [
+          {
+            "word": "Если будет дождь, я останусь дома.",
+            "category": "Real conditional"
+          },
+          {
+            "word": "Если бы было тепло, мы бы пошли гулять.",
+            "category": "Unreal past conditional"
+          },
+          {
+            "word": "Жаль, что погода была плохая.",
+            "category": "Regret expression"
+          },
+          {
+            "word": "Если ты придёшь, я буду рад.",
+            "category": "Real conditional"
+          },
+          {
+            "word": "Если бы ты пришёл, я был бы рад.",
+            "category": "Unreal past conditional"
+          },
+          {
+            "word": "Если бы только я послушал!",
+            "category": "Regret expression"
+          },
+          {
+            "word": "Если она согласится, мы начнём.",
+            "category": "Real conditional"
+          },
+          {
+            "word": "Если бы она согласилась, мы бы начали.",
+            "category": "Unreal past conditional"
+          },
+          {
+            "word": "Жаль, что она не согласилась.",
+            "category": "Regret expression"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-021",
+  "title": "The Fake Matryoshka",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "The souvenir is poor quality, not authentic",
+  "imageName": "gift.fill",
+  "initialPrompt": "Спасибо за покупку! До свидания!",
+  "systemPrompt": "You sold low quality matryoshka. Deny at first: 'Это хорошее качество!' Exchange only if user points out specific defects or insists on authentic item. Keep replies short.",
+  "completionCriteria": "User got authentic item or refund.",
+  "responseLimit": 15,
+  "hints": [
+    "Это плохое качество (This is bad quality)",
+    "Краска облезает (The paint is peeling)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "качество",
+      "definition": "quality"
+    },
+    {
+      "word": "плохой",
+      "definition": "bad"
+    },
+    {
+      "word": "настоящий",
+      "definition": "real/authentic"
+    },
+    {
+      "word": "подделка",
+      "definition": "fake"
+    },
+    {
+      "word": "вернуть",
+      "definition": "to return"
+    }
+  ],
+  "objectives": [
+    "Notice poor quality (плохое качество)",
+    "Point out specific defects",
+    "Ask for authentic item (настоящая)",
+    "Insist on exchange",
+    "Get authentic item or refund"
+  ]
+}

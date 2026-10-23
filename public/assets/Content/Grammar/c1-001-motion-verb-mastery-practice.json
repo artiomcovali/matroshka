@@ -1,0 +1,159 @@
+{
+  "lessonId": "c1-001-motion-verb-mastery",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Choose the right figurative motion verb, then pick between close idiomatic pairs",
+      "descriptionRussian": "Выберите правильный глагол движения в переносном значении",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "На улице _____ снег. (It's snowing outside.)",
+              "promptEnglish": "It's snowing outside.",
+              "options": ["ходит", "бежит", "идёт", "летит"],
+              "answer": "идёт",
+              "hint": "Weather 'goes' in Russian: идёт дождь, идёт снег.",
+              "explanation": "Abstract motion: идёт снег (snow is falling). Weather uses идти figuratively."
+            },
+            {
+              "prompt": "В кинотеатре _____ новый фильм. (A new film is showing at the cinema.)",
+              "promptEnglish": "A new film is showing at the cinema.",
+              "options": ["ходит", "бежит", "летит", "идёт"],
+              "answer": "идёт",
+              "hint": "Films, plays, and shows 'go' at the theater.",
+              "explanation": "Abstract: идёт фильм (a film is playing/showing). Events and performances use идти."
+            },
+            {
+              "prompt": "Как быстро _____ время! (How fast time flies!)",
+              "promptEnglish": "How fast time flies!",
+              "options": ["летит", "ходит", "идёт", "бежит"],
+              "answer": "летит",
+              "hint": "Time 'flies' when it passes quickly.",
+              "explanation": "Figurative: время летит (time flies). Лететь used for fast passage of time."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Ему _____ в голову отличная мысль. (A great thought came to him.)",
+              "promptEnglish": "A great thought occurred to him.",
+              "options": ["вышла", "ушла", "пришла", "зашла"],
+              "answer": "пришла",
+              "hint": "Thoughts 'arrive' in the head: прийти в голову.",
+              "explanation": "Idiomatic: мысль пришла в голову (a thought occurred). Прийти for arrival of ideas."
+            },
+            {
+              "prompt": "Переговоры _____ уже третий час. (Negotiations have been going on for three hours.)",
+              "promptEnglish": "Negotiations have been going on for three hours now.",
+              "options": ["бегут", "ходят", "идут", "летят"],
+              "answer": "идут",
+              "hint": "Processes and events 'go' (are ongoing): идти.",
+              "explanation": "Abstract: переговоры идут (negotiations are going on). Ongoing processes use идти."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он совсем _____ из себя, когда узнал правду. (He completely lost his temper when he learned the truth.)",
+          "contextEnglish": "He completely lost his temper.",
+          "options": ["вышел", "ушёл"],
+          "answer": "вышел",
+          "explanation": "Выйти из себя (exit from oneself) = lose one's temper. Уйти из себя does not exist as an idiom."
+        },
+        {
+          "context": "Новому сотруднику нужно _____ в курс дела. (The new employee needs to get up to speed.)",
+          "contextEnglish": "The new employee needs to get up to speed.",
+          "options": ["войти", "выйти"],
+          "answer": "войти",
+          "explanation": "Войти в курс дела (enter into the course of matters) = get up to speed, get oriented."
+        },
+        {
+          "context": "От стресса она чуть не _____ с ума. (From stress she nearly went crazy.)",
+          "contextEnglish": "She nearly went crazy from stress.",
+          "options": ["сошла", "ушла"],
+          "answer": "сошла",
+          "explanation": "Сойти с ума (come off one's mind) = go crazy. Сойти (descend/step off) is the correct prefix."
+        }
+      ]
+    },
+    {
+      "id": "set-3-build-correct",
+      "title": "Build & Correct",
+      "titleRussian": "Построй и исправь",
+      "description": "Assemble sentences with figurative motion verbs and fix errors in idioms",
+      "descriptionRussian": "Постройте предложения и исправьте ошибки в идиомах",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "На улице ходит сильный дождь.",
+          "error": "ходит",
+          "correction": "идёт",
+          "hint": "Weather precipitation uses идти, not ходить.",
+          "explanation": "Rain 'goes' (идёт), not 'walks around' (ходит). Идёт дождь is the fixed expression for precipitation.",
+          "options": ["идёт", "бежит", "летит"]
+        },
+        {
+          "sentence": "Он ушёл из себя от злости.",
+          "error": "ушёл",
+          "correction": "вышел",
+          "hint": "The idiom for losing temper uses вы- (exit), not у- (depart).",
+          "explanation": "Выйти из себя = lose temper. Уйти из себя does not exist. The prefix вы- (out/exit) is required.",
+          "options": ["вышел", "вошёл", "сошёл"]
+        },
+        {
+          "sentence": "Она пришла с ума от радости.",
+          "error": "пришла",
+          "correction": "сошла",
+          "hint": "Going crazy uses сойти (descend/step off), not прийти (arrive).",
+          "explanation": "Сойти с ума (go crazy). The prefix с- (off/down from) is required, not при- (arrival).",
+          "options": ["сошла", "вышла", "спала"]
+        },
+        {
+          "sentence": "Дело пришло до суда.",
+          "error": "пришло",
+          "correction": "дошло",
+          "hint": "Reaching a destination/point uses дойти (reach), not прийти (arrive).",
+          "explanation": "Дойти до суда (reach the court). Дойти до emphasizes reaching a limit or endpoint.",
+          "options": ["дошло", "подошло", "перешло"]
+        }
+      ],
+      "translation": [
+        {
+          "english": "Time flies when you're having fun.",
+          "answer": "Время летит, когда тебе весело.",
+          "acceptableVariants": ["Время летит, когда весело.", "Время летит, когда вам весело."],
+          "hint": "Time 'flies' = время летит. When = когда.",
+          "grammarFocus": "Figurative лететь for rapid passage of time",
+          "keyWord": "летит",
+          "options": ["летит", "идёт", "ползёт", "плывёт"]
+        },
+        {
+          "english": "He completely lost his temper at the meeting.",
+          "answer": "Он совсем вышел из себя на собрании.",
+          "acceptableVariants": ["Он полностью вышел из себя на встрече.", "На собрании он совсем вышел из себя."],
+          "hint": "Lose temper = выйти из себя. At the meeting = на собрании.",
+          "grammarFocus": "Figurative выйти из себя (exit from oneself)",
+          "keyWord": "вышел из себя",
+          "options": ["вышел из себя", "пришёл в себя", "ушёл в себя", "вошёл в себя"]
+        },
+        {
+          "english": "He went crazy from loneliness.",
+          "answer": "Он сошёл с ума от одиночества.",
+          "acceptableVariants": [],
+          "hint": "Go crazy = сойти с ума. From loneliness = от одиночества (genitive).",
+          "grammarFocus": "Сойти с ума (descend from the mind)",
+          "keyWord": "сошёл с ума",
+          "options": ["сошёл с ума", "вышел из ума", "пришёл в ум", "свёл с ума"]
+        }
+      ]
+    }
+  ]
+}

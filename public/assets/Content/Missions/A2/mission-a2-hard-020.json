@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-020",
+  "title": "The Ruined Pants",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "The tailor damaged your pants - get compensation",
+  "imageName": "scissors",
+  "initialPrompt": "Ваши брюки готовы! Вот, пожалуйста. 500 рублей.",
+  "systemPrompt": "You are a tailor. You accidentally cut a hole while hemming. Deny responsibility first, blame fabric quality. Offer 50% discount only if customer insists. Keep replies short.",
+  "completionCriteria": "User got compensation, replacement, or full refund.",
+  "responseLimit": 15,
+  "hints": [
+    "Здесь дырка! (There's a hole here!)",
+    "Это ваша вина (This is your fault)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "брюки",
+      "definition": "pants"
+    },
+    {
+      "word": "дырка",
+      "definition": "hole"
+    },
+    {
+      "word": "испортить",
+      "definition": "to damage"
+    },
+    {
+      "word": "компенсация",
+      "definition": "compensation"
+    },
+    {
+      "word": "ткань",
+      "definition": "fabric"
+    },
+    {
+      "word": "вина",
+      "definition": "fault"
+    }
+  ],
+  "objectives": [
+    "Point out the damage (дырка)",
+    "Reject their excuses",
+    "Demand compensation",
+    "Negotiate resolution",
+    "Get fair outcome"
+  ]
+}

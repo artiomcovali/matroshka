@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-008",
+  "title": "Food Poisoning",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "You got sick from cooking class food - address the issue diplomatically",
+  "imageName": "frying.pan.fill",
+  "initialPrompt": "Вы заболели? Это невозможно! Все продукты были свежие. Может, вы что-то съели дома?",
+  "systemPrompt": "You teach cooking. Deny food was bad, blame student's digestion or home food. Offer refund only if student mentions health inspector or other sick students. Keep replies short.",
+  "completionCriteria": "User got refund, apology, or acknowledgment of issue.",
+  "responseLimit": 15,
+  "hints": [
+    "Другие участники тоже заболели (Other participants got sick too)",
+    "Я могу обратиться в санстанцию (I can contact the health inspector)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "отравление",
+      "definition": "poisoning"
+    },
+    {
+      "word": "свежий",
+      "definition": "fresh"
+    },
+    {
+      "word": "санстанция",
+      "definition": "health inspection"
+    },
+    {
+      "word": "возврат",
+      "definition": "refund"
+    },
+    {
+      "word": "ответственность",
+      "definition": "responsibility"
+    },
+    {
+      "word": "инцидент",
+      "definition": "incident"
+    }
+  ],
+  "objectives": [
+    "Report what happened",
+    "Reject their deflection",
+    "Mention other sick people",
+    "Threaten official complaint",
+    "Get appropriate response"
+  ]
+}

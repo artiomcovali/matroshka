@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-008",
+  "title": "No Small Change",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "The vendor doesn't have change for your large bill",
+  "imageName": "banknote.fill",
+  "initialPrompt": "Яблоки - пятьдесят рублей килограмм. Сколько вам?",
+  "systemPrompt": "You sell apples at market. 50₽/kg. You have no change for 1000₽ bill. Suggest buying more or finding smaller bill. Keep replies short.",
+  "completionCriteria": "User resolved the change problem by buying more or finding smaller money.",
+  "responseLimit": 15,
+  "hints": [
+    "У меня только тысяча (I only have 1000)",
+    "У вас есть сдача? (Do you have change?)",
+    "Тогда два килограмма (Then two kilograms)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "сдача",
+      "definition": "change"
+    },
+    {
+      "word": "тысяча",
+      "definition": "thousand"
+    },
+    {
+      "word": "килограмм",
+      "definition": "kilogram"
+    },
+    {
+      "word": "яблоко",
+      "definition": "apple"
+    },
+    {
+      "word": "мелкие",
+      "definition": "small (money)"
+    }
+  ],
+  "objectives": [
+    "Try to pay with large bill (тысяча)",
+    "Learn there's no change (нет сдачи)",
+    "Find a solution (buy more or smaller bill)"
+  ]
+}

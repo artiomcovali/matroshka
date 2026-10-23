@@ -1,0 +1,294 @@
+{
+  "id": "b2-015-formal-register",
+  "level": "B2",
+  "focusArea": "vocabulary",
+  "title": "Formal Register",
+  "titleRussian": "Официальный стиль",
+  "description": "Formal and official Russian register",
+  "descriptionRussian": "Официально-деловой стиль речи",
+  "imageName": "doc.text",
+  "intro": "Formal/official Russian (официально-деловой стиль) is used in documents, business, law, and official communication. KEY FEATURES: Passive constructions, verbal nouns, participles instead of который, impersonal constructions, formulaic phrases. VOCABULARY: данный (this), осуществлять (to carry out), являться (to be), в связи с (in connection with). AVOID: colloquialisms, contractions, emotional language. This register sounds stiff in conversation but is required in professional contexts.",
+  "rules": [
+    "Use passive/impersonal: Заявление рассматривается (not Мы рассматриваем)",
+    "Verbal nouns preferred: осуществление проверки (carrying out of inspection)",
+    "Participles over который: документы, представленные заявителем",
+    "Formulaic phrases: в соответствии с, на основании, в связи с"
+  ],
+  "examples": [
+    "Настоящим сообщаем, что... (We hereby inform that...)",
+    "В соответствии с законодательством РФ... (In accordance with RF legislation...)",
+    "Заявление подлежит рассмотрению. (The application is subject to review.)",
+    "Просим Вас предоставить документы. (We request that you provide documents.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Formal: _____ сообщаем, что заявка получена. (Hereby)",
+          "promptEnglish": "We hereby inform that the application was received.",
+          "options": [
+            "Вот",
+            "Настоящим",
+            "Теперь",
+            "Сейчас"
+          ],
+          "answer": "Настоящим",
+          "hint": "Hereby = настоящим",
+          "explanation": "Formal: настоящим сообщаем."
+        },
+        {
+          "prompt": "_____ с законом, это запрещено. (In accordance with)",
+          "promptEnglish": "In accordance with the law, this is prohibited.",
+          "options": [
+            "В соответствии",
+            "По",
+            "Потому что",
+            "Из-за"
+          ],
+          "answer": "В соответствии",
+          "hint": "In accordance = в соответствии с",
+          "explanation": "Formal: в соответствии с законом."
+        },
+        {
+          "prompt": "Formal for 'Мы рассматриваем заявку':",
+          "promptEnglish": "We are reviewing the application. (formal)",
+          "options": [
+            "Рассмотрим заявку.",
+            "Мы смотрим заявку.",
+            "Заявку смотрят.",
+            "Заявка рассматривается."
+          ],
+          "answer": "Заявка рассматривается.",
+          "hint": "Passive preferred in formal",
+          "explanation": "Formal passive: рассматривается."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ Вас предоставить документы. (We request)",
+          "promptEnglish": "We request that you provide documents.",
+          "options": [
+            "Давай",
+            "Просим",
+            "Хотим",
+            "Надо"
+          ],
+          "answer": "Просим",
+          "hint": "Formal request = просим",
+          "explanation": "Formal: Просим Вас..."
+        },
+        {
+          "prompt": "Formal for 'этот': _____ документ.",
+          "promptEnglish": "This document. (formal)",
+          "options": [
+            "Данный",
+            "Этот",
+            "Тот",
+            "Такой"
+          ],
+          "answer": "Данный",
+          "hint": "Formal 'this' = данный",
+          "explanation": "Formal: данный документ."
+        },
+        {
+          "prompt": "_____ основании вышеизложенного... (On the basis of)",
+          "promptEnglish": "On the basis of the above...",
+          "options": [
+            "С",
+            "В",
+            "На",
+            "По"
+          ],
+          "answer": "На",
+          "hint": "On the basis = на основании",
+          "explanation": "Formal: на основании."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Formal for 'быть': Это _____ важным. (is)",
+          "promptEnglish": "This is important. (formal)",
+          "options": [
+            "будет",
+            "есть",
+            "было",
+            "является"
+          ],
+          "answer": "является",
+          "hint": "Formal 'is' = является",
+          "explanation": "Formal: является важным."
+        },
+        {
+          "prompt": "_____ с этим, мы не можем... (In connection with)",
+          "promptEnglish": "In connection with this, we cannot...",
+          "options": [
+            "В связи",
+            "Из-за",
+            "Поэтому",
+            "Потому что"
+          ],
+          "answer": "В связи",
+          "hint": "In connection = в связи с",
+          "explanation": "Formal: в связи с этим."
+        },
+        {
+          "prompt": "Which is NOT formal style?",
+          "promptEnglish": "Which phrase is too casual?",
+          "options": [
+            "Просим Вас...",
+            "Мы хотим сказать, что...",
+            "В соответствии с...",
+            "Настоящим сообщаем..."
+          ],
+          "answer": "Мы хотим сказать, что...",
+          "hint": "Хотим сказать = too casual",
+          "explanation": "Casual: Мы хотим сказать. Formal: Настоящим сообщаем."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Formal: _____ рассмотрению в установленные сроки. (is subject to)",
+          "promptEnglish": "The application is subject to review within the established deadlines.",
+          "options": [
+            "Заявка надо",
+            "Заявка будет",
+            "Заявка подлежит",
+            "Заявка хочет"
+          ],
+          "answer": "Заявка подлежит",
+          "hint": "Formal 'is subject to' = подлежит + dative",
+          "explanation": "Formal register: подлежит + dative noun (рассмотрению = review)."
+        },
+        {
+          "prompt": "_____ вышеизложенного, просим принять меры. (On the basis of)",
+          "promptEnglish": "On the basis of the above, we ask you to take measures.",
+          "options": [
+            "Из-за",
+            "Потому что",
+            "По причине",
+            "На основании"
+          ],
+          "answer": "На основании",
+          "hint": "Formal phrase: on the basis of = на основании",
+          "explanation": "На основании + genitive is a standard formal/legal phrase meaning 'on the basis of.'"
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ с правилами, вход запрещён. (In accordance with)"
+    ],
+    "choices": [
+      "В соответствии",
+      "Из-за",
+      "Потому что",
+      "По"
+    ],
+    "answers": [
+      "В соответствии"
+    ],
+    "grammarFocus": "Formal phrase: в соответствии с + instrumental",
+    "hints": [
+      "This is a fixed formal/legal phrase meaning 'in accordance with.' It requires a specific preposition."
+    ],
+    "explanations": [
+      "'В соответствии с' (in accordance with) is a standard formal/legal phrase followed by the instrumental case. It is more formal than 'по' or 'из-за,' which have different meanings (by/because of)."
+    ],
+    "options": [
+      [
+        "Из-за",
+        "По",
+        "Потому что",
+        "В соответствии"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Formal: _____ документ важен.",
+      "contextEnglish": "This document is important. (formal)",
+      "options": [
+        "Данный",
+        "Этот"
+      ],
+      "answer": "Данный",
+      "explanation": "Formal: данный."
+    },
+    {
+      "context": "Casual: _____ документ важен.",
+      "contextEnglish": "This document is important. (casual)",
+      "options": [
+        "Этот",
+        "Данный"
+      ],
+      "answer": "Этот",
+      "explanation": "Casual: этот."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: Formal or Casual?",
+    "categories": [
+      "Formal",
+      "Casual"
+    ],
+    "items": [
+      {
+        "word": "Настоящим сообщаем...",
+        "category": "Formal"
+      },
+      {
+        "word": "Хочу сказать, что...",
+        "category": "Casual"
+      },
+      {
+        "word": "В соответствии с законом...",
+        "category": "Formal"
+      },
+      {
+        "word": "По закону...",
+        "category": "Casual"
+      },
+      {
+        "word": "Просим Вас предоставить...",
+        "category": "Formal"
+      },
+      {
+        "word": "Дайте, пожалуйста...",
+        "category": "Casual"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "настоящим",
+      "definition": "hereby (formal opener)",
+      "example": "Настоящим сообщаем..."
+    },
+    {
+      "term": "в соответствии с",
+      "definition": "in accordance with",
+      "example": "В соответствии с законом..."
+    },
+    {
+      "term": "данный",
+      "definition": "this (formal)",
+      "example": "Данный документ..."
+    },
+    {
+      "term": "является",
+      "definition": "is (formal copula)",
+      "example": "Это является важным."
+    }
+  ]
+}

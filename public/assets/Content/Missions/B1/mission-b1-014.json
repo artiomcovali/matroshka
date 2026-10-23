@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-014",
+  "title": "Insurance Claim",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "File an insurance claim after a minor car accident",
+  "imageName": "car.rear.and.collision.road.lane",
+  "initialPrompt": "Страховая компания 'Надёжность', добрый день. Чем могу помочь?",
+  "systemPrompt": "You process insurance claims. Need: policy number, accident date/location, description, other driver info, photos. Explain claim process: 3-5 days review, then repair authorization. Keep replies short.",
+  "completionCriteria": "User provided accident details and understood claim process.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу подать заявление (I want to file a claim)",
+    "Авария была вчера (The accident was yesterday)",
+    "Другой водитель виноват (The other driver was at fault)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "страховка",
+      "definition": "insurance"
+    },
+    {
+      "word": "заявление",
+      "definition": "claim/application"
+    },
+    {
+      "word": "авария",
+      "definition": "accident"
+    },
+    {
+      "word": "повреждение",
+      "definition": "damage"
+    },
+    {
+      "word": "виноват",
+      "definition": "at fault"
+    },
+    {
+      "word": "ремонт",
+      "definition": "repair"
+    }
+  ],
+  "objectives": [
+    "Say you want to file a claim",
+    "Provide your policy number",
+    "Describe the accident",
+    "Give other driver's information",
+    "Understand the claim process"
+  ]
+}

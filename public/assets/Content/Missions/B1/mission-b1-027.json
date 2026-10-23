@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-027",
+  "title": "Fitness Consultation",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Discuss fitness goals with a personal trainer",
+  "imageName": "figure.strengthtraining.traditional",
+  "initialPrompt": "Здравствуйте! Я ваш тренер. Расскажите о ваших целях.",
+  "systemPrompt": "You are a fitness trainer. Ask about goals (weight loss, strength, health), current activity level, any injuries. Suggest program: 3x week, mix of cardio and weights. Keep replies short.",
+  "completionCriteria": "User discussed goals and got personalized training plan.",
+  "responseLimit": 15,
+  "hints": [
+    "Хочу похудеть (I want to lose weight)",
+    "Сколько раз в неделю? (How many times per week?)",
+    "Какие упражнения? (What exercises?)",
+    "У меня болит спина (My back hurts)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "тренировка",
+      "definition": "workout"
+    },
+    {
+      "word": "цель",
+      "definition": "goal"
+    },
+    {
+      "word": "упражнение",
+      "definition": "exercise"
+    },
+    {
+      "word": "программа",
+      "definition": "program"
+    },
+    {
+      "word": "похудеть",
+      "definition": "to lose weight"
+    },
+    {
+      "word": "мышцы",
+      "definition": "muscles"
+    }
+  ],
+  "objectives": [
+    "Explain your fitness goals",
+    "Discuss your current level",
+    "Mention any limitations",
+    "Get training plan"
+  ]
+}

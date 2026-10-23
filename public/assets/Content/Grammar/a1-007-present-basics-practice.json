@@ -1,0 +1,531 @@
+{
+  "lessonId": "a1-007-present-basics",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Pick the right verb ending for each pronoun",
+      "descriptionRussian": "Выберите правильное окончание глагола для каждого местоимения",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Она _____ музыку. (слушать)",
+              "promptEnglish": "She listens to music.",
+              "options": [
+                "слушаю",
+                "слушаешь",
+                "слушает",
+                "слушают"
+              ],
+              "answer": "слушает",
+              "hint": "она = third person singular, 1st conjugation.",
+              "explanation": "Слушать is 1st conjugation. With она, add -ет: слушает."
+            },
+            {
+              "prompt": "Мы _____ по-русски. (говорить)",
+              "promptEnglish": "We speak Russian.",
+              "options": [
+                "говорю",
+                "говорим",
+                "говорят",
+                "говоришь"
+              ],
+              "answer": "говорим",
+              "hint": "мы = first person plural, 2nd conjugation.",
+              "explanation": "Говорить is 2nd conjugation. With мы, add -им: говорим."
+            },
+            {
+              "prompt": "Ты _____ газету. (читать)",
+              "promptEnglish": "You read a newspaper.",
+              "options": [
+                "читаю",
+                "читает",
+                "читаешь",
+                "читают"
+              ],
+              "answer": "читаешь",
+              "hint": "ты = second person singular, 1st conjugation.",
+              "explanation": "Читать is 1st conjugation. With ты, add -ешь: читаешь."
+            },
+            {
+              "prompt": "Они _____ телевизор. (смотреть)",
+              "promptEnglish": "They watch TV.",
+              "options": [
+                "смотрю",
+                "смотрит",
+                "смотрят",
+                "смотрим"
+              ],
+              "answer": "смотрят",
+              "hint": "они = third person plural, 2nd conjugation.",
+              "explanation": "Смотреть is 2nd conjugation. With они, add -ят: смотрят."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ читаю книгу.",
+          "contextEnglish": "_____ am reading a book.",
+          "options": [
+            "Я",
+            "Ты"
+          ],
+          "answer": "Я",
+          "explanation": "Читаю is the я form. The ты form would be читаешь."
+        },
+        {
+          "context": "Он _____ по-русски. (говорить)",
+          "contextEnglish": "He speaks Russian.",
+          "options": [
+            "говорит",
+            "говорят"
+          ],
+          "answer": "говорит",
+          "explanation": "Он is singular, so use говорит (-ит). Говорят is for они (plural)."
+        },
+        {
+          "context": "Вы _____ в школе? (работать)",
+          "contextEnglish": "Do you work at school?",
+          "options": [
+            "работаете",
+            "работаешь"
+          ],
+          "answer": "работаете",
+          "explanation": "Вы takes -ете (1st conj.): работаете. Работаешь is for ты."
+        },
+        {
+          "context": "Мы _____ музыку. (слушать)",
+          "contextEnglish": "We listen to music.",
+          "options": [
+            "слушаем",
+            "слушают"
+          ],
+          "answer": "слушаем",
+          "explanation": "Мы takes -ем (1st conj.): слушаем. Слушают is for они."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in conjugated verbs and sort by conjugation type",
+      "descriptionRussian": "Вставьте глаголы и рассортируйте по типу спряжения",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Я _____ книгу. (писать, пишу)",
+          "Ты _____ по-английски. (говорить)",
+          "Она _____ в школе. (работать)",
+          "Они _____ телевизор. (смотреть)"
+        ],
+        "choices": [
+          "пишу",
+          "говоришь",
+          "работает",
+          "смотрят"
+        ],
+        "answers": [
+          "пишу",
+          "говоришь",
+          "работает",
+          "смотрят"
+        ],
+        "grammarFocus": "conjugation across persons",
+        "hints": [
+          "я + 1st conjugation: -у/-ю.",
+          "ты + 2nd conjugation: -ишь.",
+          "она + 1st conjugation: -ет.",
+          "они + 2nd conjugation: -ят."
+        ],
+        "explanations": [
+          "Писать with я: пишу (stem change пис- to пиш-, but the ending is regular -у).",
+          "Говорить with ты: говоришь. 2nd conjugation uses -ишь for ты.",
+          "Работать with она: работает. 1st conjugation uses -ет for она.",
+          "Смотреть with они: смотрят. 2nd conjugation uses -ят for они."
+        ],
+        "options": [
+          [
+            "пишете",
+            "пишешь",
+            "пишу",
+            "пишет"
+          ],
+          [
+            "говорит",
+            "говорим",
+            "говорю",
+            "говоришь"
+          ],
+          [
+            "работает",
+            "работаю",
+            "работаем",
+            "работаешь"
+          ],
+          [
+            "смотрю",
+            "смотрят",
+            "смотрите",
+            "смотрим"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort these verbs by conjugation type",
+        "categories": [
+          "1st Conjugation (-ать/-ять)",
+          "2nd Conjugation (-ить)"
+        ],
+        "items": [
+          {
+            "word": "читать (to read)",
+            "category": "1st Conjugation (-ать/-ять)"
+          },
+          {
+            "word": "говорить (to speak)",
+            "category": "2nd Conjugation (-ить)"
+          },
+          {
+            "word": "работать (to work)",
+            "category": "1st Conjugation (-ать/-ять)"
+          },
+          {
+            "word": "смотреть (to watch)",
+            "category": "2nd Conjugation (-ить)"
+          },
+          {
+            "word": "слушать (to listen)",
+            "category": "1st Conjugation (-ать/-ять)"
+          },
+          {
+            "word": "учить (to study)",
+            "category": "2nd Conjugation (-ить)"
+          },
+          {
+            "word": "понимать (to understand)",
+            "category": "1st Conjugation (-ать/-ять)"
+          },
+          {
+            "word": "любить (to love)",
+            "category": "2nd Conjugation (-ить)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-3-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Составь и переведи",
+      "description": "Build sentences with conjugated verbs and translate",
+      "descriptionRussian": "Составьте предложения со спрягаемыми глаголами и переведите",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "I listen to music.",
+          "answer": "Я слушаю музыку.",
+          "hint": "I = я, listen = слушаю (1st conj.), music = музыку",
+          "grammarFocus": "1st conjugation, я form",
+          "keyWord": "слушаю",
+          "options": [
+            "слушаю",
+            "слушаешь",
+            "слушает",
+            "слушают"
+          ]
+        },
+        {
+          "english": "She speaks Russian.",
+          "answer": "Она говорит по-русски.",
+          "hint": "she = она, speaks = говорит (2nd conj.)",
+          "grammarFocus": "2nd conjugation, она form",
+          "keyWord": "говорит",
+          "options": [
+            "говорит",
+            "говорю",
+            "говоришь",
+            "говорят"
+          ]
+        },
+        {
+          "english": "You (formal) understand Russian.",
+          "answer": "Вы понимаете по-русски.",
+          "acceptableVariants": [
+            "Вы понимаете русский."
+          ],
+          "hint": "you (formal) = вы, understand = понимаете (1st conj.)",
+          "grammarFocus": "1st conjugation, вы form",
+          "keyWord": "понимаете",
+          "options": [
+            "понимаете",
+            "понимаю",
+            "понимаешь",
+            "понимают"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Вы _____ в больнице? (работать)",
+              "promptEnglish": "Do you work at a hospital?",
+              "options": [
+                "работаем",
+                "работаю",
+                "работаете",
+                "работают"
+              ],
+              "answer": "работаете",
+              "hint": "вы + 1st conjugation.",
+              "explanation": "Работать with вы: работаете. 1st conjugation uses -ете for вы."
+            },
+            {
+              "prompt": "Я _____ музыку. (слышать - spelling rule!)",
+              "promptEnglish": "I hear music.",
+              "options": [
+                "слышю",
+                "слышу",
+                "слышаю",
+                "слышишь"
+              ],
+              "answer": "слышу",
+              "hint": "After ш, use -у not -ю.",
+              "explanation": "Spelling rule: after ш, write -у not -ю. Я слышу (not слышю)."
+            },
+            {
+              "prompt": "Мы _____ фильм. (смотреть)",
+              "promptEnglish": "We are watching a movie.",
+              "options": [
+                "смотрим",
+                "смотрят",
+                "смотрит",
+                "смотрю"
+              ],
+              "answer": "смотрим",
+              "hint": "мы + 2nd conjugation.",
+              "explanation": "Смотреть with мы: смотрим. 2nd conjugation uses -им for мы."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-spot-errors",
+      "title": "Find the Mistakes",
+      "titleRussian": "Найди ошибки",
+      "description": "Spot wrong verb endings and conjugation errors",
+      "descriptionRussian": "Найдите неправильные окончания глаголов",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Она читаешь книгу.",
+          "error": "читаешь",
+          "correction": "читает",
+          "hint": "Читаешь is the ты form, not она.",
+          "explanation": "Она requires the 3rd person ending -ет (1st conj.): читает, not читаешь (ты form).",
+          "options": [
+            "читает",
+            "читаю",
+            "читаем",
+            "читают"
+          ]
+        },
+        {
+          "sentence": "Мы говорят по-русски.",
+          "error": "говорят",
+          "correction": "говорим",
+          "hint": "Говорят is the они form, not мы.",
+          "explanation": "Мы requires -им (2nd conj.): говорим. Говорят is the они (they) form.",
+          "options": [
+            "говорим",
+            "говорю",
+            "говоришь",
+            "говорите"
+          ]
+        },
+        {
+          "sentence": "Я слышю музыку.",
+          "error": "слышю",
+          "correction": "слышу",
+          "hint": "Spelling rule: after ш, write -у not -ю.",
+          "explanation": "After the consonants ж, ч, ш, щ, you cannot write ю. Use у instead: слышу.",
+          "options": [
+            "слышу",
+            "слышишь",
+            "слышит",
+            "слышат"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Ты _____ фильм? (смотреть)",
+              "promptEnglish": "Are you watching a movie?",
+              "options": [
+                "смотрю",
+                "смотришь",
+                "смотрит",
+                "смотрят"
+              ],
+              "answer": "смотришь",
+              "hint": "ты + 2nd conjugation.",
+              "explanation": "Смотреть with ты: смотришь. 2nd conjugation uses -ишь for ты."
+            },
+            {
+              "prompt": "Они _____ газету. (читать)",
+              "promptEnglish": "They read a newspaper.",
+              "options": [
+                "читаю",
+                "читает",
+                "читаем",
+                "читают"
+              ],
+              "answer": "читают",
+              "hint": "они + 1st conjugation.",
+              "explanation": "Читать with они: читают. 1st conjugation uses -ют for они."
+            },
+            {
+              "prompt": "Он _____ в офисе. (работать)",
+              "promptEnglish": "He works in an office.",
+              "options": [
+                "работаю",
+                "работает",
+                "работаем",
+                "работают"
+              ],
+              "answer": "работает",
+              "hint": "он + 1st conjugation.",
+              "explanation": "Работать with он: работает. 1st conjugation uses -ет for он."
+            },
+            {
+              "prompt": "Дети _____ на улице. (кричать - spelling rule!)",
+              "promptEnglish": "The children are shouting outside.",
+              "options": [
+                "кричят",
+                "кричат",
+                "кричают",
+                "кричит"
+              ],
+              "answer": "кричат",
+              "hint": "After ч, use -ат not -ят.",
+              "explanation": "Spelling rule: after ч, write -ат not -ят. Они кричат."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанная практика",
+      "description": "A fresh round mixing both conjugations and all persons",
+      "descriptionRussian": "Новый раунд по обоим спряжениям и всем лицам",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я _____ по-русски. (говорить)",
+              "promptEnglish": "I speak Russian.",
+              "options": [
+                "говоришь",
+                "говорит",
+                "говорю",
+                "говорят"
+              ],
+              "answer": "говорю",
+              "hint": "я + 2nd conjugation.",
+              "explanation": "Говорить with я: говорю. 2nd conjugation uses -ю for я."
+            },
+            {
+              "prompt": "Вы _____ телевизор? (смотреть)",
+              "promptEnglish": "Do you watch TV?",
+              "options": [
+                "смотрим",
+                "смотрите",
+                "смотрят",
+                "смотришь"
+              ],
+              "answer": "смотрите",
+              "hint": "вы + 2nd conjugation.",
+              "explanation": "Смотреть with вы: смотрите. 2nd conjugation uses -ите for вы."
+            },
+            {
+              "prompt": "Она _____ по-английски. (понимать)",
+              "promptEnglish": "She understands English.",
+              "options": [
+                "понимаю",
+                "понимаешь",
+                "понимает",
+                "понимают"
+              ],
+              "answer": "понимает",
+              "hint": "она + 1st conjugation.",
+              "explanation": "Понимать with она: понимает. 1st conjugation uses -ет for она."
+            }
+          ]
+        }
+      ],
+      "conjugationTable": {
+        "verb": "говорить",
+        "paradigm": [
+          "говорю",
+          "говоришь",
+          "говорит",
+          "говорим",
+          "говорите",
+          "говорят"
+        ],
+        "blanks": [
+          0,
+          2,
+          4
+        ],
+        "hints": [
+          "я",
+          "он/она",
+          "вы"
+        ],
+        "tense": "present",
+        "explanations": [
+          "Говорить with я: drop -ить, add -ю: говорю.",
+          "Говорить with он/она: drop -ить, add -ит: говорит.",
+          "Говорить with вы: drop -ить, add -ите: говорите."
+        ]
+      },
+      "patternRecognition": [
+        {
+          "prompt": "What do читаешь, работаешь, and слушаешь have in common?",
+          "options": [
+            "They are all 2nd conjugation",
+            "They are all ты forms of 1st conjugation verbs",
+            "They are all он/она forms"
+          ],
+          "answer": "They are all ты forms of 1st conjugation verbs",
+          "explanation": "All three end in -ешь, the ты ending for 1st conjugation (-ать) verbs."
+        },
+        {
+          "prompt": "What do говорит, смотрит, and любит have in common?",
+          "options": [
+            "They are all 1st conjugation",
+            "They are all я forms",
+            "They are all он/она forms of 2nd conjugation verbs"
+          ],
+          "answer": "They are all он/она forms of 2nd conjugation verbs",
+          "explanation": "All three end in -ит, the он/она ending for 2nd conjugation (-ить) verbs."
+        }
+      ]
+    }
+  ]
+}

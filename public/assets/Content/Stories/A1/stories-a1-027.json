@@ -1,0 +1,175 @@
+{
+  "id": "a1-027",
+  "level": "A1",
+  "narrator": "Маша",
+  "title": "Путешествие",
+  "titleEnglish": "Travel",
+  "description": "Маша планирует поездку.",
+  "imageName": "airplane",
+  "fullText": "Я хочу поехать в отпуск! Куда мне поехать? Может быть, в Сочи, где тепло и есть море? Или в Казань, где красивый Кремль? Я смотрю билеты в интернете. Билет в Сочи стоит пять тысяч рублей, и это дорого. Билет в Казань стоит три тысячи. Я решаю ехать в Казань и покупаю билет онлайн. Ура, скоро отпуск!",
+  "reviewVocab": [
+    {
+      "word": "отпуск",
+      "definition": "vacation, holiday",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "отпуск",
+        "отпуска",
+        "в отпуск"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "билет",
+      "definition": "ticket",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "билет",
+        "билета",
+        "билеты"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "море",
+      "definition": "sea",
+      "partOfSpeech": "noun (n)",
+      "forms": [
+        "море",
+        "моря",
+        "на море"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "тысяча",
+      "definition": "thousand",
+      "partOfSpeech": "numeral",
+      "forms": [
+        "тысяча",
+        "тысячи",
+        "тысяч"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Куда хочет поехать Маша?",
+      "options": [
+        "В отпуск",
+        "На работу",
+        "В магазин"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша хочет поехать в отпуск."
+    },
+    {
+      "prompt": "Что есть в Сочи?",
+      "options": [
+        "Горы",
+        "Озеро",
+        "Море"
+      ],
+      "correctIndex": 2,
+      "explanation": "В Сочи тепло и есть море."
+    },
+    {
+      "prompt": "Что есть в Казани?",
+      "options": [
+        "Красивый Кремль",
+        "Море",
+        "Пляж"
+      ],
+      "correctIndex": 0,
+      "explanation": "В Казани красивый Кремль."
+    },
+    {
+      "prompt": "Сколько стоит билет в Сочи?",
+      "options": [
+        "Четыре тысячи",
+        "Пять тысяч",
+        "Три тысячи"
+      ],
+      "correctIndex": 1,
+      "explanation": "Билет в Сочи стоит пять тысяч рублей."
+    },
+    {
+      "prompt": "Куда едет Маша?",
+      "options": [
+        "В Сочи",
+        "В Казань",
+        "Никуда"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша решает ехать в Казань."
+    },
+    {
+      "prompt": "Как Маша покупает билет?",
+      "options": [
+        "Онлайн",
+        "По телефону",
+        "На вокзале"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша покупает билет онлайн."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Я хочу поехать в _____!",
+      "В Сочи тепло и есть _____.",
+      "Билет стоит пять _____ рублей.",
+      "Я покупаю билет _____.",
+      "Скоро _____!"
+    ],
+    "choices": [
+      "отпуск",
+      "море",
+      "тысяч",
+      "онлайн",
+      "отпуск",
+      "три",
+      "горы"
+    ],
+    "answers": [
+      "отпуск",
+      "море",
+      "тысяч",
+      "онлайн",
+      "отпуск"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "What is the genitive of 'тысяча' after 'пять'?",
+      "options": [
+        "тысяча",
+        "тысячи",
+        "тысяч"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "numbers",
+      "sentenceRef": "Пять тысяч рублей.",
+      "explanation": "After numbers 5-20, we use genitive plural: пять тысяч. Compare: одна тысяча (1000), две тысячи (2000), пять тысяч (5000). The same rule applies to рублей: один рубль, два рубля, пять рублей.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "What does 'поехать' mean?",
+      "options": [
+        "To fly",
+        "To walk",
+        "To go (by transport)"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "verbs of motion",
+      "sentenceRef": "Маша хочет поехать в отпуск.",
+      "explanation": "'Поехать' is perfective 'to go' by vehicle. 'Пойти' is 'to go' on foot. Example: Я хочу поехать в Сочи (by transport) vs. Я хочу пойти в парк (on foot).",
+      "focusArea": "motionVerbs"
+    }
+  ],
+  "audioFile": "a1-027.m4a",
+  "audioTimingFile": "a1-027-timing.json"
+}

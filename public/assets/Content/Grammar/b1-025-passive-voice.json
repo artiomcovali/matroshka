@@ -1,0 +1,306 @@
+{
+  "id": "b1-025-passive-voice",
+  "level": "B1",
+  "sortKey": "b1-030b-passive-voice",
+  "focusArea": "conjugation",
+  "title": "Passive Voice",
+  "titleRussian": "Страдательный залог",
+  "description": "Passive with -ся and past passive participles",
+  "descriptionRussian": "Страдательный залог с -ся и причастиями",
+  "imageName": "arrow.uturn.left",
+  "intro": "Russian has two main ways to form passive voice. 1) REFLEXIVE PASSIVE with -СЯ (imperfective, ongoing/general): Здесь продаются книги (Books are sold here). 2) PAST PASSIVE PARTICIPLE (perfective, completed): Книга написана (The book was/has been written). The -ся passive emphasizes the action/process; the participle passive emphasizes the result. Agent is expressed with instrumental case: Книга написана Толстым (written by Tolstoy).",
+  "rules": [
+    "Reflexive passive (-ся): 3rd person verb + -ся: Книги продаются. (Books are sold.)",
+    "Participle passive: short participle: Письмо написано. (The letter has been written.)",
+    "Agent = instrumental: Книга написана автором. (The book was written by the author.)",
+    "-ся = process/ongoing; participle = result/completed"
+  ],
+  "examples": [
+    "Здесь говорится по-русски. (Russian is spoken here., -ся passive), general",
+    "Дом был построен в 1990 году. (The house was built in 1990.), participle passive",
+    "Эта книга читается легко. (This book reads easily., -ся), characteristic",
+    "Работа сделана. (The work is done., short participle), result"
+  ],
+  "tables": [
+    {
+      "title": "Passive Voice Formation",
+      "headers": [
+        "Type",
+        "Formation",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Imperfective passive",
+          "cells": [
+            "verb + -ся",
+            "Книга чита|ется"
+          ]
+        },
+        {
+          "label": "Perfective passive",
+          "cells": [
+            "short participle",
+            "Книга прочита|на"
+          ]
+        },
+        {
+          "label": "Past imperfective",
+          "cells": [
+            "past + -ся",
+            "Книга чита|лась"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Здесь _____ книги. (Books are sold here.)",
+          "promptEnglish": "Books are sold here.",
+          "options": [
+            "проданы",
+            "продают",
+            "продаются",
+            "продавать"
+          ],
+          "answer": "продаются",
+          "hint": "Ongoing/general passive = -ся",
+          "explanation": "Reflexive passive: продаются."
+        },
+        {
+          "prompt": "Письмо _____. (The letter has been written.)",
+          "promptEnglish": "The letter has been written.",
+          "options": [
+            "пишется",
+            "написается",
+            "написано",
+            "написать"
+          ],
+          "answer": "написано",
+          "hint": "Completed result = short participle",
+          "explanation": "Participle passive: написано."
+        },
+        {
+          "prompt": "Эта песня _____ многими. (This song is loved by many.)",
+          "promptEnglish": "This song is loved by many.",
+          "options": [
+            "любить",
+            "любит",
+            "любима",
+            "любится"
+          ],
+          "answer": "любима",
+          "hint": "State/result = short participle",
+          "explanation": "Short participle: любима."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Дом был _____ в прошлом году. (The house was built last year.)",
+          "promptEnglish": "The house was built last year.",
+          "options": [
+            "строить",
+            "построить",
+            "строился",
+            "построен"
+          ],
+          "answer": "построен",
+          "hint": "Completed = participle (был построен)",
+          "explanation": "Past passive: был построен."
+        },
+        {
+          "prompt": "Книга написана _____. (The book was written by Chekhov.)",
+          "promptEnglish": "The book was written by Chekhov.",
+          "options": [
+            "Чехову",
+            "Чехов",
+            "Чехова",
+            "Чеховым"
+          ],
+          "answer": "Чеховым",
+          "hint": "Agent = instrumental case",
+          "explanation": "Agent in instrumental: Чеховым."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Работа _____. (The work is done/finished.)",
+          "promptEnglish": "The work is done.",
+          "options": [
+            "делать",
+            "сделана",
+            "сделать",
+            "делается"
+          ],
+          "answer": "сделана",
+          "hint": "Completed result = short participle",
+          "explanation": "Result: сделана."
+        },
+        {
+          "prompt": "Эти товары _____ в Китае. (These goods are made in China.)",
+          "promptEnglish": "These goods are made in China.",
+          "options": [
+            "произвести",
+            "производить",
+            "произведены",
+            "производятся"
+          ],
+          "answer": "производятся",
+          "hint": "Ongoing/general = -ся passive",
+          "explanation": "General: производятся."
+        },
+        {
+          "prompt": "Статья была _____ вчера. (The article was published yesterday.)",
+          "promptEnglish": "The article was published yesterday.",
+          "options": [
+            "публикуется",
+            "опубликована",
+            "опубликовать",
+            "публиковать"
+          ],
+          "answer": "опубликована",
+          "hint": "Completed = была + participle",
+          "explanation": "Past passive: была опубликована."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Музей _____ каждый день. (The museum is opened every day.)",
+      "Эта книга _____ Толстым. (This book was written by Tolstoy.)",
+      "В магазине _____ книги. (Books are sold in the store.)"
+    ],
+    "choices": [
+      "открывается",
+      "написана",
+      "продаются",
+      "открыт",
+      "написал",
+      "продают"
+    ],
+    "answers": [
+      "открывается",
+      "написана",
+      "продаются"
+    ],
+    "grammarFocus": "Passive: -ся for habitual; short participle for result/state",
+    "hints": [
+      "Habitual passive (every day) — which passive form?",
+      "Result/completed action by someone — which passive form?",
+      "Habitual passive (books are sold) — which form?"
+    ],
+    "explanations": [
+      "Habitual passive uses -ся: открывается (is opened regularly).",
+      "Completed result uses short passive participle: написана (was written).",
+      "Habitual passive plural: продаются (are sold)."
+    ],
+    "options": [
+      [
+        "открывается",
+        "открываюсь",
+        "открываемся",
+        "открываешься"
+      ],
+      [
+        "написаны",
+        "написана",
+        "написан",
+        "написано"
+      ],
+      [
+        "продаёмся",
+        "продаются",
+        "продаюсь",
+        "продаётесь"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Магазин _____ в 9 часов. (opens daily - process)",
+      "contextEnglish": "The store opens at 9 (every day).",
+      "options": [
+        "открывается",
+        "открыт"
+      ],
+      "answer": "открывается",
+      "explanation": "Habitual action: -ся form."
+    },
+    {
+      "context": "Магазин _____. (is open now - state)",
+      "contextEnglish": "The store is open.",
+      "options": [
+        "открыт",
+        "открывается"
+      ],
+      "answer": "открыт",
+      "explanation": "Current state/result: short participle."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by passive type",
+    "categories": [
+      "-ся passive (process)",
+      "Participle passive (result)"
+    ],
+    "items": [
+      {
+        "word": "Книги продаются",
+        "category": "-ся passive (process)"
+      },
+      {
+        "word": "Письмо написано",
+        "category": "Participle passive (result)"
+      },
+      {
+        "word": "Здесь говорится по-русски",
+        "category": "-ся passive (process)"
+      },
+      {
+        "word": "Дом построен",
+        "category": "Participle passive (result)"
+      },
+      {
+        "word": "Товары производятся",
+        "category": "-ся passive (process)"
+      },
+      {
+        "word": "Работа сделана",
+        "category": "Participle passive (result)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "verb + -ся",
+      "definition": "reflexive passive (process)",
+      "example": "Книги продаются."
+    },
+    {
+      "term": "short participle",
+      "definition": "participle passive (result)",
+      "example": "Книга написана."
+    },
+    {
+      "term": "был/была/было + participle",
+      "definition": "past passive",
+      "example": "Дом был построен."
+    },
+    {
+      "term": "agent + instrumental",
+      "definition": "by (agent)",
+      "example": "Написано автором."
+    }
+  ]
+}

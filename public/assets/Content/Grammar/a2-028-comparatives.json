@@ -1,0 +1,383 @@
+{
+  "id": "a2-028-comparatives",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Comparative Adjectives",
+  "titleRussian": "Сравнительная степень",
+  "description": "Comparing things with adjectives",
+  "descriptionRussian": "Сравнение с помощью прилагательных",
+  "imageName": "arrow.up.arrow.down",
+  "intro": "To compare things in Russian, use the comparative form. There are two types: simple (synthetic) comparatives add -ее/-ей or have irregular forms, and compound comparatives use более + adjective. Simple comparatives are invariable (don't decline!). Use чем (than) or the genitive case for comparison: Он выше, чем я. / Он выше меня. (He is taller than me.) Many common adjectives have irregular comparatives you must memorize.",
+  "rules": [
+    "Simple comparatives (лучше, больше, интереснее) never change form — they are invariable regardless of gender, number, or case.",
+    "Two ways to say 'than': use чем + nominative (старше, чем брат) or just genitive (старше брата) — both are equally correct.",
+    "Memorize the four most common irregulars first: лучше (better), хуже (worse), больше (bigger), меньше (smaller).",
+    "Use более + adjective (compound comparative) when you need the comparative to decline: более интересная книга (a more interesting book)."
+  ],
+  "examples": [
+    "Эта книга интереснее. (This book is more interesting.)",
+    "Он выше, чем я. (He is taller than me.), with чем",
+    "Она старше меня. (She is older than me.), with genitive",
+    "Сегодня лучше, чем вчера. (Today is better than yesterday.)"
+  ],
+  "tables": [
+    {
+      "title": "Comparative Adjectives",
+      "headers": [
+        "Adjective",
+        "Comparative",
+        "Pattern"
+      ],
+      "rows": [
+        {
+          "label": "новый",
+          "cells": [
+            "нов|ее",
+            "regular -ее"
+          ]
+        },
+        {
+          "label": "быстрый",
+          "cells": [
+            "быстр|ее",
+            "regular -ее"
+          ]
+        },
+        {
+          "label": "интересный",
+          "cells": [
+            "интересн|ее",
+            "regular -ее"
+          ]
+        },
+        {
+          "label": "хороший",
+          "cells": [
+            "лучше",
+            "irregular"
+          ]
+        },
+        {
+          "label": "плохой",
+          "cells": [
+            "хуже",
+            "irregular"
+          ]
+        },
+        {
+          "label": "большой",
+          "cells": [
+            "больше",
+            "irregular"
+          ]
+        },
+        {
+          "label": "маленький",
+          "cells": [
+            "меньше",
+            "irregular"
+          ]
+        },
+        {
+          "label": "высокий",
+          "cells": [
+            "выше",
+            "irregular"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Эта книга _____. (This book is more interesting.)",
+          "promptEnglish": "This book is more interesting.",
+          "options": [
+            "интересный",
+            "интересно",
+            "интереснее",
+            "интересная"
+          ],
+          "answer": "интереснее",
+          "hint": "Comparative of интересный",
+          "explanation": "Comparative: интересный → интереснее."
+        },
+        {
+          "prompt": "Он _____, чем я. (He is taller than me.)",
+          "promptEnglish": "He is taller than me.",
+          "options": [
+            "высоко",
+            "высокий",
+            "высокая",
+            "выше"
+          ],
+          "answer": "выше",
+          "hint": "Comparative of высокий (irregular)",
+          "explanation": "Comparative: высокий → выше (irregular)."
+        },
+        {
+          "prompt": "Сегодня _____. (Today is better.)",
+          "promptEnglish": "Today is better.",
+          "options": [
+            "хорошая",
+            "хорошо",
+            "лучше",
+            "хороший"
+          ],
+          "answer": "лучше",
+          "hint": "Comparative of хороший (irregular)",
+          "explanation": "Comparative: хороший → лучше (must memorize)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Эта задача _____. (This task is harder.)",
+          "promptEnglish": "This task is harder.",
+          "options": [
+            "трудная",
+            "труднее",
+            "трудный",
+            "трудно"
+          ],
+          "answer": "труднее",
+          "hint": "Comparative of трудный",
+          "explanation": "Comparative: трудный → труднее."
+        },
+        {
+          "prompt": "Мой дом _____ твоего. (My house is bigger than yours.)",
+          "promptEnglish": "My house is bigger than yours.",
+          "options": [
+            "большая",
+            "большой",
+            "большое",
+            "больше"
+          ],
+          "answer": "больше",
+          "hint": "Comparative of большой (irregular)",
+          "explanation": "Comparative: большой → больше (irregular)."
+        },
+        {
+          "prompt": "Зимой _____. (It's colder in winter.)",
+          "promptEnglish": "It's colder in winter.",
+          "options": [
+            "холодно",
+            "холодный",
+            "холоднее",
+            "холодная"
+          ],
+          "answer": "холоднее",
+          "hint": "Comparative of холодный",
+          "explanation": "Comparative: холодный → холоднее."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Он говорит _____, чем она. (He speaks louder than she does.)",
+          "promptEnglish": "He speaks louder than she does.",
+          "options": [
+            "громкий",
+            "громкая",
+            "громко",
+            "громче"
+          ],
+          "answer": "громче",
+          "hint": "Comparative of громкий (к→ч)",
+          "explanation": "Comparative: громкий → громче (к→ч change)."
+        },
+        {
+          "prompt": "Это _____, чем я думал. (This is worse than I thought.)",
+          "promptEnglish": "This is worse than I thought.",
+          "options": [
+            "плохой",
+            "плохо",
+            "хуже",
+            "плохая"
+          ],
+          "answer": "хуже",
+          "hint": "Comparative of плохой (irregular)",
+          "explanation": "Comparative: плохой → хуже (must memorize)."
+        },
+        {
+          "prompt": "Эта комната _____. (This room is smaller.)",
+          "promptEnglish": "This room is smaller.",
+          "options": [
+            "маленький",
+            "мало",
+            "меньше",
+            "маленькая"
+          ],
+          "answer": "меньше",
+          "hint": "Comparative of маленький (irregular)",
+          "explanation": "Comparative: маленький → меньше (irregular)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Она _____ брата. (She is older than her brother.)",
+      "Эта книга _____. (This book is more interesting.)",
+      "Он _____, чем я. (He is taller than me.)",
+      "Сегодня _____. (Today is better.)",
+      "Эта комната _____. (This room is smaller.)"
+    ],
+    "choices": [
+      "старше",
+      "интереснее",
+      "выше",
+      "лучше",
+      "меньше",
+      "старая",
+      "высокий",
+      "хороший"
+    ],
+    "answers": [
+      "старше",
+      "интереснее",
+      "выше",
+      "лучше",
+      "меньше"
+    ],
+    "grammarFocus": "Comparative forms: regular (-ее) and irregular",
+    "hints": [
+      "She is older. What is the comparative of старый? (Irregular form.)",
+      "This book is more interesting. What is the comparative of интересный? (Regular -ее ending.)",
+      "He is taller. What is the comparative of высокий? (Irregular form.)",
+      "Today is better. What is the comparative of хороший? (Irregular form.)",
+      "This room is smaller. What is the comparative of маленький? (Irregular form.)"
+    ],
+    "explanations": [
+      "старый → старше (irregular). Она старше брата.",
+      "интересный → интереснее (regular -ее). Эта книга интереснее.",
+      "высокий → выше (irregular). Он выше, чем я.",
+      "хороший → лучше (irregular, must memorize). Сегодня лучше.",
+      "маленький → меньше (irregular, must memorize). Эта комната меньше."
+    ],
+    "options": [
+      [
+        "старшее",
+        "старших",
+        "старшая",
+        "старше"
+      ],
+      [
+        "интересному",
+        "интересного",
+        "интереснее",
+        "интересный"
+      ],
+      [
+        "старше",
+        "лучше",
+        "выше",
+        "хороший"
+      ],
+      [
+        "хорошего",
+        "лучше",
+        "хорошему",
+        "хороший"
+      ],
+      [
+        "меньше",
+        "маленькому",
+        "маленького",
+        "маленький"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Он старше, _____ я. (He is older than me.) - with 'than'",
+      "contextEnglish": "He is older than me.",
+      "options": [
+        "чем",
+        "чего"
+      ],
+      "answer": "чем",
+      "explanation": "Use чем + nominative: старше, чем я."
+    },
+    {
+      "context": "Он старше _____. (He is older than me.) - genitive",
+      "contextEnglish": "He is older than me.",
+      "options": [
+        "меня",
+        "я"
+      ],
+      "answer": "меня",
+      "explanation": "Without чем, use genitive: старше меня."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: Regular (-ее) or Irregular comparative?",
+    "categories": [
+      "Regular (-ее/-ей)",
+      "Irregular"
+    ],
+    "items": [
+      {
+        "word": "интереснее",
+        "category": "Regular (-ее/-ей)"
+      },
+      {
+        "word": "лучше",
+        "category": "Irregular"
+      },
+      {
+        "word": "новее",
+        "category": "Regular (-ее/-ей)"
+      },
+      {
+        "word": "хуже",
+        "category": "Irregular"
+      },
+      {
+        "word": "труднее",
+        "category": "Regular (-ее/-ей)"
+      },
+      {
+        "word": "больше",
+        "category": "Irregular"
+      },
+      {
+        "word": "холоднее",
+        "category": "Regular (-ее/-ей)"
+      },
+      {
+        "word": "меньше",
+        "category": "Irregular"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "-ее / -ей",
+      "definition": "regular comparative ending",
+      "example": "Новее, интереснее, труднее."
+    },
+    {
+      "term": "лучше / хуже",
+      "definition": "better / worse (irregular)",
+      "example": "Сегодня лучше. Это хуже."
+    },
+    {
+      "term": "больше / меньше",
+      "definition": "bigger / smaller (irregular)",
+      "example": "Дом больше. Комната меньше."
+    },
+    {
+      "term": "чем / + род. падеж",
+      "definition": "than (two comparison methods)",
+      "example": "Старше, чем я. / Старше меня."
+    }
+  ]
+}

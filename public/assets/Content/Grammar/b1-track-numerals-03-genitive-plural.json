@@ -1,0 +1,301 @@
+{
+  "id": "b1-track-numerals-03-genitive-plural",
+  "level": "B1",
+  "focusArea": "cases",
+  "title": "Numerals 3: 5 and Up Take the Genitive Plural",
+  "titleRussian": "Числительные 3: от 5 и выше требуют родительного множественного",
+  "description": "After 5 and every higher number, the noun goes into the genitive plural: пять книг, шесть братьев, десять окон. This is the form where endings shorten or disappear.",
+  "descriptionRussian": "После 5 и каждого более высокого числа существительное стоит в родительном падеже множественного числа: пять книг, шесть братьев, десять окон. Это форма, где окончание укорачивается или исчезает.",
+  "imageName": "5.circle",
+  "trackId": "b1-numerals-mastery",
+  "trackTitle": "Numerals Mastery",
+  "trackTitleRussian": "Числительные",
+  "trackIndex": 3,
+  "trackTotal": 10,
+  "intro": "The large-number rule, and the genitive plural endings you built in the plural book. The extra piece here is that quantity words behave identically. Many, few, several and 'how many' all take the same form as five does, which means one rule covers both counting and quantifying.",
+  "rules": [
+    "After 5 and every higher simple number, the noun goes into the GENITIVE PLURAL: пять книг, шесть братьев, десять окон.",
+    "Feminine -а/-я usually drops the vowel in the genitive plural: книга -> книг, минута -> минут, неделя -> недель.",
+    "Masculine hard consonants add -ов; soft -й/-ь add -ев/-ей: стол -> столов, музей -> музеев, рубль -> рублей. (брат -> братьев is special.)",
+    "Neuter -о drops the vowel, sometimes with a helper vowel: окно -> окон, слово -> слов, место -> мест.",
+    "Quantity words behave like '5 and up' and also take the genitive plural: много, сколько, несколько, мало + genitive plural (много книг, сколько окон)."
+  ],
+  "examples": [
+    "На полке пять книг. (There are five books on the shelf.) книга -> genitive plural книг.",
+    "У него шесть братьев. (He has six brothers.) брат -> genitive plural братьев.",
+    "В доме десять окон. (There are ten windows in the house.) окно -> genitive plural окон.",
+    "Это стоит сто рублей. (This costs a hundred rubles.) рубль -> genitive plural рублей.",
+    "В городе много музеев. (There are many museums in the city.) много + genitive plural музеев.",
+    "Сколько слов ты знаешь? (How many words do you know?) сколько + genitive plural слов."
+  ],
+  "tables": [
+    {
+      "title": "5 and up: genitive plural by noun type",
+      "headers": [
+        "Type",
+        "Nominative",
+        "After 5 (genitive plural)"
+      ],
+      "rows": [
+        {
+          "label": "Feminine -а",
+          "cells": [
+            "книга, минута",
+            "пять книг, пять минут"
+          ]
+        },
+        {
+          "label": "Feminine -я",
+          "cells": [
+            "неделя",
+            "пять недель"
+          ]
+        },
+        {
+          "label": "Masculine hard",
+          "cells": [
+            "стол, брат",
+            "пять столов, пять братьев"
+          ]
+        },
+        {
+          "label": "Masculine soft",
+          "cells": [
+            "рубль, музей",
+            "пять рублей, пять музеев"
+          ]
+        },
+        {
+          "label": "Neuter -о",
+          "cells": [
+            "окно, слово",
+            "пять окон, пять слов"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "На полке пять _____.",
+          "promptEnglish": "There are five books on the shelf.",
+          "options": [
+            "книги",
+            "книга",
+            "книг",
+            "книгу"
+          ],
+          "answer": "книг",
+          "hint": "After 5 the noun is genitive plural. For feminine -а, the vowel drops.",
+          "explanation": "After 5 and up the noun is genitive plural. Feminine книга drops its vowel: книг. Compare две книги (genitive singular, after 2) with пять книг (genitive plural, after 5)."
+        },
+        {
+          "prompt": "В доме десять _____.",
+          "promptEnglish": "There are ten windows in the house.",
+          "options": [
+            "окна",
+            "окон",
+            "окно",
+            "окнов"
+          ],
+          "answer": "окон",
+          "hint": "Neuter окно in the genitive plural drops the -о and adds a helper vowel.",
+          "explanation": "After 10 (a '5 and up' number) the noun is genitive plural. Neuter окно becomes окон. Окна is the genitive singular (used after 2-4: два окна)."
+        },
+        {
+          "prompt": "Это стоит сто _____.",
+          "promptEnglish": "This costs a hundred rubles.",
+          "options": [
+            "рубля",
+            "рубль",
+            "рублей",
+            "рублях"
+          ],
+          "answer": "рублей",
+          "hint": "Сто counts as '5 and up'. Soft masculine рубль takes -ей in the genitive plural.",
+          "explanation": "Сто (and any large number ending in a '5-and-up' word) takes the genitive plural. The soft masculine рубль becomes рублей. Compare два рубля (genitive singular) with сто рублей (genitive plural)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "У него шесть _____.",
+          "promptEnglish": "He has six brothers.",
+          "options": [
+            "брата",
+            "братьев",
+            "браты",
+            "братов"
+          ],
+          "answer": "братьев",
+          "hint": "After 6 the noun is genitive plural. The genitive plural of брат is special.",
+          "explanation": "After 6 the noun is genitive plural, and брат has a special form: братьев. Compare три брата (genitive singular, after 3) with шесть братьев (genitive plural, after 6)."
+        },
+        {
+          "prompt": "В городе много _____.",
+          "promptEnglish": "There are many museums in the city.",
+          "options": [
+            "музея",
+            "музеев",
+            "музеи",
+            "музею"
+          ],
+          "answer": "музеев",
+          "hint": "Много behaves like '5 and up'. Soft masculine музей takes -ев.",
+          "explanation": "Quantity words like много take the genitive plural, just like '5 and up'. The soft masculine музей becomes музеев. (Музеи would be the nominative plural, used without a number.)"
+        },
+        {
+          "prompt": "Сколько _____ ты знаешь?",
+          "promptEnglish": "How many words do you know?",
+          "options": [
+            "слова",
+            "слов",
+            "слово",
+            "словов"
+          ],
+          "answer": "слов",
+          "hint": "Сколько takes the genitive plural. Neuter слово drops its vowel.",
+          "explanation": "Сколько asks 'how many' and takes the genitive plural like '5 and up'. Neuter слово drops the -о to become слов. (Слова is the genitive singular, after 2-4: четыре слова.)"
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Подожди семь _____. (Wait seven minutes.)"
+    ],
+    "choices": [
+      "минута",
+      "минуты",
+      "минут",
+      "минуту"
+    ],
+    "answers": [
+      "минут"
+    ],
+    "grammarFocus": "After 7 (a '5 and up' number) the noun is genitive plural. Feminine минута drops its vowel: минут. Compare три минуты (genitive singular) with семь минут (genitive plural)."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "В классе восемь студента.",
+      "translationEnglish": "There are eight students in the class.",
+      "error": "студента",
+      "correction": "студентов",
+      "options": [
+        "студентов",
+        "студент",
+        "студентам"
+      ],
+      "explanation": "After 5 and every higher simple number the noun goes into the genitive plural: восемь студентов. Студента is the genitive singular, correct only after 2, 3, 4 (два студента) but not after восемь. Masculine nouns ending in a hard consonant build the genitive plural with -ов, so студент becomes студентов."
+    },
+    {
+      "sentence": "Я прочитал пять газетов за неделю.",
+      "translationEnglish": "I read five newspapers in a week.",
+      "error": "газетов",
+      "correction": "газет",
+      "options": [
+        "газет",
+        "газеты",
+        "газетах"
+      ],
+      "explanation": "Feminine nouns in -а form the genitive plural by dropping the ending to a bare stem, not by adding -ов: газета becomes газет. The ending -ов belongs to masculine nouns (столов, студентов); газетов borrows it where it does not apply."
+    },
+    {
+      "sentence": "На небе было много звезда.",
+      "translationEnglish": "There were many stars in the sky.",
+      "error": "звезда",
+      "correction": "звёзд",
+      "options": [
+        "звёзд",
+        "звезды",
+        "звездам"
+      ],
+      "explanation": "Vague quantity words like много behave exactly like '5 and up' and take the genitive plural: много звёзд. Звезда is the nominative singular, звезды is the genitive singular or nominative plural (after 2-4: две звезды). The genitive plural of звезда drops the ending and shifts the stressed vowel to ё: звёзд. The headline is that много, сколько, несколько and мало all trigger the same genitive plural as пять."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "На столе пять _____.",
+      "contextEnglish": "There are five books on the table.",
+      "options": [
+        "книг",
+        "книги"
+      ],
+      "answer": "книг",
+      "explanation": "After 5 the noun is genitive PLURAL: книг. Книги is the genitive SINGULAR, which belongs after 2, 3, 4 (две книги). This pair is the whole 2-4 vs 5+ split in one frame: 4 and below take книги, 5 and up take книг."
+    },
+    {
+      "context": "В парке десять _____.",
+      "contextEnglish": "There are ten benches in the park.",
+      "options": [
+        "скамейки",
+        "скамеек"
+      ],
+      "answer": "скамеек",
+      "explanation": "After 10 the noun is genitive plural: скамеек (feminine скамейка drops its vowel and adds a helper vowel). Скамейки is the genitive singular (after 2-4: две скамейки) or the nominative plural, neither of which fits after 10."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "5 и больше + родительный множественного",
+      "definition": "after 5 and every higher number, the noun is in the genitive plural: пять книг, десять окон, сто рублей.",
+      "example": "Пять книг, шесть братьев, десять окон."
+    },
+    {
+      "term": "genitive plural endings",
+      "definition": "feminine -а drops the vowel (книг); masculine adds -ов/-ев/-ей (столов, музеев, рублей); neuter -о drops the vowel (окон, слов).",
+      "example": "Книга -> книг, стол -> столов, окно -> окон."
+    },
+    {
+      "term": "много / сколько / несколько / мало",
+      "definition": "quantity words that behave like '5 and up' and take the genitive plural.",
+      "example": "Много книг, сколько окон, несколько братьев."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each number by which noun form it needs: genitive singular (2-4) or genitive plural (5+).",
+    "categories": [
+      "genitive singular (after 2, 3, 4)",
+      "genitive plural (after 5 and up)"
+    ],
+    "items": [
+      {
+        "word": "две ___",
+        "category": "genitive singular (after 2, 3, 4)"
+      },
+      {
+        "word": "пять ___",
+        "category": "genitive plural (after 5 and up)"
+      },
+      {
+        "word": "три ___",
+        "category": "genitive singular (after 2, 3, 4)"
+      },
+      {
+        "word": "десять ___",
+        "category": "genitive plural (after 5 and up)"
+      },
+      {
+        "word": "четыре ___",
+        "category": "genitive singular (after 2, 3, 4)"
+      },
+      {
+        "word": "восемь ___",
+        "category": "genitive plural (after 5 and up)"
+      },
+      {
+        "word": "сто ___",
+        "category": "genitive plural (after 5 and up)"
+      },
+      {
+        "word": "три ___ (again)",
+        "category": "genitive singular (after 2, 3, 4)"
+      }
+    ]
+  }
+}

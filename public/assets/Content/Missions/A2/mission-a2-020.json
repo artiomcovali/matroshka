@@ -1,0 +1,56 @@
+{
+  "id": "mission-a2-020",
+  "title": "The Cooking Class",
+  "level": "A2",
+  "difficulty": "easy",
+  "description": "Learn to make Russian borscht in a cooking class",
+  "imageName": "frying.pan.fill",
+  "initialPrompt": "Здравствуйте! Добро пожаловать на урок русской кухни! Сегодня мы готовим борщ! Вы когда-нибудь готовили борщ?",
+  "systemPrompt": "You are a friendly cooking instructor teaching borscht. Walk through steps: cut vegetables (свёкла, капуста, картошка), add to pot, add meat, cook, add сметана. Ask user to repeat each step. Be encouraging. Keep replies short but instructive.",
+  "completionCriteria": "User followed all cooking steps and finished making borscht.",
+  "responseLimit": 15,
+  "hints": [
+    "Я режу... (I'm cutting...)",
+    "Потом я добавляю... (Then I add...)",
+    "Сколько минут варить? (How many minutes to cook?)",
+    "Готово! (Done!)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "борщ",
+      "definition": "borscht (beet soup)"
+    },
+    {
+      "word": "свёкла",
+      "definition": "beet"
+    },
+    {
+      "word": "капуста",
+      "definition": "cabbage"
+    },
+    {
+      "word": "картошка",
+      "definition": "potato"
+    },
+    {
+      "word": "сметана",
+      "definition": "sour cream"
+    },
+    {
+      "word": "резать",
+      "definition": "to cut"
+    },
+    {
+      "word": "варить",
+      "definition": "to cook/boil"
+    }
+  ],
+  "objectives": [
+    "Say if you've made borscht before",
+    "Cut the vegetables (Я режу овощи)",
+    "Add ingredients to the pot",
+    "Ask how long to cook",
+    "Add sour cream (сметана) at the end",
+    "Taste your finished borscht"
+  ]
+}

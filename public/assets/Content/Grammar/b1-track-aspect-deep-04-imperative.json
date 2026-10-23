@@ -1,0 +1,358 @@
+{
+  "id": "b1-track-aspect-deep-04-imperative",
+  "level": "B1",
+  "focusArea": "aspect",
+  "title": "Aspect Deep 4: Aspect in the Imperative",
+  "titleRussian": "Виды глагола 4: Повелительное наклонение",
+  "description": "Imperatives carry aspect. Pf imperative for one specific request (Прочитай!), impf for habitual or process commands (Читай!). Negative pf for warnings against accidents (Не разбей!).",
+  "descriptionRussian": "В повелительном наклонении вид меняет смысл. СВ для конкретной просьбы (Прочитай!), НСВ для общей или повторяющейся команды (Читай!). Не + СВ для предупреждения о случайности (Не разбей!).",
+  "imageName": "exclamationmark.bubble",
+  "trackId": "b1-aspect-deep-mastery",
+  "trackTitle": "Aspect in Context",
+  "trackTitleRussian": "Виды глагола: глубокое освоение",
+  "trackIndex": 4,
+  "trackTotal": 9,
+  "intro": "The A2 imperative book covered this ground, and this lesson pushes on the part that stays slippery: the negative. A plain prohibition and a warning against an accident use opposite aspects, and the sentences look almost identical. The question to ask is whether you are stating a rule or heading off one specific mishap.",
+  "rules": [
+    "Positive imperative: perfective for a single specific request (Прочитай! Купи! Сделай!), imperfective for habit, process, or general command (Читай! Пиши! Делай!).",
+    "Negative imperative default: не + imperfective for a standard prohibition (Не пей это! Не открывай дверь! Не делай этого!).",
+    "Negative imperative special: не + perfective as a warning against an accidental, undesired completion (Не разбей вазу! Не упади! Не забудь!).",
+    "Diagnostic for negative imperatives: is this a general 'don't do this,' or a warning against a specific accident? Prohibition → impf; warning → pf."
+  ],
+  "examples": [
+    "Прочитай статью к завтра. (Read the article by tomorrow.) Single specific request → СВ.",
+    "Читай каждый день! (Read every day!) Habitual command → НСВ.",
+    "Не пей холодную воду! (Don't drink cold water!) General prohibition → не + НСВ.",
+    "Не разбей вазу! (Don't [accidentally] break the vase!) Warning against accident → не + СВ.",
+    "Не забывай маму. (Don't forget Mom [as a habit].) General prohibition → не + НСВ.",
+    "Не забудь купить молоко! (Don't forget to buy milk!) Warning against a specific lapse → не + СВ."
+  ],
+  "tables": [
+    {
+      "title": "Imperative Aspect Choice",
+      "headers": [
+        "Construction",
+        "Meaning",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Positive perfective",
+          "cells": [
+            "Single specific request → completion expected",
+            "Прочитай статью."
+          ]
+        },
+        {
+          "label": "Positive imperfective",
+          "cells": [
+            "Habit / process / general / continuation",
+            "Читай каждый день!"
+          ]
+        },
+        {
+          "label": "Не + impf (default)",
+          "cells": [
+            "Standard prohibition",
+            "Не пей холодную воду!"
+          ]
+        },
+        {
+          "label": "Не + pf (warning)",
+          "cells": [
+            "Warning against an accidental result",
+            "Не разбей вазу!"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Маша наконец-то _____ эту длинную книгу.",
+          "promptEnglish": "Masha finally finished this long book.",
+          "options": [
+            "читала",
+            "прочитала",
+            "читает",
+            "прочитает"
+          ],
+          "answer": "прочитала",
+          "hint": "Recap from Lesson 3: which family is наконец-то in?",
+          "explanation": "Recap from Lesson 3: наконец-то is an emphatic completion adverb and triggers the perfective. Past fem -ла: прочитала. Today's lesson moves the same impf-vs-pf choice into the imperative mood, where the choice carries a different kind of meaning."
+        },
+        {
+          "prompt": "_____ эту статью к завтрашнему утру.",
+          "promptEnglish": "Read this article by tomorrow morning.",
+          "options": [
+            "Читай",
+            "Читал",
+            "Прочитай",
+            "Прочитал"
+          ],
+          "answer": "Прочитай",
+          "hint": "Single specific request with a deadline. Which imperative form?",
+          "explanation": "A single specific request with a deadline takes the perfective imperative: Прочитай. The imperfective Читай would be a habitual or general 'be reading' command, which the deadline rules out."
+        },
+        {
+          "prompt": "_____ эти статьи каждый день, и твой русский улучшится.",
+          "promptEnglish": "Read these articles every day, and your Russian will improve.",
+          "options": [
+            "Прочитал",
+            "Читай",
+            "Прочитай",
+            "Читает"
+          ],
+          "answer": "Читай",
+          "hint": "Каждый день is a frequency cue. Habit → which imperative?",
+          "explanation": "Каждый день frames the command as a habit, not a one-shot request. The imperfective imperative Читай carries the habitual reading. Прочитай would describe a single completed act, which 'every day' contradicts."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Не _____ холодную воду, ты заболеешь.",
+          "promptEnglish": "Don't drink cold water, you'll get sick.",
+          "options": [
+            "выпей",
+            "пьёшь",
+            "выпил",
+            "пей"
+          ],
+          "answer": "пей",
+          "hint": "Standard prohibition. Default negative imperative aspect?",
+          "explanation": "A standard 'don't do this' prohibition uses не + imperfective imperative: не пей. The perfective не выпей would be a warning against accidentally drinking it all in one go, which the long-term illness reasoning does not target."
+        },
+        {
+          "prompt": "Не _____ вазу: она очень дорогая!",
+          "promptEnglish": "Don't [accidentally] break the vase, it's very expensive!",
+          "options": [
+            "разбей",
+            "разбивай",
+            "разбивает",
+            "разбил"
+          ],
+          "answer": "разбей",
+          "hint": "Warning against a specific accident. Which negative imperative aspect?",
+          "explanation": "The speaker is not forbidding the listener from breaking vases in general; they are warning against the specific accident with this expensive vase. Warning → не + perfective imperative: не разбей. The imperfective не разбивай would suggest the listener has been habitually breaking vases."
+        },
+        {
+          "prompt": "_____ домашнее задание сейчас, у тебя экзамен завтра.",
+          "promptEnglish": "Do your homework now, you have an exam tomorrow.",
+          "options": [
+            "Делал",
+            "Делай",
+            "Сделай",
+            "Сделал"
+          ],
+          "answer": "Сделай",
+          "hint": "Single specific request, with a deadline. Imperative aspect?",
+          "explanation": "One specific homework session, with a deadline (завтра). Perfective imperative: Сделай. The imperfective Делай would be a general 'be doing your homework' (habit / process) command, which the urgency rules out."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "_____: завтра их проверит учитель.",
+          "promptEnglish": "Get the homework done - the teacher will check it tomorrow.",
+          "options": [
+            "Сделай уроки",
+            "Делай уроки",
+            "Сделаешь уроки",
+            "Делать уроки"
+          ],
+          "answer": "Сделай уроки",
+          "hint": "One specific job to complete: which imperative?",
+          "explanation": "A single bounded request takes the perfective imperative: Сделай уроки. Делай is the habitual imperfective command."
+        },
+        {
+          "prompt": "_____ регулярно: это полезно.",
+          "promptEnglish": "Read articles regularly - it's good for you.",
+          "options": [
+            "Читай статьи",
+            "Прочитай статьи",
+            "Читаешь статьи",
+            "Прочитать статьи"
+          ],
+          "answer": "Читай статьи",
+          "hint": "A habitual command: which imperative?",
+          "explanation": "A regular habit takes the imperfective imperative: Читай статьи регулярно. Прочитай would order one specific read-through."
+        },
+        {
+          "prompt": "_____ о встрече: она очень важная.",
+          "promptEnglish": "Don't forget about the meeting - it's very important.",
+          "options": [
+            "Не забудь",
+            "Не забывай",
+            "Не забудешь",
+            "Не забыть"
+          ],
+          "answer": "Не забудь",
+          "hint": "A one-time warning about one specific meeting.",
+          "explanation": "A warning against one specific lapse takes не + perfective: Не забудь о встрече. Не забывай is a general habit-prohibition ('don't be forgetful'), broader than this one meeting."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "_____ хлеб в магазине по дороге домой.",
+          "promptEnglish": "Buy bread at the shop on your way home (one specific errand).",
+          "options": [
+            "Купи",
+            "Покупай",
+            "Купишь",
+            "Купить"
+          ],
+          "answer": "Купи",
+          "hint": "One bounded errand: which imperative?",
+          "explanation": "One specific errand takes the perfective imperative: Купи хлеб. Покупай would prescribe habitual buying."
+        },
+        {
+          "prompt": "_____ бабушке чаще: она скучает.",
+          "promptEnglish": "Write to your grandmother more often - she misses you.",
+          "options": [
+            "Пиши",
+            "Напиши",
+            "Пишешь",
+            "Написать"
+          ],
+          "answer": "Пиши",
+          "hint": "A general habit: which imperative?",
+          "explanation": "The habit command takes the imperfective: Пиши чаще. Напиши would order one specific letter; the 'чаще' cue marks an ongoing pattern."
+        },
+        {
+          "prompt": "_____ эту дверь: за ней склад.",
+          "promptEnglish": "Don't open that door - there's a storeroom behind it.",
+          "options": [
+            "Не открывай",
+            "Не открой",
+            "Не откроешь",
+            "Не открыть"
+          ],
+          "answer": "Не открывай",
+          "hint": "A standing prohibition: which aspect under не?",
+          "explanation": "A standing rule takes не + imperfective: Не открывай эту дверь. Не открой would warn about one specific accidental act, not state a permanent rule."
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "items": [
+        {
+          "prompt": "_____ на встречу: начальник этого не любит.",
+          "promptEnglish": "Don't be late for the meeting (a warning against one specific lapse).",
+          "options": [
+            "Не опоздай",
+            "Не опаздывай",
+            "Не опоздаешь",
+            "Не опоздать"
+          ],
+          "answer": "Не опоздай",
+          "hint": "A warning against one accidental result.",
+          "explanation": "A warning against one specific accidental completion takes не + perfective: Не опоздай. Не опаздывай is the habit-prohibition ('stop being chronically late')."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Не _____ купить молоко по дороге домой! (Don't forget to buy milk on the way home!)"
+    ],
+    "choices": [
+      "забывал",
+      "забываешь",
+      "забывай",
+      "забудь"
+    ],
+    "answers": [
+      "забудь"
+    ],
+    "grammarFocus": "A specific reminder against a single lapse (forgetting this one errand) is a warning against an accidental result. Не + perfective imperative: не забудь. The imperfective не забывай would frame forgetting as a habit, which a one-time errand does not call for."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Готовь ужин к семи часам: вечером придут гости.",
+      "translationEnglish": "Have dinner ready by seven; guests are coming tonight.",
+      "error": "Готовь",
+      "correction": "Приготовь",
+      "options": [
+        "Приготовь",
+        "Готовил",
+        "Приготовил"
+      ],
+      "explanation": "A single specific request with a deadline ('к семи часам') takes the perfective imperative: Приготовь. The imperfective Готовь is the habit or process command ('do the cooking', 'be cooking'), which the one-time deadline contradicts. Positive imperative rule: perfective for one bounded request, imperfective for a general or repeated one."
+    },
+    {
+      "sentence": "Никогда не опоздай на уроки, учитель этого не любит.",
+      "translationEnglish": "Never be late to your lessons; the teacher doesn't like it.",
+      "error": "опоздай",
+      "correction": "опаздывай",
+      "options": [
+        "опаздывай",
+        "опаздывал",
+        "опоздал"
+      ],
+      "explanation": "A standing, habitual prohibition uses не + imperfective imperative: не опаздывай. The cue 'никогда' (never, ever) makes the command general and recurring, which only the imperfective carries. The perfective опоздай is the special 'don't [accidentally] be late this once' warning, which clashes with 'never, ever'. Default negative imperative: не + imperfective for a general prohibition."
+    },
+    {
+      "sentence": "Осторожно, не падай на лестнице, там скользко!",
+      "translationEnglish": "Careful, don't fall on the stairs, it's slippery!",
+      "error": "падай",
+      "correction": "упади",
+      "options": [
+        "упади",
+        "упал",
+        "падал"
+      ],
+      "explanation": "This is a warning against a specific, accidental result ('осторожно', 'там скользко'), which takes не + perfective imperative: не упади. The imperfective не падай is a general 'don't (keep) falling' prohibition, which does not fit a one-time caution about slippery stairs. Negative imperative split: a general prohibition uses не + imperfective; a warning against an accident uses не + perfective."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "_____ это лекарство сейчас.",
+      "contextEnglish": "Take this medicine now (one specific dose).",
+      "options": [
+        "Пей",
+        "Выпей"
+      ],
+      "answer": "Выпей",
+      "explanation": "One specific dose right now is a single completed act. Perfective imperative: Выпей. The imperfective Пей would frame it as a habit or process, which 'now, this dose' does not match."
+    },
+    {
+      "context": "_____ воду каждый день: это полезно.",
+      "contextEnglish": "Drink water every day; it's good for you.",
+      "options": [
+        "Пей",
+        "Выпей"
+      ],
+      "answer": "Пей",
+      "explanation": "Каждый день frames the command as a habit. Imperfective imperative: Пей. The perfective Выпей would describe a single completed drinking act, which 'every day' rules out."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "повелительное наклонение",
+      "definition": "the imperative mood (commands and requests; aspect choice in the imperative changes whether the command is single or habitual, prohibition or warning)",
+      "example": "В повелительном наклонении вид часто меняет смысл просьбы."
+    },
+    {
+      "term": "запрет",
+      "definition": "prohibition (the standard 'don't do this' negative imperative; takes не + imperfective: 'Не пей это!')",
+      "example": "Запрет обычно выражается через не + НСВ: 'Не открывай эту дверь.'"
+    },
+    {
+      "term": "предупреждение",
+      "definition": "warning (here: 'don't accidentally do this'; takes не + perfective imperative: 'Не разбей вазу!')",
+      "example": "Предупреждение об опасности часто звучит как не + СВ: 'Не упади!'"
+    }
+  ]
+}

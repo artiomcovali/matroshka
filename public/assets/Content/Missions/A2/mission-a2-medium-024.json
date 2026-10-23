@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-024",
+  "title": "Parking Meter Broken",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "The parking meter will not accept your payment",
+  "imageName": "parkingsign",
+  "initialPrompt": "Добрый день! Вам нужна помощь с парковкой?",
+  "systemPrompt": "You are parking attendant. That meter is broken - can pay at machine 2 or use mobile app. Zone is 2 hours max, 100 rubles per hour. Keep replies short.",
+  "completionCriteria": "User found a way to pay for parking.",
+  "responseLimit": 15,
+  "hints": [
+    "Этот автомат не работает (This machine is not working)",
+    "Где можно заплатить? (Where can I pay?)",
+    "Сколько стоит час? (How much per hour?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "парковка",
+      "definition": "parking"
+    },
+    {
+      "word": "автомат",
+      "definition": "machine"
+    },
+    {
+      "word": "платить",
+      "definition": "to pay"
+    },
+    {
+      "word": "приложение",
+      "definition": "app"
+    },
+    {
+      "word": "час",
+      "definition": "hour"
+    },
+    {
+      "word": "сломан",
+      "definition": "broken"
+    }
+  ],
+  "objectives": [
+    "Report meter is broken (сломан)",
+    "Ask where else to pay",
+    "Learn price and time limit",
+    "Complete payment somehow"
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "id": "a2-track-pronoun-02-personal-dat-instr-prep",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Pronoun Declension 2: Personal Pronouns in the Dative, Instrumental, and Prepositional",
+  "titleRussian": "Склонение местоимений 2: личные местоимения в дательном, творительном и предложном",
+  "description": "The remaining three cases for the seven personal pronouns. Dative: мне, тебе, ему, ей, нам, вам, им. Instrumental: мной, тобой, им, ей, нами, вами, ими. Prepositional: обо мне, о тебе, о нём, о ней, о нас, о вас, о них.",
+  "descriptionRussian": "Оставшиеся три падежа семи личных местоимений. Дательный: мне, тебе, ему, ей, нам, вам, им. Творительный: мной, тобой, им, ей, нами, вами, ими. Предложный: обо мне, о тебе, о нём, о ней, о нас, о вас, о них.",
+  "imageName": "person.text.rectangle",
+  "trackId": "a2-pronoun-declension-mastery",
+  "trackTitle": "Pronoun Declension Mastery",
+  "trackTitleRussian": "Склонение местоимений",
+  "trackIndex": 2,
+  "trackTotal": 6,
+  "intro": "The remaining three cases, and one form worth flagging: the feminine third-person pronoun is identical in the dative and the instrumental. Nothing in the word tells you which one you are looking at, so the verb or the preposition in front of it has to. That kind of overlap is normal in Russian, and it is why context does so much work.",
+  "rules": [
+    "The seven personal pronouns have these dative forms: мне, тебе, ему, ей, нам, вам, им. The same form covers indirect-object recipients, нравится-style experiencers, and к-motion goals.",
+    "The instrumental forms are: мной, тобой, им, ей, нами, вами, ими. Used after с, in profession constructions (быть кем), and after certain reflexive verbs (гордиться, интересоваться).",
+    "The prepositional forms are: обо мне, о тебе, о нём, о ней, о нас, о вас, о них. The 3rd-person prepositional ALWAYS includes the н-prefix because the case ALWAYS appears with a preposition.",
+    "The feminine 3rd-person ей is BOTH the dative and the instrumental form. Context (the verb or the preposition) decides the case. Маша помогает ей (dat) vs Антон гордится ей (instr)."
+  ],
+  "examples": [
+    "Маша помогает мне. (Masha helps me.) The verb помогать takes the dative; the dat of я is мне.",
+    "Антон звонит тебе. (Anton calls you.) The verb звонить + dat. The dat of ты is тебе.",
+    "Я доверяю ему. (I trust him.) The verb доверять + dat. The dat of он is ему.",
+    "Лена идёт со мной. (Lena is going with me.) С + instrumental. The instr of я is мной; со is the preposition с before consonant clusters like мн-.",
+    "Антон гордится тобой. (Anton is proud of you.) The verb гордиться + instr. The instr of ты is тобой.",
+    "Маша думает обо мне. (Masha is thinking about me.) Обо + prepositional. The prep of я is обо мне."
+  ],
+  "tables": [
+    {
+      "title": "Personal Pronouns: Full Six-Case Grid",
+      "headers": [
+        "Person",
+        "Nom",
+        "Acc / Gen",
+        "Dat",
+        "Instr",
+        "Prep"
+      ],
+      "rows": [
+        {
+          "label": "1sg",
+          "cells": [
+            "я",
+            "меня",
+            "мне",
+            "мной",
+            "обо мне"
+          ]
+        },
+        {
+          "label": "2sg",
+          "cells": [
+            "ты",
+            "тебя",
+            "тебе",
+            "тобой",
+            "о тебе"
+          ]
+        },
+        {
+          "label": "3sg masc",
+          "cells": [
+            "он",
+            "его",
+            "ему",
+            "им",
+            "о нём"
+          ]
+        },
+        {
+          "label": "3sg fem",
+          "cells": [
+            "она",
+            "её",
+            "ей",
+            "ей",
+            "о ней"
+          ]
+        },
+        {
+          "label": "1pl",
+          "cells": [
+            "мы",
+            "нас",
+            "нам",
+            "нами",
+            "о нас"
+          ]
+        },
+        {
+          "label": "2pl / formal",
+          "cells": [
+            "вы",
+            "вас",
+            "вам",
+            "вами",
+            "о вас"
+          ]
+        },
+        {
+          "label": "3pl",
+          "cells": [
+            "они",
+            "их",
+            "им",
+            "ими",
+            "о них"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Three Triggers for the Dative",
+      "headers": [
+        "Trigger",
+        "Example",
+        "Meaning"
+      ],
+      "rows": [
+        {
+          "label": "помогать / звонить + dat",
+          "cells": [
+            "Маша помогает мне.",
+            "Masha helps me."
+          ]
+        },
+        {
+          "label": "нравиться + dat",
+          "cells": [
+            "Мне нравится фильм.",
+            "I like the film."
+          ]
+        },
+        {
+          "label": "к + dat (motion to)",
+          "cells": [
+            "Антон идёт к нам.",
+            "Anton is coming to us."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Маша знает _____.",
+          "promptEnglish": "Masha knows me. (warm-up from Lesson 1)",
+          "options": [
+            "мне",
+            "мной",
+            "меня",
+            "обо мне"
+          ],
+          "answer": "меня",
+          "hint": "Recap from Lesson 1: знать takes the accusative. The acc of я is the same as the gen.",
+          "explanation": "Recap from Lesson 1: the accusative of я is меня (same as the gen). Знать selects an accusative direct object: Маша знает меня."
+        },
+        {
+          "prompt": "Антон помогает _____.",
+          "promptEnglish": "Anton helps me.",
+          "options": [
+            "я",
+            "мне",
+            "мной",
+            "меня"
+          ],
+          "answer": "мне",
+          "hint": "Помогать takes the dative. Which form is the dat of я?",
+          "explanation": "The dative of я is мне. Помогать (and звонить, доверять, мешать, обещать, отвечать) takes a dative indirect object: Антон помогает мне."
+        },
+        {
+          "prompt": "Лена идёт со _____.",
+          "promptEnglish": "Lena is going with me.",
+          "options": [
+            "меня",
+            "мне",
+            "обо мне",
+            "мной"
+          ],
+          "answer": "мной",
+          "hint": "С + instrumental. Which form is the instr of я?",
+          "explanation": "The instrumental of я is мной. The preposition с (with) takes the instrumental. Note the spelling со (not с) before мной: Russian inserts a vowel here to avoid the consonant cluster с-мн."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маша звонит _____.",
+          "promptEnglish": "Masha calls you (singular).",
+          "options": [
+            "тебе",
+            "тобой",
+            "тебя",
+            "ты"
+          ],
+          "answer": "тебе",
+          "hint": "Звонить takes the dative.",
+          "explanation": "The dative of ты is тебе. Звонить is one of the classic dative-taking verbs: Маша звонит тебе."
+        },
+        {
+          "prompt": "Антон гордится _____.",
+          "promptEnglish": "Anton is proud of you (singular).",
+          "options": [
+            "тебе",
+            "тебя",
+            "тобой",
+            "ты"
+          ],
+          "answer": "тобой",
+          "hint": "Гордиться takes the instrumental.",
+          "explanation": "The instrumental of ты is тобой. Гордиться, интересоваться, заниматься, and пользоваться are reflexive verbs that take the instrumental."
+        },
+        {
+          "prompt": "Маша думает обо _____.",
+          "promptEnglish": "Masha is thinking about me.",
+          "options": [
+            "я",
+            "меня",
+            "мной",
+            "мне"
+          ],
+          "answer": "мне",
+          "hint": "Обо + prepositional. Which form is the prep of я?",
+          "explanation": "The prepositional of я is обо мне. Обо (not о) appears before words starting with consonant clusters like мн-. The form 'мне' looks like the dative; the preposition обо is what makes the phrase prepositional."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Антон думает о _____. (Anton is thinking about you, plural / formal.)"
+    ],
+    "choices": [
+      "вы",
+      "вас",
+      "вам",
+      "вами"
+    ],
+    "answers": [
+      "вас"
+    ],
+    "grammarFocus": "The prepositional of вы is о вас. Note that the prepositional and the genitive of вы / мы are surface-identical (вас, нас); the preposition о disambiguates the case here. Compare: думает о вас (prep) vs у вас нет (gen)."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Старший брат часто помогает нас.",
+      "translationEnglish": "My older brother often helps us.",
+      "error": "нас",
+      "correction": "нам",
+      "options": [
+        "нам",
+        "нами",
+        "мы"
+      ],
+      "explanation": "Помогать governs the dative, and the dative of мы is нам, not the accusative нас. Нас is the accusative/genitive ('Маша знает нас'; 'у нас нет'), used after знать or у. Correct: Старший брат часто помогает нам."
+    },
+    {
+      "sentence": "Родители очень гордятся вам.",
+      "translationEnglish": "The parents are very proud of you.",
+      "error": "вам",
+      "correction": "вами",
+      "options": [
+        "вами",
+        "вас",
+        "вы"
+      ],
+      "explanation": "Гордиться governs the instrumental, and the instrumental of вы is вами, not the dative вам. Вам is the dative (помогать вам); the verb frame decides the case. Correct: Родители очень гордятся вами."
+    },
+    {
+      "sentence": "Бабушка часто думает о нам.",
+      "translationEnglish": "Grandma often thinks about us.",
+      "error": "о нам",
+      "correction": "о нас",
+      "options": [
+        "о нас",
+        "о нами",
+        "о мы"
+      ],
+      "explanation": "О (about) governs the prepositional, and the prepositional of мы is нас (о нас). О нам uses the dative нам, which follows помогать or к, not о. The prepositional of мы happens to match the accusative/genitive (нас), but the preposition о shows it is prepositional here: о нас."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша помогает _____.",
+      "contextEnglish": "Masha helps me.",
+      "options": [
+        "мне",
+        "меня"
+      ],
+      "answer": "мне",
+      "explanation": "Помогать takes the dative; the dat of я is мне. Меня would be the acc / gen, used after a verb like знать or after у."
+    },
+    {
+      "context": "Антон гордится _____.",
+      "contextEnglish": "Anton is proud of us.",
+      "options": [
+        "нами",
+        "нам"
+      ],
+      "answer": "нами",
+      "explanation": "Гордиться takes the instrumental; the instr of мы is нами. Нам would be the dative, used after помогать, звонить, or к."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "дательный падеж",
+      "definition": "dative case (the form for the indirect object: Маша помогает + dat; the experiencer of feelings: мне холодно; the goal of motion to a person: к нам)",
+      "example": "В предложении 'Маша помогает мне' слово 'мне' стоит в дательном падеже."
+    },
+    {
+      "term": "творительный падеж",
+      "definition": "instrumental case (the form after с in 'with' phrases and after reflexive verbs like гордиться, интересоваться)",
+      "example": "В предложении 'Лена идёт со мной' слово 'мной' стоит в творительном падеже после предлога с."
+    },
+    {
+      "term": "предложный падеж",
+      "definition": "prepositional case (always after a preposition: о, в, на, при; never appears without one)",
+      "example": "В предложении 'Маша думает обо мне' слова 'обо мне' стоят в предложном падеже."
+    }
+  ]
+}

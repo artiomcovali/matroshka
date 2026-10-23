@@ -1,0 +1,363 @@
+{
+  "id": "b1-track-motion-03-destinations",
+  "level": "B1",
+  "focusArea": "motionVerbs",
+  "title": "Motion Verbs 3: Destinations with в and на",
+  "titleRussian": "Глаголы движения 3: Куда? в и на",
+  "description": "Motion verbs answer the question куда? with the accusative case. Enclosed spaces, buildings, cities, and countries take в + acc. Events, workplaces, and a fixed list of idiomatic places take на + acc.",
+  "descriptionRussian": "Глаголы движения отвечают на вопрос «куда?». Закрытые пространства, здания, города и страны — с предлогом «в» и винительным падежом. События, места работы и идиоматический список мест — с «на» и винительным падежом.",
+  "imageName": "mappin.and.ellipse",
+  "trackId": "b1-motion-verbs-mastery",
+  "trackTitle": "Motion Verbs Mastery",
+  "trackTitleRussian": "Глаголы движения",
+  "trackIndex": 3,
+  "trackTotal": 11,
+  "intro": "Motion verbs need somewhere to go, and the destination takes the accusative rather than the prepositional you use for standing still. The choice between the two prepositions is the same one you settled in the A1 prepositional book: buildings and cities take one, events and a fixed idiomatic list take the other. Same list, different case.",
+  "rules": [
+    "Motion verbs answer куда? with the accusative case. Two prepositions introduce the destination: в and на.",
+    "В + accusative is the default for enclosed spaces: buildings, cities, countries, parks, forests (в магазин, в Москву, в школу, в парк, в библиотеку).",
+    "На + accusative covers events (на концерт, на лекцию, на собрание, на встречу, на урок) and a fixed idiomatic list (на работу, на почту, на стадион, на завод, на вокзал, на дачу, на этаж).",
+    "Accusative endings recap: masc inanimate and neuter do not change; fem -а → -у; fem -я → -ю; fem -ия → -ию.",
+    "К + dative names a person or area; до + genitive names a stopping point. Neither replaces в or на for buildings or events."
+  ],
+  "examples": [
+    "Антон идёт в магазин. (Anton is going to the store.) Building → в + acc.",
+    "Маша ездит на работу на метро. (Masha takes the metro to work.) Idiomatic 'на' place + the transport phrase.",
+    "Лена часто ходит на концерты. (Lena often goes to concerts.) Event → на + acc.",
+    "Каждое лето мы ездим в Москву. (Every summer we go to Moscow.) City → в + acc.",
+    "Иван пошёл на почту за маркой. (Ivan headed to the post office for a stamp.) Idiomatic place → на.",
+    "Соня сейчас идёт в библиотеку. (Sonya is on her way to the library right now.) Building → в + acc."
+  ],
+  "tables": [
+    {
+      "title": "В or на? A practical sort",
+      "headers": [
+        "Group",
+        "Examples",
+        "Preposition"
+      ],
+      "rows": [
+        {
+          "label": "Buildings",
+          "cells": [
+            "магазин, школа, банк, театр, музей, библиотека",
+            "в + acc"
+          ]
+        },
+        {
+          "label": "Cities and countries",
+          "cells": [
+            "Москва, Петербург, Россия, Италия",
+            "в + acc"
+          ]
+        },
+        {
+          "label": "Open enclosed spaces",
+          "cells": [
+            "парк, лес, двор, сад",
+            "в + acc"
+          ]
+        },
+        {
+          "label": "Events and activities",
+          "cells": [
+            "концерт, лекция, собрание, встреча, урок",
+            "на + acc"
+          ]
+        },
+        {
+          "label": "Idiomatic 'на' places",
+          "cells": [
+            "работа, почта, стадион, завод, вокзал, дача, этаж",
+            "на + acc"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Лена часто _____ в Москву на поезде.",
+          "promptEnglish": "Lena often goes to Moscow by train.",
+          "options": [
+            "еду",
+            "едет",
+            "ездит",
+            "ездим"
+          ],
+          "answer": "ездит",
+          "hint": "Recap from Lesson 2: 'часто' is a habit cue. Which 3sg form of the transport pair fits?",
+          "explanation": "Recap from Lesson 2: 'часто' (often) marks a recurring trip; the round-trip pair member is ездить, 3sg ездит. The на-поезде phrase is the means of transport, not the destination. Today's drill shifts focus to the destination phrase that follows the verb."
+        },
+        {
+          "prompt": "Антон сейчас идёт _____ магазин за хлебом.",
+          "promptEnglish": "Anton is on his way to the store right now to get bread.",
+          "options": [
+            "в",
+            "на",
+            "к",
+            "до"
+          ],
+          "answer": "в",
+          "hint": "Магазин is a building. Which preposition do buildings take with motion verbs?",
+          "explanation": "Магазин is a building with walls, so it takes the default в + acc. The acc form of магазин does not change (masc inanimate). The bread errand does not change the choice; the destination is still a building."
+        },
+        {
+          "prompt": "Лена часто ходит _____ концерт со старшим братом.",
+          "promptEnglish": "Lena often goes to concerts with her older brother.",
+          "options": [
+            "в",
+            "к",
+            "на",
+            "до"
+          ],
+          "answer": "на",
+          "hint": "Концерт is an event. Which preposition handles events with motion verbs?",
+          "explanation": "Концерт is an event you attend, not a building you enter. Events take на + acc: на концерт (no ending change for masc inanimate)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Каждое лето мы ездим _____ Москву на машине.",
+          "promptEnglish": "Every summer we drive to Moscow.",
+          "options": [
+            "к",
+            "в",
+            "на",
+            "до"
+          ],
+          "answer": "в",
+          "hint": "Москва is a city. Which preposition do cities and countries take?",
+          "explanation": "Cities and countries are enclosed-on-the-map spaces and take в + acc: в Москву (fem -а → -у). Каждое лето is a habit cue handled by ездить (Lesson 2 work). The на-машине phrase names the transport, separate from the destination preposition."
+        },
+        {
+          "prompt": "Маша уже едет _____ работу на машине.",
+          "promptEnglish": "Masha is already on her way to work by car.",
+          "options": [
+            "на",
+            "в",
+            "к",
+            "до"
+          ],
+          "answer": "на",
+          "hint": "Работа is one of the idiomatic 'на' places. Memorize, do not derive.",
+          "explanation": "Работа sits on the small fixed list of idiomatic 'на' places (работа, почта, стадион, завод, вокзал). This list has to be memorized; the building / event logic does not predict it."
+        },
+        {
+          "prompt": "Дети идут _____ школу пешком.",
+          "promptEnglish": "The kids are walking to school.",
+          "options": [
+            "до",
+            "к",
+            "на",
+            "в"
+          ],
+          "answer": "в",
+          "hint": "Школа is a building. Building → which preposition?",
+          "explanation": "Школа is a building, default в + acc: в школу (fem -а → -у). The пешком adverb confirms motion on foot (Lesson 1 work). The verb идти signals a single in-progress one-way trip, no change to the destination preposition."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Антон идёт _____ на балет.",
+          "promptEnglish": "Anton is going to the theatre to see a ballet.",
+          "options": [
+            "в театр",
+            "в театре",
+            "к театру",
+            "до театра"
+          ],
+          "answer": "в театр",
+          "hint": "Работа is one of the idiomatic places. Which preposition and case?",
+          "explanation": "Театр is a building you enter, so direction takes the default в + accusative: в театр (masc inanimate, no ending change)."
+        },
+        {
+          "prompt": "Мы едем в _____.",
+          "promptEnglish": "We are going to Moscow.",
+          "options": [
+            "Москву",
+            "Москве",
+            "Москвы",
+            "Москвой"
+          ],
+          "answer": "Москву",
+          "hint": "Cities take в + which case for direction?",
+          "explanation": "Direction takes в + accusative: в Москву (feminine -а becomes -у)."
+        },
+        {
+          "prompt": "Лена _____ на концерты каждый месяц.",
+          "promptEnglish": "Lena goes to concerts every month.",
+          "options": [
+            "ходит",
+            "идёт",
+            "шла",
+            "пойдёт"
+          ],
+          "answer": "ходит",
+          "hint": "A repeated habit: which motion verb?",
+          "explanation": "The habit ('goes every month') takes the round-trip ходить: ходит на концерты."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Я иду в _____.",
+          "promptEnglish": "I am going to the library.",
+          "options": [
+            "библиотеку",
+            "библиотеке",
+            "библиотеки",
+            "библиотекой"
+          ],
+          "answer": "библиотеку",
+          "hint": "A building takes в + which case for direction?",
+          "explanation": "Buildings take в + accusative for direction: в библиотеку (-а becomes -у)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Антон сейчас идёт _____ театр. (Anton is on his way to the theatre.)"
+    ],
+    "choices": [
+      "в",
+      "на",
+      "к",
+      "до"
+    ],
+    "answers": [
+      "в"
+    ],
+    "grammarFocus": "Театр is a building. Buildings take в + acc; театр does not change (masc inanimate)."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "После уроков дети часто ходят на библиотеку за книгами.",
+      "translationEnglish": "After class, the children often go to the library for books.",
+      "error": "на библиотеку",
+      "correction": "в библиотеку",
+      "options": [
+        "в библиотеку",
+        "к библиотеке",
+        "до библиотеки"
+      ],
+      "explanation": "A library is a building you enter, so it takes the default в + accusative: в библиотеку (fem -а → -у). На библиотеку is wrong: на marks events (на концерт) and a fixed list of idiomatic places (на работу, на почту), and библиотека is on neither. Buildings default to в."
+    },
+    {
+      "sentence": "В субботу Лена ездила в концерт классической музыки.",
+      "translationEnglish": "On Saturday Lena went to a classical music concert.",
+      "error": "в концерт",
+      "correction": "на концерт",
+      "options": [
+        "на концерт",
+        "к концерту",
+        "до концерта"
+      ],
+      "explanation": "A concert is an event you attend, not a building you enter, so it takes на + accusative: на концерт (masc inanimate, no change). В концерт is ungrammatical: в is for enclosed spaces (в зал, в театр), while the event itself is на. The hall hosting it (концертный зал) would be в + acc, yet the concert as an event stays на."
+    },
+    {
+      "sentence": "Каждое утро Антон ездит в работу на метро.",
+      "translationEnglish": "Every morning Anton takes the metro to work.",
+      "error": "в работу",
+      "correction": "на работу",
+      "options": [
+        "на работу",
+        "к работе",
+        "до работы"
+      ],
+      "explanation": "Работа sits on the small fixed list of idiomatic 'на' places (работа, почта, стадион, завод, вокзал, дача), so it takes на + accusative: на работу. В работу is wrong even though работа is not an event; this list is memorized, not derived from the building-versus-event logic. The second 'на' in 'на метро' names the transport, a separate slot."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша идёт _____ парк после работы.",
+      "contextEnglish": "Masha is walking to the park after work.",
+      "options": [
+        "в",
+        "на"
+      ],
+      "answer": "в",
+      "explanation": "Парк is an enclosed space: trees, paths, a perimeter. Enclosed spaces default to в + acc, even though you do not enter a building. На would mark an event or one of the idiomatic places, neither of which describes a park."
+    },
+    {
+      "context": "Антон идёт _____ собрание в десять часов.",
+      "contextEnglish": "Anton is going to a meeting at ten o'clock.",
+      "options": [
+        "в",
+        "на"
+      ],
+      "answer": "на",
+      "explanation": "Собрание is an event you attend at a time, not a building you enter. Events take на + acc: на собрание (neuter, no change). 'В собрание' would be ungrammatical; if Anton entered the meeting room as a physical space, that would be в комнату, not в собрание."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort these destinations into the two preposition families.",
+    "categories": [
+      "в + accusative (enclosed spaces)",
+      "на + accusative (events / idiomatic)"
+    ],
+    "items": [
+      {
+        "word": "магазин",
+        "category": "в + accusative (enclosed spaces)"
+      },
+      {
+        "word": "работу",
+        "category": "на + accusative (events / idiomatic)"
+      },
+      {
+        "word": "школу",
+        "category": "в + accusative (enclosed spaces)"
+      },
+      {
+        "word": "концерт",
+        "category": "на + accusative (events / idiomatic)"
+      },
+      {
+        "word": "библиотеку",
+        "category": "в + accusative (enclosed spaces)"
+      },
+      {
+        "word": "почту",
+        "category": "на + accusative (events / idiomatic)"
+      },
+      {
+        "word": "музей",
+        "category": "в + accusative (enclosed spaces)"
+      },
+      {
+        "word": "дачу",
+        "category": "на + accusative (events / idiomatic)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "в + винительный (куда?)",
+      "definition": "Preposition в plus the accusative case names a destination that is an enclosed space: a building, a city, a country, a park, a forest. The default choice for motion-verb destinations.",
+      "example": "Антон идёт в магазин."
+    },
+    {
+      "term": "на + винительный (куда?)",
+      "definition": "Preposition на plus the accusative case names a destination that is an event (concert, lecture, meeting) or one of a small fixed list of idiomatic places (работа, почта, стадион, завод, вокзал, дача, этаж).",
+      "example": "Маша ездит на работу на метро."
+    },
+    {
+      "term": "куда?",
+      "definition": "The question word 'where to?'. Russian motion verbs always answer it with an accusative destination introduced by в or на.",
+      "example": "Куда ты идёшь? — В библиотеку."
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "id": "b2-011-participle-constructions",
+  "level": "B2",
+  "focusArea": "other",
+  "title": "Participle Constructions",
+  "titleRussian": "Причастные обороты",
+  "description": "Participle phrases and positioning",
+  "descriptionRussian": "Причастные обороты и их место в предложении",
+  "imageName": "text.insert",
+  "intro": "Participle constructions (причастные обороты) are participles with dependent words, functioning as extended adjectives. POSITION matters: Before noun (no commas): читающий книгу студент (the student reading a book). After noun (with commas): студент, читающий книгу, ... (the student, who is reading a book, ...). AGREEMENT: Participle agrees with the noun in gender, number, case. These constructions are common in formal/written Russian and replace который clauses for conciseness.",
+  "rules": [
+    "Before noun = no commas: читающий книгу мальчик (the boy reading a book)",
+    "After noun = commas required: мальчик, читающий книгу, сидит там",
+    "Participle agrees with noun in gender, number, case",
+    "Can replace который clauses: который читает → читающий"
+  ],
+  "examples": [
+    "Работающие здесь люди очень добрые. (The people working here are very kind.)",
+    "Люди, работающие здесь, очень добрые. (The people, who work here, are very kind.)",
+    "Написанная им книга стала популярной. (The book written by him became popular.)",
+    "Я видел девушку, читающую книгу. (I saw a girl reading a book.)"
+  ],
+  "tables": [
+    {
+      "title": "All Four Participle Types",
+      "headers": [
+        "Type",
+        "Suffix",
+        "Example",
+        "Translation"
+      ],
+      "rows": [
+        {
+          "label": "Active Present",
+          "cells": [
+            "-ущ-/-ющ-/-ащ-/-ящ-",
+            "чита|ющий студент",
+            "the reading student"
+          ]
+        },
+        {
+          "label": "Active Past",
+          "cells": [
+            "-вш-/-ш-",
+            "прочита|вший книгу",
+            "who read the book"
+          ]
+        },
+        {
+          "label": "Passive Present",
+          "cells": [
+            "-ем-/-им-",
+            "чита|емая книга",
+            "the book being read"
+          ]
+        },
+        {
+          "label": "Passive Past",
+          "cells": [
+            "-нн-/-т-/-енн-",
+            "прочита|нная книга",
+            "the book that was read"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ книгу студент сидит в библиотеке. (reading, before noun)",
+          "promptEnglish": "The student reading a book is sitting in the library.",
+          "options": [
+            "Читающим",
+            "Читающий",
+            "Читающему",
+            "Читающего"
+          ],
+          "answer": "Читающий",
+          "hint": "Agrees with студент (m, nom)",
+          "explanation": "Before noun, nominative: читающий студент."
+        },
+        {
+          "prompt": "Студент, _____ книгу, сидит в библиотеке. (reading, after noun)",
+          "promptEnglish": "The student, who is reading a book, is sitting in the library.",
+          "options": [
+            "читающего",
+            "читающему",
+            "читающий",
+            "который читает"
+          ],
+          "answer": "читающий",
+          "hint": "After noun with commas, still nominative",
+          "explanation": "After noun: студент, читающий..."
+        },
+        {
+          "prompt": "Я видел девушку, _____ письмо. (writing, acc fem)",
+          "promptEnglish": "I saw a girl writing a letter.",
+          "options": [
+            "пишущие",
+            "пишущая",
+            "пишущую",
+            "пишущей"
+          ],
+          "answer": "пишущую",
+          "hint": "Agrees with девушку (f, acc)",
+          "explanation": "Accusative feminine: пишущую девушку."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ мной книга лежит на столе. (written, before noun)",
+          "promptEnglish": "The book written by me is on the table.",
+          "options": [
+            "Написанную",
+            "Написанные",
+            "Написанная",
+            "Написанной"
+          ],
+          "answer": "Написанная",
+          "hint": "Agrees with книга (f, nom)",
+          "explanation": "Nominative feminine: написанная книга."
+        },
+        {
+          "prompt": "Мы говорили о людях, _____ в этом доме. (living)",
+          "promptEnglish": "We talked about the people living in this house.",
+          "options": [
+            "живущими",
+            "живущие",
+            "живущим",
+            "живущих"
+          ],
+          "answer": "живущих",
+          "hint": "Agrees with о людях (prep pl)",
+          "explanation": "Prepositional plural: о людях, живущих..."
+        },
+        {
+          "prompt": "Which needs commas? _____ здесь люди / Люди _____ здесь",
+          "promptEnglish": "Which position requires commas?",
+          "options": [
+            "Before noun",
+            "Neither",
+            "Both",
+            "After noun"
+          ],
+          "answer": "After noun",
+          "hint": "After = set off with commas",
+          "explanation": "After noun: Люди, работающие здесь, ..."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я знаю человека, _____ эту статью. (who wrote)",
+          "promptEnglish": "I know the person who wrote this article.",
+          "options": [
+            "написавшим",
+            "написавшего",
+            "написавший",
+            "написавшему"
+          ],
+          "answer": "написавшего",
+          "hint": "Agrees with человека (m, acc animate)",
+          "explanation": "Accusative animate: написавшего человека."
+        },
+        {
+          "prompt": "_____ на столе документы важные. (lying, before noun)",
+          "promptEnglish": "The documents lying on the table are important.",
+          "options": [
+            "Лежащими",
+            "Лежащих",
+            "Лежащим",
+            "Лежащие"
+          ],
+          "answer": "Лежащие",
+          "hint": "Agrees with документы (pl, nom)",
+          "explanation": "Nominative plural: лежащие документы."
+        },
+        {
+          "prompt": "Книга, _____ им, стала бестселлером. (written)",
+          "promptEnglish": "The book written by him became a bestseller.",
+          "options": [
+            "написанные",
+            "написанная",
+            "написанную",
+            "написанной"
+          ],
+          "answer": "написанная",
+          "hint": "Agrees with книга (f, nom)",
+          "explanation": "Nominative: книга, написанная им."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Мы встретили туристов, _____ город. (who were visiting, acc pl)",
+          "promptEnglish": "We met tourists visiting the city.",
+          "options": [
+            "осматривающие",
+            "осматривающим",
+            "осматривающих",
+            "осматривающими"
+          ],
+          "answer": "осматривающих",
+          "hint": "Agrees with туристов (m, acc animate pl)",
+          "explanation": "Accusative animate plural: осматривающих туристов."
+        },
+        {
+          "prompt": "_____ учителем задача была трудной. (set/assigned, before noun)",
+          "promptEnglish": "The task set by the teacher was difficult.",
+          "options": [
+            "Поставленная",
+            "Поставленные",
+            "Поставленной",
+            "Поставленному"
+          ],
+          "answer": "Поставленная",
+          "hint": "Agrees with задача (f, nom), before noun = no commas",
+          "explanation": "Nominative feminine, before noun: поставленная учителем задача."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Студенты, _____ экзамен, могут идти. (who passed)"
+    ],
+    "choices": [
+      "сдавшие",
+      "сдавший",
+      "сдавших",
+      "сдавшим"
+    ],
+    "answers": [
+      "сдавшие"
+    ],
+    "grammarFocus": "Nominative plural: студенты, сдавшие...",
+    "hints": [
+      "The participle must agree in case and number with the noun it modifies. What form matches plural nominative 'студенты'?"
+    ],
+    "explanations": [
+      "Active past participles agree with their noun: 'студенты' is nominative plural, so the participle takes the plural nominative ending -ие: сдавшие. This replaces 'студенты, которые сдали.'"
+    ],
+    "options": [
+      [
+        "сдавших",
+        "сданные",
+        "сдавшими",
+        "сдавшие"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ книгу мальчик умный. (no commas)",
+      "contextEnglish": "The boy reading the book is smart.",
+      "options": [
+        "Читающий",
+        "Мальчик, читающий"
+      ],
+      "answer": "Читающий",
+      "explanation": "Before noun = no commas: Читающий книгу мальчик."
+    },
+    {
+      "context": "Мальчик, _____ книгу, умный. (with commas)",
+      "contextEnglish": "The boy, who is reading, is smart.",
+      "options": [
+        "читающий",
+        "читающий книгу мальчик"
+      ],
+      "answer": "читающий",
+      "explanation": "After noun = commas: мальчик, читающий книгу, ..."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by participle position",
+    "categories": [
+      "Before noun (no commas)",
+      "After noun (with commas)"
+    ],
+    "items": [
+      {
+        "word": "Читающий книгу студент...",
+        "category": "Before noun (no commas)"
+      },
+      {
+        "word": "Студент, читающий книгу, ...",
+        "category": "After noun (with commas)"
+      },
+      {
+        "word": "Написанное им письмо...",
+        "category": "Before noun (no commas)"
+      },
+      {
+        "word": "Письмо, написанное им, ...",
+        "category": "After noun (with commas)"
+      },
+      {
+        "word": "Работающие здесь люди...",
+        "category": "Before noun (no commas)"
+      },
+      {
+        "word": "Люди, работающие здесь, ...",
+        "category": "After noun (with commas)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "before noun",
+      "definition": "no commas needed",
+      "example": "Читающий книгу мальчик"
+    },
+    {
+      "term": "after noun",
+      "definition": "commas required",
+      "example": "Мальчик, читающий книгу, ..."
+    },
+    {
+      "term": "agreement",
+      "definition": "gender, number, case match noun",
+      "example": "девушку, пишущую... (acc f)"
+    },
+    {
+      "term": "replaces который",
+      "definition": "more concise than relative clause",
+      "example": "который читает → читающий"
+    }
+  ]
+}

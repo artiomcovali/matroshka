@@ -1,0 +1,405 @@
+{
+  "id": "a1-030-review-final",
+  "level": "A1",
+  "focusArea": "sentenceStructure",
+  "title": "Final Review",
+  "titleRussian": "Итоговое повторение",
+  "description": "Comprehensive review of all A1 grammar topics",
+  "descriptionRussian": "Комплексное повторение всей грамматики уровня A1",
+  "imageName": "star.fill",
+  "intro": "This is your comprehensive A1 review covering everything from the alphabet and pronouns through cases, verb conjugation, adjective agreement, and prepositions. If you can handle these exercises, you have a solid A1 foundation and are ready for A2. Take your time — this review tests all major topics from the entire A1 level.",
+  "rules": [
+    "Nouns have three genders: masculine (consonant ending), feminine (-а/-я), neuter (-о/-е). Gender determines pronoun, adjective, and verb agreement.",
+    "Russian has six cases. At A1, focus on nominative (subject), accusative (direct object), and prepositional (location with в/на).",
+    "Present tense verbs conjugate in two patterns: 1st conjugation (-ю, -ешь, -ет, -ем, -ете, -ют) and 2nd conjugation (-ю, -ишь, -ит, -им, -ите, -ят).",
+    "Adjectives and possessives agree with nouns in gender, number, and case: мой новый дом (m), моя новая книга (f), моё новое окно (n).",
+    "Negation: не before verbs (Я не работаю), нет + genitive for 'don't have' (У меня нет книги). Questions use кто, что, где, когда, почему, как."
+  ],
+  "examples": [
+    "Я читаю новую книгу в школе. (I read a new book at school.) — verb, adjective agreement, accusative, prepositional",
+    "У моего брата нет машины. (My brother doesn't have a car.) — possession, genitive after нет",
+    "Эти большие дома очень красивые. (These big houses are very beautiful.) — demonstrative, adjective, plural",
+    "Почему ты не говоришь по-русски? (Why don't you speak Russian?) — question word, negation, verb"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Which letter sounds like English 'R'?",
+          "promptEnglish": "Which letter sounds like English 'R'?",
+          "options": [
+            "Р",
+            "П",
+            "Н",
+            "В"
+          ],
+          "answer": "Р",
+          "hint": "It looks like English P",
+          "explanation": "Р looks like English P but sounds like R. This is the most famous 'false friend' in the Russian alphabet."
+        },
+        {
+          "prompt": "What gender is 'молоко' (milk)?",
+          "promptEnglish": "What gender is 'молоко' (milk)?",
+          "options": [
+            "Masculine",
+            "Feminine",
+            "Neuter",
+            "Plural"
+          ],
+          "answer": "Neuter",
+          "hint": "Look at the ending: -о",
+          "explanation": "Молоко ends in -о, which means it is neuter. Neuter nouns end in -о or -е."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Choose the correct form: Мы _____ в парке. (walk)",
+          "promptEnglish": "We walk in the park.",
+          "options": [
+            "гуляю",
+            "гуляешь",
+            "гуляем",
+            "гуляют"
+          ],
+          "answer": "гуляем",
+          "hint": "First person plural (мы)",
+          "explanation": "With мы, 1st conjugation verbs take -ем: мы гуляем."
+        },
+        {
+          "prompt": "Она _____ говорит по-английски.",
+          "promptEnglish": "She doesn't speak English.",
+          "options": [
+            "нет",
+            "не",
+            "ни",
+            "без"
+          ],
+          "answer": "не",
+          "hint": "Negation particle before verbs",
+          "explanation": "Не is placed directly before the verb for negation: не говорит."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "_____ тебя зовут?",
+          "promptEnglish": "What is your name?",
+          "options": [
+            "Кто",
+            "Что",
+            "Где",
+            "Как"
+          ],
+          "answer": "Как",
+          "hint": "Russian uses 'how' for asking names",
+          "explanation": "Как тебя зовут?Literally means 'How do they call you?' Russian uses как (how) to ask names."
+        },
+        {
+          "prompt": "У меня есть _____ . (cat)",
+          "promptEnglish": "I have a cat.",
+          "options": [
+            "кошки",
+            "кошку",
+            "кошка",
+            "кошке"
+          ],
+          "answer": "кошка",
+          "hint": "After есть, use nominative case",
+          "explanation": "After есть (have), use the nominative case: кошка (not кошку or кошки)."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "_____ друзья очень хорошие. (my, plural)",
+          "promptEnglish": "My friends are very good.",
+          "options": [
+            "Мой",
+            "Моя",
+            "Моё",
+            "Мои"
+          ],
+          "answer": "Мои",
+          "hint": "Plural possessive",
+          "explanation": "Друзья is plural, so the possessive takes plural form: мои друзья."
+        },
+        {
+          "prompt": "Я вижу _____ . (this girl — feminine accusative)",
+          "promptEnglish": "I see this girl.",
+          "options": [
+            "эта девушка",
+            "эту девушку",
+            "этой девушки",
+            "это девушка"
+          ],
+          "answer": "эту девушку",
+          "hint": "Both demonstrative and noun change in feminine accusative",
+          "explanation": "In feminine accusative: эта → эту, девушка → девушку. Я вижу эту девушку."
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "items": [
+        {
+          "prompt": "Он работает _____ школе.",
+          "promptEnglish": "He works at a school.",
+          "options": [
+            "в",
+            "из",
+            "на",
+            "к"
+          ],
+          "answer": "в",
+          "hint": "Inside a building = в + prepositional",
+          "explanation": "В + prepositional case means 'in/at' a building: в школе."
+        },
+        {
+          "prompt": "What is 37 in Russian?",
+          "promptEnglish": "What is 37 in Russian?",
+          "options": [
+            "двадцать семь",
+            "тридцать семь",
+            "сорок семь",
+            "тридцать три"
+          ],
+          "answer": "тридцать семь",
+          "hint": "Тридцать = 30, семь = 7",
+          "explanation": "Тридцать семь = 37. Compound numbers: tens word + units word."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я _____ книгу в парке. (read)",
+      "У неё нет _____. (brother, genitive)",
+      "_____ живёшь? — В Москве. (where)",
+      "Это _____ новая машина. (our, feminine)",
+      "Они _____ работают в субботу. (don't)"
+    ],
+    "choices": [
+      "читаю",
+      "брата",
+      "Где",
+      "наша",
+      "не",
+      "читать"
+    ],
+    "answers": [
+      "читаю",
+      "брата",
+      "Где",
+      "наша",
+      "не"
+    ],
+    "grammarFocus": "Comprehensive: verb conjugation, genitive after нет, question words, possessives, negation",
+    "options": [
+      [
+        "читаешь",
+        "читает",
+        "читаем",
+        "читаю"
+      ],
+      [
+        "ваша",
+        "моя",
+        "наш",
+        "брата"
+      ],
+      [
+        "Когда",
+        "Куда",
+        "Где",
+        "Откуда"
+      ],
+      [
+        "ни",
+        "никогда",
+        "нет",
+        "наша"
+      ],
+      [
+        "не",
+        "новый",
+        "маленький",
+        "большой"
+      ]
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort these words into their grammatical case",
+    "categories": [
+      "Nominative",
+      "Accusative",
+      "Prepositional"
+    ],
+    "items": [
+      {
+        "word": "Мама читает. (мама)",
+        "category": "Nominative"
+      },
+      {
+        "word": "Я вижу маму. (маму)",
+        "category": "Accusative"
+      },
+      {
+        "word": "Я думаю о маме. (маме)",
+        "category": "Prepositional"
+      },
+      {
+        "word": "Стол большой. (стол)",
+        "category": "Nominative"
+      },
+      {
+        "word": "Я вижу стол. (стол)",
+        "category": "Accusative"
+      },
+      {
+        "word": "Книга на столе. (столе)",
+        "category": "Prepositional"
+      },
+      {
+        "word": "Это школа. (школа)",
+        "category": "Nominative"
+      },
+      {
+        "word": "Он работает в школе. (школе)",
+        "category": "Prepositional"
+      },
+      {
+        "word": "Я вижу школу. (школу)",
+        "category": "Accusative"
+      }
+    ]
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "новую",
+        "Я",
+        "читаю",
+        "книгу"
+      ],
+      "answer": "Я читаю новую книгу.",
+      "translation": "I am reading a new book.",
+      "hint": "Subject + verb + adjective + noun (feminine accusative)"
+    },
+    {
+      "words": [
+        "нет",
+        "У",
+        "кошки",
+        "меня"
+      ],
+      "answer": "У меня нет кошки.",
+      "translation": "I don't have a cat.",
+      "hint": "У + genitive pronoun + нет + genitive noun"
+    },
+    {
+      "words": [
+        "работает",
+        "школе",
+        "Она",
+        "в"
+      ],
+      "answer": "Она работает в школе.",
+      "translation": "She works at a school.",
+      "hint": "Subject + verb + в + prepositional"
+    },
+    {
+      "words": [
+        "по-русски",
+        "не",
+        "Мы",
+        "говорим"
+      ],
+      "answer": "Мы не говорим по-русски.",
+      "translation": "We don't speak Russian.",
+      "hint": "Subject + не + verb + по-русски"
+    },
+    {
+      "words": [
+        "эти",
+        "Чьи",
+        "книги",
+        "новые"
+      ],
+      "answer": "Чьи эти новые книги?",
+      "translation": "Whose are these new books?",
+      "hint": "Question word + demonstrative + adjective + noun"
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я вижу _____. (sister — feminine accusative)",
+      "contextEnglish": "I see my sister.",
+      "options": [
+        "сестру",
+        "сестра"
+      ],
+      "answer": "сестру",
+      "explanation": "Feminine nouns change in accusative: сестра → сестру (-а → -у)."
+    },
+    {
+      "context": "_____ работает в школе. (sister — nominative subject)",
+      "contextEnglish": "My sister works at a school.",
+      "options": [
+        "Сестра",
+        "Сестру"
+      ],
+      "answer": "Сестра",
+      "explanation": "The subject of the sentence uses nominative case: Сестра (not сестру)."
+    },
+    {
+      "context": "Он живёт в _____. (Moscow — prepositional)",
+      "contextEnglish": "He lives in Moscow.",
+      "options": [
+        "Москве",
+        "Москва"
+      ],
+      "answer": "Москве",
+      "explanation": "After в (location), use prepositional case: Москва → Москве."
+    },
+    {
+      "context": "_____ — большой город. (Moscow — nominative)",
+      "contextEnglish": "Moscow is a big city.",
+      "options": [
+        "Москва",
+        "Москве"
+      ],
+      "answer": "Москва",
+      "explanation": "As the subject, Москва stays in nominative case."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "падеж",
+      "definition": "grammatical case",
+      "example": "Именительный, винительный, предложный — падежи."
+    },
+    {
+      "term": "спряжение",
+      "definition": "verb conjugation",
+      "example": "Я читаю, ты читаешь — спряжение глагола."
+    },
+    {
+      "term": "согласование",
+      "definition": "grammatical agreement",
+      "example": "Новая книга — прилагательное согласуется с существительным."
+    },
+    {
+      "term": "повторение",
+      "definition": "review, repetition",
+      "example": "Повторение — мать учения. (Repetition is the mother of learning.)"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mission-c1-hard-017",
+  "title": "Custody Battle",
+  "level": "C1",
+  "difficulty": "hard",
+  "description": "Fight for child custody in difficult divorce",
+  "imageName": "figure.and.child.holdinghands",
+  "initialPrompt": "Вы не способны воспитывать детей! Ваша работа, ваш образ жизни — всё против вас. Суд должен отдать детей мне.",
+  "systemPrompt": "You are hostile ex-spouse in custody battle. Attack parenting, cite work schedule. Only consider shared custody if other parent shows dedication and child-focused approach.",
+  "completionCriteria": "User argued for custody rights effectively.",
+  "responseLimit": 15,
+  "hints": [
+    "Дети нуждаются в обоих родителях (Children need both parents)",
+    "Мой график позволяет... (My schedule allows...)"
+  ],
+  "targetVocabulary": [
+    {"word": "опека", "definition": "custody"},
+    {"word": "развод", "definition": "divorce"},
+    {"word": "воспитание", "definition": "upbringing"},
+    {"word": "родитель", "definition": "parent"},
+    {"word": "интересы ребёнка", "definition": "child's interests"},
+    {"word": "соглашение", "definition": "agreement"}
+  ],
+  "objectives": [
+    "Demonstrate parenting ability",
+    "Focus on child's needs",
+    "Counter attacks professionally",
+    "Propose fair arrangement",
+    "Protect parental rights"
+  ]
+}

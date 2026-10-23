@@ -1,0 +1,411 @@
+{
+  "id": "b2-track-particles-03-li",
+  "level": "B2",
+  "focusArea": "sentenceStructure",
+  "title": "Particles 3: ли (Yes-No and Indirect Questions)",
+  "titleRussian": "Частицы 3: ли (вопрос «да или нет» и косвенный вопрос)",
+  "description": "ли forms yes-no questions by fronting the focused word and attaching ли to it (Знаешь ли ты?). It is also the obligatory link in embedded indirect questions: Я не знаю, придёт ли он. ли leans on the word before it and never starts a clause.",
+  "descriptionRussian": "ли образует вопросы «да или нет», вынося выделяемое слово вперёд с присоединённой ли (Знаешь ли ты?). Она же — обязательная связка во встроенных косвенных вопросах: «Я не знаю, придёт ли он». ли опирается на слово перед собой и никогда не начинает предложение.",
+  "imageName": "questionmark.circle",
+  "trackId": "b2-particles-mastery",
+  "trackTitle": "Particles Mastery",
+  "trackTitleRussian": "Частицы",
+  "trackIndex": 3,
+  "trackTotal": 8,
+  "intro": "You met this one in the reported-speech book, forming embedded questions. Here it gets its full treatment, including its use as a direct question, which sounds formal or careful rather than neutral. The trap is the same one as before: the word that translates 'if' in conditions is not the word that translates 'whether' in questions.",
+  "rules": [
+    "ли forms a yes-no question by fronting the focused word and attaching ли right after it: Придёшь ли ты? ('Will you come?'), Знаешь ли ты ответ? Whatever stands before ли is the point in doubt.",
+    "ли is the Russian equivalent of 'whether/if' in embedded (indirect) yes-no questions: Я не знаю, придёт ли он = 'I don't know whether he will come.' There is no separate word for 'whether.'",
+    "In an indirect question, put a comma before the embedded clause, lead with the verb or focused word, then ли: Она спросила, готов ли ужин.",
+    "Never use если for 'whether.' если is conditional 'if' (если будет дождь). For an embedded yes-no question use ли: NOT Я не знаю, если он придёт, but Я не знаю, придёт ли он.",
+    "ли leans on the word before it and can never start a clause. The direct-question use is formal or careful; the indirect-question use is neutral and obligatory."
+  ],
+  "examples": [
+    "Знаешь ли ты ответ? (Do you know the answer?) direct yes-no question, formal; знаешь is fronted.",
+    "Есть ли у вас вопросы? (Do you have any questions?) есть fronted + ли; common in careful speech.",
+    "Я не знаю, придёт ли он. (I don't know whether he will come.) indirect question; verb придёт + ли.",
+    "Она спросила, готов ли ужин. (She asked whether dinner was ready.) embedded yes-no question.",
+    "Интересно, понравится ли им подарок. (I wonder whether they'll like the gift.) ли = 'whether.'",
+    "Он ли это сделал? (Was it HE who did it?) fronting он before ли focuses the doubt on the subject."
+  ],
+  "tables": [
+    {
+      "title": "Direct vs indirect yes-no questions with ли",
+      "headers": [
+        "Type",
+        "Russian",
+        "English"
+      ],
+      "rows": [
+        {
+          "label": "Casual direct (intonation)",
+          "cells": [
+            "Ты придёшь?",
+            "Will you come? (rising tone)"
+          ]
+        },
+        {
+          "label": "Formal direct (ли)",
+          "cells": [
+            "Придёшь ли ты?",
+            "Will you come? (formal/literary)"
+          ]
+        },
+        {
+          "label": "Indirect (embedded)",
+          "cells": [
+            "Я не знаю, придёт ли он.",
+            "I don't know whether he will come."
+          ]
+        },
+        {
+          "label": "Wrong: если for 'whether'",
+          "cells": [
+            "НЕ: Я не знаю, если он придёт.",
+            "если = conditional 'if', not 'whether'"
+          ]
+        },
+        {
+          "label": "Focus shift via fronting",
+          "cells": [
+            "Он ли это сделал?",
+            "Was it HE who did it?"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Embed the question 'Will he come?' inside 'I don't know ___': Я не знаю, _____.",
+          "promptEnglish": "I don't know whether he will come.",
+          "options": [
+            "если он придёт",
+            "ли он придёт",
+            "придёт ли он",
+            "он придёт ли"
+          ],
+          "answer": "придёт ли он",
+          "hint": "Lead with the verb, attach ли, then the subject. Never use если for 'whether.'",
+          "explanation": "An embedded yes-no question puts the verb first, then ли, then the rest: придёт ли он.Если means conditional 'if' and cannot mean 'whether' (Я не знаю, если он придёт is a classic mistake).Ли leans on the word before it, so it cannot start the clause (ли он придёт), and it must clip directly after the focused verb, not float to the end."
+        },
+        {
+          "prompt": "'She asked whether dinner was ready.': Она спросила, _____.",
+          "promptEnglish": "She asked whether dinner was ready.",
+          "options": [
+            "если ужин готов",
+            "готов ли ужин",
+            "ли ужин готов",
+            "ужин если готов"
+          ],
+          "answer": "готов ли ужин",
+          "hint": "Front the focused word (the predicate готов), then ли, then the subject.",
+          "explanation": "готов ли ужин embeds the yes-no question 'is dinner ready?' The focused predicate готов leads, ли clips on, then the subject ужин follows.Если would wrongly read as conditional 'if'; ли cannot begin the clause."
+        },
+        {
+          "prompt": "Make a formal direct yes-no question 'Do you know the answer?'",
+          "promptEnglish": "Do you know the answer? (formal)",
+          "options": [
+            "Ли знаешь ты ответ?",
+            "Знаешь ты ответ ли?",
+            "Если ты знаешь ответ?",
+            "Знаешь ли ты ответ?"
+          ],
+          "answer": "Знаешь ли ты ответ?",
+          "hint": "Front the verb being asked about; ли clips right after it.",
+          "explanation": "Знаешь ли ты ответ?Fronts the focused verb знаешь with ли right after it.Ли cannot begin the sentence (Ли знаешь...), cannot drift to the end (...ответ ли), and если is conditional 'if,' not a question particle."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Which sentence correctly means 'I wonder whether they will like the gift'?",
+          "promptEnglish": "I wonder whether they will like the gift.",
+          "options": [
+            "Интересно, понравится ли им подарок.",
+            "Интересно, если им понравится подарок.",
+            "Интересно, ли понравится им подарок.",
+            "Интересно, понравится им подарок ли."
+          ],
+          "answer": "Интересно, понравится ли им подарок.",
+          "hint": "Verb first, then ли, then the rest; comma after Интересно.",
+          "explanation": "Интересно, понравится ли им подарок.Embeds the yes-no question correctly: comma, verb понравится, then ли, then the rest.Если is conditional and wrong for 'whether,' ли cannot start the clause, and it cannot trail at the end."
+        },
+        {
+          "prompt": "What is the focus in 'Он ли это сделал?'",
+          "promptEnglish": "What does fronting он before ли emphasize?",
+          "options": [
+            "Whether he DID it or merely watched",
+            "Whether it was HE (and not someone else) who did it",
+            "When he did it",
+            "Why he did it"
+          ],
+          "answer": "Whether it was HE (and not someone else) who did it",
+          "hint": "Whatever stands before ли is the point in doubt.",
+          "explanation": "Fronting он before ли focuses the doubt on the subject: 'Was it HE who did it (rather than someone else)?' Compare Сделал ли он это?Which fronts the verb and asks whether the action happened at all. The word before ли always carries the focus."
+        },
+        {
+          "prompt": "Why is 'Я не знаю, если он дома' wrong for 'I don't know whether he is home'?",
+          "promptEnglish": "Why is the если version wrong?",
+          "options": [
+            "если must come at the end of the clause",
+            "the clause needs a question mark",
+            "если means conditional 'if', not embedded 'whether'; you need ли",
+            "дома must change its case"
+          ],
+          "answer": "если means conditional 'if', not embedded 'whether'; you need ли",
+          "hint": "English 'if' is two different words in Russian: conditional vs embedded question.",
+          "explanation": "English 'if' covers two ideas Russian keeps separate: conditional 'if' (если будет дождь = 'if it rains') and embedded 'whether' (придёт ли он = 'whether he comes'). For an embedded yes-no question you must use ли: Я не знаю, дома ли он. The если version reads as a broken conditional."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "_____ ты его имя?",
+          "promptEnglish": "Do you remember his name? (formal question)",
+          "options": [
+            "Помнишь ли",
+            "Ли помнишь",
+            "Помнишь если",
+            "Разве ли"
+          ],
+          "answer": "Помнишь ли",
+          "hint": "The formal yes/no question: verb first, then ли.",
+          "explanation": "The formal question fronts the verb and clips ли after it: Помнишь ли ты его имя? Ли can never come first; если is conditional 'if'; разве ли stacks two question particles illegally."
+        },
+        {
+          "prompt": "_____ у них машина?",
+          "promptEnglish": "Do they have a car? (formal question)",
+          "options": [
+            "Есть ли",
+            "Ли есть",
+            "Если есть",
+            "Есть же"
+          ],
+          "answer": "Есть ли",
+          "hint": "Front есть, then ли.",
+          "explanation": "The possession question fronts есть: Есть ли у них машина? Ли must stand second; если makes it a condition; же turns it into an emphatic statement."
+        },
+        {
+          "prompt": "Я не знаю, _____ он.",
+          "promptEnglish": "I don't know whether he is home.",
+          "options": [
+            "дома ли",
+            "ли дома",
+            "если дома",
+            "дома же"
+          ],
+          "answer": "дома ли",
+          "hint": "The embedded 'whether' clause.",
+          "explanation": "Embedded yes/no questions front the focused word and add ли: не знаю, дома ли он. Ли stays second; если would make a condition; же does not embed questions."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Она спросила, _____ ещё концерт.",
+          "promptEnglish": "She asked whether the concert was still on.",
+          "options": [
+            "идёт ли",
+            "ли идёт",
+            "если идёт",
+            "идёт же"
+          ],
+          "answer": "идёт ли",
+          "hint": "Embed the question: verb + ли.",
+          "explanation": "The embedded question fronts the verb: спросила, идёт ли ещё концерт. Ли is always in second position; если is the conditional; же does not form questions."
+        }
+      ]
+    }
+  ],
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Я",
+        "не",
+        "знаю",
+        "придёт",
+        "ли",
+        "он"
+      ],
+      "answer": "Я не знаю, придёт ли он.",
+      "acceptableVariants": [
+        "Я не знаю, придёт ли он"
+      ],
+      "translation": "I don't know whether he will come.",
+      "hint": "Main clause first, comma, then the verb + ли + subject.",
+      "explanation": "The embedded yes-no question leads with the verb придёт, then ли, then the subject он. A comma follows знаю. This is the standard 'whether' pattern; если would be the wrong, conditional word."
+    },
+    {
+      "words": [
+        "Спроси",
+        "его",
+        "успеем",
+        "ли",
+        "мы",
+        "на",
+        "поезд"
+      ],
+      "answer": "Спроси его, успеем ли мы на поезд.",
+      "acceptableVariants": [
+        "Спроси его, успеем ли мы на поезд"
+      ],
+      "translation": "Ask him whether we'll make the train.",
+      "hint": "Imperative + object, comma, then verb успеем + ли + мы.",
+      "explanation": "After Спроси его, the embedded yes-no question fronts the verb успеем, clips ли on, then the subject мы: успеем ли мы на поезд. ли is 'whether'; if you used если it would mean conditional 'if,' which does not fit."
+    },
+    {
+      "words": [
+        "Интересно",
+        "понравится",
+        "ли",
+        "им",
+        "подарок"
+      ],
+      "answer": "Интересно, понравится ли им подарок.",
+      "acceptableVariants": [
+        "Интересно, понравится ли им подарок"
+      ],
+      "translation": "I wonder whether they'll like the gift.",
+      "hint": "Интересно, comma, then the verb понравится + ли + the rest.",
+      "explanation": "After Интересно the embedded question fronts the verb понравится, attaches ли, then continues им подарок. ли cannot start the clause and cannot trail at the end."
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Спроси его, успеем _____ мы на поезд. (Ask him whether we'll make the train.)",
+      "Я не уверен, дома _____ он сейчас. (I'm not sure whether he is home now.)"
+    ],
+    "choices": [
+      "ли",
+      "если",
+      "же",
+      "разве"
+    ],
+    "answers": [
+      "ли",
+      "ли"
+    ],
+    "grammarFocus": "Embedded yes-no questions: the focused word is fronted, then ли clips on.Ли is the only correct choice for 'whether'; если would be conditional 'if,' же is emphatic, разве signals disbelief.",
+    "hints": [
+      "Embedded 'whether' question after спроси. Which particle clips onto the verb успеем?",
+      "Embedded 'whether' question after не уверен. The focused word дома leads, then which particle?"
+    ],
+    "explanations": [
+      "успеем ли мы embeds the yes-no question 'will we make the train?' ли is the Russian 'whether' and clips directly after the fronted verb успеем. если would be conditional 'if' (wrong here), же is emphatic, and разве expresses disbelief, none of which embed a yes-no question.",
+      "дома ли он embeds the yes-no question 'is he home?' The focused word дома leads, then ли. если would be conditional, же emphatic, разве disbelief; only ли means 'whether.'"
+    ]
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Я не знаю, если она поможет нам завтра.",
+      "translationEnglish": "I don't know whether she will help us tomorrow.",
+      "error": "если она поможет",
+      "correction": "поможет ли она",
+      "options": [
+        "поможет ли она",
+        "ли она поможет",
+        "разве она поможет"
+      ],
+      "explanation": "This is an embedded yes-no question ('whether she will help'), and Russian has no separate word for 'whether': it reuses ли with the verb fronted, поможет ли она. Если means conditional 'if' and cannot embed a question; ли must stand second, never first."
+    },
+    {
+      "sentence": "Ли ты знаешь, как добраться до вокзала отсюда?",
+      "translationEnglish": "Do you know how to get to the station from here?",
+      "error": "Ли ты знаешь",
+      "correction": "Знаешь ли ты",
+      "options": [
+        "Знаешь ли ты",
+        "Если ты знаешь",
+        "Разве ты знаешь"
+      ],
+      "explanation": "ли leans on the word before it and can never begin a clause; in a direct yes-no question the focused word is fronted and ли clips right after it: Знаешь ли ты? Starting with Ли (Ли ты знаешь) is impossible in Russian. Если ты знаешь means 'if you know' (a conditional), not a question. Разве ты знаешь would add disbelief ('Surely you don't know?'), which clashes with this neutral request for information."
+    },
+    {
+      "sentence": "Антон спросил, если магазин ещё открыт.",
+      "translationEnglish": "Anton asked whether the shop was still open.",
+      "error": "если магазин ещё открыт",
+      "correction": "открыт ли магазин",
+      "options": [
+        "открыт ли магазин",
+        "ли открыт магазин",
+        "магазин ли открыт"
+      ],
+      "explanation": "After 'asked whether,' Russian embeds a yes-no question with ли, fronting the focused word: спросил, открыт ли магазин. Если is conditional 'if' (если магазин открыт, зайдём), not embedded 'whether'; ли must sit in second position."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я не знаю, _____ он придёт. (Meaning: 'I don't know WHETHER he will come.')",
+      "contextEnglish": "I don't know whether he will come.",
+      "options": [
+        "придёт ли",
+        "если"
+      ],
+      "answer": "придёт ли",
+      "explanation": "Embedded 'whether' is ли, attached to the fronted verb: придёт ли он.Если means conditional 'if' (если он придёт, я обрадуюсь = 'if he comes, I'll be glad'), which is a different idea. English 'if' splits into ли (whether) and если (conditional); here we need ли."
+    },
+    {
+      "context": "_____ ты ответ? (Goal: a formal, careful 'Do you know the answer?')",
+      "contextEnglish": "Do you know the answer? (formal)",
+      "options": [
+        "Знаешь ли",
+        "Знаешь же"
+      ],
+      "answer": "Знаешь ли",
+      "explanation": "A yes-no question fronts the verb and attaches ли: Знаешь ли ты ответ?Же would not form a question at all; Знаешь же ты ответ would be an emphatic statement ('you DO know the answer').Ли asks, же emphasizes."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Интересно, понравится ли им новый фильм.",
+      "question": "What role does ли play here?",
+      "options": [
+        "It marks an embedded yes-no question ('whether they'll like it')",
+        "It emphasizes the verb like же",
+        "It expresses disbelief",
+        "It points at the film"
+      ],
+      "answer": "It marks an embedded yes-no question ('whether they'll like it')",
+      "explanation": "After Интересно (I wonder), ли embeds a yes-no question: 'whether they will like the new film.' The verb понравится is fronted, ли clips on, then the rest follows. ли here is the Russian 'whether,' not an emphasizer (же), a disbelief marker (разве/неужели), or a pointer (вот)."
+    },
+    {
+      "sentence": "Видел ли кто-нибудь мои ключи?",
+      "question": "How does ли function in this question?",
+      "options": [
+        "It forms a direct yes-no question with the verb fronted",
+        "It embeds the question inside another clause",
+        "It marks 'the very same'",
+        "It softens a request"
+      ],
+      "answer": "It forms a direct yes-no question with the verb fronted",
+      "explanation": "Видел ли кто-нибудь...? is a direct yes-no question: the focused verb видел is fronted and ли clips right after it ('Has anyone seen my keys?'). There is no embedding clause here, so this is the direct-question use, which carries a slightly formal or careful flavor compared with plain intonation."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "ли",
+      "definition": "yes-no question particle and the Russian 'whether/if' for embedded questions. Front the focused word, clip ли after it. It leans on the word before it and is never first in a clause. Direct use is formal/careful; embedded use is neutral and obligatory.",
+      "example": "Придёшь ли ты? / Я не знаю, придёт ли он."
+    },
+    {
+      "term": "если vs ли",
+      "definition": "English 'if' is two Russian words. если = conditional 'if' (если будет дождь, останемся дома). ли = 'whether' in an embedded yes-no question (не знаю, будет ли дождь). Using если for 'whether' is a top learner error.",
+      "example": "Если он придёт, я скажу ему (conditional) versus Я не знаю, придёт ли он (whether)."
+    },
+    {
+      "term": "fronting + ли for focus",
+      "definition": "Whatever word stands before ли is the point in doubt. Сделал ли он это? questions the action; Он ли это сделал? questions the doer. Word order in front of ли controls the focus of the question.",
+      "example": "Купил ли он подарок? (did he buy it) versus Он ли купил подарок? (was it HE who bought it)."
+    }
+  ]
+}

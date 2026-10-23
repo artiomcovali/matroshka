@@ -1,0 +1,684 @@
+{
+  "lessonId": "b2-006-aspect-questions",
+  "sets": [
+    {
+      "id": "round-1-question-type-quiz",
+      "title": "Question Type Recognition",
+      "titleRussian": "Типы вопросов",
+      "description": "Choose the correct aspect based on what the question is really asking",
+      "descriptionRussian": "Выберите правильный вид в зависимости от цели вопроса",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Ты _____ Достоевского? (Have you ever read? - experience)",
+              "promptEnglish": "Have you ever read Dostoevsky?",
+              "options": [
+                "читал",
+                "прочитал",
+                "прочитаешь",
+                "читаешь"
+              ],
+              "answer": "читал",
+              "hint": "Asking about general experience = imperfective past.",
+              "explanation": "Experience question: impf читал. 'Have you ever read?' Not about finishing a specific book."
+            },
+            {
+              "prompt": "Ты _____ ту книгу, которую я дал? (Did you finish it? - completion)",
+              "promptEnglish": "Did you finish the book I gave you?",
+              "options": [
+                "читал",
+                "прочитал",
+                "читаешь",
+                "прочитаешь"
+              ],
+              "answer": "прочитал",
+              "hint": "Asking about completion of a specific task = perfective.",
+              "explanation": "Completion question: pf прочитал. 'Did you finish reading it?' Specific result expected."
+            },
+            {
+              "prompt": "Что ты _____ делать на выходных? (open-ended question about plans)",
+              "promptEnglish": "What are you going to do this weekend?",
+              "options": [
+                "сделаешь",
+                "будешь",
+                "сделал",
+                "делал"
+              ],
+              "answer": "будешь",
+              "hint": "Open-ended question about plans = imperfective future.",
+              "explanation": "Open question: что ты будешь делать (impf). No specific action assumed."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Ты _____ ему? (Will you call him? - specific action)",
+              "promptEnglish": "Will you call him? (about a specific call)",
+              "options": [
+                "будешь звонить",
+                "звонил",
+                "позвонишь",
+                "звонишь"
+              ],
+              "answer": "позвонишь",
+              "hint": "Specific action question = perfective.",
+              "explanation": "Specific question: pf позвонишь. Asking about one definite call."
+            },
+            {
+              "prompt": "Ты _____ этот фильм? (Have you seen it? - general experience)",
+              "promptEnglish": "Have you seen this film?",
+              "options": [
+                "посмотрел",
+                "смотрел",
+                "посмотришь",
+                "смотришь"
+              ],
+              "answer": "смотрел",
+              "hint": "Experience = imperfective.",
+              "explanation": "Experience question: impf смотрел. 'Have you ever watched this film?'"
+            },
+            {
+              "prompt": "Что ты будешь _____? (What will you drink? - open offer)",
+              "promptEnglish": "What will you have to drink?",
+              "options": [
+                "выпить",
+                "пить",
+                "выпил",
+                "пил"
+              ],
+              "answer": "пить",
+              "hint": "Open-ended offer = imperfective infinitive.",
+              "explanation": "Open question: будешь пить (impf). No specific drink assumed yet."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Ты _____ суши? (Have you ever tried sushi? - experience)",
+          "contextEnglish": "Have you ever eaten sushi? (general experience)",
+          "options": [
+            "ел",
+            "съел"
+          ],
+          "answer": "ел",
+          "explanation": "Experience: impf ел. 'Have you ever eaten sushi in your life?'"
+        },
+        {
+          "context": "Ты _____ суши? (Did you eat the sushi? - completion of a specific portion)",
+          "contextEnglish": "Did you eat the sushi? (the specific sushi on your plate)",
+          "options": [
+            "съел",
+            "ел"
+          ],
+          "answer": "съел",
+          "explanation": "Completion: pf съел. 'Did you eat IT?' Asking about a specific, completed action."
+        },
+        {
+          "context": "Ты _____ в Италии? (Have you ever been? - experience)",
+          "contextEnglish": "Have you ever been to Italy?",
+          "options": [
+            "был",
+            "побывал"
+          ],
+          "answer": "был",
+          "explanation": "Experience: impf был. Asking about life experience, not a specific trip."
+        },
+        {
+          "context": "Ты _____ кофе? (Will you have coffee? - specific offer)",
+          "contextEnglish": "Will you have some coffee? (offering a specific drink)",
+          "options": [
+            "выпьешь",
+            "будешь пить"
+          ],
+          "answer": "выпьешь",
+          "explanation": "Specific offer: pf выпьешь. Offering one cup of coffee."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Ты когда-нибудь _____ на лошади? (Have you ever ridden a horse?)",
+          "Ты _____ задание? (Did you finish the assignment?)",
+          "Что вы _____ заказать? (What would you like to order? - open)"
+        ],
+        "choices": [
+          "катался",
+          "сделал",
+          "будете"
+        ],
+        "answers": [
+          "катался",
+          "сделал",
+          "будете"
+        ],
+        "grammarFocus": "Experience (impf), completion (pf), open offer (impf)",
+        "hints": [
+          "Asking about life experience = imperfective past.",
+          "Asking about a completed task = perfective.",
+          "Open-ended question = imperfective future."
+        ],
+        "explanations": [
+          "Катался (impf) = experience question: ever ridden a horse?",
+          "Сделал (pf) = completion question: did you finish it?",
+          "Будете заказать > будете заказывать (impf) = open offer: what will you order?"
+        ],
+        "options": [
+          [
+            "покатался",
+            "катается",
+            "катался",
+            "покатается"
+          ],
+          [
+            "делает",
+            "сделает",
+            "делал",
+            "сделал"
+          ],
+          [
+            "будем",
+            "будете",
+            "были",
+            "бываете"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-3-error-translate",
+      "title": "Fix and Translate",
+      "titleRussian": "Исправьте и переведите",
+      "description": "Correct aspect errors in questions and translate",
+      "descriptionRussian": "Исправьте ошибки вида в вопросах и переведите",
+      "icon": "pencil.and.outline",
+      "errorCorrection": [
+        {
+          "sentence": "Ты прочитал Толстого? (meant: have you ever read Tolstoy?)",
+          "error": "прочитал",
+          "correction": "читал",
+          "hint": "Asking about life experience = imperfective.",
+          "explanation": "Experience: читал (impf). Прочитал (pf) would ask about finishing a specific book.",
+          "options": [
+            "читал",
+            "читаю",
+            "читаешь"
+          ]
+        },
+        {
+          "sentence": "Ты читал отчёт, который я отправил? (meant: did you finish reading it?)",
+          "error": "читал",
+          "correction": "прочитал",
+          "hint": "Asking about completion of a specific task = perfective.",
+          "explanation": "Completion: прочитал (pf). Читал (impf) would only ask 'have you seen it?'",
+          "options": [
+            "прочитал",
+            "прочитаю",
+            "прочитаешь"
+          ]
+        },
+        {
+          "sentence": "Ты позвонишь кому-нибудь? (meant: are you going to be on the phone? open-ended)",
+          "error": "позвонишь",
+          "correction": "будешь звонить",
+          "hint": "Open-ended question = imperfective.",
+          "explanation": "Open: будешь звонить (impf). Позвонишь (pf) = will you call a specific person?",
+          "options": [
+            "будешь звонить",
+            "звонишь",
+            "звонил"
+          ]
+        },
+        {
+          "sentence": "Ты будешь пить этот кофе? (meant: specific - will you drink THIS coffee?)",
+          "error": "пить",
+          "correction": "выпьешь",
+          "hint": "Specific offer about THIS item = perfective.",
+          "explanation": "Specific: Ты выпьешь этот кофе? (pf). Будешь пить is more open-ended.",
+          "options": [
+            "выпьешь",
+            "пил",
+            "выпил"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "Have you ever been to Russia?",
+          "answer": "Ты был в России?",
+          "acceptableVariants": [
+            "Вы были в России?",
+            "Ты бывал в России?"
+          ],
+          "hint": "Experience question = imperfective past",
+          "grammarFocus": "Imperfective for experience",
+          "keyWord": "был",
+          "options": [
+            "был",
+            "побывал",
+            "буду",
+            "будет"
+          ]
+        },
+        {
+          "english": "Did you finish your homework?",
+          "answer": "Ты сделал домашнее задание?",
+          "acceptableVariants": [
+            "Вы сделали домашнее задание?",
+            "Ты выполнил домашнее задание?"
+          ],
+          "hint": "Completion question = perfective past",
+          "grammarFocus": "Perfective for completion",
+          "keyWord": "сделал",
+          "options": [
+            "сделал",
+            "делал",
+            "сделаешь",
+            "делаешь"
+          ]
+        },
+        {
+          "english": "What are you going to do tomorrow?",
+          "answer": "Что ты будешь делать завтра?",
+          "acceptableVariants": [
+            "Что вы будете делать завтра?"
+          ],
+          "hint": "Open-ended = imperfective future",
+          "grammarFocus": "Imperfective for open questions",
+          "keyWord": "будешь",
+          "options": [
+            "будешь",
+            "сделаешь",
+            "делаешь",
+            "будет"
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Ты _____ ей? (Will you write to her? specific planned action)",
+          "contextEnglish": "Will you write to her? (one specific letter/message)",
+          "options": [
+            "напишешь",
+            "будешь писать"
+          ],
+          "answer": "напишешь",
+          "explanation": "Specific planned action: pf напишешь. One definite letter."
+        },
+        {
+          "context": "Ты _____ ей? (Are you going to be writing to her? open, ongoing)",
+          "contextEnglish": "Will you keep writing to her? (open-ended, ongoing)",
+          "options": [
+            "будешь писать",
+            "напишешь"
+          ],
+          "answer": "будешь писать",
+          "explanation": "Open/ongoing: impf будешь писать. General, no specific endpoint."
+        }
+      ]
+    },
+    {
+      "id": "round-4-context-reading",
+      "title": "Context Reading",
+      "titleRussian": "Чтение контекста",
+      "description": "Choose the right aspect based on conversational context",
+      "descriptionRussian": "Выберите вид по ситуации разговора",
+      "icon": "text.bubble",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "At a dinner party, the host asks: \"Вы _____ борщ?\" (Have you tried borscht? - experience)",
+              "promptEnglish": "Have you tried borscht?",
+              "options": [
+                "съели",
+                "будете есть",
+                "ели",
+                "съедите"
+              ],
+              "answer": "ели",
+              "hint": "Asking about experience with a food = imperfective.",
+              "explanation": "Experience: ели (impf). 'Have you ever tried borscht in your life?'"
+            },
+            {
+              "prompt": "A boss asks an employee: \"Ты _____ отчёт?\" (Did you finish the report?)",
+              "promptEnglish": "Did you complete the report?",
+              "options": [
+                "писал",
+                "написал",
+                "пишешь",
+                "напишешь"
+              ],
+              "answer": "написал",
+              "hint": "Boss asking about task completion = perfective.",
+              "explanation": "Completion: написал (pf). The boss wants to know if the report is done."
+            },
+            {
+              "prompt": "Friends making plans: \"Что _____ на выходных?\" (What are you doing?)",
+              "promptEnglish": "What are you up to this weekend?",
+              "options": [
+                "сделаешь",
+                "будешь делать",
+                "сделал",
+                "делал"
+              ],
+              "answer": "будешь делать",
+              "hint": "Open-ended question about plans = imperfective.",
+              "explanation": "Open: будешь делать (impf). Just asking generally about weekend plans."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "In a cafe: \"Вы уже _____?\" (Have you ordered yet? - asking about a specific action)",
+              "promptEnglish": "Have you ordered yet?",
+              "options": [
+                "заказывали",
+                "заказываете",
+                "закажете",
+                "заказали"
+              ],
+              "answer": "заказали",
+              "hint": "Asking whether a specific action was completed = perfective.",
+              "explanation": "Specific action: заказали (pf). 'Have you placed your order?'"
+            },
+            {
+              "prompt": "Meeting someone new: \"Вы _____ в Москве?\" (Have you been? - experience)",
+              "promptEnglish": "Have you been to Moscow?",
+              "options": [
+                "побывали",
+                "были",
+                "побудете",
+                "будете"
+              ],
+              "answer": "были",
+              "hint": "Life experience question = imperfective.",
+              "explanation": "Experience: были (impf). Asking about general life experience."
+            },
+            {
+              "prompt": "Teacher to student: \"Ты _____ домашнее задание?\" (Did you do it?)",
+              "promptEnglish": "Did you do your homework?",
+              "options": [
+                "делал",
+                "сделал",
+                "делаешь",
+                "сделаешь"
+              ],
+              "answer": "сделал",
+              "hint": "Expected task - asking about completion = perfective.",
+              "explanation": "Completion: сделал (pf). Teacher expects the homework to be done."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Ты читал Пушкина? / Ты слышал эту песню? / Ты пробовал устрицы?",
+          "question": "What type of questions are these?",
+          "options": [
+            "Completion questions",
+            "Experience questions (imperfective)",
+            "Specific action questions",
+            "Open-ended questions"
+          ],
+          "answer": "Experience questions (imperfective)",
+          "explanation": "All use imperfective past: asking about life experience. 'Have you ever...?'"
+        },
+        {
+          "sentence": "Ты написал письмо? / Ты купил молоко? / Ты позвонил врачу?",
+          "question": "What type of questions are these?",
+          "options": [
+            "Experience questions",
+            "Open-ended questions",
+            "Completion/task questions (perfective)",
+            "General knowledge questions"
+          ],
+          "answer": "Completion/task questions (perfective)",
+          "explanation": "All use perfective past: asking whether specific tasks were completed."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Ты когда-нибудь _____ на самолёте? (Have you ever flown?)",
+          "Ты _____ билеты на концерт? (Did you buy the tickets?)",
+          "Что вы _____ делать после обеда? (What will you do after lunch? - open)"
+        ],
+        "choices": [
+          "летал",
+          "купил",
+          "будете"
+        ],
+        "answers": [
+          "летал",
+          "купил",
+          "будете"
+        ],
+        "grammarFocus": "Experience (impf), completion (pf), open question (impf)",
+        "hints": [
+          "Когда-нибудь = 'ever' = experience question.",
+          "Specific task (buying tickets) = completion.",
+          "Open-ended question about afternoon plans."
+        ],
+        "explanations": [
+          "Летал (impf) + когда-нибудь = life experience: 'Have you ever flown?'",
+          "Купил (pf) = did you complete the task of buying tickets?",
+          "Будете делать (impf) = open question about plans."
+        ],
+        "options": [
+          [
+            "полетал",
+            "летал",
+            "летает",
+            "полетает"
+          ],
+          [
+            "покупал",
+            "покупает",
+            "купил",
+            "купит"
+          ],
+          [
+            "были",
+            "будете",
+            "есть",
+            "будет"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All question types mixed in varied exercises",
+      "descriptionRussian": "Все типы вопросов в разных упражнениях",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Ты _____ за границей? (Have you ever worked abroad?)",
+              "promptEnglish": "Have you ever worked abroad?",
+              "options": [
+                "поработал",
+                "работал",
+                "поработаешь",
+                "работаешь"
+              ],
+              "answer": "работал",
+              "hint": "Experience = imperfective.",
+              "explanation": "Experience: работал (impf). 'Have you ever had the experience of working abroad?'"
+            },
+            {
+              "prompt": "Ты _____ билеты? (Did you book the tickets? - task)",
+              "promptEnglish": "Did you book the tickets?",
+              "options": [
+                "заказывал",
+                "заказал",
+                "заказываешь",
+                "закажешь"
+              ],
+              "answer": "заказал",
+              "hint": "Completed task = perfective.",
+              "explanation": "Completion: заказал (pf). Asking about a specific task being done."
+            },
+            {
+              "prompt": "Вы _____ чай? (Would you like some tea? - polite offer)",
+              "promptEnglish": "Would you like tea?",
+              "options": [
+                "выпили",
+                "пили",
+                "выпьете",
+                "будете пить"
+              ],
+              "answer": "будете пить",
+              "hint": "Polite open offer = imperfective.",
+              "explanation": "Polite offer: будете пить (impf). More open and polite than pf выпьете."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Ты _____ письмо клиенту? (Did you send the email? - specific task)",
+              "promptEnglish": "Did you send the email to the client?",
+              "options": [
+                "отправлял",
+                "отправил",
+                "отправляешь",
+                "отправишь"
+              ],
+              "answer": "отправил",
+              "hint": "Specific task completion = perfective.",
+              "explanation": "Task: отправил (pf). Asking whether a specific email was sent."
+            },
+            {
+              "prompt": "Ты _____ японскую кухню? (Have you tried it? - experience)",
+              "promptEnglish": "Have you tried Japanese food?",
+              "options": [
+                "попробовал",
+                "пробовал",
+                "попробуешь",
+                "пробуешь"
+              ],
+              "answer": "пробовал",
+              "hint": "General experience = imperfective.",
+              "explanation": "Experience: пробовал (impf). 'Have you ever tried Japanese food?'"
+            }
+          ]
+        },
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "\"Ты пил это вино?\" vs \"Ты выпил это вино?\" What's the difference?",
+              "promptEnglish": "What's the difference between these two questions?",
+              "options": [
+                "Пил = ever tried? / Выпил = did you drink it all?",
+                "No difference",
+                "Пил = present / Выпил = past",
+                "Пил = formal / Выпил = informal"
+              ],
+              "answer": "Пил = ever tried? / Выпил = did you drink it all?",
+              "hint": "Imperfective = experience. Perfective = completion.",
+              "explanation": "Пил (impf) = 'Have you ever tried this wine?' Выпил (pf) = 'Did you drink it up (the whole glass)?'"
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Вы прочитали Толстого? (meant: have you read Tolstoy in general?)",
+          "error": "прочитали",
+          "correction": "читали",
+          "hint": "General experience = imperfective.",
+          "explanation": "Experience: читали (impf). Прочитали would ask about finishing a specific work.",
+          "options": [
+            "читали",
+            "прочитаете",
+            "читаете"
+          ]
+        },
+        {
+          "sentence": "Ты делал домашнее задание? (meant: the teacher asking if homework is complete)",
+          "error": "делал",
+          "correction": "сделал",
+          "hint": "Task completion = perfective.",
+          "explanation": "Completion: сделал (pf). Делал (impf) only asks 'were you working on it?'",
+          "options": [
+            "сделал",
+            "делаешь",
+            "сделаешь"
+          ]
+        },
+        {
+          "sentence": "Ты напишешь кому-нибудь? (meant: open question about evening plans)",
+          "error": "напишешь",
+          "correction": "будешь писать",
+          "hint": "Open-ended = imperfective future.",
+          "explanation": "Open: будешь писать (impf). Напишешь (pf) = specific person/message.",
+          "options": [
+            "будешь писать",
+            "пишешь",
+            "писал"
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these questions by what they're really asking",
+        "categories": [
+          "Experience (ever?)",
+          "Completion (did you finish?)",
+          "Open-ended (what will you do?)"
+        ],
+        "items": [
+          {
+            "word": "Ты читал Чехова?",
+            "category": "Experience (ever?)"
+          },
+          {
+            "word": "Ты прочитал книгу?",
+            "category": "Completion (did you finish?)"
+          },
+          {
+            "word": "Что ты будешь делать?",
+            "category": "Open-ended (what will you do?)"
+          },
+          {
+            "word": "Ты был в Париже?",
+            "category": "Experience (ever?)"
+          },
+          {
+            "word": "Ты написал письмо?",
+            "category": "Completion (did you finish?)"
+          },
+          {
+            "word": "Что будешь пить?",
+            "category": "Open-ended (what will you do?)"
+          },
+          {
+            "word": "Ты слышал эту песню?",
+            "category": "Experience (ever?)"
+          },
+          {
+            "word": "Ты выучил слова?",
+            "category": "Completion (did you finish?)"
+          },
+          {
+            "word": "Куда поедешь летом?",
+            "category": "Open-ended (what will you do?)"
+          }
+        ]
+      }
+    }
+  ]
+}

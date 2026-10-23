@@ -1,0 +1,202 @@
+{
+  "id": "a2-025",
+  "level": "A2",
+  "narrator": "Маша",
+  "title": "Утро Маши",
+  "titleEnglish": "Masha's Morning",
+  "description": "Маша рассказывает о своём утре. Возвратные глаголы.",
+  "imageName": "sunrise.fill",
+  "fullText": "Сегодня я проснулась рано. Было семь часов утра. Я встала и пошла в ванную. Я умылась и почистила зубы. Потом я оделась. Я надела джинсы и свитер. Пряник тоже проснулся. Он побежал ко мне и завилял хвостом. Он хотел завтрак! Я улыбнулась и сказала: «Доброе утро, Пряник!» Я дала ему еду. Пряник быстро поел. Потом я сделала себе кофе и бутерброд. Хорошее утро!",
+  "quiz": [
+    {
+      "prompt": "Когда Маша проснулась?",
+      "options": [
+        "В шесть часов",
+        "В восемь часов",
+        "В семь часов"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша проснулась в семь часов утра."
+    },
+    {
+      "prompt": "Куда Маша пошла сначала?",
+      "options": [
+        "В ванную",
+        "На кухню",
+        "На улицу"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша пошла в ванную."
+    },
+    {
+      "prompt": "Что Маша надела?",
+      "options": [
+        "Платье",
+        "Юбку",
+        "Джинсы и свитер"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша надела джинсы и свитер."
+    },
+    {
+      "prompt": "Что сделал Пряник, когда проснулся?",
+      "options": [
+        "Побежал к Маше",
+        "Лёг спать",
+        "Убежал на улицу"
+      ],
+      "correctIndex": 0,
+      "explanation": "Пряник побежал к Маше и завилял хвостом."
+    },
+    {
+      "prompt": "Что хотел Пряник?",
+      "options": [
+        "Гулять",
+        "Играть",
+        "Завтрак"
+      ],
+      "correctIndex": 2,
+      "explanation": "Пряник хотел завтрак."
+    },
+    {
+      "prompt": "Что Маша сделала себе?",
+      "options": [
+        "Чай и кашу",
+        "Кофе и бутерброд",
+        "Сок и яичницу"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маша сделала себе кофе и бутерброд."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Маша _____ рано утром.",
+      "Маша _____ и почистила зубы.",
+      "Маша _____ джинсы и свитер.",
+      "Пряник тоже _____ и побежал к Маше.",
+      "Маша сделала себе кофе и _____."
+    ],
+    "choices": [
+      "проснулась",
+      "умылась",
+      "надела",
+      "проснулся",
+      "бутерброд",
+      "оделась",
+      "завтрак"
+    ],
+    "answers": [
+      "проснулась",
+      "умылась",
+      "надела",
+      "проснулся",
+      "бутерброд"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "What does the ending '-ся' or '-сь' mean on a Russian verb?",
+      "options": [
+        "The action is negative",
+        "The action is in the past",
+        "The action is done to oneself"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "reflexive",
+      "sentenceRef": "Я проснулась, умылась, оделась.",
+      "explanation": "The '-ся' or '-сь' ending makes a verb reflexive — it means the person does the action to themselves. Проснулась = woke (oneself) up. Умылась = washed (oneself).",
+      "focusArea": "conjugation"
+    },
+    {
+      "prompt": "Why does the story say 'проснулась' for Masha but 'проснулся' for Пряник?",
+      "options": [
+        "Feminine past tense ends in '-лась,' masculine in '-лся'",
+        "They are different verbs",
+        "Masha woke up first"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "gender",
+      "sentenceRef": "Я проснулась. Пряник тоже проснулся.",
+      "explanation": "In the past tense, feminine verbs end in '-лась' (проснулась) and masculine verbs end in '-лся' (проснулся). Маша is female, Пряник is male.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "Which of these is a reflexive verb?",
+      "options": [
+        "надела (put on)",
+        "умылась (washed oneself)",
+        "сказала (said)"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "reflexive",
+      "sentenceRef": "Я умылась и почистила зубы.",
+      "explanation": "Умылась ends in '-сь,' which makes it reflexive — it means she washed herself. Надела and сказала have no '-ся/-сь' ending, so they are not reflexive.",
+      "focusArea": "conjugation"
+    }
+  ],
+  "reviewVocab": [
+    {
+      "word": "проснуться",
+      "definition": "to wake up",
+      "partOfSpeech": "verb (reflexive)",
+      "forms": [
+        "проснусь",
+        "проснёшься",
+        "проснётся"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "умыться",
+      "definition": "to wash (oneself)",
+      "partOfSpeech": "verb (reflexive)",
+      "forms": [
+        "умоюсь",
+        "умоешься",
+        "умоется"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "одеться",
+      "definition": "to get dressed",
+      "partOfSpeech": "verb (reflexive)",
+      "forms": [
+        "оденусь",
+        "оденешься",
+        "оденется"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "бутерброд",
+      "definition": "sandwich",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "бутерброд",
+        "бутерброда",
+        "бутерброды"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "sentenceReorder": {
+    "sentences": [
+      "Маша оделась.",
+      "Маша проснулась в семь часов.",
+      "Маша умылась и почистила зубы.",
+      "Маша дала Прянику еду."
+    ],
+    "correctOrder": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  "audioFile": "a2-025.m4a",
+  "audioTimingFile": "a2-025-timing.json"
+}

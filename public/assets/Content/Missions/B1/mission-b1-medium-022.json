@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-022",
+  "title": "Scope Creep",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "Client wants additional work without increasing payment",
+  "imageName": "doc.text.fill",
+  "initialPrompt": "Сайт отличный! Но можно ещё добавить блог и интернет-магазин? В ту же цену.",
+  "systemPrompt": "You are a client. Want blog and shop added to website for free. Budget is fixed. Accept additional payment if developer explains scope clearly, or agree to phase 2 contract. Keep replies short.",
+  "completionCriteria": "User either got additional payment or defined clear scope boundaries.",
+  "responseLimit": 15,
+  "hints": [
+    "Это дополнительная работа (That's additional work)",
+    "Могу сделать за дополнительную оплату (I can do it for extra payment)",
+    "Давайте обсудим второй этап (Let's discuss phase two)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "объём",
+      "definition": "scope"
+    },
+    {
+      "word": "дополнительный",
+      "definition": "additional"
+    },
+    {
+      "word": "оплата",
+      "definition": "payment"
+    },
+    {
+      "word": "этап",
+      "definition": "phase"
+    },
+    {
+      "word": "границы",
+      "definition": "boundaries"
+    },
+    {
+      "word": "договор",
+      "definition": "contract"
+    }
+  ],
+  "objectives": [
+    "Explain additional scope",
+    "Quote additional cost",
+    "Propose alternative solution",
+    "Reach fair agreement"
+  ]
+}

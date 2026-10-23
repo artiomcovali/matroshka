@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-024",
+  "title": "The Missing Sugar",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "The cafe is out of sugar and staff is unhelpful",
+  "imageName": "cup.and.saucer.fill",
+  "initialPrompt": "Вот ваш чай.",
+  "systemPrompt": "Cafe is out of sugar. Be unhelpful: 'Сахара нет. Не знаю когда будет.' Offer honey as alternative only if user asks nicely what else they can use. Keep replies short.",
+  "completionCriteria": "User found alternative sweetener or solution.",
+  "responseLimit": 15,
+  "hints": [
+    "Можно сахар? (Can I have sugar?)",
+    "А мёд есть? (Is there honey?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "сахар",
+      "definition": "sugar"
+    },
+    {
+      "word": "мёд",
+      "definition": "honey"
+    },
+    {
+      "word": "сладкий",
+      "definition": "sweet"
+    },
+    {
+      "word": "без",
+      "definition": "without"
+    },
+    {
+      "word": "альтернатива",
+      "definition": "alternative"
+    }
+  ],
+  "objectives": [
+    "Ask for sugar (Можно сахар?)",
+    "Learn it's unavailable (нет)",
+    "Ask what else is available",
+    "Request honey (А мёд есть?)",
+    "Get sweetener for your tea"
+  ]
+}

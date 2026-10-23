@@ -1,0 +1,528 @@
+{
+  "lessonId": "b1-005-motion-verbs",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "One Way or Round Trip?",
+      "titleRussian": "В одну сторону или туда-обратно?",
+      "description": "Choose unidirectional or multidirectional motion verbs",
+      "descriptionRussian": "Выберите однонаправленный или разнонаправленный глагол",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Куда ты _____? - На работу. (Where are you going? - To work. - right now, on foot)",
+              "promptEnglish": "Where are you going right now? - To work.",
+              "options": [
+                "ходишь",
+                "идёшь",
+                "ходил",
+                "шёл"
+              ],
+              "answer": "идёшь",
+              "hint": "Movement in one direction right now = unidirectional present.",
+              "explanation": "Going in one direction right now uses unidirectional: идёшь."
+            },
+            {
+              "prompt": "Мы каждую субботу _____ в бассейн. (We go to the pool every Saturday.)",
+              "promptEnglish": "We go to the pool every Saturday.",
+              "options": [
+                "шли",
+                "идём",
+                "ходим",
+                "пойдём"
+              ],
+              "answer": "ходим",
+              "hint": "Habitual round trips = multidirectional.",
+              "explanation": "Regular habitual trips (go and come back) use multidirectional: ходим."
+            },
+            {
+              "prompt": "Вчера она _____ к врачу. (Yesterday she went to the doctor. - and came back)",
+              "promptEnglish": "Yesterday she went to the doctor (round trip, came back).",
+              "options": [
+                "шла",
+                "ходит",
+                "идёт",
+                "ходила"
+              ],
+              "answer": "ходила",
+              "hint": "Past round trip (went and came back) = multidirectional past.",
+              "explanation": "Completed round trip in past uses multidirectional: ходила (went and returned)."
+            },
+            {
+              "prompt": "Когда я _____ домой, начался дождь. (When I was walking home, it started raining.)",
+              "promptEnglish": "When I was walking home, it started to rain.",
+              "options": [
+                "шёл",
+                "ходил",
+                "хожу",
+                "иду"
+              ],
+              "answer": "шёл",
+              "hint": "Movement in one direction in progress (was walking) = unidirectional past.",
+              "explanation": "Ongoing movement in one direction (background) uses unidirectional past: шёл."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Они часто _____ в Петербург на поезде. (They often go to Petersburg by train.)",
+              "promptEnglish": "They often travel to Petersburg by train.",
+              "options": [
+                "ездят",
+                "ехали",
+                "поедут",
+                "едут"
+              ],
+              "answer": "ездят",
+              "hint": "Habitual trips by transport = multidirectional.",
+              "explanation": "Habitual round trips by transport: multidirectional ездят."
+            },
+            {
+              "prompt": "Смотри, самолёт _____! (Look, a plane is flying!)",
+              "promptEnglish": "Look, a plane is flying! (in one direction, right now)",
+              "options": [
+                "летел",
+                "летит",
+                "летает",
+                "летал"
+              ],
+              "answer": "летит",
+              "hint": "Movement visible right now in one direction = unidirectional present.",
+              "explanation": "Visible movement in one direction right now: unidirectional летит."
+            },
+            {
+              "prompt": "Он хорошо _____. (He swims well. - general ability)",
+              "promptEnglish": "He swims well (general ability).",
+              "options": [
+                "плавает",
+                "плыл",
+                "плывёт",
+                "плавал"
+              ],
+              "answer": "плавает",
+              "hint": "General ability (not a specific trip) = multidirectional.",
+              "explanation": "General ability uses multidirectional: плавает (he can swim/swims well in general)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я _____ на работу. (I'm going to work right now, on my way.)",
+          "contextEnglish": "I'm going to work right now (in one direction).",
+          "options": [
+            "иду",
+            "хожу"
+          ],
+          "answer": "иду",
+          "explanation": "Specific one-way trip happening now: unidirectional иду."
+        },
+        {
+          "context": "Я _____ на работу каждый день. (I go to work every day.)",
+          "contextEnglish": "I go to work every day (habitual round trips).",
+          "options": [
+            "иду",
+            "хожу"
+          ],
+          "answer": "хожу",
+          "explanation": "Habitual round trips: multidirectional хожу."
+        },
+        {
+          "context": "Она _____ в магазин. (She went to the store and came back.)",
+          "contextEnglish": "She went to the store (and came back, past round trip).",
+          "options": [
+            "шла",
+            "ходила"
+          ],
+          "answer": "ходила",
+          "explanation": "Past completed round trip: multidirectional ходила (went and returned)."
+        },
+        {
+          "context": "Она _____ в магазин, когда встретила подругу. (She was walking to the store when she met a friend.)",
+          "contextEnglish": "She was walking to the store when she met a friend (in progress, one direction).",
+          "options": [
+            "шла",
+            "ходила"
+          ],
+          "answer": "шла",
+          "explanation": "Ongoing one-direction movement (background action being interrupted): unidirectional past шла."
+        }
+      ]
+    },
+    {
+      "id": "round-2-sort-fill",
+      "title": "Sort and Fill",
+      "titleRussian": "Сортировка и заполнение",
+      "description": "Sort motion verb pairs and fill in the correct forms",
+      "descriptionRussian": "Рассортируйте глаголы движения и заполните формы",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort: Unidirectional (one direction/one trip) or Multidirectional (round trip/habitual/general)?",
+        "categories": [
+          "Unidirectional",
+          "Multidirectional"
+        ],
+        "items": [
+          {
+            "word": "идти (go on foot, one way)",
+            "category": "Unidirectional"
+          },
+          {
+            "word": "ходить (go on foot, habitual)",
+            "category": "Multidirectional"
+          },
+          {
+            "word": "ехать (go by transport, one way)",
+            "category": "Unidirectional"
+          },
+          {
+            "word": "ездить (go by transport, habitual)",
+            "category": "Multidirectional"
+          },
+          {
+            "word": "лететь (fly, one direction)",
+            "category": "Unidirectional"
+          },
+          {
+            "word": "летать (fly, general/habitual)",
+            "category": "Multidirectional"
+          },
+          {
+            "word": "бежать (run, one direction)",
+            "category": "Unidirectional"
+          },
+          {
+            "word": "бегать (run, around/habitual)",
+            "category": "Multidirectional"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Сейчас мы _____ в аэропорт на такси. (We are driving to the airport by taxi right now.)",
+          "Дети каждый день _____ в школу. (The children go to school every day.)",
+          "Когда он _____ через парк, он увидел белку. (When he was walking through the park, he saw a squirrel.)",
+          "Она часто _____ в Москву по работе. (She often flies to Moscow for work.)"
+        ],
+        "choices": [
+          "едем",
+          "ходят",
+          "шёл",
+          "летает"
+        ],
+        "answers": [
+          "едем",
+          "ходят",
+          "шёл",
+          "летает"
+        ],
+        "grammarFocus": "One-way now = unidirectional; habitual = multidirectional; past one-way in progress = unidirectional past",
+        "hints": [
+          "By transport, one direction, right now. Which verb?",
+          "Habitual daily round trips on foot. Which verb?",
+          "One-way movement in progress in the past (background). Which verb?",
+          "Habitual trips by air. Which verb?"
+        ],
+        "explanations": [
+          "One-way trip by transport happening now: unidirectional едем.",
+          "Daily habitual round trips on foot: multidirectional ходят.",
+          "Ongoing one-way movement in the past: unidirectional past шёл.",
+          "Habitual trips by air: multidirectional летает."
+        ],
+        "options": [
+          [
+            "едут",
+            "едем",
+            "едете",
+            "едешь"
+          ],
+          [
+            "ходят",
+            "ходим",
+            "ходите",
+            "хожу"
+          ],
+          [
+            "ходил",
+            "пошёл",
+            "шёл",
+            "ехал"
+          ],
+          [
+            "летаем",
+            "летаю",
+            "летаешь",
+            "летает"
+          ]
+        ]
+      },
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мальчик быстро _____. (The boy runs fast. - general ability)",
+              "promptEnglish": "The boy runs fast (general ability).",
+              "options": [
+                "побежит",
+                "бегает",
+                "бегал",
+                "бежит"
+              ],
+              "answer": "бегает",
+              "hint": "General ability = multidirectional.",
+              "explanation": "General ability uses multidirectional: бегает (runs well in general)."
+            },
+            {
+              "prompt": "Смотри, она _____ к нам! (Look, she is running towards us!)",
+              "promptEnglish": "Look, she is running towards us right now!",
+              "options": [
+                "бегала",
+                "побежала",
+                "бежит",
+                "бегает"
+              ],
+              "answer": "бежит",
+              "hint": "Visible movement in one direction right now = unidirectional.",
+              "explanation": "Visible one-directional movement right now: unidirectional бежит."
+            },
+            {
+              "prompt": "Вчера мы _____ на выставку. (Yesterday we went to the exhibition. - and came back)",
+              "promptEnglish": "Yesterday we went to the exhibition (round trip).",
+              "options": [
+                "идём",
+                "пойдём",
+                "ходили",
+                "шли"
+              ],
+              "answer": "ходили",
+              "hint": "Past round trip = multidirectional past.",
+              "explanation": "Completed round trip (went and returned): multidirectional past ходили."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors-build",
+      "title": "Fix and Build",
+      "titleRussian": "Исправь и построй",
+      "description": "Fix motion verb errors and build sentences",
+      "descriptionRussian": "Исправьте ошибки и постройте предложения",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Я каждое утро иду на работу пешком.",
+          "error": "иду",
+          "correction": "хожу",
+          "hint": "Каждое утро = habitual. Habitual trips use multidirectional.",
+          "explanation": "Habitual daily trips use multidirectional: хожу (not unidirectional иду, which means 'right now').",
+          "options": [
+            "хожу",
+            "шёл",
+            "ходил"
+          ]
+        },
+        {
+          "sentence": "Смотри, птица летает прямо к нам!",
+          "error": "летает",
+          "correction": "летит",
+          "hint": "Moving in one direction towards us right now = unidirectional.",
+          "explanation": "Visible one-way movement right now: unidirectional летит (not multidirectional летает).",
+          "options": [
+            "летит",
+            "летал",
+            "летел"
+          ]
+        },
+        {
+          "sentence": "Когда он ходил домой, он потерял ключи.",
+          "error": "ходил",
+          "correction": "шёл",
+          "hint": "In-progress movement in one direction (background for the interruption) = unidirectional past.",
+          "explanation": "Ongoing one-way movement (was walking home) uses unidirectional: шёл (not ходил, which means round trip/habitual).",
+          "options": [
+            "шёл",
+            "идёт",
+            "шла"
+          ]
+        },
+        {
+          "sentence": "Она хорошо плывёт.",
+          "error": "плывёт",
+          "correction": "плавает",
+          "hint": "General ability (swims well) = multidirectional.",
+          "explanation": "General ability uses multidirectional: плавает (not unidirectional плывёт, which means swimming right now in one direction).",
+          "options": [
+            "плавает",
+            "плавал",
+            "плыл"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "Where are you going? (on foot, right now)",
+          "answer": "Куда ты идёшь?",
+          "acceptableVariants": [
+            "Куда вы идёте?"
+          ],
+          "hint": "One direction, right now, on foot = unidirectional идти: идёшь",
+          "grammarFocus": "Unidirectional present for current one-way movement",
+          "keyWord": "идёшь",
+          "options": [
+            "идёшь",
+            "ходишь",
+            "шёл",
+            "иду"
+          ]
+        },
+        {
+          "english": "She flies to London often.",
+          "answer": "Она часто летает в Лондон.",
+          "acceptableVariants": [],
+          "hint": "Habitual trips by air = multidirectional летать: летает",
+          "grammarFocus": "Multidirectional for habitual trips",
+          "keyWord": "летает",
+          "options": [
+            "летает",
+            "летит",
+            "летала",
+            "летела"
+          ]
+        },
+        {
+          "english": "Yesterday I went to the museum. (and came back)",
+          "answer": "Вчера я ходил в музей.",
+          "acceptableVariants": [
+            "Вчера я ходила в музей."
+          ],
+          "hint": "Past round trip on foot = multidirectional past: ходил",
+          "grammarFocus": "Multidirectional past for completed round trip",
+          "keyWord": "ходил",
+          "options": [
+            "ходил",
+            "шёл",
+            "хожу",
+            "иду"
+          ]
+        },
+        {
+          "english": "The children were running in the park.",
+          "answer": "Дети бегали в парке.",
+          "acceptableVariants": [],
+          "hint": "Running around (no specific direction) = multidirectional: бегали",
+          "grammarFocus": "Multidirectional for movement without specific direction",
+          "keyWord": "бегали",
+          "options": [
+            "бегали",
+            "бежали",
+            "бегают",
+            "бегаю"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All motion verb pairs in different contexts",
+      "descriptionRussian": "Все пары глаголов движения в разных контекстах",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "В детстве мы каждое лето _____ на море. (In childhood we went to the sea every summer.)",
+              "promptEnglish": "In childhood we went to the sea every summer.",
+              "options": [
+                "ехали",
+                "ездили",
+                "едем",
+                "поедем"
+              ],
+              "answer": "ездили",
+              "hint": "Habitual past trips by transport = multidirectional past.",
+              "explanation": "Habitual past trips (каждое лето) use multidirectional: ездили."
+            },
+            {
+              "prompt": "Тише! Корабль _____. (Quiet! The ship is sailing. - moving in one direction)",
+              "promptEnglish": "Quiet! The ship is sailing (one direction, right now).",
+              "options": [
+                "плавал",
+                "плавает",
+                "плыл",
+                "плывёт"
+              ],
+              "answer": "плывёт",
+              "hint": "Visible movement in one direction = unidirectional present.",
+              "explanation": "One-direction movement right now: unidirectional плывёт."
+            },
+            {
+              "prompt": "Мой брат _____ в спортзал три раза в неделю. (My brother goes to the gym three times a week.)",
+              "promptEnglish": "My brother goes to the gym three times a week.",
+              "options": [
+                "пойдёт",
+                "шёл",
+                "идёт",
+                "ходит"
+              ],
+              "answer": "ходит",
+              "hint": "Regular habitual trips = multidirectional.",
+              "explanation": "Habitual trips (three times a week) use multidirectional: ходит."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Мы _____ в Москву на поезде. (We are traveling to Moscow by train right now.)",
+          "contextEnglish": "We are traveling to Moscow right now.",
+          "options": [
+            "едем",
+            "ездим"
+          ],
+          "answer": "едем",
+          "explanation": "One-direction trip happening now: unidirectional едем."
+        },
+        {
+          "context": "Мы часто _____ в Москву на поезде. (We often travel to Moscow by train.)",
+          "contextEnglish": "We often travel to Moscow by train.",
+          "options": [
+            "едем",
+            "ездим"
+          ],
+          "answer": "ездим",
+          "explanation": "Habitual round trips: multidirectional ездим."
+        },
+        {
+          "context": "Рыба _____ в аквариуме. (The fish swims around in the aquarium.)",
+          "contextEnglish": "The fish swims around in the aquarium (no specific direction).",
+          "options": [
+            "плывёт",
+            "плавает"
+          ],
+          "answer": "плавает",
+          "explanation": "Movement without specific direction: multidirectional плавает."
+        },
+        {
+          "context": "Рыба _____ к берегу. (The fish is swimming towards the shore.)",
+          "contextEnglish": "The fish is swimming towards the shore (one direction).",
+          "options": [
+            "плывёт",
+            "плавает"
+          ],
+          "answer": "плывёт",
+          "explanation": "One-direction movement towards a destination: unidirectional плывёт."
+        }
+      ]
+    }
+  ]
+}

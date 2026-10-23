@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-004",
+  "title": "The Last Ticket",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Convince the seller to sell you the last concert ticket",
+  "imageName": "ticket.fill",
+  "initialPrompt": "Извините, билетов нет. Всё продано.",
+  "systemPrompt": "You sell concert tickets. Officially sold out. But you have ONE hidden ticket for 500₽. Sell it only if customer: asks very politely (очень прошу), explains why they need it (birthday, big fan), or offers to pay more. Keep replies short.",
+  "completionCriteria": "User convinced you to sell the last ticket through persuasion.",
+  "responseLimit": 15,
+  "hints": [
+    "Очень прошу! (I'm begging you!)",
+    "Это мой день рождения (It's my birthday)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "билет",
+      "definition": "ticket"
+    },
+    {
+      "word": "концерт",
+      "definition": "concert"
+    },
+    {
+      "word": "продано",
+      "definition": "sold out"
+    },
+    {
+      "word": "просить",
+      "definition": "to ask/beg"
+    },
+    {
+      "word": "последний",
+      "definition": "last"
+    }
+  ],
+  "objectives": [
+    "Learn tickets are sold out",
+    "Ask if there's any way (может быть)",
+    "Give a reason why you need it",
+    "Be very polite (очень прошу)",
+    "Buy the ticket"
+  ]
+}

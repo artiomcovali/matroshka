@@ -1,0 +1,304 @@
+{
+  "id": "a1-track-negation-05-mixed-review",
+  "level": "A1",
+  "focusArea": "sentenceStructure",
+  "title": "Negation 5: Mixed Review",
+  "titleRussian": "Отрицание 5: Итоговое повторение",
+  "description": "Russian A1 negation runs on four moves: не on a target, нет + genitive for absence, ни-words paired with не on the verb, and ни...ни... / ни одного for coordinated and emphatic negation. Today we mix them and learn to name which move is operating.",
+  "descriptionRussian": "Русское отрицание уровня A1 строится на четырёх шагах: «не» перед целевым словом, «нет + родительный» для отсутствия, «ни-слова» в паре с «не» при глаголе и «ни...ни... / ни одного» для соединения и усиления. Сегодня смешиваем всё и учимся называть, какой шаг работает.",
+  "imageName": "checkmark.seal",
+  "trackId": "a1-negation-mastery",
+  "trackTitle": "Negation and Existence",
+  "trackTitleRussian": "Отрицание и наличие",
+  "trackIndex": 5,
+  "trackTotal": 5,
+  "intro": "Four ways to say no, and the only skill left is picking the right one quickly. A particle in front of a target, нет plus the genitive, a ни-word paired with не on the verb, or two items coordinated together. Today they come mixed, with nothing to tell you which one a sentence needs.",
+  "rules": [
+    "Move 1: не on a target. Place не directly before the verb, noun, adjective, or adverb being denied.",
+    "Move 2: нет + genitive. Use for existence, presence, or ownership denials. Three frames: bare, possession (у + person-gen), location.",
+    "Move 3: ни-word + не on the verb. Required for category negations (nobody / nothing / never / nowhere / no way / no kind of).",
+    "Move 4a: ни...ни... for coordinated negation. Move 4b: ни одного / ни одной for emphatic 'not a single.'",
+    "Walk through the five-step diagnostic in order. The first match is your move.",
+    "The same clause may combine moves. Я ничего не знаю combines не on the verb (Move 1) with the ни-word ничего (Move 3). У меня нет ни ручки, ни карандаша combines нет + gen (Move 2) with ни...ни... coordination (Move 4a)."
+  ],
+  "examples": [
+    "Я не знаю русский. (I do not know Russian.) Move 1: не on the verb.",
+    "У меня нет машины. (I do not have a car.) Move 2: нет + gen, possession frame.",
+    "Здесь нет молока. (There is no milk here.) Move 2: нет + gen, location frame.",
+    "Маша никогда не опаздывает. (Masha is never late.) Move 3: ни-word + не on the verb.",
+    "У меня нет ни сестры, ни брата. (I have neither a sister nor a brother.) Move 4a: ни...ни... coordination on Move 2.",
+    "Он не сказал ни одного слова. (He did not say a single word.) Move 4b: ни одного + не on the verb."
+  ],
+  "tables": [
+    {
+      "title": "The four A1 negation moves",
+      "headers": [
+        "Move",
+        "Trigger",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Move 1: не on a target",
+          "cells": [
+            "Specific word denied",
+            "Я не знаю."
+          ]
+        },
+        {
+          "label": "Move 2: нет + gen",
+          "cells": [
+            "Existence / possession / location denied",
+            "У меня нет машины."
+          ]
+        },
+        {
+          "label": "Move 3: ни-word + не",
+          "cells": [
+            "Category negation (nobody / nothing / never / nowhere)",
+            "Маша никогда не опаздывает."
+          ]
+        },
+        {
+          "label": "Move 4: ни...ни... / ни одного",
+          "cells": [
+            "Coordinated or emphatic negation",
+            "Он не сказал ни одного слова."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "У меня нет ни ручки, ни _____ .",
+          "promptEnglish": "I have neither a pen nor a pencil.",
+          "options": [
+            "карандаш",
+            "карандашу",
+            "карандашом",
+            "карандаша"
+          ],
+          "answer": "карандаша",
+          "hint": "Recap from Lesson 4: ни...ни... coordination after нет. Which case?",
+          "explanation": "Warm-up from Lesson 4. Coordinated negation after нет; both nouns take the genitive. Карандаш is masculine consonant; its genitive is карандаша. Move 4a built on Move 2."
+        },
+        {
+          "prompt": "Антон _____ говорит по-английски.",
+          "promptEnglish": "Anton does not speak English.",
+          "options": [
+            "нет",
+            "не",
+            "ни",
+            "никогда"
+          ],
+          "answer": "не",
+          "hint": "The speaker denies the action of the verb. Which move applies?",
+          "explanation": "Move 1: не on the verb. The verb говорит exists; the speaker only denies the action. Не goes directly before the verb: 'Антон не говорит по-английски.'"
+        },
+        {
+          "prompt": "В этом магазине нет _____ .",
+          "promptEnglish": "There is no bread in this store.",
+          "options": [
+            "хлеба",
+            "хлебом",
+            "хлеб",
+            "хлебу"
+          ],
+          "answer": "хлеба",
+          "hint": "Move 2 in the location frame. Genitive of хлеб.",
+          "explanation": "Location frame: в + prepositional + нет + thing-gen. Хлеб → хлеба (masculine consonant + -а)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я _____ его не видел сегодня.",
+          "promptEnglish": "I have not seen him anywhere today.",
+          "options": [
+            "ничего",
+            "никогда",
+            "нигде",
+            "никак"
+          ],
+          "answer": "нигде",
+          "hint": "The English 'anywhere' here is a place of activity, not a direction. Which ни-word?",
+          "explanation": "Move 3. The speaker has searched at locations and found him at none. Нигде marks place where: at no location."
+        },
+        {
+          "prompt": "_____ не позвонил мне вчера.",
+          "promptEnglish": "Nobody called me yesterday.",
+          "options": [
+            "Никто",
+            "Никогда",
+            "Ничто",
+            "Никакой"
+          ],
+          "answer": "Никто",
+          "hint": "The English subject 'nobody' picks which ни-word?",
+          "explanation": "Move 3. Никто marks a person in the subject slot. The verb takes the mandatory не: 'Никто не позвонил.'"
+        },
+        {
+          "prompt": "Маша не прочитала ни одной _____ за всё лето.",
+          "promptEnglish": "Masha did not read a single book all summer.",
+          "options": [
+            "книга",
+            "книгу",
+            "книги",
+            "книгой"
+          ],
+          "answer": "книги",
+          "hint": "Move 4b: ни одной + feminine noun in the genitive.",
+          "explanation": "The emphatic ни одной takes the feminine genitive on the noun: книги (-а → -и after к). Move 4b emphatic quantification, with the verb keeping its не."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "У Лены нет _____ . (Lena does not have a dog.)"
+    ],
+    "choices": [
+      "собака",
+      "собаку",
+      "собаки",
+      "собакой"
+    ],
+    "answers": [
+      "собаки"
+    ],
+    "grammarFocus": "Move 2 in the possession frame. The denied thing lands in the genitive. Собака → собаки (feminine -а → -и after к, spelling rule)."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Маша никогда опаздывает на работу, она всегда точна.",
+      "translationEnglish": "Masha is never late for work; she's always punctual.",
+      "error": "опаздывает",
+      "correction": "не опаздывает",
+      "options": [
+        "не опаздывает",
+        "не опаздывать",
+        "нет опаздывает"
+      ],
+      "explanation": "Move 3 (double negative): the ни-word никогда demands не on the verb. Никогда опаздывает is ungrammatical because the ни-word is unprotected. The correct form is 'Маша никогда не опаздывает'; both halves are required. The follow-up clause 'она всегда точна' affirms the meaning and lets the learner triangulate."
+    },
+    {
+      "sentence": "Антон любит холодную погоду, поэтому всегда тепло одевается зимой.",
+      "translationEnglish": "Anton doesn't like cold weather, so he always dresses warmly in winter.",
+      "error": "любит",
+      "correction": "не любит",
+      "options": [
+        "не любит",
+        "не любить",
+        "нет любит"
+      ],
+      "explanation": "Move 1 (verb negation): не goes directly before the verb. Любит alone is affirmative ('he likes'); the translation and the consequent clause ('always dresses warmly') both signal negation. Russian's basic verb negation is just не + verb: no auxiliary, no inversion, no support do."
+    },
+    {
+      "sentence": "Здесь нет ни кофе и чая, есть только сок и вода.",
+      "translationEnglish": "There's neither coffee nor tea here; only juice and water.",
+      "error": "ни кофе и чая",
+      "correction": "ни кофе, ни чая",
+      "options": [
+        "ни кофе, ни чая",
+        "и кофе, и чая",
+        "не кофе, не чая"
+      ],
+      "explanation": "Move 4a (coordinated negation): when нет coordinates two items, BOTH take ни — ни...ни.... Mixing ни with и in the second slot ('ни...и...') is the classic A1 trap. The follow-up clause 'есть только сок и вода' uses normal и...и...Because the items are affirmed there; the same speaker uses both forms in the same sentence based on polarity."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Это _____ моя сумка.",
+      "contextEnglish": "This is not my bag.",
+      "options": [
+        "не",
+        "нет"
+      ],
+      "answer": "не",
+      "explanation": "Move 1 in an identity sentence. Не attaches directly to the noun phrase моя сумка. Нет would shift the meaning to 'there is no bag,' a different reading that would also require the genitive on the noun."
+    },
+    {
+      "context": "У меня _____ времени.",
+      "contextEnglish": "I do not have time.",
+      "options": [
+        "не",
+        "нет"
+      ],
+      "answer": "нет",
+      "explanation": "Move 2 in the possession frame. Нет triggers the genitive on времени. Не would not fit the construction (the possession frame uses нет, not не)."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Я не знаю этот ответ.",
+      "question": "Which negation move is operating here?",
+      "options": [
+        "Move 1: не on a target",
+        "Move 2: нет + genitive",
+        "Move 3: ни-word + не on the verb",
+        "Move 4: ни...ни... / ни одного"
+      ],
+      "answer": "Move 1: не on a target",
+      "explanation": "The verb is the target of the negation. Не sits directly before знаю. This is the default A1 negation pattern."
+    },
+    {
+      "sentence": "У Маши нет машины.",
+      "question": "Which negation move is operating here?",
+      "options": [
+        "Move 1: не on a target",
+        "Move 2: нет + genitive",
+        "Move 3: ни-word + не on the verb",
+        "Move 4: ни...ни... / ни одного"
+      ],
+      "answer": "Move 2: нет + genitive",
+      "explanation": "Possession denial. Нет triggers the genitive on the missing thing: машина → машины. The owner Маши is itself in the genitive after the у preposition."
+    },
+    {
+      "sentence": "Никто не пришёл вовремя.",
+      "question": "Which negation move is operating here?",
+      "options": [
+        "Move 1: не on a target",
+        "Move 2: нет + genitive",
+        "Move 3: ни-word + не on the verb",
+        "Move 4: ни...ни... / ни одного"
+      ],
+      "answer": "Move 3: ни-word + не on the verb",
+      "explanation": "Category negation in the subject slot. Никто requires the mandatory не on the verb пришёл. Double negative pattern."
+    },
+    {
+      "sentence": "Антон не сказал ни одного слова.",
+      "question": "Which negation move is operating here?",
+      "options": [
+        "Move 1: не on a target",
+        "Move 2: нет + genitive",
+        "Move 3: ни-word + не on the verb",
+        "Move 4: ни...ни... / ни одного"
+      ],
+      "answer": "Move 4: ни...ни... / ни одного",
+      "explanation": "Emphatic quantification. Ни одного + noun in the genitive (слова) makes the negation extra strong. The verb keeps its не. Move 4b applied to a verb-negated clause."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "пять шагов",
+      "definition": "the five-step diagnostic (target denial → existence denial → category denial → coordinated negation → emphatic negation; walk through in order to pick the right move)",
+      "example": "Пять шагов помогают выбрать нужный способ отрицания в любом A1-предложении."
+    },
+    {
+      "term": "родительный падеж",
+      "definition": "the genitive case (the workhorse case behind нет, ни одного / ни одной, and ни-coordination after нет)",
+      "example": "В предложении «Он не сказал ни одного слова» слово «слова» стоит в родительном падеже."
+    },
+    {
+      "term": "двойное отрицание",
+      "definition": "double negative (the Russian requirement that any ни-word in a clause must be paired with не on the verb of the same clause)",
+      "example": "В предложении «Я ничего не знаю» двойное отрицание обязательно: и «ничего», и «не»."
+    }
+  ]
+}

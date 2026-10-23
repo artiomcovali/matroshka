@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-020",
+  "title": "Pants Need More Work",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "A simple hem became a more complex repair",
+  "imageName": "scissors",
+  "initialPrompt": "Здравствуйте! Вы принесли брюки? Давайте посмотрим.",
+  "systemPrompt": "You are tailor. Customer wanted simple hem but fabric is damaged - needs patch too. Hem is 300 rubles, with patch 600 rubles. Takes extra day. Keep replies short.",
+  "completionCriteria": "User understood the additional work needed and agreed to proceed or declined.",
+  "responseLimit": 15,
+  "hints": [
+    "Сколько будет стоить? (How much will it cost?)",
+    "Когда будет готово? (When will it be ready?)",
+    "Хорошо, делайте (OK, go ahead)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "брюки",
+      "definition": "pants"
+    },
+    {
+      "word": "подшить",
+      "definition": "to hem"
+    },
+    {
+      "word": "ремонт",
+      "definition": "repair"
+    },
+    {
+      "word": "заплатка",
+      "definition": "patch"
+    },
+    {
+      "word": "ткань",
+      "definition": "fabric"
+    },
+    {
+      "word": "повреждение",
+      "definition": "damage"
+    }
+  ],
+  "objectives": [
+    "Learn about the additional repair needed",
+    "Ask about new price (стоить)",
+    "Ask about timing (готово)",
+    "Decide whether to proceed"
+  ]
+}

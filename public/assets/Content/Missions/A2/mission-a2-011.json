@@ -1,0 +1,48 @@
+{
+  "id": "mission-a2-011",
+  "title": "Buy a Phone",
+  "level": "A2",
+  "description": "Purchase a new phone at an electronics store",
+  "imageName": "iphone",
+  "initialPrompt": "Здравствуйте! Вам помочь с выбором телефона?",
+  "systemPrompt": "You are a phone store salesperson. Phones: iPhone 80000₽, Samsung 50000₽, Xiaomi 25000₽. Ask about preferences. Keep replies short.",
+  "completionCriteria": "User chose a phone model and confirmed purchase.",
+  "responseLimit": 15,
+  "hints": [
+    "Мне нужен новый телефон (I need a new phone)",
+    "Какой у вас есть? (What do you have?)",
+    "Это дорого (That's expensive)",
+    "Я возьму этот (I'll take this one)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "телефон",
+      "definition": "phone"
+    },
+    {
+      "word": "смартфон",
+      "definition": "smartphone"
+    },
+    {
+      "word": "экран",
+      "definition": "screen"
+    },
+    {
+      "word": "камера",
+      "definition": "camera"
+    },
+    {
+      "word": "память",
+      "definition": "memory/storage"
+    },
+    {
+      "word": "зарядка",
+      "definition": "charger"
+    }
+  ],
+  "objectives": [
+    "Ask what phones are available",
+    "Ask about features (камера, память)",
+    "Choose and buy a phone"
+  ]
+}

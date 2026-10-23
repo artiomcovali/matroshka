@@ -1,0 +1,286 @@
+{
+  "id": "b1-011-reported-speech",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Reported Speech",
+  "titleRussian": "Косвенная речь",
+  "description": "Transforming direct speech to indirect speech",
+  "descriptionRussian": "Преобразование прямой речи в косвенную",
+  "imageName": "quote.bubble",
+  "intro": "Reported speech (косвенная речь) conveys what someone said without quoting them directly. Key changes: 1) Add что for statements: Он сказал, что он устал. 2) Pronouns shift perspective: я→он, мой→его. 3) Tense usually stays the same in Russian (unlike English). 4) Questions use ли or question words: Она спросила, придёт ли он. Commands use чтобы + past: Она попросила, чтобы я помог.",
+  "rules": [
+    "Statements: сказал/говорил + что + clause: Он сказал, что придёт. (He said he would come.)",
+    "Yes/no questions: спросил + verb + ли: Она спросила, знаю ли я. (She asked if I knew.)",
+    "Wh-questions: спросил + question word: Он спросил, где я живу. (He asked where I live.)",
+    "Commands/requests: попросил/сказал + чтобы + past: Она попросила, чтобы я позвонил. (She asked me to call.)"
+  ],
+  "examples": [
+    "«Я устал» → Он сказал, что он устал. (\"I'm tired\" → He said he was tired.)",
+    "«Ты придёшь?» → Она спросила, приду ли я. (\"Will you come?\" → She asked if I would come.)",
+    "«Где ты живёшь?» → Он спросил, где я живу. (\"Where do you live?\" → He asked where I live.)",
+    "«Позвони мне!» → Она попросила, чтобы я позвонил. (\"Call me!\" → She asked me to call.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "«Я приду завтра.» → Он сказал, _____ он придёт завтра.",
+          "promptEnglish": "\"I'll come tomorrow.\" → He said that he would come tomorrow.",
+          "options": [
+            "если",
+            "ли",
+            "что",
+            "чтобы"
+          ],
+          "answer": "что",
+          "hint": "Statement uses что",
+          "explanation": "Statements use сказал, что: сказал, что придёт."
+        },
+        {
+          "prompt": "«Ты знаешь его?» → Она спросила, _____ я его знаю.",
+          "promptEnglish": "\"Do you know him?\" → She asked if I knew him.",
+          "options": [
+            "если знаю",
+            "что знаю",
+            "чтобы знал",
+            "знаю ли"
+          ],
+          "answer": "знаю ли",
+          "hint": "Yes/no question uses verb + ли",
+          "explanation": "Yes/no questions use verb + ли: знаю ли."
+        },
+        {
+          "prompt": "«Помоги мне!» → Он попросил, _____ я помог.",
+          "promptEnglish": "\"Help me!\" → He asked me to help.",
+          "options": [
+            "ли",
+            "что",
+            "чтобы",
+            "если"
+          ],
+          "answer": "чтобы",
+          "hint": "Command/request uses чтобы + past",
+          "explanation": "Commands use чтобы + past: чтобы я помог."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "«Где ты работаешь?» → Она спросила, _____ я работаю.",
+          "promptEnglish": "\"Where do you work?\" → She asked where I work.",
+          "options": [
+            "что",
+            "ли",
+            "где",
+            "чтобы"
+          ],
+          "answer": "где",
+          "hint": "Wh-question keeps the question word",
+          "explanation": "Wh-questions keep the question word: где я работаю."
+        },
+        {
+          "prompt": "«Я не понимаю.» → Он сказал, _____ он не понимает.",
+          "promptEnglish": "\"I don't understand.\" → He said he didn't understand.",
+          "options": [
+            "чтобы",
+            "что",
+            "ли",
+            "как"
+          ],
+          "answer": "что",
+          "hint": "Statement uses что",
+          "explanation": "Statements use что: сказал, что не понимает."
+        },
+        {
+          "prompt": "«Позвони мне вечером!» → Она попросила, _____ я позвонил вечером.",
+          "promptEnglish": "\"Call me in the evening!\" → She asked me to call in the evening.",
+          "options": [
+            "что",
+            "когда",
+            "чтобы",
+            "ли"
+          ],
+          "answer": "чтобы",
+          "hint": "Request uses чтобы + past",
+          "explanation": "Requests use чтобы: чтобы я позвонил."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "«Ты был там?» → Он спросил, _____ я там.",
+          "promptEnglish": "\"Were you there?\" → He asked if I had been there.",
+          "options": [
+            "что был",
+            "где был",
+            "был ли",
+            "чтобы был"
+          ],
+          "answer": "был ли",
+          "hint": "Yes/no question about past uses verb + ли",
+          "explanation": "Yes/no questions use verb + ли: был ли я там."
+        },
+        {
+          "prompt": "«Когда ты вернёшься?» → Она спросила, _____ я вернусь.",
+          "promptEnglish": "\"When will you return?\" → She asked when I would return.",
+          "options": [
+            "чтобы",
+            "ли",
+            "когда",
+            "что"
+          ],
+          "answer": "когда",
+          "hint": "Wh-question keeps когда",
+          "explanation": "Wh-questions keep the word: когда я вернусь."
+        },
+        {
+          "prompt": "«Мы уже уходим.» → Они сказали, _____ они уже уходят.",
+          "promptEnglish": "\"We're already leaving.\" → They said they were already leaving.",
+          "options": [
+            "как",
+            "что",
+            "ли",
+            "чтобы"
+          ],
+          "answer": "что",
+          "hint": "Statement uses что",
+          "explanation": "Statements use что: сказали, что уходят."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Он сказал, _____ он не знает ответа. (He said that he didn't know the answer.)",
+      "Она спросила, люблю _____ я музыку. (She asked whether I love music.)",
+      "Мама сказала, _____ ужин готов. (Mom said that dinner was ready.)"
+    ],
+    "choices": [
+      "что",
+      "ли",
+      "что",
+      "если",
+      "когда",
+      "чтобы"
+    ],
+    "answers": [
+      "что",
+      "ли",
+      "что"
+    ],
+    "grammarFocus": "Reported statements use что; reported yes/no questions use ли",
+    "hints": [
+      "Reported statement: 'He said THAT...' — which conjunction?",
+      "Reported yes/no question: 'whether/if' — which particle?",
+      "Another reported statement — which conjunction?"
+    ],
+    "explanations": [
+      "Reported statements use что: Он сказал, что...",
+      "Reported yes/no questions use ли after the key word: люблю ли я...",
+      "Reported statements always use что to introduce the clause."
+    ],
+    "options": [
+      [
+        "ли",
+        "если",
+        "что",
+        "когда"
+      ],
+      [
+        "когда",
+        "чтобы",
+        "что",
+        "ли"
+      ],
+      [
+        "ли",
+        "что",
+        "чтобы",
+        "когда"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "«Я приду.» → Он сказал, _____ придёт.",
+      "contextEnglish": "\"I'll come.\" → He said he would come.",
+      "options": [
+        "что он",
+        "чтобы он"
+      ],
+      "answer": "что он",
+      "explanation": "Statement uses что: сказал, что он придёт."
+    },
+    {
+      "context": "«Приди!» → Он попросил, _____ я пришёл.",
+      "contextEnglish": "\"Come!\" → He asked me to come.",
+      "options": [
+        "чтобы",
+        "что"
+      ],
+      "answer": "чтобы",
+      "explanation": "Command uses чтобы: попросил, чтобы я пришёл."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by reported speech type",
+    "categories": [
+      "Statement (что)",
+      "Question (ли/word)",
+      "Command (чтобы)"
+    ],
+    "items": [
+      {
+        "word": "Он сказал, что устал",
+        "category": "Statement (что)"
+      },
+      {
+        "word": "Она спросила, приду ли я",
+        "category": "Question (ли/word)"
+      },
+      {
+        "word": "Он попросил, чтобы я помог",
+        "category": "Command (чтобы)"
+      },
+      {
+        "word": "Они сказали, что уезжают",
+        "category": "Statement (что)"
+      },
+      {
+        "word": "Она спросила, где я живу",
+        "category": "Question (ли/word)"
+      },
+      {
+        "word": "Мама сказала, чтобы я поел",
+        "category": "Command (чтобы)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "сказал, что...",
+      "definition": "said that... (statements)",
+      "example": "Он сказал, что придёт."
+    },
+    {
+      "term": "спросил, ... ли",
+      "definition": "asked if/whether (yes/no)",
+      "example": "Она спросила, знаю ли я."
+    },
+    {
+      "term": "спросил, где/когда/как",
+      "definition": "asked where/when/how",
+      "example": "Он спросил, где я живу."
+    },
+    {
+      "term": "попросил, чтобы + past",
+      "definition": "asked (someone) to...",
+      "example": "Она попросила, чтобы я помог."
+    }
+  ]
+}

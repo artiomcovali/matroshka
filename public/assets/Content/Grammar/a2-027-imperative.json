@@ -1,0 +1,405 @@
+{
+  "id": "a2-027-imperative",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Imperative Mood",
+  "titleRussian": "Повелительное наклонение",
+  "description": "Command forms in Russian",
+  "descriptionRussian": "Формы приказа и просьбы",
+  "imageName": "exclamationmark.bubble",
+  "intro": "The imperative mood is used for commands, requests, and instructions. Russian has two forms: informal (ты) and formal/plural (вы). Formation depends on the present tense stem: if it ends in a vowel, add -й/-йте; if it ends in a consonant, add -и/-ите (or -ь/-ьте if stem-stressed). Reflexive verbs (-ся) keep their particle: after a consonant or -й it stays -ся, after a vowel it becomes -сь (садись!/садитесь! = sit down). Negative commands often use the imperfective: Не говори! (Don't speak!) Some verbs change their stem or are irregular and must be memorized.",
+  "rules": [
+    "To form the imperative, start from the они present tense form, remove -т, and add the appropriate suffix.",
+    "Reflexive verbs add the particle after the imperative ending: -ся after a consonant or -й, -сь after a vowel. Садись!/Садитесь! (sit down), Умывайся!/Умывайтесь! (wash up), Не волнуйся! (Don't worry!)",
+    "Some verbs change their stem: мыть → мой/мойте (wash), сесть → сядь/сядьте (sit down), пить → пей/пейте (drink). Note садись (imperfective: settle in) vs сядь (perfective: sit down now).",
+    "Negative commands typically use imperfective (Не говори! = Don't speak!), while positive commands can use either aspect.",
+    "Adding пожалуйста after the imperative makes any command a polite request: Скажите, пожалуйста! (Please tell me!)",
+    "Some common imperatives are irregular and must be memorized: дай/дайте (give), ешь/ешьте (eat), пей/пейте (drink)."
+  ],
+  "examples": [
+    "Читай книгу! (Read the book!), informal",
+    "Читайте, пожалуйста! (Please read!), formal/plural",
+    "Говори громче! (Speak louder!), informal",
+    "Не забудьте! (Don't forget!, formal/plural), perfective"
+  ],
+  "tables": [
+    {
+      "title": "Imperative Formation",
+      "headers": [
+        "Infinitive",
+        "ты form",
+        "вы form"
+      ],
+      "rows": [
+        {
+          "label": "читать",
+          "cells": [
+            "чита|й",
+            "чита|йте"
+          ]
+        },
+        {
+          "label": "говорить",
+          "cells": [
+            "говор|и",
+            "говор|ите"
+          ]
+        },
+        {
+          "label": "писать",
+          "cells": [
+            "пиш|и",
+            "пиш|ите"
+          ]
+        },
+        {
+          "label": "делать",
+          "cells": [
+            "дела|й",
+            "дела|йте"
+          ]
+        },
+        {
+          "label": "идти",
+          "cells": [
+            "ид|и",
+            "ид|ите"
+          ]
+        },
+        {
+          "label": "мыть",
+          "cells": [
+            "мо|й",
+            "мо|йте"
+          ]
+        },
+        {
+          "label": "садиться (reflexive)",
+          "cells": [
+            "сад|ись",
+            "сад|итесь"
+          ]
+        },
+        {
+          "label": "быть",
+          "cells": [
+            "будь",
+            "будь|те"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ книгу! (Read the book!) - informal",
+          "promptEnglish": "Read the book!",
+          "options": [
+            "Читать",
+            "Читай",
+            "Читайте",
+            "Читаешь"
+          ],
+          "answer": "Читай",
+          "hint": "Informal (ты) imperative; vowel stem + -й",
+          "explanation": "Informal imperative: читай (читают → чита- + й)."
+        },
+        {
+          "prompt": "_____, пожалуйста! (Please listen!) - formal",
+          "promptEnglish": "Please listen!",
+          "options": [
+            "Слушать",
+            "Слушаете",
+            "Слушайте",
+            "Слушай"
+          ],
+          "answer": "Слушайте",
+          "hint": "Formal (вы) imperative; vowel stem + -йте",
+          "explanation": "Formal imperative: слушайте."
+        },
+        {
+          "prompt": "_____ громче! (Speak louder!) - informal",
+          "promptEnglish": "Speak louder!",
+          "options": [
+            "Говоришь",
+            "Говорите",
+            "Говорить",
+            "Говори"
+          ],
+          "answer": "Говори",
+          "hint": "Informal imperative; consonant stem + -и",
+          "explanation": "Informal imperative: говори (говорят → говор- + и)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ сюда! (Come here!) - informal",
+          "promptEnglish": "Come here!",
+          "options": [
+            "Идёшь",
+            "Идти",
+            "Идите",
+            "Иди"
+          ],
+          "answer": "Иди",
+          "hint": "Informal imperative of идти",
+          "explanation": "Informal imperative: иди."
+        },
+        {
+          "prompt": "_____ мне, пожалуйста! (Please help me!) - formal",
+          "promptEnglish": "Please help me!",
+          "options": [
+            "Помогать",
+            "Помогаете",
+            "Помогите",
+            "Помоги"
+          ],
+          "answer": "Помогите",
+          "hint": "Formal imperative of помочь",
+          "explanation": "Formal imperative: помогите."
+        },
+        {
+          "prompt": "Не _____! (Don't forget!) - informal",
+          "promptEnglish": "Don't forget!",
+          "options": [
+            "забыть",
+            "забудьте",
+            "забудь",
+            "забываешь"
+          ],
+          "answer": "забудь",
+          "hint": "Informal negative imperative of забыть",
+          "explanation": "Informal imperative: забудь (perfective for specific warning)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "_____ здесь! (Sit here!) - formal",
+          "promptEnglish": "Sit here!",
+          "options": [
+            "Сидеть",
+            "Сядь",
+            "Сидите",
+            "Сядьте"
+          ],
+          "answer": "Сядьте",
+          "hint": "Formal imperative of сесть (perfective)",
+          "explanation": "Formal imperative: сядьте (сесть → сядь/сядьте)."
+        },
+        {
+          "prompt": "_____ дверь! (Open the door!) - informal",
+          "promptEnglish": "Open the door!",
+          "options": [
+            "Открываешь",
+            "Откройте",
+            "Открой",
+            "Открыть"
+          ],
+          "answer": "Открой",
+          "hint": "Informal imperative; vowel stem + -й",
+          "explanation": "Informal imperative: открой."
+        },
+        {
+          "prompt": "_____ тихо! (Be quiet!) - formal/plural",
+          "promptEnglish": "Be quiet!",
+          "options": [
+            "Будь",
+            "Бываете",
+            "Быть",
+            "Будьте"
+          ],
+          "answer": "Будьте",
+          "hint": "Formal imperative of быть",
+          "explanation": "Formal imperative: будьте (irregular)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ осторожны! (Be careful!) - formal",
+      "_____ книгу! (Read the book!) - informal",
+      "_____ по-русски! (Speak in Russian!) - formal",
+      "_____ сюда! (Come here!) - informal",
+      "Не _____ ! (Don't forget!) - informal"
+    ],
+    "choices": [
+      "Будьте",
+      "Читай",
+      "Говорите",
+      "Иди",
+      "забудь",
+      "Будь",
+      "Читайте"
+    ],
+    "answers": [
+      "Будьте",
+      "Читай",
+      "Говорите",
+      "Иди",
+      "забудь"
+    ],
+    "grammarFocus": "Imperative forms: formal vs informal commands",
+    "hints": [
+      "This is a formal command (вы form). What is the formal imperative of быть (to be)?",
+      "This is an informal command (ты form). Читать has a vowel stem. Vowel stem + what suffix?",
+      "This is a formal command (вы form). Говорить has a consonant stem. Consonant stem + what suffix?",
+      "This is an informal command (ты form). What is the informal imperative of идти?",
+      "This is an informal negative command. What is the informal imperative of забыть?"
+    ],
+    "explanations": [
+      "Formal imperative of быть: будьте (irregular). Будьте осторожны!",
+      "Informal imperative: vowel stem чита- + -й → читай!",
+      "Formal imperative: consonant stem говор- + -ите → говорите!",
+      "Informal imperative of идти: иди! (иди сюда = come here).",
+      "Informal imperative of забыть: забудь. Не забудь! (Don't forget!)"
+    ],
+    "options": [
+      [
+        "будете",
+        "были",
+        "Будьте",
+        "будем"
+      ],
+      [
+        "читаешь",
+        "читает",
+        "читаю",
+        "Читай"
+      ],
+      [
+        "Говорите",
+        "говорим",
+        "говорят",
+        "говорю"
+      ],
+      [
+        "идёшь",
+        "идёт",
+        "иду",
+        "Иди"
+      ],
+      [
+        "забудь",
+        "забыла",
+        "забыло",
+        "забыл"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ книгу! (Read!) - informal",
+      "contextEnglish": "Read the book!",
+      "options": [
+        "Читай",
+        "Читайте"
+      ],
+      "answer": "Читай",
+      "explanation": "Informal (ты) imperative: читай."
+    },
+    {
+      "context": "_____ книгу! (Read!) - formal",
+      "contextEnglish": "Read the book!",
+      "options": [
+        "Читайте",
+        "Читай"
+      ],
+      "answer": "Читайте",
+      "explanation": "Formal (вы) imperative: читайте."
+    }
+  ],
+  "conjugationTable": {
+    "verb": "читать",
+    "tense": "imperative",
+    "paradigm": [
+      "—",
+      "читай",
+      "—",
+      "—",
+      "читайте",
+      "—"
+    ],
+    "blanks": [
+      1,
+      4
+    ],
+    "hints": [
+      "informal",
+      "formal/plural"
+    ],
+    "explanations": [
+      "Vowel stem (чита-) + -й for informal ты command",
+      "Vowel stem (чита-) + -йте for formal/plural вы command"
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort imperatives by formality",
+    "categories": [
+      "Informal (ты)",
+      "Formal (вы)"
+    ],
+    "items": [
+      {
+        "word": "Читай!",
+        "category": "Informal (ты)"
+      },
+      {
+        "word": "Читайте!",
+        "category": "Formal (вы)"
+      },
+      {
+        "word": "Говори!",
+        "category": "Informal (ты)"
+      },
+      {
+        "word": "Говорите!",
+        "category": "Formal (вы)"
+      },
+      {
+        "word": "Иди!",
+        "category": "Informal (ты)"
+      },
+      {
+        "word": "Идите!",
+        "category": "Formal (вы)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "-й / -йте",
+      "definition": "imperative after vowel stem",
+      "example": "Читай/читайте, делай/делайте."
+    },
+    {
+      "term": "-и / -ите",
+      "definition": "imperative after consonant (stressed)",
+      "example": "Говори/говорите, пиши/пишите."
+    },
+    {
+      "term": "-ь / -ьте",
+      "definition": "imperative after consonant (stem-stressed)",
+      "example": "Встань/встаньте, сядь/сядьте."
+    },
+    {
+      "term": "-ся / -сь",
+      "definition": "reflexive imperative particle (-ся after consonant/-й, -сь after vowel)",
+      "example": "Садись/садитесь, умывайся/умывайтесь, не волнуйся."
+    },
+    {
+      "term": "Не + императив",
+      "definition": "negative command",
+      "example": "Не забудь! Не говорите!"
+    }
+  ]
+}

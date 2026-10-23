@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-033",
+  "title": "Hidden Fees",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "The moving company quote has unexpected hidden costs",
+  "imageName": "shippingbox.fill",
+  "initialPrompt": "Добрый день! Вот ваш расчёт на переезд. Итого пятнадцать тысяч рублей. Подписываем договор?",
+  "systemPrompt": "You work for moving company. Quote includes hidden fees (packing 2000, insurance 1500, stairs 1000). Explain each charge when asked. Can remove optional insurance. Keep replies short.",
+  "completionCriteria": "User identified hidden fees and negotiated or understood all charges.",
+  "responseLimit": 15,
+  "hints": [
+    "Можете объяснить, что входит в цену? (Can you explain what is included in the price?)",
+    "Почему дороже, чем по телефону? (Why is it more expensive than on the phone?)",
+    "Можно убрать страховку? (Can we remove the insurance?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "переезд",
+      "definition": "moving/relocation"
+    },
+    {
+      "word": "расчёт",
+      "definition": "quote/estimate"
+    },
+    {
+      "word": "страховка",
+      "definition": "insurance"
+    },
+    {
+      "word": "упаковка",
+      "definition": "packing"
+    },
+    {
+      "word": "доплата",
+      "definition": "extra charge"
+    },
+    {
+      "word": "договор",
+      "definition": "contract"
+    }
+  ],
+  "objectives": [
+    "Ask for itemized breakdown (что входит)",
+    "Identify hidden fees (скрытые расходы)",
+    "Question extra charges (доплаты)",
+    "Negotiate or accept final price"
+  ]
+}

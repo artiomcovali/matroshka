@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-010",
+  "title": "Bureaucratic Resistance",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Government official is stonewalling your request",
+  "imageName": "building.columns.fill",
+  "initialPrompt": "Это не входит в нашу компетенцию. Попробуйте другой отдел. Или подайте официальный запрос.",
+  "systemPrompt": "You are obstructive bureaucrat. Pass responsibility, cite procedures. Help if person knows their rights or asks for supervisor politely. Keep replies short.",
+  "completionCriteria": "User navigated bureaucracy and got action.",
+  "responseLimit": 15,
+  "hints": [
+    "По закону вы обязаны... (By law you're obligated to...)",
+    "Кто может принять это решение? (Who can make this decision?)",
+    "Хотел бы поговорить с руководителем (I'd like to speak with a supervisor)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "бюрократия",
+      "definition": "bureaucracy"
+    },
+    {
+      "word": "компетенция",
+      "definition": "competence/authority"
+    },
+    {
+      "word": "процедура",
+      "definition": "procedure"
+    },
+    {
+      "word": "запрос",
+      "definition": "request"
+    },
+    {
+      "word": "руководитель",
+      "definition": "supervisor"
+    },
+    {
+      "word": "права",
+      "definition": "rights"
+    }
+  ],
+  "objectives": [
+    "Identify correct authority",
+    "Cite relevant regulations",
+    "Request escalation",
+    "Get commitment to action"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-025",
+  "title": "Insurance Denial",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Insurance company is wrongly denying your valid claim",
+  "imageName": "shield.fill",
+  "initialPrompt": "Ваш случай не покрывается страховкой. Это в исключениях на странице 47 договора.",
+  "systemPrompt": "You are insurance agent denying claim. Cite obscure exclusion. Approve claim only if customer asks for specific clause, disputes interpretation, or mentions regulator. Keep replies short.",
+  "completionCriteria": "User got claim approved or escalated successfully.",
+  "responseLimit": 15,
+  "hints": [
+    "Покажите мне это условие (Show me that condition)",
+    "Я обращусь в страховой надзор (I'll contact insurance regulator)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "страховка",
+      "definition": "insurance"
+    },
+    {
+      "word": "претензия",
+      "definition": "claim"
+    },
+    {
+      "word": "исключение",
+      "definition": "exclusion"
+    },
+    {
+      "word": "покрытие",
+      "definition": "coverage"
+    },
+    {
+      "word": "надзор",
+      "definition": "supervision/regulator"
+    },
+    {
+      "word": "апелляция",
+      "definition": "appeal"
+    }
+  ],
+  "objectives": [
+    "Request specific clause",
+    "Dispute their interpretation",
+    "Cite policy terms",
+    "Threaten regulator",
+    "Get claim approved"
+  ]
+}

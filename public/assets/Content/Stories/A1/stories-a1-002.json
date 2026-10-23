@@ -1,0 +1,189 @@
+{
+  "id": "a1-002",
+  "level": "A1",
+  "narrator": "Иван Петрович",
+  "title": "Мой сосед",
+  "titleEnglish": "My Neighbor",
+  "description": "Иван Петрович рассказывает о себе и своей жизни.",
+  "imageName": "person.fill",
+  "fullText": "Здравствуйте! Меня зовут Иван Петрович. Мне шестьдесят восемь лет. Я живу в маленькой квартире. Моя соседка — Маша. Маша очень добрая девушка. У Маши есть собака Пряник. Пряник часто гуляет со мной в парке! Я учитель, но сейчас я на пенсии. Каждое утро я пью чай и читаю книгу. Потом я иду в парк. Там я сижу на скамейке и смотрю на птиц. Я очень люблю природу и тишину. Вечером я слушаю музыку. Моя жизнь простая, но очень хорошая.",
+  "reviewVocab": [
+    {
+      "word": "соседка",
+      "definition": "female neighbor",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "соседка",
+        "соседки",
+        "соседке"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "пенсия",
+      "definition": "pension, retirement",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "пенсия",
+        "пенсии",
+        "на пенсии"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "скамейка",
+      "definition": "bench",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "скамейка",
+        "скамейки",
+        "на скамейке"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "тишина",
+      "definition": "silence, quiet",
+      "partOfSpeech": "noun (f)",
+      "forms": [
+        "тишина",
+        "тишины",
+        "тишину"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Сколько лет Ивану Петровичу?",
+      "options": [
+        "Пятьдесят восемь",
+        "Шестьдесят восемь",
+        "Семьдесят восемь"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ивану Петровичу шестьдесят восемь лет."
+    },
+    {
+      "prompt": "Кто Иван Петрович по профессии?",
+      "options": [
+        "Врач",
+        "Инженер",
+        "Учитель"
+      ],
+      "correctIndex": 2,
+      "explanation": "Иван Петрович — учитель, но сейчас он на пенсии."
+    },
+    {
+      "prompt": "Что Иван Петрович пьёт каждое утро?",
+      "options": [
+        "Кофе",
+        "Чай",
+        "Молоко"
+      ],
+      "correctIndex": 1,
+      "explanation": "Каждое утро Иван Петрович пьёт чай."
+    },
+    {
+      "prompt": "Где Иван Петрович сидит в парке?",
+      "options": [
+        "На скамейке",
+        "На траве",
+        "На камне"
+      ],
+      "correctIndex": 0,
+      "explanation": "В парке Иван Петрович сидит на скамейке."
+    },
+    {
+      "prompt": "Кто такая Маша для Ивана Петровича?",
+      "options": [
+        "Дочь",
+        "Подруга",
+        "Соседка"
+      ],
+      "correctIndex": 2,
+      "explanation": "Маша — соседка Ивана Петровича."
+    },
+    {
+      "prompt": "Что Иван Петрович делает вечером?",
+      "options": [
+        "Гуляет в парке",
+        "Слушает музыку",
+        "Смотрит телевизор"
+      ],
+      "correctIndex": 1,
+      "explanation": "Вечером Иван Петрович слушает музыку."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Иван Петрович живёт в маленькой _____.",
+      "Маша — _____ Ивана Петровича.",
+      "Каждое утро Иван Петрович пьёт _____.",
+      "В парке Иван Петрович сидит на _____.",
+      "Иван Петрович любит природу и _____."
+    ],
+    "choices": [
+      "квартире",
+      "соседка",
+      "чай",
+      "скамейке",
+      "тишину",
+      "кофе",
+      "подруга"
+    ],
+    "answers": [
+      "квартире",
+      "соседка",
+      "чай",
+      "скамейке",
+      "тишину"
+    ]
+  },
+  "sentenceReorder": {
+    "sentences": [
+      "Потом Иван Петрович идёт в парк.",
+      "Вечером Иван Петрович слушает музыку.",
+      "Утром Иван Петрович пьёт чай.",
+      "В парке Иван Петрович сидит на скамейке."
+    ],
+    "correctOrder": [
+      2,
+      0,
+      3,
+      1
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "How do you say 'I am 68 years old' in Russian?",
+      "options": [
+        "Я шестьдесят восемь лет",
+        "Мне шестьдесят восемь лет",
+        "Мой шестьдесят восемь лет"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "age expressions",
+      "sentenceRef": "Мне шестьдесят восемь лет.",
+      "explanation": "In Russian, age uses the dative case: 'Мне ... лет' (literally 'to me ... years'). You do NOT use 'я' (I am). Example: Мне двадцать лет = I am 20 years old.",
+      "focusArea": "sentenceStructure"
+    },
+    {
+      "prompt": "What does 'на пенсии' mean?",
+      "options": [
+        "At school",
+        "At work",
+        "Retired"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "vocabulary",
+      "sentenceRef": "Я учитель, но сейчас я на пенсии.",
+      "explanation": "'На пенсии' means 'retired' or 'on pension'. When someone stops working because of age, they say: 'Я на пенсии.' The word 'пенсия' means 'pension' or 'retirement'.",
+      "focusArea": "vocabulary"
+    }
+  ],
+  "audioFile": "a1-002.m4a",
+  "audioTimingFile": "a1-002-timing.json"
+}

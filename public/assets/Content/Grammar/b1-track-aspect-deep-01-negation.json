@@ -1,0 +1,294 @@
+{
+  "id": "b1-track-aspect-deep-01-negation",
+  "level": "B1",
+  "focusArea": "aspect",
+  "title": "Aspect Deep 1: Aspect in Negation",
+  "titleRussian": "Виды глагола 1: Отрицание",
+  "description": "Negation changes the aspect calculus. Не + imperfective: the action did not take place at all. Не + perfective: the action took place but did not reach completion.",
+  "descriptionRussian": "При отрицании смысл вида меняется. Не + НСВ — действие не происходило вообще. Не + СВ — действие происходило, но не было доведено до конца.",
+  "imageName": "xmark.circle",
+  "trackId": "b1-aspect-deep-mastery",
+  "trackTitle": "Aspect in Context",
+  "trackTitleRussian": "Виды глагола: глубокое освоение",
+  "trackIndex": 1,
+  "trackTotal": 9,
+  "intro": "You already know how aspect works. This book is about the places where it does something you would not predict, and negation is the first. 'I did not read it' is two different sentences in Russian: one says you never touched it, the other says you started and did not finish. English cannot make that distinction without extra words. Russian makes it with a choice of verb.",
+  "rules": [
+    "Не + imperfective past = the action did not take place. No engagement, no involvement. Use this when 'I didn't do X' means 'I never started.'",
+    "Не + perfective past = the action took place but did not reach completion. Use this when 'I didn't do X' means 'I started but didn't finish.'",
+    "In negation the markedness flips. The imperfective is the neutral 'didn't happen' form; the perfective specifically denies completion.",
+    "Никогда (never) normally pairs with the imperfective here: 'никогда не читал' denies the activity outright. Ни разу (not once) counts occasions instead, so it takes either aspect: 'ни разу не читал' (never engaged with it) but also 'он ни разу не позвонил' (not one call ever got made)."
+  ],
+  "examples": [
+    "Я не читал эту книгу. (I haven't read this book. I never opened it.) Не + НСВ: no engagement.",
+    "Я не прочитал эту книгу. (I didn't finish this book.) Не + СВ: engaged, but did not complete.",
+    "Антон не делал домашнее задание. (Anton didn't do the homework.) Не + НСВ: he never sat down to it.",
+    "Антон не сделал домашнее задание. (Anton didn't complete the homework.) Не + СВ: he worked on it, but didn't finish.",
+    "Маша никогда не писала стихи. (Masha has never written poetry.) Никогда + не + НСВ: not once across her life.",
+    "Лена не написала письмо до утра. (Lena didn't get the letter written by morning.) Не + СВ: she was writing, but didn't finish in time."
+  ],
+  "tables": [
+    {
+      "title": "Aspect in Negation",
+      "headers": [
+        "Construction",
+        "Meaning",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Не + imperfective",
+          "cells": [
+            "The action did not take place. No engagement.",
+            "Я не читал эту книгу."
+          ]
+        },
+        {
+          "label": "Не + perfective",
+          "cells": [
+            "The action took place but did not reach completion.",
+            "Я не прочитал эту книгу."
+          ]
+        },
+        {
+          "label": "Никогда + не",
+          "cells": [
+            "Not once, ever. Pairs with the imperfective.",
+            "Маша никогда не писала стихи."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Маша часто _____ книги по вечерам.",
+          "promptEnglish": "Masha often read books in the evenings.",
+          "options": [
+            "читала",
+            "прочитала",
+            "читает",
+            "прочитает"
+          ],
+          "answer": "читала",
+          "hint": "Recap from A2 Aspect Intro: which aspect goes with a frequency cue like 'часто'?",
+          "explanation": "Recap from A2 Aspect Intro Lesson 4: 'часто' (often) is a habit cue and locks the verb into the imperfective. Past fem -ла: читала. Today's lesson moves to a different context where aspect choice carries fine meaning: negation."
+        },
+        {
+          "prompt": "Я не _____ эту книгу: даже не открывал её.",
+          "promptEnglish": "I (m) haven't read this book; I haven't even opened it.",
+          "options": [
+            "прочитал",
+            "читаю",
+            "читал",
+            "прочитаю"
+          ],
+          "answer": "читал",
+          "hint": "The second clause says 'didn't even open it.' Engagement, or no engagement?",
+          "explanation": "'Даже не открывал её' tells you there was no engagement at all. Не + imperfective marks 'the action did not take place.' Past masc -л: читал."
+        },
+        {
+          "prompt": "Антон не _____ статью до утра, хотя писал её всю ночь.",
+          "promptEnglish": "Anton didn't get the article written by morning, although he was writing it all night.",
+          "options": [
+            "пишет",
+            "написал",
+            "написать",
+            "напишет"
+          ],
+          "answer": "написал",
+          "hint": "He WAS writing all night, but the result fell short. Engagement plus non-completion.",
+          "explanation": "The clause 'хотя писал её всю ночь' shows Anton was engaged with the action. The negation is about the result: the article was not finished by the deadline. Не + perfective: написал, masc -л."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Антон вчера не _____ домашнее задание: ему было плохо.",
+          "promptEnglish": "Anton didn't do the homework yesterday; he wasn't feeling well.",
+          "options": [
+            "сделал",
+            "делает",
+            "делал",
+            "сделает"
+          ],
+          "answer": "делал",
+          "hint": "He never started. No engagement. Which aspect under negation?",
+          "explanation": "Anton was unwell and never sat down to the homework: there was no engagement. Не + imperfective marks the action as not having taken place. Past masc -л: делал."
+        },
+        {
+          "prompt": "Лена не _____ письмо до утра.",
+          "promptEnglish": "Lena didn't finish writing the letter by morning.",
+          "options": [
+            "писала",
+            "напишет",
+            "пишет",
+            "написала"
+          ],
+          "answer": "написала",
+          "hint": "'До утра' is a deadline cue. The result fell short of it.",
+          "explanation": "'До утра' is a deadline cue (compare 'к утру' from A2 Aspect Intro Lesson 5). The negation here denies that the letter was finished by the deadline. Не + perfective: написала, fem -ла."
+        },
+        {
+          "prompt": "Я никогда не _____ этот фильм.",
+          "promptEnglish": "I (m) have never watched this film.",
+          "options": [
+            "посмотрел",
+            "смотрел",
+            "смотрит",
+            "посмотрит"
+          ],
+          "answer": "смотрел",
+          "hint": "Никогда means 'not once, ever.' Which aspect pairs with it under negation?",
+          "explanation": "Никогда (never) pairs with the imperfective in negation: 'not once, ever' is a no-engagement reading. Past masc -л: смотрел."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Игорь не _____ посуду до конца, хотя старался.",
+          "promptEnglish": "Igor didn't finish the dishes, though he was working on them.",
+          "options": [
+            "помыл",
+            "мыл",
+            "моет",
+            "мыть"
+          ],
+          "answer": "помыл",
+          "hint": "Engaged but missed the result: which aspect under не?",
+          "explanation": "Real effort with a missed result takes не + perfective: не помыл до конца."
+        },
+        {
+          "prompt": "Лена никогда не _____ это лекарство.",
+          "promptEnglish": "Lena has never taken this medicine, not once.",
+          "options": [
+            "принимала",
+            "приняла",
+            "примет",
+            "принимает"
+          ],
+          "answer": "принимала",
+          "hint": "Никогда pairs with which aspect?",
+          "explanation": "Никогда ('never') denies the action across all time, which is the imperfective's job: никогда не принимала."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Антон не _____ доклад к сроку, хотя работал над ним.",
+          "promptEnglish": "Anton didn't finish the report by the deadline, though he was working on it.",
+          "options": [
+            "подготовил",
+            "готовил",
+            "готовит",
+            "подготовит"
+          ],
+          "answer": "подготовил",
+          "hint": "A missed deadline after real effort: which aspect?",
+          "explanation": "The missed-result reading takes не + perfective: не подготовил к сроку."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я вчера не _____ ужин: был очень усталым. (I (m) didn't cook dinner yesterday; I was very tired.)"
+    ],
+    "choices": [
+      "готовил",
+      "готовлю",
+      "приготовил",
+      "приготовит"
+    ],
+    "answers": [
+      "готовил"
+    ],
+    "grammarFocus": "The follow-up clause 'был очень усталым' explains a no-engagement reason: the speaker did not begin cooking. Не + imperfective: готовил, masc -л."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Соня не убрала комнату вчера, потому что весь день болела.",
+      "translationEnglish": "Sonya didn't tidy her room yesterday because she was ill all day.",
+      "error": "убрала",
+      "correction": "убирала",
+      "options": [
+        "убирала",
+        "убирает",
+        "уберёт"
+      ],
+      "explanation": "Не + imperfective marks an action that did not take place at all: no engagement. The reason clause 'весь день болела' tells you Sonya never started, so the imperfective убирала is right. The perfective убрала would specifically deny completion (she began tidying but did not finish), which makes no sense when she never began. Reserve не + perfective for the case where the person engaged with the action but fell short of the result."
+    },
+    {
+      "sentence": "Я долго думал над задачей, но так и не решал её.",
+      "translationEnglish": "I thought about the problem for a long time but never did solve it.",
+      "error": "решал",
+      "correction": "решил",
+      "options": [
+        "решил",
+        "решу",
+        "решаю"
+      ],
+      "explanation": "Here the speaker clearly engaged with the action ('долго думал над задачей'), and the negation targets the missed result, so не + perfective: решил. The fixed phrase 'так и не' underscores a result that never arrived and pairs with the perfective. The imperfective решал would claim no engagement at all, which contradicts 'долго думал'."
+    },
+    {
+      "sentence": "В детстве Антон никогда не съел рыбу.",
+      "translationEnglish": "As a child, Anton never ate fish.",
+      "error": "съел",
+      "correction": "ел",
+      "options": [
+        "ел",
+        "ест",
+        "съест"
+      ],
+      "explanation": "Никогда (never, not once) pairs with the imperfective under negation, because 'not once across a whole span' is a no-engagement-at-any-point reading. With the childhood-habit frame 'в детстве', the imperfective ел is required. The perfective съел names a single completed act (ate it all up), which cannot combine with никогда's repeated, lifelong scope. Не + imperfective is the neutral 'it never happened' form."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Я вообще не _____ эту статью.",
+      "contextEnglish": "I (m) haven't read this article at all.",
+      "options": [
+        "читал",
+        "прочитал"
+      ],
+      "answer": "читал",
+      "explanation": "'Вообще' (at all) denies any engagement whatsoever, which is the не + imperfective reading: читал. The perfective прочитал would deny only completion, a narrower claim that 'вообще' contradicts."
+    },
+    {
+      "context": "Я не _____ книгу до конца.",
+      "contextEnglish": "I (m) didn't read the book through to the end.",
+      "options": [
+        "читал",
+        "прочитал"
+      ],
+      "answer": "прочитал",
+      "explanation": "'До конца' (to the end) explicitly targets completion: the speaker read but did not finish. Не + perfective прочитал. The imperfective не читал would deny any reading at all, which 'до конца' contradicts."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "отрицание",
+      "definition": "negation (the не + verb construction; in this lesson the aspect choice changes the meaning of the negation)",
+      "example": "При отрицании выбор вида меняет смысл всей фразы."
+    },
+    {
+      "term": "ни разу",
+      "definition": "not once, not even one time (a frequency reinforcer; pairs with the imperfective in negation, like никогда)",
+      "example": "Я ни разу не читал эту книгу."
+    },
+    {
+      "term": "завершение",
+      "definition": "completion (the meaning the perfective specifically denies under negation; recap from A2 Aspect Intro)",
+      "example": "Не + СВ отрицает именно завершение, а не само действие."
+    }
+  ]
+}

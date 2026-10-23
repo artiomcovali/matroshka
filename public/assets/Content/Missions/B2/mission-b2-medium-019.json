@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-019",
+  "title": "Compliance Gap",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Significant compliance issue found during inspection",
+  "imageName": "checkmark.shield.fill",
+  "initialPrompt": "Обнаружено серьёзное несоответствие требованиям. Это может привести к штрафу или приостановке деятельности.",
+  "systemPrompt": "You are compliance inspector. Found significant gap. Open to remediation plan if company takes responsibility and proposes concrete steps. Keep replies short.",
+  "completionCriteria": "User developed acceptable remediation plan.",
+  "responseLimit": 15,
+  "hints": [
+    "Мы признаём проблему (We acknowledge the problem)",
+    "Вот план исправления (Here's the remediation plan)",
+    "В какой срок нужно устранить? (What's the deadline to fix?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "несоответствие",
+      "definition": "non-compliance"
+    },
+    {
+      "word": "штраф",
+      "definition": "fine"
+    },
+    {
+      "word": "исправление",
+      "definition": "remediation"
+    },
+    {
+      "word": "план",
+      "definition": "plan"
+    },
+    {
+      "word": "срок",
+      "definition": "deadline"
+    },
+    {
+      "word": "ответственность",
+      "definition": "responsibility"
+    }
+  ],
+  "objectives": [
+    "Acknowledge the gap",
+    "Propose remediation",
+    "Agree on timeline",
+    "Avoid penalties"
+  ]
+}

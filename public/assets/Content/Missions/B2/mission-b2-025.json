@@ -1,0 +1,50 @@
+{
+  "id": "mission-b2-025",
+  "title": "Expert Witness",
+  "level": "B2",
+  "difficulty": "easy",
+  "description": "Serve as expert witness explaining technical concepts",
+  "imageName": "person.badge.shield.checkmark.fill",
+  "initialPrompt": "Вы вызваны как эксперт по кибербезопасности. Объясните суду, как произошло нарушение данных.",
+  "systemPrompt": "You are lawyer asking expert to explain breach. Ask for simple explanations, probe conclusions. Help make technical clear for court. Keep replies short.",
+  "completionCriteria": "User explained technical concepts clearly for non-technical audience.",
+  "responseLimit": 15,
+  "hints": [
+    "Простыми словами... (In simple terms...)",
+    "Это можно сравнить с... (This can be compared to...)",
+    "Технически это означает... (Technically this means...)",
+    "На мой экспертный взгляд... (In my expert opinion...)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "эксперт",
+      "definition": "expert"
+    },
+    {
+      "word": "показания",
+      "definition": "testimony"
+    },
+    {
+      "word": "заключение",
+      "definition": "conclusion"
+    },
+    {
+      "word": "доказательства",
+      "definition": "evidence"
+    },
+    {
+      "word": "объяснить",
+      "definition": "to explain"
+    },
+    {
+      "word": "суд",
+      "definition": "court"
+    }
+  ],
+  "objectives": [
+    "Explain technical details simply",
+    "Answer legal questions",
+    "Maintain objectivity",
+    "Provide clear opinions"
+  ]
+}

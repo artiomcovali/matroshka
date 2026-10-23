@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-013",
+  "title": "Budget Cuts Required",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Must reduce your proposed budget significantly",
+  "imageName": "chart.bar.fill",
+  "initialPrompt": "Совет урезал бюджет на 30%. Нужно пересмотреть приоритеты. Что можно сократить?",
+  "systemPrompt": "You are CFO requiring cuts. Push for 30% reduction. Accept reasonable prioritization. Need clear justification for protected items. Keep replies short.",
+  "completionCriteria": "User prioritized and defended essential items.",
+  "responseLimit": 15,
+  "hints": [
+    "Критически важно сохранить... (It's critical to keep...)",
+    "Можем сократить... (We can cut...)",
+    "Без этого проект невозможен (Without this the project is impossible)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "сокращение",
+      "definition": "cut/reduction"
+    },
+    {
+      "word": "приоритет",
+      "definition": "priority"
+    },
+    {
+      "word": "критический",
+      "definition": "critical"
+    },
+    {
+      "word": "обоснование",
+      "definition": "justification"
+    },
+    {
+      "word": "оптимизация",
+      "definition": "optimization"
+    },
+    {
+      "word": "эффективность",
+      "definition": "efficiency"
+    }
+  ],
+  "objectives": [
+    "Identify cut areas",
+    "Protect essential items",
+    "Justify priorities",
+    "Deliver reduced budget"
+  ]
+}

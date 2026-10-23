@@ -1,0 +1,428 @@
+{
+  "id": "a2-025-adjective-all-cases",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Adjectives (All Cases)",
+  "titleRussian": "Прилагательные (все падежи)",
+  "description": "Complete adjective declension review",
+  "descriptionRussian": "Полный обзор склонения прилагательных",
+  "imageName": "tablecells",
+  "intro": "You've now learned adjective endings for all six cases! This lesson brings them together. The key patterns: Nominative has unique endings (-ый/-ая/-ое/-ые). Accusative depends on animacy (animate masc = genitive). Genitive, dative, instrumental, and prepositional each have their patterns. Feminine is easiest - genitive/dative/instrumental/prepositional all use -ой/-ей! Master these patterns and you can describe anything in Russian.",
+  "rules": [
+    "Feminine oblique cases (gen/dat/inst/prep) all use the same ending -ой/-ей — this is the easiest pattern to remember.",
+    "Accusative is the trickiest case: inanimate masculine looks like nominative, but animate masculine looks like genitive.",
+    "Dative (-ому) vs prepositional (-ом): the extra -у in dative is the key distinguishing feature for masculine/neuter.",
+    "When unsure of the case, identify the verb or preposition first — they determine which case the adjective must take."
+  ],
+  "examples": [
+    "Новый студент читает. (The new student is reading.), nom",
+    "Я вижу нового студента. (I see the new student.), acc (animate)",
+    "Книга нового студента. (The new student's book.), gen",
+    "Я помогаю новому студенту. (I help the new student.), dat"
+  ],
+  "tables": [
+    {
+      "title": "Adjective Declension Summary (Hard Stem: новый)",
+      "headers": [
+        "Case",
+        "Masc.",
+        "Fem.",
+        "Neuter",
+        "Plural"
+      ],
+      "rows": [
+        {
+          "label": "Nominative",
+          "cells": [
+            "нов|ый",
+            "нов|ая",
+            "нов|ое",
+            "нов|ые"
+          ]
+        },
+        {
+          "label": "Genitive",
+          "cells": [
+            "нов|ого",
+            "нов|ой",
+            "нов|ого",
+            "нов|ых"
+          ]
+        },
+        {
+          "label": "Dative",
+          "cells": [
+            "нов|ому",
+            "нов|ой",
+            "нов|ому",
+            "нов|ым"
+          ]
+        },
+        {
+          "label": "Accusative",
+          "cells": [
+            "нов|ого*",
+            "нов|ую",
+            "нов|ое",
+            "нов|ых*"
+          ]
+        },
+        {
+          "label": "Instrumental",
+          "cells": [
+            "нов|ым",
+            "нов|ой",
+            "нов|ым",
+            "нов|ыми"
+          ]
+        },
+        {
+          "label": "Prepositional",
+          "cells": [
+            "нов|ом",
+            "нов|ой",
+            "нов|ом",
+            "нов|ых"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ студент пришёл. (The new student arrived.) - nominative",
+          "promptEnglish": "The new student arrived.",
+          "options": [
+            "Новому",
+            "Новым",
+            "Новый",
+            "Нового"
+          ],
+          "answer": "Новый",
+          "hint": "Subject = nominative",
+          "explanation": "Nominative masculine: новый."
+        },
+        {
+          "prompt": "Я вижу _____ студента. (I see the new student.) - accusative",
+          "promptEnglish": "I see the new student.",
+          "options": [
+            "новый",
+            "нового",
+            "новым",
+            "новому"
+          ],
+          "answer": "нового",
+          "hint": "Animate masculine accusative = genitive",
+          "explanation": "Accusative animate: нового."
+        },
+        {
+          "prompt": "Это книга _____ студента. (This is the new student's book.) - genitive",
+          "promptEnglish": "This is the new student's book.",
+          "options": [
+            "новый",
+            "нового",
+            "новом",
+            "новому"
+          ],
+          "answer": "нового",
+          "hint": "Possession = genitive",
+          "explanation": "Genitive masculine: нового."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я помогаю _____ студенту. (I help the new student.) - dative",
+          "promptEnglish": "I help the new student.",
+          "options": [
+            "новом",
+            "новому",
+            "нового",
+            "новым"
+          ],
+          "answer": "новому",
+          "hint": "Помогать + dative",
+          "explanation": "Dative masculine: новому."
+        },
+        {
+          "prompt": "Я говорю с _____ студентом. (I'm talking with the new student.) - instrumental",
+          "promptEnglish": "I'm talking with the new student.",
+          "options": [
+            "новому",
+            "новом",
+            "новым",
+            "нового"
+          ],
+          "answer": "новым",
+          "hint": "С + instrumental",
+          "explanation": "Instrumental masculine: новым."
+        },
+        {
+          "prompt": "Я думаю о _____ студенте. (I'm thinking about the new student.) - prepositional",
+          "promptEnglish": "I'm thinking about the new student.",
+          "options": [
+            "новым",
+            "новом",
+            "новому",
+            "нового"
+          ],
+          "answer": "новом",
+          "hint": "О + prepositional",
+          "explanation": "Prepositional masculine: новом."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я читаю _____ книгу. (I'm reading an interesting book.) - accusative",
+          "promptEnglish": "I'm reading an interesting book.",
+          "options": [
+            "интересной",
+            "интересная",
+            "интересным",
+            "интересную"
+          ],
+          "answer": "интересную",
+          "hint": "Feminine accusative = -ую",
+          "explanation": "Accusative feminine: интересную."
+        },
+        {
+          "prompt": "Нет _____ книги. (There is no interesting book.) - genitive",
+          "promptEnglish": "There is no interesting book.",
+          "options": [
+            "интересную",
+            "интересная",
+            "интересным",
+            "интересной"
+          ],
+          "answer": "интересной",
+          "hint": "Нет + genitive",
+          "explanation": "Genitive feminine: интересной."
+        },
+        {
+          "prompt": "Я рад _____ новостям. (I'm glad for the good news.) - dative",
+          "promptEnglish": "I'm glad for the good news.",
+          "options": [
+            "хорошие",
+            "хороших",
+            "хорошим",
+            "хорошими"
+          ],
+          "answer": "хорошим",
+          "hint": "Рад + dative; plural",
+          "explanation": "Dative plural: хорошим."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Мы работаем с _____ людьми. (We work with good people.)",
+      "Я вижу _____ студента. (I see the new student.)",
+      "Это книга _____ подруги. (This is my good friend's book.)",
+      "Я помогаю _____ студенту. (I help the new student.)",
+      "Мы говорим о _____ фильме. (We are talking about an interesting film.)"
+    ],
+    "choices": [
+      "хорошими",
+      "нового",
+      "хорошей",
+      "новому",
+      "интересном",
+      "хорошие",
+      "новый"
+    ],
+    "answers": [
+      "хорошими",
+      "нового",
+      "хорошей",
+      "новому",
+      "интересном"
+    ],
+    "grammarFocus": "Adjective endings across all six cases",
+    "hints": [
+      "С (with) requires instrumental case. Людьми is plural. What is the plural instrumental adjective ending?",
+      "Вижу (I see) takes accusative. Студент is animate masculine. Animate masculine accusative = which other case?",
+      "Possession (чья книга?) uses genitive. Подруга is feminine. Feminine genitive ending: -ой or -ую?",
+      "Помогаю (I help) takes dative. Студент is masculine. Masculine dative ending: -ому or -ом?",
+      "О (about) requires prepositional. Фильм is masculine. Masculine prepositional ending: -ом or -ому?"
+    ],
+    "explanations": [
+      "С requires instrumental. Plural: хорошие → хорошими (ending -ими).",
+      "Animate masculine accusative = genitive: новый → нового.",
+      "Possession uses genitive. Feminine: хорошая → хорошей (ending -ей).",
+      "Помогать takes dative. Masculine: новый → новому (ending -ому).",
+      "О requires prepositional. Masculine: интересный → интересном (ending -ом)."
+    ],
+    "options": [
+      [
+        "хорошими",
+        "хороших",
+        "хорошие",
+        "хороший"
+      ],
+      [
+        "новому",
+        "новое",
+        "нового",
+        "новый"
+      ],
+      [
+        "хорошей",
+        "хорошая",
+        "хороший",
+        "хорошую"
+      ],
+      [
+        "новое",
+        "новый",
+        "нового",
+        "новому"
+      ],
+      [
+        "интересному",
+        "интересном",
+        "интересного",
+        "интересный"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я вижу _____ дом. (I see the new house.) - accusative inanimate",
+      "contextEnglish": "I see the new house.",
+      "options": [
+        "новый",
+        "нового"
+      ],
+      "answer": "новый",
+      "explanation": "Inanimate accusative = nominative: новый."
+    },
+    {
+      "context": "Я вижу _____ студента. (I see the new student.) - accusative animate",
+      "contextEnglish": "I see the new student.",
+      "options": [
+        "нового",
+        "новый"
+      ],
+      "answer": "нового",
+      "explanation": "Animate accusative = genitive: нового."
+    },
+    {
+      "context": "Я помогаю _____ студенту. (I help the new student.) - dative",
+      "contextEnglish": "I help the new student.",
+      "options": [
+        "новому",
+        "новом"
+      ],
+      "answer": "новому",
+      "explanation": "Dative: новому (-ому)."
+    },
+    {
+      "context": "Я думаю о _____ студенте. (I think about the new student.) - prepositional",
+      "contextEnglish": "I think about the new student.",
+      "options": [
+        "новом",
+        "новому"
+      ],
+      "answer": "новом",
+      "explanation": "Prepositional: новом (-ом)."
+    }
+  ],
+  "declensionTable": {
+    "word": "новый",
+    "wordType": "adjective",
+    "gender": "masculine",
+    "paradigm": {
+      "nominative": "новый",
+      "genitive": "нового",
+      "dative": "новому",
+      "accusative": "нового",
+      "instrumental": "новым",
+      "prepositional": "новом"
+    },
+    "blanks": [
+      "genitive",
+      "dative",
+      "accusative",
+      "instrumental",
+      "prepositional"
+    ],
+    "hints": [
+      "Fill in all oblique cases for masculine новый"
+    ],
+    "explanations": [
+      "Genitive: -ый → -ого (г pronounced /v/): новый → нового",
+      "Dative: -ый → -ому: новый → новому",
+      "Accusative: = genitive for animate, = nominative for inanimate: нового",
+      "Instrumental: -ый → -ым: новый → новым",
+      "Prepositional: -ый → -ом: новый → новом"
+    ]
+  },
+  "categorySorting": {
+    "instruction": "Sort by case",
+    "categories": [
+      "Nominative",
+      "Accusative",
+      "Genitive",
+      "Dative",
+      "Instrumental",
+      "Prepositional"
+    ],
+    "items": [
+      {
+        "word": "Новый студент пришёл",
+        "category": "Nominative"
+      },
+      {
+        "word": "Вижу нового студента",
+        "category": "Accusative"
+      },
+      {
+        "word": "Книга нового студента",
+        "category": "Genitive"
+      },
+      {
+        "word": "Помогаю новому студенту",
+        "category": "Dative"
+      },
+      {
+        "word": "Говорю с новым студентом",
+        "category": "Instrumental"
+      },
+      {
+        "word": "Думаю о новом студенте",
+        "category": "Prepositional"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "Им. -ый/-ая/-ое/-ые",
+      "definition": "nominative endings",
+      "example": "Новый, новая, новое, новые."
+    },
+    {
+      "term": "Вин. одуш. = Род.",
+      "definition": "animate accusative = genitive",
+      "example": "Вижу нового студента."
+    },
+    {
+      "term": "Род./Дат./Тв./Пр. (ж) = -ой",
+      "definition": "fem gen/dat/inst/prep all -ой/-ей",
+      "example": "Новой книги/книге/книгой/книге."
+    },
+    {
+      "term": "Дат. -ому vs Пр. -ом",
+      "definition": "dative -ому, prepositional -ом",
+      "example": "Новому (dat) vs новом (prep)."
+    }
+  ]
+}

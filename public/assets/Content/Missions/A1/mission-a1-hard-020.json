@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-020",
+  "title": "Lost Without GPS",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "Your phone died and a local is unhelpful",
+  "imageName": "figure.walk",
+  "initialPrompt": "Что? Я спешу.",
+  "systemPrompt": "You're busy and impatient. Give vague directions: 'Туда, потом... не знаю.' Help properly only if user is very polite or asks simple yes/no questions. Keep replies short.",
+  "completionCriteria": "User got usable directions through patient questioning.",
+  "responseLimit": 15,
+  "hints": [
+    "Простите, я потерялся (Sorry, I'm lost)",
+    "Метро налево или направо? (Metro left or right?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "потерялся",
+      "definition": "I'm lost"
+    },
+    {
+      "word": "далеко",
+      "definition": "far"
+    },
+    {
+      "word": "близко",
+      "definition": "near"
+    },
+    {
+      "word": "туда",
+      "definition": "that way"
+    },
+    {
+      "word": "метро",
+      "definition": "metro"
+    }
+  ],
+  "objectives": [
+    "Get the person's attention (Простите)",
+    "Explain you're lost (Я потерялся)",
+    "Ask simple yes/no questions",
+    "Confirm directions (налево? направо?)",
+    "Get clear directions to metro"
+  ]
+}

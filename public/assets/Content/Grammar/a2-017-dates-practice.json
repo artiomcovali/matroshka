@@ -1,0 +1,790 @@
+{
+  "lessonId": "a2-017-dates",
+  "sets": [
+    {
+      "id": "round-1-stating-vs-on",
+      "title": "Stating vs On a Date",
+      "titleRussian": "Называние даты и предлог «в»",
+      "description": "The key distinction: neuter nominative (stating) vs genitive (on a date)",
+      "descriptionRussian": "Именительный (называние) или родительный (событие в дату)",
+      "icon": "calendar",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Сегодня _____ марта. (Today is March 8th.)",
+              "promptEnglish": "Today is March 8th.",
+              "options": [
+                "восьмое",
+                "восьмого",
+                "восьмой",
+                "восемь"
+              ],
+              "answer": "восьмое",
+              "hint": "Stating the date = neuter nominative.",
+              "explanation": "Stating dates: neuter ordinal. Восьмое марта."
+            },
+            {
+              "prompt": "Она приехала _____ марта. (She arrived on March 8th.)",
+              "promptEnglish": "She arrived on March 8th.",
+              "options": [
+                "восьмое",
+                "восьмого",
+                "восьмой",
+                "восемь"
+              ],
+              "answer": "восьмого",
+              "hint": "Event 'on' a date = genitive ordinal.",
+              "explanation": "Events on dates: genitive. Восьмого марта."
+            },
+            {
+              "prompt": "Какое сегодня число? - _____ июня. (What date is it? - June 15th.)",
+              "promptEnglish": "What date is it? - June 15th.",
+              "options": [
+                "Пятнадцатого",
+                "Пятнадцатый",
+                "Пятнадцатое",
+                "Пятнадцать"
+              ],
+              "answer": "Пятнадцатое",
+              "hint": "Answering 'what date' = stating = neuter.",
+              "explanation": "Stating the date: neuter. Пятнадцатое июня."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Мой день рождения _____ октября. (My birthday is on October 3rd.)",
+              "promptEnglish": "My birthday is on October 3rd.",
+              "options": [
+                "третьего",
+                "третье",
+                "третий",
+                "третья"
+              ],
+              "answer": "третьего",
+              "hint": "Birthday happens 'on' a date = genitive.",
+              "explanation": "Events on dates: genitive. Третьего октября."
+            },
+            {
+              "prompt": "Завтра _____ ноября. (Tomorrow is November 20th.)",
+              "promptEnglish": "Tomorrow is November 20th.",
+              "options": [
+                "двадцатый",
+                "двадцатого",
+                "двадцатое",
+                "двадцать"
+              ],
+              "answer": "двадцатое",
+              "hint": "Stating what date tomorrow is = neuter.",
+              "explanation": "Stating dates: neuter. Двадцатое ноября."
+            },
+            {
+              "prompt": "Экзамен _____ декабря. (The exam is on December 25th.)",
+              "promptEnglish": "The exam is on December 25th.",
+              "options": [
+                "двадцать пятое",
+                "двадцать пятого",
+                "двадцать пять",
+                "двадцать пятый"
+              ],
+              "answer": "двадцать пятого",
+              "hint": "Event on a date = genitive. Compound: last word ordinal.",
+              "explanation": "Event on date: genitive. Двадцать пятого декабря."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Сегодня _____ февраля. (Today is February 14th.)",
+          "Он родился _____ апреля. (He was born on April 7th.)",
+          "Завтра _____ сентября. (Tomorrow is September 1st.)"
+        ],
+        "choices": [
+          "четырнадцатое",
+          "седьмого",
+          "первое",
+          "четырнадцатого",
+          "первого"
+        ],
+        "answers": [
+          "четырнадцатое",
+          "седьмого",
+          "первое"
+        ],
+        "grammarFocus": "Stating dates (neuter) vs on a date (genitive)",
+        "hints": [
+          "Stating today's date = neuter nominative.",
+          "Born 'on' a date = genitive ordinal.",
+          "Stating tomorrow's date = neuter nominative."
+        ],
+        "explanations": [
+          "Stating: neuter. Четырнадцатое февраля.",
+          "Born on: genitive. Седьмого апреля.",
+          "Stating: neuter. Первое сентября."
+        ],
+        "options": [
+          [
+            "четырнадцатым",
+            "четырнадцатого",
+            "четырнадцатое",
+            "четырнадцатому"
+          ],
+          [
+            "седьмое",
+            "седьмому",
+            "седьмого",
+            "седьмой"
+          ],
+          [
+            "первого",
+            "первое",
+            "первый",
+            "первому"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "Сегодня _____ мая. (Today is May 1st.)",
+          "contextEnglish": "Today is May 1st. (stating the date)",
+          "options": [
+            "первое",
+            "первого"
+          ],
+          "answer": "первое",
+          "explanation": "Stating what date it is: neuter nominative. Первое мая."
+        },
+        {
+          "context": "Праздник _____ мая. (The holiday is on May 1st.)",
+          "contextEnglish": "The holiday is on May 1st. (event on a date)",
+          "options": [
+            "первого",
+            "первое"
+          ],
+          "answer": "первого",
+          "explanation": "Event happening on a date: genitive. Первого мая."
+        }
+      ]
+    },
+    {
+      "id": "round-2-months-genitive",
+      "title": "Months in Genitive",
+      "titleRussian": "Месяцы в родительном падеже",
+      "description": "Practice genitive forms of all twelve months",
+      "descriptionRussian": "Родительный падеж всех двенадцати месяцев",
+      "icon": "calendar.badge.clock",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Сегодня пятое _____. (Today is January 5th.)",
+              "promptEnglish": "Today is January 5th.",
+              "options": [
+                "января",
+                "январь",
+                "январю",
+                "январём"
+              ],
+              "answer": "января",
+              "hint": "Month after a date is always genitive.",
+              "explanation": "Month in genitive after ordinal date: января."
+            },
+            {
+              "prompt": "Встреча десятого _____. (The meeting is on April 10th.)",
+              "promptEnglish": "The meeting is on April 10th.",
+              "options": [
+                "апрель",
+                "апреля",
+                "апреле",
+                "апрелю"
+              ],
+              "answer": "апреля",
+              "hint": "Month in genitive.",
+              "explanation": "Month after date: genitive. Апреля."
+            },
+            {
+              "prompt": "Она уехала третьего _____. (She left on August 3rd.)",
+              "promptEnglish": "She left on August 3rd.",
+              "options": [
+                "августе",
+                "август",
+                "августом",
+                "августа"
+              ],
+              "answer": "августа",
+              "hint": "Month in genitive after date.",
+              "explanation": "Genitive of август: августа."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Он приедет двадцатого _____. (He'll arrive on June 20th.)",
+              "promptEnglish": "He'll arrive on June 20th.",
+              "options": [
+                "июня",
+                "июнь",
+                "июне",
+                "июню"
+              ],
+              "answer": "июня",
+              "hint": "Month in genitive.",
+              "explanation": "Genitive of июнь: июня."
+            },
+            {
+              "prompt": "Новый год первого _____. (New Year is on January 1st.)",
+              "promptEnglish": "New Year is on January 1st.",
+              "options": [
+                "январь",
+                "января",
+                "январём",
+                "январю"
+              ],
+              "answer": "января",
+              "hint": "Month in genitive after date.",
+              "explanation": "Genitive of январь: января."
+            },
+            {
+              "prompt": "Экзамен пятнадцатого _____. (The exam is on December 15th.)",
+              "promptEnglish": "The exam is on December 15th.",
+              "options": [
+                "декабрь",
+                "декабре",
+                "декабря",
+                "декабрём"
+              ],
+              "answer": "декабря",
+              "hint": "Month in genitive.",
+              "explanation": "Genitive of декабрь: декабря."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort months by their genitive ending pattern",
+        "categories": [
+          "-а (hard stem)",
+          "-я (soft stem)"
+        ],
+        "items": [
+          {
+            "word": "марта (March)",
+            "category": "-а (hard stem)"
+          },
+          {
+            "word": "января (January)",
+            "category": "-я (soft stem)"
+          },
+          {
+            "word": "августа (August)",
+            "category": "-а (hard stem)"
+          },
+          {
+            "word": "октября (October)",
+            "category": "-я (soft stem)"
+          },
+          {
+            "word": "мая (May)",
+            "category": "-я (soft stem)"
+          },
+          {
+            "word": "февраля (February)",
+            "category": "-я (soft stem)"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Сегодня пятое март.",
+          "error": "март",
+          "correction": "марта",
+          "explanation": "Month after a date must be genitive: март → марта.",
+          "options": [
+            "марта",
+            "марте",
+            "мартом"
+          ]
+        },
+        {
+          "sentence": "Она родилась третьего июль.",
+          "error": "июль",
+          "correction": "июля",
+          "explanation": "Month in genitive: июль → июля.",
+          "options": [
+            "июля",
+            "июле",
+            "июлю"
+          ]
+        },
+        {
+          "sentence": "Праздник девятого маем.",
+          "error": "маем",
+          "correction": "мая",
+          "explanation": "Month after date is genitive, not instrumental: май → мая.",
+          "options": [
+            "мая",
+            "май",
+            "мае",
+            "маю"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-3-compound-dates",
+      "title": "Compound Dates",
+      "titleRussian": "Составные даты",
+      "description": "Practice dates with two-digit numbers (21st, 30th, etc.)",
+      "descriptionRussian": "Даты с двузначными числами",
+      "icon": "textformat.123",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Сегодня двадцать _____ июня. (Today is June 23rd.)",
+              "promptEnglish": "Today is June 23rd.",
+              "options": [
+                "третье",
+                "третий",
+                "третьего",
+                "три"
+              ],
+              "answer": "третье",
+              "hint": "Stating date = neuter. Only last word is ordinal.",
+              "explanation": "Stating date, compound: двадцать третье (neuter)."
+            },
+            {
+              "prompt": "Мы приехали тридцать _____ августа. (We arrived August 31st.)",
+              "promptEnglish": "We arrived August 31st.",
+              "options": [
+                "первое",
+                "первый",
+                "первого",
+                "один"
+              ],
+              "answer": "первого",
+              "hint": "Arrived 'on' a date = genitive. Last word ordinal.",
+              "explanation": "Event on date, compound: тридцать первого (genitive)."
+            },
+            {
+              "prompt": "Завтра двадцать _____ декабря. (Tomorrow is December 25th.)",
+              "promptEnglish": "Tomorrow is December 25th.",
+              "options": [
+                "пятый",
+                "пятого",
+                "пятое",
+                "пять"
+              ],
+              "answer": "пятое",
+              "hint": "Stating the date = neuter. Only last word is ordinal.",
+              "explanation": "Stating date: двадцать пятое (neuter)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Экзамен двадцать _____ мая. (The exam is on May 28th.)",
+              "promptEnglish": "The exam is on May 28th.",
+              "options": [
+                "восьмое",
+                "восьмого",
+                "восьмой",
+                "восемь"
+              ],
+              "answer": "восьмого",
+              "hint": "Event on date = genitive.",
+              "explanation": "Event date: двадцать восьмого мая."
+            },
+            {
+              "prompt": "Какое число? - Тридцать _____. (What date? - The 30th.)",
+              "promptEnglish": "What date? - The 30th.",
+              "options": [
+                "тридцатое",
+                "тридцатого",
+                "тридцатый",
+                "тридцать"
+              ],
+              "answer": "тридцатое",
+              "hint": "Answering 'what date' = stating = neuter.",
+              "explanation": "Stating the date: neuter. Тридцатое."
+            },
+            {
+              "prompt": "Свадьба двадцать _____ сентября. (The wedding is on September 22nd.)",
+              "promptEnglish": "The wedding is on September 22nd.",
+              "options": [
+                "второе",
+                "второй",
+                "вторым",
+                "второго"
+              ],
+              "answer": "второго",
+              "hint": "Event on date = genitive.",
+              "explanation": "Event date, compound: двадцать второго сентября."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "sourceText": "Today is March 15th.",
+          "targetText": "Сегодня пятнадцатое марта.",
+          "hint": "Stating a date = neuter ordinal + genitive month.",
+          "explanation": "Stating: neuter. Пятнадцатое марта.",
+          "keyWord": "пятнадцатое",
+          "options": [
+            "пятнадцатое",
+            "пятнадцатого",
+            "пятнадцатый",
+            "пятнадцать"
+          ]
+        },
+        {
+          "sourceText": "He arrived on October 21st.",
+          "targetText": "Он приехал двадцать первого октября.",
+          "hint": "Arrived 'on' = event date = genitive ordinal.",
+          "explanation": "Event on date: genitive. Двадцать первого октября.",
+          "keyWord": "первого",
+          "options": [
+            "первого",
+            "первое",
+            "первый",
+            "первым"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-years",
+      "title": "Years and Full Dates",
+      "titleRussian": "Годы и полные даты",
+      "description": "Practice saying years and combining dates with years",
+      "descriptionRussian": "Называние годов и полных дат",
+      "icon": "clock.arrow.circlepath",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Это было в две тысячи _____ году. (This was in 2010.)",
+              "promptEnglish": "This was in 2010.",
+              "options": [
+                "десятый",
+                "десятом",
+                "десятого",
+                "десять"
+              ],
+              "answer": "десятом",
+              "hint": "В + prepositional for years.",
+              "explanation": "В + prepositional: десятый → десятом. В 2010 году."
+            },
+            {
+              "prompt": "Она родилась в тысяча девятьсот _____ году. (She was born in 1990.)",
+              "promptEnglish": "She was born in 1990.",
+              "options": [
+                "девяностом",
+                "девяносто",
+                "девяностый",
+                "девяностого"
+              ],
+              "answer": "девяностом",
+              "hint": "В + prepositional. Only last word is ordinal.",
+              "explanation": "В + prepositional: девяностый → девяностом. В 1990 году."
+            },
+            {
+              "prompt": "Мы переехали в две тысячи _____ году. (We moved in 2015.)",
+              "promptEnglish": "We moved in 2015.",
+              "options": [
+                "пятнадцатого",
+                "пятнадцатом",
+                "пятнадцать",
+                "пятнадцатый"
+              ],
+              "answer": "пятнадцатом",
+              "hint": "В + prepositional case for years.",
+              "explanation": "В + prepositional: пятнадцатый → пятнадцатом."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Он уехал _____ марта две тысячи двадцать третьего года. (He left on March 5th, 2023.)",
+              "promptEnglish": "He left on March 5th, 2023.",
+              "options": [
+                "пятое",
+                "пятого",
+                "пятый",
+                "пять"
+              ],
+              "answer": "пятого",
+              "hint": "Event on a date = genitive ordinal.",
+              "explanation": "Full date with event: genitive. Пятого марта 2023 года."
+            },
+            {
+              "prompt": "Это случилось в _____ году. (This happened in 2000.)",
+              "promptEnglish": "This happened in 2000.",
+              "options": [
+                "двухтысячный",
+                "двухтысячном",
+                "две тысячи",
+                "двухтысячного"
+              ],
+              "answer": "двухтысячном",
+              "hint": "В + prepositional for years.",
+              "explanation": "В + prepositional: двухтысячный → двухтысячном."
+            },
+            {
+              "prompt": "Какой сейчас _____? (What year is it now?)",
+              "promptEnglish": "What year is it now?",
+              "options": [
+                "год",
+                "году",
+                "года",
+                "годом"
+              ],
+              "answer": "год",
+              "hint": "Какой + nominative.",
+              "explanation": "Nominative: какой сейчас год?"
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Он родился в _____ году. (He was born in 2005.)",
+          "Мы встретились первого января _____ года. (We met on January 1st, 2020.)",
+          "Это было в тысяча девятьсот _____ году. (That was in 1985.)"
+        ],
+        "choices": [
+          "две тысячи пятом",
+          "две тысячи двадцатого",
+          "восемьдесят пятом",
+          "две тысячи пятого",
+          "восемьдесят пятый"
+        ],
+        "answers": [
+          "две тысячи пятом",
+          "две тысячи двадцатого",
+          "восемьдесят пятом"
+        ],
+        "grammarFocus": "Years: в + prepositional (в ... году) and genitive for date + year combinations",
+        "hints": [
+          "В + prepositional: compound, only last word is ordinal in prepositional case.",
+          "After a specific date, the year takes genitive: ... года.",
+          "В + prepositional: last word ordinal in prepositional."
+        ],
+        "explanations": [
+          "В + prepositional: две тысячи пятом году.",
+          "Date + year: genitive. Первого января две тысячи двадцатого года.",
+          "В + prepositional: восемьдесят пятом году."
+        ],
+        "options": [
+          [
+            "две тысячи пятого",
+            "восемьдесят пятый",
+            "восемьдесят пятом",
+            "две тысячи пятом"
+          ],
+          [
+            "две тысячи пятого",
+            "восемьдесят пятом",
+            "две тысячи пятом",
+            "две тысячи двадцатого"
+          ],
+          [
+            "восемьдесят пятый",
+            "восемьдесят пятом",
+            "две тысячи двадцатого",
+            "две тысячи пятого"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All date skills combined: stating, events, months, years",
+      "descriptionRussian": "Все навыки по датам: называние, события, месяцы, годы",
+      "icon": "bolt.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Какое сегодня число? - _____ апреля. (What date? - April 12th.)",
+              "promptEnglish": "What date is it? - April 12th.",
+              "options": [
+                "Двенадцатое",
+                "Двенадцатого",
+                "Двенадцатый",
+                "Двенадцать"
+              ],
+              "answer": "Двенадцатое",
+              "hint": "Answering 'what date' = stating = neuter.",
+              "explanation": "Stating the date: neuter. Двенадцатое апреля."
+            },
+            {
+              "prompt": "Концерт _____ июля. (The concert is on July 5th.)",
+              "promptEnglish": "The concert is on July 5th.",
+              "options": [
+                "пятое",
+                "пятого",
+                "пятый",
+                "пять"
+              ],
+              "answer": "пятого",
+              "hint": "Event on a date = genitive.",
+              "explanation": "Event: genitive. Пятого июля."
+            },
+            {
+              "prompt": "Это было в две тысячи _____ году. (This was in 2018.)",
+              "promptEnglish": "This was in 2018.",
+              "options": [
+                "восемнадцатого",
+                "восемнадцатом",
+                "восемнадцатый",
+                "восемнадцать"
+              ],
+              "answer": "восемнадцатом",
+              "hint": "В + prepositional for years.",
+              "explanation": "В + prepositional: восемнадцатом году."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Он уехал двадцать _____ ноября. (He left on November 29th.)",
+              "promptEnglish": "He left on November 29th.",
+              "options": [
+                "девятого",
+                "девятое",
+                "девять",
+                "девятый"
+              ],
+              "answer": "девятого",
+              "hint": "Left 'on' a date = genitive. Last word ordinal.",
+              "explanation": "Event on compound date: двадцать девятого ноября."
+            },
+            {
+              "prompt": "Сегодня первое _____. (Today is February 1st.)",
+              "promptEnglish": "Today is February 1st.",
+              "options": [
+                "февраль",
+                "февраля",
+                "феврале",
+                "февралю"
+              ],
+              "answer": "февраля",
+              "hint": "Month after date is always genitive.",
+              "explanation": "Month in genitive after date: февраля."
+            },
+            {
+              "prompt": "Её день рождения _____ мая. (Her birthday is on May 16th.)",
+              "promptEnglish": "Her birthday is on May 16th.",
+              "options": [
+                "шестнадцатое",
+                "шестнадцатый",
+                "шестнадцатого",
+                "шестнадцать"
+              ],
+              "answer": "шестнадцатого",
+              "hint": "Birthday on a date = genitive.",
+              "explanation": "Event on date: genitive. Шестнадцатого мая."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "sourceText": "Today is September 1st.",
+          "targetText": "Сегодня первое сентября.",
+          "hint": "Stating date: neuter ordinal + genitive month.",
+          "explanation": "Stating: neuter. Первое сентября.",
+          "keyWord": "первое",
+          "options": [
+            "первое",
+            "первого",
+            "первый",
+            "первым"
+          ]
+        },
+        {
+          "sourceText": "She was born on March 22nd.",
+          "targetText": "Она родилась двадцать второго марта.",
+          "hint": "Born 'on' = event = genitive. Compound: last word ordinal.",
+          "explanation": "Event date, compound: двадцать второго марта.",
+          "keyWord": "второго",
+          "options": [
+            "второго",
+            "второе",
+            "второй",
+            "вторым"
+          ]
+        },
+        {
+          "sourceText": "In the year 2024.",
+          "targetText": "В две тысячи двадцать четвёртом году.",
+          "hint": "В + prepositional. Last word ordinal in prepositional case.",
+          "explanation": "В + prepositional: четвёртый → четвёртом. Году.",
+          "keyWord": "четвёртом",
+          "options": [
+            "четвёртом",
+            "четвёртого",
+            "четвёртый",
+            "четвёртому"
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Сегодня десятый марта.",
+          "error": "десятый",
+          "correction": "десятое",
+          "explanation": "Dates use neuter, not masculine: десятый → десятое.",
+          "options": [
+            "десятое",
+            "десятого",
+            "десять"
+          ]
+        },
+        {
+          "sentence": "Он приехал пятое июня.",
+          "error": "пятое",
+          "correction": "пятого",
+          "explanation": "Event 'on' a date uses genitive: пятое → пятого.",
+          "options": [
+            "пятого",
+            "пятый",
+            "пять"
+          ]
+        },
+        {
+          "sentence": "Мы встретились в двадцатый году.",
+          "error": "двадцатый",
+          "correction": "двадцатом",
+          "explanation": "В + prepositional for years: двадцатый → двадцатом.",
+          "options": [
+            "двадцатом",
+            "двадцатого",
+            "двадцать"
+          ]
+        }
+      ]
+    }
+  ]
+}

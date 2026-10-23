@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-029",
+  "title": "Music Lessons",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Arrange piano lessons with a music teacher",
+  "imageName": "pianokeys",
+  "initialPrompt": "Здравствуйте! Вы хотите учиться играть на пианино? У вас есть опыт?",
+  "systemPrompt": "You are a piano teacher. Offer private lessons: 45 min, 2500₽/lesson, at your studio or student's home (+500₽). Ask about goals, schedule preference, whether they have a piano. Keep replies short.",
+  "completionCriteria": "User arranged first lesson with time and location.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу научиться играть (I want to learn to play)",
+    "Сколько стоит урок? (How much is a lesson?)",
+    "Можно заниматься дома? (Can we have lessons at home?)",
+    "Какое расписание? (What's the schedule?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "урок",
+      "definition": "lesson"
+    },
+    {
+      "word": "пианино",
+      "definition": "piano"
+    },
+    {
+      "word": "играть",
+      "definition": "to play"
+    },
+    {
+      "word": "расписание",
+      "definition": "schedule"
+    },
+    {
+      "word": "опыт",
+      "definition": "experience"
+    },
+    {
+      "word": "занятие",
+      "definition": "lesson/class"
+    }
+  ],
+  "objectives": [
+    "Explain you want lessons",
+    "Discuss your experience level",
+    "Agree on schedule and location",
+    "Book first lesson"
+  ]
+}

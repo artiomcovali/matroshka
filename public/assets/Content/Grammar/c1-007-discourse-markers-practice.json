@@ -1,0 +1,66 @@
+{
+  "lessonId": "c1-007-discourse-markers",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Identify discourse markers by function, then choose between easily confused pairs",
+      "descriptionRussian": "Определите функцию дискурсивных маркеров и выберите между похожими маркерами",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Addition: Проект дорогой. _____, он требует много времени.",
+              "promptEnglish": "The project is expensive. Moreover, it requires a lot of time.",
+              "options": ["Однако", "Кроме того", "Итак", "Всё-таки"],
+              "answer": "Кроме того",
+              "hint": "Adding another negative point to the first.",
+              "explanation": "Кроме того (moreover/besides) is an addition marker that piles on extra information in the same direction."
+            },
+            {
+              "prompt": "Contrast: Погода была ужасная. _____, концерт прошёл успешно.",
+              "promptEnglish": "The weather was terrible. Nevertheless, the concert was a success.",
+              "options": ["Более того", "Следовательно", "Тем не менее", "Наконец"],
+              "answer": "Тем не менее",
+              "hint": "The outcome was unexpected given the bad weather.",
+              "explanation": "Тем не менее (nevertheless) signals that the result contradicts what you would expect from the first statement."
+            },
+            {
+              "prompt": "Result: Все данные подтверждают эту теорию. _____, мы можем её принять.",
+              "promptEnglish": "All data supports this theory. Therefore, we can accept it.",
+              "options": ["Впрочем", "Кроме того", "Следовательно", "Во-первых"],
+              "answer": "Следовательно",
+              "hint": "Drawing a logical conclusion from evidence.",
+              "explanation": "Следовательно (therefore/consequently) introduces a logical conclusion drawn from the preceding evidence."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Sequence: _____, нужно собрать материалы. Во-вторых, составить план.",
+              "promptEnglish": "First, you need to gather materials. Second, make a plan.",
+              "options": ["Наконец", "К тому же", "Однако", "Во-первых"],
+              "answer": "Во-первых",
+              "hint": "The first item in an enumerated list.",
+              "explanation": "Во-первых (firstly) opens an ordered sequence. It pairs naturally with во-вторых, в-третьих, наконец."
+            },
+            {
+              "prompt": "Addition (emphatic): Она прекрасный врач. _____, она отличный преподаватель.",
+              "promptEnglish": "She is an excellent doctor. What's more, she is an outstanding teacher.",
+              "options": ["Более того", "Тем не менее", "Впрочем", "Итак"],
+              "answer": "Более того",
+              "hint": "Adding something even more impressive.",
+              "explanation": "Более того (moreover/what's more) adds an even stronger point, escalating from the first statement."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": []
+    }
+  ]
+}

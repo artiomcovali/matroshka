@@ -1,0 +1,564 @@
+{
+  "lessonId": "a1-002-noun-gender",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Quiz and compare across all three genders",
+      "descriptionRussian": "Викторина по всем трём родам существительных",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What gender is «город» (city)?",
+              "promptEnglish": "What gender is «город» (city)?",
+              "options": [
+                "masculine",
+                "feminine",
+                "neuter"
+              ],
+              "answer": "masculine",
+              "hint": "Look at the last letter. Город ends in a consonant.",
+              "explanation": "Город ends in the consonant д. Nouns ending in consonants are masculine."
+            },
+            {
+              "prompt": "What gender is «деревня» (village)?",
+              "promptEnglish": "What gender is «деревня» (village)?",
+              "options": [
+                "neuter",
+                "feminine",
+                "masculine"
+              ],
+              "answer": "feminine",
+              "hint": "The -я ending works just like -а.",
+              "explanation": "Деревня ends in -я. Like -а, the -я ending marks feminine gender."
+            },
+            {
+              "prompt": "What gender is «яблоко» (apple)?",
+              "promptEnglish": "What gender is «яблоко» (apple)?",
+              "options": [
+                "masculine",
+                "feminine",
+                "neuter"
+              ],
+              "answer": "neuter",
+              "hint": "Look at the ending -о.",
+              "explanation": "Яблоко ends in -о, the standard neuter ending."
+            },
+            {
+              "prompt": "What gender is «день» (day)?",
+              "promptEnglish": "What gender is «день» (day)?",
+              "options": [
+                "feminine",
+                "masculine",
+                "neuter"
+              ],
+              "answer": "masculine",
+              "hint": "This -ь word is masculine. It must be memorized.",
+              "explanation": "День ends in -ь but is masculine. Some -ь nouns are masculine (день, словарь), others feminine (ночь, тетрадь)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Which word is masculine?",
+          "contextEnglish": "Which of these is a masculine noun?",
+          "options": [
+            "стул",
+            "лампа"
+          ],
+          "answer": "стул",
+          "explanation": "Стул (chair) ends in a consonant (masculine). Лампа ends in -а (feminine)."
+        },
+        {
+          "context": "Which word is neuter?",
+          "contextEnglish": "Which of these is a neuter noun?",
+          "options": [
+            "молоко",
+            "книга"
+          ],
+          "answer": "молоко",
+          "explanation": "Молоко (milk) ends in -о (neuter). Книга ends in -а (feminine)."
+        },
+        {
+          "context": "Which word is feminine?",
+          "contextEnglish": "Which of these is a feminine noun?",
+          "options": [
+            "парк",
+            "улица"
+          ],
+          "answer": "улица",
+          "explanation": "Улица (street) ends in -а (feminine). Парк ends in a consonant (masculine)."
+        },
+        {
+          "context": "Ночь (night) ends in -ь. What is its gender?",
+          "contextEnglish": "Is ночь masculine or feminine?",
+          "options": [
+            "masculine",
+            "feminine"
+          ],
+          "answer": "feminine",
+          "explanation": "Ночь is feminine. Both день and ночь end in -ь, but they have different genders."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in the gender and sort nouns into categories",
+      "descriptionRussian": "Определите род и рассортируйте существительные",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Лампа (lamp) is _____.",
+          "Стол (table) is _____.",
+          "Окно (window) is _____.",
+          "Кухня (kitchen) is _____."
+        ],
+        "choices": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "answers": [
+          "feminine",
+          "masculine",
+          "neuter",
+          "feminine"
+        ],
+        "grammarFocus": "gender identification by ending",
+        "hints": [
+          "Лампа ends in -а.",
+          "Стол ends in a consonant.",
+          "Окно ends in -о.",
+          "Кухня ends in -я."
+        ],
+        "explanations": [
+          "Лампа ends in -а, the standard feminine ending.",
+          "Стол ends in a consonant, which signals masculine gender.",
+          "Окно ends in -о, the standard neuter ending.",
+          "Кухня ends in -я, which marks feminine (same as -а)."
+        ],
+        "options": [
+          [
+            "feminine",
+            "masculine",
+            "neuter"
+          ],
+          [
+            "feminine",
+            "neuter",
+            "masculine"
+          ],
+          [
+            "neuter",
+            "masculine",
+            "feminine"
+          ],
+          [
+            "feminine",
+            "neuter",
+            "masculine"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort these nouns by gender",
+        "categories": [
+          "Masculine",
+          "Feminine",
+          "Neuter"
+        ],
+        "items": [
+          {
+            "word": "телефон",
+            "category": "Masculine"
+          },
+          {
+            "word": "вода",
+            "category": "Feminine"
+          },
+          {
+            "word": "письмо",
+            "category": "Neuter"
+          },
+          {
+            "word": "магазин",
+            "category": "Masculine"
+          },
+          {
+            "word": "ручка",
+            "category": "Feminine"
+          },
+          {
+            "word": "море",
+            "category": "Neuter"
+          },
+          {
+            "word": "язык",
+            "category": "Masculine"
+          },
+          {
+            "word": "комната",
+            "category": "Feminine"
+          },
+          {
+            "word": "молоко",
+            "category": "Neuter"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-3-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Составь и переведи",
+      "description": "Translate sentences and match adjectives to noun gender",
+      "descriptionRussian": "Переведите предложения и подберите прилагательные по роду",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "The street is long.",
+          "answer": "Улица длинная.",
+          "acceptableVariants": [
+            "Улица — длинная."
+          ],
+          "hint": "street = улица (fem.), long = длинная (fem.)",
+          "grammarFocus": "feminine noun + adjective agreement",
+          "keyWord": "Улица",
+          "options": [
+            "Улица",
+            "Улицы",
+            "Улице",
+            "Улицу"
+          ]
+        },
+        {
+          "english": "The house is big.",
+          "answer": "Дом большой.",
+          "acceptableVariants": [
+            "Дом — большой."
+          ],
+          "hint": "house = дом (masc.), big = большой (masc.)",
+          "grammarFocus": "masculine noun + adjective agreement",
+          "keyWord": "Дом",
+          "options": [
+            "Дом",
+            "Дома",
+            "Дому",
+            "Домом"
+          ]
+        },
+        {
+          "english": "The window is open.",
+          "answer": "Окно открытое.",
+          "acceptableVariants": [
+            "Окно — открытое.",
+            "Окно открыто."
+          ],
+          "hint": "window = окно (neut.), open = открытое (neut.)",
+          "grammarFocus": "neuter noun + adjective agreement",
+          "keyWord": "Окно",
+          "options": [
+            "Окно",
+            "Окна",
+            "Окну",
+            "Окном"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Дом _____. (big)",
+              "promptEnglish": "The house is _____. (big)",
+              "options": [
+                "большой",
+                "большая",
+                "большое"
+              ],
+              "answer": "большой",
+              "hint": "Дом is masculine. Masculine adjectives end in -ой/-ый/-ий.",
+              "explanation": "Дом is masculine, so the adjective takes the masculine ending: большой."
+            },
+            {
+              "prompt": "Книга _____. (new)",
+              "promptEnglish": "The book is _____. (new)",
+              "options": [
+                "новый",
+                "новое",
+                "новая"
+              ],
+              "answer": "новая",
+              "hint": "Книга is feminine. Feminine adjectives end in -ая/-яя.",
+              "explanation": "Книга is feminine, so the adjective takes the feminine ending: новая."
+            },
+            {
+              "prompt": "Молоко _____. (cold)",
+              "promptEnglish": "The milk is _____. (cold)",
+              "options": [
+                "холодная",
+                "холодное",
+                "холодный"
+              ],
+              "answer": "холодное",
+              "hint": "Молоко is neuter. Neuter adjectives end in -ое/-ее.",
+              "explanation": "Молоко is neuter, so the adjective takes the neuter ending: холодное."
+            },
+            {
+              "prompt": "Машина _____. (old)",
+              "promptEnglish": "The car is _____. (old)",
+              "options": [
+                "старый",
+                "старая",
+                "старое"
+              ],
+              "answer": "старая",
+              "hint": "Машина ends in -а (feminine).",
+              "explanation": "Машина is feminine, so the adjective is старая."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-spot-errors",
+      "title": "Find the Mistakes",
+      "titleRussian": "Найди ошибки",
+      "description": "Spot gender errors in adjective agreement and tricky nouns",
+      "descriptionRussian": "Найдите ошибки в согласовании прилагательных и определении рода",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Книга новый.",
+          "error": "новый",
+          "correction": "новая",
+          "hint": "Книга is feminine, but новый is the masculine form.",
+          "explanation": "Книга is feminine, so the adjective must match: новая (not новый).",
+          "options": [
+            "новая",
+            "новое",
+            "новые"
+          ]
+        },
+        {
+          "sentence": "Окно большая.",
+          "error": "большая",
+          "correction": "большое",
+          "hint": "Окно is neuter, but большая is the feminine form.",
+          "explanation": "Окно is neuter, so the adjective must be большое (not большая).",
+          "options": [
+            "большое",
+            "большой",
+            "большие"
+          ]
+        },
+        {
+          "sentence": "Город красивое.",
+          "error": "красивое",
+          "correction": "красивый",
+          "hint": "Город is masculine, but красивое is the neuter form.",
+          "explanation": "Город is masculine, so the adjective must be красивый (not красивое).",
+          "options": [
+            "красивый",
+            "красивая",
+            "красивые"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What gender is «тетрадь» (notebook)?",
+              "promptEnglish": "What gender is «тетрадь» (notebook)?",
+              "options": [
+                "feminine",
+                "masculine",
+                "neuter"
+              ],
+              "answer": "feminine",
+              "hint": "Some -ь nouns are feminine. This is one of them.",
+              "explanation": "Тетрадь is feminine. Like ночь and дверь, it's a -ь noun that is feminine."
+            },
+            {
+              "prompt": "What gender is «словарь» (dictionary)?",
+              "promptEnglish": "What gender is «словарь» (dictionary)?",
+              "options": [
+                "neuter",
+                "masculine",
+                "feminine"
+              ],
+              "answer": "masculine",
+              "hint": "This -ь word is masculine.",
+              "explanation": "Словарь is masculine despite ending in -ь. It must be memorized."
+            },
+            {
+              "prompt": "What gender is «имя» (name)?",
+              "promptEnglish": "What gender is «имя» (name)?",
+              "options": [
+                "feminine",
+                "neuter",
+                "masculine"
+              ],
+              "answer": "neuter",
+              "hint": "Words ending in -мя are a special neuter group.",
+              "explanation": "Имя ends in -мя, a special neuter pattern. Other examples: время (time), знамя (banner)."
+            },
+            {
+              "prompt": "What gender is «здание» (building)?",
+              "promptEnglish": "What gender is «здание» (building)?",
+              "options": [
+                "neuter",
+                "feminine",
+                "masculine"
+              ],
+              "answer": "neuter",
+              "hint": "The ending -ие/-е marks neuter.",
+              "explanation": "Здание ends in -е. Nouns ending in -е or -ие are neuter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанная практика",
+      "description": "A fresh round with all genders and new words",
+      "descriptionRussian": "Новый раунд практики с новыми словами",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What gender is «сумка» (bag)?",
+              "promptEnglish": "What gender is «сумка» (bag)?",
+              "options": [
+                "neuter",
+                "masculine",
+                "feminine"
+              ],
+              "answer": "feminine",
+              "hint": "What letter does сумка end in?",
+              "explanation": "Сумка ends in -а (feminine)."
+            },
+            {
+              "prompt": "What gender is «вокзал» (train station)?",
+              "promptEnglish": "What gender is «вокзал» (train station)?",
+              "options": [
+                "masculine",
+                "feminine",
+                "neuter"
+              ],
+              "answer": "masculine",
+              "hint": "Вокзал ends in a consonant.",
+              "explanation": "Вокзал ends in the consonant л (masculine)."
+            },
+            {
+              "prompt": "What gender is «кресло» (armchair)?",
+              "promptEnglish": "What gender is «кресло» (armchair)?",
+              "options": [
+                "feminine",
+                "masculine",
+                "neuter"
+              ],
+              "answer": "neuter",
+              "hint": "Ends in -о.",
+              "explanation": "Кресло ends in -о (neuter)."
+            },
+            {
+              "prompt": "What gender is «дверь» (door)?",
+              "promptEnglish": "What gender is «дверь» (door)?",
+              "options": [
+                "masculine",
+                "feminine",
+                "neuter"
+              ],
+              "answer": "feminine",
+              "hint": "This is one of the feminine -ь nouns.",
+              "explanation": "Дверь is feminine. Like ночь and тетрадь, it must be memorized."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these nouns by gender",
+        "categories": [
+          "Masculine",
+          "Feminine",
+          "Neuter"
+        ],
+        "items": [
+          {
+            "word": "чай",
+            "category": "Masculine"
+          },
+          {
+            "word": "газета",
+            "category": "Feminine"
+          },
+          {
+            "word": "место",
+            "category": "Neuter"
+          },
+          {
+            "word": "автобус",
+            "category": "Masculine"
+          },
+          {
+            "word": "погода",
+            "category": "Feminine"
+          },
+          {
+            "word": "задание",
+            "category": "Neuter"
+          },
+          {
+            "word": "журнал",
+            "category": "Masculine"
+          },
+          {
+            "word": "песня",
+            "category": "Feminine"
+          },
+          {
+            "word": "кольцо",
+            "category": "Neuter"
+          }
+        ]
+      },
+      "patternRecognition": [
+        {
+          "prompt": "What do яблоко, молоко, and окно have in common?",
+          "options": [
+            "They are all neuter nouns ending in -о",
+            "They are all masculine nouns",
+            "They are all feminine nouns"
+          ],
+          "answer": "They are all neuter nouns ending in -о",
+          "explanation": "All three words end in -о, the most common neuter ending."
+        },
+        {
+          "prompt": "What do время, имя, and знамя have in common?",
+          "options": [
+            "They are feminine -я nouns",
+            "They are neuter -мя nouns",
+            "They are masculine nouns"
+          ],
+          "answer": "They are neuter -мя nouns",
+          "explanation": "Nouns ending in -мя form a special neuter group: время (time), имя (name), знамя (banner)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "id": "b1-track-numerals-07-money-age-time",
+  "level": "B1",
+  "focusArea": "cases",
+  "title": "Numerals 7: Money, Age, and Time",
+  "titleRussian": "Числительные 7: Деньги, возраст и время",
+  "description": "Apply the 1 / 2-4 / 5+ split to the most common counted nouns: рубль (рубль / рубля / рублей), год (год / года / лет), and час (час / часа / часов).",
+  "descriptionRussian": "Применяем правило 1 / 2-4 / 5+ к самым частым существительным: рубль (рубль / рубля / рублей), год (год / года / лет) и час (час / часа / часов).",
+  "imageName": "banknote",
+  "trackId": "b1-numerals-mastery",
+  "trackTitle": "Numerals Mastery",
+  "trackTitleRussian": "Числительные",
+  "trackIndex": 7,
+  "trackTotal": 10,
+  "intro": "The three things you will actually count out loud. Nothing new in the rule, which is the point: money, age and clock time all run on the same three-way split you already have. There is one irregular form to memorize, and it is the plural of 'year', which is a different word entirely and comes up constantly.",
+  "rules": [
+    "The 1 / 2-4 / 5+ slot is decided by the LAST word of the number: двадцать один рубль (1), двадцать два рубля (2-4), двадцать пять рублей (5+).",
+    "Money: один рубль / два рубля / пять рублей. Same pattern for копейка: одна копейка / две копейки / пять копеек.",
+    "Age: один год / два года / пять ЛЕТ. The genitive plural of год is the irregular лет, not годов. Age uses the dative person: мне двадцать лет.",
+    "Time: один час / два часа / пять часов. The genitive singular часа is stressed on the final -а (два часа).",
+    "The teens 11-14 always take the 5+ form, even though they end in 1-4: одиннадцать рублей, двенадцать лет, тринадцать часов."
+  ],
+  "examples": [
+    "Это стоит сто рублей. (This costs a hundred roubles.) 100 → 5+ form: рублей.",
+    "У меня есть двадцать два рубля. (I have twenty-two roubles.) last word 2 → рубля.",
+    "Кофе стоит один рубль. (The coffee costs one rouble.) last word 1 → рубль.",
+    "Моему брату двадцать четыре года. (My brother is twenty-four.) last word 4 → года; dative брату.",
+    "Бабушке семьдесят лет. (Grandmother is seventy.) 70 → 5+ form: лет; dative бабушке.",
+    "Сейчас два часа. (It is two o'clock now.) last word 2 → часа.",
+    "Мы ждали пять часов. (We waited five hours.) 5 → часов.",
+    "Ему одиннадцать лет. (He is eleven.) 11 → 5+ form: лет, even though it ends in 1."
+  ],
+  "tables": [
+    {
+      "title": "The 1 / 2-4 / 5+ forms for money, age, time",
+      "headers": [
+        "Slot",
+        "рубль (money)",
+        "год (age)",
+        "час (time)"
+      ],
+      "rows": [
+        {
+          "label": "1 (ends in 1, not 11)",
+          "cells": [
+            "один рубль",
+            "один год",
+            "один час"
+          ]
+        },
+        {
+          "label": "2-4 (ends in 2/3/4, not 12-14)",
+          "cells": [
+            "два рубля",
+            "два года",
+            "два часа"
+          ]
+        },
+        {
+          "label": "5+ (and 11-14)",
+          "cells": [
+            "пять рублей",
+            "пять лет",
+            "пять часов"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Это стоит сто _____.",
+          "promptEnglish": "This costs a hundred roubles.",
+          "options": [
+            "рубль",
+            "рубля",
+            "рублей",
+            "рублём"
+          ],
+          "answer": "рублей",
+          "hint": "100 falls in the 5+ slot. Which form is that?",
+          "explanation": "Сто (100) belongs to the 5+ group, which takes the genitive plural: сто рублей. Рубля is the 2-4 form; рубль is for numbers ending in 1."
+        },
+        {
+          "prompt": "У меня двадцать два _____.",
+          "promptEnglish": "I have twenty-two roubles.",
+          "options": [
+            "рублей",
+            "рубля",
+            "рубль",
+            "рублям"
+          ],
+          "answer": "рубля",
+          "hint": "Look at the last word: двадцать ДВА.",
+          "explanation": "The last word decides the slot. Двадцать два ends in два (2-4), so the noun is the genitive singular рубля. Рублей is the 5+ form (двадцать пять рублей); рубль follows один."
+        },
+        {
+          "prompt": "Кофе стоит один _____.",
+          "promptEnglish": "The coffee costs one rouble.",
+          "options": [
+            "рубль",
+            "рубля",
+            "рублей",
+            "рублём"
+          ],
+          "answer": "рубль",
+          "hint": "After один the noun stays in the nominative singular.",
+          "explanation": "Numbers ending in один take the nominative singular: один рубль. Only 2-4 (рубля) and 5+ (рублей) change the noun's case."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Моему брату двадцать четыре _____.",
+          "promptEnglish": "My brother is twenty-four.",
+          "options": [
+            "лет",
+            "год",
+            "года",
+            "годов"
+          ],
+          "answer": "года",
+          "hint": "Last word четыре → the 2-4 slot.",
+          "explanation": "Двадцать четыре ends in четыре (2-4), so the noun is the genitive singular года: двадцать четыре года. Лет is the 5+ form; год follows один; годов does not exist in modern Russian."
+        },
+        {
+          "prompt": "Бабушке семьдесят _____.",
+          "promptEnglish": "Grandmother is seventy.",
+          "options": [
+            "год",
+            "года",
+            "лет",
+            "годов"
+          ],
+          "answer": "лет",
+          "hint": "70 is a 5+ number. The genitive plural of год is irregular.",
+          "explanation": "Семьдесят (70) is in the 5+ slot, and the genitive plural of год is the irregular лет (not годов): семьдесят лет. Год follows один and года follows 2-4; age uses the dative person: бабушке."
+        },
+        {
+          "prompt": "Сейчас два _____.",
+          "promptEnglish": "It is two o'clock now.",
+          "options": [
+            "часов",
+            "час",
+            "часам",
+            "часа"
+          ],
+          "answer": "часа",
+          "hint": "Two o'clock = два + the 2-4 form of час.",
+          "explanation": "Два is in the 2-4 slot, so the noun is the genitive singular часа: два часа. Часов is the 5+ form (пять часов); час follows один."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Ему одиннадцать _____. (He is eleven years old.)"
+    ],
+    "choices": [
+      "год",
+      "года",
+      "лет",
+      "годов"
+    ],
+    "answers": [
+      "лет"
+    ],
+    "grammarFocus": "Одиннадцать (11) is a teen, and all teens 11-14 take the 5+ form even though they end in 1-4. The 5+ form for age is the irregular лет: одиннадцать лет. Age uses the dative person: ему."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Мы работали одиннадцать часа без перерыва.",
+      "translationEnglish": "We worked eleven hours without a break.",
+      "error": "часа",
+      "correction": "часов",
+      "options": [
+        "часов",
+        "часы",
+        "часам"
+      ],
+      "explanation": "The teens 11-14 always count as '5 and up' and take the genitive plural, even though they seem to contain 1-4: одиннадцать часов. Часа is the genitive singular, the trap a learner falls into by hearing 'один' inside одиннадцать."
+    },
+    {
+      "sentence": "Моей сестре двадцать два лет.",
+      "translationEnglish": "My sister is twenty-two years old.",
+      "error": "лет",
+      "correction": "года",
+      "options": [
+        "года",
+        "год",
+        "годов"
+      ],
+      "explanation": "The irregular form лет is the genitive PLURAL of год, used only after 5 and up (пять лет). This number ends in два, so it follows the 2-4 rule and needs the genitive singular года: двадцать два года. Лет is a real and very common form, just wrong here, which makes it the classic over-correction once a learner has met пять лет. Год is the bare nominative (after один: двадцать один год), and годов does not exist in modern Russian. Age is given with the dative person: моей сестре."
+    },
+    {
+      "sentence": "Магазин закрыт уже шесть часа.",
+      "translationEnglish": "The shop has been closed for six hours already.",
+      "error": "часа",
+      "correction": "часов",
+      "options": [
+        "часов",
+        "час",
+        "часам"
+      ],
+      "explanation": "After 5 and up the noun goes into the genitive plural: шесть часов. Часа is the genitive singular, correct after 2-4 (два часа, with the stress on the final -а) but not after шесть. Час is the bare nominative (один час). The split for час is exactly the same as for any noun: один час, два часа, пять часов."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Мне двадцать один _____.",
+      "contextEnglish": "I am twenty-one years old.",
+      "options": [
+        "лет",
+        "год"
+      ],
+      "answer": "год",
+      "explanation": "The last word decides the slot. Двадцать один ends in один, so the noun is the nominative singular год: двадцать один год. Лет (5+) would be wrong here; that is for numbers like двадцать пять."
+    },
+    {
+      "context": "Магазин работает до пяти _____.",
+      "contextEnglish": "The shop is open until five o'clock.",
+      "options": [
+        "часа",
+        "часов"
+      ],
+      "answer": "часов",
+      "explanation": "Пять is in the 5+ slot, so the noun is the genitive plural часов: до пяти часов. Часа is the 2-4 form (два часа). Note that до also calls for the genitive, which the 5+ form already supplies."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each number by which form of год it takes for age.",
+    "categories": [
+      "один год",
+      "два / три / четыре года",
+      "пять+ лет"
+    ],
+    "items": [
+      {
+        "word": "21 (двадцать один)",
+        "category": "один год"
+      },
+      {
+        "word": "33 (тридцать три)",
+        "category": "два / три / четыре года"
+      },
+      {
+        "word": "7 (семь)",
+        "category": "пять+ лет"
+      },
+      {
+        "word": "12 (двенадцать)",
+        "category": "пять+ лет"
+      },
+      {
+        "word": "44 (сорок четыре)",
+        "category": "два / три / четыре года"
+      },
+      {
+        "word": "51 (пятьдесят один)",
+        "category": "один год"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "рубль / рубля / рублей",
+      "definition": "rouble in the three counting slots: один рубль (1), два рубля (2-4), пять рублей (5+).",
+      "example": "Билет стоит сто рублей."
+    },
+    {
+      "term": "год / года / лет",
+      "definition": "year for age: один год, два года, but irregular пять ЛЕТ in the 5+ slot. Age uses the dative person.",
+      "example": "Моему сыну восемь лет."
+    },
+    {
+      "term": "час / часа / часов",
+      "definition": "hour and clock time: один час, два часа, пять часов. The genitive singular часа is end-stressed.",
+      "example": "Сейчас три часа."
+    }
+  ]
+}

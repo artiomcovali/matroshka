@@ -1,0 +1,358 @@
+{
+  "id": "a2-033-movement-prepositions",
+  "level": "A2",
+  "focusArea": "prepositions",
+  "title": "Prepositions of Motion",
+  "titleRussian": "Предлоги движения",
+  "description": "В/на vs. из/с with verbs of motion",
+  "descriptionRussian": "В/на против из/с с глаголами движения",
+  "imageName": "arrow.right.arrow.left",
+  "intro": "Russian distinguishes between motion TO a place and motion FROM a place. When going TO somewhere, use в + accusative (into enclosed spaces) or на + accusative (onto surfaces, events, open areas). When coming FROM somewhere, use the corresponding 'из' (out of) with genitive for в-destinations, and 'с' (off of) with genitive for на-destinations. This в↔из and на↔с pairing is essential for correct Russian!",
+  "rules": [
+    "TO enclosed spaces: в + accusative: Я иду в школу. (I'm going to school.)",
+    "FROM enclosed spaces: из + genitive: Я иду из школы. (I'm coming from school.)",
+    "TO surfaces/events: на + accusative: Я иду на работу. (I'm going to work.)",
+    "FROM surfaces/events: с + genitive: Я иду с работы. (I'm coming from work.)"
+  ],
+  "examples": [
+    "Я еду в Москву. (I'm going to Moscow.), в + acc",
+    "Она приехала из Москвы. (She came from Moscow.), из + gen",
+    "Мы идём на концерт. (We're going to the concert.), на + acc",
+    "Они вернулись с концерта. (They returned from the concert.), с + gen"
+  ],
+  "tables": [
+    {
+      "title": "В vs На — Common Expressions",
+      "headers": [
+        "Category",
+        "В + accusative (to)",
+        "На + accusative (to)"
+      ],
+      "rows": [
+        {
+          "label": "Buildings",
+          "cells": [
+            "в школу, в магазин, в банк, в аптеку",
+            "на почту, на вокзал, на стадион"
+          ]
+        },
+        {
+          "label": "Cities/Countries",
+          "cells": [
+            "в Москву, в Россию, в аэропорт",
+            "на Мальту, на Кубу"
+          ]
+        },
+        {
+          "label": "Events",
+          "cells": [
+            "в кино, в театр",
+            "на концерт, на урок, на матч"
+          ]
+        },
+        {
+          "label": "Activities",
+          "cells": [
+            "—",
+            "на работу, на обед, на каникулы"
+          ]
+        },
+        {
+          "label": "Surfaces",
+          "cells": [
+            "—",
+            "на стол, на пол, на стену"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я иду _____ школу. (I'm going to school.)",
+          "promptEnglish": "I'm going to school.",
+          "options": [
+            "на",
+            "с",
+            "из",
+            "в"
+          ],
+          "answer": "в",
+          "hint": "TO enclosed space = в + accusative",
+          "explanation": "Going INTO school: в школу."
+        },
+        {
+          "prompt": "Она идёт _____ работу. (She's going to work.)",
+          "promptEnglish": "She's going to work.",
+          "options": [
+            "из",
+            "в",
+            "на",
+            "с"
+          ],
+          "answer": "на",
+          "hint": "Work uses на (на работу/с работы)",
+          "explanation": "Going TO work: на работу."
+        },
+        {
+          "prompt": "Мы едем _____ Москву. (We're going to Moscow.)",
+          "promptEnglish": "We're going to Moscow.",
+          "options": [
+            "из",
+            "с",
+            "на",
+            "в"
+          ],
+          "answer": "в",
+          "hint": "Cities use в (в Москву/из Москвы)",
+          "explanation": "Going TO a city: в Москву."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Он вернулся _____ школы. (He returned from school.)",
+          "promptEnglish": "He returned from school.",
+          "options": [
+            "на",
+            "с",
+            "из",
+            "в"
+          ],
+          "answer": "из",
+          "hint": "FROM в-destination = из + genitive",
+          "explanation": "Coming FROM school (в→из): из школы."
+        },
+        {
+          "prompt": "Она пришла _____ работы. (She came from work.)",
+          "promptEnglish": "She came from work.",
+          "options": [
+            "из",
+            "на",
+            "с",
+            "в"
+          ],
+          "answer": "с",
+          "hint": "FROM на-destination = с + genitive",
+          "explanation": "Coming FROM work (на→с): с работы."
+        },
+        {
+          "prompt": "Они приехали _____ Петербурга. (They arrived from St. Petersburg.)",
+          "promptEnglish": "They arrived from St. Petersburg.",
+          "options": [
+            "на",
+            "с",
+            "из",
+            "в"
+          ],
+          "answer": "из",
+          "hint": "Cities use в/из",
+          "explanation": "Coming FROM a city (в→из): из Петербурга."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Дети идут _____ концерт. (The children are going to the concert.)",
+          "promptEnglish": "The children are going to the concert.",
+          "options": [
+            "в",
+            "из",
+            "с",
+            "на"
+          ],
+          "answer": "на",
+          "hint": "Events use на (на концерт/с концерта)",
+          "explanation": "Going TO an event: на концерт."
+        },
+        {
+          "prompt": "Мы вернулись _____ концерта. (We returned from the concert.)",
+          "promptEnglish": "We returned from the concert.",
+          "options": [
+            "из",
+            "с",
+            "на",
+            "в"
+          ],
+          "answer": "с",
+          "hint": "FROM на-destination = с + genitive",
+          "explanation": "Coming FROM an event (на→с): с концерта."
+        },
+        {
+          "prompt": "Студенты идут _____ университет. (The students are going to the university.)",
+          "promptEnglish": "The students are going to the university.",
+          "options": [
+            "на",
+            "с",
+            "в",
+            "из"
+          ],
+          "answer": "в",
+          "hint": "University is enclosed = в",
+          "explanation": "Going INTO university: в университет."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Я еду _____ аэропорт. (I'm going to the airport.)",
+      "Я иду _____ школы. (I'm coming from school.)",
+      "Она идёт _____ работы. (She's coming from work.)",
+      "Мы идём _____ концерт. (We're going to the concert.)",
+      "Он вернулся _____ Москвы. (He returned from Moscow.)"
+    ],
+    "choices": [
+      "в",
+      "из",
+      "с",
+      "на",
+      "от",
+      "до",
+      "к",
+      "по"
+    ],
+    "answers": [
+      "в",
+      "из",
+      "с",
+      "на",
+      "из"
+    ],
+    "grammarFocus": "Motion prepositions: в/из for enclosed spaces, на/с for surfaces/events",
+    "hints": [
+      "Going TO the airport (enclosed space). Which preposition: в or на?",
+      "Coming FROM school. School uses в, so the opposite is which preposition?",
+      "Coming FROM work. Work uses на, so the opposite is which preposition?",
+      "Going TO a concert (event). Events use which preposition: в or на?",
+      "Returning FROM Moscow (city). Cities use в, so the opposite is which preposition?"
+    ],
+    "explanations": [
+      "Аэропорт is an enclosed space → в аэропорт (в + accusative).",
+      "School uses в, so FROM school uses из: из школы (из + genitive).",
+      "Work uses на, so FROM work uses с: с работы (с + genitive).",
+      "Events use на: на концерт (на + accusative).",
+      "Cities use в, so FROM a city uses из: из Москвы (из + genitive)."
+    ],
+    "options": [
+      [
+        "в",
+        "до",
+        "из",
+        "с"
+      ],
+      [
+        "из",
+        "с",
+        "к",
+        "до"
+      ],
+      [
+        "в",
+        "к",
+        "с",
+        "на"
+      ],
+      [
+        "в",
+        "на",
+        "к",
+        "из"
+      ],
+      [
+        "из",
+        "к",
+        "от",
+        "в"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Я иду _____ магазин. (going TO)",
+      "contextEnglish": "I'm going to the store.",
+      "options": [
+        "в",
+        "из"
+      ],
+      "answer": "в",
+      "explanation": "Going TO = в + accusative: в магазин."
+    },
+    {
+      "context": "Я иду _____ магазина. (coming FROM)",
+      "contextEnglish": "I'm coming from the store.",
+      "options": [
+        "из",
+        "в"
+      ],
+      "answer": "из",
+      "explanation": "Coming FROM = из + genitive: из магазина."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: в/из destinations or на/с destinations?",
+    "categories": [
+      "в/из (enclosed)",
+      "на/с (surface/event)"
+    ],
+    "items": [
+      {
+        "word": "школа",
+        "category": "в/из (enclosed)"
+      },
+      {
+        "word": "работа",
+        "category": "на/с (surface/event)"
+      },
+      {
+        "word": "Москва",
+        "category": "в/из (enclosed)"
+      },
+      {
+        "word": "концерт",
+        "category": "на/с (surface/event)"
+      },
+      {
+        "word": "университет",
+        "category": "в/из (enclosed)"
+      },
+      {
+        "word": "почта",
+        "category": "на/с (surface/event)"
+      },
+      {
+        "word": "урок",
+        "category": "на/с (surface/event)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "в + accusative",
+      "definition": "TO enclosed spaces/cities",
+      "example": "В школу, в Москву, в магазин."
+    },
+    {
+      "term": "из + genitive",
+      "definition": "FROM в-destinations",
+      "example": "Из школы, из Москвы, из магазина."
+    },
+    {
+      "term": "на + accusative",
+      "definition": "TO surfaces/events/certain nouns",
+      "example": "На работу, на концерт, на урок."
+    },
+    {
+      "term": "с + genitive",
+      "definition": "FROM на-destinations",
+      "example": "С работы, с концерта, с урока."
+    }
+  ]
+}

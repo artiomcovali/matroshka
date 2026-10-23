@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-medium-028",
+  "title": "Wrong Skill Level",
+  "level": "B1",
+  "difficulty": "medium",
+  "description": "The art class is either too easy or too hard for you",
+  "imageName": "paintpalette.fill",
+  "initialPrompt": "Сегодня рисуем натюрморт с тремя точками перспективы. У всех есть опыт с перспективой?",
+  "systemPrompt": "You teach advanced art class. Student is clearly a beginner, struggling. Offer to move them to beginner class or provide extra help. Beginner class is Mondays. Keep replies short.",
+  "completionCriteria": "User arranged appropriate level class or extra support.",
+  "responseLimit": 15,
+  "hints": [
+    "Это слишком сложно для меня (This is too hard for me)",
+    "Есть группа для начинающих? (Is there a beginner group?)",
+    "Можно дополнительную помощь? (Can I get extra help?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "уровень",
+      "definition": "level"
+    },
+    {
+      "word": "сложный",
+      "definition": "difficult"
+    },
+    {
+      "word": "начинающий",
+      "definition": "beginner"
+    },
+    {
+      "word": "продвинутый",
+      "definition": "advanced"
+    },
+    {
+      "word": "перевод",
+      "definition": "transfer"
+    },
+    {
+      "word": "помощь",
+      "definition": "help"
+    }
+  ],
+  "objectives": [
+    "Admit the class is too hard",
+    "Ask about alternatives",
+    "Request appropriate placement",
+    "Arrange solution"
+  ]
+}

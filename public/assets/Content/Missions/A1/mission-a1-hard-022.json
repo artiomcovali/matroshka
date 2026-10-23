@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-022",
+  "title": "The Day-Old Bread",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "The 'fresh' bread is actually stale",
+  "imageName": "birthday.cake.fill",
+  "initialPrompt": "Вот свежий хлеб! 80 рублей.",
+  "systemPrompt": "Bread is from yesterday. Deny at first: 'Нет, это свежий!' Give fresh bread if user points out it's hard or insists. Keep replies short.",
+  "completionCriteria": "User got actually fresh bread.",
+  "responseLimit": 15,
+  "hints": [
+    "Это не свежий (This isn't fresh)",
+    "Он твёрдый (It's hard)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "свежий",
+      "definition": "fresh"
+    },
+    {
+      "word": "вчерашний",
+      "definition": "yesterday's"
+    },
+    {
+      "word": "твёрдый",
+      "definition": "hard/stale"
+    },
+    {
+      "word": "мягкий",
+      "definition": "soft"
+    },
+    {
+      "word": "новый",
+      "definition": "new"
+    }
+  ],
+  "objectives": [
+    "Notice bread is stale (вчерашний)",
+    "Point out it's hard (Он твёрдый!)",
+    "Say it's not fresh (не свежий)",
+    "Ask for fresh bread (свежий хлеб)",
+    "Get fresh loaf"
+  ]
+}

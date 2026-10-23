@@ -1,0 +1,556 @@
+{
+  "lessonId": "b1-010-motion-prefix-meanings",
+  "sets": [
+    {
+      "id": "round-1-quiz-pairs",
+      "title": "Pick the Prefix",
+      "titleRussian": "Выберите приставку",
+      "description": "Choose the correct prefixed motion verb for each context",
+      "descriptionRussian": "Выберите правильный приставочный глагол движения",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Кошка _____ в дом через открытое окно. (The cat ran into the house through the open window.)",
+              "promptEnglish": "The cat ran into the house through the open window.",
+              "options": [
+                "выбежала",
+                "вбежала",
+                "убежала",
+                "пробежала"
+              ],
+              "answer": "вбежала",
+              "hint": "Into (в-) the house.",
+              "explanation": "В- means into: вбежала (ran into). The cat entered the house."
+            },
+            {
+              "prompt": "Гости _____ и мы остались одни. (The guests left and we were alone.)",
+              "promptEnglish": "The guests left and we were alone.",
+              "options": [
+                "пришли",
+                "зашли",
+                "ушли",
+                "подошли"
+              ],
+              "answer": "ушли",
+              "hint": "Departed, gone away (у-).",
+              "explanation": "У- means departure: ушли (left/departed). The guests went away."
+            },
+            {
+              "prompt": "Лодка медленно _____ к берегу. (The boat slowly approached the shore.)",
+              "promptEnglish": "The boat slowly approached the shore.",
+              "options": [
+                "отплыла",
+                "уплыла",
+                "подплыла",
+                "переплыла"
+              ],
+              "answer": "подплыла",
+              "hint": "Approach, come closer (под-).",
+              "explanation": "Под- means approach: подплыла (swam/floated up to). Moving closer to the shore."
+            },
+            {
+              "prompt": "Машина _____ мимо нас на большой скорости. (The car drove past us at high speed.)",
+              "promptEnglish": "The car drove past us at high speed.",
+              "options": [
+                "проехала",
+                "переехала",
+                "объехала",
+                "подъехала"
+              ],
+              "answer": "проехала",
+              "hint": "Past/through (про-).",
+              "explanation": "Про- means past/through: проехала (drove past). The car went by without stopping."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Мы _____ реку по мосту. (We crossed the river over the bridge.)",
+              "promptEnglish": "We crossed the river over the bridge.",
+              "options": [
+                "прошли",
+                "вошли",
+                "обошли",
+                "перешли"
+              ],
+              "answer": "перешли",
+              "hint": "Across (пере-).",
+              "explanation": "Пере- means across: перешли (crossed). From one side to the other."
+            },
+            {
+              "prompt": "Она _____ от окна и села на диван. (She moved away from the window and sat on the sofa.)",
+              "promptEnglish": "She moved away from the window and sat on the sofa.",
+              "options": [
+                "подошла",
+                "вышла",
+                "отошла",
+                "пришла"
+              ],
+              "answer": "отошла",
+              "hint": "Away from (от-).",
+              "explanation": "От- means away from: отошла (moved away). She left the window area."
+            },
+            {
+              "prompt": "Туристы _____ всю площадь и вернулись к автобусу. (The tourists walked around the whole square and returned to the bus.)",
+              "promptEnglish": "The tourists walked around the whole square and returned to the bus.",
+              "options": [
+                "обошли",
+                "прошли",
+                "перешли",
+                "зашли"
+              ],
+              "answer": "обошли",
+              "hint": "Around (об-/обо-).",
+              "explanation": "Об- means around: обошли (walked around the entire square)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он _____ в магазин за хлебом. (He stopped by the store for bread - quick visit.)",
+          "contextEnglish": "He stopped by the store for bread (brief visit, then left).",
+          "options": [
+            "зашёл",
+            "вошёл"
+          ],
+          "answer": "зашёл",
+          "explanation": "За- means drop by briefly: зашёл (stopped in). В- (вошёл) just means entered, without the 'brief stop' meaning."
+        },
+        {
+          "context": "Он _____ в магазин и начал выбирать продукты. (He entered the store and started choosing products.)",
+          "contextEnglish": "He entered the store and started shopping.",
+          "options": [
+            "зашёл",
+            "вошёл"
+          ],
+          "answer": "вошёл",
+          "explanation": "В- means simply entered: вошёл. No implication of a brief stop, just the physical entry."
+        },
+        {
+          "context": "Она _____ из комнаты. (She walked out of the room.)",
+          "contextEnglish": "She walked out of the room (exited).",
+          "options": [
+            "вышла",
+            "ушла"
+          ],
+          "answer": "вышла",
+          "explanation": "Вы- means out of (a space): вышла из комнаты. У- (ушла) means departed/left entirely."
+        },
+        {
+          "context": "Она _____ и больше не вернулась. (She left and never came back.)",
+          "contextEnglish": "She left and never came back (departed for good).",
+          "options": [
+            "вышла",
+            "ушла"
+          ],
+          "answer": "ушла",
+          "explanation": "У- means departed (gone away): ушла. Emphasizes leaving, not just exiting a space."
+        }
+      ]
+    },
+    {
+      "id": "round-2-sort-fill",
+      "title": "Sort and Fill",
+      "titleRussian": "Сортировка и заполнение",
+      "description": "Group prefixes by meaning and fill in correct forms",
+      "descriptionRussian": "Распределите приставки по значению и заполните формы",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort by prefix meaning: Movement IN/OUT or ARRIVAL/DEPARTURE?",
+        "categories": [
+          "In/Out (в-/вы-)",
+          "Arrival/Departure (при-/у-)"
+        ],
+        "items": [
+          {
+            "word": "войти в здание (enter the building)",
+            "category": "In/Out (в-/вы-)"
+          },
+          {
+            "word": "выйти из дома (exit the house)",
+            "category": "In/Out (в-/вы-)"
+          },
+          {
+            "word": "приехать в город (arrive in the city)",
+            "category": "Arrival/Departure (при-/у-)"
+          },
+          {
+            "word": "уехать в командировку (leave on a business trip)",
+            "category": "Arrival/Departure (при-/у-)"
+          },
+          {
+            "word": "влететь в окно (fly into the window)",
+            "category": "In/Out (в-/вы-)"
+          },
+          {
+            "word": "прийти домой (come home/arrive home)",
+            "category": "Arrival/Departure (при-/у-)"
+          },
+          {
+            "word": "вылететь из аэропорта (fly out of the airport)",
+            "category": "In/Out (в-/вы-)"
+          },
+          {
+            "word": "уйти с работы (leave work)",
+            "category": "Arrival/Departure (при-/у-)"
+          }
+        ]
+      },
+      "fillInBlank": {
+        "blanks": [
+          "Дети _____ через дорогу по зебре. (The children crossed the road at the crosswalk.)",
+          "Мы _____ лужу стороной. (We went around the puddle.)",
+          "Он _____ ко мне и тихо спросил. (He came up to me and asked quietly.)",
+          "Она _____ весь парк за два часа. (She walked through the whole park in two hours.)"
+        ],
+        "choices": [
+          "перешли",
+          "обошли",
+          "подошёл",
+          "прошла"
+        ],
+        "answers": [
+          "перешли",
+          "обошли",
+          "подошёл",
+          "прошла"
+        ],
+        "grammarFocus": "пере- = across; об- = around; под- = approach; про- = through",
+        "hints": [
+          "From one side of the road to the other. Which prefix?",
+          "Avoided the puddle by going around it. Which prefix?",
+          "Came closer to me. Which prefix?",
+          "Traversed the entire park. Which prefix?"
+        ],
+        "explanations": [
+          "Пере- = across: перешли (crossed over the road).",
+          "Об- = around: обошли (went around the obstacle).",
+          "Под- = approach: подошёл (came up to, approached).",
+          "Про- = through/past: прошла (walked through the entire park)."
+        ],
+        "options": [
+          [
+            "перешли",
+            "прошли",
+            "вышли",
+            "зашли"
+          ],
+          [
+            "обошли",
+            "вышли",
+            "ушли",
+            "вошли"
+          ],
+          [
+            "ушёл",
+            "подошёл",
+            "вышел",
+            "вошёл"
+          ],
+          [
+            "прошла",
+            "ушла",
+            "вошла",
+            "вышла"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-errors-build",
+      "title": "Fix and Build",
+      "titleRussian": "Исправь и построй",
+      "description": "Fix wrong prefixes and build sentences with motion verbs",
+      "descriptionRussian": "Исправьте ошибки в приставках и постройте предложения",
+      "icon": "hammer",
+      "errorCorrection": [
+        {
+          "sentence": "Мы вошли дорогу у светофора.",
+          "error": "вошли",
+          "correction": "перешли",
+          "hint": "You cross a road, not enter it.",
+          "explanation": "Crossing uses пере-: перешли дорогу. В- (вошли) means entering a space, not crossing.",
+          "options": [
+            "перешли",
+            "обошли",
+            "прошли"
+          ]
+        },
+        {
+          "sentence": "Он отошёл в комнату и закрыл дверь.",
+          "error": "отошёл",
+          "correction": "вошёл",
+          "hint": "Moving INTO a room, not away from something.",
+          "explanation": "Entering a room uses в-: вошёл в комнату. От- means moving away, not entering.",
+          "options": [
+            "вошёл",
+            "вышел",
+            "ушёл"
+          ]
+        },
+        {
+          "sentence": "Такси прошло к ресторану и остановилось.",
+          "error": "прошло",
+          "correction": "подъехало",
+          "hint": "The taxi drove UP TO the restaurant, not PAST it.",
+          "explanation": "Approach by transport uses под-: подъехало к ресторану. Про- means passing by.",
+          "options": [
+            "подъехало",
+            "проехало",
+            "уехало"
+          ]
+        },
+        {
+          "sentence": "Птицы пришли на юг на зиму.",
+          "error": "пришли",
+          "correction": "улетели",
+          "hint": "Birds fly away (depart) south. They don't arrive on foot.",
+          "explanation": "Birds departing south: у- + лететь = улетели. При- (arrived) is wrong direction, and birds fly, not walk.",
+          "options": [
+            "улетели",
+            "прилетели",
+            "приехали"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "She walked around the lake.",
+          "answer": "Она обошла озеро.",
+          "acceptableVariants": [
+            "Она обошла вокруг озера."
+          ],
+          "hint": "around = об- prefix; lake = озеро (accusative after обойти)",
+          "grammarFocus": "об- prefix for circular movement",
+          "keyWord": "обошла",
+          "options": [
+            "обошла",
+            "обошёл",
+            "обошли",
+            "обходила"
+          ]
+        },
+        {
+          "english": "The plane flew over the city.",
+          "answer": "Самолёт пролетел над городом.",
+          "acceptableVariants": [
+            "Самолёт перелетел через город."
+          ],
+          "hint": "flew over/through = пролетел; над городом = over the city (instrumental)",
+          "grammarFocus": "про- for movement past/over",
+          "keyWord": "пролетел",
+          "options": [
+            "пролетел",
+            "пролетела",
+            "пролетели",
+            "пролетал"
+          ]
+        },
+        {
+          "english": "I dropped by my friend's place on the way home.",
+          "answer": "Я зашёл к другу по дороге домой.",
+          "acceptableVariants": [
+            "Я зашла к другу по дороге домой.",
+            "По дороге домой я зашёл к другу."
+          ],
+          "hint": "dropped by = зашёл (за- = brief stop); к другу = to a friend's place",
+          "grammarFocus": "за- prefix for brief stop/detour",
+          "keyWord": "зашёл",
+          "options": [
+            "зашёл",
+            "зашли",
+            "заходил",
+            "захожу"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Финальное задание",
+      "description": "All prefixes in varied contexts",
+      "descriptionRussian": "Все приставки в разных контекстах",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Солнце _____ из-за туч. (The sun came out from behind the clouds.)",
+              "promptEnglish": "The sun came out from behind the clouds.",
+              "options": [
+                "зашло",
+                "вышло",
+                "ушло",
+                "пришло"
+              ],
+              "answer": "вышло",
+              "hint": "Out of (вы-): appeared from behind the clouds.",
+              "explanation": "Вы- = out: вышло из-за туч. The sun emerged from behind the clouds."
+            },
+            {
+              "prompt": "Солнце _____ за горизонт. (The sun went behind the horizon / set.)",
+              "promptEnglish": "The sun set (went behind the horizon).",
+              "options": [
+                "зашло",
+                "вышло",
+                "перешло",
+                "прошло"
+              ],
+              "answer": "зашло",
+              "hint": "Behind (за-): moved behind something.",
+              "explanation": "За- = behind: зашло за горизонт. The sun went behind the horizon (set)."
+            },
+            {
+              "prompt": "Корабль _____ из порта в открытое море. (The ship sailed out of the port into open sea.)",
+              "promptEnglish": "The ship sailed out of the port into the open sea.",
+              "options": [
+                "вышел",
+                "приплыл",
+                "уплыл",
+                "переплыл"
+              ],
+              "answer": "вышел",
+              "hint": "Out of (вы-) a contained space (the port).",
+              "explanation": "Вы- = out of: вышел из порта. The ship left the enclosed port area."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Альпинист _____ на вершину горы. (The climber ascended to the mountain peak.)",
+              "promptEnglish": "The climber reached the top of the mountain.",
+              "options": [
+                "сошёл",
+                "перешёл",
+                "взошёл",
+                "обошёл"
+              ],
+              "answer": "взошёл",
+              "hint": "Upward (вз-/вс-).",
+              "explanation": "Вз- = up: взошёл на вершину (ascended to the peak)."
+            },
+            {
+              "prompt": "Пассажиры _____ с поезда на платформу. (The passengers got off the train onto the platform.)",
+              "promptEnglish": "The passengers got off the train onto the platform.",
+              "options": [
+                "взошли",
+                "вошли",
+                "перешли",
+                "сошли"
+              ],
+              "answer": "сошли",
+              "hint": "Down from (с-).",
+              "explanation": "С- = down/off: сошли с поезда (got off the train)."
+            },
+            {
+              "prompt": "Мы _____ в незнакомый район и заблудились. (We wandered into an unfamiliar area and got lost.)",
+              "promptEnglish": "We wandered into an unfamiliar area and got lost.",
+              "options": [
+                "прошли",
+                "ушли",
+                "подошли",
+                "забрели"
+              ],
+              "answer": "забрели",
+              "hint": "За- can mean 'wandered into' or 'ended up somewhere by accident.'",
+              "explanation": "За- here means unintended arrival: забрели (wandered into). A secondary meaning of за- with motion."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "подойти к, подъехать к, подплыть к, подбежать к",
+          "question": "What does the prefix под- express, and what preposition always follows?",
+          "options": [
+            "Approach, always followed by к + dative",
+            "Departure, always followed by от + genitive",
+            "Entry, always followed by в + accusative"
+          ],
+          "answer": "Approach, always followed by к + dative",
+          "explanation": "Под- means approach/come closer. It consistently pairs with к + dative: подойти к дому, подъехать к магазину."
+        },
+        {
+          "sentence": "войти / выйти, приехать / уехать, подойти / отойти",
+          "question": "What pattern do these pairs show?",
+          "options": [
+            "Each pair uses the same base verb with opposite prefixes",
+            "Each pair shows imperfective vs perfective",
+            "Each pair shows different verb bases with the same prefix"
+          ],
+          "answer": "Each pair uses the same base verb with opposite prefixes",
+          "explanation": "Prefixes form directional opposites: в-/вы- (in/out), при-/у- (arrive/depart), под-/от- (toward/away)."
+        },
+        {
+          "sentence": "зайти за угол / зайти в магазин / зайти к другу",
+          "question": "Why does зайти have three different meanings here?",
+          "options": [
+            "За- combines with different prepositions to create different meanings: behind, into (briefly), to someone's place",
+            "They are three different verbs that look the same",
+            "They all mean the same thing with different objects"
+          ],
+          "answer": "За- combines with different prepositions to create different meanings: behind, into (briefly), to someone's place",
+          "explanation": "За- is versatile: за угол (behind the corner), в магазин (stopped by the store), к другу (dropped by a friend's). Context and preposition determine the meaning."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Мальчик _____ на дерево. (The boy climbed up the tree.)",
+          "Листья _____ с деревьев. (The leaves fell from the trees.)",
+          "Корабль _____ вокруг острова. (The ship sailed around the island.)"
+        ],
+        "choices": [
+          "залез",
+          "слетели",
+          "обошёл"
+        ],
+        "answers": [
+          "залез",
+          "слетели",
+          "обошёл"
+        ],
+        "grammarFocus": "за- = up onto; с- = down from; об- = around",
+        "hints": [
+          "Upward onto the tree. Which prefix?",
+          "Downward from the trees. Which prefix?",
+          "Circular path around the island. Which prefix?"
+        ],
+        "explanations": [
+          "За- (onto/up): залез на дерево (climbed up).",
+          "С- (down/off): слетели с деревьев (fell off the trees).",
+          "Об- (around): обошёл вокруг острова (went around the island)."
+        ],
+        "options": [
+          [
+            "залез",
+            "влез",
+            "вылез",
+            "подлез"
+          ],
+          [
+            "слетели",
+            "улетели",
+            "взлетели",
+            "залетели"
+          ],
+          [
+            "вошёл",
+            "вышел",
+            "ушёл",
+            "обошёл"
+          ]
+        ]
+      }
+    }
+  ]
+}

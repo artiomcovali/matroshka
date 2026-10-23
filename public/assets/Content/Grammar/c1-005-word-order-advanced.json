@@ -1,0 +1,282 @@
+{
+  "id": "c1-005-word-order-advanced",
+  "level": "C1",
+  "focusArea": "sentenceStructure",
+  "title": "Advanced Word Order",
+  "titleRussian": "Порядок слов (углублённый)",
+  "description": "Information structure and emphasis",
+  "descriptionRussian": "Актуальное членение и эмфаза",
+  "imageName": "text.line.first.and.arrowtriangle.forward",
+  "intro": "Russian word order is flexible but meaningful. THEME-RHEME: Known info (theme) comes first, new info (rheme) comes last for emphasis. NEUTRAL: Иван читает книгу (Ivan is reading a book). EMPHASIS ON DOER: Книгу читает Иван (It's IVAN who's reading). EMPHASIS ON OBJECT: Иван книгу читает (Ivan is reading a BOOK). INVERSION: Placing verbs first creates drama or questions. CLITIC PLACEMENT: Short pronouns/particles (же, ли, бы) follow the first stressed word. Master word order for natural, nuanced communication.",
+  "rules": [
+    "Theme (known) first, rheme (new) last: Книгу читает Иван (emphasis on Ivan)",
+    "Neutral SVO: Иван читает книгу (no special emphasis)",
+    "Verb-initial for drama/questions: Пришёл Иван! (Ivan arrived!)",
+    "Clitics after first stressed word: Он же знает! (He DOES know!)"
+  ],
+  "examples": [
+    "Иван читает книгу. (Ivan is reading a book., neutral)",
+    "Книгу читает Иван. (It's Ivan who's reading the book., emphasis on Ivan)",
+    "Иван книгу читает. (Ivan is reading a book., emphasis on reading/book)",
+    "Пришла весна! (Spring has come!, dramatic verb-first)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Neutral word order: _____ (Ivan reads books)",
+          "promptEnglish": "What is the neutral SVO order?",
+          "options": [
+            "Читает Иван книги.",
+            "Книги читает Иван.",
+            "Книги Иван читает.",
+            "Иван читает книги."
+          ],
+          "answer": "Иван читает книги.",
+          "hint": "Neutral = Subject-Verb-Object",
+          "explanation": "Neutral SVO: Иван читает книги."
+        },
+        {
+          "prompt": "Emphasis on WHO: Who reads the book? - _____",
+          "promptEnglish": "Emphasize that it's Ivan who reads.",
+          "options": [
+            "Читает книгу Иван.",
+            "Книгу читает Иван.",
+            "Иван книгу читает.",
+            "Иван читает книгу."
+          ],
+          "answer": "Книгу читает Иван.",
+          "hint": "New info (Ivan) at the end",
+          "explanation": "Emphasis on Ivan: Книгу читает Иван."
+        },
+        {
+          "prompt": "Dramatic announcement: _____ (Spring has come!)",
+          "promptEnglish": "Verb-first for drama",
+          "options": [
+            "Уже весна пришла!",
+            "Весна пришла!",
+            "Весна уже пришла!",
+            "Пришла весна!"
+          ],
+          "answer": "Пришла весна!",
+          "hint": "Verb-first = dramatic",
+          "explanation": "Dramatic: Пришла весна!"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Question: What is Ivan reading? - Иван читает _____.",
+          "promptEnglish": "Answer emphasizes 'book'",
+          "options": [
+            "книгу он",
+            "он книгу",
+            "Книгу читает",
+            "книгу"
+          ],
+          "answer": "книгу",
+          "hint": "New info (book) at end",
+          "explanation": "Answer: Иван читает книгу (book emphasized)."
+        },
+        {
+          "prompt": "Clitic placement: Он _____ знает правду! (indeed/after all)",
+          "promptEnglish": "He DOES know the truth!",
+          "options": [
+            "знает же",
+            "же знает",
+            "ведь же",
+            "же"
+          ],
+          "answer": "же",
+          "hint": "же after first stressed word",
+          "explanation": "Clitic: Он же знает! (же after он)."
+        },
+        {
+          "prompt": "Which emphasizes WHAT he bought?",
+          "promptEnglish": "What did he buy? - A car.",
+          "options": [
+            "Машину он купил.",
+            "Купил он машину.",
+            "Он купил машину.",
+            "Машину купил он."
+          ],
+          "answer": "Он купил машину.",
+          "hint": "New info (car) at end",
+          "explanation": "Object emphasis: Он купил машину."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Existential: In the room _____ (there was a table)",
+          "promptEnglish": "Introducing new information",
+          "options": [
+            "там стол стоял.",
+            "стол там стоял.",
+            "стоял стол.",
+            "стол стоял."
+          ],
+          "answer": "стоял стол.",
+          "hint": "Existence = verb before new noun",
+          "explanation": "Existential: В комнате стоял стол."
+        },
+        {
+          "prompt": "Which is a neutral statement?",
+          "promptEnglish": "No special emphasis",
+          "options": [
+            "Ужин мама готовит.",
+            "Ужин готовит мама.",
+            "Готовит мама ужин.",
+            "Мама готовит ужин."
+          ],
+          "answer": "Мама готовит ужин.",
+          "hint": "Neutral = SVO",
+          "explanation": "Neutral: Мама готовит ужин."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Кто позвонил? — _____ Мария. (акцент на деятеле)",
+          "promptEnglish": "Who called? Maria called.",
+          "options": [
+            "Мария позвонила.",
+            "Позвонила Мария.",
+            "Мария сама позвонила.",
+            "Позвонила она."
+          ],
+          "answer": "Позвонила Мария.",
+          "hint": "Новая информация (Мария) стоит в конце",
+          "explanation": "Рема в конце: Позвонила Мария (акцент на том, КТО позвонил)."
+        },
+        {
+          "prompt": "Он _____ это знал! (усилительная частица)",
+          "promptEnglish": "He DID know this!",
+          "options": [
+            "ведь же",
+            "ли",
+            "всё-таки",
+            "же"
+          ],
+          "answer": "же",
+          "hint": "Клитика «же» ставится после первого ударного слова",
+          "explanation": "Клитика: Он же это знал! — «же» после первого ударного слова для усиления."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Who called? - _____ Иван. (emphasis on Ivan)"
+    ],
+    "choices": [
+      "Звонил",
+      "Иван звонил",
+      "Звонил он",
+      "Он звонил"
+    ],
+    "answers": [
+      "Звонил"
+    ],
+    "grammarFocus": "Emphasis: Звонил Иван (new info 'Ivan' at end)",
+    "hints": [
+      "In Russian, new/emphasized information goes at the END of the sentence. If 'Ivan' is the new info, what comes first?"
+    ],
+    "explanations": [
+      "Russian word order places new information (rheme) at the end: 'Звонил Иван' emphasizes WHO called (Ivan is the new info). Starting with the verb puts focus on the subject at the end. 'Иван звонил' would emphasize what Ivan did, not who called."
+    ],
+    "options": [
+      [
+        "Звонил",
+        "звонило",
+        "звонила",
+        "звонили"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Who's reading? - _____ (emphasis on Ivan)",
+      "contextEnglish": "It's Ivan who's reading.",
+      "options": [
+        "Книгу читает Иван.",
+        "Иван читает книгу."
+      ],
+      "answer": "Книгу читает Иван.",
+      "explanation": "Emphasis on Ivan (last position)."
+    },
+    {
+      "context": "What's Ivan reading? - _____ (emphasis on book)",
+      "contextEnglish": "Ivan is reading a book.",
+      "options": [
+        "Иван читает книгу.",
+        "Книгу читает Иван."
+      ],
+      "answer": "Иван читает книгу.",
+      "explanation": "Emphasis on book (last position)."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by emphasis type",
+    "categories": [
+      "Neutral (SVO)",
+      "Subject emphasis (S last)",
+      "Dramatic (V first)"
+    ],
+    "items": [
+      {
+        "word": "Иван читает книгу.",
+        "category": "Neutral (SVO)"
+      },
+      {
+        "word": "Книгу читает Иван.",
+        "category": "Subject emphasis (S last)"
+      },
+      {
+        "word": "Пришла весна!",
+        "category": "Dramatic (V first)"
+      },
+      {
+        "word": "Мама готовит ужин.",
+        "category": "Neutral (SVO)"
+      },
+      {
+        "word": "Это сделал он.",
+        "category": "Subject emphasis (S last)"
+      },
+      {
+        "word": "Началась война.",
+        "category": "Dramatic (V first)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "тема → рема",
+      "definition": "known info first, new info last",
+      "example": "Книгу (known) читает Иван (new)."
+    },
+    {
+      "term": "нейтральный порядок",
+      "definition": "neutral SVO order",
+      "example": "Иван читает книгу."
+    },
+    {
+      "term": "инверсия (V first)",
+      "definition": "verb-first for drama",
+      "example": "Пришла весна!"
+    },
+    {
+      "term": "клитики",
+      "definition": "же, ли, бы after first stressed word",
+      "example": "Он же знает!"
+    }
+  ]
+}

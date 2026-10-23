@@ -1,0 +1,284 @@
+{
+  "id": "a2-track-conjunctions-04-tozhe-vs-takzhe",
+  "level": "A2",
+  "focusArea": "sentenceStructure",
+  "title": "Conjunctions 4: тоже vs также (Me Too vs And Also This)",
+  "titleRussian": "Союзы 4: тоже vs также (я тоже vs и ещё вот это)",
+  "description": "Тоже adds the same comment to a NEW subject (Антон тоже прочитал её). Также adds a NEW fact about the SAME subject (Я также написал отзыв). One does 'me too'; the other does 'and also this'.",
+  "descriptionRussian": "Тоже добавляет то же высказывание к новому лицу (Антон тоже прочитал её). Также добавляет новый факт о том же лице (Я также написал отзыв). Одно слово делает «я тоже», другое — «и ещё вот это».",
+  "imageName": "plus.circle",
+  "trackId": "a2-conjunctions-mastery",
+  "trackTitle": "Conjunctions Mastery",
+  "trackTitleRussian": "Союзы",
+  "trackIndex": 4,
+  "trackTotal": 5,
+  "intro": "Both mean 'also' and they are not interchangeable. The test is what is new in your sentence. If the subject changed and the comment stayed the same, you want one; if the subject stayed and you are adding a new fact about it, you want the other. Me too, versus and I also did this.",
+  "rules": [
+    "Тоже adds the SAME comment to a NEW subject. Translate as 'too' or 'as well': Антон тоже прочитал её. (Anton read it too.)",
+    "Также adds a NEW comment about the SAME subject. Translate as 'also' / 'in addition': Я также написал отзыв. (I also wrote a review.)",
+    "Fast test: new subject + same comment → тоже; same subject + new comment → также.",
+    "Position: тоже sits next to the subject (Антон тоже); также sits just before the new fact (Я также написал). In writing, также can also open the sentence.",
+    "Register: тоже is the everyday conversational choice; также is slightly more formal and adds precision. Use the one that matches the meaning, not the one that feels safest."
+  ],
+  "examples": [
+    "Я прочитал эту книгу. Антон тоже прочитал её. (I read this book. Anton read it too.) Same action, new subject → тоже.",
+    "Лена любит чай. Я тоже люблю чай. (Lena likes tea. I also like tea.) Same predicate, new subject → тоже.",
+    "Я прочитал эту книгу. Я также написал отзыв. (I read this book. I also wrote a review.) Same subject, new fact → также.",
+    "Антон работает в Москве. Он также учится в университете. (Anton works in Moscow. He also studies at the university.) Same subject, new fact → также.",
+    "— Я устал. — Я тоже. (I'm tired. Me too.) Standard short reply with тоже.",
+    "В нашем городе есть музей. Также есть театр. (Our city has a museum. There is also a theatre.) New fact added, opening with также."
+  ],
+  "tables": [
+    {
+      "title": "тоже vs также: what is new in the second sentence?",
+      "headers": [
+        "What is new?",
+        "Word",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "New SUBJECT, same comment",
+          "cells": [
+            "тоже",
+            "Я прочитал её. Антон тоже прочитал её."
+          ]
+        },
+        {
+          "label": "New SUBJECT, same comment",
+          "cells": [
+            "тоже",
+            "Лена любит чай. Я тоже люблю чай."
+          ]
+        },
+        {
+          "label": "Same SUBJECT, new comment",
+          "cells": [
+            "также",
+            "Я прочитал её. Я также написал отзыв."
+          ]
+        },
+        {
+          "label": "Same SUBJECT, new comment",
+          "cells": [
+            "также",
+            "Антон работает. Он также учится."
+          ]
+        },
+        {
+          "label": "Short reply",
+          "cells": [
+            "тоже",
+            "— Я устал. — Я тоже."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Я люблю кофе. Антон _____ любит кофе.",
+          "promptEnglish": "I like coffee. Anton likes coffee too.",
+          "options": [
+            "тоже",
+            "также",
+            "но",
+            "поэтому"
+          ],
+          "answer": "тоже",
+          "hint": "New subject (Anton), same fact (likes coffee). Which word fits?",
+          "explanation": "Same comment (likes coffee), new subject (Anton instead of I) - that is тоже. The English cue is 'too' at the end of the sentence: 'Anton likes coffee too.' Также would need a new fact about the same subject, which is not the case here."
+        },
+        {
+          "prompt": "Я прочитал эту книгу. Я _____ написал отзыв.",
+          "promptEnglish": "I read this book. I also wrote a review.",
+          "options": [
+            "тоже",
+            "также",
+            "а",
+            "поэтому"
+          ],
+          "answer": "также",
+          "hint": "Same subject (I), new fact stacked on top (wrote a review).",
+          "explanation": "Same subject (I in both sentences), new fact (wrote a review on top of reading) - that is также. The English cue is 'also' in the middle of the clause, meaning 'in addition'. Тоже would need a new subject doing the same thing."
+        },
+        {
+          "prompt": "Лена живёт в Москве. Антон _____ живёт в Москве.",
+          "promptEnglish": "Lena lives in Moscow. Anton lives in Moscow too.",
+          "options": [
+            "но",
+            "потому что",
+            "тоже",
+            "также"
+          ],
+          "answer": "тоже",
+          "hint": "Two people, same city - new subject, same comment.",
+          "explanation": "Same action (lives in Moscow), new subject (Anton) - that is тоже. Notice the position: тоже sits right next to the subject Антон, before the verb."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Антон работает в банке. Он _____ учится в университете.",
+          "promptEnglish": "Anton works at a bank. He also studies at the university.",
+          "options": [
+            "тоже",
+            "поэтому",
+            "также",
+            "но"
+          ],
+          "answer": "также",
+          "hint": "Same person (Anton / he), new activity added to the picture.",
+          "explanation": "Same subject (Anton in both sentences, the second sentence uses 'he'), new fact (studies on top of working) - that is также. The English cue is 'also' meaning 'in addition'. Тоже would require a new subject doing the same thing."
+        },
+        {
+          "prompt": "— Я устал. — Я _____.",
+          "promptEnglish": "'I'm tired.' 'Me too.'",
+          "options": [
+            "также",
+            "тоже",
+            "и",
+            "а"
+          ],
+          "answer": "тоже",
+          "hint": "Classic short reply. Which is the everyday spoken word?",
+          "explanation": "Same comment ('am tired'), new subject (I in reply to the other person's I) - that is тоже. The short conversational reply 'Я тоже' is one of the most common uses of the word. Также would sound bookish and wrong in this short reply."
+        },
+        {
+          "prompt": "В нашем городе есть музей. _____ есть театр.",
+          "promptEnglish": "Our city has a museum. There is also a theatre.",
+          "options": [
+            "Тоже",
+            "Также",
+            "Поэтому",
+            "Но"
+          ],
+          "answer": "Также",
+          "hint": "Same place, new fact stacked on top. Which word can open the sentence?",
+          "explanation": "Same setting (our city), new fact (a theatre in addition to the museum) - that is также. Также can also open a sentence, especially in writing or careful speech, where it works like 'in addition' or 'and also'. Тоже does not open a sentence like this."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Моя сестра любит танцевать. Я _____ люблю танцевать. (My sister likes to dance. I like to dance too.)"
+    ],
+    "choices": [
+      "также",
+      "тоже",
+      "и",
+      "поэтому"
+    ],
+    "answers": [
+      "тоже"
+    ],
+    "grammarFocus": "Same comment ('likes to dance'), new subject (I in place of my sister) - that is тоже. The English cue is 'too' at the end of the second sentence. Также would require a new fact about the same subject."
+  },
+  "minimalPairs": [
+    {
+      "context": "Я прочитал эту книгу. Антон _____ прочитал её.",
+      "contextEnglish": "I read this book. Anton read it too.",
+      "options": [
+        "тоже",
+        "также"
+      ],
+      "answer": "тоже",
+      "explanation": "Same comment ('read the book'), new subject (Anton instead of I) - that is тоже. The English cue is 'too' at the end. Также would need a new fact about the same subject ('I also wrote a review'), not a new subject doing the same thing."
+    },
+    {
+      "context": "Я прочитал эту книгу. Я _____ написал отзыв.",
+      "contextEnglish": "I read this book. I also wrote a review.",
+      "options": [
+        "тоже",
+        "также"
+      ],
+      "answer": "также",
+      "explanation": "Same subject (I in both sentences), new fact (wrote a review on top of reading) - that is также. The English cue is 'also' meaning 'in addition'. Тоже here would mean a different person did the same thing, which is not what is being said."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Я люблю кофе. Антон также любит кофе.",
+      "translationEnglish": "I like coffee. Anton likes coffee too.",
+      "error": "также",
+      "correction": "тоже",
+      "options": [
+        "тоже",
+        "но",
+        "поэтому"
+      ],
+      "explanation": "What is new in the second sentence is the subject (Anton instead of I), while the comment ('likes coffee') stays the same: a new subject doing the same thing takes тоже. The English cue is 'too' at the end ('Anton likes coffee too'). Также would be right if the subject stayed the same and a new fact were added (Я люблю кофе. Я также люблю чай - I like coffee. I also like tea)."
+    },
+    {
+      "sentence": "Антон любит футбол. Лена также любит футбол.",
+      "translationEnglish": "Anton likes football. Lena likes football too.",
+      "error": "также",
+      "correction": "тоже",
+      "options": [
+        "тоже",
+        "и",
+        "но"
+      ],
+      "explanation": "The comment ('likes football') is the same; what is new is the subject (Lena instead of Anton): a new subject with the same comment takes тоже. Correct: Антон любит футбол. Лена тоже любит футбол. Также would need a new fact about the same subject (Антон любит футбол. Он также играет в шахматы - Anton likes football. He also plays chess)."
+    },
+    {
+      "sentence": "Антон работает в банке. Он тоже учится в университете.",
+      "translationEnglish": "Anton works at a bank. He also studies at the university.",
+      "error": "тоже",
+      "correction": "также",
+      "options": [
+        "также",
+        "но",
+        "поэтому"
+      ],
+      "explanation": "The subject stays the same across both sentences (Anton, then 'he'), and the second sentence adds a new fact on top of working: studying. A new comment about the same subject takes также: Он также учится в университете. Тоже would be right only if a new subject did the same thing as before (Антон работает в банке. Лена тоже работает в банке - Anton works at a bank. Lena works at a bank too). The English cue 'also' meaning 'in addition' points to также, not the 'me too' тоже."
+    },
+    {
+      "sentence": "Я написал письмо, и моя сестра также написала письмо.",
+      "translationEnglish": "I wrote a letter, and my sister wrote a letter too.",
+      "error": "также",
+      "correction": "тоже",
+      "options": [
+        "тоже",
+        "но",
+        "поэтому"
+      ],
+      "explanation": "The two halves share the same comment ('wrote a letter') but have different subjects (I and my sister), so the 'also' here marks a new subject doing the same thing, which takes тоже next to that second subject: ..., и моя сестра тоже написала письмо. The English cue is 'too' at the end. Также would fit only if one subject added a new action (Я написал письмо. Я также позвонил - I wrote a letter. I also called), which is not the case when a second person matches the first."
+    },
+    {
+      "sentence": "Лена любит чай, и я также люблю чай.",
+      "translationEnglish": "Lena likes tea, and I like tea too.",
+      "error": "также",
+      "correction": "тоже",
+      "options": [
+        "тоже",
+        "но",
+        "поэтому"
+      ],
+      "explanation": "Same comment ('likes tea'), new subject (I in place of Lena): a new subject with the same comment takes тоже, sitting next to that subject: ..., и я тоже люблю чай. The English cue is 'too' at the end. Также would require the same subject adding a new fact (Я люблю чай. Я также люблю кофе - I like tea. I also like coffee), but here a second person is matching the first, which is the тоже job."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "тоже",
+      "definition": "too / also; used when the second sentence has a NEW subject doing the SAME thing. Conversational and very common. Sits next to the subject: Антон тоже...",
+      "example": "Лена любит чай. Я тоже люблю чай."
+    },
+    {
+      "term": "также",
+      "definition": "also / in addition; used when the SAME subject does a NEW thing. Slightly more formal but still everyday. Sits before the new fact: Я также написал...",
+      "example": "Антон работает в банке. Он также учится в университете."
+    },
+    {
+      "term": "the tozhe / takzhe test",
+      "definition": "ask what is new in the second sentence: if the SUBJECT is new and the comment is the same, use тоже; if the SUBJECT is the same and the COMMENT is new, use также.",
+      "example": "New subject: 'Антон тоже работает.' New comment: 'Я также читаю.'"
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "lessonId": "a1-009-review-2",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Quiz mixing word order, conjugation, negation, infinitives, and numbers",
+      "descriptionRussian": "Викторина: порядок слов, спряжение, отрицание, инфинитив и числа",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я _____ книгу. (читать)",
+              "promptEnglish": "I am reading a book.",
+              "options": [
+                "читать",
+                "читаешь",
+                "читает",
+                "читаю"
+              ],
+              "answer": "читаю",
+              "hint": "я + 1st conjugation present tense.",
+              "explanation": "Читать with я: читаю. 1st conjugation, -ю ending for я."
+            },
+            {
+              "prompt": "Она _____ работает сегодня.",
+              "promptEnglish": "She doesn't work today.",
+              "options": [
+                "нет",
+                "ни",
+                "не",
+                "но"
+              ],
+              "answer": "не",
+              "hint": "Negation particle before the verb.",
+              "explanation": "Не is placed directly before the verb to negate: не работает."
+            },
+            {
+              "prompt": "What is 30 in Russian?",
+              "promptEnglish": "What is 30 in Russian?",
+              "options": [
+                "двадцать",
+                "тринадцать",
+                "тридцать",
+                "сорок"
+              ],
+              "answer": "тридцать",
+              "hint": "три + дцать.",
+              "explanation": "Тридцать (30) = три (3) + дцать (tens suffix for 20-30)."
+            },
+            {
+              "prompt": "Мы хотим _____ в парк. (to go)",
+              "promptEnglish": "We want to go to the park.",
+              "options": [
+                "идём",
+                "идёшь",
+                "идти",
+                "идёт"
+              ],
+              "answer": "идти",
+              "hint": "After хотеть, use the infinitive.",
+              "explanation": "After хотим (want), use the infinitive: идти (to go)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я _____ книгу.",
+          "contextEnglish": "Which is the present tense (not infinitive)?",
+          "options": [
+            "читаю",
+            "читать"
+          ],
+          "answer": "читаю",
+          "explanation": "Читаю is conjugated present tense (I read). Читать is the infinitive (to read)."
+        },
+        {
+          "context": "Он _____ работает. (negation)",
+          "contextEnglish": "He doesn't work.",
+          "options": [
+            "не",
+            "нет"
+          ],
+          "answer": "не",
+          "explanation": "Не goes before verbs for negation. Нет is a standalone 'no' or means 'there is no.'"
+        },
+        {
+          "context": "Which sentence is neutral SVO?",
+          "contextEnglish": "Which is the neutral word order?",
+          "options": [
+            "Мама читает книгу.",
+            "Книгу читает мама."
+          ],
+          "answer": "Мама читает книгу.",
+          "explanation": "SVO (Subject-Verb-Object) is neutral. The second sentence changes order for emphasis."
+        },
+        {
+          "context": "Я хочу _____ книгу.",
+          "contextEnglish": "I want to read a book.",
+          "options": [
+            "читать",
+            "читаю"
+          ],
+          "answer": "читать",
+          "explanation": "After хочу, use the infinitive: читать (to read), not the conjugated form."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in verbs and sort conjugated vs. infinitive forms",
+      "descriptionRussian": "Вставьте глаголы и рассортируйте спрягаемые и инфинитивные формы",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Они _____ по-русски. (говорить, present)",
+          "Она _____ говорит по-английски. (negation)",
+          "Я хочу _____ кофе. (to drink)",
+          "В классе _____ студентов. (15)"
+        ],
+        "choices": [
+          "говорят",
+          "не",
+          "пить",
+          "пятнадцать"
+        ],
+        "answers": [
+          "говорят",
+          "не",
+          "пить",
+          "пятнадцать"
+        ],
+        "grammarFocus": "mixed review: conjugation, negation, infinitives, numbers",
+        "hints": [
+          "они + 2nd conjugation.",
+          "Negation particle before the verb.",
+          "Infinitive after хочу.",
+          "пять + надцать."
+        ],
+        "explanations": [
+          "Говорить with они: говорят. 2nd conjugation, -ят for они.",
+          "Не before the verb negates it: не говорит.",
+          "After хочу, use the infinitive: пить (to drink).",
+          "Пятнадцать (15) = пять (5) + надцать (teen suffix)."
+        ],
+        "options": [
+          [
+            "говорим",
+            "говорю",
+            "говорят",
+            "говорите"
+          ],
+          [
+            "никогда",
+            "не",
+            "нет",
+            "ни"
+          ],
+          [
+            "пью",
+            "пьёт",
+            "выпить",
+            "пить"
+          ],
+          [
+            "пятнадцать",
+            "пятнадцати",
+            "пятнадцатью"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort: infinitive or conjugated form?",
+        "categories": [
+          "Infinitive",
+          "Conjugated"
+        ],
+        "items": [
+          {
+            "word": "читать",
+            "category": "Infinitive"
+          },
+          {
+            "word": "читаю",
+            "category": "Conjugated"
+          },
+          {
+            "word": "говорить",
+            "category": "Infinitive"
+          },
+          {
+            "word": "говорят",
+            "category": "Conjugated"
+          },
+          {
+            "word": "работать",
+            "category": "Infinitive"
+          },
+          {
+            "word": "работает",
+            "category": "Conjugated"
+          },
+          {
+            "word": "идти",
+            "category": "Infinitive"
+          },
+          {
+            "word": "идёт",
+            "category": "Conjugated"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-3-build-translate",
+      "title": "Build and Translate",
+      "titleRussian": "Составь и переведи",
+      "description": "Build and translate sentences across all review topics",
+      "descriptionRussian": "Составьте и переведите предложения по всем темам",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "They don't understand Russian.",
+          "answer": "Они не понимают по-русски.",
+          "acceptableVariants": [
+            "Они не понимают русский."
+          ],
+          "hint": "they = они, don't = не, understand = понимают",
+          "grammarFocus": "negation + conjugation",
+          "keyWord": "не",
+          "options": [
+            "не",
+            "нет",
+            "ни",
+            "но"
+          ]
+        },
+        {
+          "english": "I want to eat.",
+          "answer": "Я хочу есть.",
+          "hint": "I = я, want = хочу, to eat = есть (infinitive)",
+          "grammarFocus": "хотеть + infinitive",
+          "keyWord": "хочу",
+          "options": [
+            "хочу",
+            "хочет",
+            "хочешь",
+            "хотим"
+          ]
+        },
+        {
+          "english": "He works at school.",
+          "answer": "Он работает в школе.",
+          "hint": "he = он, works = работает, at school = в школе",
+          "grammarFocus": "1st conjugation, present tense",
+          "keyWord": "работает",
+          "options": [
+            "работает",
+            "работаю",
+            "работаешь",
+            "работают"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What is 40 in Russian?",
+              "promptEnglish": "What is 40 in Russian?",
+              "options": [
+                "тридцать",
+                "четырнадцать",
+                "сорок",
+                "пятьдесят"
+              ],
+              "answer": "сорок",
+              "hint": "This number is irregular (not четыредцать).",
+              "explanation": "Сорок (40) is an irregular number word. It doesn't follow the compound pattern."
+            },
+            {
+              "prompt": "Ты _____ музыку? (слушать)",
+              "promptEnglish": "Do you listen to music?",
+              "options": [
+                "слушаю",
+                "слушает",
+                "слушаешь",
+                "слушают"
+              ],
+              "answer": "слушаешь",
+              "hint": "ты + 1st conjugation.",
+              "explanation": "Слушать with ты: слушаешь. 1st conjugation uses -ешь for ты."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-spot-errors",
+      "title": "Find the Mistakes",
+      "titleRussian": "Найди ошибки",
+      "description": "Spot errors across all review topics",
+      "descriptionRussian": "Найдите ошибки по всем темам повторения",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Я нет понимаю.",
+          "error": "нет",
+          "correction": "не",
+          "hint": "Nет is a standalone 'no.' Use не before verbs.",
+          "explanation": "Не goes before the verb for negation: Я не понимаю. Нет is for standalone 'no' answers.",
+          "options": [
+            "не",
+            "ни",
+            "но"
+          ]
+        },
+        {
+          "sentence": "Он хочет читаю книгу.",
+          "error": "читаю",
+          "correction": "читать",
+          "hint": "After хотеть, use the infinitive, not conjugated form.",
+          "explanation": "After хочет, use the infinitive: читать (to read), not читаю (I read).",
+          "options": [
+            "читать",
+            "читаешь",
+            "читает"
+          ]
+        },
+        {
+          "sentence": "Мы говоришь по-русски.",
+          "error": "говоришь",
+          "correction": "говорим",
+          "hint": "Говоришь is the ты form, not мы.",
+          "explanation": "Мы requires говорим. Говоришь is the ты form.",
+          "options": [
+            "говорим",
+            "говорю",
+            "говорят"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which is the neutral word order for 'Mom reads a book'?",
+              "promptEnglish": "Which is the neutral SVO order?",
+              "options": [
+                "Книгу читает мама.",
+                "Мама читает книгу.",
+                "Читает мама книгу.",
+                "Книгу мама читает."
+              ],
+              "answer": "Мама читает книгу.",
+              "hint": "Subject first, verb second, object third.",
+              "explanation": "Neutral SVO: Мама (S) читает (V) книгу (O)."
+            },
+            {
+              "prompt": "Вы _____ по-русски? (понимать)",
+              "promptEnglish": "Do you understand Russian?",
+              "options": [
+                "понимаю",
+                "понимаешь",
+                "понимаете",
+                "понимают"
+              ],
+              "answer": "понимаете",
+              "hint": "вы + 1st conjugation.",
+              "explanation": "Понимать with вы: понимаете. 1st conjugation uses -ете for вы."
+            },
+            {
+              "prompt": "What is 70 in Russian?",
+              "promptEnglish": "What is 70 in Russian?",
+              "options": [
+                "шестьдесят",
+                "семьдесят",
+                "восемьдесят",
+                "сорок"
+              ],
+              "answer": "семьдесят",
+              "hint": "семь + десят (seven tens).",
+              "explanation": "Семьдесят (70) = семь (7) + десят (tens). Compound number."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанная практика",
+      "description": "A fresh round mixing all review topics",
+      "descriptionRussian": "Новый раунд по всем темам повторения",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Они _____ работают в воскресенье.",
+              "promptEnglish": "They don't work on Sunday.",
+              "options": [
+                "нет",
+                "не",
+                "ни",
+                "но"
+              ],
+              "answer": "не",
+              "hint": "Negation before the verb.",
+              "explanation": "Не before the verb negates the action: не работают."
+            },
+            {
+              "prompt": "Мне нужно _____ . (to work)",
+              "promptEnglish": "I need to work.",
+              "options": [
+                "работаю",
+                "работает",
+                "работать",
+                "работаем"
+              ],
+              "answer": "работать",
+              "hint": "After нужно, use the infinitive.",
+              "explanation": "After нужно (need to), use the infinitive: работать."
+            },
+            {
+              "prompt": "What is 100 in Russian?",
+              "promptEnglish": "What is 100 in Russian?",
+              "options": [
+                "девяносто",
+                "пятьдесят",
+                "сто",
+                "двести"
+              ],
+              "answer": "сто",
+              "hint": "Just one short word.",
+              "explanation": "Сто (100). A simple, short word."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "prompt": "What do «Я не работаю», «Она не говорит», and «Мы не понимаем» have in common?",
+          "options": [
+            "They all use infinitives",
+            "They all use не before the verb for negation",
+            "They are all questions"
+          ],
+          "answer": "They all use не before the verb for negation",
+          "explanation": "All three negate the action by placing не directly before the conjugated verb."
+        },
+        {
+          "prompt": "What do «хочу читать», «нужно работать», and «можно войти» have in common?",
+          "options": [
+            "They all use conjugated verbs after the modal",
+            "They all use infinitives after a modal word",
+            "They all use не"
+          ],
+          "answer": "They all use infinitives after a modal word",
+          "explanation": "All three use an infinitive (-ть/-ти) after a modal: хочу/нужно/можно + infinitive."
+        }
+      ]
+    }
+  ]
+}

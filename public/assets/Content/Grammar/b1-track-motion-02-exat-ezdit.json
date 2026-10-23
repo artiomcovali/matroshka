@@ -1,0 +1,448 @@
+{
+  "id": "b1-track-motion-02-exat-ezdit",
+  "level": "B1",
+  "focusArea": "motionVerbs",
+  "title": "Motion Verbs 2: ехать vs ездить",
+  "titleRussian": "Глаголы движения 2: ехать и ездить",
+  "description": "The transport pair. Ехать = single one-way trip in progress, by some vehicle. Ездить = round-trip, habit, or general claim about motion by vehicle.",
+  "descriptionRussian": "Транспортная пара. Ехать — однонаправленная поездка в процессе. Ездить — туда и обратно, привычка или общее утверждение о передвижении.",
+  "imageName": "car.fill",
+  "trackId": "b1-motion-verbs-mastery",
+  "trackTitle": "Motion Verbs Mastery",
+  "trackTitleRussian": "Глаголы движения",
+  "trackIndex": 2,
+  "trackTotal": 11,
+  "intro": "The same split again, this time for traveling by vehicle. Having learned the distinction once, you get this pair almost free, which is exactly the point: the pattern is the thing to own, not the individual verbs. Two details worth catching. One form has a consonant change in the я-form, and the means of transport gets named with a preposition rather than built into the verb.",
+  "rules": [
+    "Ехать = single one-way trip in progress, by transport. Present: еду, едешь, едет, едем, едете, едут. Past: ехал / ехала / ехало / ехали.",
+    "Ездить = round-trip, habit, or general claim about motion by transport. Present: езжу, ездишь, ездит, ездим, ездите, ездят. Past: ездил / ездила / ездило / ездили.",
+    "The 1sg of ездить is езжу: the д becomes ж before the у ending. The other present forms keep -зд-.",
+    "Choose ехать for сейчас, потом, скоро, and one specific trip; choose ездить for часто, обычно, каждый день, иногда, and completed round-trips.",
+    "Name the means of transport with 'на + prepositional': на автобусе, на машине, на поезде, на метро, на такси, на самолёте."
+  ],
+  "examples": [
+    "Сейчас Маша едет в Москву на поезде. (Right now Masha is on her way to Moscow by train.) Ехать: in-progress one-way trip.",
+    "Лена часто ездит на дачу на машине. (Lena often goes to the dacha by car.) Ездить with 'часто': habit.",
+    "Антон вчера ездил в Петербург и вернулся вечером. (Anton went to Petersburg yesterday and returned in the evening.) Ездить past: round-trip.",
+    "Когда мы ехали на автобусе, начался дождь. (While we were riding the bus, it started raining.) Ехать past: motion in progress.",
+    "Я езжу на работу на метро каждый день. (I take the metro to work every day.) Ездить with 'каждый день': habit; 1sg езжу.",
+    "Этот поезд едет в Петербург. (This train is going to Petersburg.) Ехать: a single ongoing trajectory."
+  ],
+  "tables": [
+    {
+      "title": "Motion by Transport: One-Way vs Round-Trip / Habit",
+      "headers": [
+        "Form",
+        "ехать (one-way, in progress)",
+        "ездить (round-trip, habit)"
+      ],
+      "rows": [
+        {
+          "label": "1sg (я)",
+          "cells": [
+            "еду",
+            "езжу"
+          ]
+        },
+        {
+          "label": "2sg (ты)",
+          "cells": [
+            "едешь",
+            "ездишь"
+          ]
+        },
+        {
+          "label": "3sg (он, она)",
+          "cells": [
+            "едет",
+            "ездит"
+          ]
+        },
+        {
+          "label": "1pl (мы)",
+          "cells": [
+            "едем",
+            "ездим"
+          ]
+        },
+        {
+          "label": "2pl (вы)",
+          "cells": [
+            "едете",
+            "ездите"
+          ]
+        },
+        {
+          "label": "3pl (они)",
+          "cells": [
+            "едут",
+            "ездят"
+          ]
+        },
+        {
+          "label": "Past masc.",
+          "cells": [
+            "ехал",
+            "ездил"
+          ]
+        },
+        {
+          "label": "Past fem.",
+          "cells": [
+            "ехала",
+            "ездила"
+          ]
+        },
+        {
+          "label": "Past plural",
+          "cells": [
+            "ехали",
+            "ездили"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Сейчас Маша _____ в Москву на поезде.",
+          "promptEnglish": "Right now Masha is on her way to Moscow by train.",
+          "options": [
+            "ездит",
+            "ходит",
+            "едет",
+            "ездила"
+          ],
+          "answer": "едет",
+          "hint": "'Сейчас' anchors the action to this moment. Single one-way trip by transport?",
+          "explanation": "'Сейчас' (right now) marks a single in-progress one-way trip. By transport (на поезде) → ехать, 3sg едет. Ездит would describe a habit ('she goes to Moscow regularly'), which the present-moment cue rules out. Ходит is the on-foot verb, wrong with на поезде."
+        },
+        {
+          "prompt": "Лена часто _____ на дачу на машине.",
+          "promptEnglish": "Lena often goes to the dacha by car.",
+          "options": [
+            "едет",
+            "ездит",
+            "еду",
+            "ехала"
+          ],
+          "answer": "ездит",
+          "hint": "'Часто' is a habit cue. Repeated trips by transport need which verb of the pair?",
+          "explanation": "'Часто' (often) marks repeated motion. Repetition + by transport → ездить, 3sg ездит. Едет would describe a single one-way trip in progress, not a recurring pattern."
+        },
+        {
+          "prompt": "Я _____ на работу на метро каждый день.",
+          "promptEnglish": "I take the metro to work every day.",
+          "options": [
+            "еду",
+            "ехала",
+            "езжу",
+            "ездит"
+          ],
+          "answer": "езжу",
+          "hint": "'Каждый день' is a habit cue. Note the 1sg form of ездить.",
+          "explanation": "'Каждый день' marks a daily routine. Habit + 1sg of ездить → езжу (the д becomes ж before the у). Еду would describe a single one-way trip happening at this moment, which the daily-routine frame rules out."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Антон вчера _____ в Петербург и вернулся вечером.",
+          "promptEnglish": "Anton went to Petersburg yesterday and returned in the evening.",
+          "options": [
+            "ехал",
+            "еду",
+            "езжу",
+            "ездил"
+          ],
+          "answer": "ездил",
+          "hint": "Past trip there AND back is a round-trip. Which past form covers both legs?",
+          "explanation": "The 'и вернулся вечером' clause confirms a completed there-and-back trip. Past round-trip → ездить, masc -ил: ездил. Ехал (past of ехать) describes the moment of motion only ('he was riding'), not the full round-trip."
+        },
+        {
+          "prompt": "Когда мы _____ на автобусе, начался сильный дождь.",
+          "promptEnglish": "While we were riding the bus, heavy rain started.",
+          "options": [
+            "ехали",
+            "ездили",
+            "едут",
+            "ездим"
+          ],
+          "answer": "ехали",
+          "hint": "'When we were riding' frames a moment within a single in-progress trip. Past plural?",
+          "explanation": "'Когда мы ехали' = 'while we were riding': a moment captured inside a single in-progress one-way trip. Past plural of ехать: ехали. Ездили would describe a completed round-trip, which cannot host the rain that interrupts the motion."
+        },
+        {
+          "prompt": "Этот поезд _____ прямо в Петербург, без остановок.",
+          "promptEnglish": "This train goes straight to Petersburg, with no stops.",
+          "options": [
+            "ездит",
+            "едет",
+            "ездят",
+            "ехал"
+          ],
+          "answer": "едет",
+          "hint": "One train on one trajectory toward one destination. One-way, in progress?",
+          "explanation": "One train moving along one trajectory toward one destination is a single in-progress trip → ехать, 3sg едет. Ездит would suggest the train shuttles back and forth as a routine, which 'прямо ... без остановок' rules out."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Я _____ в университет каждый день.",
+          "promptEnglish": "I go to university by metro every day.",
+          "options": [
+            "езжу на метро",
+            "еду на метро",
+            "ехал на метро",
+            "поеду на метро"
+          ],
+          "answer": "езжу на метро",
+          "hint": "'Каждый день' is a habit cue. Which member of the pair?",
+          "explanation": "A daily habit takes the round-trip ездить: езжу (the д becomes ж in the 1sg). Еду is one trip in progress right now."
+        },
+        {
+          "prompt": "Сейчас Лена _____ в аэропорт.",
+          "promptEnglish": "Right now Lena is on her way to the airport by taxi.",
+          "options": [
+            "едет на такси",
+            "ездит на такси",
+            "ездила на такси",
+            "поездит на такси"
+          ],
+          "answer": "едет на такси",
+          "hint": "'Сейчас' + one destination = one trip in progress.",
+          "explanation": "A single in-progress trip takes the one-way ехать: едет. Ездит would mean she regularly rides there and back, which clashes with 'сейчас'."
+        },
+        {
+          "prompt": "Мы часто _____ на дачу.",
+          "promptEnglish": "We often drive to the dacha.",
+          "options": [
+            "ездим на машине",
+            "едем на машине",
+            "ехали на машине",
+            "поедем на машине"
+          ],
+          "answer": "ездим на машине",
+          "hint": "'Часто' is a frequency cue. Which verb, 1pl?",
+          "explanation": "Repeated trips take the round-trip ездить: ездим. Едем is one drive in progress."
+        }
+      ]
+    }
+  ],
+  "conjugationTable": {
+    "verb": "ездить",
+    "paradigm": [
+      "езжу",
+      "ездишь",
+      "ездит",
+      "ездим",
+      "ездите",
+      "ездят"
+    ],
+    "blanks": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "hints": [
+      "я: the trap form. The д turns into ж, so it is not «ездю»",
+      "ты: the -зд- comes back, езд- + -ишь",
+      "мы: езд- + -им",
+      "они: 2nd conjugation, езд- + -ят (not -ют)"
+    ],
+    "tense": "present",
+    "explanations": [
+      "езжу: 1sg of ездить. This is the only form where д becomes ж. «Ездю» does not exist.",
+      "ездишь: 2sg of ездить. Every form except the 1sg keeps -зд-: ездишь, ездит, ездим, ездите, ездят.",
+      "ездим: 1pl of ездить: езд- + -им, 'we go (regularly, by transport)'.",
+      "ездят: 3pl of ездить: езд- + -ят, the 2nd-conjugation ending, never «ездют»."
+    ]
+  },
+  "fillInBlank": {
+    "blanks": [
+      "Маша _____ в Петербург каждое лето. (Masha goes to Petersburg every summer.)"
+    ],
+    "choices": [
+      "едет",
+      "ездит",
+      "ехала",
+      "едут"
+    ],
+    "answers": [
+      "ездит"
+    ],
+    "grammarFocus": "'Каждое лето' (every summer) is a habit cue: the trip recurs annually. Habit + by transport → ездить, 3sg ездит. Едет would describe a single in-progress trip, which the recurring-summer frame rules out."
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Лена",
+        "ездит",
+        "на",
+        "работу",
+        "на",
+        "автобусе"
+      ],
+      "answer": "Лена ездит на работу на автобусе.",
+      "translation": "Lena goes to work by bus.",
+      "acceptableVariants": [
+        "Лена ездит на автобусе на работу."
+      ],
+      "hint": "Daily routine → ездить, 3sg. Add the destination, then 'на + transport' in the prepositional."
+    },
+    {
+      "words": [
+        "Мы",
+        "каждое",
+        "лето",
+        "ездим",
+        "на",
+        "море",
+        "на",
+        "поезде"
+      ],
+      "answer": "Мы каждое лето ездим на море на поезде.",
+      "translation": "Every summer we go to the sea by train.",
+      "acceptableVariants": [
+        "Каждое лето мы ездим на море на поезде."
+      ],
+      "hint": "'Каждое лето' is a habit cue → ездить, 1pl. Means of transport: на + prepositional."
+    },
+    {
+      "words": [
+        "Антон",
+        "часто",
+        "ездит",
+        "в",
+        "Москву",
+        "на",
+        "машине"
+      ],
+      "answer": "Антон часто ездит в Москву на машине.",
+      "translation": "Anton often goes to Moscow by car.",
+      "acceptableVariants": [
+        "Антон ездит в Москву на машине часто."
+      ],
+      "hint": "'Часто' → ездить, 3sg. Destination 'в Москву', then 'на машине'."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Позвони мне позже: я сейчас езжу в аэропорт на такси.",
+      "translationEnglish": "Call me later: I'm on my way to the airport by taxi right now.",
+      "error": "езжу",
+      "correction": "еду",
+      "options": [
+        "еду",
+        "ехал",
+        "ездил"
+      ],
+      "explanation": "'Сейчас' anchors a single one-way trip in progress, which is the job of ехать: еду. The round-trip езжу (1sg of ездить) describes a habit ('I regularly go to the airport'), which clashes with 'сейчас' and a single taxi ride. Choose ехать for one trip underway, ездить for routines and round-trips."
+    },
+    {
+      "sentence": "Мы каждое утро едем на работу на метро.",
+      "translationEnglish": "Every morning we take the metro to work.",
+      "error": "едем",
+      "correction": "ездим",
+      "options": [
+        "ездим",
+        "ехали",
+        "ездили"
+      ],
+      "explanation": "'Каждое утро' is a frequency cue: the trip repeats daily, which is the round-trip verb ездить: ездим. The one-way едем describes one ride happening right now, which a daily routine is not. Ездили is the past round-trip form."
+    },
+    {
+      "sentence": "В прошлом месяце Лена ехала в Петербург и вернулась через три дня.",
+      "translationEnglish": "Last month Lena went to Petersburg and came back three days later.",
+      "error": "ехала",
+      "correction": "ездила",
+      "options": [
+        "ездила",
+        "ездит",
+        "едет"
+      ],
+      "explanation": "The frame 'в прошлом месяце ... и вернулась' describes a completed there-and-back trip, which is the round-trip ездить past: ездила. The one-way ехала captures only a moment of riding ('was on her way'), not the whole trip."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Сейчас я _____ домой на такси.",
+      "contextEnglish": "I'm heading home by taxi right now.",
+      "options": [
+        "еду",
+        "езжу"
+      ],
+      "answer": "еду",
+      "explanation": "'Сейчас' (right now) forces a present-moment in-progress reading: single one-way trip → ехать, 1sg еду. Езжу would describe a habit (regular taxi rides home), which the present-moment cue rules out."
+    },
+    {
+      "context": "Маша _____ на дачу каждые выходные.",
+      "contextEnglish": "Masha goes to the dacha every weekend.",
+      "options": [
+        "едет",
+        "ездит"
+      ],
+      "answer": "ездит",
+      "explanation": "'Каждые выходные' (every weekend) is a frequency cue: repetition → ездить, 3sg ездит. Едет would describe a single in-progress trip at this moment, which the recurring-weekend pattern rules out."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each sentence by the verb it needs: ехать (one in-progress trip) or ездить (habit or round-trip).",
+    "categories": [
+      "ехать (one-way, in progress)",
+      "ездить (habit / round-trip)"
+    ],
+    "items": [
+      {
+        "word": "Сейчас я ___ в центр на метро.",
+        "category": "ехать (one-way, in progress)"
+      },
+      {
+        "word": "Антон ___ на работу на машине каждый день.",
+        "category": "ездить (habit / round-trip)"
+      },
+      {
+        "word": "Смотри, автобус уже ___ к остановке.",
+        "category": "ехать (one-way, in progress)"
+      },
+      {
+        "word": "Летом мы часто ___ на море на поезде.",
+        "category": "ездить (habit / round-trip)"
+      },
+      {
+        "word": "Вчера Лена ___ в Москву и вернулась вечером.",
+        "category": "ездить (habit / round-trip)"
+      },
+      {
+        "word": "Скоро поезд ___ в Петербург, садись скорее.",
+        "category": "ехать (one-way, in progress)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "ехать",
+      "definition": "to go by transport, one-way and in progress (single trip happening at the reference moment, in one direction)",
+      "example": "Сейчас Маша едет в Москву на поезде."
+    },
+    {
+      "term": "ездить",
+      "definition": "to go by transport, round-trip or habit or general claim. 1sg is езжу (the д becomes ж before the у).",
+      "example": "Я езжу на работу на метро каждый день."
+    },
+    {
+      "term": "на + transport",
+      "definition": "names the means of travel in the prepositional case: на поезде, на машине, на метро, на такси, на автобусе, на самолёте",
+      "example": "Лена часто ездит на дачу на машине."
+    }
+  ]
+}

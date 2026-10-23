@@ -1,0 +1,323 @@
+{
+  "id": "b1-029-participle-passive-past",
+  "level": "B1",
+  "focusArea": "other",
+  "title": "Past Passive Participles",
+  "titleRussian": "Страдательные причастия прошедшего времени",
+  "description": "-нный/-тый formation and short forms",
+  "descriptionRussian": "Образование полных и кратких форм",
+  "imageName": "checkmark.seal.fill",
+  "intro": "Past passive participles describe something that WAS DONE (completed action). They replace 'который + past passive': книга, которую прочитали → прочитанная книга (a book that was read). Formation depends on the infinitive: most verbs use -ННЫЙ (написать → написанный), while some use -ТЫЙ (открыть → открытый, взять → взятый). Short forms (написан, открыт) are used predicatively: Книга написана (The book is written/was written).",
+  "rules": [
+    "Past passive participles are the most common type — they describe completed actions and appear everywhere in Russian.",
+    "Short forms (написан, открыт, сделан) are used as predicates and are extremely common in speech: Дверь закрыта. Работа сделана.",
+    "Long forms (написанная, открытый) are used before nouns as attributes: написанная книга (the written book).",
+    "Only transitive perfective verbs form past passive participles — this is why they always express a completed result."
+  ],
+  "examples": [
+    "Написанная книга лежит на столе. (The written book is lying on the table.)",
+    "Купленные продукты в холодильнике. (The purchased groceries are in the fridge.)",
+    "Дверь открыта. (The door is open.), short form",
+    "Работа сделана хорошо. (The work is done well.), short form"
+  ],
+  "tables": [
+    {
+      "title": "Passive Past Participle Formation",
+      "headers": [
+        "Infinitive",
+        "Participle",
+        "Short Form",
+        "Suffix"
+      ],
+      "rows": [
+        {
+          "label": "-ать verbs",
+          "cells": [
+            "прочита|нный",
+            "прочита|н",
+            "-нн-"
+          ]
+        },
+        {
+          "label": "-ать verbs",
+          "cells": [
+            "написа|нный",
+            "написа|н",
+            "-нн-"
+          ]
+        },
+        {
+          "label": "-ыть verbs",
+          "cells": [
+            "откры|тый",
+            "откры|т",
+            "-т-"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "написать → _____",
+          "promptEnglish": "to write → written",
+          "options": [
+            "пишущий",
+            "писавший",
+            "написавший",
+            "написанный"
+          ],
+          "answer": "написанный",
+          "hint": "-ать verbs → -анный",
+          "explanation": "Formation: написать → написанный."
+        },
+        {
+          "prompt": "Книга _____. (The book is written.)",
+          "promptEnglish": "The book is written.",
+          "options": [
+            "написавшая",
+            "написана",
+            "написанная",
+            "пишущая"
+          ],
+          "answer": "написана",
+          "hint": "Predicate = short form (fem)",
+          "explanation": "Short form predicative: написана."
+        },
+        {
+          "prompt": "открыть → _____",
+          "promptEnglish": "to open → opened",
+          "options": [
+            "открываемый",
+            "открытый",
+            "открывающий",
+            "открывший"
+          ],
+          "answer": "открытый",
+          "hint": "-ыть verbs → -ытый",
+          "explanation": "Formation: открыть → открытый."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ продукты лежат на столе. (The purchased groceries are on the table.)",
+          "promptEnglish": "The purchased groceries are on the table.",
+          "options": [
+            "Покупавшие",
+            "Купившие",
+            "Покупающие",
+            "Купленные"
+          ],
+          "answer": "Купленные",
+          "hint": "Passive (were bought) = past passive",
+          "explanation": "Long form attributive: купленные."
+        },
+        {
+          "prompt": "получить → _____",
+          "promptEnglish": "to receive → received",
+          "options": [
+            "получаемый",
+            "получивший",
+            "полученный",
+            "получающий"
+          ],
+          "answer": "полученный",
+          "hint": "-ить verbs drop -и-: получ- + -енный",
+          "explanation": "Formation: получить → полученный."
+        },
+        {
+          "prompt": "Работа _____. (The work is done.)",
+          "promptEnglish": "The work is done.",
+          "options": [
+            "делающая",
+            "сделанная",
+            "делавшая",
+            "сделана"
+          ],
+          "answer": "сделана",
+          "hint": "Predicate = short form",
+          "explanation": "Short form: сделана."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "взять → _____",
+          "promptEnglish": "to take → taken",
+          "options": [
+            "бравший",
+            "взявший",
+            "берущий",
+            "взятый"
+          ],
+          "answer": "взятый",
+          "hint": "-ять verbs → -ятый",
+          "explanation": "Formation: взять → взятый."
+        },
+        {
+          "prompt": "Окно _____. (The window is closed.)",
+          "promptEnglish": "The window is closed.",
+          "options": [
+            "закрывающее",
+            "закрывшее",
+            "закрытое",
+            "закрыто"
+          ],
+          "answer": "закрыто",
+          "hint": "Predicate neuter = short form",
+          "explanation": "Short form neuter: закрыто."
+        },
+        {
+          "prompt": "изучить → _____",
+          "promptEnglish": "to study → studied",
+          "options": [
+            "изучаемый",
+            "изучивший",
+            "изученный",
+            "изучающий"
+          ],
+          "answer": "изученный",
+          "hint": "-ить → -енный",
+          "explanation": "Formation: изучить → изученный."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Статья _____ вчера. (The article was published yesterday.)",
+      "_____ в прошлом году книга лежит на столе. (The book written last year is on the table.)",
+      "Дверь _____. (The door is closed.)"
+    ],
+    "choices": [
+      "Написанная",
+      "опубликована",
+      "закрыта",
+      "опубликованная",
+      "публиковавшая",
+      "закрытая",
+      "написана"
+    ],
+    "answers": [
+      "опубликована",
+      "Написанная",
+      "закрыта"
+    ],
+    "grammarFocus": "Short form for predicate: опубликована",
+    "hints": [
+      "The article is the subject and 'published' is the predicate — use the short form of the past passive participle (feminine).",
+      "The book modifies a noun that follows — use the long form (attributive) of написанный (feminine).",
+      "The door is the subject and 'closed' is the predicate — use the short form (feminine)."
+    ],
+    "explanations": [
+      "As a predicate, use the short form: опубликована (fem, matching статья). Long form опубликованная would go before a noun.",
+      "Before a noun (attributive position), use the long form: Написанная в прошлом году книга. The participle agrees with книга (feminine).",
+      "As a predicate describing the door's state, use the short form: закрыта (fem, matching дверь). Закрытая would be used attributively."
+    ],
+    "options": [
+      [
+        "опубликовано",
+        "опубликованы",
+        "опубликована",
+        "опубликован"
+      ],
+      [
+        "написавшей",
+        "написавшую",
+        "написавшею",
+        "Написанная"
+      ],
+      [
+        "закрыта",
+        "закрыты",
+        "закрыто",
+        "закрыт"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ книга лежит на столе. (attribute)",
+      "contextEnglish": "The read book is on the table.",
+      "options": [
+        "Прочитанная",
+        "Прочитана"
+      ],
+      "answer": "Прочитанная",
+      "explanation": "Attributive (before noun): long form."
+    },
+    {
+      "context": "Книга _____. (predicate)",
+      "contextEnglish": "The book has been read.",
+      "options": [
+        "прочитана",
+        "прочитанная"
+      ],
+      "answer": "прочитана",
+      "explanation": "Predicative: short form."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by formation type",
+    "categories": [
+      "-нный formation",
+      "-тый formation"
+    ],
+    "items": [
+      {
+        "word": "написанный (написать)",
+        "category": "-нный formation"
+      },
+      {
+        "word": "открытый (открыть)",
+        "category": "-тый formation"
+      },
+      {
+        "word": "прочитанный (прочитать)",
+        "category": "-нный formation"
+      },
+      {
+        "word": "взятый (взять)",
+        "category": "-тый formation"
+      },
+      {
+        "word": "полученный (получить)",
+        "category": "-нный formation"
+      },
+      {
+        "word": "забытый (забыть)",
+        "category": "-тый formation"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "-нный (most verbs)",
+      "definition": "past passive suffix",
+      "example": "написанный, прочитанный"
+    },
+    {
+      "term": "-тый (special verbs)",
+      "definition": "past passive suffix",
+      "example": "открытый, взятый"
+    },
+    {
+      "term": "short form",
+      "definition": "predicative use",
+      "example": "написан, открыт"
+    },
+    {
+      "term": "long form",
+      "definition": "attributive use",
+      "example": "написанная книга"
+    }
+  ]
+}

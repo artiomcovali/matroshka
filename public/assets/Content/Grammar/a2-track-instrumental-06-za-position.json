@@ -1,0 +1,294 @@
+{
+  "id": "a2-track-instrumental-06-za-position",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Instrumental 6: За, Под, Над, Перед (Position)",
+  "titleRussian": "Творительный 6: За, под, над, перед (положение)",
+  "description": "Position prepositions за / под / над / перед take the instrumental for STATIC location: за столом, под стулом, над окном.",
+  "descriptionRussian": "Предлоги за, под, над, перед в значении статичного положения требуют творительного падежа.",
+  "imageName": "rectangle.3.group.fill",
+  "trackId": "a2-instrumental-mastery",
+  "trackTitle": "Instrumental Mastery",
+  "trackTitleRussian": "Творительный падеж",
+  "trackIndex": 6,
+  "trackTotal": 9,
+  "intro": "Four prepositions of position, and one of them behaves differently depending on the verb. Sitting behind a table and sitting down behind a table use different cases in Russian, because the language distinguishes being somewhere from arriving there. That contrast is the whole difficulty here; the rest is one ending applied four times.",
+  "rules": [
+    "За (behind, at), под (under), над (above), перед (in front of) take the INSTRUMENTAL case for static position: за столом, под стулом, над окном, перед домом.",
+    "Critical contrast: 'за' takes ACCUSATIVE for motion (сесть за стол = sit DOWN at the table) but INSTRUMENTAL for static location (сидеть за столом = sit at the table, ongoing).",
+    "The verb determines the case: motion verbs (сесть, лечь, пойти) → accusative; stative verbs (сидеть, лежать, стоять, висеть) → instrumental.",
+    "Над (above) and перед (in front of) take ONLY the instrumental: there is no separate motion form, because 'above' and 'in front of' describe positions, not destinations.",
+    "Между (between) also takes the instrumental, usually with a plural complement: между домом и школой (between the house and the school)."
+  ],
+  "examples": [
+    "Антон сидит за столом. (Anton sits at the table.) стол → столом.",
+    "Кошка спит под стулом. (The cat sleeps under the chair.) стул → стулом.",
+    "Дом стоит за школой. (The house stands behind the school.) школа → школой.",
+    "Маша работает над проектом. (Masha is working on her project.) проект → проектом.",
+    "Лена стоит перед окном. (Lena stands in front of the window.) окно → окном."
+  ],
+  "tables": [
+    {
+      "title": "Position Prepositions + Instrumental",
+      "headers": [
+        "Preposition",
+        "Meaning",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "за",
+          "cells": [
+            "behind, at",
+            "за столом, за домом"
+          ]
+        },
+        {
+          "label": "под",
+          "cells": [
+            "under",
+            "под стулом, под окном"
+          ]
+        },
+        {
+          "label": "над",
+          "cells": [
+            "above, over",
+            "над столом, над домом"
+          ]
+        },
+        {
+          "label": "перед",
+          "cells": [
+            "in front of",
+            "перед окном, перед школой"
+          ]
+        },
+        {
+          "label": "между",
+          "cells": [
+            "between",
+            "между домом и школой"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Антон сидит за _____.",
+          "promptEnglish": "Anton sits at the table.",
+          "options": [
+            "стол",
+            "стола",
+            "столу",
+            "столом"
+          ],
+          "answer": "столом",
+          "hint": "Static sitting (no motion) → which case after за?",
+          "explanation": "Сидеть is stative; with за it takes the instrumental: за столом. The accusative 'за стол' would mean motion (Anton sat down at the table = сел за стол). The verb decides the case."
+        },
+        {
+          "prompt": "Кошка под _____.",
+          "promptEnglish": "The cat is under the chair.",
+          "options": [
+            "стула",
+            "стулом",
+            "стуле",
+            "стулу"
+          ],
+          "answer": "стулом",
+          "hint": "Static location (the cat is, not the cat moves to) → which case after под?",
+          "explanation": "Под for static location takes the instrumental: стул → стулом. Like за, под also has a motion sense ('кошка побежала под стул' = ran under the chair, acc), but the static reading here picks instrumental."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Дом стоит за _____.",
+          "promptEnglish": "The house stands behind the school.",
+          "options": [
+            "школы",
+            "школу",
+            "школой",
+            "школе"
+          ],
+          "answer": "школой",
+          "hint": "Стоит is stative. Школа is feminine -а.",
+          "explanation": "Стоит is stative; за + instr for location → школой. Школа is feminine -а → -ой. The form школу (acc) would appear with motion ('пошёл за школу' = went behind the school)."
+        },
+        {
+          "prompt": "Маша работает над _____.",
+          "promptEnglish": "Masha is working on her project.",
+          "options": [
+            "проекта",
+            "проектом",
+            "проекту",
+            "проекте"
+          ],
+          "answer": "проектом",
+          "hint": "Над has no motion form. What case must it take?",
+          "explanation": "Над takes only the instrumental: над проектом. The figurative 'work on (a project)' uses the same над + instr structure as the literal 'hang above (a table)'. Над has no accusative version."
+        },
+        {
+          "prompt": "Лена сидит перед _____.",
+          "promptEnglish": "Lena sits in front of the window.",
+          "options": [
+            "окна",
+            "окну",
+            "окне",
+            "окном"
+          ],
+          "answer": "окном",
+          "hint": "Перед is also instrumental-only. Окно is neuter -о.",
+          "explanation": "Перед takes only the instrumental: перед окном. Окно is neuter -о, which (like masculine consonant) takes -ом → окном. Same ending, different gender."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "За _____ парк. (Behind the house there is a park.)"
+    ],
+    "choices": [
+      "дом",
+      "дома",
+      "дому",
+      "домом"
+    ],
+    "answers": [
+      "домом"
+    ],
+    "grammarFocus": "За + instrumental for static location: дом → домом. The sentence reads 'Behind the house [is] a park.'"
+  },
+  "minimalPairs": [
+    {
+      "context": "Антон сидит за _____.",
+      "contextEnglish": "Anton sits at the table.",
+      "options": [
+        "стол",
+        "столом"
+      ],
+      "answer": "столом",
+      "explanation": "Stative сидеть takes за + instrumental: за столом. The form стол (nom / acc) would only fit a motion construction: 'Антон сел за стол' (Anton sat DOWN at the table, with motion)."
+    },
+    {
+      "context": "Дом стоит за _____.",
+      "contextEnglish": "The house stands behind the school.",
+      "options": [
+        "школа",
+        "школой"
+      ],
+      "answer": "школой",
+      "explanation": "Стоит is stative; за + instrumental for location → школой. The nominative школа would only mark a subject ('Школа большая.' / 'The school is big.'), not the place behind which the house stands."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Антон сидит за стол.",
+      "translationEnglish": "Anton sits at the table.",
+      "error": "за стол",
+      "correction": "за столом",
+      "options": [
+        "за столом",
+        "за стола",
+        "за столу"
+      ],
+      "explanation": "Сидеть is a stative verb, so за takes the instrumental for static location: за столом. The accusative за стол would mark motion ('сел за стол' = sat DOWN at the table)."
+    },
+    {
+      "sentence": "Кошка спит под диван.",
+      "translationEnglish": "The cat is sleeping under the sofa.",
+      "error": "под диван",
+      "correction": "под диваном",
+      "options": [
+        "под диваном",
+        "под дивана",
+        "под дивану"
+      ],
+      "explanation": "Спит is stative. Под for static location takes the instrumental: под диваном. The accusative под диван would mean motion ('кошка побежала под диван' = ran under the sofa)."
+    },
+    {
+      "sentence": "Маша работает над проект.",
+      "translationEnglish": "Masha is working on her project.",
+      "error": "над проект",
+      "correction": "над проектом",
+      "options": [
+        "над проектом",
+        "над проекта",
+        "над проекту"
+      ],
+      "explanation": "Над takes only the instrumental, in both its literal sense and the figurative 'work on' (работать над чем): проект → проектом. Над проект leaves the bare nominative, which cannot follow a preposition."
+    },
+    {
+      "sentence": "Лена стоит перед школа.",
+      "translationEnglish": "Lena stands in front of the school.",
+      "error": "перед школа",
+      "correction": "перед школой",
+      "options": [
+        "перед школой",
+        "перед школу",
+        "перед школы"
+      ],
+      "explanation": "Перед takes only the instrumental. Школа is feminine -а → -ой → школой. Перед школа leaves the bare nominative, which is never used after a preposition."
+    },
+    {
+      "sentence": "Антон вошёл и сразу сел за столом.",
+      "translationEnglish": "Anton came in and immediately sat down at the table.",
+      "error": "за столом",
+      "correction": "за стол",
+      "options": [
+        "за стол",
+        "за столе",
+        "за стола"
+      ],
+      "explanation": "The verb decides the case after за. Сесть (to sit DOWN) is a motion verb, so it takes за + ACCUSATIVE: сел за стол (motion into position). За столом (instrumental) marks STATIC location and pairs with stay-put verbs ('сидит за столом', is sitting at the table)."
+    },
+    {
+      "sentence": "Магазин находится между банком и аптеку.",
+      "translationEnglish": "The store is located between the bank and the pharmacy.",
+      "error": "аптеку",
+      "correction": "аптекой",
+      "options": [
+        "аптекой",
+        "аптеки",
+        "аптеке"
+      ],
+      "explanation": "Между (between) takes the instrumental, and it applies to BOTH nouns it joins: между банком и аптекой. Банком is already instrumental; the error is аптеку, the accusative. The instrumental of аптека (feminine -а) is аптекой."
+    },
+    {
+      "sentence": "Журналист долго работал над статью.",
+      "translationEnglish": "The journalist worked on the article for a long time.",
+      "error": "над статью",
+      "correction": "над статьёй",
+      "options": [
+        "над статьёй",
+        "над статьи",
+        "над статье"
+      ],
+      "explanation": "Над takes only the instrumental, including the figurative 'work on' (работать над чем). Статья is feminine -я with a stressed ending, so the instrumental is статьёй. Над статью uses the accusative, which над never takes."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "за",
+      "definition": "behind, at (takes instrumental for static location, accusative for motion)",
+      "example": "Антон сидит за столом."
+    },
+    {
+      "term": "над",
+      "definition": "above, over (takes only the instrumental)",
+      "example": "Лампа висит над столом."
+    },
+    {
+      "term": "перед",
+      "definition": "in front of (takes only the instrumental)",
+      "example": "Лена стоит перед окном."
+    }
+  ]
+}

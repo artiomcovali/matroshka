@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-019",
+  "title": "Photo With Friend",
+  "level": "A1",
+  "description": "Ask a stranger to take your photo",
+  "imageName": "camera.fill",
+  "initialPrompt": "Да? Вы что-то хотите?",
+  "systemPrompt": "You are a friendly stranger. User wants you to take their photo. Agree and ask where they want to stand. Keep replies short.",
+  "completionCriteria": "User asked you to take photo and you agreed.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините (Excuse me)",
+    "Вы можете...? (Can you...?)",
+    "Сделать фото (Take a photo)",
+    "Спасибо большое! (Thank you very much!)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "фото",
+      "definition": "photo"
+    },
+    {
+      "word": "сделать",
+      "definition": "to take/make"
+    },
+    {
+      "word": "извините",
+      "definition": "excuse me"
+    },
+    {
+      "word": "можете",
+      "definition": "can you"
+    },
+    {
+      "word": "здесь",
+      "definition": "here"
+    }
+  ],
+  "objectives": [
+    "Get attention (Извините)",
+    "Ask for help with photo (сделать фото)",
+    "Thank them (Спасибо)"
+  ]
+}

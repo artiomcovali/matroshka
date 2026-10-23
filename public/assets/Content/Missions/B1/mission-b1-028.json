@@ -1,0 +1,50 @@
+{
+  "id": "mission-b1-028",
+  "title": "Art Class Enrollment",
+  "level": "B1",
+  "difficulty": "easy",
+  "description": "Sign up for painting classes at an art studio",
+  "imageName": "paintpalette.fill",
+  "initialPrompt": "Добро пожаловать в художественную студию! Какие курсы вас интересуют?",
+  "systemPrompt": "You run an art studio. Offer: watercolor, oil painting, sketching. Beginner classes Tuesday/Thursday 6pm, 8 weeks, 15K₽. Materials included. Ask about experience level. Keep replies short.",
+  "completionCriteria": "User enrolled in an art class with schedule confirmed.",
+  "responseLimit": 15,
+  "hints": [
+    "Какие курсы есть? (What courses are available?)",
+    "Я начинающий (I'm a beginner)",
+    "Когда занятия? (When are the classes?)",
+    "Материалы включены? (Are materials included?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "живопись",
+      "definition": "painting"
+    },
+    {
+      "word": "курс",
+      "definition": "course"
+    },
+    {
+      "word": "занятие",
+      "definition": "class"
+    },
+    {
+      "word": "материалы",
+      "definition": "materials"
+    },
+    {
+      "word": "уровень",
+      "definition": "level"
+    },
+    {
+      "word": "студия",
+      "definition": "studio"
+    }
+  ],
+  "objectives": [
+    "Ask about available courses",
+    "Share your experience level",
+    "Confirm schedule and price",
+    "Enroll in a class"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-hard-023",
+  "title": "The WiFi Charge",
+  "level": "A2",
+  "difficulty": "hard",
+  "description": "Hotel charged for WiFi you never used - dispute the charges",
+  "imageName": "wifi",
+  "initialPrompt": "Ваш счёт: номер 5000₽, WiFi 500₽, мини-бар 800₽. Итого 6300 рублей.",
+  "systemPrompt": "You work at hotel reception. Guest charged for WiFi and minibar. WiFi was complimentary but system auto-charged. Remove after guest insists. Minibar is correct. Keep replies short.",
+  "completionCriteria": "User got WiFi charge removed.",
+  "responseLimit": 15,
+  "hints": [
+    "Я не пользовался WiFi (I didn't use WiFi)",
+    "Уберите эту сумму (Remove this charge)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "счёт",
+      "definition": "bill"
+    },
+    {
+      "word": "интернет",
+      "definition": "internet"
+    },
+    {
+      "word": "бесплатный",
+      "definition": "free"
+    },
+    {
+      "word": "ошибка",
+      "definition": "error"
+    },
+    {
+      "word": "убрать",
+      "definition": "to remove"
+    },
+    {
+      "word": "оплата",
+      "definition": "payment"
+    }
+  ],
+  "objectives": [
+    "Question the WiFi charge",
+    "Explain you didn't use it",
+    "Ask them to check records",
+    "Insist on removal",
+    "Get corrected bill"
+  ]
+}

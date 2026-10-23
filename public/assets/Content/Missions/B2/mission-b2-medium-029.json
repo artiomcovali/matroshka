@@ -1,0 +1,49 @@
+{
+  "id": "mission-b2-medium-029",
+  "title": "Inheritance Dispute",
+  "level": "B2",
+  "difficulty": "medium",
+  "description": "Mediating a family inheritance disagreement",
+  "imageName": "doc.text.fill",
+  "initialPrompt": "Бабушка оставила дачу мне, а не тебе! Ты редко её навещал. Это несправедливо, что ты претендуешь на наследство.",
+  "systemPrompt": "You are angry relative in inheritance dispute. Believe you deserve more. Calm down if other party shows empathy and seeks fair solution. Keep replies short.",
+  "completionCriteria": "User navigated family conflict toward resolution.",
+  "responseLimit": 15,
+  "hints": [
+    "Я понимаю твои чувства... (I understand your feelings...)",
+    "Давай обсудим спокойно (Let's discuss calmly)",
+    "Может, найдём компромисс? (Maybe we can find a compromise?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "наследство",
+      "definition": "inheritance"
+    },
+    {
+      "word": "завещание",
+      "definition": "will"
+    },
+    {
+      "word": "претензия",
+      "definition": "claim"
+    },
+    {
+      "word": "справедливость",
+      "definition": "fairness"
+    },
+    {
+      "word": "компромисс",
+      "definition": "compromise"
+    },
+    {
+      "word": "семья",
+      "definition": "family"
+    }
+  ],
+  "objectives": [
+    "Show empathy",
+    "De-escalate conflict",
+    "Propose fair solutions",
+    "Preserve family relationship"
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "id": "b2-track-subordination-06-concession-condition",
+  "level": "B2",
+  "focusArea": "sentenceStructure",
+  "title": "Subordination 7: Concession and Condition",
+  "titleRussian": "Подчинение 7: уступка и условие",
+  "description": "Concession (хотя, несмотря на то что - although / in spite of the fact that) marks a result that holds DESPITE an obstacle. Condition (если, в случае если - if / in the event that) marks a result that depends on something being true.",
+  "descriptionRussian": "Уступка (хотя, несмотря на то что) указывает на следствие, которое наступает ВОПРЕКИ препятствию. Условие (если, в случае если) указывает на следствие, которое зависит от выполнения некоторого условия.",
+  "imageName": "arrow.triangle.turn.up.right.diamond",
+  "trackId": "b2-subordination-mastery",
+  "trackTitle": "Subordination Mastery",
+  "trackTitleRussian": "Сложноподчинённые предложения",
+  "trackIndex": 7,
+  "trackTotal": 8,
+  "intro": "Two families that English speakers confuse, because both open clauses that sound uncertain. One says the result happened despite an obstacle; the other says the result depends on something being true. Although and if are not interchangeable, and swapping them reverses the meaning. There is also a tense trap: Russian uses the future in both halves of a real future condition, where English keeps the present.",
+  "rules": [
+    "Concession marks a result that holds DESPITE an obstacle: хотя (although, standard, comes first or second) and несмотря на то что (in spite of the fact that, formal).",
+    "The signature of concession is 'anyway': the obstacle should have blocked the result but did not. Хотя шёл дождь, мы пошли гулять.",
+    "Condition marks a result that DEPENDS on something being true: если (if, standard) and в случае если (in the event that, formal). если often pairs with optional то in the main clause.",
+    "For a REAL future condition, use the FUTURE tense in BOTH clauses, unlike English which keeps the present after 'if': Если будет дождь, мы останемся дома (not *Если есть дождь).",
+    "Keep them apart: если (if, uncertain, result depends on it) is NOT хотя (although, given, result happens regardless). Swapping them changes the meaning."
+  ],
+  "examples": [
+    "Хотя шёл дождь, мы пошли гулять. (Although it was raining, we went for a walk.) - concession.",
+    "Несмотря на то что было поздно, он продолжал работать. (In spite of the fact that it was late, he kept working.) - formal concession.",
+    "Если будет дождь, мы останемся дома. (If it rains, we'll stay home.) - condition, future in both clauses.",
+    "Если ты устал, то отдохни. (If you are tired, then rest.) - condition with optional то.",
+    "В случае если рейс задержат, вам сообщат. (In the event that the flight is delayed, you will be informed.) - formal condition.",
+    "Хотя он устал, он закончил работу. (Although he was tired, he finished the work.) - the obstacle did not stop the result."
+  ],
+  "tables": [
+    {
+      "title": "Concession vs condition",
+      "headers": [
+        "Type",
+        "Connectors",
+        "Logic"
+      ],
+      "rows": [
+        {
+          "label": "Concession",
+          "cells": [
+            "хотя; несмотря на то что",
+            "result happens DESPITE the obstacle ('anyway')"
+          ]
+        },
+        {
+          "label": "Condition",
+          "cells": [
+            "если; в случае если",
+            "result DEPENDS on the condition being true"
+          ]
+        },
+        {
+          "label": "Future condition",
+          "cells": [
+            "если + future ... future",
+            "Russian uses future in BOTH clauses (English: present after 'if')"
+          ]
+        },
+        {
+          "label": "Register",
+          "cells": [
+            "хотя / если (standard)",
+            "несмотря на то что / в случае если (formal)"
+          ]
+        },
+        {
+          "label": "Cause (don't confuse!)",
+          "cells": [
+            "так как / потому что",
+            "the obstacle is the REASON for the result, not something overcome"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ было холодно, дети играли во дворе.",
+          "promptEnglish": "Although it was cold, the children played in the yard.",
+          "options": [
+            "Хотя",
+            "Если",
+            "Потому что",
+            "Поэтому"
+          ],
+          "answer": "Хотя",
+          "hint": "The cold should have stopped them, but they played anyway. Is the result despite an obstacle, or does it depend on a condition?",
+          "explanation": "The cold is an obstacle that did NOT stop the children, so this is concession: Хотя (although).Если would make the playing depend on the cold ('if it was cold'), which reverses the meaning. The 'anyway' feeling marks хотя."
+        },
+        {
+          "prompt": "_____ завтра будет хорошая погода, мы поедем на дачу.",
+          "promptEnglish": "If the weather is good tomorrow, we'll go to the country house.",
+          "options": [
+            "Хотя",
+            "Если",
+            "Несмотря на то что",
+            "Так как"
+          ],
+          "answer": "Если",
+          "hint": "The trip depends on the weather, which is still uncertain. Concession or condition?",
+          "explanation": "The trip DEPENDS on good weather, which is not yet certain, so this is a condition: Если. Note the future будет in the if-clause (Russian uses the future for a real future condition, where English uses the present 'is').Хотя would wrongly mean the trip happens despite the weather."
+        },
+        {
+          "prompt": "Он сдал экзамен, _____ почти не готовился.",
+          "promptEnglish": "He passed the exam, although he barely studied.",
+          "options": [
+            "потому что",
+            "если",
+            "поэтому",
+            "хотя"
+          ],
+          "answer": "хотя",
+          "hint": "Barely studying should have caused failure, yet he passed. Despite, or because?",
+          "explanation": "Barely studying is an obstacle that should have led to failure, but he passed ANYWAY, so concession: хотя.Потому что would wrongly make the lack of study the reason he passed; the logic here is 'despite,' not 'because.'"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ возникнут вопросы, обращайтесь к администратору.",
+          "promptEnglish": "In the event that questions arise, contact the administrator.",
+          "options": [
+            "Хотя",
+            "Несмотря на то что",
+            "В случае если",
+            "Поэтому"
+          ],
+          "answer": "В случае если",
+          "hint": "This is a formal instruction; the action depends on questions arising. Which formal conditional fits?",
+          "explanation": "The instruction depends on a possible future event (questions arising), and the register is formal, so в случае если (in the event that).Хотя and несмотря на то что are concessive (despite), which does not match a 'should this happen' instruction."
+        },
+        {
+          "prompt": "_____ он был болен, он пришёл на встречу.",
+          "promptEnglish": "In spite of the fact that he was ill, he came to the meeting.",
+          "options": [
+            "Если",
+            "Несмотря на то что",
+            "В случае если",
+            "Так как"
+          ],
+          "answer": "Несмотря на то что",
+          "hint": "Illness should have kept him away, but he came anyway, and the phrasing is formal. Which connector?",
+          "explanation": "Being ill is an obstacle he overcame (he came anyway), so this is concession, and несмотря на то что is the formal 'in spite of the fact that.' так как would make illness the reason he came (which is illogical), and если/в случае если are conditional, not concessive."
+        },
+        {
+          "prompt": "Если ты _____ время, позвони мне.",
+          "promptEnglish": "If you have time, call me.",
+          "options": [
+            "найдёшь",
+            "находишь",
+            "найти",
+            "найдёт"
+          ],
+          "answer": "найдёшь",
+          "hint": "It is a real future condition. What tense does Russian use in the if-clause?",
+          "explanation": "For a real future condition, Russian uses the FUTURE in the if-clause: найдёшь (you will find / have time), agreeing with ты. English keeps the present ('if you have time'), but Russian does not.Находишь (present) and найдёт (wrong person) do not fit."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "_____, мы всё равно пошли гулять.",
+          "promptEnglish": "Although it was cold, we went for a walk anyway.",
+          "options": [
+            "Хотя было холодно",
+            "Если было холодно",
+            "Потому что было холодно",
+            "Так как было холодно"
+          ],
+          "answer": "Хотя было холодно",
+          "hint": "'Всё равно' signals the obstacle did not stop the result.",
+          "explanation": "The despite-reading takes Хотя: Хотя было холодно, мы пошли гулять. Если would make the walk depend on the cold; потому что / так как would make the cold the reason FOR walking."
+        },
+        {
+          "prompt": "_____, мы останемся дома.",
+          "promptEnglish": "If it rains tomorrow, we will stay home.",
+          "options": [
+            "Если завтра будет дождь",
+            "Хотя завтра будет дождь",
+            "Если бы завтра будет дождь",
+            "Несмотря на то что дождь"
+          ],
+          "answer": "Если завтра будет дождь",
+          "hint": "Staying home depends on the rain: condition, not concession.",
+          "explanation": "A real future condition takes Если + future: Если завтра будет дождь. Хотя would mean they stay home DESPITE rain; если бы cannot combine with будет."
+        },
+        {
+          "prompt": "_____, он помог нам.",
+          "promptEnglish": "Although he was very busy, he helped us.",
+          "options": [
+            "Хотя он был очень занят",
+            "Если он был очень занят",
+            "Потому что он был занят",
+            "Чтобы он был занят"
+          ],
+          "answer": "Хотя он был очень занят",
+          "hint": "Busy should have stopped him, but didn't: concession.",
+          "explanation": "The obstacle-that-failed takes Хотя: Хотя он был занят, он помог. Если makes the help conditional; потому что makes busyness the reason he helped, which is backwards."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ задание было трудным, она справилась с ним сама. (Although the task was hard, she managed it herself.)"
+    ],
+    "choices": [
+      "Хотя",
+      "Если",
+      "Поэтому",
+      "В случае если"
+    ],
+    "answers": [
+      "Хотя"
+    ],
+    "grammarFocus": "The difficulty of the task is an obstacle she overcame (she managed it anyway), so this is concession: Хотя.Если would make her success depend on the difficulty, and поэтому introduces a result, not a concession. The 'anyway' logic marks хотя."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Если шёл дождь, мы всё равно пошли гулять.",
+      "translationEnglish": "Although it was raining, we went for a walk anyway.",
+      "error": "Если",
+      "correction": "Хотя",
+      "options": [
+        "Хотя",
+        "Несмотря на то что",
+        "Потому что"
+      ],
+      "explanation": "The phrase всё равно ('anyway') shows the rain did NOT stop the walk, which is the signature of concession: Хотя ('although').Если ('if') would make the walk depend on the rain, a conditional reading that clashes with 'we went anyway.' Несмотря на то что also marks concession but is the heavier formal form and would normally lead the sentence as a full phrase, while Потому что ('because') would wrongly turn the rain into the reason for the walk.",
+      "hint": "всё равно (anyway) is the giveaway. The rain did not stop the walk - that is concession."
+    },
+    {
+      "sentence": "Если завтра есть дождь, мы останемся дома.",
+      "translationEnglish": "If it rains tomorrow, we'll stay home.",
+      "error": "есть",
+      "correction": "будет",
+      "options": [
+        "будет",
+        "был",
+        "была"
+      ],
+      "explanation": "For a real future condition, Russian uses the FUTURE in the if-clause: будет дождь ('there will be rain'), because the main clause останемся is already future. English keeps the present after 'if' ('if it rains'), but Russian does not carry that present into the if-clause.Есть is present, был is past and points to a finished event rather than a future one, and была is the feminine past, also the wrong tense and gender for дождь.",
+      "hint": "It is about tomorrow. Russian puts the future in the if-clause, unlike English."
+    },
+    {
+      "sentence": "Если было поздно, мы всё равно продолжили разговор.",
+      "translationEnglish": "Although it was late, we continued the conversation anyway.",
+      "error": "Если",
+      "correction": "Хотя",
+      "options": [
+        "Хотя",
+        "В случае если",
+        "Так как"
+      ],
+      "explanation": "всё равно ('anyway') signals that the lateness did NOT stop the conversation, which is concession: Хотя ('although').Если ('if') would make the conversation depend on the time, a conditional reading that contradicts 'we continued anyway.' В случае если is the formal conditional 'in the event that,' the same wrong logic as если, and Так как ('since') would turn the lateness into the reason for continuing, a cause rather than a conceded obstacle.",
+      "hint": "всё равно means the lateness did not stop them. That is concession, not condition."
+    },
+    {
+      "sentence": "Если есть время завтра, мы зайдём в музей.",
+      "translationEnglish": "If there is time tomorrow, we'll drop by the museum.",
+      "error": "есть",
+      "correction": "будет",
+      "options": [
+        "будет",
+        "было",
+        "будут"
+      ],
+      "explanation": "This is a real future condition, so the if-clause takes the FUTURE: будет время, matching the future main clause зайдём. English uses the present after 'if,' but Russian does not, so есть (present) is wrong here.Было is the past tense, pointing to a finished event rather than tomorrow, and будут is the plural future, wrong for the singular время.",
+      "hint": "It is about tomorrow. The Russian if-clause needs the future, not the present."
+    },
+    {
+      "sentence": "Если шёл снег, поезд всё равно не опоздал.",
+      "translationEnglish": "Although it was snowing, the train was not late anyway.",
+      "error": "Если",
+      "correction": "Хотя",
+      "options": [
+        "Хотя",
+        "Несмотря на то что",
+        "Если бы"
+      ],
+      "explanation": "всё равно ('anyway') shows the snow did NOT make the train late, the despite-an-obstacle logic of concession: Хотя ('although').Если ('if') would make the train's punctuality depend on the snow, a conditional reading that clashes with 'not late anyway.' Несмотря на то что also marks concession but is the formal multi-word form normally placed at the head of the sentence, and Если бы ('if only / were it the case') sets up an unreal hypothetical, which the plain past шёл and не опоздал do not express.",
+      "hint": "всё равно says the snow failed to delay the train. That despite-feeling is concession."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "_____ шёл дождь, мы остались дома. (Because it was raining, we stayed home - the rain caused it.)",
+      "contextEnglish": "Because it was raining, we stayed home.",
+      "options": [
+        "Так как",
+        "Хотя"
+      ],
+      "answer": "Так как",
+      "explanation": "Here the rain CAUSED the staying home, so the cause connector так как fits. Хотя would mean 'although it rained, we stayed home,' implying the rain should NOT have kept us in, which contradicts the natural cause-result logic of rain keeping people indoors."
+    },
+    {
+      "context": "_____ шёл дождь, мы пошли гулять. (Although it was raining, we went for a walk - the rain did not stop us.)",
+      "contextEnglish": "Although it was raining, we went for a walk.",
+      "options": [
+        "Так как",
+        "Хотя"
+      ],
+      "answer": "Хотя",
+      "explanation": "Here the rain did NOT stop the walk (we went anyway), so the concession connector хотя fits.Так как would wrongly make the rain the reason we went out, which makes no sense. The result holding despite the obstacle is the mark of хотя."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "хотя / несмотря на то что",
+      "definition": "concession: the result happens DESPITE an obstacle ('anyway'). хотя is standard; несмотря на то что is the formal version. Both can come first or second.",
+      "example": "Хотя было холодно, мы гуляли. / Несмотря на то что было поздно, он работал."
+    },
+    {
+      "term": "если / в случае если",
+      "definition": "condition: the result DEPENDS on something being true. если is standard (often with optional то); в случае если is formal. For a real future, use the future tense in BOTH clauses.",
+      "example": "Если будет дождь, мы останемся дома. / В случае если рейс задержат, вам сообщат."
+    },
+    {
+      "term": "так как / потому что",
+      "definition": "cause: the obstacle is the REASON for the result. Do not confuse with concession (хотя), where the result happens despite the obstacle.",
+      "example": "Так как шёл дождь, мы остались дома. (The rain caused staying home.) Compare: Хотя шёл дождь, мы пошли гулять. (The rain did not stop the walk.)"
+    },
+    {
+      "term": "условие против уступки",
+      "definition": "the key contrast: если (if) leaves the obstacle uncertain and makes the result depend on it; хотя (although) takes the obstacle as given and lets the result happen regardless. Swapping them flips the meaning.",
+      "example": "Если шёл дождь, мы оставались дома (condition) vs Хотя шёл дождь, мы гуляли (concession)."
+    }
+  ]
+}

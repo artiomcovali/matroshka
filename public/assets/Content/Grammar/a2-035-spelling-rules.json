@@ -1,0 +1,273 @@
+{
+  "id": "a2-035-spelling-rules",
+  "level": "A2",
+  "focusArea": "spelling",
+  "title": "Russian Spelling Rules",
+  "titleRussian": "Правила орфографии",
+  "description": "Key spelling rules that affect grammar",
+  "descriptionRussian": "Правила написания, которые влияют на грамматику",
+  "imageName": "textformat.abc",
+  "intro": "Russian has three main spelling rules that affect endings throughout the language. The 7-letter rule: after г, к, х, ж, ч, ш, щ, never write ы - write и instead. The 5-letter rule: after ж, ч, ш, щ, ц, never write unstressed о - write е instead. The 8-letter rule: after г, к, х, ж, ч, ш, щ, ц, never write я or ю - write а or у instead. These rules explain many 'irregular' endings!",
+  "rules": [
+    "7-letter rule (г, к, х, ж, ч, ш, щ): ы → и. Книги (not книгы), хорошие (not хорошые).",
+    "5-letter rule (ж, ч, ш, щ, ц): unstressed о → е. Хорошего (not хорошого), большем (not большом when unstressed).",
+    "8-letter rule (г, к, х, ж, ч, ш, щ, ц): я → а, ю → у. Лежат (not лежят), кричу (not кричю).",
+    "These rules apply to noun, adjective, and verb endings consistently."
+  ],
+  "examples": [
+    "книга → книги (not книгы), 7-letter rule",
+    "хороший → хорошие (not хорошые), 7-letter rule",
+    "большой → большего (not большого when unstressed), 5-letter rule",
+    "лежать → я лежу, они лежат (not лежят), 8-letter rule"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Plural of книга is книг_. (7-letter rule: after г)",
+          "promptEnglish": "What is the plural of книга?",
+          "options": [
+            "и",
+            "ы"
+          ],
+          "answer": "и",
+          "hint": "After г, к, х, ж, ч, ш, щ: ы → и",
+          "explanation": "7-letter rule: книги (not книгы)."
+        },
+        {
+          "prompt": "Plural of рука is рук_. (7-letter rule: after к)",
+          "promptEnglish": "What is the plural of рука?",
+          "options": [
+            "ы",
+            "и"
+          ],
+          "answer": "и",
+          "hint": "After к: ы → и",
+          "explanation": "7-letter rule: руки (not рукы)."
+        },
+        {
+          "prompt": "The adjective хороший becomes хорош__ in plural. (7-letter rule)",
+          "promptEnglish": "What is the plural of хороший?",
+          "options": [
+            "ие",
+            "ые"
+          ],
+          "answer": "ие",
+          "hint": "After ш: ы → и, so -ые → -ие",
+          "explanation": "7-letter rule: хорошие (not хорошые)."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Я леж_. (I am lying down.) - 8-letter rule",
+          "promptEnglish": "I am lying down.",
+          "options": [
+            "ю",
+            "у"
+          ],
+          "answer": "у",
+          "hint": "After ж: ю → у",
+          "explanation": "8-letter rule: лежу (not лежю)."
+        },
+        {
+          "prompt": "Они леж__. (They are lying down.) - 8-letter rule",
+          "promptEnglish": "They are lying down.",
+          "options": [
+            "ат",
+            "ят"
+          ],
+          "answer": "ат",
+          "hint": "After ж: я → а",
+          "explanation": "8-letter rule: лежат (not лежят)."
+        },
+        {
+          "prompt": "Я крич_. (I am shouting.) - 8-letter rule",
+          "promptEnglish": "I am shouting.",
+          "options": [
+            "у",
+            "ю"
+          ],
+          "answer": "у",
+          "hint": "After ч: ю → у",
+          "explanation": "8-letter rule: кричу (not кричю)."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Genitive of большой (masc) is больш__о. (5-letter rule when unstressed)",
+          "promptEnglish": "What is the genitive of большой?",
+          "options": [
+            "ог",
+            "ег"
+          ],
+          "answer": "ег",
+          "hint": "After ш: unstressed о → е",
+          "explanation": "5-letter rule: большего (unstressed)."
+        },
+        {
+          "prompt": "Plural of муха is мух_. (7-letter rule: after х)",
+          "promptEnglish": "What is the plural of муха?",
+          "options": [
+            "и",
+            "ы"
+          ],
+          "answer": "и",
+          "hint": "After х: ы → и",
+          "explanation": "7-letter rule: мухи (not мухы)."
+        },
+        {
+          "prompt": "Они молч__. (They are silent.) - 8-letter rule",
+          "promptEnglish": "They are silent.",
+          "options": [
+            "ят",
+            "ат"
+          ],
+          "answer": "ат",
+          "hint": "After ч: я → а",
+          "explanation": "8-letter rule: молчат (not молчят)."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "Apply the spelling rule: книга → книг_",
+          "promptEnglish": "After г: ы → и",
+          "options": [
+            "книга → книги",
+            "книга → книгы",
+            "книга → книга",
+            "книга → книгу"
+          ],
+          "answer": "книга → книги",
+          "hint": "After г: ы → и",
+          "explanation": "The spelling rule: after г write -и not -ы: книга → книги."
+        },
+        {
+          "prompt": "Apply the spelling rule: кричать → я крич_",
+          "promptEnglish": "After ч: ю → у",
+          "options": [
+            "кричать → я кричу",
+            "кричать → я кричю",
+            "кричать → я кричаю",
+            "кричать → я кричешь"
+          ],
+          "answer": "кричать → я кричу",
+          "hint": "After ч: ю → у",
+          "explanation": "After ч the spelling rule requires -у not -ю: я кричу."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Plural of нога is ног_____. (7-letter rule)"
+    ],
+    "choices": [
+      "и",
+      "ы"
+    ],
+    "answers": [
+      "и"
+    ],
+    "grammarFocus": "After г: ы → и",
+    "hints": [
+      "The 7-letter rule: after г, к, х, ж, ш, щ, ч you cannot write ы. What must you write instead?"
+    ],
+    "explanations": [
+      "The 7-letter rule forbids ы after г, к, х, ж, ш, щ, ч. Since нога ends in г, the plural is ноги (with и, not ы)."
+    ],
+    "options": [
+      [
+        "ы",
+        "и"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Новые книг_ (new books)",
+      "contextEnglish": "New books",
+      "options": [
+        "и",
+        "ы"
+      ],
+      "answer": "и",
+      "explanation": "After г: ы → и. Книги."
+    },
+    {
+      "context": "Новые стол_ (new tables)",
+      "contextEnglish": "New tables",
+      "options": [
+        "ы",
+        "и"
+      ],
+      "answer": "ы",
+      "explanation": "No spelling rule after л. Столы."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by spelling rule applied",
+    "categories": [
+      "7-letter (ы→и)",
+      "8-letter (ю→у, я→а)",
+      "No rule"
+    ],
+    "items": [
+      {
+        "word": "книги",
+        "category": "7-letter (ы→и)"
+      },
+      {
+        "word": "лежу",
+        "category": "8-letter (ю→у, я→а)"
+      },
+      {
+        "word": "столы",
+        "category": "No rule"
+      },
+      {
+        "word": "руки",
+        "category": "7-letter (ы→и)"
+      },
+      {
+        "word": "кричат",
+        "category": "8-letter (ю→у, я→а)"
+      },
+      {
+        "word": "дома",
+        "category": "No rule"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "7-letter rule",
+      "definition": "After г, к, х, ж, ч, ш, щ: ы → и",
+      "example": "Книги, руки, хорошие."
+    },
+    {
+      "term": "5-letter rule",
+      "definition": "After ж, ч, ш, щ, ц: unstressed о → е",
+      "example": "Большего, хорошего."
+    },
+    {
+      "term": "8-letter rule",
+      "definition": "After г, к, х, ж, ч, ш, щ, ц: я → а, ю → у",
+      "example": "Лежу, кричат, молчат."
+    },
+    {
+      "term": "шипящие",
+      "definition": "sibilants (ж, ч, ш, щ)",
+      "example": "These letters affect many endings."
+    }
+  ]
+}

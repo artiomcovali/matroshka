@@ -1,0 +1,294 @@
+{
+  "id": "b2-020-impersonal-advanced",
+  "level": "B2",
+  "focusArea": "conjugation",
+  "title": "Advanced Impersonal Constructions",
+  "titleRussian": "Безличные предложения (углублённый)",
+  "description": "Complex impersonal constructions",
+  "descriptionRussian": "Сложные безличные конструкции",
+  "imageName": "person.slash",
+  "intro": "Advanced impersonal constructions express states, necessities, and judgments without naming a subject. TYPES: 1) Dative experiencer: Мне холодно (I'm cold). 2) Modal: Нужно работать (One must work). 3) Evaluative: Трудно понять (It's hard to understand). 4) Weather/nature: Темнеет (It's getting dark). 5) General statements: Говорят, что... (They say that...). These constructions are very common in Russian and often have no direct English equivalent. The logical subject (experiencer) is in dative case.",
+  "rules": [
+    "Dative experiencer: Мне (dat) + state: Мне холодно, скучно, весело",
+    "Modal impersonals: надо/нужно/можно/нельзя + infinitive + dative",
+    "Evaluative: трудно/легко/интересно + infinitive",
+    "Weather verbs: светает, темнеет, вечереет (no subject possible)"
+  ],
+  "examples": [
+    "Мне не спится. (I can't sleep., lit. 'To me it doesn't sleep.')",
+    "Здесь пахнет цветами. (It smells of flowers here.)",
+    "Его знобит. (He has chills.)",
+    "Нам пора идти. (It's time for us to go.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "_____ холодно. (I'm cold - dative)",
+          "promptEnglish": "I'm cold.",
+          "options": [
+            "Я",
+            "Мной",
+            "Меня",
+            "Мне"
+          ],
+          "answer": "Мне",
+          "hint": "Experiencer = dative",
+          "explanation": "Dative experiencer: Мне холодно."
+        },
+        {
+          "prompt": "_____ не спится. (I can't sleep)",
+          "promptEnglish": "I can't sleep. (involuntary)",
+          "options": [
+            "Я",
+            "Мной",
+            "Меня",
+            "Мне"
+          ],
+          "answer": "Мне",
+          "hint": "Involuntary state = dative + -ся",
+          "explanation": "Impersonal: Мне не спится."
+        },
+        {
+          "prompt": "Weather: Уже _____. (getting dark)",
+          "promptEnglish": "It's already getting dark.",
+          "options": [
+            "темно",
+            "темный",
+            "темнеет",
+            "темнеть"
+          ],
+          "answer": "темнеет",
+          "hint": "Weather verb (no subject)",
+          "explanation": "Weather: темнеет."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ знобит. (He has chills - accusative)",
+          "promptEnglish": "He has chills.",
+          "options": [
+            "Ему",
+            "Его",
+            "Им",
+            "Он"
+          ],
+          "answer": "Его",
+          "hint": "Physical sensation = accusative",
+          "explanation": "Physical: Его знобит (acc)."
+        },
+        {
+          "prompt": "_____ пора идти. (It's time for us)",
+          "promptEnglish": "It's time for us to go.",
+          "options": [
+            "Мы",
+            "Нами",
+            "Нам",
+            "Нас"
+          ],
+          "answer": "Нам",
+          "hint": "Dative + пора",
+          "explanation": "Impersonal: Нам пора."
+        },
+        {
+          "prompt": "Здесь _____ цветами. (smells of)",
+          "promptEnglish": "It smells of flowers here.",
+          "options": [
+            "запах",
+            "пахнет",
+            "пахнут",
+            "пахнуть"
+          ],
+          "answer": "пахнет",
+          "hint": "Impersonal smell verb",
+          "explanation": "Impersonal: пахнет + instrumental."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Evaluative: _____ понять это. (It's hard to)",
+          "promptEnglish": "It's hard to understand this.",
+          "options": [
+            "Трудный",
+            "Трудное",
+            "Трудная",
+            "Трудно"
+          ],
+          "answer": "Трудно",
+          "hint": "Evaluative adverb + infinitive",
+          "explanation": "Evaluative: Трудно понять."
+        },
+        {
+          "prompt": "Which is correct impersonal form for 'They say he left'?",
+          "promptEnglish": "They say he left. (general statement)",
+          "options": [
+            "Люди говорят, что он уехал.",
+            "Говорят, что он уехал.",
+            "Все говорят, что он уехал.",
+            "Они говорят, что он уехал."
+          ],
+          "answer": "Говорят, что он уехал.",
+          "hint": "Impersonal 3pl = no subject word",
+          "explanation": "Impersonal: Говорят, что... (no explicit subject)."
+        },
+        {
+          "prompt": "Physical sensation: _____ тошнит. (I feel nauseous)",
+          "promptEnglish": "I feel nauseous.",
+          "options": [
+            "Мне",
+            "Я",
+            "Мной",
+            "Меня"
+          ],
+          "answer": "Меня",
+          "hint": "Physical = accusative",
+          "explanation": "Physical sensation: Меня (acc) тошнит."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "items": [
+        {
+          "prompt": "_____ не верится, что это правда. (I can't believe - involuntary)",
+          "promptEnglish": "I can't bring myself to believe it's true.",
+          "options": [
+            "Я",
+            "Меня",
+            "Мной",
+            "Мне"
+          ],
+          "answer": "Мне",
+          "hint": "Involuntary state (-ся verb) takes dative experiencer",
+          "explanation": "Involuntary states use dative + reflexive verb: 'Мне не верится' (I can't bring myself to believe). The dative shows the experiencer, and -ся marks involuntary action."
+        },
+        {
+          "prompt": "На улице _____. (it's getting light, dawn)",
+          "promptEnglish": "It's getting light outside.",
+          "options": [
+            "светлый",
+            "светает",
+            "светло",
+            "свет"
+          ],
+          "answer": "светает",
+          "hint": "Weather/nature verb, no subject possible",
+          "explanation": "Weather verbs are always impersonal with no subject: 'Светает' (It's dawning/getting light). Compare: 'Темнеет' (It's getting dark), 'Вечереет' (Evening is coming)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "_____ не хочется работать. (I don't feel like - dative)"
+    ],
+    "choices": [
+      "Мне",
+      "Я",
+      "Меня",
+      "Мной"
+    ],
+    "answers": [
+      "Мне"
+    ],
+    "grammarFocus": "Dative experiencer: Мне хочется/не хочется",
+    "hints": [
+      "With impersonal verbs expressing desires or feelings (хочется, нравится), the experiencer goes in which case?"
+    ],
+    "explanations": [
+      "Impersonal constructions with хочется/не хочется use the dative case for the experiencer: 'Мне не хочется' (I don't feel like). The dative marks who experiences the feeling, while the verb remains impersonal (3rd person singular)."
+    ],
+    "options": [
+      [
+        "я",
+        "меня",
+        "мной",
+        "Мне"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "_____ холодно. (emotional state)",
+      "contextEnglish": "I feel cold.",
+      "options": [
+        "Мне",
+        "Меня"
+      ],
+      "answer": "Мне",
+      "explanation": "Emotional/general state: dative Мне."
+    },
+    {
+      "context": "_____ знобит. (physical symptom)",
+      "contextEnglish": "I have chills.",
+      "options": [
+        "Меня",
+        "Мне"
+      ],
+      "answer": "Меня",
+      "explanation": "Physical symptom: accusative Меня."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by case used for experiencer",
+    "categories": [
+      "Dative (state)",
+      "Accusative (physical)"
+    ],
+    "items": [
+      {
+        "word": "Мне холодно.",
+        "category": "Dative (state)"
+      },
+      {
+        "word": "Меня знобит.",
+        "category": "Accusative (physical)"
+      },
+      {
+        "word": "Ему скучно.",
+        "category": "Dative (state)"
+      },
+      {
+        "word": "Её тошнит.",
+        "category": "Accusative (physical)"
+      },
+      {
+        "word": "Нам весело.",
+        "category": "Dative (state)"
+      },
+      {
+        "word": "Его лихорадит.",
+        "category": "Accusative (physical)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "Мне + state",
+      "definition": "dative for emotional states",
+      "example": "Мне холодно/скучно/весело."
+    },
+    {
+      "term": "Меня + physical",
+      "definition": "accusative for physical sensations",
+      "example": "Меня знобит/тошнит."
+    },
+    {
+      "term": "не + verb-ся",
+      "definition": "involuntary inability",
+      "example": "Мне не спится."
+    },
+    {
+      "term": "weather verbs",
+      "definition": "no subject possible",
+      "example": "Светает. Темнеет."
+    }
+  ]
+}

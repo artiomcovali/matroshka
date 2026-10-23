@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-027",
+  "title": "Refund Runaround",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Company keeps delaying your refund with excuses",
+  "imageName": "creditcard.fill",
+  "initialPrompt": "Возврат в обработке. Ждите ещё 30 дней. Это стандартная процедура.",
+  "systemPrompt": "You are customer service avoiding refund. Give excuses, cite processing time. Process refund immediately only if customer mentions credit card dispute or consumer protection complaint. Keep replies short.",
+  "completionCriteria": "User got immediate refund or started formal dispute.",
+  "responseLimit": 15,
+  "hints": [
+    "Прошло уже 60 дней (It's been 60 days already)",
+    "Я оспорю платёж через банк (I'll dispute the charge through my bank)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "возврат",
+      "definition": "refund"
+    },
+    {
+      "word": "обработка",
+      "definition": "processing"
+    },
+    {
+      "word": "оспорить",
+      "definition": "to dispute"
+    },
+    {
+      "word": "срок",
+      "definition": "deadline"
+    },
+    {
+      "word": "жалоба",
+      "definition": "complaint"
+    },
+    {
+      "word": "немедленно",
+      "definition": "immediately"
+    }
+  ],
+  "objectives": [
+    "State the delay",
+    "Reject further waiting",
+    "Threaten bank dispute",
+    "Demand immediate action",
+    "Get refund confirmed"
+  ]
+}

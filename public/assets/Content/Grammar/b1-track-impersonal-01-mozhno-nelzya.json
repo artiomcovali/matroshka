@@ -1,0 +1,384 @@
+{
+  "id": "b1-track-impersonal-01-mozhno-nelzya",
+  "level": "B1",
+  "focusArea": "sentenceStructure",
+  "title": "Impersonal 1: Можно and Нельзя (permission and prohibition)",
+  "titleRussian": "Безличные 1: Можно и нельзя (разрешение и запрет)",
+  "description": "Russian builds permission and prohibition with two short words plus an infinitive. Можно says the action is allowed; нельзя says it is not. The person the rule applies to goes in the dative.",
+  "descriptionRussian": "Русский язык выражает разрешение и запрет двумя короткими словами с инфинитивом. «Можно» сообщает, что действие разрешено; «нельзя» — что не разрешено. Тот, к кому относится правило, ставится в дательном падеже.",
+  "imageName": "checkmark.shield",
+  "trackId": "b1-impersonal-mastery",
+  "trackTitle": "Impersonal Constructions Mastery",
+  "trackTitleRussian": "Безличные конструкции",
+  "trackIndex": 1,
+  "trackTotal": 7,
+  "intro": "Russian builds a whole family of sentences with no subject at all. Nothing is doing anything; the sentence just reports a state of affairs, and the person it concerns sits in the dative if they are mentioned at all. You met the first pair of these in the A2 necessity book. This one works through the full family, starting with permission and its refusal.",
+  "rules": [
+    "Structure: (a dative person, optional) + можно or нельзя + infinitive. The dative names the person the rule applies to; omit it for a generic reading.",
+    "Можно covers both permission ('is allowed') and possibility / polite request ('may I, can one'). Нельзя covers both prohibition ('is forbidden') and impossibility ('cannot succeed'). Context picks the reading.",
+    "Нельзя is the word that negates можно. Never say 'не можно' for a prohibition; use нельзя instead. 'Не можно' does not exist in modern Russian.",
+    "The action after можно or нельзя is always an infinitive (курить, открыть), never a conjugated verb (курит, открыл).",
+    "For the past add было and for the future add будет; neither ever changes for gender. The neutral order is можно было / нельзя было in the past (Маше можно было остаться дома) and будет можно / будет нельзя in the future (Антону будет нельзя выходить)."
+  ],
+  "examples": [
+    "Здесь можно курить? (Is smoking allowed here?) Generic permission, no dative person named.",
+    "Маше можно есть мороженое. (Masha is allowed to eat ice cream.) Specific permission, dative Маше.",
+    "В библиотеке нельзя громко разговаривать. (You may not talk loudly in the library.) Generic prohibition with the infinitive разговаривать.",
+    "Антону нельзя пить кофе вечером. (Anton must not drink coffee in the evening.) Specific prohibition, dative Антону.",
+    "Можно открыть окно? (May I open the window?) Polite-request reading, with the infinitive открыть.",
+    "Маше можно было остаться дома. (Masha was allowed to stay home.) Past tense with было beside можно."
+  ],
+  "tables": [
+    {
+      "title": "Можно and нельзя at a glance",
+      "headers": [
+        "Word",
+        "Reading",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "можно",
+          "cells": [
+            "permission / possibility",
+            "Маше можно есть мороженое."
+          ]
+        },
+        {
+          "label": "нельзя",
+          "cells": [
+            "prohibition / impossibility",
+            "Здесь нельзя курить."
+          ]
+        },
+        {
+          "label": "можно было",
+          "cells": [
+            "past permission",
+            "Маше можно было остаться."
+          ]
+        },
+        {
+          "label": "будет нельзя",
+          "cells": [
+            "future prohibition",
+            "Завтра нам будет нельзя выходить."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Здесь _____ курить.",
+          "promptEnglish": "Smoking is not allowed here.",
+          "options": [
+            "нельзя",
+            "можно",
+            "не можно",
+            "не надо"
+          ],
+          "answer": "нельзя",
+          "hint": "Prohibition in a generic context. Which single word negates можно?",
+          "explanation": "Нельзя is the prohibition word and the word that negates можно. The distractor 'не можно' does not exist in modern Russian; the negation of можно is always the single word нельзя. 'Не надо' would mean 'no need to,' which is necessity territory (Lesson 2), not prohibition. Можно would say the opposite of what is meant."
+        },
+        {
+          "prompt": "Маше _____ есть мороженое.",
+          "promptEnglish": "Masha is allowed to eat ice cream.",
+          "options": [
+            "должна",
+            "хочет",
+            "можно",
+            "нельзя"
+          ],
+          "answer": "можно",
+          "hint": "Permission with a specific dative person. Which word holds the permission reading?",
+          "explanation": "Можно is the permission word; the dative Маше names the person the rule applies to. Нельзя would be a prohibition. Должна would build a personal-subject sentence ('Masha must') that needs Маша in the nominative, so it is not impersonal. Хочет would describe Masha's desire, not what she is allowed to do."
+        },
+        {
+          "prompt": "В библиотеке нельзя _____ громко.",
+          "promptEnglish": "You must not speak loudly in the library.",
+          "options": [
+            "разговаривать",
+            "разговаривает",
+            "разговаривают",
+            "разговаривал"
+          ],
+          "answer": "разговаривать",
+          "hint": "What form always follows можно or нельзя?",
+          "explanation": "Можно and нельзя are always followed by the infinitive: разговаривать. A conjugated verb cannot follow нельзя in an impersonal construction."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "_____ открыть окно?",
+          "promptEnglish": "May I open the window?",
+          "options": [
+            "Хочу",
+            "Можно",
+            "Должен",
+            "Надо"
+          ],
+          "answer": "Можно",
+          "hint": "Polite request asking whether the action is allowed.",
+          "explanation": "The polite-request reading of можно ('may one, may I') is the standard way to ask permission. Хочу expresses personal desire ('I want'), not a request. Должен means 'must,' the wrong modality. Надо means 'need to' (necessity, Lesson 2), not 'may.'"
+        },
+        {
+          "prompt": "Антону _____ пить кофе вечером, врач запретил.",
+          "promptEnglish": "Anton may not drink coffee in the evening; the doctor forbade it.",
+          "options": [
+            "можно",
+            "хочет",
+            "трудно",
+            "нельзя"
+          ],
+          "answer": "нельзя",
+          "hint": "A medical prohibition naming a specific person in the dative.",
+          "explanation": "Нельзя names a prohibition; the dative Антону marks the person the rule applies to. Можно would invert the meaning. Хочет ('wants') would build a personal-subject sentence requiring Антон in the nominative. Трудно ('difficult') reports a state ('it is hard for Anton'), not a prohibition."
+        },
+        {
+          "prompt": "Маше можно _____ остаться дома.",
+          "promptEnglish": "Masha was allowed to stay home.",
+          "options": [
+            "был",
+            "было",
+            "была",
+            "будет"
+          ],
+          "answer": "было",
+          "hint": "Past tense in an impersonal construction. Which gender / number form?",
+          "explanation": "Impersonal constructions take было in the past and it never changes for gender, no matter who the dative person is. Был (masc) and была (fem) would require a personal nominative subject. Будет is the future form, the wrong tense for this English."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "В музее _____ картины руками.",
+          "promptEnglish": "In the museum you may not touch the paintings with your hands.",
+          "options": [
+            "нельзя трогать",
+            "не можно трогать",
+            "можно трогать",
+            "нельзя трогаете"
+          ],
+          "answer": "нельзя трогать",
+          "hint": "A firm prohibition: which word, and what follows it?",
+          "explanation": "The negation of можно is the single word нельзя plus an infinitive: нельзя трогать. 'Не можно' does not exist in modern Russian, and a conjugated verb cannot follow нельзя."
+        },
+        {
+          "prompt": "Маше _____ мороженое сегодня.",
+          "promptEnglish": "Masha is allowed to eat ice cream today.",
+          "options": [
+            "можно есть",
+            "можно ест",
+            "должна есть",
+            "нельзя ест"
+          ],
+          "answer": "можно есть",
+          "hint": "Permission for a named person: dative + можно + what verb form?",
+          "explanation": "Permission is можно + infinitive with a dative person: Маше можно есть мороженое. The verb after можно must be an infinitive; должна would need a nominative subject."
+        },
+        {
+          "prompt": "Маше _____ остаться дома вчера.",
+          "promptEnglish": "Masha was allowed to stay home yesterday.",
+          "options": [
+            "было можно",
+            "была можно",
+            "был можно",
+            "есть можно"
+          ],
+          "answer": "было можно",
+          "hint": "Past tense of an impersonal construction: which frozen form?",
+          "explanation": "Impersonal constructions take the frozen neuter было for the past: Маше было можно остаться. Была would wrongly agree with Маша, but the dative person is not a subject."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "В парке _____ гулять с собакой. (You are allowed to walk a dog in the park.)"
+    ],
+    "choices": [
+      "можно",
+      "хочет",
+      "нельзя",
+      "должен"
+    ],
+    "answers": [
+      "можно"
+    ],
+    "grammarFocus": "The English 'are allowed' is permission, the standard reading of можно. Нельзя would be the opposite. Хочет expresses desire and должен expresses obligation, and both would need a nominative subject, so neither fits an impersonal construction."
+  },
+  "sentenceBuilding": [
+    {
+      "words": [
+        "Маше",
+        "можно",
+        "есть",
+        "мороженое"
+      ],
+      "answer": "Маше можно есть мороженое.",
+      "translation": "Masha is allowed to eat ice cream.",
+      "acceptableVariants": [
+        "Маше можно есть мороженое"
+      ]
+    },
+    {
+      "words": [
+        "Здесь",
+        "нельзя",
+        "курить"
+      ],
+      "answer": "Здесь нельзя курить.",
+      "translation": "Smoking is forbidden here.",
+      "acceptableVariants": [
+        "Здесь нельзя курить"
+      ]
+    },
+    {
+      "words": [
+        "Антону",
+        "нельзя",
+        "пить",
+        "кофе",
+        "вечером"
+      ],
+      "answer": "Антону нельзя пить кофе вечером.",
+      "translation": "Anton may not drink coffee in the evening.",
+      "acceptableVariants": [
+        "Антону нельзя пить кофе вечером"
+      ]
+    },
+    {
+      "words": [
+        "Мне",
+        "можно",
+        "открыть",
+        "окно"
+      ],
+      "answer": "Мне можно открыть окно.",
+      "translation": "I am allowed to open the window.",
+      "acceptableVariants": [
+        "Мне можно открыть окно"
+      ]
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "В музее не можно трогать картины руками.",
+      "translationEnglish": "In the museum, you may not touch the paintings with your hands.",
+      "error": "не можно",
+      "correction": "нельзя",
+      "options": [
+        "нельзя",
+        "не надо",
+        "не нужно"
+      ],
+      "explanation": "The negation of можно is the single word нельзя, never 'не можно' (which does not exist in modern Russian). A museum rule is a firm prohibition, so нельзя трогать. 'Не надо' and 'не нужно' mean 'no need to,' a softer 'you don't have to,' which understates a posted prohibition."
+    },
+    {
+      "sentence": "Я можно взять твою ручку на минуту?",
+      "translationEnglish": "May I take your pen for a minute?",
+      "error": "Я",
+      "correction": "Мне",
+      "options": [
+        "Мне",
+        "Меня",
+        "Мной"
+      ],
+      "explanation": "In an impersonal construction the person goes in the DATIVE, never the nominative: Мне можно ('to-me it-is-allowed'). The nominative Я cannot be the subject of можно, because можно has no personal subject. The dative names who the permission applies to."
+    },
+    {
+      "sentence": "Раньше Маше можно была гулять допоздна.",
+      "translationEnglish": "Masha used to be allowed to stay out late.",
+      "error": "была",
+      "correction": "было",
+      "options": [
+        "было",
+        "был",
+        "будет"
+      ],
+      "explanation": "An impersonal construction has no nominative subject, so its past form stays as было and never changes for gender. The person Маша is feminine, but that does not matter. Была (fem) and был (masc) would require a personal nominative subject (e.g. 'Маша была дома'). Будет is the future form, the wrong tense here."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Здесь _____ курить, штраф большой.",
+      "contextEnglish": "Smoking is forbidden here; the fine is steep.",
+      "options": [
+        "нельзя",
+        "не можно"
+      ],
+      "answer": "нельзя",
+      "explanation": "The prohibition word is нельзя, a single word. 'Не можно' is not used in modern Russian; the negation of можно is the separate word нельзя."
+    },
+    {
+      "context": "Маше _____ можно остаться дома.",
+      "contextEnglish": "Masha was allowed to stay home.",
+      "options": [
+        "было",
+        "была"
+      ],
+      "answer": "было",
+      "explanation": "Impersonal constructions take было in the past and it never changes for gender. The feminine form была would require a personal nominative subject like 'Маша была дома.'"
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort each sentence by whether it expresses permission (можно) or prohibition (нельзя).",
+    "categories": [
+      "Permission (можно)",
+      "Prohibition (нельзя)"
+    ],
+    "items": [
+      {
+        "word": "В парке можно гулять с собакой.",
+        "category": "Permission (можно)"
+      },
+      {
+        "word": "Здесь нельзя курить.",
+        "category": "Prohibition (нельзя)"
+      },
+      {
+        "word": "Маше можно есть мороженое.",
+        "category": "Permission (можно)"
+      },
+      {
+        "word": "В музее нельзя трогать картины.",
+        "category": "Prohibition (нельзя)"
+      },
+      {
+        "word": "Можно открыть окно?",
+        "category": "Permission (можно)"
+      },
+      {
+        "word": "Антону нельзя пить кофе вечером.",
+        "category": "Prohibition (нельзя)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "можно + инфинитив",
+      "definition": "is allowed / one can / may I (a short fixed word used with an infinitive; takes an optional dative person)",
+      "example": "В предложении 'Здесь можно курить' слово 'можно' выражает разрешение."
+    },
+    {
+      "term": "нельзя + инфинитив",
+      "definition": "is forbidden / one cannot / it is impossible (the word that negates можно; never replaced by 'не можно')",
+      "example": "В предложении 'В библиотеке нельзя громко разговаривать' слово 'нельзя' выражает запрет."
+    },
+    {
+      "term": "Маше / мне / Антону (дательный лица)",
+      "definition": "the dative person before можно / нельзя: names who the rule applies to. Optional; drop it for a generic rule.",
+      "example": "Маше можно есть мороженое — дательный 'Маше' называет того, к кому относится разрешение."
+    }
+  ]
+}

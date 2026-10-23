@@ -1,0 +1,293 @@
+{
+  "id": "b1-track-aspect-deep-08-sequencing",
+  "level": "B1",
+  "focusArea": "aspect",
+  "title": "Aspect Deep 8: Sequencing and Background in Narration",
+  "titleRussian": "Виды глагола 8: Последовательность и фон в рассказе",
+  "description": "How aspect builds a narrative. Chained perfectives carry the storyline; the imperfective provides the background against which perfective events happen.",
+  "descriptionRussian": "Как вид строит рассказ. Цепочка СВ-глаголов ведёт сюжет; НСВ создаёт фон, на котором происходят отдельные события СВ.",
+  "imageName": "list.bullet.indent",
+  "trackId": "b1-aspect-deep-mastery",
+  "trackTitle": "Aspect in Context",
+  "trackTitleRussian": "Виды глагола: глубокое освоение",
+  "trackIndex": 8,
+  "trackTotal": 9,
+  "intro": "This is where aspect stops being about single verbs and starts being about structure. In a story, perfectives chain forward as one thing after another, while an imperfective holds the scene still underneath them. Choosing wrongly does not produce an error exactly; it produces a story with the wrong shape, where the background walks off and the events stand around.",
+  "rules": [
+    "Sequenced narration: a chain of single completed events in order takes chained perfectives. 'Я пришёл, открыл, увидел.' Each event pushes the storyline forward.",
+    "Background impf + foreground pf: when one action was already in progress and another action happened against it, the background takes the impf and the foreground takes the pf. 'Когда я шёл домой, начался дождь.'",
+    "Parallel imperfectives: two simultaneous ongoing activities both take the imperfective. Neither is foreground; they coexist as background.",
+    "Narrative diagnostic: ask 'was this already going on' (→ impf) versus 'what happened next' (→ pf). The first question identifies background; the second identifies storyline events."
+  ],
+  "examples": [
+    "Я пришёл домой, открыл дверь и увидел гостей. (Sequenced perfectives: storyline.)",
+    "Когда я шёл домой, начался дождь. (Impf шёл = background; pf начался = foreground event.)",
+    "Я пил кофе, когда позвонил Антон. (Impf пил = background; pf позвонил = foreground event.)",
+    "Маша готовила обед, а Антон писал статью. (Parallel impfs: simultaneous activities.)",
+    "Антон написал статью, отправил её и пошёл гулять. (Three sequenced perfectives.)",
+    "Когда я пришёл в офис, Маша уже писала отчёт. (Pf пришёл = arrival event; impf писала = background already in progress.)"
+  ],
+  "tables": [
+    {
+      "title": "Aspect in Narrative",
+      "headers": [
+        "Pattern",
+        "Aspect",
+        "Sample"
+      ],
+      "rows": [
+        {
+          "label": "Sequenced perfectives",
+          "cells": [
+            "Chain of perfectives",
+            "Я пришёл, открыл, увидел."
+          ]
+        },
+        {
+          "label": "Background + foreground",
+          "cells": [
+            "Impf (bg) + Pf (fg)",
+            "Когда я шёл, начался дождь."
+          ]
+        },
+        {
+          "label": "Parallel imperfectives",
+          "cells": [
+            "Two impfs",
+            "Маша готовила, а Антон писал."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Если бы я _____ её адрес, я бы написал ей раньше.",
+          "promptEnglish": "If I (m) had known her address, I would have written to her earlier.",
+          "options": [
+            "узнал",
+            "знаю",
+            "знал",
+            "знает"
+          ],
+          "answer": "знал",
+          "hint": "Recap from Lesson 7: which aspect for знать in the conditional?",
+          "explanation": "Recap from Lesson 7: знать is impf-only and stays imperfective in the conditional. Today's lesson moves from the conditional into multi-verb narration, where aspect builds the architecture of the story."
+        },
+        {
+          "prompt": "Я _____ домой, открыл дверь и увидел гостей.",
+          "promptEnglish": "I (m) came home, opened the door, and saw the guests.",
+          "options": [
+            "приходил",
+            "прихожу",
+            "приду",
+            "пришёл"
+          ],
+          "answer": "пришёл",
+          "hint": "Three sequenced events in order. Storyline aspect?",
+          "explanation": "The sentence is a chain of three sequenced storyline events: came, opened, saw. Each is a bounded completed event that pushes the narrative forward by one step. Perfective past, masc -ёл: пришёл. The other two verbs (открыл, увидел) are also perfective, matching the chain."
+        },
+        {
+          "prompt": "Когда я _____ домой, начался дождь.",
+          "promptEnglish": "When I (m) was walking home, it started to rain.",
+          "options": [
+            "пошёл",
+            "шёл",
+            "пройду",
+            "прошёл"
+          ],
+          "answer": "шёл",
+          "hint": "What was already in progress when the rain started? Background or foreground?",
+          "explanation": "The walking was already in progress when the rain's start interrupted it. Background ongoing motion → imperfective: шёл. The pf начался is the foreground event happening against this background. Notice how the two aspects do different jobs: impf sets the scene, pf marks the event."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маша _____ обед, а Антон писал статью.",
+          "promptEnglish": "Masha was cooking dinner, and Anton was writing an article.",
+          "options": [
+            "готовила",
+            "приготовит",
+            "приготовила",
+            "готовит"
+          ],
+          "answer": "готовила",
+          "hint": "Two simultaneous ongoing activities. Which pattern?",
+          "explanation": "Two parallel ongoing activities going on at the same time. Both verbs are imperfective: готовила, писал. Neither is foreground; they coexist as background. The perfective приготовила would mark a single completed dinner, breaking the parallel structure."
+        },
+        {
+          "prompt": "Антон _____ статью, отправил её и пошёл гулять.",
+          "promptEnglish": "Anton wrote the article, sent it, and went for a walk.",
+          "options": [
+            "пишет",
+            "напишет",
+            "писал",
+            "написал"
+          ],
+          "answer": "написал",
+          "hint": "Three sequenced events in order. Each pushes the story forward.",
+          "explanation": "A chain of three sequenced storyline events: написал, отправил, пошёл. Each is a perfective bounded event. The imperfective писал would describe the writing as a process, breaking the chain."
+        },
+        {
+          "prompt": "Я _____ кофе, когда позвонил Антон.",
+          "promptEnglish": "I (m) was drinking coffee when Anton called.",
+          "options": [
+            "выпью",
+            "пил",
+            "выпил",
+            "пью"
+          ],
+          "answer": "пил",
+          "hint": "What was already going on when the call interrupted? Background?",
+          "explanation": "The drinking was already in progress when Anton's call interrupted it. Background ongoing activity → imperfective: пил. The pf позвонил is the foreground call event against the drinking background. Выпил would mark the coffee as finished off in one go."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Когда Маша _____ в офис, Антон уже писал отчёт. (When Masha came to the office, Anton was already writing the report.)"
+    ],
+    "choices": [
+      "приходит",
+      "пришла",
+      "приходила",
+      "придёт"
+    ],
+    "answers": [
+      "пришла"
+    ],
+    "grammarFocus": "Two contrasting jobs in one sentence. Masha's arrival is a single completed event that pushes the story forward → perfective пришла. Anton's writing is the background already in progress at that moment → imperfective писал. The clauses cooperate: pf for the foreground event, impf for the background."
+  },
+  "minimalPairs": [
+    {
+      "context": "Когда я _____ домой, начался дождь.",
+      "contextEnglish": "When I (m) was walking home, it started to rain.",
+      "options": [
+        "шёл",
+        "пошёл"
+      ],
+      "answer": "шёл",
+      "explanation": "The walking was already in progress when the rain interrupted. Background ongoing motion → imperfective: шёл. The perfective пошёл would mark a single 'set off' event, which contradicts 'already walking when the rain started.'"
+    },
+    {
+      "context": "Я _____ статью и отправил её редактору.",
+      "contextEnglish": "I (m) wrote the article and sent it to the editor.",
+      "options": [
+        "писал",
+        "написал"
+      ],
+      "answer": "написал",
+      "explanation": "Two sequenced events that push the story forward: wrote, then sent. Both perfective: написал, отправил. The imperfective писал would describe a writing process and break the chain."
+    }
+  ],
+  "errorCorrection": [
+    {
+      "sentence": "Я пришёл домой, открывал дверь и увидел гостей.",
+      "translationEnglish": "I came home, opened the door, and saw the guests.",
+      "error": "открывал",
+      "correction": "открыл",
+      "options": [
+        "открыл",
+        "открывает",
+        "откроет"
+      ],
+      "explanation": "This is a chain of three sequenced storyline events: came, opened, saw. Each pushes the narrative forward by one bounded step, so all three are perfective: пришёл, открыл, увидел. The imperfective открывал would describe opening as an ongoing process, breaking the chain. Открывал would be right only as a background to another event: 'Когда я открывал дверь, зазвонил телефон' (as I was opening the door, the phone rang)."
+    },
+    {
+      "sentence": "Когда я шёл домой, начинался дождь.",
+      "translationEnglish": "As I was walking home, it started to rain.",
+      "error": "начинался",
+      "correction": "начался",
+      "options": [
+        "начался",
+        "начинается",
+        "начнётся"
+      ],
+      "explanation": "Against the imperfective background 'шёл' (was walking), the start of the rain is a single foreground event, which takes the perfective: начался. The imperfective начинался would frame the rain as gradually building, a background process, which clashes with the clean 'it started' event against the walking."
+    },
+    {
+      "sentence": "Маша нарисовала картину, а Антон писал статью весь вечер.",
+      "translationEnglish": "Masha was drawing a picture while Anton was writing an article all evening.",
+      "error": "нарисовала",
+      "correction": "рисовала",
+      "options": [
+        "рисовала",
+        "рисует",
+        "нарисует"
+      ],
+      "explanation": "The duration cue 'весь вечер' in the second clause fixes Anton's writing as ongoing background, and the 'а' contrast frames two simultaneous activities. For the parallel-imperfectives reading, Masha's drawing must also be imperfective: рисовала."
+    },
+    {
+      "sentence": "Я пил кофе, когда телефон звонил.",
+      "translationEnglish": "I was drinking coffee when the phone rang.",
+      "error": "звонил",
+      "correction": "позвонил",
+      "options": [
+        "позвонил",
+        "звонит",
+        "позвонит"
+      ],
+      "explanation": "The phone call is a single foreground event interrupting the background drinking, so it takes the perfective: позвонил. The imperfective звонил would describe a continuous or repeated ringing (sustained background), which is not the standard reading for a one-off call against the coffee-drinking."
+    },
+    {
+      "sentence": "Когда позвонили в дверь, Антон прочитал книгу в кресле.",
+      "translationEnglish": "When the doorbell rang, Anton was reading a book in the armchair.",
+      "error": "прочитал",
+      "correction": "читал",
+      "options": [
+        "читал",
+        "читает",
+        "прочитает"
+      ],
+      "explanation": "The doorbell ringing ('позвонили в дверь') is the single foreground event; Anton's reading is the action already in progress, the background. The background takes the imperfective: читал. The perfective прочитал ('read through to the end') would make finishing the book a completed event at the moment of the ring, breaking the background reading. Ask 'what was already going on' (impf) versus 'what happened' (pf)."
+    },
+    {
+      "sentence": "Антон вошёл в комнату, включал свет и сел в кресло.",
+      "translationEnglish": "Anton came into the room, turned on the light, and sat down in the armchair.",
+      "error": "включал",
+      "correction": "включил",
+      "options": [
+        "включил",
+        "включает",
+        "включит"
+      ],
+      "explanation": "This is a chain of three sequenced storyline events: вошёл, включил, сел. Each is a bounded completed action that moves the narrative forward, so all three are perfective. The imperfective включал would describe turning the light on as an ongoing process, breaking the chain. Включал would fit a background instead: 'Когда Антон включал свет, лампочка перегорела' (as he was turning on the light, the bulb burned out)."
+    },
+    {
+      "sentence": "Весь вечер Маша нарисовала картину, а её брат слушал музыку.",
+      "translationEnglish": "All evening, Masha was drawing a picture, and her brother was listening to music.",
+      "error": "нарисовала",
+      "correction": "рисовала",
+      "options": [
+        "рисовала",
+        "рисует",
+        "нарисует"
+      ],
+      "explanation": "'Весь вечер' is a duration cue, and the 'а ... слушал' clause is imperfective, so the two activities run in parallel as simultaneous background. Masha's verb must also be imperfective: рисовала. The perfective нарисовала would mark a single completed picture, which both 'весь вечер' and the parallel structure rule out. Нарисовала would fit a result statement: 'Маша нарисовала картину за час' (she drew the picture in an hour)."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "последовательность",
+      "definition": "sequence (here: a chain of completed events in narration; takes chained perfectives that push the storyline forward)",
+      "example": "В рассказе последовательность событий обычно передаётся цепочкой СВ."
+    },
+    {
+      "term": "фон",
+      "definition": "background (here: an action already in progress when something else happened; takes the imperfective)",
+      "example": "Когда я шёл домой, начался дождь. 'Шёл' — это фон."
+    },
+    {
+      "term": "передний план",
+      "definition": "foreground (here: a single event happening against a background; takes the perfective)",
+      "example": "В этом примере 'начался дождь' — событие на переднем плане."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-023",
+  "title": "The Wrong Card",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "You were given a sympathy card instead of a birthday card",
+  "imageName": "envelope.fill",
+  "initialPrompt": "Вот ваша открытка. 100 рублей.",
+  "systemPrompt": "You gave wrong card (sympathy instead of birthday). Be confused: 'Это же открытка?' Exchange when user explains it's for birthday, not sadness. Keep replies short.",
+  "completionCriteria": "User exchanged for correct card type.",
+  "responseLimit": 15,
+  "hints": [
+    "Это не та открытка (This is the wrong card)",
+    "Мне нужна на день рождения (I need one for birthday)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "не та",
+      "definition": "wrong one"
+    },
+    {
+      "word": "грустная",
+      "definition": "sad"
+    },
+    {
+      "word": "весёлая",
+      "definition": "happy"
+    },
+    {
+      "word": "праздник",
+      "definition": "celebration"
+    },
+    {
+      "word": "поменять",
+      "definition": "to exchange"
+    }
+  ],
+  "objectives": [
+    "Notice wrong card type (не та)",
+    "Say it's a sad card (грустная)",
+    "Explain need birthday card (день рождения)",
+    "Ask to exchange (поменять)",
+    "Get correct card"
+  ]
+}

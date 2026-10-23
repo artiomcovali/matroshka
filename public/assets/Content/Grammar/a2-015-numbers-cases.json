@@ -1,0 +1,318 @@
+{
+  "id": "a2-015-numbers-cases",
+  "level": "A2",
+  "focusArea": "cases",
+  "title": "Numbers and Cases",
+  "titleRussian": "Числа и падежи",
+  "description": "How numbers affect noun case",
+  "descriptionRussian": "Как числительные влияют на падеж существительных",
+  "imageName": "number.circle.fill",
+  "intro": "Russian numbers are tricky because they require different noun cases! The rules: 1 (один) takes nominative singular. 2-4 (два, три, четыре) take GENITIVE SINGULAR. 5-20 and compounds ending in 5-9, 0 take GENITIVE PLURAL. This pattern repeats: 21 (like 1), 22-24 (like 2-4), 25-30 (like 5-20). Master this and you'll sound much more natural!",
+  "rules": [
+    "1 (один/одна/одно): nominative singular, agrees in gender: один стол, одна книга, одно окно.",
+    "2-4 (два/две, три, четыре): genitive SINGULAR: два стола, три книги, четыре окна.",
+    "5-20, and numbers ending in 5-9, 0: genitive PLURAL: пять столов, десять книг, двадцать окон.",
+    "Compound numbers follow the LAST digit: 21 студент (nom sg), 22 студента (gen sg), 25 студентов (gen pl).",
+    "Special pattern for год (year): 1 год, 2-4 года, 5-20 лет, 21 год, 22-24 года, 25-30 лет. Лет is the irregular genitive plural of год."
+  ],
+  "examples": [
+    "Один студент. (One student.), nom sg",
+    "Два студента. (Two students.), gen sg",
+    "Пять студентов. (Five students.), gen pl",
+    "Двадцать один студент. (Twenty-one students.), last digit 1 = nom sg"
+  ],
+  "tables": [
+    {
+      "title": "Number + Noun Case Pattern",
+      "headers": [
+        "Number",
+        "Case Required",
+        "Example (студент)",
+        "Example (год)"
+      ],
+      "rows": [
+        {
+          "label": "1, 21, 31...",
+          "cells": [
+            "Nominative singular",
+            "один студент",
+            "один год"
+          ]
+        },
+        {
+          "label": "2-4, 22-24...",
+          "cells": [
+            "Genitive singular",
+            "два студента",
+            "два года"
+          ]
+        },
+        {
+          "label": "5-20, 25-30...",
+          "cells": [
+            "Genitive plural",
+            "пять студентов",
+            "пять лет"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Два _____. (Two tables.)",
+          "promptEnglish": "Two tables.",
+          "options": [
+            "столов",
+            "стола",
+            "столы",
+            "стол"
+          ],
+          "answer": "стола",
+          "hint": "2-4 = genitive singular",
+          "explanation": "Numbers 2-4 take genitive singular: стол → стола."
+        },
+        {
+          "prompt": "Пять _____. (Five books.)",
+          "promptEnglish": "Five books.",
+          "options": [
+            "книга",
+            "книгу",
+            "книг",
+            "книги"
+          ],
+          "answer": "книг",
+          "hint": "5-20 = genitive plural",
+          "explanation": "Numbers 5-20 take genitive plural: книга → книг."
+        },
+        {
+          "prompt": "Одна _____. (One girl.)",
+          "promptEnglish": "One girl.",
+          "options": [
+            "девушки",
+            "девушек",
+            "девушку",
+            "девушка"
+          ],
+          "answer": "девушка",
+          "hint": "1 = nominative singular",
+          "explanation": "One takes nominative singular: девушка."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Три _____. (Three students.)",
+          "promptEnglish": "Three students.",
+          "options": [
+            "студенты",
+            "студент",
+            "студента",
+            "студентов"
+          ],
+          "answer": "студента",
+          "hint": "2-4 = genitive singular",
+          "explanation": "Numbers 2-4 take genitive singular: студент → студента."
+        },
+        {
+          "prompt": "Десять _____. (Ten rubles.)",
+          "promptEnglish": "Ten rubles.",
+          "options": [
+            "рубли",
+            "рубль",
+            "рублей",
+            "рубля"
+          ],
+          "answer": "рублей",
+          "hint": "5-20 = genitive plural",
+          "explanation": "Numbers 5-20 take genitive plural: рубль → рублей."
+        },
+        {
+          "prompt": "Четыре _____. (Four windows.)",
+          "promptEnglish": "Four windows.",
+          "options": [
+            "окнам",
+            "окно",
+            "окна",
+            "окон"
+          ],
+          "answer": "окна",
+          "hint": "2-4 = genitive singular",
+          "explanation": "Numbers 2-4 take genitive singular: окно → окна."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Двадцать один _____. (Twenty-one years.)",
+          "promptEnglish": "Twenty-one years.",
+          "options": [
+            "лет",
+            "год",
+            "года",
+            "годы"
+          ],
+          "answer": "год",
+          "hint": "Last digit 1 = nominative singular",
+          "explanation": "21 ends in 1, so nominative singular: год."
+        },
+        {
+          "prompt": "Двадцать два _____. (Twenty-two years.)",
+          "promptEnglish": "Twenty-two years.",
+          "options": [
+            "годы",
+            "год",
+            "лет",
+            "года"
+          ],
+          "answer": "года",
+          "hint": "Last digit 2-4 = genitive singular",
+          "explanation": "22 ends in 2, so genitive singular: года."
+        },
+        {
+          "prompt": "Двадцать пять _____. (Twenty-five years.)",
+          "promptEnglish": "Twenty-five years.",
+          "options": [
+            "годы",
+            "год",
+            "лет",
+            "года"
+          ],
+          "answer": "лет",
+          "hint": "Last digit 5-9, 0 = genitive plural",
+          "explanation": "25 ends in 5, so genitive plural: лет (irregular for год)."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Шесть _____. (Six months.)"
+    ],
+    "choices": [
+      "месяцев",
+      "месяца",
+      "месяц",
+      "месяцы"
+    ],
+    "answers": [
+      "месяцев"
+    ],
+    "grammarFocus": "5-20 = genitive plural",
+    "hints": [
+      "Numbers 5-20 require genitive plural. What is the genitive plural of месяц?"
+    ],
+    "explanations": [
+      "After numbers 5-20, nouns take genitive plural. Месяц (masculine with ц ending) forms genitive plural as месяцев."
+    ],
+    "options": [
+      [
+        "месяцев",
+        "месяцами",
+        "месяцам",
+        "месяцы"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Два _____. (Two days.)",
+      "contextEnglish": "Two days.",
+      "options": [
+        "дня",
+        "дней"
+      ],
+      "answer": "дня",
+      "explanation": "2-4 take genitive singular: день → дня."
+    },
+    {
+      "context": "Пять _____. (Five days.)",
+      "contextEnglish": "Five days.",
+      "options": [
+        "дней",
+        "дня"
+      ],
+      "answer": "дней",
+      "explanation": "5-20 take genitive plural: день → дней."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort by required noun form",
+    "categories": [
+      "Nominative singular (1)",
+      "Genitive singular (2-4)",
+      "Genitive plural (5-20)"
+    ],
+    "items": [
+      {
+        "word": "один час",
+        "category": "Nominative singular (1)"
+      },
+      {
+        "word": "два часа",
+        "category": "Genitive singular (2-4)"
+      },
+      {
+        "word": "пять часов",
+        "category": "Genitive plural (5-20)"
+      },
+      {
+        "word": "три рубля",
+        "category": "Genitive singular (2-4)"
+      },
+      {
+        "word": "десять рублей",
+        "category": "Genitive plural (5-20)"
+      },
+      {
+        "word": "одна минута",
+        "category": "Nominative singular (1)"
+      }
+    ]
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Два студенты пришли.",
+      "error": "студенты",
+      "correction": "студента",
+      "hint": "Numbers 2-4 require genitive singular, not nominative plural.",
+      "explanation": "Numbers 2-4 require genitive singular, not nominative plural."
+    },
+    {
+      "sentence": "Пять книги на столе.",
+      "error": "книги",
+      "correction": "книг",
+      "hint": "Numbers 5+ require genitive plural. What is the genitive plural of книга?",
+      "explanation": "Numbers 5-20 require genitive plural: книг, not книги."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "1 + им. падеж ед. ч.",
+      "definition": "1 + nominative singular",
+      "example": "Один студент, одна книга."
+    },
+    {
+      "term": "2-4 + род. падеж ед. ч.",
+      "definition": "2-4 + genitive singular",
+      "example": "Два студента, три книги."
+    },
+    {
+      "term": "5-20 + род. падеж мн. ч.",
+      "definition": "5-20 + genitive plural",
+      "example": "Пять студентов, десять книг."
+    },
+    {
+      "term": "последняя цифра",
+      "definition": "last digit (determines case)",
+      "example": "21 студент, 22 студента, 25 студентов."
+    }
+  ]
+}

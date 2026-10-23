@@ -1,0 +1,45 @@
+{
+  "id": "mission-a1-hard-016",
+  "title": "The Wrong Bus",
+  "level": "A1",
+  "difficulty": "hard",
+  "description": "You're on the wrong bus and need to figure out your stop",
+  "imageName": "bus.fill",
+  "initialPrompt": "Следующая остановка - Парк. Конечная - Аэропорт.",
+  "systemPrompt": "You are the bus driver. User needs центр but this bus goes to аэропорт. They must get off at Парк and take bus 5. Be brief. Keep replies short.",
+  "completionCriteria": "User understood they need to change buses and where.",
+  "responseLimit": 15,
+  "hints": [
+    "Этот автобус едет в центр? (Does this bus go to center?)",
+    "Где мне выйти? (Where should I get off?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "остановка",
+      "definition": "stop"
+    },
+    {
+      "word": "выйти",
+      "definition": "to get off"
+    },
+    {
+      "word": "пересесть",
+      "definition": "to transfer"
+    },
+    {
+      "word": "неправильный",
+      "definition": "wrong"
+    },
+    {
+      "word": "конечная",
+      "definition": "final stop"
+    }
+  ],
+  "objectives": [
+    "Realize wrong bus (не тот автобус)",
+    "Ask driver for help",
+    "Learn where to get off (выйти)",
+    "Understand transfer instructions",
+    "Thank the driver (Спасибо)"
+  ]
+}

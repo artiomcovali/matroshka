@@ -1,0 +1,177 @@
+{
+  "id": "a2plus-020",
+  "level": "A2Plus",
+  "narrator": "Маша",
+  "title": "Фильм или книга?",
+  "titleEnglish": "Movie or Book?",
+  "description": "Маша обсуждает с Анной книгу и фильм.",
+  "imageName": "book.fill",
+  "fullText": "Недавно я прочитала очень интересную книгу. Потом вышла экранизация этой книги, и я посмотрела её. Сегодня мы с Анной обсуждали это. «Как тебе фильм?» — спросила она. «Книга была лучше, чем фильм», — ответила я. «В книге больше деталей. Герои интереснее. История подробнее». Анна кивнула. «Но фильм короче. Не у всех есть время читать. Что ты предпочитаешь?» «Я предпочитаю книги», — ответила я. «И у фильма красивые картинки и музыка». Мы решили: книги и фильмы — разные. Каждый имеет своё место. Иногда хочется читать, иногда — смотреть.",
+  "reviewVocab": [
+    {
+      "word": "подробнее",
+      "definition": "more detailed",
+      "partOfSpeech": "adverb (comp.)",
+      "forms": [
+        "подробнее",
+        "подробно"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "экранизация",
+      "definition": "film adaptation",
+      "partOfSpeech": "noun (f.)",
+      "forms": [
+        "экранизация",
+        "экранизации"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "деталь",
+      "definition": "detail",
+      "partOfSpeech": "noun (f.)",
+      "forms": [
+        "деталь",
+        "детали",
+        "деталей"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "предпочитать",
+      "definition": "to prefer",
+      "partOfSpeech": "verb (impf.)",
+      "forms": [
+        "предпочитаю",
+        "предпочитаешь",
+        "предпочитает"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "matching": true,
+  "quiz": [
+    {
+      "prompt": "Что Маша сделала сначала?",
+      "options": [
+        "Прочитала книгу",
+        "Посмотрела фильм",
+        "Обсудила с Анной"
+      ],
+      "correctIndex": 0,
+      "explanation": "Маша сначала прочитала книгу."
+    },
+    {
+      "prompt": "Что лучше по мнению Маши?",
+      "options": [
+        "Фильм",
+        "Одинаково",
+        "Книга"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Книга была лучше, чем фильм»."
+    },
+    {
+      "prompt": "Почему книга лучше?",
+      "options": [
+        "Больше деталей",
+        "Она короче",
+        "Красивые картинки"
+      ],
+      "correctIndex": 0,
+      "explanation": "В книге больше деталей."
+    },
+    {
+      "prompt": "Что Анна сказала о фильме?",
+      "options": [
+        "Он короче",
+        "Он хуже",
+        "Он скучный"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Но фильм короче»."
+    },
+    {
+      "prompt": "Какие плюсы у фильма?",
+      "options": [
+        "Больше деталей",
+        "Красивые картинки и музыка",
+        "Интереснее герои"
+      ],
+      "correctIndex": 1,
+      "explanation": "У фильма красивые картинки и музыка."
+    },
+    {
+      "prompt": "Что решили Маша и Анна?",
+      "options": [
+        "Фильмы лучше",
+        "Каждый имеет своё место",
+        "Книги лучше"
+      ],
+      "correctIndex": 1,
+      "explanation": "Они решили: каждый имеет своё место."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Книга была _____, чем фильм.",
+      "В книге больше _____.",
+      "История _____.",
+      "«Но фильм _____».",
+      "Книги и фильмы — _____.",
+      "Каждый имеет своё _____."
+    ],
+    "choices": [
+      "лучше",
+      "деталей",
+      "подробнее",
+      "короче",
+      "разные",
+      "место",
+      "хуже",
+      "длиннее"
+    ],
+    "answers": [
+      "лучше",
+      "деталей",
+      "подробнее",
+      "короче",
+      "разные",
+      "место"
+    ]
+  },
+  "grammarQuiz": [
+    {
+      "prompt": "How do you say 'better than' in Russian?",
+      "options": [
+        "Лучше как",
+        "Лучше чем",
+        "Лучше от"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "comparatives",
+      "sentenceRef": "Книга была лучше, чем фильм.",
+      "explanation": "'Чем' connects the two things being compared after a comparative adjective: 'лучше, чем' = better than. The noun after 'чем' stays in nominative case. Examples: 'Книга интереснее, чем фильм' (The book is more interesting than the movie), 'Москва больше, чем Петербург' (Moscow is bigger than St. Petersburg).",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "What does 'каждый имеет своё место' mean?",
+      "options": [
+        "Every place is different",
+        "Everyone has their own seat",
+        "Each has its place"
+      ],
+      "correctIndex": 2,
+      "grammarFocus": "expressions",
+      "sentenceRef": "Каждый имеет своё место.",
+      "explanation": "'Каждый имеет своё место' means 'each has its place', expressing that both options are valid. 'Своё' is the neuter possessive pronoun meaning 'one's own', matching the neuter noun 'место'. This reflexive possessive changes by gender: свой (m.), своя (f.), своё (n.), свои (pl.). Example: 'У каждого своя история' (Everyone has their own story).",
+      "focusArea": "sentenceStructure"
+    }
+  ],
+  "writing": null,
+  "audioFile": "a2plus-020.m4a",
+  "audioTimingFile": "a2plus-020-timing.json"
+}

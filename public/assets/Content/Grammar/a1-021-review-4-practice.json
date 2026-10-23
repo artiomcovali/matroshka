@@ -1,0 +1,439 @@
+{
+  "lessonId": "a1-021-review-4",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Review demonstratives, accusative, prepositional, and prepositions",
+      "descriptionRussian": "Повторение: указательные местоимения, винительный и предложный падежи, предлоги",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ дом очень старый. (This, masculine)",
+              "promptEnglish": "This house is very old.",
+              "options": [
+                "Эта",
+                "Это",
+                "Этот",
+                "Эти"
+              ],
+              "answer": "Этот",
+              "hint": "Дом is masculine.",
+              "explanation": "Дом is masculine: этот дом."
+            },
+            {
+              "prompt": "Я читаю _____. (book, accusative)",
+              "promptEnglish": "I am reading a book.",
+              "options": [
+                "книга",
+                "книге",
+                "книгу",
+                "книги"
+              ],
+              "answer": "книгу",
+              "hint": "Feminine -а becomes -у in accusative.",
+              "explanation": "Читать + accusative: книга -> книгу."
+            },
+            {
+              "prompt": "Он живёт в _____. (city, prepositional)",
+              "promptEnglish": "He lives in the city.",
+              "options": [
+                "город",
+                "города",
+                "городу",
+                "городе"
+              ],
+              "answer": "городе",
+              "hint": "В + prepositional: add -е.",
+              "explanation": "В + prepositional case: город -> городе."
+            },
+            {
+              "prompt": "Она работает _____ заводе. (at the factory)",
+              "promptEnglish": "She works at the factory.",
+              "options": [
+                "в",
+                "на",
+                "о",
+                "у"
+              ],
+              "answer": "на",
+              "hint": "Завод uses на (not в) for 'at.'",
+              "explanation": "На заводе (factory uses на, not в)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я вижу _____. (table, accusative, masculine inanimate)",
+          "contextEnglish": "I see a table.",
+          "options": [
+            "стол",
+            "стола"
+          ],
+          "answer": "стол",
+          "explanation": "Masculine inanimate nouns don't change in accusative: стол stays стол."
+        },
+        {
+          "context": "Я вижу _____. (cat, accusative, masculine animate)",
+          "contextEnglish": "I see a cat.",
+          "options": [
+            "кот",
+            "кота"
+          ],
+          "answer": "кота",
+          "explanation": "Masculine animate nouns take genitive-like form in accusative: кот -> кота."
+        },
+        {
+          "context": "Книга лежит _____ столе. (on the table)",
+          "contextEnglish": "The book is on the table.",
+          "options": [
+            "в",
+            "на"
+          ],
+          "answer": "на",
+          "explanation": "На столе (on the table). На = on a surface."
+        },
+        {
+          "context": "Он сидит _____ комнате. (in the room)",
+          "contextEnglish": "He is sitting in the room.",
+          "options": [
+            "в",
+            "на"
+          ],
+          "answer": "в",
+          "explanation": "В комнате (in the room). В = inside an enclosed space."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in case forms and sort by preposition",
+      "descriptionRussian": "Вставьте падежные формы и рассортируйте по предлогам",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "_____ книга интересная. (This, feminine)",
+          "Я люблю _____. (music, accusative)",
+          "Мы живём в _____. (apartment, prepositional)",
+          "Дети играют _____ улице. (on the street)"
+        ],
+        "choices": [
+          "Эта",
+          "музыку",
+          "квартире",
+          "на",
+          "в",
+          "Этот"
+        ],
+        "answers": [
+          "Эта",
+          "музыку",
+          "квартире",
+          "на"
+        ],
+        "grammarFocus": "demonstratives, accusative, prepositional, prepositions",
+        "hints": [
+          "Книга is feminine.",
+          "Музыка (f): -а -> -у in accusative.",
+          "Квартира (f): -а -> -е in prepositional.",
+          "Улица uses на for 'on the street.'"
+        ],
+        "explanations": [
+          "Книга is feminine: эта книга.",
+          "Музыку: accusative of музыка (feminine -а -> -у).",
+          "В квартире: prepositional of квартира (-а -> -е).",
+          "На улице: улица always uses на."
+        ],
+        "options": [
+          [
+            "эту",
+            "Эта",
+            "этой",
+            "этого"
+          ],
+          [
+            "музыке",
+            "музыка",
+            "музыки",
+            "музыку"
+          ],
+          [
+            "квартира",
+            "квартиру",
+            "квартире",
+            "квартиры"
+          ],
+          [
+            "в",
+            "музыку",
+            "квартире",
+            "на"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort: в or на for these places?",
+        "categories": [
+          "в (inside/enclosed)",
+          "на (on/at/open)"
+        ],
+        "items": [
+          {
+            "word": "школа (school)",
+            "category": "в (inside/enclosed)"
+          },
+          {
+            "word": "работа (work)",
+            "category": "на (on/at/open)"
+          },
+          {
+            "word": "магазин (store)",
+            "category": "в (inside/enclosed)"
+          },
+          {
+            "word": "улица (street)",
+            "category": "на (on/at/open)"
+          },
+          {
+            "word": "библиотека (library)",
+            "category": "в (inside/enclosed)"
+          },
+          {
+            "word": "вокзал (station)",
+            "category": "на (on/at/open)"
+          },
+          {
+            "word": "парк (park)",
+            "category": "в (inside/enclosed)"
+          },
+          {
+            "word": "почта (post office)",
+            "category": "на (on/at/open)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "I see this cat. (masculine animate)",
+          "answer": "Я вижу этого кота.",
+          "acceptableVariants": [],
+          "hint": "this (m anim acc) = этого, cat (acc) = кота",
+          "grammarFocus": "demonstrative + accusative animate",
+          "keyWord": "этого",
+          "options": [
+            "этого",
+            "этот",
+            "этом",
+            "этому"
+          ]
+        },
+        {
+          "english": "She lives in this city.",
+          "answer": "Она живёт в этом городе.",
+          "acceptableVariants": [],
+          "hint": "in this (m prep) = в этом, city (prep) = городе",
+          "grammarFocus": "demonstrative + prepositional",
+          "keyWord": "этом",
+          "options": [
+            "этом",
+            "этот",
+            "этого",
+            "этому"
+          ]
+        },
+        {
+          "english": "We are at the station.",
+          "answer": "Мы на вокзале.",
+          "acceptableVariants": [],
+          "hint": "station uses на, вокзал (prep) = вокзале",
+          "grammarFocus": "на + prepositional for stations",
+          "keyWord": "вокзале",
+          "options": [
+            "вокзале",
+            "вокзал",
+            "вокзала",
+            "вокзалу"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Error",
+      "titleRussian": "Найди ошибку",
+      "description": "Fix case and preposition mistakes",
+      "descriptionRussian": "Исправьте ошибки в падежах и предлогах",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Я читаю газета.",
+          "error": "газета",
+          "correction": "газету",
+          "hint": "After читать, use accusative.",
+          "explanation": "Читать + accusative: газета (f) -> газету.",
+          "options": [
+            "газету",
+            "газеты",
+            "газете",
+            "газетой"
+          ]
+        },
+        {
+          "sentence": "Он живёт в город.",
+          "error": "город",
+          "correction": "городе",
+          "hint": "В + prepositional case.",
+          "explanation": "В + prepositional: город -> городе (-е ending).",
+          "options": [
+            "городе",
+            "города",
+            "городу"
+          ]
+        },
+        {
+          "sentence": "Эта дом красивый.",
+          "error": "Эта",
+          "correction": "Этот",
+          "hint": "Дом is masculine.",
+          "explanation": "Дом is masculine: этот дом, not эта.",
+          "options": [
+            "Этот",
+            "Это",
+            "Эти"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ окно открыто. (That, neuter)",
+              "promptEnglish": "That window is open.",
+              "options": [
+                "Тот",
+                "То",
+                "Та",
+                "Те"
+              ],
+              "answer": "То",
+              "hint": "Окно is neuter.",
+              "explanation": "Окно is neuter: то окно."
+            },
+            {
+              "prompt": "Она купила _____. (newspaper, accusative)",
+              "promptEnglish": "She bought a newspaper.",
+              "options": [
+                "газета",
+                "газету",
+                "газете",
+                "газеты"
+              ],
+              "answer": "газету",
+              "hint": "Feminine -а -> -у in accusative.",
+              "explanation": "Купить + accusative: газета -> газету."
+            },
+            {
+              "prompt": "Мы сидим в _____. (cafe, prepositional)",
+              "promptEnglish": "We are sitting in a cafe.",
+              "options": [
+                "кафе",
+                "кафу",
+                "кафи",
+                "кафём"
+              ],
+              "answer": "кафе",
+              "hint": "Кафе is indeclinable.",
+              "explanation": "Кафе is indeclinable (foreign word): в кафе."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All review topics in one final round",
+      "descriptionRussian": "Все темы повторения в финальном раунде",
+      "icon": "shuffle",
+      "patternRecognition": [
+        {
+          "sentence": "книга -> книгу, газета -> газету, музыка -> музыку",
+          "question": "What case are these nouns in, and what pattern do they follow?",
+          "options": [
+            "Genitive: -а becomes -ы",
+            "Accusative: feminine -а becomes -у",
+            "Prepositional: -а becomes -е",
+            "Nominative: no change"
+          ],
+          "answer": "Accusative: feminine -а becomes -у",
+          "explanation": "Feminine nouns ending in -а change to -у in the accusative case."
+        },
+        {
+          "sentence": "в школе, в городе, в квартире, на столе",
+          "question": "What case ending do all these nouns share?",
+          "options": [
+            "-у (accusative)",
+            "-а (genitive)",
+            "-е (prepositional)",
+            "-ой (instrumental)"
+          ],
+          "answer": "-е (prepositional)",
+          "explanation": "After в/на + location, nouns take prepositional case with the -е ending."
+        },
+        {
+          "sentence": "этот стол, эта книга, это окно, эти дети",
+          "question": "What determines which form of этот to use?",
+          "options": [
+            "The verb in the sentence",
+            "The gender and number of the noun",
+            "The case of the noun",
+            "The position in the sentence"
+          ],
+          "answer": "The gender and number of the noun",
+          "explanation": "Этот/эта/это/эти agrees with the noun's gender and number."
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Я знаю _____ песню. (this, feminine accusative)",
+          "contextEnglish": "I know this song.",
+          "options": [
+            "эта",
+            "эту"
+          ],
+          "answer": "эту",
+          "explanation": "Accusative feminine of эта = эту: Я знаю эту песню."
+        },
+        {
+          "context": "Мы говорим о _____ фильме. (this, masculine prepositional)",
+          "contextEnglish": "We are talking about this movie.",
+          "options": [
+            "этот",
+            "этом"
+          ],
+          "answer": "этом",
+          "explanation": "Prepositional masculine of этот = этом: об этом фильме."
+        },
+        {
+          "context": "Она работает _____ почте. (at the post office)",
+          "contextEnglish": "She works at the post office.",
+          "options": [
+            "в",
+            "на"
+          ],
+          "answer": "на",
+          "explanation": "Почта uses на: на почте."
+        }
+      ]
+    }
+  ]
+}

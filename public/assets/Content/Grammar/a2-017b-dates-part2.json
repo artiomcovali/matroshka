@@ -1,0 +1,416 @@
+{
+  "id": "a2-017b-dates-part2",
+  "level": "A2",
+  "focusArea": "vocabulary",
+  "title": "Dates (Part 2)",
+  "titleRussian": "Даты (часть 2)",
+  "description": "Full date expressions with prepositions and cases",
+  "descriptionRussian": "Полные выражения дат с предлогами и падежами",
+  "imageName": "calendar",
+  "intro": "In Part 1 you learned ordinal dates and genitive months. Now let's combine everything: full date expressions (первого января две тысячи двадцатого года), month expressions with 'в' + prepositional (в январе, в марте), and year expressions (в две тысячи двадцать четвёртом году). Remember: stating a date = neuter ordinal (Сегодня первое января), but 'on a date' = genitive ordinal (первого января). When adding a year, the year goes in genitive too: первого января две тысячи двадцатого года. For months alone, use в + prepositional: в январе, в феврале.",
+  "tables": [
+    {
+      "title": "Date Formats by Context",
+      "headers": [
+        "Context",
+        "Format",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "Stating today's date",
+          "cells": [
+            "neuter ordinal + gen. month",
+            "Сегодня первое января."
+          ]
+        },
+        {
+          "label": "On a specific date",
+          "cells": [
+            "gen. ordinal + gen. month",
+            "Он приехал первого января."
+          ]
+        },
+        {
+          "label": "In a month",
+          "cells": [
+            "в + prepositional month",
+            "В январе холодно."
+          ]
+        },
+        {
+          "label": "In a year",
+          "cells": [
+            "в + prep. ordinal + году",
+            "В двадцатом году."
+          ]
+        },
+        {
+          "label": "Full date (on)",
+          "cells": [
+            "gen. ordinal + gen. month + gen. year",
+            "Первого января двадцатого года."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Months in Prepositional Case",
+      "headers": [
+        "Month",
+        "Genitive",
+        "Prepositional (в ...)"
+      ],
+      "rows": [
+        {
+          "label": "январь",
+          "cells": [
+            "январ|я",
+            "в январ|е"
+          ]
+        },
+        {
+          "label": "февраль",
+          "cells": [
+            "феврал|я",
+            "в феврал|е"
+          ]
+        },
+        {
+          "label": "март",
+          "cells": [
+            "март|а",
+            "в март|е"
+          ]
+        },
+        {
+          "label": "апрель",
+          "cells": [
+            "апрел|я",
+            "в апрел|е"
+          ]
+        },
+        {
+          "label": "май",
+          "cells": [
+            "ма|я",
+            "в ма|е"
+          ]
+        },
+        {
+          "label": "июнь",
+          "cells": [
+            "июн|я",
+            "в июн|е"
+          ]
+        },
+        {
+          "label": "июль",
+          "cells": [
+            "июл|я",
+            "в июл|е"
+          ]
+        },
+        {
+          "label": "август",
+          "cells": [
+            "август|а",
+            "в август|е"
+          ]
+        },
+        {
+          "label": "сентябрь",
+          "cells": [
+            "сентябр|я",
+            "в сентябр|е"
+          ]
+        },
+        {
+          "label": "октябрь",
+          "cells": [
+            "октябр|я",
+            "в октябр|е"
+          ]
+        },
+        {
+          "label": "ноябрь",
+          "cells": [
+            "ноябр|я",
+            "в ноябр|е"
+          ]
+        },
+        {
+          "label": "декабрь",
+          "cells": [
+            "декабр|я",
+            "в декабр|е"
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [
+    "In a month: в + prepositional case: В январе много снега. (In January there is a lot of snow.)",
+    "Full date with year ('on'): genitive ordinal + genitive month + genitive year: Он родился пятого марта тысяча девятьсот девяностого года. (He was born on March 5, 1990.)",
+    "Year expression: в + prepositional ordinal + году: в две тысячи двадцать четвёртом году (in 2024). The word 'году' always ends the phrase.",
+    "Asking about months: Когда? or В каком месяце? — answer with в + prepositional: В марте. (In March.)"
+  ],
+  "examples": [
+    "В январе всегда холодно. (It's always cold in January.)",
+    "Мой день рождения двадцатого марта. (My birthday is on March 20th.)",
+    "Он родился в тысяча девятьсот девяносто пятом году. (He was born in 1995.)",
+    "Это случилось третьего октября две тысячи двадцатого года. (This happened on October 3rd, 2020.)"
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "В _____ много цветов. (In May there are many flowers.)",
+          "promptEnglish": "In May there are many flowers.",
+          "options": [
+            "мае",
+            "маю",
+            "мая",
+            "май"
+          ],
+          "answer": "мае",
+          "hint": "В + prepositional case for months",
+          "explanation": "Months after в use prepositional: в мае (in May)."
+        },
+        {
+          "prompt": "Это было в две тысячи двадцать _____ году. (This was in 2024.)",
+          "promptEnglish": "This was in 2024.",
+          "options": [
+            "четвёртого",
+            "четвёртом",
+            "четыре",
+            "четвёртый"
+          ],
+          "answer": "четвёртом",
+          "hint": "В + prepositional ordinal + году",
+          "explanation": "Years: в + prepositional ordinal: двадцать четвёртом году."
+        },
+        {
+          "prompt": "Она приехала пятого _____ две тысячи двадцатого года. (She arrived on June 5th, 2020.)",
+          "promptEnglish": "She arrived on June 5th, 2020.",
+          "options": [
+            "июне",
+            "июня",
+            "июнь",
+            "июню"
+          ],
+          "answer": "июня",
+          "hint": "Full date: gen. ordinal + gen. month",
+          "explanation": "In a full date expression ('on June 5th'), the month is in genitive: июня."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Когда каникулы? — В _____. (When is the vacation? — In July.)",
+          "promptEnglish": "When is the vacation? In July.",
+          "options": [
+            "июля",
+            "июль",
+            "июлю",
+            "июле"
+          ],
+          "answer": "июле",
+          "hint": "Answering 'when' with a month: в + prepositional",
+          "explanation": "В каком месяце? В июле. Month in prepositional after в."
+        },
+        {
+          "prompt": "Он родился в тысяча девятьсот девяносто _____ году. (He was born in 1995.)",
+          "promptEnglish": "He was born in 1995.",
+          "options": [
+            "пять",
+            "пятом",
+            "пятого",
+            "пятый"
+          ],
+          "answer": "пятом",
+          "hint": "В ... году: the number is prepositional",
+          "explanation": "Years: в + prepositional: девяносто пятом году (1995)."
+        },
+        {
+          "prompt": "Встреча десятого сентября две тысячи двадцать третьего _____. (The meeting is on Sept 10, 2023.)",
+          "promptEnglish": "The meeting is on September 10, 2023.",
+          "options": [
+            "году",
+            "годом",
+            "год",
+            "года"
+          ],
+          "answer": "года",
+          "hint": "Full date with year: the year ends in genitive (года)",
+          "explanation": "In a full date ('on Sept 10, 2023'), the year is in genitive: года."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "В _____ уже тепло. (In April it's already warm.)",
+          "promptEnglish": "In April it's already warm.",
+          "options": [
+            "апрелю",
+            "апреля",
+            "апрель",
+            "апреле"
+          ],
+          "answer": "апреле",
+          "hint": "В + prepositional for months",
+          "explanation": "В апреле: prepositional case of апрель."
+        },
+        {
+          "prompt": "Это случилось первого _____ . (This happened on January 1st.)",
+          "promptEnglish": "This happened on January 1st.",
+          "options": [
+            "январь",
+            "январе",
+            "января",
+            "январю"
+          ],
+          "answer": "января",
+          "hint": "On a specific date: genitive ordinal + genitive month",
+          "explanation": "Event 'on' a date: первого января. Both ordinal and month in genitive."
+        },
+        {
+          "prompt": "В каком _____? — В декабре. (In which month? — In December.)",
+          "promptEnglish": "In which month? In December.",
+          "options": [
+            "месяц",
+            "месяце",
+            "месяцу",
+            "месяца"
+          ],
+          "answer": "месяце",
+          "hint": "В каком + prepositional noun",
+          "explanation": "В каком месяце? Prepositional: месяце."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Новый год _____ января. (New Year is January 1st.)",
+      "Я приехал _____ марта. (I arrived on March 1st.)",
+      "Концерт _____ мая. (The concert is on May 10th.)"
+    ],
+    "choices": [
+      "первого",
+      "первого",
+      "десятого",
+      "первый",
+      "первое",
+      "десятый"
+    ],
+    "answers": [
+      "первого",
+      "первого",
+      "десятого"
+    ],
+    "grammarFocus": "Dates use genitive case: какого числа? → первого января",
+    "options": [
+      [
+        "первого",
+        "первый",
+        "первое",
+        "первому"
+      ],
+      [
+        "первый",
+        "первому",
+        "первое",
+        "первого"
+      ],
+      [
+        "десятому",
+        "десятым",
+        "десятого",
+        "десятый"
+      ]
+    ]
+  },
+  "minimalPairs": [
+    {
+      "context": "Сегодня пятое _____. (Today is March 5th.) — stating the date",
+      "contextEnglish": "Today is March 5th.",
+      "options": [
+        "марта",
+        "марте"
+      ],
+      "answer": "марта",
+      "explanation": "Stating a date: ordinal + GENITIVE month. Марта is genitive of март."
+    },
+    {
+      "context": "_____ марте ещё холодно. (In March it's still cold.) — talking about the month",
+      "contextEnglish": "In March it's still cold.",
+      "options": [
+        "В",
+        "На"
+      ],
+      "answer": "В",
+      "explanation": "For months, always use в + prepositional: в марте."
+    }
+  ],
+  "categorySorting": {
+    "instruction": "Sort: Which case does the date expression use?",
+    "categories": [
+      "Genitive (on a date / with year)",
+      "Prepositional (in a month / in a year)"
+    ],
+    "items": [
+      {
+        "word": "первого января",
+        "category": "Genitive (on a date / with year)"
+      },
+      {
+        "word": "в январе",
+        "category": "Prepositional (in a month / in a year)"
+      },
+      {
+        "word": "в двадцатом году",
+        "category": "Prepositional (in a month / in a year)"
+      },
+      {
+        "word": "пятого марта двадцатого года",
+        "category": "Genitive (on a date / with year)"
+      },
+      {
+        "word": "в декабре",
+        "category": "Prepositional (in a month / in a year)"
+      },
+      {
+        "word": "десятого июня",
+        "category": "Genitive (on a date / with year)"
+      }
+    ]
+  },
+  "reviewVocab": [
+    {
+      "term": "в январе, в феврале...",
+      "definition": "in January, in February... (в + prepositional)",
+      "example": "В январе всегда холодно."
+    },
+    {
+      "term": "в ... году",
+      "definition": "in the year... (в + prepositional ordinal)",
+      "example": "В две тысячи двадцать четвёртом году."
+    },
+    {
+      "term": "... года",
+      "definition": "of the year... (genitive, in full dates)",
+      "example": "Пятого марта две тысячи двадцатого года."
+    },
+    {
+      "term": "В каком месяце?",
+      "definition": "In which month?",
+      "example": "В каком месяце ваш день рождения? — В марте."
+    }
+  ]
+}

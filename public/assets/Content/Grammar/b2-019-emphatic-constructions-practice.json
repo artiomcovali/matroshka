@@ -1,0 +1,676 @@
+{
+  "lessonId": "b2-019-emphatic-constructions",
+  "sets": [
+    {
+      "id": "round-1-emphasis-types",
+      "title": "Emphasis Types",
+      "titleRussian": "Типы эмфазы",
+      "description": "Identify emphasis strategies: word order, particles, and cleft constructions",
+      "descriptionRussian": "Определите стратегии выделения: порядок слов, частицы и расщеплённые конструкции",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "What is emphasized in: Книгу я прочитал.",
+              "promptEnglish": "Which element carries emphasis here?",
+              "options": [
+                "The subject (я)",
+                "The verb (прочитал)",
+                "The object (книгу)",
+                "Nothing special"
+              ],
+              "answer": "The object (книгу)",
+              "hint": "Moving an element to front or end position creates emphasis.",
+              "explanation": "Книгу is moved to the front (topic position), emphasizing 'THE BOOK I read.' Normal order would be Я прочитал книгу."
+            },
+            {
+              "prompt": "Which construction means 'It was SHE who called'?",
+              "promptEnglish": "Choose the Russian cleft construction.",
+              "options": [
+                "Она позвонила.",
+                "Это она позвонила.",
+                "Она-то позвонила.",
+                "Она же позвонила!"
+              ],
+              "answer": "Это она позвонила.",
+              "hint": "Cleft = Это + focused subject + verb.",
+              "explanation": "Это она позвонила = 'It was SHE who called.' The cleft construction Это + noun singles out the subject."
+            },
+            {
+              "prompt": "Он-_____ всё знает, а они нет.",
+              "promptEnglish": "HE knows everything, but they don't.",
+              "options": [
+                "же",
+                "то",
+                "ведь",
+                "вот"
+              ],
+              "answer": "то",
+              "hint": "Contrast particle: one person vs. others.",
+              "explanation": "The particle -то highlights contrast: 'HE (unlike them) knows everything.'"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "_____ этот фильм я хотел посмотреть! (specifically THIS movie)",
+              "promptEnglish": "THIS is EXACTLY the movie I wanted to watch!",
+              "options": [
+                "Как раз",
+                "Вот",
+                "Именно",
+                "Только"
+              ],
+              "answer": "Именно",
+              "hint": "'Specifically, precisely' = именно.",
+              "explanation": "Именно этот фильм = 'specifically THIS movie.' Именно pinpoints the exact item."
+            },
+            {
+              "prompt": "Where does new/important information go in neutral Russian word order?",
+              "promptEnglish": "What is the default position for the rheme?",
+              "options": [
+                "At the beginning",
+                "At the end",
+                "Before the verb",
+                "After a particle"
+              ],
+              "answer": "At the end",
+              "hint": "Theme-rheme: old info first, new info last.",
+              "explanation": "In Russian, the rheme (new/important info) naturally goes at the end. Moving it elsewhere creates special emphasis."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "Which sentence emphasizes WHO did the action?",
+              "promptEnglish": "Which word order puts focus on the agent?",
+              "options": [
+                "Письмо написал Борис.",
+                "Борис написал письмо.",
+                "Борис письмо написал.",
+                "Написал Борис письмо."
+              ],
+              "answer": "Письмо написал Борис.",
+              "hint": "End position = new/emphasized information (rheme).",
+              "explanation": "Письмо написал Борис. - the agent Борис is in end position (rheme), answering 'WHO wrote the letter?'"
+            },
+            {
+              "prompt": "Мы _____ вчера об этом говорили! (emphatic: we DID discuss this)",
+              "promptEnglish": "We DID discuss this yesterday!",
+              "options": [
+                "то",
+                "вот",
+                "ну",
+                "же"
+              ],
+              "answer": "же",
+              "hint": "Strong emphasis / emphatic reminder = же.",
+              "explanation": "Же adds strong emphasis: 'We DID discuss it!' The speaker is reminding the listener of a known fact."
+            },
+            {
+              "prompt": "What does fronting achieve in: Вчера я его встретил.",
+              "promptEnglish": "What is the effect of placing вчера first?",
+              "options": [
+                "Emphasizes the verb",
+                "Emphasizes the time (yesterday)",
+                "Makes a question",
+                "No special effect"
+              ],
+              "answer": "Emphasizes the time (yesterday)",
+              "hint": "Beginning position can set the topic or emphasize a time/place.",
+              "explanation": "Вчера at the front = 'YESTERDAY I met him.' The time frame is the topic being set or emphasized."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-2-particle-practice",
+      "title": "Particle Practice",
+      "titleRussian": "Практика частиц",
+      "description": "Master же, -то, именно, and как раз through minimal pairs and fill-in-the-blank",
+      "descriptionRussian": "Освойте частицы же, -то, именно и как раз",
+      "icon": "textformat.abc",
+      "minimalPairs": [
+        {
+          "context": "Она _____ пришла! (strong emphasis: she DID come)",
+          "contextEnglish": "She DID come! (emphatic reminder)",
+          "options": [
+            "же",
+            "-то"
+          ],
+          "answer": "же",
+          "explanation": "Же adds strong emphasis to a known fact: 'She DID come!' The speaker reminds the listener."
+        },
+        {
+          "context": "Она-_____ пришла, а остальные нет. (contrast: SHE came but others didn't)",
+          "contextEnglish": "SHE came, but the rest didn't.",
+          "options": [
+            "то",
+            "же"
+          ],
+          "answer": "то",
+          "explanation": "The particle -то creates contrast: 'SHE (unlike the others) came.' It singles her out from the group."
+        },
+        {
+          "context": "_____ это я хотел сказать. (specifically/precisely this)",
+          "contextEnglish": "That's EXACTLY what I wanted to say.",
+          "options": [
+            "Именно",
+            "Как раз"
+          ],
+          "answer": "Именно",
+          "explanation": "Именно = 'specifically, precisely this.' Used for deliberate, exact identification of what was meant."
+        },
+        {
+          "context": "Мы _____ собирались тебе звонить! (just now, coincidence)",
+          "contextEnglish": "We were JUST about to call you! (what a coincidence)",
+          "options": [
+            "как раз",
+            "именно"
+          ],
+          "answer": "как раз",
+          "explanation": "Как раз = 'just, exactly' with a sense of coincidence or timing: 'We were JUST about to call!'"
+        },
+        {
+          "context": "Я _____ тебе это объяснял! (emphatic reminder: I DID explain)",
+          "contextEnglish": "I DID explain this to you!",
+          "options": [
+            "же",
+            "-то"
+          ],
+          "answer": "же",
+          "explanation": "Же after the subject for emphatic reminder: 'I DID explain!' Implies frustration that the listener forgot."
+        },
+        {
+          "context": "Он-_____ понимает, а ты нет. (contrast: HE understands)",
+          "contextEnglish": "HE understands, but you don't.",
+          "options": [
+            "то",
+            "же"
+          ],
+          "answer": "то",
+          "explanation": "The particle -то separates 'him' from 'you,' creating a contrast: 'HE gets it, you don't.'"
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Ты _____ обещал помочь! Почему не пришёл? (you DID promise - emphatic)",
+          "Она-_____ справилась, а другие не смогли. (SHE managed, unlike others)",
+          "_____ об этом я и хотел поговорить! (precisely about this)"
+        ],
+        "choices": [
+          "же",
+          "то",
+          "Именно",
+          "как раз"
+        ],
+        "answers": [
+          "же",
+          "то",
+          "Именно"
+        ],
+        "grammarFocus": "Emphatic particles: же, -то, именно, как раз",
+        "hints": [
+          "Strong emphatic reminder = which particle?",
+          "Contrast: she succeeded vs. others failed.",
+          "Precise specification of the topic = which word?"
+        ],
+        "explanations": [
+          "Же adds strong emphasis: 'You DID promise!' Reminding the listener of a commitment.",
+          "The particle -то creates contrast: 'SHE managed (but the others couldn't).'",
+          "Именно = 'precisely/exactly.' Pinpoints the specific thing the speaker wanted to discuss."
+        ],
+        "options": [
+          [
+            "как раз",
+            "то",
+            "же",
+            "Именно"
+          ],
+          [
+            "то",
+            "Именно",
+            "же",
+            "как раз"
+          ],
+          [
+            "то",
+            "как раз",
+            "же",
+            "Именно"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-4-building-translation",
+      "title": "Build and Translate",
+      "titleRussian": "Постройте и переведите",
+      "description": "Build emphatic Russian sentences from words, then translate emphatic constructions",
+      "descriptionRussian": "Составьте эмфатические предложения из слов и переведите конструкции",
+      "icon": "hammer",
+      "translation": [
+        {
+          "english": "It was LENA who decided everything.",
+          "answer": "Это Лена всё решила.",
+          "acceptableVariants": [
+            "Это Лена решила всё."
+          ],
+          "hint": "Cleft construction: Это + focused subject + verb",
+          "grammarFocus": "Cleft construction for focus",
+          "keyWord": "Это",
+          "options": [
+            "Это",
+            "Этот",
+            "Эта",
+            "Эти"
+          ]
+        },
+        {
+          "english": "I DID warn you about this!",
+          "answer": "Я же тебя об этом предупреждал!",
+          "acceptableVariants": [
+            "Я же вас об этом предупреждал!",
+            "Я же тебя предупреждал об этом!"
+          ],
+          "hint": "Emphatic reminder = subject + же + verb",
+          "grammarFocus": "Particle же for emphasis",
+          "keyWord": "же",
+          "options": [
+            "же",
+            "ли",
+            "бы",
+            "разве"
+          ]
+        },
+        {
+          "english": "HE knows the answer, but the others don't.",
+          "answer": "Он-то знает ответ, а остальные нет.",
+          "acceptableVariants": [
+            "Он-то ответ знает, а остальные нет."
+          ],
+          "hint": "Contrast particle -то on the subject",
+          "grammarFocus": "Particle -то for contrast",
+          "keyWord": "-то",
+          "options": [
+            "-то",
+            "же",
+            "-нибудь",
+            "-либо"
+          ]
+        },
+        {
+          "english": "That's PRECISELY what I was looking for.",
+          "answer": "Именно это я и искал.",
+          "acceptableVariants": [
+            "Именно это я искал.",
+            "Именно это я и искала."
+          ],
+          "hint": "Именно + focused element at the start",
+          "grammarFocus": "Именно for specification",
+          "keyWord": "Именно",
+          "options": [
+            "Именно",
+            "Как раз",
+            "Только",
+            "Вот"
+          ]
+        },
+        {
+          "english": "She never DID finish the book.",
+          "answer": "Она так и не дочитала книгу.",
+          "acceptableVariants": [
+            "Она так и не закончила книгу."
+          ],
+          "hint": "Emphatic negation: так и не + perfective verb",
+          "grammarFocus": "Так и не (emphatic never did)",
+          "keyWord": "так и не",
+          "options": [
+            "так и не",
+            "так и",
+            "не так",
+            "и так"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All emphasis types in varied formats: quiz, error correction, pattern recognition, and more",
+      "descriptionRussian": "Все типы эмфазы в разных форматах",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мы _____ собирались тебе звонить, когда ты написал! (just / coincidence)",
+              "promptEnglish": "We were JUST about to call you when you texted!",
+              "options": [
+                "именно",
+                "как раз",
+                "же",
+                "то"
+              ],
+              "answer": "как раз",
+              "hint": "Timing coincidence = как раз.",
+              "explanation": "Как раз = 'just, exactly at that moment.' It emphasizes the coincidence of timing."
+            },
+            {
+              "prompt": "Which sentence uses a cleft construction?",
+              "promptEnglish": "Identify the cleft (Это...) construction.",
+              "options": [
+                "Борис решил задачу.",
+                "Задачу решил Борис.",
+                "Это Борис решил задачу.",
+                "Борис же решил задачу!"
+              ],
+              "answer": "Это Борис решил задачу.",
+              "hint": "Cleft = Это + focused noun + verb.",
+              "explanation": "Это Борис решил = 'It was BORIS who solved it.' The word Это before the subject creates a cleft."
+            },
+            {
+              "prompt": "_____ в этом городе родился мой отец. (specifically in this city)",
+              "promptEnglish": "My father was born in THIS VERY city.",
+              "options": [
+                "Как раз",
+                "Вот",
+                "Именно",
+                "Только"
+              ],
+              "answer": "Именно",
+              "hint": "'Specifically, precisely' = именно.",
+              "explanation": "Именно в этом городе = 'in precisely THIS city.' Именно pinpoints the exact place."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Дети-_____ всё поняли, а взрослые нет. (the children understood, adults didn't)",
+              "promptEnglish": "The CHILDREN understood everything, but the adults didn't.",
+              "options": [
+                "же",
+                "вот",
+                "то",
+                "ведь"
+              ],
+              "answer": "то",
+              "hint": "Contrast: children vs. adults = -то.",
+              "explanation": "Дети-то всё поняли = 'THE CHILDREN (unlike the adults) understood.' Contrast particle -то."
+            },
+            {
+              "prompt": "Which word order emphasizes WHEN?",
+              "promptEnglish": "Which version answers: 'When did he arrive?'",
+              "options": [
+                "Он приехал вчера.",
+                "Приехал он вчера.",
+                "Вчера он приехал.",
+                "Он вчера приехал."
+              ],
+              "answer": "Он приехал вчера.",
+              "hint": "End position = rheme (new/important info).",
+              "explanation": "Он приехал ВЧЕРА - вчера is in end position (rheme), answering 'when?' directly."
+            },
+            {
+              "prompt": "Ты _____ знаешь, где ключи! (emphatic: you DO know)",
+              "promptEnglish": "You DO know where the keys are!",
+              "options": [
+                "то",
+                "ведь",
+                "же",
+                "вот"
+              ],
+              "answer": "же",
+              "hint": "Strong emphatic assertion = же.",
+              "explanation": "Ты же знаешь = 'You DO know!' Же insists on a fact the listener is denying or forgetting."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "items": [
+            {
+              "prompt": "Он так и не _____ мне правду. (He never DID tell me the truth.)",
+              "promptEnglish": "He never DID tell me the truth.",
+              "options": [
+                "говорил",
+                "скажет",
+                "сказал",
+                "говорит"
+              ],
+              "answer": "сказал",
+              "hint": "Так и не + perfective past = emphatic 'never did.'",
+              "explanation": "Так и не сказал = 'never did tell.' The perfective past with так и не emphasizes an unfulfilled expectation."
+            },
+            {
+              "prompt": "How do you say 'It was WE who started this'?",
+              "promptEnglish": "Choose the correct cleft construction.",
+              "options": [
+                "Мы это начали.",
+                "Это мы начали.",
+                "Мы же начали!",
+                "Мы-то начали."
+              ],
+              "answer": "Это мы начали.",
+              "hint": "Cleft = Это + focused subject + verb.",
+              "explanation": "Это мы начали = 'It was WE who started this.' The cleft identifies the specific agent."
+            },
+            {
+              "prompt": "_____ сегодня я хотел с тобой поговорить. (exactly today / coincidence)",
+              "promptEnglish": "It's EXACTLY today that I wanted to talk to you.",
+              "options": [
+                "Именно",
+                "Только",
+                "Как раз",
+                "Же"
+              ],
+              "answer": "Как раз",
+              "hint": "Precise timing / coincidence = как раз.",
+              "explanation": "Как раз сегодня = 'exactly today, as it happens.' Emphasizes the coincidence of timing."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Это виноват он. (meant: It was HE who is guilty)",
+          "error": "виноват он",
+          "correction": "он виноват",
+          "hint": "In a cleft, the focused element comes right after Это.",
+          "explanation": "Correct: Это он виноват. In a cleft construction, Это + focused subject + predicate.",
+          "options": [
+            "он виноват",
+            "он виноватый",
+            "виноватый он"
+          ]
+        },
+        {
+          "sentence": "Я-то тебе говорил! (meant: I DID tell you - emphatic reminder)",
+          "error": "-то",
+          "correction": "же",
+          "hint": "Emphatic reminder = же. Contrast with others = -то.",
+          "explanation": "Я же тебе говорил! Же for emphatic reminder. Using -то would mean 'I (unlike someone else) told you.'",
+          "options": [
+            "же",
+            "вот",
+            "ну"
+          ]
+        },
+        {
+          "sentence": "Как раз это я имел в виду. (meant: SPECIFICALLY this)",
+          "error": "Как раз",
+          "correction": "Именно",
+          "hint": "Precise identification of what was meant = именно. Как раз = coincidence/timing.",
+          "explanation": "Именно это я имел в виду. Именно = specifically, precisely. Как раз leans toward coincidence.",
+          "options": [
+            "Именно",
+            "Только",
+            "Вот"
+          ]
+        },
+        {
+          "sentence": "Она же пришла, а он нет. (meant: SHE came, but he didn't - contrast)",
+          "error": "же",
+          "correction": "-то",
+          "hint": "Contrasting one person against another = -то, not же.",
+          "explanation": "Она-то пришла, а он нет. The particle -то creates the contrast between her and him.",
+          "options": [
+            "-то",
+            "вот",
+            "ну"
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Книгу я прочитал. / Задачу решил Борис. / В Москву он поехал.",
+          "question": "What emphasis strategy unifies these three sentences?",
+          "options": [
+            "Particle emphasis",
+            "Cleft construction",
+            "Fronting the object/destination for emphasis",
+            "Emphatic negation"
+          ],
+          "answer": "Fronting the object/destination for emphasis",
+          "explanation": "All three move the object or destination to the front: книгу, задачу, в Москву. This gives them topic or contrastive emphasis."
+        },
+        {
+          "sentence": "Это я решил. / Это она позвонила. / Это мы виноваты.",
+          "question": "What construction is used in all three?",
+          "options": [
+            "Word order fronting",
+            "Cleft construction (Это + subject)",
+            "Particle -то contrast",
+            "Emphatic negation"
+          ],
+          "answer": "Cleft construction (Это + subject)",
+          "explanation": "All use Это + subject + verb: 'It was I / she / we who...' This singles out the agent."
+        },
+        {
+          "sentence": "Он-то знает. / Дети-то поняли. / Она-то пришла.",
+          "question": "What do all three share?",
+          "options": [
+            "Strong emphasis (же)",
+            "Contrast with others (-то)",
+            "Precise specification (именно)",
+            "Timing coincidence (как раз)"
+          ],
+          "answer": "Contrast with others (-то)",
+          "explanation": "All use -то on the subject to contrast that person/group with others who are different: 'HE knows (others don't), THE CHILDREN understood (adults didn't).'"
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ в этот момент зазвонил телефон. (exactly at that moment - coincidence)",
+          "Мы _____ тебя предупреждали! Почему не слушал? (emphatic: we DID warn you)",
+          "Она-_____ всё сделала вовремя, а коллеги опоздали. (SHE did it on time, unlike colleagues)",
+          "_____ это я и хотел услышать! (specifically / precisely this)"
+        ],
+        "choices": [
+          "Как раз",
+          "же",
+          "то",
+          "Именно"
+        ],
+        "answers": [
+          "Как раз",
+          "же",
+          "то",
+          "Именно"
+        ],
+        "grammarFocus": "All four emphatic particles in context",
+        "hints": [
+          "Coincidence / exact timing = which phrase?",
+          "Emphatic reminder of a past warning.",
+          "Contrast: she vs. her colleagues.",
+          "Precise specification of what was desired."
+        ],
+        "explanations": [
+          "Как раз в этот момент = 'at exactly that moment.' Emphasizes the coincidence.",
+          "Мы же тебя предупреждали! = 'We DID warn you!' Же for emphatic reminder.",
+          "Она-то всё сделала = 'SHE did everything on time (but the colleagues didn't).' Contrast with -то.",
+          "Именно это = 'precisely this.' Именно pinpoints the exact thing the speaker wanted."
+        ],
+        "options": [
+          [
+            "Же",
+            "Как раз",
+            "Вот",
+            "Именно"
+          ],
+          [
+            "вот",
+            "то",
+            "как раз",
+            "же"
+          ],
+          [
+            "же",
+            "как раз",
+            "то",
+            "вот"
+          ],
+          [
+            "Же",
+            "Именно",
+            "Как раз",
+            "Вот"
+          ]
+        ]
+      },
+      "minimalPairs": [
+        {
+          "context": "_____ Борис это сделал. (It was BORIS who did it - cleft)",
+          "contextEnglish": "It was BORIS who did this.",
+          "options": [
+            "Это",
+            "Именно"
+          ],
+          "answer": "Это",
+          "explanation": "Это Борис это сделал - cleft construction with Это + subject to single out the person. Именно would focus on specification, not identity."
+        },
+        {
+          "context": "_____ Борис это и сделал. (SPECIFICALLY Boris did this)",
+          "contextEnglish": "It was specifically BORIS who did this.",
+          "options": [
+            "Именно",
+            "Это"
+          ],
+          "answer": "Именно",
+          "explanation": "Именно Борис = 'specifically/precisely Boris.' Именно specifies the exact person out of several possibilities."
+        },
+        {
+          "context": "Мы _____ говорили об этом! (we DID talk about this - reminder)",
+          "contextEnglish": "We DID discuss this! (emphatic)",
+          "options": [
+            "же",
+            "-то"
+          ],
+          "answer": "же",
+          "explanation": "Мы же говорили = 'We DID talk about this!' Же is for emphatic reminders of known facts."
+        },
+        {
+          "context": "Мы-_____ говорили, а вы не слушали. (WE spoke, but you didn't listen - contrast)",
+          "contextEnglish": "WE spoke, but you weren't listening. (contrast)",
+          "options": [
+            "то",
+            "же"
+          ],
+          "answer": "то",
+          "explanation": "Мы-то говорили = 'WE (on our part) spoke.' The -то contrasts 'us speaking' with 'you not listening.'"
+        }
+      ]
+    }
+  ]
+}

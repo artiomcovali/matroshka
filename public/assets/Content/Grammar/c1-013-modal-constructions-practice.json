@@ -1,0 +1,60 @@
+{
+  "lessonId": "c1-013-modal-constructions",
+  "sets": [
+    {
+      "id": "set-1-recognize",
+      "title": "Recognize",
+      "titleRussian": "Узнавание",
+      "description": "Choose the right nuanced modal construction, then pick between close pairs",
+      "descriptionRussian": "Выберите правильную модальную конструкцию и различите близкие пары",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "В официальном письме _____ использовать формальный стиль.",
+              "promptEnglish": "In an official letter one should use a formal style.",
+              "options": ["следует", "удаётся", "способен", "вынужден"],
+              "answer": "следует",
+              "hint": "Формальная рекомендация / долженствование.",
+              "explanation": "«Следует» выражает формальную рекомендацию или долженствование (англ. should), характерное для официального стиля."
+            },
+            {
+              "prompt": "Из-за пробок мне _____ выходить из дома раньше.",
+              "promptEnglish": "Because of traffic jams, I have to leave home earlier.",
+              "options": ["приходится", "вправе", "позволено", "способен"],
+              "answer": "приходится",
+              "hint": "Вынужденность под давлением обстоятельств.",
+              "explanation": "«Приходится» выражает вынужденность под давлением обстоятельств: человек делает это не по своему желанию."
+            },
+            {
+              "prompt": "Каждый гражданин _____ участвовать в выборах.",
+              "promptEnglish": "Every citizen has the right to take part in elections.",
+              "options": ["вправе", "вынужден", "приходится", "не положено"],
+              "answer": "вправе",
+              "hint": "Наличие права что-либо делать.",
+              "explanation": "«Вправе» означает «иметь право»: подчёркивается законная возможность, а не принуждение."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Ей _____ найти решение после долгих переговоров. (She managed to find a solution after long negotiations.)",
+          "contextEnglish": "Success after difficulty.",
+          "options": ["удалось найти", "способна найти"],
+          "answer": "удалось найти",
+          "explanation": "Удалось describes achieving something after effort or difficulty. Способна найти describes inherent ability, not a specific successful outcome."
+        },
+        {
+          "context": "Мы были _____ согласиться на их условия. (We were compelled to agree to their terms.)",
+          "contextEnglish": "No real choice, strong external pressure.",
+          "options": ["вынуждены", "должны были"],
+          "answer": "вынуждены",
+          "explanation": "Вынуждены conveys being forced or compelled against one's will. Должны были is a neutral 'had to' without the sense of coercion."
+        }
+      ]
+    }
+  ]
+}

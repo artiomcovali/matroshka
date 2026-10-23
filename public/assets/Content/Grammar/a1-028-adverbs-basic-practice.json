@@ -1,0 +1,507 @@
+{
+  "lessonId": "a1-028-adverbs-basic",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Choose the correct adverb or adjective form",
+      "descriptionRussian": "Выберите правильную форму наречия или прилагательного",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Учитель объясняет урок очень _____.",
+              "promptEnglish": "The teacher explains the lesson very clearly.",
+              "options": [
+                "понятный",
+                "понятная",
+                "понятно",
+                "понятное"
+              ],
+              "answer": "понятно",
+              "hint": "Describes HOW the teacher explains (verb), not a noun.",
+              "explanation": "Use the adverb понятно (clearly/understandably) with the verb объясняет. Понятный is an adjective."
+            },
+            {
+              "prompt": "Поезд едет очень _____.",
+              "promptEnglish": "The train goes very fast.",
+              "options": [
+                "быстрый",
+                "быстро",
+                "быстрая",
+                "быстрое"
+              ],
+              "answer": "быстро",
+              "hint": "Describes HOW the train goes.",
+              "explanation": "Быстро (quickly) is an adverb describing the verb едет. Быстрый is an adjective."
+            },
+            {
+              "prompt": "_____ мы пойдём в музей.",
+              "promptEnglish": "Tomorrow we will go to the museum.",
+              "options": [
+                "Сейчас",
+                "Вчера",
+                "Завтра",
+                "Сегодня"
+              ],
+              "answer": "Завтра",
+              "hint": "Future action: пойдём.",
+              "explanation": "Завтра (tomorrow) matches the future tense пойдём (we will go)."
+            },
+            {
+              "prompt": "Бабушка живёт _____.",
+              "promptEnglish": "Grandma lives far away.",
+              "options": [
+                "далеко",
+                "близко",
+                "здесь",
+                "дома"
+              ],
+              "answer": "далеко",
+              "hint": "'Far away' is the opposite of близко.",
+              "explanation": "Далеко (far away) is a place adverb. Близко means 'nearby.'"
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Это _____ фильм. (a good movie)",
+          "contextEnglish": "This is a good movie.",
+          "options": [
+            "хороший",
+            "хорошо"
+          ],
+          "answer": "хороший",
+          "explanation": "Use the adjective хороший to describe the noun фильм. Хорошо is an adverb for verbs."
+        },
+        {
+          "context": "Она читает _____. (quickly)",
+          "contextEnglish": "She reads quickly.",
+          "options": [
+            "быстро",
+            "быстрая"
+          ],
+          "answer": "быстро",
+          "explanation": "Use the adverb быстро to describe how she reads. Быстрая is a feminine adjective."
+        },
+        {
+          "context": "Это _____ машина. (fast car)",
+          "contextEnglish": "This is a fast car.",
+          "options": [
+            "быстрая",
+            "быстро"
+          ],
+          "answer": "быстрая",
+          "explanation": "Быстрая is a feminine adjective matching машина. Быстро is an adverb for verbs."
+        },
+        {
+          "context": "Он работает _____. (badly)",
+          "contextEnglish": "He works badly.",
+          "options": [
+            "плохо",
+            "плохой"
+          ],
+          "answer": "плохо",
+          "explanation": "Use the adverb плохо to describe how he works. Плохой is an adjective."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in the right adverb and sort adverbs by type",
+      "descriptionRussian": "Вставьте нужное наречие и рассортируйте наречия по типу",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Дети играют _____. (loudly)",
+          "_____ я ходил в кино. (Yesterday)",
+          "Мой друг живёт _____. (nearby)",
+          "Она танцует _____. (beautifully)"
+        ],
+        "choices": [
+          "громко",
+          "Вчера",
+          "близко",
+          "красиво",
+          "быстро"
+        ],
+        "answers": [
+          "громко",
+          "Вчера",
+          "близко",
+          "красиво"
+        ],
+        "grammarFocus": "Choosing the right adverb for the context.",
+        "hints": [
+          "How do the children play?",
+          "When? Past tense ходил.",
+          "Where does your friend live?",
+          "How does she dance?"
+        ],
+        "explanations": [
+          "Громко (loudly) describes how the children play.",
+          "Вчера (yesterday) matches the past tense ходил (went).",
+          "Близко (nearby) is a place adverb telling where.",
+          "Красиво (beautifully) describes how she dances."
+        ],
+        "options": [
+          [
+            "быстро",
+            "громко",
+            "Вчера",
+            "близко"
+          ],
+          [
+            "красиво",
+            "быстро",
+            "близко",
+            "Вчера"
+          ],
+          [
+            "красиво",
+            "громко",
+            "близко",
+            "Вчера"
+          ],
+          [
+            "Вчера",
+            "красиво",
+            "близко",
+            "быстро"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort these adverbs: Manner (how?), Time (when?), or Place (where?)",
+        "categories": [
+          "Manner (how?)",
+          "Time (when?)",
+          "Place (where?)"
+        ],
+        "items": [
+          {
+            "word": "красиво",
+            "category": "Manner (how?)"
+          },
+          {
+            "word": "громко",
+            "category": "Manner (how?)"
+          },
+          {
+            "word": "тихо",
+            "category": "Manner (how?)"
+          },
+          {
+            "word": "завтра",
+            "category": "Time (when?)"
+          },
+          {
+            "word": "сейчас",
+            "category": "Time (when?)"
+          },
+          {
+            "word": "часто",
+            "category": "Time (when?)"
+          },
+          {
+            "word": "дома",
+            "category": "Place (where?)"
+          },
+          {
+            "word": "везде",
+            "category": "Place (where?)"
+          },
+          {
+            "word": "далеко",
+            "category": "Place (where?)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "She sings beautifully.",
+          "answer": "Она поёт красиво.",
+          "acceptableVariants": [
+            "Она красиво поёт."
+          ],
+          "hint": "she = она, sings = поёт, beautifully = красиво",
+          "grammarFocus": "Manner adverb with verb",
+          "keyWord": "красиво",
+          "options": [
+            "красиво",
+            "красивая",
+            "красивый",
+            "красивое"
+          ]
+        },
+        {
+          "english": "Yesterday he was here.",
+          "answer": "Вчера он был здесь.",
+          "acceptableVariants": [
+            "Он вчера был здесь.",
+            "Он был здесь вчера."
+          ],
+          "hint": "yesterday = вчера, he was = он был, here = здесь",
+          "grammarFocus": "Time + place adverbs together",
+          "keyWord": "здесь",
+          "options": [
+            "здесь",
+            "там",
+            "туда",
+            "сюда"
+          ]
+        },
+        {
+          "english": "Children play loudly.",
+          "answer": "Дети играют громко.",
+          "acceptableVariants": [
+            "Дети громко играют."
+          ],
+          "hint": "children = дети, play = играют, loudly = громко",
+          "grammarFocus": "Manner adverb",
+          "keyWord": "громко",
+          "options": [
+            "громко",
+            "громкая",
+            "громкий",
+            "громкое"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Errors",
+      "titleRussian": "Найди ошибки",
+      "description": "Find where an adjective was used instead of an adverb (or vice versa)",
+      "descriptionRussian": "Найдите, где прилагательное использовано вместо наречия (или наоборот)",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Он читает медленный.",
+          "error": "медленный",
+          "correction": "медленно",
+          "hint": "Describes how he reads (a verb), not a noun.",
+          "explanation": "Use the adverb медленно (slowly) with the verb читает. Медленный is an adjective.",
+          "options": [
+            "медленно",
+            "медленная",
+            "медленное"
+          ]
+        },
+        {
+          "sentence": "Мама готовит вкусный.",
+          "error": "вкусный",
+          "correction": "вкусно",
+          "hint": "Describes how she cooks, not a noun.",
+          "explanation": "Use the adverb вкусно (deliciously) with the verb готовит. Вкусный is an adjective.",
+          "options": [
+            "вкусно",
+            "вкусная",
+            "вкусное"
+          ]
+        },
+        {
+          "sentence": "Это плохо день.",
+          "error": "плохо",
+          "correction": "плохой",
+          "hint": "Describes the noun день, not a verb.",
+          "explanation": "Use the adjective плохой to describe the noun день. Плохо is an adverb for verbs.",
+          "options": [
+            "плохой",
+            "плохая",
+            "плохое"
+          ]
+        },
+        {
+          "sentence": "Она поёт громкий.",
+          "error": "громкий",
+          "correction": "громко",
+          "hint": "Describes how she sings, not a noun.",
+          "explanation": "Use the adverb громко (loudly) with the verb поёт. Громкий is an adjective.",
+          "options": [
+            "громко",
+            "громкая",
+            "громкое"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which word is an adverb?",
+              "promptEnglish": "Which word is an adverb (describes a verb)?",
+              "options": [
+                "новый",
+                "хорошо",
+                "большой",
+                "красная"
+              ],
+              "answer": "хорошо",
+              "hint": "Adverbs often end in -о and describe verbs.",
+              "explanation": "Хорошо (well) is an adverb. The others are adjectives describing nouns."
+            },
+            {
+              "prompt": "Дети _____ слушают учителя.",
+              "promptEnglish": "The children listen to the teacher attentively.",
+              "options": [
+                "внимательный",
+                "внимательная",
+                "внимательно",
+                "внимательные"
+              ],
+              "answer": "внимательно",
+              "hint": "Describes HOW they listen.",
+              "explanation": "Внимательно (attentively) is the adverb form. It describes the verb слушают."
+            },
+            {
+              "prompt": "Мой друг _____ приходит на работу.",
+              "promptEnglish": "My friend comes to work early.",
+              "options": [
+                "рано",
+                "поздно",
+                "далеко",
+                "близко"
+              ],
+              "answer": "рано",
+              "hint": "'Early' is the opposite of поздно.",
+              "explanation": "Рано (early) is a time adverb. Поздно means 'late.'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "A mixed challenge covering all adverb types and uses",
+      "descriptionRussian": "Смешанное задание по всем типам наречий и их использованию",
+      "icon": "star",
+      "patternRecognition": [
+        {
+          "sentence": "хорошо, плохо, быстро, медленно, тихо, громко",
+          "question": "What do these words have in common?",
+          "options": [
+            "They are all manner adverbs ending in -о",
+            "They are all adjectives",
+            "They are all verbs"
+          ],
+          "answer": "They are all manner adverbs ending in -о",
+          "explanation": "These are manner adverbs answering 'how?' They all end in -о and describe verbs."
+        },
+        {
+          "sentence": "хороший - хорошо, быстрый - быстро, плохой - плохо",
+          "question": "What is the pattern for turning adjectives into adverbs?",
+          "options": [
+            "Replace the adjective ending with -о",
+            "Add -но to the adjective",
+            "Adjectives and adverbs are always the same"
+          ],
+          "answer": "Replace the adjective ending with -о",
+          "explanation": "To make a manner adverb, replace the adjective ending (-ый/-ий/-ой) with -о: хороший -> хорошо."
+        },
+        {
+          "sentence": "сегодня, завтра, вчера, сейчас, рано, поздно",
+          "question": "What type of adverbs are these?",
+          "options": [
+            "Time adverbs (when?)",
+            "Place adverbs (where?)",
+            "Manner adverbs (how?)"
+          ],
+          "answer": "Time adverbs (when?)",
+          "explanation": "These all answer the question 'when?': today, tomorrow, yesterday, now, early, late."
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Это _____ музыка. (beautiful music)",
+          "contextEnglish": "This is beautiful music.",
+          "options": [
+            "красивая",
+            "красиво"
+          ],
+          "answer": "красивая",
+          "explanation": "Use the adjective красивая to describe the noun музыка. Красиво is an adverb."
+        },
+        {
+          "context": "Он пишет _____. (neatly)",
+          "contextEnglish": "He writes neatly.",
+          "options": [
+            "аккуратно",
+            "аккуратный"
+          ],
+          "answer": "аккуратно",
+          "explanation": "Use the adverb аккуратно to describe how he writes. Аккуратный is an adjective."
+        },
+        {
+          "context": "Кот спит _____. (calmly)",
+          "contextEnglish": "The cat sleeps calmly.",
+          "options": [
+            "спокойно",
+            "спокойный"
+          ],
+          "answer": "спокойно",
+          "explanation": "Use the adverb спокойно to describe how the cat sleeps. Спокойный is an adjective."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "_____ мы были в парке. (Yesterday)",
+          "Он живёт очень _____ от работы. (far)",
+          "Девочка рисует очень _____. (well)"
+        ],
+        "choices": [
+          "Вчера",
+          "далеко",
+          "хорошо",
+          "близко"
+        ],
+        "answers": [
+          "Вчера",
+          "далеко",
+          "хорошо"
+        ],
+        "grammarFocus": "Time, place, and manner adverbs in context.",
+        "hints": [
+          "Past tense были = 'were.'",
+          "Opposite of близко (near).",
+          "How does she draw?"
+        ],
+        "explanations": [
+          "Вчера (yesterday) matches the past tense были.",
+          "Далеко (far) is a place adverb. He lives far from work.",
+          "Хорошо (well) describes how she draws."
+        ],
+        "options": [
+          [
+            "Вчера",
+            "хорошо",
+            "далеко",
+            "близко"
+          ],
+          [
+            "Вчера",
+            "далеко",
+            "близко",
+            "хорошо"
+          ],
+          [
+            "близко",
+            "хорошо",
+            "Вчера",
+            "далеко"
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mission-b1-hard-012",
+  "title": "Double-Booked Lesson",
+  "level": "B1",
+  "difficulty": "hard",
+  "description": "Piano teacher scheduled two students at the same time",
+  "imageName": "pianokeys",
+  "initialPrompt": "Ой, у меня сейчас другой ученик. Вы точно записывались на это время? Может, на следующий раз?",
+  "systemPrompt": "You are a disorganized piano teacher. Double-booked and want to reschedule one student. Offer free lesson only if student shows proof of booking and insists. Keep replies short.",
+  "completionCriteria": "User got their lesson or compensation for the mistake.",
+  "responseLimit": 15,
+  "hints": [
+    "Вот моё подтверждение (Here's my confirmation)",
+    "Это ваша ошибка (This is your mistake)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "запись",
+      "definition": "booking"
+    },
+    {
+      "word": "подтверждение",
+      "definition": "confirmation"
+    },
+    {
+      "word": "ошибка",
+      "definition": "mistake"
+    },
+    {
+      "word": "компенсация",
+      "definition": "compensation"
+    },
+    {
+      "word": "бесплатный",
+      "definition": "free"
+    },
+    {
+      "word": "расписание",
+      "definition": "schedule"
+    }
+  ],
+  "objectives": [
+    "Show your booking proof",
+    "Insist on your lesson",
+    "Request compensation",
+    "Negotiate resolution",
+    "Get fair outcome"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "mission-a1-medium-001",
+  "title": "Coffee Sold Out",
+  "level": "A1",
+  "difficulty": "medium",
+  "description": "Order at a cafe, but your first choice isn't available",
+  "imageName": "cup.and.saucer.fill",
+  "initialPrompt": "Добрый день! Что вы хотите?",
+  "systemPrompt": "You are a cafe worker. Menu: кофе 150₽, чай 100₽, сок 120₽, вода 50₽. RULE: whatever drink the customer asks for FIRST is sold out today, no matter which one it is. Refuse it with 'Извините, [drink] нет сегодня.' (genitive: кофе, чая, сока, воды) and offer one other drink from the menu. Never serve the first drink, even if they ask again. Serve any different drink they ask for after that. Keep replies short.",
+  "completionCriteria": "The customer's first choice was refused as sold out, and the user then ordered a different item from the menu.",
+  "responseLimit": 15,
+  "hints": [
+    "Я хочу кофе (I want coffee)",
+    "А что есть? (What do you have?)",
+    "Тогда чай (Then tea)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "кофе",
+      "definition": "coffee"
+    },
+    {
+      "word": "чай",
+      "definition": "tea"
+    },
+    {
+      "word": "нет",
+      "definition": "no/none"
+    },
+    {
+      "word": "сегодня",
+      "definition": "today"
+    },
+    {
+      "word": "тогда",
+      "definition": "then"
+    }
+  ],
+  "objectives": [
+    "Ask for a drink (кофе, чай, сок, вода)",
+    "Learn it's not available (нет)",
+    "Order something else"
+  ]
+}

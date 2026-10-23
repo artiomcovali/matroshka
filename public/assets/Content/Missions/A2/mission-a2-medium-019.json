@@ -1,0 +1,49 @@
+{
+  "id": "mission-a2-medium-019",
+  "title": "Wrong Photo Size",
+  "level": "A2",
+  "difficulty": "medium",
+  "description": "Your passport photos came out the wrong size",
+  "imageName": "photo.fill",
+  "initialPrompt": "Ваши фотографии готовы! Вот они.",
+  "systemPrompt": "You work at photo studio. Made photos 4x6 but customer needs 3x4 for passport. Can reprint correct size in 15 minutes, no extra charge. Keep replies short.",
+  "completionCriteria": "User explained size problem and got photos reprinted correctly.",
+  "responseLimit": 15,
+  "hints": [
+    "Извините, это не тот размер (Sorry, this is the wrong size)",
+    "Мне нужен размер 3 на 4 (I need size 3 by 4)",
+    "Можете переделать? (Can you redo them?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "фотография",
+      "definition": "photo"
+    },
+    {
+      "word": "размер",
+      "definition": "size"
+    },
+    {
+      "word": "паспорт",
+      "definition": "passport"
+    },
+    {
+      "word": "переделать",
+      "definition": "to redo"
+    },
+    {
+      "word": "готово",
+      "definition": "ready"
+    },
+    {
+      "word": "ошибка",
+      "definition": "mistake"
+    }
+  ],
+  "objectives": [
+    "Point out the wrong size (размер)",
+    "Explain what size you need",
+    "Ask for reprinting (переделать)",
+    "Get confirmation of correction"
+  ]
+}

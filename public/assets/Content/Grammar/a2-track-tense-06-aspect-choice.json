@@ -1,0 +1,320 @@
+{
+  "id": "a2-track-tense-06-aspect-choice",
+  "level": "A2",
+  "focusArea": "conjugation",
+  "title": "Future Tense 4: Process or Result - Choosing Your Future",
+  "titleRussian": "Будущее время 4: процесс или результат",
+  "description": "Choosing between the two futures: буду читать for ongoing or habitual action, прочитаю for one bounded result. The same choice viewed in the past tense for contrast.",
+  "descriptionRussian": "Выбор между двумя формами будущего: буду читать — процесс или привычка, прочитаю — один завершённый результат. Для контраста то же различие показано в прошедшем времени.",
+  "imageName": "arrow.left.arrow.right.circle",
+  "trackId": "a2-future-tense-mastery",
+  "trackTitle": "Future Tense Mastery",
+  "trackTitleRussian": "Будущее время",
+  "trackIndex": 4,
+  "trackTotal": 6,
+  "intro": "Now you choose, and the choice is not new: it is the same process-versus-result decision you already make in the past tense, pointed forwards. If you would say 'I was reading' you want the two-word future; if you would say 'I read it' you want the one-word one. A few verbs have no perfective partner at all and only ever take the two-word form.",
+  "rules": [
+    "Aspect choice in past and future is the SAME logic. Process / habit → impf. Completed bounded result → pf. The triggers are identical: duration cues, habit cues, and result cues.",
+    "Aspect determines which future construction to use. Impf → буду + impf inf. Pf → pf synthetic future (same conjugation as the present, applied to a perfective verb).",
+    "Verbs like быть, любить, знать and хотеть have no everyday perfective partner, so the imperfective future is the only future they have: 'Я буду любить'. (Полюбить and захотеть do exist, but they mean 'come to love' and 'start wanting', a change of state rather than the same action completed.)",
+    "The same impf vs pf cues that decide aspect in the past also decide it in the future: 'я читал час' impf past matches 'я буду читать час' impf future; 'я прочитал' pf past matches 'я прочитаю' pf future."
+  ],
+  "examples": [
+    "Антон читал журнал час. (Anton was reading a magazine for an hour.) Duration cue 'час' → impf past.",
+    "Антон прочитал журнал. (Anton read the magazine and finished it.) Result claim → pf past.",
+    "Я буду читать книгу всё утро. (I will be reading the book all morning.) Duration cue → impf future.",
+    "Я прочитаю книгу до конца недели. (I will read the book by the end of the week.) Bounded deadline → pf synthetic future.",
+    "Маша часто писала Антону. (Masha often wrote to Anton.) Habit cue 'часто' → impf past.",
+    "Маша напишет Антону завтра. (Masha will write to Anton tomorrow.) Single act → pf synthetic future."
+  ],
+  "tables": [
+    {
+      "title": "Aspect × Tense Grid (читать / прочитать)",
+      "headers": [
+        "Tense",
+        "Imperfective",
+        "Perfective"
+      ],
+      "rows": [
+        {
+          "label": "Past",
+          "cells": [
+            "читал (process / habit)",
+            "прочитал (result)"
+          ]
+        },
+        {
+          "label": "Future",
+          "cells": [
+            "буду читать (process / habit)",
+            "прочитаю (result)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Triggers and Their Aspects",
+      "headers": [
+        "Trigger",
+        "Aspect",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "час, долго, всю ночь",
+          "cells": [
+            "impf",
+            "Антон читал час."
+          ]
+        },
+        {
+          "label": "часто, обычно, каждый день",
+          "cells": [
+            "impf",
+            "Маша читала каждый вечер."
+          ]
+        },
+        {
+          "label": "уже, за час, к утру",
+          "cells": [
+            "pf",
+            "Я прочитал до утра."
+          ]
+        },
+        {
+          "label": "до выходных",
+          "cells": [
+            "pf",
+            "Я прочитаю до выходных."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "Антон _____ письмо.",
+          "promptEnglish": "Anton will write (and finish) a letter.",
+          "options": [
+            "напишу",
+            "напишет",
+            "напишем",
+            "напишут"
+          ],
+          "answer": "напишет",
+          "hint": "Recap from Lesson 3: pf future, 3sg.",
+          "explanation": "Recap from Lesson 3. 'Anton will write and finish' is a single bounded result, so the pf synthetic future for 3sg: напишет. Today's drill mixes aspect choice across past and future."
+        },
+        {
+          "prompt": "Антон _____ журнал час, но не закончил.",
+          "promptEnglish": "Anton was reading the magazine for an hour but didn't finish.",
+          "options": [
+            "читал",
+            "прочитал",
+            "прочитает",
+            "будет читать"
+          ],
+          "answer": "читал",
+          "hint": "Duration cue 'час'. Past tense (note 'не закончил'). Aspect?",
+          "explanation": "Duration cue 'час' triggers the impf. The 'не закончил' confirms no completion. Past tense impf: читал."
+        },
+        {
+          "prompt": "Я _____ книгу до выходных.",
+          "promptEnglish": "I will read (and finish) the book by the weekend.",
+          "options": [
+            "буду читать",
+            "читал",
+            "прочитаю",
+            "прочитал"
+          ],
+          "answer": "прочитаю",
+          "hint": "Bounded deadline 'до выходных'. Future tense. Aspect?",
+          "explanation": "'До выходных' is a bounded deadline (the action must finish by then), so pf future. 1sg pf synthetic: прочитаю."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Маша _____ Антону каждый вечер.",
+          "promptEnglish": "Masha used to write to Anton every evening.",
+          "options": [
+            "писала",
+            "написала",
+            "пишет",
+            "будет писать"
+          ],
+          "answer": "писала",
+          "hint": "Habit cue 'каждый вечер'. Past tense. Aspect?",
+          "explanation": "Habit cue 'каждый вечер' triggers the impf. Past tense impf, fem (Маша): писала."
+        },
+        {
+          "prompt": "Завтра я _____ Антону.",
+          "promptEnglish": "Tomorrow I will write to Anton.",
+          "options": [
+            "писал",
+            "написал",
+            "напишу",
+            "буду писать"
+          ],
+          "answer": "напишу",
+          "hint": "Single bounded act of writing. Future tense. Aspect?",
+          "explanation": "A single act of writing tomorrow is a bounded result. Pf synthetic future, 1sg: напишу."
+        },
+        {
+          "prompt": "Антон _____ часто на работе.",
+          "promptEnglish": "Anton will often be at work.",
+          "options": [
+            "работал",
+            "будет работать",
+            "поработает",
+            "сработает"
+          ],
+          "answer": "будет работать",
+          "hint": "Habit cue 'часто'. Future tense. Aspect?",
+          "explanation": "Habit cue 'часто' triggers the impf. Future tense impf: буду работать paradigm; for 'Антон' that's будет работать."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "items": [
+        {
+          "prompt": "Маша _____ в Москве.",
+          "promptEnglish": "Masha will work in Moscow.",
+          "options": [
+            "поработает",
+            "будет работать",
+            "работала",
+            "поработала"
+          ],
+          "answer": "будет работать",
+          "hint": "Working at a job is ongoing. Which future construction?",
+          "explanation": "An ongoing state takes the imperfective future: будет работать."
+        },
+        {
+          "prompt": "Антон _____ журнал час.",
+          "promptEnglish": "Anton was reading a magazine for an hour.",
+          "options": [
+            "прочитал",
+            "читал",
+            "прочитает",
+            "читает"
+          ],
+          "answer": "читал",
+          "hint": "The bare duration 'час' is a process cue. Which past?",
+          "explanation": "A bare duration (час) triggers the imperfective past: читал журнал час."
+        },
+        {
+          "prompt": "Я _____ книгу к пятнице.",
+          "promptEnglish": "I will read the book by Friday.",
+          "options": [
+            "буду читать",
+            "читаю",
+            "прочитаю",
+            "читал"
+          ],
+          "answer": "прочитаю",
+          "hint": "'К пятнице' is a deadline. Deadlines call for which future?",
+          "explanation": "A deadline (к пятнице) points at completion, so the perfective future fits: прочитаю."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маша _____ книгу всё утро. (Masha will be reading the book all morning.)"
+    ],
+    "choices": [
+      "прочитает",
+      "будет читать",
+      "читала",
+      "прочитала"
+    ],
+    "answers": [
+      "будет читать"
+    ],
+    "grammarFocus": "Duration cue 'всё утро' triggers the impf. Future tense impf: 3sg будет читать."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Антон часто написал Маше прошлым летом.",
+      "translationEnglish": "Anton often wrote to Masha last summer.",
+      "error": "написал",
+      "correction": "писал",
+      "options": [
+        "писал",
+        "писали",
+        "написали"
+      ],
+      "explanation": "The habit cue 'часто' (often) demands the imperfective: писал. Написал is perfective and claims a single completed writing event, which contradicts 'often'. The same trigger that picks impf in the present picks impf in the past: habit → imperfective."
+    },
+    {
+      "sentence": "Лена будет прочитать эту статью за час.",
+      "translationEnglish": "Lena will read this article in an hour.",
+      "error": "будет прочитать",
+      "correction": "прочитает",
+      "options": [
+        "прочитает",
+        "будет читать",
+        "прочитала"
+      ],
+      "explanation": "'За + accusative' marks a bounded completion-time ('in an hour to finish'), which calls for the perfective. Russian's perfective future is synthetic, one word: прочитает. Будет + infinitive exists only for the imperfective (будет читать)."
+    },
+    {
+      "sentence": "Дети посмотрят мультфильмы каждый день этим летом.",
+      "translationEnglish": "The children will watch cartoons every day this summer.",
+      "error": "посмотрят",
+      "correction": "будут смотреть",
+      "options": [
+        "будут смотреть",
+        "смотрят",
+        "посмотрели"
+      ],
+      "explanation": "The habit cue 'каждый день' (every day) demands the imperfective. The imperfective future is two words: будут + impf inf = будут смотреть. Посмотрят is a perfective ('they will watch [once, through]') and cannot describe a daily habit."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маша _____ книгу за выходные.",
+      "contextEnglish": "Masha read the book over the weekend (and finished it).",
+      "options": [
+        "читала",
+        "прочитала"
+      ],
+      "answer": "прочитала",
+      "explanation": "'За выходные' is a completion-time cue ('over the weekend'), triggering pf. Маша is fem, so прочитала. Читала would describe ongoing reading without a finish claim."
+    },
+    {
+      "context": "Завтра Антон _____ статью.",
+      "contextEnglish": "Tomorrow Anton will read (and finish) the article.",
+      "options": [
+        "будет читать",
+        "прочитает"
+      ],
+      "answer": "прочитает",
+      "explanation": "A single bounded act with a definite reading completion → pf synthetic future. Прочитает (3sg). 'Будет читать' would imply ongoing reading without a finish."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "вид глагола",
+      "definition": "verb aspect (the impf vs pf distinction; the same logic operates in past and future)",
+      "example": "Вид глагола виден в паре 'читать / прочитать': 'читать' имперфективный (процесс), 'прочитать' перфективный (результат)."
+    },
+    {
+      "term": "результат",
+      "definition": "result (the meaning of a perfective verb: completed, bounded action with a clear endpoint)",
+      "example": "В предложении 'Я прочитаю книгу за час' слово 'прочитаю' выражает результат: книга прочитана за конкретное время."
+    },
+    {
+      "term": "привычка",
+      "definition": "habit (a recurring or regular action; triggers the imperfective in both past and future)",
+      "example": "В предложении 'Маша часто писала Антону' слово 'часто' указывает на привычку, поэтому глагол стоит в имперфективном виде."
+    }
+  ]
+}

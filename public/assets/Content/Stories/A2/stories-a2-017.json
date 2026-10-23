@@ -1,0 +1,188 @@
+{
+  "id": "a2-017",
+  "level": "A2",
+  "narrator": "Дима",
+  "title": "Экзамен",
+  "titleEnglish": "The Exam",
+  "description": "Дима рассказывает про свой экзамен.",
+  "imageName": "doc.text.fill",
+  "fullText": "На прошлой неделе у меня был экзамен. Я учил математику три дня. Математика — мой любимый предмет! Я много читал и писал. В день экзамена я встал рано и пошёл в университет. Там я сел за стол и начал писать. Экзамен был трудный, но я всё знал! Через два часа я закончил. Потом я ждал. Вчера я узнал — я сдал экзамен! Я был очень рад и позвонил Маше. Она сказала: «Молодец, Дима!»",
+  "quiz": [
+    {
+      "prompt": "Какой экзамен был у Димы?",
+      "options": [
+        "По истории",
+        "По математике",
+        "По английскому"
+      ],
+      "correctIndex": 1,
+      "explanation": "У Димы был экзамен по математике."
+    },
+    {
+      "prompt": "Сколько дней Дима учил?",
+      "options": [
+        "Один день",
+        "Два дня",
+        "Три дня"
+      ],
+      "correctIndex": 2,
+      "explanation": "Дима учил математику три дня."
+    },
+    {
+      "prompt": "Когда Дима встал в день экзамена?",
+      "options": [
+        "Поздно",
+        "Рано",
+        "Он не спал"
+      ],
+      "correctIndex": 1,
+      "explanation": "В день экзамена Дима встал рано."
+    },
+    {
+      "prompt": "Экзамен был трудный?",
+      "options": [
+        "Нет, лёгкий",
+        "Да, трудный",
+        "Дима не помнит"
+      ],
+      "correctIndex": 1,
+      "explanation": "Экзамен был трудный, но Дима всё знал."
+    },
+    {
+      "prompt": "Дима сдал экзамен?",
+      "options": [
+        "Он ещё не знает",
+        "Нет, не сдал",
+        "Да, сдал"
+      ],
+      "correctIndex": 2,
+      "explanation": "Дима узнал, что он сдал экзамен."
+    },
+    {
+      "prompt": "Кому Дима позвонил?",
+      "options": [
+        "Маше",
+        "Анне",
+        "Ивану Петровичу"
+      ],
+      "correctIndex": 0,
+      "explanation": "Дима был рад и позвонил Маше."
+    }
+  ],
+  "fillInBlank": {
+    "type": "drag-drop",
+    "blanks": [
+      "Дима _____ математику три дня.",
+      "В день экзамена Дима встал _____.",
+      "Экзамен был _____, но Дима всё знал.",
+      "Дима _____ экзамен по математике.",
+      "Дима был рад и _____ Маше."
+    ],
+    "choices": [
+      "учил",
+      "рано",
+      "трудный",
+      "сдал",
+      "позвонил",
+      "читал",
+      "забыл"
+    ],
+    "answers": [
+      "учил",
+      "рано",
+      "трудный",
+      "сдал",
+      "позвонил"
+    ]
+  },
+  "reviewVocab": [
+    {
+      "word": "экзамен",
+      "definition": "exam",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "экзамен",
+        "экзамена",
+        "экзамене"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "предмет",
+      "definition": "subject (school)",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "предмет",
+        "предмета",
+        "предметы"
+      ],
+      "difficulty": 2
+    },
+    {
+      "word": "трудный",
+      "definition": "difficult",
+      "partOfSpeech": "adjective",
+      "forms": [
+        "трудный",
+        "трудная",
+        "трудное",
+        "трудные"
+      ],
+      "difficulty": 1
+    },
+    {
+      "word": "молодец",
+      "definition": "well done, good job",
+      "partOfSpeech": "noun (m)",
+      "forms": [
+        "молодец",
+        "молодцы"
+      ],
+      "difficulty": 1
+    }
+  ],
+  "matching": true,
+  "grammarQuiz": [
+    {
+      "prompt": "'Дима учил математику' — 'учил' is past tense. How do we know it's masculine?",
+      "options": [
+        "It ends in '-ла'",
+        "It ends in '-л' without '-а'",
+        "It ends in '-ли'"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "gender",
+      "sentenceRef": "Я учил математику три дня.",
+      "explanation": "Masculine past tense verbs end in '-л' (no '-а'): учил, читал, писал. Feminine verbs add '-а': учила, читала, писала.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "'Маша сказала: Молодец!' — why is it 'сказала' and not 'сказал'?",
+      "options": [
+        "Because the action is in the future",
+        "Because Маша is female",
+        "Because it is a question"
+      ],
+      "correctIndex": 1,
+      "grammarFocus": "gender",
+      "sentenceRef": "Она сказала: «Молодец, Дима!»",
+      "explanation": "Past tense verbs agree with the subject's gender. Маша is female → сказала. Дима is male → сказал. This '-а' ending shows the subject is feminine.",
+      "focusArea": "cases"
+    },
+    {
+      "prompt": "'Экзамен был трудный' — the word 'был' is past tense of:",
+      "options": [
+        "Быть (to be)",
+        "Бежать (to run)",
+        "Болеть (to be sick)"
+      ],
+      "correctIndex": 0,
+      "grammarFocus": "tense",
+      "sentenceRef": "Экзамен был трудный, но я всё знал!",
+      "explanation": "'Был' is the past tense of 'быть' (to be). It is one of the most common Russian words: был (he/it was), была (she was), было (it was, neuter), были (they were).",
+      "focusArea": "conjugation"
+    }
+  ],
+  "audioFile": "a2-017.m4a",
+  "audioTimingFile": "a2-017-timing.json"
+}

@@ -1,0 +1,492 @@
+{
+  "lessonId": "b2-003-modal-particles",
+  "sets": [
+    {
+      "id": "round-2-sort-transform",
+      "title": "Sort and Transform",
+      "titleRussian": "Сортировка и трансформация",
+      "description": "Sort particles by function and transform sentences using different particles",
+      "descriptionRussian": "Рассортируйте частицы и трансформируйте предложения",
+      "icon": "arrow.up.arrow.down",
+      "categorySorting": {
+        "instruction": "Sort these sentences by particle function",
+        "categories": [
+          "Emphasis (же)",
+          "Whether (ли)",
+          "Conditional (бы)",
+          "Appeal/Surprise (ведь/разве/неужели)"
+        ],
+        "items": [
+          {
+            "word": "Я же говорил!",
+            "category": "Emphasis (же)"
+          },
+          {
+            "word": "Не знаю, будет ли дождь.",
+            "category": "Whether (ли)"
+          },
+          {
+            "word": "Я бы согласился.",
+            "category": "Conditional (бы)"
+          },
+          {
+            "word": "Ведь это очевидно!",
+            "category": "Appeal/Surprise (ведь/разве/неужели)"
+          },
+          {
+            "word": "Ты же знаешь!",
+            "category": "Emphasis (же)"
+          },
+          {
+            "word": "Разве ты не слышал?",
+            "category": "Appeal/Surprise (ведь/разве/неужели)"
+          },
+          {
+            "word": "Она бы поняла.",
+            "category": "Conditional (бы)"
+          },
+          {
+            "word": "Неужели он ушёл?!",
+            "category": "Appeal/Surprise (ведь/разве/неужели)"
+          },
+          {
+            "word": "Интересно, справится ли он.",
+            "category": "Whether (ли)"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Where does ли go in an indirect question?",
+              "promptEnglish": "What is the position of ли?",
+              "options": [
+                "At the beginning of the clause",
+                "After the questioned word/verb",
+                "At the end of the sentence",
+                "Before the subject"
+              ],
+              "answer": "After the questioned word/verb",
+              "hint": "Ли follows the word that is in question.",
+              "explanation": "Ли goes right after the word in question: придёт ЛИ он, дома ЛИ она."
+            },
+            {
+              "prompt": "_____ мы уже не виделись? Где ты была? (emphasizing how long it's been)",
+              "promptEnglish": "We haven't seen each other for so long! Where have you been?",
+              "options": [
+                "Сколько бы",
+                "Сколько ли",
+                "Сколько же",
+                "Сколько ведь"
+              ],
+              "answer": "Сколько же",
+              "hint": "Же after a question word adds emotional emphasis.",
+              "explanation": "Сколько же = 'how long it's been!' (emphatic). Же intensifies the question."
+            },
+            {
+              "prompt": "_____ ты помнишь, как всё начиналось? (after all, you remember...)",
+              "promptEnglish": "After all, you remember how it all started?",
+              "options": [
+                "Же",
+                "Ли",
+                "Ведь",
+                "Бы"
+              ],
+              "answer": "Ведь",
+              "hint": "Appealing to something the listener should remember.",
+              "explanation": "Ведь appeals to shared memory: 'After all, you remember...'"
+            }
+          ]
+        },
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я _____ помог, но у меня не было времени.",
+              "promptEnglish": "I would have helped, but I didn't have time.",
+              "options": [
+                "же",
+                "ведь",
+                "бы",
+                "ли"
+              ],
+              "answer": "бы",
+              "hint": "Hypothetical/conditional = бы.",
+              "explanation": "Бы + past = conditional: 'I would have helped.'"
+            },
+            {
+              "prompt": "_____ ты знаешь, что это неправда! (After all, you know...)",
+              "promptEnglish": "After all, you know this isn't true!",
+              "options": [
+                "Же",
+                "Ли",
+                "Ведь",
+                "Бы"
+              ],
+              "answer": "Ведь",
+              "hint": "Appealing to shared knowledge = ведь.",
+              "explanation": "Ведь appeals to something both speakers know: 'After all, you know...'"
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он _____ знал об этом! (He DID know - emphatic)",
+          "contextEnglish": "He knew about this! (emphatic: I'm reminding you he knew)",
+          "options": [
+            "же",
+            "бы"
+          ],
+          "answer": "же",
+          "explanation": "Же emphasizes a known fact: 'He DID know!' Reminding the listener."
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Ведь ты это сделал?! Не может быть! (meant: amazed surprise)",
+          "error": "Ведь",
+          "correction": "Неужели",
+          "hint": "Amazed surprise = неужели, not ведь (which appeals to known facts).",
+          "explanation": "Неужели = 'Can it really be?!' (amazement). Ведь = 'after all' (shared knowledge).",
+          "options": [
+            "Неужели",
+            "Разве",
+            "Же"
+          ]
+        },
+        {
+          "sentence": "Я бы говорил тебе вчера! (meant: I DID tell you yesterday!)",
+          "error": "бы",
+          "correction": "же",
+          "hint": "Emphatic reminder = же. Бы would mean 'I would have told.'",
+          "explanation": "Я же говорил тебе! = 'I DID tell you!' Же for emphasis. Бы would mean hypothetical.",
+          "options": [
+            "же",
+            "ведь",
+            "ли"
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "I don't know whether they will agree.",
+          "answer": "Не знаю, согласятся ли они.",
+          "acceptableVariants": [
+            "Я не знаю, согласятся ли они."
+          ],
+          "hint": "Indirect question with ли after the verb",
+          "grammarFocus": "Ли in indirect questions",
+          "keyWord": "ли",
+          "options": [
+            "ли",
+            "бы",
+            "же",
+            "ведь"
+          ]
+        },
+        {
+          "english": "I would go, but I'm busy.",
+          "answer": "Я бы пошёл, но я занят.",
+          "acceptableVariants": [
+            "Я бы пошла, но я занята.",
+            "Я бы пошёл, но я сейчас занят."
+          ],
+          "hint": "Hypothetical = бы + past",
+          "grammarFocus": "Бы conditional",
+          "keyWord": "бы",
+          "options": [
+            "бы",
+            "же",
+            "ли",
+            "ведь"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-context-quiz",
+      "title": "Context Reading",
+      "titleRussian": "Чтение контекста",
+      "description": "Choose the right particle based on the speaker's intent",
+      "descriptionRussian": "Выберите частицу по намерению говорящего",
+      "icon": "text.bubble",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Speaker is wondering to themselves: \"Интересно, получится _____ у меня...\"",
+              "promptEnglish": "I wonder whether I'll succeed...",
+              "options": [
+                "же",
+                "бы",
+                "ли",
+                "ведь"
+              ],
+              "answer": "ли",
+              "hint": "Internal wondering = indirect question with ли.",
+              "explanation": "Ли in an indirect question: 'whether I'll succeed.'"
+            },
+            {
+              "prompt": "Speaker is shocked at good news: \"_____ ты серьёзно?! Поздравляю!\"",
+              "promptEnglish": "Are you serious?! Congratulations!",
+              "options": [
+                "Разве",
+                "Неужели",
+                "Ведь",
+                "Ли"
+              ],
+              "answer": "Неужели",
+              "hint": "Amazed at something wonderful and surprising.",
+              "explanation": "Неужели = amazed wonder: 'Can this really be true?!' Positive surprise."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Speaker knows the listener understands: \"_____ ты сам всё понимаешь.\"",
+              "promptEnglish": "After all, you understand everything yourself.",
+              "options": [
+                "Же",
+                "Ведь",
+                "Разве",
+                "Бы"
+              ],
+              "answer": "Ведь",
+              "hint": "Appealing to what the listener already knows = ведь.",
+              "explanation": "Ведь = 'after all, you already understand.' Appealing to shared understanding."
+            },
+            {
+              "prompt": "Speaker would change careers if possible: \"Я _____ стал музыкантом, если бы мог.\"",
+              "promptEnglish": "I would become a musician if I could.",
+              "options": [
+                "же",
+                "ведь",
+                "ли",
+                "бы"
+              ],
+              "answer": "бы",
+              "hint": "Hypothetical wish = бы.",
+              "explanation": "Бы + past = conditional: 'I would become...' Hypothetical, not real."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "Ты же обещал! / Мы же договорились! / Я же сказал!",
+          "question": "What function does же serve in all three?",
+          "options": [
+            "Creating a hypothetical",
+            "Forming a question",
+            "Emphatic reminder of a known fact",
+            "Expressing surprise"
+          ],
+          "answer": "Emphatic reminder of a known fact",
+          "explanation": "Же after the subject emphasizes: 'You DID promise / We DID agree / I DID say.' Reminding the listener."
+        },
+        {
+          "sentence": "Не знаю, придёт ли он. / Интересно, успеем ли мы. / Сомневаюсь, сможет ли она.",
+          "question": "What structure unifies these sentences?",
+          "options": [
+            "Emphatic statements",
+            "Conditional sentences",
+            "Indirect questions with ли",
+            "Surprise expressions"
+          ],
+          "answer": "Indirect questions with ли",
+          "explanation": "All use verb + ли to create indirect questions: 'whether he'll come / we'll make it / she can.'"
+        },
+        {
+          "sentence": "Ведь это правда. / Ведь ты знаешь. / Ведь мы друзья.",
+          "question": "What does ведь do in all three?",
+          "options": [
+            "Expresses surprise",
+            "Appeals to shared knowledge",
+            "Creates a question",
+            "Adds doubt"
+          ],
+          "answer": "Appeals to shared knowledge",
+          "explanation": "Ведь in all three says: 'after all, you know this.' Appealing to what both speakers know."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Я _____ тебе помог, если бы ты попросил. (I would have helped...)",
+          "_____ она ещё не ушла? Встреча давно кончилась. (She hasn't left yet?!)",
+          "Мы _____ говорили об этом! Ты забыл? (We DID talk about this!)"
+        ],
+        "choices": [
+          "бы",
+          "Разве",
+          "же"
+        ],
+        "answers": [
+          "бы",
+          "Разве",
+          "же"
+        ],
+        "grammarFocus": "Бы (conditional), разве (disbelief), же (emphasis)",
+        "hints": [
+          "Hypothetical past = which particle?",
+          "Surprised that the expected thing didn't happen.",
+          "Emphatic reminder of past discussion."
+        ],
+        "explanations": [
+          "Бы + past = conditional: 'I would have helped.'",
+          "Разве = disbelief that she's still there when the meeting ended long ago.",
+          "Же = emphatic: 'We DID talk about this!' Reminding the listener."
+        ],
+        "options": [
+          [
+            "ведь",
+            "же",
+            "ли",
+            "бы"
+          ],
+          [
+            "Неужели",
+            "Же",
+            "Ведь",
+            "Разве"
+          ],
+          [
+            "же",
+            "ли",
+            "ведь",
+            "бы"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All six particles in varied exercise formats",
+      "descriptionRussian": "Все шесть частиц в разных форматах",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Мне _____ с ней поговорить. (I should talk to her - soft suggestion)",
+              "promptEnglish": "I should probably talk to her.",
+              "options": [
+                "же",
+                "ведь",
+                "бы",
+                "ли"
+              ],
+              "answer": "бы",
+              "hint": "Soft suggestion/should = бы (without если).",
+              "explanation": "Мне бы поговорить = 'I should talk to her.' Бы softens the statement into a suggestion."
+            },
+            {
+              "prompt": "_____ ты сдал экзамен?! Молодец! (Did you really pass?! amazed)",
+              "promptEnglish": "You really passed the exam?! Well done!",
+              "options": [
+                "Разве",
+                "Неужели",
+                "Ведь",
+                "Же"
+              ],
+              "answer": "Неужели",
+              "hint": "Amazed at good news.",
+              "explanation": "Неужели = amazed wonder at positive news: 'Can it really be that you passed?!'"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Он _____ рассказал нам всю правду. (He DID tell us the whole truth.)",
+              "promptEnglish": "He DID tell us the whole truth. (emphatic)",
+              "options": [
+                "бы",
+                "ли",
+                "ведь",
+                "же"
+              ],
+              "answer": "же",
+              "hint": "Emphatic reminder = же.",
+              "explanation": "Же emphasizes: 'He DID tell us.' Stating a known fact emphatically."
+            },
+            {
+              "prompt": "Скажи, нравится _____ тебе здесь?",
+              "promptEnglish": "Tell me, do you like it here? (whether you like it)",
+              "options": [
+                "же",
+                "бы",
+                "ведь",
+                "ли"
+              ],
+              "answer": "ли",
+              "hint": "Indirect/polite question = ли.",
+              "explanation": "Ли creates a softened question: 'Tell me whether you like it here.'"
+            },
+            {
+              "prompt": "_____ мы все взрослые люди. Давайте решим это спокойно.",
+              "promptEnglish": "After all, we're all adults. Let's resolve this calmly.",
+              "options": [
+                "Же",
+                "Ведь",
+                "Разве",
+                "Бы"
+              ],
+              "answer": "Ведь",
+              "hint": "Appealing to a fact everyone knows = ведь.",
+              "explanation": "Ведь = 'after all, we all know we're adults.' Appealing to shared understanding."
+            }
+          ]
+        }
+      ],
+      "errorCorrection": [
+        {
+          "sentence": "Не знаю, ли он придёт.",
+          "error": "ли",
+          "correction": "придёт ли",
+          "hint": "Ли goes after the verb, not before the subject.",
+          "explanation": "Correct: придёт ли он. Ли follows the word in question.",
+          "options": [
+            "придёт ли",
+            "ли придёт",
+            "придёт же",
+            "придёт бы"
+          ]
+        },
+        {
+          "sentence": "Неужели вы не знаете? Все уже знают! (meant: disbelief they don't know)",
+          "error": "Неужели",
+          "correction": "Разве",
+          "hint": "Disbelief that someone doesn't know = разве, not неужели.",
+          "explanation": "Разве вы не знаете? = 'Don't you know?!' Disbelief at a negative. Неужели = amazement at a positive.",
+          "options": [
+            "Разве",
+            "Ведь",
+            "Же"
+          ]
+        },
+        {
+          "sentence": "Бы ты мне сказал! (meant: You DID tell me!)",
+          "error": "Бы",
+          "correction": "Же",
+          "hint": "Emphatic fact = же. Бы = hypothetical.",
+          "explanation": "Же ты мне сказал! Wait - actually: Ты же мне сказал! Же for emphatic reminder.",
+          "options": [
+            "Же",
+            "Ведь",
+            "Ли"
+          ]
+        }
+      ]
+    }
+  ]
+}

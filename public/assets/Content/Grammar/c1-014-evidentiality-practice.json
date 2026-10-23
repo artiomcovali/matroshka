@@ -1,0 +1,87 @@
+{
+  "lessonId": "c1-014-evidentiality",
+  "sets": [
+    {
+      "id": "set-2-transform-translate",
+      "title": "Transform & Translate",
+      "titleRussian": "Трансформация и перевод",
+      "description": "Transform direct statements into evidential ones, then translate evidential constructions",
+      "descriptionRussian": "Преобразуйте утверждения в косвенные и переведите эвиденциальные конструкции",
+      "icon": "arrow.triangle.2.circlepath",
+      "translation": [
+        {
+          "english": "They say the new park is beautiful.",
+          "answer": "Говорят, что новый парк красивый.",
+          "acceptableVariants": ["Говорят, новый парк красивый."],
+          "hint": "Use говорят for unattributed hearsay.",
+          "grammarFocus": "Hearsay (говорят)",
+          "keyWord": "Говорят",
+          "options": ["Говорят", "Думают", "Знают", "Видят"]
+        },
+        {
+          "english": "She must have already left.",
+          "answer": "Должно быть, она уже ушла.",
+          "acceptableVariants": ["Должно быть, она уже уехала."],
+          "hint": "Use должно быть for a confident inference.",
+          "grammarFocus": "Inference (должно быть)",
+          "keyWord": "Должно",
+          "options": ["Должно", "Может", "Надо", "Хочет"]
+        },
+        {
+          "english": "According to the neighbors, a new family moved in.",
+          "answer": "По словам соседей, въехала новая семья.",
+          "acceptableVariants": ["По словам соседей, новая семья въехала."],
+          "hint": "По словам + genitive for attributed hearsay.",
+          "grammarFocus": "Attributed hearsay (по словам)",
+          "keyWord": "соседей",
+          "options": ["соседей", "друзей", "знакомых", "родных"]
+        },
+        {
+          "english": "It seems the store is already closed.",
+          "answer": "Похоже, магазин уже закрыт.",
+          "acceptableVariants": ["Похоже, что магазин уже закрыт."],
+          "hint": "Похоже marks a tentative inference.",
+          "grammarFocus": "Inference (похоже)",
+          "keyWord": "Похоже",
+          "options": ["Похоже", "Точно", "Ясно", "Верно"]
+        }
+      ],
+      "questions": [
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Якобы компания обанкротилась.\nWhat nuance does якобы add?",
+              "promptEnglish": "Allegedly the company went bankrupt.",
+              "options": [
+                "Skepticism toward the reported claim",
+                "Full confidence in the information",
+                "The speaker's own logical deduction",
+                "An eyewitness account"
+              ],
+              "answer": "Skepticism toward the reported claim",
+              "hint": "Якобы signals that the speaker doubts or distances themselves from the claim.",
+              "explanation": "Якобы (allegedly, supposedly) is hearsay with a skeptical tone. The speaker is reporting a claim they may not believe."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Choose the sentence where the speaker is SKEPTICAL about the claim:",
+          "contextEnglish": "He supposedly passed the exam.",
+          "options": ["По словам учителя, он сдал экзамен.", "Якобы он сдал экзамен."],
+          "answer": "Якобы он сдал экзамен.",
+          "explanation": "Якобы adds a skeptical tone: the speaker doubts the claim. По словам учителя is neutral attributed hearsay."
+        },
+        {
+          "context": "Choose the sentence with an ATTRIBUTED hearsay source:",
+          "contextEnglish": "According to the newspaper, prices will rise.",
+          "options": ["Говорят, цены вырастут.", "По данным газеты, цены вырастут."],
+          "answer": "По данным газеты, цены вырастут.",
+          "explanation": "По данным газеты names a specific source (attributed hearsay). Говорят is unattributed hearsay from unnamed people."
+        }
+      ]
+    }
+  ]
+}

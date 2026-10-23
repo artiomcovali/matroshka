@@ -1,0 +1,692 @@
+{
+  "lessonId": "b1-033-aspect-pairs-systematic",
+  "sets": [
+    {
+      "id": "round-1-identify-pattern",
+      "title": "Identify the Pattern",
+      "titleRussian": "Определите тип пары",
+      "description": "Identify whether aspect pairs use prefixation, suffixation, or suppletion",
+      "descriptionRussian": "Определите, какой тип видовой пары: приставка, суффикс или супплетивизм",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "готовить → приготовить. What pattern?",
+              "promptEnglish": "How is the perfective formed?",
+              "options": [
+                "Suffixation",
+                "Suppletion",
+                "Prefixation",
+                "Stress shift"
+              ],
+              "answer": "Prefixation",
+              "hint": "при- added to impf: prefixation.",
+              "explanation": "Prefixation: готовить + при- = приготовить. The prefix при- makes it perfective without changing the core meaning."
+            },
+            {
+              "prompt": "записать → записывать. What pattern?",
+              "promptEnglish": "How is the imperfective formed?",
+              "options": [
+                "Prefixation",
+                "Suppletion",
+                "Suffixation",
+                "Stress shift"
+              ],
+              "answer": "Suffixation",
+              "hint": "The suffix -ыва- creates the imperfective secondary.",
+              "explanation": "Suffixation: записать → записывать. The suffix -ыва- creates the imperfective pair."
+            },
+            {
+              "prompt": "класть → положить. What pattern?",
+              "promptEnglish": "How are these two related?",
+              "options": [
+                "Prefixation",
+                "Suffixation",
+                "Stress shift",
+                "Suppletion"
+              ],
+              "answer": "Suppletion",
+              "hint": "Completely different stems: class-/polozh-.",
+              "explanation": "Suppletion: класть and положить have entirely different stems. Must be memorized."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "ловить → поймать. What pattern?",
+              "promptEnglish": "How are these related?",
+              "options": [
+                "Prefixation",
+                "Suppletion",
+                "Suffixation",
+                "Regular formation"
+              ],
+              "answer": "Suppletion",
+              "hint": "Completely different stems: лов-/пойм-.",
+              "explanation": "Suppletion: ловить/поймать have no morphological relationship. Memorize the pair."
+            },
+            {
+              "prompt": "решить → решать. What pattern?",
+              "promptEnglish": "How is the imperfective formed?",
+              "options": [
+                "Prefixation",
+                "Stress shift",
+                "Suffixation",
+                "Suppletion"
+              ],
+              "answer": "Suffixation",
+              "hint": "Suffix change: -ить → -ать.",
+              "explanation": "Suffixation: решить → решать. The imperfective is formed by changing the suffix."
+            },
+            {
+              "prompt": "строить → построить. What pattern?",
+              "promptEnglish": "How is the perfective formed?",
+              "options": [
+                "Suffixation",
+                "Suppletion",
+                "Prefixation",
+                "Stress shift"
+              ],
+              "answer": "Prefixation",
+              "hint": "по- added to impf: prefixation.",
+              "explanation": "Prefixation: строить + по- = построить. Pure perfectivizer."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort these aspect pairs by formation pattern",
+        "categories": [
+          "Prefixation",
+          "Suffixation",
+          "Suppletion"
+        ],
+        "items": [
+          {
+            "word": "читать / прочитать",
+            "category": "Prefixation"
+          },
+          {
+            "word": "открыть / открывать",
+            "category": "Suffixation"
+          },
+          {
+            "word": "говорить / сказать",
+            "category": "Suppletion"
+          },
+          {
+            "word": "готовить / приготовить",
+            "category": "Prefixation"
+          },
+          {
+            "word": "брать / взять",
+            "category": "Suppletion"
+          },
+          {
+            "word": "изучить / изучать",
+            "category": "Suffixation"
+          },
+          {
+            "word": "строить / построить",
+            "category": "Prefixation"
+          },
+          {
+            "word": "записать / записывать",
+            "category": "Suffixation"
+          },
+          {
+            "word": "ловить / поймать",
+            "category": "Suppletion"
+          }
+        ]
+      }
+    },
+    {
+      "id": "round-2-find-partner",
+      "title": "Find the Partner",
+      "titleRussian": "Найдите пару",
+      "description": "Choose the correct aspect partner for each verb",
+      "descriptionRussian": "Выберите правильную видовую пару",
+      "icon": "arrow.left.arrow.right",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "учить (impf) → _____ (pf) [to learn]",
+              "promptEnglish": "to learn (impf) → to learn (pf)",
+              "options": [
+                "научить",
+                "выучить",
+                "изучить",
+                "обучить"
+              ],
+              "answer": "выучить",
+              "hint": "выучить = to learn completely (pure pf of учить).",
+              "explanation": "Учить → выучить (to learn/memorize completely). The prefix вы- serves as pure perfectivizer here."
+            },
+            {
+              "prompt": "садиться (impf) → _____ (pf) [to sit down]",
+              "promptEnglish": "to sit down (impf) → to sit down (pf)",
+              "options": [
+                "сидеть",
+                "посидеть",
+                "сесть",
+                "усесться"
+              ],
+              "answer": "сесть",
+              "hint": "Suppletive pair: садиться/сесть.",
+              "explanation": "Suppletion: садиться/сесть (different stems). Memorize this pair."
+            },
+            {
+              "prompt": "объяснить (pf) → _____ (impf) [to explain]",
+              "promptEnglish": "to explain (pf) → to explain (impf)",
+              "options": [
+                "объясниться",
+                "объяснять",
+                "пояснить",
+                "выяснять"
+              ],
+              "answer": "объяснять",
+              "hint": "Suffixation: -ить → -ять.",
+              "explanation": "Suffixation: объяснить → объяснять (-ить → -ять)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "ложиться (impf) → _____ (pf) [to lie down]",
+              "promptEnglish": "to lie down (impf) → to lie down (pf)",
+              "options": [
+                "лежать",
+                "полежать",
+                "лечь",
+                "прилечь"
+              ],
+              "answer": "лечь",
+              "hint": "Suppletive: ложиться/лечь.",
+              "explanation": "Suppletion: ложиться/лечь. Different stems, must be memorized."
+            },
+            {
+              "prompt": "рисовать (impf) → _____ (pf) [to draw]",
+              "promptEnglish": "to draw (impf) → to draw (pf)",
+              "options": [
+                "перерисовать",
+                "дорисовать",
+                "зарисовать",
+                "нарисовать"
+              ],
+              "answer": "нарисовать",
+              "hint": "Prefixation: на- is the pure perfectivizer.",
+              "explanation": "Prefixation: рисовать → нарисовать. The prefix на- makes it perfective without adding new meaning."
+            },
+            {
+              "prompt": "получить (pf) → _____ (impf) [to receive]",
+              "promptEnglish": "to receive (pf) → to receive (impf)",
+              "options": [
+                "получиться",
+                "получать",
+                "выполучить",
+                "приполучить"
+              ],
+              "answer": "получать",
+              "hint": "Suffixation: -ить → -ать.",
+              "explanation": "Suffixation: получить → получать (-ить → -ать)."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "покупать (impf) → _____ (pf) [to buy]",
+          "давать (impf) → _____ (pf) [to give]",
+          "петь (impf) → _____ (pf) [to sing]",
+          "создать (pf) → _____ (impf) [to create]"
+        ],
+        "choices": [
+          "купить",
+          "дать",
+          "спеть",
+          "создавать",
+          "покупить",
+          "дарить"
+        ],
+        "answers": [
+          "купить",
+          "дать",
+          "спеть",
+          "создавать"
+        ],
+        "grammarFocus": "Aspect pair formation across all three patterns",
+        "hints": [
+          "Покупать/купить is a suffixation pair (different stems but related).",
+          "Давать/дать is a suffixation pair with -ва- suffix.",
+          "Петь/спеть is prefixation: с- added as pure perfectivizer.",
+          "Создать/создавать: the -ва- suffix creates the imperfective."
+        ],
+        "explanations": [
+          "Покупать → купить. The imperfective покупать is formed from купить with the -ыва-/-ова- pattern.",
+          "Давать → дать. Suffixation with -ва-: дать → давать.",
+          "Петь → спеть. Prefixation: с- + петь = спеть (pure perfectivizer).",
+          "Создать → создавать. The suffix -ва- creates the imperfective: создать → создавать."
+        ],
+        "options": [
+          [
+            "покупать",
+            "купить"
+          ],
+          [
+            "давать",
+            "дать"
+          ],
+          [
+            "спеть",
+            "петь"
+          ],
+          [
+            "создавать",
+            "создать"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "round-3-context-choice",
+      "title": "Choose in Context",
+      "titleRussian": "Выбор в контексте",
+      "description": "Select the correct aspect in sentence context",
+      "descriptionRussian": "Выберите правильный вид в контексте предложения",
+      "icon": "text.bubble",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Вчера я _____ эту книгу за три часа. (I read this book in three hours.)",
+              "promptEnglish": "Completed action with a time limit.",
+              "options": [
+                "читал",
+                "прочитал",
+                "прочитывал",
+                "перечитал"
+              ],
+              "answer": "прочитал",
+              "hint": "Completed in a specific time = perfective.",
+              "explanation": "Perfective: прочитал (completed reading within three hours)."
+            },
+            {
+              "prompt": "Каждое утро она _____ кофе. (Every morning she makes coffee.)",
+              "promptEnglish": "Repeated habitual action.",
+              "options": [
+                "приготовит",
+                "приготовила",
+                "готовит",
+                "сготовила"
+              ],
+              "answer": "готовит",
+              "hint": "Habitual (every morning) = imperfective.",
+              "explanation": "Imperfective: готовит (habitual, repeated action every morning)."
+            },
+            {
+              "prompt": "Он уже _____ письмо и отправил его. (He already wrote the letter and sent it.)",
+              "promptEnglish": "Completed action followed by another.",
+              "options": [
+                "писал",
+                "написал",
+                "записывал",
+                "подписал"
+              ],
+              "answer": "написал",
+              "hint": "Completed writing (then sent) = perfective.",
+              "explanation": "Perfective: написал (completed writing, then the next action)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Я долго _____ этот текст, но так и не понял. (I read this text for a long time but didn't understand.)",
+              "promptEnglish": "Long process without completion.",
+              "options": [
+                "прочитал",
+                "прочитывал",
+                "читал",
+                "перечитал"
+              ],
+              "answer": "читал",
+              "hint": "Long process, no result = imperfective.",
+              "explanation": "Imperfective: читал (long process, focus on duration, not result)."
+            },
+            {
+              "prompt": "Она _____ ключи и вышла из дома. (She took the keys and left.)",
+              "promptEnglish": "Quick completed action in sequence.",
+              "options": [
+                "брала",
+                "забирала",
+                "взяла",
+                "забрала"
+              ],
+              "answer": "взяла",
+              "hint": "Quick completed action = perfective. Suppletive pair: брать/взять.",
+              "explanation": "Perfective: взяла (completed, in sequence with вышла). Suppletive pair: брать/взять."
+            },
+            {
+              "prompt": "Мы _____ друг другу каждый день. (We call each other every day.)",
+              "promptEnglish": "Habitual repeated action.",
+              "options": [
+                "позвонили",
+                "звоним",
+                "позвоним",
+                "зазвонили"
+              ],
+              "answer": "звоним",
+              "hint": "Every day = habitual = imperfective.",
+              "explanation": "Imperfective: звоним (habitual action, every day)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Он _____ это письмо весь вечер. (process, no emphasis on completion)",
+          "contextEnglish": "He wrote this letter all evening (process).",
+          "options": [
+            "писал",
+            "написал"
+          ],
+          "answer": "писал",
+          "explanation": "Imperfective: писал. Focus on the process/duration (all evening)."
+        },
+        {
+          "context": "Он _____ это письмо и отправил его. (completed, then next action)",
+          "contextEnglish": "He wrote this letter and sent it (completed, then next).",
+          "options": [
+            "написал",
+            "писал"
+          ],
+          "answer": "написал",
+          "explanation": "Perfective: написал. Completed action, followed by the next action."
+        }
+      ]
+    },
+    {
+      "id": "round-4-suppletive-drill",
+      "title": "Suppletive Pairs Drill",
+      "titleRussian": "Тренировка супплетивных пар",
+      "description": "Master the irregular suppletive aspect pairs",
+      "descriptionRussian": "Запомните нерегулярные супплетивные видовые пары",
+      "icon": "brain",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "The imperfective partner of сказать is:",
+              "promptEnglish": "говорить or сказывать?",
+              "options": [
+                "сказывать",
+                "рассказать",
+                "говорить",
+                "высказать"
+              ],
+              "answer": "говорить",
+              "hint": "Suppletive: говорить/сказать.",
+              "explanation": "Говорить/сказать: suppletive pair. Different stems entirely."
+            },
+            {
+              "prompt": "The perfective partner of брать is:",
+              "promptEnglish": "What is the pf of 'to take'?",
+              "options": [
+                "забрать",
+                "набрать",
+                "взять",
+                "выбрать"
+              ],
+              "answer": "взять",
+              "hint": "Suppletive: брать/взять.",
+              "explanation": "Брать/взять: suppletive pair. The other options have added meanings."
+            },
+            {
+              "prompt": "The perfective partner of класть is:",
+              "promptEnglish": "What is the pf of 'to put'?",
+              "options": [
+                "накласть",
+                "сложить",
+                "выложить",
+                "положить"
+              ],
+              "answer": "положить",
+              "hint": "Suppletive: класть/положить.",
+              "explanation": "Класть/положить: suppletive. Note: 'ложить' without prefix is incorrect."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "The perfective partner of ловить is:",
+              "promptEnglish": "What is the pf of 'to catch'?",
+              "options": [
+                "наловить",
+                "выловить",
+                "поймать",
+                "уловить"
+              ],
+              "answer": "поймать",
+              "hint": "Suppletive: ловить/поймать.",
+              "explanation": "Ловить/поймать: suppletive. Наловить = catch a lot, выловить = fish out."
+            },
+            {
+              "prompt": "Она _____ и упала. (She sat down and fell.)",
+              "promptEnglish": "She sat down (completed) and fell.",
+              "options": [
+                "садилась",
+                "сидела",
+                "села",
+                "сажала"
+              ],
+              "answer": "села",
+              "hint": "Suppletive pf of садиться: сесть → села.",
+              "explanation": "Perfective: села (from сесть, suppletive pair with садиться)."
+            },
+            {
+              "prompt": "Он устал и _____ на кровать. (He was tired and lay down on the bed.)",
+              "promptEnglish": "He was tired and lay down.",
+              "options": [
+                "ложился",
+                "лежал",
+                "лёг",
+                "ложил"
+              ],
+              "answer": "лёг",
+              "hint": "Suppletive pf of ложиться: лечь → лёг.",
+              "explanation": "Perfective: лёг (from лечь, suppletive pair with ложиться)."
+            }
+          ]
+        }
+      ],
+      "translation": [
+        {
+          "english": "She took her bag and left.",
+          "answer": "Она взяла сумку и ушла.",
+          "acceptableVariants": [
+            "Она взяла свою сумку и ушла."
+          ],
+          "hint": "Took = взяла (pf of брать, suppletive)",
+          "grammarFocus": "Suppletive pair: брать/взять in context",
+          "keyWord": "взяла",
+          "options": [
+            "взяла",
+            "брала",
+            "возьмёт",
+            "взял"
+          ]
+        },
+        {
+          "english": "Put the book on the table.",
+          "answer": "Положи книгу на стол.",
+          "acceptableVariants": [
+            "Положите книгу на стол."
+          ],
+          "hint": "Put (imperative pf) = положи (pf of класть, suppletive)",
+          "grammarFocus": "Suppletive pair: класть/положить",
+          "keyWord": "Положи",
+          "options": [
+            "Положи",
+            "Клади",
+            "Положу",
+            "Положил"
+          ]
+        },
+        {
+          "english": "Tell me about your trip.",
+          "answer": "Расскажи мне о своей поездке.",
+          "acceptableVariants": [
+            "Расскажите мне о вашей поездке."
+          ],
+          "hint": "Tell (pf imperative of рассказывать) = расскажи",
+          "grammarFocus": "Prefixed suppletive: рассказывать/рассказать",
+          "keyWord": "Расскажи",
+          "options": [
+            "Расскажи",
+            "Рассказывай",
+            "Расскажу",
+            "Рассказал"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed-challenge",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанные задания",
+      "description": "Comprehensive drill on all aspect pair formation patterns",
+      "descriptionRussian": "Комплексная тренировка всех типов видовых пар",
+      "icon": "star",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Вчера я _____ эту задачу. (Yesterday I solved this problem.)",
+              "promptEnglish": "Completed action = perfective.",
+              "options": [
+                "решал",
+                "решил",
+                "решаю",
+                "разрешил"
+              ],
+              "answer": "решил",
+              "hint": "Completed action yesterday = perfective: решить → решил.",
+              "explanation": "Perfective: решил (completed solving). Suffixation pair: решить/решать."
+            },
+            {
+              "prompt": "Which pair does NOT use prefixation?",
+              "promptEnglish": "Which pair forms differently?",
+              "options": [
+                "писать/написать",
+                "строить/построить",
+                "говорить/сказать",
+                "читать/прочитать"
+              ],
+              "answer": "говорить/сказать",
+              "hint": "Говорить/сказать have completely different stems.",
+              "explanation": "Говорить/сказать is suppletive (different stems), not prefixation."
+            },
+            {
+              "prompt": "отвечать (impf) → _____ (pf)",
+              "promptEnglish": "to answer (impf) → to answer (pf)",
+              "options": [
+                "ответить",
+                "отвечивать",
+                "заответить",
+                "переответить"
+              ],
+              "answer": "ответить",
+              "hint": "Suffixation: отвечать/ответить (-ать → -ить).",
+              "explanation": "Suffixation pair: отвечать (impf) / ответить (pf). Suffix change -ать → -ить."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "показать (pf) → _____ (impf)",
+              "promptEnglish": "to show (pf) → to show (impf)",
+              "options": [
+                "показить",
+                "показывать",
+                "заказывать",
+                "подсказывать"
+              ],
+              "answer": "показывать",
+              "hint": "Suffixation: -ыва- makes imperfective.",
+              "explanation": "Suffixation: показать → показывать. The -ыва- suffix creates the imperfective."
+            },
+            {
+              "prompt": "Она каждый день _____ ужин. (She cooks dinner every day.)",
+              "promptEnglish": "Habitual repeated action.",
+              "options": [
+                "приготовила",
+                "приготовит",
+                "готовит",
+                "сготовила"
+              ],
+              "answer": "готовит",
+              "hint": "Habitual (every day) = imperfective.",
+              "explanation": "Imperfective: готовит. Habitual action. Pair: готовить/приготовить (prefixation)."
+            },
+            {
+              "prompt": "Мальчик _____ мяч и побежал. (The boy caught the ball and ran.)",
+              "promptEnglish": "Completed action in sequence.",
+              "options": [
+                "ловил",
+                "поймал",
+                "ловивший",
+                "выловил"
+              ],
+              "answer": "поймал",
+              "hint": "Completed catch (then ran) = perfective. Suppletive: ловить/поймать.",
+              "explanation": "Perfective: поймал (completed catching, then ran). Suppletive pair: ловить/поймать."
+            }
+          ]
+        }
+      ],
+      "patternRecognition": [
+        {
+          "sentence": "писать/написать, делать/сделать, строить/построить, готовить/приготовить",
+          "question": "What formation pattern do all these pairs share?",
+          "options": [
+            "Suffixation",
+            "Suppletion",
+            "Prefixation",
+            "Stress shift"
+          ],
+          "answer": "Prefixation",
+          "explanation": "All use prefixation: a prefix (на-, с-, по-, при-) is added to the imperfective to form the perfective."
+        },
+        {
+          "sentence": "открыть/открывать, записать/записывать, рассказать/рассказывать",
+          "question": "What formation pattern do these pairs share?",
+          "options": [
+            "Prefixation",
+            "Suppletion",
+            "Stress shift",
+            "Suffixation"
+          ],
+          "answer": "Suffixation",
+          "explanation": "All use suffixation: the -ыва-/-ива- suffix creates the imperfective from the perfective."
+        }
+      ]
+    }
+  ]
+}

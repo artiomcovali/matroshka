@@ -1,0 +1,882 @@
+{
+  "lessonId": "a2-035-spelling-rules",
+  "sets": [
+    {
+      "id": "a2-035-spelling-rules-set1",
+      "title": "The 7-Letter Rule (ы → и)",
+      "titleRussian": "Правило семи букв (ы → и)",
+      "description": "After г, к, х, ж, ч, ш, щ: write и not ы",
+      "descriptionRussian": "После г, к, х, ж, ч, ш, щ: пишите и, а не ы",
+      "icon": "textformat.abc",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Plural of подруга (female friend): подруг_",
+              "promptEnglish": "What is the plural of подруга?",
+              "options": [
+                "и",
+                "ы"
+              ],
+              "answer": "и",
+              "hint": "After г: ы → и",
+              "explanation": "7-letter rule: подруги (after г, write и not ы)."
+            },
+            {
+              "prompt": "Plural of кошка (cat): кошк_",
+              "promptEnglish": "What is the plural of кошка?",
+              "options": [
+                "ы",
+                "и"
+              ],
+              "answer": "и",
+              "hint": "After к: ы → и",
+              "explanation": "7-letter rule: кошки (after к, write и not ы)."
+            },
+            {
+              "prompt": "Plural of старуха (old woman): старух_",
+              "promptEnglish": "What is the plural of старуха?",
+              "options": [
+                "и",
+                "ы"
+              ],
+              "answer": "и",
+              "hint": "After х: ы → и",
+              "explanation": "7-letter rule: старухи (after х, write и not ы)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Adjective тихий in plural: тих__",
+              "promptEnglish": "What is the plural of тихий?",
+              "options": [
+                "ие",
+                "ые"
+              ],
+              "answer": "ие",
+              "hint": "After х: ы → и, so -ые becomes -ие",
+              "explanation": "7-letter rule: тихие (after х, the ending is -ие not -ые)."
+            },
+            {
+              "prompt": "Adjective русский in plural: русск__",
+              "promptEnglish": "What is the plural of русский?",
+              "options": [
+                "ые",
+                "ие"
+              ],
+              "answer": "ие",
+              "hint": "After к: ы → и, so -ые becomes -ие",
+              "explanation": "7-letter rule: русские (after к, the ending is -ие not -ые)."
+            },
+            {
+              "prompt": "Plural of лужа (puddle): луж_",
+              "promptEnglish": "What is the plural of лужа?",
+              "options": [
+                "и",
+                "ы"
+              ],
+              "answer": "и",
+              "hint": "After ж: ы → и",
+              "explanation": "7-letter rule: лужи (after ж, write и not ы)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Plural of мама: мам_",
+          "contextEnglish": "мама has no spelling rule letter before ending",
+          "options": [
+            "ы",
+            "и"
+          ],
+          "answer": "ы",
+          "explanation": "No spelling rule: м is not in the 7-letter set. Мамы."
+        },
+        {
+          "context": "Plural of книга: книг_",
+          "contextEnglish": "книга has г before the ending",
+          "options": [
+            "и",
+            "ы"
+          ],
+          "answer": "и",
+          "explanation": "7-letter rule: г is in the set, so write и. Книги."
+        },
+        {
+          "context": "Plural of собака: собак_",
+          "contextEnglish": "собака has к before the ending",
+          "options": [
+            "и",
+            "ы"
+          ],
+          "answer": "и",
+          "explanation": "7-letter rule: к is in the set, so write и. Собаки."
+        },
+        {
+          "context": "Plural of сестра: сестр_",
+          "contextEnglish": "сестра has р before the ending",
+          "options": [
+            "ы",
+            "и"
+          ],
+          "answer": "ы",
+          "explanation": "No spelling rule: р is not in the 7-letter set. Сёстры."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Plural of девушка: девушк_ (girls)",
+          "Plural of ложка: ложк_ (spoons)",
+          "Plural of каша: каш_ (porridges)",
+          "Plural of газета: газет_ (newspapers)",
+          "Plural of рубашка: рубашк_ (shirts)"
+        ],
+        "choices": [
+          "и",
+          "ы"
+        ],
+        "answers": [
+          "и",
+          "и",
+          "и",
+          "ы",
+          "и"
+        ],
+        "grammarFocus": "7-letter rule: after г, к, х, ж, ч, ш, щ write и not ы",
+        "hints": [
+          "After к: ы → и",
+          "After к: ы → и",
+          "After ш: ы → и",
+          "After т: no spelling rule applies",
+          "After к: ы → и"
+        ],
+        "explanations": [
+          "Девушки: after к, write и (7-letter rule).",
+          "Ложки: after к, write и (7-letter rule).",
+          "Каши: after ш, write и (7-letter rule).",
+          "Газеты: т is not in the 7-letter set, so ы is correct.",
+          "Рубашки: after к, write и (7-letter rule)."
+        ],
+        "options": [
+          [
+            "и",
+            "ы"
+          ],
+          [
+            "ы",
+            "и"
+          ],
+          [
+            "ы",
+            "и"
+          ],
+          [
+            "и",
+            "ы"
+          ],
+          [
+            "ы",
+            "и"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a2-035-spelling-rules-set2",
+      "title": "The 8-Letter Rule (ю → у, я → а)",
+      "titleRussian": "Правило восьми букв (ю → у, я → а)",
+      "description": "After г, к, х, ж, ч, ш, щ, ц: write у/а not ю/я",
+      "descriptionRussian": "После г, к, х, ж, ч, ш, щ, ц: пишите у/а, а не ю/я",
+      "icon": "abc",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Я form of лежать: я леж_",
+              "promptEnglish": "After ж: ю → у",
+              "options": [
+                "у",
+                "ю"
+              ],
+              "answer": "у",
+              "hint": "After ж: never write ю",
+              "explanation": "8-letter rule: лежу (after ж, write у not ю)."
+            },
+            {
+              "prompt": "Они form of кричать: они крич__",
+              "promptEnglish": "After ч: я → а",
+              "options": [
+                "ат",
+                "ят"
+              ],
+              "answer": "ат",
+              "hint": "After ч: never write я",
+              "explanation": "8-letter rule: кричат (after ч, write а not я)."
+            },
+            {
+              "prompt": "Я form of учить: я уч_",
+              "promptEnglish": "After ч: ю → у",
+              "options": [
+                "у",
+                "ю"
+              ],
+              "answer": "у",
+              "hint": "After ч: never write ю",
+              "explanation": "8-letter rule: учу (after ч, write у not ю)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Они form of молчать: они молч__",
+              "promptEnglish": "After ч: я → а",
+              "options": [
+                "ат",
+                "ят"
+              ],
+              "answer": "ат",
+              "hint": "After ч: never write я",
+              "explanation": "8-letter rule: молчат (after ч, write а not я)."
+            },
+            {
+              "prompt": "Я form of слышать: я слыш_",
+              "promptEnglish": "After ш: ю → у",
+              "options": [
+                "у",
+                "ю"
+              ],
+              "answer": "у",
+              "hint": "After ш: never write ю",
+              "explanation": "8-letter rule: слышу (after ш, write у not ю)."
+            },
+            {
+              "prompt": "Они form of дышать: они дыш__",
+              "promptEnglish": "After ш: я → а",
+              "options": [
+                "ят",
+                "ат"
+              ],
+              "answer": "ат",
+              "hint": "After ш: never write я",
+              "explanation": "8-letter rule: дышат (after ш, write а not я)."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort: which verb forms follow the 8-letter rule?",
+        "categories": [
+          "8-letter rule (у/а)",
+          "Regular ending (ю/я)"
+        ],
+        "items": [
+          {
+            "word": "лежу",
+            "category": "8-letter rule (у/а)"
+          },
+          {
+            "word": "люблю",
+            "category": "Regular ending (ю/я)"
+          },
+          {
+            "word": "кричат",
+            "category": "8-letter rule (у/а)"
+          },
+          {
+            "word": "говорят",
+            "category": "Regular ending (ю/я)"
+          },
+          {
+            "word": "учу",
+            "category": "8-letter rule (у/а)"
+          },
+          {
+            "word": "читаю",
+            "category": "Regular ending (ю/я)"
+          },
+          {
+            "word": "молчат",
+            "category": "8-letter rule (у/а)"
+          },
+          {
+            "word": "стоят",
+            "category": "Regular ending (ю/я)"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Я лежю на диване.",
+          "error": "лежю",
+          "correction": "лежу",
+          "explanation": "8-letter rule: after ж, write у not ю. Лежу.",
+          "options": [
+            "лежу",
+            "лежишь",
+            "лежат"
+          ]
+        },
+        {
+          "sentence": "Они кричят громко.",
+          "error": "кричят",
+          "correction": "кричат",
+          "explanation": "8-letter rule: after ч, write а not я. Кричат.",
+          "options": [
+            "кричат",
+            "кричит",
+            "кричу"
+          ]
+        },
+        {
+          "sentence": "Я учю русский язык.",
+          "error": "учю",
+          "correction": "учу",
+          "explanation": "8-letter rule: after ч, write у not ю. Учу.",
+          "options": [
+            "учу",
+            "учишь",
+            "учат"
+          ]
+        },
+        {
+          "sentence": "Они молчят.",
+          "error": "молчят",
+          "correction": "молчат",
+          "explanation": "8-letter rule: after ч, write а not я. Молчат.",
+          "options": [
+            "молчат",
+            "молчит",
+            "молчу"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-035-spelling-rules-set3",
+      "title": "The 5-Letter Rule (unstressed о → е)",
+      "titleRussian": "Правило пяти букв (безударное о → е)",
+      "description": "After ж, ч, ш, щ, ц: unstressed о becomes е",
+      "descriptionRussian": "После ж, ч, ш, щ, ц: безударное о заменяется на е",
+      "icon": "textformat.size",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Genitive of хороший: хорош__о",
+              "promptEnglish": "What is the genitive ending?",
+              "options": [
+                "ег",
+                "ог"
+              ],
+              "answer": "ег",
+              "hint": "After ш: unstressed о → е",
+              "explanation": "5-letter rule: хорошего (unstressed position, so е not о)."
+            },
+            {
+              "prompt": "Genitive of свежий: свеж__о",
+              "promptEnglish": "What is the genitive ending?",
+              "options": [
+                "ег",
+                "ог"
+              ],
+              "answer": "ег",
+              "hint": "After ж: unstressed о → е",
+              "explanation": "5-letter rule: свежего (the ending is unstressed, so е after ж, not о)."
+            },
+            {
+              "prompt": "Which rule explains why we write хорошего (not хорошого)?",
+              "promptEnglish": "Which rule explains why we write хорошего (not хорошого)?",
+              "options": [
+                "7-letter rule",
+                "8-letter rule",
+                "5-letter rule",
+                "No rule"
+              ],
+              "answer": "5-letter rule",
+              "hint": "The 5-letter rule governs unstressed о → е",
+              "explanation": "The 5-letter rule: after ж, ч, ш, щ, ц, unstressed о → е."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Instrumental of чужой: чуж__м (unstressed)",
+              "promptEnglish": "What ending: -ом or -ем?",
+              "options": [
+                "им",
+                "ем",
+                "ом",
+                "ым"
+              ],
+              "answer": "им",
+              "hint": "After ж in adjective instrumental",
+              "explanation": "Чужим: adjective instrumental after sibilant."
+            },
+            {
+              "prompt": "Why is it горячего (not горячого)?",
+              "promptEnglish": "Genitive of горячий (hot)",
+              "options": [
+                "7-letter rule",
+                "5-letter rule",
+                "8-letter rule",
+                "Irregular"
+              ],
+              "answer": "5-letter rule",
+              "hint": "After ч: unstressed о → е",
+              "explanation": "5-letter rule: after ч, unstressed о → е. Горячего."
+            },
+            {
+              "prompt": "Note: when stressed, о remains after sibilants. Compare: больш_й (stressed ending)",
+              "promptEnglish": "The stressed ending of большой",
+              "options": [
+                "ой",
+                "ей"
+              ],
+              "answer": "ой",
+              "hint": "When stressed, о stays even after sibilants",
+              "explanation": "When stressed, о is kept: большой (stress on ending). The 5-letter rule only applies when unstressed."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "Genitive: хорош__о (unstressed ending)",
+          "contextEnglish": "хороший in genitive",
+          "options": [
+            "ег",
+            "ог"
+          ],
+          "answer": "ег",
+          "explanation": "5-letter rule: unstressed о → е after ш. Хорошего."
+        },
+        {
+          "context": "Nominative: больш_й (stressed ending)",
+          "contextEnglish": "большой in nominative",
+          "options": [
+            "ой",
+            "ей"
+          ],
+          "answer": "ой",
+          "explanation": "Stressed о stays: большой. The 5-letter rule only affects unstressed endings."
+        },
+        {
+          "context": "Genitive: нов__о (no sibilant before ending)",
+          "contextEnglish": "новый in genitive",
+          "options": [
+            "ог",
+            "ег"
+          ],
+          "answer": "ог",
+          "explanation": "No spelling rule: в is not in the 5-letter set. Нового."
+        },
+        {
+          "context": "Genitive: горяч__о (unstressed ending)",
+          "contextEnglish": "горячий in genitive",
+          "options": [
+            "ег",
+            "ог"
+          ],
+          "answer": "ег",
+          "explanation": "5-letter rule: unstressed о → е after ч. Горячего."
+        }
+      ]
+    },
+    {
+      "id": "a2-035-spelling-rules-set4",
+      "title": "Spelling Rules in Real Words",
+      "titleRussian": "Правила орфографии в реальных словах",
+      "description": "Apply all three rules to nouns, adjectives, and verbs",
+      "descriptionRussian": "Применяйте все три правила к существительным, прилагательным и глаголам",
+      "icon": "doc.text",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Plural of ручка (pen): ручк_",
+              "promptEnglish": "What is the plural of ручка?",
+              "options": [
+                "и",
+                "ы"
+              ],
+              "answer": "и",
+              "hint": "After к: 7-letter rule",
+              "explanation": "7-letter rule: ручки (after к, write и)."
+            },
+            {
+              "prompt": "Я form of держать (to hold): я держ_",
+              "promptEnglish": "After ж: 8-letter rule",
+              "options": [
+                "ю",
+                "у"
+              ],
+              "answer": "у",
+              "hint": "After ж: ю → у",
+              "explanation": "8-letter rule: держу (after ж, write у not ю)."
+            },
+            {
+              "prompt": "Plural of маленький (small): маленьк__",
+              "promptEnglish": "What is the plural of маленький?",
+              "options": [
+                "ие",
+                "ые"
+              ],
+              "answer": "ие",
+              "hint": "After к: 7-letter rule",
+              "explanation": "7-letter rule: маленькие (after к, the ending is -ие)."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Они form of стучать (to knock): они стуч__",
+              "promptEnglish": "After ч: 8-letter rule",
+              "options": [
+                "ят",
+                "ат"
+              ],
+              "answer": "ат",
+              "hint": "After ч: я → а",
+              "explanation": "8-letter rule: стучат (after ч, write а not я)."
+            },
+            {
+              "prompt": "Plural of тарелка (plate): тарелк_",
+              "promptEnglish": "What is the plural of тарелка?",
+              "options": [
+                "ы",
+                "и"
+              ],
+              "answer": "и",
+              "hint": "After к: 7-letter rule",
+              "explanation": "7-letter rule: тарелки (after к, write и)."
+            },
+            {
+              "prompt": "Genitive of свежий (fresh): свеж__о",
+              "promptEnglish": "After ж: 5-letter rule",
+              "options": [
+                "ег",
+                "ог"
+              ],
+              "answer": "ег",
+              "hint": "After ж: unstressed о → е",
+              "explanation": "5-letter rule: свежего (after ж, unstressed о → е)."
+            }
+          ]
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Plural of дорога (road): дорог_ (7-letter rule)",
+          "Я form of дышать (to breathe): я дыш_ (8-letter rule)",
+          "Genitive of чужой (someone else's): чуж__о (5-letter rule)",
+          "Plural of высокий (tall): высок__ (7-letter rule)",
+          "Они form of держать: они держ__ (8-letter rule)"
+        ],
+        "choices": [
+          "и",
+          "у",
+          "ег",
+          "ие",
+          "ат",
+          "ы",
+          "ю",
+          "ог"
+        ],
+        "answers": [
+          "и",
+          "у",
+          "ег",
+          "ие",
+          "ат"
+        ],
+        "grammarFocus": "Applying all three spelling rules",
+        "hints": [
+          "After г: ы → и",
+          "After ш: ю → у",
+          "After ж: unstressed о → е",
+          "After к: -ые → -ие",
+          "After ж: я → а"
+        ],
+        "explanations": [
+          "Дороги: 7-letter rule, after г write и.",
+          "Дышу: 8-letter rule, after ш write у not ю.",
+          "Чужего: 5-letter rule, after ж unstressed о → е.",
+          "Высокие: 7-letter rule, after к write -ие not -ые.",
+          "Держат: 8-letter rule, after ж write а not я."
+        ],
+        "options": [
+          [
+            "и",
+            "ие",
+            "ег",
+            "у"
+          ],
+          [
+            "ю",
+            "ог",
+            "у",
+            "ат"
+          ],
+          [
+            "ю",
+            "ег",
+            "ы",
+            "ат"
+          ],
+          [
+            "ие",
+            "и",
+            "ог",
+            "ег"
+          ],
+          [
+            "атами",
+            "атах",
+            "ат",
+            "атам"
+          ]
+        ]
+      },
+      "translation": [
+        {
+          "russian": "Русские книги интересные.",
+          "english": "Russian books are interesting.",
+          "hint": "Русские: 7-letter rule after к (-ие not -ые)",
+          "explanation": "Русские: after к, the plural ending is -ие (7-letter rule).",
+          "keyWord": "Русские",
+          "options": [
+            "Русские",
+            "Русскые",
+            "Русский",
+            "Русских"
+          ]
+        },
+        {
+          "russian": "Я слышу музыку.",
+          "english": "I hear music.",
+          "hint": "Слышу: 8-letter rule after ш (у not ю)",
+          "explanation": "Слышу: after ш, write у not ю (8-letter rule).",
+          "keyWord": "слышу",
+          "options": [
+            "слышу",
+            "слышю",
+            "слышишь",
+            "слышат"
+          ]
+        },
+        {
+          "russian": "Дети молчат.",
+          "english": "The children are silent.",
+          "hint": "Молчат: 8-letter rule after ч (а not я)",
+          "explanation": "Молчат: after ч, write а not я (8-letter rule).",
+          "keyWord": "молчат",
+          "options": [
+            "молчат",
+            "молчят",
+            "молчит",
+            "молчу"
+          ]
+        },
+        {
+          "russian": "У хорошего друга всегда есть время.",
+          "english": "A good friend always has time.",
+          "hint": "Хорошего: 5-letter rule after ш (е not о when unstressed)",
+          "explanation": "Хорошего: after ш, unstressed о → е (5-letter rule).",
+          "keyWord": "хорошего",
+          "options": [
+            "хорошего",
+            "хорошого",
+            "хороший",
+            "хорошему"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-035-spelling-rules-set5",
+      "title": "Mixed Spelling Challenge",
+      "titleRussian": "Смешанные задания по орфографии",
+      "description": "Identify and apply all spelling rules",
+      "descriptionRussian": "Определите и примените все правила орфографии",
+      "icon": "star.fill",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "Which rule makes книгы wrong?",
+              "promptEnglish": "Which rule makes книгы wrong?",
+              "options": [
+                "5-letter rule",
+                "8-letter rule",
+                "7-letter rule",
+                "No rule is broken"
+              ],
+              "answer": "7-letter rule",
+              "hint": "After г: ы → и",
+              "explanation": "The 7-letter rule: after г, write и not ы. Correct: книги."
+            },
+            {
+              "prompt": "Which rule makes кричю wrong?",
+              "promptEnglish": "Which rule makes кричю wrong?",
+              "options": [
+                "7-letter rule",
+                "5-letter rule",
+                "8-letter rule",
+                "No rule is broken"
+              ],
+              "answer": "8-letter rule",
+              "hint": "After ч: ю → у",
+              "explanation": "The 8-letter rule: after ч, write у not ю. Correct: кричу."
+            },
+            {
+              "prompt": "Which rule makes хорошого wrong?",
+              "promptEnglish": "Which rule makes хорошого wrong?",
+              "options": [
+                "7-letter rule",
+                "8-letter rule",
+                "No rule is broken",
+                "5-letter rule"
+              ],
+              "answer": "5-letter rule",
+              "hint": "After ш: unstressed о → е",
+              "explanation": "The 5-letter rule: after ш, unstressed о → е. Correct: хорошего."
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "items": [
+            {
+              "prompt": "Plural of девочка: девочк_",
+              "promptEnglish": "What is the plural of девочка?",
+              "options": [
+                "и",
+                "ы"
+              ],
+              "answer": "и",
+              "hint": "After к: 7-letter rule",
+              "explanation": "7-letter rule: девочки (after к, write и)."
+            },
+            {
+              "prompt": "Я form of скучать: я скуч___",
+              "promptEnglish": "I miss / I'm bored",
+              "options": [
+                "аю",
+                "яю"
+              ],
+              "answer": "аю",
+              "hint": "After ч: я → а (but скучать is first conjugation: -аю)",
+              "explanation": "Скучаю: first conjugation -аю. The 8-letter rule also confirms а not я after ч."
+            },
+            {
+              "prompt": "Они form of лежать: они леж__",
+              "promptEnglish": "After ж: я → а",
+              "options": [
+                "ат",
+                "ят"
+              ],
+              "answer": "ат",
+              "hint": "After ж: 8-letter rule",
+              "explanation": "8-letter rule: лежат (after ж, write а not я)."
+            }
+          ]
+        }
+      ],
+      "categorySorting": {
+        "instruction": "Sort: which spelling rule applies to each word?",
+        "categories": [
+          "7-letter rule (ы → и)",
+          "8-letter rule (ю → у / я → а)",
+          "5-letter rule (о → е)"
+        ],
+        "items": [
+          {
+            "word": "руки (not рукы)",
+            "category": "7-letter rule (ы → и)"
+          },
+          {
+            "word": "лежу (not лежю)",
+            "category": "8-letter rule (ю → у / я → а)"
+          },
+          {
+            "word": "хорошего (not хорошого)",
+            "category": "5-letter rule (о → е)"
+          },
+          {
+            "word": "кошки (not кошкы)",
+            "category": "7-letter rule (ы → и)"
+          },
+          {
+            "word": "кричат (not кричят)",
+            "category": "8-letter rule (ю → у / я → а)"
+          },
+          {
+            "word": "большего (not большого)",
+            "category": "5-letter rule (о → е)"
+          }
+        ]
+      },
+      "errorCorrection": [
+        {
+          "sentence": "Маленькые дети играют.",
+          "error": "Маленькые",
+          "correction": "Маленькие",
+          "explanation": "7-letter rule: after к, write -ие not -ые. Маленькие.",
+          "options": [
+            "Маленькие",
+            "Маленький",
+            "Маленьких"
+          ]
+        },
+        {
+          "sentence": "Я слышю музыку.",
+          "error": "слышю",
+          "correction": "слышу",
+          "explanation": "8-letter rule: after ш, write у not ю. Слышу.",
+          "options": [
+            "слышу",
+            "слышишь",
+            "слышат"
+          ]
+        },
+        {
+          "sentence": "У хорошого друга.",
+          "error": "хорошого",
+          "correction": "хорошего",
+          "explanation": "5-letter rule: after ш, unstressed о → е. Хорошего.",
+          "options": [
+            "хорошего",
+            "хороший",
+            "хорошему"
+          ]
+        },
+        {
+          "sentence": "Они дышят свежим воздухом.",
+          "error": "дышят",
+          "correction": "дышат",
+          "explanation": "8-letter rule: after ш, write а not я. Дышат.",
+          "options": [
+            "дышат",
+            "дышит",
+            "дышу"
+          ]
+        }
+      ]
+    }
+  ]
+}

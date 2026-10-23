@@ -1,0 +1,486 @@
+{
+  "lessonId": "a1-019-adjective-basics",
+  "sets": [
+    {
+      "id": "round-1-quiz",
+      "title": "Quick Quiz",
+      "titleRussian": "Быстрая викторина",
+      "description": "Pick the right adjective ending for the noun",
+      "descriptionRussian": "Выберите правильное окончание прилагательного",
+      "icon": "questionmark.circle",
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ дом (big, masculine)",
+              "promptEnglish": "A big house",
+              "options": [
+                "большая",
+                "большое",
+                "большой",
+                "большие"
+              ],
+              "answer": "большой",
+              "hint": "Дом is masculine.",
+              "explanation": "Дом is masculine: большой дом (-ой for stressed hard-stem masculine)."
+            },
+            {
+              "prompt": "_____ комната (new, feminine)",
+              "promptEnglish": "A new room",
+              "options": [
+                "новый",
+                "новая",
+                "новое",
+                "новые"
+              ],
+              "answer": "новая",
+              "hint": "Комната is feminine.",
+              "explanation": "Комната is feminine: новая комната (-ая for hard-stem feminine)."
+            },
+            {
+              "prompt": "_____ письмо (interesting, neuter)",
+              "promptEnglish": "An interesting letter",
+              "options": [
+                "интересное",
+                "интересная",
+                "интересный",
+                "интересные"
+              ],
+              "answer": "интересное",
+              "hint": "Письмо is neuter.",
+              "explanation": "Письмо is neuter: интересное письмо (-ое for hard-stem neuter)."
+            },
+            {
+              "prompt": "_____ люди (good, plural)",
+              "promptEnglish": "Good people",
+              "options": [
+                "хороший",
+                "хорошая",
+                "хорошие",
+                "хорошее"
+              ],
+              "answer": "хорошие",
+              "hint": "Люди is plural.",
+              "explanation": "Люди is plural: хорошие люди (-ие for plural after ш)."
+            }
+          ]
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ книга (interesting)",
+          "contextEnglish": "An interesting book",
+          "options": [
+            "интересный",
+            "интересная"
+          ],
+          "answer": "интересная",
+          "explanation": "Книга is feminine: интересная книга (-ая)."
+        },
+        {
+          "context": "_____ фильм (interesting)",
+          "contextEnglish": "An interesting movie",
+          "options": [
+            "интересный",
+            "интересная"
+          ],
+          "answer": "интересный",
+          "explanation": "Фильм is masculine: интересный фильм (-ый)."
+        },
+        {
+          "context": "_____ море (blue, soft-stem)",
+          "contextEnglish": "A blue sea",
+          "options": [
+            "синее",
+            "синий"
+          ],
+          "answer": "синее",
+          "explanation": "Море is neuter. Soft-stem neuter ending is -ее: синее море."
+        },
+        {
+          "context": "_____ небо (blue, soft-stem)",
+          "contextEnglish": "A blue sky",
+          "options": [
+            "синий",
+            "синее"
+          ],
+          "answer": "синее",
+          "explanation": "Небо is neuter. Soft-stem neuter ending is -ее: синее небо."
+        }
+      ]
+    },
+    {
+      "id": "round-2-fill-sort",
+      "title": "Fill and Sort",
+      "titleRussian": "Заполни и рассортируй",
+      "description": "Fill in adjective endings and sort by type",
+      "descriptionRussian": "Вставьте окончания прилагательных и рассортируйте",
+      "icon": "tray.full",
+      "fillInBlank": {
+        "blanks": [
+          "Это _____ ресторан. (good, masculine)",
+          "У нас _____ квартира. (small, feminine)",
+          "Какое _____ утро! (beautiful, neuter)",
+          "Это _____ друзья. (old, plural)"
+        ],
+        "choices": [
+          "хороший",
+          "маленькая",
+          "красивое",
+          "старые"
+        ],
+        "answers": [
+          "хороший",
+          "маленькая",
+          "красивое",
+          "старые"
+        ],
+        "grammarFocus": "adjective endings by gender and number",
+        "hints": [
+          "Masculine: -ый/-ий/-ой.",
+          "Feminine: -ая/-яя.",
+          "Neuter: -ое/-ее.",
+          "Plural: -ые/-ие."
+        ],
+        "explanations": [
+          "Хороший ресторан (masculine: -ий after ш, spelling rule).",
+          "Маленькая квартира (feminine: -ая).",
+          "Красивое утро (neuter: -ое).",
+          "Старые друзья (plural: -ые)."
+        ],
+        "options": [
+          [
+            "хорошего",
+            "хорошим",
+            "хорошему",
+            "хороший"
+          ],
+          [
+            "маленького",
+            "маленькую",
+            "маленькая",
+            "маленькой"
+          ],
+          [
+            "красивому",
+            "красивое",
+            "красивым",
+            "красивого"
+          ],
+          [
+            "старого",
+            "старые",
+            "старыми",
+            "старых"
+          ]
+        ]
+      },
+      "categorySorting": {
+        "instruction": "Sort adjective forms by gender/number",
+        "categories": [
+          "Masculine (-ый/-ий/-ой)",
+          "Feminine (-ая/-яя)",
+          "Neuter (-ое/-ее)",
+          "Plural (-ые/-ие)"
+        ],
+        "items": [
+          {
+            "word": "новый",
+            "category": "Masculine (-ый/-ий/-ой)"
+          },
+          {
+            "word": "новая",
+            "category": "Feminine (-ая/-яя)"
+          },
+          {
+            "word": "новое",
+            "category": "Neuter (-ое/-ее)"
+          },
+          {
+            "word": "новые",
+            "category": "Plural (-ые/-ие)"
+          },
+          {
+            "word": "синий",
+            "category": "Masculine (-ый/-ий/-ой)"
+          },
+          {
+            "word": "синяя",
+            "category": "Feminine (-ая/-яя)"
+          },
+          {
+            "word": "синее",
+            "category": "Neuter (-ое/-ее)"
+          },
+          {
+            "word": "синие",
+            "category": "Plural (-ые/-ие)"
+          }
+        ]
+      },
+      "translation": [
+        {
+          "english": "This is a good book.",
+          "answer": "Это хорошая книга.",
+          "acceptableVariants": [],
+          "hint": "good (feminine) = хорошая",
+          "grammarFocus": "feminine adjective agreement",
+          "keyWord": "хорошая",
+          "options": [
+            "хорошая",
+            "хороший",
+            "хорошее",
+            "хорошие"
+          ]
+        },
+        {
+          "english": "He has a big dog.",
+          "answer": "У него большая собака.",
+          "acceptableVariants": [],
+          "hint": "big (feminine) = большая (собака is feminine)",
+          "grammarFocus": "adjective matches noun gender, not possessor",
+          "keyWord": "большая",
+          "options": [
+            "большая",
+            "большой",
+            "большое",
+            "большие"
+          ]
+        },
+        {
+          "english": "These are new words.",
+          "answer": "Это новые слова.",
+          "acceptableVariants": [],
+          "hint": "new (plural) = новые, words = слова",
+          "grammarFocus": "plural adjective agreement",
+          "keyWord": "новые",
+          "options": [
+            "новые",
+            "новый",
+            "новая",
+            "новое"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-4-errors",
+      "title": "Spot the Error",
+      "titleRussian": "Найди ошибку",
+      "description": "Fix adjective agreement mistakes",
+      "descriptionRussian": "Исправьте ошибки в согласовании прилагательных",
+      "icon": "exclamationmark.triangle",
+      "errorCorrection": [
+        {
+          "sentence": "Это красивый девушка.",
+          "error": "красивый",
+          "correction": "красивая",
+          "hint": "Девушка is feminine.",
+          "explanation": "Девушка is feminine: красивая девушка (-ая), not красивый (-ый).",
+          "options": [
+            "красивая",
+            "красивое",
+            "красивые"
+          ]
+        },
+        {
+          "sentence": "У меня новый машина.",
+          "error": "новый",
+          "correction": "новая",
+          "hint": "Машина is feminine.",
+          "explanation": "Машина is feminine: новая машина (-ая), not новый (-ый).",
+          "options": [
+            "новая",
+            "новое",
+            "новые"
+          ]
+        },
+        {
+          "sentence": "Это интересный кино.",
+          "error": "интересный",
+          "correction": "интересное",
+          "hint": "Кино is neuter (indeclinable).",
+          "explanation": "Кино is neuter: интересное кино (-ое), not интересный (-ый).",
+          "options": [
+            "интересное",
+            "интересная",
+            "интересные"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "index": 0,
+          "items": [
+            {
+              "prompt": "_____ ночь (dark, feminine, soft-stem)",
+              "promptEnglish": "A dark night",
+              "options": [
+                "тёмный",
+                "тёмная",
+                "тёмное",
+                "тёмные"
+              ],
+              "answer": "тёмная",
+              "hint": "Ночь is feminine.",
+              "explanation": "Ночь is feminine: тёмная ночь (-ая)."
+            },
+            {
+              "prompt": "_____ задание (difficult, neuter)",
+              "promptEnglish": "A difficult task",
+              "options": [
+                "трудная",
+                "трудные",
+                "трудное",
+                "трудный"
+              ],
+              "answer": "трудное",
+              "hint": "Задание is neuter.",
+              "explanation": "Задание is neuter: трудное задание (-ое)."
+            },
+            {
+              "prompt": "_____ дни (long, plural)",
+              "promptEnglish": "Long days",
+              "options": [
+                "длинный",
+                "длинные",
+                "длинная",
+                "длинное"
+              ],
+              "answer": "длинные",
+              "hint": "Дни is plural.",
+              "explanation": "Дни is plural: длинные дни (-ые)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "round-5-mixed",
+      "title": "Mixed Challenge",
+      "titleRussian": "Смешанное задание",
+      "description": "All adjective topics mixed together",
+      "descriptionRussian": "Все темы прилагательных в одном раунде",
+      "icon": "shuffle",
+      "patternRecognition": [
+        {
+          "sentence": "новый, старый, красивый, интересный",
+          "question": "What kind of adjective stems are these?",
+          "options": [
+            "Soft-stem",
+            "Hard-stem",
+            "Mixed",
+            "Irregular"
+          ],
+          "answer": "Hard-stem",
+          "explanation": "These are hard-stem adjectives: -ый (m), -ая (f), -ое (n), -ые (pl)."
+        },
+        {
+          "sentence": "синий, последний, домашний",
+          "question": "What kind of adjective stems are these?",
+          "options": [
+            "Hard-stem",
+            "Soft-stem",
+            "Irregular",
+            "Short-form"
+          ],
+          "answer": "Soft-stem",
+          "explanation": "These are soft-stem adjectives: -ий (m), -яя (f), -ее (n), -ие (pl)."
+        },
+        {
+          "sentence": "большой дом, большая книга, большое окно, большие дети",
+          "question": "What determines the adjective ending?",
+          "options": [
+            "The verb in the sentence",
+            "The gender and number of the noun",
+            "The position in the sentence",
+            "The meaning of the adjective"
+          ],
+          "answer": "The gender and number of the noun",
+          "explanation": "Adjective endings agree with the noun's gender (m/f/n) and number (sg/pl)."
+        }
+      ],
+      "minimalPairs": [
+        {
+          "context": "_____ работа (difficult, feminine)",
+          "contextEnglish": "Difficult work",
+          "options": [
+            "трудный",
+            "трудная"
+          ],
+          "answer": "трудная",
+          "explanation": "Работа is feminine: трудная работа (-ая)."
+        },
+        {
+          "context": "_____ вопрос (difficult, masculine)",
+          "contextEnglish": "A difficult question",
+          "options": [
+            "трудный",
+            "трудная"
+          ],
+          "answer": "трудный",
+          "explanation": "Вопрос is masculine: трудный вопрос (-ый)."
+        },
+        {
+          "context": "_____ птица (blue, soft-stem, feminine)",
+          "contextEnglish": "A blue bird",
+          "options": [
+            "синий",
+            "синяя"
+          ],
+          "answer": "синяя",
+          "explanation": "Птица is feminine. Soft-stem feminine ending is -яя: синяя птица."
+        }
+      ],
+      "fillInBlank": {
+        "blanks": [
+          "Это _____ город. (beautiful, masculine)",
+          "Какая _____ погода! (good, feminine)",
+          "У них _____ дети. (smart, plural)"
+        ],
+        "choices": [
+          "красивый",
+          "хорошая",
+          "умные"
+        ],
+        "answers": [
+          "красивый",
+          "хорошая",
+          "умные"
+        ],
+        "grammarFocus": "adjective endings in various contexts",
+        "hints": [
+          "Город is masculine: -ый.",
+          "Погода is feminine: -ая.",
+          "Дети is plural: -ые/-ие."
+        ],
+        "explanations": [
+          "Красивый город (masculine: -ый).",
+          "Хорошая погода (feminine: -ая).",
+          "Умные дети (plural: -ые)."
+        ],
+        "options": [
+          [
+            "красивым",
+            "красивому",
+            "красивого",
+            "красивый"
+          ],
+          [
+            "хорошего",
+            "хорошей",
+            "хорошая",
+            "хорошую"
+          ],
+          [
+            "умные",
+            "умными",
+            "умного",
+            "умных"
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mission-a2-025",
+  "title": "Car Wash",
+  "level": "A2",
+  "difficulty": "easy",
+  "description": "Get your car washed and choose washing options",
+  "imageName": "car.fill",
+  "initialPrompt": "Добрый день! Добро пожаловать на автомойку. Какую мойку хотите?",
+  "systemPrompt": "You work at a car wash. Options: снаружи 300₽, внутри 200₽, полная 450₽. Ask about wax (воск +100₽). Takes 20-30 minutes. Keep replies short.",
+  "completionCriteria": "User chose wash options and you confirmed the service.",
+  "responseLimit": 15,
+  "hints": [
+    "Помойте машину, пожалуйста (Wash my car, please)",
+    "Полная мойка (Full wash)",
+    "Сколько стоит? (How much does it cost?)",
+    "Сколько времени? (How long will it take?)"
+  ],
+  "targetVocabulary": [
+    {
+      "word": "мойка",
+      "definition": "car wash"
+    },
+    {
+      "word": "машина",
+      "definition": "car"
+    },
+    {
+      "word": "снаружи",
+      "definition": "outside"
+    },
+    {
+      "word": "внутри",
+      "definition": "inside"
+    },
+    {
+      "word": "воск",
+      "definition": "wax"
+    },
+    {
+      "word": "минут",
+      "definition": "minutes"
+    }
+  ],
+  "objectives": [
+    "Ask about wash options (мойка)",
+    "Choose inside, outside, or full wash",
+    "Ask about extras like wax (воск)",
+    "Confirm price and wait time"
+  ]
+}

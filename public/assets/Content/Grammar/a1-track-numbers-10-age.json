@@ -1,0 +1,376 @@
+{
+  "id": "a1-track-numbers-10-age",
+  "level": "A1",
+  "focusArea": "cases",
+  "title": "Numbers 10: How Old Are You? (год, года, лет)",
+  "titleRussian": "Числа 10: сколько тебе лет? (год, года, лет)",
+  "description": "All nine previous lessons brought to one daily question: how old are you? The word for 'year' has three forms - год, года, лет - and which one you use depends on the same rules you have been building. This is the synthesis lesson.",
+  "descriptionRussian": "Все девять прошлых уроков сходятся в одном повседневном вопросе: сколько тебе лет? У слова 'год' три формы — год, года, лет, и выбор зависит от тех же правил. Это итоговый урок.",
+  "imageName": "calendar.badge.clock",
+  "trackId": "a1-numbers-counting-mastery",
+  "trackTitle": "Numbers & Counting Mastery",
+  "trackTitleRussian": "Числа и счёт",
+  "trackIndex": 10,
+  "trackTotal": 10,
+  "intro": "Age is the most common thing you will be asked to say with a number, and it pulls the whole book together. The word for 'year' changes at exactly the borders you have been learning: one takes one form, two through four another, five and above a third. Only the last of those is a new word, and it is irregular.",
+  "rules": [
+    "The Russian age frame is: [person in the dative] + [number] + [year form]. Example: Маше двадцать пять лет.",
+    "Год (the dictionary form) is used after numbers whose last word is 1: один год, двадцать один год.",
+    "Года (gen sg) is used after numbers whose last word is 2, 3, or 4, not part of a teen: два года, двадцать четыре года.",
+    "Лет (irregular gen pl) is used after 5-20, teens (11-19), and round tens (20, 30, ... 100): пять лет, тринадцать лет, сорок лет.",
+    "Лет is the only new memorisation. It comes historically from лето ('summer'); native speakers treat it as a fixed counting form."
+  ],
+  "examples": [
+    "Маше один год. (Masha is one year old.) Last word 1: agreement → год.",
+    "Антону два года. (Anton is 2.) Last word 2: gen sg → года.",
+    "Лене три года. (Lena is 3.) Last word 3: gen sg → года.",
+    "Соне пять лет. (Sonya is 5.) 5+: gen pl → лет.",
+    "Маше тринадцать лет. (Masha is 13.) Teen: gen pl → лет.",
+    "Антону двадцать один год. (Anton is 21.) Last word 1: agreement → год."
+  ],
+  "tables": [
+    {
+      "title": "The Three Forms of 'Year' by Last Word",
+      "headers": [
+        "Last word",
+        "Year form",
+        "Example"
+      ],
+      "rows": [
+        {
+          "label": "1, 21, 31, 41 (not teen)",
+          "cells": [
+            "год",
+            "Маше двадцать один год"
+          ]
+        },
+        {
+          "label": "2, 3, 4 (not teen)",
+          "cells": [
+            "года",
+            "Антону два года; Лене четыре года"
+          ]
+        },
+        {
+          "label": "5-9, 0",
+          "cells": [
+            "лет",
+            "Маше пять лет; Соне десять лет"
+          ]
+        },
+        {
+          "label": "11-19 (teens)",
+          "cells": [
+            "лет",
+            "Антону тринадцать лет; Лене четырнадцать лет"
+          ]
+        },
+        {
+          "label": "round tens (20, 30, ... 100)",
+          "cells": [
+            "лет",
+            "Маше двадцать лет; Антону сто лет"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Common Ages",
+      "headers": [
+        "Age",
+        "Russian",
+        "Why this form"
+      ],
+      "rows": [
+        {
+          "label": "1",
+          "cells": [
+            "один год",
+            "last word 1 → год"
+          ]
+        },
+        {
+          "label": "3",
+          "cells": [
+            "три года",
+            "last word 3 → года"
+          ]
+        },
+        {
+          "label": "5",
+          "cells": [
+            "пять лет",
+            "5+ → лет"
+          ]
+        },
+        {
+          "label": "12",
+          "cells": [
+            "двенадцать лет",
+            "teen → лет"
+          ]
+        },
+        {
+          "label": "20",
+          "cells": [
+            "двадцать лет",
+            "round ten → лет"
+          ]
+        },
+        {
+          "label": "21",
+          "cells": [
+            "двадцать один год",
+            "last word 1 → год"
+          ]
+        },
+        {
+          "label": "30",
+          "cells": [
+            "тридцать лет",
+            "round ten → лет"
+          ]
+        },
+        {
+          "label": "100",
+          "cells": [
+            "сто лет",
+            "round ten → лет"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "items": [
+        {
+          "prompt": "У меня двадцать _____.",
+          "promptEnglish": "Recap from Lesson 9: I have twenty books.",
+          "options": [
+            "книга",
+            "книги",
+            "книгу",
+            "книг"
+          ],
+          "answer": "книг",
+          "hint": "Round ten → gen pl.",
+          "explanation": "Recap from Lesson 9. A round ten takes the genitive plural: книг. Today, the same family of rules picks the form of 'year'."
+        },
+        {
+          "prompt": "Лене три _____.",
+          "promptEnglish": "Lena is three years old.",
+          "options": [
+            "лет",
+            "год",
+            "годов",
+            "года"
+          ],
+          "answer": "года",
+          "hint": "Last word 3 → gen sg of year.",
+          "explanation": "After the number 3 the noun takes the genitive singular: года. The Russian frame is 'Лене (dative) + три + года'. Same machinery as 'три брата', applied to the word 'year'."
+        },
+        {
+          "prompt": "Соне пять _____.",
+          "promptEnglish": "Sonya is five years old.",
+          "options": [
+            "года",
+            "год",
+            "годов",
+            "лет"
+          ],
+          "answer": "лет",
+          "hint": "5+ → gen pl of year (irregular).",
+          "explanation": "After 'пять' the noun takes the genitive plural: лет. The form is irregular - it comes historically from 'лето' rather than from 'год'. In age contexts, лет is always the answer for 5+."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "items": [
+        {
+          "prompt": "Антону двадцать один _____.",
+          "promptEnglish": "Anton is twenty-one years old.",
+          "options": [
+            "года",
+            "лет",
+            "год",
+            "годов"
+          ],
+          "answer": "год",
+          "hint": "Last word is один - agreement rule.",
+          "explanation": "В составном числе 21 последнее слово — 'один'. Это правило согласования (Lesson 2): год остаётся в словарной форме. The English 'twenty-one years old' may feel plural, but Russian sticks to the singular agreement form год."
+        },
+        {
+          "prompt": "Маше тринадцать _____.",
+          "promptEnglish": "Masha is thirteen years old.",
+          "options": [
+            "лет",
+            "год",
+            "года",
+            "годов"
+          ],
+          "answer": "лет",
+          "hint": "Teen → gen pl of year.",
+          "explanation": "Тринадцать is a teen (11-19), and teens always take the gen pl, regardless of what the second digit looks like. Тринадцать лет, четырнадцать лет, пятнадцать лет: all лет."
+        },
+        {
+          "prompt": "Лене сто _____.",
+          "promptEnglish": "Lena is one hundred years old.",
+          "options": [
+            "года",
+            "лет",
+            "годов",
+            "год"
+          ],
+          "answer": "лет",
+          "hint": "Round ten / 100 → gen pl of year.",
+          "explanation": "Сто ведёт себя как круглый десяток. The gen pl лет is used after round tens just as it is after 5-20 and the teens. Сто лет is the standard phrase for 'a hundred years'; you will see it in idioms and birthday wishes."
+        }
+      ]
+    }
+  ],
+  "fillInBlank": {
+    "blanks": [
+      "Маше двенадцать _____. (Masha is twelve years old.)"
+    ],
+    "choices": [
+      "год",
+      "года",
+      "лет",
+      "годов"
+    ],
+    "answers": [
+      "лет"
+    ],
+    "grammarFocus": "12 is a teen; teens always take the gen pl form of year - лет. Despite the visible '2' in '12', the teens are one fused counting group with the 5+ rule."
+  },
+  "errorCorrection": [
+    {
+      "sentence": "Антону двадцать один лет.",
+      "translationEnglish": "Anton is twenty-one years old.",
+      "error": "лет",
+      "correction": "год",
+      "options": [
+        "год",
+        "года",
+        "годам"
+      ],
+      "explanation": "Compound numbers follow the rule of the LAST digit. Двадцать один ends in 'один' (1), and numbers ending in 1 (except 11) take год (nominative singular). Лет belongs to 5+ and the teens, so it cannot follow 21."
+    },
+    {
+      "sentence": "Маше три лет.",
+      "translationEnglish": "Masha is three years old.",
+      "error": "лет",
+      "correction": "года",
+      "options": [
+        "года",
+        "год",
+        "годом"
+      ],
+      "explanation": "Numbers ending in 2, 3, or 4 (except the teens 12-14) take года (gen sg). Три → года: 'Маше три года' ('Masha is 3'). Лет is for 5+ and the teens, so it does not fit три. The age construction also uses dative on the person (Маше, not Маша); that's a separate rule covered in the dative track."
+    },
+    {
+      "sentence": "Лене вчера исполнилось пять год.",
+      "translationEnglish": "Lena turned five years old yesterday.",
+      "error": "год",
+      "correction": "лет",
+      "options": [
+        "лет",
+        "года",
+        "годами"
+      ],
+      "explanation": "Numbers ending in 5 through 9, 0, AND the teens 11-14 all take лет (gen pl): 'Лене пять лет'. Год is the form for numbers ending in 1, so it cannot follow пять. The full pattern: 1-ending → год, 2/3/4-ending (not 12/13/14) → года, everything else → лет. The teens 11-14 break the apparent pattern and join the лет group; that's the most-missed corner of the rule."
+    }
+  ],
+  "minimalPairs": [
+    {
+      "context": "Маше двадцать один _____.",
+      "contextEnglish": "Masha is twenty-one.",
+      "options": [
+        "год",
+        "лет"
+      ],
+      "answer": "год",
+      "explanation": "Last word один → agreement → год. The teen reflex ('it ends in 1, so it must be...No wait, 21 is not a teen, so the last-word rule applies') is exactly the diagnostic this lesson trains."
+    },
+    {
+      "context": "Антону двенадцать _____.",
+      "contextEnglish": "Anton is twelve.",
+      "options": [
+        "года",
+        "лет"
+      ],
+      "answer": "лет",
+      "explanation": "12 is a teen; teens always take лет, regardless of the second digit. The form года would only fit non-teen numbers ending in 2, 3, or 4 (двадцать два года, тридцать четыре года)."
+    }
+  ],
+  "patternRecognition": [
+    {
+      "sentence": "Маше один год.",
+      "question": "Which rule applies?",
+      "options": [
+        "Agreement (один agrees with the noun)",
+        "Gen sg (2, 3, 4 rule)",
+        "Gen pl (5+, teens, round tens)",
+        "No rule - год is fixed"
+      ],
+      "answer": "Agreement (один agrees with the noun)",
+      "explanation": "После 'один' существительное стоит в словарной форме (правило согласования из Lesson 2). The noun год does not change. Same rule that produces один брат produces один год."
+    },
+    {
+      "sentence": "Антону три года.",
+      "question": "Which rule applies?",
+      "options": [
+        "Agreement (один agrees with the noun)",
+        "Gen sg (2, 3, 4 rule)",
+        "Gen pl (5+, teens, round tens)",
+        "Лет is always used"
+      ],
+      "answer": "Gen sg (2, 3, 4 rule)",
+      "explanation": "After 'три' the noun takes the genitive singular (the 2-3-4 rule from Lessons 4-6). Год → года. Same rule that produces три брата produces три года."
+    },
+    {
+      "sentence": "Лене пятнадцать лет.",
+      "question": "Which rule applies?",
+      "options": [
+        "Agreement (один agrees with the noun)",
+        "Gen sg (2, 3, 4 rule)",
+        "Gen pl (5+, teens, round tens)",
+        "No rule - лет is fixed"
+      ],
+      "answer": "Gen pl (5+, teens, round tens)",
+      "explanation": "Пятнадцать is a teen (11-19), and teens always take the gen pl (Lesson 8). Year → лет (irregular gen pl). Same family as пять лет, двадцать лет, сто лет."
+    },
+    {
+      "sentence": "Маше сто лет.",
+      "question": "Which rule applies?",
+      "options": [
+        "Agreement (один agrees with the noun)",
+        "Gen sg (2, 3, 4 rule)",
+        "Gen pl (5+, teens, round tens)",
+        "Special rule for 100 only"
+      ],
+      "answer": "Gen pl (5+, teens, round tens)",
+      "explanation": "Сто ведёт себя как круглый десяток (Lesson 9). Year → лет. The phrase 'сто лет' is also a common idiom: 'я тебя сто лет не видела' ('I have not seen you in ages')."
+    }
+  ],
+  "reviewVocab": [
+    {
+      "term": "возраст",
+      "definition": "age (framed in Russian as dative + number + year form)",
+      "example": "В вопросе 'Сколько Маше лет?' речь идёт о возрасте: дательный 'Маше' + вопросительное 'сколько' + форма 'лет'."
+    },
+    {
+      "term": "лет",
+      "definition": "irregular gen pl of год; used after 5-20, teens, and round tens; from лето ('summer')",
+      "example": "В предложении 'Маше двадцать пять лет' слово 'лет' — нерегулярная форма родительного падежа множественного числа от слова 'год'."
+    },
+    {
+      "term": "дательный субъекта",
+      "definition": "dative experiencer (the dative form of the person whose age is being given; introduced fully in the A2 Dative track)",
+      "example": "В выражении 'Антону тридцать лет' слово 'Антону' — дательный субъекта: тот, чей возраст называется."
+    }
+  ]
+}
